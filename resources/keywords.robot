@@ -7,6 +7,7 @@ Library    Process
 Resource   variables.robot
 Resource   ../PLG-02-read_docx.robot
 Resource   get_file_size.resource
+Resource   ../PLG-03-rename_docx.robot
 
 
 *** Keywords ***
@@ -39,24 +40,34 @@ Konfiguráció Betöltése
     ${input_part}=    Get From List    ${config_parts}    1
     ${output_part}=    Get From List    ${config_parts}    2
     ${subject_part}=    Get From List    ${config_parts}    3
-    ${prefix_part}=    Get From List    ${config_parts}    4
-    ${threshold_gyanus_part}=    Get From List    ${config_parts}    5
-    ${threshold_masolt_part}=    Get From List    ${config_parts}    6
-        
+    ${excel_prefix_part}=    Get From List    ${config_parts}    4
+    ${rename_prefix_part}=    Get From List    ${config_parts}    5
+    ${threshold_gyanus_part}=    Get From List    ${config_parts}    6
+    ${threshold_masolt_part}=    Get From List    ${config_parts}    7
+
         ${config_email}=    Remove String    ${email_part}    EMAIL:
         ${config_input}=    Remove String    ${input_part}    INPUT:
         ${config_output}=    Remove String    ${output_part}    OUTPUT:
         ${config_subject}=    Remove String    ${subject_part}    SUBJECT:
-        ${config_prefix}=    Remove String    ${prefix_part}    PREFIX:
+        ${config_excel_prefix}=    Remove String    ${excel_prefix_part}    EXCEL_PREFIX:
+        ${config_excel_prefix}=    Strip String    ${config_excel_prefix}
+        ${config_excel_prefix}=    Remove String    ${config_excel_prefix}    '
+        ${config_excel_prefix}=    Remove String    ${config_excel_prefix}    "
+        ${config_excel_prefix}=    Remove String    ${config_excel_prefix}    \n
+        ${config_rename_prefix}=    Remove String    ${rename_prefix_part}    RENAME_PREFIX:
+        ${config_rename_prefix}=    Strip String    ${config_rename_prefix}
+        ${config_rename_prefix}=    Remove String    ${config_rename_prefix}    '
+        ${config_rename_prefix}=    Remove String    ${config_rename_prefix}    "
+        ${config_rename_prefix}=    Remove String    ${config_rename_prefix}    \n
         ${config_threshold_gyanus}=    Remove String    ${threshold_gyanus_part}    THRESHOLD_GYANUS:
         ${config_threshold_masolt}=    Remove String    ${threshold_masolt_part}    THRESHOLD_MASOLT:
-        
         # Globalis valtozok beallitasa
         Set Global Variable    ${CONFIG_EMAIL}         ${config_email}
         Set Global Variable    ${CONFIG_INPUT_FOLDER}  ${config_input}
         Set Global Variable    ${CONFIG_OUTPUT_FOLDER}    ${config_output}
         Set Global Variable    ${CONFIG_EMAIL_SUBJECT}    ${config_subject}
-        Set Global Variable    ${CONFIG_EXCEL_PREFIX}     ${config_prefix}
+        Set Global Variable    ${CONFIG_EXCEL_PREFIX}     ${config_excel_prefix}
+        Set Global Variable    ${RENAME_PREFIX}          ${config_rename_prefix}
         Set Global Variable    ${CONFIG_THRESHOLD_GYANUS}    ${config_threshold_gyanus}
         Set Global Variable    ${CONFIG_THRESHOLD_MASOLT}    ${config_threshold_masolt}
         Set Global Variable    ${DOCUMENT_PATH}           ${config_input}
@@ -82,7 +93,7 @@ Konfiguráció Betöltése
         Log To Console    ${folder_in_icon} Bementi konyvtar: ${config_input}
         Log To Console    ${folder_out_icon} Kimeneti konyvtar: ${config_output}
         Log To Console    ${subject_icon} Email targy: ${config_subject}
-        Log To Console    Excel prefix: ${config_prefix}
+    Log To Console    Excel prefix: ${config_excel_prefix}
     ELSE
         ${warning_icon}=    Get Config Icon    warning
         Log To Console    ${warning_icon}  Hiba a konfiguracio betoltesekor, alapertelmezettek hasznalata
@@ -279,15 +290,20 @@ Batch DOCX ellenőrzés
     ${current_index}=    Set Variable    1
     FOR    ${docx_file}    IN    @{docx_files}
     Log To Console    \n>>> FELDOLGOZÁS: (${current_index}/${file_count}) ${docx_file}
-        ${current_index}=    Evaluate    ${current_index} + 1
-        # Beállítja az aktuális DOCX fájlt változóban
-        Set Global Variable    ${DOCX_FILE}    ${docx_file}
-        # DOCX beolvasás és hibastátusz lekérdezése
+    ${current_index}=    Evaluate    ${current_index} + 1
+    # Beállítja az aktuális DOCX fájlt változóban
+    #itt hívd meg az átnevezést
+    ${docx_file}=    Rename Docx With Prefix    ${docx_file}
+    Set Global Variable    ${DOCX_FILE}    ${docx_file}
+    # DOCX beolvasás és hibastátusz lekérdezése
     ${szoveg}=    Beolvasom A DOCX Fájlt
     ${is_error}=    Run Keyword And Return Status    Should Start With    ${szoveg}    [HIBA]
+   
     # Ha üres vagy None a szöveg, az is hiba
     ${is_empty}=    Run Keyword And Return Status    Should Be Empty    ${szoveg}
+   
     ${is_none}=    Run Keyword And Return Status    Should Be Equal    ${szoveg}    None
+   
     ${is_error}=    Evaluate    ${is_error} or ${is_empty} or ${is_none}
     Run Keyword If    ${is_error}    Log To Console    [DEBUG] szoveg: ${szoveg}
     Run Keyword If    ${is_error}    Log To Console    [DEBUG] is_error: ${is_error}

@@ -64,10 +64,10 @@ def read_docx(file_path):
             msg = f"[INFO] Üres szöveg: {file_path} | Képek száma: {image_count}"
             log_console(msg)
             return msg
-        if image_count > 0:
-            msg = f"[INFO] Szöveg + képek: {file_path} | Képek száma: {image_count}"
-            log_console(msg)
-        return result
+        #if image_count > 0:
+        #    msg = f"[INFO] Szöveg + képek: {file_path} | Képek száma: {image_count}"
+        #    log_console(msg)
+        #return result
     except Exception as e:
         #import traceback
         #tb = traceback.format_exc()

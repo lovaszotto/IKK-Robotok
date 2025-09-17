@@ -47,6 +47,7 @@ def load_simple_config():
         'output_folder': output_folder,
         'email_subject': config.get('email_subject', 'Duplikacio Ellenorzes - Eredmenyek'),
         'excel_prefix': config.get('excel_prefix', 'duplikacio_export'),
+        'rename_prefix': config.get('rename_prefix', ''),
         'status_threshold_gyanus': int(config.get('status_threshold_gyanus', '300')),
         'status_threshold_masolt': int(config.get('status_threshold_masolt', '1200'))
     }
@@ -54,7 +55,8 @@ def load_simple_config():
 def main():
     try:
         config = load_simple_config()
-        print(f"EMAIL:{config['email']}|INPUT:{config['input_folder']}|OUTPUT:{config['output_folder']}|SUBJECT:{config['email_subject']}|PREFIX:{config['excel_prefix']}|THRESHOLD_GYANUS:{config['status_threshold_gyanus']}|THRESHOLD_MASOLT:{config['status_threshold_masolt']}", end='')
+        # Mindkét prefixet visszaadjuk, de a rename_prefix csak a configból jöjjön
+        print(f"EMAIL:{config['email']}|INPUT:{config['input_folder']}|OUTPUT:{config['output_folder']}|SUBJECT:{config['email_subject']}|EXCEL_PREFIX:{config['excel_prefix']}|RENAME_PREFIX:{config['rename_prefix']}|THRESHOLD_GYANUS:{config['status_threshold_gyanus']}|THRESHOLD_MASOLT:{config['status_threshold_masolt']}", end='')
     except Exception as e:
         print(f"ERROR:{e}", end='')
 
