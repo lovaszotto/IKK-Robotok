@@ -24,10 +24,11 @@ DOCX Beolvasás Teszt
     #Log To Console     ${szoveg}
 
     IF    "[HIBA]" in $szoveg
+        Log To Console    HIBA BEJEGYZES ADATBÁZISBA ÍRÁSA...
         Execute Sql String    UPDATE redundancia SET status = 'Hibás', overview = '${szoveg}' WHERE id = ${REDUNDANCIA_ID}
         # Max értékek, status és overview mező update-je egyetlen SQL-ben, a végleges értékekkel
         Set Global Variable    ${max_duplikacio_szamlalo}    0
-    Set Global Variable    ${max_ismetelt_karakterszam}    0
+        Set Global Variable    ${max_ismetelt_karakterszam}    0
         Set Global Variable    ${overview_string}    ${EMPTY}
         Set Global Variable    ${aktualis_block_id}   0
         ${overview_string_trimmed}=    Strip String    ${overview_string}
@@ -36,8 +37,9 @@ DOCX Beolvasás Teszt
         ${overview_string_esc}=    Replace String    ${overview_string_esc}    \n    ${EMPTY}
         ${overview_string_esc}=    Replace String    ${overview_string_esc}    \r    ${EMPTY}
         ${overview_string_esc}=    Replace String    ${overview_string_esc}    \t    ${EMPTY}
-        Execute Sql String    UPDATE redundancia SET max_ismetlesek_szama = ${max_duplikacio_szamlalo}, max_ismetelt_karakterszam = ${max_ismetelt_karakterszam}, status = CASE WHEN ${max_ismetelt_karakterszam} < ${CONFIG_THRESHOLD_GYANUS} THEN 'Rendben' WHEN ${max_ismetelt_karakterszam} >= ${CONFIG_THRESHOLD_GYANUS} AND ${max_ismetelt_karakterszam} < ${CONFIG_THRESHOLD_MASOLT} THEN 'Gyanús' ELSE 'Másolt' END, overview = '${overview_string_esc}' WHERE id = ${REDUNDANCIA_ID}
-        Execute Sql String    UPDATE redundancia SET repeat_block_nbr = ${aktualis_block_id} WHERE id = ${REDUNDANCIA_ID}
+        
+        Execute Sql String    UPDATE redundancia SET repeat_block_nbr = ${aktualis_block_id}, max_ismetlesek_szama = ${max_duplikacio_szamlalo}, max_ismetelt_karakterszam = ${max_ismetelt_karakterszam}, status = CASE WHEN ${max_ismetelt_karakterszam} < ${CONFIG_THRESHOLD_GYANUS} THEN 'Rendben' WHEN ${max_ismetelt_karakterszam} >= ${CONFIG_THRESHOLD_GYANUS} AND ${max_ismetelt_karakterszam} < ${CONFIG_THRESHOLD_MASOLT} THEN 'Gyanús' ELSE 'Másolt' END, overview = '${overview_string_esc}' WHERE id = ${REDUNDANCIA_ID} and "status<>'Hibás'"
+        #Execute Sql String    UPDATE redundancia SET repeat_block_nbr = ${aktualis_block_id} WHERE id = ${REDUNDANCIA_ID}
         Return From Keyword
     END
 
@@ -47,7 +49,7 @@ DOCX Beolvasás Teszt
     ${ossz_str}=    Convert To String    ${ossz_sor}
     # Log To Console    Feldolgozandó sorok száma: ${ossz_str}
     # line_number mező frissítése a redundancia táblában
-    #Execute Sql String    UPDATE redundancia SET line_number = ${ossz_sor} WHERE id = ${REDUNDANCIA_ID}
+    Execute Sql String    UPDATE redundancia SET line_number = ${ossz_sor} WHERE id = ${REDUNDANCIA_ID}
     
     ${ismetelt_karakterszam}=    Set Variable    0
     ${in_group_ismetelt_karakterszam}=    Set Variable    0

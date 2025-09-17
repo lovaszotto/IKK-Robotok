@@ -1,0 +1,8 @@
+Megnéztem a feltöltött EM-1.6.3_feladatok.docx fájlt, és tényleg nem teljesen szabványos DOCX-nek tűnik.
+Ez abból látszik, hogy:
+
+A dokumentum erősen strukturált tananyagot tartalmaz, de több helyen speciális mezők (pl. Feladat – Kitöltős, Instrukciószöveg, Kapcsolódó médiaelem) és metaadatok szerepelnek benne.
+
+Ezek nem tipikus Word-szövegstílusok, hanem inkább tananyag-szerkesztő rendszerből exportált tartalom (pl. e-learning / Moodle / IKK tananyagfejlesztő rendszer).
+
+A DOCX ugyan olvasható, de nem feltétlenül felel meg a Microsoft Office által teljesen szabványosított OOXML szerkezetnek. Emiatt bizonyos programok (pl. python-docx, LibreOffice, régebbi Word) furán tudják kezelni.
