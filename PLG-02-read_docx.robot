@@ -214,6 +214,8 @@ DOCX Beolvasás Teszt
             ELSE
                 #folytatódik az ismétlési blokk
                  ${ismetelt_karakterszam}=    Evaluate    ${ismetelt_karakterszam} + ${sor_hossz}
+                 ${max_ismetelt_karakterszam}=    Evaluate    max(${ismetelt_karakterszam}, ${max_ismetelt_karakterszam})
+           
                  ${aktualis_duplikacio_szamlaló}=    Evaluate    ${aktualis_duplikacio_szamlaló} + 1
             END
              ${elozo_duplikalt}=    Set Variable    True
