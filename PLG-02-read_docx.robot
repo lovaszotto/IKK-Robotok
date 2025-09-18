@@ -7,23 +7,34 @@ Library     Collections
 
 *** Keywords ***
 DOCX Beolvasás Teszt
+    #Log To Console    [TRACE] DOCX Beolvasás Teszt elindult
     [Arguments]    ${file_path}    ${redundancia_id}
     # Redundancia ID beállítása globális változóként
     Set Global Variable    ${REDUNDANCIA_ID}    ${redundancia_id}
     Set Global Variable    ${DOCX_FILE}    ${file_path}
     [Documentation]    DOCX fájl feldolgozása hash-eléssel és plagiarízmus ellenőrzéssel.
     ...                10 karakternél rövidebb sorokat kihagyja a feldolgozásból.
-    ${szoveg}=    Beolvasom A DOCX Fájlt
+    #Log To Console    <<< BEOLVASÁS INDUL >>>
+    #${szoveg}=    Beolvasom A DOCX Fájlt
+    ${szoveg}=    Set Variable    ${SZOVEG}
+    ${overview_string}=    Set Variable    ${EMPTY}    # Progress karakterek gyűjtése            
+    ${current_status}=    Set Variable    Üres
+    
+    #Log To Console     ${szoveg}
+   
     # Ha tuple vagy lista, alakítsuk sztringgé
     # Egyszerű sztringgé alakítás tuple/list esetén
     # Robusztus sztringgé alakítás tuple vagy lista esetén
-    Run Keyword If    "${szoveg.__class__.__name__}" == "tuple" or "${szoveg.__class__.__name__}" == "list"    Set Variable    ${szoveg}    ${Catenate    SEPARATOR=\n    @{szoveg}}
+    Run Keyword If    ${szoveg.__class__.__name__} == "tuple" or ${szoveg.__class__.__name__} == "list"    Set Variable    ${szoveg}    ${Catenate    SEPARATOR=\n    @{szoveg}}
     # Most már biztosan sztring
     # Ha üres a szöveg vagy tartalmazza a [HIBA] szöveget, azonnal visszatérés
-    #otto was here
-    #Log To Console     ${szoveg}
-
-    IF    "[HIBA]" in $szoveg
+  
+    ${not_empty}=    Run Keyword And Return Status    Should Not Be Empty    ${szoveg}
+    ${contains_hiba}=    Run Keyword And Return Status    Should Contain    ${szoveg}    [HIBA]
+    #Log To Console    &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+    #Log To Console    ${szoveg}
+    #Log To Console    &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+    IF    ${not_empty} and ${contains_hiba}
         Log To Console    HIBA BEJEGYZES ADATBÁZISBA ÍRÁSA...
         Execute Sql String    UPDATE redundancia SET status = 'Hibás', overview = '${szoveg}' WHERE id = ${REDUNDANCIA_ID}
         # Max értékek, status és overview mező update-je egyetlen SQL-ben, a végleges értékekkel
@@ -31,23 +42,41 @@ DOCX Beolvasás Teszt
         Set Global Variable    ${max_ismetelt_karakterszam}    0
         Set Global Variable    ${overview_string}    ${EMPTY}
         Set Global Variable    ${aktualis_block_id}   0
-        ${overview_string_trimmed}=    Strip String    ${overview_string}
+
+        ${overview_string_trimmed}=    Strip String    ${szoveg}
         ${overview_string_esc}=    Replace String    ${overview_string_trimmed}    '    ''
         ${overview_string_esc}=    Replace String    ${overview_string_esc}    "    ""
         ${overview_string_esc}=    Replace String    ${overview_string_esc}    \n    ${EMPTY}
         ${overview_string_esc}=    Replace String    ${overview_string_esc}    \r    ${EMPTY}
         ${overview_string_esc}=    Replace String    ${overview_string_esc}    \t    ${EMPTY}
-        
         Execute Sql String    UPDATE redundancia SET repeat_block_nbr = ${aktualis_block_id}, max_ismetlesek_szama = ${max_duplikacio_szamlalo}, max_ismetelt_karakterszam = ${max_ismetelt_karakterszam}, status = CASE WHEN ${max_ismetelt_karakterszam} < ${CONFIG_THRESHOLD_GYANUS} THEN 'Rendben' WHEN ${max_ismetelt_karakterszam} >= ${CONFIG_THRESHOLD_GYANUS} AND ${max_ismetelt_karakterszam} < ${CONFIG_THRESHOLD_MASOLT} THEN 'Gyanús' ELSE 'Másolt' END, overview = '${overview_string_esc}' WHERE id = ${REDUNDANCIA_ID} and "status<>'Hibás'"
         #Execute Sql String    UPDATE redundancia SET repeat_block_nbr = ${aktualis_block_id} WHERE id = ${REDUNDANCIA_ID}
+        #Log To Console    [TRACE] DOCX Beolvasás Teszt kilépett
+        ${current_status}=    Set Variable    Hibás
+
         Return From Keyword
     END
+    #Log String To Console    &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+     # Mindig legyen definiálva ${ossz_sor}
+    ${ossz_sor}=    Set Variable    0
+    ${kisbetus}=    Set Variable    ''
+    ${not_empty}=    Run Keyword And Return Status    Should Not Be Empty    ${szoveg}
+    ${contains_hiba}=    Run Keyword And Return Status    Should Contain    ${szoveg}    [HIBA]
+    IF    ${not_empty} and ${contains_hiba}
+        Log To Console    '[HIBA] Szöveg tartalmazza a [HIBA] szót!'
+        Log To Console    '[HIBA] Üres vagy None szöveg, Split String kihagyva!'
+        # Itt lehet hibakezelést vagy visszatérést tenni
+    ELSE IF    ${not_empty}
+        ${kisbetus}=    Convert To Lowercase    ${szoveg}
+        @{sorok}=    Split String    ${kisbetus}    \n
+        ${ossz_sor}=    Get Length    ${sorok}
+        
+    END
+    #Log String To Console    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+   
 
-    ${kisbetus}=    Convert To Lowercase    ${szoveg}
-    @{sorok}=    Split String    ${kisbetus}    \n
-    ${ossz_sor}=    Get Length    ${sorok}
     ${ossz_str}=    Convert To String    ${ossz_sor}
-    # Log To Console    Feldolgozandó sorok száma: ${ossz_str}
+    Log To Console    Feldolgozandó sorok száma: ${ossz_str}
     # line_number mező frissítése a redundancia táblában
     Execute Sql String    UPDATE redundancia SET line_number = ${ossz_sor} WHERE id = ${REDUNDANCIA_ID}
     
@@ -69,9 +98,6 @@ DOCX Beolvasás Teszt
     ${aktualis_duplikacio_szamlaló}=    Set Variable    0
     ${max_duplikacio_szamlalo}=    Set Variable    0
         
-    ${overview_string}=    Set Variable    ${EMPTY}    # Progress karakterek gyűjtése
-            
-    ${current_status}=    Set Variable    Üres
     ${marker}=    Set Variable    .
   
     #
@@ -119,7 +145,13 @@ DOCX Beolvasás Teszt
         END
 
         ${sor_hossz}=    Get Length    ${sor}
-        ${tomoritett}=    Replace String Using Regexp    ${sor}    [^a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]    ${EMPTY}
+    ${tomoritett}=    Replace String Using Regexp    ${sor}    [^a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]    ${EMPTY}
+    # Escape all problematic characters before Evaluate (replace with empty string)
+    ${tomoritett_safe}=    Replace String    ${tomoritett}    '    ${EMPTY}
+    ${tomoritett_safe}=    Replace String    ${tomoritett_safe}    "    ${EMPTY}
+    ${tomoritett_safe}=    Replace String    ${tomoritett_safe}    \n    ${EMPTY}
+    ${tomoritett_safe}=    Replace String    ${tomoritett_safe}    \r    ${EMPTY}
+    ${tomoritett_safe}=    Replace String    ${tomoritett_safe}    \t    ${EMPTY}
         ${sor_index}=    Evaluate    ${sor_index} + 1
         #Log To Console    \n${sor_index}--> ${sor}}\n
         ${total_karakterszam}=    Evaluate    ${total_karakterszam} + ${sor_hossz}
@@ -133,12 +165,14 @@ DOCX Beolvasás Teszt
         END
         
         #MD5 érték számolása
-        ${md5}=    Evaluate    __import__('hashlib').md5(u'''${tomoritett}'''.encode('utf-8')).hexdigest()
+    ${md5}=    Evaluate    __import__('hashlib').md5(u'''${tomoritett_safe}'''.encode('utf-8')).hexdigest()
               
         # Ellenőrizzük, hogy létezik-e már ez a hash az adatbázisban
         @{results}=    Query    SELECT COUNT(*) FROM hashCodes WHERE hash_value = '${md5}'
         ${exists}=    Set Variable    0
-        ${exists}=    Set Variable If    len(${results}) > 0    ${results[0][0]}    0
+    ${row}=    Get From List    ${results}    0
+    ${row_value}=    Get From List    ${row}    0
+    ${exists}=    Set Variable If    len(${results}) > 0    ${row_value}    0
         #Log To Console    ===== ${exists} / ${results}=====
         IF    $exists > 0     #már létezik
             #Log To Console  ${exists} - ${sor_index} ${sor} -->>>LÉTEZŐ  HASH<<<
@@ -198,13 +232,13 @@ DOCX Beolvasás Teszt
                     ${marker}=    Set Variable    *
             END
             IF        ${ismetelt_karakterszam} >= ${CONFIG_THRESHOLD_MASOLT}
-                IF     '${current_status}' == 'Gyanús'
+                IF     '${current_status}' == 'Gyanús' or '${current_status}' == 'Üres'
                     ${current_status}=    Set Variable    Másolt
                 END
                 ${marker}=    Set Variable    !
             END 
             IF    ${ismetelt_karakterszam} >= ${CONFIG_THRESHOLD_GYANUS} and ${ismetelt_karakterszam} < ${CONFIG_THRESHOLD_MASOLT}
-                   IF     '${current_status}' == 'Rendben'
+                   IF     '${current_status}' == 'Rendben' or '${current_status}' == 'Üres'
                         ${current_status}=    Set Variable    Gyanús
                     END
                 ${marker}=    Set Variable    ?
@@ -266,5 +300,6 @@ DOCX Beolvasás Teszt
     Log To Console    [>>> ${current_status} <<<]\n
     Execute Sql String    UPDATE redundancia SET repeat_block_nbr = ${aktualis_block_id}, max_ismetlesek_szama = ${max_duplikacio_szamlalo}, max_ismetelt_karakterszam = ${max_ismetelt_karakterszam}, repeated_percent = ${repeated_percent}, status = '${current_status}', overview = '${overview_string_esc}' WHERE id = ${REDUNDANCIA_ID}
 
-    Execute Sql String    UPDATE redundancia SET repeat_block_nbr = ${aktualis_block_id} ,max_ismetlesek_szama = ${max_duplikacio_szamlalo}, max_ismetelt_karakterszam = ${max_total_ismetelt_karakterszam}, status = '${current_status}', overview = '${overview_string_esc}' WHERE id = ${REDUNDANCIA_ID}
-    
+    #Execute Sql String    UPDATE redundancia SET repeat_block_nbr = ${aktualis_block_id} ,max_ismetlesek_szama = ${max_duplikacio_szamlalo}, max_ismetelt_karakterszam = ${max_total_ismetelt_karakterszam}, status = '${current_status}', overview = '${overview_string_esc}' WHERE id = ${REDUNDANCIA_ID}
+
+    #Log To Console    [TRACE] DOCX Beolvasás Teszt kilépett

@@ -39,20 +39,24 @@ class DuplikacioConfig:
                 lines = f.readlines()
             
             for line_num, line in enumerate(lines, 1):
-                line = line.strip()
-                
-                # Uregek es kommentek kihagyasa
+                if line is None:
+                    print(f"{self.get_icon('warning')}  NoneType sor a konfiguracios fajlban ({line_num})")
+                    continue
+                line = str(line).strip()
+                # Üregek és kommentek kihagyása
                 if not line or line.startswith('#'):
                     continue
-                
-                # Kulcs=ertek parok feldolgozasa
+                # Kulcs=érték párok feldolgozása
                 if '=' in line:
-                    key, value = line.split('=', 1)
-                    key = key.strip()
-                    value = value.strip()
-                    self.config[key] = value
+                    try:
+                        key, value = line.split('=', 1)
+                        key = key.strip()
+                        value = value.strip()
+                        self.config[key] = value
+                    except Exception as e:
+                        print(f"{self.get_icon('warning')}  Hibás sor a konfigurációs fájlban ({line_num}): {line} ({e})")
                 else:
-                    print(f"{self.get_icon('warning')}  Hibas sor a konfiguracios fajlban ({line_num}): {line}")
+                    print(f"{self.get_icon('warning')}  Hibás sor a konfigurációs fájlban ({line_num}): {line}")
             
             if not _config_loaded_msg_shown and not silent_mode:
                 print(f"Konfiguracio sikeresen betoltve: {self.config_file}")

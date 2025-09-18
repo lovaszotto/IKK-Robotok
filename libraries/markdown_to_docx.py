@@ -99,6 +99,9 @@ def convert_markdown_to_docx(md_file_path, output_dir):
     doc.add_paragraph()
     
     # Markdown tartalom feldolgozása soronként
+    if content is None:
+        print('[HIBA] A markdown tartalom None, nem lehet feldolgozni.')
+        return
     lines = content.split('\n')
     i = 0
     in_code_block = False
@@ -211,6 +214,9 @@ def create_table_from_markdown(doc, table_lines):
         return
     
     # Fejléc sor feldolgozása
+    if table_lines[0] is None:
+        print('[HIBA] A táblázat fejléc sora None, nem lehet split-elni.')
+        return
     header_row = [cell.strip() for cell in table_lines[0].split('|')[1:-1]]
     
     # Elválasztó sor kihagyása (table_lines[1])
@@ -218,6 +224,9 @@ def create_table_from_markdown(doc, table_lines):
     # Adat sorok feldolgozása
     data_rows = []
     for line in table_lines[2:]:
+        if line is None:
+            print('[HIBA] Táblázat sor None, nem lehet split-elni.')
+            continue
         if line.strip():
             row = [cell.strip() for cell in line.split('|')[1:-1]]
             data_rows.append(row)

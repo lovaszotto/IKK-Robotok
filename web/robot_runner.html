@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Robot Runner</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; text-align: center; margin-top: 80px; }
+    .container { background: #fff; padding: 40px 30px 30px 30px; border-radius: 12px; box-shadow: 0 2px 12px #aaa; display: inline-block; min-width: 700px; max-width: 1200px; }
+        button { font-size: 1.2em; padding: 12px 36px; margin: 18px 20px; border: none; border-radius: 6px; cursor: pointer; transition: background 0.2s; }
+        #runBtn { background: #4CAF50; color: #fff; }
+        #runBtn:hover { background: #388E3C; }
+        #exitBtn { background: #e53935; color: #fff; }
+        #exitBtn:hover { background: #b71c1c; }
+        #output { margin-top: 30px; font-size: 1.1em; color: #333; min-height: 40px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Robot Runner</h2>
+        <button id="runBtn">Duplikáció ellenőrző robot futtatása</button>
+        <button id="exitBtn">Kilépés</button>
+    <textarea id="output" readonly style="width: 100%; min-width: 650px; max-width: 1150px; min-height: 180px; margin-top: 30px; font-size: 1.1em; color: #333; padding: 10px; border-radius: 6px; border: 1px solid #bbb; resize: vertical;"></textarea>
+    </div>
+    <script>
+        document.getElementById('runBtn').onclick = async function() {
+            const output = document.getElementById('output');
+            output.value = 'Robot futtatása...';
+            try {
+                const res = await fetch('/run-robot', { method: 'POST' });
+                const text = await res.text();
+                output.value = text;
+            } catch (e) {
+                output.value = 'Hiba a robot futtatásakor!';
+            }
+        };
+        document.getElementById('exitBtn').onclick = function() {
+            window.close();
+        };
+    </script>
+</body>
+</html>
