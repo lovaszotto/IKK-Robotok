@@ -143,6 +143,17 @@ DOCX Beolvasás Teszt
             #Log To Console   Skipped ( ${sor} )     no_newline=True
             CONTINUE
         END
+        #Tartalomjegyzék és ábrajegyzék átlépése
+        # Ha a sor számmal kezdődik és számmal végződik, ugorjuk át
+        ${starts_with_digit}=    Run Keyword And Return Status    Should Match Regexp    ${sor}    ^\[0-9].*\[0-9]$    flags=MULTILINE
+        #${ends_with_digit}=    Run Keyword And Return Status    Should Match Regexp    ${sor}    .*\d$    flags=MULTILINE
+        IF    ${starts_with_digit}         #and ${ends_with_digit}
+            #Log To Console    Tartalom:${sor}
+            CONTINUE
+        #ELSE
+        #    Log To Console    -:${sor}
+        END
+
 
         ${sor_hossz}=    Get Length    ${sor}
     ${tomoritett}=    Replace String Using Regexp    ${sor}    [^a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]    ${EMPTY}
