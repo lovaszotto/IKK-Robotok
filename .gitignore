@@ -1,0 +1,6 @@
+# Robot Framework output files
+output.xml
+log.html
+report.html
+STDERR
+STDOUT
