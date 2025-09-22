@@ -169,6 +169,36 @@ Hash táblák ellenőrzése
     Execute Sql String    CREATE INDEX IF NOT EXISTS idx_repeat_redundancia_id ON repeat(redundancia_id)
     Execute Sql String    CREATE INDEX IF NOT EXISTS idx_repeat_block_id ON repeat(block_id)
     Execute Sql String    CREATE INDEX IF NOT EXISTS idx_repeat_id ON repeat(id)
+    
+    # skipHashCodes tábla létrehozása ha nem létezik - az átugrandó sorok hash értékeinek tárolására
+    Log To Console    CREATE TABLE IF NOT EXISTS skipHashCodes
+    Execute Sql String    CREATE TABLE IF NOT EXISTS skipHashCodes (hashValue TEXT PRIMARY KEY, line_content TEXT)
+    
+    # DuplikacioSkip.config fájl beolvasása és skipHashCodes táblába töltése
+    ${skip_config_file}=    Set Variable    DuplikacioSkip.config
+    ${skip_file_exists}=    Run Keyword And Return Status    File Should Exist    ${skip_config_file}
+    IF    ${skip_file_exists}
+        Log To Console    DuplikacioSkip.config betöltése...
+        ${skip_content}=    Get File    ${skip_config_file}
+        @{skip_lines}=    Split To Lines    ${skip_content}
+        FOR    ${skip_line}    IN    @{skip_lines}
+            ${skip_line_trimmed}=    Strip String    ${skip_line}
+            # Üres sorok kihagyása
+            IF    '${skip_line_trimmed}' != ''
+                # MD5 hash készítése a sorból
+                ${skip_md5}=    Evaluate    hashlib.md5('${skip_line_trimmed}'.encode('utf-8')).hexdigest()    modules=hashlib
+                # Escapelt sor készítése SQL-hez
+                ${skip_line_esc}=    Replace String    ${skip_line_trimmed}    '    ''
+                # Beszúrás skipHashCodes táblába (INSERT OR IGNORE hogy ne okozzon hibát már létező hash esetén)
+                Run Keyword And Ignore Error    Execute Sql String    INSERT OR IGNORE INTO skipHashCodes (hashValue, line_content) VALUES ('${skip_md5}', '${skip_line_esc}')
+            END
+        END
+        ${skip_count}=    Get Length    ${skip_lines}
+        Log To Console    DuplikacioSkip.config betöltve: ${skip_count} sor feldolgozva
+    ELSE
+        Log To Console    DuplikacioSkip.config fájl nem található, skip táblát üresen hagyva
+    END
+    
     # A táblák és oszlopok meglétét nem ellenőrizzük, ha hiányzik valamelyik, a folyamat hibára fut.
     
     # Új felhasználó hozzáadása

@@ -16,6 +16,8 @@
 - 🗄️ **SQLite adatbázis** teljes előzmény nyilvántartással
 - 🎯 **Háromszintű kategorizálás**: Rendben / Gyanús / Másolt
 - 🔄 **Batch feldolgozás** több dokumentum egyidejű kezelésére
+- ⏭️ **Intelligens skip funkció** konfigurálható szövegszűréssel
+- 🚫 **Duplikált tartalom kizárása** skipHashCodes táblával
 
 ## 🚀 Gyors indítás
 
@@ -30,10 +32,17 @@ rf_env\Scripts\activate
 
 ### 2️⃣ Konfiguráció
 ```ini
-# Plagium.config szerkesztése
+# Duplikacio.config szerkesztése
 email=your-email@company.com
 input_folder=C:\Documents\ToCheck
 output_folder=C:\Reports
+```
+
+```ini
+# DuplikacioSkip.config - átugrandó szövegek
+igaz vagy hamis a következő állítás?
+válaszd ki a helyes megoldásokat!
+válaszd ki a helyes választ!
 ```
 
 ### 3️⃣ Futtatás
@@ -72,7 +81,8 @@ Talált DOCX fájlok száma: 6
 ```
 📁 PlagiumEllenorzes/
 ├── 🤖 PLG-00-main.robot          # Fő Robot Framework teszt
-├── ⚙️ Plagium.config             # Konfigurációs fájl
+├── ⚙️ Duplikacio.config          # Fő konfigurációs fájl
+├── 🚫 DuplikacioSkip.config      # Skip szabályok konfigurációja
 ├── 📚 libraries/                 # Python modulok
 │   ├── 🐍 DocxReader.py          # DOCX olvasó library
 │   ├── 📧 send_email.py          # Email küldő rendszer
@@ -89,9 +99,16 @@ Talált DOCX fájlok száma: 6
 
 ### Hash-alapú összehasonlítás
 1. **📄 DOCX beolvasás**: Szöveges tartalom kinyerése
-2. **🔐 SHA-256 hash**: Minden sorhoz egyedi hash generálás
-3. **🔍 Összehasonlítás**: Hash értékek összevetése adatbázisban
-4. **📊 Kategorizálás**: Redundancia hossz alapján értékelés
+2. **� Skip ellenőrzés**: DuplikacioSkip.config alapján szűrés
+3. **🔐 MD5 hash**: Minden sorhoz egyedi hash generálás
+4. **🔍 Összehasonlítás**: Hash értékek összevetése adatbázisban
+5. **📊 Kategorizálás**: Redundancia hossz alapján értékelés
+
+### Skip funkcionalitás
+- **🚫 DuplikacioSkip.config**: Automatikusan kihagyandó szövegek
+- **📝 Hash alapú**: MD5 hash generálás minden skip szabályhoz
+- **🔄 Startup betöltés**: skipHashCodes tábla automatikus feltöltése
+- **⚡ Gyors szűrés**: Hash összehasonlítás alapján azonnali kihagyás
 
 ### Kategorizálási szabályok
 - 🟢 **Rendben**: < 300 karakter redundancia
@@ -121,9 +138,13 @@ mail.Send()  # 🚀 AUTOMATIKUS KÜLDÉS
 - `record_date`: Feldolgozás dátuma
 
 ### 🔑 HashCodes tábla  
-- `hash_value`: SHA-256 hash (PRIMARY KEY)
+- `hash_value`: MD5 hash (PRIMARY KEY)
 - `file_name`, `file_path`: Fájl információk
 - `line_content`: Eredeti szöveg tartalom
+
+### 🚫 SkipHashCodes tábla
+- `hashValue`: MD5 hash kihagyandó szövegekhez (PRIMARY KEY)
+- `line_content`: Átugrandó szöveg tartalom
 
 ### 🔄 Repeat tábla
 - `repeated_line`: Ismétlődő szövegrészek
@@ -132,14 +153,29 @@ mail.Send()  # 🚀 AUTOMATIKUS KÜLDÉS
 
 ## ⚙️ Konfiguráció
 
-### Plagium.config beállítások
+### Duplikacio.config beállítások
 | Paraméter | Leírás | Példa |
 |-----------|--------|-------|
 | `email` | Címzett email | `manager@company.hu` |
 | `input_folder` | DOCX forrás könyvtár | `C:\Documents\Check` |
 | `output_folder` | Excel cél könyvtár | `C:\Reports\Output` |
-| `email_subject` | Email tárgy sablon | `Plágium Jelentés` |
-| `excel_prefix` | Excel fájl prefix | `plagium_report` |
+| `email_subject` | Email tárgy sablon | `Duplikacio Ellenorzes - Eredmenyek` |
+| `excel_prefix` | Excel fájl prefix | `duplikacio_eredmenyek` |
+
+### DuplikacioSkip.config beállítások
+Ez a fájl tartalmazza azokat a szövegeket, amelyeket a rendszer automatikusan kihagynak a plágium ellenőrzés során:
+
+```
+igaz vagy hamis a következő állítás?
+válaszd ki a helyes megoldásokat!
+válaszd ki a helyes választ!
+```
+
+**Működés**: 
+- Minden startup-kor automatikusan betöltődik
+- MD5 hash generálás minden sorhoz
+- skipHashCodes táblába mentés
+- Feldolgozás során automatikus szűrés
 
 ## 🛠️ Rendszerkövetelmények
 
@@ -189,7 +225,8 @@ pip install -r requirements.txt
 
 ### 4️⃣ Konfiguráció
 ```powershell
-notepad Plagium.config  # Email és könyvtárak beállítása
+notepad Duplikacio.config       # Email és könyvtárak beállítása
+notepad DuplikacioSkip.config   # Skip szabályok konfigurálása
 ```
 
 ## 🧪 Tesztelés
@@ -249,8 +286,49 @@ taskkill /F /IM python.exe
 
 ### Debug mód
 ```ini
-# Plagium.config
+# Duplikacio.config
 debug_mode=true
+```
+
+### Skip szabályok tesztelése
+```powershell
+# DuplikacioSkip.config módosítása után
+rf_env\Scripts\robot.exe PLG-00-main.robot
+
+# Skip logok ellenőrzése a konzol kimenetben:
+# "Skip hash:igaz vagy hamis a következő állítás?"
+```
+
+## 🚫 Skip funkcionalitás részletesen
+
+### Mi a skip funkcionalitás?
+A skip funkcionalitás lehetővé teszi, hogy bizonyos gyakran ismétlődő szövegeket automatikusan kihagyjon a plágium ellenőrzés során. Ez különösen hasznos oktatási anyagokban, ahol standard kérdésformák (pl. "igaz vagy hamis", "válaszd ki a helyes választ") gyakran ismétlődnek.
+
+### Hogyan működik?
+1. **Startup**: A rendszer beolvassa a `DuplikacioSkip.config` fájlt
+2. **Hash generálás**: Minden sorhoz MD5 hash készül
+3. **Adatbázis feltöltés**: Hash-ek bekerülnek a `skipHashCodes` táblába
+4. **Feldolgozás**: Minden dokumentum sor hash-e összevetésre kerül a skip listával
+5. **Szűrés**: Egyező hash esetén a sor kihagyásra kerül
+
+### Használati példák
+```
+# DuplikacioSkip.config példa tartalom:
+igaz vagy hamis a következő állítás?
+válaszd ki a helyes megoldásokat!
+válaszd ki a helyes választ!
+jelöld meg a megfelelő választ!
+írd be a hiányzó szót!
+```
+
+### Konzol kimenet példa
+```
+DuplikacioSkip.config betöltése...
+DuplikacioSkip.config betöltve: 5 sor feldolgozva
+
+...feldolgozás közben...
+Skip hash:igaz vagy hamis a következő állítás?
+Skip hash:válaszd ki a helyes választ!
 ```
 
 ## 📖 Dokumentáció
@@ -276,6 +354,13 @@ debug_mode=true
 - **Tesztelés**: Minden új funkcióhoz unit teszt
 
 ## 🏷️ Changelog
+
+### v2.2.0 (2025-09-22)
+- ✅ **ÚJ**: DuplikacioSkip.config támogatás hozzáadva
+- ✅ **ÚJ**: skipHashCodes adatbázis tábla automatikus létrehozása
+- ✅ **ÚJ**: MD5 hash alapú intelligens szövegszűrés
+- ✅ **JAVÍTÁS**: Startup-kor automatikus skip szabályok betöltése
+- ✅ **FEJLESZTÉS**: Hash táblák ellenőrzése keyword kibővítése
 
 ### v2.1.0 (2025-08-25)
 - ✅ **ÚJ**: Háromszintű email küldési rendszer
@@ -309,5 +394,5 @@ Ez a projekt [MIT](LICENSE) licenc alatt áll. Lásd a `LICENSE` fájlt a részl
 
 **⭐ Ha hasznos volt a projekt, adj egy csillagot a GitHub-on!**
 
-*🤖 Robot Framework Plágium Ellenőrző v2.1.0*  
-*📅 Utolsó frissítés: 2025. augusztus 25.*
+*🤖 Robot Framework Duplikáció Ellenőrző v2.2.0*  
+*📅 Utolsó frissítés: 2025. szeptember 22.*

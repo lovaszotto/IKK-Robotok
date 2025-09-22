@@ -144,25 +144,59 @@ DOCX Beolvasás Teszt
             CONTINUE
         END
         #Tartalomjegyzék és ábrajegyzék átlépése
+         #Log To Console    :${sor}
         # Ha a sor számmal kezdődik és számmal végződik, ugorjuk át
         ${starts_with_digit}=    Run Keyword And Return Status    Should Match Regexp    ${sor}    ^\[0-9].*\[0-9]$    flags=MULTILINE
-        #${ends_with_digit}=    Run Keyword And Return Status    Should Match Regexp    ${sor}    .*\d$    flags=MULTILINE
         IF    ${starts_with_digit}         #and ${ends_with_digit}
-            #Log To Console    Tartalom:${sor}
+            Log To Console    Skipp:${sor}
             CONTINUE
-        #ELSE
-        #    Log To Console    -:${sor}
+        END
+        #Ha táblázattal kezdődik, ugorjuk át
+        ${starts_with_tablazat}=    Run Keyword And Return Status    Should Match Regexp    ${sor}    ^\s*táblázat.*\[0-9]$    flags=MULTILINE
+        IF    ${starts_with_tablazat}         #and ${ends_with_digit}
+            Log To Console    Táblázat:${sor}
+            CONTINUE
+        END
+        #Ha Ábrával kezdődik, ugorjuk át    
+        ${starts_with_abra}=    Run Keyword And Return Status    Should Match Regexp    ${sor}    ^\s*ábra.*\[0-9]$    flags=MULTILINE
+        IF    ${starts_with_abra}         #and ${ends_with_digit}
+            Log To Console    Ábra:${sor}
+            CONTINUE
+        END
+        #Ellenőrizzük, hogy a sor szerepel-e a skipHashCode listában
+           #MD5 érték számolása
+        ${skipmd5}=    Evaluate    __import__('hashlib').md5(u'''${sor}'''.encode('utf-8')).hexdigest()
+       # Ellenőrizzük, hogy létezik-e már ez a hash az adatbázisban
+        @{skipresults}=    Query    SELECT COUNT(*) FROM skipHashCodes WHERE hashValue = '${skipmd5}'
+        ${skipexists}=    Set Variable    0
+        ${skiprow}=    Get From List    ${skipresults}    0
+        ${skiprow_value}=    Get From List    ${skiprow}    0
+        ${skipexists}=    Set Variable If    len(${skipresults}) > 0    ${skiprow_value}    0
+        #Log To Console    ===== ${exists} / ${results}=====
+        IF    $skipexists > 0     #már létezik
+            Log To Console    Skip hash:${sor}
+            CONTINUE
         END
 
-
         ${sor_hossz}=    Get Length    ${sor}
-    ${tomoritett}=    Replace String Using Regexp    ${sor}    [^a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]    ${EMPTY}
-    # Escape all problematic characters before Evaluate (replace with empty string)
-    ${tomoritett_safe}=    Replace String    ${tomoritett}    '    ${EMPTY}
-    ${tomoritett_safe}=    Replace String    ${tomoritett_safe}    "    ${EMPTY}
-    ${tomoritett_safe}=    Replace String    ${tomoritett_safe}    \n    ${EMPTY}
-    ${tomoritett_safe}=    Replace String    ${tomoritett_safe}    \r    ${EMPTY}
-    ${tomoritett_safe}=    Replace String    ${tomoritett_safe}    \t    ${EMPTY}
+        #${tomoritett}=    Replace String Using Regexp    ${sor}    [^a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]    ${EMPTY}
+       
+       # tömöritet számos otto was here
+       ${tomoritett}=    Replace String Using Regexp    ${sor}    [^a-zA-Z0-9áéíóöőúüűÁÉÍÓÖŐÚÜŰ]    ${EMPTY}
+       
+       
+        # Escape all problematic characters before Evaluate (replace with empty string)
+        ${tomoritett_safe}=    Replace String    ${tomoritett}    '    ${EMPTY}
+        ${tomoritett_safe}=    Replace String    ${tomoritett_safe}    "    ${EMPTY}
+        ${tomoritett_safe}=    Replace String    ${tomoritett_safe}    \n    ${EMPTY}
+        ${tomoritett_safe}=    Replace String    ${tomoritett_safe}    \r    ${EMPTY}
+        ${tomoritett_safe}=    Replace String    ${tomoritett_safe}    \t    ${EMPTY}
+        #Ha a tömörített sor hossza kisebb, mint a minimum, ugorjuk át
+        IF    ${sor_hossz} < ${TOKEN_MIN}
+            #${tul_rovid_szamlalo}=    Evaluate    ${tul_rovid_szamlalo} + 1
+            #Log To Console   Skipped ( ${sor} )     no_newline=True
+            CONTINUE
+        END
         ${sor_index}=    Evaluate    ${sor_index} + 1
         #Log To Console    \n${sor_index}--> ${sor}}\n
         ${total_karakterszam}=    Evaluate    ${total_karakterszam} + ${sor_hossz}
@@ -176,14 +210,14 @@ DOCX Beolvasás Teszt
         END
         
         #MD5 érték számolása
-    ${md5}=    Evaluate    __import__('hashlib').md5(u'''${tomoritett_safe}'''.encode('utf-8')).hexdigest()
+        ${md5}=    Evaluate    __import__('hashlib').md5(u'''${tomoritett_safe}'''.encode('utf-8')).hexdigest()
               
         # Ellenőrizzük, hogy létezik-e már ez a hash az adatbázisban
         @{results}=    Query    SELECT COUNT(*) FROM hashCodes WHERE hash_value = '${md5}'
         ${exists}=    Set Variable    0
-    ${row}=    Get From List    ${results}    0
-    ${row_value}=    Get From List    ${row}    0
-    ${exists}=    Set Variable If    len(${results}) > 0    ${row_value}    0
+        ${row}=    Get From List    ${results}    0
+        ${row_value}=    Get From List    ${row}    0
+        ${exists}=    Set Variable If    len(${results}) > 0    ${row_value}    0
         #Log To Console    ===== ${exists} / ${results}=====
         IF    $exists > 0     #már létezik
             #Log To Console  ${exists} - ${sor_index} ${sor} -->>>LÉTEZŐ  HASH<<<
