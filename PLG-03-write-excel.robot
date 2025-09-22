@@ -19,19 +19,19 @@ Excel Export Teszt
 Excel Export Redundancia Tábla
     [Documentation]    Excel export a meglévő Python script használatával
     
-    Log To Console    \n═════════════════════════════════
-    Log To Console    📊 EXCEL EXPORT KEZDÉSE
-    Log To Console    ═══════════════════════════════
+    Log String To Console    \n═════════════════════════════════
+    Log String To Console    📊 EXCEL EXPORT KEZDÉSE
+    Log String To Console    ═══════════════════════════════
     
     ${python_path}=    Set Variable    ${EXECDIR}/rf_env/Scripts/python.exe
     ${result}=    Run Process    ${python_path}    libraries/excel_export_simple.py    shell=True    cwd=${EXECDIR}
     
     IF    ${result.rc} == 0
-        Log To Console    ✅ Excel export sikeres!
-        Log To Console    ${result.stdout}
+        Log String To Console    ✅ Excel export sikeres!
+        Log String To Console    ${result.stdout}
     ELSE
-        Log To Console    ❌ Excel export hiba!
-        Log To Console    ${result.stderr}
+        Log String To Console    ❌ Excel export hiba!
+        Log String To Console    ${result.stderr}
         Fail    Excel export sikertelen: ${result.stderr}
     END
 

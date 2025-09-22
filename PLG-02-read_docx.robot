@@ -35,7 +35,7 @@ DOCX Beolvasás Teszt
     #Log To Console    ${szoveg}
     #Log To Console    &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
     IF    ${not_empty} and ${contains_hiba}
-        Log To Console    HIBA BEJEGYZES ADATBÁZISBA ÍRÁSA...
+        Log String To Console    HIBA BEJEGYZES ADATBÁZISBA ÍRÁSA...
         Execute Sql String    UPDATE redundancia SET status = 'Hibás', overview = '${szoveg}' WHERE id = ${REDUNDANCIA_ID}
         # Max értékek, status és overview mező update-je egyetlen SQL-ben, a végleges értékekkel
         Set Global Variable    ${max_duplikacio_szamlalo}    0
@@ -63,8 +63,8 @@ DOCX Beolvasás Teszt
     ${not_empty}=    Run Keyword And Return Status    Should Not Be Empty    ${szoveg}
     ${contains_hiba}=    Run Keyword And Return Status    Should Contain    ${szoveg}    [HIBA]
     IF    ${not_empty} and ${contains_hiba}
-        Log To Console    '[HIBA] Szöveg tartalmazza a [HIBA] szót!'
-        Log To Console    '[HIBA] Üres vagy None szöveg, Split String kihagyva!'
+        Log String To Console    '[HIBA] Szöveg tartalmazza a [HIBA] szót!'
+        Log String To Console    '[HIBA] Üres vagy None szöveg, Split String kihagyva!'
         # Itt lehet hibakezelést vagy visszatérést tenni
     ELSE IF    ${not_empty}
         ${kisbetus}=    Convert To Lowercase    ${szoveg}
@@ -76,7 +76,7 @@ DOCX Beolvasás Teszt
    
 
     ${ossz_str}=    Convert To String    ${ossz_sor}
-    Log To Console    Feldolgozandó sorok száma: ${ossz_str}
+    Log String To Console    Feldolgozandó sorok száma: ${ossz_str}
     # line_number mező frissítése a redundancia táblában
     Execute Sql String    UPDATE redundancia SET line_number = ${ossz_sor} WHERE id = ${REDUNDANCIA_ID}
     
@@ -148,19 +148,19 @@ DOCX Beolvasás Teszt
         # Ha a sor számmal kezdődik és számmal végződik, ugorjuk át
         ${starts_with_digit}=    Run Keyword And Return Status    Should Match Regexp    ${sor}    ^\[0-9].*\[0-9]$    flags=MULTILINE
         IF    ${starts_with_digit}         #and ${ends_with_digit}
-            Log To Console    Skipp:${sor}
+            Log String To Console    Skipp:${sor}
             CONTINUE
         END
         #Ha táblázattal kezdődik, ugorjuk át
         ${starts_with_tablazat}=    Run Keyword And Return Status    Should Match Regexp    ${sor}    ^\s*táblázat.*\[0-9]$    flags=MULTILINE
         IF    ${starts_with_tablazat}         #and ${ends_with_digit}
-            Log To Console    Táblázat:${sor}
+            Log String To Console    Táblázat:${sor}
             CONTINUE
         END
         #Ha Ábrával kezdődik, ugorjuk át    
         ${starts_with_abra}=    Run Keyword And Return Status    Should Match Regexp    ${sor}    ^\s*ábra.*\[0-9]$    flags=MULTILINE
         IF    ${starts_with_abra}         #and ${ends_with_digit}
-            Log To Console    Ábra:${sor}
+            Log String To Console    Ábra:${sor}
             CONTINUE
         END
         #Ellenőrizzük, hogy a sor szerepel-e a skipHashCode listában
@@ -174,7 +174,7 @@ DOCX Beolvasás Teszt
         ${skipexists}=    Set Variable If    len(${skipresults}) > 0    ${skiprow_value}    0
         #Log To Console    ===== ${exists} / ${results}=====
         IF    $skipexists > 0     #már létezik
-            Log To Console    Skip hash:${sor}
+            Log String To Console    Skip hash:${sor}
             CONTINUE
         END
 
@@ -309,12 +309,12 @@ DOCX Beolvasás Teszt
         END
         # overview sor kiirása
         #Log To Console    ${marker} [${sor}]   no_newline=True    # duplikált tartalom
-        Log To Console    ${marker}    no_newline=True    # duplikált tartalom
+        Log String To Console    ${marker}    no_newline=True    # duplikált tartalom
         ${overview_string}=    Set Variable    ${overview_string}${marker}
         ${progress_counter}=    Evaluate    ${progress_counter} + 1
-        #Insert a single line break after every 100th, and a double after every 1000th progress character
-        Run Keyword If    ${progress_counter} % 1000 == 0    Log To Console    \n
-        Run Keyword If    ${progress_counter} % 100 == 0 and ${progress_counter} % 1000 != 0    Log To Console    ${EMPTY}
+        # Manuális sortörések minden 100. és 1000. karakternél
+        Run Keyword If    ${progress_counter} % 1000 == 0    Log String To Console    \n\n    no_newline=True
+        Run Keyword If    ${progress_counter} % 100 == 0 and ${progress_counter} % 1000 != 0    Log String To Console    \n    no_newline=True
         
         #az első előfordulás hosszát is beszámítjuk
     ${sor_hossz}=    Get Length    ${sor}
@@ -344,7 +344,7 @@ DOCX Beolvasás Teszt
 
 
 
-    Log To Console    [>>> ${current_status} <<<]\n
+    Log String To Console    [>>> ${current_status} <<<]\n
     Execute Sql String    UPDATE redundancia SET repeat_block_nbr = ${aktualis_block_id}, max_ismetlesek_szama = ${max_duplikacio_szamlalo}, max_ismetelt_karakterszam = ${max_ismetelt_karakterszam}, repeated_percent = ${repeated_percent}, status = '${current_status}', overview = '${overview_string_esc}' WHERE id = ${REDUNDANCIA_ID}
 
     #Execute Sql String    UPDATE redundancia SET repeat_block_nbr = ${aktualis_block_id} ,max_ismetlesek_szama = ${max_duplikacio_szamlalo}, max_ismetelt_karakterszam = ${max_total_ismetelt_karakterszam}, status = '${current_status}', overview = '${overview_string_esc}' WHERE id = ${REDUNDANCIA_ID}

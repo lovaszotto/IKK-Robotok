@@ -1,13 +1,93 @@
-Log String To Console
-    [Arguments]    ${msg}
-    Log To Console    ${msg}
 *** Keywords ***
+
+Initialize Global Log File
+    [Documentation]    Inicializálja a globális log fájl nevét a futás elején a gyökérkönyvtárban
+    ${current_datetime}=    Get Current Date    result_format=%Y%m%d_%H%M%S
+    ${log_filename_only}=    Set Variable    RunLog_${current_datetime}.log
+    # Kezdetben a gyökérkönyvtárban hozzuk létre
+    Set Global Variable    ${GLOBAL_LOG_FILENAME}    ${log_filename_only}
+    Set Global Variable    ${LOG_FILENAME_ONLY}    ${log_filename_only}
+    Log To Console    Globális log fájl inicializálva: ${log_filename_only}
+
+Move Log File To Output Folder
+    [Documentation]    Áthelyezi a log fájlt az output könyvtárba a konfiguráció betöltése után
+    ${output_folder}=    Get Variable Value    ${CONFIG_OUTPUT_FOLDER}    .
+    ${log_filename_only}=    Get Variable Value    ${LOG_FILENAME_ONLY}    RunLog_unknown.log
+    ${new_log_path}=    Join Path    ${output_folder}    ${log_filename_only}
+    
+    # Ha létezik a régi log fájl a gyökérben, másoljuk át
+    ${old_log_exists}=    Run Keyword And Return Status    File Should Exist    ${GLOBAL_LOG_FILENAME}
+    IF    ${old_log_exists} and "${new_log_path}" != "${GLOBAL_LOG_FILENAME}"
+        Copy File    ${GLOBAL_LOG_FILENAME}    ${new_log_path}
+        Remove File    ${GLOBAL_LOG_FILENAME}
+        Set Global Variable    ${GLOBAL_LOG_FILENAME}    ${new_log_path}
+        Log To Console    Log fájl áthelyezve: ${new_log_path}
+    ELSE IF    "${new_log_path}" != "${GLOBAL_LOG_FILENAME}"
+        Set Global Variable    ${GLOBAL_LOG_FILENAME}    ${new_log_path}
+        Log To Console    Log fájl útvonal frissítve: ${new_log_path}
+    END
+
+Format Message With Line Breaks
+    [Documentation]    Formázza az üzenetet sortörésekkel: minden 100. karakter után \n, minden 1000. karakter után \n\n
+    [Arguments]    ${message}
+    ${length}=    Get Length    ${message}
+    ${formatted}=    Set Variable    ${EMPTY}
+    ${index}=    Set Variable    0
+    
+    WHILE    ${index} < ${length}
+        ${next_index}=    Evaluate    ${index} + 1
+        ${char}=    Get Substring    ${message}    ${index}    ${next_index}
+        ${formatted}=    Set Variable    ${formatted}${char}
+        ${index}=    Evaluate    ${index} + 1
+        
+        # Minden 1000. karakter után dupla sortörés
+        ${is_1000th}=    Evaluate    ${index} % 1000 == 0 and ${index} > 0
+        IF    ${is_1000th}
+            ${newline}=    Evaluate    chr(10)
+            ${formatted}=    Set Variable    ${formatted}${newline}${newline}
+        # Minden 100. karakter után sortörés (de nem ha már 1000. volt)
+        ELSE
+            ${is_100th}=    Evaluate    ${index} % 100 == 0 and ${index} > 0
+            IF    ${is_100th}
+                ${newline}=    Evaluate    chr(10)
+                ${formatted}=    Set Variable    ${formatted}${newline}
+            END
+        END
+    END
+    
+    RETURN    ${formatted}
+
 Log String To Console
-    [Arguments]    ${msg}
-    Log To Console    ${msg}
+    [Arguments]    ${msg}    ${no_newline}=False
+    [Documentation]    Logs message both to console and to timestamped log file
+    # Log to console (with optional no_newline parameter)
+    IF    ${no_newline}
+        Log To Console    ${msg}    no_newline=True
+    ELSE
+        Log To Console    ${msg}
+    END
+    
+    # Skip logging TRACE messages to file
+    ${is_trace}=    Run Keyword And Return Status    Should Contain    ${msg}    [TRACE]
+    IF    ${is_trace}
+        Return From Keyword
+    END
+    
+    # Use the global log filename (should already be set by Initialize Global Log File)
+    ${log_filename_exists}=    Run Keyword And Return Status    Variable Should Exist    ${GLOBAL_LOG_FILENAME}
+    IF    ${log_filename_exists}
+        # Append to log file without timestamp (with or without newline based on parameter)
+        IF    ${no_newline}
+            # Format message with line breaks every 100 chars and double breaks every 1000 chars
+            ${formatted_msg}=    Format Message With Line Breaks    ${msg}
+            Append To File    ${GLOBAL_LOG_FILENAME}    ${formatted_msg}
+        ELSE
+            Append To File    ${GLOBAL_LOG_FILENAME}    ${msg}\n
+        END
+    END
 
 Process Config Line
-    Log To Console    [TRACE] Process Config Line elindult
+    Log String To Console    [TRACE] Process Config Line elindult
     [Arguments]    ${config_line}
     @{config_parts}=    Split String    ${config_line}    |
     ${parts_len}=    Get Length    ${config_parts}
@@ -43,10 +123,10 @@ Process Config Line
     Set Global Variable    ${CONFIG_THRESHOLD_MASOLT}    ${config_threshold_masolt}
     Set Global Variable    ${DOCUMENT_PATH}           ${config_input}
     # Sikeres konfiguráció betöltése
-    Log To Console    Konfiguracio sikeresen betoltve!
-    Log To Console    Bementi konyvtar: ${config_input}
-    Log To Console    Kimeneti konyvtar: ${config_output}
-    Log To Console    Excel prefix: ${config_excel_prefix}
+    Log String To Console    Konfiguracio sikeresen betoltve!
+    Log String To Console    Bementi konyvtar: ${config_input}
+    Log String To Console    Kimeneti konyvtar: ${config_output}
+    Log String To Console    Excel prefix: ${config_excel_prefix}
 *** Settings ***
 Library    ../libraries/DocxReader.py
 Library    ../libraries/find_docx.py
@@ -54,6 +134,7 @@ Library    BuiltIn
 Library    DatabaseLibrary
 Library    DateTime
 Library    Process
+Library    OperatingSystem
 Resource   variables.robot
 Resource   ../PLG-02-read_docx.robot
 Resource   get_file_size.resource
@@ -63,17 +144,17 @@ Resource   ../PLG-03-rename_docx.robot
 *** Keywords ***
 
 Get Config Icon
-    Log To Console    [TRACE] Get Config Icon elindult
+    Log String To Console    [TRACE] Get Config Icon elindult
     [Documentation]    Ikonok tiltva: mindig üres string
     [Arguments]    ${icon_name}
     RETURN    ${EMPTY}
-    Log To Console    [TRACE] Get Config Icon kilépett
+    Log String To Console    [TRACE] Get Config Icon kilépett
 
 Konfiguráció Betöltése
-    Log To Console    [TRACE] Konfiguráció Betöltése elindult
+    Log String To Console    [TRACE] Konfiguráció Betöltése elindult
     [Documentation]    Plagium.config fajl betoltese es beallitasok alkalmazasa
-    Log To Console    \nKONFIGURACIO BETOLTESE...
-    Log To Console    ═══════════════════════════════
+    Log String To Console    \nKONFIGURACIO BETOLTESE...
+    Log String To Console    ═══════════════════════════════
     # Konfiguracios fajl olvasasa Python scripttel
     ${config_result}=    Run Process    python    libraries/get_config.py    shell=True
     IF    ${config_result.rc} == 0
@@ -90,11 +171,11 @@ Konfiguráció Betöltése
     ${db_path}=    Get From List    ${db_path_lines}    -1
     Set Global Variable    ${SQLITE_DB_FILE}    ${db_path.strip()}
     ELSE
-    Log To Console    Hiba a konfiguracio betoltesekor, alapertelmezettek hasznalata
-    Log To Console    Hibauzenet: ${config_result.stderr}
+    Log String To Console    Hiba a konfiguracio betoltesekor, alapertelmezettek hasznalata
+    Log String To Console    Hibauzenet: ${config_result.stderr}
     END
-    Log To Console    ${EMPTY}
-    Log To Console    ═══════════KONFIGURACIO BETOLTESE KÉSZ════════════════════
+    Log String To Console    ${EMPTY}
+    Log String To Console    ═══════════KONFIGURACIO BETOLTESE KÉSZ════════════════════
     #Log To Console    [TRACE] Konfiguráció Betöltése kilépett
 
 
@@ -108,33 +189,33 @@ Beolvasom A DOCX Fájlt
     #Log To Console    [TRACE] Beolvasom A DOCX Fájlt kilépett
 
 Kapcsolodas Az Adatbazishoz
-    Log To Console    [TRACE] Kapcsolodas Az Adatbazishoz elindult
+    Log String To Console    [TRACE] Kapcsolodas Az Adatbazishoz elindult
     [Documentation]    SQLite adatbázishoz kapcsolódás
     # Mindig bontsunk előző kapcsolatot, hogy ne legyen "Overwriting not closed connection" warning
     Run Keyword And Ignore Error    Disconnect From Database
     IF    '${DB_MODULE}' == 'sqlite3'
         Connect To Database    sqlite3    ${DB_NAME}
-    Log To Console    Sikeres kapcsolódás az SQLite adatbázishoz: ${DB_NAME}
+    Log String To Console    Sikeres kapcsolódás az SQLite adatbázishoz: ${DB_NAME}
     ELSE IF    '${DB_MODULE}' == 'pyodbc'
         ${connection_string}=    Set Variable    DRIVER={SQL Server};SERVER=${DB_HOST};DATABASE=${DB_NAME};UID=${DB_USERNAME};PWD=${DB_PASSWORD};
-    Log To Console    ODBC Connection string: ${connection_string}
+    Log String To Console    ODBC Connection string: ${connection_string}
         Connect To Database    pyodbc    ${connection_string}
-    Log To Console    Sikeres kapcsolódás az MSSQL adatbázishoz
+    Log String To Console    Sikeres kapcsolódás az MSSQL adatbázishoz
     ELSE
         Connect To Database    ${DB_MODULE}    ${DB_NAME}    ${DB_USERNAME}    ${DB_PASSWORD}    ${DB_HOST}    ${DB_PORT}
-    Log To Console    Sikeres kapcsolódás az adatbázishoz
+    Log String To Console    Sikeres kapcsolódás az adatbázishoz
     END
     #Log To Console    [TRACE] Kapcsolodas Az Adatbazishoz kilépett
 
 Adatbazis Kapcsolat Bezarasa
-    Log To Console    [TRACE] Adatbazis Kapcsolat Bezarasa elindult
+    Log String To Console    [TRACE] Adatbazis Kapcsolat Bezarasa elindult
     [Documentation]    Adatbázis kapcsolat bezárása
     Run Keyword And Ignore Error    Disconnect From Database
-    Log To Console    Adatbázis kapcsolat bezárva
-    Log To Console    [TRACE] Adatbazis Kapcsolat Bezarasa kilépett
+    Log String To Console    Adatbázis kapcsolat bezárva
+    Log String To Console    [TRACE] Adatbazis Kapcsolat Bezarasa kilépett
 
 Hash táblák ellenőrzése
-    Log To Console    [TRACE] Hash táblák ellenőrzése elindult
+    Log String To Console    [TRACE] Hash táblák ellenőrzése elindult
     [Documentation]    Egyszerű SQLite adatbázis teszt amely ténylegesen működik
     [Tags]    database    sqlite    working
     
@@ -143,18 +224,18 @@ Hash táblák ellenőrzése
     #Run Keyword If    ${file_exists}    Remove File    ${SQLITE_DB_FILE}
     
     # redundancia tábla létrehozása ha nem létezik (elsőként, mivel ez lesz a fő tábla)
-    Log To Console    CREATE TABLE IF NOT EXISTS redundancia
+    Log String To Console    CREATE TABLE IF NOT EXISTS redundancia
     Execute Sql String    CREATE TABLE IF NOT EXISTS redundancia (id INTEGER PRIMARY KEY AUTOINCREMENT, status TEXT DEFAULT 'Rendben', file_path TEXT, file_name TEXT NOT NULL, file_size INTEGER NOT NULL, line_number INTEGER DEFAULT 0, repeat_block_nbr INTEGER DEFAULT 0, max_ismetlesek_szama INTEGER DEFAULT 0, max_ismetelt_karakterszam INTEGER DEFAULT 0, repeated_percent REAL DEFAULT 0, overview TEXT DEFAULT '', record_date TEXT NOT NULL, record_time TEXT NOT NULL)
     Execute Sql String    CREATE INDEX IF NOT EXISTS idx_redundancia_id ON redundancia(id)
     Execute Sql String    CREATE INDEX IF NOT EXISTS idx_redundancia_file ON redundancia(file_name, file_path)
     
     # hashCodes tábla létrehozása ha nem létezik foreign key kapcsolattal és külön file_name, file_path oszlopokkal (document_name nélkül)
-    Log To Console    CREATE TABLE IF NOT EXISTS hashCodes
+    Log String To Console    CREATE TABLE IF NOT EXISTS hashCodes
     Execute Sql String    CREATE TABLE IF NOT EXISTS hashCodes (hash_value TEXT(100) PRIMARY KEY, file_path TEXT NOT NULL, file_name TEXT NOT NULL, created_date TEXT NOT NULL, created_time TEXT NOT NULL, used_by_nbr INTEGER DEFAULT 1, line_content TEXT, redundancia_id INTEGER, FOREIGN KEY (redundancia_id) REFERENCES redundancia(id))
     Execute Sql String    CREATE INDEX IF NOT EXISTS idx_hashCodes_file ON hashCodes(file_name, file_path)
     
     # repeat tábla létrehozása ha nem létezik - az ismételt sorok tárolására
-    Log To Console    CREATE TABLE IF NOT EXISTS repeat
+    Log String To Console    CREATE TABLE IF NOT EXISTS repeat
     Execute Sql String    CREATE TABLE IF NOT EXISTS repeat (id INTEGER PRIMARY KEY AUTOINCREMENT, file_name TEXT NOT NULL, file_path TEXT NOT NULL, source_file_path TEXT, source_file_name TEXT NOT NULL, redundancia_id INTEGER, repeat_block_nbr INTEGER DEFAULT 0, block_id INTEGER NOT NULL, line_length INTEGER NOT NULL, repeated_line TEXT NOT NULL, token TEXT, created_date TEXT NOT NULL, created_time TEXT NOT NULL, FOREIGN KEY (redundancia_id) REFERENCES redundancia(id))
     Execute Sql String    CREATE INDEX IF NOT EXISTS idx_repeat_file ON repeat(file_name, file_path)
     Execute Sql String    CREATE INDEX IF NOT EXISTS idx_repeat_redundancia_id ON repeat(redundancia_id)
@@ -162,14 +243,14 @@ Hash táblák ellenőrzése
     Execute Sql String    CREATE INDEX IF NOT EXISTS idx_repeat_id ON repeat(id)
     
     # skipHashCodes tábla létrehozása ha nem létezik - az átugrandó sorok hash értékeinek tárolására
-    Log To Console    CREATE TABLE IF NOT EXISTS skipHashCodes
+    Log String To Console    CREATE TABLE IF NOT EXISTS skipHashCodes
     Execute Sql String    CREATE TABLE IF NOT EXISTS skipHashCodes (hashValue TEXT PRIMARY KEY, line_content TEXT)
     
     # DuplikacioSkip.config fájl beolvasása és skipHashCodes táblába töltése
     ${skip_config_file}=    Set Variable    DuplikacioSkip.config
     ${skip_file_exists}=    Run Keyword And Return Status    File Should Exist    ${skip_config_file}
     IF    ${skip_file_exists}
-        Log To Console    DuplikacioSkip.config betöltése...
+        Log String To Console    DuplikacioSkip.config betöltése...
         ${skip_content}=    Get File    ${skip_config_file}
         @{skip_lines}=    Split To Lines    ${skip_content}
         FOR    ${skip_line}    IN    @{skip_lines}
@@ -185,9 +266,9 @@ Hash táblák ellenőrzése
             END
         END
         ${skip_count}=    Get Length    ${skip_lines}
-        Log To Console    DuplikacioSkip.config betöltve: ${skip_count} sor feldolgozva
+        Log String To Console    DuplikacioSkip.config betöltve: ${skip_count} sor feldolgozva
     ELSE
-        Log To Console    DuplikacioSkip.config fájl nem található, skip táblát üresen hagyva
+        Log String To Console    DuplikacioSkip.config fájl nem található, skip táblát üresen hagyva
     END
     
     # A táblák és oszlopok meglétét nem ellenőrizzük, ha hiányzik valamelyik, a folyamat hibára fut.
@@ -201,53 +282,53 @@ Hash táblák ellenőrzése
     #Should Be Equal As Integers    ${final_count}    4
     #Log To Console    \nVégső felhasználók száma: ${final_count}
     
-    Log To Console    [TRACE] Hash táblák ellenőrzése kilépett
+    Log String To Console    [TRACE] Hash táblák ellenőrzése kilépett
    
 
 
 
 Lekerem A Felhasznalokat
-    Log To Console    [TRACE] Lekerem A Felhasznalokat elindult
+    Log String To Console    [TRACE] Lekerem A Felhasznalokat elindult
     [Documentation]    Összes felhasználó lekérése a users táblából
     ${result}=    Query    SELECT id, username, email, created_date FROM users ORDER BY id
-    Log To Console    Lekért felhasználók száma: ${result.__len__()}
+    Log String To Console    Lekért felhasználók száma: ${result.__len__()}
     FOR    ${row}    IN    @{result}
     ${id}=    Get From List    ${row}    0
     ${username}=    Get From List    ${row}    1
     ${email}=    Get From List    ${row}    2
     ${created}=    Get From List    ${row}    3
-    Log To Console    ID: ${id}, Felhasználónév: ${username}, Email: ${email}, Létrehozva: ${created}
+    Log String To Console    ID: ${id}, Felhasználónév: ${username}, Email: ${email}, Létrehozva: ${created}
     END
     RETURN    ${result}
-    Log To Console    [TRACE] Lekerem A Felhasznalokat kilépett
+    Log String To Console    [TRACE] Lekerem A Felhasznalokat kilépett
 
 Lekerem A Felhasznalot ID Alapjan
-    Log To Console    [TRACE] Lekerem A Felhasznalot ID Alapjan elindult
+    Log String To Console    [TRACE] Lekerem A Felhasznalot ID Alapjan elindult
     [Documentation]    Egy felhasználó lekérése ID alapján
     [Arguments]    ${user_id}
     ${result}=    Query    SELECT id, username, email, created_date FROM users WHERE id = ${user_id}
-    Log To Console    Lekért felhasználó adatai:
+    Log String To Console    Lekért felhasználó adatai:
     FOR    ${row}    IN    @{result}
     ${id}=    Get From List    ${row}    0
     ${felhasznalonev}=    Get From List    ${row}    1
     ${email}=    Get From List    ${row}    2
     ${letrehozva}=    Get From List    ${row}    3
-    Log To Console    ID: ${id}, Felhasználónév: ${felhasznalonev}, Email: ${email}, Létrehozva: ${letrehozva}
+    Log String To Console    ID: ${id}, Felhasználónév: ${felhasznalonev}, Email: ${email}, Létrehozva: ${letrehozva}
     END
     RETURN    ${result}
-    Log To Console    [TRACE] Lekerem A Felhasznalot ID Alapjan kilépett
+    Log String To Console    [TRACE] Lekerem A Felhasznalot ID Alapjan kilépett
 
 Ellenorzom Az Adatbazist
-    Log To Console    [TRACE] Ellenorzom Az Adatbazist elindult
+    Log String To Console    [TRACE] Ellenorzom Az Adatbazist elindult
     [Documentation]    Adatbázis állapot ellenőrzése
     ${row_count}=    Row Count    SELECT COUNT(*) FROM users
-    Log To Console    Felhasználók száma az adatbázisban: ${row_count}
+    Log String To Console    Felhasználók száma az adatbázisban: ${row_count}
     Should Be True    ${row_count} >= 0
     RETURN    ${row_count}
-    Log To Console    [TRACE] Ellenorzom Az Adatbazist kilépett
+    Log String To Console    [TRACE] Ellenorzom Az Adatbazist kilépett
 
 Adatbazis Inicializalasa
-    Log To Console    [TRACE] Adatbazis Inicializalasa elindult
+    Log String To Console    [TRACE] Adatbazis Inicializalasa elindult
     [Documentation]    SQLite adatbázis inicializálása táblákkal és teszt adatokkal
     # Users tábla létrehozása ha nem létezik
     Execute Sql String     IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT NOT NULL, email TEXT NOT NULL, created_date TEXT DEFAULT CURRENT_TIMESTAMP)
@@ -261,11 +342,11 @@ Adatbazis Inicializalasa
         Execute Sql String    INSERT INTO users (username, email) VALUES ('developer', 'developer@example.com')
         Execute Sql String    INSERT INTO users (username, email) VALUES ('analyst', 'analyst@example.com')
         Execute Sql String    INSERT INTO users (username, email) VALUES ('manager', 'manager@example.com')
-    Log To Console    SQLite adatbázis inicializálva 5 teszt felhasználóval
+    Log String To Console    SQLite adatbázis inicializálva 5 teszt felhasználóval
     ELSE
-    Log To Console    SQLite adatbázisban már vannak adatok (${count} felhasználó)
+    Log String To Console    SQLite adatbázisban már vannak adatok (${count} felhasználó)
     END
-    Log To Console    [TRACE] Adatbazis Inicializalasa kilépett
+    Log String To Console    [TRACE] Adatbazis Inicializalasa kilépett
 
 Fájladatok Feldolgozása Redundancia Táblába
     #Log To Console    [TRACE] Fájladatok Feldolgozása Redundancia Táblába elindult
@@ -300,12 +381,11 @@ Fájladatok Feldolgozása Redundancia Táblába
     ${redundancia_id}=    Get From List    ${redundancia_id_row}    0
     Set Global Variable    ${REDUNDANCIA_ID}    ${redundancia_id}
     
-    Log To Console    Redundancia ID: ${redundancia_id}
-    Log To Console    Fájl neve: ${file_name}
-    Log To Console    Fájl méret: ${file_size} byte
-    Log To Console    Feldolgozás ideje: ${current_time}
+    Log String To Console    Redundancia ID: ${redundancia_id}
+    Log String To Console    Fájl neve: ${file_name}
+    Log String To Console    Fájl méret: ${file_size} byte
+    Log String To Console    Feldolgozás ideje: ${current_time}
     # Sorok számának kiírása
-    Log To Console    DOCX fájl beolvasás indul a Fájladatok Feldolgozása Redundancia Táblába eljárásból
     ${szoveg}=    Beolvasom A DOCX Fájlt
     Set Global Variable    ${SZOVEG}    ${szoveg}
 
@@ -328,7 +408,7 @@ Fájladatok Feldolgozása Redundancia Táblába
         Set Global Variable    ${SORON}    ${sorok}
     END
    
-    Log To Console    Sorok száma: ${ossz_sor}
+    Log String To Console    Sorok száma: ${ossz_sor}
     
    
     #Log To Console    [TRACE] Fájladatok Feldolgozása Redundancia Táblába kilépett
@@ -339,7 +419,7 @@ Fájladatok Feldolgozása Redundancia Táblába
 
 
 Batch DOCX ellenőrzés
-    Log To Console    [TRACE] Batch DOCX ellenőrzés elindult
+    Log String To Console    [TRACE] Batch DOCX ellenőrzés elindult
     [Documentation]    Batch feldolgozás összes DOCX fájlra a DOCUMENT_PATH útvonalon
     
     # DOCX fájlok keresése a megadott útvonalon
@@ -348,13 +428,13 @@ Batch DOCX ellenőrzés
     # Ellenőrzés, hogy van-e DOCX fájl
     ${file_count}=    Get Length    ${docx_files}
     Set Global Variable    ${file_count}
-    Log To Console    \n=== DOCX FÁJLOK KERESÉSE ===
-    Log To Console    Keresési útvonal: ${DOCUMENT_PATH}
-    Log To Console    Talált DOCX fájlok száma: ${file_count}
+    Log String To Console    \n=== DOCX FÁJLOK KERESÉSE ===
+    Log String To Console    Keresési útvonal: ${DOCUMENT_PATH}
+    Log String To Console    Talált DOCX fájlok száma: ${file_count}
 
     
     IF    ${file_count} == 0
-    Log To Console    FIGYELMEZTETÉS: Nem találhatók DOCX fájlok a megadott útvonalon!
+    Log String To Console    FIGYELMEZTETÉS: Nem találhatók DOCX fájlok a megadott útvonalon!
         RETURN
     END
     
@@ -365,7 +445,7 @@ Batch DOCX ellenőrzés
     # Végigmegy az összes talált DOCX fájlon
     ${current_index}=    Set Variable    1
     FOR    ${docx_file}    IN    @{docx_files}
-    Log To Console    \n>>> FELDOLGOZÁS: (${current_index}/${file_count}) ${docx_file}
+    Log String To Console    \n>>> FELDOLGOZÁS: (${current_index}/${file_count}) ${docx_file}
     ${current_index}=    Evaluate    ${current_index} + 1
     # Beállítja az aktuális DOCX fájlt változóban
     #itt hívd meg az átnevezést
@@ -387,7 +467,7 @@ Batch DOCX ellenőrzés
         ${is_error}=    Set Variable    ${False}
     END
     #Run Keyword If    ${is_error}    Log To Console    [DEBUG] szoveg: ${szoveg}
-    Run Keyword If    ${is_error}    Log To Console    [DEBUG] is_error: ${is_error}
+    Run Keyword If    ${is_error}    Log String To Console    [DEBUG] is_error: ${is_error}
     # Hibalistába fájlnév+hibaszöveg, de a feldolgozó kulcsszónak csak a file_path
     Run Keyword If    ${is_error}    Append To List    ${HIBA_LISTA}    ${docx_file}: ${szoveg}
    
@@ -396,29 +476,29 @@ Batch DOCX ellenőrzés
     Run Keyword If    '${redundancia_id}' != ''    DOCX Beolvasás Teszt    ${docx_file}    ${redundancia_id}
    
     ${overview_string}=    Get Variable Value    ${overview_string}    ''
-    Log To Console    \n<<< BEFEJEZVE: ${docx_file}
+    Log String To Console    \n<<< BEFEJEZVE: ${docx_file}
     # Log To Console    Túl rövid mondatok: ${tul_rovid_szamlalo}
     END
 
     # Hibalista kiírása a végén
-    Run Keyword If    ${HIBA_LISTA}    Log To Console    \n=== HIBÁS DOCX FÁJLOK ===
+    Run Keyword If    ${HIBA_LISTA}    Log String To Console    \n=== HIBÁS DOCX FÁJLOK ===
     FOR    ${hiba}    IN    @{HIBA_LISTA}
-    Log To Console    ${hiba}
+    Log String To Console    ${hiba}
     END
 
-    Log To Console    === ÖSSZESÍTÉS ===
-    Log To Console    \nFeldolgozott dokumentumok száma: ${file_count}
-    Log To Console    [TRACE] Batch DOCX ellenőrzés kilépett
+    Log String To Console    === ÖSSZESÍTÉS ===
+    Log String To Console    \nFeldolgozott dokumentumok száma: ${file_count}
+    Log String To Console    [TRACE] Batch DOCX ellenőrzés kilépett
 
 Redundancia Eredmények Ellenőrzése
-    Log To Console    [TRACE] Redundancia Eredmények Ellenőrzése elindult
+    Log String To Console    [TRACE] Redundancia Eredmények Ellenőrzése elindult
     [Documentation]    Redundancia tábla status oszlopának részletes ellenőrzése
     
     # Minden futás előtt a redundancia tábla biztosítása
     Hash táblák ellenőrzése
-    Log To Console    REDUNDANCIA EREDMÉNYEK ELEMZÉSE
-    Log To Console    \n══════════════════════════════════════
-    Log To Console    Használt adatbázisfájl: ${SQLITE_DB_FILE}
+    Log String To Console    REDUNDANCIA EREDMÉNYEK ELEMZÉSE
+    Log String To Console    \n══════════════════════════════════════
+    Log String To Console    Használt adatbázisfájl: ${SQLITE_DB_FILE}
     
     # Kapcsolódás előtt mindig bontsuk az előző kapcsolatot, hogy ne legyen warning
     Run Keyword And Ignore Error    Disconnect From Database
@@ -455,21 +535,21 @@ Redundancia Eredmények Ellenőrzése
     # Status kategóriák statisztikája részletesen
     @{status_stats}=    Query    SELECT status, COUNT(*) as count, MIN(max_ismetelt_karakterszam) as min_chars, MAX(max_ismetelt_karakterszam) as max_chars FROM redundancia GROUP BY status ORDER BY min_chars
     
-    Log To Console    \nSTATUS KATEGÓRIÁK RÉSZLETES STATISZTIKÁJA:
+    Log String To Console    \nSTATUS KATEGÓRIÁK RÉSZLETES STATISZTIKÁJA:
     FOR    ${stat}    IN    @{status_stats}
         ${status}=    Get From List    ${stat}    0
         ${count}=    Get From List    ${stat}    1
         ${min_chars}=    Get From List    ${stat}    2
         ${max_chars}=    Get From List    ${stat}    3
-    Log To Console    ${status}: ${count} dokumentum (${min_chars}-${max_chars} karakter)
+    Log String To Console    ${status}: ${count} dokumentum (${min_chars}-${max_chars} karakter)
     END
     
     # Status kategóriák szabályainak ellenőrzése
     
-    Log To Console    \nSTATUS KATEGÓRIÁK SZABÁLYAI:
-    Log To Console    Rendben: max_ismetelt_karakterszam < 300
-    Log To Console    Gyanús: ${CONFIG_THRESHOLD_GYANUS} ≤ max_ismetelt_karakterszam < ${CONFIG_THRESHOLD_MASOLT}
-    Log To Console    Másolt: max_ismetelt_karakterszam ≥ ${CONFIG_THRESHOLD_MASOLT}
+    Log String To Console    \nSTATUS KATEGÓRIÁK SZABÁLYAI:
+    Log String To Console    Rendben: max_ismetelt_karakterszam < 300
+    Log String To Console    Gyanús: ${CONFIG_THRESHOLD_GYANUS} ≤ max_ismetelt_karakterszam < ${CONFIG_THRESHOLD_MASOLT}
+    Log String To Console    Másolt: max_ismetelt_karakterszam ≥ ${CONFIG_THRESHOLD_MASOLT}
     
     # Összesítő statisztikák
     @{total_stats}=    Query    SELECT COUNT(*) as total_docs, SUM(CASE WHEN status = 'Rendben' THEN 1 ELSE 0 END) as clean_docs, SUM(CASE WHEN status = 'Gyanús' THEN 1 ELSE 0 END) as suspicious_docs, SUM(CASE WHEN status = 'Másolt' THEN 1 ELSE 0 END) as copied_docs FROM redundancia
@@ -479,12 +559,12 @@ Redundancia Eredmények Ellenőrzése
     ${suspicious}=    Get From List    ${total_row}    2
     ${copied}=    Get From List    ${total_row}    3
     
-    Log To Console    \nVÉGSŐ ÖSSZESÍTÉS:
-    Log To Console    ═══════════════════════
-    Log To Console    Összes dokumentum: ${total}
-    Log To Console    Rendben: ${clean} dokumentum
-    Log To Console    Gyanús: ${suspicious} dokumentum
-    Log To Console    Másolt: ${copied} dokumentum
+    Log String To Console    \nVÉGSŐ ÖSSZESÍTÉS:
+    Log String To Console    ═══════════════════════
+    Log String To Console    Összes dokumentum: ${total}
+    Log String To Console    Rendben: ${clean} dokumentum
+    Log String To Console    Gyanús: ${suspicious} dokumentum
+    Log String To Console    Másolt: ${copied} dokumentum
     
     # Százalékos arányok
     IF    ${total} > 0
@@ -492,18 +572,18 @@ Redundancia Eredmények Ellenőrzése
         ${suspicious_percent}=    Evaluate    round((${suspicious} / ${total}) * 100, 1)
         ${copied_percent}=    Evaluate    round((${copied} / ${total}) * 100, 1)
         
-    Log To Console    \nSZÁZALÉKOS MEGOSZLÁS:
-    Log To Console    Rendben: ${clean_percent}%
-    Log To Console    Gyanús: ${suspicious_percent}%
-    Log To Console    Másolt: ${copied_percent}%
+    Log String To Console    \nSZÁZALÉKOS MEGOSZLÁS:
+    Log String To Console    Rendben: ${clean_percent}%
+    Log String To Console    Gyanús: ${suspicious_percent}%
+    Log String To Console    Másolt: ${copied_percent}%
     END
     
     
-    Log To Console    \nEREDMÉNYEK ELLENŐRZÉSE BEFEJEZVE!
-    Log To Console    \n═══════════════════════════════════════
+    Log String To Console    \nEREDMÉNYEK ELLENŐRZÉSE BEFEJEZVE!
+    Log String To Console    \n═══════════════════════════════════════
 
 Excel Export Redundancia Tábla
-    Log To Console    [TRACE] Excel Export Redundancia Tábla elindult
+    Log String To Console    [TRACE] Excel Export Redundancia Tábla elindult
     [Documentation]    Redundancia tábla tartalmának exportálása Excel fájlba a PLG-03-write-excel.robot használatával
     
     # Export előtt minden nyitott kapcsolatot lezárunk
@@ -511,8 +591,8 @@ Excel Export Redundancia Tábla
     Disconnect From Database
     # Export előtt újra kapcsolódunk az adatbázishoz, hogy legyen aktív kapcsolat
     Connect To Database    sqlite3    ${SQLITE_DB_FILE}
-    Log To Console    \nEXCEL EXPORT KEZDÉSE
-    Log To Console    ═══════════════════════════════
+    Log String To Console    \nEXCEL EXPORT KEZDÉSE
+    Log String To Console    ═══════════════════════════════
     # Adatbázis táblák inicializálása, ha hiányoznak
     Hash táblák ellenőrzése
     
@@ -520,25 +600,25 @@ Excel Export Redundancia Tábla
     ${python_path}=    Set Variable    ${PYTHON_EXEC}
     ${result}=    Run Process    ${python_path}    libraries/excel_export_simple.py    shell=False    cwd=${EXECDIR}    stdout=STDOUT    stderr=STDERR
     IF    ${result.rc} == 0
-    Log To Console    Excel export sikeres!
-    Log To Console    ${result.stdout}
+    Log String To Console    Excel export sikeres!
+    Log String To Console    ${result.stdout}
     ELSE
-    Log To Console    Excel export hiba!
-    Log To Console    ${result.stderr}
-    Log To Console    Excel export sikertelen, de a folyamat folytatódik...
+    Log String To Console    Excel export hiba!
+    Log String To Console    ${result.stderr}
+    Log String To Console    Excel export sikertelen, de a folyamat folytatódik...
     END
-    Log To Console    [TRACE] Excel Export Redundancia Tábla kilépett
+    Log String To Console    [TRACE] Excel Export Redundancia Tábla kilépett
 
 
 
 Check Redundancia Table Exists
-    Log To Console    [TRACE] Check Redundancia Table Exists elindult
+    Log String To Console    [TRACE] Check Redundancia Table Exists elindult
     [Documentation]    Ellenőrzi, hogy a redundancia tábla létezik-e az SQLite adatbázisban
     Run Keyword And Ignore Error    Connect To Database    sqlite3    ${SQLITE_DB_FILE}
     ${result}=    Query    SELECT name FROM sqlite_master WHERE type='table' AND name='redundancia'
     ${table_count}=    Get Length    ${result}
-    Run Keyword If    ${table_count} == 0    Log To Console    FIGYELMEZTETÉS: A 'redundancia' tábla nem létezik az adatbázisban!
+    Run Keyword If    ${table_count} == 0    Log String To Console    FIGYELMEZTETÉS: A 'redundancia' tábla nem létezik az adatbázisban!
     Run Keyword If    ${table_count} == 0    Fail    A 'redundancia' tábla nem jött létre!
     Disconnect From Database
-    Log To Console    [TRACE] Check Redundancia Table Exists kilépett
+    Log String To Console    [TRACE] Check Redundancia Table Exists kilépett
 
