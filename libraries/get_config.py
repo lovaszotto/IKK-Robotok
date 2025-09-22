@@ -9,11 +9,9 @@ import os
 def load_simple_config():
     """Egyszerű konfiguráció betöltés debug üzenetek nélkül"""
     config = {
-        'email': 'lovasz.otto@clarity.hu',
         'input_folder': './test',
         'output_folder': './test',
         'database_file': 'test_database.db',
-        'email_subject': 'Duplikacio Ellenorzes - Eredmenyek',
         'excel_prefix': 'duplikacio_export',
         'status_threshold_gyanus': '300',
         'status_threshold_masolt': '1200'
@@ -42,10 +40,8 @@ def load_simple_config():
     output_folder = os.path.normpath(config.get('output_folder', './test'))
     
     return {
-        'email': config.get('email', 'lovasz.otto@clarity.hu'),
         'input_folder': input_folder,
         'output_folder': output_folder,
-        'email_subject': config.get('email_subject', 'Duplikacio Ellenorzes - Eredmenyek'),
         'excel_prefix': config.get('excel_prefix', 'duplikacio_export'),
         'rename_prefix': config.get('rename_prefix', ''),
         'status_threshold_gyanus': int(config.get('status_threshold_gyanus', '300')),
@@ -55,8 +51,8 @@ def load_simple_config():
 def main():
     try:
         config = load_simple_config()
-        # Mindkét prefixet visszaadjuk, de a rename_prefix csak a configból jöjjön
-        print(f"EMAIL:{config['email']}|INPUT:{config['input_folder']}|OUTPUT:{config['output_folder']}|SUBJECT:{config['email_subject']}|EXCEL_PREFIX:{config['excel_prefix']}|RENAME_PREFIX:{config['rename_prefix']}|THRESHOLD_GYANUS:{config['status_threshold_gyanus']}|THRESHOLD_MASOLT:{config['status_threshold_masolt']}", end='')
+        # Email részek eltávolítva - csak az alapvető konfigurációs értékek
+        print(f"INPUT:{config['input_folder']}|OUTPUT:{config['output_folder']}|EXCEL_PREFIX:{config['excel_prefix']}|RENAME_PREFIX:{config['rename_prefix']}|THRESHOLD_GYANUS:{config['status_threshold_gyanus']}|THRESHOLD_MASOLT:{config['status_threshold_masolt']}", end='')
     except Exception as e:
         print(f"ERROR:{e}", end='')
 

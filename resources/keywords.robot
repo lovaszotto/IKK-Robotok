@@ -11,21 +11,17 @@ Process Config Line
     [Arguments]    ${config_line}
     @{config_parts}=    Split String    ${config_line}    |
     ${parts_len}=    Get Length    ${config_parts}
-    IF    ${parts_len} < 8
+    IF    ${parts_len} < 6
         Fail    Konfigurációs sor hibás vagy hiányos: ${config_line}
     END
-    ${email_part}=    Get From List    ${config_parts}    0
-    ${input_part}=    Get From List    ${config_parts}    1
-    ${output_part}=    Get From List    ${config_parts}    2
-    ${subject_part}=    Get From List    ${config_parts}    3
-    ${excel_prefix_part}=    Get From List    ${config_parts}    4
-    ${rename_prefix_part}=    Get From List    ${config_parts}    5
-    ${threshold_gyanus_part}=    Get From List    ${config_parts}    6
-    ${threshold_masolt_part}=    Get From List    ${config_parts}    7
-    ${config_email}=    Remove String    ${email_part}    EMAIL:
+    ${input_part}=    Get From List    ${config_parts}    0
+    ${output_part}=    Get From List    ${config_parts}    1
+    ${excel_prefix_part}=    Get From List    ${config_parts}    2
+    ${rename_prefix_part}=    Get From List    ${config_parts}    3
+    ${threshold_gyanus_part}=    Get From List    ${config_parts}    4
+    ${threshold_masolt_part}=    Get From List    ${config_parts}    5
     ${config_input}=    Remove String    ${input_part}    INPUT:
     ${config_output}=    Remove String    ${output_part}    OUTPUT:
-    ${config_subject}=    Remove String    ${subject_part}    SUBJECT:
     ${config_excel_prefix}=    Remove String    ${excel_prefix_part}    EXCEL_PREFIX:
     ${config_excel_prefix}=    Strip String    ${config_excel_prefix}
     ${config_excel_prefix}=    Remove String    ${config_excel_prefix}    '
@@ -39,21 +35,17 @@ Process Config Line
     ${config_threshold_gyanus}=    Remove String    ${threshold_gyanus_part}    THRESHOLD_GYANUS:
     ${config_threshold_masolt}=    Remove String    ${threshold_masolt_part}    THRESHOLD_MASOLT:
     # Globalis valtozok beallitasa
-    Set Global Variable    ${CONFIG_EMAIL}         ${config_email}
     Set Global Variable    ${CONFIG_INPUT_FOLDER}  ${config_input}
     Set Global Variable    ${CONFIG_OUTPUT_FOLDER}    ${config_output}
-    Set Global Variable    ${CONFIG_EMAIL_SUBJECT}    ${config_subject}
     Set Global Variable    ${CONFIG_EXCEL_PREFIX}     ${config_excel_prefix}
     Set Global Variable    ${RENAME_PREFIX}          ${config_rename_prefix}
     Set Global Variable    ${CONFIG_THRESHOLD_GYANUS}    ${config_threshold_gyanus}
     Set Global Variable    ${CONFIG_THRESHOLD_MASOLT}    ${config_threshold_masolt}
     Set Global Variable    ${DOCUMENT_PATH}           ${config_input}
-    # Sikeres konfiguráció betöltése - ikonokkal
+    # Sikeres konfiguráció betöltése
     Log To Console    Konfiguracio sikeresen betoltve!
-    Log To Console    Email: ${config_email}
     Log To Console    Bementi konyvtar: ${config_input}
     Log To Console    Kimeneti konyvtar: ${config_output}
-    Log To Console    Email targy: ${config_subject}
     Log To Console    Excel prefix: ${config_excel_prefix}
 *** Settings ***
 Library    ../libraries/DocxReader.py
@@ -108,7 +100,6 @@ Konfiguráció Betöltése
 
 
 Beolvasom A DOCX Fájlt
-    Log To Console    [TRACE] Beolvasom A DOCX Fájlt elindult
     ${szoveg}=    Read Docx    ${DOCX_FILE}
 
     Set Global Variable    ${DOCX_TEXT}    ${szoveg}
