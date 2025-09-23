@@ -139,6 +139,7 @@ Resource   variables.robot
 Resource   ../PLG-02-read_docx.robot
 Resource   get_file_size.resource
 Resource   ../PLG-03-rename_docx.robot
+Resource   ../PLG-01-Excel.robot
 
 
 *** Keywords ***
@@ -170,6 +171,12 @@ Konfiguráció Betöltése
     @{db_path_lines}=    Split To Lines    ${db_path_result.stdout}
     ${db_path}=    Get From List    ${db_path_lines}    -1
     Set Global Variable    ${SQLITE_DB_FILE}    ${db_path.strip()}
+    
+    # Input folder beolvasása a config-ból (egyszer a futás elején)
+    ${input_folder}=    Get Input Folder From Config
+    Set Global Variable    ${INPUT_FOLDER}    ${input_folder}
+    Log String To Console    Input folder globálisan beállítva: ${INPUT_FOLDER}
+    
     ELSE
     Log String To Console    Hiba a konfiguracio betoltesekor, alapertelmezettek hasznalata
     Log String To Console    Hibauzenet: ${config_result.stderr}
@@ -177,6 +184,28 @@ Konfiguráció Betöltése
     Log String To Console    ${EMPTY}
     Log String To Console    ═══════════KONFIGURACIO BETOLTESE KÉSZ════════════════════
     #Log To Console    [TRACE] Konfiguráció Betöltése kilépett
+
+Get Input Folder From Config
+    [Documentation]    Config fájlból input_folder érték kiolvasása
+    
+    # Config fájl beolvasása (egy szinttel feljebb a gyökérkönyvtárból)
+    ${config_content}=    Get File    ${CURDIR}/../Duplikacio.config
+    @{config_lines}=    Split To Lines    ${config_content}
+    
+    FOR    ${line}    IN    @{config_lines}
+        ${line_trimmed}=    Strip String    ${line}
+        ${is_input_folder}=    Run Keyword And Return Status    Should Start With    ${line_trimmed}    input_folder=
+        IF    ${is_input_folder}
+            ${input_folder_value}=    Replace String    ${line_trimmed}    input_folder=    ${EMPTY}
+            ${input_folder_normalized}=    Replace String    ${input_folder_value}    \\    /
+            Log To Console    Config-ból beolvasott input folder: ${input_folder_normalized}
+            RETURN    ${input_folder_normalized}
+        END
+    END
+    
+    # Ha nem találjuk, alapértelmezett érték
+    Log To Console    [FIGYELEM] input_folder nem található a config-ban!
+    RETURN    ${EMPTY}
 
 
 
@@ -447,12 +476,28 @@ Batch DOCX ellenőrzés
     FOR    ${docx_file}    IN    @{docx_files}
     Log String To Console    \n>>> FELDOLGOZÁS: (${current_index}/${file_count}) ${docx_file}
     ${current_index}=    Evaluate    ${current_index} + 1
+    
+    # PLG-01-Excel.robot meghívása
+    ${parent_path}    ${child_path}    ${filename}=    Process DOCX File Parameter    ${docx_file}
+    
+    # Könyvtár váltás ellenőrzése
+    ${current_dir}=    Evaluate    os.path.dirname(r"${docx_file}")    modules=os
+    ${previous_dir_exists}=    Run Keyword And Return Status    Variable Should Exist    ${PREVIOUS_DIR}
+    IF    ${previous_dir_exists}
+        ${dir_changed}=    Run Keyword And Return Status    Should Not Be Equal    ${current_dir}    ${PREVIOUS_DIR}
+        IF    ${dir_changed}
+            Log String To Console    --------------->Könyvtár változás: ${PREVIOUS_DIR} -> ${current_dir}
+        END
+    END
+
+    Set Global Variable    ${PREVIOUS_DIR}    ${current_dir}
+
     # Beállítja az aktuális DOCX fájlt változóban
     #itt hívd meg az átnevezést
-    ${docx_file}=    Rename Docx With Prefix    ${docx_file}
+    #${docx_file}=    Rename Docx With Prefix    ${docx_file}
     Set Global Variable    ${DOCX_FILE}    ${docx_file}
     # DOCX beolvasás és hibastátusz lekérdezése
-    ${szoveg}=    Read Docx    ${DOCX_FILE}
+    #${szoveg}=    Read Docx    ${DOCX_FILE}
     Set Global Variable    ${SZOVEG}    ${szoveg}
      #Log To Console    "===============================Beolvasom A DOCX Fájlt VÉGE==============================="
      #Log To Console    Szöveg beolvasva a Batchből: ${szoveg}        #otto was here
