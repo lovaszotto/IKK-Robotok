@@ -3,16 +3,27 @@
 Initialize Global Log File
     [Documentation]    Inicializálja a globális log fájl nevét a futás elején a gyökérkönyvtárban
     ${current_datetime}=    Get Current Date    result_format=%Y%m%d_%H%M%S
-    ${log_filename_only}=    Set Variable    RunLog_${current_datetime}.log
-    # Kezdetben a gyökérkönyvtárban hozzuk létre
+    ${log_filename_only}=    Set Variable    TempLog_${current_datetime}.log
+    # Kezdetben a gyökérkönyvtárban hozzuk létre ideiglenes névvel
     Set Global Variable    ${GLOBAL_LOG_FILENAME}    ${log_filename_only}
     Set Global Variable    ${LOG_FILENAME_ONLY}    ${log_filename_only}
     Log To Console    Globális log fájl inicializálva: ${log_filename_only}
 
+Update Log File Name With Database
+    [Documentation]    Frissíti a log fájl nevét az adatbázis neve alapján a konfiguráció betöltése után
+    ${current_datetime}=    Get Current Date    result_format=%Y%m%d_%H%M%S
+    # Az adatbázis fájl nevének kivonása útvonal nélkül
+    ${db_file_only}=    Evaluate    __import__('os').path.basename(r'${SQLITE_DB_FILE}')    modules=os
+    # .db kiterjesztés eltávolítása
+    ${db_name_only}=    Replace String    ${db_file_only}    .db    ${EMPTY}
+    ${log_filename_only}=    Set Variable    ${db_name_only}_${current_datetime}.log
+    Set Global Variable    ${LOG_FILENAME_ONLY}    ${log_filename_only}
+    Log To Console    Log fájl neve frissítve: ${log_filename_only}
+
 Move Log File To Output Folder
     [Documentation]    Áthelyezi a log fájlt az output könyvtárba a konfiguráció betöltése után
     ${output_folder}=    Get Variable Value    ${CONFIG_OUTPUT_FOLDER}    .
-    ${log_filename_only}=    Get Variable Value    ${LOG_FILENAME_ONLY}    RunLog_unknown.log
+    ${log_filename_only}=    Get Variable Value    ${LOG_FILENAME_ONLY}    TempLog_unknown.log
     ${new_log_path}=    Join Path    ${output_folder}    ${log_filename_only}
     
     # Ha létezik a régi log fájl a gyökérben, másoljuk át
@@ -87,7 +98,7 @@ Log String To Console
     END
 
 Process Config Line
-    Log String To Console    [TRACE] Process Config Line elindult
+    #Log String To Console    [TRACE] Process Config Line elindult
     [Arguments]    ${config_line}
     @{config_parts}=    Split String    ${config_line}    |
     ${parts_len}=    Get Length    ${config_parts}
@@ -144,14 +155,14 @@ Resource   ../PLG-03-rename_docx.robot
 *** Keywords ***
 
 Get Config Icon
-    Log String To Console    [TRACE] Get Config Icon elindult
+    #Log String To Console    [TRACE] Get Config Icon elindult
     [Documentation]    Ikonok tiltva: mindig üres string
     [Arguments]    ${icon_name}
     RETURN    ${EMPTY}
-    Log String To Console    [TRACE] Get Config Icon kilépett
+    #Log String To Console    [TRACE] Get Config Icon kilépett
 
 Konfiguráció Betöltése
-    Log String To Console    [TRACE] Konfiguráció Betöltése elindult
+    #Log String To Console    [TRACE] Konfiguráció Betöltése elindult
     [Documentation]    Plagium.config fajl betoltese es beallitasok alkalmazasa
     Log String To Console    \nKONFIGURACIO BETOLTESE...
     Log String To Console    ═══════════════════════════════
@@ -170,6 +181,8 @@ Konfiguráció Betöltése
     @{db_path_lines}=    Split To Lines    ${db_path_result.stdout}
     ${db_path}=    Get From List    ${db_path_lines}    -1
     Set Global Variable    ${SQLITE_DB_FILE}    ${db_path.strip()}
+    # Log fájl nevének frissítése az adatbázis neve alapján
+    Update Log File Name With Database
     ELSE
     Log String To Console    Hiba a konfiguracio betoltesekor, alapertelmezettek hasznalata
     Log String To Console    Hibauzenet: ${config_result.stderr}
@@ -189,7 +202,7 @@ Beolvasom A DOCX Fájlt
     #Log To Console    [TRACE] Beolvasom A DOCX Fájlt kilépett
 
 Kapcsolodas Az Adatbazishoz
-    Log String To Console    [TRACE] Kapcsolodas Az Adatbazishoz elindult
+    #Log String To Console    [TRACE] Kapcsolodas Az Adatbazishoz elindult
     [Documentation]    SQLite adatbázishoz kapcsolódás
     # Mindig bontsunk előző kapcsolatot, hogy ne legyen "Overwriting not closed connection" warning
     Run Keyword And Ignore Error    Disconnect From Database
@@ -208,14 +221,14 @@ Kapcsolodas Az Adatbazishoz
     #Log To Console    [TRACE] Kapcsolodas Az Adatbazishoz kilépett
 
 Adatbazis Kapcsolat Bezarasa
-    Log String To Console    [TRACE] Adatbazis Kapcsolat Bezarasa elindult
+    #Log String To Console    [TRACE] Adatbazis Kapcsolat Bezarasa elindult
     [Documentation]    Adatbázis kapcsolat bezárása
     Run Keyword And Ignore Error    Disconnect From Database
     Log String To Console    Adatbázis kapcsolat bezárva
-    Log String To Console    [TRACE] Adatbazis Kapcsolat Bezarasa kilépett
+    #Log String To Console    [TRACE] Adatbazis Kapcsolat Bezarasa kilépett
 
 Hash táblák ellenőrzése
-    Log String To Console    [TRACE] Hash táblák ellenőrzése elindult
+    #Log String To Console    [TRACE] Hash táblák ellenőrzése elindult
     [Documentation]    Egyszerű SQLite adatbázis teszt amely ténylegesen működik
     [Tags]    database    sqlite    working
     
@@ -231,7 +244,7 @@ Hash táblák ellenőrzése
     
     # hashCodes tábla létrehozása ha nem létezik foreign key kapcsolattal és külön file_name, file_path oszlopokkal (document_name nélkül)
     Log String To Console    CREATE TABLE IF NOT EXISTS hashCodes
-    Execute Sql String    CREATE TABLE IF NOT EXISTS hashCodes (hash_value TEXT(100) PRIMARY KEY, file_path TEXT NOT NULL, file_name TEXT NOT NULL, created_date TEXT NOT NULL, created_time TEXT NOT NULL, used_by_nbr INTEGER DEFAULT 1, line_content TEXT, redundancia_id INTEGER, FOREIGN KEY (redundancia_id) REFERENCES redundancia(id))
+    Execute Sql String    CREATE TABLE IF NOT EXISTS hashCodes (hash_value TEXT(100) PRIMARY KEY, file_path TEXT NOT NULL, file_name TEXT NOT NULL, created_date TEXT NOT NULL, created_time TEXT NOT NULL, used_by_nbr INTEGER DEFAULT 1, skipp BOOLEAN DEFAULT FALSE, line_content TEXT, redundancia_id INTEGER, FOREIGN KEY (redundancia_id) REFERENCES redundancia(id))
     Execute Sql String    CREATE INDEX IF NOT EXISTS idx_hashCodes_file ON hashCodes(file_name, file_path)
     
     # repeat tábla létrehozása ha nem létezik - az ismételt sorok tárolására
@@ -242,11 +255,7 @@ Hash táblák ellenőrzése
     Execute Sql String    CREATE INDEX IF NOT EXISTS idx_repeat_block_id ON repeat(block_id)
     Execute Sql String    CREATE INDEX IF NOT EXISTS idx_repeat_id ON repeat(id)
     
-    # skipHashCodes tábla létrehozása ha nem létezik - az átugrandó sorok hash értékeinek tárolására
-    Log String To Console    CREATE TABLE IF NOT EXISTS skipHashCodes
-    Execute Sql String    CREATE TABLE IF NOT EXISTS skipHashCodes (hashValue TEXT PRIMARY KEY, line_content TEXT)
-    
-    # DuplikacioSkip.config fájl beolvasása és skipHashCodes táblába töltése
+    # DuplikacioSkip.config fájl beolvasása és hashCodes táblába töltése skipp=TRUE értékkel
     ${skip_config_file}=    Set Variable    DuplikacioSkip.config
     ${skip_file_exists}=    Run Keyword And Return Status    File Should Exist    ${skip_config_file}
     IF    ${skip_file_exists}
@@ -257,12 +266,35 @@ Hash táblák ellenőrzése
             ${skip_line_trimmed}=    Strip String    ${skip_line}
             # Üres sorok kihagyása
             IF    '${skip_line_trimmed}' != ''
-                # MD5 hash készítése a sorból
-                ${skip_md5}=    Evaluate    hashlib.md5('${skip_line_trimmed}'.encode('utf-8')).hexdigest()    modules=hashlib
-                # Escapelt sor készítése SQL-hez
-                ${skip_line_esc}=    Replace String    ${skip_line_trimmed}    '    ''
-                # Beszúrás skipHashCodes táblába (INSERT OR IGNORE hogy ne okozzon hibát már létező hash esetén)
-                Run Keyword And Ignore Error    Execute Sql String    INSERT OR IGNORE INTO skipHashCodes (hashValue, line_content) VALUES ('${skip_md5}', '${skip_line_esc}')
+                #Log String To Console    Átlépés: ${skip_line_trimmed}
+                # átlépendő sorok beírása a hashCodes táblába
+                ${escaped_sor}=    Replace String    ${skip_line_trimmed}    '    ''
+                ${escaped_sor}=    Replace String    ${escaped_sor}    "    ""  # dupla idézőjel escape
+                ${escaped_sor}=    Replace String    ${escaped_sor}    \n    ${EMPTY}
+                ${escaped_sor}=    Replace String    ${escaped_sor}    \r    ${EMPTY}
+                ${escaped_sor}=    Replace String    ${escaped_sor}    \t    ${EMPTY}
+            
+                ${tomoritett}=    Replace String Using Regexp    ${escaped_sor}    [^a-zA-Z0-9áéíóöőúüűÁÉÍÓÖŐÚÜŰ]    ${EMPTY}
+              
+                # Escape all problematic characters before Evaluate (replace with empty string)
+                ${tomoritett_safe}=    Replace String    ${tomoritett}    '    ${EMPTY}
+                ${tomoritett_safe}=    Replace String    ${tomoritett_safe}    "    ${EMPTY}
+                ${tomoritett_safe}=    Replace String    ${tomoritett_safe}    \n    ${EMPTY}
+                ${tomoritett_safe}=    Replace String    ${tomoritett_safe}    \r    ${EMPTY}
+                ${tomoritett_safe}=    Replace String    ${tomoritett_safe}    \t    ${EMPTY}
+        
+                #MD5 érték számolása
+                ${md5}=    Evaluate    hashlib.md5(r'${tomoritett_safe}'.encode('utf-8')).hexdigest()    modules=hashlib
+            
+               #Beírjuk a hash táblába
+               ${file_name}=    Evaluate    os.path.basename(r'${skip_config_file}')    modules=os
+               ${file_path}=    Evaluate    os.path.dirname(r'${skip_config_file}')    modules=os
+                ${created_date}=    Evaluate    __import__('datetime').datetime.now().strftime('%Y-%m-%d')
+                ${created_time}=    Evaluate    __import__('datetime').datetime.now().strftime('%H:%M:%S')
+                ${REDUNDANCIA_ID}=    Set Variable    0
+                #Run Keyword And Ignore Error    Execute Sql String    INSERT INTO hashCodes (hash_value, file_name, file_path, created_date, created_time, used_by_nbr, skipp, line_content, redundancia_id) VALUES ('${md5}', '${file_name_esc}', '${file_path_esc}', '${created_date}', '${created_time}', 0, TRUE, '${escaped_sor}', ${REDUNDANCIA_ID})
+                Run Keyword And Ignore Error    Execute Sql String    INSERT OR IGNORE INTO hashCodes (hash_value, file_name, file_path, created_date, created_time, used_by_nbr, skipp, line_content, redundancia_id) VALUES ('${md5}', '${file_name}', '${file_path}', '${created_date}', '${created_time}', 0, TRUE, '${escaped_sor}', ${REDUNDANCIA_ID})
+                #Log String To Console      ${file_path}/${file_name} - ${md5} - ${escaped_sor}    
             END
         END
         ${skip_count}=    Get Length    ${skip_lines}
@@ -282,13 +314,13 @@ Hash táblák ellenőrzése
     #Should Be Equal As Integers    ${final_count}    4
     #Log To Console    \nVégső felhasználók száma: ${final_count}
     
-    Log String To Console    [TRACE] Hash táblák ellenőrzése kilépett
+    #Log String To Console    [TRACE] Hash táblák ellenőrzése kilépett
    
 
 
 
 Lekerem A Felhasznalokat
-    Log String To Console    [TRACE] Lekerem A Felhasznalokat elindult
+    #Log String To Console    [TRACE] Lekerem A Felhasznalokat elindult
     [Documentation]    Összes felhasználó lekérése a users táblából
     ${result}=    Query    SELECT id, username, email, created_date FROM users ORDER BY id
     Log String To Console    Lekért felhasználók száma: ${result.__len__()}
@@ -300,10 +332,10 @@ Lekerem A Felhasznalokat
     Log String To Console    ID: ${id}, Felhasználónév: ${username}, Email: ${email}, Létrehozva: ${created}
     END
     RETURN    ${result}
-    Log String To Console    [TRACE] Lekerem A Felhasznalokat kilépett
+    #Log String To Console    [TRACE] Lekerem A Felhasznalokat kilépett
 
 Lekerem A Felhasznalot ID Alapjan
-    Log String To Console    [TRACE] Lekerem A Felhasznalot ID Alapjan elindult
+    #Log String To Console    [TRACE] Lekerem A Felhasznalot ID Alapjan elindult
     [Documentation]    Egy felhasználó lekérése ID alapján
     [Arguments]    ${user_id}
     ${result}=    Query    SELECT id, username, email, created_date FROM users WHERE id = ${user_id}
@@ -316,19 +348,19 @@ Lekerem A Felhasznalot ID Alapjan
     Log String To Console    ID: ${id}, Felhasználónév: ${felhasznalonev}, Email: ${email}, Létrehozva: ${letrehozva}
     END
     RETURN    ${result}
-    Log String To Console    [TRACE] Lekerem A Felhasznalot ID Alapjan kilépett
+    #Log String To Console    [TRACE] Lekerem A Felhasznalot ID Alapjan kilépett
 
 Ellenorzom Az Adatbazist
-    Log String To Console    [TRACE] Ellenorzom Az Adatbazist elindult
+    #Log String To Console    [TRACE] Ellenorzom Az Adatbazist elindult
     [Documentation]    Adatbázis állapot ellenőrzése
     ${row_count}=    Row Count    SELECT COUNT(*) FROM users
     Log String To Console    Felhasználók száma az adatbázisban: ${row_count}
     Should Be True    ${row_count} >= 0
     RETURN    ${row_count}
-    Log String To Console    [TRACE] Ellenorzom Az Adatbazist kilépett
+    #Log String To Console    [TRACE] Ellenorzom Az Adatbazist kilépett
 
 Adatbazis Inicializalasa
-    Log String To Console    [TRACE] Adatbazis Inicializalasa elindult
+    #Log String To Console    [TRACE] Adatbazis Inicializalasa elindult
     [Documentation]    SQLite adatbázis inicializálása táblákkal és teszt adatokkal
     # Users tábla létrehozása ha nem létezik
     Execute Sql String     IF NOT EXISTS users (id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT NOT NULL, email TEXT NOT NULL, created_date TEXT DEFAULT CURRENT_TIMESTAMP)
@@ -346,7 +378,7 @@ Adatbazis Inicializalasa
     ELSE
     Log String To Console    SQLite adatbázisban már vannak adatok (${count} felhasználó)
     END
-    Log String To Console    [TRACE] Adatbazis Inicializalasa kilépett
+    #Log String To Console    [TRACE] Adatbazis Inicializalasa kilépett
 
 Fájladatok Feldolgozása Redundancia Táblába
     #Log To Console    [TRACE] Fájladatok Feldolgozása Redundancia Táblába elindult
@@ -408,7 +440,7 @@ Fájladatok Feldolgozása Redundancia Táblába
         Set Global Variable    ${SORON}    ${sorok}
     END
    
-    Log String To Console    Sorok száma: ${ossz_sor}
+    #Log String To Console    Sorok száma: ${ossz_sor}
     
    
     #Log To Console    [TRACE] Fájladatok Feldolgozása Redundancia Táblába kilépett
@@ -419,7 +451,7 @@ Fájladatok Feldolgozása Redundancia Táblába
 
 
 Batch DOCX ellenőrzés
-    Log String To Console    [TRACE] Batch DOCX ellenőrzés elindult
+    #Log String To Console    [TRACE] Batch DOCX ellenőrzés elindult
     [Documentation]    Batch feldolgozás összes DOCX fájlra a DOCUMENT_PATH útvonalon
     
     # DOCX fájlok keresése a megadott útvonalon
@@ -488,10 +520,10 @@ Batch DOCX ellenőrzés
 
     Log String To Console    === ÖSSZESÍTÉS ===
     Log String To Console    \nFeldolgozott dokumentumok száma: ${file_count}
-    Log String To Console    [TRACE] Batch DOCX ellenőrzés kilépett
+    #Log String To Console    [TRACE] Batch DOCX ellenőrzés kilépett
 
 Redundancia Eredmények Ellenőrzése
-    Log String To Console    [TRACE] Redundancia Eredmények Ellenőrzése elindult
+    #Log String To Console    [TRACE] Redundancia Eredmények Ellenőrzése elindult
     [Documentation]    Redundancia tábla status oszlopának részletes ellenőrzése
     
     # Minden futás előtt a redundancia tábla biztosítása
@@ -583,7 +615,7 @@ Redundancia Eredmények Ellenőrzése
     Log String To Console    \n═══════════════════════════════════════
 
 Excel Export Redundancia Tábla
-    Log String To Console    [TRACE] Excel Export Redundancia Tábla elindult
+    #Log String To Console    [TRACE] Excel Export Redundancia Tábla elindult
     [Documentation]    Redundancia tábla tartalmának exportálása Excel fájlba a PLG-03-write-excel.robot használatával
     
     # Export előtt minden nyitott kapcsolatot lezárunk
@@ -607,12 +639,12 @@ Excel Export Redundancia Tábla
     Log String To Console    ${result.stderr}
     Log String To Console    Excel export sikertelen, de a folyamat folytatódik...
     END
-    Log String To Console    [TRACE] Excel Export Redundancia Tábla kilépett
+    #Log String To Console    [TRACE] Excel Export Redundancia Tábla kilépett
 
 
 
 Check Redundancia Table Exists
-    Log String To Console    [TRACE] Check Redundancia Table Exists elindult
+    #Log String To Console    [TRACE] Check Redundancia Table Exists elindult
     [Documentation]    Ellenőrzi, hogy a redundancia tábla létezik-e az SQLite adatbázisban
     Run Keyword And Ignore Error    Connect To Database    sqlite3    ${SQLITE_DB_FILE}
     ${result}=    Query    SELECT name FROM sqlite_master WHERE type='table' AND name='redundancia'
@@ -620,5 +652,5 @@ Check Redundancia Table Exists
     Run Keyword If    ${table_count} == 0    Log String To Console    FIGYELMEZTETÉS: A 'redundancia' tábla nem létezik az adatbázisban!
     Run Keyword If    ${table_count} == 0    Fail    A 'redundancia' tábla nem jött létre!
     Disconnect From Database
-    Log String To Console    [TRACE] Check Redundancia Table Exists kilépett
+    #Log String To Console    [TRACE] Check Redundancia Table Exists kilépett
 

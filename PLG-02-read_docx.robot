@@ -132,8 +132,8 @@ DOCX Beolvasás Teszt
     ${progress_counter}=    Set Variable    0
 
  # Aktuális dátum és idő megszerzése csak egyszer
-    ${current_date}=    Evaluate    __import__('datetime').datetime.now().strftime('%Y-%m-%d')
-    ${current_time}=    Evaluate    __import__('datetime').datetime.now().strftime('%H:%M:%S')
+    ${current_date}=    Evaluate    __import__('datetime').datetime.now().strftime(r'%Y-%m-%d')
+    ${current_time}=    Evaluate    __import__('datetime').datetime.now().strftime(r'%H:%M:%S')
      FOR    ${sor}    IN    @{sorok}
 
        # Szerepel-e legalább 4 szóköz karakter a sor-ban?
@@ -148,36 +148,27 @@ DOCX Beolvasás Teszt
         # Ha a sor számmal kezdődik és számmal végződik, ugorjuk át
         ${starts_with_digit}=    Run Keyword And Return Status    Should Match Regexp    ${sor}    ^\[0-9].*\[0-9]$    flags=MULTILINE
         IF    ${starts_with_digit}         #and ${ends_with_digit}
-            Log String To Console    Skipp:${sor}
+            #Log String To Console    Skipp:${sor}
             CONTINUE
         END
         #Ha táblázattal kezdődik, ugorjuk át
         ${starts_with_tablazat}=    Run Keyword And Return Status    Should Match Regexp    ${sor}    ^\s*táblázat.*\[0-9]$    flags=MULTILINE
         IF    ${starts_with_tablazat}         #and ${ends_with_digit}
-            Log String To Console    Táblázat:${sor}
+            #Log String To Console    Táblázat:${sor}
             CONTINUE
         END
         #Ha Ábrával kezdődik, ugorjuk át    
         ${starts_with_abra}=    Run Keyword And Return Status    Should Match Regexp    ${sor}    ^\s*ábra.*\[0-9]$    flags=MULTILINE
         IF    ${starts_with_abra}         #and ${ends_with_digit}
-            Log String To Console    Ábra:${sor}
+            #Log String To Console    Ábra:${sor}
             CONTINUE
         END
-        #Ellenőrizzük, hogy a sor szerepel-e a skipHashCode listában
-           #MD5 érték számolása
-        ${skipmd5}=    Evaluate    __import__('hashlib').md5(u'''${sor}'''.encode('utf-8')).hexdigest()
-       # Ellenőrizzük, hogy létezik-e már ez a hash az adatbázisban
-        @{skipresults}=    Query    SELECT COUNT(*) FROM skipHashCodes WHERE hashValue = '${skipmd5}'
-        ${skipexists}=    Set Variable    0
-        ${skiprow}=    Get From List    ${skipresults}    0
-        ${skiprow_value}=    Get From List    ${skiprow}    0
-        ${skipexists}=    Set Variable If    len(${skipresults}) > 0    ${skiprow_value}    0
-        #Log To Console    ===== ${exists} / ${results}=====
-        IF    $skipexists > 0     #már létezik
-            Log String To Console    Skip hash:${sor}
+         #Ha Forrás:-sal kezdődik, ugorjuk át    
+        ${starts_with_abra}=    Run Keyword And Return Status    Should Match Regexp    ${sor}    ^\s*forrás:.*$    flags=MULTILINE
+        IF    ${starts_with_abra}         #and ${ends_with_digit}
+            #Log String To Console    Ábra:${sor}
             CONTINUE
         END
-
         ${sor_hossz}=    Get Length    ${sor}
         #${tomoritett}=    Replace String Using Regexp    ${sor}    [^a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ]    ${EMPTY}
        
@@ -210,7 +201,7 @@ DOCX Beolvasás Teszt
         END
         
         #MD5 érték számolása
-        ${md5}=    Evaluate    __import__('hashlib').md5(u'''${tomoritett_safe}'''.encode('utf-8')).hexdigest()
+        ${md5}=    Evaluate    hashlib.md5(r'${tomoritett_safe}'.encode('utf-8')).hexdigest()    modules=hashlib
               
         # Ellenőrizzük, hogy létezik-e már ez a hash az adatbázisban
         @{results}=    Query    SELECT COUNT(*) FROM hashCodes WHERE hash_value = '${md5}'
@@ -221,9 +212,21 @@ DOCX Beolvasás Teszt
         #Log To Console    ===== ${exists} / ${results}=====
         IF    $exists > 0     #már létezik
             #Log To Console  ${exists} - ${sor_index} ${sor} -->>>LÉTEZŐ  HASH<<<
-          #lekérjük a benne lévő file_name és file_path értékét és escapeljük
+            #lekérjük a benne lévő file_name és file_path értékét és escapeljük
+            #ellenőrizzük, hogy a skipp értéke Igaz-e
+            #Ha igen, akkor skippeljük a további feldolgozást
+            @{source_result}=    Query    SELECT file_name, file_path, skipp FROM hashCodes WHERE hash_value = '${md5}'  LIMIT 1
+            ${skipp_value}=    Set Variable    False
+            IF    ${source_result.__len__()} > 0
+                ${source_record}=    Get From List    ${source_result}    0
+                ${skipp_value}=    Get From List    ${source_record}    2
+            END
+            IF    '${skipp_value}' == 'True' or ${skipp_value} == ${True}
+                #Log String To Console    ---Töltelék szöveg: ${sor}
+                CONTINUE
+            END
             ${total_ismetelt_karakterszam}=    Evaluate    ${total_ismetelt_karakterszam} + ${sor_hossz}
-            @{source_result}=    Query    SELECT file_name, file_path FROM hashCodes WHERE hash_value = '${md5}'  LIMIT 1
+            #@{source_result}=    Query    SELECT file_name, file_path FROM hashCodes WHERE hash_value = '${md5}'  LIMIT 1
             IF     True    #source_file kezelése
                 ${source_file_name}=    Set Variable    unknown
                 ${source_file_path}=    Set Variable    unknown
@@ -320,9 +323,8 @@ DOCX Beolvasás Teszt
     ${sor_hossz}=    Get Length    ${sor}
     ${total_karakterszam}=    Evaluate    ${total_karakterszam} + ${sor_hossz}
         ${ismetelt_karakterszam}=    Evaluate    ${ismetelt_karakterszam} + ${sor_hossz}
-           
         #Beírjuk a hash táblába
-        Run Keyword And Ignore Error    Execute Sql String    INSERT INTO hashCodes (hash_value, file_name, file_path, created_date, created_time, used_by_nbr, line_content, redundancia_id) VALUES ('${md5}', '${file_name_esc}', '${file_path_esc}', '${current_date}', '${current_time}', 0, '${escaped_sor}', ${REDUNDANCIA_ID})
+        Run Keyword And Ignore Error    Execute Sql String    INSERT INTO hashCodes (hash_value, file_name, file_path, created_date, created_time, used_by_nbr, skipp, line_content, redundancia_id) VALUES ('${md5}', '${file_name_esc}', '${file_path_esc}', '${current_date}', '${current_time}', 0, FALSE, '${escaped_sor}', ${REDUNDANCIA_ID})
         #Növeljük a használtság számlálót
         Execute Sql String    UPDATE hashCodes SET used_by_nbr = used_by_nbr + 1 WHERE hash_value = '${md5}'   
 
