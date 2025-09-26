@@ -99,6 +99,14 @@ DOCX Beolvasás Teszt
     ${max_duplikacio_szamlalo}=    Set Variable    0
         
     ${marker}=    Set Variable    .
+    # Marker számlálók (kibővített rendszer)
+    ${cnt_new_block}=    Set Variable    0    # [ új blokk
+    ${cnt_dup_cont}=    Set Variable    0    # *
+    ${cnt_suspect}=    Set Variable    0    # ?
+    ${cnt_copied}=    Set Variable    0    # !
+    ${cnt_normal}=    Set Variable    0    # .
+    ${cnt_skip_db}=    Set Variable    0    # - adatbázis skip
+    ${cnt_skip_len}=    Set Variable    0    # _ hossz miatti skip
   
     #
     # Fájl név és file_path kivonása (közös használatra)
@@ -140,7 +148,9 @@ DOCX Beolvasás Teszt
         @{spaces}=    Split String    ${sor}    ${SPACE}
         ${space_count}=    Get Length    ${spaces}
         IF    ${space_count} < 4    
-            #Log To Console   Skipped ( ${sor} )     no_newline=True
+            # HIDDEN len-skip marker (nem írjuk ki a konzolra, csak a belső statisztikába számít)
+            ${overview_string}=    Set Variable    ${overview_string}_
+            ${cnt_skip_len}=    Evaluate    ${cnt_skip_len} + 1
             CONTINUE
         END
         #Tartalomjegyzék és ábrajegyzék átlépése
@@ -184,8 +194,9 @@ DOCX Beolvasás Teszt
         ${tomoritett_safe}=    Replace String    ${tomoritett_safe}    \t    ${EMPTY}
         #Ha a tömörített sor hossza kisebb, mint a minimum, ugorjuk át
         IF    ${sor_hossz} < ${TOKEN_MIN}
-            #${tul_rovid_szamlalo}=    Evaluate    ${tul_rovid_szamlalo} + 1
-            #Log To Console   Skipped ( ${sor} )     no_newline=True
+            # HIDDEN len-skip marker (nem írjuk ki a konzolra, csak a belső statisztikába számít)
+            ${overview_string}=    Set Variable    ${overview_string}_
+            ${cnt_skip_len}=    Evaluate    ${cnt_skip_len} + 1
             CONTINUE
         END
         ${sor_index}=    Evaluate    ${sor_index} + 1
@@ -222,7 +233,10 @@ DOCX Beolvasás Teszt
                 ${skipp_value}=    Get From List    ${source_record}    2
             END
             IF    '${skipp_value}' == 'True' or ${skipp_value} == ${True}
-                #Log String To Console    ---Töltelék szöveg: ${sor}
+                # Adatbázis által skippelt sor
+                Log String To Console    -    no_newline=True
+                ${overview_string}=    Set Variable    ${overview_string}-
+                ${cnt_skip_db}=    Evaluate    ${cnt_skip_db} + 1
                 CONTINUE
             END
             ${total_ismetelt_karakterszam}=    Evaluate    ${total_ismetelt_karakterszam} + ${sor_hossz}
@@ -258,6 +272,8 @@ DOCX Beolvasás Teszt
                 ${ismetelt_karakterszam}=    Set Variable    0
                 ${in_group_ismetelt_karakterszam}=    Set Variable    0
                 ${aktualis_block_id}=    Evaluate    ${aktualis_block_id} + 1
+                ${marker}=    Set Variable    [
+                ${cnt_new_block}=    Evaluate    ${cnt_new_block} + 1
 
             ELSE
                 #folytatódik az ismétlési blokk
@@ -265,6 +281,8 @@ DOCX Beolvasás Teszt
                  ${max_ismetelt_karakterszam}=    Evaluate    max(${ismetelt_karakterszam}, ${max_ismetelt_karakterszam})
            
                  ${aktualis_duplikacio_szamlaló}=    Evaluate    ${aktualis_duplikacio_szamlaló} + 1
+                ${marker}=    Set Variable    *
+                ${cnt_dup_cont}=    Evaluate    ${cnt_dup_cont} + 1
             END
              ${elozo_duplikalt}=    Set Variable    True
             # Duplikált tartalom esetén számlálók növelése
@@ -277,21 +295,24 @@ DOCX Beolvasás Teszt
             ${max_duplikacio_szamlalo}=    Evaluate    max(${max_duplikacio_szamlalo}, ${aktualis_block_id})
            
            #Log To Console   ISMETELT_KARAKTERSZAM: ${ismetelt_karakterszam}        
-           # Duplikált tartalom - ellenőrizzük a státuszt a jelenleg ismételt karakterszám alapján
-             IF    ${ismetelt_karakterszam} < ${CONFIG_THRESHOLD_GYANUS}
-                    ${marker}=    Set Variable    *
-            END
+              # Duplikált tartalom - ellenőrizzük a státuszt a jelenleg ismételt karakterszám alapján
+                                 IF    ${ismetelt_karakterszam} < ${CONFIG_THRESHOLD_GYANUS}
+                                     # Marad a blokk marker ([ vagy *) - no-op
+                            No Operation
+                        END
             IF        ${ismetelt_karakterszam} >= ${CONFIG_THRESHOLD_MASOLT}
                 IF     '${current_status}' == 'Gyanús' or '${current_status}' == 'Üres'
                     ${current_status}=    Set Variable    Másolt
                 END
                 ${marker}=    Set Variable    !
+                ${cnt_copied}=    Evaluate    ${cnt_copied} + 1
             END 
             IF    ${ismetelt_karakterszam} >= ${CONFIG_THRESHOLD_GYANUS} and ${ismetelt_karakterszam} < ${CONFIG_THRESHOLD_MASOLT}
                    IF     '${current_status}' == 'Rendben' or '${current_status}' == 'Üres'
                         ${current_status}=    Set Variable    Gyanús
                     END
                 ${marker}=    Set Variable    ?
+                ${cnt_suspect}=    Evaluate    ${cnt_suspect} + 1
                 #Log To Console    ${marker} ${ismetelt_karakterszam}
             END
             #beírás repeat táblába
@@ -304,6 +325,7 @@ DOCX Beolvasás Teszt
                 ${current_status}=    Set Variable    Rendben
             END
             ${marker}=    Set Variable    .
+            ${cnt_normal}=    Evaluate    ${cnt_normal} + 1
             #Log To Console    ${sor_index} ${sor} --<<<HIÁNYZÓ HASH>>>
             ${elozo_duplikalt}=    Set Variable    False
             ${blokkon_beluli_sor_szam}=    Set Variable    0  # Új blokk indítása esetén nullázás
@@ -316,8 +338,8 @@ DOCX Beolvasás Teszt
         ${overview_string}=    Set Variable    ${overview_string}${marker}
         ${progress_counter}=    Evaluate    ${progress_counter} + 1
         # Manuális sortörések minden 100. és 1000. karakternél
-        Run Keyword If    ${progress_counter} % 1000 == 0    Log String To Console    \n\n    no_newline=True
-        Run Keyword If    ${progress_counter} % 100 == 0 and ${progress_counter} % 1000 != 0    Log String To Console    \n    no_newline=True
+        #Run Keyword If    ${progress_counter} % 1000 == 0    Log String To Console    \n\n    no_newline=True
+        #Run Keyword If    ${progress_counter} % 100 == 0 and ${progress_counter} % 1000 != 0    Log String To Console    \n    no_newline=True
         
         #az első előfordulás hosszát is beszámítjuk
     ${sor_hossz}=    Get Length    ${sor}
@@ -348,6 +370,20 @@ DOCX Beolvasás Teszt
 
     Log String To Console    [>>> ${current_status} <<<]\n
     Execute Sql String    UPDATE redundancia SET repeat_block_nbr = ${aktualis_block_id}, max_ismetlesek_szama = ${max_duplikacio_szamlalo}, max_ismetelt_karakterszam = ${max_ismetelt_karakterszam}, repeated_percent = ${repeated_percent}, status = '${current_status}', overview = '${overview_string_esc}' WHERE id = ${REDUNDANCIA_ID}
+
+    # Marker / sor statisztika debug célra
+    ${marker_count}=    Get Length    ${overview_string}
+    ${processed_line_count}=    Set Variable    ${sor_index}
+    Log String To Console    MARKER_STATS markers=${marker_count} processed_lines=${processed_line_count}\n
+    ${dup_total}=    Evaluate    ${cnt_new_block} + ${cnt_dup_cont} + ${cnt_suspect} + ${cnt_copied}
+    ${skip_total}=    Evaluate    ${cnt_skip_db} + ${cnt_skip_len}
+    Log String To Console    MARKER_BREAKDOWN [(new)=${cnt_new_block} *(cont)=${cnt_dup_cont} ?(suspect)=${cnt_suspect} !(copied)=${cnt_copied} .(normal)=${cnt_normal} - (db-skip)=${cnt_skip_db} _ (len-skip)=${cnt_skip_len} skip_total=${skip_total} dup_total=${dup_total}\n
+    # Effektíven feldolgozott sorok és skip százalék (A pont)
+    ${effective_processed}=    Evaluate    ${marker_count} - ${skip_total}
+    ${skip_percent}=    Evaluate    round(${skip_total} / ${marker_count} * 100, 2) if ${marker_count} > 0 else 0
+    Log String To Console    MARKER_EFFECTIVE effective_processed=${effective_processed} total=${marker_count} skip_total=${skip_total} skip_percent=${skip_percent}%\n
+    Run Keyword If    ${cnt_skip_len} > 0    Log String To Console    MARKER_NOTE len-skip '_' karakterek elrejtve a konzolon (belsőleg számolva)\n
+    Log String To Console    MARKER_LEGEND [=új duplikációs blokk kezdete, *=blokk folytatás, ?=gyanús küszöb, !=másolt küszöb, .=egyedi sor, -=adatbázis alapján skippelt, _=hossz / szóköz / minimális feltétel miatti skippelt\n
 
     #Execute Sql String    UPDATE redundancia SET repeat_block_nbr = ${aktualis_block_id} ,max_ismetlesek_szama = ${max_duplikacio_szamlalo}, max_ismetelt_karakterszam = ${max_total_ismetelt_karakterszam}, status = '${current_status}', overview = '${overview_string_esc}' WHERE id = ${REDUNDANCIA_ID}
 

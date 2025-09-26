@@ -71,10 +71,44 @@ Format Message With Line Breaks
 Log String To Console
     [Arguments]    ${msg}    ${no_newline}=False
     [Documentation]    Logs message both to console and to timestamped log file
-    # Log to console (with optional no_newline parameter)
+    # Buffered console output: no_newline=True esetén gyűjtjük és csak minden 100. üzenetnél flush-oljuk
+    ${buffer_exists}=    Run Keyword And Return Status    Variable Should Exist    ${CONSOLE_BUFFER}
+    IF    not ${buffer_exists}
+        ${CONSOLE_BUFFER}=    Create List
+        ${CONSOLE_BUFFER_COUNT}=    Set Variable    0
+        Set Suite Variable    ${CONSOLE_BUFFER}
+        Set Suite Variable    ${CONSOLE_BUFFER_COUNT}
+    END
     IF    ${no_newline}
-        Log To Console    ${msg}    no_newline=True
+        Append To List    ${CONSOLE_BUFFER}    ${msg}
+        ${CONSOLE_BUFFER_COUNT}=    Evaluate    ${CONSOLE_BUFFER_COUNT} + 1
+        Set Suite Variable    ${CONSOLE_BUFFER_COUNT}
+        ${should_flush}=    Evaluate    ${CONSOLE_BUFFER_COUNT} % 100 == 0
+        IF    ${should_flush}
+            ${joined}=    Catenate    SEPARATOR=    @{CONSOLE_BUFFER}
+            Log To Console    ${joined}
+            # File log flush handled below (treated as normal line)
+            ${CONSOLE_BUFFER}=    Create List
+            Set Suite Variable    ${CONSOLE_BUFFER}
+            # Számláló nullázása a 100-as flush után
+            ${CONSOLE_BUFFER_COUNT}=    Set Variable    0
+            Set Suite Variable    ${CONSOLE_BUFFER_COUNT}
+        ELSE
+            # Korai visszatérés: még nem flush-olunk, de a fájlba sem írunk részleges puffert
+            RETURN
+        END
     ELSE
+        # Normál (newline) üzenet előtt flush, ha van felgyűlt puffer
+        ${has_buffer_items}=    Evaluate    len(${CONSOLE_BUFFER}) > 0 if ${buffer_exists} else False
+        IF    ${has_buffer_items}
+            ${joined}=    Catenate    SEPARATOR=    @{CONSOLE_BUFFER}
+            Log To Console    ${joined}
+            ${CONSOLE_BUFFER}=    Create List
+            Set Suite Variable    ${CONSOLE_BUFFER}
+            # Számláló nullázása normál flush esetén
+            ${CONSOLE_BUFFER_COUNT}=    Set Variable    0
+            Set Suite Variable    ${CONSOLE_BUFFER_COUNT}
+        END
         Log To Console    ${msg}
     END
     
@@ -88,12 +122,45 @@ Log String To Console
     ${log_filename_exists}=    Run Keyword And Return Status    Variable Should Exist    ${GLOBAL_LOG_FILENAME}
     IF    ${log_filename_exists}
         # Append to log file without timestamp (with or without newline based on parameter)
+        # Ha most flush történt (no_newline ciklus 100-adik eleme vagy normál sor előtt puffer flush), már Log To Console kiírta a teljes buffert.
+        # Ebben az esetben az utolsó "joined" tartalom a konzolra ment. A fájl számára ugyanazt a logikát követjük.
+        ${has_buffer_items_after}=    Run Keyword And Return Status    Variable Should Exist    ${CONSOLE_BUFFER}
+        ${buffer_len}=    Run Keyword If    ${has_buffer_items_after}    Evaluate    len(${CONSOLE_BUFFER})    ELSE    Set Variable    0
+        # Ha no_newline ágon korai RETURN történt, ide nem jutunk, tehát csak flush esetén vagy normál sor esetén érünk ide.
         IF    ${no_newline}
-            # Format message with line breaks every 100 chars and double breaks every 1000 chars
-            ${formatted_msg}=    Format Message With Line Breaks    ${msg}
-            Append To File    ${GLOBAL_LOG_FILENAME}    ${formatted_msg}
+            # Ez flush utáni állapot: a puffer már kiürítve, a kiírt tartalom a ${joined} volt.
+            # A joined változó lokális lehet, ha nem létezne (védjük):
+            ${joined_exists}=    Run Keyword And Return Status    Variable Should Exist    ${joined}
+            IF    ${joined_exists}
+                Append To File    ${GLOBAL_LOG_FILENAME}    ${joined}\n
+            ELSE
+                Append To File    ${GLOBAL_LOG_FILENAME}    ${msg}\n
+            END
         ELSE
             Append To File    ${GLOBAL_LOG_FILENAME}    ${msg}\n
+        END
+    END
+
+Flush Console Buffer
+    [Documentation]    Kézi flush: kiírja a felgyűlt no_newline buffer tartalmát (ha van) és üríti a puffert.
+    ${buffer_exists}=    Run Keyword And Return Status    Variable Should Exist    ${CONSOLE_BUFFER}
+    IF    ${buffer_exists}
+        ${has_items}=    Evaluate    len(${CONSOLE_BUFFER}) > 0
+        IF    ${has_items}
+            ${joined}=    Catenate    SEPARATOR=    @{CONSOLE_BUFFER}
+            Log To Console    ${joined}
+            ${log_filename_exists}=    Run Keyword And Return Status    Variable Should Exist    ${GLOBAL_LOG_FILENAME}
+            IF    ${log_filename_exists}
+                Append To File    ${GLOBAL_LOG_FILENAME}    ${joined}\n
+            END
+            ${CONSOLE_BUFFER}=    Create List
+            Set Suite Variable    ${CONSOLE_BUFFER}
+            # Számláló nullázása manuális flush után
+            ${count_exists}=    Run Keyword And Return Status    Variable Should Exist    ${CONSOLE_BUFFER_COUNT}
+            IF    ${count_exists}
+                ${CONSOLE_BUFFER_COUNT}=    Set Variable    0
+                Set Suite Variable    ${CONSOLE_BUFFER_COUNT}
+            END
         END
     END
 
@@ -478,6 +545,24 @@ Batch DOCX ellenőrzés
     ${current_index}=    Set Variable    1
     FOR    ${docx_file}    IN    @{docx_files}
     Log String To Console    \n>>> FELDOLGOZÁS: (${current_index}/${file_count}) ${docx_file}
+    # Resume logika: ha a redundancia táblában már végleges (nem Üres) státusz van ehhez a fájlhoz, kihagyjuk
+    ${base_name}=    Evaluate    os.path.basename(r"${docx_file}")    modules=os
+    ${dir_name}=    Evaluate    os.path.dirname(r"${docx_file}")    modules=os
+    @{status_rows}=    Query    SELECT status FROM redundancia WHERE file_name='${base_name}' AND file_path='${dir_name}' ORDER BY id DESC LIMIT 1
+    ${skip_already}=    Set Variable    False
+    IF    ${status_rows.__len__()} > 0
+        ${st_row}=    Get From List    ${status_rows}    0
+        ${existing_status}=    Get From List    ${st_row}    0
+        # Üresnek tekintjük ha NULL, 'Üres' vagy üres string
+    # existing_status Robot változó -> mindig stringként kezeljük az Evaluate-ben
+    ${is_empty_status}=    Evaluate    ('''${existing_status}''' is None) or (str('''${existing_status}''').strip() in ['Üres',''])
+        # Ha nem üres státusz (Rendben/Gyanús/Másolt/Hibás), akkor skip
+        IF    not ${is_empty_status}
+            Log String To Console    [RESUME] Kihagyva (már feldolgozott státusz='${existing_status}')
+            ${current_index}=    Evaluate    ${current_index} + 1
+            CONTINUE
+        END
+    END
     ${current_index}=    Evaluate    ${current_index} + 1
     # Beállítja az aktuális DOCX fájlt változóban
     #itt hívd meg az átnevezést

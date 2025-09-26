@@ -74,3 +74,4 @@ Redundancia ellenőrzése
     Log String To Console    \n════════════════════════════════
     Log String To Console    \nFeldolgozott dokumentumok száma: ${file_count}
     Log String To Console    \nFutás teljes ideje: ${hours} óra ${minutes} perc ${seconds} másodperc
+    Flush Console Buffer
