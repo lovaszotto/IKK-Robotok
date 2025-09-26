@@ -15,7 +15,7 @@ ${CONFIG_OUTPUT_FOLDER}  ${EMPTY}
 
 *** Keywords ***
 
-Process DOCX File Parameter
+Create_K_ell_Excel
     [Documentation]    DOCX fájl paraméter feldolgozása: path és filename szétválasztása, path validálása
     [Arguments]    ${docx_file}
     
@@ -72,7 +72,13 @@ Process DOCX File Parameter
         ${child_path}=     Get From List    ${relative_parts}    ${last_idx}
     END
     
-    # 6. Eredmények kiírása
+    # 6. ActiveExcelFile és ActiveSheetName összeállítása
+    ${output_folder}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}
+    ${excel_filename}=    Set Variable   K_ell_${parent_path}_v1.0.xlsx
+    ${activeExcelFile}=    Join Path    ${output_folder}    ${excel_filename}
+    ${activeSheetName}=    Set Variable    ${child_path}
+    
+    # 7. Eredmények kiírása
     Log To Console    \n=== FELDOLGOZÁS EREDMÉNYE ===
     Log To Console    Parent Path: ${parent_path}
     Log To Console    Child Path: ${child_path}
@@ -81,6 +87,9 @@ Process DOCX File Parameter
     
     # Excel fájl ellenőrzése
     Check Excel File Exists    ${parent_path}    ${child_path}
+    
+    # 8. Visszatérési értékek
+    RETURN    ${activeExcelFile}    ${activeSheetName}
 
 
 Remove Input Folder From Path
@@ -196,6 +205,16 @@ Check Excel File Exists
         ${template_path}=    Set Variable    ${CURDIR}/sablonok/K ell sablon_sulyszam_minbizt_2024_12_v_1_0.xlsx
         Copy File    ${template_path}    ${excel_full_path}
         Log To Console    [INFO] Sablon fájl másolva: ${template_path} -> ${excel_full_path}
+        
+        # Az új Excel fájlban is létre kell hozni a megfelelő sheet-et
+        ${sheet_name}=    Set Variable    ${child_path}
+        ${sheet_exists}=    Check Excel Sheet Exists    ${excel_full_path}    ${sheet_name}
+        IF    not ${sheet_exists}
+            Log To Console    [INFO] Sheet '${sheet_name}' létrehozása az új Excel fájlban
+            # EM X.Y sablont másoljuk át EM + child_path névre
+            Copy Excel Sheet    ${excel_full_path}    EM X.Y    ${sheet_name}
+            Log To Console    [INFO] Sheet sablon másolva: 'EM X.Y' -> '${sheet_name}'
+        END
     END
     
     RETURN    ${file_exists}
@@ -216,32 +235,18 @@ Check Excel Sheet Exists
     RETURN    ${result}
 
 Copy Excel Sheet
-    [Documentation]    Másolja az egyik sheet-et a másikra az Excel fájlban
+    [Documentation]    Másolja az egyik sheet-et a másikra az Excel fájlban, feltételes formázásokkal együtt
     [Arguments]    ${excel_file}    ${source_sheet_name}    ${target_sheet_name}
     
     Log    [DEBUG] Copying sheet '${source_sheet_name}' to '${target_sheet_name}' in file: ${excel_file}
     
-    # Python script létrehozása egyszerű sheet másolással
-    ${script_content}=    Catenate    SEPARATOR=\n
-    ...    import openpyxl
-    ...    try:
-    ...    ${SPACE}${SPACE}${SPACE}${SPACE}wb = openpyxl.load_workbook(r'${excel_file}')
-    ...    ${SPACE}${SPACE}${SPACE}${SPACE}if '${source_sheet_name}' in wb.sheetnames:
-    ...    ${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}source_sheet = wb['${source_sheet_name}']
-    ...    ${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}target_sheet = wb.copy_worksheet(source_sheet)
-    ...    ${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}target_sheet.title = '${target_sheet_name}'
-    ...    ${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}wb.save(r'${excel_file}')
-    ...    ${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}print('SUCCESS')
-    ...    ${SPACE}${SPACE}${SPACE}${SPACE}else:
-    ...    ${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}${SPACE}print('SOURCE_NOT_FOUND')
-    ...    ${SPACE}${SPACE}${SPACE}${SPACE}wb.close()
-    ...    except Exception as e:
-    ...    ${SPACE}${SPACE}${SPACE}${SPACE}print(f'ERROR: {e}')
-    
-    Create File    ${TEMPDIR}/copy_sheet.py    ${script_content}
-    ${result}=    Run Process    python    ${TEMPDIR}/copy_sheet.py    shell=True
+    # Direct Python evaluation for sheet copying
+    ${python_code}=    Set Variable    import openpyxl; from copy import deepcopy; wb = openpyxl.load_workbook(r'${excel_file}'); source_sheet = wb['${source_sheet_name}']; target_sheet = wb.copy_worksheet(source_sheet); target_sheet.title = '${target_sheet_name}'; target_sheet.conditional_formatting = deepcopy(source_sheet.conditional_formatting); wb.save(r'${excel_file}'); print('SUCCESS')
+    ${result}=    Run Process    python    -c    ${python_code}    shell=True
     
     Log    [DEBUG] Sheet copy result: ${result.stdout}
+    Log    [DEBUG] Sheet copy stderr: ${result.stderr}
+    Log    [DEBUG] Sheet copy return code: ${result.rc}
     
     ${success}=    Run Keyword And Return Status    Should Be Equal As Strings    ${result.stdout.strip()}    SUCCESS
     

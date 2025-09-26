@@ -46,7 +46,6 @@ rf_env\Scripts\robot.exe PLG-00-main.robot
 | Kulcsszó | Funkció |
 |----------|---------|
 | `Redundancia Eredmények Ellenőrzése` | Statisztikák számítás |
-| `Excel Export Redundancia Tábla` | .xlsx fájl generálás |
 | `Email Küldés Eredményekkel` | Automatikus email |
 
 ## 🗄️ SQL GYORS LEKÉRDEZÉSEK
@@ -193,8 +192,6 @@ Log    Feldolgozandó fájlok: ${large_batch.__len__()}
 ```sql
 -- Régi rekordok törlése (30 naponként)
 DELETE FROM redundancia WHERE record_date < date('now', '-30 days');
-DELETE FROM hashCodes WHERE created_date < date('now', '-30 days');
-DELETE FROM repeat WHERE created_date < date('now', '-30 days');
 VACUUM;
 ```
 

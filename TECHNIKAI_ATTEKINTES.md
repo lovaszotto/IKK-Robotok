@@ -7,8 +7,7 @@ Automatizált DOCX dokumentum plágium ellenőrzés hash-alapú algoritmussal, E
 
 ### 🤖 Robot Framework Modulok
 - **PLG-00-main.robot**: Főfolyamat vezérlő
-- **PLG-02-read_docx.robot**: DOCX beolvasás és hash generálás  
-- **PLG-03-write-excel.robot**: Excel export funkció
+- **PLG-02-read_docx.robot**: DOCX beolvasás és hash generálás
 
 ### 🐍 Python Backend
 - **DocxReader.py**: DOCX tartalom kinyerés
@@ -18,8 +17,8 @@ Automatizált DOCX dokumentum plágium ellenőrzés hash-alapú algoritmussal, E
 
 ### 🗄️ Adatbázis Réteg
 - **SQLite**: Helyi adatbázis (test_database.db)
-- **3 tábla**: redundancia, hashCodes, repeat
-- **Relációs kapcsolatok**: Foreign key integritás
+- **1 tábla**: redundancia
+- **Egyszerűsített struktúra**: Csak a redundancia adatok
 
 ## 🔍 PLÁGIUM ALGORITMUS
 
@@ -31,8 +30,8 @@ hash_value = hashlib.sha256(line_content.encode('utf-8')).hexdigest()
 
 ### 2️⃣ Összehasonlítás
 ```sql
-SELECT file_name, line_content FROM hashCodes 
-WHERE hash_value = ? AND file_name != ?
+SELECT file_name, max_ismetelt_karakterszam FROM redundancia 
+WHERE overview LIKE '%keresett szöveg%'
 ```
 
 ### 3️⃣ Kategorizálás

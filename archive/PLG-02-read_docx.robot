@@ -18,7 +18,6 @@ DOCX Beolvasás Teszt
     #${szoveg}=    Beolvasom A DOCX Fájlt
     ${szoveg}=    Set Variable    ${SZOVEG}
    
-   ${overview_string}=    Set Variable    ${EMPTY}    # Progress karakterek gyűjtése            
     ${current_status}=    Set Variable    Üres
     
     #Log To Console     ${szoveg}

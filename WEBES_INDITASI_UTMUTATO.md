@@ -16,7 +16,7 @@ Ez az útmutató segít a PLG-00-main.robot webes felületről történő indít
 ## 2. Szerver indítása
 A projekt gyökerében futtasd a következő parancsot:
 
-    python web_server.py
+    python libraries/web_server.py
 
 Ez elindítja a Flask szervert a 5000-es porton.
 

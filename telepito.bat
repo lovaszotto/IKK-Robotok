@@ -59,7 +59,6 @@ echo Fajlok masolasa...
 REM Szukseges fajlok masolasa
 copy "PLG-00-main.robot" "%TARGET_DIR%\"
 copy "PLG-02-read_docx.robot" "%TARGET_DIR%\"
-copy "PLG-03-write-excel.robot" "%TARGET_DIR%\"
 copy "Duplikacio.config" "%TARGET_DIR%\"
 copy "TELEPITO_UTMUTATO.txt" "%TARGET_DIR%\"
 

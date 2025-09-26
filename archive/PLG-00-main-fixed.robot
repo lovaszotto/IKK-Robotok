@@ -1,6 +1,8 @@
 *** Settings ***
 Resource    resources/keywords.robot
 Resource    resources/variables.robot
+Resource    PLG-02-read_docx.robot   
+Library     DatabaseLibrary
 Library     String
 Library     BuiltIn
 Library     Collections
@@ -15,10 +17,9 @@ Suite Teardown    Allow Sleep
 
 *** Test Cases ***
 
-Batch inicializálás
-    [Documentation]    Dokumentum feldolgozás inicializálása
+Redundancia ellenőrzése
+    [Documentation]    Dokumentumokban ismétlődések keresése
     ${start_time}=    Get Time    epoch
-    Set Global Variable    ${BATCH_START_TIME}    ${start_time}
 
     # Globális log fájl inicializálása (a gyökérben)
     Initialize Global Log File
@@ -29,51 +30,41 @@ Batch inicializálás
     # Log fájl áthelyezése az output mappába
     Move Log File To Output Folder
 
+    # Kapcsolódás SQLite adatbázishoz (létrehozza ha nem létezik)
+    Connect To Database    sqlite3    ${SQLITE_DB_FILE}
 
-    # DOCX fájlok keresése és globális változók beállítása
-    Initialize DOCX Files List
-    
-    # *RRF221_tema.kezirata.docx létezés ellenőrzés 
+    # Táblák meglétének ellenőrzése, ha nincs, akkor létrehozás
+    Hash táblák ellenőrzése
 
-Összes DOCX feldolgozása
-    [Documentation]    Minden talált DOCX dokumentum feldolgozása formálellenőrzéssel
-    @{docx_files}=    Set Variable    ${BATCH_DOCX_FILES}
-    ${file_count}=    Get Length    ${docx_files}
-    
-    Log String To Console    \n=== ÖSSZES DOCX FELDOLGOZÁSA ===
-    Log String To Console    Talált fájlok száma: ${file_count}
-    
-    FOR    ${index}    IN RANGE    ${file_count}
-        ${docx_file}=    Get From List    ${docx_files}    ${index}
-        ${file_number}=    Evaluate    ${index} + 1
-        
-        # Fájl név kinyerése az elnevezéshez
-        ${file_parts}=    Split String    ${docx_file}    ${/}
-        ${file_name}=    Get From List    ${file_parts}    -1
-        
-        Log String To Console    \n>>> FELDOLGOZÁS: (${file_number}/${file_count}) ${docx_file}
-        
-        Process Single DOCX With Format Checks    ${docx_file}    ${file_number}    ${file_count}
-        Log String To Console    <<< BEFEJEZVE: ${docx_file}
-    END
+    #Docx beolvasása és feldolgozása
+    DOCX fájlok olvasása
 
-Batch lezárás
-    [Documentation]    Batch feldolgozás lezárása: eredmények összesítése
-    
     # Eredmények automatikus ellenőrzése
     Log String To Console    DUPLUM ELLENŐRZÉS BEFEJEZVE - EREDMÉNYEK ELEMZÉSE INDUL...
     Log String To Console    \n════════════════════════════════════════════════════════════════
     Run Keyword And Continue On Failure    Redundancia Eredmények Ellenőrzése
 
+    # Excel export automatikus futtatása
+    #Log To Console    EXCEL EXPORT INDÍTÁSA...
+    #Log To Console    \n════════════════════════════════
     # Feldolgozott dokumentumok számának és futásidőnek kiírása
-    ${file_count}=    Get Variable Value    ${BATCH_FILE_COUNT}    0
-    ${start_time}=    Get Variable Value    ${BATCH_START_TIME}    ${EMPTY}
+    ${file_count}=    Get Variable Value    ${file_count}    0
     ${end_time}=    Get Time    epoch
     ${elapsed}=    Evaluate    int(${end_time} - ${start_time})
     ${hours}=    Evaluate    ${elapsed} // 3600
     ${minutes}=    Evaluate    (${elapsed} % 3600) // 60
     ${seconds}=    Evaluate    ${elapsed} % 60
 
+    # Kapcsolat bezárása a legvégén
+    Disconnect From Database
+
+        # Run Keyword And Continue On Failure    Email Küldés Eredményekkel
+    ${file_count}=    Get Variable Value    ${file_count}    0
+    ${end_time}=    Get Time    epoch
+    ${elapsed}=    Evaluate    int(${end_time} - ${start_time})
+    ${hours}=    Evaluate    ${elapsed} // 3600
+    ${minutes}=    Evaluate    (${elapsed} % 3600) // 60
+    ${seconds}=    Evaluate    ${seconds} % 60
     
     Log String To Console    \nTELJES FELDOLGOZÁS KÉSZ!
     Log String To Console    \n════════════════════════════════

@@ -21,7 +21,6 @@ A Plágium Ellenőrző Rendszer egy **Robot Framework** alapú automatizált meg
 PlagiumEllenorzes/
 ├── 🤖 PLG-00-main.robot          # Fő Robot Framework teszt
 ├── 📄 PLG-02-read_docx.robot     # DOCX beolvasó modul
-├── 📊 PLG-03-write-excel.robot   # Excel export modul
 ├── ⚙️ Plagium.config             # Konfigurációs fájl
 ├── 📚 libraries/                 # Python modulok
 │   ├── 🐍 DocxReader.py          # DOCX olvasó library
@@ -113,23 +112,6 @@ CREATE TABLE hashCodes (
     created_time TEXT NOT NULL,             -- Létrehozás időpontja
     line_content TEXT,                      -- Sor tartalma
     redundancia_id INTEGER,                 -- Kapcsolat a redundancia táblával
-    FOREIGN KEY (redundancia_id) REFERENCES redundancia(id)
-);
-```
-
-### 🔄 REPEAT TÁBLA
-```sql
-CREATE TABLE repeat (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    file_name TEXT NOT NULL,                -- Aktuális fájl neve
-    source_file_name TEXT NOT NULL,         -- Forrás fájl neve
-    redundancia_id INTEGER,                 -- Kapcsolat a redundancia táblával
-    block_id INTEGER NOT NULL,              -- Blokk azonosító
-    line_length INTEGER NOT NULL,           -- Sor hossza
-    sum_line_length INTEGER DEFAULT 0,      -- Összesített hossz
-    repeated_line TEXT NOT NULL,            -- Ismétlődő szöveg
-    created_date TEXT NOT NULL,             -- Létrehozás dátuma
-    created_time TEXT NOT NULL,             -- Létrehozás időpontja
     FOREIGN KEY (redundancia_id) REFERENCES redundancia(id)
 );
 ```

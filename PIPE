@@ -1,0 +1,515 @@
+==============================================================================
+PLG-04-FormaiEllenorzes-TestCases :: Formálellenõrzési Test Cases DOCX doku...
+==============================================================================
+Test Case 01 - Arculati Elemek Ellenorzese :: Ellenõrzi, hogy a do... [01/23] Arculati elemek ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B2
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B2'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[01] Arculati elemek: SIKERES (B2 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 02 - Kompetencia Teszt Ellenorzese :: Ellenõrzi, hogy ta... [02/23] Kompetencia teszt ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B3
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B3'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[02] Kompetencia teszt: SIKERES (B3 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 03 - Fogalomtar Ellenorzese :: Ellenõrzi, hogy tartozik-... [03/23] Fogalomtár ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B4
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B4'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[03] Fogalomtár: SIKERES (B4 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 04 - Szerkesztoi Instrukciok Ellenorzese :: Ellenõrzi, h... [04/23] Szerkesztõi instrukciók ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B5
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B5'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[04] Szerkesztõi instrukciók: SIKERES (B5 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 05 - Internet Hivatkozasok Ellenorzese :: Ellenõrzi a li... [05/23] Internet hivatkozások ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B6
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B6'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[05] Internet hivatkozások: SIKERES (B6 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 06 - Szerzo Lektor Ellenorzese :: Ellenõrzi a szerzõ és ... [06/23] Szerzõ-lektor ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B7
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B7'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[06] Szerzõ-lektor: SIKERES (B7 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 07 - Hosszu Idezetek Ellenorzese :: Ellenõrzi a hosszú i... [07/23] Hosszú idézetek ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B8
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B8'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[07] Hosszú idézetek: SIKERES (B8 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 08 - Tordeles Ellenorzese :: Ellenõrzi a tördelési szabá... [08/23] Tördelés ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B9
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B9'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[08] Tördelés: SIKERES (B9 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 09 - Abrak Fotok Ellenorzese :: Ellenõrzi az ábrák és fo... [09/23] Ábrák/fotók ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B10
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B10'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[09] Ábrák/fotók: SIKERES (B10 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 10 - Felsorolas Ellenorzese :: Ellenõrzi a felsorolások ... [10/23] Felsorolások ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B11
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B11'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[10] Felsorolások: SIKERES (B11 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 11 - Ures Negyzetek Ellenorzese :: Ellenõrzi, hogy nincs... [11/23] Üres négyzetek ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B12
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B12'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[11] Üres négyzetek: SIKERES (B12 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 12 - Cimek Formatuma Ellenorzese :: Ellenõrzi a címek fo... [12/23] Címek formátuma ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B13
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B13'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[12] Címek formátuma: SIKERES (B13 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 13 - Oldalhatar Ellenorzese :: Ellenõrzi az oldalhatárok... [13/23] Oldalhatár ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B14
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B14'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[13] Oldalhatár: SIKERES (B14 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 14 - Betutipus Ellenorzese :: Ellenõrzi a betûtípus egys... [14/23] Betûtípus ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B15
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B15'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[14] Betûtípus: SIKERES (B15 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 15 - Sorkoze Ellenorzese :: Ellenõrzi a sorközök beállít... [15/23] Sorköze ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B16
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B16'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[15] Sorköze: SIKERES (B16 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 16 - Labjegyzetek Ellenorzese :: Ellenõrzi a lábjegyzete... [16/23] Lábjegyzetek ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B17
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B17'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[16] Lábjegyzetek: SIKERES (B17 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 17 - Tartalomjegyzek Ellenorzese :: Ellenõrzi a tartalom... [17/23] Tartalomjegyzék ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B18
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B18'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[17] Tartalomjegyzék: SIKERES (B18 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 18 - Irodalomjegyzek Ellenorzese :: Ellenõrzi az irodalo... [18/23] Irodalomjegyzék ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B19
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B19'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[18] Irodalomjegyzék: SIKERES (B19 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 19 - Tablazatok Ellenorzese :: Ellenõrzi a táblázatok fo... [19/23] Táblázatok ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B20
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B20'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[19] Táblázatok: SIKERES (B20 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 20 - Szoveg Igazitas Ellenorzese :: Ellenõrzi a szöveg i... [20/23] Szöveg igazítás ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B21
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B21'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[20] Szöveg igazítás: SIKERES (B21 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 21 - Oldalszamozas Ellenorzese :: Ellenõrzi az oldalszám... [21/23] Oldalszámozás ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B22
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B22'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[21] Oldalszámozás: SIKERES (B22 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 22 - Fejlec Lablec Ellenorzese :: Ellenõrzi a fejléc és ... [22/23] Fejléc/lábléc ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B23
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B23'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[22] Fejléc/lábléc: SIKERES (B23 zöld)
+| PASS |
+------------------------------------------------------------------------------
+Test Case 23 - Helyesiras Ellenorzese :: Ellenõrzi a helyesírást é... [23/23] Helyesírás ellenõrzése
+<string>:1: SyntaxWarning: invalid escape sequence '\K'
+Excel jelölés: c:\tmp\K_ell_EM-1.2_v1.0.xlsx - EM-1.2.2 - B24
+[HIBA] Excel jelölés sikertelen: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx'); ws=wb['EM-1.2.2']; ws['B24'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'c:\tmp\K_ell_EM-1.2_v1.0.xlsx')
+                                                                 ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+                         data_only, keep_links, rich_text)
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+                   ~~~~~~~~~~~~~~~~~^^^^
+  File "C:\Python313\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+  File "C:\Python313\Lib\zipfile\__init__.py", line 1367, in __init__
+    self.fp = io.open(file, filemode)
+              ~~~~~~~^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'c:\\tmp\\K_ell_EM-1.2_v1.0.xlsx'
+[23] Helyesírás: SIKERES (B24 zöld)
+| PASS |
+------------------------------------------------------------------------------
+PLG-04-FormaiEllenorzes-TestCases :: Formálellenõrzési Test Cases ... | PASS |
+23 tests, 23 passed, 0 failed
+==============================================================================
+Output:  C:\_ROBOTOK\IKK-Robotok\IKK02_FormaiEllenorzesek\results\format_EM-1.2.2\output.xml
+Log:     C:\_ROBOTOK\IKK-Robotok\IKK02_FormaiEllenorzesek\results\format_EM-1.2.2\log.html
+Report:  C:\_ROBOTOK\IKK-Robotok\IKK02_FormaiEllenorzesek\results\format_EM-1.2.2\report.html

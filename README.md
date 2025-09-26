@@ -1,7 +1,16 @@
 # DuplikacioEllenorzesRobot
 # 🤖 Robot Framework Plágium Ellenőrző Rendszer
 
-[![Robot Framework](https://img.shields.io/badge/Robot%20Framework-6.1.1-green.svg)](https://robotframework.org/)
+[![Robot Framework](https://img.shields.io/badge/Robot- `status`: Kategorizálás (Rendben/Gyanús/Másolt)
+- `file_name`: Dokumentum neve
+- `max_ismetelt_karakterszam`: Legnagyobb redundancia
+- `record_date`: Feldolgozás dátuma
+
+### 🚫 Skip funkciók
+- `hashValue`: MD5 hash kihagyandó szövegekhez (PRIMARY KEY)
+- `line_content`: Átugrandó szöveg tartalom
+
+## ⚙️ Konfigurációreen.svg)](https://robotframework.org/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![SQLite](https://img.shields.io/badge/SQLite-3.x-lightgrey.svg)](https://sqlite.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -17,7 +26,7 @@
 - 🎯 **Háromszintű kategorizálás**: Rendben / Gyanús / Másolt
 - 🔄 **Batch feldolgozás** több dokumentum egyidejű kezelésére
 - ⏭️ **Intelligens skip funkció** konfigurálható szövegszűréssel
-- 🚫 **Duplikált tartalom kizárása** skipHashCodes táblával
+- 🚫 **Duplikált tartalom kizárása** skip funkciókkal
 
 ## 🚀 Gyors indítás
 
@@ -107,7 +116,7 @@ Talált DOCX fájlok száma: 6
 ### Skip funkcionalitás
 - **🚫 DuplikacioSkip.config**: Automatikusan kihagyandó szövegek
 - **📝 Hash alapú**: MD5 hash generálás minden skip szabályhoz
-- **🔄 Startup betöltés**: skipHashCodes tábla automatikus feltöltése
+- **🔄 Startup betöltés**: skip funkciók automatikus betöltése
 - **⚡ Gyors szűrés**: Hash összehasonlítás alapján azonnali kihagyás
 
 ### Kategorizálási szabályok
@@ -137,12 +146,12 @@ mail.Send()  # 🚀 AUTOMATIKUS KÜLDÉS
 - `max_ismetelt_karakterszam`: Legnagyobb redundancia
 - `record_date`: Feldolgozás dátuma
 
-### 🔑 HashCodes tábla  
+### � Repeat tábla  
 - `hash_value`: MD5 hash (PRIMARY KEY)
 - `file_name`, `file_path`: Fájl információk
 - `line_content`: Eredeti szöveg tartalom
 
-### 🚫 SkipHashCodes tábla
+### 🚫 Skip funkciók
 - `hashValue`: MD5 hash kihagyandó szövegekhez (PRIMARY KEY)
 - `line_content`: Átugrandó szöveg tartalom
 
@@ -174,7 +183,7 @@ válaszd ki a helyes választ!
 **Működés**: 
 - Minden startup-kor automatikusan betöltődik
 - MD5 hash generálás minden sorhoz
-- skipHashCodes táblába mentés
+- skip funkciókkal való kizárás
 - Feldolgozás során automatikus szűrés
 
 ## 🛠️ Rendszerkövetelmények
