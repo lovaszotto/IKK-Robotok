@@ -58,14 +58,12 @@ Format Message With Line Breaks
     RETURN    ${formatted}
 
 Log String To Console
-    [Arguments]    ${msg}    ${no_newline}=False
+    [Arguments]    @{msgs}
     [Documentation]    Logs message both to console and to timestamped log file
-    # Log to console (with optional no_newline parameter)
-    IF    ${no_newline}
-        Log To Console    ${msg}    no_newline=True
-    ELSE
-        Log To Console    ${msg}
-    END
+    # Join message parts with single space to avoid accidental extra columns
+    ${msg}=    Catenate    SEPARATOR=     @{msgs}
+    # Always log to console with newline
+    Log To Console    ${msg}
     
     # Skip logging TRACE messages to file
     ${is_trace}=    Run Keyword And Return Status    Should Contain    ${msg}    [TRACE]
@@ -76,14 +74,8 @@ Log String To Console
     # Use the global log filename (should already be set by Initialize Global Log File)
     ${log_filename_exists}=    Run Keyword And Return Status    Variable Should Exist    ${GLOBAL_LOG_FILENAME}
     IF    ${log_filename_exists}
-        # Append to log file without timestamp (with or without newline based on parameter)
-        IF    ${no_newline}
-            # Format message with line breaks every 100 chars and double breaks every 1000 chars
-            ${formatted_msg}=    Format Message With Line Breaks    ${msg}
-            Append To File    ${GLOBAL_LOG_FILENAME}    ${formatted_msg}
-        ELSE
-            Append To File    ${GLOBAL_LOG_FILENAME}    ${msg}\n
-        END
+        # Append to log file with newline
+        Append To File    ${GLOBAL_LOG_FILENAME}    ${msg}\n
     END
 
 Process Config Line
@@ -92,7 +84,8 @@ Process Config Line
     @{config_parts}=    Split String    ${config_line}    |
     ${parts_len}=    Get Length    ${config_parts}
     IF    ${parts_len} < 6
-        Fail    Konfigurációs sor hibás vagy hiányos: ${config_line}
+        Log String To Console    [HIBA] Konfigurációs sor hibás vagy hiányos: ${config_line}
+        RETURN
     END
     ${input_part}=    Get From List    ${config_parts}    0
     ${output_part}=    Get From List    ${config_parts}    1
@@ -154,16 +147,20 @@ Get Config Icon
 Konfiguráció Betöltése
     Log String To Console    [TRACE] Konfiguráció Betöltése elindult
     [Documentation]    Plagium.config fajl betoltese es beallitasok alkalmazasa
+    Silence Python SyntaxWarnings
     Log String To Console    \nKONFIGURACIO BETOLTESE...
     Log String To Console    ═══════════════════════════════
     # Konfiguracios fajl olvasasa Python scripttel
     ${config_result}=    Run Process    python    libraries/get_config.py    shell=True
     IF    ${config_result.rc} == 0
         ${config_line}=    Set Variable    ${config_result.stdout.strip()}
-    #Log To Console    [DEBUG] config_line: ${config_line}
-        Run Keyword If    '${config_line}' != '' and '${config_line}' != 'None'    Process Config Line    ${config_line}
-    Run Keyword If    '${config_line}' == '' or '${config_line}' == 'None'    Log String To Console    [HIBA] Üres vagy None config_line, Split String kihagyva!
-        Run Keyword Unless    '${config_line}' != '' and '${config_line}' != 'None'    Fail    Konfigurációs sor hibás vagy hiányos: ${config_line}
+        #Log To Console    [DEBUG] config_line: ${config_line}
+        IF    '${config_line}' != '' and '${config_line}' != 'None'
+            Process Config Line    ${config_line}
+        ELSE
+            Log String To Console    [HIBA] Üres vagy None config_line, Split String kihagyva!
+            Log String To Console    [FIGYELMEZTETÉS] Konfiguráció hiányos; alapértelmezett beállítások lesznek használva
+        END
     # Adatbázis inicializálás kihagyva - nincs szükség SQLITE_DB_FILE változóra
     Log String To Console    [INFO] Adatbázis inicializálás kihagyva
     
@@ -206,112 +203,24 @@ Get Input Folder From Config
 
 DOCX Beolvasás Teszt
     [Documentation]    Teszt: DOCX fájl beolvasásának ellenőrzése (adatbázis nélkül)
-    [Arguments]    ${file_path}    ${redundancia_id}
+    [Arguments]    ${file_path}
     
-    Log String To Console    === DOCX BEOLVASÁS TESZT ===
-    Log String To Console    Fájl: ${file_path}
-    Log String To Console    ID: ${redundancia_id}
+    #Log String To Console    === DOCX BEOLVASÁS TESZT ===
+    #Log String To Console    Fájl: ${file_path}
     
     # A tényleges beolvasás már megtörtént a korábbi lépésekben
     ${szoveg}=    Get Variable Value    ${SZOVEG}    ${EMPTY}
     
     IF    len($szoveg) > 0
         Log String To Console    DOCX beolvasás sikeres
-        Log String To Console    Szöveg hossza: ${szoveg.__len__()}
+        #Log String To Console    Szöveg hossza: ${szoveg.__len__()}
     ELSE
         Log String To Console    FIGYELEM: DOCX szöveg üres
     END
     
-    Log String To Console    === DOCX BEOLVASÁS TESZT KÉSZ ===
+    #Log String To Console    === DOCX BEOLVASÁS TESZT KÉSZ ===
 
-Hash táblák ellenőrzése
-    Log String To Console    [TRACE] Hash táblák ellenőrzése kihagyva (adatbázis kezelés letiltva)
-    [Documentation]    Hash táblák ellenőrzése - jelenleg letiltva
     
-    Log String To Console    [TRACE] Hash táblák ellenőrzése kilépett
-   
-
-
-
-Lekerem A Felhasznalokat
-    Log String To Console    [TRACE] Felhasználó lekérdezés kihagyva (adatbázis kezelés letiltva)
-    [Documentation]    Felhasználó lekérdezés - jelenleg letiltva
-    
-    Log String To Console    [TRACE] Lekerem A Felhasznalokat kilépett
-
-Lekerem A Felhasznalot ID Alapjan
-    Log String To Console    [TRACE] Felhasználó ID alapú lekérdezés kihagyva (adatbázis kezelés letiltva)
-    [Documentation]    Felhasználó ID alapú lekérdezés - jelenleg letiltva
-    [Arguments]    ${user_id}
-    
-    Log String To Console    [TRACE] Lekerem A Felhasznalot ID Alapjan kilépett
-
-Ellenorzom Az Adatbazist
-    Log String To Console    [TRACE] Adatbázis ellenőrzés kihagyva (adatbázis kezelés letiltva)
-    [Documentation]    Adatbázis ellenőrzés - jelenleg letiltva
-    
-    Log String To Console    [TRACE] Ellenorzom Az Adatbazist kilépett
-
-Adatbazis Inicializalasa
-    Log String To Console    [TRACE] Adatbázis inicializálás kihagyva (adatbázis kezelés letiltva)
-    [Documentation]    Adatbázis inicializálás - jelenleg letiltva
-    
-    Log String To Console    [TRACE] Adatbazis Inicializalasa kilépett
-
-Fájladatok Feldolgozása Redundancia Táblába
-    [Documentation]    Aktuális DOCX fájl adatainak feldolgozása (egyszerűsített, adatbázis nélkül)
-    [Arguments]    ${file_path}    ${is_error}    ${hibaszoveg}
-    
-    # Fájl méret lekérése
-    ${file_size}=    Get File Size    ${file_path}
-    
-    # Fájl név és útvonal szétválasztása
-    ${file_name}=    Evaluate    os.path.basename(r"${file_path}")    modules=os
-    ${file_path_only}=    Evaluate    os.path.dirname(r"${file_path}")    modules=os
-    
-    # Aktuális dátum és idő lekérése
-    ${current_date}=    Get Current Date    result_format=%Y-%m-%d
-    ${current_time}=    Get Current Date    result_format=%H:%M:%S
-    
-    # Ha hibás a DOCX, akkor a status legyen 'Hibás', különben 'Rendben'
-    ${status}=    Set Variable If    ${is_error}    Hibás    Rendben
-    
-    # Egyszerű ID generálás (timestamp alapú)
-    ${redundancia_id}=    Get Time    epoch
-    Set Global Variable    ${REDUNDANCIA_ID}    ${redundancia_id}
-    
-    Log String To Console    Feldolgozás ID: ${redundancia_id}
-    Log String To Console    Fájl neve: ${file_name}
-    Log String To Console    Fájl méret: ${file_size} byte
-    Log String To Console    Feldolgozás ideje: ${current_time}
-    Log String To Console    Státusz: ${status}
-    
-    # Sorok számának kiírása
-    ${szoveg}=    Beolvasom A DOCX Fájlt
-    Set Global Variable    ${SZOVEG}    ${szoveg}
-
-    RETURN    ${redundancia_id}
-    ${ossz_sor}=    Set Variable    0
-    ${is_empty}=    Run Keyword And Return Status    Should Be Empty    ${szoveg}
-    ${is_none}=    Run Keyword And Return Status    Should Be Equal    ${szoveg}    None
-
-    IF    ${is_empty} or ${is_none}    
-         Log String To Console    [HIBA] Üres vagy None szöveg, Split String kihagyva!
-         ${hiba_msg}=    Set Variable    [HIBA] Üres vagy None szöveg, Split String kihagyva!
-    ELSE   
-        @{sorok}=    Split String    ${szoveg}    \n
-        ${ossz_sor}=    Get Length    ${sorok}
-        Set Global Variable    ${SORON}    ${sorok}
-    END
-   
-    Log String To Console    Sorok száma: ${ossz_sor}
-    
-   
-    #Log To Console    [TRACE] Fájladatok Feldolgozása Redundancia Táblába kilépett
-   
-    RETURN    ${redundancia_id}
-   
-
 
 
 DOCX fájlok olvasása és formálellenőrzés
@@ -333,6 +242,7 @@ DOCX fájlok olvasása és formálellenőrzés
     
     IF    ${file_count} == 0
         Log String To Console    FIGYELMEZTETÉS: Nem találhatók DOCX fájlok a megadott útvonalon!
+        Run Keyword And Continue On Failure    Fail    Nincsenek DOCX fájlok a feldolgozásra
         RETURN
     END
     
@@ -397,9 +307,8 @@ Process Single DOCX File As Test Case
     Run Keyword If    ${is_error}    Append To List    ${hiba_lista}    ${docx_file}: ${szoveg}
     Set Global Variable    ${HIBA_LISTA}    ${hiba_lista}
 
-    # Először redundancia rekordot beszúrjuk, majd átadjuk az ID-t a DOCX feldolgozásnak
-    ${redundancia_id}=    Fájladatok Feldolgozása Redundancia Táblába    ${docx_file}    ${is_error}    ${szoveg}
-    Run Keyword If    '${redundancia_id}' != ''    DOCX Beolvasás Teszt    ${docx_file}    ${redundancia_id}
+    # Redundancia logika eltávolítva; közvetlen DOCX beolvasási teszt
+    DOCX Beolvasás Teszt    ${docx_file}
     
     # 23 formálellenőrzés futtatása közvetlenül (nem subprocess-ként)
     Log String To Console    \n=== 23 FORMÁLELLENŐRZÉS INDÍTÁSA ===
@@ -508,7 +417,8 @@ Initialize DOCX Files List
     
     IF    ${file_count} == 0
         Log String To Console    FIGYELMEZTETÉS: Nem találhatók DOCX fájlok a megadott útvonalon!
-        Fail    Nincsenek DOCX fájlok a feldolgozásra
+        Run Keyword And Continue On Failure    Fail    Nincsenek DOCX fájlok a feldolgozásra
+        RETURN
     END
     
     # Hibalista inicializálása
@@ -519,7 +429,40 @@ Process Single DOCX With Format Checks
     [Documentation]    Egyetlen DOCX fájl feldolgozása formálellenőrzéssel külön subprocess-ként (a jelenlegi működés megtartása)
     [Arguments]    ${docx_file}    ${file_index}    ${total_files}
     
-    Log String To Console    \n>>> FELDOLGOZÁS: (${file_index}/${total_files}) ${docx_file}
+    #ellenőrizzük, hogy van-e *tema_kezirata fájl a könyvtárban
+
+    ${CURRENT_DIR}=    Evaluate    __import__('os').path.dirname(r'''${docx_file}''')    modules=os
+    #Log String To Console    Dokumentum útvonal: ${CURRENT_DIR}
+
+    
+    ${allFiles}=    List Files In Directory    ${CURRENT_DIR}
+    # a 'files' most az allFiles tömb szűrésével készül, nem új könyvtár listázással
+    ${files}=    Evaluate    [f for f in $allFiles if (__import__('os').path.basename(f).lower().endswith('_tema_kezirata.docx') and not __import__('os').path.basename(f).startswith('~$'))]
+
+
+    ${files_len}=    Get Length    ${files}
+    IF    ${files_len} == 0
+        Log String To Console    !!!!!!!!!!!!!!!!!!!!! ${CURRENT_DIR} !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        Log String To Console    [HIBA] Nincs *_tema_kezirata.docx fájl a könyvtárban!
+
+        ${hiba_lista}=    Get Variable Value    ${HIBA_LISTA}    []
+        Append To List    ${hiba_lista}    ${docx_file}: [HIBA] Nincs *_tema_kezirata.docx fájl a könyvtárban
+        Set Global Variable    ${HIBA_LISTA}    ${hiba_lista}
+        RETURN
+    #ELSE
+    #    Log String To Console    [INFO] *_tema_kezirata jelölt fájlok száma: ${files_len}
+    END
+
+    #ellenőrzi, hogy a docx_file szerepel-e a files listában (basename összevetés)
+    ${docx_basename}=    Evaluate    __import__('os').path.basename(r'''${docx_file}''')    modules=os
+    ${is_in_list}=    Run Keyword And Return Status    Should Contain    ${files}    ${docx_basename}
+    IF    not ${is_in_list}
+        #Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  A fájl kihagyva  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+        Log String To Console   skipp...
+        RETURN
+    END    
+   
+    #Log String To Console    \n>>> FELDOLGOZÁS4: (${file_index}/${total_files}) ${docx_file}
     
     # PLG-01-Excel.robot meghívása
     ${activeExcelFile}    ${activeSheetName}=    Create_K_ell_Excel    ${docx_file}
@@ -530,7 +473,6 @@ Process Single DOCX With Format Checks
     
     # Beállítja az aktuális DOCX fájlt változóban
     Set Global Variable    ${DOCX_FILE}    ${docx_file}
-    
     # DOCX beolvasás és hibastátusz lekérdezése
     ${szoveg}=    Beolvasom A DOCX Fájlt
     Set Global Variable    ${SZOVEG}    ${szoveg}
@@ -550,25 +492,19 @@ Process Single DOCX With Format Checks
     Run Keyword If    ${is_error}    Append To List    ${hiba_lista}    ${docx_file}: ${szoveg}
     Set Global Variable    ${HIBA_LISTA}    ${hiba_lista}
 
-    # Először redundancia rekordot beszúrjuk, majd átadjuk az ID-t a DOCX feldolgozásnak
-    ${redundancia_id}=    Set Variable    '0'
-    #${redundancia_id}=    Fájladatok Feldolgozása Redundancia Táblába    ${docx_file}    ${is_error}    ${szoveg}
+    # Redundancia logika eltávolítva; skip minta és közvetlen DOCX teszt
     ${is_skip}=    Evaluate    re.search(r'RF221_tema_kezirata\.docx', r'''${docx_file}''') is not None    modules=re
     IF    not ${is_skip}
         Log String To Console     Skipp:${docx_file}
     ELSE
-    
-        DOCX Beolvasás Teszt    ${docx_file}    ${redundancia_id}
-        
-        # PLG-04-Formai_ellenor.robot formálellenőrzés futtatása külön test suite-ként
-        Log String To Console    \n=== FORMÁLELLENŐRZÉS INDÍTÁSA ===
+        DOCX Beolvasás Teszt    ${docx_file}
+        # PLG-04-Formai_ellenor.robot formálellenőrzés futtatása külön test suite-ként (jelenleg kommentelt)
+        Log String To Console    === FORMAI LELLENŐRZÉS INDÍTÁSA ===
         Log String To Console    Excel fájl: ${activeExcelFile}
         Log String To Console    Sheet név: ${activeSheetName}
-        
-        # Formálellenőrzés futtatása külön test suite-ként paraméterekkel
-        #Run Formai Ellenorzes With Params    ${docx_file}    ${activeExcelFile}    ${activeSheetName}    
+        Run Formai Ellenorzes With Params    ${docx_file}    ${activeExcelFile}    ${activeSheetName}    
     END
-    Log String To Console    \n<<< BEFEJEZVE: ${docx_file}
+    #Log String To Console    \n<<< 2 BEFEJEZVE: ${docx_file}
 
 Prepare DOCX Files List
     [Documentation]    DOCX fájlok listájának előkészítése és globális változók beállítása
@@ -587,7 +523,8 @@ Prepare DOCX Files List
     
     IF    ${file_count} == 0
         Log String To Console    FIGYELMEZTETÉS: Nem találhatók DOCX fájlok a megadott útvonalon!
-        Fail    Nincsenek DOCX fájlok a feldolgozásra
+        Run Keyword And Continue On Failure    Fail    Nincsenek DOCX fájlok a feldolgozásra
+        RETURN
     END
     
     # Hibalista inicializálása
@@ -598,7 +535,7 @@ Process Single DOCX File
     [Documentation]    Egyetlen DOCX fájl feldolgozása (redundancia + formálellenőrzés)
     [Arguments]    ${docx_file}    ${file_index}    ${total_files}
     
-    Log String To Console    \n>>> FELDOLGOZÁS: (${file_index}/${total_files}) ${docx_file}
+    Log String To Console    \n>>> FELDOLGOZÁS3: (${file_index}/${total_files}) ${docx_file}
     
     # PLG-01-Excel.robot meghívása
     ${activeExcelFile}    ${activeSheetName}=    Create_K_ell_Excel    ${docx_file}
@@ -629,51 +566,27 @@ Process Single DOCX File
     Run Keyword If    ${is_error}    Append To List    ${hiba_lista}    ${docx_file}: ${szoveg}
     Set Global Variable    ${HIBA_LISTA}    ${hiba_lista}
 
-    # Először redundancia rekordot beszúrjuk, majd átadjuk az ID-t a DOCX feldolgozásnak
-    ${redundancia_id}=    Fájladatok Feldolgozása Redundancia Táblába    ${docx_file}    ${is_error}    ${szoveg}
-    Run Keyword If    '${redundancia_id}' != ''    DOCX Beolvasás Teszt    ${docx_file}    ${redundancia_id}
+    # Redundancia logika eltávolítva; közvetlen DOCX beolvasási teszt
+    DOCX Beolvasás Teszt    ${docx_file}
     
     # PLG-04-Formai_ellenor.robot formálellenőrzés futtatása külön test suite-ként
-    Log String To Console    \n=== FORMÁLELLENŐRZÉS INDÍTÁSA ===
+    Log String To Console    === FORMAI ELLENŐRZÉS INDÍTÁSA ===
     Log String To Console    Excel fájl: ${activeExcelFile}
     Log String To Console    Sheet név: ${activeSheetName}
     
     # Formálellenőrzés futtatása külön test suite-ként paraméterekkel
     Run Formai Ellenorzes With Params    ${docx_file}    ${activeExcelFile}    ${activeSheetName}
-    
-    Log String To Console    Formálellenőrzés befejezve: ${docx_file}
-    
-    Log String To Console    \n<<< BEFEJEZVE: ${docx_file}
+       
+    Log String To Console    \n<<< FORMAI ELLENŐRZÉS BEFEJEZVE: ${docx_file}
    
 
-Redundancia Eredmények Ellenőrzése
-    Log String To Console    [TRACE] Redundancia Eredmények Ellenőrzése kihagyva (adatbázis kezelés letiltva)
-    [Documentation]    Redundancia eredmények ellenőrzése - jelenleg letiltva
     
-    # Hash táblák ellenőrzése (kihagyva)
-    Hash táblák ellenőrzése
-    
-    Log String To Console    REDUNDANCIA EREDMÉNYEK ELEMZÉSE KIHAGYVA
-    Log String To Console    \n══════════════════════════════════════
-    Log String To Console    Az adatbázis kezelés jelenleg le van tiltva
-    
-    Log String To Console    \nEREDMÉNYEK ELLENŐRZÉSE KIHAGYVA!
-    Log String To Console    \n═══════════════════════════════════════
-
-
-
-Check Redundancia Table Exists
-    Log String To Console    [TRACE] Check Redundancia Table Exists kihagyva (adatbázis kezelés letiltva)
-    [Documentation]    Redundancia tábla ellenőrzés - jelenleg letiltva
-    
-    Log String To Console    [TRACE] Check Redundancia Table Exists kilépett
 
 Run Formai Ellenorzes
     [Documentation]    Futtatja a 23 formálellenőrzést külön test suite-ként valódi Robot test case-ekkel
     [Arguments]    ${docx_file}
     
-    Log To Console    === FORMÁLELLENŐRZÉS INDÍTÁSA ===
-    Log To Console    Formálellenőrzés kezdete: ${docx_file}
+    Log To Console    === FORMAI ELLENŐRZÉS INDÍTÁSA ===
     
     # Excel fájl és sheet név generálása a már meglévő Excel fájl alapján
     # A rendszer már létrehozott egy Excel fájlt, azt kell használnunk
@@ -698,10 +611,14 @@ Run Formai Ellenorzes
     Log To Console    STDOUT: ${result.stdout}
     IF    ${result.rc} != 0
         Log To Console    STDERR: ${result.stderr}
-        Fail    Format ellenőrzési suite sikertelen futtatása
+        # Jelöljük hibásnak, de folytassuk a feldolgozást
+        ${hiba_lista}=    Get Variable Value    ${HIBA_LISTA}    []
+        Append To List    ${hiba_lista}    ${docx_file}: [HIBA] Formálellenőrzési suite hibával tért vissza (rc=${result.rc})
+        Set Global Variable    ${HIBA_LISTA}    ${hiba_lista}
+        RETURN
     END
     
-    Log To Console    === FORMÁLELLENŐRZÉS BEFEJEZVE ===
+    Log To Console    === FORMAI ELLENŐRZÉS BEFEJEZVE ===
 
 Get File Name Base
     [Documentation]    Visszaadja a fájlnevet kiterjesztés nélkül
@@ -716,7 +633,6 @@ Run Formai Ellenorzes With Params
     [Documentation]    Futtatja a 23 formálellenőrzést külön test suite-ként valódi Robot test case-ekkel paraméterekkel
     [Arguments]    ${docx_file}    ${excel_file}    ${sheet_name}
     
-    Log To Console    === FORMÁLELLENŐRZÉS INDÍTÁSA ===
     Log To Console    Formálellenőrzés kezdete: ${docx_file}
     Log To Console    Excel fájl: ${excel_file}
     Log To Console    Sheet név: ${sheet_name}
@@ -735,7 +651,11 @@ Run Formai Ellenorzes With Params
     Log To Console    STDOUT: ${result.stdout}
     IF    ${result.rc} != 0
         Log To Console    STDERR: ${result.stderr}
-        Fail    Format ellenőrzési suite sikertelen futtatása
+        # Jelöljük hibásnak, de folytassuk a feldolgozást
+        ${hiba_lista}=    Get Variable Value    ${HIBA_LISTA}    []
+        Append To List    ${hiba_lista}    ${docx_file}: [HIBA] Formálellenőrzési suite hibával tért vissza (rc=${result.rc})
+        Set Global Variable    ${HIBA_LISTA}    ${hiba_lista}
+        RETURN
     END
     
     Log To Console    === FORMÁLELLENŐRZÉS BEFEJEZVE ===
@@ -773,9 +693,10 @@ Mark Excel Cell Green
     
     Log To Console    Excel jelölés: ${excel_file} - ${sheet_name} - ${cell_address}
     
-    # Excel jelölés Python script-tel
-    ${script}=    Set Variable    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook(r'${excel_file}'); ws=wb['${sheet_name}']; ws['${cell_address}'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save(r'${excel_file}')
-    ${result}=    Run Process    python    -c    ${script}
+    # Excel jelölés Python script-tel (útvonal normalizálása a figyelmeztetések elkerülésére)
+        ${excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${excel_file}''').as_posix()    modules=pathlib
+        ${script}=    Set Variable    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook('${excel_path_norm}'); ws=wb['${sheet_name}']; ws['${cell_address}'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save('${excel_path_norm}')
+    ${result}=    Run Process    python    -W    ignore    -c    ${script}
     
     IF    ${result.rc} != 0
         Log To Console    [HIBA] Excel jelölés sikertelen: ${result.stderr}
@@ -787,15 +708,20 @@ Read Docx File Content
     [Documentation]    DOCX fájl tartalmának beolvasása Python script-tel
     [Arguments]    ${file_path}
     
-    # Egyszerű DOCX beolvasás python-docx használatával
-    ${script}=    Set Variable    import docx; doc=docx.Document(r'${file_path}'); print('\\n'.join([p.text for p in doc.paragraphs]))
-    ${result}=    Run Process    python    -c    ${script}
+    # Írjuk ki a DOCX tartalmát egy UTF-8 ideiglenes fájlba, így elkerülhető a konzol kódolási hiba
+    ${tmp_out}=    Evaluate    __import__('pathlib').Path(r'''${CURDIR}''').joinpath('..','results','docx_stdout.tmp.txt').resolve().as_posix()    modules=pathlib
+    ${file_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${file_path}''').as_posix()    modules=pathlib
+    ${script}=    Set Variable    import docx, os; _doc=docx.Document('${file_path_norm}'); _text='\n'.join(p.text for p in _doc.paragraphs); os.makedirs(os.path.dirname('${tmp_out}'), exist_ok=True); open('${tmp_out}', 'w', encoding='utf-8', errors='replace').write(_text)
+    ${result}=    Run Process    python    -W    ignore    -c    ${script}    stdout=PIPE    stderr=PIPE
     
     IF    ${result.rc} != 0
         Log To Console    [HIBA] DOCX beolvasás sikertelen: ${result.stderr}
         RETURN    [HIBA] DOCX beolvasás sikertelen: ${result.stderr}
     ELSE
-        RETURN    ${result.stdout}
+        ${content}=    Get File    ${tmp_out}    encoding=UTF-8
+        # Takarítás (opcionális)
+        Run Keyword And Ignore Error    Remove File    ${tmp_out}
+        RETURN    ${content}
     END
 
 Beolvasom A DOCX Fájlt
@@ -1212,16 +1138,16 @@ Create_K_ell_Excel
     [Documentation]    DOCX fájl feldolgozás - Excel fájl és sheet meghatározása
     [Arguments]    ${docx_file}
     
-    Log To Console    \n=== DOCX FÁJL ÚTVONAL FELDOLGOZÁSA ===
-    Log To Console    Kapott paraméter: ${docx_file}
+    #Log To Console    \n=== DOCX FÁJL ÚTVONAL FELDOLGOZÁSA ===
+    #Log To Console    Kapott paraméter: ${docx_file}
     
     # Path és filename szétválasztása
-    ${path_part}=    Evaluate    __import__('os').path.dirname(r"${docx_file}")    modules=os
-    ${filename_part}=    Evaluate    __import__('os').path.basename(r"${docx_file}")    modules=os
+    ${path_part}=    Evaluate    __import__('os').path.dirname(r'''${docx_file}''')    modules=os
+    ${filename_part}=    Evaluate    __import__('os').path.basename(r'''${docx_file}''')    modules=os
     
-    Log To Console    Path rész: ${path_part}
-    Log To Console    Filename rész: ${filename_part}
-    Log To Console    Input folder (globális): ${INPUT_FOLDER}
+    #Log To Console    Path rész: ${path_part}
+    #Log To Console    Filename rész: ${filename_part}
+    #Log To Console    Input folder (globális): ${INPUT_FOLDER}
     
     Set Global Variable    ${FILENAME}    ${filename_part}
     
@@ -1252,24 +1178,22 @@ Create_K_ell_Excel
     
     ${filtered_input_parts_count}=    Get Length    ${filtered_input_parts}
     ${filtered_path_parts_count}=    Get Length    ${filtered_path_parts}
-    Log To Console    Input folder részek: ${filtered_input_parts} (${filtered_input_parts_count} db)
-    Log To Console    Eredeti path részek: ${filtered_path_parts} (${filtered_path_parts_count} db)
+    #Log To Console    Input folder részek: ${filtered_input_parts} (${filtered_input_parts_count} db)
+    #Log To Console    Eredeti path részek: ${filtered_path_parts} (${filtered_path_parts_count} db)
     
     # Eltávolítjuk az input folder részeket a path elejéről
     ${input_parts_count}=    Get Length    ${filtered_input_parts}
     ${relative_parts}=    Get Slice From List    ${filtered_path_parts}    ${input_parts_count}
     
     ${is_success}=    Run Keyword And Return Status    Should Not Be Empty    ${relative_parts}
-    IF    ${is_success}
-        Log To Console    [SUCCESS] Input folder eltávolítva. Relatív path: ${relative_parts}
-    ELSE
+    IF   not ${is_success}
         Log To Console    [ERROR] Input folder eltávolítása sikertelen!
         ${relative_parts}=    Set Variable    ${filtered_path_parts}
     END
     
     ${parts_count}=    Get Length    ${relative_parts}
-    Log To Console    Path részek száma (input folder nélkül): ${parts_count}
-    Log To Console    Relatív path részek: ${relative_parts}
+    #Log To Console    Path részek száma (input folder nélkül): ${parts_count}
+    #Log To Console    Relatív path részek: ${relative_parts}
     
     # Legalább 2 könyvtárra van szükség (parent és child)
     IF    ${parts_count} < 2
@@ -1283,16 +1207,16 @@ Create_K_ell_Excel
         ${child_path}=     Get From List    ${relative_parts}    ${last_idx}
     END
     
-    Log To Console    \n=== FELDOLGOZÁS EREDMÉNYE ===
+    #Log To Console    \n=== FELDOLGOZÁS EREDMÉNYE ===
     Log To Console    Parent Path: ${parent_path}
     Log To Console    Child Path: ${child_path}
     Log To Console    Filename: ${filename_part}
-    Log To Console    \n=== FELDOLGOZÁS BEFEJEZVE ===
+    #Log To Console    \n=== FELDOLGOZÁS BEFEJEZVE ===
     
     # Excel fájl és sheet meghatározása
     ${output_folder}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}
     ${excel_filename}=    Set Variable    K_ell_${parent_path}_v1.0.xlsx
-    ${activeExcelFile}=    Evaluate    __import__('os').path.join(r"${output_folder}", r"${excel_filename}")    modules=os
+    ${activeExcelFile}=    Evaluate    __import__('os').path.join(r'''${output_folder}''', r'''${excel_filename}''')    modules=os
     ${activeSheetName}=    Set Variable    ${child_path}
     
     # Excel fájl létrehozása/ellenőrzése
@@ -1314,7 +1238,7 @@ Create_K_ell_Excel
         
         # Sablon fájl másolása
         ${template_path}=    Set Variable    ${CURDIR}/../sablonok/K ell sablon_sulyszam_minbizt_2024_12_v_1_0.xlsx
-        ${template_exists}=    Run Keyword And Return Status    File Should Exist    ${template_path}
+    ${template_exists}=    Run Keyword And Return Status    File Should Exist    ${template_path}
         IF    ${template_exists}
             Copy File    ${template_path}    ${activeExcelFile}
             Log To Console    [INFO] Sablon fájl másolva: ${template_path} -> ${activeExcelFile}
@@ -1329,8 +1253,9 @@ Create_K_ell_Excel
         ELSE
             Log To Console    [WARNING] Sablon fájl nem található: ${template_path}
             Log To Console    [INFO] Üres Excel fájl létrehozása alapértelmezett sheet-ekkel...
-            ${create_file_script}=    Set Variable    import openpyxl; wb=openpyxl.Workbook(); wb.remove(wb.active); ws1=wb.create_sheet('EM X.Y'); ws2=wb.create_sheet('${activeSheetName}'); wb.save(r'${activeExcelFile}'); print('Excel fájl és sheet-ek létrehozva')
-            ${create_result}=    Run Process    python    -c    ${create_file_script}
+            ${active_excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${activeExcelFile}''').as_posix()    modules=pathlib
+            ${create_file_script}=    Set Variable    import openpyxl; wb=openpyxl.Workbook(); wb.remove(wb.active); ws1=wb.create_sheet('EM X.Y'); ws2=wb.create_sheet('${activeSheetName}'); wb.save('${active_excel_path_norm}'); print('Excel fájl és sheet-ek létrehozva')
+            ${create_result}=    Run Process    python    -W    ignore    -c    ${create_file_script}
             Log To Console    Excel létrehozás eredménye: ${create_result.stdout}
         END
     END
@@ -1343,9 +1268,10 @@ Check Excel Sheet Exists
     
     Log    [DEBUG] Checking sheet '${sheet_name}' in file: ${excel_file}
     
-    # Python használata az Excel sheet-ek ellenőrzéséhez
+    # Python használata az Excel sheet-ek ellenőrzéséhez (útvonal normalizálása)
+    ${excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${excel_file}''').as_posix()    modules=pathlib
     ${result}=    Evaluate    
-    ...    __import__('openpyxl').load_workbook(r'${excel_file}').sheetnames.__contains__('${sheet_name}')
+    ...    __import__('openpyxl').load_workbook('${excel_path_norm}').sheetnames.__contains__('${sheet_name}')
     ...    modules=openpyxl
     
     Log    [DEBUG] Sheet check result: ${result}
@@ -1358,14 +1284,17 @@ Copy Excel Sheet
     
     Log    [DEBUG] Copying sheet '${source_sheet_name}' to '${target_sheet_name}' in file: ${excel_file}
     
-    # Direct Python evaluation for sheet copying
-    ${python_code}=    Set Variable    import openpyxl; from copy import deepcopy; wb = openpyxl.load_workbook(r'${excel_file}'); source_sheet = wb['${source_sheet_name}']; target_sheet = wb.copy_worksheet(source_sheet); target_sheet.title = '${target_sheet_name}'; target_sheet.conditional_formatting = deepcopy(source_sheet.conditional_formatting); wb.save(r'${excel_file}'); print('SUCCESS')
-    ${result}=    Run Process    python    -c    ${python_code}    shell=True
+    # Direct Python evaluation for sheet copying (útvonal normalizálása)
+    ${excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${excel_file}''').as_posix()    modules=pathlib
+    ${python_code}=    Set Variable    import openpyxl; from copy import deepcopy; wb = openpyxl.load_workbook('${excel_path_norm}'); source_sheet = wb['${source_sheet_name}']; target_sheet = wb.copy_worksheet(source_sheet); target_sheet.title = '${target_sheet_name}'; target_sheet.conditional_formatting = deepcopy(source_sheet.conditional_formatting); wb.save('${excel_path_norm}'); print('SUCCESS')
+    ${result}=    Run Process    python    -W    ignore    -c    ${python_code}    shell=True
     
     Log    [DEBUG] Sheet copy result: ${result.stdout}
     Log    [DEBUG] Sheet copy stderr: ${result.stderr}
     Log    [DEBUG] Sheet copy return code: ${result.rc}
-    
     ${success}=    Run Keyword And Return Status    Should Be Equal As Strings    ${result.stdout.strip()}    SUCCESS
-    
     RETURN    ${success}
+    
+Silence Python SyntaxWarnings
+    [Documentation]    Kikapcsolja a Python SyntaxWarning figyelmeztetéseket (pl. invalid escape sequence) az Evaluate hívásokhoz
+    Evaluate    __import__('warnings').filterwarnings('ignore', category=SyntaxWarning)    modules=warnings

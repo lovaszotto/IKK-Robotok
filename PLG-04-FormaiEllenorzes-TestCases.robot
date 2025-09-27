@@ -9,8 +9,8 @@ Resource         resources/keywords.robot
 
 *** Variables ***
 # These will be passed from command line via --variable  
-${CURRENT_DOCX_FILE}    c:\\tmp\\test\\Kézirat.docx
-${CURRENT_EXCEL_FILE}    c:\\tmp\\K_ell_Kézirat.xlsx
+${CURRENT_DOCX_FILE}    c:/tmp/test/Kézirat.docx
+${CURRENT_EXCEL_FILE}    c:/tmp/K_ell_Kézirat.xlsx
 ${CURRENT_SHEET_NAME}    Kézirat
 
 *** Test Cases ***

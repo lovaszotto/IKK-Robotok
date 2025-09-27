@@ -122,7 +122,7 @@ Process Single DOCX With All Checks
     [Documentation]    Egyetlen DOCX fájl teljes feldolgozása (redundancia + 23 formálellenőrzés)
     [Arguments]    ${docx_file}    ${file_index}    ${total_files}
     
-    Log String To Console    \n>>> FELDOLGOZÁS: (${file_index}/${total_files}) ${docx_file}
+    Log String To Console    \n>>> FELDOLGOZÁS2: (${file_index}/${total_files}) ${docx_file}
     
     # PLG-01-Excel.robot meghívása
     ${activeExcelFile}    ${activeSheetName}=    Create_K_ell_Excel    ${docx_file}

@@ -19,16 +19,16 @@ Create_K_ell_Excel
     [Documentation]    DOCX fájl paraméter feldolgozása: path és filename szétválasztása, path validálása
     [Arguments]    ${docx_file}
     
-    Log To Console    \n=== DOCX FÁJL ÚTVONAL FELDOLGOZÁSA ===
-    Log To Console    Kapott paraméter: ${docx_file}
+    #Log To Console    \n=== DOCX FÁJL ÚTVONAL FELDOLGOZÁSA ===
+    #Log To Console    Kapott paraméter: ${docx_file}
     
     # 1. Path és filename szétválasztása
     ${path_part}=    Evaluate    __import__('os').path.dirname(r"${docx_file}")    modules=os
     ${filename_part}=    Evaluate    __import__('os').path.basename(r"${docx_file}")    modules=os
     
-    Log To Console    Path rész: ${path_part}
-    Log To Console    Filename rész: ${filename_part}
-    Log To Console    Input folder (globális): ${INPUT_FOLDER}
+    #Log To Console    Path rész: ${path_part}
+    #Log To Console    Filename rész: ${filename_part}
+    #Log To Console    Input folder (globális): ${INPUT_FOLDER}
     
     # Globális változókba mentés
     Set Global Variable    ${FILENAME}    ${filename_part}
@@ -50,8 +50,8 @@ Create_K_ell_Excel
     ${relative_parts}=    Remove Input Folder From Path    ${filtered_parts}    ${INPUT_FOLDER}
     
     ${parts_count}=    Get Length    ${relative_parts}
-    Log To Console    Path részek száma (input folder nélkül): ${parts_count}
-    Log To Console    Relatív path részek: ${relative_parts}
+    #Log To Console    Path részek száma (input folder nélkül): ${parts_count}
+    #Log To Console    Relatív path részek: ${relative_parts}
     
     # 4. Ellenőrzés: legalább 2 részre kell bomlania (utolsó 2 könyvtár)
     IF    ${parts_count} < 2
@@ -83,7 +83,7 @@ Create_K_ell_Excel
     Log To Console    Parent Path: ${parent_path}
     Log To Console    Child Path: ${child_path}
     Log To Console    Filename: ${filename_part}
-    Log To Console    \n=== FELDOLGOZÁS BEFEJEZVE ===
+    #Log To Console    \n=== FELDOLGOZÁS BEFEJEZVE ===
     
     # Excel fájl ellenőrzése
     Check Excel File Exists    ${parent_path}    ${child_path}
@@ -115,8 +115,8 @@ Remove Input Folder From Path
     ${input_count}=    Get Length    ${input_filtered}
     ${path_count}=     Get Length    ${path_parts}
     
-    Log To Console    Input folder részek: ${input_filtered} (${input_count} db)
-    Log To Console    Eredeti path részek: ${path_parts} (${path_count} db)
+    #Log To Console    Input folder részek: ${input_filtered} (${input_count} db)
+    #Log To Console    Eredeti path részek: ${path_parts} (${path_count} db)
     
     # Ellenőrizzük, hogy a path elejei megegyeznek-e az input folder-rel
     ${matches}=    Set Variable    True
@@ -143,7 +143,7 @@ Remove Input Folder From Path
             ${part}=    Get From List    ${path_parts}    ${i}
             Append To List    ${relative_parts}    ${part}
         END
-        Log To Console    [SUCCESS] Input folder eltávolítva. Relatív path: ${relative_parts}
+        #Log To Console    [SUCCESS] Input folder eltávolítva. Relatív path: ${relative_parts}
         RETURN    ${relative_parts}
     ELSE
         Log To Console    [INFO] Path nem kezdődik az input folder-rel, eredeti használata

@@ -13,7 +13,8 @@ def validate_docx_files():
         print("❌ documentation_docx könyvtár nem található!")
         return
     
-    docx_files = list(Path(docx_dir).glob("*.docx"))
+    # Exclude temporary Word lock files starting with '~$'
+    docx_files = [p for p in Path(docx_dir).glob("*.docx") if not p.name.startswith("~$")]
     
     print("📚 DOCX FÁJLOK VALIDÁLÁSA")
     print("=" * 30)

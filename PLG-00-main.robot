@@ -7,6 +7,7 @@ Library     Collections
 Library     OperatingSystem
 Library     Process
 Library    libraries/keep_awake.py
+# Removed SeleniumLibrary and RPA.RobotLogListener to avoid missing module errors
 
 Suite Setup    Prevent Sleep
 Suite Teardown    Allow Sleep
@@ -43,6 +44,9 @@ Batch inicializálás
     Log String To Console    \n=== ÖSSZES DOCX FELDOLGOZÁSA ===
     Log String To Console    Talált fájlok száma: ${file_count}
     
+    # Egyszer feldolgozandó könyvtárak listája
+    ${DoneDirs}=    Create List
+    
     FOR    ${index}    IN RANGE    ${file_count}
         ${docx_file}=    Get From List    ${docx_files}    ${index}
         ${file_number}=    Evaluate    ${index} + 1
@@ -51,10 +55,25 @@ Batch inicializálás
         ${file_parts}=    Split String    ${docx_file}    ${/}
         ${file_name}=    Get From List    ${file_parts}    -1
         
-        Log String To Console    \n>>> FELDOLGOZÁS: (${file_number}/${file_count}) ${docx_file}
+        ${CURRENT_DIR}=    Evaluate    __import__('os').path.dirname(r'''${docx_file}''')    modules=os
+     
+        # Csak egyszer feldolgozni egy könyvtárat: ha már szerepel, folytatás
+        ${already_done}=    Run Keyword And Return Status    List Should Contain Value    ${DoneDirs}    ${CURRENT_DIR}
         
-        Process Single DOCX With Format Checks    ${docx_file}    ${file_number}    ${file_count}
-        Log String To Console    <<< BEFEJEZVE: ${docx_file}
+        #IF    ${already_done} 
+            #Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>A fájl kihagyva<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+            #Log String To Console    ${docx_file}
+            #CONTINUE
+       #ELSE
+            Log String To Console    \n\n>>> FELDOLGOZÁS: (${file_number}/${file_count}) ${docx_file}
+            #Log String To Console       -------------------------------> ${CURRENT_DIR} <-------------------------------\n
+
+            Append To List    ${DoneDirs}    ${CURRENT_DIR}
+            #Log String To Console    <<<  FELDOLGOZÁS indul...
+            Process Single DOCX With Format Checks    ${docx_file}    ${file_number}    ${file_count}
+            Log String To Console    <<<  BEFEJEZVE: ${docx_file}
+        #END
+
     END
 
 Batch lezárás
@@ -63,7 +82,7 @@ Batch lezárás
     # Eredmények automatikus ellenőrzése
     Log String To Console    DUPLUM ELLENŐRZÉS BEFEJEZVE - EREDMÉNYEK ELEMZÉSE INDUL...
     Log String To Console    \n════════════════════════════════════════════════════════════════
-    Run Keyword And Continue On Failure    Redundancia Eredmények Ellenőrzése
+    # Redundancia Eredmények Ellenőrzése eltávolítva (adatbázis kezelés végleg letiltva)
 
     # Feldolgozott dokumentumok számának és futásidőnek kiírása
     ${file_count}=    Get Variable Value    ${BATCH_FILE_COUNT}    0
