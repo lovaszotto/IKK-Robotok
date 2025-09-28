@@ -597,27 +597,56 @@ Run Formai Ellenorzes
     Log To Console    Excel fájl: ${excel_file}
     Log To Console    Sheet név: ${sheet_name}
     
-    # Format ellenőrzések futtatása külön test suite-ként változók beállításával
-    ${result} =    Run Process    robot    
-    ...    --variable    CURRENT_DOCX_FILE:${docx_file}
-    ...    --variable    CURRENT_EXCEL_FILE:${excel_file}
-    ...    --variable    CURRENT_SHEET_NAME:${sheet_name}
-    ...    --outputdir    results/format_${sheet_name}
-    ...    PLG-04-FormaiEllenorzes-TestCases.robot
-    ...    shell=True    stdout=PIPE    stderr=PIPE
-    
-    Log To Console    === FORMÁT ELLENŐRZÉSI SUITE FUTTATÁS ===
-    Log To Console    Return Code: ${result.rc}
-    Log To Console    STDOUT: ${result.stdout}
-    IF    ${result.rc} != 0
-        Log To Console    STDERR: ${result.stderr}
-        # Jelöljük hibásnak, de folytassuk a feldolgozást
-        ${hiba_lista}=    Get Variable Value    ${HIBA_LISTA}    []
-        Append To List    ${hiba_lista}    ${docx_file}: [HIBA] Formálellenőrzési suite hibával tért vissza (rc=${result.rc})
-        Set Global Variable    ${HIBA_LISTA}    ${hiba_lista}
-        RETURN
+    # Formálellenőrzések futtatása egyenként ugyanabból a suite-ból (--test)
+    ${suite_file}=    Set Variable    PLG-04-FormaiEllenorzes-TestCases.robot
+    @{test_names}=    Create List
+    ...    Test Case 01 - Arculati Elemek Ellenorzese
+    ...    Test Case 02 - Kompetencia Teszt Ellenorzese
+    ...    Test Case 03 - Fogalomtar Ellenorzese
+    ...    Test Case 04 - Szerkesztoi Instrukciok Ellenorzese
+    ...    Test Case 05 - Internet Hivatkozasok Ellenorzese
+    ...    Test Case 06 - Szerzo Lektor Ellenorzese
+    ...    Test Case 07 - Hosszu Idezetek Ellenorzese
+    ...    Test Case 08 - Tordeles Ellenorzese
+    ...    Test Case 09 - Abrak Fotok Ellenorzese
+    ...    Test Case 10 - Felsorolas Ellenorzese
+    ...    Test Case 11 - Ures Negyzetek Ellenorzese
+    ...    Test Case 12 - Cimek Formatuma Ellenorzese
+    ...    Test Case 13 - Oldalhatar Ellenorzese
+    ...    Test Case 14 - Betutipus Ellenorzese
+    ...    Test Case 15 - Sorkoze Ellenorzese
+    ...    Test Case 16 - Labjegyzetek Ellenorzese
+    ...    Test Case 17 - Tartalomjegyzek Ellenorzese
+    ...    Test Case 18 - Irodalomjegyzek Ellenorzese
+    ...    Test Case 19 - Tablazatok Ellenorzese
+    ...    Test Case 20 - Szoveg Igazitas Ellenorzese
+    ...    Test Case 21 - Oldalszamozas Ellenorzese
+    ...    Test Case 22 - Fejlec Lablec Ellenorzese
+    ...    Test Case 23 - Helyesiras Ellenorzese
+    FOR    ${test_name}    IN    @{test_names}
+        @{parts}=    Split String    ${test_name}    ${SPACE}-${SPACE}
+        ${test_base}=    Get From List    ${parts}    0
+        ${test_outdir}=    Set Variable    results/format_${sheet_name}/${test_base}
+        Create Directory    ${test_outdir}
+        ${result}=    Run Process    robot
+        ...    --variable    CURRENT_DOCX_FILE:${docx_file}
+        ...    --variable    CURRENT_EXCEL_FILE:${excel_file}
+        ...    --variable    CURRENT_SHEET_NAME:${sheet_name}
+        ...    --outputdir    ${test_outdir}
+        ...    --name    ${test_base}
+        ...    --test    ${test_name}
+        ...    ${suite_file}
+        ...    shell=True    stdout=PIPE    stderr=PIPE
+        Log To Console    === EGYEDI FORMAI TESZT FUTTATÁS === ${test_base}
+        Log To Console    Return Code: ${result.rc}
+        Log To Console    STDOUT: ${result.stdout}
+        IF    ${result.rc} != 0
+            Log To Console    STDERR: ${result.stderr}
+            ${hiba_lista}=    Get Variable Value    ${HIBA_LISTA}    []
+            Append To List    ${hiba_lista}    ${docx_file}: [HIBA] Formálellenőrzési teszt hibával tért vissza: ${test_base} (rc=${result.rc})
+            Set Global Variable    ${HIBA_LISTA}    ${hiba_lista}
+        END
     END
-    
     Log To Console    === FORMAI ELLENŐRZÉS BEFEJEZVE ===
 
 Get File Name Base
@@ -637,27 +666,56 @@ Run Formai Ellenorzes With Params
     Log To Console    Excel fájl: ${excel_file}
     Log To Console    Sheet név: ${sheet_name}
     
-    # Format ellenőrzések futtatása külön test suite-ként változók beállításával
-    ${result} =    Run Process    robot    
-    ...    --variable    CURRENT_DOCX_FILE:${docx_file}
-    ...    --variable    CURRENT_EXCEL_FILE:${excel_file}
-    ...    --variable    CURRENT_SHEET_NAME:${sheet_name}
-    ...    --outputdir    results/format_${sheet_name}
-    ...    PLG-04-FormaiEllenorzes-TestCases.robot
-    ...    shell=True    stdout=PIPE    stderr=PIPE
-    
-    Log To Console    === FORMÁT ELLENŐRZÉSI SUITE FUTTATÁS ===
-    Log To Console    Return Code: ${result.rc}
-    Log To Console    STDOUT: ${result.stdout}
-    IF    ${result.rc} != 0
-        Log To Console    STDERR: ${result.stderr}
-        # Jelöljük hibásnak, de folytassuk a feldolgozást
-        ${hiba_lista}=    Get Variable Value    ${HIBA_LISTA}    []
-        Append To List    ${hiba_lista}    ${docx_file}: [HIBA] Formálellenőrzési suite hibával tért vissza (rc=${result.rc})
-        Set Global Variable    ${HIBA_LISTA}    ${hiba_lista}
-        RETURN
+    # Formálellenőrzések futtatása egyenként ugyanabból a suite-ból (--test)
+    ${suite_file}=    Set Variable    PLG-04-FormaiEllenorzes-TestCases.robot
+    @{test_names}=    Create List
+    ...    Test Case 01 - Arculati Elemek Ellenorzese
+    ...    Test Case 02 - Kompetencia Teszt Ellenorzese
+    ...    Test Case 03 - Fogalomtar Ellenorzese
+    ...    Test Case 04 - Szerkesztoi Instrukciok Ellenorzese
+    ...    Test Case 05 - Internet Hivatkozasok Ellenorzese
+    ...    Test Case 06 - Szerzo Lektor Ellenorzese
+    ...    Test Case 07 - Hosszu Idezetek Ellenorzese
+    ...    Test Case 08 - Tordeles Ellenorzese
+    ...    Test Case 09 - Abrak Fotok Ellenorzese
+    ...    Test Case 10 - Felsorolas Ellenorzese
+    ...    Test Case 11 - Ures Negyzetek Ellenorzese
+    ...    Test Case 12 - Cimek Formatuma Ellenorzese
+    ...    Test Case 13 - Oldalhatar Ellenorzese
+    ...    Test Case 14 - Betutipus Ellenorzese
+    ...    Test Case 15 - Sorkoze Ellenorzese
+    ...    Test Case 16 - Labjegyzetek Ellenorzese
+    ...    Test Case 17 - Tartalomjegyzek Ellenorzese
+    ...    Test Case 18 - Irodalomjegyzek Ellenorzese
+    ...    Test Case 19 - Tablazatok Ellenorzese
+    ...    Test Case 20 - Szoveg Igazitas Ellenorzese
+    ...    Test Case 21 - Oldalszamozas Ellenorzese
+    ...    Test Case 22 - Fejlec Lablec Ellenorzese
+    ...    Test Case 23 - Helyesiras Ellenorzese
+    FOR    ${test_name}    IN    @{test_names}
+        @{parts}=    Split String    ${test_name}    ${SPACE}-${SPACE}
+        ${test_base}=    Get From List    ${parts}    0
+        ${test_outdir}=    Set Variable    results/format_${sheet_name}/${test_base}
+        Create Directory    ${test_outdir}
+        ${result}=    Run Process    robot
+        ...    --variable    CURRENT_DOCX_FILE:${docx_file}
+        ...    --variable    CURRENT_EXCEL_FILE:${excel_file}
+        ...    --variable    CURRENT_SHEET_NAME:${sheet_name}
+        ...    --outputdir    ${test_outdir}
+        ...    --name    ${test_base}
+        ...    --test    ${test_name}
+        ...    ${suite_file}
+        ...    shell=True    stdout=PIPE    stderr=PIPE
+        Log To Console    === EGYEDI FORMAI TESZT FUTTATÁS === ${test_base}
+        Log To Console    Return Code: ${result.rc}
+        Log To Console    STDOUT: ${result.stdout}
+        IF    ${result.rc} != 0
+            Log To Console    STDERR: ${result.stderr}
+            ${hiba_lista}=    Get Variable Value    ${HIBA_LISTA}    []
+            Append To List    ${hiba_lista}    ${docx_file}: [HIBA] Formálellenőrzési teszt hibával tért vissza: ${test_base} (rc=${result.rc})
+            Set Global Variable    ${HIBA_LISTA}    ${hiba_lista}
+        END
     END
-    
     Log To Console    === FORMÁLELLENŐRZÉS BEFEJEZVE ===
 
 # =================================================================

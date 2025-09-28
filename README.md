@@ -258,6 +258,25 @@ rf_env\Scripts\python.exe libraries\excel_export_simple.py test.xlsx
 rf_env\Scripts\robot.exe --dryrun PLG-00-main.robot
 ```
 
+## ▶️ Futtatás és logok (aktuális mód)
+
+Ebben a projektben a teljes folyamat egy közös Robot Framework suite-ból fut (PLG-00-main.robot), és a beépített Robot logok le vannak tiltva. Helyettük egy egyedi, időbélyeggel ellátott naplófájl készül a konfigurált kimeneti mappába.
+
+### Hogyan futtasd
+
+- PowerShell-ből (aktív virtuális környezet mellett):
+	- rf_env\Scripts\activate; rf_env\Scripts\robot.exe --output NONE --log NONE --report NONE PLG-00-main.robot
+- Vagy a mellékelt batch fájllal:
+	- start.bat
+
+### Hol találom a logot?
+
+- A Duplikacio.config fájl `output_folder` beállítása határozza meg a kimeneti mappát.
+- Futáskor ide kerül egy fájl: `RunLog_YYYYMMDD_HHMMSS.log` (példa: `RunLog_20250922_101530.log`).
+- Ha a `start.bat`-ot használod, a futás végén kiírja ennek a pontos elérési útját.
+
+Megjegyzés: A Robot Framework alapértelmezett `log.html` és `report.html` fájljai ebben a futtatási módban szándékosan ki vannak kapcsolva.
+
 ## 📊 Teljesítmény
 
 ### Feldolgozási sebesség
