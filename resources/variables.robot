@@ -1,11 +1,9 @@
 *** Variables ***
 ${DOCX_FILE}        Test.docx
-#${DOCX_FILE}       EM-2.1.7_RRF221_tema_kezirata.docx
 ${DOCUMENT_PATH}    ./test  # Ezt a konfiguracios fajlbol toltjuk be
+${DOCX_JSON}        ${None} # az aktuálisan beolvasott docx json tartalom
 ${szoveg}           NONE
-${kisbetus}         NONE
-@{hashValues}    
-@{sorok}
+${WAS_ERROR}        ${False} #volt-e hiba a futás során egy dokumentum feldolgozásakor
 
 # Python executable változó (Robot Framework környezetben)
 ${PYTHON_EXEC}      python.exe

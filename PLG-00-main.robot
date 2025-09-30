@@ -11,6 +11,7 @@ Library    libraries/keep_awake.py
 
 Suite Setup    Prevent Sleep
 Suite Teardown    Allow Sleep
+Test Teardown    Update Test Counters
 
 *** Variables ***
 
@@ -23,6 +24,12 @@ Batch inicializálás
 
     # Globális log fájl inicializálása (a gyökérben)
     Initialize Global Log File
+
+    # Teszt számlálók nullázása
+    Initialize Test Counters
+
+    # Formálellenőrzés számlálók nullázása
+    Initialize Check Counters
 
     # Konfiguracio betöltése minden futás elején
     Konfiguráció Betöltése
@@ -44,9 +51,6 @@ Batch inicializálás
     Log String To Console    \n=== ÖSSZES DOCX FELDOLGOZÁSA ===
     Log String To Console    Talált fájlok száma: ${file_count}
     
-    # Egyszer feldolgozandó könyvtárak listája
-    ${DoneDirs}=    Create List
-    
     FOR    ${index}    IN RANGE    ${file_count}
         ${docx_file}=    Get From List    ${docx_files}    ${index}
         ${file_number}=    Evaluate    ${index} + 1
@@ -56,24 +60,17 @@ Batch inicializálás
         ${file_name}=    Get From List    ${file_parts}    -1
         
         ${CURRENT_DIR}=    Evaluate    __import__('os').path.dirname(r'''${docx_file}''')    modules=os
-     
-        # Csak egyszer feldolgozni egy könyvtárat: ha már szerepel, folytatás
-        ${already_done}=    Run Keyword And Return Status    List Should Contain Value    ${DoneDirs}    ${CURRENT_DIR}
         
-        #IF    ${already_done} 
-            #Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>A fájl kihagyva<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-            #Log String To Console    ${docx_file}
-            #CONTINUE
-       #ELSE
-            Log String To Console    \n\n>>> FELDOLGOZÁS: (${file_number}/${file_count}) ${docx_file}
-            #Log String To Console       -------------------------------> ${CURRENT_DIR} <-------------------------------\n
+        Log String To Console    \n\n>>> FELDOLGOZÁS: (${file_number}/${file_count}) ${docx_file}
+         #todo docx_file név ellenőrzés
+        ${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirata.docx
+        IF    not ${name_ok}
+            Log String To Console    [SKIP] Fájl kihagyva (név nem egyezik): ${file_name}
+            CONTINUE
+        END
 
-            Append To List    ${DoneDirs}    ${CURRENT_DIR}
-            #Log String To Console    <<<  FELDOLGOZÁS indul...
-            Process Single DOCX With Format Checks    ${docx_file}    ${file_number}    ${file_count}
-            Log String To Console    <<<  BEFEJEZVE: ${docx_file}
-        #END
-
+        Process Single DOCX File As Test Case    ${docx_file}    ${file_number}    ${file_count}    Formálellenőrzés - ${file_name}
+        Log String To Console    <<<  BEFEJEZVE: ${docx_file}
     END
 
 Batch lezárás
@@ -98,3 +95,14 @@ Batch lezárás
     Log String To Console    \n════════════════════════════════
     Log String To Console    \nFeldolgozott dokumentumok száma: ${file_count}
     Log String To Console    \nFutás teljes ideje: ${hours} óra ${minutes} perc ${seconds} másodperc
+
+    # Dinamikus (valós) összesítés a saját logba (Robot TC-k és 23-as ellenőrzések)
+    ${TC_TOTAL}=    Get Variable Value    ${TC_TOTAL}    0
+    ${TC_PASSED}=   Get Variable Value    ${TC_PASSED}   0
+    ${TC_FAILED}=   Get Variable Value    ${TC_FAILED}   0
+    ${CHECK_TOTAL}=    Get Variable Value    ${CHECK_TOTAL}    0
+    ${CHECK_PASSED}=   Get Variable Value    ${CHECK_PASSED}   0
+    ${CHECK_FAILED}=   Get Variable Value    ${CHECK_FAILED}   0
+    Log String To Console    \nROBOT ÖSSZESÍTÉS
+    Log String To Console    Robot testcases: ${TC_TOTAL} tests, ${TC_PASSED} passed, ${TC_FAILED} failed
+    Log String To Console    Formálellenőrzések: ${CHECK_TOTAL} tests, ${CHECK_PASSED} passed, ${CHECK_FAILED} failed

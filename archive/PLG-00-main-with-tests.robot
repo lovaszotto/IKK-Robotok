@@ -150,8 +150,8 @@ Process Single DOCX With All Checks
     END
 
     # Először redundancia rekordot beszúrjuk, majd átadjuk az ID-t a DOCX feldolgozásnak
-    ${redundancia_id}=    Fájladatok Feldolgozása Redundancia Táblába    ${docx_file}    ${is_error}    ${szoveg}
-    Run Keyword If    '${redundancia_id}' != ''    DOCX Beolvasás Teszt    ${docx_file}    ${redundancia_id}
+    #${redundancia_id}=    Fájladatok Feldolgozása Redundancia Táblába    ${docx_file}    ${is_error}    ${szoveg}
+    #Run Keyword If    '${redundancia_id}' != ''    DOCX Beolvasás Teszt    ${docx_file}    ${redundancia_id}
     
     # Mind a 23 formálellenőrzés közvetlenül (nem subprocess-ként)
     Log String To Console    \n=== 23 FORMÁLELLENŐRZÉS INDÍTÁSA ===

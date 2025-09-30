@@ -277,6 +277,30 @@ Ebben a projektben a teljes folyamat egy közös Robot Framework suite-ból fut 
 
 Megjegyzés: A Robot Framework alapértelmezett `log.html` és `report.html` fájljai ebben a futtatási módban szándékosan ki vannak kapcsolva.
 
+### Logok megtekintése böngészőben (helyi http szerver)
+
+Ha szeretnéd a kimeneti mappát böngészőben tallózni (pl. több RunLog és Excel fájl gyors áttekintése):
+
+1) Nyisd meg PowerShellben a kimeneti mappát (az `output_folder` érték a Duplikacio.config-ban):
+
+```powershell
+Set-Location "C:\TMP"   # Példa, igazítsd az output_folder értékhez
+```
+
+2) Indíts egy egyszerű HTTP szervert a 8000-es porton:
+
+```powershell
+python -m http.server 8000
+```
+
+3) Nyisd meg böngészőben:
+
+```
+http://localhost:8000/
+```
+
+Innen megnyithatod a legutóbbi `RunLog_*.log` fájlt és az elkészült Excel jelentéseket is.
+
 ## 📊 Teljesítmény
 
 ### Feldolgozási sebesség

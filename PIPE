@@ -1,16 +1,4 @@
-==============================================================================
-Test Case 23 :: Formálellenõrzési Test Cases DOCX dokumentumokhoz             
-==============================================================================
-Test Case 23 - Helyesiras Ellenorzese :: Ellenõrzi a helyesírást é... [23/23] Helyesírás ellenõrzése
-<string>:1: SyntaxWarning: invalid escape sequence '\K'
-Excel jelölés: c:\tmp\K_ell_EM-1.1_v1.0.xlsx - EM-1.1.1 - B24
-[SIKERES] Excel cella jelölve zöldre: B24
-[23] Helyesírás: SIKERES (B24 zöld)
-| PASS |
-------------------------------------------------------------------------------
-Test Case 23 :: Formálellenõrzési Test Cases DOCX dokumentumokhoz     | PASS |
-1 test, 1 passed, 0 failed
-==============================================================================
-Output:  C:\_ROBOTOK\IKK-Robotok\IKK02_FormaiEllenorzesek\results\format_EM-1.1.1\Test Case 23\output.xml
-Log:     C:\_ROBOTOK\IKK-Robotok\IKK02_FormaiEllenorzesek\results\format_EM-1.1.1\Test Case 23\log.html
-Report:  C:\_ROBOTOK\IKK-Robotok\IKK02_FormaiEllenorzesek\results\format_EM-1.1.1\Test Case 23\report.html
+  File "<string>", line 1
+    import docx, os; _doc=docx.Document('c:/tmp/keziratok_teszteleshez/EM-1.1/EM-1.1.1/EM-1.1.1_RRF221_tema_kezirata.docx'); _text='
+                                                                                                                                   ^
+SyntaxError: unterminated string literal (detected at line 1)
