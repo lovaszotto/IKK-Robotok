@@ -374,7 +374,7 @@ Process Single DOCX File As Test Case
     Set Global Variable    ${DOCX_FILE}    ${docx_file}
     
     # DOCX beolvasás és hibastátusz lekérdezése
-    ${szoveg}=    Beolvasom A DOCX Fájlt
+    #otto was here ${szoveg}=    Beolvasom A DOCX Fájlt
     Set Global Variable    ${SZOVEG}    ${szoveg}
 
     ${is_error}=    Run Keyword And Return Status    Should Start With    ${szoveg}    [HIBA]
@@ -667,18 +667,19 @@ Rename Excel File Mark Error
         RETURN
     END
     ${new_path}=      Evaluate    __import__('os').path.join(r'''${dirpath}''', r'''${new_basename}''')    modules=os
-    ${exists_new}=    Run Keyword And Return Status    File Should Exist    ${new_path}
-    IF    ${exists_new}
-        ${ts}=    Get Current Date    result_format=%Y%m%d_%H%M%S
-        ${new_basename}=    Replace String    ${new_basename}    .xlsx    _${ts}.xlsx
-        ${new_path}=    Evaluate    __import__('os').path.join(r'''${dirpath}''', r'''${new_basename}''')    modules=os
-    END
+    #${exists_new}=    Run Keyword And Return Status    File Should Exist    ${new_path}
+    #IF    ${exists_new}
+    #    ${ts}=    Get Current Date    result_format=%Y%m%d_%H%M%S
+    #    ${new_basename}=    Replace String    ${new_basename}    .xlsx    _${ts}.xlsx
+    #    ${new_path}=    Evaluate    __import__('os').path.join(r'''${dirpath}''', r'''${new_basename}''')    modules=os
+    #END
     Log To Console    [INFO] Excel átnevezés: ${excel_file} -> ${new_path}
     TRY
-        #csak  másolás, mert lehet, hogy a fájl nyitva van Excelben
-        Copy File    ${excel_file}    ${new_path}
+        # csak másolás, mert lehet, hogy a fájl nyitva van Excelben
+        # Copy File    ${excel_file}    ${new_path}
         #Move File    ${excel_file}    ${new_path}
-        #Set Global Variable    ${CURRENT_EXCEL_FILE}    ${new_path}
+        # Set Global Variable    ${CURRENT_EXCEL_FILE}    ${new_path}
+        No Operation
     EXCEPT    AS    ${e}
         Log To Console    [HIBA] Excel átnevezés sikertelen: ${e}
     END
@@ -821,8 +822,8 @@ Read Docx
         Log To Console    DOCX fájl beolvasva: ${content_length} karakter
         RETURN    ${content}
     EXCEPT    AS    ${error}
-        Log To Console    [HIBA] DOCX beolvasás sikertelen: ${error}
-        RETURN    [HIBA] DOCX beolvasás sikertelen: ${error}
+        Log To Console    [HIBA-Read Docx] DOCX beolvasás sikertelen: ${error}
+        RETURN    [HIBA-Read Docx] DOCX beolvasás sikertelen: ${error}
     END
 
 Read Docx All

@@ -14,13 +14,23 @@ Test Case 01 - Arculati Elemek Ellenorzese
   
     ${docx_file}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
     ${docx_json}=    Get Variable Value    ${DOCX_JSON}    ${EMPTY}
-    # DOCX struktúra beolvasása (biztosan dict-et ad vissza)
-    ${docx_json}=    DocxReader.Read Docx All    ${docx_file}
-    #mentés globálisba
-    Set Global Variable    ${DOCX_JSON}    ${docx_json}   # Teljes JSON mentése globális változóba
-    ${err_msg}=    Set Variable    ${EMPTY}
+   ${err_msg}=    Set Variable    ${EMPTY}
     ${CR}=    Evaluate    chr(13)
 
+    TRY
+           # DOCX struktúra beolvasása (biztosan dict-et ad vissza)
+    ${docx_json}=    DocxReader.Read Docx All    ${docx_file}
+    EXCEPT    message
+        ${err_msg}=    Set Variable    Első sor nem elérhető (${e})
+         Log To Console    FATAL ERROR:${err_msg}
+         ${docx_json}=    Set Variable    ${EMPTY}
+    END
+ 
+    
+    
+    #mentés globálisba
+    Set Global Variable    ${DOCX_JSON}    ${docx_json}   # Teljes JSON mentése globális változóba
+ 
     # vedd ki az első docx paragraphs
     ${paragraphs}=    Get From Dictionary    ${docx_json}    paragraphs
     # Bekezdések biztonságos kiolvasása (kevesebb bekezdés esetén se dőljön el)
@@ -41,7 +51,8 @@ Test Case 01 - Arculati Elemek Ellenorzese
         END
     EXCEPT    AS    ${e}
         ${first_paragraph}=    Set Variable    ${EMPTY}
-        Log To Console    [INFO] Első sor nem elérhető (${e})
+        Log To Console    [ERROR] Első sor nem elérhető (${e})
+         ${err_msg}=    Set Variable    Első sor nem elérhető (${e})
     END
     
     #------------------------------- második sor Egyedi megrendelés azonosítója ellenőrzése --------------------
@@ -61,7 +72,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
         END
     EXCEPT    AS    ${e}
         ${second_paragraph}=    Set Variable    ${EMPTY}
-        Log To Console    [INFO] Második sor nem elérhető (${e})
+        Log To Console    [ERROR] Második sor nem elérhető (${e})
     END
     
     #------------------------------- harmadik sor cím ellenőrzése --------------------
@@ -82,7 +93,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
         END
     EXCEPT    AS    ${e}
         ${third_paragraph}=    Set Variable    ${EMPTY}
-        Log To Console    [INFO] Harmadik bekezdés nem elérhető (${e})
+        Log To Console    [ERROR] Harmadik bekezdés nem elérhető (${e})
     END
     
     #------------------------------- negyedik sor Témák kézirata ellenőrzése --------------------
@@ -103,7 +114,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
         END
     EXCEPT    AS    ${e}
         ${fourth_paragraph}=    Set Variable    ${EMPTY}
-        Log To Console    [INFO] Negyedik sor nem elérhető (${e})
+        Log To Console    [ERROR] Negyedik sor nem elérhető (${e})
     END
 
     #Kézirat címe
