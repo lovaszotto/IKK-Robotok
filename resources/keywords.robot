@@ -1,4 +1,19 @@
 *** Keywords ***
+Mark Test Status
+    [Documentation]    Általános jelölő: hibánál F{row} megjegyzés, D{row} "X" és FAIL; siker esetén C{row} "X".
+    [Arguments]    ${excel_file}    ${sheet_name}    ${test_row}    ${err_msg}    ${mark}=X
+    IF    $err_msg != ''
+        Log To Console    Megjegyzés írása F${test_row}-ba: ${err_msg}
+        Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    6    ${err_msg}
+        # Hibás X-elés: D oszlop
+        Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    4    ${mark}
+        # Jelöld FAIL-re a tesztet, de folytasd a futást
+        Run Keyword And Continue On Failure    Fail    ${err_msg}
+    ELSE
+        # Hibátlan X-elés: C oszlop
+        Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    3    ${mark}
+    END
+*** Keywords ***
 
 Initialize Global Log File
     [Documentation]    Inicializálja a globális log fájl nevét a futás elején a gyökérkönyvtárban
@@ -404,6 +419,7 @@ Run All Format Checks Inline
     Set Global Variable    ${CURRENT_DOCX_FILE}    ${docx_file}
     Set Global Variable    ${CURRENT_EXCEL_FILE}    ${excel_file}
     Set Global Variable    ${CURRENT_SHEET_NAME}    ${sheet_name}
+    Set Global Variable    ${WAS_ERROR}    ${False}
     
     # Összesítés számlálók
     ${check_total}=    Set Variable    0
@@ -640,10 +656,14 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 23 - Helyesiras: ${msg}
     END
 
-    #WAS_ERROR esetén Excel fájl átnevezése
-    Log to console      "++++++++++++++++++FELDOLGOZOTT EXCEL:${CURRENT_EXCEL_FILE}
-     #TODO: Átnevezés WAS_ERROR alapján
-     
+    # ha WAS_ERROR (bármelyik ellenőrzés hibás), Excel fájl átnevezése: K_ell -> _K_ell
+    ${was_error}=    Evaluate    ${check_failed} > 0
+    Set Global Variable    ${WAS_ERROR}    ${was_error}
+    IF    ${was_error}
+        Rename Excel File Mark Error    ${CURRENT_EXCEL_FILE}
+    END
+    Log String To Console    Feldolgozott Excel fájl: ${CURRENT_EXCEL_FILE}
+
 
     # Összegzés kiírása
     Log String To Console    \n=== FORMÁLELLENŐRZÉS ÖSSZESÍTÉS ===
@@ -652,6 +672,36 @@ Run All Format Checks Inline
     Update Global Check Counters    ${check_total}    ${check_passed}    ${check_failed}
     
     Log String To Console    === Mind a 23 formálellenőrzés befejezve ===
+
+Rename Excel File Mark Error
+    [Documentation]    Hibás ellenőrzés esetén az Excel fájl átnevezése: K_ell -> _K_ell a fájlnévben
+    [Arguments]    ${excel_file}
+    ${exists}=    Run Keyword And Return Status    File Should Exist    ${excel_file}
+    IF    not ${exists}
+        Log To Console    [WARNING] Excel fájl nem található, átnevezés kihagyva: ${excel_file}
+        RETURN
+    END
+    ${dirpath}=       Evaluate    __import__('os').path.dirname(r'''${excel_file}''')    modules=os
+    ${basename}=      Evaluate    __import__('os').path.basename(r'''${excel_file}''')    modules=os
+    ${new_basename}=  Replace String    ${basename}    K_ell    _K_ell    count=1
+    IF    '${new_basename}' == '${basename}'
+        Log To Console    [INFO] A fájlnév nem tartalmazza a 'K_ell' mintát, átnevezés kihagyva: ${basename}
+        RETURN
+    END
+    ${new_path}=      Evaluate    __import__('os').path.join(r'''${dirpath}''', r'''${new_basename}''')    modules=os
+    ${exists_new}=    Run Keyword And Return Status    File Should Exist    ${new_path}
+    IF    ${exists_new}
+        ${ts}=    Get Current Date    result_format=%Y%m%d_%H%M%S
+        ${new_basename}=    Replace String    ${new_basename}    .xlsx    _${ts}.xlsx
+        ${new_path}=    Evaluate    __import__('os').path.join(r'''${dirpath}''', r'''${new_basename}''')    modules=os
+    END
+    Log To Console    [INFO] Excel átnevezés: ${excel_file} -> ${new_path}
+    TRY
+        Move File    ${excel_file}    ${new_path}
+        Set Global Variable    ${CURRENT_EXCEL_FILE}    ${new_path}
+    EXCEPT    AS    ${e}
+        Log To Console    [HIBA] Excel átnevezés sikertelen: ${e}
+    END
 
 Initialize DOCX Files List
     [Documentation]    DOCX fájlok listájának inicializálása batch feldolgozáshoz
