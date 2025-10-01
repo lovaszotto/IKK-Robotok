@@ -675,8 +675,10 @@ Rename Excel File Mark Error
     END
     Log To Console    [INFO] Excel átnevezés: ${excel_file} -> ${new_path}
     TRY
-        Move File    ${excel_file}    ${new_path}
-        Set Global Variable    ${CURRENT_EXCEL_FILE}    ${new_path}
+        #csak  másolás, mert lehet, hogy a fájl nyitva van Excelben
+        Copy File    ${excel_file}    ${new_path}
+        #Move File    ${excel_file}    ${new_path}
+        #Set Global Variable    ${CURRENT_EXCEL_FILE}    ${new_path}
     EXCEPT    AS    ${e}
         Log To Console    [HIBA] Excel átnevezés sikertelen: ${e}
     END

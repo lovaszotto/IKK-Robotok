@@ -9,20 +9,20 @@ Test Case 20 - Lapjai Szamozottak Ellenorzese
     ${col_present}=    Set Variable    3
     ${col_missing}=    Set Variable    4
 
-    Log To Console    [21] Ellenőrzött DOCX: ${docx_file}
+    Log To Console    [20] Ellenőrzött DOCX: ${docx_file}
     ${has}=    Has Page Numbers    ${docx_file}
-    Log To Console    [21] Oldalszámozás detektálás eredménye: ${has}
+    Log To Console    [20] Oldalszámozás detektálás eredménye: ${has}
     #Dokumentum Oldalszámozás Kötelező
     IF    ${has}
-        Log To Console    [21] Oldalszámozás: Megtalálható
+        Log To Console    [20] Oldalszámozás: Megtalálható
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${question_row}    ${col_present}    X
-        Log To Console    [21] Jelölés: X beírva a C${question_row} cellába
+        Log To Console    [20] Jelölés: X beírva a C${question_row} cellába
     ELSE
-        Log To Console    [21] Oldalszámozás: NINCS megadva
+        Log To Console    [20] Oldalszámozás: NINCS megadva
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${question_row}    ${col_missing}    X
-        Log To Console    [21] Jelölés: X beírva a D${question_row} cellába
+        Log To Console    [20] Jelölés: X beírva a D${question_row} cellába
         #Hiba jelzés, fail de fut tovább
-        Run Keyword And Continue On Failure    Fail    [21] Oldalszámozás: HIBA (X a D${question_row})
+        Run Keyword And Continue On Failure    Fail    [20] Oldalszámozás: HIBA (X a D${question_row})
     END
 
  
