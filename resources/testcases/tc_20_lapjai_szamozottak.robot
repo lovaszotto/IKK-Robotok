@@ -1,13 +1,7 @@
-*** Settings ***
-Library    ${CURDIR}/../../libraries/DocxPageNumbers.py
-Resource   ${CURDIR}/../keywords.robot
-Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
-
 *** Keywords ***
-Test Case 21 - Oldalszamozas Ellenorzese
-    [Documentation]    21 - Oldalszámozás ellenőrzése. Ellenőrizendő, hogy a kézirat oldalai egységes formátumban számozottak-e. 
-
-    ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
+Test Case 20 - Lapjai Szamozottak Ellenorzese
+    [Documentation]    20 - Lapjai számozottak
+   ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
     ${docx_file}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
 

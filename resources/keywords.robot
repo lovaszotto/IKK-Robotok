@@ -200,18 +200,19 @@ Resource   testcases/tc_08_tordeles.robot
 Resource   testcases/tc_09_abrak_fotok.robot
 Resource   testcases/tc_10_felsorolas.robot
 Resource   testcases/tc_11_ures_negyzetek.robot
-Resource   testcases/tc_12_cimek_formatuma.robot
-Resource   testcases/tc_13_oldalhatar.robot
-Resource   testcases/tc_14_betutipus.robot
-Resource   testcases/tc_15_sorkoze.robot
-Resource   testcases/tc_16_labjegyzetek.robot
-Resource   testcases/tc_17_tartalomjegyzek.robot
-Resource   testcases/tc_18_irodalomjegyzek.robot
-Resource   testcases/tc_19_tablazatok.robot
-Resource   testcases/tc_20_szoveg_igazitas.robot
-Resource   testcases/tc_21_oldalszamozas.robot
-Resource   testcases/tc_22_fejlec_lablec.robot
-Resource   testcases/tc_23_helyesiras.robot
+Resource   testcases/tc_12_magyar_nyelven_keszult.robot
+Resource   testcases/tc_13_bekezdesek_elkulonulnek.robot
+Resource   testcases/tc_14_felsorolasok_egysegesek.robot
+Resource   testcases/tc_15_mozaikaszvak.robot
+Resource   testcases/tc_16_ldezetek.robot
+Resource   testcases/tc_17_idezetek_forrasmegjelolese.robot
+Resource   testcases/tc_18_kompetencia_teszt_megoldokulcs.robot
+Resource   testcases/tc_19_idegen_nyelvu_illusztraciok.robot
+Resource   testcases/tc_20_lapjai_szamozottak.robot
+Resource   testcases/tc_21_szerkesztheto_docx_formatum.robot
+Resource   testcases/tc_22_cimlap_tartalom.robot
+Resource   testcases/tc_23_generalt_tartalomjegyzek.robot
+Resource   testcases/tc_24_cimsorozas.robot
 
 *** Variables ***
 ${DOCX_DUMP_TO_FILE}    ${True}
@@ -426,7 +427,6 @@ Run All Format Checks Inline
     ${check_passed}=   Set Variable    0
     ${check_failed}=   Set Variable    0
     
-    Log String To Console    [1/23] Arculati elemek ellenőrzése... Run All Format Checks Inline
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 01 - Arculati Elemek Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
@@ -436,7 +436,6 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 01 - Arculati Elemek: ${msg}
     END
     
-    Log String To Console    [2/23] Kompetencia teszt ellenőrzése...
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 02 - Kompetencia Teszt Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
@@ -446,7 +445,6 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 02 - Kompetencia Teszt: ${msg}
     END
     
-    Log String To Console    [3/23] Fogalomtár ellenőrzése...
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 03 - Fogalomtar Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
@@ -456,7 +454,6 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 03 - Fogalomtar: ${msg}
     END
     
-    Log String To Console    [4/23] Szerkesztői instrukciók ellenőrzése...
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 04 - Szerkesztoi Instrukciok Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
@@ -466,7 +463,6 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 04 - Szerkesztoi Instrukciok: ${msg}
     END
     
-    Log String To Console    [5/23] Internet hivatkozások ellenőrzése...
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 05 - Internet Hivatkozasok Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
@@ -476,7 +472,6 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 05 - Internet Hivatkozasok: ${msg}
     END
     
-    Log String To Console    [6/23] Szerző-lektor ellenőrzése...
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 06 - Szerzo Lektor Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
@@ -486,7 +481,6 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 06 - Szerzo Lektor: ${msg}
     END
     
-    Log String To Console    [7/23] Hosszú idézetek ellenőrzése...
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 07 - Hosszu Idezetek Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
@@ -496,7 +490,6 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 07 - Hosszu Idezetek: ${msg}
     END
     
-    Log String To Console    [8/23] Tördelés ellenőrzése...
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 08 - Tordeles Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
@@ -506,7 +499,6 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 08 - Tordeles: ${msg}
     END
     
-    Log String To Console    [9/23] Ábrák/fotók ellenőrzése...
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 09 - Abrak Fotok Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
@@ -516,7 +508,6 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 09 - Abrak Fotok: ${msg}
     END
     
-    Log String To Console    [10/23] Felsorolások ellenőrzése...
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 10 - Felsorolas Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
@@ -526,7 +517,6 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 10 - Felsorolas: ${msg}
     END
     
-    Log String To Console    [11/23] Üres négyzetek ellenőrzése...
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 11 - Ures Negyzetek Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
@@ -536,8 +526,7 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 11 - Ures Negyzetek: ${msg}
     END
     
-    Log String To Console    [12/23] Címek formátuma ellenőrzése...
-    ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 12 - Cimek Formatuma Ellenorzese
+    ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 12 - Magyar Nyelven Keszult Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
         ${check_passed}=    Evaluate    ${check_passed} + 1
@@ -546,8 +535,7 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 12 - Cimek Formatuma: ${msg}
     END
     
-    Log String To Console    [13/23] Oldalhatár ellenőrzése...
-    ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 13 - Oldalhatar Ellenorzese
+    ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 13 - Bekezdesek Elkulonulnek Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
         ${check_passed}=    Evaluate    ${check_passed} + 1
@@ -556,8 +544,7 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 13 - Oldalhatar: ${msg}
     END
     
-    Log String To Console    [14/23] Betűtípus ellenőrzése...
-    ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 14 - Betutipus Ellenorzese
+    ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_14_felsorolasok_egysegesek.Test Case 14 - Felsorolasok Egysegesek Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
         ${check_passed}=    Evaluate    ${check_passed} + 1
@@ -566,8 +553,7 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 14 - Betutipus: ${msg}
     END
     
-    Log String To Console    [15/23] Sorköze ellenőrzése...
-    ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 15 - Sorkoze Ellenorzese
+    ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_15_mozaikaszvak.Test Case 15 - Mozaikszavak Roviditesek Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
         ${check_passed}=    Evaluate    ${check_passed} + 1
@@ -576,8 +562,7 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 15 - Sorkoze: ${msg}
     END
     
-    Log String To Console    [16/23] Lábjegyzetek ellenőrzése...
-    ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 16 - Labjegyzetek Ellenorzese
+    ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_16_ldezetek.Test Case 16 - Idezetek Formailag Megfeleloek Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
         ${check_passed}=    Evaluate    ${check_passed} + 1
@@ -586,8 +571,7 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 16 - Labjegyzetek: ${msg}
     END
     
-    Log String To Console    [17/23] Tartalomjegyzék ellenőrzése...
-    ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 17 - Tartalomjegyzek Ellenorzese
+    ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_17_idezetek_forrasmegjelolese.Test Case 17 - Idezetek Forrasmegjelolese Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
         ${check_passed}=    Evaluate    ${check_passed} + 1
@@ -596,8 +580,7 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 17 - Tartalomjegyzek: ${msg}
     END
     
-    Log String To Console    [18/23] Irodalomjegyzék ellenőrzése...
-    ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 18 - Irodalomjegyzek Ellenorzese
+    ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_18_kompetencia_teszt_megoldokulcs.Test Case 18 - Kompetencia Teszt Megoldokulcs Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
         ${check_passed}=    Evaluate    ${check_passed} + 1
@@ -606,8 +589,7 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 18 - Irodalomjegyzek: ${msg}
     END
     
-    Log String To Console    [19/23] Táblázatok ellenőrzése...
-    ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 19 - Tablazatok Ellenorzese
+    ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_19_idegen_nyelvu_illusztraciok.Test Case 19 - Idegen Nyelvu Illusztraciok Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
         ${check_passed}=    Evaluate    ${check_passed} + 1
@@ -616,8 +598,7 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 19 - Tablazatok: ${msg}
     END
     
-    Log String To Console    [20/23] Szöveg igazítás ellenőrzése...
-    ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 20 - Szoveg Igazitas Ellenorzese
+    ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_20_lapjai_szamozottak.Test Case 20 - Lapjai Szamozottak Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
         ${check_passed}=    Evaluate    ${check_passed} + 1
@@ -626,8 +607,7 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 20 - Szoveg Igazitas: ${msg}
     END
     
-    Log String To Console    [21/23] Oldalszámozás ellenőrzése...
-    ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 21 - Oldalszamozas Ellenorzese
+    ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_21_szerkesztheto_docx_formatum.Test Case 21 - Szerkesztheto Docx Formatum Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
         ${check_passed}=    Evaluate    ${check_passed} + 1
@@ -636,8 +616,7 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 21 - Oldalszamozas: ${msg}
     END
     
-    Log String To Console    [22/23] Fejléc/lábléc ellenőrzése...
-    ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 22 - Fejlec Lablec Ellenorzese
+    ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_22_cimlap_tartalom.Test Case 22 - Cimlap Tartalom Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
         ${check_passed}=    Evaluate    ${check_passed} + 1
@@ -646,8 +625,7 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 22 - Fejlec Lablec: ${msg}
     END
     
-    Log String To Console    [23/23] Helyesírás ellenőrzése...
-    ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 23 - Helyesiras Ellenorzese
+    ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 23 - Generalt Tartalomjegyzek Ellenorzese
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
         ${check_passed}=    Evaluate    ${check_passed} + 1

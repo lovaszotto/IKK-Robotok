@@ -1,5 +1,5 @@
 *** Keywords ***
-Test Case 14 - Felsorolasok Egységesek Ellenorzese
+Test Case 14 - Felsorolasok Egysegesek Ellenorzese
     [Documentation]    14 - A felsorolások egységesek
     Log To Console    [14/23] A felsorolások egységesek
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}

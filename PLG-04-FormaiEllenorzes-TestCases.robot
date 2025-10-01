@@ -70,62 +70,67 @@ Test Case 11 - Ures Negyzetek Ellenorzese
     [Tags]    formai    negyzetek
     Test Case 11 - Ures Negyzetek Ellenorzese
 
-Test Case 12 - Cimek Formatuma Ellenorzese
+Test Case 12 - Magyar Nyelven Keszult Ellenorzese
     [Documentation]    Ellenőrzi a címek formátumát
     [Tags]    formai    cimek
-    Test Case 12 - Cimek Formatuma Ellenorzese
+    Test Case 12 - Magyar Nyelven Keszult Ellenorzese
 
-Test Case 13 - Oldalhatar Ellenorzese
+Test Case 13 - Bekezdesek Elkulonulnek Ellenorzese
     [Documentation]    Ellenőrzi az oldalhatárok beállítását
     [Tags]    formai    oldalhatar
-    Test Case 13 - Oldalhatar Ellenorzese
+    Test Case 13 - Bekezdesek Elkulonulnek Ellenorzese
 
-Test Case 14 - Betutipus Ellenorzese
-    [Documentation]    Ellenőrzi a betűtípus egységességét
-    [Tags]    formai    betutipus
-    Test Case 14 - Betutipus Ellenorzese
+Test Case 14 - Felsorolasok Egységesek Ellenorzese
+    [Documentation]    14 - A felsorolások egységesek
+    [Tags]    formai    felsorolasok_egysegesek
+    Test Case 14 - Felsorolasok Egységesek Ellenorzese
 
-Test Case 15 - Sorkoze Ellenorzese
-    [Documentation]    Ellenőrzi a sorközök beállításait
-    [Tags]    formai    sorkoze
-    Test Case 15 - Sorkoze Ellenorzese
+Test Case 15 - Mozaikszavak Roviditesek Ellenorzese
+    [Documentation]    15 - Mozaikszavak rövidítések
+    [Tags]    formai    mozaikszavak_roviditesek
+    Test Case 15 - Mozaikszavak Roviditesek Ellenorzese
 
-Test Case 16 - Labjegyzetek Ellenorzese
-    [Documentation]    Ellenőrzi a lábjegyzetek formázását
-    [Tags]    formai    labjegyzetek
-    Test Case 16 - Labjegyzetek Ellenorzese
+Test Case 16 - Idezetek Formailag Megfeleloek Ellenorzese
+    [Documentation]    16 - Idézetek formailag megfelelőek
+    [Tags]    formai    idezetek_formailag_megfeleloek
+    Test Case 16 - Idezetek Formailag Megfeleloek Ellenorzese
 
-Test Case 17 - Tartalomjegyzek Ellenorzese
-    [Documentation]    Ellenőrzi a tartalomjegyzék meglétét és formáját
-    [Tags]    formai    tartalomjegyzek
-    Test Case 17 - Tartalomjegyzek Ellenorzese
+Test Case 17 - Idezetek Forrasmegjelolese Ellenorzese
+    [Documentation]    17 - Idézetek forrásmegjelölése
+    [Tags]    formai    idezetek_forrasmegjelolese
+    Test Case 17 - Idezetek Forrasmegjelolese Ellenorzese
 
-Test Case 18 - Irodalomjegyzek Ellenorzese
-    [Documentation]    Ellenőrzi az irodalomjegyzék meglétét és formáját
-    [Tags]    formai    irodalomjegyzek
-    Test Case 18 - Irodalomjegyzek Ellenorzese
+Test Case 18 - Kompetencia Teszt Megoldokulcs Ellenorzese
+    [Documentation]    18 - Kompetencia teszt megoldókulcs ellenőrzése
+    [Tags]    formai    kompetencia_teszt_megoldokulcs
+    Test Case 18 - Kompetencia Teszt Megoldokulcs Ellenorzese
 
-Test Case 19 - Tablazatok Ellenorzese
-    [Documentation]    Ellenőrzi a táblázatok formázását
-    [Tags]    formai    tablazatok
-    Test Case 19 - Tablazatok Ellenorzese
+Test Case 19 - Idegen Nyelvu Illusztraciok Ellenorzese
+    [Documentation]    19 - Idegen nyelvű illusztrációk
+    [Tags]    formai    idegen_nyelvu_illusztraciok
+    Test Case 19 - Idegen Nyelvu Illusztraciok Ellenorzese
 
-Test Case 20 - Szoveg Igazitas Ellenorzese
-    [Documentation]    Ellenőrzi a szöveg igazításait
-    [Tags]    formai    igazitas
-    Test Case 20 - Szoveg Igazitas Ellenorzese
+Test Case 20 - Lapjai Szamozottak Ellenorzese
+    [Documentation]    20 - Lapjai számozottak
+    [Tags]    formai    lapjai_szamozottak
+    Test Case 20 - Lapjai Szamozottak Ellenorzese
 
-Test Case 21 - Oldalszamozas Ellenorzese
-    [Documentation]    Ellenőrzi az oldalszámozást
-    [Tags]    formai    oldalszamozas
-    Test Case 21 - Oldalszamozas Ellenorzese
+Test Case 21 - Szerkesztheto Docx Formatum Ellenorzese
+    [Documentation]    21 - Szerkeszthető DOCX formátum
+    [Tags]    formai    szerkesztheto_docx_formatum
+    Test Case 21 - Szerkesztheto Docx Formatum Ellenorzese
 
-Test Case 22 - Fejlec Lablec Ellenorzese
-    [Documentation]    Ellenőrzi a fejléc és lábléc formázását
-    [Tags]    formai    fejlec_lablec
-    Test Case 22 - Fejlec Lablec Ellenorzese
+Test Case 22 - Cimlap Tartalom Ellenorzese
+    [Documentation]    22 - Címlap tartalom ellenőrzése
+    [Tags]    formai    cimlap_tartalom
+    Test Case 22 - Cimlap Tartalom Ellenorzese
 
-Test Case 23 - Helyesiras Ellenorzese
-    [Documentation]    Ellenőrzi a helyesírást és nyelvhelyességet
-    [Tags]    formai    helyesiras
-    Test Case 23 - Helyesiras Ellenorzese
+Test Case 23 - Generalt Tartalomjegyzek Ellenorzese
+    [Documentation]    23 - Generált tartalomjegyzék
+    [Tags]    formai    generalt_tartalomjegyzek
+    Test Case 23 - Generalt Tartalomjegyzek Ellenorzese
+
+Test Case 24 - Cimsorozassal Keszult Ellenorzese
+    [Documentation]    24 - Címsorozással készült ellenőrzése
+    [Tags]    formai    cimsorozas
+    Test Case 24 - Cimsorozassal Keszult Ellenorzese
