@@ -14,7 +14,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
   
     ${docx_file}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
     ${docx_json}=    Get Variable Value    ${DOCX_JSON}    ${EMPTY}
-   ${err_msg}=    Set Variable    ${EMPTY}
+    ${err_msg}=    Set Variable    ${EMPTY}
     ${CR}=    Evaluate    chr(13)
 
     TRY
@@ -38,7 +38,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
     TRY
         ${first_paragraph}=    Get From List    ${paragraphs}    0
         ${first_paragraph}=    Strip String    ${first_paragraph}
-        Log To Console    Első sor: ${first_paragraph}
+        #Log To Console    Első sor: ${first_paragraph}
         #legyen is_success false, ha nem üres (csak az első bekezdésre)
         IF    $first_paragraph != ''   
             ${new_err}=    Set Variable    Az első sor kötelezően üres!
@@ -59,7 +59,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
     TRY
         ${second_paragraph}=    Get From List    ${paragraphs}    1
         ${second_paragraph}=    Strip String    ${second_paragraph}
-        Log To Console    Második sor: ${second_paragraph}
+        #Log To Console    Második sor: ${second_paragraph}
         #legyen is_success false, ha a második bekezdés kezdete nem Egyedi megrendelés szöveggel kezdődik (és nem üres)
         IF    $second_paragraph != '' and $second_paragraph[0:30] != 'Egyedi megrendelés azonosítója'
             ${new_err}=    Set Variable    A második sor kezdete kötelezően: Egyedi megrendelés!
@@ -79,7 +79,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
     TRY
         ${third_paragraph}=    Get From List    ${paragraphs}    2
         ${third_paragraph}=    Strip String    ${third_paragraph}
-        Log To Console    Harmadik sor: ${third_paragraph}
+        #Log To Console    Harmadik sor: ${third_paragraph}
         # a harmadik bekezdés nem lehet üres
         # Megjegyzés: Robotban ne használj `.length`; helyette használd az üresség ellenőrzést
         IF    $third_paragraph == ''   
@@ -100,7 +100,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
     TRY
         ${fourth_paragraph}=    Get From List    ${paragraphs}    3
         ${fourth_paragraph}=    Strip String    ${fourth_paragraph}
-        Log To Console    Negyedik sor: ${fourth_paragraph}
+        #Log To Console    Negyedik sor: ${fourth_paragraph}
         ${fourth_trimmed}=    Strip String    ${fourth_paragraph}
         # Elfogadjuk a "Téma kézirata" és a "Témák kézirata" változatot is
         IF    $fourth_trimmed != 'Téma kézirata' 

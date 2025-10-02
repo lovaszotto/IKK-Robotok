@@ -2,25 +2,25 @@
   "core_properties": {
     "creator": "Kinga Erdei",
     "lastModifiedBy": "Lovász Ottó",
-    "revision": "63",
+    "revision": "67",
     "created": "2022-08-18T08:19:00Z",
-    "modified": "2025-10-02T00:49:00Z"
+    "modified": "2025-10-02T04:30:00Z"
   },
   "app_properties": {
     "Template": "Normal.dotm",
-    "TotalTime": "911",
+    "TotalTime": "924",
     "Pages": "65",
-    "Words": "9142",
-    "Characters": "63084",
+    "Words": "9126",
+    "Characters": "62975",
     "Application": "Microsoft Office Word",
     "DocSecurity": "0",
-    "Lines": "525",
-    "Paragraphs": "144",
+    "Lines": "524",
+    "Paragraphs": "143",
     "ScaleCrop": "false",
     "lpstr": "Cím",
     "i4": "1",
     "LinksUpToDate": "false",
-    "CharactersWithSpaces": "72082",
+    "CharactersWithSpaces": "71958",
     "SharedDoc": "false",
     "HyperlinksChanged": "false",
     "AppVersion": "16.0000"
@@ -879,9 +879,7 @@
     ],
     [
       "A borászat az élelmiszeripar speciális ága. Sajátossága onnan ered, hogy erős szálakkal, mondhatni elválaszthatatlanul kötődik az azt megalapozó ",
-      "szőlészethez. A ",
-      "bor",
-      " mint termék, egyedi jellegzetességgel testesíti meg a szőlőt. A szőlőtermésben megjelenő termőhelyi, évjárati, fajta-, termesztéstechnológiai tényezők a borban átalakult formában tükröződnek, sőt a bor ennél még többről tanúskodik. A megtermelt jó minőségű szőlőből csak hozzáértő borászati ",
+      "szőlészethez. A bor mint termék, egyedi jellegzetességgel testesíti meg a szőlőt. A szőlőtermésben megjelenő termőhelyi, évjárati, fajta-, termesztéstechnológiai tényezők a borban átalakult formában tükröződnek, sőt a bor ennél még többről tanúskodik. A megtermelt jó minőségű szőlőből csak hozzáértő borászati ",
       "munkával lesz igazán kiváló minőségű bor."
     ],
     [
@@ -1343,9 +1341,7 @@
       " kapcsolódik."
     ],
     [
-      "A tartályok szabadtéri elhelyezésének megvannak a bortechnológiai és üzemelési nehézségei. A szabadtéri elhelyezés erősen korlátozza a tartályok sokoldalú hasznosítását. A derítés sikere meghiúsulhat a napi hőingadozás révén létrejövő belső folyadékáramlás miatt. Korán beköszöntő tél következtében „bennragadhatnak” a borok a tartályokban, vagy már azok nehezen moshatók ",
-      "ki,",
-      " stb."
+      "A tartályok szabadtéri elhelyezésének megvannak a bortechnológiai és üzemelési nehézségei. A szabadtéri elhelyezés erősen korlátozza a tartályok sokoldalú hasznosítását. A derítés sikere meghiúsulhat a napi hőingadozás révén létrejövő belső folyadékáramlás miatt. Korán beköszöntő tél következtében „bennragadhatnak” a borok a tartályokban, vagy már azok nehezen moshatók ki, stb."
     ],
     [],
     [
@@ -1896,8 +1892,7 @@
     [
       "1 = aljzat; 2 = szigetelés; 3 = vasbeton alap; 4 = belső burkolat; 5 = csonk (túlfolyó csonk); 6 = szerelvénylemez; 7 = búvónyílás; 8 = seprő kifolyója (ürítőcsonk); 9 = tiszta folyadék kifolyója (színelőcsonk); 10 = telítettségi szint mintavevő szeleppel (nívócső mintázó csappal); 11 = hőmérő; 12 = ",
       "klinkerfal",
-      ".(",
-      "csempézett, illetve burkolt előlap)"
+      ".(csempézett, illetve burkolt előlap)"
     ],
     [
       ""
@@ -2256,9 +2251,7 @@
       "A bor- vagy gyümölcslé-előállító üzemekben főleg időszakosan használt berendezések esetében a teljesen automatikus rendszerek jelentősen nagyobb költségei általában nem térülnek meg."
     ],
     [
-      "Kis bortételek- vagy szűkös pinceméretek esetén kiválóan alkalmazhatók a saválló acélból készült úgynevezett „ikertartályok”. Legtöbbször a tartály belső része egy fenéklappal két részre van osztva, így egy tartályalappal két tölthető edényre teszünk szert. Léteznek külön egységként épített önálló tartályok ",
-      "is",
-      " amelyek akár egymásra helyezve, akár különálló egységként is lehetővé teszi a korszerű bortárolást. A ",
+      "Kis bortételek- vagy szűkös pinceméretek esetén kiválóan alkalmazhatók a saválló acélból készült úgynevezett „ikertartályok”. Legtöbbször a tartály belső része egy fenéklappal két részre van osztva, így egy tartályalappal két tölthető edényre teszünk szert. Léteznek külön egységként épített önálló tartályok is amelyek akár egymásra helyezve, akár különálló egységként is lehetővé teszi a korszerű bortárolást. A ",
       "36.",
       " ábra bemutatja az ikertartályokat."
     ],
@@ -2304,9 +2297,7 @@
       "„minőségi bor”, „meghatározott termőhelyről származó minőségi bor” és a „különleges minőségű bor” kategória."
     ],
     [
-      "Az Európai Unió a területén készített élelmiszerek, így a borok egy részét oltalom alá vonta. Az oltalom vagy ",
-      "a bor eredetére",
-      " vagy a földrajzi származására vonatkozik. Hivatalosan ezeket hívjuk ",
+      "Az Európai Unió a területén készített élelmiszerek, így a borok egy részét oltalom alá vonta. Az oltalom vagy a bor eredetére vagy a földrajzi származására vonatkozik. Hivatalosan ezeket hívjuk ",
       "oltalom alatt álló eredetmegjelölésű",
       " (OEM) (",
       "96",
@@ -2365,9 +2356,7 @@
       "a főbb analitikai és érzékszervi jellemzők;"
     ],
     [
-      "adott esetben a bor vagy ",
-      "borok előállítására alkalmazott konkrét borászati eljárások",
-      " vagy korlátozások"
+      "adott esetben a bor vagy borok előállítására alkalmazott konkrét borászati eljárások vagy korlátozások"
     ],
     [
       "az érintett földrajzi terület határainak meghatározása; "
@@ -2406,9 +2395,7 @@
     [
       "A szabályozás az OFJ vagy más néven",
       " tájboroknál",
-      " megengedőbb. Itt a szőlő ",
-      "legalább  85",
-      "%-",
+      " megengedőbb. Itt a szőlő legalább  85%-",
       "ának",
       " kell az adott területről származnia. A szőlőfajták tekintetében nemcsak ",
       "Vitis",
@@ -2612,11 +2599,11 @@
     [
       [
         "Kéziratíró:",
-        "Mátyus Imre"
+        "#"
       ],
       [
         "Szakmai lektor:",
-        "Török Zita"
+        ""
       ],
       [
         "Iskolai felhasználási cél:",
@@ -2624,31 +2611,31 @@
       ],
       [
         "Ágazat:",
-        "Élelmiszeripar"
+        ""
       ],
       [
         "Szakma:",
-        "Szőlész-borász"
+        ""
       ],
       [
         "Szakmairány:",
-        "-"
+        ""
       ],
       [
         "Tanulási terület:",
-        "\t\tBorászati technológia "
+        ""
       ],
       [
         "Tantárgy:",
-        "Szőlőfeldolgozás, mustkezelések"
+        ""
       ],
       [
         "Évfolyam:",
-        "10, 11. évfolyam"
+        ""
       ],
       [
         "Óraszám:",
-        "4 óra"
+        ""
       ]
     ],
     [
