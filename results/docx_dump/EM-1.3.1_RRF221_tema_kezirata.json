@@ -1,26 +1,26 @@
 {
   "core_properties": {
     "creator": "coollab",
-    "lastModifiedBy": "Fodor Alexandra (ELMS)",
-    "revision": "14",
+    "lastModifiedBy": "Lovász Ottó",
+    "revision": "15",
     "created": "2024-06-27T12:37:00Z",
-    "modified": "2024-08-01T12:45:00Z"
+    "modified": "2025-10-02T00:47:00Z"
   },
   "app_properties": {
-    "Template": "Normal",
+    "Template": "Normal.dotm",
     "TotalTime": "171",
-    "Pages": "48",
-    "Words": "10822",
-    "Characters": "74673",
+    "Pages": "61",
+    "Words": "10584",
+    "Characters": "73031",
     "Application": "Microsoft Office Word",
     "DocSecurity": "0",
-    "Lines": "622",
-    "Paragraphs": "170",
+    "Lines": "608",
+    "Paragraphs": "166",
     "ScaleCrop": "false",
     "lpstr": "Cím",
     "i4": "1",
     "LinksUpToDate": "false",
-    "CharactersWithSpaces": "85325",
+    "CharactersWithSpaces": "83449",
     "SharedDoc": "false",
     "HyperlinksChanged": "false",
     "AppVersion": "16.0000"
@@ -40,24 +40,6 @@
     "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak.",
     "",
     "",
-    "TARTALOMJEGYZÉK",
-    "1.\tA zöldségnövények környezeti igényei\t2",
-    "1.1.\tÉghajlat és éghajlati tényezők\t3",
-    "1.1.1.\tA zöldségnövények igénye a levegő összetételével szemben\t7",
-    "1.1.2.\tSzél és szélvédelem\t8",
-    "1.1.3.\tA zöldségnövények fényigénye\t9",
-    "1.1.4.\tA zöldségnövények hőigénye\t12",
-    "1.1.5.\tA zöldségnövények vízigénye\t16",
-    "1.2.\tTalaj és tápanyag\t21",
-    "1.2.1.\tA talaj szerepe a zöldségfélék termesztésében\t21",
-    "1.2.2.\tTermesztőközegek\t30",
-    "1.2.3.\tA zöldségnövények tápanyagigénye\t38",
-    "1.2.4.\tAz egyes makro- és mikroelemek növényi életfolyamatokban betöltött szerepe\t\t39",
-    "1.2.5.\tA tápanyag-ellátást befolyásoló tényezők\t52",
-    "1.3.\tA környezeti tényezők összefüggései és gyakorlati jelentőségük a zöldségnövények termesztésében\t55",
-    "ÁBRAJEGYZÉK\t57",
-    "Táblázatjegyzék\t58",
-    "IRODALOMJEGYZÉK\t59",
     "",
     "A zöldségnövények környezeti igényei",
     "A növények növekedését, fejlődését külső és belső tényezők befolyásolják. A külső tényezők az élő és az élettelen környezeti tényezők. A belső tényezők a hormonok.",
@@ -674,31 +656,6 @@
       ""
     ],
     [
-      "TARTALOMJEGYZÉK"
-    ],
-    [
-      "",
-      "",
-      ""
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "",
       ""
     ],
     [
@@ -791,9 +748,7 @@
     ],
     [
       "A Kárpát-medence éghajlatára a zárt medencék éghajlata jellemző: kevés csapadék, jelentős hőmérsékleti ingás, emellett szélvédettség, kedvezőbb besugárzási viszonyok. A hőmérséklet és a felhőzet alakulása igen szeszélyes, így igen változékony az egyes évszakok, hónapok időjárása. Magyarországra a ",
-      "mérsékelt övi kontinentális meleg ",
-      "nyarú",
-      " éghajlat",
+      "mérsékelt övi kontinentális meleg nyarú éghajlat",
       " jellemző, ahol elkülönül a négy évszak. Kedvező adottság a ",
       "sok nyári napsütés;",
       " kedvezőtlen a ",
@@ -856,13 +811,9 @@
       "Alföldi körzet",
       " (",
       "2. ábra: I.",
-      "). Három alkörzetre oszthatjuk: az északkeleti, legzordabb ",
-      "telű",
-      " (I/a.), a középső, legszárazabb (I/",
+      "). Három alkörzetre oszthatjuk: az északkeleti, legzordabb telű (I/a.), a középső, legszárazabb (I/",
       "b.",
-      "), és a délkeleti, legmelegebb ",
-      "nyarú",
-      " ",
+      "), és a délkeleti, legmelegebb nyarú ",
       "vidékekre (I/c.). Az Alföld déli részén az évi középhőmérséklet meghaladja a 11 °C-ot, északkeleten valamivel 10 °C alatt van. ",
       "Az országban itt a legmelegebb a nyár (a júliusi középhőmérséklet 21 °C körüli), legtöbb a napsütés és leghidegebb a tél. A napsütéses órák száma az Alföld nagy részén évi 2000 óra feletti. Ez a sok napfény érleli a kalocsai és szegedi paprikát, a makói hagymát, teszi zamatossá a Duna–Tisza közén termő gyümölcsöt. Ugyanakkor ez a legaszályosabb terület is a kevesebb felhőzet, a kisebb relatív nedvesség, a kevés csapadék miatt. ",
       "Ezt még fokozza a sokszor erős szél. Az uralkodó szélirány a Nyírségben északi, északkeleti, az Alföld közepén mérsékeltebb, északnyugati irányú, míg a déli határ mentén gyakran délies."
@@ -903,9 +854,7 @@
       "), ilyenek az enyhe tél, a meleg nyár, s a bőséges, de nem túl sok csapadék."
     ],
     [
-      "A fenti két alkörzet közötti átmenetet képviseli a Dunántúli-középhegység (III/c.), közepesen csapadékos, a magasabban fekvő területein hűvösebb ",
-      "nyarú",
-      " éghajlatával."
+      "A fenti két alkörzet közötti átmenetet képviseli a Dunántúli-középhegység (III/c.), közepesen csapadékos, a magasabban fekvő területein hűvösebb nyarú éghajlatával."
     ],
     [
       "Negyedik éghajlati körzetünk az ",
@@ -924,9 +873,7 @@
     [
       "Egy adott hely éghajlati viszonyai a legtöbb esetben nagy ráfordítással javíthatók a zöldségtermesztés céljainak megfelelően. Az intenzív zöldségtermesztésben a kiegészítő öntözés szinte mindenhol alapvető feltétel. A fóliák és kertészeti szövetek használatával biztosított szél elleni védelem és mérsékelt hőmérséklet-növelés is viszonylag könnyen megvalósítható. A szén-dioxid-trágyázással és kiegészítő világítással működő, fűtött üvegházak jelentik jelenleg a zöldségtermesztés legintenzívebb formáját.  Új irányzat az „",
       "urban",
-      " ",
-      "farming“",
-      ", a kereskedelmi célú termesztés az agglomerációban (a nagyvárosok és vonzáskörzetük). Ehhez az irányzathoz kapcsolódik a „",
+      " farming“, a kereskedelmi célú termesztés az agglomerációban (a nagyvárosok és vonzáskörzetük). Ehhez az irányzathoz kapcsolódik a „",
       "vertical",
       " farming”, a vertikális termesztés, amellyel megvalósítható a zárt helyiségekben történő, függőlegesen (vertikálisan), több szinten kialakított növénytermesztés. A vertikális növénytermesztés rendkívül költségigényes, ezért ritkán alkalmazzák."
     ],
@@ -1019,9 +966,7 @@
     [
       "A ",
       "légszennyező anyagok",
-      " a környezetvédelmi előírások következtében jelentőségüket veszítették a zöldségtermesztés terén. A kén-dioxid-tartalom ma már olyan alacsony, hogy ",
-      "egyes esetekben",
-      " kénnel kell műtrágyázni. A kén a fehérjék képzéséhez szükséges fontos ",
+      " a környezetvédelmi előírások következtében jelentőségüket veszítették a zöldségtermesztés terén. A kén-dioxid-tartalom ma már olyan alacsony, hogy egyes esetekben kénnel kell műtrágyázni. A kén a fehérjék képzéséhez szükséges fontos ",
       "makroelem",
       ". Csak az ózonkoncentráció",
       " ",
@@ -1030,9 +975,7 @@
     ],
     [
       "1.1.2.",
-      "\t",
-      "Szél",
-      " ",
+      "\tSzél ",
       "és",
       " ",
       "szélvédelem"
@@ -1124,9 +1067,7 @@
     [
       "A ",
       "fényhiány",
-      " nemcsak a fotoszintézist csökkenti, hanem a növények (pl. a fiatal növények) nyurgulásához, illetve különböző összetevők (pl. cukor, C-vitamin vagy karotin) mennyiségének csökkenéséhez, valamint a nitrát fokozott raktározásához is vezethet. A zöldségnövények téli, fényszegény időszakban történő növényházi termesztésénél szükség lehet a fény pótlására, ami pótvilágítással biztosítható. Téli fényszegény időszakban a meglévő fénymennyiség maximális kihasználása a cél, ezért fontos a termesztőberendezések ",
-      "borítóanyagának",
-      " tisztán tartása, talajnélküli termesztésnél a művelőutak letakarása fehér fóliával."
+      " nemcsak a fotoszintézist csökkenti, hanem a növények (pl. a fiatal növények) nyurgulásához, illetve különböző összetevők (pl. cukor, C-vitamin vagy karotin) mennyiségének csökkenéséhez, valamint a nitrát fokozott raktározásához is vezethet. A zöldségnövények téli, fényszegény időszakban történő növényházi termesztésénél szükség lehet a fény pótlására, ami pótvilágítással biztosítható. Téli fényszegény időszakban a meglévő fénymennyiség maximális kihasználása a cél, ezért fontos a termesztőberendezések borítóanyagának tisztán tartása, talajnélküli termesztésnél a művelőutak letakarása fehér fóliával."
     ],
     [],
     [
@@ -1892,8 +1833,7 @@
       "Semleges a talajoldat kémhatása, ha a pH = 7"
     ],
     [
-      "Savas a talajoldat kémhatása, ha a pH ",
-      "< 7"
+      "Savas a talajoldat kémhatása, ha a pH < 7"
     ],
     [
       "Lúgos a talajoldat kémhatása, ha a pH > 7"
@@ -1995,9 +1935,7 @@
       "talajtípusok",
       " közé tartozik, amelyek humuszban gazdag feltalajjal és mállott (barnított) altalajjal rendelkeznek. Az ",
       "agyagbemosódásos",
-      " barna erdőtalaj esetében agyagvándorlás ment végbe, így ezen talajok felső rétegeiben kevesebb agyag található, mint az agyagban gazdag alsó rétegekben. Ha ez jelentős pangóvíz-képződéséhez vezet, az ilyen talajok csak korlátozottan alkalmasak zöldségtermesztésre. Az alacsony mész- és ",
-      "tápanyagtartalmú",
-      " homokokon vas- és ",
+      " barna erdőtalaj esetében agyagvándorlás ment végbe, így ezen talajok felső rétegeiben kevesebb agyag található, mint az agyagban gazdag alsó rétegekben. Ha ez jelentős pangóvíz-képződéséhez vezet, az ilyen talajok csak korlátozottan alkalmasak zöldségtermesztésre. Az alacsony mész- és tápanyagtartalmú homokokon vas- és ",
       "humuszlemosódás",
       " miatt kilúgozott szürke (",
       "podzolos",
@@ -2521,9 +2459,7 @@
       "2"
     ],
     [
-      "szén-",
-      "dioxid  +",
-      "  víz                szőlőcukor   + oxigén"
+      "szén-dioxid  +  víz                szőlőcukor   + oxigén"
     ],
     [
       ""
@@ -3020,9 +2956,7 @@
       "Kén (S)"
     ],
     [
-      "A kén a nitrogén mellett a másik legfontosabb elem a fehérjék, enzimek és vitaminok képződésében. Fontos szerepe van a zsírsavak szintézisében is. Az olaj- és illóolaj-",
-      "tartalmú",
-      " növényekre a magasabb kénigény jellemző."
+      "A kén a nitrogén mellett a másik legfontosabb elem a fehérjék, enzimek és vitaminok képződésében. Fontos szerepe van a zsírsavak szintézisében is. Az olaj- és illóolaj-tartalmú növényekre a magasabb kénigény jellemző."
     ],
     [],
     [
@@ -3072,9 +3006,7 @@
       "A vashiány tünetei"
     ],
     [
-      "Magas ",
-      "mésztartalmú",
-      " talajokon ",
+      "Magas mésztartalmú talajokon ",
       "vasklorózis",
       " ",
       "jöhet létre. Leginkább a fiatal leveleken jelentkezik, ",
@@ -3176,13 +3108,9 @@
       "A rézhiány tünetei:"
     ],
     [
-      "Hiánytüneteivel elsősorban nagy szervesanyag-",
-      "tartalmú",
-      " talajokon, homokos ",
+      "Hiánytüneteivel elsősorban nagy szervesanyag-tartalmú talajokon, homokos ",
       "podzol",
-      " talajokon, illetve ",
-      "karbonátos",
-      " talajokon találkozhatunk. Hiányában ",
+      " talajokon, illetve karbonátos talajokon találkozhatunk. Hiányában ",
       "klorózis",
       " jelentkezik a fiatal leveleken. A levelek ",
       "kanalasodnak",
@@ -3266,7 +3194,8 @@
     [],
     [
       "Belső okon",
-      " a növényi megbetegedéseket értjük. Ha egy növény nem egészséges, mert valamilyen élősködő károsítja vagy sejtjeiben a biokémiai folyamatok nem működnek megfelelően, akkor hiába juttatunk ki több tápanyagot, nem tud jobban fejlődni, amíg ezek az okok meg nem szűnnek."
+      " a növényi megbetegedéseket értjük. Ha egy növény nem egészséges, mert valamilyen élősködő károsítja vagy sejtjeiben a biokémiai folyamatok nem működnek ",
+      "megfelelően, akkor hiába juttatunk ki több tápanyagot, nem tud jobban fejlődni, amíg ezek az okok meg nem szűnnek."
     ],
     [],
     [
@@ -3337,11 +3266,7 @@
       "elegendő víz",
       " jelenléte a talajban. Az ",
       "ásványi sók",
-      " felvételének hatékonyságát a talajoldat pH-értéke (kémhatása) alapvetően befolyásolja. Az ásványi anyagok a kémhatástától függően vízben oldódnak, vagy épp ellenkezőleg egymáshoz kötődve oldhatatlan vegyületként ",
-      "felvehetetlenek",
-      " maradnak a növények számára. Savanyú talajoknál (pH ",
-      "< 5",
-      ") több tápanyag felvétele akadályozott (pl. ",
+      " felvételének hatékonyságát a talajoldat pH-értéke (kémhatása) alapvetően befolyásolja. Az ásványi anyagok a kémhatástától függően vízben oldódnak, vagy épp ellenkezőleg egymáshoz kötődve oldhatatlan vegyületként felvehetetlenek maradnak a növények számára. Savanyú talajoknál (pH < 5) több tápanyag felvétele akadályozott (pl. ",
       "Ca",
       ", Mg), míg magas pH-érték (pH > 7,5) esetén (lúgos talaj) más tápanyagokból lesz relatív hiány (pl. ",
       "Fe",
@@ -3387,7 +3312,8 @@
     [
       "A növény környezeti tényezőkkel szembeni igényeit az határozza meg milyen földrajzi helyről származik, ott mi jellemző az éghajlati tényezőkre (fény, hőmérséklet, csapadék, levegő), a talajra, és milyen a kölcsönhatás az egyes tényezők között. Az idegen helyről származó növények termesztése során meg kell próbálnunk a természetes élőhelyéhez hasonló környezeti körülményeket biztosítani. A trópusokról származó növényeket a hideg évszakokban fűtött növényházakban termesztjük, vagy palántáikat előneveljük, és akkor ültetjük ki, amikor már nálunk is megfelelő a növény számára a talaj és a levegő hőmérséklete. Az egyenletes vízellátáshoz szokott növényeket folyamatosan öntöznünk és esetleg ",
       "párásítanunk",
-      " is kell, ha nincs elegendő csapadék. A helyi adottságokat csak bizonyos korlátok között tudjuk módosítani termesztéstechnológiai (pl. vetés, talajelőkészítés, öntözés, tápanyagellátás) és agrotechnikai (fűtött növényházak alkalmazása, vagy talajtakarás és árnyékoló alatti termesztés szabadföldön) módszerekkel. Fóliaházakban való termesztéssel egyszerre több tényezőt is módosíthatunk csupán azzal, hogy felhúztuk a fóliatakarást: a hőmérsékletet (fűtés nélkül is), a páratartalmat, a légmozgást. Ezt fokozhatjuk a talajtényezők befolyásolásával: ha tőzeget dolgozunk a talajba, vagy ha nem a sátor saját talajában termesztünk, hanem zsákokba töltött termesztőközegekben (kőzetgyapot-, kókuszrost paplan). Korszerű fűtő-, öntöző- és tápanyagellátó rendszerekkel tovább fokozhatjuk az optimálishoz szükséges feltételek biztosítását. A külső élettelen tényezőkön kívül számolnunk kell a növényeinket károsító élőlényekkel (kártevők, kórokozók), valamint a növény belső biológiai állapotával is. Egy-egy kultúra termesztése akkor lesz sikeres, ha széles szakmai ismeretekkel rendelkezünk, és megpróbálunk komplexen gondolkodni az adott esetben.",
+      " is kell, ha nincs elegendő csapadék. A helyi adottságokat csak bizonyos korlátok között tudjuk módosítani termesztéstechnológiai (pl. vetés, talajelőkészítés, öntözés, tápanyagellátás) és agrotechnikai (fűtött növényházak alkalmazása, vagy talajtakarás és árnyékoló alatti termesztés szabadföldön) módszerekkel. Fóliaházakban való termesztéssel egyszerre több tényezőt is módosíthatunk csupán azzal, hogy felhúztuk a ",
+      "fóliatakarást: a hőmérsékletet (fűtés nélkül is), a páratartalmat, a légmozgást. Ezt fokozhatjuk a talajtényezők befolyásolásával: ha tőzeget dolgozunk a talajba, vagy ha nem a sátor saját talajában termesztünk, hanem zsákokba töltött termesztőközegekben (kőzetgyapot-, kókuszrost paplan). Korszerű fűtő-, öntöző- és tápanyagellátó rendszerekkel tovább fokozhatjuk az optimálishoz szükséges feltételek biztosítását. A külső élettelen tényezőkön kívül számolnunk kell a növényeinket károsító élőlényekkel (kártevők, kórokozók), valamint a növény belső biológiai állapotával is. Egy-egy kultúra termesztése akkor lesz sikeres, ha széles szakmai ismeretekkel rendelkezünk, és megpróbálunk komplexen gondolkodni az adott esetben.",
       ""
     ],
     [
@@ -4045,6 +3971,116 @@
   ],
   "images": [
     {
+      "name": "image29.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image30.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 651795
+    },
+    {
+      "name": "image2.jpeg",
+      "path": null,
+      "bytes": 53481
+    },
+    {
+      "name": "image3.png",
+      "path": null,
+      "bytes": 479329
+    },
+    {
+      "name": "image4.png",
+      "path": null,
+      "bytes": 88626
+    },
+    {
+      "name": "image5.jpeg",
+      "path": null,
+      "bytes": 108293
+    },
+    {
+      "name": "image6.jpeg",
+      "path": null,
+      "bytes": 87113
+    },
+    {
+      "name": "image7.png",
+      "path": null,
+      "bytes": 19788
+    },
+    {
+      "name": "image8.jpeg",
+      "path": null,
+      "bytes": 277553
+    },
+    {
+      "name": "image9.jpeg",
+      "path": null,
+      "bytes": 96374
+    },
+    {
+      "name": "image10.png",
+      "path": null,
+      "bytes": 227224
+    },
+    {
+      "name": "image11.png",
+      "path": null,
+      "bytes": 546281
+    },
+    {
+      "name": "image12.png",
+      "path": null,
+      "bytes": 247473
+    },
+    {
+      "name": "image13.png",
+      "path": null,
+      "bytes": 357837
+    },
+    {
+      "name": "image14.png",
+      "path": null,
+      "bytes": 642886
+    },
+    {
+      "name": "image15.png",
+      "path": null,
+      "bytes": 581219
+    },
+    {
+      "name": "image16.png",
+      "path": null,
+      "bytes": 135557
+    },
+    {
+      "name": "image17.jpeg",
+      "path": null,
+      "bytes": 247629
+    },
+    {
+      "name": "image18.png",
+      "path": null,
+      "bytes": 145903
+    },
+    {
+      "name": "image19.png",
+      "path": null,
+      "bytes": 1267166
+    },
+    {
+      "name": "image20.jpeg",
+      "path": null,
+      "bytes": 226656
+    },
+    {
       "name": "image21.png",
       "path": null,
       "bytes": 224654
@@ -4060,19 +4096,9 @@
       "bytes": 147135
     },
     {
-      "name": "image19.png",
+      "name": "image24.png",
       "path": null,
-      "bytes": 1267166
-    },
-    {
-      "name": "image20.jpeg",
-      "path": null,
-      "bytes": 226656
-    },
-    {
-      "name": "image28.png",
-      "path": null,
-      "bytes": 352127
+      "bytes": 215857
     },
     {
       "name": "image25.jpeg",
@@ -4080,19 +4106,9 @@
       "bytes": 208434
     },
     {
-      "name": "image30.png",
+      "name": "image26.png",
       "path": null,
-      "bytes": 56449
-    },
-    {
-      "name": "image29.png",
-      "path": null,
-      "bytes": 29054
-    },
-    {
-      "name": "image18.png",
-      "path": null,
-      "bytes": 145903
+      "bytes": 247696
     },
     {
       "name": "image27.png",
@@ -4100,99 +4116,9 @@
       "bytes": 223913
     },
     {
-      "name": "image26.png",
+      "name": "image28.png",
       "path": null,
-      "bytes": 247696
-    },
-    {
-      "name": "image24.png",
-      "path": null,
-      "bytes": 215857
-    },
-    {
-      "name": "image16.png",
-      "path": null,
-      "bytes": 135557
-    },
-    {
-      "name": "image15.png",
-      "path": null,
-      "bytes": 581219
-    },
-    {
-      "name": "image6.jpeg",
-      "path": null,
-      "bytes": 87113
-    },
-    {
-      "name": "image5.jpeg",
-      "path": null,
-      "bytes": 108293
-    },
-    {
-      "name": "image4.png",
-      "path": null,
-      "bytes": 88626
-    },
-    {
-      "name": "image3.png",
-      "path": null,
-      "bytes": 479329
-    },
-    {
-      "name": "image2.jpeg",
-      "path": null,
-      "bytes": 53481
-    },
-    {
-      "name": "image1.png",
-      "path": null,
-      "bytes": 651795
-    },
-    {
-      "name": "image17.jpeg",
-      "path": null,
-      "bytes": 247629
-    },
-    {
-      "name": "image7.png",
-      "path": null,
-      "bytes": 19788
-    },
-    {
-      "name": "image9.jpeg",
-      "path": null,
-      "bytes": 96374
-    },
-    {
-      "name": "image14.png",
-      "path": null,
-      "bytes": 642886
-    },
-    {
-      "name": "image8.jpeg",
-      "path": null,
-      "bytes": 277553
-    },
-    {
-      "name": "image13.png",
-      "path": null,
-      "bytes": 357837
-    },
-    {
-      "name": "image11.png",
-      "path": null,
-      "bytes": 546281
-    },
-    {
-      "name": "image10.png",
-      "path": null,
-      "bytes": 227224
-    },
-    {
-      "name": "image12.png",
-      "path": null,
-      "bytes": 247473
+      "bytes": 352127
     }
   ],
   "styles": [

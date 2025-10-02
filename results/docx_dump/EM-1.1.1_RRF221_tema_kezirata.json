@@ -2,25 +2,25 @@
   "core_properties": {
     "creator": "Kinga Erdei",
     "lastModifiedBy": "Lovász Ottó",
-    "revision": "62",
+    "revision": "63",
     "created": "2022-08-18T08:19:00Z",
-    "modified": "2025-09-30T13:46:00Z"
+    "modified": "2025-10-02T00:49:00Z"
   },
   "app_properties": {
     "Template": "Normal.dotm",
     "TotalTime": "911",
-    "Pages": "67",
-    "Words": "9581",
-    "Characters": "66109",
+    "Pages": "65",
+    "Words": "9142",
+    "Characters": "63084",
     "Application": "Microsoft Office Word",
     "DocSecurity": "0",
-    "Lines": "550",
-    "Paragraphs": "151",
+    "Lines": "525",
+    "Paragraphs": "144",
     "ScaleCrop": "false",
     "lpstr": "Cím",
     "i4": "1",
     "LinksUpToDate": "false",
-    "CharactersWithSpaces": "75539",
+    "CharactersWithSpaces": "72082",
     "SharedDoc": "false",
     "HyperlinksChanged": "false",
     "AppVersion": "16.0000"
@@ -34,7 +34,6 @@
     "",
     "",
     "",
-    "Tartalomjegyzék",
     "Borászati üzemek jellemzői, felszereltségük",
     "Borkezelő üzemnek nevezünk minden olyan korszerűen megépített létesítményt, amely borkezelésre és bortárolásra szakmai szempontból alkalmas.",
     "A borok kezelése, érlelése régebben föld alatti pincékben történt, fahordókban, elvétve vasbeton tartályokban. ",
@@ -532,9 +531,11 @@
   "runs": [
     [],
     [
-      "Egyedi meg",
+      "Egyedi ",
+      "meg",
       "xx",
-      "rendelés azonosítója: EM-1.1.1  "
+      "rendelés",
+      " azonosítója: EM-1.1.1  "
     ],
     [
       "A borászati üzemek jellemzői és a borászati termékek"
@@ -542,19 +543,41 @@
     [
       "Tém",
       "xx",
-      "a k",
+      "a",
+      " k",
       "ézirat",
       "a"
     ],
     [
       "Forrás",
       ": ",
-      "Az eredeti könyv címe: Technologie des Weines, 1. Auflage 2015, Der Verlag Eugen Ulmer KG, ",
-      "\nISBN 978-3-8001-7959-6, Az eredeti könyv szerzői: Jochen Hamatschek",
+      "Az eredeti könyv címe: ",
+      "Technologie",
+      " ",
+      "des",
+      " ",
+      "Weines",
+      ", 1. ",
+      "Auflage",
+      " 2015, ",
+      "Der",
+      " ",
+      "Verlag",
+      " ",
+      "Eugen",
+      " ",
+      "Ulmer",
+      " KG, ",
+      "\nISBN 978-3-8001-7959-6, Az eredeti könyv szerzői: ",
+      "Jochen",
+      " ",
+      "Hamatschek",
       "\n",
       "\n",
       "Fordította:",
-      " InterContact Budapest Kft.",
+      " ",
+      "InterContact",
+      " Budapest Kft.",
       "\n",
       "\nA kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak."
     ],
@@ -562,10 +585,6 @@
     [],
     [
       ""
-    ],
-    [
-      "Tartalom",
-      "jegyzék"
     ],
     [
       "Borászati üzemek jellemzői, felszereltségük"
@@ -581,7 +600,9 @@
       "A bortároláshoz szükséges nagyüzemi igények, valamint a korszerű építési lehetőségek eredményezték, hogy a föld felett nagy befogadóképességű, pórusmentes tartályokat építsenek, ezzel elősegítve a nagy tömegű, egyforma minőségű borok készítésének lehetőségét."
     ],
     [
-      "A bor tárolása nem egyszerű raktározási feladat, hanem a borkészítési és -kezelési technológia szerves része. A tárolás idején a borban kémiai, fiziko-kémiai és mikrobiológiai folyamatok zajlanak, amelyek eredménye a tárolás feltételeitől és körülményeitől nagymértékben függ."
+      "A bor tárolása nem egyszerű raktározási feladat, hanem a borkészítési és -kezelési technológia szerves része. A tárolás idején a borban kémiai, ",
+      "fiziko",
+      "-kémiai és mikrobiológiai folyamatok zajlanak, amelyek eredménye a tárolás feltételeitől és körülményeitől nagymértékben függ."
     ],
     [
       "Alapkövetelmény, hogy a bor a tárolás körülményei miatt károsodást ne szenvedjen. "
@@ -623,7 +644,9 @@
       "A pince területi elhelyezkedésétől, feladatkörétől és ebből adódó méretétől, továbbá építészeti kialakításától függően nagyon változatos építmény. A hagyományos pincék a kőzet- és talajviszonyoktól, a talajvíz szintjétől függően lehetnek egy- vagy többszintes föld alatti és földbe süllyesztett bortárolók. Jellemző tárolóedényeik a fahordók."
     ],
     [
-      "A nagyüzemi borgazdaságok kialakulása nagy változást hozott a pincészetek arculatában. A kezdeti időszakra a vasbeton tartály tömeges elterjedése a jellemző, napjainkban a legkorszerűbbnek tekinthető saválló acéltartályok gyors térhódítása tapasztalható."
+      "A nagyüzemi borgazdaságok kialakulása nagy változást hozott a pincészetek ",
+      "arculatában",
+      ". A kezdeti időszakra a vasbeton tartály tömeges elterjedése a jellemző, napjainkban a legkorszerűbbnek tekinthető saválló acéltartályok gyors térhódítása tapasztalható."
     ],
     [],
     [
@@ -702,10 +725,19 @@
       "Tokaj-Hegyalján és Egerben találhatóak. A tufa könnyen faragható, megfelelő páratartalmat, hőmérsékletet és légcserét biztosít."
     ],
     [
-      "A tokaji pincék feletti réteg 6-10 m is lehet. A pinceágak keskenyek, alacsonyak. A folyosókon a kis űrtartalmú gönci hordók többnyire két sorban helyezkednek el. Néhol boltozottak, azaz ",
-      "boltíves kialakításúak. A pincék jellemzője az egyenletes páratartalom és hőmérséklet. A pincék az egyszerű szellőzőkéményeken keresztül szellőznek; a légáram a pinceajtó nyitvatartásával szabályozható. A viszonylag alacsony hőmérséklet (9-11 ",
+      "A tokaji pincék feletti réteg 6-10 m is lehet. A pinceágak keskenyek, ",
+      "alacsonyak",
+      ". A folyosókon a kis űrtartalmú gönci hordók többnyire két sorban helyezkednek el. Néhol ",
+      "boltozottak",
+      ", azaz ",
+      "boltíves kialakításúak. A pincék jellemzője az egyenletes páratartalom és hőmérséklet. A pincék az egyszerű szellőzőkéményeken keresztül szellőznek; a légáram a pinceajtó ",
+      "nyitvatartásával",
+      " szabályozható. A viszonylag alacsony hőmérséklet (9-11 ",
       "o",
-      "C) és a 85-90%-os páratartalom a tokaji borok lassú fejlődését, megfelelő zamatuk kialakulását teszik lehetővé."
+      "C",
+      ") és a 85-90%-os páratartalom a tokaji borok lassú fejlődését, megfelelő ",
+      "zamatuk",
+      " kialakulását teszik lehetővé."
     ],
     [
       "Az egri pincék hasonló szerkezetűek, de folyosóik szélesebbek, magasabbak, a bejárattal egy szinten vannak."
@@ -735,15 +767,20 @@
       "A budafoki, kőbányai pincék mészkőbe vájtak."
     ],
     [
-      "Klímájuk igen jó. A mészkőréteg vastag és eléggé szilárd. Sok helyen a mészkőrétegben agyagréteg is található. Ez vízzáró ugyan, de a víztartalom változása miatt zsugorodik, duzzad, ami talajelmozdulást idézhet elő. Ez boltozással megelőzhető."
+      "Klímájuk igen jó. A mészkőréteg vastag és eléggé szilárd. Sok helyen a mészkőrétegben agyagréteg is található. Ez vízzáró ugyan, de a víztartalom változása miatt zsugorodik, duzzad, ami ",
+      "talajelmozdulást",
+      " idézhet elő. Ez boltozással megelőzhető."
     ],
     [
       "A pinceágak 5-8 m szélesek, 3-5 m magasak, a felettük lévő réteg vastagsága 8-10 m, néhol még vastagabb. A pincék hőmérséklete 10-12 ",
       "o",
-      "C, páratartalma 80-90%. Géppel vagy szellőzőkéményen keresztül oldható meg a szellőztetésük. A pincék bejárata a közúttal egy szinten van, ez előmozdítja a forgalom lebonyolítását."
+      "C",
+      ", páratartalma 80-90%. Géppel vagy szellőzőkéményen keresztül oldható meg a szellőztetésük. A pincék bejárata a közúttal egy szinten van, ez előmozdítja a forgalom lebonyolítását."
     ],
     [
-      "A különböző pinceágak oldalfolyosókkal vannak összekötve (a budafoki pincerendszer borászati hasznosítású pincehossza mintegy 24 km hosszúságú)."
+      "A különböző pinceágak oldalfolyosókkal vannak összekötve (a budafoki pincerendszer borászati ",
+      "hasznosítású",
+      " pincehossza mintegy 24 km hosszúságú)."
     ],
     [
       " "
@@ -842,24 +879,34 @@
     ],
     [
       "A borászat az élelmiszeripar speciális ága. Sajátossága onnan ered, hogy erős szálakkal, mondhatni elválaszthatatlanul kötődik az azt megalapozó ",
-      "szőlészethez. A bor mint termék, egyedi jellegzetességgel testesíti meg a szőlőt. A szőlőtermésben megjelenő termőhelyi, évjárati, fajta-, termesztéstechnológiai tényezők a borban átalakult formában tükröződnek, sőt a bor ennél még többről tanúskodik. A megtermelt jó minőségű szőlőből csak hozzáértő borászati ",
+      "szőlészethez. A ",
+      "bor",
+      " mint termék, egyedi jellegzetességgel testesíti meg a szőlőt. A szőlőtermésben megjelenő termőhelyi, évjárati, fajta-, termesztéstechnológiai tényezők a borban átalakult formában tükröződnek, sőt a bor ennél még többről tanúskodik. A megtermelt jó minőségű szőlőből csak hozzáértő borászati ",
       "munkával lesz igazán kiváló minőségű bor."
     ],
     [
       "A borászati technológia láncszemei: a borkészítés, -kezelés, -érlelés, -palackozás, ",
-      "palackos pihentetés kapcsolódó műveletei, melyek szakszerű elvégzése szükséges ahhoz, hogy a megtermelt szőlőből a legjobb élvezeti és piaci értékű bor készülhessen. E feladatot a ",
+      "palackos pihentetés kapcsolódó műveletei, melyek szakszerű elvégzése szükséges ahhoz, hogy a megtermelt szőlőből a legjobb élvezeti és piaci értékű bor ",
+      "készülhessen",
+      ". E feladatot a ",
       "borgazdaságok ",
       "látják el. Ezek nagyon sokszínűek."
     ],
     [
       "Az 1990-es években végbement privatizáció még árnyaltabbá tette a hazai szőlő-borgazdálkodást. Felbomlottak a szocialista nagyüzemi borászat keretei és az egykori objektumok nagyrészt magántulajdonba kerültek, vagy átalakult szövetkezeti ",
-      "tulajdonformában működnek. Mellettük létrejöttek a kistermelői (kisüzemi) borgazdaságok, melyek családi tulajdonban a szőlőtermesztés és a borászat teljes körű vagy részleges tevékenységét végzik. A nagyüzemi és a kistermelői borgazdaságok közé ékelődnek be a középüzemek, melyek az egykori nagyüzemek „atomizálódása” révén különböző társasági formában (kft., betéti társaság stb.) igen változatos szőlő-borgazdasági funkciókat fognak át."
+      "tulajdonformában működnek. Mellettük létrejöttek a kistermelői (kisüzemi) borgazdaságok, melyek családi tulajdonban a szőlőtermesztés és a borászat teljes körű vagy részleges tevékenységét végzik. A nagyüzemi és a kistermelői borgazdaságok közé ékelődnek be a középüzemek, melyek az egykori nagyüzemek „",
+      "atomizálódása",
+      "” révén különböző társasági formában (kft., betéti társaság stb.) igen változatos szőlő-borgazdasági funkciókat fognak át."
     ],
     [
-      "A nagy-, közép- és kisüzemi borgazdaságok világszerte jól megférnek egymás mellett, mivel más-más alapfeladatokat látnak el. Rövid, néhány évi tapasztalat alapján ez igazolódott be hazánkban is. Mindegyik formának vannak kihasználható előnyei. A borgazdaságok eredményes működésének feltétele az előnyök érvényesítése. Az előzőekből következik, hogy a különböző borgazdaságok szakmai színvonalát, piaci pozícióit és ezzel összefüggésben eredményességét aligha fejezhetik ki az üzemi méretek, de gondban vagyunk az üzemméretek pontosításával is, mivelhogy ebben jelentős átfedések lehetnek."
+      "A nagy-, közép- és kisüzemi borgazdaságok világszerte jól megférnek egymás mellett, mivel más-más alapfeladatokat látnak el. Rövid, néhány évi tapasztalat alapján ez igazolódott be hazánkban is. Mindegyik formának vannak kihasználható előnyei. A borgazdaságok eredményes működésének feltétele az előnyök érvényesítése. Az ",
+      "előzőekből",
+      " következik, hogy a különböző borgazdaságok szakmai színvonalát, piaci pozícióit és ezzel összefüggésben eredményességét aligha fejezhetik ki az üzemi méretek, de gondban vagyunk az üzemméretek pontosításával is, mivelhogy ebben jelentős átfedések lehetnek."
     ],
     [
-      "Ha például egy borászati üzem csupán hordós borokat akár nagy mennyiségben is értékesít, de palackos borokkal nem növeli kínálatát, úgy tevékenysége szimplább, fajlagos árbevétele kisebb és ismertségének hiánya miatt piaci helyzete is általában ingatagabbá válik, mint azoké, akik folyamatosan palackos boraikkal reklámozzák magukat. Az egyszerűbb borászati munkát folytató üzemek gyakran a nagyobb árukibocsátás mellett is kicsinek minősülnek."
+      "Ha például egy borászati üzem csupán hordós borokat akár nagy mennyiségben is értékesít, de palackos borokkal nem növeli kínálatát, úgy tevékenysége szimplább, fajlagos árbevétele kisebb és ismertségének hiánya miatt piaci helyzete is általában ingatagabbá válik, mint ",
+      "azoké",
+      ", akik folyamatosan palackos boraikkal reklámozzák magukat. Az egyszerűbb borászati munkát folytató üzemek gyakran a nagyobb árukibocsátás mellett is kicsinek minősülnek."
     ],
     [
       "Számos tényező figyelembevételével az üzemméreteket tekintve az alábbi tág határok húzhatók meg:"
@@ -946,7 +993,9 @@
       "Feladata egy évre számítva viszonylag rövid időszakra – a szüret idejére, 1–2 hónapra – korlátozódik, amely a borgazdaságok legnagyobb munkacsúcsa. Ezért is fontos, hogy a szőlőfeldolgozó üzemrész kialakításában és fejlesztésében körültekintően vegyük figyelembe az üzemeltetés szempontjából meghatározó tényezőket, melyek az elhelyezés, a méretezés, a külső és a belső elrendezés."
     ],
     [
-      "A szőlőfeldolgozó elhelyezését tekintve fontosak: "
+      "A szőlőfeldolgozó elhelyezését tekintve ",
+      "fontosak",
+      ": "
     ],
     [
       "a közlekedési viszonyok, "
@@ -977,15 +1026,21 @@
       "mintavevő berendezést."
     ],
     [
-      "A körforgalom zavartalansága érdekében a bogyózó-zúzó gépház a sajtóháztól elkülönített, és a szőlő a gépház egyik vagy mindkét oldalán fogadható. A törkölyös must föld alatti vagy magasan ívelt cefrevezetéken át kerül a sajtóházba. Előnyös technológiai lehetőséget rejt magában a kettősfalú (cső a csőben) vezeték, melyben a cefrével szemben ellentétes irányban áramló hűtőfolyadékkal a kívánt hőmérsékletre hűthető a cefre."
+      "A körforgalom zavartalansága érdekében a ",
+      "bogyózó",
+      "-zúzó gépház a sajtóháztól elkülönített, és a szőlő a gépház egyik vagy mindkét oldalán fogadható. A törkölyös must föld alatti vagy magasan ívelt cefrevezetéken át kerül a sajtóházba. Előnyös technológiai lehetőséget rejt magában a kettősfalú (cső a csőben) vezeték, melyben a cefrével szemben ellentétes irányban áramló hűtőfolyadékkal a kívánt hőmérsékletre hűthető a cefre."
     ],
     [
       "Az üzem belső elrendezését a technológia szabja meg. Ehhez igazodik a gépek, berendezések vertikális és horizontális elhelyezése."
     ],
     [
       "A szőlőfeld",
-      "olgozó legfontosabb tartozékai:",
-      "a bogyózó-zúzó, a cefreszivattyú, a",
+      "olgozó legfontosabb ",
+      "tartozékai:",
+      "a",
+      " ",
+      "bogyózó",
+      "-zúzó, a cefreszivattyú, a",
       " kocsányszállító berendezés, a cefrekénező készülék, a mustelválasztó, a sajtó, a mustosztályozó- és gyűjtőtartályok, a törkö",
       "lykihordó ",
       "berendezés.",
@@ -1043,7 +1098,9 @@
       "A politikai rendszerváltás leglátványosabb fejleménye szakterületünkön a kistermelői (kisüzemi) borgazdaságok kialakulása. A nagyrészt családi tulajdonú szőlő-borgazdaságok alapvető szemléletváltozást hoztak a bortermelésben és a borfogyasztásban egyaránt."
     ],
     [
-      "A kistermelők előnye részint a nagyfokú termelési rugalmasság, részint a borfogyasztókra kiterjedő személyes kapcsolatteremtés lehetősége. Előbbi úgy értendő, hogy a kistermelők kiaknázhatják mindazokat a szőlőtermesztésben rejlő előnyöket (mikroklíma, gondos termesztéstechnológia stb.), melyekkel behozhatatlan előnyre tehetnek szert a borok önálló arculatának, egyediségének megjelenítésében a nagyüzemekkel szemben. Ugyanakkor hangsúlyozni kell, hogy ez nem mehet végbe automatikusan, hanem csakis nagyon szakszerű, gondos, eltökélt munka eredményeként, és döntően palackos borok forgalmazásával. A borospalackok címkéin kötelezően előírt a „PALACKOZTA” felirat. A borospalackok címkéin feltüntethető a \"Termelte és palackozta\" kifejezés, így a termelő nevével, a megszemélyesítéssel nagyobb hangsúlyt kap a bor egyedisége. Ezáltal közelebb kerülhet egymáshoz a bortermelő, valamint az igényes borfogyasztó."
+      "A kistermelők előnye részint a nagyfokú termelési rugalmasság, részint a borfogyasztókra kiterjedő személyes kapcsolatteremtés lehetősége. Előbbi úgy értendő, hogy a kistermelők kiaknázhatják mindazokat a szőlőtermesztésben rejlő előnyöket (mikroklíma, gondos termesztéstechnológia stb.), melyekkel behozhatatlan előnyre tehetnek szert a borok önálló ",
+      "arculatának",
+      ", egyediségének megjelenítésében a nagyüzemekkel szemben. Ugyanakkor hangsúlyozni kell, hogy ez nem mehet végbe automatikusan, hanem csakis nagyon szakszerű, gondos, eltökélt munka eredményeként, és döntően palackos borok forgalmazásával. A borospalackok címkéin kötelezően előírt a „PALACKOZTA” felirat. A borospalackok címkéin feltüntethető a \"Termelte és palackozta\" kifejezés, így a termelő nevével, a megszemélyesítéssel nagyobb hangsúlyt kap a bor egyedisége. Ezáltal közelebb kerülhet egymáshoz a bortermelő, valamint az igényes borfogyasztó."
     ],
     [
       "Az említett előnyök – a ",
@@ -1090,11 +1147,13 @@
       " Ezek a bor tisztulásában zavart okozhatnak, ami pedig a kezelést nehezíti. Régebben a földbe vagy a sziklába vájt építmények garantálták a kívánt hőmérsékletet, manapság a különféle szigetelőanyagoktól származik a föld feletti üzemek jó hőtartó tulajdonsága. A modern technológia ",
       "előírja és lehetővé teszi az alacsony hőmérsékleten (-4-8 ",
       "o",
-      "C) tartást ",
+      "C",
+      ") tartást ",
       "(borkőkiválás),",
       " de a nagy hőmérsékleten (35-40 ",
       "o",
-      "C) való kezelést (gyorsabb érlelés) is (átmeneti tárolás). Ezek céljára épült izotermikus tartályok nem teszik feleslegessé a nagy befogadóképességű kezelő és tároló üzemrészeket."
+      "C",
+      ") való kezelést (gyorsabb érlelés) is (átmeneti tárolás). Ezek céljára épült izotermikus tartályok nem teszik feleslegessé a nagy befogadóképességű kezelő és tároló üzemrészeket."
     ],
     [
       " "
@@ -1105,8 +1164,16 @@
     ],
     [
       "K",
-      "edvező vagy kedvezőtlen hatása az üzembe telepített tárolóedényzet függvénye (hézagmentes vagy porózus tartályok). Száraz pincében a fahordóknál nagy az apadási veszteség, a dongák gyorsan kiszáradnak, nagyobb az ecetesedés veszélyes, a borok gyorsabban fejlődnek, gyorsan vénülnek. Nedves pincében ennek az ellenkezőjét tapasztaljuk, ",
-      "azonkívül a káros penészek felületi elszaporodása jelentős (Mucor, Cladosporium, Aspergillus stb.)."
+      "edvező vagy kedvezőtlen hatása az üzembe telepített ",
+      "tárolóedényzet",
+      " függvénye (hézagmentes vagy porózus tartályok). Száraz pincében a fahordóknál nagy az apadási veszteség, a dongák gyorsan kiszáradnak, nagyobb az ecetesedés veszélyes, a borok gyorsabban fejlődnek, gyorsan vénülnek. Nedves pincében ennek az ellenkezőjét tapasztaljuk, ",
+      "azonkívül a káros penészek felületi elszaporodása jelentős (",
+      "Mucor",
+      ", ",
+      "Cladosporium",
+      ", ",
+      "Aspergillus",
+      " stb.)."
     ],
     [
       "A pincelevegő ",
@@ -1138,7 +1205,9 @@
       "kénezés",
       " sem maradhat el. A pince tiszta levegőjét folyamatos légcserével biztosítjuk. A jó szellőzőrendszer a páratartalmat is szabályozza. A légcsere természetes úton szellőzőkéményekkel (kürtő) és nyílászárókkal (ajtó) vagy szellőzőberendezéssel oldható meg. A természetes légcsere a pince és a külső levegő közötti nyomáskülönbség révén jön létre. A meleg, könnyebb levegő felfelé törekszik, míg a hideg, nehezebb levegő az alsó szinten helyezkedik el. /1 m",
       "3",
-      " 0 °C-os telített levegő tömege 1285 g, míg a 20 °C-osé 1177 g "
+      " 0 °C-os telített levegő tömege 1285 g, míg a 20 °C-",
+      "osé",
+      " 1177 g "
     ],
     [
       "A föld alatti pincék legegyszerűbb szellőzője a 20–30 cm átmérőjű ",
@@ -1158,7 +1227,10 @@
     [
       "A fahordós pincék légterének kénezésére – kivéve a nemes pincepenésszel ",
       "(",
-      "Cladosporium cellare, újabb elnevezéssel: Zazmydium cellare) bevont pincéket – légköbméterenként hetente 0,5 g ként égessünk el, a szellőzőrendszer 1–2 napi lezárásával."
+      "Cladosporium",
+      " cellare, újabb elnevezéssel: ",
+      "Zazmydium",
+      " cellare) bevont pincéket – légköbméterenként hetente 0,5 g ként égessünk el, a szellőzőrendszer 1–2 napi lezárásával."
     ],
     [
       "A ",
@@ -1166,7 +1238,9 @@
       ", (célszerű elhelyezkedés):"
     ],
     [
-      "Az igényeket az üzem feladata és az elvárható technológia szabja meg. A tárolóedényzet tervezésekor bizonyos átmenő készlettel is számolnunk kell. Az egyszerűbb, könnyen öregedő borok rendszerint szüretig forgalomba kerülnek, viszont a minőségi borokat tovább érleljük. Ezek szerint az újborhoz viszonyítva a „tömegbortermelő” vidékeken 120-140%, „minőségi” borvidékeken 160-200%, Tokaj-Hegyalján 200-300% az optimális befogadóképesség. A tárolótér kihasználtságát a hordók nagysága is lényegesen befolyásolja. "
+      "Az igényeket az üzem feladata és az elvárható technológia szabja meg. A ",
+      "tárolóedényzet",
+      " tervezésekor bizonyos átmenő készlettel is számolnunk kell. Az egyszerűbb, könnyen öregedő borok rendszerint szüretig forgalomba kerülnek, viszont a minőségi borokat tovább érleljük. Ezek szerint az újborhoz viszonyítva a „tömegbortermelő” vidékeken 120-140%, „minőségi” borvidékeken 160-200%, Tokaj-Hegyalján 200-300% az optimális befogadóképesség. A tárolótér kihasználtságát a hordók nagysága is lényegesen befolyásolja. "
     ],
     [
       "Az üzem kezelőterében a ",
@@ -1269,14 +1343,18 @@
       " kapcsolódik."
     ],
     [
-      "A tartályok szabadtéri elhelyezésének megvannak a bortechnológiai és üzemelési nehézségei. A szabadtéri elhelyezés erősen korlátozza a tartályok sokoldalú hasznosítását. A derítés sikere meghiúsulhat a napi hőingadozás révén létrejövő belső folyadékáramlás miatt. Korán beköszöntő tél következtében „bennragadhatnak” a borok a tartályokban, vagy már azok nehezen moshatók ki, stb."
+      "A tartályok szabadtéri elhelyezésének megvannak a bortechnológiai és üzemelési nehézségei. A szabadtéri elhelyezés erősen korlátozza a tartályok sokoldalú hasznosítását. A derítés sikere meghiúsulhat a napi hőingadozás révén létrejövő belső folyadékáramlás miatt. Korán beköszöntő tél következtében „bennragadhatnak” a borok a tartályokban, vagy már azok nehezen moshatók ",
+      "ki,",
+      " stb."
     ],
     [],
     [
       "Mindez azt hozza magával, hogy a korszerű európai gondolkodással egyezően a borászati technológia teljes folyamatát zárt épületben valósítsuk meg, azaz vigyük a technológiát a minőségi borászatot megillető helyre."
     ],
     [
-      "A saválló acél tartályos pincék óriási előnye, hogy minden tartályt bármely technológiai feladatra (mustülepítés, -erjesztés, borkezelés, készrekezelt borok tárolása) alkalmassá lehet tenni, és a teljes technológiai folyamatot – ideértve a ",
+      "A saválló acél tartályos pincék óriási előnye, hogy minden tartályt bármely technológiai feladatra (mustülepítés, -erjesztés, borkezelés, ",
+      "készrekezelt",
+      " borok tárolása) alkalmassá lehet tenni, és a teljes technológiai folyamatot – ideértve a ",
       "CIP rendszerű tisztítást",
       " – temperált környezetben automatizálni."
     ],
@@ -1312,12 +1390,19 @@
     ],
     [
       "újabban az északi borvidékeken is: ",
-      "agyagból készült amforák, pítia edények vagy quevrik (más írásmód: kvevrik)."
+      "agyagból készült amforák, ",
+      "pítia",
+      " edények vagy ",
+      "quevrik",
+      " (más írásmód: ",
+      "kvevrik",
+      ")."
     ],
     [
       "Feladatuknak megfelelően megkülönböztetünk tárolótartályokat, illetve a folyamatokhoz szükséges tartályokat; a fahordók vagy",
       " ",
-      "barrikhordók ",
+      "barrikhordók",
+      " ",
       "esetében a tartályok is egyfajta kezelő eszköznek minősülnek. A folyamatokhoz szükséges speciális tartályokat főleg a vörösbor előállítása során, cefreerjesztő tartályként használják. Ettől függetlenül a tartályoknak a folyadékok vagy szuszpenziók tiszta, lehetőleg a levegőtől való teljes elzárás és veszteségmentes tárolásán kívül további így kell funkcionálniuk, hogy megfeleljenek a gazdasági és minőségi követelményeknek:"
     ],
     [
@@ -1341,8 +1426,14 @@
       "Speciális, historizáló eljárásokhoz használt tartályok"
     ],
     [
-      "A bor előállításának historizáló, magas kultikus faktorral bíró, néhány éve alkalmazott változata az agyagból készült amfora / pítia edény, illetve kvevri használata. Ezt a módszert ",
-      "kereken 7000 évvel ezelőtt fejlesztették ki Grúziában, ahol még néhány évtizeddel ezelőtt is szinte minden bort kvevriben érleltek – a borok bizonyos hányadát még ma is így készítik. Az erjesztő- és tárolótartályként szolgáló törékeny agyagedényeket stabilizálás céljából a földbe kell ásni. A bor előállításának hagyományos grúz folyamatát az UNESCO a világörökség részévé nyilvánította. (",
+      "A bor előállításának historizáló, magas kultikus faktorral bíró, néhány éve alkalmazott változata az agyagból készült amfora / ",
+      "pítia",
+      " edény, illetve ",
+      "kvevri",
+      " használata. Ezt a módszert ",
+      "kereken 7000 évvel ezelőtt fejlesztették ki Grúziában, ahol még néhány évtizeddel ezelőtt is szinte minden bort ",
+      "kvevriben",
+      " érleltek – a borok bizonyos hányadát még ma is így készítik. Az erjesztő- és tárolótartályként szolgáló törékeny agyagedényeket stabilizálás céljából a földbe kell ásni. A bor előállításának hagyományos grúz folyamatát az UNESCO a világörökség részévé nyilvánította. (",
       "7, 8, 9,",
       " 10, 11, 12.",
       " ábra)"
@@ -1445,7 +1536,9 @@
     ],
     [],
     [
-      "A vastagabb falú amfora vagy pítia edények segítségével az ókori rómaiak és görögök módszerét utánozzák, és a szőlőt a cefrén erjesztik ",
+      "A vastagabb falú amfora vagy ",
+      "pítia",
+      " edények segítségével az ókori rómaiak és görögök módszerét utánozzák, és a szőlőt a cefrén erjesztik ",
       "(",
       "11, 13.",
       " ábra).",
@@ -1453,14 +1546,21 @@
       "erjesztésére, illetve később ezek tárolására szolgáló tartályokként használják. A lebegő úgynevezett „törkölykalapot” (kézzel kell lenyomni, vagy beépített elemekkel",
       ")",
       " kell megakadályozni a felemelkedésüket. A cefre erjedése biztosítja az intenzív ",
-      "fenolos extrakciót, míg a gázáteresztő agyag a folyamatos mikrooxidációt. A borok megfelelően erősekké és fenolosakká",
+      "fenolos ",
+      "extrakciót",
+      ", míg a gázáteresztő agyag a folyamatos ",
+      "mikrooxidációt",
+      ". A borok megfelelően erősekké és ",
+      "fenolosakká",
       " ",
       "válnak. Egészséges alapanyag esetén egyáltalán nem szükséges a kénessav hozzáadása. Kisebb mennyiségek esetében a technika újabb lehetőséget ad a borász kezébe ahhoz, hogy egyéni, a tömegtől eltérő borstílust hozzon létre, és azt egy saját történettel kapcsolja össze. Ezáltal megkülönböztetheti magát a versenytársaktól, és – legalábbis rövid távon – egyedi értékesítési ajánlattal rendelkezik. "
     ],
     [
       "Az utóbbi években elterjedt divat, a „természetes bor” előállítása, kizárólag agyag- vagy fahordókat engedélyez, és teljes mértékben tiltja az adalékanyagok használatát. A SO",
       "2",
-      " (kén-dioxid) mindenesetre minimális mennyiségben megengedett. Ezt a módszert sok borszakértő inkább hitbeli kérdésnek tartja, és kritikus vele szemben. Ezeket a borokat intenzív ",
+      " (kén-dioxid) mindenesetre minimális mennyiségben megengedett. Ezt a módszert sok borszakértő inkább ",
+      "hitbeli",
+      " kérdésnek tartja, és kritikus vele szemben. Ezeket a borokat intenzív ",
       "barnássárga ",
       "vagy borostyánsárga színük miatt „",
       "narancsosnak” (a bortörvény szerint narancsbornak) is nevezik. Túlnyomórészt erősen ",
@@ -1493,7 +1593,9 @@
       "Ászokhordó részei"
     ],
     [
-      "Forrás: Mercz Árpád (1999): ",
+      "Forrás: ",
+      "Mercz",
+      " Árpád (1999): ",
       "A must és a bor egyszerű kezelése Mezőgazda",
       " Kiadó, ",
       "16.",
@@ -1522,7 +1624,9 @@
       "a borkezelés összességében viszonylag kockázatos, munkaigényes és drága."
     ],
     [
-      "Sok borhiba csakúgy, mint régen, ma is a hordók szakszerűtlen kezelésével függ össze. Míg a bor a rozsdamentes acéltartályban konzerválódik, a fahordóban a ",
+      "Sok borhiba csakúgy, mint régen, ma is a hordók szakszerűtlen kezelésével függ össze. Míg a bor a rozsdamentes acéltartályban ",
+      "konzerválódik",
+      ", a fahordóban a ",
       "mikrooxidáció",
       " révén ",
       "különleges hatás éri, amely annál intenzívebb, minél kisebb az edény. A pincetechnológiában különösen a II. világháború után sokat tettek a tiszta ízű borok készítéséért, és végül büszkén ",
@@ -1592,10 +1696,20 @@
     [
       "Napjainkban a",
       " fahordó a világ borászatában a reneszánszát éli. Ez érvényes a nagy ",
-      "tartályokra is, de főként a barrikhordókra (barrique). Világszerte az összes bor mintegy 2%-át kezelik barrikhordóban. Manapság a hasonló ízvilág kialakítására megjelentek az olcsó, ",
+      "tartályokra is, de főként a ",
+      "barrikhordókra",
+      " (",
+      "barrique",
+      "). Világszerte az összes bor mintegy 2%-át kezelik ",
+      "barrikhordóban",
+      ". Manapság a hasonló ízvilág kialakítására megjelentek az olcsó, ",
       "alternatív termékek ",
-      "(chips vagy staves),",
-      " így a barrikhordót a jövőben várhatóan még inkább kizárólag prémium borokhoz fogják használni.",
+      "(chips vagy ",
+      "staves",
+      "),",
+      " így a ",
+      "barrikhordót",
+      " a jövőben várhatóan még inkább kizárólag prémium borokhoz fogják használni.",
       " ",
       "Kutatók vizsgálataik során arra jutottak, hogy a fogyasztók általánosságban úgy vélik, hogy a tölgyfa hasznos a bor minőségére nézve, és a vörösbor ",
       "esetében nagyobb előnyökkel jár a használata, mint a fehérbornál. ",
@@ -1613,11 +1727,16 @@
       "A boroshordók előállításához a tölgy ",
       "gesztjét ",
       "használják. A 200 különböző tölgyfaj közül a kocsánytalan tölgy (",
-      "Quercus petrea",
+      "Quercus",
+      " ",
+      "petrea",
       ") és a kocsányos tölgy (",
-      "Quercus robur",
+      "Quercus",
+      " ",
+      "robur",
       "), az USA-ban pedig a fehér tölgy (",
-      "Quercus alba",
+      "Quercus",
+      " alba",
       ") vált be. Egyedül Franciaországban évente mintegy 750 000 m",
       "3",
       " tölgyet dolgoznak fel a kádárüzemekben. Ebből a mennyiségből mintegy 48 000 m",
@@ -1628,7 +1747,8 @@
       "A friss tölgyfa körülbelül 45%-ban vizet és 20%-ban gáznemű alkotóelemeket tartalmaz. A szárazanyag mintegy 90%-át teszik ki a sejtfal alkotóelemei, azaz cellulóz (40%), lignin és hemicellulózok (25-25%). A fennmaradó 10% kivonható, alacsony molekulatömegű, különböző anyagosztályú anyagokból, valamint csekély, mindössze 0,3% hamutartalomból áll. A tölgy kívülről befelé ",
       "holtkéregből, szíjácsból és gesztből",
       " áll. A szíjács tartalmazza az élő sejteket, amelyek a vízszállításért felelősek. Rosszul fásodott, kevéssé tartós, és nem alkalmas dongák vagy hordófenekek készítésére. A geszt holt állandósult szövet elhalt ",
-      "parenchima ",
+      "parenchima",
+      " ",
       "sejtekkel, és idős tölgyeknél a törzs térfogatának akár 80%-át is kiteheti. A geszt sejtfalain alacsony molekulatömegű, víztaszító és konzerváló csersavak rakódnak le."
     ],
     [
@@ -1642,12 +1762,21 @@
       ". ábrán a tölgyfa keresztmetszeti struktúrája és a belőle készült donga, valamint egy törzsre felrajzolt dongák láthatók. Ezt a műveletet ma lézertechnológiával optimalizálják. A ",
       "hasított fát szárításhoz feltornyozzák. Favastagságtól függően centiméterenként 1–2 évig kell tárolni,",
       " mert ",
-      "a hosszú tárolási idő alatt lezajló kémiai vagy enzimatikus változások feltehetőleg kívánatos módon befolyásolják az összetevők kivonódását. A tároló hordók törzsét a dongák hajlítása után kigyalulják; a barrikhordókét kötelezően, a normál fahordókét kívánság",
+      "a hosszú tárolási idő alatt lezajló kémiai vagy ",
+      "enzimatikus",
+      " változások feltehetőleg kívánatos módon befolyásolják az összetevők ",
+      "kivonódását",
+      ". A tároló hordók törzsét a dongák hajlítása után kigyalulják; a ",
+      "barrikhordókét",
+      " kötelezően, a normál fahordókét kívánság",
       " ",
       "szerint hőkezelésnek vetik alá. Ezt a ",
       "hőkezelést, avagy pörkölést",
       " nemzetközi kifejezéssel ",
-      "toastolásnak (tósztolásnak)",
+      "toastolásnak",
+      " (",
+      "tósztolásnak",
+      ")",
       " nevezik."
     ],
     [
@@ -1659,7 +1788,13 @@
     ],
     [
       "1 = törzs; 2 = hordódonga; 3 = tükör (bütü); 4 = évgyűrű; 5 = bélsugár; 6 = szállítószövet; 7 = bél; (",
-      "bal oldali ábra Blankenhorn és Funk 2012; jobb oldali ábra Christmann ",
+      "bal oldali ábra ",
+      "Blankenhorn",
+      " és ",
+      "Funk",
+      " 2012; jobb oldali ábra ",
+      "Christmann",
+      " ",
       "2013)."
     ],
     [],
@@ -1679,7 +1814,9 @@
       " hordókat is készítenek. "
     ],
     [
-      "Erősen égetett hordóknál a fa felületén mikroszkopikus méretű repedések keletkeznek, amelyek megkönnyítik a bor behatolását. Ezenkívül a nedves hő hatására a pörköléskor megnyílnak a fa pórusai. A pörkölés nem korlátozódik a barrikhordóra. A vörösborok tárolására szánt nagy hordókat is gyakran pörkölik legalábbis gyengén. A pörkölés haszna azonban néhány használat után elveszik. A pörköletlen fa egészen másként hat a borra: ",
+      "Erősen égetett hordóknál a fa felületén mikroszkopikus méretű repedések keletkeznek, amelyek megkönnyítik a bor behatolását. Ezenkívül a nedves hő hatására a pörköléskor megnyílnak a fa pórusai. A pörkölés nem korlátozódik a ",
+      "barrikhordóra",
+      ". A vörösborok tárolására szánt nagy hordókat is gyakran pörkölik legalábbis gyengén. A pörkölés haszna azonban néhány használat után elveszik. A pörköletlen fa egészen másként hat a borra: ",
       "gyantás-zöld fa illatot ad vegetatív összetevőkkel, és kesernyés, húzós ízt okoz."
     ],
     [
@@ -1692,7 +1829,9 @@
       "középső maradékleeresztő nyílás, továbbá a szintén nemesacél mintavevő csap nagyban könnyíti a munkát. A munkaigény és a beltéri klímával kapcsolatos követelmény mégis olyan tényező, amely gátat szab az elterjedésüknek, és lényegében csak akkor használják, ha a fát tudatosan választják a bor érlelés folyamán. "
     ],
     [
-      "A barrikhordó előtti időkben az új hordók nem adhattak át ízt a bornak; ki kellett lúgozni, azaz ",
+      "A ",
+      "barrikhordó",
+      " előtti időkben az új hordók nem adhattak át ízt a bornak; ki kellett lúgozni, azaz ",
       "be kellett avatni",
       " őket. Ezt többszöri gőzöléssel és vizezéssel, vagy szódás forró víz többszöri hozzáadásával lehetett elérni. Semleges, kilúgozott fahordónál főként már csak a légköri oxigén érlelő hatása érvényesül. Emiatt a hatás miatt töltik át a borokat – elsősorban vörösborokat vagy erősebb fehérborokat – palackozás előtt fahordóba. A hordóban történő tárolás időtartama 3 és 6 hónap között van."
     ],
@@ -1756,7 +1895,9 @@
     ],
     [
       "1 = aljzat; 2 = szigetelés; 3 = vasbeton alap; 4 = belső burkolat; 5 = csonk (túlfolyó csonk); 6 = szerelvénylemez; 7 = búvónyílás; 8 = seprő kifolyója (ürítőcsonk); 9 = tiszta folyadék kifolyója (színelőcsonk); 10 = telítettségi szint mintavevő szeleppel (nívócső mintázó csappal); 11 = hőmérő; 12 = ",
-      "klinkerfal.(csempézett, illetve burkolt előlap)"
+      "klinkerfal",
+      ".(",
+      "csempézett, illetve burkolt előlap)"
     ],
     [
       ""
@@ -1809,7 +1950,9 @@
       "a belső felületet nem látják el bevonattal, akkor a borban lévő savak kioldják a betonból a kalciumot és csekély mértékben a vasat is, így jellegzetes mellékízt okoznak."
     ],
     [
-      "Emellett olyan kedvezőtlen, a tisztítási körülmények által okozott higiéniai problémákat is megállapítottak, amelyek eltávolítják a homokot és fokozatosan érdesítik a felületet. A vas kiválása különösen a bioüzemek számára jelenthet problémát, amelyek számára tilos az ún. ",
+      "Emellett olyan kedvezőtlen, a tisztítási körülmények által okozott higiéniai problémákat is megállapítottak, amelyek eltávolítják a homokot és fokozatosan érdesítik a felületet. A vas kiválása különösen a ",
+      "bioüzemek",
+      " számára jelenthet problémát, amelyek számára tilos az ún. ",
       "kékderítés",
       " alkalmazása. (",
       "24. és 25.",
@@ -1864,19 +2007,32 @@
     ],
     [
       "Körülbelül 2010-től kínálnak speciálisan kezelt, kisebb méretű polietilén tartályokat (300–2100 l) oxigénáteresztő érlelőtartályként). Ezek a tartályok a ",
-      "mikrooxidáció ",
-      "szempontjából konkurálnak a barrikhordókkal. Használatuk során nem lép fel ",
+      "mikrooxidáció",
+      " ",
+      "szempontjából konkurálnak a ",
+      "barrikhordókkal",
+      ". Használatuk során nem lép fel ",
       "párolgási veszteség",
-      ", ami a barrikhordók esetében évente átlagosan 3-5%. A tartály teljes é",
+      ", ami a ",
+      "barrikhordók",
+      " esetében évente átlagosan 3-5%. A tartály teljes é",
       "lettartama alatt",
-      " akár 20 mg/l körüli oxigénáteresztő képesség érhető el, míg a barrikok esetében az értékek minden egyes használat során csökkennek. ",
-      "Vesszők vagy forgács (stave, illetve chips) segítségével történő fakivonással ezenfelül „barrik hatás” érhető el."
+      " akár 20 mg/l körüli oxigénáteresztő képesség érhető el, míg a ",
+      "barrikok",
+      " esetében az értékek minden egyes használat során csökkennek. ",
+      "Vesszők vagy forgács (",
+      "stave",
+      ", illetve chips) segítségével történő fakivonással ezenfelül „",
+      "barrik",
+      " hatás” érhető el."
     ],
     [
       "Belső burkolattal ellátott acéltartályok"
     ],
     [
-      "A világszerte leggyakrabban használt fém alapanyag az acél, amely a nyersvasból hő- és termomechanikai kezeléssel kombinált, szénnel és más ötvözőelemekkel történő ötvözés során keletkezik. Az olvadék megszilárdul, és a felszínen a környezettel érintkező, mozdulatlan fématomokból álló sajátos fémrácsokat képez. Az ötvözőelemek célzott hozzáadásával a tulajdonságok széles körű alkalmazási területekhez igazíthatók. Az acél legfontosabb ötvözőeleme a szén. Az acélban lévő szén jelentősége az acél tulajdonságaira és a fázisátalakulásokra gyakorolt hatásából ered. Az acél nem ellenálló a bor savaival szemben, védelem nélkül a korrózió gyorsan bekövetkezik. Az acélt ezért a belső felületeken speciális lakkal vagy zománccal védik, a külső felületeken általában csak egy festékréteggel. Az acéltartályok alapvetően ugyanazokkal a tulajdonságokkal rendelkeznek, mint a nemesacél tartályok, és v",
+      "A világszerte leggyakrabban használt fém alapanyag az acél, amely a nyersvasból hő- és termomechanikai kezeléssel kombinált, szénnel és más ötvözőelemekkel történő ötvözés során keletkezik. Az olvadék megszilárdul, és a felszínen a környezettel érintkező, mozdulatlan fématomokból álló sajátos fémrácsokat képez. Az ötvözőelemek célzott hozzáadásával a tulajdonságok széles körű alkalmazási területekhez igazíthatók. Az acél legfontosabb ötvözőeleme a szén. Az acélban lévő szén jelentősége az acél tulajdonságaira és a fázisátalakulásokra gyakorolt hatásából ered. Az acél nem ellenálló a bor ",
+      "savaival",
+      " szemben, védelem nélkül a korrózió gyorsan bekövetkezik. Az acélt ezért a belső felületeken speciális lakkal vagy zománccal védik, a külső felületeken általában csak egy festékréteggel. Az acéltartályok alapvetően ugyanazokkal a tulajdonságokkal rendelkeznek, mint a nemesacél tartályok, és v",
       "elük megegyezően felszerelhetők."
     ],
     [
@@ -1896,7 +2052,9 @@
     ],
     [],
     [
-      "A zománc kvarcból, földpátból, lúgokból és fémoxidokból áll, amelyeket összeolvasztanak, majd a megszilárdulás után finomra őrölnek. A tartályok zománcozása több rétegből áll, amelyeket egymás után, 900 °C-on égetnek be. Ezután az anyag sima, hőálló, kemény és nyomásálló, azonban törékeny és ütésre érzékeny. A leeső szerszámok gyorsan sérüléseket okoznak, amelyek egy bizonyos méretig a helyszínen javíthatóak. A zománcozott acéltartályok különösen „nyomótartályként” az édes must tárolására vagy cefreerjesztő tartályként a nyomásváltozást elbíró technológiai eljáráshoz alkalmasak. (",
+      "A zománc kvarcból, földpátból, lúgokból és fémoxidokból áll, amelyeket összeolvasztanak, majd a megszilárdulás után finomra őrölnek. A tartályok zománcozása több rétegből áll, amelyeket egymás után, 900 °C-",
+      "on",
+      " égetnek be. Ezután az anyag sima, hőálló, kemény és nyomásálló, azonban törékeny és ütésre érzékeny. A leeső szerszámok gyorsan sérüléseket okoznak, amelyek egy bizonyos méretig a helyszínen javíthatóak. A zománcozott acéltartályok különösen „nyomótartályként” az édes must tárolására vagy cefreerjesztő tartályként a nyomásváltozást elbíró technológiai eljáráshoz alkalmasak. (",
       "84",
       ". sz. ábra)"
     ],
@@ -1915,7 +2073,9 @@
     [
       "A borok 90%-át világszerte ",
       "nemesacél ",
-      "tartályokban, azaz rozsdamentes acélból készült tartályokban tárolják. Ez a fogalom a korrózió- és saválló acélfajták azon csoportjának megnevezése, amelyek ellenállnak a pincészetekben szokásos tisztítószereknek, a bor savainak és a SO",
+      "tartályokban, azaz rozsdamentes acélból készült tartályokban tárolják. Ez a fogalom a korrózió- és saválló acélfajták azon csoportjának megnevezése, amelyek ellenállnak a pincészetekben szokásos tisztítószereknek, a bor ",
+      "savainak",
+      " és a SO",
       "2",
       " tartósítószernek. A korrózióállóság a nyersvasnak nemcsak szénnel, hanem mindenekelőtt nehézfémekkel (krómmal, nikkellel, molibdénnel és titánnal) való ötvözésével érik el. ",
       "A tulajdonságokat a nehézfém típusa, mennyisége, az olvadék kezelése és a további kezelés határozza meg."
@@ -1986,7 +2146,8 @@
       "Olyan ",
       "tartályfenék,",
       " amelyet a lehető legaszimmetrikusabban alakítanak ki annak érdekében, hogy a kifolyó mélyedése a búvónyílás elé kerüljön. A legalacsonyabb ponton található a maradék folyadék lehető legnagyobb vezeték-keresztmetszettel rendelkező kifolyója. Mivel a borkő elsősorban és tömörödve alul rakódik le, a hatékony tisztítás érdekében ajánlott a fenék anyagának ",
-      "elektropolírozása ",
+      "elektropolírozása",
+      " ",
       "(speciális felületkezelése)."
     ],
     [
@@ -1994,7 +2155,9 @@
       "hengeres test",
       " általában egy vagy több tiszta lefolyót tartalmaz, a tiszta leengedés érdekében esetleg egy belső fordulóívvel egybeépítve, egy mintavételi csapot, egy mennyiségmérőt, általában kalibrált cső formájában, valamint egy-egy tartály- és borcímkét, ez utóbbi cserélhető. Ha a hűtés párnalemezek segítségével történik, akkor azok a tartály külső oldalán helyezkednek el a hűtőközeghez használt csatlakozókkal (lásd a ",
       "87",
-      ". ábrát). A szűk résű párnalemezek nagyon vékonyak, nagy az áramlási sebességük, minimális a leadott sugárzásuk, cseréjük pedig optimális. Minden 1000 liter tartalomhoz körülbelül 0,3 m",
+      ". ábrát). A szűk résű párnalemezek nagyon ",
+      "vékonyak",
+      ", nagy az áramlási sebességük, minimális a leadott sugárzásuk, cseréjük pedig optimális. Minden 1000 liter tartalomhoz körülbelül 0,3 m",
       "2",
       " méretű hűtőfelületre van szükség. A hőmérséklet mérése céljából egy érzékelő elemet hegesztenek a tartályba."
     ],
@@ -2027,7 +2190,9 @@
     ],
     [],
     [
-      "A cefretartályok ideális esetben helyhez kötve telepített keringető szivattyúkkal vannak felszerelve a körfejtéshez. A darabos törköly miatt nagy hajlásszögű, sík tartályfenékre, valamint nagy ürítőnyílásra van szükség. A ",
+      "A cefretartályok ideális esetben helyhez kötve telepített ",
+      "keringető",
+      " szivattyúkkal vannak felszerelve a körfejtéshez. A darabos törköly miatt nagy hajlásszögű, sík tartályfenékre, valamint nagy ürítőnyílásra van szükség. A ",
       "31",
       ". és a ",
       "32",
@@ -2091,7 +2256,9 @@
       "A bor- vagy gyümölcslé-előállító üzemekben főleg időszakosan használt berendezések esetében a teljesen automatikus rendszerek jelentősen nagyobb költségei általában nem térülnek meg."
     ],
     [
-      "Kis bortételek- vagy szűkös pinceméretek esetén kiválóan alkalmazhatók a saválló acélból készült úgynevezett „ikertartályok”. Legtöbbször a tartály belső része egy fenéklappal két részre van osztva, így egy tartályalappal két tölthető edényre teszünk szert. Léteznek külön egységként épített önálló tartályok is amelyek akár egymásra helyezve, akár különálló egységként is lehetővé teszi a korszerű bortárolást. A ",
+      "Kis bortételek- vagy szűkös pinceméretek esetén kiválóan alkalmazhatók a saválló acélból készült úgynevezett „ikertartályok”. Legtöbbször a tartály belső része egy fenéklappal két részre van osztva, így egy tartályalappal két tölthető edényre teszünk szert. Léteznek külön egységként épített önálló tartályok ",
+      "is",
+      " amelyek akár egymásra helyezve, akár különálló egységként is lehetővé teszi a korszerű bortárolást. A ",
       "36.",
       " ábra bemutatja az ikertartályokat."
     ],
@@ -2107,7 +2274,9 @@
       "Tartályok tisztítása"
     ],
     [
-      "A tartályokat a legjobb felülről tisztítani, hogy a tisztítófolyadék biztosan elérhesse a fedelet, majd ezután lefolyhasson a falon. A ",
+      "A tartályokat a legjobb ",
+      "felülről",
+      " tisztítani, hogy a tisztítófolyadék biztosan elérhesse a fedelet, majd ezután lefolyhasson a falon. A ",
       "37",
       ". ábrán a tartály kialakításától és a permetező fúvókák elrendezésétől függő, különböző szórásképek láthatók."
     ],
@@ -2135,7 +2304,9 @@
       "„minőségi bor”, „meghatározott termőhelyről származó minőségi bor” és a „különleges minőségű bor” kategória."
     ],
     [
-      "Az Európai Unió a területén készített élelmiszerek, így a borok egy részét oltalom alá vonta. Az oltalom vagy a bor eredetére vagy a földrajzi származására vonatkozik. Hivatalosan ezeket hívjuk ",
+      "Az Európai Unió a területén készített élelmiszerek, így a borok egy részét oltalom alá vonta. Az oltalom vagy ",
+      "a bor eredetére",
+      " vagy a földrajzi származására vonatkozik. Hivatalosan ezeket hívjuk ",
       "oltalom alatt álló eredetmegjelölésű",
       " (OEM) (",
       "96",
@@ -2153,7 +2324,9 @@
       " termékleírást ",
       "kellett készíteni, amelyet az Európai Bizottságnak nyújtottak be az érintett ",
       "hegyközségi szervezetek.",
-      " 2009 után az új borelnevezések (OEM vagy OFJ) használata nem automatikus. A kérelmet a Bizottsághoz kell benyújtani, mely az elfogadás után lajstromba veszi az új elnevezést, ami megjelenik az „eAmbrosia” nyilvántartásban. ",
+      " 2009 után az új borelnevezések (OEM vagy OFJ) használata nem automatikus. A kérelmet a Bizottsághoz kell benyújtani, mely az elfogadás után lajstromba veszi az új elnevezést, ami megjelenik az „",
+      "eAmbrosia",
+      "” nyilvántartásban. ",
       "A 2. számú táblázat a Magyarországon használatos OEM és OFJ borelnevezések listáját tartalmazza."
     ],
     [
@@ -2192,7 +2365,9 @@
       "a főbb analitikai és érzékszervi jellemzők;"
     ],
     [
-      "adott esetben a bor vagy borok előállítására alkalmazott konkrét borászati eljárások vagy korlátozások"
+      "adott esetben a bor vagy ",
+      "borok előállítására alkalmazott konkrét borászati eljárások",
+      " vagy korlátozások"
     ],
     [
       "az érintett földrajzi terület határainak meghatározása; "
@@ -2201,7 +2376,11 @@
       "a hektáronkénti legnagyobb terméshozam; "
     ],
     [
-      "a borszőlőfajta vagy -fajták, amely(ek)ből a bor vagy borok készülnek; "
+      "a borszőlőfajta vagy -fajták, amely(",
+      "ek",
+      ")",
+      "ből",
+      " a bor vagy borok készülnek; "
     ],
     [
       "azok az adatok, melyek bizonyítják a bor minősége és a földrajzi származása, eredete közötti kapcsolatot."
@@ -2215,7 +2394,9 @@
     ],
     [
       "Az OEM borok előállításakor szigorú feltételeknek kell megfelelni. Készítésük kizáróan az adott földrajzi területen történhet, az ott termelt ",
-      "Vitis vinifera",
+      "Vitis",
+      " ",
+      "vinifera",
       " szőlőfajtából. Ez vonatkozik az édesítéshez használt sűrített mustra is. Ennek az az oka, hogy a bor jellemzői alapvetően a földrajzi környezethez és a természeti tényezőkhöz köthetők."
     ],
     [],
@@ -2225,14 +2406,24 @@
     [
       "A szabályozás az OFJ vagy más néven",
       " tájboroknál",
-      " megengedőbb. Itt a szőlő legalább  85%-ának kell az adott területről származnia. A szőlőfajták tekintetében nemcsak ",
-      "Vitis vinifera",
+      " megengedőbb. Itt a szőlő ",
+      "legalább  85",
+      "%-",
+      "ának",
+      " kell az adott területről származnia. A szőlőfajták tekintetében nemcsak ",
+      "Vitis",
+      " ",
+      "vinifera",
       " szőlőfajták alkalmazhatók, hanem a ",
-      "Vitis vinifera",
+      "Vitis",
+      " ",
+      "vinifera",
       " és a ",
-      "Vitis nemzetséghez",
+      "Vitis",
+      " nemzetséghez",
       " tartozó szőlők keresztezéséből származó, például az ",
-      "interspecifikus fajták",
+      "interspecifikus",
+      " fajták",
       " is. A bort az adott területen kell elkészíteni, mivel annak minősége a különleges hírnévvel vagy egyéb jellemzőkkel leírható földrajzi eredethez köthető."
     ],
     [],
@@ -2407,10 +2598,12 @@
       ".)"
     ],
     [
-      "Mercz Árpád (1999): A must és a bor egyszerű kezelése. Mezőgazda Kiadó."
+      "Mercz",
+      " Árpád (1999): A must és a bor egyszerű kezelése. Mezőgazda Kiadó."
     ],
     [
-      "Tatayné Baksa Erzsébet (2014): Borkészítés. NAKVI. Elérhető: https://portal.nebih.gov.hu/-/bo",
+      "Tatayné",
+      " Baksa Erzsébet (2014): Borkészítés. NAKVI. Elérhető: https://portal.nebih.gov.hu/-/bo",
       "raszati-termekek (letöltve: 2024.06.24",
       ".)"
     ]
@@ -2583,219 +2776,214 @@
   ],
   "images": [
     {
-      "name": "image3.jpg",
-      "path": null,
-      "bytes": 60919
-    },
-    {
-      "name": "image8.png",
-      "path": null,
-      "bytes": 73262
-    },
-    {
-      "name": "image9.png",
-      "path": null,
-      "bytes": 240282
-    },
-    {
-      "name": "image10.jpg",
-      "path": null,
-      "bytes": 55696
-    },
-    {
-      "name": "image11.jpg",
-      "path": null,
-      "bytes": 47358
-    },
-    {
-      "name": "image12.jpg",
-      "path": null,
-      "bytes": 42072
-    },
-    {
-      "name": "image13.jpg",
-      "path": null,
-      "bytes": 104042
-    },
-    {
-      "name": "image14.jpg",
-      "path": null,
-      "bytes": 57552
-    },
-    {
-      "name": "image28.jpg",
-      "path": null,
-      "bytes": 34587
-    },
-    {
-      "name": "image15.jpg",
-      "path": null,
-      "bytes": 41387
-    },
-    {
-      "name": "image16.jpg",
-      "path": null,
-      "bytes": 66316
-    },
-    {
-      "name": "image24.jpg",
-      "path": null,
-      "bytes": 176395
-    },
-    {
-      "name": "image25.jpg",
-      "path": null,
-      "bytes": 153144
-    },
-    {
-      "name": "image26.jpg",
-      "path": null,
-      "bytes": 84724
-    },
-    {
-      "name": "image1.png",
-      "path": null,
-      "bytes": 29054
-    },
-    {
-      "name": "image2.png",
-      "path": null,
-      "bytes": 56449
-    },
-    {
-      "name": "image27.jpg",
-      "path": null,
-      "bytes": 55083
-    },
-    {
-      "name": "image4.jpg",
-      "path": null,
-      "bytes": 61565
-    },
-    {
-      "name": "image5.jpg",
-      "path": null,
-      "bytes": 49129
-    },
-    {
-      "name": "image6.png",
-      "path": null,
-      "bytes": 34680
-    },
-    {
-      "name": "image7.png",
-      "path": null,
-      "bytes": 12270
-    },
-    {
-      "name": "image29.jpg",
-      "path": null,
-      "bytes": 109896
-    },
-    {
-      "name": "image30.png",
-      "path": null,
-      "bytes": 603384
-    },
-    {
-      "name": "image31.jpg",
-      "path": null,
-      "bytes": 255473
-    },
-    {
-      "name": "image32.png",
-      "path": null,
-      "bytes": 180599
-    },
-    {
-      "name": "image33.png",
-      "path": null,
-      "bytes": 163005
-    },
-    {
-      "name": "image34.png",
-      "path": null,
-      "bytes": 379375
-    },
-    {
       "name": "image35.png",
-      "path": null,
-      "bytes": 246390
-    },
-    {
-      "name": "image36.png",
-      "path": null,
-      "bytes": 146216
-    },
-    {
-      "name": "image37.png",
       "path": null,
       "bytes": 391092
     },
     {
-      "name": "image38.png",
+      "name": "image36.png",
       "path": null,
       "bytes": 325390
     },
     {
-      "name": "image39.png",
+      "name": "image37.png",
       "path": null,
       "bytes": 166589
     },
     {
-      "name": "image40.png",
+      "name": "image38.png",
       "path": null,
       "bytes": 72501
     },
     {
-      "name": "image18.jpg",
-      "path": null,
-      "bytes": 55028
-    },
-    {
-      "name": "image42.jpg",
+      "name": "image40.jpg",
       "path": null,
       "bytes": 106291
     },
     {
-      "name": "image43.jpg",
+      "name": "image41.jpg",
       "path": null,
       "bytes": 71424
     },
     {
-      "name": "image20.jpg",
+      "name": "image42.png",
       "path": null,
-      "bytes": 138182
+      "bytes": 29054
     },
     {
-      "name": "image41.jpg",
+      "name": "image2.jpg",
+      "path": null,
+      "bytes": 61565
+    },
+    {
+      "name": "image39.jpg",
       "path": null,
       "bytes": 190503
     },
     {
-      "name": "image17.png",
+      "name": "image1.jpg",
+      "path": null,
+      "bytes": 60919
+    },
+    {
+      "name": "image3.jpg",
+      "path": null,
+      "bytes": 49129
+    },
+    {
+      "name": "image4.png",
+      "path": null,
+      "bytes": 34680
+    },
+    {
+      "name": "image5.png",
+      "path": null,
+      "bytes": 12270
+    },
+    {
+      "name": "image6.png",
+      "path": null,
+      "bytes": 73262
+    },
+    {
+      "name": "image7.png",
+      "path": null,
+      "bytes": 240282
+    },
+    {
+      "name": "image8.jpg",
+      "path": null,
+      "bytes": 55696
+    },
+    {
+      "name": "image9.jpg",
+      "path": null,
+      "bytes": 47358
+    },
+    {
+      "name": "image10.jpg",
+      "path": null,
+      "bytes": 42072
+    },
+    {
+      "name": "image11.jpg",
+      "path": null,
+      "bytes": 104042
+    },
+    {
+      "name": "image12.jpg",
+      "path": null,
+      "bytes": 57552
+    },
+    {
+      "name": "image13.jpg",
+      "path": null,
+      "bytes": 41387
+    },
+    {
+      "name": "image14.jpg",
+      "path": null,
+      "bytes": 66316
+    },
+    {
+      "name": "image15.png",
       "path": null,
       "bytes": 159680
     },
     {
-      "name": "image19.jpg",
+      "name": "image16.jpg",
+      "path": null,
+      "bytes": 55028
+    },
+    {
+      "name": "image17.jpg",
       "path": null,
       "bytes": 61230
     },
     {
-      "name": "image21.jpg",
+      "name": "image18.jpg",
+      "path": null,
+      "bytes": 138182
+    },
+    {
+      "name": "image19.jpg",
       "path": null,
       "bytes": 109504
     },
     {
-      "name": "image22.png",
+      "name": "image20.png",
       "path": null,
       "bytes": 124452
     },
     {
-      "name": "image23.png",
+      "name": "image21.png",
       "path": null,
       "bytes": 77411
+    },
+    {
+      "name": "image22.jpg",
+      "path": null,
+      "bytes": 176395
+    },
+    {
+      "name": "image23.jpg",
+      "path": null,
+      "bytes": 153144
+    },
+    {
+      "name": "image24.jpg",
+      "path": null,
+      "bytes": 84724
+    },
+    {
+      "name": "image25.jpg",
+      "path": null,
+      "bytes": 55083
+    },
+    {
+      "name": "image26.jpg",
+      "path": null,
+      "bytes": 34587
+    },
+    {
+      "name": "image27.jpg",
+      "path": null,
+      "bytes": 109896
+    },
+    {
+      "name": "image28.png",
+      "path": null,
+      "bytes": 603384
+    },
+    {
+      "name": "image29.jpg",
+      "path": null,
+      "bytes": 255473
+    },
+    {
+      "name": "image30.png",
+      "path": null,
+      "bytes": 180599
+    },
+    {
+      "name": "image31.png",
+      "path": null,
+      "bytes": 163005
+    },
+    {
+      "name": "image32.png",
+      "path": null,
+      "bytes": 379375
+    },
+    {
+      "name": "image33.png",
+      "path": null,
+      "bytes": 246390
+    },
+    {
+      "name": "image34.png",
+      "path": null,
+      "bytes": 146216
     }
   ],
   "styles": [

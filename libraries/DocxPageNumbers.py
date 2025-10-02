@@ -1,54 +1,61 @@
 import os
 import re
 import zipfile
-from docx import Document
+try:
+    from docx import Document
+except Exception:  # tolerate missing python-docx at spec time
+    Document = None
 from robot.api import logger
 from robot.api.deco import keyword
 
 @keyword("Has Page Numbers")
 def has_page_numbers(docx_path):
+    """
+    Visszatérés: üres string, ha van oldalszámozás; különben "Nincs oldalszám!".
+    """
     logger.debug(f"[DocxPageNumbers] Ellenőrzés indul: {docx_path}")
 
     if not docx_path or not os.path.exists(docx_path):
         logger.warn(f"[DocxPageNumbers] Fájl nem található: {docx_path}")
-        return False
+        return "Nincs oldalszám!"
 
-    try:
-        doc = Document(docx_path)
+    if Document is not None:
+        try:
+            doc = Document(docx_path)
 
-        # Ellenőrzés a fejlécben és láblécben
-        for idx, section in enumerate(doc.sections):
-            # Fejlécek
-            for name, header in (
-                ("header", section.header),
-                ("first_page_header", section.first_page_header),
-                ("even_page_header", section.even_page_header),
-            ):
-                if _contains_page_field(header):
-                    logger.debug(f"[DocxPageNumbers] Találat a {name} részben (section #{idx}).")
-                    return True
-            # Láblécek
-            for name, footer in (
-                ("footer", section.footer),
-                ("first_page_footer", section.first_page_footer),
-                ("even_page_footer", section.even_page_footer),
-            ):
-                if _contains_page_field(footer):
-                    logger.debug(f"[DocxPageNumbers] Találat a {name} részben (section #{idx}).")
-                    return True
-    except Exception as e:
-        logger.warn(f"[DocxPageNumbers] python-docx hiba: {e}. Átváltás ZIP-alapú ellenőrzésre...")
+            # Ellenőrzés a fejlécben és láblécben
+            for idx, section in enumerate(doc.sections):
+                # Fejlécek
+                for name, header in (
+                    ("header", section.header),
+                    ("first_page_header", section.first_page_header),
+                    ("even_page_header", section.even_page_header),
+                ):
+                    if _contains_page_field(header):
+                        logger.debug(f"[DocxPageNumbers] Találat a {name} részben (section #{idx}).")
+                        return ""
+                # Láblécek
+                for name, footer in (
+                    ("footer", section.footer),
+                    ("first_page_footer", section.first_page_footer),
+                    ("even_page_footer", section.even_page_footer),
+                ):
+                    if _contains_page_field(footer):
+                        logger.debug(f"[DocxPageNumbers] Találat a {name} részben (section #{idx}).")
+                        return ""
+        except Exception as e:
+            logger.warn(f"[DocxPageNumbers] python-docx hiba: {e}. Átváltás ZIP-alapú ellenőrzésre...")
 
     # Fallback: ZIP/XML alapú ellenőrzés
     try:
         if _has_page_numbers_by_zip(docx_path):
             logger.debug("[DocxPageNumbers] Találat ZIP/XML ellenőrzéssel.")
-            return True
+            return ""
     except Exception as e:
         logger.warn(f"[DocxPageNumbers] ZIP ellenőrzés hiba: {e}")
 
     logger.debug("[DocxPageNumbers] Oldalszámozás nem található.")
-    return False
+    return "Nincs oldalszám!"
 
 def _contains_page_field(container):
     """Segédfüggvény: PAGE/NUMPAGES mező keresése az XML-ben"""
