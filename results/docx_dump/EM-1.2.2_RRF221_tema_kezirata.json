@@ -1,26 +1,26 @@
 {
   "core_properties": {
     "creator": "Lefler Péter",
-    "lastModifiedBy": "Lovász Ottó",
-    "revision": "24",
+    "lastModifiedBy": "Pálvölgyi Rita (ELMS)",
+    "revision": "23",
     "created": "2023-06-19T07:53:00Z",
-    "modified": "2025-10-02T04:50:00Z"
+    "modified": "2024-08-05T12:25:00Z"
   },
   "app_properties": {
     "Template": "Normal.dotm",
-    "TotalTime": "217",
-    "Pages": "53",
-    "Words": "7416",
-    "Characters": "51177",
+    "TotalTime": "216",
+    "Pages": "51",
+    "Words": "7423",
+    "Characters": "51223",
     "Application": "Microsoft Office Word",
     "DocSecurity": "0",
     "Lines": "426",
-    "Paragraphs": "116",
+    "Paragraphs": "117",
     "ScaleCrop": "false",
     "lpstr": "Cím",
     "i4": "1",
     "LinksUpToDate": "false",
-    "CharactersWithSpaces": "58477",
+    "CharactersWithSpaces": "58529",
     "SharedDoc": "false",
     "HyperlinksChanged": "false",
     "AppVersion": "16.0000"
@@ -416,8 +416,23 @@
     [
       "Forrás",
       ": ",
-      "Az eredeti könyv címe: Technologie des Weines, 1. Auflage 2015, Der Verlag Eugen Ulmer KG, ",
-      "\nISBN 978-3-8001-7959-6, Az eredeti könyv szerzői: Jochen Hamatschek",
+      "Az eredeti könyv címe: ",
+      "Technologie",
+      " des ",
+      "Weines",
+      ", 1. ",
+      "Auflage",
+      " 2015, Der ",
+      "Verlag",
+      " ",
+      "Eugen",
+      " ",
+      "Ulmer",
+      " KG, ",
+      "\nISBN 978-3-8001-7959-6, Az eredeti könyv szerzői: ",
+      "Jochen",
+      " ",
+      "Hamatschek",
       "."
     ],
     [],
@@ -551,7 +566,8 @@
       "mustnál,"
     ],
     [
-      "bogyózás,"
+      "bogyózás",
+      ","
     ],
     [
       "zúzás,"
@@ -586,7 +602,8 @@
       " ",
       "(hideg",
       " ",
-      "héjonáztatás),"
+      "héjonáztatás",
+      "),"
     ],
     [
       "a",
@@ -894,7 +911,8 @@
       " ",
       "a",
       " ",
-      "szedimentmennyiség,",
+      "szedimentmennyiség",
+      ",",
       " ",
       "illetve",
       " ",
@@ -1687,7 +1705,9 @@
     [
       "Forrás:",
       " ",
-      "https://www.milwaukeeinst.hu/img/24569/MA882/585x585,r/MA882.jpg?time=16728",
+      "https://www.milwaukeeinst.hu/img/24569/MA882/585x585",
+      ",r",
+      "/MA882.jpg?time=16728",
       " ",
       "(2024.06.25",
       ".)"
@@ -1878,7 +1898,8 @@
       " ",
       "szerint",
       " ",
-      "bogyózzák,",
+      "bogyózzák",
+      ",",
       " ",
       "válogatják,",
       " ",
@@ -1935,7 +1956,8 @@
       " ",
       "szükség",
       " ",
-      "bogyózásra,",
+      "bogyózásra",
+      ",",
       " ",
       "hiszen",
       " ",
@@ -2075,7 +2097,8 @@
       " ",
       "a",
       " ",
-      "bogyózógépet,",
+      "bogyózógépet",
+      ",",
       " ",
       "nincs",
       " ",
@@ -2951,7 +2974,8 @@
       " ",
       "a",
       " ",
-      "bogyózógépbe.",
+      "bogyózógépbe",
+      ".",
       " ",
       "Kíméletes",
       " ",
@@ -3129,7 +3153,8 @@
       " ",
       "csigás",
       " ",
-      "léelválasztóban,",
+      "léelválasztóban",
+      ",",
       " ",
       "és",
       " ",
@@ -3458,7 +3483,8 @@
       " ",
       "a",
       " ",
-      "léelválasztást,",
+      "léelválasztást",
+      ",",
       " ",
       "illetve",
       " ",
@@ -3621,7 +3647,8 @@
       " ",
       "must",
       " ",
-      "szediment-",
+      "szediment",
+      "-",
       " ",
       "és",
       " ",
@@ -4038,7 +4065,8 @@
       " ",
       "a",
       " ",
-      "préselhetőség.",
+      "préselhetőség",
+      ".",
       " ",
       "A",
       " ",
@@ -4138,7 +4166,8 @@
       " ",
       "a",
       " ",
-      "léveszteség.",
+      "léveszteség",
+      ".",
       " ",
       "A",
       " ",
@@ -5026,7 +5055,8 @@
       " ",
       "kevés",
       " ",
-      "szedimenttartalommal,",
+      "szedimenttartalommal",
+      ",",
       " ",
       "nagy",
       " ",
@@ -5683,7 +5713,8 @@
       " ",
       "levő",
       " ",
-      "lécsatornákkal;",
+      "lécsatornákkal",
+      ";",
       " ",
       "C:",
       " ",
@@ -5695,7 +5726,8 @@
       " ",
       "elhelyezkedő",
       " ",
-      "lécsatornákkal;",
+      "lécsatornákkal",
+      ";",
       " ",
       "D:",
       " ",
@@ -5862,7 +5894,8 @@
       " ",
       "(többnyire",
       " ",
-      "max.",
+      "max",
+      ".",
       " ",
       "2",
       " ",
@@ -6256,7 +6289,8 @@
       " ",
       "elhelyezett",
       " ",
-      "főorsó,",
+      "főorsó",
+      ",",
       " ",
       "a",
       " ",
@@ -6354,7 +6388,9 @@
       " ",
       "kivitelnél)",
       " ",
-      "elmozdul(nak),",
+      "elmozdul(",
+      "nak",
+      "),",
       " ",
       "csökkentve",
       " ",
@@ -7634,7 +7670,8 @@
       "mustnál,"
     ],
     [
-      "bogyózás,"
+      "bogyózás",
+      ","
     ],
     [
       "zúzás,"
@@ -7690,7 +7727,8 @@
       " ",
       "fehérbor",
       " ",
-      "(blanc",
+      "(",
+      "blanc",
       " ",
       "de",
       " ",
@@ -7745,7 +7783,8 @@
       "kioldására",
       " ",
       "(",
-      "extrakciójára)",
+      "extrakciójára",
+      ")",
       " ",
       "törekszenek,",
       " ",
@@ -8252,7 +8291,8 @@
       " ",
       "polifenol-oxidáz",
       " ",
-      "(lakkáz",
+      "(",
+      "lakkáz",
       " ",
       "enzim)",
       " ",
@@ -8362,7 +8402,8 @@
       " ",
       "hosszabb",
       " ",
-      "hőntartással)"
+      "hőntartással",
+      ")"
     ],
     [
       "A",
@@ -8495,7 +8536,8 @@
       " ",
       "az",
       " ",
-      "extraktanyagokat.",
+      "extraktanyagokat",
+      ".",
       " ",
       "Ekkor",
       " ",
@@ -8914,7 +8956,8 @@
       " ",
       "87",
       " ",
-      "°C-on",
+      "°C-",
+      "on",
       " ",
       "tartják,",
       " ",
@@ -9121,11 +9164,13 @@
       " ",
       "keresztül",
       " ",
-      "max.",
+      "max",
+      ".",
       " ",
       "87",
       " ",
-      "°C-os",
+      "°C-",
+      "os",
       " ",
       "hőmérsékleten",
       " ",
@@ -9294,7 +9339,8 @@
       " ",
       "a",
       " ",
-      "polifenol-oxidázok.",
+      "polifenol-oxidázok",
+      ".",
       " ",
       "A",
       " ",
@@ -9306,7 +9352,8 @@
       " ",
       "energiafogyasztás",
       " ",
-      "50%-kal",
+      "50%-",
+      "kal",
       " ",
       "csökken,",
       " ",
@@ -9497,7 +9544,8 @@
       " ",
       "a",
       " ",
-      "10%-os",
+      "10%-",
+      "os",
       " ",
       "(egyes",
       " ",
@@ -9509,7 +9557,9 @@
       " ",
       "a",
       " ",
-      "30%-os)",
+      "30%-",
+      "os",
+      ")",
       " ",
       "rothadás",
       " ",
@@ -10068,7 +10118,9 @@
       " ",
       "kád",
       " ",
-      "(káci).",
+      "(",
+      "káci",
+      ").",
       " ",
       "Az",
       " ",
@@ -10097,7 +10149,8 @@
     [
       "Forrás:",
       " ",
-      "Mercz Árpád",
+      "Mercz",
+      " Árpád",
       ": A must és a bor egyszerű kezelése.",
       " Budapest, 1999,",
       " Mezőgazda Kiadó.",
@@ -10592,7 +10645,8 @@
       " ",
       "A",
       " ",
-      "fenol-extrakció",
+      "fenol-",
+      "extrakció",
       " ",
       "fokozható",
       " ",
@@ -11776,7 +11830,8 @@
       " ",
       "fermentorok",
       " ",
-      "(roto",
+      "(",
+      "roto",
       " ",
       "tartályok,",
       " ",
@@ -11885,7 +11940,8 @@
       " ",
       "fermentor",
       " ",
-      "(roto",
+      "(",
+      "roto",
       " ",
       "tartály)"
     ],
@@ -12374,7 +12430,8 @@
       " ",
       "80",
       " ",
-      "°Oe",
+      "°",
+      "Oe",
       " ",
       "cukortartalmú",
       " ",
@@ -12671,7 +12728,8 @@
       " ",
       "a",
       " ",
-      "szűrhetőséget.",
+      "szűrhetőséget",
+      ".",
       " ",
       "Az",
       " ",
@@ -12810,9 +12868,11 @@
       " ",
       "erjesztés",
       " ",
-      "Bypass-eljárással",
+      "Bypass",
+      "-eljárással",
       " ",
-      "(Ganimede",
+      "(",
+      "Ganimede",
       " ",
       "rendszer",
       " ",
@@ -12958,7 +13018,8 @@
       " ",
       "szelep",
       " ",
-      "(bypass",
+      "(",
+      "bypass",
       " ",
       "szelep)",
       " ",
@@ -13180,7 +13241,8 @@
     [
       "A",
       " ",
-      "Ganimede-eljárás",
+      "Ganimede",
+      "-eljárás",
       " ",
       "fázisai"
     ],
@@ -13255,7 +13317,8 @@
       "Szaktudás Kiadó Ház"
     ],
     [
-      "Mercz Árpád (1999): A must és a bor egyszerű kezelése. ",
+      "Mercz",
+      " Árpád (1999): A must és a bor egyszerű kezelése. ",
       "Budapest, ",
       "Mezőgazda Kiadó."
     ]
@@ -13263,11 +13326,11 @@
   "tables": [
     [
       [
-        "KézirXXatíró:",
+        "Kéziratíró:",
         "Lefler Péter"
       ],
       [
-        "SzakmXXai lektor:",
+        "Szakmai lektor:",
         "Mátyus Imre"
       ],
       [
@@ -13275,31 +13338,31 @@
         ""
       ],
       [
-        "ÁgazXXat:",
+        "Ágazat:",
         "Élelmiszeripar"
       ],
       [
-        "SzakXXma:",
+        "Szakma:",
         "Bor- és pezsgőgyártó technikus"
       ],
       [
-        "SzakmaXXirány:",
+        "Szakmairány:",
         "-"
       ],
       [
-        "TanulXXási terület:",
+        "Tanulási terület:",
         "Szőlészeti és borászati ismeretek"
       ],
       [
-        "TantXXárgy:",
+        "Tantárgy:",
         "Borászati szakmai gépek"
       ],
       [
-        "ÉvfolXXyam:",
+        "Évfolyam:",
         "11, 12, 13. évfolyam"
       ],
       [
-        "ÓraszXXám:",
+        "Óraszám:",
         "10 óra"
       ]
     ]
@@ -13322,174 +13385,14 @@
   ],
   "images": [
     {
-      "name": "image38.png",
-      "path": null,
-      "bytes": 67288
-    },
-    {
-      "name": "image39.jpg",
-      "path": null,
-      "bytes": 133798
-    },
-    {
-      "name": "image40.jpg",
-      "path": null,
-      "bytes": 88106
-    },
-    {
-      "name": "image41.png",
-      "path": null,
-      "bytes": 16803
-    },
-    {
-      "name": "image21.jpg",
-      "path": null,
-      "bytes": 35580
-    },
-    {
-      "name": "image42.png",
-      "path": null,
-      "bytes": 51976
-    },
-    {
-      "name": "image2.png",
-      "path": null,
-      "bytes": 29054
-    },
-    {
-      "name": "image3.jpg",
-      "path": null,
-      "bytes": 57791
-    },
-    {
-      "name": "image4.jpg",
-      "path": null,
-      "bytes": 32302
-    },
-    {
-      "name": "image5.jpg",
-      "path": null,
-      "bytes": 247769
-    },
-    {
-      "name": "image6.jpg",
-      "path": null,
-      "bytes": 68589
-    },
-    {
-      "name": "image7.jpg",
-      "path": null,
-      "bytes": 86903
-    },
-    {
-      "name": "image8.jpg",
-      "path": null,
-      "bytes": 98726
-    },
-    {
-      "name": "image9.jpg",
-      "path": null,
-      "bytes": 74420
-    },
-    {
-      "name": "image10.jpg",
-      "path": null,
-      "bytes": 18966
-    },
-    {
-      "name": "image11.jpg",
-      "path": null,
-      "bytes": 135119
-    },
-    {
-      "name": "image12.png",
-      "path": null,
-      "bytes": 81739
-    },
-    {
-      "name": "image13.png",
-      "path": null,
-      "bytes": 51694
-    },
-    {
-      "name": "image14.jpg",
-      "path": null,
-      "bytes": 45757
-    },
-    {
-      "name": "image15.png",
-      "path": null,
-      "bytes": 68070
-    },
-    {
-      "name": "image16.png",
-      "path": null,
-      "bytes": 393397
-    },
-    {
-      "name": "image17.png",
-      "path": null,
-      "bytes": 33546
-    },
-    {
-      "name": "image18.png",
-      "path": null,
-      "bytes": 91082
-    },
-    {
-      "name": "image19.jpg",
-      "path": null,
-      "bytes": 30972
-    },
-    {
-      "name": "image20.jpg",
-      "path": null,
-      "bytes": 65644
-    },
-    {
-      "name": "image1.png",
-      "path": null,
-      "bytes": 56449
-    },
-    {
-      "name": "image22.jpg",
-      "path": null,
-      "bytes": 45907
-    },
-    {
       "name": "image23.jpg",
       "path": null,
       "bytes": 106862
     },
     {
-      "name": "image24.png",
-      "path": null,
-      "bytes": 73156
-    },
-    {
-      "name": "image25.jpg",
-      "path": null,
-      "bytes": 41276
-    },
-    {
-      "name": "image26.png",
-      "path": null,
-      "bytes": 134557
-    },
-    {
-      "name": "image27.jpg",
-      "path": null,
-      "bytes": 39514
-    },
-    {
       "name": "image28.png",
       "path": null,
       "bytes": 16291
-    },
-    {
-      "name": "image29.png",
-      "path": null,
-      "bytes": 164875
     },
     {
       "name": "image30.png",
@@ -13502,14 +13405,39 @@
       "bytes": 17972
     },
     {
+      "name": "image29.png",
+      "path": null,
+      "bytes": 164875
+    },
+    {
+      "name": "image27.jpg",
+      "path": null,
+      "bytes": 39514
+    },
+    {
+      "name": "image25.jpg",
+      "path": null,
+      "bytes": 41276
+    },
+    {
+      "name": "image24.png",
+      "path": null,
+      "bytes": 73156
+    },
+    {
       "name": "image32.png",
       "path": null,
       "bytes": 17918
     },
     {
-      "name": "image33.jpg",
+      "name": "image26.png",
       "path": null,
-      "bytes": 67785
+      "bytes": 134557
+    },
+    {
+      "name": "image37.png",
+      "path": null,
+      "bytes": 60856
     },
     {
       "name": "image34.png",
@@ -13517,9 +13445,34 @@
       "bytes": 233723
     },
     {
-      "name": "image35.png",
+      "name": "image42.png",
       "path": null,
-      "bytes": 20351
+      "bytes": 51976
+    },
+    {
+      "name": "image41.png",
+      "path": null,
+      "bytes": 16803
+    },
+    {
+      "name": "image40.jpg",
+      "path": null,
+      "bytes": 88106
+    },
+    {
+      "name": "image39.jpg",
+      "path": null,
+      "bytes": 133798
+    },
+    {
+      "name": "image38.png",
+      "path": null,
+      "bytes": 67288
+    },
+    {
+      "name": "image22.jpg",
+      "path": null,
+      "bytes": 45907
     },
     {
       "name": "image36.png",
@@ -13527,9 +13480,119 @@
       "bytes": 117814
     },
     {
-      "name": "image37.png",
+      "name": "image35.png",
       "path": null,
-      "bytes": 60856
+      "bytes": 20351
+    },
+    {
+      "name": "image33.jpg",
+      "path": null,
+      "bytes": 67785
+    },
+    {
+      "name": "image19.jpg",
+      "path": null,
+      "bytes": 30972
+    },
+    {
+      "name": "image20.jpg",
+      "path": null,
+      "bytes": 65644
+    },
+    {
+      "name": "image8.jpg",
+      "path": null,
+      "bytes": 98726
+    },
+    {
+      "name": "image7.jpg",
+      "path": null,
+      "bytes": 86903
+    },
+    {
+      "name": "image6.jpg",
+      "path": null,
+      "bytes": 68589
+    },
+    {
+      "name": "image5.jpg",
+      "path": null,
+      "bytes": 247769
+    },
+    {
+      "name": "image4.jpg",
+      "path": null,
+      "bytes": 32302
+    },
+    {
+      "name": "image3.jpg",
+      "path": null,
+      "bytes": 57791
+    },
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image21.jpg",
+      "path": null,
+      "bytes": 35580
+    },
+    {
+      "name": "image9.jpg",
+      "path": null,
+      "bytes": 74420
+    },
+    {
+      "name": "image11.jpg",
+      "path": null,
+      "bytes": 135119
+    },
+    {
+      "name": "image18.png",
+      "path": null,
+      "bytes": 91082
+    },
+    {
+      "name": "image10.jpg",
+      "path": null,
+      "bytes": 18966
+    },
+    {
+      "name": "image16.png",
+      "path": null,
+      "bytes": 393397
+    },
+    {
+      "name": "image17.png",
+      "path": null,
+      "bytes": 33546
+    },
+    {
+      "name": "image14.jpg",
+      "path": null,
+      "bytes": 45757
+    },
+    {
+      "name": "image12.png",
+      "path": null,
+      "bytes": 81739
+    },
+    {
+      "name": "image15.png",
+      "path": null,
+      "bytes": 68070
+    },
+    {
+      "name": "image13.png",
+      "path": null,
+      "bytes": 51694
     }
   ],
   "styles": [

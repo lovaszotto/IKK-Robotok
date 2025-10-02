@@ -1,0 +1,3157 @@
+{
+  "core_properties": {
+    "title": "1.\t Halmazok, halmazműveletek",
+    "subject": "Matematika érettségifelkészítő",
+    "creator": "Dell",
+    "lastModifiedBy": "Soós Gabriella Brigitta (ELMS)",
+    "revision": "2",
+    "lastPrinted": "2024-04-29T13:42:00Z",
+    "created": "2024-09-25T14:36:00Z",
+    "modified": "2024-09-25T14:36:00Z"
+  },
+  "app_properties": {
+    "Template": "SABLON_kéziratalap_v1.0_HATALYOS (2)",
+    "TotalTime": "1",
+    "Pages": "48",
+    "Words": "10969",
+    "Characters": "75415",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "628",
+    "Paragraphs": "172",
+    "ScaleCrop": "false",
+    "lpstr": "1.\t Halmazok, halmazműveletek",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "86212",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.16.2  ",
+    "A háztartások gazdálkodása",
+    "Témák kézirata",
+    " ",
+    "",
+    "",
+    "",
+    "\t",
+    "",
+    "Tartalomjegyzék",
+    "1\tBevezetés\t3",
+    "2\tA család fogalma és funkciói\t4",
+    "2.1\tA család fogalma\t4",
+    "2.2\tCsaládmodellek\t5",
+    "2.3\tA család funkciói\t5",
+    "2.4\tA család és a háztartás\t7",
+    "3\tMunkamegosztás a háztartásokban\t7",
+    "3.1\tGazdálkodás a háztartásban, a háztartás erőforrásai\t7",
+    "3.2\tAz erőforrások kihasználása, a munkamegosztás\t9",
+    "4\tIdőgazdálkodás\t10",
+    "4.1\tSzemélyiségtípusok az időgazdálkodás szempontjából\t10",
+    "4.2\tAz időgazdálkodás menete\t11",
+    "4.3\tHatékony időgazdálkodás módszerei\t13",
+    "5\tA háztartások bevételei és kiadásai\t14",
+    "6\tA háztartások bevételei\t14",
+    "6.1\tMunkavégzéshez kapcsolódó jövedelmek\t14",
+    "6.1.1\tA vagyon hasznosításából származó jövedelmek\t17",
+    "6.1.2\tTársadalmi jövedelmek, juttatások\t18",
+    "6.1.3\tEgyéb bevételek\t20",
+    "6.2\tHáztartások kiadásai\t21",
+    "6.2.1\tTervezhető kiadások\t21",
+    "6.2.2\tVáratlan kiadások\t23",
+    "7\tA háztartások költségvetése\t24",
+    "7.1\tHáztartási napló, avagy miért kell költségvetést készíteni\t25",
+    "7.2\tA költségvetés egyenlege\t26",
+    "7.3\tA háztartási költségvetés nyilvántartási módja\t27",
+    "8\tA háztartások pénzgazdálkodása. a megtakarítások és hitelek szerepe\t32",
+    "8.1\tA háztartások pénzgazdálkodása\t33",
+    "8.1.1\tBankszámla vagy a pénztárcánk?\t33",
+    "8.1.2\tA bankszámlanyitás feltételei, bankszámlák típusai\t34",
+    "8.1.3\tNagy értékű beszerzések\t34",
+    "8.2\tMegtakarítások, befektetések\t35",
+    "8.2.1\tMegtakarítások\t35",
+    "8.2.2\tBefektetések\t36",
+    "8.3\tHitelek szerepe\t37",
+    "8.3.1\tHitelek típusai\t38",
+    "8.3.2\tA hitelfelvétel feltételei, kockázatok enyhítése\t39",
+    "8.3.3\tAdósságkezelés\t41",
+    "9\tA háztartások vagyona\t43",
+    "10\tÖsszefoglaló\t43",
+    "Ábrajegyzék\t46",
+    "Táblázatjegyzék\t47",
+    "Irodalomjegyzék\t48",
+    "",
+    "Bevezetés",
+    "A Jónás család a városban él egy társasház harmadik emeletén. Anya a közeli gyárban dolgozik, de jelenleg a család legifjabb tagjával, a négy hónapos Jankával otthon babázik. Apa egyéni vállalkozó, villanyszerelő. Sok a megrendelése, gyakran szombaton is dolgoznia kell. Jeromos, a nagyobb gyermek középiskolába jár, a közeli gimnáziumban tanul. Anya munkavégző képessége a házi munkákra korlátozódik, hiszen a babát gondozza. Jövedelmét tekintve családtámogatási ellátásban részesül, mely valószínűleg kevesebb, mint a szülés előtt megszokott munkabére. Apa vállalkozóként a megrendelései alapján szerez jövedelmet. Ideje kevés a családjára, hiszen annak nagy részét a munkájának elvégzése foglalja le. Jeromos munkavégző képessége korlátozott még szakmai tapasztalatának, végzettségének hiányában. Idejét a tanulás tölti ki nagyrészt. Ő anyának tud segíteni a háztartási munka elvégzésében. A család vagyona a lakás, amelyben élnek, egy kocsi, amelyet sokszor apa használ a munkájának végzése során. Van némi megtakarított pénzük, amelyet arra az esetre tettek félre, ha valami váratlan esemény történne.",
+    "A Szabó család a városhoz közeli községben él. A nagyszülők, szülők és két gyermek alkotják a háztartást.",
+    "A nagyszülők mindketten nyugdíjasok. Rendszeres jövedelmük a nyugdíj. Az udvar hátsó részében kialakított kiskertben megtermelik a család számára szükséges zöldség-gyümölcs nagy részét. Ezt már a piacon nem kell megvásárolni. Anya könyvelőirodában dolgozik munkavállalóként. Rendszeres jövedelme a munkabére. Apa a közelmúltban veszítette el munkahelyét, így jelenleg álláskereső. Az államtól néhány hónapig kap juttatást arra az időre, amíg új munkahelyet talál magának. A gyermekek iskolába járnak. Petike általános iskolás, Éva pedig egyetemista. Ő a városban csoporttársaival közösen bérel egy kisebb lakást. Éva gyakorlatilag már csak részben tagja a Szabó család háztartásának, hiszen csak hétvégenként látogat haza. Éva ösztöndíjat kap az egyetemtől kiváló tanulmányi eredménye miatt, így neki is van már rendszeres jövedelme. A család vagyona a kertes ház, ahol élnek. Van kocsijuk és egy kicsi nyaralójuk a Balaton mellett. Ezt a nyaralót rendszeresen kiadják turistáknak, ebből is jövedelemhez jutnak. A takarításban, a nyaraló gondozásában a gyerekek is rendszeresen segítenek.",
+    "Mikor beszélünk családról, és mikor háztartásról? Hogyan osztják meg a feladatokat a családtagok egymás között? Milyen bevételeik és milyen kiadásaik vannak? Ezekre a kérdésekre találsz válaszokat ebben a fejezetben.",
+    "A család fogalma és funkciói",
+    "Vizsgáljuk meg a fenti két család esetében, hogy mit is jelent a család és a háztartás fogalma. Milyen szerepet töltenek be az egyes családtagok a háztartásban? ",
+    "A család fogalma",
+    "A család a társadalom legkisebb egysége, fontos része. Tagjai szoros rokoni kapcsolatban állnak egymással. A család tagjait leszármazotti, házassági vagy örökbefogadási kapcsolat köti össze. Egy olyan különleges csapat, amelynek tagjai szeretik, segítik és támogatják egymást. Mindig és minden körülmények közt számíthatnak egymásra.",
+    "Kik a család tagjai? A szűk családot a szülők és gyermekek alkotják. A tágabb értelemben vett család tagjai a felmenő (nagyszülők, dédszülők) és oldalági rokonok (nagynénik, nagybácsik, unokatestvérek).",
+    "A család tagjait a közös értékrend és a család fenntartásának igénye tartja össze. Fontos szerepe van a gyermekek nevelésében, társadalomba való beilleszkedésük kialakításában. A családi közegben alakul ki a gyermek személyisége, önmagához és a világhoz való viszonya. A család felelőssége a szokások, kultúra, illem, viselkedés, szabályok, társadalmi elvárások megismertetése és elsajátításának támogatása. Például megtanítjuk a kicsi gyermeket arra, hogy ha bemegyünk valahova, köszönni kell, az autóbuszon átadjuk a helyünket az időseknek, udvariasak vagyunk a hölgyekkel, nem beszélünk vissza a szüleinknek, nevelőinknek.",
+    "A család legfontosabb feladatai közé tartozik",
+    "a gyermekek vállalása, felnevelése",
+    "érzelmi biztonság nyújtása",
+    "hagyományok őrzése, kulturális értékek átadása",
+    "helyes viselkedési szabályok megtanítása",
+    "betegek, idősek, kisgyermekek ápolása, gondozása",
+    "Családmodellek",
+    "A hagyományos (nukleáris) családban két felnőtt neveli a gyermeket, gyermekeket, míg a csonka családban csak egy.",
+    "Nagycsaládról beszélünk, ha a nagyszülők is együtt élnek a szülőkkel, gyermekekkel, unokákkal. Három generáció él egy fedél alatt.",
+    "Sajátos családmodell az úgynevezett mozaik család. Erről akkor beszélünk, ha a szülő új partnerrel él együtt és a korábbi kapcsolatából származó gyermeket, gyermekeket közösen nevelik tovább. Gyakran közös gyermeket is vállalnak.",
+    "A család funkciói",
+    "Biológiai funkció a gyermekvállalás. A társadalom számára fontos a népesség számának megtartása, sőt emelkedése, vagyis a három- és több gyermekes családok számának a növekedése. Ennek elősegítésére az állam gazdaságpolitikája anyagi támogatások, adókedvezmények érvényesítésének a lehetőségén keresztül nagyban hozzájárul a gyermekvállalással együtt járó anyagi terhek csökkentéséhez.",
+    "Egy jól működő család tagjai szoros érzelmi szálakkal kötődnek egymáshoz, ami stabil, kölcsönös, mentális biztonságot, érzelmi kapcsolatot jelent. ",
+    "A gyermek a családban tanulja meg az együttélés szabályait, magatartási szabályokat, elvárásokat, szokásokat és hagyományokat, amelyek szerint a későbbiek során élni fog. Például a Jónás családban Janka az évek során megtanulhatja majd, hogy a játékait a tesójával meg kell osztania, hogy játék után rendet kell rakni, hogy a koszos ruhák nem varázspálca segítségével kerülnek vissza a szekrénybe. A hagyományok is fontosak, mint például a karácsonyi asztalra kerülő halászlé, vagy a nagyi szülinapja a kedvenc éttermében, vasárnaponként templomba menni. A helyes szülői gondoskodás következtében a gyermek a társadalom hasznos és felelős tagjává válik. ",
+    "A család menedék, biztonságot nyújt. A családtagok közötti összetartozás, szerető támogatás, segítségnyújtás az egyik legfontosabb szerepe a családi közösségnek. Az egyén érzelmi egyensúlyának kialakítását és megtartását segíti. A családtagok törődnek egymással, felelősséggel tartoznak egymás iránt. Például a szülők feladata törődni gyermekeikkel, egészséges testi, lelki fejlődésüket segíteni. A gyermekek feladata az idős családtagok ápolása, gondozása.",
+    "A gyermekek a szüleiktől, nagyszüleiktől veszik át azokat az ismereteket, amelyekkel a család fenntartható. Gondolj itt arra például, hogy egy családi mesterség folytatása csak így lehetséges, de a nagymama pogácsa receptje is anyáról leányra száll. Szabóéknál a nagyszülők adják át tapasztalataikat a gyermekeknek, unokáknak.",
+    "Termelő funkció a család önellátására irányul. Sajnos ez a funkció az idők folyamán beszűkült, hiszen a fogyasztási cikkeket, élelmiszereket már nagyüzemi termeléssel állítják elő. De ahol még működnek a családi gazdaságok, az együtt-gazdálkodás, ott a sikerük kulcsa a közös felelősségvállaláson alapul. Szabóéknál például a nagyszülők zöldséget, gyümölcsöt termelnek, amely alapanyagokat a sütésnél, főzésnél felhasználják. Ezeket már nem kell megvásárolni. A nők a családi tűzhely mellől ma már munkát vállalnak, dolgoznak. Emiatt az általuk korábban végzett szolgáltatásokat megvásároljuk, házhoz rendeljük. Például a vacsorát az ételfutár hozza, varrónőhöz visszük a leszakadt gombot felvarratni, mosodában mosatjuk a szennyes ruhát. Fogyasztói társadalomban élünk.",
+    "A család alakítja ki az idők folyamán a kulturális értékeket, hagyományokat, amelyeket generációkon át örökít. Ilyen értékek, hagyományok lehetnek például a családi ünnepek szokásai, a vallás gyakorlása, az olvasás, vagy a zene szeretete. ",
+    "A család saját költségvetés alapján gazdálkodik. Fő alkotóeleme a családtagok által megszerzett bevételek összessége. Ebből fedezik a családtagok szükségleteit. A gazdálkodás lényege, hogy a felmerülő szükségletek kielégítésekor helyes fontossági sorrendet állítson fel a család. ",
+    "Összegezzük tehát, hogy mit is tanultunk ebben a fejezetben a családról.",
+    "Jónáséknál tehát anya és apa neveli két gyermekét. Ők egy hagyományos családmodellben élnek.",
+    "A Szabó család nagycsalád, hiszen egy családot alkotnak a szülők, nagyszülők és unokák. ",
+    "Jónásék és Szabóék a körülményeiket figyelembe véve, egymásra támaszkodva nevelik a gyermekeket és gazdálkodnak.",
+    "A család és a háztartás",
+    "Mielőtt belevágnánk a témába, tegyünk különbséget a család és a háztartás fogalma között.",
+    "A családról megtudhattad, hogy a tagjai valamilyen rokoni kapcsolatban állnak egymással. A háztartás ezzel szemben az együtt élő emberek csoportja, akik általában közeli családtagok, barátok, akik közösen gazdálkodnak a jövedelmükkel. A család fogalma elsősorban az emberi kapcsolatokra és kötelékekre összpontosít. A háztartás fogalma viszont olyan együtt élő embereket jelent, akik közösen gazdálkodnak, vagyis megosztják az életüket, erőforrásaikat és a mindennapi tevékenységeket.",
+    "Egy háztartásban élő személyek nem feltétlenül tartoznak egy családhoz; lehetnek lakótársak, barátok, önállóan élő egyének is.",
+    "Általában a közeli családtagok, szülők, nagyszülők, gyermekek alkotnak egy háztartást, ha közösen egy házban, egy lakásban élnek együtt. Előfordulhat viszont például az is, hogy barátok közösen bérelnek lakást a tanulmányaik időtartamára, ebben az esetben ők is egy háztartást alkotnak.",
+    "Jónásék esetében a család megegyezik a háztartással. A Szabó család esetében más a helyzet. Ott a család két háztartást alkot, hiszen a nagyobbik gyermek, aki egyetemista, a barátaival bérelt lakásban él. Ő már külön háztartást alkot.",
+    "Munkamegosztás a háztartásokban",
+    "Gazdálkodás a háztartásban, a háztartás erőforrásai",
+    "A háztartás tagjai gazdasági közösséget is alkotnak. A család funkciói között megismerkedhettünk a család gazdasági funkciójával. Közösen kell a szükségleteiket kielégíteni és ehhez minden tagnak hozzá kell járulnia a saját erőforrásaival.",
+    "Nézzük, melyek ezek az erőforrások!",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "A háztartás erőforrásai ",
+    "Forrás: saját szerkesztés",
+    "A háztartás erőforrásai:",
+    "Munkavégző képességet alapvetően meghatározza a háztartásban élő személyek életkora, szaktudása, iskolai végzettsége, megszerzett tapasztalata. Más a munkavégző képessége a nagypapának, akinek az életkora, egészségi állapota, fizikai erejének korlátai nagyban befolyásolják képességeit, de az ő tapasztalata segítségére lehet a fiatalabb generációnak. A gyermekek is rendelkeznek munkavégző képeséggel, hiszen ők is részt tudnak venni a háztartási munkák elvégzésében. Gondolj például a mosogatásra, takarításra, rendrakásra.",
+    "A jövedelem megszerzése szorosan összefügg a munkavégző képességgel. A jövedelem származhat a munkaviszonyból megszerzett munkabérből, vállalkozói díjból, esetleg különböző társadalmi juttatásokból (nyugdíj, családtámogatási ellátások). Jövedelem szerezhető a vagyon hasznosításából is (bérleti díj, kamatjövedelem). A Jónás család jövedelme az apa vállalkozásából származó jövedelmére korlátozódik, valamint anya a baba érkezésével munkabére helyett gyermekgondozási díjban részesül. A Szabó család esetében az anya munkabére, a nagyszülők nyugdíja és apa álláskeresési támogatása adja a felhasználható jövedelmet.",
+    "Vagyon a család tulajdonában található ingatlan, ingóságok (pl. kocsi), befektetések, pénz, értékpapírok. Ezeknek a dolgoknak az értékesítésével, hasznosításával is szert lehet tenni jövedelemre, bevételre. Jónásék vagyona a lakásuk, amelyben élnek és egy kocsi, amelyet többnyire apa használ a vállalkozói tevékenysége során. Szabóéknak van kertes háza, kocsija és nyaralója, mely utóbbit kiadnak és így jövedelemre tesznek szert.",
+    "A negyedik vagyonelem az idő. Talán ez mind közül a legszűkösebb erőforrás. Az idő alatt érthető munkaidő, szabadidő. ",
+    "A példák alapján egyértelműen kiderül, hogy egy háztartás erőforrásait nagyban befolyásolja a családban élő családtagok száma, életkora, életkörülményei, valamint az is, hogy faluban vagy városban élnek-e. ",
+    "Az erőforrások kihasználása, a munkamegosztás",
+    "A háztartás akkor működik tökéletesen, ha ki tudják használni erőforrásaikat. Szükséges a munkamegosztás, hiszen a háztartás minden tagjának ki kell vennie a részét a feladatok elvégzésében. A szülők munkát végeznek, gyermeket nevelnek, a jövedelemszerzésről gondoskodnak. Emellett a háztartási munkákat is el kell végezniük. Ebben tudnak segíteni a gyermekek.",
+    "A háztartások erőforrásaikat a felmerülő szükségletek kielégítésére használják fel. A szükségletek megfogalmazása után az erőforrások felmérése következik. A család tagjai megvitatják a különböző lehetőségeket és döntenek a szükségletek prioritásáról. Megfogalmazzák és felosztják a feladatokat, megvalósítják azokat és értékelik a megvalósítást.",
+    "Ahhoz, hogy mindezeket ki tudjuk elégíteni, a háztartás minden tagjának a segítsége szükséges. Nélkülözhetetlen az erőforrásokkal való ésszerű gazdálkodás, a munkamegosztás. A szülők munkát végeznek, gyermeket nevelnek, a jövedelemszerzésről gondoskodnak. Emellett a háztartási munkákat is el kell végezniük. Ebben tudnak segíteni a gyermekek.",
+    "Az erőforrásokkal való gazdálkodás során szem előtt kell tartani, hogy a családtagok alapvető szükségleteiket ki tudják elégíteni. A gazdálkodási döntések során szem előtt kell tartani azok hosszútávú következményeit is, hiszen a háztartás működését biztosítani kell.",
+    "A háztartás a gazdaság egyik alanya, mert fogyaszt, munkaerőt biztosít és megtakarításai vannak.",
+    "Időgazdálkodás",
+    "A háztartások erőforrásai közül az egyik, talán legszűkösebben rendelkezésre álló, az idő. Saját életedben is tapasztalhatod, hogy folyton határidők közé vagy szorítva: pontos időpontra kell odaérni az iskolába, határidőre le kell adni egy dolgozatot, vagy házifeladatot, órarend szerint csengőszóra kezdődnek a tanórák, a barátokkal szervezett mozi is pontosan kezdődik.",
+    "Így van ez a háztartásban is. A szüleidnek is pontosan kell érkezniük a munkahelyükre, a kistesóért is oda kell érni az oviba legkésőbb fél ötig, vacsorát kell készíteni és a kedvenc sorozat is kezdődik kilenckor.",
+    "Ebben a fejezetben megtanulhatod, hogyan kell okosan, ügyesen szervezni az életedet, hogy ne kelljen folyton rohanni. Megismerkedhetsz különböző embertípusokkal, megtanulod mi a hatékony időgazdálkodás menete és milyen hatékony időmenedzsment típusok vannak.",
+    "Személyiségtípusok az időgazdálkodás szempontjából",
+    "Az időgazdálkodás kapcsán 6 különböző személyiségtípust különböztet meg a szakirodalom. Fontos megállapítani, hogy Te például melyik kategóriába tartozol, hogy ki tudd választani a leghatékonyabb módszert, hogy az időd legideálisabban tudd beosztani.",
+    "Tűzoltó típusú személy: folyamatosan keresi a megoldandó helyzeteket, az elhárítandó akadályokat. Válságban ezek az emberek kiváló teljesítmény elérésére képesek. Ha nincs krízishelyzet, akkor viszont küszködnek a helyes időbeosztással. Tipikus példája a határidőkre történő feladatok utolsó pillanatban való elvégzése. Az ilyen típusú személy számára a megoldás a feladatok sürgősség és fontosság alapján történő csoportosítása lehet. (Eisenhower-mátrix)",
+    "„Egyszerre több dologgal is képes vagyok foglalkozni” típusú személy: munkája rengeteg befejezetlen feladathoz és általában sok hibához vezet. Lehet, hogy látszólag több feladat is halad egyszerre, de a hatékonyság mégis csorbát szenved. Nagyon kevés ember képes hosszútávon egyszerre több dologgal hatékonyan foglalkozni. Okosabb megoldás lehet, ha a feladatokat fontossági sorrendben egymás után, határidők meghatározásával, egy-egy feladat lezárásával végzi el. ",
+    "A túlvállaló személy: aki képtelen nemet mondani. Nagyon segítőkész ember, aki mindig mások problémáit helyezi a sajátjai elé. Kevesebb ideje jut a saját feladatait megoldani, így folyamatosan időzavarba kerül. Fontos megtanulnia, hogy hogyan és mikor kell nemet mondani egy-egy segítségkérésre. ",
+    "Az alábecsülő személy: aki a feladatokhoz szükséges időt becsüli alá. A néhány perces megoldások helyett általában órák lesznek, így a következő megoldandó feladatokat már időzavarban kezdi el. Egy-egy feladat megoldására célszerű inkább túlbecsülni a szükséges időt, hiszen a feladatok megoldása közben váratlan helyzetek is közbe jöhetnek. ",
+    "A maximalista személy: teljesítményében mindig a legjobbat akarja nyújtani. Ezzel nincs is baj, csak az időzavart az okozza, hogy általában egy feladattal a szükségesnél sokkal többet szöszöl. Többször is visszatér egy-egy problémához és a megoldások helyett az alternatívákat latolgatja. Gátolhatja hatékonyságát, hogy túl magas elvárásokat támaszt saját magával szemben, fontos számára mások véleménye, a megfelelés kényszere. Ez gyakran mentális és fizikai kimerüléshez is vezet.",
+    "A halogató személy: aki mindig az utolsó pillanatban áll neki a feladatok megoldásának, és meg is van róla győződve, hogy ilyenkor tűzoltóvá válik. Ilyen esetben azonban nyomasztja, hogy a feladatok megoldásának még neki sem állt. Ebben az esetben talán célravezető lehet, ha feladatokat fontosságuk szerint sorba rendezed és kisebb részekben oldod meg azokat, közé ékelve a szórakoztatóbb, pihentetőbb dolgokat.",
+    "Az időgazdálkodás menete",
+    "A hatékony időgazdálkodási módszerek megismerése előtt vegyük át, melyek a helyes időbeosztás legfontosabb lépései.",
+    "Konkrét, elérhető célok kitűzése. Ez alapján tudod az idődet hatékonyan tervezni.  Legyenek a célok mérhetők, teljesíthetők és elérhetők. Például a kötelező olvasmány fejezeteit oldalszámok segítségével be tudod időben is tervezni: szombatig elolvasod az első 150 oldalt. Vagy a mozi előtt elmosogatsz és kiteregeted a ruhákat, mozi után pedig kivasalod a beszáradtakat. ",
+    "Fontossági sorrend felállítása. A célkitűzések után fontos a feladatokat fontosságuk szerint rendszerezni. Holnap felelünk töriből, de az angol szavakat csak holnaputánra kell megtanulni. ",
+    "Tevékenységek időkeretének megállapítása. Ha ismertek a feladatok, akkor meg kell tervezni (túl kell kicsit tervezni) a rájuk szánható idő mértékét. Például, ha tudod, hogy 1 oldalt kb. mennyi idő alatt olvasol el, akkor meg tudod tervezni a következő fejezet elolvasására szánható idő mennyiségét. Könnyebb tervezni azoknak a feladatoknak az időszükségletét, amelyeket rendszeresen szoktál végezni (pl levinni a szemetet, bevásárolni, felporszívózni, megetetni a cicát). Nehezebb azoknak a feladatoknak az időszükségletét megtippelni, amelyek csak ritkán fordulnak elő, vagy nem pontosan ismered a feladat jellemzőit.",
+    "Pihenés tervezése. Nagyon fontos, hogy a sok elvégzendő feladat között tervezésre kerüljön pihenőidő és szabadidő is. Növeli a hatékonyságot, ha a feladatok megoldásához kipihenten, feltöltődve fogsz hozzá. Ezzel csökkenthető a stressz és kiégés kockázata is. Időt kell szánni a kikapcsolódásra, a szabadidőre, találkozni a barátokkal, moziba, színházba, koncertre menni, egy jót bulizni. Ennek egyensúlyban kell állnia a kötelességekkel, hiszen az elvégzetlen feladatok, megoldatlan problémák a felhőtlen kikapcsolódást beárnyékolhatják.",
+    "Előre tervezés, akár több napra. Vannak olyan feladataid, amelyeket rendre, napról napra el kell végezned: ilyen például a reggeli rutin, az étkezések, a munkaidő vagy a suliban az órarend. Ezeket a feladatokat minden napra tudod tervezni. Ha a következő napra, vagy akár a következő hétre is vannak ismert feladataid, akkor azokkal is tudsz előre számolni. Feltaláltak ehhez egy igen hatékony módszert, úgy hívják, hogy naptár, vagy heti tervező. Elérhető akár digitális formában is egy applikáció formájában. A telefon kéznél van, így célszerű ennek segítségével tervezni, időben ütemezni a feladatokat. A tervezés segítségével le is tudsz zárni egy-egy időszakot a feladatok megoldásának tekintetében, így talán nyugodtabban foghatsz hozzá a pihenés időszakához, illetve felkészülten várhatod az elkövetkezendő időszakot.",
+    "Hatékony időgazdálkodás módszerei",
+    "Megismerted az időgazdálkodás szempontjából legfontosabb embertípusokat és az időgazdálkodás lépéseit. Nézzük, hogy milyen módszereket használhatsz a hatékonyság növelésének érdekében.",
+    "Az egyik legismertebb időgazdálkodási módszer az úgynevezett Eisenhower mátrix. Alapelve: ami fontos, az ritkán sürgős és ami sürgős, az ritkán fontos. A módszert Stephen R. Covery dolgozta ki és a nevét Eisenhower korábbi amerikai elnökről kapta. Ahhoz, hogy ne legyél tűzoltó típusú ember, fontos, hogy ne csak a feladataid listáját vedd számba, hanem állíts fel fontossági sorrendet is. A mátrix ezeket a feladatokat 4 kategóriába sorolja:",
+    "Az Eisenhower mátrix ",
+    "Forrás: https://pongorjuhaszattila.hu/wp-content/uploads/image-3-1280x790.png (2024.07.07.)",
+    "Fontos és sürgős: ezek a határidős munkák. Fontossági sorrendben ezek állnak az élen. Csináld meg, cselekedj azonnal! ",
+    "Fontos, de nem sürgős: ide tartoznak a hosszú távú döntéseket igénylő feladataid. Ha nem sürgős a feladat, akkor itt különösen fontos határidőt szabni az elvégzéséhez. Hajlamos az ember ezeket a feladatokat elodázni, de fontosságuk miatt foglalkoznunk kell vele.",
+    "Nem fontos, de sürgős: azok a feladatok, amelyek általában felborítják az ember időbeosztását. Egy telefonhívás, e-mail, amely borítja a napi terveket. Ezekenek a feladatoknak megoldásához célszerű segítséget kérni.  ",
+    "Nem fontos és nem sürgős: azok a dolgok, amelyek nem segítenek a célok elérésében. Ezek általában rutin feladatok, vagy csak pusztán időtöltések. Lehetőség szerint ezeket szelektálni kell, elvégzésükre kár az időt pazarolni.",
+    "Ezen kívül több módszert is ismer a szakirodalom, melyek lényege nagyjából minden esetben a feladatok számbavétele és azok fontosság szerinti sorba rendezése. ",
+    "A háztartások bevételei és kiadásai",
+    "A háztartások erőforrásaikat kihasználva bevételekre, jövedelemre tesznek szert, melyekből kiadásaikat tudják finanszírozni. A bevételek lehetnek pénzbeli és természetbeni juttatások. A pénzért szolgáltatásokat és termékeket tudnak vásárolni, míg a természetbeni juttatások (utalvány, céges autó, céges telefon) abban segítenek, hogy a különböző szolgáltatásokra kevesebb pénzt kelljen fordítani.",
+    "A bevételekből megvásárolt termékek és szolgáltatások a háztartások alapvető kiadásait jelentik. Mivel a kapott bevételek végesek, korlátozottan állnak rendelkezésre, így a kiadásokat is gondosan meg kell tervezni, átgondoltan érdemes elkölteni a jövedelmet.",
+    "A két legjelentősebb erőforrás, amelyet a háztartások jövedelemszerzésre tudnak mozgósítani: a munkavégző képesség és a vagyon hasznosítása.",
+    "Melyek lehetnek a háztartások bevételei?",
+    "A háztartások bevételei",
+    "Munkavégzéshez kapcsolódó jövedelmek",
+    "A pénzbeli bevételek egyik legfőbb forrása a munkaviszonyból származó jövedelem. A munkaviszonyban álló személy munkaszerződés alapján munkabért kap. Abban az esetben, ha szabadságon van, vagy betegsége miatt munkát végezni nem tud, akkor távolléti díj illeti meg a szabadsága, betegszabadsága időtartamára. A betegszabadság időtartamán túl, továbbra is beteg, akkor táppénz illeti meg. Ha a munkavégzése során a foglalkoztatója nagyon meg van elégedve az elvégzett teljesítményével, akár jutalomban is részesítheti a munkavállalót. A tananyag kezdetén említett családok közül Szabó anyukának van munkaviszonyból származó jövedelme, aki egy könyvelőirodában dolgozik munkavállalóként.",
+    "Munkavégzés nem csak munkaviszonyban történhet. Előfordulhat, hogy csak rövidebb időtartamra, vagy csak egy konkrét feladat elvégzése miatt van szüksége a foglalkoztatónak dolgozóra, akkor megbízásos jogviszonyban is foglalkoztathatja a személyt. Ekkor a kapott jövedelmet megbízási díjnak nevezzük. ",
+    "A munkavégzés történhet vállalkozói jogviszonyban is. A megrendelő a feladat elvégzésére egy hozzáértő szakembert keres, megrendeli a munka elvégzését. A vállalkozó a feladat elvégzése után számlát állít ki, a megrendelő pedig kifizeti a számlázott összeget. Ezt nevezzük vállalkozói díjnak. Például a Jónás apuka jövedelme származik vállalkozásból, hiszen ő egy villanyszereléssel foglalkozó egyéni vállalkozó. Nem a teljes bevétele jövedelem, mert a kapott bevételekből költségei is vannak.",
+    "Fontos tisztázni azonban, hogy a fent említett jövedelmek nem teljes egészében kerülnek a magánszemélyek zsebébe pénzjuttatás formájában.",
+    "A munkabér esetében megkülönböztetünk bruttó és nettó jövedelmet.",
+    "Nézzünk erre egy példát:",
+    "Szabó anyuka szerződés szerinti munkabére 650 000 Ft. Egész hónapban dolgozott, nem volt szabadságon, nem volt beteg. Munkáltatója a jól végzett munkájának elismeréseként 100 000 Ft jutalomban részesítette. Ezzel együtt az anyuka bruttó bére 750 000 Ft az adott hónapban. Ezt az összeget azonban nem kapja meg teljes egészében, hiszen a munkavállaló jövedelméből személyi jövedelemadót és társadalombiztosítási járulékot von le a foglalkoztatója és továbbítja az állami költségvetésbe. A személyi jövedelemadó mértéke a bruttó bér 15%-a, amelyből kedvezményeket tud érvényesíteni. Ezekről a kedvezményekről később részletesen tanulsz majd. A társadalombiztosítási járulék mértéke a bér 18,5%-a. Ezen kívül a bért terhelheti még letiltás egy ki nem fizetett tartozás miatt, esetleg a válást követően fizethet még a gyermekeit nevelő szülőnek gyermektartási díjat is.",
+    "Az említett példában (feltételezve, hogy nem tud adókedvezményt érvényesíteni és nincs letiltása sem), így alakul a Szabó anyuka nettó jövedelme:",
+    "Nettó bér számítása ",
+    "Forrás: saját szerkesztés",
+    "Jól látható a fenti példa alapján, hogy Szabó anyuka a bruttó bérének csak körülbelül kétharmad részét kapja meg pénz formájában, amely a háztartás kiadásaira fordítható a későbbiek során.",
+    "Hasonló a helyzet a megbízási díjjal is. Azzal a különbséggel, hogy ott el lehet számolni némi, a tevékenység kapcsán felmerülő költséget. Így ott kicsit kevesebb a levont adó és járulék, több a zsebben maradó pénz, de ne felejtsük el, hogy ki kellett fizetni a tevékenysége kapcsán felmerülő költségeket is.. Nézzünk erre is egy rövidke példát.",
+    "Legyen a megbízás tárgya a könyvelőirodában egy hitelkérelem dokumentációjának összeállítása. Szabó anyuka ennek a munkának elvégzéséért külön szerződés alapján, a munkabérén kívül további 150 000 Ft megbízási díjat kap. A munkát nem az irodában, munkaidőben, hanem az otthonában, szabadidejében végzi el. A tevékenység elvégzése során használta a saját számítógépét, valamint internetet, áramot is igénybe vett. Szüksége volt nyomtatóra, papírra és a tollából is fogyott a tinta. Ezek költségét nagyjából a bevétel 10%-ára becsülte. ",
+    "Nézzük, hogy alakul a megbízási díj nettó összegének meghatározása:",
+    "Megbízási díj nettó összegének meghatározása ",
+    "Forrás: saját szerkesztés",
+    "A másik, említett jövedelem a vállalkozói tevékenységből származó jövedelem. Ennél a jövedelemtípusnál is lehetséges a tevékenység végzése során felmerülő költségek elszámolása. A vállalkozónak szüksége van a saját nevére szóló, felmerülő költségeket részletező számlákkal, ahhoz, hogy azt elszámolhassa. A villanyszerelő Jónás apuka például az elvégzett munka során anyagokat használt fel (villanyvezeték, kapcsoló, lámpa, stb.), használta a saját eszközeit (vésőkép, fúrógép, csavarhúzó), gépkocsijával jutott a munkaterületre, esetleg foglalkoztatott munkavállalót. A vállalkozás működtetéséhez sok előírásnak kell megfelelni, amelyek szintén anyagi terhet rónak a vállalkozóra. A vállalkozó költségelszámolása és adózása többféle módon is történhet, de ezt később részletesen is megismerheted.  Azt is fontos megemlíteni, hogy a munkaszerződés alapján járó biztos jövedelemmel ellentétben ez a jövedelemforrás lényegesen bizonytalanabb, hiszen nagyban függ a megrendelések számától. ",
+    "A vagyon hasznosításából származó jövedelmek",
+    "A háztartás bevételei származhatnak a tulajdonukban álló, vagyonuk hasznosításából is.",
+    "A háztartások vagyona származhat a korábban megszerzett, kiadásokra nem fordított bevételekből. Ez az összeg lehet bakszámlán elhelyezett pénz, esetleg vásárolhatunk belőle értékpapírt, tárgyakat (lakás, kocsi, nyaraló), vagy befektethetjük egy vállalkozásba is.",
+    "Később részletesen is tanulsz majd ezekről a befektetési lehetőségekről. Közös jellemzőjük, hogy egy időre lemond a befektető ezeknek a bevételeknek az elköltéséről, cserébe várja vagyonának gyarapodását. A bankszámlán tartott pénz és a megvásárolt értékpapír (például a kötvény) hozadéka a kamat, a vállalkozásba fektetett pénzösszeg (részvény után pedig osztalékra számíthatunk.",
+    "A kamatjövedelem mértéke általában alacsonyabb, mint egy vállalkozásba történt befektetés arányában ígért osztalék. A kamatjövedelem biztos, az állam által garantált összeg, míg a vállalkozásból származó osztalék mértéke függ a vállalkozás gazdálkodásától, realizált eredményétől.",
+    "A meglévő vagyontárgyak, eszközök bérbeadásából is származhat jövedelem, melyet bérleti díjnak nevezünk. Például kiadható a nem használt garázs, vagy a nyaraló turisták számára egy menő üdülőövezetben. Ilyen például a Szabó család nyaralója, ahol nem csak a család töltheti el szabad idejét, hanem amikor nem használják, átengedhetik bérleti díj fejében nyaralni vágyó turistáknak, bérlőknek.",
+    "Társadalmi jövedelmek, juttatások",
+    "Vannak olyan juttatások, amelyeket az állam előre meghatározott elvek szerint, közvetlen ellenszolgáltatás nélkül ad a háztartásoknak. Ezeket transzfereknek nevezzük.",
+    "Természetesen sok ezek közül azért jár a magánszemélyeknek, mert korábban adó, vagy járulék formájában hozzájárultak az állam bevételeihez. Vannak azonban olyan juttatások is, melyek állampolgári jogon járnak. Ilyen például a gyermeket vállaló családoknak a családi pótlék, vagy a gyermeket szülő édesanyának az anyasági támogatás.",
+    "A társadalmi jövedelmek sokfélék lehetnek az arra való jogosultság elbírálása alapján.",
+    "A Jónás családban kisgyermek született. Az édesanya nem tudja munkáját végezni a közeli gyárban, hiszen a kisbaba gondozásával van elfoglalva. A kieső jövedelmét pótolja a gyermek születésekor fél évig járó csecsemőgondozási díj (CSED), majd ezt követően a gyermek két éves koráig járó gyermekgondozási díj (GYED). Mindkét jövedelem a korábban megszerzett munkabére alapján kerül megállapításra. A juttatások összege függ attól, hogy az édesanyának volt-e a gyermek születésekor munkahelye és mennyi volt ott a jövedelme. A gyermek három éves koráig gyermekgondozást segítő ellátást (GYES) kap Jónás anyuka. Ez utóbbi jövedelem már nem függ a korábbi foglalkoztatástól, ez úgynevezett alanyi jogon jár a szülőnek.",
+    "A Jónás és a Szabó család is jogosult családi pótlékra, hiszen van a háztartásukban olyan gyermek, akit nevelnek, vagy még iskolai tanulmányait nem fejezte be. A családi pótlék folyósítása is állampolgári jogon jár, mert az állam támogatja a gyermeket vállaló családokat. ",
+    "Szabó apuka, aki a közelmúltban veszítette el állását, arra az időszakra, amíg újra munkát nem talál, álláskeresési ellátásra jogosult. A támogatás célja, hogy az állam segítséget nyújtson és pótolja a kieső jövedelmének egy részét arra az időtartamra, amíg a családfő újra munkába nem tud állni. A támogatás a korábban munkában töltött idő és megszerzett jövedelem alapján jár, viszonylag rövid időtartamra. A támogatási összeg Szabó apukának segítséget nyújt az állás elvesztése miatt kieső jövedelem pótlására. A hivatal a pénzbeli juttatáson felül segít az álláskeresőknek munkahely közvetítésével, esetleg oktatási lehetőség biztosításával új szakma szerzésében. ",
+    "Szabóék egyetemista nagylánya kiváló tanulmányi eredménye miatt ösztöndíjat kap. Ezt az összeget kaphatja az egyetemtől, ezen keresztül az államtól, de kaphatja olyan leendő foglalkoztatótól is, aki tanulmányainak végzése alatt támogatást biztosít, majd a tanulmányok elvégzése után munkát ad a hallgatónak. Előfordulhat, hogy a tanuló az ösztöndíjat rászorultsági alapon kapja, amelyből a tanulmányainak folytatásához szükséges kiadásokat (tandíj, jegyzetek, kollégium) fedezni tudja. ",
+    "A Szabó családban a nagyszülők nyugdíjat kapnak. Abban az időszakban, amikor az idősek már nem képesek aktív kereső tevékenységet folytatni, akkor nyugdíjra válnak jogosulttá. Jelenleg a nyugdíjra való jogosultság életkor szerinti határát az állam 65 évben határozta meg. Előfordulhat, hogy valaki tartós betegsége miatt nem tud munkát végezni, akkor az életkor elérése előtt is jogosulttá válhat nyugdíj-szerű ellátásra, támogatásra. A nyugdíj összegét a korábban munkavégzéssel töltött idő és az ott megszerzett jövedelem alapulvételével állapítják meg. Ennek mértéke, mint általában a társadalmi jövedelmeknek az összege lényegesen kevesebb, mint aktív dolgozóként megszerzett munkabér összege.",
+    "Ha valaki betegsége miatt nem tud munkát végezni, a betegszabadság időtartama után táppénzre válik jogosulttá. Táppénz annak jár, aki munkaviszonyban áll. A táppénz összege is függ a korábban megszerzett jövedelem mértékétől. ",
+    "Egyéb bevételek",
+    "A korábban felsorolt jövedelmek mellett előfordulhatnak olyan bevételek, melyek nem rendszeresen, általában valamilyen alkalom kapcsán folynak be a háztartáshoz. Ilyen lehet például nyeremény, vagy ajándék. A nyeremény megszerzéséhez kockáztatni szükséges. Előre meg kell vásárolni a lottószelvényt, pénzt kell adni a lovin a bukmékernek és a hozamot nem garantálja senki. Ajándék lehet pénz vagy valamilyen tárgy is. A gyerekek szeretnek pénzt kapni szülinapjukra, karácsonyra, hiszen egy általuk áhított tárgyra gyűjtenek, és a nagyi egyébként sem tudja, hogy pontosan mire is van szüksége egy kamasznak.",
+    "Egy hozzátartozó elvesztése kapcsán az ő vagyonát a leszármazottai (gyermekei, unokái) öröklik. Ez az örökség is a háztartásba kerülő vagyon lehet, melyet hasznosíthat az örökös és ebből további bevételre tehet szert. Ezek a bevételek előre nem tervezhetők, rendkívüli esetekben fordulnak elő, így nem lehet rájuk építeni a háztartás gazdálkodását.",
+    "Ide sorolhatjuk azokat a természetbeni juttatásokat is, melyeket nem pénz formájában ad a munkáltató. Például lehet ez utalvány, céges autó, céges telefon, egészségpénztárba történő befizetés. Ezek általában nem közvetlenül jövedelem formájában jelennek meg, de a juttatás kapcsán nem kell pénzt költeni egyes szolgáltatások igénybevételekor.",
+    "Végső esetben a vagyontárgyak értékesítéséből is lehet bevételt szerezni.",
+    "Összefoglalva nézzük meg, milyen forrásai lehetnek a háztartások bevételeinek az alábbi ábra segítségével.",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "A háztartások bevételeinek forrásai ",
+    "Forrás: saját szerkesztés",
+    "Háztartások kiadásai",
+    "A háztartások kiadásait általában a felmerülő szükségletek, az együtt élők létszáma befolyásolja. Termékeket szereznek be, szolgáltatásokat vesznek igénybe, azaz fogyasztanak. A kiadásokat befolyásolja ezen kívül a befolyó bevételek nagysága is. A család összetétele szerint is változhatnak a felmerülő szükségletek. Például másra van szüksége egy kisbabás családnak és másra a nyugdíjas házaspárnak. A Jónás családnak a közelmúltban sok kiadása volt a kisbaba érkezése kapcsán, míg a Szabó család egyetemista lányát már csak alkalmanként kell támogatni némi lakbér-hozzájárulással vagy egy-egy fazék finom anya főztjével. ",
+    "Alapvetően a kiadásokat két nagy csoportba sorolhatjuk. Vannak előre tervezhető rendszeres és alkalomszerűen előforduló kiadások és vannak váratlan kiadások. Lássuk, melyek lehetnek ezek.",
+    "Tervezhető kiadások",
+    "A háztartásoknak elsődlegesen azokat a termékeket kell megvásárolniuk és azokat a szolgáltatásokat kell igénybe venniük, amelyekre feltétlenül szükségük van. Ezek a létfenntartáshoz, a mindennapi életvitelhez kapcsolódnak. Folyó fogyasztási kiadásoknak nevezzük őket. Ilyenek lehetnek például az élelmiszerek, ruházati cikkek, lakásfenntartási költségek (energia, közös költség, biztosítási díj), egészségügyi kiadások, telefonköltség, internet előfizetés, közlekedés, oktatás, hitel vagy kölcsöntörlesztés. Ezek a kiadások rendszeresen jelentkeznek minden háztartásban, tervezhetők, hiszen időszakonként az összegük is nagyon hasonló. ",
+    "Fontos kiemelni, hogy ezek a kiadások minden esetben elsőbbséget élveznek a költések sorában, pontosan amiatt, mert a mindennapi életvitelhez, létfenntartáshoz kapcsolódnak. A kiadások nagysága a különböző háztartások esetében nagyon eltérő lehet, mely függ a család szokásaitól, életmódjától, értékrendjétől és lehetőségeitől. Például egy kisgyermekes család esetében sokat költenek pelenkára, tápszerre, míg egy idős, nyugdíjas esetében több gyógyszerre van szükség. Egy tinilány sokkal többet költ ruházkodásra, mint nagymamája. Ha több családtag vesz igénybe tömegközlekedési eszközt, akkor rendszeresen költenek bérletre, míg a kocsival közlekedők üzemanyagot vásárolnak.",
+    "A rendszeresen felmerülő kiadásaink egy részéről nem magunk döntünk, hanem az állam esetlegesen közvetlenül elvonja. Gondolj például a béreket terhelő adókra, járulékokra, de például adót kell fizetni a család tulajdonában lévő ingatlan, vagy gépkocsi után is.",
+    "Vannak olyan tervezhető kiadások is, amelyek csak ritkábban, alkalomszerűen merülnek fel. Ilyen eszközök a tartós fogyasztási cikkek, mint a lakás, kocsi, televízió, bútor, híradástechnikai eszközök. Ezeknek az eszközöknek a beszerzése egyszeri, nagyobb összegű kiadásként jelentkezik. Például a Jónás családnak a kisbaba érkezése kapcsán be kellett rendezni a baba szobát, lehet hogy még a lakás apróbb átrendezése is szükségessé vált. Általában ezeknek az eszközöknek a beszerzésekor fontos szem előtt tartani, hogy a működtetésük újabb kiadásokat generálhat. Például a gépkocsi beszerzése és használata során felmerülő kiadás a biztosítás, az üzemanyag beszerzése és a szerviz, javítás, karbantartás költsége is. A telefon beszerzésével a beszélgetés díját majd rendszeresen kell fizetni, de a mosogató gép működtetése is többlet energia költséget eredményezhet, hiszen áramot és vizet fogyaszt.",
+    "Ezeknek az eszközöknek a beszerzése tudatos vásárlói magatartást követel meg. Mielőtt egy-egy nagyobb értékű eszközt beszerzünk, érdemes tájékozódni, mérlegelni, az ajánlatokat összehasonlítani és ár-érték arányban a lehető legjobbat kiválasztani. Szem előtt kell tartani a termék ára mellett az igénybe vehető szolgáltatásokat (szállítás, beüzemelés), a termék tulajdonságait, a működtetés kapcsán felmerülő költségeket (energia igény, szerviz díj, biztosítás) és a jótállást. ",
+    "Az előre tervezhető, de nem rendszeresen jelentkező kiadások közé sorolhatjuk még a családi események kiadásait is, mint például egy esküvő, temetés, ballagás, karácsonyi vacsora, ajándékozás, de akár a nyaralás költsége is. ",
+    "Az előre tervezhető kiadások a különböző háztartásokban nagyon eltérő lehet. A tervezésnél számba kell venni a szükségleteket és a lehetőségeket. Mérlegelni kell, hogy mekkora jövedelem felett rendelkezünk. Eszerint csoportosíthatjuk a felmerülő kiadásokat:",
+    "Létszükségleti cikkeknek nevezzük azokat a termékeket és szolgáltatásokat, amelyek fogyasztását a jövedelem növekedése mellett sem feltétlenül növeljük. Például nem fogyasztunk több energiát akkor sem, ha növekszik a fizetésünk.",
+    "Normál javak, amelyek fogyasztása együtt növekszik a jövedelem növekedésével. Jobb minőségű, egészségesebb élelmiszereket, márkás ruhákat vásárolunk.",
+    "Luxus javak, amelyeknek fogyasztásáról akkor sem mondunk le, ha jövedelmünk csökken, vagy nagyobb arányban fogyasztjuk, annak ellenére, hogy jövedelmünk csökken. Nem engedhetnénk meg magunknak, de nem tudunk róla lemondani.",
+    "Minden háztartásnak fontos megítélni, hogy a befolyó bevételeket, a jövedelmüket milyen módon használják fel. Melyek a legfontosabb kiadások, hogyan tudnak takarékoskodni a rendelkezésre álló javakkal. Pontosan be kell osztani a befolyó bevételeket, hogy a tervezett kiadások mindegyikére maradjon felhasználható forrás. Fontos emiatt, hogy mind a bevételekről, mind a kiadásokról a háztartás rendszeres nyilvántartást vezessen!",
+    "Váratlan kiadások",
+    "Tudatos gazdálkodás lényege a befolyó bevételekből a tartalék képzése. Mire is jó ez a tartalék?",
+    "Vannak olyan kiadások, amelyek nem tervezhetők, váratlanul törnek elő. Ilyenek a váratlan kiadások. Ezek a kiadások általában egy káresemény kapcsán merülnek fel. Elromlik, széttörik, elázik, kigyullad, vagy elfújja a szél. A lényeg, hogy pótolni kell.",
+    "Gondoljunk csak egy csőtörésre, mely eláztatja a lakást és az alattunk lakó nappalijába is befolyik. A hibát helyre kell hozni, szerelőt kell hívni, a lakást is ki kell festeni és az alsó szomszéd kárát is meg kell téríteni.",
+    "Vagy egy baleset következtében összetörik a család szeretett kocsija. Ahhoz, hogy használni tudjuk munkába járáshoz, vagy csak egy családi kirándulás alkalmával, meg kell javítani vagy pótolni kell. Ez túlmutat a rendszeres karbantartáson.",
+    "A tartós fogyasztási cikkek is tönkre mehetnek. Sok esetben a javíttatása, az alkatrészek pótlása nem gazdaságos, többe kerül, mintha vennénk egy újat. Tehát pótolni kell a hűtőt, mosógépet, televíziót, számítógépet.",
+    "Általában ezekre a kiadásokra szükséges tartalékot képezni, félretenni némi pénzt időről-időre. Megoldást jelenthet a legtöbb esetben az előre gondoskodás is, azaz köthetünk biztosítást a lakásra, kocsira, nagy értékű eszközökre. Ebben az esetben a biztosítás díja rendszeres kiadást jelent ugyan, és előfordulhat, hogy kár hiányában kidobott pénznek is tűnhet, de a káresemény kapcsán a biztosító fizeti helyettünk a helyreállítás kiadásait. Mindenképpen célszerű valamilyen módon felkészülni a váratlan események kapcsán felmerülő kiadások finanszírozására.",
+    "Összefoglalva nézzük meg a háztartások kiadásainak csoportosítását.",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "A háztartások kiadásainak csoportosítása ",
+    "Forrás: saját szerkesztés",
+    "A háztartások költségvetése",
+    "A háztartás bevételeinek és kiadásainak számbavétele után megállapíthatjuk, hogy a kiadásainkat elsődlegesen a befolyó bevételekből tudjuk finanszírozni. A bevételek korlátozottan állnak rendelkezésre, ezért a kiadásainak a szükségletek ésszerű mérlegelésével határt kell szabni. Megállapítható, hogy a kiadások optimális esetben nem haladhatják meg a bevételeket, különben a család eladósodik. Csak addig nyújtózkodj, amíg a takaród ér!",
+    "Háztartási napló, avagy miért kell költségvetést készíteni",
+    "A pontos feltérképezés érdekében célszerű vezetni háztartási naplót, mely a családi költségvetés nyomán választ adhat arra, hogy a terveinkhez képest valójában mennyi bevétel folyt be a háztartás kasszájába, illetve onnan mennyit és mire költött el a család. A háztartási napló lehet egy kockás füzet is, de vannak már modern, pénzügyi applikációk is. Ebben folyamatosan rögzíthetjük a bevételek és a kiadások összegét. Nyomon követhető, hogy mire, mennyit költ a család és ez alapján akár a következő időszak is megtervezhető.",
+    "A költségvetés egy pénzügyi terv, mely a háztartás adott időszak alatt (általában havonta) a keletkező bevételeket és kiadásokat állítja szembe. A bevételeket és a kiadásokat a költségvetésben és a háztartási naplóban csoportosíthatjuk a család szokásainak megfelelően. Gyorsan kialakítható egy saját, későbbiek során is jól elemezhető rendszer.",
+    "A befolyó bevételek jellegüknél fogva a háztartások nagy részében rendszeresen, hónapról hónapra általában azonos, vagy nagyon hasonló összegben folynak be a bankszámlára. Míg a kiadásainknak csak egy része, a tervezhető, rendszeresen felmerülő kiadások összege hasonló az azonos időszakokban. Emiatt a költségvetésben általában a fix összegű bevételekhez kell tervezni a kiadásokat, a költhető összegeket.",
+    "A tervezés után a pénzügyileg teljesült, tényleges összegek alapján értékelhetjük a tervezett költségvetés megvalósulását. Ha a tervezett összegek mellé folyamatosan vezetjük a ténylegesen megvalósuló tételeket, akkor a megvalósítás szakaszában is értékelhetjük és szükség esetén módosíthatjuk a költségvetés tervezett adatait. Célszerű időnként elemezni, a háztartás tagjaival megbeszélni a pénzügyi helyzetet. Ha azt tapasztalják, hogy az előző időszakhoz képest valamelyik bevétel értéke, vagy kiadásfajta lényeges több vagy kevesebb, mint az előző időszakokban, akkor ki kell deríteni ennek az eltérésnek az okát. Ez alapján tudják tervezni a következő időszak költéseit.",
+    "Pénzügyi terv nemcsak a kiadások optimális tervezéséhez használható, hanem egy jövőbeli cél elérésének pénzügyi finanszírozásához is készíthető. Ez többnyire hosszabb távú tervezés. Ebben az esetben a kiadások időben is ütemezhetők, főként, ha a rendelkezésre álló erőforrások szűkösek.",
+    "A pénzügyi terv készítésekor meg kell határozni az elérni kívánt célt. Például egy nyaralás a családdal a Kanári szigeteken. ",
+    "Célszerű többféle alternatívát felállítani, hogy milyen módon valósítható meg az elérni kívánt cél. Például, ha a várható fizetésemelés nem valósul meg, akkor a következő időszakban üdítő ital helyett csapvizet iszunk, vagy bérbe adjuk a garázst, vagy nem kocsival megyünk munkába, suliba, hanem tömegközlekedési eszközzel. ",
+    "A célok megvalósításához a pénzügyi tervhez következetes megtartása szükséges. ",
+    "Ha valami miatt a kitűzött célunkhoz rendelt pénzügyi terv mégsem valósulna meg, akkor ellenőrizni, elemezni, módosítani kell a tervet, szükség esetén módosítani szükséges a kitűzött célt is. Lehet, hogy mégsem a Kanári szigetekre utazunk, csak ide Zalakarosra. ",
+    "A költségvetés egyenlege",
+    "A fent leírtak alapján megállapítható, hogy valószínűleg a legritkább esetben fordul elő, hogy a befolyó bevétek és kiadások összege pontosan megegyezik egymással. Fillérre pontosan annyit költöttünk, amennyi bevétel folyt be a bankszámlára. Ha így lenne, ezt nevezhetnénk költségvetési egyensúlynak. Ez optimális helyzetnek tűnik, de valójában nincs így. Egy aprócska porszem a gépezetben, kisebb összegű realizált bevétel, vagy a tervezetthez képest kicsit magasabb összegű kiadás máris boríthatja az egyensúlyt. Előfordulhat egy hosszabb betegség, de egy munkahelyváltás miatt kieső jövedelem is nehéz helyzetbe hozhatja pénzügyileg a családot.",
+    "Általában ritka eset a költségvetés egyensúlyban tartása. Ha egy adott időszakban a tervezett bevételek meghaladják a tervezett kiadásokat, akkor megtakarítás keletkezik. Ezt nevezzük költségvetési többletnek (más néven szuficitnek). Ez a jövedelem fogyasztásra el nem költött része. Ebben az esetben a megtakarítás célja lehet egy jövőben várható, nagyobb összegű kiadás. Például gyűjtünk egy nagyobb lakásra, szeretnénk egy modernebb telefont vagy egy szép ruhát a suli báljára, esetleg nyaralást tervezünk, vagy egyszerűen csak a nyugdíjas évekre takarékoskodunk. A megtakarítás befektethető, amely valamilyen hozamot eredményezhet. Például értékpapírt vásárolunk, bankszámlán hagyjuk az összeget és ezután kamatot kapunk. Azon kell gondolkozni, hogy a felmerülő többletjövedelemmel mihez kezd a család. Mérlegelni kell a döntés előtt, hogy a megtakarítás csak egy-egy hónapban keletkezik, vagy várhatóan rendszeresen fog előfordulni. Ennek megfelelően lehet választani a befektetési lehetőségek közül.",
+    "Ha a pénzügyi tervezés időszakában a kiadások meghaladják a bevételek nagyságát, akkor költségvetési hiányról (azaz deficitről) beszélünk. Ezt a hiányzó összeget valami módon pótolni kell. Meg kell vizsgálni, hogy a felmerült kiadások hogyan csökkenthetők (takarékoskodás) és a befolyt bevételek milyen módon növelhetők (többletmunka, felesleges dolgok értékesítése, bérbeadása). Szerencsés helyzet, ha a korábbi időszakokban keletkezett megtakarítások erre a hiányra fedezetet nyújtanak. Például karácsony előtti hónapokban már tettünk félre pénzt, hiszen fel tudtunk készülni a karácsonyi ajándékozásra, vagy egész évben tartalékoltunk a nyaralásra. De előfordulhat az is, hogy nem keletkezett megtakarítás a korábbi időszakban, mégis valami módon ki kell fizetni egy váratlan kiadást. Ebben az estben hitelt, vagy kölcsönt kell felvenni a banktól, esetleg a családtól, barátoktól kell kölcsönkérni. Ez külső forrás bevonását jelenti, de számolni kell azzal a ténnyel, hogy a hitel vagy kölcsön törlesztő részletét és a pénz használatáért felszámított kamatokat a jövőben rendszeresen fizetni kell. Ez rendszeres kiadást jelent a későbbiek során.",
+    "A háztartási költségvetés nyilvántartási módja",
+    "Legtöbb háztartási költségvetés kötetlen formában készíthető el. Sok olyan telefonra tölthető applikáció áll rendelkezésre, mely remekül használható, de magunk is készíthetünk ilyet egy kockásfüzetben, vagy számítógépen egy Excel tábla segítségével.",
+    "Szokásos módja, hogy a bal oldalán szerepelnek bevételek és jobb oldalán találhatók a kiadások. A bevételeket és a kiadásokat is célszerű csoportokba rendezni. Így a későbbiek során a különböző időszakok adatai összehasonlíthatók, elemezhetők lesznek. Több bank szolgáltatásai között szerepel mobilbank működtetése. Ezek nagyrészében található egy elemző kimutatás a bevételek és kiadások összetétele szerint. A bankkártyás költések és utalások kedvezményezett szolgáltatói alapján sorolja be a kiadásokok egy általánosan elfogadott kategóriába (élelmiszer, energia, ruházat stb.). Ez azonban nem tekinthető megvalósult költségvetésnek, csak abban az estben, ha egy bankszámlát használ a háztartás minden tagja. Hiszen ez csak egy bankszámla adatait veszi számba.  ",
+    "A bevételeket és kiadásokat általában mérlegként ábrázolják, szemléltetve a két oldal egyensúlyát vagy eltéréseit.",
+    "",
+    "\t",
+    "",
+    "",
+    "Költségvetés egyensúlya ",
+    "Forrás: saját szerkesztés",
+    "Nézzünk meg, hogy például a Szabó család egy havi költségvetése hogyan alakult.",
+    "",
+    " Szabó család június havi költségvetése ",
+    "Forrás: saját szerkesztés",
+    "Majd lássuk a háztartási napló alapján, hogy valósult meg a tervezett költségvetés ebben a hónapban.",
+    "",
+    "Szabó család június havi háztartási naplója ",
+    "Forrás: saját szerkesztés",
+    "A kiadások elemzése során megfigyelhető, hogy néhány kiadási tételt kicsit a tervezetthez túlköltött a család, de ennek ellenére is sikerült némi megtakarítást realizálni. Ha összesítjük a háztartási napló alapján a kiadásokat kategóriák szerint, akkor elemezhető, hogy melyik területen történt a tervezetthez képest túlköltés.",
+    "",
+    "Összehasonlító táblázat: a család tényleges kiadásainak alakulása a tervezetthez képest ",
+    "Forrás: saját szerkesztés",
+    "A költségek összehasonlításából látható, hogy a család a tervezettnél lényegesen többet költött ruházatra. Biztosan a tervezéskor nem számoltak azzal, hogy egy családi ünnepi eseményen kell megjelenniük, és hát anyának nem volt egy rongya sem, amit felvehetett volna. ",
+    "Az Évinek adott támogatás pedig egyáltalán nem került betervezésre. Ez valószínűleg egy váratlan kiadás.",
+    "Érdekes megfigyelni az elemzés során azt is, hogy hogyan alakul a kiadások megoszlása. ",
+    "",
+    "Kiadások megoszlása ",
+    "Forrás: ssaját szerkesztés",
+    "Érdekes megfigyelni, hogy az összes költség több mint 50%-át az élelmiszerre fordított összeg teszi ki.",
+    "A következő ábra segít értelmezni, hogy a bevételeket milyen kiadásokra fordították.",
+    "",
+    "Kiadások a bevétel arányában",
+    "Forrás: saját szerkesztés",
+    "Ezen az ábrán az látó, hogy az összes, ténylegesen befolyt bevételt milyen típusú kiadásokra költötték. Az összes bevétel 45%-át fordították élelmiszer beszerzésére, 9%-át ruházatra. A rezsi költségre fordított kiadás csak a bevételek 7%-át teszik ki.",
+    "Jó hír viszont, hogy a család a túlköltekezés ellenére a bevételeinek 12%-át tudta megtakarítani június hónapban. Ezt nem költötték el, tartalékolták a következő időszak váratlan eseményeire, vagy befektetési céllal tették félre. Talán adhatunk majd nekik némi segítséget a következő anyagrész tanulmányozása után, hogy mit is kezdhetnének a megtakarítás összegével.",
+    "Ez az anyagrész rávilágított arra, hogy a háztartásoknak nagyon fontos feladata az ésszerű gazdálkodás. Az erőforrásaik felhasználásával szerzett bevételeket tudják kiadásaikra fordítani, amelyet egy költségvetés elkészítésével lehet megtervezni. A tervekhez képest jó, ha tudják, hogyan alakulnak tényleges költéseik. Ennek kimutatására a háztartási napló adhat válaszokat. Érdekes és tanulságos annak összehasonlítása és elemzése, hogy mely kiadásoknál látható eltérés a tervezetthez képest. Célszerű kideríteni az eltérések okát, és ha szükséges, akkor intézkedési tervet készíteni a költségek optimalizálása érdekében.",
+    "A háztartások pénzgazdálkodása. a megtakarítások és hitelek szerepe",
+    "A pénzügyi tudatosság egy háztartásban akkor működik helyesen, ha a háztartás minden tagja részt vesz a családi költségvetés elkészítésében. Közösen határozzák meg a felmerülő szükségleteket, azokat rangsorolják, és adott esetben lemondjanak a megvalósíthatatlan vágyaikról. Fontos, hogy a szülők bevonják a gyermekeket is a tervezésbe, hiszen már ebben a korban megtanulják, hogy mi mennyit ér, mennyit kell dolgozni egy-egy hőn áhított telefonért, divatos ruháért, menő cuccért.",
+    "A tudatos gazdálkodás célja, hogy minél több szükségletet tudjon a család kielégíteni, elősegítse a hosszú távú célok elérését, anyagi biztonságot teremtsen.",
+    "A háztartások pénzgazdálkodása",
+    "Bankszámla vagy a pénztárcánk?",
+    "A család pénzügyi tervezés kapcsán azt is fontos eldönteni, hogy a család hol tartsa a pénzét. Például anya és apa külön bankszámlát vezessen, vagy legyen egy közös számla. Az is lehet, hogy inkább készpénzt részesítik előnyben. Ennek azonban az egyik hátránya, hogy mivel szem előtt van, nehezebb megállni, hogy el ne költsék. Égeti a zsebüket. Célszerű a közös bankszámla vezetése, de ez csak abban az esetben tud működni, ha meghatározzák, hogy ki, mekkora összeg felett rendelkezhet szabadon. A legtöbb üzletben, szolgáltatónál, de már a piacon is lehetőség van bankkártyával, vagy egyéb készpénzt helyettesítő módon vásárolni. Ilyen lehet például utalvány, telefonos applikáció, de akár az okos órával a fizethetünk.",
+    "A fizetések lebonyolítása tehát történhet készpénzzel, bankkártya használatával, de lehet a bank internetes felületén átutalással is. ",
+    "A bankkártyás vásárlás és a pénzutalás feltétele, hogy az a személy, aki vásárol, rendelkezzen egy bankszámlával valamely pénzintézetnél. A bank a pénzt az ügyfél bankszámláján tartja nyilván, mint egyfajta virtuális pénztárcában. Kezeli az ügyfél pénzügyeit, a bevételeit és a költéseit. Ezért számlavezetési díjat számol fel. A bankkártyás fizetések többnyire ingyenesek, de az átutalásokért, a készpénz felvételéért és a számla kezeléséért fizetni kell. Erre a számlára érkezik a munkabér, a nyugdíj, a társadalmi juttatások, és innen fizeti ki az ügyfél a szükséges kiadásait. A befolyó bevételeket jóváírásnak, míg a költéseket terhelésnek nevezzük. A bankszámla nyitó egyenlege mutatja meg, hogy az előző időszakokban mennyi tartalék halmoztódott fel. A záró egyenlege összesíti az adott hónapban a befolyó bevételeket, a kiadásokat és megmutatja a hónap végén felhalmozott tartalék összegét. Ezt nevezzük az adott időszakban a bankszámla záró egyenlegének.",
+    "A bankszámlához egy vagy több bankkártya is kapcsolódhat, amely helyettesíti a készpénzt. Segítségével lehet fizetni a boltban, a fodrásznál, az autószerelőnél, benzinkúton, használható internetes vásárlások során, de készpénz felvételére is van lehetőség a bankszámláról a bankautomatából. ",
+    "A bankkártya a bank tulajdona, használatáért díjat számolhat fel. Nem rendeltetésszerű használatáért, vagy csalás esetén vissza is vonhatja azt. ",
+    "A bankszámlanyitás feltételei, bankszámlák típusai ",
+    "Bankszámlát egy adott hitelintézetnél az a személy nyithat, aki elmúlt 18 éves. A 18 év alatti fiatalok szülői hozzájárulással rendelkezhetnek bankszámlával. A bankok már egészen kisgyermekeknek is ajánlanak banki szolgáltatáscsomagot, bankkártyát is igényelhetnek a számlához. Ennek eredményeképpen hamarabb kialakul a pénzügyi tudatosság, megtanulják a korszerű pénzkezelés fontosságát. Biztonságban van a pénz egy osztálykirándulás alkalmával, nem veszíti el, és nem égeti a zsebét.",
+    "Ha a pénzt egy bankszámlán szeretnénk tartani, akkor el kell döntenünk, hogy melyik kereskedelmi bank, milyen típusú számláját válasszuk!",
+    "Nagy értékű beszerzések",
+    "Különösen tudatos mérlegelést igényel, ha a háztartás kiadásai között egy nagyobb értékű eszköz beszerzése, vagy szolgáltatás igénybevétele merül fel a közeljövőben. Ilyen lehet például egy lakáscsere, kocsibeszerzés, lakásfelújítás, vagy egy nagyobb értékű háztartási gép beszerzése.",
+    "A termékek beszerzése esetén célszerű tájékozódni a különböző üzletek kínálatai között. El kell dönteni, hogy milyen műszaki paraméreteket, tulajdonságokat érdemes előtérbe helyezni. Például legyen energiatakarékos a hűtő, csendes a mosógép, alacsony fogyasztású a gépkocsi. Arra is kell gondolni, hogy a háztartás méretének megfelelő mosogatógépet kell választani, vagy egy akkora hűtőszekrényt, amely befér a régi helyére. Fontos szempont még a költségkeret meghatározása is. Ennek fényében érdemes prospektusokat, internetes ár-összehasonlító alkalmazásokat használni, hogy a legmegfelelőbb termék kerüljön kiválasztásra, szem előtt tartva annak ár-érték arányát. Ha eldőlt, hogy melyik terméket vásárolják meg, akkor fontos lehet még a szállítás, beüzemelés költsége, a termékhez kapcsolódó garancia, esetleg a kipróbálás után a visszavásárlás lehetősége.",
+    "A szolgáltatások esetében érdemes több szakember véleményét, árajánlatát kikérni és ezek összehasonlításával a döntést meghozni. Ez lehet egy lakásfelújítás, kertrendezés stb.",
+    "Megtakarítások, befektetések",
+    "Megtakarítások",
+    "Abban az esetben, ha a háztartási napló tanúsága szerint a bevételek meghaladják a kiadásokat, pénztöbblet keletkezik. Ezt, a későbbiekben szabadon felhasználható pénzösszeget megtakarításnak nevezik. A megtakarításnak a család életkörülményeitől, terveitől függően többféle célja is lehet.",
+    "Gyűjthet jövőbeni nagyobb értékű kiadásra. ",
+    "Fel kell készülni a családnak a rendkívüli, váratlan helyzetekre. Mi lesz, ha anya, vagy apa elveszíti az állását. Egy betegség, vagy baleset miatti jövedelemkiesés sem jönne jól. Káresemény is történhet.",
+    "A szülők készülhetnek előre a nyugdíjas éveire is. ",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Megtakarítások célja ",
+    "Forrás: saját szerkesztés",
+    "A megtakarítások összege függ a család jövedelmétől, költési szokásaitól, szükségleteitől. A szükségletek korlátozásával, azaz takarékoskodással nagyobb összegű megtakarítást lehet elérni, melyről tudatos döntést kell hozni. Ahhoz, hogy a megtakarítás összege tovább növekedjen, akár kamat formájában, célszerű annak befektetéséről dönteni.",
+    "Befektetések",
+    "Ha a háztartásnak keletkezik megtakarítása, akkor több lehetőség közül választhat. ",
+    "A befektetés célja a pénztermelés, többletjövedelem elérése. Mielőtt a befektetési formáról döntene a család, mérlegelnie kell, hogy mennyi pénzről, milyen időtartamra tud lemondani, amíg arra az összegre biztosan nem lesz szüksége.",
+    "Vegyük számba a lehetőségeket:",
+    "Készpénz, vagy bankszámla. Nem a legmegfelelőbb megoldás a pénz befektetésére, hiszen nem, vagy csak csekély összegű kamatot termel. Mivel azonnal rendelkezésre áll, így az elköltése is veszélyt jelent a megtakarítás gyarapítására.",
+    "Lekötött bankbetét. Ezen a számlára hosszabb-rövidebb ideig lehet pénzt lekötni. Pár hónaptól egészen 2-3 évig. Minél hosszabb időre mond le a pénz használatáról a tulajdonosa, annál nagyobb általában a kamat mértéke. Az itt tárolt megtakarítás biztonságban van, az állam annak visszafizetését garantálja.",
+    "Államkötvény. Ez az értékpapír is lejáratát tekintve néhány hónaptól 2-3 évig helyezi biztonságba a lekötött összeget. Kamata általában hasonló, mint a bankbetét esetében. Ez is nagyon biztonságos befektetési forma, állami garanciavállalás mellett.",
+    "Egyéb értékpapírok: részvény és kötvény. Kötvényt nem csak az állam bocsáthat ki, egyéb gazdálkodók értékpapírjai is megtalálhatóak a piacon. A számlát vezető bank is adhat remek ajánlatot. Ezek kamata általában magasabb, mint az állampapírok esetében, de a kockázata is némiképp magasabb. Ha a lejárat előtt szükség lenne mégis a befektetett összegre, akkor a kamaton kívül akár a befektetett tőke egy része is elveszhet. A részvény megvásárlásával a befektető a vállalkozó tulajdonosává válik a megszerzett értékpapír arányában. A részvény hozama a vállalkozás gazdálkodásának a nyereségéből kerül kifizetésre. Ezt a hozamot nem garantálja senki. Ha a vállalkozás veszteségesen gazdálkodik, akár a befektetett összeg is elveszhet. Ha a gazdálkodás nyereséget termel, akkor a hozam más értékpapírok által kínált hozamnál lényegesen magasabb is lehet. De ez egy kockázatos befektetés és a részvény megvásárlására fordított, befektetett összeghez a befektető csak a részvény tovább értékesítése után juthat hozzá. Részvényt nem csak az osztalék elérése miatt vásárolhat a befektető. Előfordul, hogy magasabb áron értékesíteni tudja, mint amennyiért korábban megvásárolta. Ezt árfolyamnyereségnek nevezzük. ",
+    "Lakástakarékpénztár. Ez a befektetési forma hosszabb időtartamra való pénzösszeg lekötését feltételezi. A befektetés jelentős összegű állami támogatással egészül ki, mely lényegesen magasabb a betéti kamatok mértékénél. Ez a félretett összeg azonban csak lakásvásárlás vagy -felújítás céljára használható fel.",
+    "Vagyontárgy beszerzése. Ez lehet akár ingatlan, melynek a bérbeadásából realizálható rendszeres jövedelem, de lehet nagy értékű műtárgy, vagy befektetési arany is. Ezeknek a vagyontárgyaknak a megszerzése során abból indul ki a befektető, hogy később magasabb összegért tudja értékesíteni, mint amennyi a megszerzésre fordított összeg volt.",
+    "A befektetési lehetőségek közötti döntés során mérlegelni kell a befektetőnek, hogy milyen összeget, mennyi időre szeretne lekötni és ezért cserébe mekkora kockázatot tud vállalni. Kisebb összeg befektetése esetén nem érdemes bonyolult ügyletet választani. Ha a befektetés időtartama rövid, akkor nem célszerű részvénybe fektetni vagy ingatlant, vagyontárgyat vásárolni, hiszen ezek értékesítése hosszabb időt is igénybe vehet. Okos döntés lehet a befektetni kívánt megtakarítások összegét esetleg megosztani a különböző lehetések között.",
+    "Hitelek szerepe",
+    "Minden háztartás kerülhet olyan helyzetbe, hogy a tervezett beszerzésre vagy egy váratlan helyzet megoldására nincs elég megtakarítása, vagy a költségvetés tervezésénél látható, hogy a bevételek nem fogják fedezni a várható kiadásokat. Olyan helyzet is előfordulhat, hogy egy beszerzést hamarabb szeretnének megvalósítani, mint ahogy a megtakarításokból összejönne rá a megfelelő pénzösszeg. Például adódik egy kedvező lehetőség a kocsicserére, de a régit még nem tudták eladni. Nézzük, hogyan és milyen feltételekkel lehet mihamarabb pénzhez jutni.  Ha hitelt veszünk fel, és azt felhasználjuk, akkor vállaljuk, hogy a kapott összeget majd a jövőben megszerzett jövedelmünkből részletekben visszafizetjük. Ennek mindenképp megvan az a kockázata, hogy esetleg egy váratlan esemény (betegség, munkanélküliség) miatt a háztartás bevétele csökken. Ezért nehézséget okozhat a hitel törlesztése.",
+    "Dönteni kell tehát a vásárlás elhalasztásáról, és további megtakarítások összegyűjtéséről, vagy hitel felvételéről, amely segítségével hamarabb juthatnak hozzá a kiválasztott termékhez, szolgáltatáshoz. Esetleg kölcsön kérnek egy baráttól, rokontól. Igen, megoldást jelenthet egy baráti kölcsön is, de mérlegelni kell azt a tényt, hogy neki is határidőre szükséges visszafizetni a kölcsönkért összeget, és ha késik, vagy nem teszi meg, akár barátságok is tönkre mehetnek emiatt.",
+    "Biztonságosabb és személytelenebb a hitelt igénybe venni egy pénzintézettől. Számolni kell azonban azzal, hogy a kölcsönkért pénzösszegen felül a pénz használatáért a bank kamatot fog felszámítani.",
+    "Nézzük mik a lehetőségek és a feltételek.",
+    "Hitelek típusai",
+    "A hitelintézetek magánszemélyeknek és vállalkozásoknak többféle hitelkonstrukciót ajánlanak. A vállalkozásoknak kínált hitelek általában a vállalkozás zökkenőmentes működését (fizetőképességet) szolgálják, vagy a szükséges eszközök beszerzésére kínálnak pénzügyi forrást.",
+    "A magánszemélyeknek kínált hitelek különbözhetnek egymástól a futamidőben, a kamat mértékében, kockázatukban, de eltérőek lehetnek a felhasználási célok is. A különböző hitelek feltételeinek összehasonlításában több internetes oldal is segítséget nyújthat.",
+    "Lássuk, milyen típusú hiteleket különböztetünk meg egymástól:",
+    "Fogyasztási célú hitelek például áruvásárlásra, gépkocsi beszerzésére nyújtanak forrást. Sok áruház egy-egy nagyobb értékű árucikk beszerzése során azonnal fel is ajánlja a hitel lehetőségét, ezzel is ösztönözve a fogyasztást. Nem baj, ha nincs most pénzed, de vidd az árut, akár kamatmentesen is, majd ráérsz később kifizetni. Az ilyen gyors döntés kapcsán az emberek nagyrésze akkor nem méri fel azonnal, hogy később lesz-e pénze visszafizetni a hitelt, és ezzel később sokszor átmeneti pénzzavarba is kerülhet. A nagyobb értékű eszközök (pl. gépkocsi) beszerzése kapcsán már általában körültekintőbbek és megfontolt döntést hoznak az emberek, hiszen a hitel futamideje több év is lehet. Ez előzetes számításokat, hosszabb távú pénzügyi tervezést kíván. ",
+    "Lakáscélú hitelek lakás vásárlására, felújítására szolgálnak. A felhasználása kötött célú, másra nem költhető el. A bank elvárja a felhasználás igazolását adásvételi szerződés vagy számlák bemutatása útján. Általában hosszú futamidejű (5-15 év) hitelek. A kamat viszonylag alacsony és a fiatal, gyermeket vállaló családok visszafizetési kedvezményt, esetleg további kamatkedvezményt is kaphatnak. A hosszú futamidő miatt különösen megfontolt döntést vár el a családoktól és nagyon körültekintő a bank, hitelintézet is a folyósítás előtt. ",
+    "Egyéb hitelek, melyek felhasználását a bank nem korlátozza. Szabad felhasználású hiteleknek is szokták nevezni. A futamidő többnyire rövid, maximum 2-3 év. Mivel bármire felhasználható, emiatt a kamata is magasabb a korábban felsorolt hiteleknél.",
+    "A hitelfelvétel esetében a visszafizetési kötelezettség és a kamat mértéke mellett további kockázatokkal is számolni kell. A háztartás bevételeinek fedeznie kell a törlesztő részletet és a kamatot. Ennek a mértékéről a hitelszerződés pontos iránymutatást ad. Vannak azonban változó kamatozású hitelek is, amelyek mértékét a gazdasági környezet befolyásolja. Nehezebben lehet előre tervezni, sok esetben a kamat mértékének növekedése egy-egy nemzetgazdasági vagy világgazdasági válság hatására jelentős is lehet.",
+    "Emellett a hitelt nem csak magyar forintban, hanem idegen ország pénznemében (devizában) is folyósíthatja a bank. A hitel összegét devizában állapítja meg, majd a folyósítás időpontjában forintösszegre váltja. A törlesztés is devizában történik, de a magánszemély az összeget forintban indítja, a bank pedig a törlesztés időpontjában érvényes árfolyamon számítja be. Ez jelentős árfolyamkockázatot jelent.",
+    "Minezek figyelembevételével a háztartásoknak a hitelfelvétel kapcsán is körültekintően kell eljárniuk, megfontolt döntést kell hozni.",
+    "A hitelfelvétel feltételei, kockázatok enyhítése",
+    "A hitel visszafizetése azt jelenti, hogy az adós, a hitel felvevője havonta törleszti a kölcsönvett pénz összegét, annak kamatát és egyéb költségeit. A hitel felvétele előtt a kölcsönvevő kérelemmel fordul a választott hitelintézethez. Ebben részletesen feltünteti a hitel célját és garanciát vállal arra, hogy a hitel összegét képes lesz a későbbiek során visszafizetni. Az adott szó nem ér túl sokat ebben az esetben, a bank konkrétumokat vár el a leendő adóstól. Ezt hitelbiztosítéknak nevezzük.",
+    "A hitelkérelem benyújtásával az adósnak igazolnia kell, hogy rendszeres jövedelemmel rendelkezik, van munkahelye, állandó bevételi forrása. Ha önmagában nem tartja elegendő biztosítéknak a bank az igazolt összeget, akkor egyéb garanciákat is kérhet. Ilyen lehet például egy adóstárs, kezességvállaló rokon vagy barát, esetleg valamilyen zálogtárgy. Ha a zálog tárgya például egy ingatlan, akkor bank jelzálogot, zálogjogot jegyeztet be az ingatlanra a hivatalban. Ez korlátozza az adóst az ingatlan értékesítése kapcsán. A bank ezen vizsgálatát hitelminősítésnek nevezzük. A bank kockázata tehát elsődlegesen az, hogy az adós késve, vagy egyáltalán nem tudja a hitel törlesztőrészleteit és a kamatot fizetni. A kockázat csökkentése érdekében biztosítékot vár el az adóstól (kezesség, zálogjog). A banknak lehetősége van még ezen kívül a Központi Hitelinformációs Rendszer (KHR) használatára. Ebben az adatbázisban tartják nyilván azoknak az adatit, akik korábban vettek már fel hitelt. Ebből láthatóvá válik, hogy ki a jó adós és kinek voltak már visszafizetési problémái.",
+    "Ha a bank meggyőződött arról, hogy az adós biztonságosan fizetni tudja a hitel törlesztését, akkor megtörténik a hitelszerződés aláírása. Ez közjegyző jelenlétében zajlik, aminek költségét is a hitel felvevője fizeti.",
+    "A folyósítás során egyéb költségek is felmerülhetnek, mint például hitelbírálati díj, folyósítási- vagy rendelkezésre tartási jutalék, értékbecslés az ingatlan értékének megállapítására, amelyek költségét szintén az adós viseli.",
+    "A hitel folyósítása után a banknak joga van ellenőrizni a hitel összegének felhasználását abban az esetben, ha a hitelt konkrét céllal vette fel a magánszemély (például lakásvásárlás, felújítás).",
+    "Az adósnak is van kockázata a hitelfelvétel után. Például a változó kamatozású hitel felvétele során a kamat mértékének növekedése, vagy a devizahitel esetében az árfolyam változása. Mindkettő megnöveli a hitellel kapcsolatos kiadásokat a családban. A másik fontos kockázat az, ha a háztartás bevételei csökkennek például egy betegség, baleset, családi esemény kapcsán, és emiatt válik bizonytalanná a kölcsön törlesztése. Ezek a kockázatok megelőzhetők a hitel felvétele előtt alapos tájékozódással és biztosítás megkötésével a kockázatok enyhítése érdekében. ",
+    "A hitel felvétele kapcsán nem csak a kamat növeli a visszafizetendő összeget. A hitel elbírálásától a folyósításáig felmerülnek egyéb költségek is, mint például a folyósítási jutalék, kezelési költség, a rendelkezésre tartási jutalék, az értékbecslő díja, a közjegyzői díj. Általában ezeket a költségeket a folyósított hitel összegéből a bank levonja, visszatartja.",
+    "Biztosan találkoztál már reklámokban, hirdetésekben a THM kifejezéssel. Teljes hiteldíj mutató általában magasabb értéket mutat, mint a kamat mértéke. Ez a mutató az összes hitelfelvétellel kapcsolatos költséget a folyósított hitel arányában fejezi ki.",
+    "Például ha 1 millió forint hitelt veszünk fel 1 évre, amelynek a kamata 12%, folyósítási jutalék a hitel 1,5 %-a, akkor:",
+    "Kamat összege: 1 000 000*12%= 120 000 Ft",
+    "Folyósítási jutalék: 1 000 000*1,5%= 15 000 Ft",
+    "Folyósított összeg: 1 000 000-15 000= 985 000 Ft",
+    "Ennek a hitelnek a teljes hiteldíj mutatója (THM): (120 000+15 000)/985 000= 0,1371 azaz 13,71%",
+    "Ebből a példából is látható, hogy a hitel felvevőjének a hitellel kapcsolatos összes kiadását a THM pontosabban mutatja, ezzel kell számolnia, a hitel összes költségét szeretné megtudni.",
+    "Az előző példában a hitelt egy évre vettük fel. Ezt az időtartamot nevezzük a hitel futamidejének. Ez alatt az időszak alatt fizeti vissza az adós a teljes hitel összegét és annak kamatát.",
+    "Előfordul olyan eset, amikor a hitel felvételét követően a bank eltekint egy bizonyos ideig a hitel összegének törlesztésétől. Ezt türelmi időnek nevezzük. Ez alatt az időszak alatt tehát törlesztés nem történik, csak a hitel összegének használatáért a kamatot kell fizetni. ",
+    "Ezzel azért érdemes tisztában lenni, mert befolyásolja a család költségvetési kiadásainak összegét.",
+    "Adósságkezelés",
+    "A hitel visszafizetése során a legnagyobb körültekintés ellenére is adódhatnak olyan helyzetek, ami miatt az adós nem tudja a felvett hitelt pontosan, határidőre törleszteni. Ha a fizetési nehézség csak egy átmeneti pénzzavar miatt van, akkor általában nagyobb gond nélkül a probléma megoldódik, de lehetnek hosszabb távú nehézségek is.",
+    "Ebben az esetben az adósnak tájékoztatnia kell a hitelt nyújtó bankot, hogy közösen tudják a kialakult helyzetet megoldani. Mindenkinek az az érdeke, hogy a hitel határidőre visszafizetésre kerüljön. ",
+    "A nemfizetéshez vezető okok lehetnek:",
+    "Családi helyzet változása: egy kisbaba érkezése a családba, házasságkötés, válás, elhalálozás.",
+    "Egészségi állapot romlása: tartósabb betegség, rokkantság",
+    "Munkahelyi körülmények megváltozása: bércsökkenés, munkanélkülivé válás",
+    "Természeti katasztrófák: árvíz, tűzvész, földrengés, hurrikán",
+    "Világgazdasági, nemzetgazdasági változások: infláció, háború, gazdasági válság.",
+    "Ha bármilyen okból az adós nem tud fizetni, lejárt esedékességű tartozást halmoz fel, az súlyos következményekkel járhat. A bank szempontjából szerződést szegett, hiszen a szerződésben vállalt kötelezettségeit nem teljesítette. Először a bank felszólítja és figyelmezteti fizetési kötelezettségére. Ha a tartozását továbbra sem tudja fizetni, akkor valamilyen áthidaló megoldást keresnek. Ilyen megoldások lehetnek például ",
+    "a hitel átütemezése a futamidő megnövelésével. Ezzel a törlesztőrészletek összege csökken, de a futamidő növekedése miatt összességében több lesz a kamat.",
+    "egy másik, kedvezőbb feltételeket biztosító hitellel váltják ki az előzőt. Ebben az esetben átmenetileg megoldódik a probléma, de az új hitel megkötése során az adósnak újra meg kell felelni a hitelminősítési eljáráson.",
+    "az adós vagyonát értékesíti. Valami olyan vagyontárgyától lesz kénytelen megválni, mely nem szolgált a hitel fedezetéül. ",
+    "új erőforrások mozgósítása. Ez lehet például a munkahelyen túlmunka vállalása, mely magasabb jövedelmet eredményezhet, de kevesebb szabadidővel jár.",
+    "a család költségvetési egyensúlyának helyreállítása. Ez szigorú pénzkezelést jelent. A bevételek szinten tartása mellett a költségek csökkentése révén le kell mondania a család tagjainak egyes szükségleteikről. Ha nem sikerül konstruktív megoldást találni, akkor a bank felbontja az adóssal kötött hitelszerződést, egyösszegben követeli vissza a hátralévő hitelt kamattal együtt. Mivel az adós fizetni nem tud, így a bank érvényesíti a biztosítékok által nyújtotta lehetőséget. Követeli az összeg megfizetését a kezestől, adóstárstól, értékesíti a zálogtárgyat. ",
+    "A háztartások vagyona",
+    "A háztartások egyik fontos erőforrása a vagyon. Vagyonról akkor beszélünk, ha a család tulajdonában nagy értékű, mások számára értékes tárgyakat találunk.",
+    "Ezek lehetnek például egy lakás, kocsi, nyaraló, értékes festmény, műtárgy, ékszer.",
+    "A megszerzésükre fordított forrás lehet a háztartás megtakarításaiból származó pénzösszeg, de ezek a vagyontárgyak megszerezhetők hitel bevonásával is.",
+    "Amiatt fontos erőforrások, hiszen ",
+    "hasznosításukkal bevételt tud a háztartás realizálni, mert például a nyaralót bérbe lehet adni.",
+    "fedezetéül szolgálhat a hitelnek, mint zálog, jelzálog tárgy.",
+    "sürgős bevétel szerzés esetén értékesíteni lehet.",
+    "Minél nagyobb értékű vagyont tud a háztartás felhalmozni, annál nagyobb az anyagi biztonsága.",
+    "Összefoglaló",
+    "Megtanultuk, hogy a háztartás az együtt élő és erőforrásaik egy részét közösen felhasználó, azaz közösen gazdálkodó emberekből áll. Ha a háztartás egy családból áll, akkor az összes erőforrásukat közösen, képességüket és idejüket felhasználva, egymást támogatva hasznosítják. Ha a háztartás barátok közösségéből áll, akkor az erőforrásoknak csak egy részét hasznosítják közösen. A háztartás tagjainak célja, hogy szükségleteiket kielégítsék. Mivel az erőforrások szűkösen állnak rendelkezésre, a szükségletek pedig újra és újra jelentkeznek, vagy újak keletkeznek, így elengedhetetlen az erőforrásokkal való ésszerű gazdálkodás.",
+    "A család felelős gazdálkodásának az egyik alapelve a jövőre való tudatos felkészülés. Gondolni kell például a gyermekvállalásra, a gyermekek taníttatására, a nyugdíjas évekre, de azt sem szabad szem elől téveszteni, hogy a család bármikor kerülhet váratlan helyzetbe, mely anyagi nehézséget jelenthet. Ilyen helyzet lehet egy váratlan betegség, baleset, káresemény, munkanélküliség, haláleset. Ezek az események nem csak többletkiadásokat eredményeznek, de negatív hatással lehetnek a tervezett bevételek nagyságára is.",
+    "Az ésszerűen gazdálkodó család tehát tervezi a várható bevételeit és kiadásait, rangsorolja szükségleteit és tartalékot képez a váratlan helyzetekre. Ennek az egyik kézenfekvő módszere a családi költségvetés készítése és a háztartási napló segítségével a tényleges kiadások nyomon követése és elemzése. A családok nagy része nem fordít figyelmet erre a tervezésre, hiszen nagyságrendileg tisztában vannak a rendszeres kiadásaikkal, de az apróbb költésekkel nem számolnak. Pontosan ennek van a legnagyobb jelentősége a tervezés során. Van olyan háztartás is, aki a befolyt bevételből azonnal kifizeti a legszükségesebb kiadásokat, aztán ha marad, azt is elkölti valamilyen haszontalan dologra. Ezek a családok nem gondolnak a holnapra, csak a mának ének.",
+    "Mindegyik példa helytelen, hiszen a gazdálkodás folyamatos figyelemmel kísérése segít a hosszú távú céljaink elérésében, a felhalmozott adósságok kifizetésében vagy a nagyobb megtakarítások elérésében. A kiadások fontossági sorrendjét a háztartás tagjai közösen határozzák meg és erőforrásaikat ennek rendelik alá.",
+    "Ha a háztartások bevételei tartósan meghaladják a kiadásokat, akkor megtakarításuk keletkezik, melyet megfontolt döntéssel, további bevételek megszerzése céljából befektethetnek.",
+    "Ha a kiadások meghaladják a bevételeket, és átmeneti pénzhiány lép fel, vagy a fogyasztásukat előbbre szeretnék hozni, mint ahogy annak összege a megtakarításokból összejönne, akkor a család hitelt is vehet fel. Ez azonban egy jelentős elköteleződés, hosszú távi biztos kiadásokat jelent a hitel törlesztőösszege és kamata. A hitel felvétele során mérlegelni kell, hogy a futamidő alatt a család biztosan ki tudja-e gazdálkodni ezeket az összegeket. Mindenek előtt azt kell mérlegelni, hogy a hitelből finanszírozott dologra valóban szüksége van-e a családnak.",
+    "Egy biztos, hogy jó, ha minél nagyobb halmoz fel egy háztartás, hiszen annál biztonságosabb a gazdálkodása. Rendelkezik olyan vagyontárggyal, amely pénzzé tehető szükség esetén és a pénzügyi problémák megoldódnak ezáltal.",
+    "A tudatosság minden pénzügyi lépést végig kísér egy háztartásban, a döntésekben a háztatás minden tagjának részt kell vennie és hozzájárulni a gazdálkodás sikerességéhez.",
+    "",
+    "",
+    "Ábrajegyzék",
+    "1. ábra: A háztartás erőforrásai\t8",
+    "2. ábra: Az Eisenhower mátrix\t13",
+    "3. ábra: A háztartások bevételeinek forrásai\t21",
+    "4. ábra: A háztartások kiadásainak csoportosítása\t24",
+    "5. ábra: Költségvetés egyensúlya\t28",
+    "6. ábra: Kiadások megoszlása\t31",
+    "7. ábra: Kiadások a bevétel arányában\t31",
+    "8. ábra: Megtakarítások célja\t35",
+    "",
+    "Táblázatjegyzék",
+    "1. táblázat: Nettó bér számítása\t16",
+    "2. táblázat: Megbízási díj nettó összegének meghatározása\t17",
+    "3. táblázat: Szabó család június havi költségvetése\t28",
+    "4. táblázat: Szabó család június havi háztartási naplója\t29",
+    "5. táblázat: Összehasonlító táblázat: a család tényleges kiadásainak alakulása a tervezetthez képest\t30",
+    "",
+    "Irodalomjegyzék",
+    "Dr. Burkáné Szolnoki Ágnes-Merényi Zsuzsanna- Székely Júlia: Küldetések a pénz világában, Budapest, 2017., Könyvtárellátó Nonprofit Kft ",
+    "Pongor-Juhász Attila: Időgazdálkodás: A 9 legjobb időgazdálkodási módszer https://pongorjuhaszattila.hu/idogazdalkodas/ (2024.07.13.)",
+    "Dienerné Szakács Kisztina- Bertók Zsuzsanna: A háztartások gazdálkodása, https://www.studocu.com/hu/document/budapesti-gazdasagi-egyetem/penzugyi-szamvitel-2/a-haztartasok-gazdalkodasa/55983936 (2024.07.13.)"
+  ],
+  "runs": [
+    [],
+    [
+      "Egyedi megrendelés azonosítója: EM-2.16.2  "
+    ],
+    [
+      "A háztartások gazdálkodása"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [
+      " "
+    ],
+    [],
+    [],
+    [],
+    [
+      "\t"
+    ],
+    [],
+    [
+      "Tartalomjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "B",
+      "evezetés"
+    ],
+    [
+      "A ",
+      "Jónás család",
+      " a városban él egy társasház harmadik emeletén. Anya a közeli gyárban dolgozik, de jelenleg a család legifjabb tagjával, a négy hónapos Jankával otthon babázik. Apa egyéni vállalkozó, villanyszerelő. Sok a megrendelése, gyakran szombaton is dolgoznia kell. Jeromos, a nagyobb gyermek középiskolába jár, a közeli gimnáziumban tanul. Anya munkavégző képessége a házi munkákra korlátozódik, hiszen a babát gondozza. Jövedelmét tekintve családtámogatási ellátásban részesül, mely valószínűleg kevesebb, mint a szülés előtt megszokott munkabére. Apa vállalkozóként a megrendelései alapján szerez jövedelmet. Ideje kevés a családjára, hiszen annak nagy részét a munkájának elvégzése foglalja le. Jeromos munkavégző képessége korlátozott még szakmai tapasztalatának, végzettségének hiányában. Idejét a tanulás tölti ki nagyrészt. Ő anyának tud segíteni a háztartási munka elvégzésében. A család vagyona a lakás, amelyben élnek, egy kocsi, amelyet sokszor apa használ a munkájának végzése során. Van némi megtakarított pénzük, amelyet arra az esetre tettek félre, ha valami váratlan esemény történne."
+    ],
+    [
+      "A ",
+      "Szabó család",
+      " a városhoz közeli községben él. A nagyszülők, szülők és két gyermek alkotják a háztartást."
+    ],
+    [
+      "A nagyszülők mindketten nyugdíjasok. Rendszeres jövedelmük a nyugdíj. Az udvar hátsó részében kialakított kiskertben megtermelik a család számára szükséges zöldség-gyümölcs nagy részét. Ezt már a piacon nem kell megvásárolni. Anya könyvelőirodában dolgozik munkavállalóként. Rendszeres jövedelme a munkabére. Apa a közelmúltban veszítette el munkahelyét, így jelenleg álláskereső. Az államtól néhány hónapig kap juttatást arra az időre, amíg új munkahelyet talál magának. A gyermekek iskolába járnak. Petike általános iskolás, Éva pedig egyetemista. Ő a városban csoporttársaival közösen bérel egy kisebb lakást. Éva gyakorlatilag már csak részben tagja a Szabó család háztartásának, hiszen csak hétvégenként látogat haza. Éva ösztöndíjat kap az egyetemtől kiváló tanulmányi eredménye miatt, így neki is van már rendszeres jövedelme. A család vagyona a kertes ház, ahol élnek. Van kocsijuk és egy kicsi nyaralójuk a Balaton mellett. Ezt a nyaralót rendszeresen kiadják turistáknak, ebből is jövedelemhez jutnak. A takarításban, a nyaraló gondozásában a gyerekek is rendszeresen segítenek."
+    ],
+    [
+      "Mikor beszélünk családról, és mikor háztartásról? Hogyan osztják meg a feladatokat a családtagok egymás között? Milyen bevételeik és milyen kiadásaik vannak? ",
+      "Ezekre a kérdésekre találsz vála",
+      "szokat ebben a fejezetben."
+    ],
+    [
+      "A család fogalma és funkciói"
+    ],
+    [
+      "Vizsgáljuk meg a fenti két család esetében, hogy",
+      " mit is jelent a család és a háztartás fogalma. Milyen szerepet töltenek be az egyes családtagok a háztartásban",
+      "?",
+      " "
+    ],
+    [
+      "A család fogalma"
+    ],
+    [
+      "A család a társadalom legkisebb egysége, fontos része. Tagjai szoros rokoni kapcsolatban állnak egymással.",
+      " A család tagjait leszármazotti, házassági",
+      " v",
+      "agy örökbefogadási kapcsolat köti össze.",
+      " Egy olyan különleges csapat, amelynek tagjai szeretik, segítik és támogatják egymást. Mindig és minden körülmények közt számíthatnak egymásra."
+    ],
+    [
+      "Kik a",
+      " család",
+      " tagjai? ",
+      "A szűk családot a szülők és gyermekek alkotják. A tágabb értelemben vett család tagjai ",
+      "a",
+      " felmenő",
+      " (nagyszülők, dédszülők)",
+      " és oldalági rokonok",
+      " ",
+      "(nagynénik, nagybácsik, unokatestvérek",
+      ")",
+      "."
+    ],
+    [
+      "A család tagjait a közös értékrend és a család fenntartásának igénye tart",
+      "ja",
+      " össze.",
+      " ",
+      "Fontos szerepe van a",
+      " gyermekek nevelésében, társadalomba való beilleszkedésük kialakításában.",
+      " A csalá",
+      "di közegben alakul ki a gyermek személyisége, önmagához és a világhoz való viszonya.",
+      " A család felelőssége a szokások, kultúra, illem, viselkedés, szabályok, társadalmi elvárások",
+      " megismertetése és",
+      " elsajátításának",
+      " támogatása",
+      ".",
+      " Például megtanítjuk a kicsi gyermeket arra, hogy ha bemegyünk valahova, köszönni kell, az autóbuszon átadjuk a helyünket az időseknek, udvariasak vagyunk a hölgyekkel, nem beszélünk vissza a szüleinknek, nevelőinknek."
+    ],
+    [
+      "A család legfontosabb feladatai közé tartozik"
+    ],
+    [
+      "a gyermeke",
+      "k",
+      " vállalása, felnevelése"
+    ],
+    [
+      "érzelmi biztonság",
+      " ",
+      "nyújtása"
+    ],
+    [
+      "hagyományok őrzése, kultu",
+      "rális értékek átadása"
+    ],
+    [
+      "helyes viselkedési szabályok megtanítása"
+    ],
+    [
+      "betegek, idősek, kisgyermekek ápolása, gondozása"
+    ],
+    [
+      "C",
+      "saládmodellek"
+    ],
+    [
+      "A hagyományos (nukleáris) családban két felnőtt neveli a gyermeket, gyermekeket, míg a csonka családban csak egy."
+    ],
+    [
+      "Nagycsaládról beszélünk, ha a nagyszülők is együtt élnek a szülőkkel, gyermekekkel, unokákkal. Három generáció él egy fedél alatt."
+    ],
+    [
+      "Sajátos családmodell az úgynevezett mozaik család. Erről akkor beszélünk, ha a ",
+      "szülő új partnerrel él együtt és a korábbi kapcsolatából származó gyermeket, gyermekeket közösen nevelik tovább. Gyakran közös gyermeket is vállalnak."
+    ],
+    [
+      "A",
+      " család funkciói"
+    ],
+    [
+      "Biológiai ",
+      "funkció a gyermekvállalás. ",
+      "A társadalom számára fontos a népesség számának megtartása, sőt emelkedése, vagyis a három- és több gyermekes családok számának a növekedése. Ennek elősegítésére az",
+      " állam gazdaságpolitikája",
+      " anyagi támogatások, adókedvezmények érvényesítésének a lehetőségén keresztül",
+      " nagyban hozzájárul a ",
+      "gyermekvállalással együtt járó anyagi terhek csökkentéséhez."
+    ],
+    [
+      "Egy jól működő ",
+      "család tagjai szoros érzelmi ",
+      "szálakkal ",
+      "kötődnek",
+      " egymáshoz, ami s",
+      "tabil, kölcsönös, mentális biztonságot",
+      ",",
+      " érzelmi kapcsolatot jelent",
+      ". "
+    ],
+    [
+      "A gyermek a családban tanulja meg az együttélés szabályait, magatartási szabályokat, elvárásokat, szokásokat és hagyományokat, amelyek szerint a későbbiek során élni fog.",
+      " Például ",
+      "a Jónás családban Janka az évek során ",
+      "megtanul",
+      "hatja majd",
+      ", hogy a játékait a tesójával meg kell osztania, hogy ját",
+      "ék után rendet kell rakni, hogy a koszos ruhák nem varázspálca segítségével kerülnek vissza a szekrénybe. A hagyományok is fontosak, mint például a karácsonyi asztalra kerülő halászlé, vagy a nagyi szülinapja a kedvenc éttermében, vasárnaponként templomba menni.",
+      " ",
+      "A helyes szülői gondoskodás következtében a gyermek a társadalom hasznos és felelős tagjává válik. "
+    ],
+    [
+      "A",
+      " család menedék",
+      ", biztonságot nyújt",
+      ". A családtagok közötti összetartozá",
+      "s, szerető támogatás, segítségnyújtás az egyik legfontosabb szerepe a családi közösségnek. Az egyén érzelmi egyensúlyának kialakítását és megtartását segíti.",
+      " A családtagok ",
+      "törődnek",
+      " egymással, felelősséggel tartoznak egymás iránt. ",
+      "Például a ",
+      "szülők feladata törődni ",
+      "gyermekeikkel, egészséges testi, lelki fejlődésüket segíteni. A gyermekek feladata az idős családtagok ápolása, gondozása."
+    ],
+    [
+      "A",
+      " gyermekek a szüleiktől, nagyszüleiktől veszik át azokat az ismereteket, amelyekkel a család fenntartható. Gondolj itt arra",
+      " például",
+      ", hogy egy családi mesterség folytatása csak így lehetséges, de a nagymama pogácsa receptje is anyáról leányra száll.",
+      " Szabóéknál a nagyszülők ",
+      "adják át tapasztalataikat a gyermekeknek, unokáknak."
+    ],
+    [
+      "Termelő funkció a család önellátására irányul. Sajnos ez a funkció az idők folyamán beszűkül",
+      "t",
+      ", hiszen a fogyasztási cikkeket, élelmiszereket már nagyüzemi termeléssel állítják elő. De ahol még működnek a családi gazdaságok, az együtt-gazdálkodás, ott a sikerük kulcsa a közös felelősségvállaláson alapul.",
+      " ",
+      "Szabóéknál például a nagyszülők zöldséget, gyümölcsöt termelnek, amely alapanyagokat a sütésnél, főzésnél felhasználják. Ezeket már nem kell megvásárolni. ",
+      "A nők a családi tűzhely mellől ma már munkát vállalnak, dolgoznak. Emiatt az általuk korábban végzett szolgáltatásokat megvásároljuk, házhoz rendeljük. Például a vacsorát az ételfutár hozza, varrónőhöz visszük a leszakadt gombot felvarratni, mosodába",
+      "n",
+      " mosatjuk a szennyes ruhát.",
+      " Fogyasztói társadalomban élünk."
+    ],
+    [
+      "A",
+      " csalá",
+      "d",
+      " alakítja ki az idők folyamán a kulturális értékeket, hagyományokat, amelyeket generációkon át örökít. Ilyen értékek, hagyományok lehetnek például a családi ünnepek szokásai, a vallás gyakorlása",
+      ", az olvasás, vagy a zene szeretete.",
+      " "
+    ],
+    [
+      "A",
+      " család saját költségvetés alapján gazdálkodik. Fő alkotóeleme a családtagok által megszerzett bevételek összessége. Ebből fedezik a családtagok szükségleteit. ",
+      "A gazdálkodás lényege, hogy a felmerülő szükségletek kielégítésekor helyes fontossági sorrendet állítson fel a család",
+      ".",
+      " "
+    ],
+    [
+      "Összegezzük tehát, hogy mit is tanultunk ebben a fejezetben a családról."
+    ],
+    [
+      "Jónásék",
+      "nál tehát anya és apa neveli két gyermekét. Ők egy hagyományos családmodellben élnek."
+    ],
+    [
+      "A Szabó család nagycsalád, hiszen egy családot alkotnak a szülők, nagyszülők és unokák.",
+      " "
+    ],
+    [
+      "Jónásék és Szabóék a körülményeiket figyelembe véve, egymásra támaszkodva nevelik a gyermekeket és gazdálkodnak."
+    ],
+    [
+      "A család és a háztartás"
+    ],
+    [
+      "Mielőtt belevágnánk a témába, tegyünk különbséget a család és a ",
+      "háztartás ",
+      "fogalma között."
+    ],
+    [
+      "A családról megtudhatt",
+      "ad",
+      ", hogy a tagjai valamilyen rokoni kapcsolatban állnak egymással. ",
+      "A háztartás ezzel szemben az együtt élő emberek csoportja, akik általában közeli családtagok, ",
+      "barátok, akik közösen gazdálkodnak",
+      " a jövedelmükkel",
+      ".",
+      " A család fogalma elsősorban az emberi kapcsolatokra és kötelékekre összpontosít. A háztartás fogalma viszont olyan együtt élő embereket jelent, akik közösen gazdálkodnak, vagyis megosztják az életüket, erőforrásaikat és a mindennapi tevékenységeket."
+    ],
+    [
+      "Egy háztartásban élő személyek nem feltétlenül tartoznak egy családhoz; lehetnek lakótársak, barátok, önállóan élő egyének is."
+    ],
+    [
+      "Általában a közeli családtagok, szülők, nagyszülők, gyermekek alkotnak egy háztartást, ha közösen egy házban, egy lakásban élnek együtt. Előfordulhat",
+      " viszont",
+      " például az is, hogy barátok közösen bérelnek lakást a tanulmányaik időtartamára, ebben az esetben ők is egy háztartást alkotnak."
+    ],
+    [
+      "Jónásék esetében a család megegyezik a háztartással. A Szabó család esetében más a helyzet. Ott a család két háztartást alkot, hiszen a nagyobbik gyermek, aki egyetemista",
+      ",",
+      " a barátaival bérelt lakásban él. Ő már külön háztartást alkot."
+    ],
+    [
+      "Munkamegosztás a háztartásokban"
+    ],
+    [
+      "G",
+      "azdálkodás a háztartásban, a háztartás erőforrásai"
+    ],
+    [
+      "A ",
+      "háztartás tagjai",
+      " gazdasági közösséget is alkotnak. A család funkció",
+      "i",
+      " között megismerkedhettünk a család gazdasági funkciójával. Közösen kell a szükségleteiket kielégíteni és ehhez minden tagnak hozzá kell járulnia a saját erőforrásai",
+      "val."
+    ],
+    [
+      "Nézzük, melyek",
+      " ezek",
+      " az erőforrások!"
+    ],
+    [
+      "",
+      ""
+    ],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      ""
+    ],
+    [],
+    [
+      "",
+      ""
+    ],
+    [],
+    [
+      "",
+      ""
+    ],
+    [],
+    [],
+    [
+      "A háztartás erőforrásai",
+      " "
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [
+      "A háztartás erőforrásai:"
+    ],
+    [
+      "Munkavégző képességet alapvetően meghatározza a háztartásban élő személy",
+      "ek",
+      " életkora, ",
+      "szaktudása, iskolai végzettsége, megszerzett tapasztalata. Más a munkavégző képessége a nagypapának, akinek az életkora, egészségi állapota, fizikai erejének korlátai nagyban befolyásolják képességeit, de az ő tapasztalat",
+      "a",
+      " segítségére lehet a fiatalabb generációnak. ",
+      "A gyermekek is rendelkeznek munkavégző képeséggel, hiszen ők is részt tudnak venni a háztartási munkák elvégzésében. Gondolj például a mosogatásra, takarításra, rendrakásra."
+    ],
+    [
+      "A jövedelem megszerzése szorosan összefügg a munkavégző képességgel. A jövedelem származhat a munka",
+      "v",
+      "iszonyból megszerzett munkabérből, vállalkozói díjból, esetleg különböző társadalmi juttatásokból (nyugdíj, családtámogatási ellátások). Jövedel",
+      "e",
+      "m szerezhet",
+      "ő",
+      " a vagyon hasznosításából is (bérleti díj, kamatjövedelem)",
+      ". A Jónás család jövedelme az apa vállalkozásából származó jövedelmére korlátozódik, valamint anya a baba érkezésével munkabére helyett gyermekgondozási díjban részesül. A Szabó család esetében az anya munkabére, a nagyszülők nyugdíja és apa álláskeresési támogatása adja a felhasználható jövedelmet."
+    ],
+    [
+      "Vagyon a család tulajdonában található ingatlan, ingóságok (pl",
+      ".",
+      " kocsi), befektetések, pénz, értékpapírok. Ezeknek a dolgoknak az értékesítésével, hasznosításával is szert ",
+      "lehet tenni",
+      " jövedelemre, bevételre.",
+      " Jónásék vagyona a lakásuk, amelyben élnek és egy kocsi, amelyet többnyire apa használ a vállalkozói tevékenysége során. Szabóéknak ",
+      "van kertes háza, kocsija és nyaralója, mely utóbbit kiadnak és így jövedelemre tesznek szert."
+    ],
+    [
+      "A negyedik v",
+      "agyonelem az idő. Talán ez mind ",
+      "közül a legszűkösebb erőforrás",
+      ". Az idő alatt ",
+      "érthet",
+      "ő",
+      " munkaidő, szabadidő. "
+    ],
+    [
+      "A példák alapján egyértelműen kiderül, hogy egy házta",
+      "r",
+      "tás erőforrásait nagyban befolyásolja a családban élő családtagok száma, életkora, életkörülményei, valamint az is, hogy ",
+      "faluban vagy városban élnek-e. "
+    ],
+    [
+      "Az erőforrások kihasználása, a munkamegosztás"
+    ],
+    [
+      "A háztartás akkor működik tökéletesen, ha ki tudják használni erőforrásaikat. Szükséges a ",
+      "munkamegosztás",
+      ", hiszen a háztartás minden tagjának ki kell vennie a részét ",
+      "a feladatok elvégzésében. A szülők munkát végeznek, gyermeket nevelnek, a jövedelemszerzésről gondoskodnak. Emellett a háztartási munkákat is el kell végezniük. Ebben tudnak segíteni a gyermekek."
+    ],
+    [
+      "A háztartások erőforrásaikat a felmerülő szükségletek kielégítésére használják fel.",
+      " ",
+      "A szükségletek ",
+      "megfogalmazása után az erőforrások felmérése következik. A család tagjai megvitatják a különböző lehetőségeket és döntenek a szükségletek prioritásáról. Megfogalmazzák",
+      " és felosztják a feladatokat, me",
+      "gvalósítják",
+      " azokat ",
+      "és értékelik a megvalósítást."
+    ],
+    [
+      "Ahhoz, hogy ",
+      "mindezeket",
+      " ki tudjuk elégíteni, a háztartás minden tagjának a segítsége szükséges. ",
+      "Nélkülözhetetlen",
+      " az erőforrásokkal való ésszerű gazdálkodás, a munkamegosztás",
+      ".",
+      " A szülők munkát végeznek, gyermeket nevelnek, a jövedelemszerzésről gondoskodnak. Emellett a háztartási munkákat is el kell végezniük. Ebben tudnak segíteni a gyermekek."
+    ],
+    [
+      "Az erőforrásokkal való gazdálkodás során szem előtt kell tartani, hogy a családtagok alapve",
+      "tő szükségleteiket ki tudják elégí",
+      "t",
+      "e",
+      "ni. A gazdálkodási döntések során szem előtt kell tartani azok hosszútávú következményeit is, hiszen a háztartás működését ",
+      "biztosítani kell",
+      "."
+    ],
+    [
+      "A háztartás a gazdaság egyik alanya, mert fogyaszt, munkaerőt biztosít és megtakarításai vannak."
+    ],
+    [
+      "Időgazdálkodás"
+    ],
+    [
+      "A háztartások erőforrásai közül az egyik, talán legszűkösebben rendelkezésre álló, az idő. Saját életedben is tapasztalhatod, hogy folyton határidők közé vagy szorítva: pontos időpontra ",
+      "kell odaérni az iskolába, határidőre le kell adni egy dolgozatot, vagy házifeladatot, órarend szerint csengőszóra kezdődnek a tanórák, a barátokkal szervezett mozi is pontosan kezdődik."
+    ],
+    [
+      "Így van ez a háztartásban is. A szüleidnek is pontosan kell érkezni",
+      "ük",
+      " a munkahelyükre, a kistesóért is oda kell érni az oviba legkésőbb fél ötig, vacsorát kell készíteni és a kedvenc sorozat is kezdődik kilenckor."
+    ],
+    [
+      "Ebben a fejezetben ",
+      "megtanulhatod",
+      ", hogyan kell okosan, ügyesen szervezni az ",
+      "életedet",
+      ", hogy ne kelljen folyton rohanni. ",
+      "Megismerkedhetsz",
+      " különböző embertípusokkal, ",
+      "megtanulod",
+      " mi a hatékony időgazdálkodás menet",
+      "e",
+      " és milyen hatékony ",
+      "időmenedzsment",
+      " típusok ",
+      "vannak",
+      "."
+    ],
+    [
+      "Személyiségtípusok az időgazdálkodás szempontjából"
+    ],
+    [
+      "Az időgazdálkodás kapcsán 6 különböző személyiségtípust különböztet meg a szakirodalom. Fontos megállapítani, hogy Te például melyik kategóriába tartozol, hogy ki tudd választani a leghatékonyabb módszert, hogy az időd legideálisabban tudd beosztani."
+    ],
+    [
+      "Tűzoltó típusú ",
+      "személy: folyamatosan keresi a megoldandó helyzeteket",
+      ", az elhárítandó akadályokat. Válságban ezek az emberek kiváló teljesítmény elérésére képesek. Ha nincs krízishelyzet, akkor viszont küszködnek a helyes időbeosztással.",
+      " Tipikus példája a határidőkre történő feladatok utolsó pillanatban való elvégzése. Az ilyen típusú személy számára a megoldás",
+      " a feladatok sürgősség és fontosság alapján történő csoportosítása lehet. (Eisenhower-mátrix)"
+    ],
+    [
+      "„Egyszerre több dologgal is képes vagyok foglalkozni” típusú személy: ",
+      "munkája ",
+      "rengeteg befejezetlen feladathoz és általában sok hibához vezet. Lehet, hogy látszólag több feladat is halad egyszerre, de a hatékonyság mégis csorbát szenved. Nagyon kevés ember képes hosszútávon egyszerre több dologgal hatékonyan foglalkozni. ",
+      "Okosabb",
+      " megoldás lehet, ha a feladatokat fontossági sorrendben egymás után, ",
+      "határidők meghatározásával, ",
+      "egy-egy feladat lezárásával végzi el.",
+      " "
+    ],
+    [
+      "A túlvállaló személy: aki képtelen nemet mondani. Nagyon segítőkész ember, aki mindig mások problémáit helyezi a sajátjai elé. ",
+      "Kevesebb ideje jut a s",
+      "aját feladatait megoldani, így ",
+      "folyamatosan időzavarba kerül. Fontos megtanulnia, hogy hogyan és mikor kell nemet mondani egy-egy segítségkérésre. "
+    ],
+    [
+      "Az alá",
+      "becsülő személy: aki a feladatokhoz szükséges időt becsüli alá. A néhány perces megoldások helyett általában órák lesznek, így a következő megoldandó feladatokat már időzavarban kezdi el. Egy-egy feladat megoldására célszerű inkább túlbecsülni a szükséges időt, hiszen a feladatok megoldása közben váratlan helyzetek is közbe jöhetnek. "
+    ],
+    [
+      "A maximalista személy: teljesítményében mindig a legjobbat akarja nyújtani. Ezzel nincs is baj, csak az időzavart az okozza, hogy általában egy feladattal a szükségesnél sokkal többet szöszöl. Többször is visszatér egy-egy problémához és a megoldások helyett az alternatívákat latolgatja. ",
+      "Gátolhatja hatékonyságát",
+      ", hogy túl magas elvárásokat támaszt saját magával szemben",
+      ", fontos számára mások véleménye, a megfelelés kényszere. Ez gyakran mentális és fizikai kimerüléshez is vezet."
+    ],
+    [
+      "A halogató személy: aki mindig az utolsó pillanatban áll neki a feladatok megoldásának, és meg is van róla győződve, hogy ilyenkor tűzoltóvá válik. Ilyen esetben azonban nyomasztja, hogy a feladatok megoldásának még neki sem állt. Ebben az esetben talán célravezető lehet, ha feladatokat fo",
+      "ntosságuk szerint sorba rendezed",
+      " és kisebb részekben ",
+      "oldod meg",
+      " azokat, közé ékelve a szórakoztatóbb, pihentetőbb dolgokat."
+    ],
+    [
+      "A",
+      "z időgazdálkodás menete"
+    ],
+    [
+      "A hatékony ",
+      "időgazdálkodás",
+      "i módszerek megismerése előtt vegyük át, melyek a helyes időbeosztás legfontosabb lépései."
+    ],
+    [
+      "Konkrét, elérhető célok kitűzése. Ez alapján tudod az idődet hatékonyan terv",
+      "ezni.  Legyenek a célok mérhetők, teljesíthetők és elérhető",
+      "k. Például a kötelező olvasmány fejezeteit oldalszámok segítségével be tudod időben is tervezni",
+      ":",
+      " szombatig elolvasod az első 150 oldalt. Vagy a mozi előtt elmosogatsz és kiteregeted a ruhákat, mozi után pedig kivasalod a beszáradtakat. "
+    ],
+    [
+      "Fontossági sorrend felállítása. A célkitűzések után fontos a feladatokat fontosságuk szerint rendszerezni. Holnap felelünk töriből, de az angol szavakat csak holnaputánra kell megtanulni. "
+    ],
+    [
+      "Tevékenységek időkeretének megállapítása. Ha ismertek a feladatok, akkor meg kell tervezni (túl kell kicsit tervezni) a rájuk szánható idő",
+      " mértékét. Például, ha tudod, hogy 1 oldalt kb",
+      ".",
+      " mennyi idő alatt olvasol el, akkor meg tudod tervezni a következő fejezet elolvasá",
+      "sára szánható idő mennyiségét",
+      ". Könnyebb tervezni azoknak a feladatoknak az időszükségletét, amelyeket rendszeresen ",
+      "szoktál végezni",
+      " (pl levinni a szemetet, bevásárolni, felporszívózni, megetetni a cicát)",
+      ". Nehezebb azoknak",
+      " a fela",
+      "datoknak az időszükségletét megtippelni",
+      ", amelyek csak ritkán fordulnak elő, vagy nem pontosan ",
+      "ismered",
+      " a feladat jellemzőit."
+    ],
+    [
+      "Pihenés tervezése. Nagyon fontos, hogy a sok elvégzendő feladat között tervezésre kerüljön pihenőidő és szabadidő is. Növeli a hatékonyságot, ha a feladatok megoldásához",
+      " kipihenten, feltöltődve fogsz ",
+      "hozzá. Ezzel csökkenthető a stressz és kiégés kockázata is. Időt kell szánni a kikapcsolódásra, a szabadidőre, találkozni a barátokkal, moziba, színházba, koncertre men",
+      "ni, egy jót bulizni. Ennek",
+      " egyensúlyban kell állnia a kötelességekkel, hiszen az elvégzetlen feladatok, megoldatlan problémák a felhőtlen kikapcsolódást beárnyékolhatják."
+    ],
+    [
+      "Előre tervezés, akár töb",
+      "b napra. Vannak olyan feladat",
+      "a",
+      "id",
+      ", amelyeket rendre, napról napra el kell vé",
+      "gezned",
+      ": i",
+      "l",
+      "yen például a reggeli rutin, az étkezések, a munkaidő vagy a suliban az órarend. Ezeket a fe",
+      "ladatokat minden napra ",
+      "tudod",
+      " tervezni. Ha a következő napra, vagy akár a következő h",
+      "étre is vannak ismert feladat",
+      "a",
+      "id",
+      ", akkor ",
+      "azokkal ",
+      "is ",
+      "tudsz",
+      " előre számolni. Feltaláltak ehhez egy igen hatékony módszert, úgy hívják, hogy naptár, vagy heti tervező. Elérhető akár digitális formában is egy applikáció formájában. A telefon kéznél van",
+      ",",
+      " így célszerű ennek segítségével tervezni, időben ütemezni a feladatokat.",
+      " A tervezés segítségével le is ",
+      "tudsz",
+      " zárni egy-egy időszakot a feladatok megoldásának tekintetében, így talán nyugodtabban ",
+      "foghatsz",
+      " hozzá a pihenés ",
+      "időszakához",
+      ", illetve felkészülten ",
+      "várhatod",
+      " az elkövetkezendő időszakot."
+    ],
+    [
+      "H",
+      "atékony időgazdálkodás módszerei"
+    ],
+    [
+      "Megis",
+      "merted",
+      " az időgazdálkodás szempontjából legfontosabb embertípusokat és az időgazdálkodás lépéseit.",
+      " ",
+      "Nézzük, hogy",
+      " milyen módszereket használhatsz",
+      " a hatékonyság növelésének érdekében."
+    ],
+    [
+      "",
+      "Az egyik legismertebb időgazdálkodási módszer az úgynevezett ",
+      "Eisenhower mátrix",
+      ". Alapelve: ",
+      "ami fontos, az ritk",
+      "án sürgős és ami sürgős, az ritkán fontos.",
+      " A módszert Stephen R. Covery dolgozta ki és a nevét Eisenhower korábbi amerikai elnökről kapta. Ahhoz, hogy ne legyél tűzoltó típusú ember, fontos, hogy ne csak a feladat",
+      "a",
+      "id listáját vedd számba, hanem állíts fel fontossági sorrendet is. A mátrix ezeket a feladatokat 4 kategóriába sorolja:"
+    ],
+    [
+      "Az Eisenhower mátrix",
+      " "
+    ],
+    [
+      "Forrás:",
+      " https://pongorjuhaszattila.hu/wp-content/uploads/image-3-1280x790.png",
+      " (2024.",
+      "07",
+      ".07.",
+      ")"
+    ],
+    [
+      "Fontos és sürgős: ",
+      "e",
+      "zek a határidős munkák. Fontossági sorrendben ezek állnak az élen. Csináld meg, cselekedj azonnal!",
+      " "
+    ],
+    [
+      "Fontos, de nem sürgős: ide tartoznak a hosszú tá",
+      "vú döntéseket igénylő feladat",
+      "a",
+      "id",
+      ". Ha nem sürgős a feladat, akkor itt különösen fontos határidőt szabni az elvégzéséhez. Hajlamos az ember ezeket a feladatokat elodázni, de fontosságuk miatt foglalkoznunk kell vele."
+    ],
+    [
+      "Nem fontos, de sürgős: azok a fel",
+      "adatok, amelyek általában felborítják az ember időbeosztását. Egy telefonhívás, e-mail",
+      ",",
+      " amely borí",
+      "tja a napi terveket",
+      ". Ezekenek a feladatoknak megoldásához célszerű segítséget kérni",
+      ". ",
+      " "
+    ],
+    [
+      "Nem fontos és nem sürgős: azok a dolgok, amelyek nem segítenek a célok elérésében. Ezek általában rutin feladatok, vagy csak pusztán időtöltések. ",
+      "Lehetőség szerint ezeket szelektálni kell, elvégzésükre kár az időt pazarolni."
+    ],
+    [
+      "Ezen kívül t",
+      "öbb módszert is ismer a szakirodalom, melyek lényege nagyjából minden esetben a feladatok számbavétele és azok fontosság szerinti sorba",
+      " ",
+      "rendezése. "
+    ],
+    [
+      "A",
+      " háztartások bevételei és kiadásai"
+    ],
+    [
+      "A háztartás",
+      "ok",
+      " erőforrásaikat kihasználva ",
+      "bevétel",
+      "ekre",
+      ", ",
+      "jövedelem",
+      "re",
+      " tesznek szert, melyekből kiadásaikat tudják ",
+      "finanszíroz",
+      "ni",
+      ".",
+      " A bevételek lehetnek pénzbeli és természetbeni juttatások. A pénzért szolgáltatásokat és termékeket tudnak vásárolni, míg a természetbeni juttatások (utalvány, céges autó, céges telefon) abban segítenek, hogy a különböző szolgáltatásokra kevesebb pénzt kelljen fordítani."
+    ],
+    [
+      "A bevételekből megvásárolt termékek és szolgáltatások a háztartások alapvető kiadásait jelentik. Mivel a kapott bevételek végesek, korlátozottan állnak rendelkezésre, így a kiadá",
+      "sokat is gondosan meg",
+      " kell",
+      " tervezni",
+      ", átgondoltan ",
+      "érdemes ",
+      "elkölteni a jövedelmet."
+    ],
+    [
+      "A két legjelentősebb erőforrás, amelyet a háztartások jövedelemszerzésre tudnak mozgósítani: a munkavégző képesség és a vagyon hasznosítása."
+    ],
+    [
+      "M",
+      "elyek l",
+      "ehetnek a háztartások bevételei?"
+    ],
+    [
+      "A háztartások bevételei"
+    ],
+    [
+      "Munkavégzéshez kapcsolódó jövedelmek"
+    ],
+    [
+      "A pénzbeli bevételek egyik legfőb",
+      "b forrása a ",
+      "munkaviszonyból származó jövedelem.",
+      " ",
+      "A munkaviszonyban álló személy ",
+      "munkaszerződés",
+      " alapján ",
+      "munkabér",
+      "t kap. Abban az esetben, ha ",
+      "szabadság",
+      "on van, vagy betegsége miatt munkát végezni nem tud, akkor ",
+      "távolléti díj",
+      " illeti meg a szabadsága, ",
+      "betegszabadság",
+      "a időtartamára.",
+      " A betegszabadság időtartamán",
+      " túl",
+      ", továbbra",
+      " is beteg, akkor ",
+      "táppénz",
+      " illeti meg. Ha a munkavégzése során a ",
+      "foglalkoztató",
+      "ja nagyon meg van elégedve az elvégzett teljesítményével, akár ",
+      "jutalom",
+      "ban is részesítheti a ",
+      "munkavállaló",
+      "t. ",
+      "A tananyag kezdetén említett családok közül Szabó anyukának van munkaviszonyból származó jövedelme, aki egy könyvelőirodában dolgozik",
+      " munkavállalóként",
+      "."
+    ],
+    [
+      "Munkavégzés nem csak munkaviszonyban történhet. Előfordulhat, hogy csak rövidebb időtartamra, vagy csak",
+      " egy konkrét feladat elvégzése miatt",
+      " van szüksége a foglalkoztatónak dolgozóra, akkor ",
+      "megbízásos jogviszony",
+      "ban is foglalkoztathatja a személyt. Ekkor a kapott jövedelmet ",
+      "megbízási díj",
+      "nak nevezzük. "
+    ],
+    [
+      "A munkavégzés történhet ",
+      "vállalkozói jogviszony",
+      "ban is. A megrendelő a feladat elvégzésére egy hozzáértő szakembert keres, megrendeli a munka elvégzését. A vállalkozó a feladat ",
+      "elvégzése után számlát állít ki",
+      ",",
+      " ",
+      "a megrendelő pedig kifizeti a számlázott összeget. Ezt nevezzük ",
+      "vállalkozói díj",
+      "nak.",
+      " Például a Jónás apuka jövedelme származik vállalkozásból, hiszen ő egy villanyszereléssel foglalkozó egyéni vállalkozó.",
+      " Nem a teljes bevétele jövedelem, mert a kapott bevételekből költségei is vannak."
+    ],
+    [
+      "Fontos tisztázni azonban, hogy a fent említett jövedelmek nem teljes egészében kerülnek a magánszemélyek zsebébe pénzjuttatás formájában."
+    ],
+    [
+      "A munkabér esetében megkülönböztetünk ",
+      "bruttó és nettó jövedelm",
+      "et."
+    ],
+    [
+      "Nézzünk erre egy példát:"
+    ],
+    [
+      "Szabó anyuka szerződés szerinti munkabére 650 000 Ft. Egész hónapban dolgozott, nem volt szabadságon, nem volt beteg. Munkáltatója a jól végzett munkájának elismeréseként 100 000 Ft jutalomban részesítette. Ezzel együtt az anyuka bruttó bére 750 000 Ft az adott hónapban. Ezt az összeget azonban nem kapja meg teljes egészében, hiszen a munkavállaló jövedelméből ",
+      "sze",
+      "mélyi jövedelemadó",
+      "t és ",
+      "társadal",
+      "ombiztosítási járulék",
+      "ot von le a foglalkoztatója",
+      " és továbbítja az állami költségvetésbe",
+      ".",
+      " A személyi jövedelemadó mértéke a",
+      " bruttó",
+      " bér 15%-a, amelyből kedvezményeket tud érvényesíteni. Ezekről a kedvezményekről később részletesen tanulsz majd. A társadalombiztosítási járulék mértéke a bér 18,5%-a. Ezen kívül a bért terhelheti még ",
+      "letiltás",
+      " egy ki nem fizetett tartozás miatt, esetleg a válást követően fizethet még a gyermekeit nevelő szülőnek gyermektartási díjat is."
+    ],
+    [
+      "Az említett példában (feltételezve, hogy nem tud adókedvezményt érvényesíteni és nincs letiltása sem), így alakul a Szabó anyuka nettó jövedelme:"
+    ],
+    [
+      "Nettó bér számítása",
+      " "
+    ],
+    [
+      "Forrás: ",
+      "saját szerkesztés"
+    ],
+    [
+      "Jól látható a fenti példa alapján, hogy Szabó anyuka a bruttó bérének csak körülbelül kétharmad részét kapja meg pénz formájában, amely a háztartás kiadás",
+      "a",
+      "ira fordítható a későbbiek során."
+    ],
+    [
+      "Hasonló a helyzet a megbízási díjjal is. Azzal a különbséggel, hogy ott el lehet számolni némi, a tevékenység kapcsán felmerülő költséget. Így ott kicsit kevesebb a levont adó és járulék, több a zsebben maradó pénz",
+      ", de ne felejtsük el, hogy ki kellett fizetni a tevékenysége kapcsán felmerülő költségeket is.",
+      ". Nézzünk erre is egy rövidke példát."
+    ],
+    [
+      "Legyen a megbízás tárgya a könyvelőirodában egy hitelkérelem dokumentációjának összeállítása. Szabó anyuka ennek a munkának elvégzéséért külön szerződés alapján, a munkabérén kívül további 150 000 Ft megbízási díjat kap. A munkát nem az irodában, munkaidőben, hanem az otthonában, szabadidejében végzi el. A tevékenység elvégzése során használta a saját számítógépét, ",
+      "valamint ",
+      "internetet, ár",
+      "amot is igénybe vett. S",
+      "züksége volt nyomtatóra, papírra é",
+      "s a tollából is fogyott a tinta. Ezek",
+      " költségét nagyjából ",
+      "a bevétel 10%-ára ",
+      "becsülte. "
+    ],
+    [
+      "Nézzük, hogy alakul a megbízási díj nettó összegének meghatározása:"
+    ],
+    [
+      "Megbízási díj nettó összegének meghatározása",
+      " "
+    ],
+    [
+      "Forrás: ",
+      "saját szerkesztés"
+    ],
+    [
+      "A másik, említett jövedelem a vállalkozói tevékenységből származó jövedelem. Enné",
+      "l",
+      " a jövedelemtípusnál is lehetséges a tevékenység végzése során felmerülő költségek elszámolása. ",
+      "A",
+      " vállalkozónak szüksége van a saját nevére szóló, ",
+      "felmerülő",
+      " költségeket részletező számlákkal",
+      ", ahhoz, hogy azt elszámolhassa",
+      ". A villanyszerelő Jónás apuka például az elvégzett munka során anyagokat használt fel (villanyvezeték, kapcsoló, lámpa, stb.), használta a saját eszközeit (vésőkép, fúrógép, csavarhúzó), gépkocsijával jutott a munkaterületre, esetleg foglalkoztatott munkavállalót. A vállalkozás működtetéséhez sok előírásnak kell megfelelni",
+      ", amelyek szintén any",
+      "agi terhet rónak a vállalkozóra",
+      ".",
+      " A vállalkozó költségelszámolása és adózása többféle módon is történhet, de ezt később részletesen is megismerheted. ",
+      " Azt is fontos megemlíteni, hogy a munkaszerződés alapján járó biztos jövedelemmel ellentétben ez a jövedelemforrás lényegesen bizonytalanabb, hiszen nagyban függ a megrendelések számától. "
+    ],
+    [
+      "A vagyon hasznosításából származó jövedelmek"
+    ],
+    [
+      "A háztartás bevételei származhatnak a tulajdonukban álló, vagyonuk hasznosításából is."
+    ],
+    [
+      "A háztartások vagyona származhat a korábban megszerzett, kiadásokra nem fordított bevételekből. Ez az összeg lehet bakszámlán elhelyezett pénz, esetleg vásárolhatunk belőle értékpapírt, tárgyakat (lakás, kocsi, nyaraló)",
+      ", vagy befektethetjük egy vállalkozásba is."
+    ],
+    [
+      "Később részletesen is tanulsz majd",
+      " ezekről a befektetési lehetőségekről. Közös jellemzőjük, hogy egy időre ",
+      "lemond a befektető",
+      " ezeknek a bevételeknek ",
+      "az elköltéséről, cserébe várja vagyonának",
+      " gyarapodását. ",
+      "A ",
+      "bankszámlán tartott pénz és a megvásárolt értékpapír",
+      " (például a kötvény)",
+      " hozadéka a kamat, a vállalkozásba fektetett pénzösszeg",
+      " (részvény",
+      " után pedig osztalékra számíthatunk."
+    ],
+    [
+      "A kamatjövedelem mértéke általában alacsonyabb, mint egy vállalkozásba történt ",
+      "befektetés",
+      " ",
+      "arányában ígért osztalék. A",
+      " kamatjövedelem biztos, az állam által garantált összeg, míg a ",
+      "vállalkozásból származó osztalék mértéke függ a vállalkozás gazdálkodásától, realizált eredményétől."
+    ],
+    [
+      "A meglévő vagyontárgyak, eszközök bérbeadásából is származhat jövedelem, melyet ",
+      "bérleti díj",
+      "nak nevezünk. Például kiadható a nem használt garázs, vagy a nyaraló turisták számára egy menő üdülőövezetben. Ilyen például a ",
+      "Szabó ",
+      "család nyaralója, ahol nem csak a család töltheti el szabad idejét, ",
+      "hanem",
+      " amikor nem használják, átengedhetik bérleti díj fejében nyaralni ",
+      "vágyó turistáknak, bérlőknek."
+    ],
+    [
+      "Társadalmi jövedelmek, juttatások"
+    ],
+    [
+      "Vannak olyan juttatások, a",
+      "m",
+      "e",
+      "lyeket az állam ",
+      "előre meghatározott elvek szerint, közvetlen ellenszolgáltatás nélkül ad a háztartásoknak. Ezeket transzfereknek nevezzük."
+    ],
+    [
+      "Természetesen sok ezek közül azért já",
+      "r",
+      " a magánszemélyeknek, mert korábban adó, vagy járulék formájában hozzájárultak az állam bevételeihez. Vannak azonban olyan juttatások is, melyek állampolgári jogon járnak. Ilyen például a gyermeket vállaló családoknak a ",
+      "családi pótlék",
+      ", vagy a gyermeket szülő édesanyának az anyasági támogatás."
+    ],
+    [
+      "A társadalmi jövedelmek sokfélék lehetnek az arra való jogosultság elbírálása alapján."
+    ],
+    [
+      "A Jónás családban kisgyermek született. Az édesanya nem tudja munkáját végezni a közeli gyárban, hiszen a kisbaba gondozásával van elfoglalva. A kieső jövedelmét pótolja a gyermek születésekor fél évig járó ",
+      "csecsemőgondozási díj",
+      " (CSED)",
+      ", majd ezt követően a gyermek két éves koráig járó ",
+      "gyermekgondozási díj",
+      " (GYED)",
+      ". Mindkét jövedelem a korábban megszerzett munkabére alapján kerül megállapításra. A juttatások összege függ attól, hogy az édesanyának volt-e a gyermek születésekor munkahelye",
+      " és mennyi volt ott a jövedelme. A gyermek három éves koráig ",
+      "gyermekgondozást segítő ellátást",
+      " (GYES) kap Jónás anyuka. Ez utóbbi jövedelem már nem függ a korábbi foglalkoztatástól, ez úgynevezett alanyi jogon jár a szülőnek."
+    ],
+    [
+      "A Jónás és a Szabó család is jogosult családi pótlékra, hiszen van a háztartásukban olyan gyermek, akit nevelnek, vagy még iskolai tanulmányait nem fejezte be. A családi pótlék folyósítása is állampolgári jogon jár, mert az állam támogatja a gyermeket vállaló családokat. "
+    ],
+    [
+      "Szabó apuka, aki a közelmúltban veszítette el állását, arra az időszakra, amíg újra munkát nem talál, ",
+      "álláskeresési ellátás",
+      "ra jogosult. A támogatás célja, hogy az állam segítséget nyújtson",
+      " és pótolja a kieső jövedelmének egy részét",
+      " arra az időtartamra, amíg a családfő újra munkába nem tud",
+      " ",
+      "állni.",
+      " A támogatás a korábban munkában töltött idő és megszerzett jövedelem alapján ",
+      "jár, viszonylag rövid időtartamra. A ",
+      "támogatási összeg",
+      " Szabó apukának segítsé",
+      "get nyújt az állás elvesztése miatt kieső jövedelem pótlására. A hivatal a pénzbeli juttatáson felül segít az álláskeresőknek munkahely közvetítésével",
+      ", esetleg oktatási lehetőség biztosításával új szakma szerzésében.",
+      " "
+    ],
+    [
+      "Szabóék egyetemista nagylánya kiváló tanulmányi eredménye miatt ",
+      "ösztöndíj",
+      "at kap. Ezt az összeget kaphatja az egyetemtől, ezen keresztül az államtól, de kaphatja olyan leendő foglalkoztatótól is, aki tanulmányainak végzése alatt támogatást biztosít, majd a tanulmányok elvégzése után munkát ad a hallgatónak.",
+      " Előfordulhat, hogy a tanuló az ösztöndíjat rászorultsági alapon kapja, ",
+      "amelyből",
+      " a tanulmányainak folytatásához szükséges kiadásokat (tandíj, jegyzetek, kollégium) fedezni tudja. "
+    ],
+    [
+      "A Szabó családban a nagyszülők ",
+      "nyugdíj",
+      "at kapnak. Abban az időszakban, amikor az idős",
+      "ek",
+      " már nem képesek aktív kereső tevékenységet folytatni, akkor nyugdíjra válnak jogosulttá. Jelenleg a nyugdíjra való jogosultság életkor szerinti határát az állam 65 évben határozta meg. Előfordulhat, hogy valaki tartós betegsége miatt nem tud munkát végezni, akkor az életkor elérése előtt ",
+      "is jogosulttá válhat nyugdíj-szerű ellátásra, támogatásra. A nyugdíj összegét a korábban munkavégzéssel töltött idő és az ott megszerzett jövedelem alapulv",
+      "ételével állapítják meg. Ennek",
+      " mértéke, mint általában a társadalmi jövedelmeknek az összege lényegesen kevesebb, mint aktív dolgozóként megszerzett munkabér összege."
+    ],
+    [
+      "Ha valaki betegsége miatt nem tud munkát végezni, a betegszabadság időtartama után táppénzre válik jogosulttá. Táppénz annak jár, aki ",
+      "munkaviszonyban áll",
+      ". A táppénz összege is függ a korábban megszerzett jövedelem mértékétől. "
+    ],
+    [
+      "Egyéb bevételek"
+    ],
+    [
+      "A korábban felsorolt jövedelmek mellett előfordulhatnak olyan bevételek, melyek nem rendszeresen, általában valamilyen alkalom kapcsán folynak be a háztartáshoz. Ilyen lehet például nyeremény, vagy ajándék. A nyeremény megszerzéséhez kockázta",
+      "tni",
+      " szüks",
+      "éges. Előre meg kell vásárolni",
+      " a l",
+      "ottószelvényt, pénzt kell adni",
+      " a lovin a bukmékernek és a hozamot nem garantálja senki. Ajándék lehet pénz vagy valamilyen tárgy is. ",
+      "A gyerekek szeretnek pénzt kapni szülinapjukra, karácsonyra, hiszen egy általuk áhított tárgyra gyűjtenek",
+      ", és",
+      " a nagyi egyébként sem tudja, hogy pontosan mire is van szüksége egy kamasznak."
+    ],
+    [
+      "Egy hozzátartozó elvesztése kapcsán az ő vagyonát a leszármazottai (gyermekei, unokái) öröklik. Ez az örökség is a háztartásba kerülő vagyon lehet, melyet hasznosíthat az örökös és ebből további bevételre tehet szert.",
+      " Ezek a bevételek előre nem tervezhetők, rendkívüli esetekben fordulnak elő, így nem lehet rájuk építeni a háztartás gazdálkodását."
+    ],
+    [
+      "Ide sorolhatjuk azokat a ",
+      "természetbeni juttatások",
+      "at is, melyeket nem pénz formájában ad a munkáltató. Például lehet ez utalvány, céges autó, céges telefon, egészségpénztárba történő befizetés. Ezek általában nem közvetlenül jövedelem formájában jelennek meg, de a juttatás kapcsán nem kell pénzt költeni egyes szolgáltatások igénybevételekor."
+    ],
+    [
+      "Végső esetben a vagyontárgyak értékesítésé",
+      "ből is lehet bevételt szerezni."
+    ],
+    [
+      "Összefoglalva nézzük meg, milyen forrásai lehetnek a háztartások bevételeinek az alábbi ábra segítségével."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      ""
+    ],
+    [],
+    [],
+    [
+      "A háztartások bevételeinek forrásai",
+      " "
+    ],
+    [
+      "Forrás: s",
+      "aját szerkesztés"
+    ],
+    [
+      "H",
+      "áztartások kiadásai"
+    ],
+    [
+      "A háztartások kiadásait általában a felmerülő szükségletek, az együtt élők létszáma befolyásolja. ",
+      "Termékeket szereznek be, szolgáltatásokat vesznek igénybe, azaz fogyasztanak. ",
+      "A kiadásokat befolyásolja ezen kívül a befolyó bevételek nagysága is. A család összetétele szerint is változhatnak a felmerülő szükségletek. Például másra van szüksége egy kisbabás családnak és másra a nyugdíjas házaspárnak.",
+      " A Jónás családnak a közelmúltban sok kiadása volt a kisbaba érkezése kapcsán, míg a Szabó család egyetemista lányát már csak ",
+      "alkalmanként kell támogatni némi lakbér-hozzájárulással vagy egy-egy fazék finom anya főztjével. "
+    ],
+    [
+      "Alapvetően a kiadásokat két nagy csoportba sorolhatjuk",
+      ". Vannak előre tervezhető rendszeres és alkalomszerűen előforduló kiadások és vannak váratlan kiadások. Lássuk, melyek lehetnek ezek."
+    ],
+    [
+      "Tervezhető kiadások"
+    ],
+    [
+      "A háztartásoknak elsődlegesen azokat a termékeket kell megvásárolniuk és azokat a szolgáltatásokat kell igénybe venniük, amelyekre feltétlenül szükségük van.",
+      " Ezek a létfenntartáshoz, a mindennapi életvitelhez kapcsolódnak. ",
+      "Folyó fogyasztási kiadások",
+      "nak nevezzük őket.",
+      " ",
+      "Ilyenek lehetnek például az élelmiszerek, ruházati cikkek, lakásfenntartási költségek (energia, közös költség, biztosítási díj), egészségügyi kiadások, telefonköltség, internet előfizetés, közlekedés, oktatás",
+      ", hitel vagy kölcsöntörlesztés",
+      ". Ezek a kiadások rendszeresen jelentkeznek minden háztartásban, tervezhetők, hiszen időszakonként az összegük is nagyon hasonló. "
+    ],
+    [
+      "Fontos kiemelni, hogy ezek a kiadások minden esetben elsőbbséget élveznek a költések sorában, pontosan amiatt, mert a mindennapi életvitelhez, létfenntartáshoz kapcsolódnak. A kiadások nagysága a különböző háztartások esetében nagyon eltérő lehet",
+      ", mely függ a család szokásaitól, életmódjától, értékrendjétől és lehetőségeitől. Például egy kisgyermekes család esetében sokat költenek pelenkára, tápszerre, míg egy idős, nyugdíjas esetében több gyógyszerre van szükség. Egy tinilány sokkal többet költ ruházkodásra, mint nagymamája. Ha több családtag vesz igénybe tömegközlekedési eszközt, akkor rendszeresen költenek bérletre, míg a kocsival közlekedők üzemanyagot vásárolnak."
+    ],
+    [
+      "A rendszeresen felmerülő kiadásaink egy részéről nem magunk döntünk, hanem az állam esetlegesen",
+      " közvetlenül elvonja. Gondolj például a béreket",
+      " terhelő adókra, járulékokra, de például adót kell fizetni a család tulajdonában lévő ingatlan, vagy gépkocsi után is."
+    ],
+    [
+      "Vannak olyan tervezhető kiadások is, amelyek csak ritkábban, alkalomszerűen merülnek fel. Ilyen eszközök ",
+      "a tartós fogyasztási cikkek",
+      ", mint a lakás, kocsi, televízió, bútor, híradástechnikai eszközök. Ezeknek az eszközöknek a beszerzése egyszeri, nagyobb összegű kiadásként jelentkezik. Például a Jónás családnak a kisbaba érkezése kapcsán be kellett rendezni a baba szobát, lehet hogy még a lakás apróbb átrendezése is szükségessé vált. ",
+      "Általában ezeknek az eszközöknek a beszerzése",
+      "kor ",
+      "fontos szem előtt tartani, hogy a működtetésük újabb kiadásokat generálhat. Például a gépkocsi beszerzése és használata ",
+      "során",
+      " felmerülő kiadás a biztosítás, az üzemanyag beszerzése és a szerviz, javítás, karbantartás költsége is. A telefon beszerzésével a beszélgetés díját majd rendszeresen kell fizetni, de a mosogató gép működtetése is többlet energia költséget eredményezhet, hiszen áramot és vizet fogyaszt."
+    ],
+    [
+      "Ezeknek az eszközöknek a beszerzése tudatos vásárlói magatartást követel meg. Mielőtt egy-egy nagyobb értékű eszközt beszerzünk, érdemes táj",
+      "ékozódni",
+      ", mérlegelni, az ajánlatokat összehasonlítani é",
+      "s ár-érték arányban a lehető leg",
+      "jobbat kiválasztani. Szem előtt kell tartani a termék ára mellett az igénybe vehető szolgáltatásokat (szállítás, ",
+      "beüzemelés",
+      ")",
+      ", a termék tulajdonságait, a működtetés kapcsán felmerülő költségeket (energia igény, szerviz díj, biztosítás) és a jótállást. "
+    ],
+    [
+      "Az előre tervezhető, de nem rendszeresen jelentkező kiadások közé sorolhatjuk még a családi események kiadásait is, mint például egy esküvő,",
+      " temetés,",
+      " ballagás, karácsonyi vacsora, ajándékozás, de akár a nyaralás költsége is.",
+      " "
+    ],
+    [
+      "Az előre tervezhető kiadások a különböző háztartásokban nagyon eltérő lehet. A tervezésnél számba kell venni a szükségleteket és a lehetőségeket. Mérlegelni kell, hogy mekkora jövedelem felett rendelkezü",
+      "n",
+      "k. Eszerint csoportosíthatjuk a felmerül",
+      "ő kiadásokat:"
+    ],
+    [
+      "Létszükségleti cikkeknek nevezzük azokat a termékeket és szolgáltatásokat, am",
+      "elyek fogyasztását a jövedelem",
+      " növekedése mellett sem feltétlenül növeljük. Például nem fogyasztunk több energiát akkor sem, ha növekszik a fizetésünk."
+    ],
+    [
+      "Normál javak, amelyek fogyasztás",
+      "a együtt növekszik a jövedelem",
+      " növekedésével. Jobb minőségű, egészsé",
+      "gesebb élelmiszereket",
+      ", márkás ruhákat vásárolunk."
+    ],
+    [
+      "Luxus javak, amelyeknek fogyasztásáról akkor sem mondunk le, ha jövedelmünk csökken, vagy nagyobb arányban fogyasztjuk, annak ellenére, hogy jövedelmünk csökken. Nem engedhetnénk meg magunknak, de nem tudunk róla lemondani."
+    ],
+    [
+      "Minden háztartásnak fontos megítélni, hogy a befolyó bevételeket, a jövedelmüket milyen módon használják fel. Melyek a legfontosabb kiadások, hogyan tudnak takarékoskodni a rendelkezésre álló javakkal. Pontosan be kell osztani a befolyó bevételeket, hogy a tervezett ",
+      "kiadások mindegyikére maradjon felhasználhat",
+      "ó",
+      " forrás. ",
+      "Fontos emiatt, hogy mind a bevételekről, mind a kiadásokról a háztartás rendszeres nyilvántartást vezessen!"
+    ],
+    [
+      "Váratlan kiadások"
+    ],
+    [
+      "Tudatos gazdálkodás lényege a befolyó bevételekből a tartalék képzése. Mire is jó ez a tartalék?"
+    ],
+    [
+      "Vannak olyan kiadások, amelyek nem tervezhetők, váratlanul törnek elő. Ilyenek a ",
+      "váratlan kiadások",
+      ". Ezek a kiadások általában egy káresemény kapcsán merülnek fel. Elromlik, széttörik, elázik, kigyullad, vagy elfújja a szél. A lényeg, hogy pótolni kell."
+    ],
+    [
+      "Gondoljunk csak egy csőtörésre, mely eláztatja a lakást és az alattunk lakó nappalijába is befolyik. A hibát helyre kell hozni, szerelőt kell hívni, a lakást is ki kell festeni és az alsó szomszéd kárát is meg kell téríteni."
+    ],
+    [
+      "Vagy egy baleset következtében összetörik a család szeretett kocsija. Ahhoz, hogy használni tudjuk munkába járáshoz, vagy csak egy családi kirándulás alkalmával, meg kell ",
+      "javítani",
+      " vagy pótolni kell. Ez túlmutat a rendszeres karbantartáson."
+    ],
+    [
+      "A tartós fogyasztási cikkek is tönkre mehetnek. Sok esetben a javíttatása, az alkatrészek pótlása nem gazdaságos, többe kerül, mintha vennénk egy újat. Tehát pótolni kell a hűtőt, mosógépet, televíziót, számítógépet."
+    ],
+    [
+      "Általában ezekre a kiadásokra szükséges tartalékot képezni, félretenni némi pénzt időről-időre. ",
+      "Megoldást jelenthet a legtöbb esetben az előre gondoskodás is, azaz köthetünk biztosítást a lakásra, kocsira, nagy értékű eszközökre. Ebben az esetben a biztosítás díja rendszeres kiadást jelent ugyan, és előfordulhat, hogy kár hiányában kidobott pénznek is tűnhet, de a káresemény kapcsán a biztosító fizeti helyettünk a helyreállítás kiadásait. Mindenképpen célszerű valamilyen módon felkészülni a váratlan események kapcsán felmerülő kiadások finanszírozására."
+    ],
+    [
+      "Összefoglalva nézzük meg a háztartások kiadásainak csoportosítását."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      ""
+    ],
+    [],
+    [
+      "",
+      ""
+    ],
+    [],
+    [],
+    [
+      "A háztartások kiadásainak csoportosítása",
+      " "
+    ],
+    [
+      "Forrás: ",
+      "saját szerkesztés"
+    ],
+    [
+      "A háztartások költségvetése"
+    ],
+    [
+      "A háztartás bevételeinek és kiadásainak számbavétele után megállapíthatjuk, hogy a kiadásainkat elsődlegesen a befolyó bevételekből tudjuk finanszírozni. A bevételek korlátozottan állnak rendelkezésre,",
+      " ezért a kiadásainak a szükségletek ésszerű mérlegelésével határt kell szabni",
+      ". Megállapítható, hogy a kiadások optimális esetben nem haladhatják meg a",
+      " bevételeket",
+      ", különben a család eladósodik. Csak addig nyújtózkodj, amíg a takaród ér!"
+    ],
+    [
+      "Háztartási napló, avagy miért kell költségvetést készíteni"
+    ],
+    [
+      "A pontos feltérképezés érdekében célszerű ",
+      "vezetni ",
+      "háztartási naplót,",
+      " ",
+      "mely a családi költségvetés nyomán választ adhat arra, hogy a terveinkhez képest valójában mennyi bevétel folyt be a háztartás kasszájába, illetve onnan m",
+      "e",
+      "nnyit és mire költött el a család.",
+      " ",
+      "A háztartási napló lehet egy kockás füzet is, de vannak már modern, pénzügyi applikációk is. ",
+      "Ebben folyamatosan ",
+      "rögzíthetjük a bevételek",
+      " és a kiadások összegét. Nyomon ",
+      "követhető",
+      ", hogy mire, mennyi",
+      "t költ a család",
+      " és ez al",
+      "apján akár a következő időszak is megtervezhető",
+      "."
+    ],
+    [
+      "A költségvetés egy pénzügyi terv, mely a háztartás adott időszak alatt (általában havonta) a keletkező bevételeket és kiadásokat állítja szembe. ",
+      "A bevételeket és a kiadásokat a ",
+      "költségvetésben és a ",
+      "háztartá",
+      "si naplóban csoportosíthatjuk",
+      " a család szokás",
+      "a",
+      "inak megfelelően. Gyorsan kialakítható egy saját, későbbiek során is jól elemezhető rendszer."
+    ],
+    [
+      "A befolyó bevételek jellegüknél fogva a háztartások nagy részében rendszeresen, hónapról hónapra általában azonos, vagy nagyon hasonló összegben folynak be a bankszámlára. Míg a kiadásainknak csak egy része, a tervezhető, rendszeresen felmerülő kiadások összege hasonló az azonos időszakokban. Emiatt ",
+      "a költségvetésben ",
+      "általában a fix összegű bevételekhez kell tervezni a kiadásokat, a költhető összegeket."
+    ],
+    [
+      "A tervezés után a pénzügyileg teljesült, tényleges összegek alapján értékelhetjük a tervezett költségvetés megvalósulását.",
+      " Ha a tervezett összegek mellé folyamatosan vezetjük a ténylegesen megvalósuló tételeket",
+      ", akkor a megvalósítás szakaszában is értékelhetjük és szükség esetén módosíthatjuk a költségvetés tervezett adatait. ",
+      "Célszerű időnké",
+      "n",
+      "t elemezni, a háztartás tagjaival megbeszélni a pénzüg",
+      "yi helyzetet. Ha azt tapasztaljá",
+      "k, hogy az előző időszakhoz képest valamelyik bevétel értéke, vagy kiadásfajta lényeges több vagy kevesebb, mint az előző időszakokban, akkor ki kell deríteni ennek az eltérésnek az okát.",
+      " Ez alapján tudjá",
+      "k tervezni a következő időszak költéseit."
+    ],
+    [
+      "Pénzügyi terv",
+      " nemcsak a kiadások opti",
+      "mális tervezéséhez használható",
+      ", hanem egy jövőbeli cél elér",
+      "é",
+      "sének pénzügyi f",
+      "inanszírozásához is készíthető",
+      ". Ez többnyire hosszab",
+      "b",
+      " távú tervezé",
+      "s. Ebben az esetben a kiadások időben is ütemezhetők",
+      ", főként",
+      ",",
+      " ha a rendelkezésre álló erőforrások szűkösek."
+    ],
+    [
+      "A pénzügyi terv készítésekor meg ke",
+      "ll határozni",
+      " az elérni kívánt célt. Például egy nyaralás a családdal a Kanári szigeteken. "
+    ],
+    [
+      "Célszerű többféle alternatívát felállítani, hogy milyen módon ",
+      "valósítható meg az elérni kívánt cél.",
+      " Például, ha a várható fizetésemelés nem valósul meg, akkor a következő időszakban üdítő ital helyett csapvizet iszunk, vagy bérbe adjuk a garázst, vagy nem kocsival megyünk munkába, suliba, hanem tömegközlekedési eszközzel. "
+    ],
+    [
+      "A célok megvalósításához a pénzügyi",
+      " tervhez következetes megtartása szükséges",
+      ". "
+    ],
+    [
+      "Ha valami miatt a kitűzött célunkhoz rendelt pénzügyi terv mégsem valósulna meg, akkor ellenőrizni, elemezni, módosítani kell a tervet, szükség esetén módosítani szükséges a kitűzött célt is. Lehet, hogy mégsem a Kanári szigetekre utazunk, csak ide Zalakarosra. "
+    ],
+    [
+      "A költségvetés egyenlege"
+    ],
+    [
+      "A fent leírtak alapján megállapíthat",
+      "ó",
+      ", hogy valószínűleg a legritkább esetben fordul elő, hogy a befolyó bevétek és kiadások összege pontosan megegyezik egymással. Fillérre pontosan annyit költöttünk, amennyi bevétel folyt be a bankszámlára. Ha így lenne, ezt nevezhetnénk ",
+      "költségvetési egyensúly",
+      "nak. ",
+      "Ez",
+      " optimális",
+      " helyzetnek tűnik, de valójában nincs így. Egy aprócska porszem a gépezetben,",
+      " kisebb összegű realizált bevétel, vagy a tervezetthez képest kicsit magasabb összegű kiadás máris boríthatja az egyensúlyt. Előfordulhat egy hosszabb betegség, ",
+      "de egy ",
+      "munkahelyváltás miatt kieső jövedelem",
+      " is",
+      " nehéz helyzetbe hozhatja ",
+      "pénzügyileg ",
+      "a családot."
+    ],
+    [
+      "Általában ritka eset a költségvetés egyensúlyban tartása. ",
+      "Ha egy adott időszakban a",
+      " tervezett",
+      " bevételek meghaladják a",
+      " tervezett",
+      " kiadásokat, akkor megtakarítás keletkezik. Ezt nevezzük ",
+      "költségvetési többlet",
+      "nek",
+      " (más néven szuficitnek)",
+      ".",
+      " Ez a jövedelem fogyasztásra el nem költött része.",
+      " Ebben az esetben a megtakarítás célja lehet egy jövőben várható, nagyobb összegű kiadás. Például gyűjtünk egy nagyobb lakásra, szeretnénk egy modernebb telefont vagy egy szép ruhát a suli báljára, esetleg nyaralást tervezünk, vagy egyszerűen csak a nyugdíjas évekre takarékoskodunk. A megtakarítás befektethető, amely valamilyen hozamot eredményezhet. Például értékpapírt vásárolunk, bankszámlán hagyjuk az összeget és ezután kamatot",
+      " kapunk.",
+      " Azon kell gondolkozni, hogy a felmerülő több",
+      "letjövedelemmel mihez kezd a család",
+      ". Mérlegelni kell a döntés előtt, hogy a megtakarítás csak egy-egy hónapban keletkezik, vagy várhatóan rendszeresen fog előfordulni. Ennek megfelelően ",
+      "lehet választani",
+      " a befektetési lehetőségek közül."
+    ],
+    [
+      "Ha a pénzügyi tervezés időszakában a kiadások meghaladják a bevételek nagyságát, akkor ",
+      "költségvetési hiány",
+      "ról ",
+      "(azaz deficitről) ",
+      "beszélünk. Ezt a hiányzó összeget valami módon pótolni kell. ",
+      "Meg kell vizsgálni, hogy a felmerül",
+      "t",
+      " kiadások",
+      " hogyan csökkenthetők (takarékoskodás)",
+      " és",
+      " a",
+      " befolyt bevételek milye",
+      "n módon növelhetők (többletmunka, fele",
+      "sleges dolgok értékesítése, bér",
+      "beadása). ",
+      "Szerencsés helyzet, ha a korábbi időszakokban keletkezett megtakarítások erre a hiányra fedezetet nyújtanak. Például karácsony előtti hónapokban már tettünk félre pénzt, hiszen fel tudtunk készülni a karácsonyi ajándékozásra, vagy egész évben tartalékoltunk a nyaralásra. De előfordulhat az is, hogy ",
+      "nem keletkezett megtakarítás a korábbi időszakban",
+      ", mégis valami módon ki kell fizetni egy váratlan kiadást. Ebben az estben ",
+      "hitel",
+      "t, vagy ",
+      "kölcsön",
+      "t kell felvenni a banktól, esetleg a családtól, barátoktól kell kölcsönkérni. Ez külső forrás bevonását jelenti, de számolni kell azzal a ténnyel, hogy a hitel vagy kölcsön törlesztő részletét és a pénz használatáért felszámított kamatokat a jövőben rendszeresen fizetni kell. ",
+      "Ez r",
+      "endszeres kiadást jelent a későbbiek során."
+    ],
+    [
+      "A háztartási költségvetés nyilvántartási módja"
+    ],
+    [
+      "Legtöbb háztartási költségvetés kötetlen formában készíthető el. Sok olyan telefonra tölthető applikáció áll rendelkezésre, mely ",
+      "remekül használható, de magunk is készíthetünk ilyet egy kockásfüzetben, vagy számítógépen egy ",
+      "E",
+      "xcel tábla segítségével."
+    ],
+    [
+      "Szokásos módja, hogy a bal oldalán szerepelnek bevételek és jobb oldalán találhatók a kiadások. A bevételeket és a kiadásokat is célszerű csoportokba rendezni. Így a későbbiek során a különböző időszakok adatai összehasonlíthatók, elemezhetők lesznek. Több bank szolgáltatásai között szerepel mobilbank működtetése. Ezek nagyrészében található egy elemző kimutatás a bevételek és kiadások összetétele szerint. A bankkártyás költések és utalások kedvezményezett szolgáltatói alapján sorolja be a kiadások",
+      "ok egy általánosan elfogadott kategóriába",
+      " (élelmiszer, energia, ruházat stb",
+      ".",
+      "). Ez azonban nem tekinthető megvalósult költségvetés",
+      "n",
+      "ek, csak abban az estben, ha egy bankszámlát használ a háztartás minden tagja. Hiszen ez csak egy bankszámla adatait veszi számba.  "
+    ],
+    [
+      "A bevételeket és kiadásokat",
+      " ",
+      "általában mérlegként ábrázolják",
+      ", szemléltetve a két oldal egyensúlyát vagy eltéréseit."
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [
+      "\t"
+    ],
+    [],
+    [],
+    [
+      "Költségvetés egyensúlya",
+      " "
+    ],
+    [
+      "Forrás: ",
+      "saját szerkesztés"
+    ],
+    [
+      "Nézzünk meg, hogy például a ",
+      "Szabó",
+      " család egy havi ",
+      "költségvetése hogyan alakult."
+    ],
+    [
+      ""
+    ],
+    [
+      " ",
+      "Szabó család június havi költségvetése",
+      " "
+    ],
+    [
+      "Forrás: ",
+      "saját szerkesztés"
+    ],
+    [
+      "Majd lássuk a háztartási napló alapján, hogy valósult meg a tervezett költségvetés ebben a hónapban."
+    ],
+    [],
+    [
+      "Szabó család június havi háztartási naplója",
+      " "
+    ],
+    [
+      "Forrás: ",
+      "saját szerkesztés"
+    ],
+    [
+      "A kiadások elemzése során megfigyelhető, hogy néhány kiadási tételt kicsit a tervezetthez túlköltött a család, de ennek ellenére is sikerült némi megtakarítást realizálni. Ha összesítjük a háztartási napló alapján a kiadásokat kategóriák szerint, akkor elemezhető, hogy melyik területen történt a tervezetthez képest túlköltés."
+    ],
+    [
+      ""
+    ],
+    [
+      "Összehasonlító táblázat: a család tényleges kiadásainak alakulása a tervezetthez képest",
+      " "
+    ],
+    [
+      "Forrás: ",
+      "saját szerkesztés"
+    ],
+    [
+      "A költségek összehasonlításából látható, hogy a család a tervezettnél lényegesen többet költött ruházatra. Biztosan a tervezéskor nem számoltak azzal, hogy egy családi ünnepi eseményen kell megjelenniük, és hát anyának nem volt egy rongya sem, amit felvehetett volna. "
+    ],
+    [
+      "Az Évinek adott támogatás pedig egyáltalán nem került betervezésre. Ez valószínűleg egy váratlan kiadás."
+    ],
+    [
+      "Érdekes megfigyelni az elemzés során azt is, hogy hogyan alakul a ",
+      "kiadások",
+      " megoszlása. "
+    ],
+    [
+      ""
+    ],
+    [
+      "Kiadások megoszlása",
+      " "
+    ],
+    [
+      "Forrás: s",
+      "saját szerkesztés"
+    ],
+    [
+      "Érdekes megfigyelni, hogy az összes költség több mint 50%-át az élelmiszerre fordított összeg teszi ki."
+    ],
+    [
+      "A következő ábra segít értelmezni, hogy a bevételek",
+      "et milyen kiadásokra fordították",
+      "."
+    ],
+    [
+      ""
+    ],
+    [
+      "Kiadások a bevétel arányában"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [
+      "Ezen az ábrán az látó",
+      ", hogy az összes, ténylegesen befolyt bevételt mi",
+      "lyen típusú kiadásokra költötték. Az összes bevétel 45%-á",
+      "t",
+      " fordítottá",
+      "k élelmiszer beszerzésére, 9%-át ruházatra. A rezsi költségre fordított kiadás csak a bevételek 7%-át teszik ki."
+    ],
+    [
+      "Jó hír viszont, hogy a család a túlköltekezés ellenére a bevételeinek 12%-át tudta megtakarítani június hónapban. Ezt nem költötték el, tartalékolták a következő időszak váratlan eseményeire",
+      ", vagy befektetési céllal tették félre",
+      ". Talán adhatunk majd nekik némi segítséget a következő anyagrész tanulmányozása után, hogy mit is kezdhetnének a megtakarítás összegével."
+    ],
+    [
+      "Ez az anyagrész rávilágított arra, hogy a háztartásoknak nagyon fontos feladat",
+      "a",
+      " az ésszerű gazdálkodás. Az erőforrásaik felhasználásával szerzett bevételeket tudják kiadásaikra fordítani, amelyet egy költségvetés elkészítésével ",
+      "lehet",
+      " megtervezni. A tervekhez képest jó, ha tudják, hogyan alakulnak tényleges költéseik. Ennek kimutatására a háztartási napló adhat válaszokat. Érdekes ",
+      "és tanulságos annak összehasonlítása és elemzése, hogy mely kiadásoknál látható eltérés a tervezetthez képest. Célszerű kideríteni az eltérések okát, és ha szükséges, akkor intézkedési tervet készíteni a költségek optimalizálása érdekében."
+    ],
+    [
+      "A háztartások pénzgazdálkodása. a megtakarítások és hitelek szerepe"
+    ],
+    [
+      "A pénzügyi tudatosság egy háztartásban akkor működik helyesen, ha a háztartás minden tagja részt vesz a családi költségvetés elkészítésében. Közösen határozzák meg a felmerülő szükségleteket, azokat rangsorolják, és adott esetben lemondjanak a megvalósíthatatlan vágyaikról. Fontos, hogy a szülők bevonják a gyermekeket is",
+      " a",
+      " tervezésbe, hiszen már ebben a korban megtanulják, hogy mi mennyit ér, mennyit kell dolgozni egy-egy hőn áhított telefonért, divatos ruháért, menő cuccért."
+    ],
+    [
+      "A tudatos gazdálkodás célja, hogy minél több szükségletet tudjon a család kielégíteni, elősegítse a hosszú távú célok elérését, anyagi biztonságot teremtsen."
+    ],
+    [
+      "A háztartások pénzgazdálkodása"
+    ],
+    [
+      "Bank",
+      "számla",
+      " vagy a pénztárcánk?"
+    ],
+    [
+      "A család",
+      " pénzügyi tervezés kapcsán azt is fontos eldönteni, hogy a család hol tartsa a pénzét. Például anya és apa külön bank",
+      "számlát vezessen, vagy legyen egy közös ",
+      "számla. ",
+      "Az is l",
+      "ehet, hogy inkább készpénzt ",
+      "részesítik",
+      " előnyben. Ennek azonban az egyik hátránya, hogy mivel szem előtt van, nehezebb megállni, hogy el ne költsék. Égeti a zsebüket. Célszerű a közös bankszámla vezetése, de ez csak abban az esetben tud működni, ha meghatározzák, hogy ",
+      "ki, ",
+      "mekkora összeg felett rendelkezhet szabadon. A legtöbb üzletben, szolgáltatónál, de már a piacon is lehetőség van bankkártyával, vagy egyéb készpénzt helyettesítő módon vásárolni. Ilyen lehet például utalvány, telefonos applikáció, de akár az okos órával a fizethetünk."
+    ],
+    [
+      "A fizetések lebonyolítása tehát történhet készpénzzel, bankkártya használatával, de lehet a bank internetes felületén á",
+      "tutalás",
+      "sal is. "
+    ],
+    [
+      "A bankkártyás vásárlás és a pénzutalás feltétele, hogy az a személy, aki vásárol, rendelkezzen egy bankszámlával valamely pénzintézetnél. A bank a pénzt az ügyfél bankszámláján tartja nyilván, mi",
+      "nt egyfajta virtuális pénztárcában",
+      ". Kezeli az ügyfél pénzügyeit, a bevételeit és a költéseit. Ezért számlavezetési díjat számol fel. A bankkártyás fizetések többnyire ingyenesek, de az átutalásokért, a készpénz felvételéért és a számla kezeléséért fizetni kell. ",
+      "Erre a számlára érkezik a munkabér, a nyugdíj, a társadalmi juttatások, és innen fizeti ki az ",
+      "ügyfél a szükséges kiadásait. A befolyó bevételeket jóváírásnak, míg a költéseket terhelésnek nevezzük. A bankszámla nyitó egyenlege mutatja meg, hogy az előző időszakokban mennyi tartalék halmozt",
+      "ódott",
+      " fel. A záró egyenlege összesíti az adott hónapban a befolyó bevételeket, a kiadásokat és megmutatja a hónap végén felhalmozott tartalék összegét. Ezt nevezzük az adott időszakban a bankszámla záró egyenlegének."
+    ],
+    [
+      "A bankszámlához egy vagy több bankkártya is kapcsolódhat, amely helyettesíti a készpénzt. Segítségével ",
+      "lehet ",
+      "fizet",
+      "ni",
+      " a boltban, a fodrásznál, az autószerelőnél, benzinkúton, használhat",
+      "ó",
+      " internetes vásárlás",
+      "o",
+      "k során, de készpénz fel",
+      "vételére is van lehetőség",
+      " a bankszámláról a bankautomatából. "
+    ],
+    [
+      "A ",
+      "bankkártya",
+      " a bank tulajdona, használatáért díjat számolhat fel. Nem rendeltetésszerű használatáért, vagy csalás esetén vissza is vonhatja azt. "
+    ],
+    [
+      "A b",
+      "ankszámlanyitás feltételei, bankszámlák típusai",
+      " "
+    ],
+    [
+      "Bankszámlát egy adott hitelintézetnél az a személy nyithat, aki elmúlt 18 éves. A 18 év alatti fiatalok szülői hozzájárulással rendelkezhetnek bankszámlával. A bankok már egészen kisgyermekeknek is ajánlanak banki szolgáltatáscsomagot, bankkártyát is igényelhetnek a számlához. Ennek eredményeképpen hamarabb kialakul a pénzügyi tudatosság, megtanulják a korszerű pénzkezelés fontosságát. Biztonságban van a pénz egy osztálykirándulás alkalmával, nem veszíti el, és nem égeti a zsebét."
+    ],
+    [
+      "Ha a pénzt egy bankszámlán szeretnénk tartani, akkor el kell döntenünk, hogy melyik kereskede",
+      "l",
+      "mi bank, milyen típusú számláját válasszuk!"
+    ],
+    [
+      "Nagy értékű beszerzések"
+    ],
+    [
+      "Különösen tudatos mérlegelést igényel, ha a háztartás kiadásai között egy nagyobb értékű eszköz beszerzése, vagy szolgáltatás igénybevétele merül fel a közeljövőben. I",
+      "lyen lehet",
+      " például egy lakás",
+      "cse",
+      "re, kocsibeszerzés, lakásfelújítás, vagy egy nagyobb értékű háztartási gép beszerzése."
+    ],
+    [
+      "A termékek beszerzése esetén célszerű tájékozódni a különböző üzletek kínálatai között. ",
+      "El",
+      " kell dönteni, hogy milyen műszaki paraméreteket, tulajdonságokat ",
+      "érdemes előtérbe ",
+      "helyez",
+      "ni",
+      ".",
+      " Például legyen energi",
+      "at",
+      "akarékos a hűtő, csendes a mosógép, alacsony fogyasztású a gépkocsi. A",
+      "rra is kell gondolni, hogy a",
+      " h",
+      "áztartás mé",
+      "retének megfelelő",
+      " mosogatógépe",
+      "t",
+      " kell választani",
+      ", ",
+      "vagy egy akkora hűtőszekrényt, amely befér a régi helyére. Fontos szempont még a költségkeret meghatározása is. Ennek fényében érdemes prospektusokat, internetes ár-összehasonlító alkalmazásokat ",
+      "használni, hogy ",
+      "a legmegfelelőbb termék kerüljön kiválasztásra",
+      ", szem előtt tar",
+      "tva annak ár-érték arányát. Ha ",
+      "eldőlt",
+      ", hogy melyik terméket vásárol",
+      "ják",
+      " meg",
+      ", akkor fontos lehet még a szállítás, beüzemelés költsége, a termékhez kapcsolódó garancia, esetleg a ",
+      "kipróbálás után a ",
+      "visszavásárlás lehetősége."
+    ],
+    [
+      "A szolgáltatások esetében érdemes több szakember véleményét, árajánlatát kikérni és ezek összehasonlításával a döntést meghozni. Ez lehet egy lakásfelújítás, kertrendezés stb."
+    ],
+    [
+      "Megtakarítások, befektetések"
+    ],
+    [
+      "Megtakarítások"
+    ],
+    [
+      "Abban az esetben, ha a háztartási napló tanúsága szerint a bevételek meghaladják a kiadásokat, pénztöbblet keletkezik. Ezt, a későbbiekben szabadon felhasználható pénzösszeget ",
+      "megtakarítás",
+      "nak nevez",
+      "i",
+      "k. A megtakarításnak a család életkörülményeitől, terveitől függően többféle célja is lehet."
+    ],
+    [
+      "Gyűjthet jövőbeni nagyobb értékű kiadásra. "
+    ],
+    [
+      "Fel kell készülni a családnak a rendkívüli, váratlan helyzetekre. Mi lesz, ha anya, vagy apa elveszíti az állását. Egy betegség, vagy baleset miatti jövedelemkiesés sem jönne jól. Káresemény is történhet."
+    ],
+    [
+      "A szülők készülhetnek előre a nyugdíjas éveire is.",
+      " "
+    ],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [
+      "",
+      ""
+    ],
+    [],
+    [
+      ""
+    ],
+    [],
+    [],
+    [
+      "Megtakarítások célja",
+      " "
+    ],
+    [
+      "Forrás: ",
+      "saját szerkesztés"
+    ],
+    [
+      "A megtakarítások összege függ a család jövedelmétől, költési szokásaitól, szükségleteitől",
+      ". A szükségletek korlátozásával, azaz takarékoskodással",
+      " nagyobb összegű megtakarítást ",
+      "lehet",
+      " elérni, melyről tudatos döntést kell hozn",
+      "i. Ahhoz, hogy a megtakarítás",
+      " összeg",
+      "e",
+      " tovább ",
+      "növekedjen",
+      ", akár kamat formájában, célszerű annak befektetéséről dönteni."
+    ],
+    [
+      "Befektetések"
+    ],
+    [
+      "Ha a háztartásnak keletkezik megtakarítása, akkor több lehetőség közül választhat. "
+    ],
+    [
+      "A befektetés célja a pénztermelés, többletjövedelem elérése. ",
+      "Mielőtt a befektetési formáról döntene a család, mérlegelnie kell, hogy mennyi pénzről, milyen időtartamra tud lemondani, amíg arra az összegre biztosan nem lesz szüksége."
+    ],
+    [
+      "Vegyük számba a lehetőségeket:"
+    ],
+    [
+      "Készpénz, vagy bankszámla. Nem a legmegfelelőbb megoldás a pénz befektetésére, hiszen nem, vagy csak csekély összegű kamatot termel. Mivel azonnal rendelkezésre áll, így az elköltése is veszélyt jelent a megtakarítás gyarapítására."
+    ],
+    [
+      "Lekötött bankbetét. ",
+      "Ezen",
+      " a számlára hosszabb-rövidebb ideig ",
+      "lehet pénzt lekötni",
+      ". Pár",
+      " hónaptól egészen 2-3 évig. Miné",
+      "l hosszabb időre mond le a pénz használatáról",
+      " a tulajdonosa",
+      ", annál ",
+      "nagyobb általában a kamat mértéke. Az itt tárolt megtakarítás biztonságban van, az állam annak visszafizetését garantálja."
+    ],
+    [
+      "Állam",
+      "kötvény",
+      ". Ez az értékpapír is lejáratát tekintve néhány hónapt",
+      "ól 2-3 évig helyezi biztonságba",
+      " a lekötött összeget. Kamata általában hasonló, mint a bankbetét esetében. Ez is nagyon biztonságos befektetési forma, állami garanciavállalás mellett."
+    ],
+    [
+      "Egyéb értékpapírok: ",
+      "részvény",
+      " és kötvény. Kötvényt nem csak az állam bocsáthat ki, egyéb gazdálkodók értékpapírjai is megtalálhatóak a piacon. A számlát vezető bank is adhat remek ajánlatot. Ezek kamata általában magasabb, mint az állampapírok esetében, de a kockázata is némiképp magasabb. Ha a lejárat előtt szükség lenne mégis ",
+      "a befektetett összegre, akkor a kamaton kívül akár a befektetett tőke egy része is elveszhet. A részvény megvásárlásával a befektető a vállalkozó tulajdonosává válik a megszerzett értékpapír arányában. A részvény hozama a vállalkozás gazdálkodásának a nyereségéből kerül kifizetésre. Ezt a hozamot nem garantálja senki. Ha a vállalkozás veszteségesen gazdálkodik, akár a befektetett összeg is elveszhet. Ha a gazdálkodás nyereséget termel, akkor a hozam más értékpapírok által kínált hozamnál lényegesen magasabb is lehet. De ez egy kockázatos befektetés és a részvény megvásá",
+      "r",
+      "lására fordított, befektetett összeghez a befektető csak a részvény tovább",
+      " ",
+      "értékesítése után juthat hozzá.",
+      " Részvényt nem csak az osztalék elérése miatt vásárolhat a befektető. Előfordul, hogy magasabb áron értékesíteni tudja, mint amennyiért korábban megvásárolta. Ezt árfolyamnyereségnek nevezzük. "
+    ],
+    [
+      "Lakástakarékpénztár",
+      ". Ez a befektetési forma hosszabb időtartamra való pénzösszeg lekötését feltételezi. A befektetés jelentős összegű állami támogatással egészül ki, mely lényegesen magasabb a betéti kamatok mértékénél. Ez a félretett összeg azonban csak lakásvásárlás vagy ",
+      "-",
+      "felújítás céljára használható fel."
+    ],
+    [
+      "Vagyontárgy beszerzése. Ez lehet akár ingatlan, melynek a bérbeadásából realizálható rendszeres jövedelem, de lehet nagy értékű műtárgy, vagy befektetési arany is. Ezeknek a vagyontárgyaknak a megszerzése során abból indul ki a befektető, hogy később magasabb összegért tudja értékesíteni, mint amennyi a megszerzésre fordított összeg volt."
+    ],
+    [
+      "A befektetési lehetőségek közötti döntés során mérlegelni kell a befektetőnek, hogy milyen összeget, mennyi időre szeretne lekötni és ezért cserébe mekkora kockázatot tud vállalni. Kisebb összeg befektetése esetén nem érdemes bonyolult ügyletet választani. Ha a befektetés időtartama rövid, akkor nem ",
+      "célszerű",
+      " részvénybe fektetni vagy ingatlant, vagyontárgyat vásárolni, hiszen ezek értékesítése hosszabb időt is igénybe vehet. ",
+      "Okos döntés",
+      " lehet a befektetni kívánt megtakarítások összegét esetleg megosztani a különböző lehetések között."
+    ],
+    [
+      "Hitelek szerepe"
+    ],
+    [
+      "Minden háztartás kerülhet olyan helyzetbe, hogy a tervezett beszerzésre vagy egy váratlan helyzet megoldására nincs elég megtakarítás",
+      "a",
+      ", vagy a költségvetés tervezésénél látható, hogy ",
+      "a bevételek nem fogják fedezni a várható kiadásokat. Olyan helyzet is előfordulhat, hogy egy beszerzést hamarabb szeretnén",
+      "e",
+      "k megvalósítani, mint ahogy a megtakarításokból összejönne rá a megfelelő pénzösszeg. Például adódik egy kedvező lehetőség a kocsicserére, de a régit még nem tudt",
+      "á",
+      "k eladni. Nézzük, hogyan és milyen feltételekkel ",
+      "lehet ",
+      "mihamarabb pénzhez jutni.",
+      " ",
+      " Ha hitelt veszünk fel, és azt felhasználjuk, akkor vállaljuk, hogy a kapott összeget majd a jövőben megszerzett jövedelmünkből részletekben visszafizetjük. ",
+      "Ennek mindenképp megvan az a kockázata, hogy esetleg egy váratlan esemény (betegség, munkanélküliség) mia",
+      "tt a háztartás bevétele csökken.",
+      " ",
+      "Ezért n",
+      "ehézséget okozhat a hitel törlesztése."
+    ],
+    [
+      "Dönteni kell tehát",
+      " a vásárlás elhalasztásáról",
+      ", és tovább",
+      "i megtakarítások összegyűjtéséről",
+      ", vagy ",
+      "hitel felvételéről, amely segítségével ",
+      "hamarabb",
+      " juthatn",
+      "a",
+      "k hozzá a kiválasztott ",
+      "termékhez, szolgáltatáshoz",
+      ". Ese",
+      "tleg kölcsön ",
+      "k",
+      "ér",
+      "ne",
+      "k egy baráttól, rokontól. Igen, megoldást jelenthet egy baráti kölcsön is, de mérlegeln",
+      "i",
+      " kell azt a tényt, hogy neki is határidőre szükséges visszafizetni a kölcsönkért összeget, és ha kés",
+      "i",
+      "k, vagy nem tes",
+      "zi meg",
+      ", akár barátságok is tönkre mehetnek emiatt."
+    ],
+    [
+      "Biztonságosabb és személytelenebb a hitelt igénybe venni egy pénzintézettől. Számolni kell azonban azzal, hogy a kölcsönkért pénzösszegen felül a pénz használatáért a bank kamatot fog felszámítani."
+    ],
+    [
+      "Nézzük mik a lehetőségek és a feltételek."
+    ],
+    [
+      "Hitelek típusai"
+    ],
+    [
+      "A hitelintézetek magánszemélyeknek és vállalkozásoknak többféle hitelkonstrukciót ajánlanak. A vállalkozásoknak kínált hitelek általában a vállalkozás zökkenőmentes működését (fizetőképességet)",
+      " szolgálják",
+      ", vagy a szü",
+      "kséges eszközök beszerzésére kí",
+      "nálnak pénzügyi forrást."
+    ],
+    [
+      "A magánszemélyeknek kínált hitel",
+      "ek",
+      " különbözhetnek egymástól a futamidőben, a kamat mértékében, kockázatukban, de eltérőek lehetnek a felhasználási célok is. A különböző hitelek feltételeinek összehasonlításában több internetes oldal is segítséget nyújthat."
+    ],
+    [
+      "Lássuk, milyen típusú hiteleket különböztetünk meg egymástó",
+      "l:"
+    ],
+    [
+      "Fogyasztási célú hitelek például áruvásárlásra, gépkocsi beszerzésére nyújtanak forrást. Sok áruház egy-egy nagyobb értékű árucikk beszerzése során azonnal fel is ajánlj",
+      "a",
+      " a hitel lehetőségét, ezzel is ösztönözve a fogyasztást. Nem baj, ha nincs most ",
+      "pénzed, de vidd az árut, akár kamatmentesen is, majd ráérsz később kifizetni. Az ilyen gyors döntés kapcsán az emberek nagyrésze ",
+      "akkor ",
+      "nem méri fel azonnal, hogy később lesz-e pénze visszafizetni a hitelt, és ezzel ",
+      "később ",
+      "sokszor átmeneti pénzzavarba is kerülhet. A nagyobb értékű eszközök (pl. gépkocsi) beszerzése kapcsán már általában körültekintőbbek és megfontolt döntést hoznak az emberek, hiszen a hitel futamideje több év is lehet. Ez előzetes számításokat, hosszabb távú pénzügyi tervezést kíván. "
+    ],
+    [
+      "Lakáscélú hitelek lakás vásárlására, felújítására szolgálnak.",
+      " A felhasználása kötött célú, másra nem költhető el. A bank elvárja a felhasználás igazolását adásvételi szerződés vagy számlák bemutatása útján. Általában hosszú futamidejű",
+      " (5-15 év)",
+      " hitelek. A kamat viszonylag alacsony és a fiatal, gyermeket vállaló családok visszafizetési kedvezményt, esetleg további kamatkedvezményt is kaphatnak. A hosszú futamidő miatt különösen megfontolt döntést vár el a családoktól és nagyon körültekintő a bank, hitelintézet is a folyósítás előtt. "
+    ],
+    [
+      "Egyéb hitelek, melyek felhasználását a bank nem korlátozza. Szabad felhasználású hiteleknek is szokt",
+      "á",
+      "k nevezni. A futamidő többnyire rövid, maximum 2-3 év. Mivel bármire felhasználható, emiatt a kamata is magasabb a korábban felsorolt hiteleknél."
+    ],
+    [
+      "A hitelfelvétel esetében a visszafizetési kötelezettség és a kamat mértéke mellett további kockázatokkal is számolni kell. A háztartás bevételeinek fedeznie kell a törlesztő részletet és a kamatot. Ennek a mértékéről a hitelszerződés pontos iránymutatást ad. Vannak azonban változó kamatozású hitelek is, amelyek mértékét a gazdasági környezet befolyásolja. Nehezebben lehet előre tervezni, sok esetben a kamat mértékének növekedése egy-egy nemzetgazdasági vagy világgazdasági válság hatására jelentős is lehet."
+    ],
+    [
+      "Emel",
+      "lett a hitelt nem csak magyar fo",
+      "rintban, hanem idegen ország p",
+      "é",
+      "nznemében (devizában) is folyósíthatja a bank. A hitel összegé",
+      "t devizában állapítja meg",
+      ", majd a folyósítás időpontjában forintösszegre váltja. A törlesztés is devizában történik, de a magánszemély az összeget forintban indítja, a bank pedig a törlesztés időpontjában érvényes",
+      " árfolyamon számítja",
+      " be",
+      ". Ez jelentős árfolyamkockázatot jelent."
+    ],
+    [
+      "Minezek figyelembevételével a háztartásoknak a hitelfelvétel kapcsán is körültekintően kell eljárniuk, megfontolt döntést kell hozni."
+    ],
+    [
+      "A h",
+      "itelfelvétel feltételei, kockázatok enyhítése"
+    ],
+    [
+      "A hitel visszafizetése azt jelenti, hogy az adós, a hitel felvevője havonta törleszti a kölcsönvett pénz összegét, annak kamatát és egyéb költségeit. A hitel felvétele előtt a kölcsönvevő kérelemmel fordul a választott hitelintézethez. Ebben részletesen felt",
+      "ü",
+      "nteti a hitel célját és garanciát vállal arra, hogy a hitel összegét képes lesz a későbbiek során visszafizetni. Az adott szó nem ér túl sokat ebben az esetben, a bank konkrétumokat vár el a leendő adóstól.",
+      " Ezt ",
+      "hitelbiztosíték",
+      "nak nevezzük."
+    ],
+    [
+      "A hitelkérelem benyújtásával az adósnak igazolnia kell, hogy rendszeres jövedelemmel rendelkezik, van munkahelye, állandó bevételi forrása. Ha önmagában nem tartja elegendő biztosítéknak a bank az igazolt összeget, akkor egyéb garanciákat is kérhet. Ilyen lehet például egy adóstárs, kezességvállaló rokon vagy barát, esetleg valamilyen zálogtárgy. Ha a zálog tárgya például egy ingatlan, akkor bank jelzálogot, zálogjogot jegyeztet be az ingatlanra a hivatalban. Ez korlátozza az adóst az ingatlan értékesítése kapcsán. A bank ezen vizsgálatát ",
+      "hitelminősítés",
+      "nek nevezzük.",
+      " A bank kockázata tehát elsődlegesen az, hogy az adós késve, vagy egyáltalán nem tudja a hitel törlesztőrészleteit és a kamatot fizetni. A kockázat csökkentése érdekében biztosítékot vár el az adóstól (kezesség, zálogjog). A banknak lehetősége van még ezen kívül a Központi Hitelinformációs Rendszer (KHR) használatára. Ebben az adatbázisban tartják nyilván azoknak az adatit, akik korábban vettek már fel hitelt. Ebből láthatóvá válik, hogy ki a jó adós és kinek volta",
+      "k már visszafizetési problémái."
+    ],
+    [
+      "Ha a bank meggyőződött arról, hogy az adós biztonságosan fizetni tudja a hitel törlesztését, akkor megtörténik a hitelszerződés aláírása. Ez közjegyző jelenlétében ",
+      "zajlik",
+      ", aminek költségét is a hitel felvevője fizeti."
+    ],
+    [
+      "A folyósítás során egyéb költségek is felmerülhetnek, mint pé",
+      "l",
+      "dául hitelbírálati díj, ",
+      "folyósítási- vagy rendelkezésre tartási jutalék, ",
+      "értékbecslés az ingatlan értékének megállapítására,",
+      " amelyek költségét szintén az adós viseli."
+    ],
+    [
+      "A hitel folyósítása után a banknak joga van ellenőrizni a hitel összegének felhasználását abban az esetben, ha a hitelt konkrét céllal vette fel a magánszemély (például lakásvásárlás, felújítás)",
+      "."
+    ],
+    [
+      "Az adósnak",
+      " is",
+      " van kockázata a hitelfelvétel után. Például a változó kamatozású hitel felvétele során a kamat mértékének növekedése, vagy a devizahitel esetében az árfolyam változása. ",
+      "Mindkettő megnöveli a hitellel kapcsolatos kiadásokat a családban. A másik fontos kockázat az, ha a háztartás bevételei csökkennek például egy betegség, baleset, családi esemény kapcsán, és emiatt válik bizonytalanná a kölcsön törlesztése. Ezek a kockázatok megelőzhetők a hitel felvétele előtt alapos tájékozódással és biztosítás megkötésével a kockázatok enyhítése érdekében. "
+    ],
+    [
+      "A hitel felvétele kapcsán nem csak a kamat növeli a visszafizetendő összeget. A hitel elbírálásától a folyósításáig felmerülnek egyéb költségek is, mint például a ",
+      "folyósítási jutalék",
+      ", ",
+      "kezelési költség",
+      ", ",
+      "a rendelkezésre tartási jutalék",
+      ", az ",
+      "értékbecslő díja",
+      ", a ",
+      "közjegyzői díj",
+      ". Általában ezeket a költségeket a folyósított hitel összegéből a bank levonja, visszatartja."
+    ],
+    [
+      "Biztosan találkoztál már reklámokban, hirdetésekben a ",
+      "THM",
+      " kifejezéssel. Teljes hiteldíj mutató általában magasabb értéket mutat, mint a kamat mértéke. Ez a mutató az összes hitelfelvétellel kapcsolatos költséget a folyósított hitel arányában",
+      " fejezi ki",
+      "."
+    ],
+    [
+      "Például ha 1 millió forint hitel",
+      "t",
+      " veszünk ",
+      "fel 1 évre, amelynek a kamata 12",
+      "%, folyósítási jutalék a hitel 1",
+      ",5 ",
+      "%-a, akkor:"
+    ],
+    [
+      "Kamat összege",
+      ": 1 000 000*12%= 12",
+      "0 000 Ft"
+    ],
+    [
+      "Folyósítási jutalék: 1 000 000*1",
+      ",5%= 15",
+      " 000 Ft"
+    ],
+    [
+      "Folyósított összeg: 1 000 000-15",
+      " 000= 9",
+      "85",
+      " 000 Ft"
+    ],
+    [
+      "Ennek a hitelnek a teljes hiteldíj mutatója (THM): ",
+      "(120 000+15 000)/985 000= 0,1371 azaz 13,71%"
+    ],
+    [
+      "Ebből a példából is látható, hogy a hitel felvevőjének a hitellel kapcsolatos összes kiadását a THM pontosabban mutatja, ezzel kell számolnia, a hitel összes költségét szeretné megtudni."
+    ],
+    [
+      "Az előző példában a hitelt egy évre vettük fel. Ezt az időtartamot nevezzük a ",
+      "hitel futamidejé",
+      "nek. Ez alatt az időszak alatt fizeti vissza az adós a teljes hitel összegét és annak kamatát."
+    ],
+    [
+      "Előfordul olyan eset, amikor a hitel felvételét követően a bank eltekint egy bizonyos ideig a hitel összegének törlesztésétől. Ezt ",
+      "türelmi idő",
+      "nek nevezzük. Ez alatt az időszak alatt tehát törlesztés nem történik, csak a hitel összegének használatáért a kamatot kell fizetni. "
+    ],
+    [
+      "Ezzel azért érdemes tisztában lenni, mert befolyásolja a család költ",
+      "ségvetési kiadásainak összegét."
+    ],
+    [
+      "Adósságkezelés"
+    ],
+    [
+      "A hitel visszafizetése ",
+      "során",
+      " a legnagyobb körültekintés ellenére is adódhatnak olyan helyzetek, ami miatt az adós nem tudja a felvett hitelt pontosan, határidőre törleszteni. Ha a fizetési nehézség csak egy átmenet",
+      "i",
+      " pénzzavar miatt van, akkor általában nagyobb gond nélkül a probléma megoldódik, de lehetnek hosszabb távú ",
+      "nehézségek",
+      " is."
+    ],
+    [
+      "Ebben az esetben az adósnak tájékoztatnia kell a hitelt nyújtó bankot, hogy közösen tudják a kialakult helyzetet megoldani. Mindenkinek az az érdeke, hogy a hitel határidőre visszafizetésre kerüljön. "
+    ],
+    [
+      "A nemfizetéshez vezető okok lehetnek:"
+    ],
+    [
+      "Családi helyzet változása: egy kisbaba érkezése a családba, házasságkötés, válás, elhalálozás."
+    ],
+    [
+      "Egészségi állapot romlása: tartósabb betegség, rokkantság"
+    ],
+    [
+      "Munkahelyi körülmények megváltozása: bércsökkenés, munkanélkülivé válás"
+    ],
+    [
+      "Természeti katasztrófák: árvíz, tűzvész, földrengés, hurrikán"
+    ],
+    [
+      "Világgazdasági, nemzetgazdasági",
+      " ",
+      "változások: infláció, háború, gazdasági válság."
+    ],
+    [
+      "Ha bármilyen okból az adós nem tud fizetni, lejárt esedékességű tartozást halmoz fel, az súlyos következményekkel járhat. A bank szempontjából szerződést szegett, hiszen a szerződésben vállalt kötelezettségeit nem teljesítette. Először a bank felszólítja és figyelmezteti fizetési kötelezettségére. Ha a tartozását továbbra sem tudja fizetni, akkor valamilyen áthidaló megoldást keresnek. Ily",
+      "en megoldások lehetnek például "
+    ],
+    [
+      "a hitel átütemezése a futamidő megnövelésével. Ezzel a törlesztőrészletek összege csökken, de a futamidő növekedése miatt összességében több lesz a kamat."
+    ],
+    [
+      "egy másik, kedvezőbb feltételeket biztosító hitellel váltják ki az előzőt. Ebben az esetben átmenetileg megoldódik a probléma, de az új hitel megkötése során az adósnak újra meg kell felelni a hitelminősítési eljáráson."
+    ],
+    [
+      "az adós vagyonát értékesíti. Valami olyan vagyontárgyától lesz kénytelen megválni, mely nem szolgált a hitel fedezetéül. "
+    ],
+    [
+      "új erőforrások mozgósítása. Ez lehet például a munkahelyen túlmunka vállalása, mely magasabb jövedelmet eredményezhet, de kevesebb szabadidővel jár."
+    ],
+    [
+      "a család költségvetési egyensúlyának helyreállítása. Ez szigorú pénzkezelést jelent. A bevételek szinten tartása mellett a költségek csökkentése révén le kell mondania a család tagjainak egyes szükségleteikről. Ha nem sikerül konstruktív megoldást találni, akkor a bank felbontja az adóssal kötött hitelszerződést, egyösszegben követeli vissza a hátralévő hitelt kamattal együtt. Mivel az adós fizetni nem tud, így a bank érvényesíti a biztosítékok által nyújtotta lehetőséget. Követeli az összeg megfizetését a kezestől, adóstárstól, értékesíti a zálogtárgyat. "
+    ],
+    [
+      "A háztartások vagyona"
+    ],
+    [
+      "A háztartások egyik fontos erőforrása a vagyon. Vagyonról akkor beszélünk, ha a család tulajdonában nagy értékű, mások számára értékes tárgyakat találunk."
+    ],
+    [
+      "Ezek lehetnek például egy lakás, kocsi",
+      ",",
+      " nyaraló, értékes festmény, műtárgy, ékszer."
+    ],
+    [
+      "A megszerzésükre fordított forrás lehet a háztartás megtakarításaiból származó pénzösszeg, de ezek a vagyontárgyak megszerezhetők hitel bevonásával is."
+    ],
+    [
+      "Ami",
+      "att fontos erőforrások, hiszen "
+    ],
+    [
+      "hasznosításukkal bevételt tud a háztartás realizálni, mert például a nyaralót bérbe lehet adni."
+    ],
+    [
+      "fedezetéül szolgálhat a hitelnek, mint zálog, jelzálog tárgy."
+    ],
+    [
+      "sürgős bevétel szerzés esetén értékesíteni lehet."
+    ],
+    [
+      "Minél nagyobb értékű vagyont tud a háztartás felhalmozni, annál nagyobb az anyagi biztonsága."
+    ],
+    [
+      "Összefoglaló"
+    ],
+    [
+      "Megtanultuk, hogy a háztartás az együtt élő és erőforrásaik egy részét közösen felhasználó, azaz közösen gazdálkodó emberekből áll.",
+      " Ha a háztartás egy családból áll, akkor az összes erőforrásukat közösen, képességüket és idejüket felhasználva, ",
+      "egymást támogatva hasznosítják. H",
+      "a a háztartás barátok közösségéből áll, akkor az erőforrásoknak csak egy részét hasznosítják közösen",
+      ".",
+      " A háztartás tagjainak célja, hogy szükségleteiket kielégítsék. Mivel az erőforrások szűkösen állnak rendelkezésre, a szükségletek pedig újra és újra jelentkeznek, vagy újak keletkeznek, így elengedhetetlen az erőforrásokkal való ésszerű gazdálkodás."
+    ],
+    [
+      "A család felelős gazdálkodásának az egyik alapelve a jövőre való tudatos felkészülés. Gondolni kell például a gyermekvállalásra, a gyermekek taníttatására, a nyugdíjas évekre, de azt sem szabad szem elől téveszteni, hogy a család bármikor kerülhet váratlan helyzetbe, mely anyagi nehézséget jelenthet. Ilyen helyzet lehet egy váratlan betegség, baleset, káresemény, munkanélküliség, haláleset.",
+      " Ezek az események nem csak többletkiadásokat eredményeznek, de negatív hatással lehetnek a tervezett bevételek nagyságára is."
+    ],
+    [
+      "Az ésszerűen gazdálkodó család tehát tervezi a várható bevételeit és kiadásait, rangsorolja szükségleteit és tartalékot képez a váratlan helyzetekre. Ennek az egyik kézenfekvő módszere a családi költségvetés készítése és a háztartási napló segítségével a tényleges kiadások nyomon követése és elemzése. ",
+      "A családok nagy része nem fordít figyelmet erre a tervezésre, hiszen nagyságrendileg tisztában vannak a rendszeres kiadásaikkal, de az apróbb költésekkel nem számolnak. Pontosan ennek van a legnagyobb jelentősége a tervezés során. Van olyan háztartás is, aki a befolyt bevételből azonnal kifizeti a legszükségesebb kiadásokat, aztán ha marad, azt is elkölti valamilyen haszontalan dologra. Ezek a családok nem gondolnak a holnapra, csak a mának ének."
+    ],
+    [
+      "Mindegyik példa helytelen, hiszen a gazdálkodás folyamatos figyelemmel kísérése segít a hosszú távú céljaink elérésében, a felhalmozott adósságok kifizetésében vagy a nagyobb megtakarítások elérésében. A kiadások fontossági sorrendjét a háztartás tagjai közösen határozzák meg és erőfo",
+      "rrásaikat ennek rendelik alá."
+    ],
+    [
+      "Ha a háztartások bevételei tartósan meghaladják a kiadásokat, akkor megtakarításuk keletkezik, melyet megfontolt döntéssel, további bevételek megszerzése céljából befektethetnek."
+    ],
+    [
+      "Ha a kiadások meghaladják a bevételeket, és átmeneti pénzhiány lép fel, vagy a fogyasztásukat előbbre szeretnék hozni, mint ahogy annak össz",
+      "e",
+      "ge a megtakarításokból összejönne, akkor a család hitelt is vehet fel. Ez azonban egy jelentős elköteleződés, hosszú távi biztos kiadásokat jelent a hitel törlesztőösszege és kamata.",
+      " A hitel felvétele során mérlegelni kell, hogy a futamidő alatt a család biztosan ki tudja-e gazdálkodni ezeket az összegeket. Mindenek előtt azt kell mérlegelni, hogy a hitelből finanszírozott dologra valóban szüksége van-e a családnak."
+    ],
+    [
+      "Egy biztos, hogy jó, ha minél nagyobb halmoz fel egy háztartás, hiszen annál biztonságosabb a gazdálkodása. Rendelkezik olyan vagyontárggyal, amely pénzzé tehető szükség esetén és a pénzügyi problémák megoldódnak ezáltal."
+    ],
+    [
+      "A tudatosság minden pénzügyi lépést végig kísér egy háztartásban, a döntésekben a háztatás minden tagjának részt kell vennie és hozzájárulni a gazdálkodás sikerességéhez."
+    ],
+    [
+      ""
+    ],
+    [],
+    [
+      "Ábrajegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "Táblázatjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "Irodalomjegyzék"
+    ],
+    [
+      "Dr. Burkáné Szolnoki Ágnes-Merényi Zsuzsanna- Székely Júlia: Küldetések a pénz világában, Budapest, ",
+      "2017",
+      "., Könyvtárellátó Nonprofit Kft "
+    ],
+    [
+      "Pongor-Juhász Attila: ",
+      "Időgazdálkodás: ",
+      "A 9 legjobb időgazdálkodási módszer https://pongorjuhaszattila.hu/idogazdalkodas/ (2024.07.13.)"
+    ],
+    [
+      "Dienerné Szakács Kisztina- Bertók Zsuzsanna: A háztartások gazdálkodása, https://www.studocu.com/hu/document/budapesti-gazdasagi-egyetem/penzugyi-szamvitel-2/a-haztartasok-gazdalkodasa/55983936 (2024.07.13.)"
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Csaba Ágnes"
+      ],
+      [
+        "Szakmai lektor:",
+        "Dr. Burkáné Szolnoki Ágnes"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Gazdálkodás és menedzsment"
+      ],
+      [
+        "Szakma:",
+        "Pénzügyi -számviteli ügyintéző"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Gazdálkodási alaptevékenység ellátása"
+      ],
+      [
+        "Tantárgy:",
+        "Gazdasági és jogi alapismeretek"
+      ],
+      [
+        "Évfolyam:",
+        "9. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "26 óra"
+      ]
+    ],
+    [
+      [
+        "Szerződés szerinti bér",
+        "650 000 Ft"
+      ],
+      [
+        "Jutalom",
+        "100 000 Ft"
+      ],
+      [
+        "Bruttó bér",
+        "750 000 Ft"
+      ],
+      [
+        "Levont személyi jövedelemadó (750 000*15%)",
+        "112 500 Ft"
+      ],
+      [
+        "Levont társadalombiztosítási járulék\n(750 000*18,5%)",
+        "138 750 Ft"
+      ],
+      [
+        "Összes levonás a bérből\n(112 500+138 750)",
+        "251 250 Ft"
+      ],
+      [
+        "Nettó bér (jövedelem)\n(750 000-251 250)",
+        "498 750 Ft"
+      ]
+    ],
+    [
+      [
+        "Megbízási díj összege",
+        "150 000 Ft"
+      ],
+      [
+        "Elszámolható költség\n(150 000*10%)",
+        "15 000 Ft"
+      ],
+      [
+        "Megbízási díjból származó jövedelem\n(150 000-15 000)",
+        "135 000 Ft"
+      ],
+      [
+        "Levont személyi jövedelemadó\n(135 000*15%)",
+        "20 250 Ft"
+      ],
+      [
+        "Levont társadalombiztosítási járulék\n(135 000*18,5%)",
+        "24 975 Ft"
+      ],
+      [
+        "Összes levonás\n(20 250-24 975)",
+        "45 225 Ft"
+      ],
+      [
+        "Nettó megbízási díjból származó jövedelem\n(150 000-45 225)",
+        "104 775 Ft"
+      ]
+    ],
+    [
+      [
+        "Háztartási napló június",
+        "Háztartási napló június",
+        "Háztartási napló június",
+        "Háztartási napló június",
+        "Háztartási napló június",
+        "Háztartási napló június",
+        "Háztartási napló június"
+      ],
+      [
+        " ",
+        "Bevételek",
+        "Bevételek",
+        " ",
+        " ",
+        "Kiadások",
+        "Kiadások"
+      ],
+      [
+        "június 3.",
+        "családi pótlék",
+        "12 200 Ft",
+        " ",
+        "június 2.",
+        "élelmiszerek",
+        "86 515 Ft"
+      ],
+      [
+        "június 4.",
+        "anya fizetése",
+        "335 210 Ft",
+        " ",
+        "június 3.",
+        "utazási bérlet anyának",
+        "12 500 Ft"
+      ],
+      [
+        "június 4.",
+        "nagymama nyugdíja",
+        "145 600 Ft",
+        " ",
+        "június 4.",
+        "tankolás",
+        "21 450 Ft"
+      ],
+      [
+        "június 4.",
+        "nagypapa nyugdíja",
+        "243 758 Ft",
+        " ",
+        "június 4.",
+        "ebédelőfizetés Petinek",
+        "21 630 Ft"
+      ],
+      [
+        "június 5.",
+        "apa munkanélküli támogatása",
+        "124 563 Ft",
+        " ",
+        "június 7.",
+        "villanyszámla",
+        "22 963 Ft"
+      ],
+      [
+        "június 9.",
+        "gyümölcs értékesítése piacon",
+        "112 460 Ft",
+        " ",
+        "június 7.",
+        "gázszámla",
+        "4 580 Ft"
+      ],
+      [
+        "június 12.",
+        "nyaraló bérbeadása",
+        "25 400 Ft",
+        " ",
+        "június 7.",
+        "szemétszállítás",
+        "18 620 Ft"
+      ],
+      [
+        "június 21.",
+        "nyaraló bérbeadása",
+        "25 400 Ft",
+        " ",
+        "június 7.",
+        "élelmiszerek",
+        "64 365 Ft"
+      ],
+      [
+        "június 28.",
+        "gyümölcs értékesítése piacon",
+        "28 650 Ft",
+        " ",
+        "június 7.",
+        "hitel törlesztés",
+        "78 500 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        "június 9.",
+        "mozijegyek",
+        "9 600 Ft"
+      ],
+      [
+        " ",
+        "Bevétel összesen",
+        "1 053 241 Ft",
+        " ",
+        "június 9.",
+        "fagyizás mozi után",
+        "3 200 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        "június 13.",
+        "élelmiszerek",
+        "44 695 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        "június 14.",
+        "cipő Petinek",
+        "23 480 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        "június 14.",
+        "kerti eszközök",
+        "12 790 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        "június 16.",
+        "vacsora a közeli étteremben",
+        "72 630 Ft"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "június 16.",
+        "gyógyszerek",
+        "39 450 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        "június 17.",
+        "Évinek lakbérre",
+        "40 000 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        "június 19.",
+        "kaja a kutyusnak",
+        "12 545 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        "június 21.",
+        "tisztítószerek",
+        "35 470 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        "június 22.",
+        "pizza vacsira",
+        "11 450 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        "június 24.",
+        "ruhaneműk",
+        "74 150 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        "június 25.",
+        "anya fodrász",
+        "12 000 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        "június 25.",
+        "vízdíj",
+        "9 950 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        "június 25.",
+        "locsolóvíz",
+        "14 662 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        "június 27.",
+        "élelmiszerek",
+        "45 770 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        "június 27.",
+        "tankolás",
+        "19 880 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        "június 29.",
+        "horgászcsalik papának",
+        "6 590 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        "június 29.",
+        "kerti eszközök",
+        "18 770 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        "június 30.",
+        "élelmiszerek",
+        "88 965 Ft"
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        " ",
+        " ",
+        " "
+      ],
+      [
+        " ",
+        " ",
+        " ",
+        " ",
+        " ",
+        "Kiadás összesen",
+        "927 170 Ft"
+      ]
+    ]
+  ],
+  "headers": [
+    "",
+    ""
+  ],
+  "footers": [
+    "",
+    ""
+  ],
+  "footnotes": [
+    "",
+    ""
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image7.png",
+      "path": null,
+      "bytes": 144810
+    },
+    {
+      "name": "image3.png",
+      "path": null,
+      "bytes": 100266
+    },
+    {
+      "name": "image5.emf",
+      "path": null,
+      "bytes": 18300
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image4.png",
+      "path": null,
+      "bytes": 33592
+    },
+    {
+      "name": "image6.emf",
+      "path": null,
+      "bytes": 18304
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Normal (Web)",
+    "annotation text",
+    "Title",
+    "Cím Char",
+    "Subtitle",
+    "Alcím Char",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "Hyperlink",
+    "Feloldatlan megemlítés1",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Table Grid",
+    "Jegyzetszöveg Char",
+    "11",
+    "9",
+    "Placeholder Text",
+    "Címsor 4 Char",
+    "Caption",
+    "bajusz_téglalap",
+    "bajusz_téglalap Char",
+    "Címsor 5 Char",
+    "ism_kérdések",
+    "ism_kérdések Char",
+    "Képaláírás Char",
+    "kérdés_számozva",
+    "kérdés_számozva Char",
+    "a_ELMS_felsorolás_pötty",
+    "a_ELMS_felsorolás_pötty Char",
+    "szituáció",
+    "fontos tartalom_bekezdés",
+    "fontos tartalom_bekezdés Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "toc 4",
+    "a_ELMS_felsorolás_kötőjel",
+    "betűkiemelés",
+    "List Paragraph",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "példa",
+    "példa Char",
+    "Default",
+    "ábraszám",
+    "footnote text",
+    "Lábjegyzetszöveg Char",
+    "footnote reference",
+    "a_ELMS_felsorolás_betűkkel",
+    "kiegészítő opcionális tartalom_bekezdés Char",
+    "a_ELMS_felsorolás_kötőjel_behúzással",
+    "kiegészítő opcionális tartalom_bekezdés",
+    "fogalmak",
+    "table of figures",
+    "Grid Table 4 Accent 1",
+    "Light List",
+    "Medium List 2 Accent 1",
+    "Light List Accent 3",
+    "Táblázataláírás",
+    "a_ELMS_felsorolás_számokkal",
+    "a_ELMS_kiegészítő tartalom",
+    "a_ELMS_fontos tartalom",
+    "a_ELMS_Címsor 1",
+    "a_ELMS_Címsor 2",
+    "a_ELMS_Címsor 2 Char",
+    "a_ELMS_Címsor 3",
+    "a_ELMS_Címsor 4",
+    "a_ELMS_Címsor 3 Char",
+    "a_ELMS_Címsor 5",
+    "a_ELMS_Címsor 4 Char",
+    "a_ELMS_normál szöveg",
+    "a_ELMS_Címsor 5 Char",
+    "a_ELMS_Ábraaláírás",
+    "a_ELMS_Táblázataláírás",
+    "toc 5",
+    "bajusz_pötty",
+    "bajusz_pötty Char",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "a_ELMS_fogalom",
+    "annotation reference",
+    "FollowedHyperlink",
+    "Feloldatlan megemlítés2",
+    "Revision"
+  ]
+}

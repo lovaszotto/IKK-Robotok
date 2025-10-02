@@ -1,0 +1,2178 @@
+{
+  "core_properties": {
+    "creator": "Nágl Péter",
+    "lastModifiedBy": "Németh Nikolett (ELMS)",
+    "revision": "12",
+    "created": "2024-11-14T15:32:00Z",
+    "modified": "2024-11-15T14:09:00Z"
+  },
+  "app_properties": {
+    "Template": "elms_sablon",
+    "TotalTime": "42",
+    "Pages": "29",
+    "Words": "2649",
+    "Characters": "18285",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "152",
+    "Paragraphs": "41",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "20893",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.28.2  ",
+    "Húskészítmények gyártástechnológiai műveletei és gépei II. – Töltés, formázás",
+    "Témák kézirata",
+    "",
+    "TARTALOMJEGYZÉK",
+    "1\tTöltés-formázás Művelete, Töltőgépek\t2",
+    "1.1\ttöltés-Formázás technológiájának célja\t2",
+    "1.2\tTöltőgépek csoportosítása\t2",
+    "1.2.1\tDugattyús töltőgépek\t3",
+    "1.2.2\tLapátkerék szivattyús töltőgépek\t8",
+    "1.2.3\tCsigás töltőgépek\t11",
+    "1.3\tTöltőgépek kiegészítő berendezései\t14",
+    "1.3.1\tAdagoló-pározó, termékfelszedő berendezések\t15",
+    "1.3.1.1\tCsavarorsós pározó berendezés\t15",
+    "1.3.1.2\tRevolver fejes töltőegység\t17",
+    "1.3.1.3\tKonvejoros termékfelszedő berendezés\t18",
+    "1.3.2\tKlipszelőgépek\t20",
+    "1.3.2.1\tKézi működtetésű klipszelőgépek\t22",
+    "1.3.2.2\tAutomata működtetésű klipszelőgép\t24",
+    "IRODALOMJEGYZÉK\t27",
+    "Ábrajegyzék\t28",
+    "",
+    "Töltés-formázás Művelete, Töltőgépek",
+    "töltés-Formázás technológiájának célja",
+    "A töltés műveletének a technológiai célja az aprítás keveréssel előállított töltőmassza burkolóanyagba, vagy formába töltése, a termék formájának, alakjának kialakítása. A töltőmassza burkolóanyagba, vagy formába töltéséhez a húsiparban töltőgépeket alkalmaznak.",
+    "Töltőgépek csoportosítása",
+    "A töltőmasszát szállító gépelem szerint megkülönböztetünk:",
+    "•\tdugattyús",
+    "•\tlapátkerék szivattyús",
+    "•\tcsigás töltőgépeket",
+    "A töltőgépekkel szemben támasztott alapvető technológia követelmények:",
+    "Fontos követelmény, hogy a töltés művelete során ne kerüljön levegő a töltőmasszába és a betöltött massza kellően tömör állományú legyen. A levegő bekerülése, a légzárványok kialakulásának megelőzése céljából a töltőgépeket vákuumszivattyúval látják el, amely eltávolítja a levegőt a töltés során. ",
+    "A töltőgépek kialakítása során fő szempont, hogy a töltés során a töltőmassza ne kényszerüljön éles irányváltásokra, ellenkező esetben a töltés során a massza kenődik és a mozaikos termékeknél nem alakul ki a megfelelő mozaikos vágásfelület.   ",
+    "Az egyes termékek töltéséhez szükséges paraméterek állíthatók legyenek, a töltőmassza kifolyási sebessége és a töltési nyomás szabályozható legyen.  ",
+    "A töltőgépek a töltőmasszát a töltőcsövön keresztül juttatják a burkolóanyagba. A berendezésekhez különböző átmérőjű, a tölteni kívánt termék átmérőjének megfelelő töltőcsövet lehet csatlakoztatni. A töltőgépekhez tartozó töltőcső a padlószinttől általában 1 méteres magasságban helyezkedik el, így kényelmesen állva végezhető a töltés művelete.",
+    "A töltőgépekhez olyan kisegítő berendezések is telepíthetők legyenek (pl. párózófej, klipszelő berendezés) amelyek elősegítik a gyártási kapacitás növelését, a töltési mellékidők csökkentését. ",
+    "",
+    "A töltőgépek fő részei:",
+    "•\tA töltőmasszát befogadó garat, tartály, vagy parton",
+    "•\tA töltőmasszát a töltőcsőbe juttató gépelem",
+    "•\tA töltőcső",
+    "•\tA hajtómű",
+    "•\tA töltési paramétereket szabályzó vezérlés",
+    "•\tEgyes típusoknál a vákuumszivattyú",
+    "",
+    "Dugattyús töltőgépek",
+    "A töltőhenger elhelyezkedése alapján megkülönböztetünk álló, vagy fekvőhengeres töltőgépeket. ",
+    "",
+    "",
+    "1. ábra: Álló és fekvőhengeres, dugattyús töltőgépek",
+    "Forrás: Saját ábra",
+    "Álló és fekvőhengeres dugattyús töltőgép bemutatása",
+    "",
+    "A töltőhengerbe kézi erővel vagy vákuumtömörítő berendezés segítségével adagolják be a töltőmasszát. A töltő dugattyút olajjal működő hidraulikus működtetésű rendszer mozgatja. A dugattyú a töltőhengerben mozogva kényszeríti mozgásra a töltőmasszát, amely a töltőcsövön keresztül jut a burkolóanyagba. A dugattyús töltőgéppel csak addig lehet tölteni, ameddig a massza ki nem ürül a töltőhengerből. A töltőhenger kiürülése után a dugattyút alaphelyzetbe kell visszaállítani és a töltőhengert újra kell tölteni. A töltőhenger újbóli feltöltése után lehet folytatni a töltést. A fenti technológiai kialakítás miatt a dugattyús töltőgépek szakaszos üzemű berendezések.",
+    "",
+    "",
+    "2. ábra: Fekvőhengeres, dugattyús töltőgép működése",
+    "Forrás: Saját ábra",
+    "",
+    "A dugattyús töltőgép működésének megjelenítése animációban. A 4-es számmal jelölt dugattyú a kék nyíllal ábrázolt irányba mozog. Tolja maga előtt a piros nyíl irányába a töltőmasszát, ami az 1-es számmal jelölt töltőcsövön keresztül távozik a gépből a burkolóanyagba.",
+    "A dugattyús töltőgépek működésének bemutatása",
+    "",
+    "A kör alakú dugattyú szélén műanyag, vagy gumi tömítés található, amely segítségével a dugattyú résmentesen illeszkedik a töltőhenger falához. Így meggátolható, hogy a töltőmassza a dugattyú térbe kerüljön. A vízszintes elrendezésű töltőgép esetében a massza útjában nincs éles irányváltozás, emiatt a töltőmassza nem törik meg, így a termék vágásfelülete tetszetős lesz. ",
+    "",
+    "",
+    "3. ábra: Massza áramlása a vízszintes és függőleges elrendezésű, dugattyús töltőgépekben",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 93.old",
+    "Esetleg a kép alapján animáció is készíthető a massza áramlásáról",
+    "Massza áramlás és a kialakult vágásfelület bemutatása a dugattyús töltőgépek alkalmazása során",
+    "",
+    "A vízszintes elrendezésű dugattyús töltőgépeket a szalámi gyártás és a szárításos érleléssel készült kolbászok előállításánál alkalmazzák.",
+    "A szalámi gyártás technológiájában a szalámi gyártó gépsor egyik egysége a vízszintes elhelyezkedésű dugattyús töltőállomások rendszere. A szalámi pasztát töltés előtt a vákuumos tömörítő berendezés a töltő dugattyútól különálló töltőpatronba tömöríti, majd a teli töltőpatron sínrendszeren keresztül jut el a megfelelő töltődugattyúhoz. A töltődugattyú összekapcsolódik a töltőpatronnal és a dugattyú kinyomja a tömörített szalámi pasztát a töltő partonból. A gépsor több töltőállomásból áll, így több töltőpatron töltése egyszerre megvalósítható. A szalámigyártó gépsor műszaki kialakítása lehetővé teszi, hogy a szakaszos működésű dugattyús töltőgépek töltési mellékideje csökkenjen. ",
+    "",
+    "",
+    "4. ábra: Szalámigyártó gépsor",
+    "Forrás: Saját ábra",
+    "Szalámigyártó gépsorban a dugattyús töltőgépek elhelyezkedésének bemutatása",
+    "",
+    "",
+    "5. ábra: Szalámigyártó gépsor dugattyús töltő egysége",
+    "Forrás: Húsipari gépek jegyzet (Berszán G, 1996) 169. old",
+    "Szalámigyártó gépsorban a dugattyús töltőegységének a bemutatása.",
+    "",
+    "A dugattyús töltőgépek jellemző paramétere a töltőhenger űrmérete, amelyet literben határoznak meg.",
+    "",
+    "Lapátkerék szivattyús töltőgépek",
+    "Darabos, szemcsés, illetve homogén anyagok töltésére is alkalmazható folyamatos üzemű töltőgépek. A töltőmasszát vízszintes, vagy függőleges elhelyezkedésű lapátkerék szivattyú szállítja a töltőcsőbe. ",
+    "",
+    "",
+    "6. ábra: Lapátkerékszivattyús töltőgép",
+    "Forrás: Saját ábra",
+    "Lapátkerékszivattyús töltőgép felépítése.",
+    "",
+    "A töltőmassza szállítását végző szivattyú egy hengeres házból és egy a házban nem központosan (excentrikusan) elhelyezett lapátvezető gyűrűből, lapátokból és egy forgó rotorból áll. ",
+    "A forgó lapátvezető gyűrűkben sugár irányú vájatok vannak, amelyekben mozognak a lapátok. Az excentrikus elhelyezkedés miatt a lapátok olyan kamrákat képeznek, amelyek térfogata a forgás során változik. A térfogat a garat alatt a legnagyobb. Ekkor szívja be a vákuum szivattyú a forgó rész vájataiba a masszát. A vájatok térfogata a lapátok mozgása miatt a töltőcső felé csökken, így juttatva a masszát a cső felé. ",
+    "",
+    "",
+    "7. ábra: Lapátkerékszivattyú töltőegységek",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 98.old",
+    "Lapátkerékszivattyú töltőegységek bemutatása.",
+    "",
+    "A töltőmasszát a gép garatjába adagolják. Az adagolás kézi erővel, vagy szállítókocsi emelő szerkezet segítségével történik. A töltőmasszát a garatból adagolóspirál juttatja a lapátokhoz. Töltés során a masszát szállító lapátkerék és az adagolóspirál szinkronizálva forog. Forgatásukat olaj működtetésű hidromotor végzi. A lapátkerék forgása, ezáltal a töltési sebességet, illetve vákuum nyomás mértékét a berendezés vezérlő rendszerével lehet szabályozni. ",
+    "",
+    "8. ábra: Lapátkerékszivattyús töltőgép töltőegységének működése",
+    "Forrás: https://www.youtube.com/watch?v=JdEgwLygP-A 00:11-től 00:53-ig (2024.07.09.)",
+    "A linken lévő animáció (00:11-től 00:53-ig) alapján animáció készítése.",
+    "Lapátkerékszivattyús töltőgép töltőegységének működésének bemutatása.",
+    "",
+    "Amennyiben a berendezés vezérlő rendszere lehetővé teszi, akkor a töltőgép különböző kiegészítő berendezésekkel, automata, vagy félautomata klipszelő berendezéssel, pározó fejjel, daráló előtéttel is összekapcsolható.",
+    "",
+    "Csigás töltőgépek",
+    "A csigás töltőgépek felépítése hasonló a lapátkerékszivattyús töltőgépekhez. A gép garattal rendelkezik, amelybe a töltőmassza adagolása kézi erővel, vagy szállítókocsi emelő szerkezet segítségével történik. A lapátkerékszivattyús töltőgéphez képest a fő különbség, hogy a csigás töltőgépekben a töltőmassza szállítását a töltőcsőbe a darálókéhoz hasonló csiga végzi el. A töltőmassza a csiga menetei között helyezkedik el. A szállított töltőmassza mennyisége, ezáltal a töltési hatékonyság növelhető, ha a töltőgép két szállító csigával rendelkezik. A csigák ebben az esetben egymással szemben forognak, menetirányuk ellentétes.",
+    "",
+    "9. ábra: Csigás töltőgép",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 101.old",
+    "Csigás töltőgép felépítésének bemutatása",
+    "",
+    "",
+    "10. ábra: Csigás töltőgép töltőszerkezete",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 100.old",
+    "Csigás töltőgép töltőszerkezet bemutatása",
+    "",
+    "",
+    "11. ábra: Csigás töltőgép töltőszerkezet működése",
+    "Forrás: https://www.youtube.com/watch?v=Nn5v59l2Xec 00:00-tól 02:00-ig (2024.07.09.)",
+    "A linken lévő videó (00:00-tól 02:00-ig) tartalmához hasonló animáció bemutatása",
+    "Csigás töltőgép töltőszerkezetének bemutatása",
+    "",
+    "A csigás töltőgép elsősorban vörösáruk töltésénél alkalmazzák, mivel a csigák megtörik a massza mozaikos szerkezetét, a massza kenőcsös állományú lesz, emiatt kolbászfélék és szalámik előállításánál kevésbé alkalmazhatók.",
+    "",
+    "Töltőgépek kiegészítő berendezései",
+    "",
+    "Adagoló-pározó, termékfelszedő berendezések",
+    "Korszerű, számítógépes vezérléssel ellátott töltőgépekhez adagoló-pározó berendezések csatlakoztathatók, amelyek segítik a termék méretének-alakjának kialakítását. A berendezés alkalmazásával egyforma nagyságú párok alakíthatók ki. Az adagoló-pározó berendezésekkel a töltés-formázás művelete automatizálható, a termelékenység növelhető, illetve a töltési mellékidő csökkenthető. ",
+    "",
+    "Csavarorsós pározó berendezés",
+    "A berendezés közvetlenül csatlakoztatható a töltőgéphez. A berendezés egy a töltőcsövet forgató elemből, a töltőcsőből, illetve egy álló konzolból és abban elhelyezkedő forgó gyűrűből áll. A termék párok méretének kialakításához szükséges adagok mennyisége a töltőgép számítógépes vezérlésében állítható be. Az adagokat a töltőgép adagolószivattyúja juttatja a burkolóanyagba. Az adag betöltése után a forgató elem a töltőcsövet megforgatja, a konzol forgó gyűrűje a töltőcsővel ellentétes irányban forog. A töltőcső és forgó gyűrű egymással ellentétes forgása a betöltött töltőmassza utáni bélszakaszt elcsavarja, így alakítva ki a termék párokat. A pározott termék elvezetését a görgős leszorító szerkezet végzi el. ",
+    "",
+    "",
+    "12. ábra: Pározó egység működése",
+    "Forrás: https://www.youtube.com/watch?v=EBcq2D2hkUI (00:25-00:42) (2024.07.09.)",
+    "A pározó fej működése a belinkelt videón 00:25-től 00:42-ig látható.",
+    "A videó szemlélteti a pározó egység működését.",
+    "",
+    "A pározó berendezés ellátható a bélfelhúzó szerkezettel is, ami megkönnyíti a természetes burkolóanyagok felhúzását a töltőcsőre. A burkolóanyag felhúzása a töltőcsőre, annak ívelt oldalával érintkező, ellentétes irányban forgó görgőpár segítségével történik. Egyes bélfelhúzó szerkezetek esetében nem görgőpár, hanem egy nagyméretű görgő végzi el a burkolóanyag felhúzását a töltőcsőre. ",
+    "",
+    "13. ábra: Bélfelhúzó szerkezet",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest 1984) 105.old",
+    "A bélfelhúzó szerkezet felépítését ábrázolja a kép. A képből a berendezés működését szemléltető animáció készíthető. A működés szemléltetését a belinkelt videó is segítheti.  ",
+    "A bélfelhúzó szerkezet működésének bemutatása",
+    "",
+    "Revolver fejes töltőegység",
+    "A termelékenység növelhető, illetve a töltési mellékidő csökkenthető a revolverfejes, több töltőcsőből álló töltő egység alkalmazásával. A töltőegység három elforgatható töltőcsőből áll. Amíg az egyik töltőcsövön keresztül folyik a töltés, addig a másik két töltőcsőre felhúzható a burkolóanyag. Amikor a burkolóanyag elfogy a töltést végző csőről, akkor a berendezés a következő, burkolóanyaggal feltöltött töltőcsövet forgatja töltési pozícióba. ",
+    "",
+    "",
+    "14. ábra: Revolverfejes töltőegység működése",
+    "Forrás: https://www.youtube.com/watch?v=EBcq2D2hkUI (00:57-01:07) (2024.07.09)",
+    "Revolverfejes töltőegység működése a belinkelt videón 00:57-től 01:07-ig látható",
+    "A videó, vagy animáció a revolverfejes töltőgép működését szemlélteti",
+    "",
+    "Konvejoros termékfelszedő berendezés",
+    "A pározott termékek felszedését megkönnyítő berendezés. A pározó fejről lefutó, pározott terméket egy vezetőheveder, vagy szalag rendszer szállítja tovább, majd akasztja rá a konvejor pályára rögzített akasztóhorgokra. A pározott terméket az akasztóhorgos konvejor szállítja a füstölőbotra szedés helyére. ",
+    "",
+    "",
+    "15. ábra: Konvejoros termékfelszedő berendezés",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 107.old",
+    "",
+    "A konvejoros termékfelszedő berendezés felépítését ábrázolja a kép. A képből a berendezés működését szemléltető animáció készíthető. A működés szemléltetését a belinkelt videó is segítheti.  (https://www.youtube.com/watch?v=EBcq2D2hkUI  (00:44-00:57) (2024.07.09))",
+    "Konvejoros termékfelszedő berendezés működésének szemléltetése",
+    "",
+    "",
+    "16. ábra: Konvejoros termékfelszedő berendezés",
+    "Forrás: https://www.youtube.com/watch?v=EBcq2D2hkUI (00:46-00:57) (2024.07.09)",
+    "A felszedő berendezés működése a belinkelt videón 00:46-tól 00:57-ig látható",
+    "A videó, vagy animáció a konvejoros termékfelszedő működését szemlélteti",
+    "",
+    "Klipszelőgépek",
+    "Feladatuk a mesterséges burkolóanyagba töltött termék végeinek lezárása fém kapoccsal. ",
+    "A klipszelőgép típusokat többnyire aszerint lehet megkülönböztetni, hogy milyen kialakítású fémkapcsot (klipsz) alkalmazhatnak a burkolóanyag lezárására.",
+    "",
+    "A fémkapcsok kialakítása lehet:",
+    "U alakban hajlított",
+    "Előhajlított, tekercselt ",
+    "Fémhuzal, amelyet a gép maga formáz és hajlít fémkapoccsá",
+    "",
+    "",
+    "17. ábra: Fémkapocs (klipsz) típusok",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 110.old",
+    "Fémkapocs típusok bemutatása.",
+    "",
+    "A burkolóanyagra klipszelt fémkapocs száma alapján a klipszelőgép lehet egyszeres, vagy kettős klipszelő.",
+    "A működtetés alapján a klipszelőgépek lehetnek:",
+    "kézi",
+    "félautomata",
+    "automata berendezések",
+    "",
+    "Kézi működtetésű klipszelőgépek",
+    "A kézi működtetésű klipszelőgép alkalmazása során a termék rudak hosszát és a klipszeket a burkolóanyagra nyomó fogantyút kézzel működtetik. A burkolóanyagba töltött terméket a klipszelőgép vezetővályújába helyezik és ütközésig előretolják. A rudak hosszát az ütköző állításával lehet szabályozni. A fogantyú kézi erővel történő működtetésével nyomja rá a berendezés a klipszeket a termékre. A fogantyúval működtetett klipszelő szerszám két részből, egy mozgó nyomószerszámból és álló hajlítóágyból áll, ami ráhajlítja a fémkapcsot a termékre. A klipszelő szerszámba egy kés is van beépítve, ami a klipszek rányomásával egy időben elvágja a két klipsz között a burkolóanyagot, így alakítva ki a termék rudakat. A nyomószerszámra akasztóhurok is rögzíthető, amely a klipszelés során a fémkapoccsal együtt rászorul a termékre. Amennyiben a termék jellege megkívánja a kés kikacsolható, a klipszek között a burkolóanyag egyben marad, így termékfüzér is kialakítható. A klipsz füzér tároló dobra van tekercselve. ",
+    "",
+    "",
+    "18. ábra: Kézi klipszelő berendezés",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 110.old",
+    "Kézi klipszelő berendezés bemutatása.",
+    "",
+    "A félautomata klipszelő berendezés működése annyiban tér el a kézi működtetésű berendezéstől, hogy a rudak méretét az előre beprogramozott paraméterek (általában súly) alapján a töltőgép fogja beállítani. A klipszeket a kézi fogantyú működtetésével, a klipszelő szerkezet pneumatikus dugattyú rásegítésével nyomja rá a burkolóanyagra.",
+    "",
+    "",
+    "",
+    "19. ábra: Félautomata klipszelőgép működése",
+    "Forrás: https://www.youtube.com/watch?v=giuYEOR5-MM&t=523s 05:05-től 06:05-ig (2024.07.09.)",
+    "A linken található videóhoz hasonlóan a félautomata klipszelőberendezés bemutatása",
+    "Félautomata klipszelőgép működésének bemutatása",
+    "",
+    "Automata működtetésű klipszelőgép",
+    "Az automata működtetésű klipszelő berendezés működési elve hasonló a félautomata működtetésű klipszelőgépekéhez, azzal a különbséggel, hogy a termék méretének kialakítása a klipsz és az akasztóhurok rányomása a termékre előre programozott módon, automatikusan megy végbe. Nincs szükség a kézi fogantyú működtetésére.",
+    "",
+    "",
+    "20. ábra: Automata klipszelőgép",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984)  112.old",
+    "Automata klipszelőgép bemutatása.",
+    "",
+    "",
+    "21. ábra: Automata klipszelőberendezés",
+    "Forrás: https://www.youtube.com/watch?v=t6yD531iJic (2024.07.09)",
+    "A linken található videóhoz hasonlóan az automata klipszelőberendezés bemutatása.",
+    "Automata klipszelőberendezés működésének bemutatása.",
+    "",
+    "",
+    "IRODALOMJEGYZÉK",
+    "",
+    "",
+    "Ábrajegyzék",
+    "1. ábra: Álló és fekvőhengeres, dugattyús töltőgépek\t4",
+    "2. ábra: Fekvőhengeres, dugattyús töltőgép működése\t5",
+    "3. ábra: Massza áramlása a vízszintes és függőleges elrendezésű, dugattyús töltőgépekben\t6",
+    "4. ábra: Szalámigyártó gépsor\t7",
+    "5. ábra: Szalámigyártó gépsor dugattyús töltő egysége\t8",
+    "6. ábra: Lapátkerékszivattyús töltőgép\t9",
+    "7. ábra: Lapátkerékszivattyú töltőegységek\t10",
+    "8. ábra: Lapátkerékszivattyús töltőgép töltőegységének működése\t11",
+    "9. ábra: Csigás töltőgép\t12",
+    "10. ábra: Csigás töltőgép töltőszerkezete\t13",
+    "11. ábra: Csigás töltőgép töltőszerkezet működése\t14",
+    "12. ábra: Pározó egység működése\t16",
+    "13. ábra: Bélfelhúzó szerkezet\t17",
+    "14. ábra: Revolverfejes töltőegység működése\t18",
+    "15. ábra: Konvejoros termékfelszedő berendezés\t19",
+    "16. ábra: Konvejoros termékfelszedő berendezés\t20",
+    "17. ábra: Fémkapocs (klipsz) típusok\t21",
+    "18. ábra: Kézi klipszelő berendezés\t23",
+    "19. ábra: Félautomata klipszelőgép működése\t24",
+    "20. ábra: Automata klipszelőgép\t25",
+    "21. ábra: Automata klipszelőberendezés\t26",
+    ""
+  ],
+  "runs": [
+    [],
+    [
+      "Egyedi megrendelés azonosítója: EM-2.28.2  "
+    ],
+    [
+      "Húskészítmények gyártástechnológiai műveletei és gépei II. – Töltés, formázás"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [],
+    [
+      "TARTALOMJEGYZÉK"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "T",
+      "öltés-formázás Művelete, Töltőgépek"
+    ],
+    [
+      "töltés-Formázás technológiájának célja"
+    ],
+    [
+      "A töltés műveletének a technológiai célja az aprítás keveréssel előállított töltőmassza burkolóanyagba, vagy formába töltése, a termék formájának, alakjának kialakítása. A töltőmassza burkolóanyagba, vagy formába töltéséhez a húsiparban töltőgépeket alkalmaznak."
+    ],
+    [
+      "Töltőgépek csoportosítása"
+    ],
+    [
+      "A töltőmasszát szállító gépelem szerint megkülönböztetünk:"
+    ],
+    [
+      "•",
+      "\t",
+      "dugattyús"
+    ],
+    [
+      "•",
+      "\tlapátkerék szivattyús"
+    ],
+    [
+      "•",
+      "\tcsigás töltőgépeket"
+    ],
+    [
+      "A töltőgépekkel szemben támasztott alapvető technológia követelmények:"
+    ],
+    [
+      "Fontos követelmény, hogy a töltés művelete során ne kerüljön levegő a töltőmasszába és a betöltött massza kellően tömör állományú legyen. A levegő bekerülése, a légzárványok kialakulásának megelőzése céljából a töltőgépeket vákuumszivattyúval látják el, amely eltávolítja a levegőt a töltés során. "
+    ],
+    [
+      "A töltőgépek kialakítása során fő szempont, hogy a töltés során a töltőmassza ne kényszerüljön éles irányváltásokra, ellenkező esetben a töltés során a massza ",
+      "kenődik",
+      " és a mozaikos termékeknél nem alakul ki a megfelelő mozaikos vágásfelület.   "
+    ],
+    [
+      "Az egyes termékek töltéséhez szükséges paraméterek állíthatók legyenek, a töltőmassza kifolyási sebessége és a töltési nyomás szabályozható legyen.  "
+    ],
+    [
+      "A töltőgépek a töltőmasszát a töltőcsövön keresztül juttatják a burkolóanyagba. A berendezésekhez különböző átmérőjű, a tölteni kívánt termék átmérőjének megfelelő töltőcsövet lehet csatlakoztatni. A töltőgépekhez tartozó töltőcső a padlószinttől általában 1 méteres magasságban helyezkedik el, így kényelmesen állva végezhető a töltés művelete."
+    ],
+    [
+      "A töltőgépekhez olyan kisegítő berendezések is telepíthetők legyenek (pl. ",
+      "párózófej",
+      ", klipszelő berendezés) amelyek elősegítik a gyártási kapacitás növelését, a töltési mellékidők csökkentését. "
+    ],
+    [],
+    [
+      "A töltőgépek fő részei:"
+    ],
+    [
+      "•",
+      "\t",
+      "A töltőmasszát befogadó garat, tartály, vagy parton"
+    ],
+    [
+      "•",
+      "\tA töltőmasszát a töltőcsőbe juttató gépelem"
+    ],
+    [
+      "•",
+      "\tA töltőcső"
+    ],
+    [
+      "•",
+      "\tA hajtómű"
+    ],
+    [
+      "•",
+      "\tA töltési paramétereket szabályzó vezérlés"
+    ],
+    [
+      "•",
+      "\tEgyes típusoknál a vákuumszivattyú"
+    ],
+    [],
+    [
+      "Dugattyús töltőgépek"
+    ],
+    [
+      "A töltőhenger elhelyezkedése alapján megkülönböztetünk álló, vagy fekvőhengeres töltőgépeket. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "1. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Álló és fekvőhengeres, dugattyús töltőgépek"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Saját ábra"
+    ],
+    [
+      "Álló és fekvőhengeres dugattyús töltőgép bemutatása"
+    ],
+    [],
+    [
+      "A töltőhengerbe kéz",
+      "i",
+      " erővel vagy vákuumtömörítő berendezés segítségével adagolják be a töltőmasszát. A töltő dugattyú",
+      "t",
+      " olajjal működő hidraulikus működtetésű",
+      " rendszer mozgatja",
+      ". A dugattyú a töltőhengerben mozogva kényszeríti mozgásra a töltőmasszát, amely a töltőcsövön keresztül jut a burkolóanyagba. ",
+      "A dugattyús töltőgéppel csak addig lehet tölteni, ameddig a massza ki nem ürül a töltőhengerből. A töltőhenger kiürülése után a dugattyút alaphelyzetbe kell visszaállítani és a töltőhengert újra kell tölteni. A töltőhenger újbóli feltöltése után lehet folytatni ",
+      "a töltést. A fenti technológiai kialakítás miatt a dugattyús töltőgépek szakaszos üzemű berendezések."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "2. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Fekvőhengeres, dugattyús töltőgép működése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Saját ábra"
+    ],
+    [],
+    [
+      "A dugattyús töltőgép működésének megjelenítése animációban. A 4-es számmal jelölt dugattyú a kék nyíllal ábrázolt irányba mozog. Tolja maga előtt a piros nyíl irányába a töltőmasszát, ami az 1-es számmal jelölt töltőcsövön keresztül távozik a gépből a burkolóanyagba."
+    ],
+    [
+      "A dugattyús töltőgépek működésének bemutatása"
+    ],
+    [],
+    [
+      "A kör alakú dugattyú szélén műanyag, vagy gumi tömítés található, amely segítségével a dugattyú résmentesen illeszkedik a töltőhenger falához. Így meggátolható, hogy a töltőmassza a dugattyú térbe kerüljön. A vízszintes elrendezésű töltőgép esetében a massza útjában nincs éles irányváltozás, emiatt a töltőmassza nem törik meg, így a termék vágásfelülete tetszetős lesz. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "3. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Massza áramlása a vízszintes és függőleges elrendezésű, dugattyús töltőgépekben"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 93.old"
+    ],
+    [
+      "Esetleg a kép alapján animáció is készíthető a massza áramlásáról"
+    ],
+    [
+      "Massza áramlás és a kialakult vágásfelület bemutatása a dugattyús töltőgépek alkalmazása során"
+    ],
+    [],
+    [
+      "A vízszintes elrendezésű dugattyús töltőgépeket a szalámi gyártás és ",
+      "a",
+      " ",
+      "szárításos",
+      " érleléssel készült kolbászok előállításánál alkalmazzák."
+    ],
+    [
+      "A szalámi gyártás technológiájában a szalámi gyártó gépsor egyik egysége a vízszintes elhelyezkedésű dugattyús töltő",
+      "állomások ",
+      "rendszere. A szalámi pasztát töltés előtt a vákuumos ",
+      "tömörítő berendezés a töltő dugattyútól különálló töltőpatronba tömöríti, majd a teli töltőpatron sínrendszeren keresztül jut el a megfelelő töltődugattyúhoz. A töltődugattyú összeka",
+      "p",
+      "csolódik a töltőpatronnal és a dugattyú kinyomja a tömörített szalámi pasztát a töltő ",
+      "partonból",
+      ". ",
+      "A gépsor több töltőállomásból áll, így több töltőpatron töltése egyszerre megvalósítható. A ",
+      "szalámigyártó gépsor műszaki kialakítása lehetővé teszi, hogy a szakaszos működésű dugattyús töltőgépek töltési mellékideje csökkenjen. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "4. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Szalámigyártó gépsor"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Saját ábra"
+    ],
+    [
+      "Szalámigyártó gépsorban a dugattyús töltőgépek elhelyezkedésének bemutatása"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "5. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Szalámigyártó gépsor dugattyús töltő egysége"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek jegyzet (",
+      "Berszán",
+      " G, 1996)",
+      " 169. old"
+    ],
+    [
+      "Szalámigyártó gépsorban a dugattyús töltőegységének a bemutatása."
+    ],
+    [],
+    [
+      "A dugattyús töltőgépek jellemző paramétere a töltőhenger űrmérete, am",
+      "elyet literben határoznak meg."
+    ],
+    [],
+    [
+      "Lapátkerék szivattyús töltőgépek"
+    ],
+    [
+      "Darabos, szemcsés, illetve homogén anyagok töltésére is alkalmazható folyamatos üzemű töltőgépek. A töltőmasszát vízszintes, vagy függőleges elhelyezkedésű lapátkerék szivattyú szállítja a töltőcsőbe. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "6. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Lapátkerékszivattyús töltőgép"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Saját ábra"
+    ],
+    [
+      "Lapátkerékszivattyús töltőgép felépítése",
+      "."
+    ],
+    [],
+    [
+      "A töltőmassza szállítását végző szivattyú egy hengeres házból és egy a házban nem központosan (excentrikusan) elhelyezett lapátvezető gyűrűből, lapátokból és egy forgó rotorból áll. "
+    ],
+    [
+      "A forgó lapátvezető gyűrűkben sugár irányú vájatok vannak, amelyekben mozognak a lapátok. Az excentrikus elhelyezkedés miatt a lapátok olyan kamrákat képeznek, amelyek térfogata a forgás során változik. A térfogat a garat alatt a legnagyobb. Ekkor szívja be a vákuum szivattyú a forgó rész vájataiba a masszát. A vájatok térfogata a lapátok mozgása miatt a töltőcső felé csökken, így juttatva a masszát a cső felé. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "7. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Lapátkerékszivattyú töltőegységek"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 98.old"
+    ],
+    [
+      "Lapátkerékszivattyú töltőegységek bemutatása",
+      "."
+    ],
+    [],
+    [
+      "A töltőmasszát a gép garatjába adagolják. Az adagolás kézi erővel, vagy szállítókocsi emelő szerkezet segítségével történik. A töltőmasszát a garatból adagolóspirál juttatja a lapátokhoz. Töltés során a masszát szállító lapátkerék és az adagolóspirál szinkronizálva forog. Forgatásukat olaj ",
+      "működtetésű",
+      " ",
+      "hidromotor",
+      " végzi. A lapátkerék forgása, ezáltal a töltési sebességet, illetve vákuum nyomás mértékét a berendezés vezérlő rendszerével lehet szabályozni. "
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "8. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Lapátkerékszivattyús töltőgép töltőegységének működése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://www.youtube.com/watch?v=JdEgwLygP-A 00:11-től 00:53-ig (2024.07.09.)"
+    ],
+    [
+      "A linken lévő animáció (00:11-től 00:53-ig) alapján animáció készítése."
+    ],
+    [
+      "Lapátkerékszivattyús töltőgép töltőegységének működésének bemutatása",
+      "."
+    ],
+    [],
+    [
+      "Amennyiben a berendezés vezérlő rendszere lehetővé teszi, akkor a töltőgép különböző kiegészítő berendezésekkel, automata, vagy félautomata klipszelő berendezéssel, ",
+      "pározó",
+      " fejjel, daráló",
+      " előtéttel is összekapcsolható."
+    ],
+    [],
+    [
+      "Csigás töltőgépek"
+    ],
+    [
+      "A csigás töltőgépek felépítése hasonló a lapátkerékszivattyús töltőgépekhez. A gép garattal rendelkezik, amelybe a töltőmassza adagolása kézi erővel, vagy szállítókocsi emelő szerkezet segítségével történik. A lapátkerékszivattyús töltőgéphez képest a fő különbség, hogy a csigás töltőgépekben a töltőmassza szállítását a töltőcsőbe a darálókéhoz hasonló csiga végzi el. A ",
+      "töltőmassza a csiga menetei között helyezkedik el. A szállított töltőmassza mennyisége, ezáltal a töltési hatékonyság növelhető, ha a töltőgép két szállító csigával rendelkezik. ",
+      "A csigák ebben az esetben egymással szemben forognak, menetirányuk ellentétes."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "9. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Csigás töltőgép"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 101.old"
+    ],
+    [
+      "Csigás töltőgép felépítésének bemutatása"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "10. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Csigás töltőgép töltőszerkezete"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 100.old"
+    ],
+    [
+      "Csigás töltőgép töltőszerkezet bemutatása"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "11. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Csigás töltőgép töltőszerkezet működése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://www.youtube.com/watch?v=Nn5v59l2Xec 00:00-tól 02:00-ig (2024.07.09.)"
+    ],
+    [
+      "A linken lévő videó (00:00-tól 02:00-ig) tartalmához hasonló animáció bemutatása"
+    ],
+    [
+      "Csigás töltőgép töltőszerkezetének bemutatása"
+    ],
+    [],
+    [
+      "A csigás töltőgép e",
+      "lsősorban vörösáruk ",
+      "töltésénél",
+      " ",
+      "alkalmazzák",
+      ", mivel a csigák megtörik a massza mozaikos szerkezetét, a massza kenőcsös állományú lesz, emiatt kolbászfélék és szalámik előállításánál kevésbé alkalmazhatók."
+    ],
+    [],
+    [
+      "Töltőgépek kiegészítő berendezései"
+    ],
+    [],
+    [
+      "Adagoló-",
+      "pározó",
+      ", termékfelszedő",
+      " berendezések"
+    ],
+    [
+      "K",
+      "orszerű, számítógépes vezérléssel ellátott töltőgépekhez adagoló-",
+      "pározó",
+      " berendezések ",
+      "csatlakoztathatók",
+      ", amelyek segítik a termék ",
+      "méretének-alakjának kialakítását. ",
+      "A berendezés alkalmazásával egyforma nagyságú párok alakíthatók ki. ",
+      "Az adagoló-",
+      "pározó",
+      " berendezésekkel a töltés-formázás művelete automatizálható, a termelékenység növelhető, illetve a töltési mellékidő csökkenthető. "
+    ],
+    [],
+    [
+      "Csavarorsós ",
+      "pározó",
+      " berendezés"
+    ],
+    [
+      "A berendezés közvetlenül csatlakoztatható a töltőgéphez. A berendezés egy a töltőcsövet forgató elemből, a töltőcsőből, illetve egy álló",
+      " konzolból és abban elhelyezkedő forgó ",
+      "gyűrűből",
+      " áll.",
+      " A termék párok méretének kialakításához szükséges adagok mennyisége a töltőgép számítógépes vezérlésében állítható be. Az adagokat a töltőgép adagolószivattyúja juttatja a burkolóanyagba. ",
+      "A",
+      "z",
+      " adag betöltése után a forgató elem a töltőcsövet megforgatja, a konzol forgó",
+      " gyűrűje",
+      " a töltőcsővel ellentétes irányban forog. A töltőcső és forgó ",
+      "gyűrű",
+      " egymással ellentétes forgása a betöltött töltőmassza utáni bélszakaszt elcsavarja, így alakítva ki a termék párokat. ",
+      "A ",
+      "pározott",
+      " termék elvezetését a görgős leszorító szerkezet végzi el. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "12. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Pározó",
+      " egység működése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://www.youtube.com/watch?v=EBcq2D2hkUI (00:25-00:42) (2024.07.09.)"
+    ],
+    [
+      "A ",
+      "pározó",
+      " fej működése a belinkelt videón 00:25-től 00:42-ig látható",
+      "."
+    ],
+    [
+      "A videó szemlélteti a ",
+      "pározó",
+      " egység működését",
+      "."
+    ],
+    [],
+    [
+      "A ",
+      "pároz",
+      "ó",
+      " berendezés ellátható a bélfelhúzó szerkezettel is, ami megkönnyíti a természetes ",
+      "burkolóanyagok ",
+      "felhúzását a töltőcsőre. ",
+      "A burkolóanyag felhúzása a töltőcsőre, annak ívelt oldalával érintkező, ellentétes irányban forgó görgőpár segítségével történik. Egyes bélfelhúzó szerkezetek esetében nem görgőpár, hanem egy nagyméretű görgő végzi el a burkolóanyag felhúzását a töltőcsőre. "
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "13. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Bélfelhúzó szerkezet"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, B",
+      "udapest 1984) 105.old"
+    ],
+    [
+      "A bélfelhúzó szerkezet felépítését ábrázolja a kép. A képből a berendezés működését szemléltető animáció készíthető. A működés szemléltetését a belinkelt videó is segítheti.  "
+    ],
+    [
+      "A bélfelhúzó szerkezet működésének bemutatása"
+    ],
+    [],
+    [
+      "Revolver fejes töltőegység"
+    ],
+    [
+      "A termelékenység növelhető, illetve a töltési mellékidő csökkenthető a revolverfejes, több töltőcsőből álló töltő ",
+      "egység",
+      " alkalmazásával. ",
+      "A töltőegység három elforgatható töltőcsőből áll. Amíg az egyik töltőcsövön keresztül folyik a töltés, addig a másik két töltőcsőre felhúzható a burkolóanyag. Amikor a burkolóanyag elfogy a töltést végző csőről, akkor a berendezés a következő, burkolóanyaggal feltöltött töltőcsövet forgatja töltési pozícióba. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "14. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Revolverfejes töltőegység működése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://www.youtube.com/watch?v=EBcq2D2hkUI (00:57-01:07) (2024.07.09)"
+    ],
+    [
+      "Revolverfejes töltőegység működése a belinkelt videón 00:57-től 01:07-ig látható"
+    ],
+    [
+      "A videó, vagy animáció a revolverfejes töltőgép működését szemlélteti"
+    ],
+    [],
+    [
+      "Konvejoros",
+      " termékfelszedő berendezés"
+    ],
+    [
+      "A ",
+      "pározott",
+      " termékek felszedését megkönnyítő berendezés. A ",
+      "pározó",
+      " ",
+      "fejről lefutó, ",
+      "pározott",
+      " terméket egy ",
+      "vezetőheveder, vagy szalag rendszer szállítja tovább, majd akasztja rá a ",
+      "konvejor",
+      " pályára rögzített akasztóhorgokra. A ",
+      "pározott",
+      " terméket az akasztóhorgos ",
+      "konvejor",
+      " szállítja a füstölőbotra szedés helyére. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "15. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Konvejoros",
+      " termékfelszedő berendezés"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Ber",
+      "szán",
+      " G, Budapest, 1984) 107.old"
+    ],
+    [],
+    [
+      "A ",
+      "konvejoros",
+      " termékfelszedő berendezés felépítését ábrázolja a kép. A képből a berendezés működését szemléltető animáció készíthető. A működés szemléltetését a belinkelt videó is segítheti.  (https://www.youtube.com/watch",
+      "?v",
+      "=EBcq2D2hkUI  (00:44-00:57) (2024.07.09))"
+    ],
+    [
+      "Konvejoros",
+      " termékfelszedő berendezés működésének szemléltetése"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "16. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Konvejoros",
+      " termékfelszedő berendezés"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://www.youtube.com/watch?v=EBcq2D2hkUI (00:46-00:57) ",
+      "(2024.07.09)"
+    ],
+    [
+      "A felszedő berendezés működése a belinkelt videón 00:46-tól 00:57-ig látható"
+    ],
+    [
+      "A videó, vagy animáció a ",
+      "konvejoros",
+      " termékfelszedő működését szemlélteti"
+    ],
+    [],
+    [
+      "Klipszelőgépek"
+    ],
+    [
+      "Feladatuk a mesterséges burkolóanyagba töltött termék ",
+      "végeinek",
+      " lezárása fém kapoccsal. "
+    ],
+    [
+      "A klipszelőgép típusokat többnyire aszerint lehet megkülönböztetni, hogy milyen kialakítású fémkapcsot (klipsz) alkalmazhat",
+      "nak a burkolóanyag lezárására."
+    ],
+    [],
+    [
+      "A fémkapcsok kialakítása lehet:"
+    ],
+    [
+      "U alakban hajlított"
+    ],
+    [
+      "Előhajlított, tekercselt "
+    ],
+    [
+      "Fémhuzal, amelyet a gép maga formáz és hajlít fémkapoccsá"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "17. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Fémkapocs (klipsz) típusok"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Ber",
+      "szán",
+      " G, Budapest, 1984) 110.old"
+    ],
+    [
+      "Fémkapocs típusok bemutatása",
+      "."
+    ],
+    [],
+    [
+      "A burkolóanyagra klipszelt fémkapocs száma alapján a klipszelőgép lehet egyszeres, vagy kettős klipszelő."
+    ],
+    [
+      "A működtetés alapján a klipszelőgépek lehetnek:"
+    ],
+    [
+      "kézi"
+    ],
+    [
+      "félautomata"
+    ],
+    [
+      "automata berendezések"
+    ],
+    [],
+    [
+      "Kézi működtetésű klipszelőgépek"
+    ],
+    [
+      "A kézi működtetésű klipszelőgép alkalmazása során a termék rudak hosszát és a klipszeket a burkolóanyagra nyomó fogantyút kézzel működtetik. A burkolóanyagba töltött terméket a klipszelőgép vezetővályújába helyezik és ütközésig ",
+      "előretolják",
+      ". A rudak hosszát az ütköző állításával lehet szabályozni. A fogantyú ",
+      "kézi",
+      " erővel történő működtetésével nyomja rá a berendezés a klipszeket a termékre. A fogantyú",
+      "val működtetett",
+      " klipszelő szerszám két részből, egy mozgó nyomószerszámból és álló hajlítóágyból áll, ami ráhajlítja a fémkapcsot a termékre. A klipszelő szerszámba egy kés is van beépítve, ami a klipszek rányomásával egy időben elvágja a két klipsz között a burkolóanyagot, így alakítva ki a termék rudakat. A nyomószerszámra akasztóhurok is rögzíthető, amely a klipszelés során a fémkapoccsal együtt rászorul a termékre. Amennyiben a termék jellege megkívánja a kés kikacsolható, a klipszek között a burkolóanyag egyben marad, így termékfüzér is kialakítható. A klipsz füzér tároló dobra van tekercselve. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "18. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Kézi klipszelő berendezés"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Ber",
+      "szán",
+      " G, Budapest, 1984) 110.old"
+    ],
+    [
+      "Kézi klipszelő berendezés bemutatása",
+      "."
+    ],
+    [],
+    [
+      "A félautomata klipszelő berendezés működése annyiban tér el a kézi működtetésű berendezéstől, hogy a rudak méretét az előre beprogramozott paraméterek (általában súly) alapján a töltőgép ",
+      "fogja beállítani. A klipszeket a kézi fogantyú működtetésével, a klipszelő szerkezet ",
+      "pneumatikus",
+      " dugattyú rásegítésével nyomja rá a burkolóanyagra."
+    ],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "19. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Félautomata klipszelőgép működése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://www.youtube.com/watch?v=giuYEOR5-MM&t=523s 05:05-től 06:05-ig (2024.07.09",
+      ".",
+      ")"
+    ],
+    [
+      "A linken található videóhoz hasonlóan a félautomata klipszelőberendezés bemutatása"
+    ],
+    [
+      "Félautomata klipszelőgép működésének bemutatása"
+    ],
+    [],
+    [
+      "Automata működtetésű klipszelő",
+      "gép"
+    ],
+    [
+      "Az automata működtetésű klipszelő berendezés működési elve hasonló a félautomata működtetésű klipszelőgépekéhez, azzal a különbséggel, hogy a termék méretének kialakítása a klipsz és az akasztóhurok rányomása a termékre előre programozott módon, automatikusan megy végbe. Nincs szükség a kézi fogantyú működtetésére."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "20. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Automata klipszelőgép"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Bers",
+      "zán",
+      " G, Budapest, 1984",
+      ")  112.",
+      "old"
+    ],
+    [
+      "Automata klipszelőgép bemutatása",
+      "."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "21. ",
+      "ábra",
+      ":",
+      " ",
+      "",
+      "Automata klipszelőberendezés"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://www.youtube.com/watch?v=t6yD531iJic (2024.07.09)"
+    ],
+    [
+      "A linken található videóhoz hasonlóan az automata klipszelőberendezés bemutatása",
+      "."
+    ],
+    [
+      "Automata klipszelőberendezés működésének bemutatása",
+      "."
+    ],
+    [
+      ""
+    ],
+    [],
+    [
+      "IRODALOMJEGYZÉK"
+    ],
+    [
+      ""
+    ],
+    [],
+    [
+      "Ábrajegyzék"
+    ],
+    [
+      "",
+      "",
+      "",
+      "1. ábra:",
+      " ",
+      "Álló és fekvőhengeres, dugattyús töltőgépek",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "4",
+      ""
+    ],
+    [
+      "2. ábra:",
+      " ",
+      "Fekvőhengeres, dugattyús töltőgép működése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "5",
+      ""
+    ],
+    [
+      "3. ábra:",
+      " ",
+      "Massza áramlása a vízszintes és függőleges elrendezésű, dugattyús töltőgépekben",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "6",
+      ""
+    ],
+    [
+      "4. ábra:",
+      " ",
+      "Szalámigyártó gépsor",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "7",
+      ""
+    ],
+    [
+      "5. ábra:",
+      " ",
+      "Szalámigyártó gépsor dugattyús töltő egysége",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "8",
+      ""
+    ],
+    [
+      "6. ábra:",
+      " ",
+      "Lapátkerékszivattyús töltőgép",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "9",
+      ""
+    ],
+    [
+      "7. ábra:",
+      " ",
+      "Lapátkerékszivattyú töltőegységek",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "10",
+      ""
+    ],
+    [
+      "8. ábra:",
+      " ",
+      "Lapátkerékszivattyús töltőgép töltőegységének működése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "11",
+      ""
+    ],
+    [
+      "9. ábra:",
+      " ",
+      "Csigás töltőgép",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "12",
+      ""
+    ],
+    [
+      "10. ábra:",
+      " ",
+      "Csigás töltőgép töltőszerkezete",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "13",
+      ""
+    ],
+    [
+      "11. ábra:",
+      " ",
+      "Csigás töltőgép töltőszerkezet működése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "14",
+      ""
+    ],
+    [
+      "12. ábra:",
+      " ",
+      "Pározó egység",
+      " működése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "16",
+      ""
+    ],
+    [
+      "13. ábra:",
+      " ",
+      "Bélfelhúzó szerkezet",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "17",
+      ""
+    ],
+    [
+      "14. ábra:",
+      " ",
+      "Revolverfejes töltőegység működése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "18",
+      ""
+    ],
+    [
+      "15. ábra:",
+      " ",
+      "Konvejoros termékfelszedő berendezés",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "19",
+      ""
+    ],
+    [
+      "16. ábra:",
+      " ",
+      "Konvejoros termékfelszedő berendezés",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "20",
+      ""
+    ],
+    [
+      "17. ábra:",
+      " ",
+      "Fémkapocs (klipsz) típusok",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "21",
+      ""
+    ],
+    [
+      "18. ábra:",
+      " ",
+      "Kézi klipszelő berendezés",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "23",
+      ""
+    ],
+    [
+      "19. ábra:",
+      " ",
+      "Félautomata klipszelőgép működése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "24",
+      ""
+    ],
+    [
+      "20. ábra:",
+      " ",
+      "Automata klipszelőgép",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "25",
+      ""
+    ],
+    [
+      "21. ábra:",
+      " ",
+      "Automata klipszelőberendezés",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "26",
+      ""
+    ],
+    [
+      ""
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Nágl Péter"
+      ],
+      [
+        "Szakmai lektor:",
+        "Kosztolányi Attila"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Élelmiszeripar"
+      ],
+      [
+        "Szakma:",
+        "Húsipari technikus"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Húsipari alapműveletek"
+      ],
+      [
+        "Tantárgy:",
+        "Gyártástechnológiai alapműveletek és gépei"
+      ],
+      [
+        "Évfolyam:",
+        "12. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "17 óra"
+      ]
+    ]
+  ],
+  "headers": [
+    "",
+    ""
+  ],
+  "footers": [
+    "",
+    ""
+  ],
+  "footnotes": [
+    "",
+    ""
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image17.jpeg",
+      "path": null,
+      "bytes": 69183
+    },
+    {
+      "name": "image18.png",
+      "path": null,
+      "bytes": 788571
+    },
+    {
+      "name": "image15.jpeg",
+      "path": null,
+      "bytes": 33552
+    },
+    {
+      "name": "image16.png",
+      "path": null,
+      "bytes": 638650
+    },
+    {
+      "name": "image21.png",
+      "path": null,
+      "bytes": 679458
+    },
+    {
+      "name": "image20.jpeg",
+      "path": null,
+      "bytes": 44375
+    },
+    {
+      "name": "image22.jpeg",
+      "path": null,
+      "bytes": 37916
+    },
+    {
+      "name": "image23.png",
+      "path": null,
+      "bytes": 414375
+    },
+    {
+      "name": "image19.jpeg",
+      "path": null,
+      "bytes": 56178
+    },
+    {
+      "name": "image13.png",
+      "path": null,
+      "bytes": 436662
+    },
+    {
+      "name": "image12.jpeg",
+      "path": null,
+      "bytes": 73670
+    },
+    {
+      "name": "image5.jpeg",
+      "path": null,
+      "bytes": 109617
+    },
+    {
+      "name": "image4.png",
+      "path": null,
+      "bytes": 70448
+    },
+    {
+      "name": "image3.png",
+      "path": null,
+      "bytes": 78065
+    },
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image6.png",
+      "path": null,
+      "bytes": 41843
+    },
+    {
+      "name": "image7.jpeg",
+      "path": null,
+      "bytes": 114756
+    },
+    {
+      "name": "image8.png",
+      "path": null,
+      "bytes": 46469
+    },
+    {
+      "name": "image9.jpeg",
+      "path": null,
+      "bytes": 131216
+    },
+    {
+      "name": "image10.png",
+      "path": null,
+      "bytes": 425990
+    },
+    {
+      "name": "image11.jpeg",
+      "path": null,
+      "bytes": 112084
+    },
+    {
+      "name": "image14.png",
+      "path": null,
+      "bytes": 597150
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "ELMS",
+    "Grid Table 5 Dark Accent 1",
+    "elms_ContentText",
+    "elms_Egyszeres",
+    "elms_Fogalom",
+    "elms_Fogalom:invalid",
+    "elms_Fontos",
+    "elms_HelyesValasz",
+    "elms_HibasValasz",
+    "elms_JogiSzoveg",
+    "elms_Opcionalis",
+    "annotation reference",
+    "annotation text",
+    "Jegyzetszöveg Char",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Placeholder Text",
+    "Table Grid",
+    "Hyperlink",
+    "elms_Media",
+    "table of figures",
+    "List Paragraph",
+    "elms_Tobbszoros",
+    "elms_Parosito",
+    "elms_Sorbarendezo",
+    "elms_Legordulo",
+    "elms_Kitolto",
+    "elms_FogdEsVidd",
+    "elms_Kijelolo",
+    "elms_Gyakorlo",
+    "elms_numeric",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "toa heading",
+    "table of authorities",
+    "footnote text",
+    "Lábjegyzetszöveg Char",
+    "footnote reference",
+    "Címsor 1 Char",
+    "Bibliography",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "Címsor 4 Char",
+    "Címsor 1 (helyőrző)",
+    "Címsor 5 Char",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "elms_TartalomCimsor",
+    "toc 4",
+    "elms_cim_1_tananyag",
+    "elms_cim_2_egyseg",
+    "elms_cim_3_fejezet",
+    "elms_cim_4_lecke",
+    "elms_tananyag",
+    "elms_egyseg",
+    "Revision",
+    "Caption",
+    "Nem lista1",
+    "msonormal",
+    "FollowedHyperlink",
+    "icon",
+    "docon",
+    "bookmark-status",
+    "is-visually-hidden-touch",
+    "visually-hidden",
+    "has-text-white-static",
+    "HTML Top of Form",
+    "z-A kérdőív teteje Char",
+    "has-text-primary",
+    "HTML Bottom of Form",
+    "z-A kérdőív alja Char",
+    "tree-expander",
+    "tree-expander-indicator",
+    "Normal (Web)",
+    "Emphasis",
+    "HTML Code",
+    "Strong",
+    "68831B013408452FBD29B6FDEC9893802",
+    "6FD96C86FC10454FA6AE06C5190120182",
+    "Outline List 2",
+    "Outline List 1",
+    "Signature",
+    "Aláírás Char",
+    "Subtitle",
+    "Alcím Char",
+    "Closing",
+    "Befejezés Char",
+    "envelope address",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "Outline List 3",
+    "Title",
+    "Cím Char",
+    "Plain Text",
+    "Csak szöveg Char",
+    "Date",
+    "Dátum Char",
+    "Document Map",
+    "Dokumentumtérkép Char",
+    "Table Simple 1",
+    "Table Simple 2",
+    "Table Simple 3",
+    "Table Elegant",
+    "E-mail Signature",
+    "E-mail aláírása Char",
+    "Intense Reference",
+    "Intense Emphasis",
+    "envelope return",
+    "List Bullet",
+    "List Bullet 2",
+    "List Bullet 3",
+    "List Bullet 4",
+    "List Bullet 5",
+    "Subtle Reference",
+    "Subtle Emphasis",
+    "Table Subtle 1",
+    "Table Subtle 2",
+    "HTML Keyboard",
+    "HTML Address",
+    "HTML-cím Char",
+    "HTML Definition",
+    "HTML Cite",
+    "HTML Typewriter",
+    "HTML Preformatted",
+    "HTML-ként formázott Char",
+    "HTML Sample",
+    "HTML Acronym",
+    "HTML Variable",
+    "Quote",
+    "Idézet Char",
+    "Intense Quote",
+    "Kiemelt idézet Char",
+    "Table Classic 1",
+    "Table Classic 2",
+    "Table Classic 3",
+    "Table Classic 4",
+    "Book Title",
+    "Medium Shading 1",
+    "Medium Shading 1 Accent 1",
+    "Medium Shading 1 Accent 2",
+    "Medium Shading 1 Accent 3",
+    "Medium Shading 1 Accent 4",
+    "Medium Shading 1 Accent 5",
+    "Medium Shading 1 Accent 6",
+    "Medium Shading 2",
+    "Medium Shading 2 Accent 1",
+    "Medium Shading 2 Accent 2",
+    "Medium Shading 2 Accent 3",
+    "Medium Shading 2 Accent 4",
+    "Medium Shading 2 Accent 5",
+    "Medium Shading 2 Accent 6",
+    "Medium List 1",
+    "Medium List 1 Accent 1",
+    "Medium List 1 Accent 2",
+    "Medium List 1 Accent 3",
+    "Medium List 1 Accent 4",
+    "Medium List 1 Accent 5",
+    "Medium List 1 Accent 6",
+    "Medium List 2",
+    "Medium List 2 Accent 1",
+    "Medium List 2 Accent 2",
+    "Medium List 2 Accent 3",
+    "Medium List 2 Accent 4",
+    "Medium List 2 Accent 5",
+    "Medium List 2 Accent 6",
+    "Medium Grid 1",
+    "Medium Grid 1 Accent 1",
+    "Medium Grid 1 Accent 2",
+    "Medium Grid 1 Accent 3",
+    "Medium Grid 1 Accent 4",
+    "Medium Grid 1 Accent 5",
+    "Medium Grid 1 Accent 6",
+    "Medium Grid 2",
+    "Medium Grid 2 Accent 1",
+    "Medium Grid 2 Accent 2",
+    "Medium Grid 2 Accent 3",
+    "Medium Grid 2 Accent 4",
+    "Medium Grid 2 Accent 5",
+    "Medium Grid 2 Accent 6",
+    "Medium Grid 3",
+    "Medium Grid 3 Accent 1",
+    "Medium Grid 3 Accent 2",
+    "Medium Grid 3 Accent 3",
+    "Medium Grid 3 Accent 4",
+    "Medium Grid 3 Accent 5",
+    "Medium Grid 3 Accent 6",
+    "List",
+    "List 2",
+    "List 3",
+    "List 4",
+    "List 5",
+    "List Continue",
+    "List Continue 2",
+    "List Continue 3",
+    "List Continue 4",
+    "List Continue 5",
+    "Table List 1",
+    "List Table 1 Light",
+    "List Table 1 Light Accent 1",
+    "List Table 1 Light Accent 2",
+    "List Table 1 Light Accent 3",
+    "List Table 1 Light Accent 4",
+    "List Table 1 Light Accent 5",
+    "List Table 1 Light Accent 6",
+    "Table List 2",
+    "List Table 2 Accent 1",
+    "List Table 2 Accent 2",
+    "List Table 2 Accent 3",
+    "List Table 2 Accent 4",
+    "List Table 2 Accent 5",
+    "List Table 2 Accent 6",
+    "Table List 3",
+    "List Table 3 Accent 1",
+    "List Table 3 Accent 2",
+    "List Table 3 Accent 3",
+    "List Table 3 Accent 4",
+    "List Table 3 Accent 5",
+    "List Table 3 Accent 6",
+    "Table List 4",
+    "List Table 4 Accent 1",
+    "List Table 4 Accent 2",
+    "List Table 4 Accent 3",
+    "List Table 4 Accent 4",
+    "List Table 4 Accent 5",
+    "List Table 4 Accent 6",
+    "Table List 5",
+    "List Table 5 Dark",
+    "List Table 5 Dark Accent 1",
+    "List Table 5 Dark Accent 2",
+    "List Table 5 Dark Accent 3",
+    "List Table 5 Dark Accent 4",
+    "List Table 5 Dark Accent 5",
+    "List Table 5 Dark Accent 6",
+    "Table List 6",
+    "List Table 6 Colorful",
+    "List Table 6 Colorful Accent 1",
+    "List Table 6 Colorful Accent 2",
+    "List Table 6 Colorful Accent 3",
+    "List Table 6 Colorful Accent 4",
+    "List Table 6 Colorful Accent 5",
+    "List Table 6 Colorful Accent 6",
+    "Table List 7",
+    "List Table 7 Colorful",
+    "List Table 7 Colorful Accent 1",
+    "List Table 7 Colorful Accent 2",
+    "List Table 7 Colorful Accent 3",
+    "List Table 7 Colorful Accent 4",
+    "List Table 7 Colorful Accent 5",
+    "List Table 7 Colorful Accent 6",
+    "Table List 8",
+    "List Table 2",
+    "List Table 3",
+    "List Table 4",
+    "macro",
+    "Makró szövege Char",
+    "Note Heading",
+    "Megjegyzésfej Char",
+    "Salutation",
+    "Megszólítás Char",
+    "Table Contemporary",
+    "No Spacing",
+    "Normal Indent",
+    "page number",
+    "Table Columns 1",
+    "Table Columns 2",
+    "Table Columns 3",
+    "Table Columns 4",
+    "Table Columns 5",
+    "Table Professional",
+    "Table Grid 1",
+    "Table Grid 2",
+    "Table Grid 3",
+    "Table Grid 4",
+    "Table Grid 5",
+    "Table Grid 6",
+    "Table Grid 7",
+    "Table Grid 8",
+    "line number",
+    "Dark List",
+    "Dark List Accent 1",
+    "Dark List Accent 2",
+    "Dark List Accent 3",
+    "Dark List Accent 4",
+    "Dark List Accent 5",
+    "Dark List Accent 6",
+    "List Number",
+    "List Number 2",
+    "List Number 3",
+    "List Number 4",
+    "List Number 5",
+    "Colorful Shading",
+    "Colorful Shading Accent 1",
+    "Colorful Shading Accent 2",
+    "Colorful Shading Accent 3",
+    "Colorful Shading Accent 4",
+    "Colorful Shading Accent 5",
+    "Colorful Shading Accent 6",
+    "Colorful List",
+    "Colorful List Accent 1",
+    "Colorful List Accent 2",
+    "Colorful List Accent 3",
+    "Colorful List Accent 4",
+    "Colorful List Accent 5",
+    "Colorful List Accent 6",
+    "Colorful Grid",
+    "Colorful Grid Accent 1",
+    "Colorful Grid Accent 2",
+    "Colorful Grid Accent 3",
+    "Colorful Grid Accent 4",
+    "Colorful Grid Accent 5",
+    "Colorful Grid Accent 6",
+    "Block Text",
+    "Body Text",
+    "Szövegtörzs Char",
+    "Body Text 2",
+    "Szövegtörzs 2 Char",
+    "Body Text 3",
+    "Szövegtörzs 3 Char",
+    "Body Text Indent",
+    "Szövegtörzs behúzással Char",
+    "Body Text Indent 2",
+    "Szövegtörzs behúzással 2 Char",
+    "Body Text Indent 3",
+    "Szövegtörzs behúzással 3 Char",
+    "Body Text First Indent",
+    "Szövegtörzs első sora Char",
+    "Body Text First Indent 2",
+    "Szövegtörzs első sora 2 Char",
+    "Plain Table 1",
+    "Plain Table 2",
+    "Plain Table 3",
+    "Plain Table 4",
+    "Plain Table 5",
+    "Grid Table Light",
+    "Grid Table 1 Light",
+    "Grid Table 1 Light Accent 1",
+    "Grid Table 1 Light Accent 2",
+    "Grid Table 1 Light Accent 3",
+    "Grid Table 1 Light Accent 4",
+    "Grid Table 1 Light Accent 5",
+    "Grid Table 1 Light Accent 6",
+    "Grid Table 2",
+    "Grid Table 2 Accent 1",
+    "Grid Table 2 Accent 2",
+    "Grid Table 2 Accent 3",
+    "Grid Table 2 Accent 4",
+    "Grid Table 2 Accent 5",
+    "Grid Table 2 Accent 6",
+    "Grid Table 3",
+    "Grid Table 3 Accent 1",
+    "Grid Table 3 Accent 2",
+    "Grid Table 3 Accent 3",
+    "Grid Table 3 Accent 4",
+    "Grid Table 3 Accent 5",
+    "Grid Table 3 Accent 6",
+    "Grid Table 4",
+    "Grid Table 4 Accent 1",
+    "Grid Table 4 Accent 2",
+    "Grid Table 4 Accent 3",
+    "Grid Table 4 Accent 4",
+    "Grid Table 4 Accent 5",
+    "Grid Table 4 Accent 6",
+    "Grid Table 5 Dark",
+    "Grid Table 5 Dark Accent 2",
+    "Grid Table 5 Dark Accent 3",
+    "Grid Table 5 Dark Accent 4",
+    "Grid Table 5 Dark Accent 5",
+    "Grid Table 5 Dark Accent 6",
+    "Grid Table 6 Colorful",
+    "Grid Table 6 Colorful Accent 1",
+    "Grid Table 6 Colorful Accent 2",
+    "Grid Table 6 Colorful Accent 3",
+    "Grid Table 6 Colorful Accent 4",
+    "Grid Table 6 Colorful Accent 5",
+    "Grid Table 6 Colorful Accent 6",
+    "Grid Table 7 Colorful",
+    "Grid Table 7 Colorful Accent 1",
+    "Grid Table 7 Colorful Accent 2",
+    "Grid Table 7 Colorful Accent 3",
+    "Grid Table 7 Colorful Accent 4",
+    "Grid Table 7 Colorful Accent 5",
+    "Grid Table 7 Colorful Accent 6",
+    "index 1",
+    "index 2",
+    "index 3",
+    "index 4",
+    "index 5",
+    "index 6",
+    "index 7",
+    "index 8",
+    "index 9",
+    "index heading",
+    "Table Colorful 1",
+    "Table Colorful 2",
+    "Table Colorful 3",
+    "Table Theme",
+    "Table 3D effects 1",
+    "Table 3D effects 2",
+    "Table 3D effects 3",
+    "toc 5",
+    "toc 6",
+    "toc 7",
+    "toc 8",
+    "toc 9",
+    "Message Header",
+    "Üzenetfej Char",
+    "endnote text",
+    "Végjegyzet szövege Char",
+    "endnote reference",
+    "Light Shading Accent 1",
+    "Light Shading Accent 2",
+    "Light Shading Accent 3",
+    "Light Shading Accent 4",
+    "Light Shading Accent 5",
+    "Light Shading Accent 6",
+    "Light List",
+    "Light List Accent 1",
+    "Light List Accent 2",
+    "Light List Accent 3",
+    "Light List Accent 4",
+    "Light List Accent 5",
+    "Light List Accent 6",
+    "Light Grid",
+    "Light Grid Accent 1",
+    "Light Grid Accent 2",
+    "Light Grid Accent 3",
+    "Light Grid Accent 4",
+    "Light Grid Accent 5",
+    "Light Grid Accent 6",
+    "Light Shading",
+    "Table Web 1",
+    "Table Web 2",
+    "Table Web 3"
+  ]
+}

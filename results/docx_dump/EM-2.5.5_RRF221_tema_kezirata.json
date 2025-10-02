@@ -1,0 +1,3619 @@
+{
+  "core_properties": {
+    "title": "1.\t Halmazok, halmazműveletek",
+    "subject": "Matematika érettségifelkészítő",
+    "creator": "M.Alexandra",
+    "lastModifiedBy": "Soós Gabriella Brigitta (ELMS)",
+    "revision": "3",
+    "lastPrinted": "2023-03-02T08:09:00Z",
+    "created": "2024-09-24T15:45:00Z",
+    "modified": "2024-09-24T15:45:00Z"
+  },
+  "app_properties": {
+    "Template": "SZK-kézirat_SABLON_2",
+    "TotalTime": "0",
+    "Pages": "40",
+    "Words": "7076",
+    "Characters": "48827",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "406",
+    "Paragraphs": "111",
+    "ScaleCrop": "false",
+    "lpstr": "1.\t Halmazok, halmazműveletek",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "55792",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.5.5  ",
+    "Vaj és vajkészítmények gyártása",
+    "Témák kézirata",
+    "Forrás: Milchkunde und Milchhygiene, Der Verlag Eugen Ulmer KG,  2016. ISBN 978-3-8252-8664-4\nAz eredeti könyv szerzői: Erwin Märtlbauer, Heinz Becker",
+    "",
+    "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak.",
+    "",
+    "",
+    "",
+    "Történelmi áttekintés",
+    "A vaj legalább 9000 éve az életünk része. Története valószínűleg egy kis balesettel kezdődött: egy teherhordó állat hátán rázkódhatott túl sokáig a göröngyös úton a tömlőkbe zárt tej. A vajat később már tudatosan készítették: kecskebőr tömlőkbe töltötték a tej fölét (tejszínt), s addig ütögették, míg vaj nem lett belőle. (1. ábra) Hamarosan alaptermékké vált azoknál az embereknél, akik kérődző állatok (tehenek, kecskék, juhok, rénszarvasok, tevék, bivalyok) közelében éltek.",
+    "",
+    "1. ábra: Vajas tömlő",
+    "(Forrás: https://mapio.net/images-p/7896166.jpg, letöltve: 2024. 07. 02.)",
+    "A világ különböző részein az idők folyamán az adott kor történelméhez kapcsolódva a vaj különféle szerepeket töltött be.",
+    "A Közép-Ázsia hegyvidékén élő népek között a jakvaj (2. ábra) terjedt el. Ez az ott őshonos jak (3. ábra) tejéből készített igen zsíros, tápláló vaj, amelyet sokféle módon használnak fel; a leghíresebb talán az európai ízlés számára nehezen elfogadható jakvajas tea (4. ábra).",
+    "",
+    "2. ábra: Tibeti jakvaj utcai piacon",
+    "(Forrás: https://st2.depositphotos.com/1591375/7009/i/600/depositphotos_70099865-stock-photo-yak-butter-street-market-barkhor.jpg, letöltve: 2024. 07. 04.)",
+    "",
+    "3. ábra: Tibeti jak",
+    "(Forrás: https://st4.depositphotos.com/1041222/24061/i/600/depositphotos_240613684-stock-photo-tibetan-yak-grazing-bright-green.jpg, letöltve: 2024. 07. 04.)",
+    "",
+    "4. ábra: Tibeti jakvajas tea",
+    "(Forrás: https://st2.depositphotos.com/2658287/8829/i/600/depositphotos_88299270-stock-photo-tibetan-yak-butter-tea.jpg, letöltve: 2024. 07. 04.)",
+    "A jak földjének tekintett Tibetben a 600-as évek végétől virágzott a vaj kultusza. Minden évben vajszobrokat készítettek az oltárokra ételfelajánlásként a vaj ünnepe alkalmából. (5. ábra)",
+    "",
+    "5. ábra: Tibeti vajszobor",
+    "(Forrás: https://www.tibettravel.org/blog/wp-content/uploads/2017/05/tibetan-butter-sculpture.jpg, letöltve: 2024. 07. 04.)",
+    "A Bibliában, Salamon könyvében kenőcsként utalnak a vaj időszámításunk előtti használatára, Európában a 600-as években már kenhető élelmiszerként szerepel a leírásokban. A 12. századtól kereskedelmi termékként tartják nyilván, és a 16. századtól vajgyártó manufaktúrákban készítik a vajat.",
+    "„A vajkészítés európai bölcsőjének a mai Norvégia tekinthető, ahonnan utat talált a kontinens más tájai felé is. A vaj savanyú tejszínből készült. A vajat és a sajtot a nyári legelőkön létesített gömbfa kunyhókban állították elő, amint azt napjaink havasi legelőinek pásztorai teszik. Vélhetően a tej fölözése Észak-Európa népeinek találmánya. Egyes vélemények szerint a Kr. u. 870-es évek előtt ismerték. (Ezekben az évtizedekben jutottak el a norvég telepesek Izland szigetére.) A norvégek a Kr. u. 8. században fakéreg dobozokban tárolt vajat vittek magukkal hajóútjaikon.”",
+    "A vajkészítés a parasztháztartásokban az egész magyar nyelvterületen szokásos volt. A magyar vaj szó első írásos említése 1395-ből származik. A mai magyar vaj szó a finnugor nyelvekben szinte mindenhol megtalálható (például: vogul, osztják, finn).",
+    "A vaj rövid ideig eltartható, könnyen avasodik. Ezért voltak régebben gyakoriak a sózott vajféleségek, ami a mai ízlésre is hatással van. A másik tartósítási lehetőség a vaj derítése, a vajat felforraljuk és felforralás után forralási hőmérsékleten tartjuk, vagyis nagyon kis lángon való hosszú hevítéssel az összes vizet elpárologtatjuk belőle. Ezt követően sűrű szövésű anyagon való átszűréssel az összes, még benne található vizes írót és egyéb anyagot eltávolítják. Így kapjuk a kristályos, vékony rétegben átlátszó, szép sárga színű vajzsírt vagy derített vajat, mely a sütést is jobban bírja. Ez a tartósítási mód a magyar népi gyakorlatban is ismert, de a világ más részein, különösen keleten szintén gyakori. Ilyen eljárással készül az indiai ghi [ejtsd: gí] és az észak-afrikai, arab világban ismert smen vagy szemne, melynél a víztelenítést a benne hevített rizsszemekkel is elősegítik.",
+    "„.. kontinensünkön a vajat inkább folyékony formában fogyasztották. A középkor embere és a magyar falu is többnyire az ételek ízesítésére hasznosította. Újabb keletű és a polgári kultúrához (városlakókhoz) kapcsolódik a tömbökbe öntött, szilárd, friss vaj fogyasztása. Ez a szokás hazánkban a XIX. század utolsó harmadában terjedhetett el. Ekkor már a vaj kultikus szerepe megszűnőben volt, inkább a piaciesztétikai szempontok kerültek előtérbe. … a vajtömböket már régóta díszíthették, és ezt azért tették, mert korábban az ünnepi asztal díszei, egyúttal a kultusz kellékei voltak. A német és az orosz nyelvterületen a díszített vaj a húsvét és a lakodalom mellőzhetetlen elemei voltak. … Magyarországon a piacra szánt vajat mintázták meg. Ezek tájegységenként eltérő formában jelentek meg. Az egyes formák és darabok általában súlyegységet is jelentettek…” (6. kép)",
+    "",
+    "6. ábra: Ilon Gábor: A vajkészítés mintafái két vasi és egy Sopron megyei faluból",
+    "(Forrás: Vasi népművészeti tár, XXXII. Vasi Szemle 2018. LXXII. évfolyam 6. szám, http://www.vasiszemle.hu/2018/06/ilon.pdf, letöltve: 2024. 07. 04.)",
+    "A kíváncsiabbak ellátogathatnak a corki Vajmúzeumba. http://thebuttermuseum.com/files/hu.pdf, utolsó megtekintés: 2024. 07. 04.)",
+    "A vaj",
+    "A vaj tejzsírból fizikai úton nyert, idegen zsírt nem tartalmazó termék. A vaj zsírtartalma legalább 80%, de kevesebb, mint 90%, maximális víztartalma 16%, és zsírmentes tejszárazanyag-tartalma 2%. Tejből vagy tejszínből állítják elő az író leválasztásával.",
+    "A vaj 20 °C-on szilárd halmazállapotú és kenhető állományú „víz a zsírban” típusú emulzió, amely a vízen kívül más hozzáadott anyagot nem, vagy legfeljebb tejzsírt, tejeredetű tejsavkoncentrátumot, étkezési sót, színezéket és tejsavbaktérium-színtenyészetet tartalmaz. (7. ábra)",
+    "",
+    "7. ábra: Vaj",
+    "(Forrás: https://hu.depositphotos.com/38611421/stock-photo-butter.html, letöltve: 2024. 07. 04.)",
+    "A vaj fő alkotórésze a zsír (80–90%). Víztartalma maximum 16%, ami az aromaanyagok hordozója. A benne lévő lipidek többségét a vajzsír (tejzsír) alkotja. Nyári időszakban a vajzsírban több a telítetlen zsírsav (főleg az olajsav), télen viszont a telített zsírsavak mennyisége nő meg (sztearinsav, mirisztinsav, palmitinsav). A lipidek kisebb részét (0,6%-át) a lipoidok alkotják.",
+    "A vaj zsírmentes szárazanyag-tartalma 2%. Ennek felét a fehérjék teszik ki, a tejcukor és tejsavtartalom 0,4–0,7% között mozog, az ásványi anyagok, vitaminok, szín-, íz- és aromaanyagok aránya 0,1–0,3% között mozog.",
+    " Vajfajták",
+    "A gyártástechnológia függvénye alapján az alábbi vajfajták állítható elő:",
+    "• Savanyútejszín-vaj: az a vaj, amely mikrobiálisan savanyított tejből, tejszínből készült, és amelynek pH értéke 4,6–5,0 pH között van.",
+    "• Édestejszín-vaj: Vaj, amely tejből, tejszínből mikrobiális savanyítás nélkül tehát nem savanyított tejből, tejszínből készült, amelyhez köpülés után sem adtak tejsavbaktérium-kultúrát, és amelyek pH-értéke 6,2–6,6 pH között van.",
+    "• Félsavanyútejszín-vaj: Olyan vaj, amely sem a savanyútejszín-vaj, sem az édestejszín-vaj definíciójának nem felel meg, amely tejből, tejszínből mikrobiális savanyítás nélkül tehát nem savanyított tejből, tejszínből készült és pH-értéke 6,4 alatt van. A pH-t mindig a vaj gyúrása során állítják be.",
+    "Definíciók",
+    "Az 1308/2013/EU-rendelet 78. cikke VII. mellékletének VII. része és II. melléklete (a mezőgazdasági termékek piacának közös szervezése) szerint a vaj a kenhető zsírok (20°C-os hőmérsékleten szilárd kenhető termékek), illetve a tejzsírok közé tartozik. (1. táblázat)",
+    "1. táblázat: Az Európai Parlament és a Tanács 1308/2013/EU rendelete II. függelék",
+    " Mikrobiológiai kritériumok",
+    "Nyers tejből vagy pasztőrözési hőmérséklet alatti hőkezelésen átesett tejből készült vajnak és tejszínnek a gyártási folyamat végén a 2073/2005/EK rendeletben meghatározott higiéniai követelményeknek kell megfelelni (2. táblázat). Nem kielégítő eredmények (vizsgálati határértékek feletti mikrobaszám) esetén a gyártási higiéniát és a nyersanyagok kiválasztását kell felülvizsgálni. A gyártási tételekből mindig „n” számú mintát kell venni a vizsgálathoz, jelen esetben öt darabot. Az öt mintát a vizsgálati szabványok szerint vizsgálják, és meghatározzák minden mintában a vizsgált mikroorganizmusok számát. Az öt mintából „c” számú mintaelem eredménye lehet „m” és „M” közötti. Ezt szemlélteti a lentebb kifejtett példa* is. A „c” szám eltérhet az egyes mikrobáknál. (Például a Salmonella esetében c = 0, ami azt jelenti, hogy egyik vizsgálati elem sem tartalmazhat m érték feletti mikrobát, akkor lesz csak megfelelő a termék, de az E. coli esetében az 5 mintából 2 minta tartalmazhat az m és M érték közötti számban E. coli mikrobákat, akkor is megfelelő a termék). Lásd a 2. táblázatot. Az „m” érték alatti vizsgálati értékek esetén mindig megfelelő a vizsgálati minta, a „M” érték a még megengedhető maximális mikrobaszám, tehát az m és M közötti érték a nem kiváló, de elfogadható telepszám.",
+    "2. táblázat: 2073/2005/EK rendelet I. MELLÉKLET Élelmiszerekre vonatkozó mikrobiológiai kritériumok",
+    "",
+    "n = a mintaelemek száma,\nc = m feletti vagy m és M közötti értéket adó mintaelemek száma.",
+    "az adott mikroorganizmusra vonatkozóan a termékből vett minden vizsgálati minta tekintetében, a mintában a vizsgált mikrobára vonatkozó, jelenlevő telepképző egységek (cfu: Colony forming unit) legkisebb (m) és legnagyobb (M) száma. Salmonella esetén m=M",
+    "(cfu/g, ez az érték azt mutatja meg, hogy hány telepképző egység van egy gramm termékben az adott mikroorganizmusból)",
+    "A mikroorganizmus meghatározásához használható vizsgálati szabvány",
+    "Az eredmények értelmezése",
+    "A megadott határértékek az egyes vizsgált mintaelemekre vonatkoznak.\nA vizsgálati eredmények a vizsgált folyamat mikrobiológiai minőségét jelzik.",
+    "Salmonella",
+    " megfelelő, ha az összes kapott érték a baktérium hiányát jelzi,",
+    "nem megfelelő, ha a baktérium jelenlétét bármelyik mintaelemben kimutatták.",
+    "Escherichia coli (kólibaktérium vagy kólibacilus)",
+    "megfelelő, ha az összes kapott érték < m,",
+    "elfogadható, ha az n érték közül legfeljebb c van m és M között, és a többi kapott érték < m,",
+    "nem megfelelő, ha a kapott értékek közül egy vagy több > M, vagy az n érték közül több mint c van m és M között.",
+    "Példa* a meghatározásra Escherichia coli vizsgálatakor",
+    "A vizsgált tétel nem megfelelő, mivel c = 2 és az 5 vizsgált mintából c-nél nagyobb számú vizsgálati eredmény, jelen példában 3 darab esik „m” és „M” határértékek közé. Ha a 2-es számú minta vizsgálati értéke is kevesebb lenne, mint 10, akkor a vizsgált tétel még az elfogadható kategóriába tartozna, mert csak 2 darab minta értéke lenne „m” és „M” határértékek között.",
+    "Az élelmiszerekről szóló 1995. évi XC. törvény 27. §-ának (11) bekezdése alapján az élelmiszerek mikrobiológiai kritériumairól szóló, 2005. november 15-i 2073/2005/EK bizottsági rendelet (a továbbiakban: EK rendelet) alkalmazása mellett a 4/1998. (XI. 11.) EüM rendeletet (3. táblázat) is alkalmazni kell az élelmiszerekben előforduló mikrobiológiai szennyeződések megengedhető mértékének megállapításához. Ezen rendelet előírásai alapján vizsgálni kell az élelmiszert, az élelmiszerrel kapcsolatos tevékenység során használt berendezést, felszerelést, gépet, munkaeszközt, az élelmiszerrel közvetlenül érintkező munkafelületet és csomagolóanyagot, valamint az élelmiszerrel kapcsolatos tevékenységet végző személy tisztaságát.",
+    "3. táblázat: A vaj és az ízesített vajkészítmények a 4/1998. (XI. 11.) EüM rendelet 4. számú melléklete alapján",
+    "Az eredmények értelmezése",
+    "A megadott határértékek az egyes vizsgált mintaelemekre vonatkoznak.\nA vizsgálati eredmények a vizsgált folyamat mikrobiológiai minőségét jelzik.",
+    "Listeria monocytogenes, Salmonella",
+    "megfelelő, ha az összes kapott érték a baktérium hiányát jelzi,",
+    "nem megfelelő, ha a baktérium jelenlétét bármelyik mintaelemben kimutatták. ",
+    "A vajgyártás technológiai folyamata",
+    "A tejet először tejszínre és sovány tejre szeparálják, majd a tejszínt hőkezelik, ami a nemkívánatos mikroorganizmusok elpusztítására szolgál, másrészt az enzimek – főként a lipázok, proteázok és oxidázok – inaktiválására, ugyanis ezek a későbbiekben minőségromlást és eltarthatósági gondokat okozhatnak. A viszonylag magas hőkezelési hőmérsékletek (többnyire 95–110 °C) azért szükségesek, mert a mikroorganizmusokat a zsír védi, valamint számos enzim igen jó hőtűrő. A nemkívánatos illó aromaanyagok, amelyek például a takarmányból vagy az istálló levegőjéből jutottak a tejbe, és a tejzsírban feldúsultak, vákuumos gázmentesítéssel (szellőztetés) távolíthatók el. A lehűlés fontos a termék szövetszerkezete és állaga szempontjából. A hűtést követi a tejszín érlelése.",
+    "A tejszínt mindig a gyártani kívánt vajtípusnak megfelelő kritériumok alapján kezelik, fizikai vagy biológiai érleléssel. Ezt követi a tényleges vajgyártási folyamat: a vaj kiválása. A vaj előállításának vázlatát a 8. ábra szemlélteti, a vajgyártás folyamatát a 9. ábra mutatja be.",
+    "",
+    "8. ábra: A vaj előállításának vázlata",
+    "(Forrás: Tej és tejhigiénia Élelmiszeripar Témakör: 8. Tejtermékek 8.2. ábra)",
+    "",
+    "9. ábra: A vajgyártás folyamatábrája",
+    "(Forrás: Szakágazati technológia tejipar II. (Mezőgazdasági kiadó 1983) 31.o., 50. o., 56.o.)",
+    "",
+    "A 9. képen látható gyártási folyamatnak a nyerstej átvételétől a fölözésen, zsírbeállításon, pasztőrözésen át az utótárolásig tartó szakaszával az előző fejezetekben részletesen foglalkoztál. A továbbiakban a tejszín érlelésével kezdődően ismerheted meg részletesen a technológiai folyamatokat.",
+    "Vajgyártás édes tejszínből, vajgyártás savanyú tejszínből",
+    "A tejszín érlelésének célja az, hogy a tejszínt vajkészítésre alkalmassá tegye. A kívánt készterméktől függően a tejszínt különböző érlelési eljárásokkal teszik köpülésre alkalmassá. A köpülés folyamatát a 3.4.1. fejezetben részletesen megismerjük.",
+    "Érlelhető a tejszín a fizikai, a biológiai és a hőfoklépcsős eljárások valamelyikével (lásd később). Főként az érlelés során felszabaduló aromaanyagok által alakul ki a vaj szerkezete, kenhetősége, illetve az íze. Ebből a szempontból kétféle vajat különböztetünk meg:",
+    "édes tejszínvajat, amikor az érlelés fizikai módon (hűtés vagy melegítés) történik,",
+    "savanyú tejszínvajat, amikor a tejszínhez vajkultúrát (például Str. lactis, cremoris) adagolnak.",
+    "Fizikai érlelés",
+    "A fizikai érlelés lényege, hogy a tejszínt 10 °C alá hűtik és hidegen tartják. Általában 26 °C-on 26 órán át érlelik. Télen magasabb, nyáron alacsonyabb érlelési hőmérsékletet választanak, mivel a nyári időszakban a vajzsírt keményíteni szeretnénk ezért gyorsan és alacsonyabb hőmérsékleten történik az érlelés, míg télen lágyítani szeretnénk a vajzsírt ezért lassabban és magasabb hőmérsékleten történik az érlelés. Alacsonyabb hőmérsékleten az érlelési idő rövidebb, magasabb hőmérsékleten az érlelési idő hosszabb. Érleléskor a zsírgolyócskák megdermednek. ",
+    "Biológiai érlelés",
+    "A biológiai érlelés ideje alatt két szakasz különböztethető meg, elsőként a savanyítási szakasz, majd az aromatermelési szakasz. \nA tejszínt 35% vajkultúrával savanyítják. \nSavanyítási szakasz: az érlelésre váró tejszínt bekultúrázzák, majd 1622 °C-on 810 órán keresztül savanyítják. Ebben a szakaszban 25 plazmasavfokig (a tejszín vizes fázisának savfoka) érlelik a tejszínt. A savanyítási szakaszban tejsav termelődik, csökken a pH, ezért a burokfehérjék dehidratálódnak, csökken a burok elektromos töltése és a felsoroltak miatt csökken a „zsír a vízben” emulzió stabilitása.",
+    "Aromatermelési szakasz: a már 25 plazmasavfokig érlelt tejszínt 913 °C-ra lehűtik, és ezen a hőmérsékleten még 610 órán át érlelik. Közben lassan leáll a savanyodás, és fizikai változások következnek be. Az érlelés végére a tejszín plazmasavfoka eléri a 35 pSH-t. A hidegérlelés alatt aromaanyagok  aldehidek, ketonok, észterek, amelyek közül legfontosabb a diacetil észter  termelődnek, és közben a lehűtött tejszínben megindul a zsírgolyócskák kristályosodása. ",
+    "Hőfoklépcsős érlelés",
+    "A hőfoklépcsős érlelés a tejszín fizikai érlelése a hőfokok és az idő kombinációjával. A kedvező vajállomány kialakítása a cél. Figyelembe kell venni a tejzsír átlagos kristályosodási hőmérsékletét. Ez a hazai tejzsíroknál télen 20 °C, nyáron 11 °C és az átmeneti időben 15 °C (10. kép).",
+    "",
+    "10. ábra: A tejszínérlelés hőfoklépcsői az évszaktól függően",
+    "(Forrás: táblarajz magyarázattal; saját készítésű rajz technológiai adatok alapján.)",
+    "A vajgyártás technológiai lépései",
+    "A vaj köpülése, a vajrögök kialakulása során lejátszódó folyamatok",
+    "A vajgyártás legfontosabb művelete a köpülés, melynek során a tejszín „zsír a vízben” emulziójából fázismegfordulással „víz a zsírban” emulzió jön létre (11. ábra), vagyis a tejszínből fázismegfordulás után vajrögök (12. ábra) és író képződnek a köpülőben (14. ábra) a forgás következtében kialakult mechanikai hatásra.",
+    "",
+    "11. ábra: Fázismegfordulás",
+    "(Forrás: https://szupermenta.hu/wp-content/uploads/2019/11/emulzi%C3%B3_net-605x900.jpg, letöltve: 2024. 07. 04.)",
+    "",
+    "12. ábra: Vajrögök a köpülőben",
+    "(Forrás: https://www.ujno.sk/files/article_gallery/vaj-kopules-tartalyban.jpg, letöltve: 2024. 07. 04.)",
+    "A tejzsír mikrométer nagyságú zsírcseppek formájában van jelen, amelyeket membrán vesz körül. A köpülés célja, hogy ezeket a membránokat felszakítsa, hogy a tejzsír vajjá állhasson össze.",
+    "A tejszín érlelésének hatására megszűnik a zsírgolyócskák burkának összefüggő jellege. A köpüléskor a zsírgolyócskákból a vajolaj kilép, és összefüggő fázissá egyesül, miközben az előző összefüggő plazmából apró cseppeket zár magába. A köpülés végére tehát vajrögök és jelentős mennyiségű folyadékfázis, úgynevezett író keletkezik.",
+    "A köpülés fontos feltétele a köpülési hőmérséklet helyes megválasztása. A köpülési hőmérséklet 812 °C, nyáron alacsonyabb, télen magasabb. A téli vajzsír olvadáspontja magasabb, mint a nyárié, ezért kell télen magasabb, nyáron alacsonyabb köpülési hőmérsékletet választani. A köpülési hőmérséklet megválasztásakor a tejszín zsírtartalmát is figyelembe kell venni. Ha a tejszín zsírtartalma magas, akkor a vajolaj mennyisége több a plazma mennyiségéhez viszonyítva. A zsírgolyócskák túl gyorsan egyesülnek rögökké, ezért a kisebb zsírgolyócskák száma megnő a plazmában, vagyis nő az író zsírtartalma. Megállapítható, hogy a nagyobb zsírtartalmú tejszínt alacsonyabb, míg a kisebb zsírtartalmút magasabb hőmérsékleten kell köpülnünk.",
+    "A köpülés folyamatában több szakaszt figyelhetünk meg.",
+    "Habképződési szakasz: köpülés közben a tejszín örvénylik, rázkódik és levegővel keveredve részben habbá verődik. Az érlelés során már részben emulgeált zsírgolyócskák egymásnak ütköznek, és a felületükön levő vajolaj segítségével halmazokba tapadnak össze. A halmazok a habképződés következtében a hab felületén koncentrálódnak. A koncentrálódás során a hab zsírtartalma a 70%-ot is eléri.",
+    "Habösszeesési szakasz: a további mechanikai munka hatására az összes vajolaj kifolyik a zsírgolyócskákból, és magába zárja a maradék szilárd zsírfázist és a folyadékfázis egy részét. Azaz megtörténik a fázismegfordulás, mikroszkopikus vajszemcsék képződnek, és a hab összeesik.",
+    "Vajrögképződési szakasz: a mikroszkopikus vajszemcsék makroszkopikus vajrögökké egyesülnek. A vajrögök közé bezáródik a víz kisebbik része, nagyobb része mint író elkülönül (13. ábra).",
+    "1. Légbuborékok,\n2. Zsírrészecske halmazok,\n3. Finom eloszlású kötött víz,\n4. Durva eloszlású szabad víz",
+    "",
+    "",
+    "",
+    "13. ábra: A vajrögök képződése",
+    "(Forrás: Szakágazati technológia tejipar II. (mezőgazdasági kiadó 1983) A vajrögök képződése 37. oldal 12. ábra)",
+    "a. Zsírrészecske halmazok a légbuborék felületén,\nb. Mikroszkopikus vajszemcsék,\nc. Mikroszkopikus vajrögök,\nd. Makroszkopikus vajrögök",
+    "A vajszemcsék, vajrögök képződése, növekedése folytonos. A mikroszkópos tartományban az elsődleges vajszemcsékbe bezáródott finom eloszlású plazma az ún. kötött víz. A vajrögök közé bezáródott kötött víz gyúrással nem távolítható el. A makroszkópos (szabad szemmel látható) tartományban bezárt vizet, azaz a szabad vizet gyúrással eltávolíthatjuk. A köpülést általában 2-3 mm átmérőjű vajrögök eléréséig folytatjuk. Köpülés után az írótól elválasztjuk a vajrögöket. Az író zsírtartalma függ az érlelés és a köpülés módjától, 0,31,2% között mozog.",
+    "A vaj mosása",
+    "A vaj mosásának célja a vajrögök között visszamaradt író és az utófertőzéssel bekerült baktériumok eltávolítása.",
+    "A vaj mosása előnyös, mert csökkenthető a baktériumok számára tápanyagul szolgáló tejcukor és fehérjék mennyisége, és eltávolíthatók a hibát okozó vízben oldódó íz- és szaganyagok.",
+    "Hátránya, hogy az íz- és aromaanyagok nagy részét is kimossuk. A mosott vaj üresebb ízű. A zsírmentes szárazanyag-tartalom 1,53%-ról akár 0,51,5%-ra csökken.",
+    "A vaj mosásához ivóvíz minőségű víz szükséges. A víz vas- és mangántartalma legyen kicsi, keménységi foka ne haladja meg a 12 német keménységi fokot, pH-értéke legfeljebb 7 lehet. A mosóvíz hőmérséklete befolyásolja a vaj állományát és alapvíztartalmát. Kis rögméretre köpüléssel és hidegebb mosóvízzel kisebb alapvíztartalmat érhetünk el. A köpülési hőmérsékletnél hidegebb mosóvizet alkalmazva a vaj utószilárdulása csökken, ezért a vaj állománya kenhetőbb lesz.",
+    "A vaj gyúrása",
+    "A gyúrás a vaj készítésének igen fontos művelete.",
+    "A gyúrás célja:",
+    "a vajrögök, vajszemcsék közé bezáródott felesleges víz eltávolítása,",
+    "az egységes vajszerkezet kialakítása,",
+    "a visszamaradó vízcseppek elaprózása és egyenletes eloszlatása.",
+    "Az elsődleges vajszemcsékbe bezáródott finom eloszlású víz (kötött víz) gyúrással nem távolítható el. Eltávolítható viszont a gyúrással a szabad víz, ami jelen esetben a nagyobb üregekbe bezáródott víz.",
+    "Technológiai szempontból a gyúrásnak két szakasza van:",
+    "az előgyúrás: célja a felesleges víz eltávolítása a vajból. Gyúrás közben a vaj víztartalma fokozatosan az alapvíztartalomra csökken. A vaj alapvíztartalma (legkisebb víztartalom) függ az alkalmazott technológiától, a vajzsír összetételétől, a köpülési, mosási és a gyúrási hőmérséklettől.",
+    "az utógyúrás, amelynek során a vajrögök egységes vajjá tömörödnek, a visszamaradó víz egyenletesen elaprózódik és eloszlik. A vízcseppek elaprózódása közben a vízcseppekre nyomó- és nyíróerő hat, a cseppek folyadékhártyává deformálódnak, apró részekre szakadnak, majd ismét gömb alakot vesznek fel. Ez a gyúrás alatt többször megismétlődik. A folyamat közben a fehérjék és a baktériumok a zsírfázisban rögzítődnek. Itt a baktériumok víz hiányában csökkentik tevékenységüket, ezért a vaj sokáig eláll.",
+    "A vaj állománya nagymértékben befolyásolható a gyúrással. Ha kisebb hőmérsékleten gyúrják, lágyul a vaj állománya, mert csökken az utószilárdulás. Ha keményebb állományú vajat akarnak készíteni, akkor magasabb hőmérsékleten gyúrják, így elősegítik az utószilárdulást.",
+    "A vaj víztartalmának, pH-értékének beállítása",
+    "Szakaszos vajgyártásnál a gyúrás befejezése után, folytonos vajkészítéskor az utógyúráskor állítják be a vaj víztartalmát és pH-ját. Szakaszos vajgyártásnál az utógyúrt vaj víztartalmát vizsgálják meg, és ennek ismeretében adják a köpülőben lévő vajhoz a vizet, majd szárazra gyúrják. Folytonos vajkészítő berendezésekben vízbeállító szivattyúval az utógyúráskor adagolják a szükséges vizet a vajhoz. A szakaszos és folytonos vajgyártás részletese leírásával is találkozni fog hamarosan a tanuló.",
+    "A vaj pH-ját általában a vaj víztartalmával együtt állítják be. A pH-t vajkultúra és citromsavoldat keverékével állítják be. A vaj tárolása alatt 1-2 napig még várhatóan 0,1-0,2 tizeddel csökken a pH-érték a tejsavbaktériumok tevékenysége miatt. A víztartalom beállításánál figyelembe kell venni, hogy a víz adagoláskor 0,10,3% víz kigyúródik a vajból.",
+    "A vaj savanyítása, sózása",
+    "Az enyhén savanyított vaj NIZO-eljárással (Holland Tejipari Kutatóintézet – NIZO food research) zajló gyártása során előbb tejsavbaktériumok segítségével aroma- és tejsavbaktérium-koncentrátumokat állítanak elő. Ezeket gyúráskor bedolgozzák az édestejszín-vaj szemcséibe, így egy tejfölből köpült vajhoz hasonló termék keletkezik. Az enyhén savanyított vaj egyik fontos előnye, hogy előállításakor édes író keletkezik, ami sokkal többféleképpen használható fel a továbbiakban, mint a savanyú író. Továbbá az enyhén savanyított vaj ellenállóbb az oxidációval és az avasodással szemben.",
+    "Ha sózott vajat kell készíteni, akkor a sót konyhasóoldat formájában, gyúráskor adják hozzá a vajhoz. Só hozzáadása esetén „sózott” jelöléssel kell ellátni a vajat, valamint jelölni kell annak sótartalmát.",
+    "Vajgyártás szakaszos technológiával",
+    "A köpüléstől a kész termékig (köpülés, mosás, gyúrás, víztartalom és pH-érték beállítása, sózás, utósavanyítás) a vaj gyártása a köpülőben történik.",
+    "A gyártáshoz savanyútejszín-vaj esetében 2830%-os zsírtartalmú tejszínt, míg édestejszín-vaj gyártásához 3336%-os zsírtartalmú tejszínt használnak fel. A tejszínt 95110 °C-on hőkezelik. A köpülőbe tölthető tejszín mennyiségét a tejszín zsírtartalma határozza meg. Általában 2540%-os a töltési arány.",
+    "A köpülés megkezdése előtt lezárják a köpülőt (14. ábra), majd lassú fordulaton pár fordulatot tesz a köpülő, utána gáztalanítanak. A tejszínből felszabaduló gázok  főleg szén-dioxid  okozzák a köpülőben a túlnyomást. Ezt követően megkezdik a köpülést, míg össze nem esik a hab, és látható vajszemcsék meg nem jelennek. Ezt a köpülőn található kémlelőablak megtisztulása is jelzi. Amikor a kívánt rögnagyságot elérték, a vaj tömörítése céljából lassan tesz néhány fordulatot a köpülő, majd pár perces pihentetés után leeresztik az írót. A következő lépés a gyártás során a vaj mosása. A mosóvíz és vaj mennyisége a köpülő térfogatának 40%-a lehet. Zárt ajtó és nyílások mellett pár fordulattal mosnak, majd a mosóvizet leeresztik. Ezután következik az előgyúrás nyitott íróleeresztővel és lazán zárt köpülőajtóval, hogy a felesleges víz távozzon. Az előgyúrás 1520 percig tart, az ajánlott fordulatszám 46 fordulat/perc. Utógyúráskor szintén 46 fordulat/percen dolgoznak szárazra gyúrásig (amíg a köpülő belseje száraz lesz). Utógyúrás után beállítják a vaj víztartalmát és pH-ját, majd ismét szárazra gyúrják. Ezt követően mintát vesznek és ellenőrzik a beállítás helyességét, majd kiadagolják a vajat.",
+    "",
+    "14. ábra: Vajköpülő gép",
+    "(Forrás: ",
+    "https://ttseparator.hu/wp-content/uploads/2022/01/homogenizatorok_4-1-1.jpg, letöltve: 2024. 07. 04.)",
+    "Vajgyártás folytonos technológiával",
+    "A 813 °C-ra hűtött tejszínt állandó keverés mellett csavarszivattyúval a vajgyártó gép hűthető köpülőhengerébe továbbítják. Itt egy fokozatmentesen szabályozható, nagy fordulatszámmal működő (12502500 fordulat/perc) verőléc pár másodperc alatt kiköpüli a tejszínt. A vajszemcse és az író keveréke innen a szintén hűthető utóköpülő hengerbe jut. Itt tömörülnek a vajszemcsék, melyeket az íróval együtt egy csiga a terelőlécekkel ellátott, perforált falú elválasztó hengerbe továbbít. Az író ezután egy gyűjtőedénybe kerül, majd lehűtik, tárolják. A vajrögök az úgynevezett mosóaknába hullanak, ahol hűtött vízzel permetező mosást alkalmaznak. A mosóvíz hőfoka nyáron 45 °C, télen 810 °C. A mosást követően a vajrögök a hűtőköpennyel ellátott gyúróhengerbe jutnak. Itt az egymással szemben forgó csigapár szabályozható fordulatszámmal (4060 fordulat/perc) alapvíztartalomra gyúrja a vajat, és a gyúrófejbe továbbítja. Itt történik az utógyúrás, a víz- és pH-beállítás. A víz- és pH-értéket egy változtatható teljesítményű adagolószivattyú állítja be az utógyúró részben. A kész vaj a továbbítócsőbe, majd az adagológépbe kerül.",
+    "Az elkészült vaj tárolása, csomagolása",
+    "Az utószilárdulás előtt kell csomagolni a vajat, mert a már utószilárdult vaj szerkezetében megtörik, víz szabadul fel, ami a mikroorganizmusoknak kedvez, s így a vaj hamarabb megromlik. A csomagolást a gyúrás után télen 1-2, nyáron 3 órán belül kell elvégezni.",
+    "A vaj csomagolásának célja egyrészt a termék védelme, másrészt az esztétikai hatás elérése.",
+    "A vaj csomagolóanyagával szemben a következő követelményeket támasztják:",
+    "fényvédő legyen,",
+    " a zsírt nem eresztheti át,",
+    " vízgőzáteresztése minimális legyen,",
+    " jól izolálja az íz- és szaganyagokat,",
+    " védjen a külső hatásokkal szemben.",
+    "A vajat csomagolás után azonnal hűtőbe kell szállítani, mivel jelentős szerepe van a hőmérsékletnek a vaj tárolásában az eltarthatósági idő szempontjából.",
+    "Az eltarthatósági időt a következők befolyásolják:",
+    "a tárolási hőmérséklet,",
+    "a tejszín pasztőrözési hőmérséklete,",
+    "a vaj víztartalmának mennyisége és eloszlása,",
+    "a vaj pH-ja,",
+    "a vaj zsírmentes szárazanyag-tartalma,",
+    "a vaj fehérjetartalma és a benne lévő nehézfémek mennyisége (réz, vas), amelynek mennyisége attól függ, hogy a szarvasmarha elfogyasztott táplálékából mennyi került át a tejbe a tejelválasztás során,",
+    "a vaj antioxidáns-tartalma (ez egyaránt jelenti a hozzáadott és az alapvetően benne lévő citromsavat).",
+    "Különféle vajkészítmények gyártása",
+    "A vajkészítmények körébe tartozó termékek napjainkban igen széles termékpalettával rendelkeznek, hiszen a jogszabályi előírások, csak a zsírtartalom alapján határozzák meg a termék típusokat. Ilyenek a kenhető vajkészítmények, mint például a vajkrémek, melyek natúr és különféle ízesített formában kaphatók. A vajzsír, vajpor készítmények, amelyek az eltarthatósági időt hosszabbítják meg. Az ízesített és csökkentett energia tartalmú vajkészítmények pedig a különleges igényeket támasztó fogyasztók kiszolgálására hivatott termék típusokkal bővítik a kínálatot. ",
+    "Vajkrém ",
+    "A vajkrém pasztőrözött tejszínből soványtej, vaj, tejpor hozzáadásával, esetleg adalékanyagokkal kiegészítve, tejsavbaktérium színtenyészettel alvasztva, homogénezéssel és hőkezeléssel készült, melegen kiszerelt vajkészítmény. (4. táblázat)",
+    "A vajkrémek a következő tejzsírtartalommal állíthatók elő:",
+    "—\t39% alatti,",
+    "—\ttöbb, mint 41, de kevesebb, mint 60%,",
+    "—\ttöbb, mint 62, de kevesebb, mint 80%.",
+    "A 36-39%-os vajkrém zsírtartalma általában 3639%, szárazanyag-tartalma 4649%. A zsír emulgeált állapotban van benne jelen, így az emésztés során könnyen szívódik fel. Igen jól kenhető hidegen is. Táplálkozási értékét jelentősen megnöveli viszonylag magas fehérjetartalma. Könnyen és jól ízesíthető.  Az alábbiakban a 36–39%-os vajkrém gyártástechnológiáját mutatjuk be.",
+    "A vajkrémgyártás",
+    "A 3840%-os zsírtartalmú tejszínt 10 °C alá hűtik, és ezen a hőmérsékleten tárolják a felhasználásig.",
+    "Bekeverés, zsírbeállítás",
+    "Az előkészített tejszín zsírtartalmának és szárazanyag-tartalmának ismeretében hozzáadják a beállításhoz szükséges fölözött tej és tejpor mennyiséget a kívánt zsír- és zsírmentes szárazanyag-tartalom elérése céljából.",
+    "Előmelegítés – Homogénezés - Hőkezelés",
+    "A beállított alapanyagot előmelegítik majd kis nyomáson (50-70 bar) homogénezik és ezt követően pasztőrözik 98-102 °C-on 20 s hőntartással. A kis nyomáson való homogénezés célja a tejpor tökéletes diszpergálása és a zsírgolyócskák átlagos átmérőjének csökkentése. ",
+    "Hűtés – Beoltás - Homogénezés",
+    "Pasztőrözés után 2224 °C-ra hűtik le a tejszínt. Ezen a hőmérsékleten beoltják 2% vajkultúrával. A beoltást követően újra homogénezik, de most már 250300 bar nyomáson, miközben az alapanyag hőmérséklete 3032 °C-ra felmelegszik.",
+    "Savanyítás érlelés – Alvadék feltörés",
+    "A kétszer homogénezett, hőkezelt alapanyagot ezután megalvasztják. Az alvadékot az érlelőtank keverőjével simára törik, majd szivattyúval a kutterbe továbbítják.",
+    "Kutterezés - hőkezelés",
+    "A kutterban hozzáadják az állományjavító anyagot, az ízesítő anyagokat, vajat. Ha a tejszín pH-értéke magasabb 4,5-nél, akkor azt citromsavoldattal állítják be az elvárt értékre.",
+    "A kutterben állandó keverés mellett közvetlen gőzbevezetéssel 7578 °C-ra hevítik a terméket.",
+    "Adagolás - csomagolás",
+    "A kutterezést követően a terméket szivattyú segítségével egy fűthető tartályba, majd az adagológép tölcsérébe továbbítják.",
+    "A gép a végtermék állománya és bakteriológiai minősége miatt 6572 °C-on folyamatosan adagol. A termék 4,5 pH-n 70 °C feletti hőkezelés hatására gyakorlatilag steril lesz.",
+    "A melegen való letöltés az utófertőződést a minimálisra csökkenti.",
+    "Hűtés, érlelés",
+    "A vajkrém végső állománya a fogyasztói csomagolásban hűtés közben alakul ki.",
+    "4. táblázat: A vajkrémkészítés folyamatábrája (Fejér és Komárom megyei Tejipari Vállat gyakorlati jegyzet)",
+    "",
+    "Új generációs vajkrémek",
+    "A vajkrémek új generációját fejlesztette ki Kátay Gábor és Varga László; ők a Széchenyi István Egyetem kutatói.",
+    "„A vaj jobb használati funkciójú, csökkentett energiatartalmú és olcsóbb változatának tekinthető vajkrém magyarországi népszerűsége immár három és fél évtizede töretlen. Célkitűzésünk az volt, hogy kidolgozzuk egy új típusú funkcionális vajkrém gyártástechnológiáját. Ennek érdekében meghatároztuk, hogy 30% zsírtartalmú tejszín egylépcsős homogénezése során mekkora nyomásérték mellett érhetőek el a késztermék megfelelő állományát és jó felszívódását eredményező paraméterek, ill. hogy a homogénezés milyen mértékben befolyásolja a tejszín viszkozitását és üzemi kezelhetőségét. Megállapítottuk, hogy a homogénezési hatásra vonatkozó kritériumok az új típusú vajkészítmény alapanyagául szolgáló, tejfehérje-koncentrátumot is tartalmazó, 30% zsírtartalmú tejszín egyfokozatú homogénező gépen, melegen (65 °C), 15 MPa (150 bár) nyomáson történő egyszeri homogénezésével teljesíthetők. Az ily módon kezelt tejszín megnövekedett viszkozitása miatt a pasztőrözéshez csöves vagy kapartfalú hőcserélő alkalmazása javasolt. Csökkentett zsírtartalmú, laktózmentes, élőflórás vajkrémünk a kidolgozott technológiával biztonságosan gyártható, és az alkalmazott enzim-, ill. starterkultúra-koncentráció mellett 0,1% alá csökken a termék tejcukortartalma.” (Kátay Gábor, Varga László)",
+    "Vajzsírkészítmények ",
+    "A vajzsír, más néven olvasztott vaj, tiszta vajzsír, vízmentes vaj vagy frakcionált vajzsír olyan termék, amely legalább 98% tiszta tejzsírt tartalmaz. A fennmaradó maximum 2% pedig zsírmentes szárazanyag. Ez a termék régóta ismert Európában, de különösen a meleg éghajlatú országokban. A vajzsírkészítmények +4 °C hőmérsékleten lényegesen hosszabb ideig tárolhatók, mint a vaj. Főként az édesiparban (csokoládégyártásban), cukrász- és pékáru előállításában, fagylaltokhoz, valamint főzésnél és sütésnél használják fel.",
+    "A vajzsír gyártásának alapanyaga a vaj. Kis mennyiség előállításánál addig sütik a vajat, míg a benne lévő víztartalom teljesen elpárolog.",
+    "Üzemi körülmények között hőcserélő berendezéssel felmelegítik a vajat, majd egy speciális fölözőgépben elválasztják a vajzsírtól a víz- és zsírmentes szárazanyag-tartalom nagy részét. Az így nyert vajzsír zsírtartalma eléri a 99%-ot.",
+    "Az előállítást követően a vajzsírkészítményeket tartályokba töltik, ahol inert gázzal (nitrogénnel) akadályozható meg az oxidáció.",
+    "Vajporkészítmények",
+    "A vajpor vagy más néven szárazvaj vízmentes termék. A vajat megolvasztják, majd centrifugális elven alapuló gőzzel fűtött berendezésben 100 °C fölötti hőmérsékleten vákuum alatt elpárologtatják a vizet. A termék előnye, hogy a tiszta vajzsírnál is hosszabb az eltarthatósága, és bármely tejtermék zsírtartalmának beállításához felhasználható.",
+    "Ízesített vaj",
+    "Alkoholtartalmú vaj",
+    "Az alkoholtartalmú vaj zsírtartalmának legalább 34%-nak kell lennie. Az ilyen termékek vajból, szeszes italokból és cukorból tevődnek össze. Itt is használható a „vaj” megnevezés, de mindenképpen jelezni kell az elnevezésnél az alkotóelemet is a vaj szóhoz kapcsolva, pl. whiskys vaj.",
+    "Fűszerezett vaj",
+    "A fűszerezett, ízesített vajat többféle technológiai eljárással állíthatják elő.",
+    "Az ízesítő anyagokat begyúrják a már kész vajba, így készül például a német fűszerezett vaj, a hagyományos sózott vaj.",
+    "A tiszta vajzsírt ízesítik, melyre jellegzetes példa a francia petrezselymes vaj.",
+    "A vajat tejszínnel, cukorral, különböző ízesítő anyagokkal keverik össze, ilyen például az orosz csokoládés vaj.",
+    "Csökkentett zsírtartalmú vaj",
+    "Az ide tartozó vajkészítményeknek két fő csoportja van:",
+    "háromnegyed-zsíros vaj, a termék tejzsírtartalma legalább 60 és legfeljebb 62%;",
+    "félzsíros vaj, a termék tejzsírtartalma legalább 39 és legfeljebb 41%.",
+    "Ezek a termékek a vajhoz képesti olcsóságuk, illetve táplálkozási jelentőségük miatt terjedtek el a fogyasztók körében. Gyártástechnológiájukban megegyeznek a vaj készítésével, csak a vajnál sokkal több vizet tartalmaznak.",
+    "A félzsíros vajnál adalékanyagok (pl. tejfehérje, zselatin) felhasználásával tartható meg a termék magas víztartalma, mivel a késztermék vajhoz hasonló stabilitását már csak az adalékanyagok biztosítják.",
+    "Melléktermék feldolgozása és hasznosítása",
+    "A melléktermékek feldolgozása és hasznosítása jelentős feladat mind az emberi táplálkozás, mind az állati takarmányozás szempontjából, hiszen fontos és értékes tápanyagokat tartalmaznak.",
+    "A melléktermékek feldolgozásával csökkenthető a tejipari termelési veszteség, valamint a tejipari szennyvíz mennyisége és terheltsége is jelentősen csökken, így könnyebben tisztítható lesz.",
+    "A vajgyártás mellékterméke az író. (15. ábra)",
+    "",
+    "15. ábra: Író leengedése a köpülőből",
+    "(Forrás: https://www.ujno.sk/files/article_gallery/tartaly-kiengedes-atmosas.jpg, letöltve: 2024. 07. 04.)",
+    "Az íróban minden tápanyag megtalálható, ami a tejben, amelyből készült. Zsírtartalma a fölözött tejhez viszonyítva magasabb, függ az érlelés és a köpülés módjától, 0,3–1,2% között mozog. Részletes összetételét az 5. táblázatban láthatok. Alkotórészeinek következtében igen értékes melléktermék.",
+    "5. táblázat: Az író átlagos összetétele",
+    "Az író, ami a vajgyártás mellékterméke, élelmiszerként és takarmányozási célra egyaránt hasznosítható.",
+    "Élelmiszerként",
+    "Eredeti formájában pasztőrözve, hűtve különböző csomagolásokban értékesítik. Felhasználható továbbá a sajt- és túrókészítéshez, de külföldön a különböző íróalapú üdítőitalok gyártásánál is komoly szerepe van. Hazánkban is kezd elterjedni az író kereskedelmi értékesítése natúr és ízesített formában (16. ábra)",
+    "",
+    "16. ábra: Író italok",
+    "(Forrás: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC7OeIhrJu6wbe84RtsrxFHfbn9hXEUzfXqeHafyUaLRm_XsB4S11qqYbpi7tBY_B_LJg&usqp=CAU, letöltve: 2024. 07. 04.)",
+    "Takarmányként",
+    "Elsősorban a sertéstakarmányozásban használható, amennyiben nedves vagy folyékony takarmányozási rendszert alkalmaznak. Porított alakban a takarmánytápokban 2030%-ban helyettesíti a sovány tejport.",
+    "Üzemi számítások",
+    "Mielőtt elkezdenéd a feladatok megoldását:",
+    "Értsd meg a feladatot! Olvasd el figyelmesen a feladat szövegét, gondold végig, mit olvastál, majd próbáld meg elmondani a saját szavaiddal a feladat lényegét.",
+    "Határozd meg, mit keresel. Milyen adatokat ismersz? Milyen kikötések vannak a feladatban? Rendszerezd az információkat aszerint, hogy mit ismersz, és mit kell kiszámolni! Keress összefüggést az ismert adatok és az ismeretlen között!",
+    "A megoldásról készíts magadnak tervet! A megoldást lépésről lépésre végezd el!",
+    "Ellenőrizd a kapott eredményt, vizsgáld meg a megoldás helyességét! Gondold át, hogy a kapott eredmény értéke reális-e.",
+    "Szakmai számításokhoz szükséges matematikai alapok: alapműveletek (összeadás, kivonás, szorzás, osztás), százalékszámítás, aránypárok alkalmazása.",
+    "Várható vajmennyiség meghatározása",
+    "A vajmennyiség meghatározáshoz az alábbi képleteket, összefüggéseket kell ismerni:",
+    "A felhasznált tejszín zsírtartalma, amit zsír kg-ban adunk meg",
+    "Tejszín zsír kg = ( tejszín liter x tejszín zsír% ) / 100",
+    "A tejszín zsírtartalmának hány százaléka maradt a vajban, ez a köpülés foka\nKöpülés foka % = [ ( tejszín zsír% - író zsír% ) / tejszín zsír% ] x 100",
+    "A köpülés fokának és a vaj zsírszázalékának hányadosa a kitermelési tényező\nKitermelési tényező = köpülés foka / vaj zsír%",
+    "Várható vajmennyiség\nVajmennyiség kg = tejszín zsír kg x kitermelési tényező",
+    "Ha megfelelően helyettesíted be a fenti képletekbe a megadott adatokat, az üzemi számítások egyszerűen megoldhatók, de a korábbiakban alkalmazott aránypáros megoldási módszert is használhatod.",
+    "2250 liter 32%-os tejszínből 83%-os zsírtartalmú vajat állítasz elő. 98,8%-os köpülési fok mellett mennyi lesz a várható vajnyereményed?",
+    "Az előzőekben leírtak alapján a várható vajmennyiség a következő képlettel számítható ki:",
+    "Vajmennyiség = tejszín zsír kg x kitermelési tényező",
+    "Tejszín zsír kg = (tejszín liter x zsír%) / 100",
+    "Kitermelési tényező = köpülés foka / vaj zsír%",
+    "Vajmennyiség = (tejszín liter x zsír%) / 100 x (köpülés foka / vaj zsír% )",
+    "Számítások:",
+    "Tejszín zsír kg = 2250 x 32 / 100 = 720 kg",
+    "Kitermelési tényező = 98,8 / 83 = 1,19",
+    "Vajmennyiség = 720 x 1,19 = 856,80 kg",
+    "A várható vaj mennyisége 856,80 kg.",
+    "Ha folyamatosan számolunk, az értékeket a számológépben hagyva és csak a végeredményt kerekítjük két tizedes jegyre: (98,8 / 83) x 720 = 857,06 kg a várható vajmennyiség",
+    "Számítások aránypárok alkalmazásával:",
+    "",
+    "17. ábra: Számítási feladat",
+    "(Forrás: kéziratíró saját szerkesztésű ábrája)",
+    "Egész számra kerekítve a várható vajmennyiség 857 kg.",
+    "1500 liter 32%-os zsírtartalmú biológiailag érlelt tejszínből 84%-os zsírtartalmú vajat készítesz. Az író zsírtartalma 0,3%. Mennyi lesz a várható vaj mennyisége?",
+    "A várható vajmennyiség a következő képlettel számítható ki:",
+    "Vajmennyiség = tejszín zsír kg x kitermelési tényező",
+    "Tejszín zsír kg = (tejszín liter x zsír%) / 100",
+    "Kitermelési tényező = köpülés foka / vaj zsír%",
+    "Köpülés foka % = [ (tejszín zsír% - író zsír%) / tejszín zsír% ] x 100",
+    "A képletek alapján (17. ábra):",
+    "",
+    "18. ábra: A vaj mennyiségének meghatározása",
+    "(Forrás: szakértő saját képe)",
+    "Számítások:",
+    "Tejszín zsír kg = 1500 x 32 / 100 = 480 kg",
+    "Köpülés foka = [ (32 – 0,3) / 32 ] x 100 = 99,06%",
+    "Kitermelési tényező = 99,06 / 84 = 1,18",
+    "Vajmennyiség = 480 x 1,18 = 566,40 kg",
+    "",
+    "A várható vaj mennyisége 566,40 kg.",
+    "",
+    "Vaj víztartalmának és ph-értékének beállítása",
+    "620 kg 14%-os víztartalmú vajat kell pontosan 16% víztartalmúra beállítani. Mennyi vizet kell a vajba belegyúrni?",
+    "A szükséges vízmennyiség az alábbi képlettel számítható ki:",
+    "Víz liter = [(vaj kg x vaj szárazanyag%) / vaj kívánt szárazanyag% )] – vaj kg",
+    "Vaj szárazanyag % = 100 – vaj víztartalom%",
+    "Vaj kg = a vaj mennyisége kg-ban megadva",
+    "A szükséges vízmennyiség meghatározható a korábbiakban már alkalmazott keverési képlettel is:",
+    "m = a vaj vízbeállításához szükséges vízmennyiség",
+    "vaj kg x jelenlegi víztartalom + m x 100 = (vaj kg + m) x beállítandó víztartalom",
+    "Számítások:",
+    "Vaj kg = 620",
+    "Vaj szárazanyag % = 100 – 14 = 86",
+    "Vaj kívánt szárazanyag % = 100 – 16 = 84",
+    "Víz liter = 620 x 86 / 84 – 620 = 53320 / 84 – 620 = 634,76 – 620 = 14,76 liter",
+    "A feladat megoldása a keverési képlettel:",
+    "620 x 14 + m x 100 = (620 + m) x 16",
+    "    8680 + 100m = 9920 + 16m",
+    "       84m = 1240",
+    "            m = 14,76",
+    "A vaj vízbeállításához 14,76 liter víz szükséges.",
+    "820 kg 13%-os víztartalmú, 6,4 pH értékű vajat kell 16% víztartalomra és 5,4 pH-ra beállítani. A pH beállításhoz citromsavat használsz. 100 kg vaj pH értékét 5 g citromsav 0,1 pH értékkel csökkenti. Mennyi vizet kell a vajba begyúrni, és a vízben előzetesen mennyi citromsavat kell oldani?",
+    "A szükséges vízmennyiséget az előbbiekben ismertetett képlettel számíthatod ki, a szükséges citromsav mennyiségét pedig aránypárral határozhatod meg.",
+    "Víz liter = [(vaj kg x vaj szárazanyag %) / vaj kívánt szárazanyag % )] – vaj kg",
+    "Számítások:",
+    "Víz liter = 810 x 87 / 84 – 810 = 70470 / 84 -810 = 838,93 – 810 = 28,93 liter",
+    "A vaj pH értékét 6,4 – 5,4 = 1,0 pH értékkel kell csökkenteni. ",
+    "\n0,1 pH csökkenés 5 g citromsav\n1,0 pH csökkenés ? g citromsav",
+    "? = 1,0 x 5 / 0,1 = 50 g",
+    "",
+    "100 kg vajhoz 50 g citromsav szükséges 1,0 pH értékcsökkenéshez.\n820 kg vajhoz   ? g citromsav szükséges 1,0 pH értékcsökkenéshez?",
+    "? = 820 x 50 / 100 = 410 g",
+    "",
+    "A vajba 28,93 liter vizet kell belegyúrni, amelyben előzetesen 410 g citromsavat kell feloldani.",
+    "",
+    "Irodalomjegyzék",
+    "Tej és tejhigiénia Élelmiszeripar Témakör: 8. Tejtermékek\nForrás: \"L:\\PROJEKTEK\\3-SZK\\Német kiadói források\\_Ulmer\\8252-8664-4\\8252-8664-4_MAGYAR\\8252-8664-4_Magyar fordítások\\PDF\\8252-8664-4_08_Tejtermékek.pdf\" Kézirat: 8252-8664-4_05_Tejnyerés.pdf\"",
+    "Magyar néprajzi lexikon Arcanum Digitális Tudománytár https://www.arcanum.com/hu/online-kiadvanyok/Lexikonok-magyar-neprajzi-lexikon-71DCC/v-74097/vajkeszites-vaj-740BA/ (utolsó megtekintés: 2024. 07. 02.)",
+    "Surányi Béla: A tej és tejtermékek múltja és jelene Debreceni Egyetemi Kiadó 2015 \n(e-könyv) https://dupress.unideb.hu/hu/termek/a-tej-es-tejtermekek-multja-es-jelene-e-konyv/ (utolsó megtekintés: 2024. 07. 02.)",
+    "Ilon Gábor: A vajkészítés mintafái két Vasi és egy Sopron megyei faluból (Vasi népművészeti tár, XXXII. Vasi Szemle 2018. LXXII. évfolyam 6. szám)  http://www.vasiszemle.hu/2018/06/ilon.pdf (utolsó megtekintés: 2024. 07. 02.)",
+    "Az Európai Parlament és a Tanács 1308/2013/EU rendelete \nhttps://eur-lex.europa.eu/legal-content/HU/TXT/?uri=celex:32013R1308 (utolsó megtekintés: 2024. 07. 02.)",
+    "A Bizottság 2073/2005/EK rendelete az élelmiszerek mikrobiológiai kritériumairól \nhttps://eur-lex.europa.eu/legal-content/HU/TXT/?uri=CELEX%3A02005R2073-20200308 (utolsó megtekintés: 2024. 07. 02.)",
+    "4/1998. (XI. 11.) EüM rendelet az élelmiszerekben előforduló mikrobiológiai szennyeződések megengedhető mértékéről \nhttps://net.jogtar.hu/jogszabaly?docid=99800004.eum (utolsó megtekintés: 2024. 07. 02.)",
+    "Szakágazati technológia tejipar II. Tejipari melléktermékek feldolgozása és hasznosítása. Mezőgazdasági Kiadó, 1983., 211–219. oldal",
+    "Szakágazati technológia tejipar II. vajrögök képződése. Mezőgazdasági Kiadó, 1983., 37. oldal 12. ábra",
+    "Kátay Gábor, Varga László: Csökkentett zsírtartalmú, laktózmentes, élőflórás vajkészítmény kifejlesztése – 1. rész: A gyártástechnológia kidolgozása Forrás: Élelmiszervizsgálati közlemények – LXV. ÉVFOLYAM 2. SZÁM, 2471. oldal",
+    "Fejér és Komárom megyei Tejipari Vállat gyakorlati jegyzet (1986)",
+    "",
+    "Ábrajegyzék",
+    "1. ábra: Vajas tömlő\t1",
+    "2. ábra: Tibeti jakvaj utcai piacon\t2",
+    "3. ábra: Tibeti jak\t2",
+    "4. ábra: Tibeti jakvajas tea\t2",
+    "5. ábra: Tibeti vajszobor\t3",
+    "6. ábra: Ilon Gábor: A vajkészítés mintafái két vasi és egy Sopron megyei faluból\t4",
+    "7. ábra: Vaj\t5",
+    "8. ábra: A vaj előállításának vázlata\t11",
+    "9. ábra: A vajgyártás folyamatábrája\t12",
+    "10. ábra: A tejszínérlelés hőfoklépcsői az évszaktól függően\t14",
+    "11. ábra: Fázismegfordulás\t14",
+    "12. ábra: Vajrögök a köpülőben\t15",
+    "13. ábra: A vajrögök képződése\t16",
+    "14. ábra: Vajköpülő gép\t20",
+    "15. ábra: Író leengedése a köpülőből\t27",
+    "16. ábra: Író italok\t28",
+    "17. ábra: Számítási feladat\t30",
+    "18. ábra: A vaj mennyiségének meghatározása\t31",
+    "",
+    "",
+    "Táblázatjegyzék",
+    "1. táblázat: Az Európai Parlament és a Tanács 1308/2013/EU rendelete II. függelék\t6",
+    "2. táblázat: 2073/2005/EK rendelet I. MELLÉKLET Élelmiszerekre vonatkozó mikrobiológiai kritériumok\t7",
+    "3. táblázat: A vaj és az ízesített vajkészítmények a 4/1998. (XI. 11.) EüM rendelet 4. számú melléklete alapján\t9",
+    "4. táblázat: A vajkrémkészítés folyamatábrája (Fejér és Komárom megyei Tejipari Vállat gyakorlati jegyzet)\t24",
+    "5. táblázat: Az író átlagos összetétele\t27",
+    ""
+  ],
+  "runs": [
+    [],
+    [
+      "Egyedi megrendelés azonosítója: EM-2.5.5  "
+    ],
+    [
+      "Vaj és vajkészítmények gyártása"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [
+      "Forrás",
+      ": Milchkunde und Milchhygiene, Der Verlag Eugen Ulmer KG,  2016. ISBN 978-3-8252-8664-4",
+      "\nAz eredeti könyv szerzői: Erwin Märtlbauer, Heinz Becker"
+    ],
+    [],
+    [
+      "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak."
+    ],
+    [],
+    [],
+    [],
+    [
+      "Történelmi áttekintés",
+      ""
+    ],
+    [
+      "A vaj legalább 9000 éve",
+      " az életünk része",
+      ". ",
+      "Története valószínűleg egy kis balesettel kezdődött: egy teherhordó állat hátán rázkódhatott túl sokáig a göröngyös úton a tömlőkbe zárt tej",
+      ".",
+      " ",
+      "A vajat később már tudatosan készítették: kecskebőr tömlőkbe töltötték a tej",
+      " fölét (tejszínt)",
+      ", s addig ütögették, míg vaj nem lett belőle",
+      ".",
+      " ",
+      "(",
+      "1. ",
+      "ábra",
+      ")",
+      " Hamarosan alaptermékké vált azoknál az embereknél, akik kérődző állatok (tehenek, kecskék, juhok, rénszarvasok, tevék, bivalyok) közelében éltek."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". ábra:",
+      " ",
+      "Vajas tömlő"
+    ],
+    [
+      "(",
+      "Forrás: ",
+      "https://mapio.net/images-p/7896166.jpg, letöltve: ",
+      "202",
+      "4",
+      ". ",
+      "07",
+      ". 02.",
+      ")"
+    ],
+    [
+      "A világ különböző részein az idő",
+      "k",
+      " folyamán az adott kor történelméhez kapcsolódva a vaj különféle szerepe",
+      "ke",
+      "t töltött be."
+    ],
+    [
+      "A ",
+      "Közép-Ázsia hegyvidékén élő népek között a",
+      " jakvaj ",
+      "(2. ",
+      "ábra",
+      ")",
+      " ",
+      "terjedt el",
+      ". Ez ",
+      "az ott őshonos jak ",
+      "(3. ",
+      "ábra",
+      ")",
+      " ",
+      "tejéből készített igen zsíros, tápláló vaj, am",
+      "elye",
+      "t sokféle módon használnak fel;",
+      " ",
+      "a leghíresebb talán az európai ízlés számára nehezen elfogadható jakvajas tea",
+      " ",
+      "(4. ",
+      "ábra",
+      ")",
+      "."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "2",
+      "",
+      ". ábra:",
+      " ",
+      "Tibeti jakvaj utcai piacon"
+    ],
+    [
+      "(",
+      "Forrás: https://st2.depositphotos.com/1591375/7009/i/600/depositphotos_70099865-stock-photo-yak-butter-street-market-barkhor.jpg",
+      ", letöltve: ",
+      "202",
+      "4",
+      ". ",
+      "07",
+      ". 0",
+      "4",
+      ".",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "3",
+      "",
+      ". ábra:",
+      " Tibeti jak"
+    ],
+    [
+      "(",
+      "Forrás: ",
+      "https://st4.depositphotos.com/1041222/24061/i/600/depositphotos_240613684-stock-photo-tibetan-yak-grazing-bright-green.jpg, letöltve: ",
+      "202",
+      "4",
+      ". ",
+      "07",
+      ". 0",
+      "4",
+      ".",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "4",
+      "",
+      ". ábra:",
+      " Tibeti jakvajas tea"
+    ],
+    [
+      "(",
+      "Forrás: ",
+      "https://st2.depositphotos.com/2658287/8829/i/600/depositphotos_88299270-stock-photo-tibetan-yak-butter-tea.jpg",
+      ", letöltve: ",
+      "202",
+      "4",
+      ".",
+      " ",
+      "07",
+      ". 0",
+      "4",
+      ".",
+      ")"
+    ],
+    [
+      "A jak földjének",
+      " ",
+      "tekintett Tibetben",
+      " a 600-as évek végétől ",
+      "virágzott ",
+      "a vaj kultusza",
+      ". Minden évben vajszobrokat készítettek az oltárokra ételfelajánlásként ",
+      "a vaj ünnepe alkalmából.",
+      " ",
+      "(5. ",
+      "ábra",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "5",
+      "",
+      ". ábra:",
+      " Tibeti vajszobor"
+    ],
+    [
+      "(",
+      "Forrás:",
+      " ",
+      "https://www.tibettravel.org/blog/wp-content/uploads/2017/05/tibetan-butter-sculpture.jpg",
+      ", letöltve: ",
+      "202",
+      "4",
+      ". ",
+      "07",
+      ". 0",
+      "4",
+      ".)"
+    ],
+    [
+      "A",
+      " ",
+      "Bibliában",
+      ",",
+      " Salamon könyvében kenőcsként utalnak a vaj ",
+      "időszámításunk előtti ",
+      "használatára, ",
+      "Európában a",
+      " 600-as években már kenhető élelmiszerként szerepel a leírásokban. A ",
+      "12",
+      ". századtól kereskedelmi termékként tartják nyilván",
+      ",",
+      " és a ",
+      "16",
+      ". századtól vajgyártó manufaktúrákban készítik a vajat."
+    ],
+    [
+      "„",
+      "A vajkészítés európai bölcsőjének a mai Norvégia tekinthető, ahonnan utat talált a kontinens más tájai felé is. ",
+      "A vaj savanyú tejszínből készült. A vajat és a sajtot a nyári legelőkön létesített gömbfa kunyhókban állították elő, amint azt napjaink havasi legelőinek pásztorai teszik. Vélhetően a tej fölözése Észak-Európa népeinek találmánya. Egyes vélemények szerint a Kr.",
+      " ",
+      "u. 870-es évek előtt ismerték. (Ezekben az évtizedekben jutottak el a norvég telepesek Izland szigetére.) A norvégek a Kr.",
+      " ",
+      "u. 8. században fakéreg dobozokban tárolt vajat vittek magukkal hajóútjaikon.”",
+      ""
+    ],
+    [
+      "A vajkészítés a parasztháztartás",
+      "ok",
+      "ban az egész magyar nyelvterületen szokásos volt. A magyar",
+      " ",
+      "vaj szó",
+      " első",
+      " írásos említése 1395-ből származik. A ",
+      "mai magyar ",
+      "vaj ",
+      "szó a finnugor nyelv",
+      "ekben",
+      " szinte mindenhol megtalálható (",
+      "például: ",
+      "vogul, osztják, finn)."
+    ],
+    [
+      "A vaj ",
+      "rövid ideig ",
+      "eltartható, könnyen avasodik. Ezért voltak régebben gyakoriak a sózott vajféleségek, ami a mai ízlésre is hatással van. A másik tartósítási lehetőség a ",
+      "vaj derítése,",
+      " ",
+      "a vajat felforraljuk és ",
+      "felforralás után ",
+      "forralási hőmérsékleten tartjuk, vagyis ",
+      "nagyon kis lángon való hosszú hevítéssel ",
+      "az összes vizet elpárologtatjuk belőle. Ezt követően ",
+      "sűrű szövésű anyagon való átszűréssel az összes",
+      ",",
+      " még benne található vizes írót és egyéb anyagot eltávolítj",
+      "á",
+      "k. ",
+      "Így",
+      " kapj",
+      "u",
+      "k a kristályos, ",
+      "vékony rétegben ",
+      "átlátszó, szép sárga színű vajzsírt vagy derített vajat, mely a sütést is jobban bírja. Ez a tartósítási mód a magyar népi gyakorlatban is ismert, de a világ más részein, különösen keleten szintén gyakori. Ilyen eljárással készül az indiai ",
+      "ghi",
+      " [ejtsd: gí] és az észak-afrikai, arab világban ismert ",
+      "smen",
+      " vagy ",
+      "szemne",
+      ", melynél a ",
+      "víztelenítést a benne hevített rizsszemekkel is elősegítik."
+    ],
+    [
+      "„.. kontinensünkön a vajat inkább folyékony formában fogyasztották. A középkor embere és a magyar falu is többnyire az ételek ízesítésére hasznosította. Újabb keletű és a polgári kultúrához (városlakókhoz) kapcsolódik a tömbökbe öntött, szilárd, friss vaj fogyasztása. Ez a szokás hazánkban a XIX. század utolsó harmadában terjedhetett el. Ekkor már a vaj kultikus szerepe megszűnőben volt, inkább a piaciesztétikai szempontok kerültek előtérbe. … a vajtömböket már régóta díszíthették, és ezt azért tették, mert korábban az ünnepi asztal díszei, egyúttal a kultusz kellékei voltak. A német és az orosz nyelvterületen a díszített vaj a húsvét és a lakodalom mellőzhetetlen elemei voltak. … Magyarországon a piacra szánt vajat mintázták meg. Ezek tájegységenként eltérő formában jelentek meg. Az egyes formák és darabok általában súlyegységet is jelentettek",
+      "…",
+      "”",
+      "",
+      " ",
+      "(",
+      "6",
+      ".",
+      " kép",
+      ")"
+    ],
+    [
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "6",
+      "",
+      ". ábra:",
+      " Ilon Gábor: A vajkészítés mintafái két vasi és egy Sopron megyei faluból"
+    ],
+    [
+      "(",
+      "Forrás:",
+      " ",
+      "Vasi népművészeti tár, XXXII. Vasi Szemle 2018. LXXII. évfolyam 6. ",
+      "szám",
+      ", http://www.vasiszemle.hu/2018/06/ilon.pdf, letöltve:",
+      " ",
+      "202",
+      "4",
+      ". ",
+      "07",
+      ". 0",
+      "4",
+      ".)"
+    ],
+    [
+      "A k",
+      "í",
+      "váncsiabbak ellátogathatnak a corki Vajmúzeumba. ",
+      ", utolsó megtekintés: ",
+      "202",
+      "4",
+      ". ",
+      "07",
+      ". 0",
+      "4",
+      ".",
+      ")"
+    ],
+    [
+      "A ",
+      "vaj",
+      ""
+    ],
+    [
+      "A vaj ",
+      "tejzsírból fizikai",
+      " úton nyert, idegen zsírt nem tartalmazó termék. A vaj",
+      " ",
+      "zsírtartalma legalább 80%, de kevesebb, mint 90%, maximális víztartalma 16%, és zsírmentes tejszárazanyag-tartalma 2%.",
+      " ",
+      "T",
+      "ejből vagy ",
+      "t",
+      "ejszínből ",
+      "állítják elő",
+      " az író leválasztásával."
+    ],
+    [
+      "A vaj ",
+      "20 °C-on szilárd halmazállapotú és kenhető állományú ",
+      "„víz a zsírban” típusú emulzió,",
+      " amely a vízen kívül más hozzáadott anyagot nem",
+      ",",
+      " vagy legfeljebb tejzsírt, tejeredetű tejsavkoncentrátumot, étkezési sót, színezéket és tejsavbaktérium-színtenyészetet tartalmaz.",
+      " ",
+      "(7. ",
+      "ábra",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "7",
+      "",
+      ". ábra:",
+      " Vaj"
+    ],
+    [
+      "(",
+      "Forrás:",
+      " ",
+      "https://hu.depositphotos.com/38611421/stock-photo-butter.html, letöltve: 202",
+      "4",
+      ". 0",
+      "7",
+      ". 04",
+      ".",
+      ")"
+    ],
+    [
+      "A vaj fő alkotórésze a zsír ",
+      "(",
+      "80",
+      "–",
+      "90%",
+      ")",
+      ". V",
+      "íztartalma maximum 16%",
+      ",",
+      " am",
+      "i",
+      " az aromaanyagok hordozója. A",
+      " benne lévő",
+      " lipidek többségét a ",
+      "vajzsír (",
+      "tejzsír) alkotja. Nyári időszakban a vajzsírban több a telítetlen zsírsav (főleg az olajsav), télen viszont a telített zsírsavak mennyisége nő",
+      " meg",
+      " (sztearinsav, mirisztinsav, palmitinsav). A lipidek kisebb részét ",
+      "(",
+      "0,6%-át",
+      ")",
+      " ",
+      "a lipoidok alkotják."
+    ],
+    [
+      "A vaj zsírmentes szárazanyag",
+      "-",
+      "tartalma 2%",
+      ".",
+      " ",
+      "E",
+      "nnek felét a fehérjék teszik ki",
+      ", a tejcukor és tejsavtartalom 0,4",
+      "–",
+      "0,7% között mozog, az ásványi anyagok, vitaminok, ",
+      "szín",
+      "-",
+      ", ",
+      "íz",
+      "-",
+      " és aromaanyagok ",
+      "aránya",
+      " 0,1",
+      "–",
+      "0,3% között mozog."
+    ],
+    [
+      " ",
+      "V",
+      "ajfajták"
+    ],
+    [
+      "A gyártástechnológia függvénye alapján az alábbi vajfajták állítható elő:"
+    ],
+    [
+      "• ",
+      "Savanyútejszín",
+      "-",
+      "vaj: ",
+      "az a v",
+      "aj, amely mikrobiálisan savanyított tejből, tejszínből készült, és ",
+      "amelynek pH értéke 4,6",
+      "–",
+      "5,",
+      "0",
+      " ",
+      "pH ",
+      "között van",
+      "."
+    ],
+    [
+      "• Édestejszín-vaj: Vaj, amely",
+      " tejből, tejszínből mikrobiális savanyítás nélkül tehát",
+      " nem savanyított tejből, tejszínből készült, amelyhez köpülés után sem adtak tejsavbaktérium-kultúrát, és amely",
+      "ek",
+      " pH-értéke ",
+      "6,2",
+      "–",
+      "6,6 pH",
+      " között van."
+    ],
+    [
+      "• Félsavanyútejszín-vaj: Olyan vaj, amely sem a savanyútejszín-vaj, sem az édestejszín-vaj definíciójának nem felel meg, ",
+      "amely tejből, tejszínből mikrobiális savanyítás nélkül tehát nem savanyított tejből, tejszínből készült ",
+      "és pH-értéke 6,4 alatt van",
+      ".",
+      " A pH",
+      "-",
+      "t",
+      " ",
+      "mindig ",
+      "a vaj",
+      " ",
+      "gyúrása során ",
+      "állítják be",
+      "."
+    ],
+    [
+      "Definíciók",
+      ""
+    ],
+    [
+      "Az 1308/2013/EU",
+      "-",
+      "rendelet 78. cikke VII. mellékletének VII. része és II. melléklete (a mezőgazdasági termékek piacának közös szervezése) szerint a vaj a kenhető zsírok (20°",
+      "C",
+      "-os hőmérsékleten szilárd kenhető termékek), illetve a tejzsírok közé tartozik.",
+      " ",
+      "(1. táblázat)"
+    ],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". táblázat:",
+      " Az Európai Parlament és a Tanács 1308/2013/EU rendelete II. függelék"
+    ],
+    [
+      " ",
+      "Mikrobiológiai kritériumok",
+      ""
+    ],
+    [
+      "Nyers tejből vagy pasztőrözési hőmérséklet alatti hőkezelésen átesett tejből készült vajnak és tejszínnek a gyártási folyamat végén a 2073/2005/EK rendeletben meghatározott higiéniai követelményeknek kell megfelelni",
+      " ",
+      "(2. táblázat)",
+      ".",
+      " Nem kielégítő eredmények ",
+      "(vizsgálati határértékek feletti mikr",
+      "o",
+      "baszám) ",
+      "esetén a gyártási higiéniát és a nyersanyagok kiválasztását kell felülvizsgálni. ",
+      "A gyártási tételekből m",
+      "indig „n” számú mintát kell venni a vizsgálathoz, jelen esetben ",
+      "öt",
+      " d",
+      "arab",
+      "ot.",
+      " ",
+      "Az öt mintát a vizsgálati szabványok szerint vizsgálj",
+      "á",
+      "k",
+      ",",
+      " és meghatározz",
+      "á",
+      "k minden mintában",
+      " a vizsgált ",
+      "mikroorganizmusok számát.",
+      " Az öt mintából „c” számú",
+      " ",
+      "minta",
+      "elem ",
+      "eredménye lehet ",
+      "„m” és „M” közötti",
+      ". Ezt szemlélteti a lentebb kifejtett példa* is. ",
+      "A „c” szám eltérhet az egyes mikrobáknál",
+      ".",
+      " ",
+      "(P",
+      "éldául a Salmonella esetében c",
+      " ",
+      "=",
+      " ",
+      "0, ami azt jelenti, hogy egyik vizsgálati elem sem tartalmazhat m érték feletti mikrobát, akkor lesz csak megfelelő a termék, de az E. coli esetében az 5 mintából 2 minta tartalmazhat az m és M érték közötti számban E. coli mikrobákat, akkor is megfelelő a termék). Lásd a 2. táblázatot. ",
+      "A",
+      "z",
+      " ",
+      "„",
+      "m",
+      "”",
+      " érté",
+      "k alatti vizsgálati értékek esetén mindig megfelelő a vizsgálati minta, a „M” érték a még megengedhető maximális mikro",
+      "baszám",
+      ",",
+      " ",
+      "tehát az m és M közötti érték a nem kiváló, de elfogadható telepszám."
+    ],
+    [
+      "",
+      "",
+      "",
+      "2",
+      "",
+      ". táblázat:",
+      " 2073/2005/EK rendelet I. MELLÉKLET Élelmiszerekre vonatkozó mikrobiológiai kritériumok"
+    ],
+    [],
+    [
+      "n = a mintaelemek száma,",
+      "\n",
+      "c = ",
+      "m feletti vagy m és M közötti értéket adó mintaelemek száma",
+      "."
+    ],
+    [
+      "az adott mikroorganizmusra vonatkozóan a",
+      " termékből vett minden vizsgálati minta tekintetében, a",
+      " mintában ",
+      "a vizsgált mikr",
+      "o",
+      "bára vonatkozó, ",
+      "jelenlevő telepképző egységek (cfu",
+      ":",
+      " Colony forming unit) legkisebb (m) és legnagyobb (M) száma. ",
+      "Salmonella",
+      " esetén m=M"
+    ],
+    [
+      "(cfu/g, ez az érték azt mutatja meg, hogy hány telepképző egység van egy gramm termékben az adott mikroorganizmusból)"
+    ],
+    [
+      "A mikroorganizmus meghatározásához használható vizsgálati szabvány"
+    ],
+    [
+      "Az eredmények értelmezése"
+    ],
+    [
+      "A megadott határértékek az egyes vizsgált mintaelemekre vonatkoznak.",
+      "\n",
+      "A vizsgálati eredmények a vizsgált folyamat mikrobiológiai minőségét jelzik."
+    ],
+    [
+      "Salmonella"
+    ],
+    [
+      " megfelelő, ha az összes kapott érték a baktérium hiányát jelzi,"
+    ],
+    [
+      "nem megfelelő, ha a baktérium jelenlétét bármelyik mintaelemben kimutatták."
+    ],
+    [
+      "Escherichia coli",
+      " ",
+      "(kólibaktérium vagy kólibacilus)"
+    ],
+    [
+      "megfelelő, ha az összes kapott érték < m,"
+    ],
+    [
+      "elfogadható, ha az n érték közül legfeljebb c van m és M között, és a többi kapott érték < m,"
+    ],
+    [
+      "nem megfelelő, ha a kapott értékek közül egy vagy több > M, vagy az n érték közül több mint c van m és M között."
+    ],
+    [
+      "P",
+      "élda",
+      "*",
+      " a meghatározásra",
+      " ",
+      "Escherichia coli ",
+      "vizsgálatakor"
+    ],
+    [
+      "A vizsgált tétel nem megfelelő",
+      ",",
+      " mivel c = 2 és az 5 vizsgált mintából c-nél nagyobb számú vizsgálati eredmény",
+      ",",
+      " jelen példában 3 d",
+      "arab",
+      " esik „m” és „M” határértékek közé",
+      ". Ha a 2-es számú minta vizsgálati értéke is kevesebb lenne",
+      ",",
+      " mint 10, akkor a vizsgált tétel még az elfogadható kategóriába tartozna, mert csak 2 d",
+      "arab",
+      " minta értéke lenne „m” és „M” határértékek között."
+    ],
+    [
+      "Az élelmiszerekről szóló 1995. évi XC. törvény 27. §-ának (11) bekezdése alapján a",
+      "z ",
+      "élelmiszerek mikrobiológiai kritériumairól szóló, 2005. november 15-i 2073/2005/EK bizottsági rendelet (a továbbiakban: EK rendelet) alkalmazása mellett ",
+      "a 4/1998. (XI. 11.) EüM rendeletet (3",
+      ".",
+      " táblázat) is alkalmazni kell az élelmiszerekben előforduló mikrobiológiai szennyeződések megengedhető mértékének megállapításához. Ezen",
+      " rendelet előírásai ",
+      "alapján vizsgálni kell az élelmiszert, ",
+      "az ",
+      "élelmiszerrel kapcsolatos tevékenység során használt berendezést, felszerelést, gépet, munkaeszközt,",
+      " az",
+      " élelmiszerrel közvetlenül érintkező munkafelületet és csomagolóanyagot",
+      ", ",
+      "valamint az élelmiszerrel kapcsolatos tevékenységet végző személy tisztaságát.",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "3",
+      "",
+      ". táblázat:",
+      " A vaj és az ízesített vajkészítmények a 4/1998. (XI. 11.) EüM rendelet 4. számú melléklete alapján"
+    ],
+    [
+      "Az eredmények értelmezése"
+    ],
+    [
+      "A megadott határértékek az egyes vizsgált mintaelemekre vonatkoznak.",
+      "\nA vizsgálati eredmények a vizsgált folyamat mikrobiológiai minőségét jelzik."
+    ],
+    [
+      "Listeria monocytogenes, Salmonella"
+    ],
+    [
+      "megfelelő, ha az összes kapott érték a baktérium hiányát jelzi,"
+    ],
+    [
+      "nem megfelelő, ha a baktérium jelenlétét bármelyik mintaelemben kimutatták.",
+      " "
+    ],
+    [
+      "A vajgyártás technológi",
+      "ai folyamata",
+      ""
+    ],
+    [
+      "A tejet először tejszínre és sovány tejre szeparálják, majd a tejszínt hőkezelik",
+      ",",
+      " ami a nemkívánatos mikroorganizmusok elpusztítására szolgál, másrészt az enzimek – főként a lipázok, ",
+      "proteázok",
+      " és oxidázok – inaktiválására, ugyanis ezek a későbbiekben minőségromlást és eltarthatósági gondokat okozhatnak. A viszonyl",
+      "a",
+      "g magas hőkezelési hőmérsékletek (többnyire 95–110 °C) azért szükségesek, mert a mikroorganizmusokat a zsír védi, valamint számos enzim igen jó hőtűrő. A nemkívánatos illó aromaanyagok, amelyek például a takarmányból vagy az istálló levegőjéből jutottak a tejbe, és a tejzsírban feldúsultak, ",
+      "vákuumos gázmentesítéssel",
+      " (szellőztetés)",
+      " távolíthatók el. A lehűlés fontos a termék szövetszerkezete és állaga szempontjából",
+      ".",
+      " ",
+      "A",
+      " hűtést követi a",
+      " ",
+      "tejszín",
+      " érlelés",
+      "e",
+      "."
+    ],
+    [
+      "A tejszín",
+      "t",
+      " mindig a gyártani kívánt vajtípusnak megfelelő kritériumok alapján ",
+      "kezelik",
+      ", fizikai vagy biológiai érleléssel",
+      ".",
+      " Ezt követi a tényleges vajgyártási folyamat",
+      ":",
+      " a ",
+      "vaj kiválása",
+      ".",
+      " A vaj előállításának vázlatát a ",
+      "8. ",
+      "ábra",
+      " szemlélteti",
+      ", a vajgyártás folyamatát a ",
+      "9. ",
+      "ábra",
+      " mutatja be."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "8",
+      "",
+      ". ábra:",
+      " A vaj előállításának vázlata"
+    ],
+    [
+      "(",
+      "Forrás",
+      ": ",
+      "Tej és tejhigiénia Élelmiszeripar Témakör: 8. Tejtermékek 8.2. ábra",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "9",
+      "",
+      ". ábra:",
+      " A vajgyártás folyamatábrája"
+    ],
+    [
+      "(",
+      "Forrás: ",
+      "Szakágazati technológia tejipar II. (",
+      "M",
+      "ezőgazdasági kiadó 1983) 31.",
+      "o.,",
+      " 50. o",
+      ".,",
+      " 56.",
+      "o.",
+      ")"
+    ],
+    [],
+    [
+      "A 9. képen látható gyártási folyamat",
+      "nak",
+      " a nyer",
+      "s",
+      "tej átvételétől",
+      " a fölözés",
+      "en",
+      ", zsírbeállítás",
+      "on",
+      ", ",
+      "pasztőrözés",
+      "en át",
+      " ",
+      "az",
+      " ",
+      "u",
+      "tótárolásig",
+      " tartó szakaszával",
+      " ",
+      "az előző fejezetekben részletesen foglalkozt",
+      "ál.",
+      " ",
+      "A",
+      " továbbiakban a tejszín érlelésével kezdődően",
+      " ismerheted meg",
+      " részlete",
+      "sen",
+      " a technológiai folyamatokat."
+    ],
+    [
+      "Vajgyártás édes tejszínből, vajgyártás savanyú tejszínből"
+    ],
+    [
+      "A",
+      " tejszín ",
+      "érlelés",
+      "ének",
+      " célja az, hogy a tejszínt vajkészítésre alkalmassá tegy",
+      "e",
+      ".",
+      " A kívánt készterméktől függően a tejszínt különböző érlelési eljárásokkal tes",
+      "zik",
+      " ",
+      "köpülésre ",
+      "alkalmassá. ",
+      "A köpülés folyamatát a 3.4.1. fejezetben részletesen megismerjük."
+    ],
+    [
+      "Érlelhet",
+      "ő",
+      " a tejszín ",
+      "a ",
+      "fizikai,",
+      " a",
+      " biológiai és a hőfoklépcsős eljárások valamelyikével",
+      " (lásd később)",
+      ". ",
+      "Főként az érlelés során felszabaduló aromaanyagok által alakul ki a vaj szerkezete, ",
+      "kenhetősége,",
+      " illetve az íze. Ebből a szempontból kétféle vajat különböztetünk meg:"
+    ],
+    [
+      "édes tejszínvajat, amikor az érlelés fizikai módon (hűtés vagy melegítés) történik,"
+    ],
+    [
+      "savanyú tejszínvajat, amikor a tejszínhez",
+      " vajkultúrát",
+      " (például ",
+      "Str. lactis, cremoris",
+      ") adagolnak."
+    ],
+    [
+      "Fizikai érlelés"
+    ],
+    [
+      "A ",
+      "fizikai érlelés",
+      " lényege, hogy a tejszínt 10 °C alá hűt",
+      "i",
+      "k és hidegen tartj",
+      "á",
+      "k. Általában 2",
+      "",
+      "6 °C-on 2",
+      "",
+      "6 órán át érlel",
+      "i",
+      "k. Télen magasabb, nyáron alacsonyabb érlelési hőmérsékletet választ",
+      "ana",
+      "k",
+      ", mivel a nyári időszakban a vajzsírt keményíteni szeretnénk ezért gyorsan és alacsonyabb hőmérsékleten történik az érlelés, míg télen lágyítani szeretnénk a vajzsírt ezért lassabban és magasabb hőmérsékleten történik az érlelés. ",
+      "Alacsonyabb hőmérsékleten az érlelési idő rövidebb",
+      ", magasabb hőmérsékleten az érlelési idő hosszabb",
+      ". Érleléskor a zsírgolyócskák megdermednek. "
+    ],
+    [
+      "Biológiai érlelés"
+    ],
+    [
+      "A",
+      " ",
+      "biológiai",
+      " érlelés",
+      " ideje alatt két szakasz különböztet",
+      "hető",
+      " meg, elsőként a savanyítási szakasz, majd az aromatermelési szakasz. ",
+      "\n",
+      "A",
+      " tejszínt",
+      " 3",
+      "",
+      "5% vajkultúrával ",
+      "savanyítják",
+      ". ",
+      "\n",
+      "Savanyítási szakasz: az érlelésre váró tejszínt bekultúrázz",
+      "á",
+      "k, majd 16",
+      "",
+      "22 °C-on 8",
+      "",
+      "10 órán keresztül savanyítj",
+      "á",
+      "k. Ebben a szakaszban 25 ",
+      "plazmasavfokig ",
+      "(a tejszín vizes fázisának savfoka) ",
+      "érlel",
+      "i",
+      "k a tejszínt. A savanyítási szakaszban tejsav termelődik, csökken a pH, ezért a burokfehérjék dehidratálódnak, csökken a burok elektromos töltése és a felsoroltak miatt csökken a „zsír a vízben” emulzió stabilitása."
+    ],
+    [
+      "Aromatermelési szakasz: a már 25 plazmasavfokig érlelt tejszínt 9",
+      "",
+      "13 °C-ra lehűt",
+      "i",
+      "k, és ezen a hőmérsékleten még 6",
+      "",
+      "10 órán át érlel",
+      "i",
+      "k. Közben lassan leáll a savanyodás",
+      ",",
+      " és fizikai változások következnek be. Az érlelés végére a tejszín plazmasavfoka eléri a 35 pSH-t. A hidegérlelés alatt aromaanyagok ",
+      "",
+      " aldehidek, ketonok, észterek, amelyek közül legfontosabb a diacetil",
+      " észter",
+      " ",
+      "",
+      " termelődnek",
+      ",",
+      " és közben a lehűtött tejszínben megindul a zsírgolyócskák kristályosodása. "
+    ],
+    [
+      "Hőfoklépcsős érlelés"
+    ],
+    [
+      "A ",
+      "hőfoklépcsős érlelés",
+      " a tejszín fizikai érlelése a hőfokok és az idő kombinációjával. ",
+      "A kedvező vajállomány kialakítása a cél. Figyelembe kell venni a tejzsír átlagos kristályosodási ",
+      "hőmérsékletét. Ez a hazai tejzsíroknál télen 20 °C, nyáron 11 °C és az átmeneti időben 15 °C (",
+      "10",
+      ". ",
+      "kép)."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "10",
+      "",
+      ". ábra:",
+      " A tejszínérlelés hőfoklépcsői az évszaktól függően"
+    ],
+    [
+      "(",
+      "Forrás: táblarajz magyarázattal",
+      ";",
+      " saját készítésű rajz technológiai adatok alapján",
+      ".",
+      ")"
+    ],
+    [
+      "A ",
+      "vajgyártás technológiai lépései"
+    ],
+    [
+      "A vaj köpülése",
+      ", a vajrögök kialakulása során lejátszódó folyamatok"
+    ],
+    [
+      "A vajgyártás legfontosabb művelete a köpülés, melynek során a tejszín „zsír a vízben” emulziójából fázismegfordulással „víz a zsírban” emulzió jön létre",
+      " ",
+      "(11.",
+      " ábra",
+      ")",
+      ",",
+      " ",
+      "vagyis a tejszínből fázismegfordulás után ",
+      "vajrögök",
+      " (",
+      "12. ",
+      "ábra",
+      ")",
+      " ",
+      "és író képződnek",
+      " ",
+      "a köpülőben ",
+      "(1",
+      "4",
+      ". ",
+      "ábra",
+      ")",
+      " a forgás következtében kialakult mechanika",
+      "i hatásra."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "11",
+      "",
+      ". ábra:",
+      " Fázismegfordulás"
+    ],
+    [
+      "(",
+      "Forrás: https://szupermenta.hu/wp-content/uploads/2019/11/emulzi%C3%B3_net-605x900.jpg",
+      ", letöltve: ",
+      "202",
+      "4",
+      ". 0",
+      "7",
+      ". 0",
+      "4",
+      ".",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "12",
+      "",
+      ". ábra:",
+      " Vajrögök a köpülőben"
+    ],
+    [
+      "(",
+      "Forrás: https://www.ujno.sk/files/article_gallery/vaj-kopules-tartalyban.jpg",
+      ", letöltve:",
+      " 202",
+      "4",
+      ". 0",
+      "7",
+      ". ",
+      "0",
+      "4",
+      ".",
+      ")"
+    ],
+    [
+      "A tejzsír mikrométer nagyságú zsírcseppek formájában van jelen, amelyeket membrán vesz körül. A köpülés célja, hogy ezeket a membránokat felszakítsa, hogy a tejzsír vajjá állhasson össze."
+    ],
+    [
+      "A tejszín érlelésének hatására megszűnik a zsírgolyócskák burkának összefüggő jellege. A köpüléskor a zsírgolyócskákból a vajolaj kilép",
+      ",",
+      " és összefüggő fázissá egyesül, miközben az előző összefüggő plazmából apró cseppeket zár magába. A köpülés végére tehát ",
+      "vajrögök",
+      " és jelentős mennyiségű folyadékfázis, úgynevezett ",
+      "író",
+      " keletkezik."
+    ],
+    [
+      "A köpülés fontos feltétele a köpülési hőmérséklet helyes megválasztása. A köpülési hőmérséklet 8",
+      "",
+      "12 °C, nyáron alacsonyabb, télen magasabb. A téli vajzsír olvadáspontja ",
+      "magasabb,",
+      " mint a nyárié, ezért kell télen magasabb, nyáron alacsonyabb köpülési hőmérsékletet választani. A köpülési hőmérséklet megválasztásakor a tejszín zsírtartalmát is figyelembe kell venni. Ha a tejszín zsírtartalma magas, akkor a vajolaj mennyisége több a plazma mennyiségéhez viszonyítva. A zsírgolyócskák túl gyorsan egyesülnek rögökké, ezért a kisebb zsírgolyócskák száma megnő a plazmában, vagyis nő az író zsírtartalma. Megállapítható, hogy a nagyobb zsírtartalmú tejszínt alacsonyabb, míg a kisebb zsírtartalmút magasabb hőmérsékleten kell köpülnünk."
+    ],
+    [
+      "A köpülés folyamatában több szakaszt figyelhetünk meg."
+    ],
+    [
+      "Habképződési szakasz:",
+      " köpülés közben a tejszín örvénylik, rázkódik és levegővel keveredve részben habbá verődik. Az érlelés során már részben emulgeált zsírgolyócskák egymásnak ütköznek, és a felületükön levő vajolaj segítségével halmazokba tapadnak össze. A halmazok a habképződés következtében a hab felület",
+      "é",
+      "n koncentrálódnak. A koncentrálódás során a hab zsírtartalma a 70%-ot is eléri."
+    ],
+    [
+      "Habösszeesési szakasz:",
+      " a további mechanikai munka hatására az összes vajolaj kifolyik a zsírgolyócskákból",
+      ",",
+      " és magába zárja a maradék szilárd zsírfázist és a folyadékfázis egy részét",
+      ".",
+      " ",
+      "A",
+      "zaz megtörténik a fázismegfordulás, mikroszkopikus vajszemcsék képződnek, és a hab összeesik."
+    ],
+    [
+      "",
+      "Vajrögképződési szakasz",
+      "",
+      ":",
+      " a mikroszkopikus vajszemcsék makroszkopikus vajrögökké egyesülnek. A vajrögök közé bezáródik a ",
+      "víz",
+      " kisebbik része, nagyobb része mint író elkülönül ",
+      "(",
+      "1",
+      "3",
+      ". ",
+      "ábra",
+      ")",
+      "."
+    ],
+    [
+      "1. Légbuborékok,",
+      "\n2. Zsírrészecske halmazok,",
+      "\n",
+      "3. Finom eloszlású kötött víz,",
+      "\n",
+      "4. Durva eloszlású szabad víz"
+    ],
+    [],
+    [],
+    [],
+    [
+      "",
+      "",
+      "",
+      "13",
+      "",
+      ". ábra:",
+      " ",
+      "A vajrögök képződése"
+    ],
+    [
+      "(Forrás: Szakágazati technológia tejipar II. (mezőgazdasági kiadó 1983) A vajrögök képződése 37. oldal",
+      " ",
+      "12. ábra)"
+    ],
+    [
+      "a. Zsírrészecske halmazok a légbuborék felületén,",
+      "\nb. Mikroszkopikus vajszemcsék,",
+      "\nc. Mikroszkopikus vajrögök,",
+      "\nd. Makroszkopikus vajrögök"
+    ],
+    [
+      "A vajszemcsék, vajrögök képződése, növekedése folytonos. A mikroszkópos tartományban ",
+      "a",
+      "z elsődleges vajszemcsékbe bezáródott finom eloszlású plazma az ún. ",
+      "kötött víz",
+      ".",
+      " A",
+      " vajrögök közé bezáródott kötött víz gyúrással nem távolítható el. A makroszkópos",
+      " (szabad szemmel látható)",
+      " tartományban bezárt vizet",
+      ", azaz a ",
+      "szabad vizet",
+      " gyúrással eltávolíthatjuk. A köpülést általában 2",
+      "-",
+      "3 mm átmérőjű vajrögök eléréséig folytatjuk. Köpülés után az írótól elválasztjuk a vajrögöket. Az író zsírtartalma függ az érlelés és a köpülés módjától, 0,3",
+      "",
+      "1,2% között mozog."
+    ],
+    [
+      "A vaj mosása"
+    ],
+    [
+      "A vaj mosásának célja a vajrögök között visszamaradt író és az utófertőzéssel bekerült baktériumok eltávolítása."
+    ],
+    [
+      "A vaj mosása előnyös, mert csökkenthető a baktériumok számára tápanyagul szolgáló tejcukor és fehérjék mennyisége, és eltávolíthatók a hibát okozó vízben oldódó íz- és szaganyagok."
+    ],
+    [
+      "Hátránya, hogy az íz- és aromaanyagok nagy részét is kimossuk. A mosott vaj üresebb ízű. A zsírmentes szárazanyag-tartalom 1,5",
+      "",
+      "3%-ról akár 0,5",
+      "",
+      "1,5%-ra csökken."
+    ],
+    [
+      "A vaj mosásához ivóvíz minőségű víz szükséges. A víz vas- és mangántartalma legyen kicsi, keménységi foka ne haladja meg a 12 német keménységi fokot, pH-értéke legfeljebb 7 lehet. A mosóvíz hőmérséklete befolyásolja a vaj állományát és alapvíztartalmát. Kis rögméretre köpüléssel és hidegebb mosóvízzel kisebb alapvíztartalmat érhetünk el. A köpülési hőmérsékletnél hidegebb mosóvizet alkalmazva a vaj utószilárdulása csökken, ezért a vaj állománya kenhetőbb lesz."
+    ],
+    [
+      "A vaj gyúrása"
+    ],
+    [
+      "A",
+      " ",
+      "gyúrás",
+      " a vaj készítésének igen fontos művelete."
+    ],
+    [
+      "A gyúrás célja:"
+    ],
+    [
+      "a vajrögök, vajszemcsék közé bezáródott felesleges víz eltávolítása,"
+    ],
+    [
+      "az egységes vajszerkezet kialakítása,"
+    ],
+    [
+      "a visszamaradó vízcseppek elaprózása és egyenletes eloszlatása."
+    ],
+    [
+      "Az elsődleges vajszemcsékbe bezáródott finom eloszlású víz",
+      " (kötött víz)",
+      " gyúrással nem távolítható el. Eltávolítható viszont a gyúrással a ",
+      "szabad víz",
+      ", ami jelen esetben a nagyobb üregekbe bezáródott ",
+      "víz",
+      "."
+    ],
+    [
+      "Technológiai szempontból a gyúrásnak két szakasza van:"
+    ],
+    [
+      "az előgyúrás",
+      ":",
+      " célja a felesleges víz eltávolítása a vajból.",
+      " Gyúrás közben a vaj víztartalma fokozatosan az alapvíztartalomra csökken. A vaj alapvíztartalma (legkisebb víztartalom) függ az alkalmazott technológiától, a vajzsír összetételétől, a köpülési, mosási és a gyúrási hőmérséklettől."
+    ],
+    [
+      "az utógyúrás",
+      ", amelynek során a vajrögök egységes vajjá tömörödnek, a visszamaradó víz egyenletesen elaprózódik és eloszlik.",
+      " ",
+      "A vízcseppek elaprózódása közben a vízcseppekre nyomó",
+      "-",
+      " és nyíróerő hat, a cseppek folyadékhártyává deformálódnak, apró részekre szakadnak, majd ismét gömb alakot vesznek fel. ",
+      "Ez a gyúrás alatt többször megismétlődik. A folyamat közben a fehérjék és a baktériumok a zsírfázisban rögzítődnek. Itt a baktériumok víz hiányában csökkentik tevékenységüket, ezért a vaj sokáig eláll."
+    ],
+    [
+      "A vaj állomány",
+      "a",
+      " nagymértékben befolyásolhat",
+      "ó",
+      " a gyúrással. Ha kisebb hőmérsékleten gyúr",
+      "já",
+      "k, lágyul a vaj állománya, mert csökken az utószilárdulás. Ha keményebb állományú vajat akar",
+      "na",
+      "k készíteni, akkor magasabb hőmérsékleten gyúr",
+      "já",
+      "k, így elősegít",
+      "i",
+      "k az utószilárdulást."
+    ],
+    [
+      "A vaj víztartalmának, p",
+      "H",
+      "-értékének beállítása"
+    ],
+    [
+      "Szakaszos vajgyártásnál a gyúrás befejezése után, folytonos vajkészítéskor az utógyúráskor állítj",
+      "á",
+      "k be a vaj víztartalmát és pH-ját. Szakaszos vajgyártásnál az utógyúrt vaj víztartalmát vizsgálj",
+      "á",
+      "k meg, és ennek ismeretében adj",
+      "á",
+      "k a köpülőben lévő vajhoz a vizet, majd szárazra gyúrj",
+      "á",
+      "k. Folytonos vajkészítő berendezésekben vízbeállító szivattyúval az utógyúráskor adagolj",
+      "á",
+      "k a szükséges vizet a vajhoz. ",
+      "A szakaszos és folytonos vajgyártás részletese leírásával is találkozni fog hamarosan a tanuló."
+    ],
+    [
+      "A vaj pH-já",
+      "t",
+      " általában a vaj víztartalmá",
+      "val",
+      " együtt ",
+      "állítják be",
+      ". A pH-t vajkultúra és citromsavoldat keverékével állít",
+      "j",
+      "á",
+      "k be. ",
+      "A vaj tárolása alatt 1-2 napig még várhatóan 0,1-0,2 tizeddel csökken a pH-érték a tejsavbaktériumok tevékenysége miatt.",
+      " A víztartalom beállításánál figyelembe kell venni, hogy ",
+      "a víz ",
+      "adagoláskor 0,1",
+      "",
+      "0,3% víz kigyúródik a vajból."
+    ],
+    [
+      "A vaj savanyítása, sózása"
+    ],
+    [
+      "Az enyhén savanyított vaj ",
+      "NIZO-eljárással",
+      " (Holland Tejipari Kutatóintézet",
+      " ",
+      "– ",
+      "NIZO food research",
+      ")",
+      " ",
+      "zajló ",
+      "gyártása során előbb tejsavbaktériumok segítségével aroma- és ",
+      "tejsavbaktérium-koncentrátumokat állítanak elő",
+      ".",
+      " ",
+      "E",
+      "zeket gyúráskor bedolgozzák az édestejszín-vaj szemcséibe, ",
+      "így ",
+      "egy tejfölből köpült vajhoz hasonló termék keletkezik. Az enyhén savanyított vaj egyik fontos előnye, hogy előállításakor édes író keletkezik, ami sokkal többféleképpen használható fel a továbbiakban, mint a savanyú író",
+      ".",
+      " ",
+      "T",
+      "ovábbá az enyhén savanyított vaj ellenállóbb az oxidációval és az avasodással szemben."
+    ],
+    [
+      "Ha sózott vajat kell készíteni, akkor a sót konyhasóoldat formájában, gyúráskor adják hozzá a vajhoz. Só hozzáadása esetén „sózott” jelöléssel kell ellátni a vajat, valamint jelölni kell annak s",
+      "ó",
+      "tartalmát."
+    ],
+    [
+      "Vajgyártás szakaszos technológiával"
+    ],
+    [
+      "A köpüléstől a kész termékig (köpülés, mosás, gyúrás, víztartalom és ",
+      "pH",
+      "-érték beállítása, sózás, utósavanyítás) a vaj gyártása a köpülőben történik."
+    ],
+    [
+      "A gyártáshoz savanyútejszín",
+      "-",
+      "vaj esetében 28",
+      "",
+      "30%-os zsírtartalmú tejszínt, míg édestejszín",
+      "-",
+      "vaj gyártásához 33",
+      "",
+      "36%-os zsírtartalmú tejszínt használ",
+      "na",
+      "k fel. A tejszínt 95",
+      "",
+      "110 °C-on hőkezel",
+      "i",
+      "k. A köpülőbe tölthető tejszín mennyiségét a tejszín zsírtartalma határozza meg. Általában 25",
+      "",
+      "40%-os a töltési arány."
+    ],
+    [
+      "A köpülés megkezdése előtt lezárj",
+      "á",
+      "k a köpülőt",
+      " ",
+      "(1",
+      "4",
+      ".",
+      " ",
+      "ábra",
+      ")",
+      ", majd lassú fordulaton pár fordulatot tesz",
+      " a köpülő",
+      ", utána gáztalanít",
+      "ana",
+      "k. A tejszínből felszabaduló gázok ",
+      "",
+      " főleg szén-dioxid ",
+      "",
+      " okozzák a köpülőben a túlnyomást. Ezt követően megkezd",
+      "i",
+      "k a köpülést",
+      ",",
+      " míg össze nem esik a hab, és látható vajszemcsék meg nem jelennek. Ezt a ",
+      "köpülőn található ",
+      "kémlelőablak megtisztulása is jelzi. Amikor a kívánt rögnagyságot elért",
+      "é",
+      "k, a vaj tömörítése céljából lassan tesz néhány fordulatot",
+      " a köpülő",
+      ", majd pár perces pihentetés után leereszt",
+      "i",
+      "k",
+      " az írót",
+      ". ",
+      "A k",
+      "övetkező lépés a gyártás során a vaj mosása. A mosóvíz és vaj mennyisége a köpülő térfogatának 40%-a lehet. Zárt ajtó és nyílások mellett pár fordulattal mos",
+      "na",
+      "k, majd a mosóvizet leereszt",
+      "i",
+      "k. ",
+      "Ezután következik a",
+      "z előgyúrás nyitott íróleeresztővel és lazán zárt köpülőajtóval, hogy a felesleges víz távozzon. Az előgyúrás 15",
+      "",
+      "20 percig tart, az ajánlott fordulatszám 4",
+      "",
+      "6 fordulat/perc. Utógyúráskor szintén 4",
+      "",
+      "6 fordulat/percen dolgoz",
+      "na",
+      "k szárazra gyúrásig (",
+      "amíg ",
+      "a ",
+      "köpülő belseje száraz",
+      " lesz",
+      "). Utógyúrás után beállítj",
+      "á",
+      "k a vaj víztartalmát és pH-ját, majd ismét szárazra gyúr",
+      "já",
+      "k. Ezt követően ",
+      "mintát vesznek és ",
+      "ellenőr",
+      "zi",
+      "k a beállítás helyességét, majd kiadagolj",
+      "á",
+      "k a vajat."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "14",
+      "",
+      ". ábra:",
+      " Vajköpülő gép"
+    ],
+    [
+      "(",
+      "F",
+      "orrás: "
+    ],
+    [
+      "https://ttseparator.hu/wp-content/uploads/2022/01/homogenizatorok_4-1-1.jpg",
+      ", letöltve: 202",
+      "4",
+      ". 0",
+      "7",
+      ". ",
+      "04",
+      ".",
+      ")"
+    ],
+    [
+      "Vajgyártás folytonos technológiával"
+    ],
+    [
+      "A 8",
+      "",
+      "13 °C-ra hűtött tejszínt állandó keverés mellett csavarszivattyúval a vajgyártó",
+      " ",
+      "gép hűthető köpülőhengerébe továbbí",
+      "tjá",
+      "k. Itt egy fokozatmentesen szabályozható, nagy fordulatszámmal működő (1250",
+      "",
+      "2500 fordulat/perc) verőléc pár másodperc alatt kiköpüli a tejszínt. A vajszemcse és",
+      " az",
+      " író",
+      " ",
+      "keverék",
+      "e",
+      " innen a szintén hűthető utóköpülő",
+      " ",
+      "hengerbe jut. Itt ",
+      "tömörülnek ",
+      "a vajszemcsék, melyeket az íróval együtt egy csiga a terelőlécekkel ellátott, perforált falú elválasztó hengerbe továbbít. Az író ezután egy gyűjtőedénybe kerül, majd lehűt",
+      "i",
+      "k, tárolj",
+      "á",
+      "k. A vajrögök az úgynevezett mosóaknába hullanak, ahol hűtött vízzel permetező mosást alkalmaz",
+      "na",
+      "k. A mosóvíz hőfoka nyáron 4",
+      "",
+      "5 °C, télen 8",
+      "",
+      "10 °C. A mosást követően a vajrögök a hűtőköpennyel ellátott gyúróhengerbe jutnak. Itt az egymással szembe",
+      "n ",
+      "forgó csigapár szabályozható fordulatszámmal (40",
+      "",
+      "60 fordulat/perc) ",
+      "alapvíztartalomra gyúrja ",
+      "a vajat, és a gyúrófejbe továbbítja. ",
+      "Itt történik a",
+      "z utógyúrás, a víz- és pH-beállítás. ",
+      "A víz- és pH-értéket egy változtatható teljesítményű adagolószivattyú állítja be az utógyúró részben. ",
+      "A kész vaj a továbbítócsőbe, majd az adagológépbe kerül."
+    ],
+    [
+      "Az elkészült vaj tárolása, csomagolása"
+    ],
+    [
+      "Az utószilárdulás előtt kell c",
+      "somagolni a vajat, mert a már utószilárdult vaj szerkezetében megtörik, víz szabadul fel, ami a mikroorganizmusoknak kedvez, ",
+      "s így ",
+      "a vaj hamarabb megromlik. A csomagolást a gyúrás után télen 1-2, nyáron 3 órán belül kell elvégezni."
+    ],
+    [
+      "A vaj csomagolásának célja ",
+      "egyrészt ",
+      "a termék védelme",
+      ", másrészt az",
+      " esztétikai hatás elérése."
+    ],
+    [
+      "A vaj csomagolóanyagával szemben a következő követelményeket támasztj",
+      "á",
+      "k:"
+    ],
+    [
+      "fényvédő legyen,"
+    ],
+    [
+      " a zsírt nem eresztheti át,"
+    ],
+    [
+      " vízgőzáteresztése minimális legyen,"
+    ],
+    [
+      " jól izolálja az íz- és szaganyagokat,"
+    ],
+    [
+      " védjen a külső hatásokkal szemben."
+    ],
+    [
+      "A vajat csomagolás után azonnal hűtőbe kell szállítani",
+      ",",
+      " mivel jelentős szerepe van a hőmérsékletnek a vaj tárolásában az eltarthatósági idő ",
+      "szempontjából",
+      "."
+    ],
+    [
+      "Az eltarthatósági időt a következők befolyásolják:"
+    ],
+    [
+      "a tárolási hőmérséklet,"
+    ],
+    [
+      "a tejszín pasztőrözési hőmérséklete,"
+    ],
+    [
+      "a vaj víztartalmának mennyisége és eloszl",
+      "ása",
+      ","
+    ],
+    [
+      "a vaj pH-ja,"
+    ],
+    [
+      "a vaj zsírmentes szárazanyag-tartalma,"
+    ],
+    [
+      "a vaj ",
+      "fehérjetartalma",
+      " és a benne lévő ",
+      "nehézfémek mennyisége (réz, vas), amelynek mennyisége attól függ, hogy a szarvasmarha elfogyasztott táplálékából mennyi került át a tejbe a tejelválasztás során",
+      ","
+    ],
+    [
+      "a vaj antioxidáns-tartalma",
+      " (ez egyaránt jelenti a hozzáadott és az alapvetően benne lévő citromsavat)",
+      "."
+    ],
+    [
+      "Különféle vajkészítmények gyártása",
+      ""
+    ],
+    [
+      "A vajkészítmények körébe tartozó termékek napjainkban igen széles termékpalettával rendelkeznek, hiszen a jogszabályi előírások, csak a zsírtartalom alapján határozz",
+      "ák",
+      " meg a termék típusokat. Ilyenek a kenhető vajkészítmények, mint például a vajkrémek, melyek natúr és különféle ízesített formában kaphatók. A vajzsír",
+      ", vajpor",
+      " készítmények,",
+      " amelyek az eltarthatósági időt hosszabbítják meg. A",
+      "z ízesített",
+      " és csökkentett energia tartalmú vajkészítmények pedig a különleges igényeket támasztó fogyaszt",
+      "ó",
+      "k kiszolgálására hivatott termék típusokkal bővítik a kínálatot. "
+    ],
+    [
+      "V",
+      "ajkrém ",
+      ""
+    ],
+    [
+      "A ",
+      "vajkrém ",
+      "pasztőrözött tejszínből soványtej, vaj, tejpor hozzáadásával, esetleg adalékanyagokkal kiegészítve, tejsavbaktérium színtenyészettel alvasztva, homogénezéssel és hőkezeléssel készült, melegen kiszerelt vajkészítmény. ",
+      "(",
+      "4. ",
+      "táblázat)"
+    ],
+    [
+      "A vajkrémek a következő tejzsírtartalommal állíthatók elő:"
+    ],
+    [
+      "—",
+      "\t39% alatti,"
+    ],
+    [
+      "—",
+      "\ttöbb, mint 41, de kevesebb, mint 60%,"
+    ],
+    [
+      "—",
+      "\ttöbb, mint 62, de kevesebb, mint 80%."
+    ],
+    [
+      "A 36-39%-os vajkrém z",
+      "sírtartalm",
+      "a",
+      " általában 36",
+      "",
+      "39",
+      "%, szárazanyag",
+      "-",
+      "tartalm",
+      "a",
+      " 46",
+      "",
+      "49%. ",
+      "A z",
+      "sír emulgeált állapotban van benn",
+      "e",
+      " jelen, így az emésztés során könnyen szívódik fel. Igen jól kenhető hidegen is. Táplálkozási érték",
+      "é",
+      "t jelentősen megnöveli viszonylag magas fehérjetartalm",
+      "a",
+      ". Könnyen és jól ízesíthető. ",
+      " Az alábbiakban a 36–39%-os vajkrém gyártástechnológiáját mutatjuk be."
+    ],
+    [
+      "A vajkrémgyártás"
+    ],
+    [
+      "A",
+      " ",
+      "38",
+      "",
+      "40%-os zsírtartalmú tejszínt 10 °C alá hűt",
+      "i",
+      "k",
+      ",",
+      " és ezen a hőmérsékleten tárolj",
+      "á",
+      "k a felhasználásig."
+    ],
+    [
+      "Bekeverés",
+      ", ",
+      "zsírbeállítás"
+    ],
+    [
+      "Az előkészített tejszín zsírtartalmának és szárazanyag-tartalmának ismeretében hozzáadj",
+      "á",
+      "k a beállításhoz szükséges fölözött tej és tejpor mennyiséget a kívánt zsír",
+      "-",
+      " és zsírmentes szárazanyag-tartalom elérése céljából."
+    ],
+    [
+      "Előmelegítés – Homogénezés - Hőkezelés"
+    ],
+    [
+      "A beállított alapanyagot ",
+      "előmelegítik majd ",
+      "kis nyomáson",
+      " (50-70 bar)",
+      " homogénezik",
+      " és ezt követően pasztőrözik 98-102 °C-on 20 s hőntartással.",
+      " A kis nyomáson való homogénezés cél",
+      "ja",
+      " a tejpor tökéletes diszpergálása és a zsírgolyócskák átlagos átmérőjének csökkentése. "
+    ],
+    [
+      "Hűtés – Beoltás - Homogénezés"
+    ],
+    [
+      "Pasztőrözés után 22",
+      "",
+      "24 °C-ra hűt",
+      "i",
+      "k le a tejszínt. Ezen a hőmérsékleten ",
+      "beoltják ",
+      "2% vajkultúrával. A beoltást követően újra homogénez",
+      "i",
+      "k, de most már 250",
+      "",
+      "300 bar nyomáson, miközben az alapanyag hőmérséklete 30",
+      "",
+      "32 °C-ra felmelegszik."
+    ],
+    [
+      "Savanyítás érlelés – Alvadék feltörés"
+    ],
+    [
+      "A kétszer homogénezett, hőkezelt alapanyagot ezután megalvasztj",
+      "á",
+      "k. Az alvadékot az érlelőtank",
+      " ",
+      "keverőjével simára tör",
+      "i",
+      "k, majd szivattyúval a ",
+      "kutterbe",
+      " továbbítj",
+      "á",
+      "k."
+    ],
+    [
+      "Kutterezés - hőkezelés"
+    ],
+    [
+      "A kutterban",
+      " hozzáadj",
+      "á",
+      "k az állományjavító anyagot, az ízesítő anyagokat, vajat",
+      ".",
+      " Ha a tejszín pH-értéke magasabb 4,5-nél, akkor azt citromsavoldattal állítj",
+      "á",
+      "k be az elvárt értékre."
+    ],
+    [
+      "A kutterben állandó keverés mellett közvetlen gőzbevezetéssel 75",
+      "",
+      "78 °C-ra hevít",
+      "i",
+      "k",
+      " a terméket",
+      "."
+    ],
+    [
+      "Adagolás - csomagolás"
+    ],
+    [
+      "A kutterezést követően a terméket szivattyú segítségével egy fűthető tartályba, majd az adagológép tölcsérébe továbbítj",
+      "á",
+      "k."
+    ],
+    [
+      "A",
+      " gép",
+      " a végtermék állománya és bakteriológiai minősége miatt 65",
+      "",
+      "72 °C-on folyamatosan ",
+      "adagol",
+      ". A termék 4,5 pH-n 70 °C feletti hőkezelés hatására gyakorlatilag steril lesz."
+    ],
+    [
+      "A melegen való letöltés a",
+      "z utófertőződést a ",
+      "minimálisra csökkenti",
+      "."
+    ],
+    [
+      "Hűtés, érlelés"
+    ],
+    [
+      "A vajkrém végső állománya a fogyasztói csomagolásban hűtés közben alakul ki."
+    ],
+    [
+      "",
+      "",
+      "",
+      "4",
+      "",
+      ". táblázat:",
+      " A vajkrémkészítés folyamatábrája (Fejér és Komárom megyei Tejipari Vállat gyakorlati jegyzet)"
+    ],
+    [
+      ""
+    ],
+    [
+      "Új generációs vajkrémek"
+    ],
+    [
+      "A vajkrémek új generációj",
+      "át fejlesztette ki",
+      " ",
+      "Kátay Gábor és Varga László",
+      "; ők ",
+      "a ",
+      "Széchenyi István Egyetem kutatói."
+    ],
+    [
+      "„A vaj jobb használati funkciójú, csökkentett energiatartalmú és olcsóbb változatának tekinthető vajkrém magyarországi népszerűsége immár három és fél évtizede töretlen. Célkitűzésünk az volt, hogy kidolgozzuk egy új típusú funkcionális vajkrém gyártástechnológiáját. Ennek érdekében meghatároztuk, hogy 30% zsírtartalmú tejszín egylépcsős homogénezése során mekkora nyomásérték mellett érhetőek el a késztermék megfelelő állományát és jó felszívódását eredményező paraméterek, ill. hogy a homogénezés milyen mértékben befolyásolja a tejszín viszkozitását és üzemi kezelhetőségét. Megállapítottuk, hogy a homogénezési hatásra vonatkozó kritériumok az új típusú vajkészítmény alapanyagául szolgáló, tejfehérje-koncentrátumot is tartalmazó, 30% zsírtartalmú tejszín egyfokozatú homogénező gépen, melegen (65 °C), 15 MPa (150 bár) ",
+      "nyomáson történő egyszeri homogénezésével teljesíthetők. Az ily módon kezelt tejszín megnövekedett viszkozitása miatt a pasztőrözéshez csöves vagy kapartfalú hőcserélő alkalmazása javasolt. Csökkentett zsírtartalmú, laktózmentes, élőflórás vajkrémünk a kidolgozott technológiával biztonságosan gyártható, és az alkalmazott enzim-, ill. starterkultúra-koncentráció mellett 0,1% alá csökken a termék tejcukortartalma.” (Kátay Gábor, Varga László)",
+      ""
+    ],
+    [
+      "V",
+      "aj",
+      "zsírkészítmények",
+      " "
+    ],
+    [
+      "A",
+      " ",
+      "vajzsír",
+      ",",
+      " más néven",
+      " ",
+      "olvasztott vaj, ",
+      "tiszta ",
+      "vajzsír",
+      ", ",
+      "vízmentes vaj",
+      " vagy",
+      " frakcionált vajzsír",
+      " olyan termék, amely legalább",
+      " ",
+      "98% tiszta tejzsírt tartalmaz. ",
+      "A fennmaradó maximum 2% pedig zsírmentes szárazanyag. ",
+      "Ez a termék régóta ismert Európában, de különösen a meleg éghajlatú országokban. A vajzsírkészítmények +4 °C hőmérsékleten lényegesen hosszabb ideig tárolhatók, mint a vaj. ",
+      "F",
+      "őként az édesiparban (csokoládégyártásban), cukrász- és pékáru előállításában, fagylaltokhoz, valamint főzés",
+      "nél",
+      " és sütés",
+      "nél",
+      " ",
+      "használják fel",
+      "."
+    ],
+    [
+      "A vajzsír gyártásának alapanyaga a vaj",
+      ".",
+      " ",
+      "K",
+      "is",
+      " ",
+      "mennyiség előállításánál addig sütik a vajat",
+      ",",
+      " míg a benne lévő víztartalom teljesen ",
+      "elpárolog."
+    ],
+    [
+      "Üzemi körülmények között hőcserélő berendezés",
+      "sel",
+      " felmelegítik a vajat, majd egy speciális fölözőgépben elválasztják a vajzsírtól a víz",
+      "-",
+      " és zsírmentes szárazanyag",
+      "-",
+      "tartalom nagy részét",
+      ".",
+      " ",
+      "A",
+      "z így nyert vajzsír zsírtartalma eléri a 99%-ot",
+      "."
+    ],
+    [
+      "Az előállítást követően a ",
+      "va",
+      "jzsírkészítményeket tartályokba töltik, ahol inert gázzal (nitrogénnel) akadályozható meg az oxidáció."
+    ],
+    [
+      "Vajporkészítmények"
+    ],
+    [
+      "A ",
+      "vajpor",
+      " vagy más néven ",
+      "szárazvaj ",
+      "vízmentes termék. ",
+      "A vajat megolvasztják, majd centrifugális elven alapuló gőzzel fűtött berendezésben 100 °C fölötti hőmérsékleten vákuum alatt elpárologtatják",
+      " a vizet",
+      ". A termék előnye, hogy a tiszta vajzsírnál is hosszabb az eltarthatósága",
+      ",",
+      " és bármely tejtermék zsírtartalmának beállításához felhasználható."
+    ],
+    [
+      "Í",
+      "zesített",
+      " vaj"
+    ],
+    [
+      "Alkoholtartalmú vaj"
+    ],
+    [
+      "Az ",
+      "alkoholtartalmú vaj",
+      " zsírtartalmának legalább 34%-nak kell lennie. Az ilyen termékek vajból, szeszes italokból és cukorból tevődnek össze. Itt is használható a „vaj” megnevezés, ",
+      "de mindenképpen jelezni kell az elnevezésnél az alkotóelemet is",
+      " a vaj szóhoz kapcsolva",
+      ", pl",
+      ".",
+      " whiskys",
+      " ",
+      "vaj."
+    ],
+    [
+      "Fűszerezett vaj"
+    ],
+    [
+      "A fűszerezett, ízesített vajat többféle technológiai eljárással állít",
+      "hat",
+      "ják elő."
+    ],
+    [
+      "Az ízesítő anyagokat begyúrják a már kész vajba, így készül például a német fűszerezett vaj, a hagyományos sózott vaj",
+      "."
+    ],
+    [
+      "A tiszta vajzsírt ízesítik, melyre jellegzetes példa a francia petrezselymes vaj",
+      "."
+    ],
+    [
+      "A vajat tejszínnel, cukorral, különböző ízesítő anyagokkal keverik össze, ilyen például az orosz csokoládés vaj",
+      "."
+    ],
+    [
+      "C",
+      "sökkentett",
+      " zsírtartalmú vaj"
+    ],
+    [
+      "Az ide tartozó vajkészítményeknek két fő csoportja van:"
+    ],
+    [
+      "h",
+      "áromnegyed-zsíros vaj, a termék tejzsírtartalma legalább 60 és legfeljebb 62%",
+      ";"
+    ],
+    [
+      "f",
+      "élzsíros vaj, a termék tejzsírtartalma legalább 39 és legfeljebb 41%."
+    ],
+    [
+      "Eze",
+      "k a",
+      " termékek a vajhoz képesti olcsóságuk, illetve táplálkozási jelentőségük miatt terjedtek el a fogyasztók körében. ",
+      "G",
+      "yártástechnológiájukban megegyeznek a vaj készítésével, csak a vajnál sokkal több vizet tartalmaznak."
+    ],
+    [
+      "A félzsíros vajnál adalékanyagok ",
+      "(",
+      "pl. tejfehérje, zselatin",
+      ")",
+      " felhasználásával",
+      " tartható meg a termék magas víztartalma, mivel a késztermék vajhoz hasonló stabilitását már csak az adalékanyagok biztosítják."
+    ],
+    [
+      "Melléktermék feldolgozása és hasznosítása",
+      ""
+    ],
+    [
+      "A melléktermékek feldolgozása és hasznosítása jelentős feladat mind",
+      " az",
+      " emberi táplálkozás, mind ",
+      "az ",
+      "állati takarmányozás szempontjából, hiszen fontos és értékes tápanyagokat tartalmaznak."
+    ],
+    [
+      "A melléktermékek feldolgozásával csökkenthető a tejipari termelési veszteség, valamint a tejipari szennyvíz mennyisége",
+      " és terheltsége",
+      " is jelentősen csökken",
+      ",",
+      " ",
+      "így",
+      " könnyebben",
+      " tisztítható",
+      " ",
+      "lesz."
+    ],
+    [
+      "A vajgyártás mellékterméke az ",
+      "író",
+      ".",
+      " ",
+      "(1",
+      "5",
+      ". ",
+      "ábra",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "15",
+      "",
+      ". ábra:",
+      " Író leengedése a köpülőből"
+    ],
+    [
+      "(",
+      "Forrás: https://www.ujno.sk/files/article_gallery/tartaly-kiengedes-atmosas.jpg",
+      ", letöltve: ",
+      "202",
+      "4",
+      ". 0",
+      "7",
+      ". 0",
+      "4",
+      ".",
+      ")"
+    ],
+    [
+      "Az íróban minden táp",
+      "anyag ",
+      "megtalálható, ",
+      "ami",
+      " a tejben, amelyből készült. Zsírtartalma a fölözött tejhez viszonyítva magasabb",
+      ", függ az érlelés és a köpülés módjától, 0,3",
+      "–",
+      "1,2% között mozog. Részletes összetételét a",
+      "z 5. ",
+      "táblázatban láthat",
+      "o",
+      "k. ",
+      "Alkotórészeinek következtében i",
+      "gen értékes melléktermék."
+    ],
+    [
+      "",
+      "",
+      "",
+      "5",
+      "",
+      ". táblázat:",
+      " Az író átlagos összetétele"
+    ],
+    [
+      "Az író, ami a vajgyártás mellékterméke, élelmiszerként és takarmányozási célra egyaránt hasznosítható."
+    ],
+    [
+      "Élelmiszerként"
+    ],
+    [
+      "Eredeti formájában pasztőrözve, hűtve különböző csomagolásokban értékesítik. Felhasználható továbbá a sajt- és túrókészítéshez, de külföldön a különböző íróalapú üdítőitalok gyártásánál is komoly szerepe van. ",
+      "Hazánkban is kezd elterjedni az író kereskedelmi értékesítése",
+      " natúr és ízesített formában ",
+      "(",
+      "1",
+      "6",
+      ". ",
+      "ábra",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "16",
+      "",
+      ". ábra:",
+      " Író italok"
+    ],
+    [
+      "(",
+      "Forrás: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC7OeIhrJu6wbe84RtsrxFHfbn9hXEUzfXqeHafyUaLRm_XsB4S11qqYbpi7tBY_B_LJg&usqp=CAU",
+      ", letöltve: ",
+      "202",
+      "4",
+      ". 0",
+      "7",
+      ". ",
+      "04",
+      ".",
+      ")"
+    ],
+    [
+      "Takarmányként"
+    ],
+    [
+      "Elsősorban a sertéstakarmányozásban használható, amennyiben nedves vagy folyékony takarmányozási rendszert alkalmaznak. ",
+      "Porított alakban a takarmánytápokban 20",
+      "",
+      "30%-ban helyettesíti a sovány tejport."
+    ],
+    [
+      "Üzemi számítások"
+    ],
+    [
+      "Mielőtt elkezdenéd a feladatok megoldását:"
+    ],
+    [
+      "Értsd meg a feladatot! Olvasd el figyelmesen a feladat szövegét, gondold végig",
+      ",",
+      " mit olvastál, majd próbáld meg elmondani a saját szavaiddal a feladat lényegét."
+    ],
+    [
+      "Határozd meg, mit keres",
+      "el",
+      ".",
+      " Milyen adatokat isme",
+      "rsz",
+      "? Milyen kikötések vannak a feladatban? Rendszerezd az információkat aszerint, hogy mit ismer",
+      "sz",
+      ", és mit kell kiszámolni! Keress összefüggést az ismert adatok és az ismeretlen között!"
+    ],
+    [
+      "A megoldásról készíts magadnak tervet! A megoldást lépésről lépésre végezd el!"
+    ],
+    [
+      "Ellenőrizd a kapott eredményt, vizsgáld meg a megoldás helyességét! Gondold át, hogy a kapott eredmény értéke reális-e",
+      "."
+    ],
+    [
+      "Szakmai számításokhoz szükséges matematikai alapok: alapműveletek (összeadás, kivonás, szorzás, osztás), százalékszámítás, aránypárok alkalmazása",
+      "."
+    ],
+    [
+      "Várható vajmennyiség meghatározása"
+    ],
+    [
+      "A vajmennyiség meghatározáshoz az alábbi képleteket",
+      ", ",
+      "összefüggéseket kell ismerni:"
+    ],
+    [
+      "A felhasznált tejszín zsírtartalma, amit zsír kg-ban adunk meg"
+    ],
+    [
+      "Tejszín zsír kg ",
+      "=",
+      " (",
+      " ",
+      "tejszín liter ",
+      "x",
+      " ",
+      "tejszín ",
+      "zsír%",
+      " ",
+      ") ",
+      "/",
+      " 100"
+    ],
+    [
+      "A tejszín zsírtartalmának hány százaléka maradt a vajban, ez a ",
+      "köpülés foka",
+      "\n",
+      "Köpülés foka % ",
+      "=",
+      " [ (",
+      " ",
+      "tejszín zsír% ",
+      "-",
+      " író zsír%",
+      " ",
+      ") ",
+      "/",
+      " tejszín zsír% ] ",
+      "x",
+      " 100"
+    ],
+    [
+      "A köpülés fokának és a vaj zsírszázalékának hányadosa a ",
+      "kitermelési tényező",
+      "\n",
+      "Kitermelési tényező ",
+      "=",
+      " köpülés foka ",
+      "/",
+      " vaj zsír%"
+    ],
+    [
+      "Várható vajmennyiség",
+      "\n",
+      "Vajmennyiség",
+      " kg",
+      " ",
+      "=",
+      " tejszín zsír kg ",
+      "x",
+      " kitermelési tényező"
+    ],
+    [
+      "Ha megfelelően helyettesíted be a fenti képletekbe a megadott adatokat, az üzemi számítások egyszerűen megoldható",
+      "k",
+      ", de a korábbiakban alkalmazott aránypáros megoldási módszer",
+      "t",
+      " is ",
+      "használhatod",
+      "."
+    ],
+    [
+      "2250 liter 32%-os tejszínből ",
+      "83%-os zsírtartalmú vajat ",
+      "állít",
+      "asz",
+      " elő. 98,8%-os köpülési fok mellett mennyi lesz a várható vajnyeremény",
+      "ed",
+      "?"
+    ],
+    [
+      "A",
+      "z előzőekben leírtak alapján a",
+      " várható vajmennyiség a következő képlettel számítható ki:"
+    ],
+    [
+      "Vajmennyiség = tejszín zsír kg x kitermelési tényező"
+    ],
+    [
+      "Tejszín zsír kg = ",
+      "(tejszín liter x zsír%) / 100"
+    ],
+    [
+      "Kitermelési tényező = köpülés foka / vaj zsír%"
+    ],
+    [
+      "Vajmennyiség = ",
+      "(tejszín liter x zsír%) / 100 ",
+      "x ",
+      "(köpülés foka / vaj zsír% )"
+    ],
+    [
+      "Számítások:"
+    ],
+    [
+      "Tejszín zsír kg = 2250 x 32 / 100 = 720 kg"
+    ],
+    [
+      "Kitermelési tényező = 98,8 / 83 = 1,19"
+    ],
+    [
+      "Vajmennyiség = 720 x 1,19 = 856,80 kg"
+    ],
+    [
+      "A várható vaj mennyisége 856,80 kg."
+    ],
+    [
+      "Ha folyamatosan számolunk, az értékeket a számológépben hagyva és csak a végeredményt kerekítjük két tizedes jegyre:",
+      " ",
+      "(98,8 / 83) x 720 = 857,06 kg a várható vajmennyiség"
+    ],
+    [
+      "Számítások aránypárok alkalmazásával:"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "17",
+      "",
+      ". ábra: ",
+      "Számítási feladat"
+    ],
+    [
+      "(Forrás: kéziratíró saját szerkesztésű ábrája)"
+    ],
+    [
+      "Egész",
+      " ",
+      "számra kerekítve a várható vajmennyiség 857 kg",
+      "."
+    ],
+    [
+      "1500 liter 32%-os zsírtartalmú biológiailag érlelt tejszínből 84%-os zsírtartalmú vajat ",
+      "k",
+      "észít",
+      "esz",
+      ". Az író zsírtartalma 0,3%.",
+      " ",
+      "Mennyi lesz a várható vaj mennyisége?"
+    ],
+    [
+      "A várható vajmennyiség a következő képlettel számítható ki:"
+    ],
+    [
+      "Vajmennyiség = tejszín zsír kg x kitermelési tényező"
+    ],
+    [
+      "Tejszín zsír kg = ",
+      "(",
+      "tejszín liter x zsír%",
+      ")",
+      " / 100"
+    ],
+    [
+      "Kitermelési tényező = köpülés foka / vaj zsír%"
+    ],
+    [
+      "Köpülés foka ",
+      "% ",
+      "= ",
+      "[ ",
+      "(tejszín zsír% ",
+      "-",
+      " író zsír%) / tejszín zsír%",
+      " ]",
+      " x",
+      " ",
+      "100"
+    ],
+    [
+      "A képletek alapján",
+      " (17. ábra)",
+      ":"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "18",
+      "",
+      ". ábra:",
+      " A vaj mennyiségének meghatározása"
+    ],
+    [
+      "(",
+      "Forrás: ",
+      "szakértő ",
+      "saját kép",
+      "e)"
+    ],
+    [
+      "Szám",
+      "í",
+      "tások:"
+    ],
+    [
+      "Tejszín zsír kg = 1500 x 32 / 100 = 480",
+      " kg"
+    ],
+    [
+      "Köpülés foka = [ (32 – 0,3) / 32 ] x 100 = 99",
+      ",06",
+      "%"
+    ],
+    [
+      "Kitermelési tényező = 99",
+      ",06",
+      " / 84 = 1,1",
+      "8"
+    ],
+    [
+      "Vajmennyiség = 480 x 1,1",
+      "8",
+      " = 56",
+      "6",
+      ",",
+      "40",
+      " kg"
+    ],
+    [],
+    [
+      "A várható vaj mennyisége 56",
+      "6",
+      ",",
+      "40",
+      " kg."
+    ],
+    [
+      ""
+    ],
+    [
+      "Vaj víztartalmának ",
+      "és ph",
+      "-",
+      "értékének ",
+      "beállítás",
+      "a"
+    ],
+    [
+      "6",
+      "2",
+      "0 kg 14%-os víztartalmú vajat kell pontosan 16% víztartalmúra beállítani. Mennyi vizet kell a vajba belegyúrni?"
+    ],
+    [
+      "A szükséges vízmennyiség az alábbi képlettel számítható ki:"
+    ],
+    [
+      "Víz liter ",
+      "=",
+      " ",
+      "[(",
+      "vaj kg ",
+      "x",
+      " vaj szárazanyag%",
+      ")",
+      " ",
+      "/",
+      " vaj kívánt szárazanyag% )",
+      "]",
+      " ",
+      "–",
+      " vaj kg"
+    ],
+    [
+      "Vaj szárazanyag % ",
+      "=",
+      " 100 – vaj víztartalom%"
+    ],
+    [
+      "Vaj kg = a vaj mennyisége kg-ban megadva"
+    ],
+    [
+      "A szükséges vízmennyiség meghatároz",
+      "ható a korábbiakban már alkalmazott keverési képlettel is:"
+    ],
+    [
+      "m",
+      " ",
+      "=",
+      " ",
+      "a vaj vízbeállításához szükséges vízmennyiség"
+    ],
+    [
+      "vaj kg ",
+      "x",
+      " ",
+      "jelenlegi ",
+      "víztartalom ",
+      "+",
+      " m ",
+      "x",
+      " 100 ",
+      "=",
+      " (vaj kg ",
+      "+",
+      " m) ",
+      "x",
+      " beállítandó víztartalom"
+    ],
+    [
+      "Számítások:"
+    ],
+    [
+      "Vaj kg = 620"
+    ],
+    [
+      "Vaj szárazanyag % = 100 – 14 = 86"
+    ],
+    [
+      "Vaj kívánt szárazanyag % = 100 – 16 = 84"
+    ],
+    [
+      "Víz liter = ",
+      "620 x 86 / 84 – 620 = 53320 / 84 – 620 = 634,76 – 620 = 14,76 liter"
+    ],
+    [
+      "A feladat megoldása a keverési képlettel:"
+    ],
+    [
+      "620 x 14 + m x 100 = (620 + m) x 16"
+    ],
+    [
+      "    ",
+      "8680 + 100m = 9920 + 16m"
+    ],
+    [
+      "       ",
+      "84m = 1240"
+    ],
+    [
+      "            ",
+      "m = 14,76"
+    ],
+    [
+      "A vaj vízbeállításához 14,76 liter víz szükséges."
+    ],
+    [
+      "820 kg 13%-os víztartalmú",
+      ",",
+      " 6,4 pH értékű vajat kell 16% víztartalomra és 5,4 pH-ra beállítani. A pH beállításhoz citromsavat használ",
+      "sz",
+      ". 100 kg vaj pH értékét 5 g citromsav 0,1 ",
+      "pH értékkel csökkenti. Mennyi vizet kell a vajba begyúrni, és ",
+      "a vízben előzetesen",
+      " mennyi citromsavat kell oldani?"
+    ],
+    [
+      "A szükséges vízmennyiség",
+      "et",
+      " az előbbiekben ismertetett képlettel számít",
+      "hatod",
+      " ki",
+      ", a szükséges citromsav mennyiségét pedig aránypárral határoz",
+      "hatod",
+      " meg."
+    ],
+    [
+      "Víz liter ",
+      "=",
+      " [(vaj kg ",
+      "x",
+      " vaj szárazanyag",
+      " ",
+      "%) ",
+      "/",
+      " vaj kívánt szárazanyag",
+      " ",
+      "% )] ",
+      "–",
+      " vaj kg"
+    ],
+    [
+      "Számítások:"
+    ],
+    [
+      "Víz liter = 8",
+      "1",
+      "0 x 87 / ",
+      "84 – 810 = 70470 / 84 -810 = 838,93 – 810 = 28,93 liter"
+    ],
+    [
+      "",
+      "A vaj pH értékét 6,4 – 5,4 = 1,0 pH értékkel kell csökkenteni. "
+    ],
+    [
+      "\n0,1 pH csökkenés 5 g citromsav",
+      "\n1,0 pH csökkenés",
+      " ",
+      "? g citromsav"
+    ],
+    [
+      "? = 1,0 x 5 /",
+      " ",
+      "0,1",
+      " = 50 g"
+    ],
+    [],
+    [
+      "",
+      "100 kg vajhoz 50 g citromsav szükséges 1,0 pH értékcsökkenéshez",
+      ".",
+      "\n820 kg vajhoz   ? g citromsav szükséges 1,0 pH értékcsökkenéshez",
+      "?"
+    ],
+    [
+      "? = 820 x 50 / 100 = 410 g"
+    ],
+    [],
+    [
+      "A vajba 28,93 liter vizet kell belegyúrni, amelyben ",
+      "előzetesen 410 g citromsavat kell feloldani."
+    ],
+    [
+      ""
+    ],
+    [
+      "Irodalomjegyzék"
+    ],
+    [
+      "Tej és tejhigiénia Élelmiszeripar Témakör: 8. Tejtermékek",
+      "\n",
+      "Forrás: ",
+      "\"L:\\PROJEKTEK\\3-SZK\\Német kiadói források\\_Ulmer\\8252-8664-4\\8252-8664-4_MAGYAR\\8252-8664-4_Magyar fordítások\\PDF\\8252-8664-4_08_Tejtermékek.pdf\" Kézirat: 8252-8664-4_05_Tejnyerés.pdf\""
+    ],
+    [
+      "Magyar néprajzi lexikon",
+      " Arcanum Digitális Tudománytár ",
+      " ",
+      "(utolsó megtekintés: ",
+      "202",
+      "4",
+      ". ",
+      "07",
+      ". 02.",
+      ")"
+    ],
+    [
+      "Surányi Béla: A tej és tejtermékek múltja és jelene",
+      " Debreceni Egyetemi Kiadó 2015 ",
+      "\n(e-könyv) ",
+      " ",
+      "(utolsó megtekintés: ",
+      "202",
+      "4",
+      ". ",
+      "07",
+      ". 02.",
+      ")"
+    ],
+    [
+      "Ilon Gábor: A vajkészítés mintafái két Vasi és egy Sopron megyei faluból",
+      " (Vasi népművészeti tár, XXXII. Vasi Szemle 2018. LXXII. évfolyam 6. szám)  ",
+      " ",
+      "(utolsó megtekintés: ",
+      "202",
+      "4",
+      ". ",
+      "07",
+      ". 02.",
+      ")"
+    ],
+    [
+      "Az Európai Parlament és a Tanács 1308/2013/EU rendelete",
+      " ",
+      "\n",
+      " ",
+      "(utolsó megtekintés: ",
+      "202",
+      "4",
+      ". ",
+      "07",
+      ". 02.",
+      ")"
+    ],
+    [
+      "A Bizottság 2073/2005/EK rendelete az élelmiszerek mikrobiológiai kritériumairól ",
+      "\n",
+      " ",
+      "(utolsó megtekintés: ",
+      "202",
+      "4",
+      ". ",
+      "07",
+      ". 02.",
+      ")"
+    ],
+    [
+      "4/1998. (XI. 11.) EüM rendelet az élelmiszerekben előforduló mikrobiológiai szennyeződések megengedhető mértékéről",
+      " ",
+      "\n",
+      " ",
+      "(utolsó megtekintés: ",
+      "202",
+      "4",
+      ". ",
+      "07",
+      ". 02.",
+      ")"
+    ],
+    [
+      "Szakágazati technológia tejipar II.",
+      " ",
+      "Tejipari melléktermékek feldolgozása és hasznosítása. Mezőgazdasági Kiadó, 1983., 211–219. oldal"
+    ],
+    [
+      "Szakágazati technológia tejipar II.",
+      " vajrögök képződése. Mezőgazdasági Kiadó, 1983., 37. oldal 12. ábra"
+    ],
+    [
+      "Kátay Gábor, Varga László: Csökkentett zsírtartalmú, laktózmentes, élőflórás vajkészítmény kifejlesztése",
+      " – 1. rész: A gyártástechnológia kidolgozása Forrás: Élelmiszervizsgálati közlemények – LXV. ÉVFOLYAM 2. SZÁM, 2471. oldal"
+    ],
+    [
+      "Fejér és Komárom megyei Tejipari Vállat gyakorlati jegyzet (1986)"
+    ],
+    [
+      ""
+    ],
+    [
+      "Ábrajegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "Táblázatjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Pákozdi Enikő"
+      ],
+      [
+        "Szakmai lektor:",
+        "Zakariásné Kiskó Bernadett"
+      ],
+      [
+        "Évfolyam:",
+        "12. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "20 óra"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Élelmiszeripar"
+      ],
+      [
+        "Szakma:",
+        "Tejipari technikus"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Tejtermékgyártás"
+      ],
+      [
+        "Tantárgy:",
+        "Tejipari technológia I."
+      ],
+      [
+        "",
+        ""
+      ],
+      [
+        "",
+        ""
+      ]
+    ],
+    [
+      [
+        "Fogalommeghatározások",
+        "Kereskedelmi megnevezés",
+        "A kategória kiegészítő leírása a zsírtartalom tömegszázalékának megadásával"
+      ],
+      [
+        "A.   Tejzsírok\nSzilárd, képlékeny, elsődlegesen „víz az olajban” típusú, emulzió formájú termékek, amelyek kizárólag tejből és/vagy bizonyos tejtermékekből készültek, és amelyek esetében a zsír az alapvető értékösszetevő. Ugyanakkor adhatók hozzájuk az előállításukhoz szükséges egyéb anyagok, amennyiben ezen anyagok nem a tej bármely alkotóelemének teljes vagy részleges helyettesítését szolgálják.",
+        "",
+        "A termék tejzsírtartalma legalább 80, de kevesebb, mint 90%, maximális víztartalma 16%, és zsírmentes tejszárazanyag-tartalma 2%."
+      ],
+      [
+        "A.   Tejzsírok\nSzilárd, képlékeny, elsődlegesen „víz az olajban” típusú, emulzió formájú termékek, amelyek kizárólag tejből és/vagy bizonyos tejtermékekből készültek, és amelyek esetében a zsír az alapvető értékösszetevő. Ugyanakkor adhatók hozzájuk az előállításukhoz szükséges egyéb anyagok, amennyiben ezen anyagok nem a tej bármely alkotóelemének teljes vagy részleges helyettesítését szolgálják.",
+        "",
+        "A termék tejzsírtartalma legalább 60 és legfeljebb 62%."
+      ],
+      [
+        "A.   Tejzsírok\nSzilárd, képlékeny, elsődlegesen „víz az olajban” típusú, emulzió formájú termékek, amelyek kizárólag tejből és/vagy bizonyos tejtermékekből készültek, és amelyek esetében a zsír az alapvető értékösszetevő. Ugyanakkor adhatók hozzájuk az előállításukhoz szükséges egyéb anyagok, amennyiben ezen anyagok nem a tej bármely alkotóelemének teljes vagy részleges helyettesítését szolgálják.",
+        "",
+        "A termék tejzsírtartalma legalább 39 és legfeljebb 41%."
+      ],
+      [
+        "A.   Tejzsírok\nSzilárd, képlékeny, elsődlegesen „víz az olajban” típusú, emulzió formájú termékek, amelyek kizárólag tejből és/vagy bizonyos tejtermékekből készültek, és amelyek esetében a zsír az alapvető értékösszetevő. Ugyanakkor adhatók hozzájuk az előállításukhoz szükséges egyéb anyagok, amennyiben ezen anyagok nem a tej bármely alkotóelemének teljes vagy részleges helyettesítését szolgálják.",
+        "",
+        "Termék a következő tejzsírtartalommal:\n\n\n"
+      ]
+    ],
+    [
+      [
+        "Élelmiszer-biztonsági kritériumok",
+        "Élelmiszer-biztonsági kritériumok",
+        "Élelmiszer-biztonsági kritériumok",
+        "Élelmiszer-biztonsági kritériumok",
+        "Élelmiszer-biztonsági kritériumok"
+      ],
+      [
+        "Nyers tejből vagy olyan tejből készült vaj vagy tejszín, amelyet a pasztőrözés hőmérsékleténél alacsonyabb hőmérsékleten kezeltek",
+        "Nyers tejből vagy olyan tejből készült vaj vagy tejszín, amelyet a pasztőrözés hőmérsékleténél alacsonyabb hőmérsékleten kezeltek",
+        "Nyers tejből vagy olyan tejből készült vaj vagy tejszín, amelyet a pasztőrözés hőmérsékleténél alacsonyabb hőmérsékleten kezeltek",
+        "Nyers tejből vagy olyan tejből készült vaj vagy tejszín, amelyet a pasztőrözés hőmérsékleténél alacsonyabb hőmérsékleten kezeltek",
+        "Nyers tejből vagy olyan tejből készült vaj vagy tejszín, amelyet a pasztőrözés hőmérsékleténél alacsonyabb hőmérsékleten kezeltek"
+      ],
+      [
+        "Mikroorganizmus",
+        "E. coli",
+        "E. coli",
+        "E. coli",
+        "E. coli"
+      ],
+      [
+        "Mintavételi terv (1)",
+        "n",
+        "5",
+        "c",
+        "2"
+      ],
+      [
+        "Határértékek (2)",
+        "m",
+        "10 cfu/g",
+        "M",
+        "100 cfu/g"
+      ],
+      [
+        "Vizsgálati szabvány (3)",
+        "ISO 16649-1 vagy -2",
+        "ISO 16649-1 vagy -2",
+        "ISO 16649-1 vagy -2",
+        "ISO 16649-1 vagy -2"
+      ],
+      [
+        "Az a fázis, ahol a kritériumot alkalmazni kell",
+        "Gyártási folyamat vége",
+        "Gyártási folyamat vége",
+        "Gyártási folyamat vége",
+        "Gyártási folyamat vége"
+      ],
+      [
+        "Mikroorganizmus",
+        "Salmonella",
+        "Salmonella",
+        "Salmonella",
+        "Salmonella"
+      ],
+      [
+        "Mintavételi terv (1)",
+        "n",
+        "5",
+        "c",
+        "0"
+      ],
+      [
+        "Határértékek (2)",
+        "25 g-ban nincs jelen",
+        "25 g-ban nincs jelen",
+        "25 g-ban nincs jelen",
+        "25 g-ban nincs jelen"
+      ],
+      [
+        "Vizsgálati szabvány (3)",
+        "EN/ISO 6579",
+        "EN/ISO 6579",
+        "EN/ISO 6579",
+        "EN/ISO 6579"
+      ],
+      [
+        "Az a fázis, ahol a kritériumot alkalmazni kell",
+        "Forgalomba hozott termékek, eltarthatósági idejük alatt",
+        "Forgalomba hozott termékek, eltarthatósági idejük alatt",
+        "Forgalomba hozott termékek, eltarthatósági idejük alatt",
+        "Forgalomba hozott termékek, eltarthatósági idejük alatt"
+      ]
+    ],
+    [
+      [
+        "n\n(a vizsgált minták száma)",
+        "Mikroorganizmusok száma,\ntelepképző egységek \n(cfu: Colony forming unit)",
+        "Határértékek alapján besorolás \nm = 10             M = 100"
+      ],
+      [
+        "1",
+        "30 cfu/g",
+        "m <    > M"
+      ],
+      [
+        "2",
+        "15 cfu/g",
+        "m <    > M"
+      ],
+      [
+        "3",
+        "9 cfu/g",
+        "< m"
+      ],
+      [
+        "4",
+        "25 cfu/g",
+        "m <    > M"
+      ],
+      [
+        "5",
+        "8 cfu/g",
+        "< m"
+      ]
+    ],
+    [
+      [
+        "Az élelmiszer-előállítás belső minőségellenőrzését szolgáló mikrobiológiai vizsgálatok és ajánlott határértékek",
+        "Az élelmiszer-előállítás belső minőségellenőrzését szolgáló mikrobiológiai vizsgálatok és ajánlott határértékek",
+        "Az élelmiszer-előállítás belső minőségellenőrzését szolgáló mikrobiológiai vizsgálatok és ajánlott határértékek",
+        "Az élelmiszer-előállítás belső minőségellenőrzését szolgáló mikrobiológiai vizsgálatok és ajánlott határértékek",
+        "Az élelmiszer-előállítás belső minőségellenőrzését szolgáló mikrobiológiai vizsgálatok és ajánlott határértékek"
+      ],
+      [
+        "vaj (pasztőrözött), ízesített vajkészítmény",
+        "vaj (pasztőrözött), ízesített vajkészítmény",
+        "vaj (pasztőrözött), ízesített vajkészítmény",
+        "vaj (pasztőrözött), ízesített vajkészítmény",
+        "vaj (pasztőrözött), ízesített vajkészítmény"
+      ],
+      [
+        "Mikroorganizmus",
+        "Listeria monocytogenes",
+        "Listeria monocytogenes",
+        "Listeria monocytogenes",
+        "Listeria monocytogenes"
+      ],
+      [
+        "Mintavételi terv ",
+        "n",
+        "5",
+        "c",
+        "0"
+      ],
+      [
+        "Határértékek ",
+        "1 g-ban nincs jelen",
+        "1 g-ban nincs jelen",
+        "1 g-ban nincs jelen",
+        "1 g-ban nincs jelen"
+      ],
+      [
+        "Mikroorganizmus",
+        "Salmonella",
+        "Salmonella",
+        "Salmonella",
+        "Salmonella"
+      ],
+      [
+        "Mintavételi terv ",
+        "n",
+        "5",
+        "c",
+        "0"
+      ],
+      [
+        "Határértékek ",
+        "-ban nincs jelen",
+        "-ban nincs jelen",
+        "-ban nincs jelen",
+        "-ban nincs jelen"
+      ]
+    ],
+    [
+      [
+        "Alkotórész",
+        "Édestejszín-vaj író",
+        "Savanyútejszín-vaj író"
+      ],
+      [
+        "Víztartalom %",
+        "90,9",
+        "91,3"
+      ],
+      [
+        "Szárazanyag-tartalom %",
+        "9,2",
+        "8,7"
+      ],
+      [
+        "Zsír %",
+        "0,4",
+        "0,3"
+      ],
+      [
+        "Fehérje %",
+        "3,4",
+        "3,4"
+      ],
+      [
+        "Tejcukor %",
+        "4,6",
+        "3,5"
+      ]
+    ]
+  ],
+  "headers": [
+    "",
+    "",
+    ""
+  ],
+  "footers": [
+    "RRF-2.2.1-22-2022-00001 azonosító számú, „Szakképzési digitális tananyagfejlesztés” c. projekt\n\nIKK Nonprofit Zrt.\nH-1033 Budapest, Szőlőkert utca 9.\nH-1243 Budapest, Pf.: 669\nikk.hu | iroda@ikk.hu",
+    "",
+    ""
+  ],
+  "footnotes": [
+    "",
+    "",
+    " Magyar néprajzi lexikon. Arcanum Digitális Tudománytár. https://www.arcanum.com/hu/online-kiadvanyok/Lexikonok-magyar-neprajzi-lexikon-71DCC/v-74097/vajkeszites-vaj-740BA/ 2024. 06.20.",
+    " Surányi Béla: A tej és tejtermékek múltja és jelene. Debreceni Egyetemi Kiadó 2015 (e-könyv) 29. oldal https://dupress.unideb.hu/hu/termek/a-tej-es-tejtermekek-multja-es-jelene-e-konyv/ 2024. 06. 20.",
+    " Ilon Gábor: A vajkészítés mintafái két vasi és egy Sopron megyei faluból. (Vasi népművészeti tár, XXXII. Vasi Szemle 2018. LXXII. évfolyam 6. szám) http://www.vasiszemle.hu/2018/06/ilon.pdf 2024. 07. 04.",
+    " Tej és tejhigiénia Élelmiszeripar Témakör: 8. Tejtermékek Forrás: \"L:\\PROJEKTEK\\3-SZK\\Német kiadói források\\_Ulmer\\8252-8664-4\\8252-8664-4_MAGYAR\\8252-8664-4_Magyar fordítások\\PDF\\8252-8664-4_08_Tejtermékek.pdf\" Kézirat: 8252-8664-4_05_Tejnyerés.pdf\"",
+    " Az Európai Parlament és a Tanács 1308/2013/EU rendeletehttps://eur-lex.europa.eu/legal-content/HU/TXT/?uri=celex:32013R1308 2024. 06. 22.",
+    " A Bizottság 2073/2005/EK rendelete az élelmiszerek mikrobiológiai kritériumairól https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=CELEX%3A02005R2073-20200308 2024. 07. 02.",
+    " 4/1998. (XI. 11.) EüM rendeletaz élelmiszerekben előforduló mikrobiológiai szennyeződések megengedhető mértékéről https://net.jogtar.hu/jogszabaly?docid=99800004.eum 2024.07.04.",
+    " Tej és tejhigiénia Élelmiszeripar Témakör: 8. Tejtermékek Forrás: \"L:\\PROJEKTEK\\3-SZK\\Német kiadói források\\_Ulmer\\8252-8664-4\\8252-8664-4_MAGYAR\\8252-8664-4_Magyar fordítások\\PDF\\8252-8664-4_08_Tejtermékek.pdf\" Kézirat: 8252-8664-4_05_Tejnyerés.pdf\"",
+    " Szakágazati technológia tejipar II. (mezőgazdasági kiadó 1983) A vajrögök képződése 37. oldal 12. ábra",
+    " Tej és tejhigiénia Élelmiszeripar Témakör: 8. Tejtermékek Forrás: \"L:\\PROJEKTEK\\3-SZK\\Német kiadói források\\_Ulmer\\8252-8664-4\\8252-8664-4_MAGYAR\\8252-8664-4_Magyar fordítások\\PDF\\8252-8664-4_08_Tejtermékek.pdf\" Kézirat: 8252-8664-4_05_Tejnyerés.pdf\"",
+    " Fejér és Komárom megyei Tejipari Vállat gyakorlati jegyzet (1986)",
+    " Kátay Gábor, Varga László: Csökkentett zsírtartalmú, laktózmentes, élőflórás vajkészítménykifejlesztése – 1. rész: A gyártástechnológia kidolgozása Forrás: Élelmiszervizsgálati közlemények – LXV. ÉVFOLYAM 2. SZÁM 2471 oldal",
+    " Szakágazati technológia tejipar II. (mezőgazdasági kiadó 1983) Tejipari melléktermékek feldolgozása és hasznosítása"
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image12.png",
+      "path": null,
+      "bytes": 290899
+    },
+    {
+      "name": "image22.png",
+      "path": null,
+      "bytes": 272430
+    },
+    {
+      "name": "image13.png",
+      "path": null,
+      "bytes": 33299
+    },
+    {
+      "name": "image14.png",
+      "path": null,
+      "bytes": 265991
+    },
+    {
+      "name": "image11.png",
+      "path": null,
+      "bytes": 154588
+    },
+    {
+      "name": "image10.jpeg",
+      "path": null,
+      "bytes": 46306
+    },
+    {
+      "name": "image16.png",
+      "path": null,
+      "bytes": 29069
+    },
+    {
+      "name": "image21.png",
+      "path": null,
+      "bytes": 29336
+    },
+    {
+      "name": "image20.png",
+      "path": null,
+      "bytes": 33629
+    },
+    {
+      "name": "image19.jpeg",
+      "path": null,
+      "bytes": 30220
+    },
+    {
+      "name": "image18.png",
+      "path": null,
+      "bytes": 44488
+    },
+    {
+      "name": "image17.jpeg",
+      "path": null,
+      "bytes": 62051
+    },
+    {
+      "name": "image15.jpeg",
+      "path": null,
+      "bytes": 58892
+    },
+    {
+      "name": "image4.png",
+      "path": null,
+      "bytes": 212842
+    },
+    {
+      "name": "image8.png",
+      "path": null,
+      "bytes": 85542
+    },
+    {
+      "name": "image9.png",
+      "path": null,
+      "bytes": 87274
+    },
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image5.png",
+      "path": null,
+      "bytes": 302742
+    },
+    {
+      "name": "image3.png",
+      "path": null,
+      "bytes": 196836
+    },
+    {
+      "name": "image7.jpeg",
+      "path": null,
+      "bytes": 128092
+    },
+    {
+      "name": "image6.png",
+      "path": null,
+      "bytes": 303564
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Normal (Web)",
+    "annotation text",
+    "Title",
+    "Cím Char",
+    "Subtitle",
+    "Alcím Char",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "Hyperlink",
+    "Feloldatlan megemlítés1",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Table Grid",
+    "Jegyzetszöveg Char",
+    "11",
+    "9",
+    "Placeholder Text",
+    "Címsor 4 Char",
+    "Caption",
+    "bajusz_téglalap",
+    "bajusz_téglalap Char",
+    "Címsor 5 Char",
+    "ism_kérdések",
+    "ism_kérdések Char",
+    "Képaláírás Char",
+    "kérdés_számozva",
+    "kérdés_számozva Char",
+    "bajusz_pötty",
+    "bajusz_pötty Char",
+    "szituáció",
+    "fontos",
+    "fontos Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "toc 4",
+    "bajusz_kötőjel",
+    "betűkiemelés",
+    "List Paragraph",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "példa",
+    "példa Char",
+    "Default",
+    "Feloldatlan megemlítés2",
+    "table of figures",
+    "FollowedHyperlink",
+    "annotation reference",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "Feloldatlan megemlítés3",
+    "footnote text",
+    "Lábjegyzetszöveg Char",
+    "footnote reference",
+    "Revision",
+    "Feloldatlan megemlítés4"
+  ]
+}

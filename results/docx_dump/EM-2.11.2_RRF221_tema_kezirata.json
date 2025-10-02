@@ -1,0 +1,3533 @@
+{
+  "core_properties": {
+    "creator": "Besenczi Attila (ELMS)",
+    "lastModifiedBy": "Soós Gabriella Brigitta (ELMS)",
+    "revision": "2",
+    "created": "2024-09-24T10:19:00Z",
+    "modified": "2024-09-24T10:19:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal",
+    "TotalTime": "0",
+    "Pages": "61",
+    "Words": "7891",
+    "Characters": "54452",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "453",
+    "Paragraphs": "124",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "62219",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.11.2",
+    "A gyümölcstermesztés biológiai alapjai",
+    "Témák kézirata",
+    "Forrás: Az eredeti könyv címe: Büchele, Manfred (Hrsg.): Lucas' Anleitung zum Obstbau. 33., erweiterte Auflage. Stuttgart (Hohenheim), 2018, Ulmer.",
+    "ISBN 978-3-8186-1868-1",
+    "",
+    "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak.",
+    "",
+    "",
+    "Tartalomjegyzék",
+    "1\tGyümölcstermő növények csoportosítása külső testalakulás szerint\t2",
+    "1.1\tFák\t2",
+    "1.2\tCserjék\t3",
+    "1.3\tFélcserjék\t3",
+    "1.4\tDudvásszárúak\t5",
+    "2\tCsoportosítás növénytani és gyakorlati szempontból\t6",
+    "2.1\tGyümölcstermő növények növénytani csoportosítása\t6",
+    "2.2\tGyümölcstermő növények gyakorlati szempont szerinti csoportosítása\t7",
+    "3\tA gyümölcstermesztés biológiai alapjai\t9",
+    "3.1\tA gyümölcstermő növények részei\t9",
+    "3.1.1\tA gyökér\t9",
+    "3.1.2\tHajtásrendszer\t13",
+    "3.1.2.1\tA törzs\t13",
+    "3.1.2.2\tA korona\t16",
+    "4\tGyümölcstermő növények termőrészei\t30",
+    "4.1\tTermőrészek csoportosítása\t30",
+    "4.1.1\tA gyümölcstermő növények termőrészei\t38",
+    "4.2\tVirágképződés, rügydifferenciálódás\t39",
+    "4.2.1\tA virágképződés előfeltételei\t40",
+    "4.2.2\tVirágminőség\t42",
+    "4.2.3\tAlternancia\t42",
+    "4.2.4\tA növekedés és a termőképesség közötti összefüggések\t43",
+    "4.3\tA virágtól a termésig\t45",
+    "4.3.1\tMegporzás\t45",
+    "4.3.2\tTerméskötődés\t49",
+    "5\tA faj, fajta fogalma, az alany és a fajtahasználat a gyümölcstermesztésbeN\t53",
+    "5.1\tFaj, fajta\t53",
+    "5.1.1\tFajtahasználat, fajtaválasztás\t53",
+    "5.1.2\tAlanyhasználat\t55",
+    "Irodalomjegyzék\t57",
+    "Ábrajegyzék\t58",
+    "",
+    "Gyümölcstermő növények csoportosítása külső testalakulás szerint",
+    "A föld feletti részek alakulása szerint a gyümölcstermő növények az alábbiak szerint csoportosíthatók.",
+    "Fák",
+    "A fák évelő, fás szárú növények, melyeknek vagy van központi tengelye vagy tengely nélküliek. Föld alatti részük a gyökér, föld feletti részük a törzs és a korona. A koronát az ágak képezik.",
+    "A fatermetű gyümölcstermő növények közül idetartozik az alma, körte, cseresznye, meggy, szilva, őszbarack, kajszibarack, mandula, dió.",
+    "",
+    "",
+    "1. ábra: A fatermetű gyümölcstermő növények részei",
+    "Forrás: Dr. Gonda István, Dr. Csihon Ádám szerk. A gyümölcstermesztés alapjai, 2018. Debrecen, Debreceni Egyetemi Kiadó, 18. o.",
+    "Cserjék",
+    "A cserjék szintén évelők. Fás részei a föld felett közvetlenül a cserjetörzsből elágaznak. Főtengelyük nincs.",
+    "A gyümölcsök közül idetartozik a birs, naspolya, mogyoró, ribiszke, köszméte, fekete bodza.",
+    "",
+    "2. ábra: A ribiszkebokor hajtásrendszere",
+    "Forrás: Dr. Gonda István, Dr. Csihon Ádám szerk. A gyümölcstermesztés alapjai, 2018. Debrecen, Debreceni Egyetemi Kiadó, 19.o.",
+    "Félcserjék",
+    "A cserjékhez hasonlóan a félcserjéknek sincs főtengelyük, viszont már a földben elágazó hajtásokat nevelnek. A talajban található részük elfásodik, a talajfelszín feletti részük pedig lágyszárú. Az első évben a föld alatti szárból hajt ki a növény sarjakat, majd a második évben ezen termést hoz és a második évben elpusztul.",
+    "",
+    "A gyümölcsök közül idetartozik a málna és a szeder.",
+    "",
+    "3. ábra: A málnanövény hajtásrendszere",
+    "„(1) letermett vessző, (2–3) tősarjak, (4–8) gyökérsarjak, (9–10) a talaj felszíne alatt elhelyezkedő gyökérsarjkezdemények”",
+    "Forrás: Dr. Gonda István, Dr. Csihon Ádám szerk A gyümölcstermesztés alapjai, 2018. Debrecen, Debreceni Egyetemi Kiadó, 19. o.",
+    "Dudvásszárúak",
+    "A dudvásszárúak évelő növények. A föld feletti részük levélzet, ami a vegetáció során terem, majd fokozatosan elhal. A föld alatti gyöktörzsből minden évben új hajtást, levelet hoz. Vegetatív szaporítószerve az inda, amely hosszú szártagú hajtás. A gyökerei a csomóiból nőnek ki. Önálló növényként él tovább, ha leválasztásra kerül az anyanövényről.",
+    "",
+    "A gyümölcsök közül a szamóca tartozik ide.",
+    "",
+    "4. ábra: A szamócanövény felépítése",
+    "„(1) gyökértörzs, (2) gyökérzet, (3) tőrózsában álló levelek, (4) inda, (5) indanövény, (6) tőkocsány, (7) virág és (8) gyümölcs. A virág és a gyümölcs részei: a) csészelevelek, b) porzók, c) szirmok, d) termők (bibék), e) vacok, f) kocsány, g) gyümölcshús, h) termés”",
+    "Forrás: Dr. Gonda István, Dr. Csihon Ádám szerk., A gyümölcstermesztés alapjai, 2018. Debrecen, Debreceni Egyetemi Kiadó, 20. o.",
+    "Csoportosítás növénytani és gyakorlati szempontból",
+    "Gyümölcstermő növények növénytani csoportosítása",
+    "Rosaceae – Rózsafélék családja",
+    "Maloideae – Almafélék alcsaládja",
+    "Malus domestica – Alma",
+    "Pyrus communis – Körte",
+    "Cydonia oblonga – Birs",
+    "Mespilus germanica – Naspolya",
+    "Prunoideae – Szilvafélék alcsaládja",
+    "Cerasus avium – Cseresznye",
+    "Cerasus vulgaris – Meggy",
+    "Armeniaca vulgaris – Kajszi",
+    "Prunus domestica – Szilva",
+    "Persica vulgaris – Őszibarack",
+    "Amygdalus communis – Mandula",
+    "Rosoideae – Rózsafélék alcsaládja",
+    "Rubus idaeus – Málna",
+    "Fragaria x ananassa – Szamóca",
+    "Rubus caesius – Szeder",
+    "Grossulariaceae – Köszmétefélék családja",
+    "Ribes rubrum – Piros ribiszke",
+    "Ribes nigra – Fekete ribiszke",
+    "Ribes uva-crispa – Köszméte",
+    "Corylaceae – Mogyorófélék családja",
+    "Corylus avellana – Mogyoró",
+    "Fagaceae – Bükkfafélék családja",
+    "Castanea sativa – Szelídgesztenye",
+    "Juglandaceae – Diófélék családja",
+    "Juglans regia – Dió",
+    "Adoxaceae – Pézsmaboglárfélék családja",
+    "Sambucus nigra – Fekete bodza",
+    "Gyümölcstermő növények gyakorlati szempont szerinti csoportosítása",
+    "Almatermésűek: a rózsafélék családjába tartoznak. Termésük áltermés. Magházukat a megvastagodott vacok, a gyümölcshús veszi körül, kívülről pedig vékony héj borítja.",
+    "Idetartozik az alma, körte, birs, naspolya.",
+    "",
+    "Csonthéjas gyümölcsűek (csonthéjasok): a rózsafélék családjába tartoznak. A csontkemény burokban lévő magot veszi körül a gyümölcshús, ami a termésük. A termést kívülről bőrnemű, színes, viaszos vagy szőrös héj veszi körül. Középső része húsos, éretten édes, míg belső része a mag, aminek falát az elfásodott belső terméshéj alkotja.",
+    "Idetartozik a cseresznye, meggy, őszibarack, kajszibarack, szilva.",
+    "",
+    "Bogyós gyümölcsűek (bogyósok): a rózsafélék családjába tartozik a málna, szamóca, szeder. A pézsmaboglárfélék családjába tartozik a fekete bodza. A köszmétefélék családjába tartozik a fekete ribizke, piros ribizke, köszméte. A termésük hasonló: gömbölyű alakú, hártyás vagy bőrszerű héjuk van, lédúsak, kocsonyaszerű belsejükben sok magot tartalmaznak.",
+    "Idetartozik a szamóca, málna, szeder, fekete ribizke, piros ribizke, köszméte, fekete bodza.",
+    "",
+    "Héjas gyümölcsűek (héjasok): eltérő növényrendszertani családból származó növények tartoznak ide. Termésük hasonlít a csonthéjasokéhoz, de ezeken a gyümölcshúshéj összeszárad és tulajdonképpen a csonthéjban (kupacsban) levő magot fogyasztjuk.",
+    "Ide tartozik a dió, mandula, mogyoró, szelídgesztenye.",
+    "A gyümölcstermesztés biológiai alapjai",
+    "A gyümölcstermő növények részei",
+    "Minden növény, köztük a gyümölcstermő növények is, alaktanilag két fő részből állnak:",
+    "föld alatti részből, azaz a gyökérrendszerből és",
+    "föld feletti részből, azaz a hajtásrendszerből.",
+    "A gyökér",
+    "A gyökér a gyümölcstermő növényt rögzíti a talajban, vizet és tápanyagot vesz fel, illetve raktároz, és azokkal ellátja a föld feletti szerveket.",
+    "A gyökér felépítése",
+    "",
+    "",
+    "5. ábra: A gyökér hosszmetszete",
+    "Forrás: https://ttko.hu/kbf/kisalkalmazas.php?id=76&c=biol%C3%B3gia (Megnyitva: 2024.07.04.)",
+    "",
+    "Gyökérsüveg: gyökércsúcsot védő sapka, mely védelmet nyújt a gyökércsúcs osztódó szövetének (a kambiumnak). (5. ábra)",
+    "Megnyúlási zóna: itt megy végbe a gyökér sejtjeinek differenciálódása, azaz kialakul a végleges feladathoz való felépítésük. (5. ábra)",
+    "Felszívási zóna: itt találhatók a gyökérszőrök. A gyökérszőrök a megnyúlási zóna után képződnek folyamatosan, míg a felszívási zóna vége felé elpusztulnak. Így a gyökércsúcs növekedésével a felszívási zóna mindig újabb talajrészekkel érintkezik, így az ott lévő tápanyagot és vizet fel tudja venni. (5. ábra)",
+    "Szállítószövet (szállítási zóna): a gyökérszőrök által felvett víz és a vízben oldott tápanyagok a szállítószövet segítségével jutnak el a hajtásrendszerig. (5. ábra)",
+    "osztódószövet: más néven merisztéma, a folyamatos növekedést, fejlődést teszi lehetővé. Kialakítja a tovább osztódni képtelen állandósult szöveteket. (5. ábra) Elsődleges merisztéma a csúcsmerisztéma, amely a hajtás és a gyökér elsődleges szöveteit alakítja ki.",
+    "",
+    "A növény a gyökér szűkebb környezetében képes mobilizálni a tápanyagokat, befolyásolni a pH-értéket, valamint érzékelni a változásokat, és reagálni azokra. Ezenkívül képes meghatározni a nedvesség helyét, és a gyökerek növekedését célzottan a vizes zónák felé irányítja.",
+    "",
+    "A gyökerek alacsonyabb hőmérsékleten válnak aktívvá. Melegebb hőmérsékleten a hajtásnövekedés gyorsul fel. A gyökerek intenzívebb növekedése csak akkor indul be újra, amikor a hajtásnövekedés lelassul. A hajtás- és a gyökérrendszer automatikusan egyensúlyi állapotra törekszik.",
+    "",
+    "A gyökér gyorsan reagál a korona változásaira és fordítva. A szélsőséges metszési beavatkozás, a túl nagy terméshozam és a levélkárosodás korlátozza a gyökérteljesítményt; az átültetés és a gyökérmetszés átmenetileg gyengíti a hajtás- és termésnövekedést.",
+    "A gyökérzet elágazódása és az, hogy milyen mélyre gyökerezik:",
+    "gyümölcsfajonként, de fajtánként is eltérő lehet,",
+    "valamint függ a talaj nedvességtartalmától, szerkezetétől és tápanyagtartalmától.",
+    "",
+    "A gyenge növekedésű alanyok sekélyen gyökeresednek, míg a vadalanyon lévő gyümölcstermő növények az előzőnél jóval mélyebben. Mindig a termőhelyhez igazítják a telepítésre szánt növény alanyát.",
+    "",
+    "A gyökeresedést a talaj állapota nagyban befolyásolja. Ha a talaj kötött, azaz levegőtlen, a gyökér nem tud mélyre hatolni, a felszínen fog terjeszkedni. Ez nem jó a növény számára, hisz nem tudja a mélyebb rétegekben lévő vizet és tápanyagot felvenni. Ezért mindig törekedni kell a jó szerkezetű, laza, szellős talajszerkezet elérésére. Megfelelő agrotechnikával, talajműveléssel a gyökérzet növekedése jó irányba befolyásolható.",
+    "",
+    "A vízhiány és a tápanyaghiány is rossz hatással van a gyökerek fejlődésére és elágazódására. Hiány esetén nagyobb mértékben ágazódik el a gyökere, hiszen keresi a lehetőséget a víz- és a tápanyagfelvételre. Egy jó tápanyag- és vízellátású talajban kisebb gyökérrendszert nevel a növény.",
+    "",
+    "A magról szaporított gyümölcstermő növények gyökere főgyökérrendszerű (ld. 6. ábra). A magoncok gyökerei erős karógyökerek, amelyekből elsőrendű, másodrendű stb. gyökerek ágaznak el. Pl. vadalma, vadkörte, vadcseresznye.",
+    "A vegetatív módon szaporított gyümölcstermő növények gyökere járulékos (mellék-) gyökérrendszerű. Jellemzője, hogy a talajban lévő szárrészen számos oldalgyökér fejlődik, amelyek közel azonos erősségűek (ld. 6. ábra).",
+    "",
+    "6. ábra: Gyökértípusok",
+    "Forrás: http://kolping-nkicsurgo.hu/down/mggdism/nov_szervei.pdf 5. o. (Megnyitva: 2024.07.04.)",
+    "",
+    "Tősarjnak nevezik azt a hajtást, amely a gyökérnyakból nő ki (ld. 7. ábra).",
+    "Gyökérsarjnak nevezik azt a hajtást, amely a felszínhez közeli gyökerek járulékos rügyeiből fejlődik ki (ld. 7. ábra).",
+    "",
+    "7. ábra: A málna növény hajtásai",
+    "Forrás: https://docplayer.hu/19316470-Oszi-munkak-a-gyumolcsoskertben-szoloben.html 9. o. (Megnyitás: 2024.07.08.)",
+    "Hajtásrendszer",
+    "Hajtásrendszernek nevezik a gyümölcstermő növények gyökérnyaktól számított föld feletti részét.",
+    "A fatermetű növények hajtásrendszere két fő részre tagolható:",
+    "törzsre és",
+    "koronára.",
+    "A törzs",
+    "A törzs a gyökérnyak és a legalsó koronaelágazás közé eső része a növénynek.",
+    "",
+    "A következő feladatokat látja el:",
+    "tartja a koronát,",
+    "vizet és tápanyagot szállít a gyökértől a koronába,",
+    "asszimilált anyagot szállít a koronából a gyökér felé,",
+    "tartalék tápanyagokat raktároz.",
+    "",
+    "A fás rész folyamatosan vastagodik, ahogyan a sejtjeibe az előállított szerves anyagok beépülnek.",
+    "",
+    "A gyökéren keresztül felvett tápanyagot a törzs a fás részein keresztül juttatja el a koronába. Az asszimilált tápanyagok visszaszállítása a háncson (8. ábra) keresztül történik. A háncs raktározó feladatot is ellát.",
+    "",
+    "A fatest (8. ábra) vastagodási gyarapodását biztosító osztódó szövet a kambium (8. ábra), amely a fatest és a kéreg között található. Sejtjei kifelé és befelé is osztódnak. Kifelé háncssejteket, befelé fasejteket hoznak létre. Nagy szerepet játszik a sebzések gyógyulásában.",
+    "",
+    "Héjkéreg: külső réteg, elhalt sejtekből áll, védő szerepet tölt be. (8. ábra)",
+    "A kambium szakaszosan növekszik a tavasztól őszig tartó tenyészidőszakban. Ez eredményezi az évgyűrűket. (8. ábra)",
+    "",
+    "8. ábra: A törzs keresztmetszete",
+    "Forrás: https://cms.sulinet.hu/get/d/ba37b845-8b97-4921-97bb-e47d732bf350/1/4/b/Large/faai-k1-056-nagy.svg (Megnyitás: 2024.07.08.)",
+    "",
+    "A törzsmagasságot a gyümölcsfáknál már a faiskolában kialakítják a koronába metszéssel. Ha suhángként telepítik a fákat, akkor ezt a műveletet a gyümölcsösben végzik el. Azt, hogy milyen koronaformát alakítanak ki, függ a művelésmódtól és a gyümölcsfaj biológiai igényétől.",
+    "",
+    "A gyümölcsfák törzsmagassága lehet:",
+    "bokortörzs: 30-50 cm",
+    "alacsony törzs: 70-90 cm",
+    "közepes törzs: 100-120 cm",
+    "",
+    "A bokortörzsű és az alacsony törzsű fák metszése, ápolási munkái és a termés szedése könnyebb, mivel ezeket a munkákat a földön állva el lehet végezni. Élettani szempontból is előnyösebb, hiszen sokkal rövidebb utat kell megtennie a tápanyagnak mind a gyökértől a hajtásrendszerig, mind pedig visszafelé. Ez energiatakarékosságot jelent a növénynek. Mivel alacsony a törzs, a talaj visszasugárzott hőjét is jobban tudják hasznosítani. Ez sok pozitívumot jelent a növénynek. Pl. kedvező hatással van a termőrügyek, termőrészek kialakulására, a termés beltartalmának javítására és a gyümölcs színeződésére is.",
+    "",
+    "Ajánlatos a minimum 60 cm törzsmagasság kialakítása még intenzív, azaz a megfelelő metszésnek köszönhetően hamarabb termőre forduló koronaformáknál is, hisz fontos, hogy a korona alatti talajmunkákat a fa sérülése nélkül el tudják végezni, valamint a termés súlya alatt meghajlott ágak se érjenek le a talajra.",
+    "A közepes törzsmagasságú gyümölcsfáknál a kézi szedéshez szedőállványt kell alkalmazni, de ennél a törzsmagasságnál már rázógép is használható.",
+    "",
+    "Magas törzsű fák korszerű gyümölcsösben már nem alkalmazhatók. A természetes koronaforma nem kedvező, mert az a termesztés céljának, az egyenletes, jó minőségű termés képzésének általában kevésbé felel meg, mint a mesterségesen kialakított, korszerű korona.",
+    "",
+    "A cserjeméretű gyümölcstermő növény cserjetörzsből és hajtásrendszerből áll. A hajtásrendszerére jellemző, hogy azonos elrendezésű, azaz ugyanabból a pontból ágazódik el, nincsenek a koronának különböző magasságban emeletei. A cserjetörzsön képződő rügyekből rendszeresen felújul vagy felújítható.",
+    "A korona",
+    "A gyümölcsfa koronája a törzs feletti elágazott ágrendszer. Feladata, hogy az asszimilációt, illetve a növény vegetatív, valamint generatív tevékenységét lehetővé tegye.",
+    "",
+    "A korona részei: rügy, hajtás, vessző, gally, ág, levél, virág.",
+    "A rügy nyugalmi állapotban lévő, fiatal, fejletlen hajtás, amely, ha az időjárás megfelelő számára, érett hajtássá fejlődik. (9. ábra)",
+    "",
+    "9. ábra: A rügy keresztmetszete, fajtái",
+    "Forrás: http://ujkert.mkk.szie.hu/sites/default/files/files/Biologiai-alapok-lev.pdf 10. o. (Megnyitás:2024.07.08.)",
+    "",
+    "Rügyek csoportosítása minőségük szerint:",
+    "Levélrügyek vagy hajtásrügyek: csak levél képződik belőlük. A tovább növekedést szolgálják. Kinézetre vékonyak, megnyúltak és egyesével állnak.",
+    "Virágrügyek: csak virág képződik belőlük. Kinézetre gömbölyűbbek, vastagabbak.",
+    "Vegyesrügyek: kihajtásukat követően a hajtás csúcsán virág vagy virágzat is képződik belőlük.",
+    "Rügyek csoportosítása elhelyezkedésük szerint:",
+    "A csúcsrügyek a hajtás egyenes tovább növekedését szolgálják, a hajtás csúcsán helyezkednek el. (9. ábra)",
+    "Az oldalrügyeknek a hajtás szélességi növekedését kell biztosítaniuk, a hajtás oldalán találhatók. (9.ábra)",
+    "végálló rügy: a csúcsrügy lemetszése után a vessző legvégén lévő rügy (10.ábra)",
+    "Rügyek csoportosítása kihajtás alapján:",
+    "Az alvórügyek a ki nem hajtott hajtásrügyek. Csak akkor hajtanak ki, ha erősen metszették a gyümölcsfát, vagy károsodtak a vesszői. Szabad szemmel nem láthatók.",
+    "A hajtórügy az adott évben kihajt.",
+    "Járulékos rügyek sérülések esetén jönnek létre a hajtás pótlására, kiegészítésére. Száron, levélen és gyökéren is kialakulhatnak.",
+    "",
+    "A vessző harmadolható alsó, középső és felső harmadra. Az alsó harmad van legközelebb az ághoz, a felső harmad a legtávolabb. Az alsó harmad legalsó részén található a vesszőalap. A vessző csúcsán helyezkedik el a csúcsrügy, oldalán pedig a hajtás, vagy vegyes-, vagy virágrügyek. Azt, hogy melyik rügy alakul ki, függ a gyümölcs fajtájától. (10. ábra)",
+    "",
+    "",
+    "10. ábra: Rügyalakulások a vesszőn",
+    "Forrás: https://docplayer.hu/6361479-Gyumolcsfelek-testalakulasa-termoreszei-es-a-metszes-alapjai.html 10. o. (Megnyitva: 2024.07.08.)",
+    "",
+    "A hajtás egyéves szárképlet, amely a rügyből fejlődik ki. Minden esetben zöld színű, könnyen törik. Rajta helyezkednek el a levelek, azok hónaljában a szemek ülnek. A hajtást a csomók ízekre tagolják. Ahol a rügy és a levél található, csomónak (nódusznak) nevezik, míg a csomók közötti távolság az ízköz (internódium).",
+    "",
+    "Helyzetük szerinti csoportosításuk:",
+    "csúcshajtások: mindig csúcsrügyekből hajtanak ki és a fő- és az oldalágak hosszanti növekedését szolgálják,",
+    "oldalhajtások: a vessző oldalán lévő hajtórügyekből fejlődnek ki. Szerepük az elágazódás lehetővé tétele.",
+    "másod- és harmadrendű hajtás: a másodrendű hajtás a leveles hajtáson lévő szemekből hajt ki. Ha a másodrendű hajtáson lévő szemek is kihajtanak, akkor azok a harmadrendű hajtások.",
+    "vízhajtások vagy fattyúhajtások a rejtett rügyekből, általában idősebb ágrészeken hajtanak ki. Mindig erőteljes növekedésűek, felfelé törő hajtások. Azt jelzik, hogy a fának azt a koronarészét ifjítani kell.",
+    "sarjhajtás: ha a gyökéren képződő járulékos rügyéből hajt ki, gyökérsarjnak, ha a gyökérnyakból hajt ki a rejtett rügy, tősarjnak nevezik.",
+    "ikerhajtás: ha egyszerre a rügy és a rejtett rügy is kihajt.",
+    "Vesszőnek nevezik a lombját már lehullatott, megfásodott hajtást.",
+    "Fajtái:",
+    "a növekedési vessző egyben termővessző is. A korona szélességi, hosszanti fejlődését biztosítja. A vezérek, amíg metszés alatt állnak, mindig növekedési vesszők. Később ezeken az oldalágcsúcsán, még az almánál is, termőrügyek alakulhatnak.",
+    "termővessző: beérett, nyugalmi állapotban lévő egyéves növényi rész, rajtuk mindig termőrügyek találhatók.",
+    "A gally a korona 2-4 éves fás része. Mindig levél nélküli, csak vesszők találhatók rajta.",
+    "Fajtái:",
+    "hajtógally: feladata a korona minden irányú növelése.",
+    "termőgally: a termőrészek összességének elnevezése.",
+    "",
+    "Az ág a hároméves és annál idősebb koronarész. Ezeken találhatók a fa vegetatív (gyökér, szár, levél) és generatív (virág, termés, mag) szervei. Az ágak egymáshoz való viszonyukkal kialakítják a koronát.",
+    "",
+    "A levelek a növények hajtástengelyének zöld klorofillban, azaz színtestekben gazdag szervei.",
+    "",
+    "A levélen megy végbe a fotoszintézis és a transpirációs folyamat.",
+    "Fotoszintézis során a növények szervetlen anyagból, azaz szén-dioxidból és vízből fényenergia kémiai energiává alakítása mellett szerves anyagot, glükózt (cukrot) állítanak elő, miközben oxigén képződik.",
+    "",
+    "A transpiráció a növényeken átáramló víz leadása, párologtatása. Ez egy élettani folyamat, melynek során a növényi test a felvett víz nagy részét vízgőz formájában kibocsájtja a légkörbe.",
+    "",
+    "11. ábra: A levél szöveti felépítése",
+    "Forrás: https://slideplayer.hu/slide/2195283/ 7. o. (Megnyitás: 2024.07.04.)",
+    "",
+    "A levél felső és alsó levélfelületét epidermisz, azaz bőrszövet határolja. Ennek sejtfalai, valamint a kutikulabevonat megvédik a leveleket a transpirációs veszteségektől. (11. ábra)",
+    "A kutikula viaszos réteg, amely véd a fizikai, kémiai behatások ellen, valamint vízzáró feladata is van.",
+    "",
+    "A fotoszintézis során a gázcsere és az ahhoz kapcsolódó vízpáraleadás (transpiráció) az epidermiszben lévő gázcserenyílásokon (sztómákon) keresztül történik.",
+    "A gázcserenyílás (sztóma) lényegében két zárósejtből áll, ezek egy nyitó-záró mechanizmust képeznek, amely biztosítja a megfelelő gázcserét. Szűkös vízellátás esetén pedig megakadályozza a magas transpirációs veszteséget. (12. ábra)",
+    "",
+    "12. ábra: Gázcserenyílás (sztóma)",
+    "Forrás: http://havassy.blogspot.com/2012/05/erdei-pajzsika-borszovet-gazcserenyilas.html",
+    "(Megnyitva: 2024.06.28.)",
+    "",
+    "A levél részei: levéllemez, levél színe, levél fonákja, levélnyél, levélalap, levélerezet.",
+    "",
+    "13. ábra: A levél részei",
+    "Forrás: https://slideplayer.hu/slide/2195283/ 3. o. (Megnyitva: 2024.07.08.)",
+    "",
+    "A levéllemez alapján megkülönböztethető: (14. ábra)",
+    "egyszerű levél és",
+    "összetett levél:",
+    "szárnyasan összetett levél: páratlanul (pl.: bodza) vagy párosan (pl. licsi)",
+    "tenyeresen vagy ujjasan összetett levél (pl.: gesztenye)",
+    "",
+    "14. ábra: A levelek alaki típusai",
+    "Forrás: https://docplayer.hu/6368056-Egyszeru-levelek-osszetett-levelek.html 2. o. (Megnyitva: 2024.07.04.)",
+    "",
+    "A levél erezete alapján megkülönböztethető: (15. ábra)",
+    "párhuzamosan vagy ívesen mellékeres erezet,",
+    "villás erezet, valamint",
+    "szárnyasan vagy tenyeresen főeres elágazó erezet:",
+    "",
+    "",
+    "15. ábra: A levél erezete",
+    "Forrás: http://novtan.emk.nyme.hu/novtan/tantargy/alaktan/15_total.htm (Megnyitva: 2024.07.08.)",
+    "",
+    "Levéltípusok:",
+    "sziklevél: a csíranövény első levelei. A kétszikűeknek kettő darab sziklevelük van, az egyszikűeknek egy darab.",
+    "allevelek: a hajtás alsó, többnyire a föld alatt fejlődő csökevényes levelei. A rügy védelmét biztosító hártyás rügytakarók és kemény rügypikkelyek is allevelek. (16. ábra) Egyes pikkelylevelek tartalék tápanyagot is tartalmaznak, pl. a hagyma esetében.",
+    "",
+    "",
+    "16. ábra: Vadgesztenye rügypikkely allevele",
+    "Forrás: http://www.plantarium.hu/wp-content/uploads/2012/05/Vadgesztenye-rügypikkely-allevelek.jpg (Megnyitva: 2024.07.08.)",
+    "",
+    "fellevelek: lomblevelek szintje felett helyezkednek el, csökevényesek, levélnyél nélküliek.",
+    "murvalevél: azok a fellevelek, amelyek hónaljából virág vagy virágzat fejlődik. Az ernyővirágzat (pl. sárgarépa) elsőrendű elágazásainál lévő murvaleveleket gallérleveleknek nevezik.",
+    "pelyva: a pázsitfüvek részvirágzatát (füzérkéjét) borító két fellevél. A füzérkék egyes virágait is fedi két fellevél, ami a toklász.",
+    "fészekpikkelyek: fészekvirágzatúak (pl.: napraforgó) fellevele.",
+    "virágzati buroklevél: kocsányon növő és a virágot fiatalon beburkoló fellevél.",
+    "kupacslevél: a bükk- és a nyírfélék termős virágait veszik körül és terméséréskor a termést körülvevő kupaccsá fejlődnek.",
+    "",
+    "A levélnek ‒ attól függően, hogy a hol helyezkedik el a hajtáson, illetve a fa koronáján belül, és milyen funkciót lát el, különböző módosulatai is léteznek. A módosult levél eltérő funkció betöltésére alakult át.",
+    "",
+    "Típusai:",
+    "levélkacs: kapaszkodószervvé módosult levél.",
+    "levélkekacs: a párosan szárnyalt, összetett levél gerincének a csúcsán kapaszkodószervvé módosult levélke.",
+    "levéltövis: védelmi célú módosulás, tövissé redukálódott, elfásodott lomblevél.",
+    "kupacslevél: a bükk- és nyírfafélék termős virágát, majd makktermését burokszerűen borító, elfásodó levélmódosulás.",
+    "szukkulens levél: nagy mennyiségű víz megtartására képesek. Ilyenek a pozsgások.",
+    "a törzsszukkulensek a megvastagodott, húsos, pozsgás törzsükben tárolják a vizet,",
+    "a levélszukkulensek megvastagodott húsos, pozsgás leveleikben tárolják a vizet.",
+    "rovarfogó levél: változatos felépítésű csapdákká alakult levelek, fehérjeemésztő nedvet termelő sejtekkel rendelkeznek. Így képesek lebontani és hasznosítani az elfogott zsákmányt.",
+    "gyökérszerű levél: vízinövények alámerült leveleire jellemző módosulás. A levelek erősen tagoltak, nagy felületen érintkeznek a vízzel, gyökérszerű funkcióval rendelkeznek.",
+    "",
+    "A virág a növény generatív része, szaporodásért felelős szerve.",
+    "Részei: (17. ábra)",
+    "",
+    "",
+    "17. ábra: A virág részei",
+    "Forrás: https://hu.pinterest.com/pin/361765782539854879/ (Megnyitás: 2024.07.08.)",
+    "",
+    "A kocsány a virágnak vagy a termésnek a hosszabb-rövidebb nyele.",
+    "A vacok a kocsány végének megvastagodott csúcsa, amin elhelyezkednek a virág többi részei.",
+    "",
+    "A porzó rendszerint porzószálból és egy megnagyobbodott részből, a portokból áll. Ez utóbbi tartalmazza a pollenzsákot a benne lévő virágporral.",
+    "",
+    "A termőt a termőlevelek alkotják, bibéből, bibeszálból és magházból áll. A magházban egy vagy több magkezdemény található.",
+    "",
+    "Magkezdemény: megporzás után belőle fejlődik ki a mag.",
+    "A csészelevelek a virág külső takarólevelei, mindig zöldek. Ezek védik, betakarják a különböző fejlődő virágrészeket.",
+    "A sziromlevelek a virág csészeleveleken belüli levelei. Takarják a porzót és a termőt.  Általában színesek, ezért vonzzák a rovarokat.",
+    "",
+    "A gyümölcsfák virágai:",
+    "állhatnak magányosan, pl.: a kajszibarack esetében;",
+    "gyakoribb, hogy a virágok csoportosan helyezkednek el, ún. virágzatokat alkotnak, pl. cseresznye esetében.",
+    "",
+    "Ha a virágzati tengely:",
+    "nem ágazik el, egyszerű, ha",
+    "elágazik, összetett virágzatról beszélünk.",
+    "Gyümölcstermő növények termőrészei",
+    "A termőrészek azok a hajtásképletek, amelyeken egy-egy gyümölcsfajra jellemzően a virág- (vagy vegyes) rügyek képződnek. A megfelelő mennyiségű és fejlettségű termőrész kialakulása a fiatal fák termőre fordulásának, illetve termőkorú fák évente közel egyenletes terméshozásának alapfeltétele.",
+    "Termőrészek csoportosítása",
+    "A termőrészek hosszúsága változó: a rövid képződménytől a hosszú vesszőig minden átmenet előfordul. Vastagságuk pár mm-től kb. ceruzavastagságig terjed. A vesszők csúcsán duzzadt termőrügy van (esetenként hajtásrügy), amely tartalma szerint vegyesrügy (minél rövidebb a vessző, annál valószínűbb a termőrügy). A vesszők oldalán szórt állásban, magánosan vagy csoportosan elhelyezkedő, főleg hajtásrügyek, egyes fajtáknál termőrügyek is találhatók.",
+    "",
+    "Rövid termővesszők",
+    "Dárda: 0,5–5 cm hosszú, egyéves termőrész, a végén vegyesrügy, az oldalán fejletlen hajtásrügy található. (18. ábra)",
+    "",
+    "18. ábra: Dárda almán",
+    "Forrás: saját kép",
+    "",
+    "Sima termőnyárs: 5–15 cm hosszú, csúcsán vegyesrügy, az oldalán fejlett hajtásrügy található. (19. ábra)",
+    "",
+    "",
+    "19. ábra: Sima termőnyárs almán",
+    "Forrás: saját kép",
+    "Gyűrűs termőnyárs: A dárdából alakul oly módon, hogy a dárda csúcsán található hajtásrügy rövid hajtást hoz, és a levelek lehullása után a levélripacsok helye évenként gyűrűszerűen alakul, végül a csúcsi rész virágrügyben zárul. (20. ábra)",
+    "",
+    "",
+    "20. ábra: Gyűrűs termőnyárs körtén",
+    "Forrás: saját kép",
+    "",
+    "Tövises termőnyárs: Olyan rövid termővessző, mely sok hasonlóságot mutat a sima termőnyárssal, a dárdával, de a csúcsa hosszabb-rövidebb tövis. (21. ábra)",
+    "",
+    "",
+    "21. ábra: Tövises termőnyárs körtén",
+    "Forrás: saját kép",
+    "",
+    "Termőbog vagy termőkalács: rövid, többéves termőrész. Úgy keletkezik, hogy a virágrügyből képződött rövid hajtás és a virágzati tengely megvastagszik, húsos állományú lesz. Fejlődése a gyümölcs fejlődésével egyidejű. (22. ábra)",
+    "",
+    "",
+    "22. ábra: Termőbog körtén",
+    "Forrás: saját kép",
+    "",
+    "Bokrétás termőnyárs: rövid szártagú termővessző, csúcsán három vagy több rügy helyezkedik el. A középső rügye karcsú hajtásrügy, a többi körülötte virágrügy. (23. ábra)",
+    "",
+    "",
+    "23. ábra: Bokrétás termőnyárs cseresznyén",
+    "Forrás: saját kép",
+    "",
+    "Középhosszú termővessző (24. ábra)",
+    "10–40 cm hosszú, a végén vegyesrügy található, amit soha nem szabad visszavágni, mert kihajtásukat követően a hajtás csúcsán virág vagy virágzat képződik belőlük. A rendszeresen metszett fákon a jó termőképességet jelzi. Az oldalán hajtásrügy található, a csúcsán pedig vegyesrügy. A felső hajtásrügyből hosszú vagy középhosszú, az alsókból rövid hajtások vagy termőrészek képződnek.",
+    "",
+    "",
+    "24. ábra: Középhosszú és hosszú termővessző almán",
+    "Forrás: saját kép",
+    "",
+    "Teljes termővessző: általában hármas vegyes rügycsoportokkal van végig berakódva. (25., 26. ábra)",
+    "",
+    "25. ábra: Teljes termővessző őszibarackon",
+    "Forrás: saját kép",
+    "",
+    "",
+    "26. ábra: Hármas vegyes rügycsoport őszibarackon",
+    "Forrás: saját kép",
+    "Hiányos termővessző: magányos termőrügyekkel is, de főleg hajtásrügyekkel és kettes vegyesrügycsoporttal van berakódva. (27., 28. ábra)",
+    "",
+    "",
+    "27. ábra: Hiányos termővessző őszibarackon",
+    "Forrás: saját kép",
+    "",
+    "",
+    "28. ábra: Hiányos termővesszőn kettes vegyesrügycsoport és egyes hajtórügy őszibarackon",
+    "Forrás: saját kép",
+    "",
+    "Hosszú termővessző: 40 cm-nél hosszabb, csúcsán vegyesrügy, oldalán hajtásrügy található. A felső hajtásrügyből hosszú vagy középhosszú hajtás hajt ki, a legalsó rügyek legtöbbször nem hajtanak ki. (24. ábra)",
+    "Dárdás termőgally: az egyéves termővesszőből az évek során kialakult termőrész, tehát többéves, amin végig dárdák találhatók. (29. ábra)",
+    "",
+    "",
+    "29. ábra: Dárdás termőgally almán",
+    "Forrás: saját kép",
+    "A gyümölcstermő növények termőrészei",
+    "Almagyümölcsűek (almatermésűek) termőrészei:",
+    "",
+    "Egyéves termőrészek:",
+    "dárda",
+    "sima termőnyárs",
+    "tövises termőnyárs",
+    "középhosszú termővessző",
+    "hosszú termővessző (ritkább)",
+    "Két- vagy többéves termőrészek:",
+    "dárdás termőgally",
+    "gyűrűs termőnyárs",
+    "termőbog vagy termőkalács",
+    "Csonthéjas gyümölcsűek (csonthéjasok) és a mandula termőrészei:",
+    "bokrétás termőnyárs",
+    "tövises termőnyárs",
+    "termőnyárs",
+    "teljes termővessző",
+    "hiányos termővessző",
+    "Héjas gyümölcsűek, héjasok termőrészei:",
+    "virágrügy – nővirág vegyesrügy, hímvirág barkarügy",
+    "hajtásrügy",
+    "termőnyárs (mogyoró)",
+    "rövid termővessző (mogyoró)",
+    "hosszú termővessző (mogyoró)",
+    "Bogyós gyümölcsűek (bogyósok) termőrészei:",
+    "termőnyárs (piros ribiszke, köszméte)",
+    "hosszú termővessző (fekete ribiszke, málna)",
+    "középhosszú termővessző (fekete ribiszke, köszméte)",
+    "dárda (köszméte)",
+    "Virágképződés, rügydifferenciálódás",
+    "A termőrügyképződést a gyümölcstermesztésben rügydifferenciálódásnak nevezik. Ennek az ismerete fontos, hisz így lehet megfelelő termesztéstechnológiai eljárásokkal a gyümölcsfa életébe beavatkozni. Virágrügyek differenciálódásakor új szerv képződik. Az, hogy mikor kezdődik el, függ a fajtól, fajtától.",
+    "",
+    "A gyümölcsfák termőrészei a virágképződéssel vegetatív rügyek helyett generatív rügyeket hoznak. Ennek során a rövidhajtások vegetatív rügyeinek belsejében lévő csúcsmerisztémák a rügyfakadást követően hosszirányban megnőnek, majd kb. június közepéig meghatározott számú levélkezdeményt képeznek. Ebben a szakaszban a rügyek olyan impulzust kapnak, amely a korábbi vegetatív fejlődésüket generatív irányba tereli. Hazánkban a virágrügyek fejlődése nyár végén, ősszel befejeződik és csak a hormonális változások után, ami a hideg hatására játszódik le, tavasszal folytatódik.",
+    "",
+    "A hazánkban termesztett gyümölcsök virágképződése az előző évben, a fa vegetációs ciklusának bizonyos időszakában alakul ki, és függ a gyümölcsfajtól is.",
+    "",
+    "A rügydifferenciálódás az egyes fajokat tekintve a következő sorrendben történik:",
+    "bogyós gyümölcsök (bogyósok)",
+    "csonthéjas gyümölcsök (csonthéjasok)",
+    "almatermésűek ",
+    "héjas gyümölcsűek (héjasok)",
+    "",
+    "A következő időszakban a virágkezdemények teljes virágokká fejlődnek: szeptemberben és október‒novemberben rövid idő alatt megjelennek a csészelevél-, a viráglevél-, a porzólevél- és a termőlevél‒kezdemények.",
+    "A virágképződés előfeltételei",
+    "Minden gyümölcsfajta arra hivatott, hogy virágozzon, majd termést hozzon és érlelje is azt be. Viszont a fiatal gyümölcsfák először egy vegetatív növekedési szakaszon mennek keresztül, és csak azután hoznak virágot.",
+    "",
+    "A virágrügyek képződését több tényező is befolyásolja:",
+    "a hajtások hossza (hosszú vagy rövid): a növekedés intenzitása és a virágképződés között negatív kapcsolat áll fenn. A csökkenő, viszonylag gyenge hajtásnövekedés kedvezően hat a rügydifferenciálódásra. A rövid termőrészek hamarabb befejezik a növekedésüket, így a virágrügyek rajtuk korábban kialakulnak.",
+    "a fajta: a gyümölcsfajok fajtái között 1-2 hét eltérés is lehet a rügydifferenciálódás idejében.",
+    "a tápanyagellátás: a nitrogénellátottság és a foszfor jelenléte segíti az ép, egészséges virágrügyek képződését.",
+    "az ökológiai tényezők mindegyike (hőmérséklet, csapadék, napfény) együttesen hatással van a virágrügyképződésre. A felsoroltak közül mégis a legdöntőbb ökológiai tényező a csapadék. Ha az évben túl sok csapadék hullott, ebből adódóan kevés volt a napfényes órák száma, a hajtások nem olyan ütemben fejlődnek, lelassulnak, így a rügyfejlődés is visszaesik. Aszályos évben az tapasztalható, hogy a hajtások gyengén fejlődnek, rajtuk ugyan viszonylag sok virágrügy képződik, de ezek a rügyek sokszor nem tudnak kifejlődni, mert nem állt a differenciálódás korai szakaszában elegendő csapadék és tápanyag a növény részére.",
+    "az öntözés: ha van rá mód, a rügydifferenciálódás idejében szükséges öntözni, mert ezzel erősen befolyásolható a jobb eredmény.",
+    "a metszés ideje és erőssége: ha túl erősen és túl korán metszenek, akkor később kezdődik el a virágrügyek fejlődése.",
+    "termésmennyiség, azaz a berakódottság: ha kevés termés kötődött meg a fán, korábban megjelennek a virágkezdemények, mintha sok gyümölcs kötődött volna meg.",
+    "hormonrendszer: a gyümölcsfák gibberellintartalmának csökkentésével javítható a virágképződés, ami gyümölcsritkítással érhető el. A gibberellin egy olyan növényi hormon, ami fokozza a növény növekedését, ami negatívan hat a virágdifferenciálódásra.",
+    "az alany is hatással van a differenciálódásra. Azokon az alanyokon, amelyek gyengén növekednek, a virágképződés hamarabb elkezdődik, mert a hajtásnövekedésük is korábban fejeződik be.",
+    "művelési rendszerrel: alannyal, fajtával, koronaformával, metszéssel, térállással javítható a virágrügyek fejlődése. Ha koronát jól át tudja járni a nap, hamarabb kezdenek kialakulni a virágrügyek, mint a sűrű korona esetén.",
+    "Virágminőség",
+    "A sikeres megtermékenyülés, a termésfejlődés korai szakaszai és a gyümölcsérésig tartó teljes időszak szorosan összefügg a virág minőségével, amely a magház és a porzók fejlettségében, a virágzatban lévő virágok számában nyilvánul meg.",
+    "",
+    "A virágok megtermékenyüléséhez termőre és porzóra van szükség. A pollenszemek száma és a tápanyagtartalékok szintén fontos szerepet játszanak. Ez utóbbiak hatással vannak a pollentömlő növekedésére, és hozzájárulnak ahhoz, hogy a megtermékenyülés akkor is lehetővé váljon, ha virágzáskor kedvezőtlenek az időjárási viszonyok.",
+    "",
+    "A megtermékenyülés eredményességét többek között a magok száma is tükrözi. A bennük képződő növényi hormonok nagymértékben meghatározzák a termések tápanyagfelvevő képességét és ezáltal fejlődési esélyeit. Az elégtelen magszám az almatermésűeknél többek között a termés rendellenes fejlődéséhez vezethet, és így ronthatja a gyümölcs piaci minőségét.",
+    "",
+    "Az ősz eleji rügyvizsgálat korai információt adhat a virágrügyek várható számáról és minőségéről, és így jelezheti, hogy célszerű-e beavatkozásokat végezni a rügyek minőségének javítása érdekében. A vizsgálat során azt is meg kell állapítani, hogy a potenciális virágrügyek viszonylag erősek-e, vagy csak gyengén fejlettek, ugyanis az erős rügyek mindig biztatók, és ha nem is tartalmaznak virágkezdeményeket, kedvező kiindulási alapot képeznek a jövő évi megfelelő virágképződéshez.",
+    "Alternancia",
+    "Az alternancia a gyümölcsfák terméshozamának hosszabb időn át tartó időszakos ingadozása. Ezt a jelenséget elsősorban a túl nagy terméssűrűség okozza, de kiválthatja késői fagy, a túl erős hajtásnövekedés, a szélsőséges metszés vagy a túl sok kijuttatott nitrogén is.",
+    "",
+    "Az alacsony terméshozamú években többnyire túl sok, a jól termő években túl kevés virágrügy képződik. A virágképződés szabályozása érdekében megfelelő időben megfelelően erős ritkítást kell végezni, a metszés és a trágyázás során pedig a kiegyensúlyozott hajtásképződésre kell törekedni.",
+    "",
+    "Még a látszólag rendszeresen termő gyümölcsfák is mutathatják az alternancia tüneteit, ami abban nyilvánul meg, hogy a fának minden évben csak egy része hoz teljes termést, a többi részének pedig többé-kevésbé csökken a terméshozama. A következő évben a helyzet megfordul. Így az évek során úgy tűnik, mintha megközelítőleg kiegyensúlyozott lenne a hozamteljesítmény.",
+    "",
+    "Nem minden gyümölcsfaj és -fajta alternál azonos mértékben. Az alma és a körte általában erősen hajlamos az alternálásra, a csonthéjasok kevésbé, a bogyós gyümölcsök pedig szinte soha.",
+    "",
+    "Az alternáló ültetvényekben a virágoknak nemcsak a száma, hanem a minősége is évről évre változik. Így a terméskötődési nehézségek és a gyümölcsminőséggel kapcsolatos problémák már a vegetáció kezdetén adottak lehetnek. Az alternancia mértéke az ültetvények gazdaságossága szempontjából döntő fontosságú.",
+    "A növekedés és a termőképesség közötti összefüggések",
+    "A gyümölcsfák és -cserjék vegetatív és generatív szerveinek fejlődése szorosan összefügg egymással.",
+    "",
+    "A virágképződés fajtól függően a fa vagy a cserje bizonyos régióira koncentrálódik. A legnagyobb virágzási hajlandóság olyan hajtásokon mutatkozik, amelyek növekedése közepesen gátolt, és így terméshajtásaik optimális vastagságúak. Az erősebb növekedésű területek felé haladva jellegzetes vegetatív hatású „átmeneti rügyek” képződnek. Az erősen gátolt területekhez közeledve a virágok egyre csökevényesebbek, vagy egyáltalán nem képződnek.",
+    "A termőág hossza: Minden gyümölcsfaj és -fajta más-más hajtáshossztartományt részesít előnyben a virágképzéshez.",
+    "Az egyes fajok esetében a következő tartományok optimálisak:",
+    "cseresznye: 0,3‒25 cm,",
+    "alma és körte: 1‒25 cm,",
+    "kajszi, szilva, meggy: 0,3‒50 cm,",
+    "őszibarack: 20‒80 cm.",
+    "ribizli: a rövid (1-3 cm) hajtásain hozza a virágokat",
+    "málna, szeder: bármilyen hosszúságú vesszőn képes virágot hozni.",
+    "a szamóca esetében a legtöbb virágrügyet a közepes növekedési erélyű növények hozzák. Ha a növekedés túl intenzív, a termőképesség csökken.",
+    "",
+    "Alacsony terméshozamú években a virágzás nagyrészt az optimális hajtáshossztartományra korlátozódik. Teljes terméshozamú években a viszonylag rövid és a túl hosszú hajtások is termést hoznak.",
+    "",
+    "A virágrügyek elhelyezkedése:",
+    "Az almatermésűeknél a hajtáscsúcsokon elhelyezkedő rügyeknek jobbak a fejlődési esélyeik, mint az oldalrügyeknek.",
+    "A csonthéjasoknál a kifejlődő virágrügyek mindig oldalrügyek.",
+    "",
+    "Mindkét fajnál a kétéves ágszakaszokon jelentkezik a legtöbb virág. Minél idősebb a termőág, annál gyengébb a virágzási hajlandóság.",
+    "Az almánál, a körténél, a szilvánál és a meggynél a virágzási zóna a három- és négyéves ágszakaszig terjed.",
+    "Az őszibarack rövidhajtásai rendkívül rövid életűek, a cseresznye rövidhajtásai viszont különösen hosszú ideig virágzóképesek.",
+    "",
+    "Valamennyi gyümölcsfajnál a legtöbb és legjobban fejlett rügy a korona jól megvilágított részein, a leggyengébb virágrügyek pedig a korona belső részén találhatók.",
+    "A virágzási hajlandóság a bokros bogyós gyümölcsöknél is csökken a termőágak életkorának előrehaladtával. A málna és a szeder esetében ilyen probléma nem merül fel, mivel a hajtások és az indák eleve csak két évig élnek.",
+    "A termések hatása: a termések a vegetatív szervek konkurensei a szénhidrátokért folytatott versenyben. Jelentős mértékben beavatkoznak a növekedési erély, valamint a virág- és termésképződés szabályozásába. A hajtás – termés – gyökér láncban általában ők a legerősebb tápanyagfelhalmozók. A nagy termőképességű fák ezért gyengébben nőnek, mint a kevésbé termőképesek, és kevesebb tápanyagot hagynak a gyökér számára.",
+    "A túl nagy termőképesség mindenekelőtt csökkenti a termésminőséget, és gyengébb növekedést, alacsonyabb tápanyagfelvételt, valamint a gyökér fejlődési tevékenységének korlátozását eredményezi.",
+    "A virágtól a termésig",
+    "Megporzás",
+    "Az előző évi jó virágrügydifferenciálódás feltétele a megfelelő virágzásnak. Viszont jó termésmennyiség csak úgy lehetséges, ha a pollenszemek megfelelő időben jutnak el a bibére és azok ott meg is tapadnak.",
+    "",
+    "A virágpor egyik növényről a másikra történő átvitelét a szél és/ vagy a rovarok biztosítják. A szélbeporzású növényeket anemofil növényeknek nevezik, a rovarporozta növényeket pedig entomofilnak.",
+    "",
+    "A növények nagy mennyiségű szálló pollent termelnek, és nagy felületű, szerteágazó bibével rendelkeznek, amelyek a virágpor felfogására szolgálnak. A szélbeporzású növények közé tartozik többek között a mogyoró, a gesztenye és a dió. (30., 31., 32., 33. ábra)",
+    "",
+    "",
+    "30. ábra: A dió női virága",
+    "Forrás: saját kép",
+    "",
+    "",
+    "31. ábra: A dió porzós virága",
+    "Forrás: saját kép",
+    "",
+    "",
+    "32. ábra: A mogyoró női és porzós virága",
+    "Forrás: saját kép",
+    "",
+    "",
+    "33. ábra: A gesztenye női és porzós virága",
+    "Forrás: saját kép",
+    "",
+    "A szél általi pollenátvitel leginkább az öntermékenyülő (önbeporzó) fajtáknál képzelhető el, mivel ezeknek a virágjaiban csak rövid távolságot kell legyőzni a portoktól a bibéig. Azonban ezeknél a fajoknál is jelentősen növelhető a terméshozam méhek segítségével. Az öntermékenyülő fajták esetében a szélmegporzás önmagában nem elegendő. Ha a virágport messzebbre, például több sornyi távolságra kell szállítani, a szélmegporzásnak gyakorlatilag nincs jelentősége, mivel a pollen mennyisége viszonylag kicsi, és nehezen száll.",
+    "",
+    "A többi gyümölcsfajtát általában rovarok porozzák be. Ezek a növények viszonylag kis mennyiségű virágport termelnek. A pollenszemek gyakran összetapadnak és nehezen szállnak.",
+    "",
+    "A rovarmegporzású növények feltűnően színes virágszerveikkel vonzzák a rovarokat, amelyek virágpor- és nektárgyűjtés közben beporozzák őket. A megporzásban a mézelő méhek játsszák a legfontosabb szerepet. A poszméhek is fontos beporzók, mivel alacsonyabb hőmérsékleten is kirepülnek, amikor a méhek a kaptárban tartózkodnak.",
+    "",
+    "A méhek és a poszméhek különbséget tudnak tenni a jó és a rossz mézelő növények között. Ennek egyik kritériuma a nektár cukortartalma, amely igen változatos lehet. A virágok belsejében lévő mézmirigyek meleg, párás időben különösen sok nektárt választanak ki. A nektár növényfajtól függően 8‒76% cukrot tartalmaz.",
+    "Ahhoz, hogy a beporzás kedvezőtlen időjárás esetén is biztosított legyen, a gyümölcsös hektáronkénti területére számítva 2‒4 méhcsalád jelenlétére van szükség.",
+    "",
+    "Léteznek önbeporzó fajták, de sokkal hatékonyabb az idegen beporzás. Önbeporzáskor ugyanazon a virágon lévő virágpor termékenyíti meg a termőt, idegen beporzáskor pedig egy másik egyed pollenje.",
+    "",
+    "A megporzást több tényező is befolyásolja:",
+    "időjárás: sem a túl magas, sem a túl alacsony hőmérséklet nincs jó hatással a megporzásra. A méhek alacsony hőmérsékleten nem gyűjtenek virágport. A sok csapadék is károsan hat, mert a méhek tartós esőzéskor nem „dolgoznak”. Az erős szél hátránya a portok kiszáradásának a lehetősége, valamint a nagy szélben a méhek sem tudnak repülni, így a megporzási esély csökkenni fog.",
+    "együttvirágzás: fontos, hogy a porzó és a termő közel egy időben virágozzon. Jó a porzófajta, ha évente rendszeresen és egyszerre virágzik a megporzandó fajtával, így a pollenszóródással egybeesik a bibe és a termő életképessége.",
+    "Terméskötődés",
+    "Terméskötődés alatt azoknak a virágoknak a százalékos aránya értendő, amelyekből ‒ akár csak átmenetileg is ‒ termés fejlődik.",
+    "A cél az évente nagyjából azonos, közepes terméshozam elérése, ami gátolja az alternanciát, és lehetővé teszi a megfelelő méretű termések kifejlődését.",
+    "A jó minőségű virágok általában termést hoznak. A minőség a rügy és a virág méretében nyilvánul meg, amely évről évre változik.",
+    "",
+    "A rügy és a virág mérete különböző művelési beavatkozásokkal befolyásolható:",
+    "a hajtások lekötésével,",
+    "a betakarítás időpontjának helyes megállapításával,",
+    "karbamiddal (nitrogén tartalmú műtrágya) történő permetezéssel közvetlenül a betakarítás után.",
+    "",
+    "A terméskötődés szempontjából kiemelten fontos",
+    "a betakarítás és a lombhullás közötti időszak: a karbamiddal történő permetezés késlelteti a lombhullást, és javítja a fák nitrogénállapotát, ami javítja a rügyek állapotát.",
+    "A betakarítás és a lombhullás közötti időszak fontosságát jól mutatják az új-zélandi viszonyok, ahol lényegesen magasabb terméshozamokat értek el gyakorlatilag alternancia nélkül. Az ottani éghajlati viszonyok között a levélhullás csak a betakarítás után hat‒hét héttel következik be, a rügyek így erősebbek lesznek, míg nálunk ez az időszak az első fagyoknál bekövetkezik.",
+    "a virágrügyek elhelyezkedése: szintén fontos szerepet játszik a terméskötődés szempontjából. Azoknál a gyümölcsöknél, ahol a virágrügy a csúcsrügy (pl. alma), gyakrabban hoznak termést, mint azok a virágrügyek, amik oldalrügyek, mert a csúcsrügy fejlődik ki és hajt ki először, valamint nagyobb méretű is.",
+    "az időjárási viszonyok: módosító tényező a víz és a tápanyag jelenléte vagy hiánya. Ez a termesztő munkájától, szakmai hozzáértésétől és az anyagi lehetőségeitől is függ.",
+    "a méhek jelenléte is módosító tényező, a virágzás alatti és röviddel azt követő időjárási viszonyok egyrészt a méhek pollenátvitelén, másrészt a pollentömlők növekedésén keresztül befolyásolják a terméskötődést.",
+    "a gyümölcsös helye, a használt alany fajtája és maga a gyümölcsfajta állandó tényező, hiszen már a telepítésnél kiválasztják őket, rajtuk változtatni már nem lehet.",
+    "",
+    "Előfordul az is, hogy a virágzás rendben lezajlott, de még sincs termés. Ennek több oka is lehet:",
+    "nincs a közelben pollent adó fajta;",
+    "rosszul végezték el az agrotechnikai feladatokat, tehát a metszést, ritkítást;",
+    "víz- vagy tápanyaghiány lépett fel;",
+    "fagyhatás volt jelen;",
+    "az alany vagy maga a fajta kedvezőtlen hatása.",
+    "",
+    "Termékenyülés szerint a gyümölcsök az alábbiak szerint csoportosíthatók:",
+    "öntermékenyülő fajtáknál a növény a saját virágporával termékenyül meg. Ebben az esetben a terméshozam és a kötődés kiegyensúlyozott, nagyobb a termésbiztonság, fenntartható a fajtatisztaság.",
+    "önmeddő fajtáknál a saját virágporával nem tud megtermékenyülni, emiatt porzó fajtára van szükség. Ennek előnye, hogy egy területen több fajta is telepíthető, de a gyümölcsösben elvégzendő munkák viszont nem lesznek egységesek. Ez nagyobb odafigyelést kíván a termesztőtől. Itt kell megemlíteni a dichogámia jelenséget. Ez a fajta önmeddőség azt jelenti, hogy egy fajtán belül a hím és a női virágok nem egy időben virágoznak, így nem tud bekövetkezni a megtermékenyülés. Fontos, hogy a pollent adó fajta abban az időben virágozzon, mint a termő. Ezt a fajtakiválasztásnál fontos figyelembe venni. Pl.: diónál, mogyorónál, szelídgesztenyénél.",
+    "termékenyülési rendellenesség a parthenokarpia, amikor megtermékenyülés nélkül is létrejön a gyümölcs, viszont a magvai léhák, vagy ki sem fejlődnek.",
+    "xéniának nevezik azt a megporzási eredményt, ha a pollenadó fajta tulajdonságait láthatók a hibrid mag szöveteiben. Méret-, alak- és színváltozások figyelhetők meg pl. a meggynél, cseresznyénél.",
+    "Metaxeniának nevezik azt a megporzási eredményt, amikor a porzó fajta hatása a termésképződményben is megfigyelhető. pl.: almánál, körténél a gyümölcsalak és a szín megváltozását érinti.",
+    "",
+    "Terméshullási időszak",
+    "A virágokból nem minden esetben fejlődik termés, még akkor sem, ha kedvezőek az időjárási viszonyok, és a pollenátvitel megfelelően megtörtént. Létezik egy természetes virág-, illetve termésritkulás.",
+    "",
+    "Három hullási időszak különböztethető meg:",
+    "Virágzás utáni hullás: ez a hullási időszak a gyümölcs fajtájától függően a virágzás után egy‒négy héttel kezdődik. Az almatermésűeknél már azok a virágok is lehullanak, amelyek nem fejlődnek tovább. A csonthéjasoknál a magházak ugyan 4‒5 mm átmérőig megnőnek, azonban a teljes virágzás után négy‒hat héttel lehullanak. Ez az első hullási időszak általában a legintenzívebb. A megtermékenyületlen virágok is lehullanak.",
+    "Júniusi terméshullás: a második hullási időszak a virágzás után hat‒nyolc héttel kezdődik; ezt az időszakot az időbeli megjelenése miatt júniusi terméshullásnak nevezik. Az első és a második hullási időszak között egyértelmű összefüggések mutatkoznak. Ha a terméskötődés kiváló, vagyis az első hullás mérsékelt, erősebb júniusi terméshullás várható, és fordítva. Az almatermésűeknél ez a hullási időszak szükséges is, mivel a terméskötődés ‒ hacsak a virágzás alatt nem lép fel alternancia vagy szélsőséges időjárási viszonyok ‒ többnyire túl magas. Más gyümölcsfajok esetében azonban, például a cseresznyénél és a fekete ribiszkénél a júniusi terméshullás jelentős terméskiesést okozhat.",
+    "",
+    "A júniusi terméshullás oka nyilvánvalóan az, hogy a fák a túlságosan magas terméskötődés miatt nem képesek elegendő táplálékkal ellátni és beérlelni minden termést.",
+    "A folyamatban fontos szerepet játszanak a magvak. A többmagvú termések ‒ például az almatermésűek és a ribiszke ‒ közül általában a kevés maggal rendelkezők hullanak le. Az ilyen termések kisebbek, mivel az elégtelen megtermékenyülés miatt alulmaradnak a tápanyagokért folytatott versenyben.",
+    "",
+    "Az egymagvú terméseknél ‒ például a csonthéjasoknál ‒ a terméshullás időpontja szoros összefüggésben áll a magban lévő csíra fejlődésével, ugyanis a júniusi hullás már a csíra intenzív növekedési szakaszának kezdetén jelentkezik. A júniusi terméshullás oka a csíra helyi tápanyagellátásának zavarában keresendő, mivel a fejlődésnek ebben a szakaszában a termés más részeinek is megnő a tápanyagigénye. Emellett az időjárási tényezők is szerepet játszanak a hullás kialakulásában.",
+    "",
+    "Szüret előtti terméshullás: a harmadik hullási időszak röviddel a szüret előtt következik be. Ennek a gazdasági kára tetemes lehet, mivel már szedésre érett terméseket érint. A szüret előtti terméshullást többek között a szél és a viharok is fokozhatják. Ezért az almatermésűek termesztése erősen szeles területeken csak szélvédő fasorok létesítésével lehetséges. A szüret előtti terméshullás intenzitása a gyümölcsfajtól és -fajtától függően változik. Az alma, a körte, a szilva, az őszibarack és a fekete ribiszke különösen veszélyeztetett. A cseresznyénél azonban nincs jelentősége a hullásnak.",
+    "Relatív termőképesség: a termést hozó virágok százalékos arányát jelenti. A megfelelő méretű, kielégítő terméshozam eléréséhez a kis termésű gyümölcsfajoknak viszonylag több virágból kell termést érlelniük, mint a nagy termésűeknek.",
+    "A faj, fajta fogalma, az alany és a fajtahasználat a gyümölcstermesztésbeN",
+    "Faj, fajta",
+    "Egy gyümölcsös életét általában több évtizedre tervezik. Vannak olyan tényezők, amelyeken a telepítés után már nem lehet változtatni. Ezért telepítéskor nagy figyelmet kell fordítani a termőhely megválasztására, hisz annak adottsága nagyban befolyásolja az ültetvény életét. Jól kell kiválasztani a fajtát, olyan legyen, amire van kereslet. Egy kicsit a jövőbe is bele kell látni, fel kell mérni a piaci igényeket. Megfelelő alanyt kell használni, jó térállásba kell ültetni, hisz ezeken változtatni már lehet a jövőben. A fajtaválasztás egy felelősségteljes feladat a gyümölcstermesztésben.",
+    "",
+    "Fajnak nevezik azokat az élőlényeket, amelyek hasonló alakúak, közös származásúak és egymással termékeny utódokat tudnak létrehozni.",
+    "",
+    "Fajtának nevezik a fajon belül létrejött változatot. Több fajtát különböztet meg a tudomány. Pl.: fagytűrő fajták, szárazságtűrő fajták, honos fajták stb.",
+    "",
+    "Fajtaválasztékon a meghatározott területen, azonos időben termesztett és felhasznált fajták összessége értendő. A fajtahasználat folyamatosan változik, a fajtakínálat folyamatosan bővül. Az elavult fajták kezdenek kiszorulni a piacról, helyüket az új, jobb tulajdonságú fajtatípusok veszik át. A gazdaságos termelésnek az alapja az új fajták ismerete, valamint a fajtakínálat figyelemmel kísérése.",
+    "Fajtahasználat, fajtaválasztás",
+    "Fajtaválasztást meghatározó tényezők:",
+    "A termesztési cél fajonként vagy fajtacsoportonként is eltérhet. Étkezési fajtákat azért termesztenek, hogy a fogyasztó a gyümölcsöt szedést követően vagy hosszabb-rövidebb tárolás után természetes minőségében elfogyaszthassa. A friss fogyasztásra szánt gyümölcsöket a minőség megóvása miatt kézzel takarítják be, az ipari feldolgozásra szánt gyümölcsöket pedig géppel. Ezekből az ipar által feldolgozott, emberi fogyasztásra szánt árut készítenek. A termesztők szívesen választják a kettős hasznosítású fajtákat, mert nagyobb értékesítési biztonságot remélnek.",
+    "A piaci és felhasználói igények folyamatosan változnak. Mindig azokat a fajtákat kell telepíteni, amelyek iránt nagyobb a kereslet a felhasználók körében. A fajta minősége mellett más gazdasági tényezők is befolyásolják a fajták piaci értékét, például a konkurencia, más termesztők jelenléte a piacon, a szállítási távolság, az értékesítési forma, a kereslet-kínálat, a piaci és ipari felhasználás iránti igény. Az igényes fogyasztók a nemzetközi piac kínálatát is ismerik, amihez érdemes a termesztőnek felzárkózni.",
+    "A termőhelyi adottságok, ökológiai feltételek a hazánkban nem őshonos növények sikeres termesztésére igen nagy hatással vannak. A gyümölcstermesztés gazdaságosságát, a gyümölcs minőségét is befolyásolják az ökológiai adottságok, ezért csak olyan fajták telepítése ajánlott, amelyek kedvelik a helyi adottságokat, az adott klímát és talajtípust.",
+    "Művelési rendszer és termesztéstechnológia: minden gyümölcstermő növény termesztésére hatással van az alany megválasztása, a törzsmagasság, a koronaforma, az agro- és fitotechnikai eljárások. A precíziós termesztéstechnológia megvalósítására kell törekedni.",
+    "A termelés nagyságrendje határozza meg, hogy mekkora termés elérése a cél. Nem mindegy, hogy üzemi árutermelésről, önellátásról vagy hobbikertészeti igény kielégítéséről van szó. Minél nagyobb a termelés volumene, annál jobban alkalmazkodni kell a piaci kereslethez ahhoz, hogy minél magasabb áron tudjuk eladni.",
+    "Fajtainformációk: a termelőket folyamatosan informálni kell az újonnan megjelent fajtákról. Propagálni kell a fajtákat, megbízható fajtainformációkat kell adni, hisz e szerint fog a termelő fajtát választani. A fajtajellemzők a termelőnek fontosak, mert vagy könnyítik, vagy nehezítik az ápolási és a termesztési munkákat. Pl.: betegségekre fogékony-e az a fajta, intenzív művelésre alkalmas-e vagy nem alkalmas, a gyümölcsök repedésre hajlamosak-e vagy gyakori-e az érés előtti gyümölcshullás.",
+    "",
+    "Az előbb felsorolt fajtaválasztás meghatározó tényezőin belül a felhasználandó fajtáról a termelő dönt. Azt, hogy melyik fajtát választja ki, a termelő döntése, de előtte az egyes fajoknál ismertetett fajtainformációkat alaposan át kell tanulmányoznia.",
+    "",
+    "A fajták értékét meghatározó általános tulajdonságokat is sorra kell vennie, amelyek az alábbiak:",
+    "használati érték: külső tulajdonság (alak, szín, méret, héjvastagság stb.) és belső tulajdonság (beltartalmi értéke, rosttartalma, íze, zamata, vitamintartalma stb.), káros anyagoktól való mentesség.",
+    "piaci érték: eltarthatóság, áruvá készítésre való alkalmasság, piaci kereslet.",
+    "termesztési érték: gyümölcshullásra való hajlam, termőképesség, termésbiztonság, növekedési erély, károsítókra való érzékenység.",
+    "",
+    "Egy-egy fajta értékét több tulajdonság határozza meg, amely lehet pozitív és negatív is. Univerzális, tehát minden igényt kielégítő fajta nincs egy gyümölcsfajnál sem. A termelőnek ismernie kell azokat a fajtabélyegeket, amelyek a termesztést, értékesítést könnyítik vagy nehezítik. A termesztéstechnológiánál pedig arra kell törekedni, hogy kihozzák a kiválasztott fajtából a maximumot.",
+    "Alanyhasználat",
+    "A gyümölcstermesztők a megfelelő alanyok kiválasztásával biztosítják, hogy a nemes fajták a lehető legoptimálisabban alkalmazkodjanak az adott termőhelyi körülményekhez. Ha a nemes fajtákat nem oltanák gyengén növekvő alanyokra, minden fajta a saját növekedési jellegének megfelelően magas törzset növesztene.",
+    "Az alany az oltvány azon része, amely a gyökerét vagy akár a törzsét adja. Az a fajta lehet alany, amely biztosítja a ráoltott növényrész forradását és együttélését.",
+    "Szabályok, amelyek szerepet játszanak a megfelelő alany kiválasztásában:",
+    "Tápanyagban gazdag talajokon gyenge növekedésű alanyokra van szükség.",
+    "A nagyon rossz minőségű termőhelyeken előnyösebb az erősebb növekedésű alanyok használata.",
+    "A téli fagyok által veszélyeztetett termőhelyeken fagytűrő alanyokat célszerű alkalmazni.",
+    "A nagyon száraz termőhelyek nagyobb gyökeresedési képességű alanyokat igényelnek.",
+    "Azokon a termőhelyeken, ahol különböző betegségek ütik fel a helyüket, ellenálló alanyokra van szükség.",
+    "Az alany kompatibilis legyen a választott nemes fajtával, illetve kedvezően befolyásolhatja a gyümölcsök tulajdonságait: méretét, íz- és zamatanyagát, termőképességét, termőre fordulását, tárolhatóságát.",
+    "",
+    "Irodalomjegyzék",
+    "Bagoly László; Deák István; Főző József; Keszei Attila: Gyümölcstermesztés I., FVM, 1993.",
+    "Vidékfejlesztési, Képzési és Szaktanácsadási Intézet 17-21. oldal, Budapest, 2009.",
+    "Dr. Turcsányi Gábor: Mezőgazdasági növénytan, Mezőgazdasági Szaktudás Kiadó, 136-145.",
+    "oldal, Budapest, 1995.",
+    "Dr.Csihon Ádám: Fajtahasználat a gyümölcstermesztésben, Debreceni Egyetemi Kiadó,",
+    "Debrecen, 2022.",
+    "Dr. Gonda István, Dr. Csihon Ádám szerk.: A gyümölcstermesztés alapjai, Debreceni Egyetemi",
+    "Kiadó, Debrecen, 2018.",
+    "Ábrajegyzék",
+    "1. ábra: A fatermetű gyümölcstermő növények részei\t3",
+    "2. ábra: A ribiszkebokor hajtásrendszere\t4",
+    "3. ábra: A málnanövény hajtásrendszere\t5",
+    "4. ábra: A szamócanövény felépítése\t6",
+    "5. ábra: A gyökér hosszmetszete\t10",
+    "6. ábra: Gyökértípusok\t13",
+    "7. ábra: A málna növény hajtásai\t14",
+    "8. ábra: A törzs keresztmetszete\t16",
+    "9. ábra: A rügy keresztmetszete, fajtái\t18",
+    "10. ábra: Rügyalakulások a vesszőn\t19",
+    "11. ábra: A levél szöveti felépítése\t22",
+    "12. ábra: Gázcserenyílás (sztóma)\t23",
+    "13. ábra: A levél részei\t24",
+    "14. ábra: A levelek alaki típusai\t25",
+    "15. ábra: A levél erezete\t26",
+    "16. ábra: Vadgesztenye rügypikkely allevele\t27",
+    "17. ábra: A virág részei\t29",
+    "18. ábra: Dárda almán\t32",
+    "19. ábra: Sima termőnyárs almán\t32",
+    "20. ábra: Gyűrűs termőnyárs körtén\t33",
+    "21. ábra: Tövises termőnyárs körtén\t34",
+    "22. ábra: Termőbog körtén\t34",
+    "23. ábra: Bokrétás termőnyárs cseresznyén\t35",
+    "24. ábra: Középhosszú és hosszú termővessző almán\t36",
+    "25. ábra: Teljes termővessző őszibarackon\t37",
+    "26. ábra: Hármas vegyes rügycsoport őszibarackon\t37",
+    "27. ábra: Hiányos termővessző őszibarackon\t38",
+    "28. ábra: Hiányos termővesszőn kettes vegyesrügycsoport és egyes hajtórügy őszibarackon\t38",
+    "29. ábra: Dárdás termőgally almán\t39",
+    "30. ábra: A dió női virága\t47",
+    "31. ábra: A dió porzós virága\t47",
+    "32. ábra: A mogyoró női és porzós virága\t48",
+    "33. ábra: A gesztenye női és porzós virága\t48",
+    ""
+  ],
+  "runs": [
+    [],
+    [
+      "Egyedi megrendelés azonosítója:",
+      " EM-2.11.2"
+    ],
+    [
+      "A",
+      " gyümölcstermesztés biológiai alapjai"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [
+      "Forrás",
+      ":",
+      " ",
+      "A",
+      "z",
+      " ",
+      "eredeti könyv ",
+      "címe: ",
+      "Büchele, Manfred (Hrsg.): Lucas' Anleitung zum Obstbau. 33., erweiterte Auflage. Stuttgart (Hohenheim), 2018, Ulmer."
+    ],
+    [
+      "ISBN 978-3-8186-1868-1"
+    ],
+    [],
+    [
+      "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Tartalom",
+      "jegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      "Gyümölcstermő növények csoportosítása külső testalakulás ",
+      "szerint",
+      ""
+    ],
+    [
+      "A föld feletti részek alakulása szerint a gyümölcstermő növények az ",
+      "alábbiak",
+      " szerint csoportosíthatók."
+    ],
+    [
+      "Fák"
+    ],
+    [
+      "A ",
+      "fák",
+      " évelő, fás szárú növények, melyeknek vagy van központi tengelye vagy tengely nélküliek. Föld alatti részük a gyökér, föld feletti részük a törzs és a korona. A koronát az ágak képezik."
+    ],
+    [
+      "A fatermetű gyümölcstermő növények közül idetartozik az alma, körte, cseresznye, meggy, szilva, őszbarack, kajszibarack, mandula, dió."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". ábra: ",
+      "A fatermetű gyümölcstermő növények részei"
+    ],
+    [
+      "Forrás: ",
+      "Dr. Gonda István, Dr. Csihon Ádám szerk. A gyümölcstermesztés alapjai",
+      ",",
+      " 2018. Debrecen, Debreceni Egyetemi Kiadó, 18. o."
+    ],
+    [
+      "Cserjék"
+    ],
+    [
+      "A ",
+      "cserjék",
+      " szintén évelők. Fás részei a föld felett közvetlenül a cserjetörzsből elágaznak. Főtengelyük nincs."
+    ],
+    [
+      "A gyümölcsök közül idetartozik a birs, naspolya, mogyoró, ribiszke, köszméte, ",
+      "fekete bodza."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "2",
+      "",
+      ". ábra",
+      ": A ribiszkebokor hajtásrendszere"
+    ],
+    [
+      "Forrás: ",
+      "Dr. Gonda István, Dr. Csihon Ádám szerk. A gyümölcstermesztés alapjai",
+      ",",
+      " 2018. Debrecen, Debreceni Egyetemi Kiadó, 19.o."
+    ],
+    [
+      "Félcserjék"
+    ],
+    [
+      "A cserjékhez hasonlóan a ",
+      "félcserjéknek",
+      " sincs főtengelyük, viszont már a földben elágazó hajtásokat nevelnek. A talajban található részük elfásodik, a talajfelszín feletti részük pedig ",
+      "lágyszárú. Az első évben a föld alatti szárból hajt ki a növény sarjakat, majd a második évben ezen termést hoz és a második évben elpusztul."
+    ],
+    [],
+    [
+      "A gyümölcsök közül idetartozik a málna és a szeder."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "3",
+      "",
+      ". ábra",
+      ": A málnanövény hajtásrendszere"
+    ],
+    [
+      "„(1) letermett vessző, (2–3) tősarjak, (4–8) gyökérsarjak,",
+      " ",
+      "(9–10) a talaj felszíne alatt elhelyezkedő gyökérsarjkezdemények”"
+    ],
+    [
+      "Forrás: ",
+      "Dr. Gonda István, Dr. Csihon Ádám szerk A gyümölcstermesztés alapjai",
+      ",",
+      " 2018. Debrecen, Debreceni Egyetemi Kiadó, 19. o."
+    ],
+    [
+      "Dudvásszárúak"
+    ],
+    [
+      "A ",
+      "dudvásszárúak",
+      " évelő növények. A föld feletti részük levélzet, ami a vegetáció során terem, majd fokozatosan elhal. A föld alatti gyöktörzsből minden évben új hajtást, levelet hoz. Vegetatív szaporítószerve az ",
+      "inda",
+      ", amely hosszú szártagú hajtás. A gyökerei a csomóiból nőnek ki. Önálló növényként él tovább, ha leválasztásra kerül az anyanövényről."
+    ],
+    [],
+    [
+      "A gyümölcsök közül a szamóca tartozik ide."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "4",
+      "",
+      ". ábra:",
+      " A szamócanövény felépítése"
+    ],
+    [
+      "„(1) gyökértörzs, (2) gyökérzet, (3) tőrózsában álló levelek, (4) inda,",
+      " ",
+      "(5) indanövény, (6)",
+      " ",
+      "tőkocsány, (7) virág és (8) gyümölcs",
+      ". ",
+      "A virág és a gyümölcs részei: a) csészelevelek, b) porzók, c) szirmok,",
+      " ",
+      "d) termők (bibék), e) vacok, f) kocsány, g) gyümölcshús, h) termés”"
+    ],
+    [
+      "Forrás: ",
+      "Dr. Gonda István, Dr. Csihon Ádám szerk., A gyümölcstermesztés alapjai",
+      ",",
+      " 2018. Debrecen, Debreceni Egyetemi Kiadó, 20. ",
+      "o."
+    ],
+    [
+      "Csoportosítás növénytani és gyakorlati szempontból"
+    ],
+    [
+      "Gyümölcstermő növények növénytani csoportosítása",
+      ""
+    ],
+    [
+      "Rosaceae – Rózsafélék ",
+      "családja"
+    ],
+    [
+      "Maloideae – Almafélék alcsaládja"
+    ],
+    [
+      "Malus domestica – Alma"
+    ],
+    [
+      "Pyrus communis – Körte"
+    ],
+    [
+      "Cydonia oblonga – Birs"
+    ],
+    [
+      "Mespilus germanica – Naspolya"
+    ],
+    [
+      "Prunoideae – Szilvafélék alcsaládja"
+    ],
+    [
+      "Cerasus avium – Cseresznye"
+    ],
+    [
+      "Cerasus vulgaris – Meggy"
+    ],
+    [
+      "Armeniaca vulgaris – Kajszi"
+    ],
+    [
+      "Prunus domestica – Szilva"
+    ],
+    [
+      "Persica vulgaris – Őszibarack"
+    ],
+    [
+      "Amygdalus communis – Mandula"
+    ],
+    [
+      "Rosoideae – Rózsafélék alcsaládja"
+    ],
+    [
+      "Rubus idaeus – Málna"
+    ],
+    [
+      "Fragaria x ananassa – Szamóca"
+    ],
+    [
+      "Rubus caesius – Szeder"
+    ],
+    [
+      "Grossulariaceae – Köszmétefélék családja"
+    ],
+    [
+      "Ribes rubrum – Piros ribiszke"
+    ],
+    [
+      "Ribes nigra – Fekete ribiszke"
+    ],
+    [
+      "Ribes uva-crispa – Köszméte"
+    ],
+    [
+      "Corylaceae – Mogyorófélék családja"
+    ],
+    [
+      "Corylus avellana – Mogyoró"
+    ],
+    [
+      "Fagaceae – Bükkfafélék családja"
+    ],
+    [
+      "Castanea sativa – Szelídgesztenye"
+    ],
+    [
+      "Juglandaceae – Diófélék családja"
+    ],
+    [
+      "Juglans regia – Dió"
+    ],
+    [
+      "Adoxaceae – Pézsmaboglárfélék családja"
+    ],
+    [
+      "Sambucus nigra – Fekete bodza"
+    ],
+    [
+      "Gyümölcstermő növények gyakorlati szempont szerinti csoportosítása",
+      ""
+    ],
+    [
+      "Almatermésűek",
+      ":",
+      " ",
+      "a rózsafélék családjába tartoznak. Termésük áltermés. Magházukat a megvastagodott vacok, a gyümölcshús veszi körül, kívülről pedig vékony héj borítja."
+    ],
+    [
+      "Idetartozik az alma, körte, birs, naspolya."
+    ],
+    [],
+    [
+      "Csonthéjas ",
+      "gyümölcsűek (csonthéjasok",
+      "):",
+      " ",
+      "a",
+      " rózsafélék családjába tartoznak. A csontkemény burokban lévő magot veszi körül a gyümölcshús, ami a termésük. A termést kívülről bőrnemű, színes, viaszos vagy szőrös héj veszi körül. Középső része húsos, éretten édes, míg belső része a mag, aminek falát az elfásodott belső terméshéj alkotja."
+    ],
+    [
+      "Idetartozik a cseresznye, meggy, őszibarack, kajszibarack, szilva."
+    ],
+    [],
+    [
+      "Bogyós ",
+      "gyümölcsűek (bogyósok)",
+      ":",
+      " ",
+      "a rózsafélék családjába tartozik a málna, szamóca, szeder. A ",
+      "pézsmaboglárfélék családjába tartozik a fekete bodza. A köszmétefélék családjába tartozik a fekete ribizke, piros ribizke, köszméte. A termésük hasonló: gömbölyű alakú, hártyás vagy bőrszerű héjuk van, lédúsak, kocsonyaszerű belsejükben sok magot tartalmaznak."
+    ],
+    [
+      "Idetartozik a szamóca, málna, szeder, fekete ribizke, piros ribizke, köszméte, fekete bodza."
+    ],
+    [],
+    [
+      "Héjas ",
+      "gyümölcsűek (héjasok):",
+      " ",
+      "eltérő növényrendszertani családból származó növények tartoznak ide. Termésük hasonlít a csonthéjasokéhoz, de ezeken a gyümölcshúshéj összeszárad és tulajdonképpen a csonthéjban (kupacsban) levő magot fogyasztjuk."
+    ],
+    [
+      "Ide tartozik a dió, mandula, mogyoró, szelídgesztenye."
+    ],
+    [
+      "A gyümölcstermesztés biológiai alapjai"
+    ],
+    [
+      "A gyümölcstermő növények részei",
+      ""
+    ],
+    [
+      "Minden növény, köztük a gyümölcstermő növények is, alaktanilag két fő részből állnak:"
+    ],
+    [
+      "föld alatti részből, azaz a ",
+      "gyökérrendszerből és"
+    ],
+    [
+      "föld feletti részből, azaz a hajtásrendszerből."
+    ],
+    [
+      "A ",
+      "gyökér"
+    ],
+    [
+      "A ",
+      "gyökér",
+      " a gyümölcstermő növényt rögzíti a talajban, vizet és tápanyagot vesz fel, illetve raktároz, és azokkal ellátja a föld feletti szerveket."
+    ],
+    [
+      "A gyökér felépítése"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "5",
+      "",
+      ". ábra:",
+      " A gyökér hosszmetszete"
+    ],
+    [
+      "Forrás: ",
+      "https://ttko.hu/kbf/kisalkalmazas.php?id=76&c=biol%C3%B3gia ",
+      "(Megnyitva: ",
+      "2024.07.04.",
+      ")"
+    ],
+    [],
+    [
+      "Gyökérsüveg",
+      ":",
+      " ",
+      "gyökércsúcsot védő sapka, mely védelmet nyújt ",
+      "a gyökércsúcs osztódó szövetének (a ",
+      "kambiumnak",
+      "). (",
+      "5. ábra",
+      ")"
+    ],
+    [
+      "Megnyúlási zóna: ",
+      "itt megy végbe a gyökér sejtjeinek differenciálódása, azaz kialakul a végleges feladathoz való felépítésük. (",
+      "5. ábra",
+      ")"
+    ],
+    [
+      "Felszívási zóna",
+      ":",
+      " ",
+      "itt találhatók a gyökérszőrök. A ",
+      "g",
+      "yökérszőrök",
+      " a megnyúlási zóna után képződnek folyamatosan, míg a felszívási zóna vége felé elpusztulnak. Így a gyökércsúcs növekedésével a felszívási zóna mindig újabb talajrészekkel érintkezik, így az ott lévő tápanyagot és vizet fel tudja venni. (",
+      "5. ábra",
+      ")"
+    ],
+    [
+      "Szállítószövet (szállítási zóna):",
+      " a gyökérszőrök által felvett víz és a vízben oldott tápanyagok a szállítószövet segítségével jutnak el a hajtásrendszerig. (",
+      "5. ábra",
+      ")"
+    ],
+    [
+      "osztódószövet",
+      ":",
+      " más néven ",
+      "merisztéma",
+      ", a folyamatos növekedést, fejlődést teszi lehetővé. Kialakítja a tovább osztódni képtelen állandósult szöveteket. (",
+      "5. ábra",
+      ") Elsődleges merisztéma a ",
+      "csúcsmerisztéma",
+      ", amely a hajtás és a gyökér elsődleges szöveteit alakítja ki."
+    ],
+    [],
+    [
+      "A növény a gyökér szűkebb környezetében képes mobilizálni a tápanyagokat, befolyásolni a pH-értéket, valamint érzékelni a változásokat, és reagálni azokra. Ezenkívül képes meghatározni a nedvesség helyét, és a gyökerek növekedését célzottan a vizes zónák felé irányítja."
+    ],
+    [],
+    [
+      "A gyökerek alacsonyabb hőmérsékleten válnak aktívvá. Melegebb hőmérsékleten a hajtásnövekedés gyorsul fel. A gyökerek intenzívebb növekedése csak akkor indul be újra, amikor a hajtásnövekedés lelassul. A hajtás- és a gyökérrendszer automatikusan egyensúlyi állapotra törekszik."
+    ],
+    [],
+    [
+      "A gyökér gyorsan reagál a korona változásaira és fordítva. A szélsőséges metszési beavatkozás, a túl nagy terméshozam és a levélkárosodás korlátozza a gyökérteljesítményt; az átültetés és a gyökérmetszés átmenetileg gyengíti a hajtás- és termésnövekedést."
+    ],
+    [
+      "A gyökérzet elágazódása és az, hogy milyen mélyre gyökerezik",
+      ":"
+    ],
+    [
+      "gyümölcsfajonként, de fajtánként is eltérő lehet,"
+    ],
+    [
+      "valamint függ a talaj nedvességtartalmától, szerkezetétől és tápanyagtartalmától."
+    ],
+    [],
+    [
+      "A gyenge növekedésű alanyok sekélyen gyökeresednek, míg a ",
+      "vadalanyon lévő gyümölcstermő növények az előzőnél jóval mélyebben. Mindig a termőhelyhez igazítják a telepítésre szánt növény alanyát."
+    ],
+    [],
+    [
+      "A gyökeresedést a talaj állapota nagyban befolyásolja. Ha a talaj kötött, azaz levegőtlen, a gyökér nem tud mélyre hatolni, a felszínen fog terjeszkedni. Ez nem jó a növény számára, hisz nem tudja a mélyebb rétegekben lévő vizet és tápanyagot felvenni. Ezért mindig törekedni kell a jó szerkezetű, laza, szellős talajszerkezet elérésére. Megfelelő ",
+      "agrotechnikával, talajműveléssel a gyökérzet növekedése jó irányba befolyásolható."
+    ],
+    [],
+    [
+      "A vízhiány és a tápanyaghiány is rossz hatással van a gyökerek fejlődésére és elágazódására. Hiány esetén nagyobb mértékben ágazódik el a gyökere, hiszen keresi a lehetőséget a víz- és a tápanyagfelvételre. Egy jó tápanyag- és vízellátású talajban kisebb gyökérrendszert nevel a növény."
+    ],
+    [],
+    [
+      "A magról szaporított gyümölcstermő növények gyökere ",
+      "főgyökérrendszerű",
+      " (ld. ",
+      "6. ábra",
+      "). A magoncok gyökerei erős karógyökerek, amelyekből ",
+      "elsőrendű, másodrendű stb. gyökerek ágaznak el. Pl. vadalma, vadkörte, vadcseresznye."
+    ],
+    [
+      "A vegetatív módon szaporított gyümölcstermő növények gyökere",
+      " ",
+      "járulékos (mellék-) gyökér",
+      "rendsze",
+      "rű. Jellemzője, hogy a talajban lévő szárrészen számos oldalgyökér fejlődik, amelyek közel azonos erősségűek (ld. ",
+      "6. ábra",
+      ")."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "6",
+      "",
+      ". ábra:",
+      " Gyökértípusok"
+    ],
+    [
+      "Forrás: ",
+      "http://kolping-nkicsurgo.hu/down/mggdism/nov_szervei.pdf",
+      " ",
+      "5. o. (Megnyitva: ",
+      "2024.07.04.",
+      ")"
+    ],
+    [],
+    [
+      "Tősarj",
+      "nak nevezik azt a hajtást, amely a gyökérnyakból nő ",
+      "ki (ld. 7",
+      ". ábra",
+      ")."
+    ],
+    [
+      "Gyökérsarj",
+      "nak nevezik azt a hajtást, amely a felszínhez közeli gyökerek járulékos rügyeiből fejlődik ki (ld. ",
+      "7. ábra",
+      ")."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "7",
+      "",
+      ". ábra:",
+      " A málna növény hajtásai"
+    ],
+    [
+      "Forrás: ",
+      "https://docplayer.hu/19316470-Oszi-munkak-a-gyumolcsoskertben-szoloben.html",
+      " ",
+      "9. o. (Megnyitás: ",
+      "2024.07.08.",
+      ")"
+    ],
+    [
+      "Hajtásrendszer"
+    ],
+    [
+      "Hajtásrendszernek nevezik a gyümölcstermő növények gyökérnyaktól számított föld feletti részét."
+    ],
+    [
+      "A",
+      " fatermetű növények hajtásrendszere két fő részre tagolható:"
+    ],
+    [
+      "törzsre és"
+    ],
+    [
+      "koronára."
+    ],
+    [
+      "A törzs"
+    ],
+    [
+      "A törzs",
+      " ",
+      "a gyökérnyak és a legalsó koronaelágazás közé eső része a növénynek."
+    ],
+    [],
+    [
+      "A következő feladatokat látja el:"
+    ],
+    [
+      "tartja a koronát,"
+    ],
+    [
+      "vizet és tápanyagot szállít a gyökértől a koronába,"
+    ],
+    [
+      "asszimilált anyagot szállít a koronából a gyökér felé,"
+    ],
+    [
+      "tartalék tápanyagokat raktároz."
+    ],
+    [],
+    [
+      "A fás rész folyamatosan vastagodik, ahogyan a sejtjeibe az előállított szerves anyagok beépülnek."
+    ],
+    [],
+    [
+      "A gyökéren keresztül felvett tápanyagot a törzs a fás részein keresztül juttatja el a koronába. Az asszimilált tápanyagok visszaszállítása a ",
+      "háncson",
+      " (",
+      "8. ábra",
+      ")",
+      " ",
+      "keresztül történik. A háncs raktározó feladatot is ellát."
+    ],
+    [],
+    [
+      "A ",
+      "fatest (8. ábra)",
+      " ",
+      "vastagodási gyarapodását biztosító osztódó szövet a kambium (",
+      "8. ábra",
+      "), amely a fatest és a kéreg között található. Sejtjei kifelé és befelé is osztódnak. Kifelé háncssejteket, befelé fasejteket hoznak létre. Nagy szerepet játszik a sebzések gyógyulásában."
+    ],
+    [],
+    [
+      "Héjkéreg",
+      ": külső réteg, elhalt sejtekből áll, védő szerepet tölt be. (",
+      "8. ábra",
+      ")"
+    ],
+    [
+      "A kambium szakaszosan növekszik a tavasztól őszig tartó tenyészidőszakban. Ez eredményezi az ",
+      "évgyűrűket",
+      ". (",
+      "8. ábra",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "8",
+      "",
+      ". ábra",
+      ": A törzs keresztmetszete"
+    ],
+    [
+      "Forrás: ",
+      "https://cms.sulinet.hu/get/d/ba37b845-8b97-4921-97bb-e47d732bf350/1/4/b/Large/faai-k1-056-nagy.svg ",
+      "(Megnyitás: ",
+      "2024.07.08.",
+      ")"
+    ],
+    [],
+    [
+      "A ",
+      "törzsmagasságot",
+      " a gyümölcsfáknál már a faiskolában kialakítják a koronába metszéssel. Ha ",
+      "suhángként telepítik a fákat, akkor ezt a műveletet a gyümölcsösben végzik el. Azt, hogy milyen koronaformát alakítanak ki, függ a művelésmódtól és a gyümölcsfaj biológiai igényétől."
+    ],
+    [],
+    [
+      "A gyümölcsfák törzsmagassága lehet:"
+    ],
+    [
+      "bokortörzs: 30-50 cm"
+    ],
+    [
+      "alacsony törzs: 70-90 cm"
+    ],
+    [
+      "közepes törzs: 100-120 cm"
+    ],
+    [],
+    [
+      "A bokortörzsű és az alacsony törzsű fák metszése, ápolási munkái és a termés szedése könnyebb, mivel ezeket a munkákat a földön állva el lehet végezni. Élettani szempontból is ",
+      "előnyösebb, hiszen sokkal rövidebb utat kell megtennie a tápanyagnak mind a gyökértől a hajtásrendszerig, mind pedig visszafelé. Ez energiatakarékosságot jelent a növénynek. Mivel alacsony a törzs, a talaj visszasugárzott hőjét is jobban tudják hasznosítani. Ez sok pozitívumot jelent a növénynek. Pl. kedvező hatással van a termőrügyek, termőrészek kialakulására, a termés beltartalmának javítására és a gyümölcs színeződésére is."
+    ],
+    [],
+    [
+      "Ajánlatos a minimum 60 cm törzsmagasság kialakítása még ",
+      "intenzív, azaz a megfelelő metszésnek köszönhetően hamarabb termőre forduló koronaformáknál is, hisz fontos, hogy a korona alatti talajmunkákat a fa sérülése nélkül el tudják végezni, valamint a termés súlya alatt meghajlott ágak se érjenek le a talajra."
+    ],
+    [
+      "A közepes törzsmagasságú gyümölcsfáknál a kézi szedéshez szedőállványt kell alkalmazni, de ennél a törzsmagasságnál már rázógép is használható."
+    ],
+    [],
+    [
+      "Magas törzsű fák korszerű gyümölcsösben már nem ",
+      "alkalmazhatók. A természetes koronaforma nem kedvező, mert az a termesztés céljának, az egyenletes, jó minőségű termés képzésének általában kevésbé felel meg, mint a mesterségesen kialakított, korszerű korona."
+    ],
+    [],
+    [
+      "A cserjeméretű gyümölcstermő növény cserjetörzsből és hajtásrendszerből áll. A hajtásrendszerére jellemző, hogy azonos elrendezésű, azaz ugyanabból a pontból ágazódik el, nincsenek a koronának különböző magasságban emeletei. A cserjetörzsön képződő rügyekből rendszeresen felújul vagy felújítható."
+    ],
+    [
+      "A korona"
+    ],
+    [
+      "A gyümölcsfa ",
+      "koronája",
+      " a törzs feletti elágazott ágrendszer",
+      ". ",
+      "Feladata, hogy az asszimilációt, illetve a növény vegetatív, valamint generatív tevékenységét lehetővé ",
+      "tegye."
+    ],
+    [],
+    [
+      "A korona részei: rügy, hajtás, vessző, gally, ág, levél, virág."
+    ],
+    [
+      "A ",
+      "rügy",
+      " nyugalmi állapotban lévő, fiatal, fejletlen hajtás, amely, ha az időjárás megfelelő számára, érett hajtássá fejlődik. (",
+      "9. ábra",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "9",
+      "",
+      ". ábra:",
+      " A rügy keresztmetszete, fajtái"
+    ],
+    [
+      "Forrás: ",
+      "http://ujkert.mkk.szie.hu/sites/default/files/files/Biologiai-alapok-lev.pdf",
+      " ",
+      "10. o. (Megnyitás:",
+      "2024.07.08",
+      ".)"
+    ],
+    [],
+    [
+      "Rügyek",
+      " csoportosítása ",
+      "minőségük",
+      " szerint:"
+    ],
+    [
+      "Levélrügyek vagy ",
+      "hajtásrügyek",
+      ": csak levél képződik belőlük. A tovább",
+      " ",
+      "növekedést szolgálják. Kinézetre vékonyak, megnyúltak és egyesével állnak."
+    ],
+    [
+      "Virágrügyek",
+      ": ",
+      "csak ",
+      "virág",
+      " képződik belőlük. Kinézetre gömbölyűbbek, vastagabbak."
+    ],
+    [
+      "Vegyesrügyek",
+      ": ",
+      "kihajtásukat követően a hajtás csúcsán virág vagy virágzat is képződi",
+      "k belőlük."
+    ],
+    [
+      "Rügyek",
+      " csoportosítása ",
+      "elhelyezkedésük",
+      " szerint:"
+    ],
+    [
+      "A ",
+      "csúcsrügyek",
+      " a hajtás egyenes tovább",
+      " ",
+      "növekedését szolgálják, a hajtás csúcsán helyezkednek el. (",
+      "9. ábra",
+      ")"
+    ],
+    [
+      "Az ",
+      "oldalrügyeknek",
+      " a hajtás szélességi növekedését kell biztosítaniuk, a hajtás oldalán találhatók.",
+      " ",
+      "(9.ábra",
+      ")"
+    ],
+    [
+      "végálló rügy",
+      ": a csúcsrügy lemetszése után a vessző legvégén lévő rügy (",
+      "10.ábra",
+      ")"
+    ],
+    [
+      "Rügyek",
+      " csoportosítása ",
+      "kihajtás",
+      " alapján:"
+    ],
+    [
+      "Az ",
+      "alvórügyek",
+      " a ki nem hajtott hajtásrügyek. Csak akkor hajtanak ki, ha erősen metszették a gyümölcsfát, vagy károsodtak a vesszői. Szabad szemmel nem láthatók."
+    ],
+    [
+      "A ",
+      "hajtórügy",
+      " az adott évben kihajt."
+    ],
+    [
+      "Járulékos rügyek",
+      " sérülések esetén jönnek létre a hajtás pótlására, kiegészítésére. Száron, levélen és gyökéren is kialakulhatnak."
+    ],
+    [],
+    [
+      "A vessző harmadolható alsó, középső és felső harmadra. Az alsó harmad van legközelebb az ághoz, a felső harmad a legtávolabb. Az alsó harmad legalsó részén található a vesszőalap. A vessző csúcsán helyezkedik el a csúcsrügy, oldalán pedig a hajtás, vagy vegyes-, vagy virágrügyek. Azt, hogy melyik rügy alakul ki, függ a gyümölcs fajtájától. (",
+      "10. ábra",
+      ")"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "10",
+      "",
+      ". ábra:",
+      " Rügyalakulások a vesszőn"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://docplayer.hu/6361479-Gyumolcsfelek-testalakulasa-termoreszei-es-a-metszes-alapjai.html",
+      " ",
+      "10. o. (Megnyitva: ",
+      "2024",
+      ".0",
+      "7",
+      ".",
+      "08",
+      ".)"
+    ],
+    [],
+    [
+      "A ",
+      "hajtás",
+      " egyéves szárképlet, amely a rügyből fejlődik ki. Minden esetben zöld színű, könnyen törik. Rajta helyezkednek el a levelek, azok hónaljában a szemek ülnek. A hajtást a csomók ízekre tagolják. Ahol a rügy és a levél található, ",
+      "csomónak",
+      " (",
+      "nódusznak",
+      ") nevezik, míg a csomók közötti távolság az ",
+      "ízköz (internódium)."
+    ],
+    [],
+    [
+      "Helyzetük szerinti csoportosításuk:"
+    ],
+    [
+      "csúcshajtások",
+      ": mindig csúcsrügyekből hajtanak ki és a fő- és az oldalágak hosszanti növekedését szolgálják,"
+    ],
+    [
+      "oldalhajtások",
+      ": a vessző oldalán lévő hajtórügyekből fejlődnek ki. Szerepük az elágazódás lehetővé tétele."
+    ],
+    [
+      "másod- és harmadrendű hajtás:",
+      " a másodrendű hajtás a leveles hajtáson lévő szemekből hajt ki. Ha a másodrendű hajtáson lévő szemek is kihajtanak, akkor azok a harmadrendű hajtások."
+    ],
+    [
+      "vízhajtások vagy fattyúhajtások",
+      " a rejtett rügyekből, általában idősebb ágrészeken hajtanak ki. Mindig erőteljes növekedésűek, felfelé törő hajtások. Azt jelzik, hogy a fának azt a koronarészét ifjítani kell."
+    ],
+    [
+      "sarjhajtás:",
+      " ha a gyökéren ",
+      "képződő járulékos rügyéből hajt ki, gyökérsarjnak, ha a gyökérnyakból hajt ki a rejtett rügy, tősarjnak nevezik."
+    ],
+    [
+      "ikerhajtás",
+      ":",
+      " ha egyszerre a rügy és a rejtett rügy is kihajt."
+    ],
+    [
+      "Vesszőnek",
+      " ",
+      "nevezik a",
+      " ",
+      "lombját már lehullatott, megfásodott hajtást."
+    ],
+    [
+      "Fajtái",
+      ":"
+    ],
+    [
+      "a növekedési vessző ",
+      "egyben termővessző is. A korona szélességi, hosszanti fejlődését biztosítja. A ",
+      "vezérek, amíg metszés alatt állnak, mindig növekedési vesszők. Később ezeken az oldalágcsúcsán, még az almánál is, termőrügyek alakulhatnak."
+    ],
+    [
+      "termővessző",
+      ":",
+      " beérett, nyugalmi állapotban lévő egyéves növényi rész, rajtuk mindig termőrügyek találhatók."
+    ],
+    [
+      "A ",
+      "gally",
+      " a korona 2-4 ",
+      "éves fás része. Mindig levél nélküli, csak vesszők találhatók rajta."
+    ],
+    [
+      "Fajtái",
+      ":"
+    ],
+    [
+      "hajtógally:",
+      " feladata a korona minden irányú növelése."
+    ],
+    [
+      "termőgally",
+      ": a termőrészek összességének elnevezése."
+    ],
+    [],
+    [
+      "Az ",
+      "ág",
+      " a hároméves és annál idősebb koronarész. Ezeken találhatók a fa ",
+      "vegetatív (gyökér, szár, levél)",
+      " és ",
+      "generatív",
+      " (virág, termés, mag) ",
+      "szervei",
+      ". Az á",
+      "gak egymáshoz való viszonyukkal kialakítják a koronát.",
+      ""
+    ],
+    [],
+    [
+      "A ",
+      "levelek",
+      " a növények hajtástengelyének zöld klorofillban, azaz színtestekben gazdag szervei."
+    ],
+    [],
+    [
+      "A levélen megy végbe a ",
+      "fotoszintézis",
+      " és a ",
+      "transpirációs",
+      " folyamat."
+    ],
+    [
+      "Fotoszintézis során a növények szervetlen anyagból, azaz szén-dioxidból és vízből fényenergia kémiai energiává alakítása mellett szerves anyagot, glükózt (cukrot) állítanak elő, miközben oxigén képződik."
+    ],
+    [],
+    [
+      "A transpiráció a növényeken átáramló víz leadása, párologtatása. Ez egy élettani folyamat, melynek során a növényi test a felvett víz nagy részét vízgőz formájában kibocsájtja a légkö",
+      "rbe."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "11",
+      "",
+      ". ábra:",
+      " A levél szöveti felépítése"
+    ],
+    [
+      "Forrás: ",
+      "https://slideplayer.hu/slide/2195283/",
+      " ",
+      "7. o. (Megnyitás: ",
+      "2024",
+      ".",
+      "07.04",
+      ".)"
+    ],
+    [],
+    [
+      "A levél felső és alsó levélfelületét ",
+      "epidermisz",
+      ", azaz ",
+      "bőrszövet",
+      " határolja. Ennek sejtfalai, valamint a kutikulabevonat megvédik a leveleket a transpirációs veszteségektől. (",
+      "11. ábra",
+      ")"
+    ],
+    [
+      "A ",
+      "kutikula",
+      " viaszos réteg, amely véd a fizikai, kémiai behatások ellen, valamint vízzáró feladata is van."
+    ],
+    [],
+    [
+      "A fotoszintézis során a gázcsere és az ahhoz kapcsolódó vízpáraleadás (transpiráció) az epidermiszben lévő gázcserenyílásokon (sztómákon) keresztül történik."
+    ],
+    [
+      "A ",
+      "gázcserenyílás (sztóma)",
+      " lényegében két zárósejtből áll, ezek egy nyitó-záró mechanizmust képeznek, amely biztosítja a megfelelő gázcserét. Szűkös vízellátás esetén pedig megakadályozza a magas transpirációs veszteséget. (",
+      "12. ábra",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "12",
+      "",
+      ". ábra:",
+      " Gázcserenyílás (sztóma)"
+    ],
+    [
+      "Forrás: ",
+      "http://havassy.blogspot.com/2012/05/erdei-pajzsika-borszovet-gazcserenyilas.html"
+    ],
+    [
+      "(Megnyitva: ",
+      "2024",
+      ".",
+      "06",
+      ".28.)"
+    ],
+    [],
+    [
+      "A levél részei: levéllemez, levél színe, levél fonákja, levélnyél, levélalap, levélerezet."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "13",
+      "",
+      ". ábra:",
+      " A levél részei"
+    ],
+    [
+      "Forrás: ",
+      "https://slideplayer.hu/slide/2195283/",
+      " ",
+      "3. o. (Megnyitva: ",
+      "2024.07.08.",
+      ")"
+    ],
+    [],
+    [
+      "A levéllemez alapján megkülönböztethető: (14. ábra)"
+    ],
+    [
+      "egyszerű levél és"
+    ],
+    [
+      "összetett levél",
+      ":"
+    ],
+    [
+      "szárnyasan összetett levél: ",
+      "páratlanul (pl.: bodza) vagy ",
+      "párosan (pl. licsi)"
+    ],
+    [
+      "tenyeresen vagy ujjasan összetett levél (pl.: gesztenye)"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "14",
+      "",
+      ". ábra:",
+      " A levelek alaki típusai"
+    ],
+    [
+      "Forrás: ",
+      "https://docplayer.hu/6368056-Egyszeru-levelek-osszetett-levelek.html",
+      " ",
+      "2. o. ",
+      "(M",
+      "egnyitva: ",
+      "2024.07.04.",
+      ")"
+    ],
+    [],
+    [
+      "A levél erezete alapján ",
+      "megkülönböztethető: (15. ábra)"
+    ],
+    [
+      "párhuzamosan vagy ívesen mellékeres erezet,"
+    ],
+    [
+      "villás erezet, valamint"
+    ],
+    [
+      "szárnyasan vagy tenyeresen főeres elágazó erezet:"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "15",
+      "",
+      ". ábra:",
+      " A levél erezete"
+    ],
+    [
+      "Forrás: ",
+      "http://novtan.emk.nyme.hu/novtan/tantargy/alaktan/15_total.htm",
+      " ",
+      "(M",
+      "egnyitva: ",
+      "2024.07.08.",
+      ")"
+    ],
+    [],
+    [
+      "Levéltípusok:"
+    ],
+    [
+      "sziklevél",
+      ":",
+      " a csíranövény első levelei. A kétszikűeknek kettő darab sziklevelük van, az egyszikűeknek egy darab."
+    ],
+    [
+      "allevelek",
+      ":",
+      " a hajtás alsó, többnyire a föld alatt fejlődő csökevényes levelei. A rügy védelmét biztosító hártyás rügytakarók és kemény rügypikkelyek is allevelek. (",
+      "16. ábra",
+      ") Egyes pikkelylevelek tartalék tápanyagot is tartalmaznak, pl. a hagyma esetében."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "16",
+      "",
+      ". ábra: ",
+      "Vadgesztenye rügypikkely allevele"
+    ],
+    [
+      "Forrás: ",
+      "http://www.plantarium.hu/wp-content/uploads/2012/05/Vadgesztenye-rügypikkely-allevelek.jpg",
+      " ",
+      "(M",
+      "egnyitva: ",
+      "2024.07.08.",
+      ")"
+    ],
+    [],
+    [
+      "fellevelek",
+      ":",
+      " lomblevelek szintje felett helyezkednek el, csökevényesek, levélnyél nélküliek."
+    ],
+    [
+      "murvalevél",
+      ":",
+      " azok a fellevelek, amelyek hónaljából virág vagy virágzat fejlődik. Az ernyővirágzat (pl. sárgarépa) elsőrendű elágazásainál lévő murvaleveleket gallérleveleknek nevezik."
+    ],
+    [
+      "pelyva",
+      ": ",
+      "a pázsitfüvek részvirágzatát (füzérkéjét) borító két fellevél. A füzérkék egyes virágait is fedi két fellevél, ami a toklász."
+    ],
+    [
+      "fészekpikkelyek",
+      ":",
+      " fészekvirágzatúak (pl.: napraforgó) fellevele",
+      "."
+    ],
+    [
+      "virágzati ",
+      "buroklevél",
+      ":",
+      " kocsányon növő és a virágot fiatalon beburkoló fellevél."
+    ],
+    [
+      "kupacslevél",
+      ": ",
+      "a bükk- és a nyírfélék termős virágait veszik körül és terméséréskor a termést körülvevő kupaccsá fejlődnek."
+    ],
+    [],
+    [
+      "A levélnek ‒ attól függően, hogy a hol helyezkedik el a hajtáson, illetve a fa koronáján belül, és milyen funkciót lát el, különböző módosulatai is léteznek. A ",
+      "módosult levél",
+      " eltérő funkció betöltésére alakult át."
+    ],
+    [],
+    [
+      "Típusai",
+      ":"
+    ],
+    [
+      "levélkacs",
+      ": kapaszkodószervvé módosult levél."
+    ],
+    [
+      "levélkekacs",
+      ": a párosan szárnyalt, összetett levél gerincének a csúcsán kapaszkodószervvé módosult levélke."
+    ],
+    [
+      "levéltövis",
+      ": védelmi célú módosulás, tövissé redukálódott, elfásodott lomblevél."
+    ],
+    [
+      "kupacslevél",
+      ": a bükk- és nyírfafélék termős virágát, majd makktermését burokszerűen borító, elfásodó levélmódosulás."
+    ],
+    [
+      "szukkulens levél",
+      ": nagy mennyiségű víz megtartására képesek. Ilyenek a pozsgások."
+    ],
+    [
+      "a törzsszukkulensek a megvastagodott, húsos, pozsgás törzsükben tárolják a vizet,"
+    ],
+    [
+      "a levélszukkulensek megvastagodott húsos, pozsgás leveleikben tárolják a vizet."
+    ],
+    [
+      "rovarfogó levél:",
+      " változatos felépítésű csapdákká alakult levelek, fehérjeemésztő nedvet termelő sejtekkel rendelkeznek. Így képesek lebontani és hasznosítani az elfogott zsákmányt."
+    ],
+    [
+      "gyökérszerű levél:",
+      " vízinövények alámerült leveleire jellemző módosulás. A levelek erősen tagoltak, nagy felületen érintkeznek a vízzel, gyökérszerű funkcióval rendelkeznek.",
+      ""
+    ],
+    [],
+    [
+      "A ",
+      "virág",
+      " a növény generatív része, szaporodásért felelős szerve."
+    ],
+    [
+      "Részei: (",
+      "17. ábra",
+      ")"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "17",
+      "",
+      ". ábra:",
+      " A virág részei"
+    ],
+    [
+      "Forrás: ",
+      "https://hu.pinterest.com/pin/361765782539854879/",
+      " ",
+      "(Megnyitás: ",
+      "2024.07.08.",
+      ")"
+    ],
+    [],
+    [
+      "A ",
+      "kocsány",
+      " a virágnak vagy a termésnek a hosszabb-rövidebb nyele."
+    ],
+    [
+      "A ",
+      "vacok",
+      " a kocsány végének megvastagodott csúcsa, amin elhelyezkednek a virág többi ",
+      "részei."
+    ],
+    [],
+    [
+      "A ",
+      "porzó",
+      " ",
+      "rendszerint porzószálból és egy megnagyobbodott részből, a portokból áll. Ez utóbbi tartalmazza a pollenzsákot a benne lévő virágporral."
+    ],
+    [],
+    [
+      "A ",
+      "termőt",
+      " a termőlevelek alkotják, bibéből, bibeszálból és magházból áll. A magházban egy vagy több magkezdemény található."
+    ],
+    [],
+    [
+      "Magkezdemény",
+      ": megporzás után belőle fejlődik ki a mag."
+    ],
+    [
+      "A ",
+      "csészelevelek",
+      " ",
+      "a virág külső takarólevelei, mindig zöldek. Ezek védik, betakarják a különböző fejlődő virágrészeket."
+    ],
+    [
+      "A ",
+      "sziromlevelek",
+      " a virág csészeleveleken belüli levelei. Takarják a porzót és a termőt.  Általában színesek, ezért vonzzák a rovarokat."
+    ],
+    [],
+    [
+      "A gyümölcsfák virágai",
+      ":"
+    ],
+    [
+      "állhatnak magányosan, pl.: a kajszibarack esetében;"
+    ],
+    [
+      "gyakoribb, hogy a virágok ",
+      "csoportosan helyezkednek el, ún. virágzatokat alkotnak, pl. cseresznye esetében."
+    ],
+    [],
+    [
+      "Ha a ",
+      "virágzati tengely",
+      ":"
+    ],
+    [
+      "nem ágazik el, egyszerű, ha"
+    ],
+    [
+      "elágazik, összetett virágzatról beszélünk."
+    ],
+    [
+      "Gyümölcstermő növények termőrésze",
+      "i",
+      ""
+    ],
+    [
+      "A",
+      " ",
+      "termőrészek",
+      " azok a hajtásképletek, amelyeken egy-egy gyümölcsfajra jellemzően a virág- (vagy vegyes)",
+      " ",
+      "rügyek képződnek. A megfelelő mennyiségű és fejlettségű termőrész kialakulása a fiatal fák termőre fordulásának, illetve termőkorú fák évente közel egyenletes terméshozásának alapfeltétele."
+    ],
+    [
+      "Termőrészek csoportosítása"
+    ],
+    [
+      "A termőrészek hosszúsága",
+      " ",
+      "változó: a rövid képződménytől a hosszú vesszőig minden átmenet ",
+      "előfordul.",
+      " ",
+      "Vastagságuk pár mm-től kb. ceruzavastagságig terjed.",
+      " ",
+      "A vesszők csúcsán",
+      " ",
+      "duzzadt termőrügy van (esetenként hajtásrügy), amely tartalma szerint vegyesrügy (minél rövidebb a vessző, annál valószínűbb a termőrügy).",
+      " ",
+      "A vesszők oldalán szórt állásban, magánosan vagy csoportosan elhelyezkedő, főleg hajtásrügyek, egyes fajtáknál termőrügyek is találhatók."
+    ],
+    [],
+    [
+      "Rövid ",
+      "termővesszők"
+    ],
+    [
+      "Dárda",
+      ": 0,5–5 cm hosszú, egyéves termőrész, a végén vegyesrügy, az oldalán fejletlen hajtásrügy található. (",
+      "18. ábra",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "18",
+      "",
+      ". ábra",
+      ": Dárda almán"
+    ],
+    [
+      "Forrás: saját kép"
+    ],
+    [],
+    [
+      "Sima termőnyárs:",
+      " 5–15 cm",
+      " ",
+      "hosszú, csúcsán vegyesrügy, az oldalán fejlett hajtásrügy található. (",
+      "19. ábra",
+      ")"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "19",
+      "",
+      ". ábra:",
+      " Sima termőnyárs almán"
+    ],
+    [
+      "Forrás: saját kép"
+    ],
+    [
+      "Gyűrűs termőnyárs",
+      ":",
+      " ",
+      "A dárdából alakul oly módon, hogy a dárda csúcsán található hajtásrügy rövid hajtást hoz, és a levelek lehullása után a ",
+      "levélripacsok",
+      " ",
+      "helye évenként gyűrűszerűen alakul, végül a csúcsi rész virágrügyben zárul. (",
+      "20. ábra",
+      ")"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "20",
+      "",
+      ". ábra:",
+      " Gyűrűs termőnyárs körtén"
+    ],
+    [
+      "Forrás: saját kép"
+    ],
+    [],
+    [
+      "Tövises termőnyárs:",
+      " ",
+      "Olyan rövid termővessző, mely sok hasonlóságot mutat a sima termőnyárssal, a dárdával, de a csúcsa hosszabb-rövidebb tövis. (",
+      "21. ábra",
+      ")"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "21",
+      "",
+      ". ábra:",
+      " Tövises termőnyárs körtén"
+    ],
+    [
+      "Forrás: saját kép"
+    ],
+    [],
+    [
+      "Termőbog vagy termőkalács",
+      ": ",
+      "rövid, többéves termőrész. Úgy keletkezik, hogy a virágrügyből képződött rövid hajtás és a virágzati tengely megvastagszik, húsos állományú lesz. Fejlődése a gyümölcs fejlődésével egyidejű. (",
+      "22. ábra",
+      ")"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "22",
+      "",
+      ". ábra:",
+      " Termőbog körtén"
+    ],
+    [
+      "Forrás: saját kép"
+    ],
+    [],
+    [
+      "Bokrétás termőnyárs:",
+      " ",
+      "rövid szártagú termővessző, csúcsán három vagy több rügy helyezkedik el. A középső rügye karcsú hajtásrügy, a többi körülötte virágrügy. (",
+      "23. ábra",
+      ")"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "23",
+      "",
+      ". ábra:",
+      " Bokrétás termőnyárs cseresznyén"
+    ],
+    [
+      "Forrás: saját kép"
+    ],
+    [],
+    [
+      "Középhosszú ",
+      "termővessző (24. ábra)"
+    ],
+    [
+      "10–40 cm hosszú, a végén vegyesrügy található, amit soha ",
+      "nem szabad visszavágni, mert kihajtásukat követően a hajtás csúcsán virág vagy virágzat képződik belőlük. A rendszeresen metszett fákon a jó termőképességet jelzi. Az oldalán hajtásrügy található, a csúcsán pedig vegyesrügy. A felső hajtásrügyből hosszú vagy középhosszú, az alsókból rövid hajtások vagy termőrészek képződnek."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "24",
+      "",
+      ". ábra: ",
+      "Középhosszú és hosszú termővessző almán"
+    ],
+    [
+      "Forrás: saját kép"
+    ],
+    [],
+    [
+      "Teljes termővessző",
+      ": általában hármas vegyes rügycsoportokkal van végig berakódva. (",
+      "25., 26. ábra",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "25",
+      "",
+      ". ábra:",
+      " Teljes termővessző őszibarackon"
+    ],
+    [
+      "Forrás: saját kép"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "26",
+      "",
+      ". ábra:",
+      " Hármas vegyes rügycsoport őszibarackon"
+    ],
+    [
+      "Forrás: saját kép"
+    ],
+    [
+      "Hiányos ",
+      "termővessző:",
+      " magányos termőrügyekkel is, de főleg hajtásrügyekkel és kettes vegyesrügycsoporttal van berakódva. (",
+      "27., 28. ábra",
+      ")"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "27",
+      "",
+      ". ábra:",
+      " Hiányos termővessző őszibarackon"
+    ],
+    [
+      "Forrás: saját kép"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "28",
+      "",
+      ". ábra: ",
+      "Hiányos termővesszőn kettes vegyesrügycsoport és egyes hajtórügy őszibarackon"
+    ],
+    [
+      "Forrás: saját kép"
+    ],
+    [],
+    [
+      "Hosszú ",
+      "termővessző",
+      ": ",
+      "40 cm-nél hosszabb, csúcsán vegyesrügy, oldalán hajtásrügy található. A felső hajtásrügyből hosszú vagy középhosszú hajtás hajt ki, a legalsó rügyek legtöbbször nem hajtanak ki. (",
+      "24. ábra",
+      ")"
+    ],
+    [
+      "Dárdás termőgally:",
+      " az",
+      " ",
+      "egyéves termővesszőből az évek során kialakult termőrész, tehát többéves, amin végig dárdák találhatók. (",
+      "29. ábra",
+      ")"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "29",
+      "",
+      ". ábra:",
+      " Dárdás termőgally almán"
+    ],
+    [
+      "Forrás: saját kép"
+    ],
+    [
+      "A gyümölcstermő növények ",
+      "termőrészei"
+    ],
+    [
+      "Almagyümölcsűek (a",
+      "lmatermésűek) termőrészei:"
+    ],
+    [],
+    [
+      "Egyéves termőrészek:"
+    ],
+    [
+      "dárda"
+    ],
+    [
+      "sima termőnyárs"
+    ],
+    [
+      "tövises termőnyárs"
+    ],
+    [
+      "középhosszú termővessző"
+    ],
+    [
+      "hosszú termővessző (ritkább)"
+    ],
+    [
+      "Két- vagy többéves termőrészek:"
+    ],
+    [
+      "dárdás termőgally"
+    ],
+    [
+      "gyűrűs termőnyárs"
+    ],
+    [
+      "termőbog vagy termőkalács"
+    ],
+    [
+      "Csonthéjas gyümölcsűek (csonthéjasok) és a ",
+      "mandula termőrészei:"
+    ],
+    [
+      "bokrétás termőnyárs"
+    ],
+    [
+      "tövises termőnyárs"
+    ],
+    [
+      "termőnyárs"
+    ],
+    [
+      "teljes termővessző"
+    ],
+    [
+      "hiányos termővessző"
+    ],
+    [
+      "Héj",
+      "a",
+      "s gyümölcsűek, héjasok termőrészei:"
+    ],
+    [
+      "virágrügy – nővirág vegyesrügy, hímvirág barkarügy"
+    ],
+    [
+      "hajtásrügy"
+    ],
+    [
+      "termőnyárs (mogyoró)"
+    ],
+    [
+      "rövid termővessző (mogyoró)"
+    ],
+    [
+      "hosszú termővessző (mogyoró)"
+    ],
+    [
+      "Bogyós gyümölcsűek (bogyósok) ",
+      "termőrészei:"
+    ],
+    [
+      "termőnyárs (piros ribiszke, köszméte)"
+    ],
+    [
+      "hosszú termővessző (fekete ribiszke, málna)"
+    ],
+    [
+      "középhosszú termővessző (fekete ribiszke, köszméte)"
+    ],
+    [
+      "dárda (köszméte)"
+    ],
+    [
+      "Virágképződés, rügydifferenciálódás"
+    ],
+    [
+      "A termőrügyképződést a gyümölcstermesztésben ",
+      "rügydifferenciálódásnak",
+      " nevezik. Ennek az ismerete fontos, hisz így lehet megfelelő termesztéstechnológiai eljárásokkal a gyümölcsfa életébe beavatkozni. Virágrügyek differenciálódásakor új szerv képződik. Az, hogy mikor kezdődik el, függ a fajtól, fajtától."
+    ],
+    [],
+    [
+      "A gyümölcsfák termőrészei a virágképződéssel ",
+      "vegetatív ",
+      "rügyek ",
+      "helyett",
+      " generatív ",
+      "rügyeket",
+      " hoznak. Ennek során a rövidhajtások vegetatív rügyeinek belsejében lévő ",
+      "csúcsmerisztémák",
+      " ",
+      "a rügyfakadást követően hosszirányban megnőnek, majd kb. június közepéig meghatározott számú levélkezdeményt képeznek. Ebben a szakaszban a rügyek olyan impulzust kapnak, amely a korábbi vegetatív fejlődésüket generatív irányba tereli. Hazánkban a virágrügyek fejlődése nyár végén, ősszel befejeződik és csak a hormonális változások után, ami a hideg hatására játszódik le, tavasszal folytatódik."
+    ],
+    [],
+    [
+      "A hazánkban termesztett gyümölcsök virágképződése az előző évben, a fa vegetációs ciklusának bizonyos időszakában alakul ki, és függ a gyümölcsfajtól is."
+    ],
+    [],
+    [
+      "A rügydifferenciálódás az egyes fajokat tekintve a következő sorrendben történik:"
+    ],
+    [
+      "bogyós gyümölcsök (bogyósok)"
+    ],
+    [
+      "csonthéjas gyümölcsök (csonthéjasok)"
+    ],
+    [
+      "almatermésűek "
+    ],
+    [
+      "héjas gyümölcsűek (héjasok)"
+    ],
+    [],
+    [
+      "A következő időszakban a virágkezdemények teljes virágokká fejlődnek: szeptemberben és október‒novemberben rövid idő alatt megjelennek a csészelevél-, a viráglevél-, a porzólevél- és a termőlevél‒kezdemények."
+    ],
+    [
+      "A virágképződés előfeltételei"
+    ],
+    [
+      "Minden gyümölcsfajta arra hivatott, hogy virágozzon, majd termést hozzon és érlelje is azt be. Viszont a fiatal gyümölcsfák először egy vegetatív növekedési szakaszon mennek keresztül, és csak azután hoznak virágot."
+    ],
+    [],
+    [
+      "A virágrügyek képződését több tényező is befolyásolja:"
+    ],
+    [
+      "a hajtások hossza (hosszú vagy rövid): a növekedés intenzitása és a virágképződés között negatív kapcsolat áll fenn. A csökkenő, viszonylag gyenge hajtásnövekedés kedvezően hat a rügydifferenciálódásra. A rövid termőrészek hamarabb befejezik a növekedésüket, így a virágrügyek rajtuk korábban kialakulnak."
+    ],
+    [
+      "a fajta: a gyümölcsfajok fajtái között 1-2 hét eltérés is lehet a rügydifferenciálódás idejében."
+    ],
+    [
+      "a tápanyagellátás: a nitrogénellátottság és a foszfor jelenléte segíti az ép, egészséges virágrügyek képződését."
+    ],
+    [
+      "az ökológiai tényezők mindegyike (hőmérséklet, csapadék, napfény) együttesen hatással van a virágrügyképződésre. A felsoroltak közül mégis a legdöntőbb ökológiai tényező a csapadék. Ha az évben túl sok csapadék hullott, ebből adódóan kevés volt a napfényes órák száma, a hajtások nem olyan ütemben fejlődnek, lelassulnak, így a rügyfejlődés is visszaesik. Aszályos évben az tapasztalható, hogy a hajtások gyengén fejlődnek, rajtuk ugyan viszonylag sok virágrügy képződik, de ezek a rügyek sokszor nem tudnak kifejlődni, mert nem állt a differenciálódás korai szakaszában elegendő csapadék és tápanyag a növény részére."
+    ],
+    [
+      "az öntözés: ha van rá mód, a rügydifferenciálódás idejében szükséges öntözni, mert ezzel erősen befolyásolható a jobb eredmény."
+    ],
+    [
+      "a metszés ideje és erőssége: ha túl erősen és túl korán metszenek, akkor később kezdődik el a virágrügyek fejlődése."
+    ],
+    [
+      "termésmennyiség, azaz a berakódottság: ha kevés termés kötődött meg a fán, korábban megjelennek a virágkezdemények, mintha sok gyümölcs kötődött volna meg."
+    ],
+    [
+      "hormonrendszer: a gyümölcsfák ",
+      "gibberellintartalmának",
+      " csökkentésével javítható a virágképződés, ami gyümölcsritkítással érhető el. A ",
+      "gibberellin",
+      " egy olyan növényi hormon, ami fokozza a növény növekedését, ami negatívan hat a virágdifferenciálódásra."
+    ],
+    [
+      "az alany is hatással van a differenciálódásra. Azokon az alanyokon, amelyek gyengén növekednek, a virágképződés hamarabb elkezdődik, mert a hajtásnövekedésük is korábban fejeződik be."
+    ],
+    [
+      "művelési rendszerrel: alannyal, fajtával, koronaformával, metszéssel, térállással javítható a virágrügyek fejlődése. Ha koronát jól át tudja járni a nap, hamarabb kezdenek kialakulni a virágrügyek, mint a sűrű korona esetén."
+    ],
+    [
+      "Virágminőség"
+    ],
+    [
+      "A sikeres megtermékenyülés, a termésfejlődés korai szakaszai és a gyümölcsérésig tartó teljes időszak szorosan összefügg a virág minőségével, amely a magház és a porzók fejlettségében, a virágzatban lévő virágok számában nyilvánul meg."
+    ],
+    [],
+    [
+      "A virágok megtermékenyüléséhez termőre és porzóra van szükség. A pollenszemek száma és a tápanyagtartalékok szintén fontos szerepet játszanak. Ez utóbbiak hatással vannak a pollentömlő növekedésére, és hozzájárulnak ahhoz, hogy a megtermékenyülés akkor is lehetővé váljon, ha virágzáskor kedvezőtlenek az időjárási viszonyok."
+    ],
+    [],
+    [
+      "A megtermékenyülés eredményességét többek között a magok száma is tükrözi. A bennük képződő növényi hormonok nagymértékben meghatározzák a termések tápanyagfelvevő képességét és ezáltal fejlődési esélyeit. Az elégtelen magszám az almatermésűeknél többek között a termés rendellenes fejlődéséhez vezethet, és így ronthatja a gyümölcs piaci minőségét."
+    ],
+    [],
+    [
+      "Az ősz eleji ",
+      "rügyvizsgálat",
+      " korai információt adhat a virágrügyek várható számáról és minőségéről, és így jelezheti, hogy célszerű-e beavatkozásokat végezni a rügyek minőségének javítása érdekében. A vizsgálat során azt is meg kell állapítani, hogy a potenciális virágrügyek viszonylag erősek-e, vagy csak gyengén fejlettek, ugyanis az erős rügyek mindig biztatók, és ha nem is tartalmaznak virágkezdeményeket, kedvező kiindulási alapot képeznek a jövő évi megfelelő virágképződéshez."
+    ],
+    [
+      "Alternancia"
+    ],
+    [
+      "Az ",
+      "alternancia",
+      " a gyümölcsfák terméshozamának hosszabb időn át tartó időszakos ingadozása. Ezt a jelenséget elsősorban a túl nagy terméssűrűség okozza, de kiválthatja késői fagy, a túl erős hajtásnövekedés, a szélsőséges metszés vagy a túl sok kijuttatott nitrogén is."
+    ],
+    [],
+    [
+      "Az alacsony terméshozamú években többnyire túl sok, a jól termő években túl kevés virágrügy képződik. A virágképződés szabályozása érdekében megfelelő időben megfelelően ",
+      "erős ritkítást kell végezni, a metszés és a trágyázás során pedig a kiegyensúlyozott hajtásképződésre kell törekedni."
+    ],
+    [],
+    [
+      "Még a látszólag rendszeresen termő gyümölcsfák is mutathatják az alternancia tüneteit, ami abban nyilvánul meg, hogy a fának minden évben csak egy része hoz teljes termést, a többi részének pedig többé-kevésbé csökken a terméshozama. A következő évben a helyzet megfordul. Így az évek során úgy tűnik, mintha megközelítőleg kiegyensúlyozott lenne a hozamteljesítmény."
+    ],
+    [],
+    [
+      "Nem minden gyümölcsfaj és -fajta alternál azonos mértékben. Az alma és a körte általában erősen hajlamos az alternálásra, a csonthéjasok kevésbé, a bogyós gyümölcsök pedig szinte soha."
+    ],
+    [],
+    [
+      "Az alternáló ültetvényekben a virágoknak nemcsak a száma, hanem a minősége is évről évre változik. Így a terméskötődési nehézségek és a gyümölcsminőséggel kapcsolatos problémák már a vegetáció kezdetén adottak lehetnek. Az alternancia mértéke az ültetvények gazdaságossága szempontjából döntő fontosságú."
+    ],
+    [
+      "A növekedés és a termőképesség közötti összefüggések"
+    ],
+    [
+      "A gyümölcsfák és -cserjék vegetatív és generatív szerveinek fejlődése szorosan összefügg egymással."
+    ],
+    [],
+    [
+      "A virágképződés fajtól függően a fa vagy a cserje bizonyos régióira koncentrálódik. A legnagyobb virágzási hajlandóság olyan hajtásokon mutatkozik, amelyek növekedése közepesen gátolt, és így terméshajtásaik optimális vastagságúak. Az erősebb növekedésű területek felé haladva jellegzetes vegetatív hatású „átmeneti rügyek” képződnek. Az erősen gátolt területekhez közeledve a virágok egyre csökevényesebbek, vagy egyáltalán nem képződnek."
+    ],
+    [
+      "A termőág hossza:",
+      " Minden gyümölcsfaj és -fajta más-más hajtáshossztartományt részesít előnyben a virágképzéshez."
+    ],
+    [
+      "Az egyes fajok esetében a következő tartományok optimálisak:"
+    ],
+    [
+      "cseresznye: 0,3‒25 cm,"
+    ],
+    [
+      "alma és körte: 1‒25 cm,"
+    ],
+    [
+      "kajszi, szilva, meggy: 0,3‒50 cm,"
+    ],
+    [
+      "őszibarack: 20‒80 cm."
+    ],
+    [
+      "ribizli: ",
+      "a rövid (1-3 cm) hajtásain ",
+      "hozza a virágokat"
+    ],
+    [
+      "málna, szeder: bármilyen hosszúságú vesszőn képes virágot hozni."
+    ],
+    [
+      "a szamóca esetében a legtöbb virágrügyet a ",
+      "közepes növekedési erélyű növények hozzák. Ha a növekedés túl intenzív, a termőképesség csökken."
+    ],
+    [],
+    [
+      "Alacsony terméshozamú években a virágzás nagyrészt az optimális hajtáshossztartományra korlátozódik. Teljes terméshozamú években a viszonylag rövid és a túl hosszú hajtások is termést hoznak."
+    ],
+    [],
+    [
+      "A virágrügyek elhelyezkedése:"
+    ],
+    [
+      "Az almatermésűeknél a hajtáscsúcsokon elhelyezkedő rügyeknek jobbak a fejlődési esélyeik, mint az oldalrügyeknek."
+    ],
+    [
+      "A csonthéjasoknál a kifejlődő virágrügyek mindig oldalrügyek."
+    ],
+    [],
+    [
+      "Mindkét fajnál a kétéves ágszakaszokon jelentkezik a legtöbb virág. Minél idősebb a termőág, annál gyengébb a virágzási hajlandóság."
+    ],
+    [
+      "Az almánál, a körténél, a szilvánál és a meggynél a virágzási zóna a három- és négyéves ágszakaszig terjed."
+    ],
+    [
+      "Az őszibarack rövidhajtásai rendkívül rövid életűek, a cseresznye rövidhajtásai viszont különösen hosszú ideig virágzóképesek."
+    ],
+    [],
+    [
+      "Valamennyi gyümölcsfajnál a legtöbb és legjobban fejlett rügy a korona jól megvilágított részein, a leggyengébb virágrügyek pedig a korona belső részén találhatók."
+    ],
+    [
+      "A virágzási hajlandóság a bokros bogyós gyümölcsöknél is csökken a termőágak életkorának előrehaladtával. A málna és a szeder esetében ilyen probléma nem merül fel, mivel a hajtások és az indák eleve csak két évig élnek."
+    ],
+    [
+      "A termések hatása",
+      ":",
+      " a termések a vegetatív szervek konkurensei a szénhidrátokért folytatott versenyben. Jelentős mértékben beavatkoznak a növekedési erély, valamint a virág- és termésképződés szabályozásába. A hajtás – termés – gyökér láncban általában ők a legerősebb tápanyagfelhalmozók. A nagy termőképességű fák ezért gyengébben nőnek, mint a kevésbé termőképesek, és kevesebb tápanyagot hagynak a gyökér számára."
+    ],
+    [
+      "A túl nagy termőképesség mindenekelőtt csökkenti a termésminőséget, és gyengébb növekedést, alacsonyabb tápanyagfelvételt, valamint a gyökér fejlődési tevékenységének korlátozását eredményezi."
+    ],
+    [
+      "A virágtól a termésig"
+    ],
+    [
+      "Megporzás"
+    ],
+    [
+      "Az előző évi jó virágrügydifferenciálódás feltétele a megfelelő virágzásnak. Viszont jó termésmennyiség csak úgy lehetséges, ha a pollenszemek megfelelő időben jutnak el a bibére és azok ott meg is tapadnak."
+    ],
+    [],
+    [
+      "A virágpor egyik növényről a másikra történő átvitelét a szél és/ vagy a rovarok biztosítják. A ",
+      "szélbeporzású",
+      " növényeket ",
+      "anemofil",
+      " ",
+      "növényeknek nevezik, a ",
+      "rovarporozta",
+      " növényeket pedig ",
+      "entomofilnak",
+      "."
+    ],
+    [],
+    [
+      "A növények nagy mennyiségű szálló pollent termelnek, és nagy felületű, szerteágazó bibével rendelkeznek, amelyek a virágpor felfogására szolgálnak. A szélbeporzású növények közé tartozik többek között a mogyoró, a gesztenye és a dió. (",
+      "30., 31., 32., 33. ábra",
+      ")"
+    ],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "30",
+      "",
+      ". ábra:",
+      " A dió női virága"
+    ],
+    [
+      "Forrás: saját kép"
+    ],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "31",
+      "",
+      ". ábra:",
+      " A dió porzós virága"
+    ],
+    [
+      "Forrás: saját kép"
+    ],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "32",
+      "",
+      ". ábra:",
+      " A mogyoró női és porzós virága"
+    ],
+    [
+      "Forrás: saját kép"
+    ],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "33",
+      "",
+      ". ábra:",
+      " A gesztenye női és porzós virága"
+    ],
+    [
+      "Forrás: saját kép"
+    ],
+    [],
+    [
+      "A szél általi pollenátvitel leginkább az ",
+      "öntermékenyülő (önbeporzó) fajtáknál",
+      " képzelhető el, mivel ezeknek a virágjaiban csak rövid távolságot kell legyőzni a portoktól a bibéig. Azonban ezeknél a fajoknál is jelentősen növelhető a terméshozam méhek segítségével. Az öntermékenyülő fajták esetében a szélmegporzás önmagában nem elegendő. Ha a virágport messzebbre, például több sornyi távolságra kell szállítani, a szélmegporzásnak gyakorlatilag nincs jelentősége, mivel a pollen mennyisége viszonylag kicsi, és nehezen száll."
+    ],
+    [],
+    [
+      "A többi gyümölcsfajtát általában rovarok porozzák be. Ezek a növények viszonylag kis mennyiségű virágport termelnek. A pollenszemek gyakran összetapadnak és nehezen szállnak."
+    ],
+    [],
+    [
+      "A rovarmegporzású növények feltűnően színes virágszerveikkel vonzzák a rovarokat, amelyek virágpor- és nektárgyűjtés közben beporozzák őket. A megporzásban a mézelő méhek játsszák a legfontosabb szerepet. A poszméhek is fontos beporzók, mivel alacsonyabb hőmérsékleten is kirepülnek, amikor a méhek a kaptárban tartózkodnak."
+    ],
+    [],
+    [
+      "A méhek és a poszméhek különbséget tudnak tenni a jó és a rossz mézelő növények között. Ennek egyik kritériuma a nektár cukortartalma, amely igen változatos lehet. A virágok belsejében lévő mézmirigyek meleg, párás időben különösen sok nektárt választanak ki. A nektár növényfajtól függően 8‒76% cukrot tartalmaz."
+    ],
+    [
+      "Ahhoz, hogy a beporzás kedvezőtlen időjárás esetén is biztosított legyen, a gyümölcsös hektáronkénti területére számítva 2‒4 méhcsalád jelenlétére van szükség."
+    ],
+    [],
+    [
+      "Léteznek",
+      " önbeporzó fajták, de sokkal hatékonyabb az ",
+      "idegen beporzás",
+      ". Önbeporzáskor ugyanazon a virágon lévő virágpor termékenyíti meg a termőt, idegen beporzáskor pedig egy másik egyed pollenje."
+    ],
+    [],
+    [
+      "A megporzást több tényező is befolyásolja:"
+    ],
+    [
+      "időjárás:",
+      " sem a túl magas, sem a túl alacsony hőmérséklet nincs jó hatással a megporzásra. A méhek alacsony hőmérsékleten nem gyűjtenek virágport. A sok csapadék is károsan hat, mert a méhek tartós esőzéskor nem „dolgoznak”. Az erős ",
+      "szél hátránya a portok kiszáradásának a lehetősége, valamint a nagy szélben a méhek sem tudnak repülni, így a megporzási esély csökkenni fog."
+    ],
+    [
+      "együttvirágzás:",
+      " fontos, hogy a porzó és a termő közel egy időben virágozzon. Jó a porzófajta, ha évente rendszeresen és egyszerre virágzik a megporzandó fajtával, így a pollenszóródással ",
+      "egybeesik a bibe és a termő életképessége."
+    ],
+    [
+      "Terméskötődés"
+    ],
+    [
+      "Terméskötődés",
+      " alatt azoknak a virágoknak a százalékos aránya értendő, amelyekből ‒ akár csak átmenetileg is ‒ termés fejlődik."
+    ],
+    [
+      "A cél az évente nagyjából azonos, közepes terméshozam elérése, ami gátolja az alternanciát, és lehetővé teszi a megfelelő méretű termések kifejlődését."
+    ],
+    [
+      "A jó minőségű virágok általában termést hoznak. A minőség a rügy és a virág méretében nyilvánul meg, amely évről évre változik."
+    ],
+    [],
+    [
+      "A rügy és a virág mérete különböző művelési beavatkozásokkal befolyásolható:"
+    ],
+    [
+      "a hajtások lekötésével,"
+    ],
+    [
+      "a betakarítás időpontjának helyes megállapításával,"
+    ],
+    [
+      "karbamiddal (nitrogén tartalmú műtrágya) történő permetezéssel közvetlenül a betakarítás ",
+      "után."
+    ],
+    [],
+    [
+      "A terméskötődés szempontjából kiemelten fontos"
+    ],
+    [
+      "a betakarítás és a lombhullás közötti időszak: a karbamiddal történő permetezés késlelteti a lombhullást, és javítja a fák nitrogénállapotát, ami javítja a rügyek állapotát."
+    ],
+    [
+      "A betakarítás és a lombhullás közötti időszak fontosságát jól mutatják az új-zélandi viszonyok, ahol lényegesen magasabb terméshozamokat értek el gyakorlatilag alternancia nélkül. Az ottani éghajlati viszonyok között a levélhullás csak a betakarítás után hat‒hét héttel következik be, a rügyek így erősebbek lesznek, míg nálunk ez az időszak az első fagyoknál bekövetkezik."
+    ],
+    [
+      "a virágrügyek elhelyezkedése: szintén fontos szerepet játszik a terméskötődés szempontjából. Azoknál a gyümölcsöknél, ahol a virágrügy a csúcsrügy (pl. alma), gyakrabban hoznak termést, mint azok a virágrügyek, amik oldalrügyek, mert a csúcsrügy fejlődik ki és hajt ki először, valamint nagyobb méretű is."
+    ],
+    [
+      "az időjárási viszonyok: módosító tényező a víz és a tápanyag jelenléte vagy hiánya. Ez a termesztő munkájától, szakmai hozzáértésétől és az anyagi lehetőségeitől is függ."
+    ],
+    [
+      "a méhek jelenléte is módosító tényező, a virágzás alatti és röviddel azt követő időjárási viszonyok egyrészt a méhek pollenátvitelén, másrészt a pollentömlők növekedésén keresztül befolyásolják a terméskötődést."
+    ],
+    [
+      "a gyümölcsös helye, a használt alany fajtája és maga a gyümölcsfajta állandó tényező, hiszen már a telepítésnél kiválasztják őket, rajtuk változtatni már nem lehet."
+    ],
+    [],
+    [
+      "Előfordul az is, hogy a virágzás rendben lezajlott, de még sincs termés. Ennek több oka is lehet:"
+    ],
+    [
+      "nincs a közelben pollent adó fajta;"
+    ],
+    [
+      "rosszul végezték el az agrotechnikai feladatokat, tehát a metszést, ritkítást;"
+    ],
+    [
+      "víz- vagy tápanyaghiány lépett fel;"
+    ],
+    [
+      "fagyhatás volt jelen;"
+    ],
+    [
+      "az alany vagy maga a fajta kedvezőtlen hatása."
+    ],
+    [],
+    [
+      "Termékenyülés szerint a gyümölcsök az alábbiak szerint csoportosíthatók:"
+    ],
+    [
+      "öntermékenyülő fajtáknál",
+      " a növény a saját virágporával termékenyül meg. Ebben az esetben a terméshozam és a kötődés kiegyensúlyozott, nagyobb a termésbiztonság, fenntartható a fajtatisztaság."
+    ],
+    [
+      "önmeddő fajtáknál",
+      " a saját virágporával nem tud megtermékenyülni, emiatt porzó fajtára van szükség. Ennek előnye, hogy egy területen több fajta is telepíthető, de a gyümölcsösben elvégzendő munkák viszont nem lesznek egységesek. Ez nagyobb odafigyelést kíván a termesztőtől.",
+      " ",
+      "Itt kell megemlíteni a ",
+      "dichogámia",
+      " ",
+      "jelenséget. Ez a fajta önmeddőség azt jelenti, hogy egy fajtán belül a hím és a női virágok nem egy ",
+      "időben virágoznak, így nem tud bekövetkezni a megtermékenyülés. Fontos, hogy a pollent adó fajta abban az időben virágozzon, mint a termő. Ezt a fajtakiválasztásnál fontos figyelembe venni. Pl.: diónál, mogyorónál, szelídgesztenyénél."
+    ],
+    [
+      "termékenyülési ",
+      "rendellenesség a ",
+      "parthenokarpia",
+      ", amikor megtermékenyülés nélkül is létrejön a gyümölcs, viszont a magvai léhák, vagy ki sem fejlődnek."
+    ],
+    [
+      "xéniának",
+      " nevezik azt a megporzási eredményt, ha a pollenadó fajta tulajdonságait láthatók a hibrid mag szöveteiben. Méret-, alak- és színváltozások figyelhetők meg pl. a meggynél, cseresznyénél."
+    ],
+    [
+      "Metaxeniának",
+      " nevezik azt a megporzási eredményt, amikor a porzó fajta hatása a termésképződményben is megfigyelhető. pl.: almánál, körténél a gyümölcsalak és a szín megváltozását érinti."
+    ],
+    [],
+    [
+      "Terméshullási időszak"
+    ],
+    [
+      "A virágokból nem minden esetben fejlődik termés, még akkor sem, ha kedvezőek az időjárási viszonyok, és a pollenátvitel megfelelően megtörtént. Létezik egy természetes virág-, illetve termésritkulás."
+    ],
+    [],
+    [
+      "Három hullási időszak különböztethető meg:"
+    ],
+    [
+      "Virágzás utáni hullás:",
+      " ez a hullási időszak a gyümölcs fajtájától függően a virágzás után egy‒négy héttel kezdődik. Az almatermésűeknél már azok a virágok is lehullanak, amelyek nem fejlődnek tovább. A csonthéjasoknál a magházak ugyan 4‒5 mm átmérőig megnőnek, azonban a teljes virágzás után négy‒hat héttel lehullanak. Ez az első hullási időszak általában a legintenzívebb. A megtermékenyületlen virágok is lehullanak."
+    ],
+    [
+      "Júniusi terméshullás: ",
+      "a második hullási időszak a virágzás után hat‒nyolc héttel kezdődik; ezt az időszakot az időbeli megjelenése miatt júniusi terméshullásnak nevezik. Az első és a második hullási időszak között egyértelmű összefüggések mutatkoznak. Ha a terméskötődés kiváló, vagyis az első hullás mérsékelt, erősebb júniusi terméshullás várható, és fordítva. Az almatermésűeknél ez a hullási időszak szükséges is, mivel a terméskötődés ‒ hacsak a virágzás alatt nem lép fel alternancia vagy szélsőséges időjárási viszonyok ‒ többnyire túl magas. Más gyümölcsfajok ",
+      "esetében azonban, például a cseresznyénél és a fekete ribiszkénél a júniusi terméshullás jelentős terméskiesést okozhat."
+    ],
+    [],
+    [
+      "A júniusi terméshullás oka nyilvánvalóan az, hogy a fák a túlságosan magas terméskötődés miatt nem képesek elegendő táplálékkal ellátni és beérlelni minden termést."
+    ],
+    [
+      "A folyamatban fontos szerepet játszanak a magvak. A többmagvú termések ‒ például az almatermésűek és a ribiszke ‒ közül általában a kevés maggal rendelkezők hullanak le. Az ilyen termések kisebbek, mivel az elégtelen megtermékenyülés miatt alulmaradnak a tápanyagokért folytatott versenyben."
+    ],
+    [],
+    [
+      "Az egymagvú terméseknél ‒ például a csonthéjasoknál ‒ a terméshullás időpontja szoros összefüggésben áll a magban lévő csíra fejlődésével, ugyanis a júniusi hullás már a csíra intenzív növekedési szakaszának kezdetén jelentkezik. A júniusi terméshullás oka a csíra helyi tápanyagellátásának zavarában keresendő, mivel a fejlődésnek ebben a szakaszában a termés más részeinek is megnő a tápanyagigénye. Emellett az időjárási tényezők is szerepet játszanak a hullás kialakulásában."
+    ],
+    [],
+    [
+      "Szüret előtti terméshullás:",
+      " ",
+      "a harmadik hullási időszak röviddel a szüret előtt következik be. Ennek a gazdasági kára tetemes lehet, mivel már szedésre érett terméseket érint. A szüret előtti terméshullást többek között a szél és a viharok is fokozhatják. Ezért az almatermésűek termesztése erősen szeles területeken csak szélvédő fasorok létesítésével lehetséges.",
+      " ",
+      "A szüret előtti terméshullás intenzitása a gyümölcsfajtól és -fajtától függően változik. Az alma, a körte, a szilva, az őszibarack és a fekete ribiszke különösen veszélyeztetett. A cseresznyénél azonban nincs jelentősége a hullásnak."
+    ],
+    [
+      "Relatív termőképesség:",
+      " ",
+      "a termést hozó virágok százalékos arányát jelenti. A megfelelő méretű, kielégítő terméshozam eléréséhez a kis termésű gyümölcsfajoknak viszonylag több virágból kell termést érlelniük, mint a nagy termésűeknek."
+    ],
+    [
+      "A faj, fajta fogalma, az alany és a fajtahasználat a gyümölcstermesztésbeN"
+    ],
+    [
+      "Faj, fajta"
+    ],
+    [
+      "Egy gyümölcsös életét általában több évtizedre tervezik. Vannak olyan tényezők, amelyeken a telepítés után már nem lehet változtatni. Ezért telepítéskor nagy figyelmet kell fordítani a termőhely megválasztására, hisz annak adottsága nagyban befolyásolja az ültetvény életét. Jól kell kiválasztani a fajtát, olyan legyen, amire van kereslet. Egy kicsit a jövőbe is bele kell látni, fel kell mérni a piaci igényeket. Megfelelő alanyt kell használni, jó térállásba kell ültetni, hisz ezeken változtatni már lehet a jövőben. A fajtaválasztás egy felelősségteljes feladat a gyümölcstermesztésben."
+    ],
+    [],
+    [
+      "Fajnak",
+      " nevezik azokat az élőlényeket, amelyek hasonló alakúak, közös származásúak és egymással termékeny utódokat tudnak létrehozni."
+    ],
+    [],
+    [
+      "Fajtának",
+      " nevezik a fajon belül létrejött változatot. Több fajtát különböztet meg a tudomány. Pl.: fagytűrő fajták, szárazságtűrő fajták, honos fajták stb."
+    ],
+    [],
+    [
+      "Fajtaválasztékon",
+      " a meghatározott területen, azonos időben termesztett és felhasznált fajták összessége értendő. A fajtahasználat folyamatosan változik, a fajtakínálat folyamatosan bővül. Az elavult fajták kezdenek kiszorulni a piacról, helyüket az új, jobb tulajdonságú fajtatípusok veszik át. A gazdaságos termelésnek az alapja az új fajták ismerete, valamint a fajtakínálat figyelemmel kísérése",
+      "."
+    ],
+    [
+      "Fajtahasználat, fajtaválasztás"
+    ],
+    [
+      "Fajtaválasztást meghatározó tényezők:"
+    ],
+    [
+      "A termesztési cél fajonként vagy fajtacsoportonként is eltérhet. ",
+      "Étkezési fajtákat",
+      " azért termesztenek, hogy a fogyasztó a gyümölcsöt szedést követően vagy hosszabb-rövidebb tárolás után természetes minőségében elfogyaszthassa. A friss fogyasztásra szánt gyümölcsöket a minőség megóvása miatt kézzel takarítják be, az",
+      " ipari",
+      " ",
+      "feldolgozásra szánt gyümölcsöket",
+      " pedig géppel. Ezekből az ipar által feldolgozott, emberi fogyasztásra szánt árut készítenek. A termesztők szívesen választják a ",
+      "kettős hasznosítású fajtákat,",
+      " mert nagyobb értékesítési biztonságot remélnek."
+    ],
+    [
+      "A piaci és felhasználói igények",
+      " ",
+      "folyamatosan változnak. Mindig azokat a fajtákat kell telepíteni, amelyek iránt nagyobb a kereslet a felhasználók körében. A fajta minősége mellett más gazdasági tényezők is befolyásolják a fajták ",
+      "piaci értékét",
+      ", például a konkurencia, más termesztők jelenléte a piacon, a szállítási távolság, az értékesítési forma, a kereslet-kínálat, a piaci és ipari felhasználás iránti igény. Az igényes fogyasztók a nemzetközi piac kínálatát is ismerik, amihez érdemes a termesztőnek felzárkózni."
+    ],
+    [
+      "A termőhelyi adottságok, ökológiai feltételek",
+      " ",
+      "a hazánkban nem őshonos növények",
+      " ",
+      "sikeres termesztésére igen nagy hatással vannak. A gyümölcstermesztés gazdaságosságát, a gyümölcs minőségét is befolyásolják az ökológiai adottságok, ezért csak olyan fajták telepítése ajánlott, amelyek kedvelik a helyi adottságokat, az adott klímát és talajtípust."
+    ],
+    [
+      "Művelési rendszer és termesztéstechnológia",
+      ": ",
+      "minden gyümölcstermő növény termesztésére hatással van az alany megválasztása, a törzsmagasság, a koronaforma, az agro- és fitotechnikai eljárások. A precíziós termesztéstechnológia megvalósítására kell törekedni."
+    ],
+    [
+      "A termelés nagyságrendje",
+      " ",
+      "határozza meg, hogy mekkora termés elérése a cél. Nem mindegy, hogy üzemi árutermelésről, önellátásról vagy hobbikertészeti igény kielégítéséről van szó. Minél nagyobb a termelés volumene, annál jobban alkalmazkodni kell a piaci kereslethez ahhoz, hogy minél magasabb áron tudjuk eladni."
+    ],
+    [
+      "Fajtainformációk",
+      ": ",
+      "a termelőket folyamatosan informálni kell az újonnan megjelent fajtákról. Propagálni kell a fajtákat, megbízható fajtainformációkat kell adni, hisz e szerint fog a termelő fajtát választani. A fajtajellemzők a termelőnek fontosak, mert vagy könnyítik, vagy nehezítik az ápolási és a termesztési munkákat. Pl.: betegségekre ",
+      "fogékony-e az a fajta, intenzív művelésre alkalmas-e vagy nem alkalmas, a gyümölcsök repedésre hajlamosak-e vagy gyakori-e az érés előtti gyümölcshullás."
+    ],
+    [],
+    [
+      "Az előbb felsorolt fajtaválasztás meghatározó tényezőin belül a felhasználandó fajtáról a termelő dönt. Azt, hogy melyik fajtát választja ki, a termelő döntése, de előtte az egyes fajoknál ismertetett fajtainformációkat alaposan át kell tanulmányoznia."
+    ],
+    [],
+    [
+      "A fajták értékét meghatározó általános tulajdonságokat is sorra kell vennie, amelyek az alábbiak",
+      ":"
+    ],
+    [
+      "használati érték",
+      ": ",
+      "külső tulajdonság (alak, szín, méret, héjvastagság stb.) és belső tulajdonság (beltartalmi értéke, rosttartalma, íze, zamata, vitamintartalma stb.), káros anyagoktól való mentesség."
+    ],
+    [
+      "piaci érték",
+      ":",
+      " eltarthatóság, áruvá készítésre való alkalmasság, piaci kereslet."
+    ],
+    [
+      "termesztési érték",
+      ": gyümölcshullásra való hajlam, termőképesség, termésbiztonság, növekedési erély, károsítókra való érzékenység."
+    ],
+    [],
+    [
+      "Egy-egy fajta értékét több tulajdonság határozza meg, amely lehet pozitív és negatív is. Univerzális, tehát minden igényt kielégítő fajta nincs egy gyümölcsfajnál sem. A termelőnek ismernie kell azokat a fajtabélyegeket, amelyek a termesztést, értékesítést könnyítik vagy nehezítik. A termesztéstechnológiánál pedig arra kell törekedni, hogy kihozzák a kiválasztott fajtából a maximumot.",
+      ""
+    ],
+    [
+      "Alanyhasználat"
+    ],
+    [
+      "A gyümölcstermesztők a megfelelő ",
+      "alanyok",
+      " kiválasztásával biztosítják, hogy a nemes fajták a lehető legoptimálisabban alkalmazkodjanak az adott termőhelyi körülményekhez. Ha a nemes fajtákat nem oltanák gyengén növekvő alanyokra, minden fajta a saját növekedési jellegének megfelelően magas törzset növesztene."
+    ],
+    [
+      "Az ",
+      "alany",
+      " az oltvány azon része, amely a gyökerét vagy akár a törzsét adja. Az a fajta lehet alany, amely biztosítja a ráoltott növényrész forradását és együttélését."
+    ],
+    [
+      "Szabályok, amelyek szerepet játszanak a megfelelő alany kiválasztásában:"
+    ],
+    [
+      "Tápanyagban gazdag talajokon gyenge növekedésű alanyokra van szükség."
+    ],
+    [
+      "A nagyon rossz minőségű termőhelyeken előnyösebb az erősebb növekedésű alanyok használata."
+    ],
+    [
+      "A téli fagyok által veszélyeztetett termőhelyeken fagytűrő alanyokat célszerű alkalmazni."
+    ],
+    [
+      "A nagyon száraz termőhelyek nagyobb gyökeresedési képességű alanyokat igényelnek."
+    ],
+    [
+      "Azokon a termőhelyeken, ahol különböző betegségek ütik fel a helyüket, ellenálló alanyokra van szükség."
+    ],
+    [
+      "Az alany kompatibilis legyen a választott nemes fajtával",
+      ", illetve ",
+      "k",
+      "edvezően befolyásolhatja a gyümölcsök tulajdonságait: méretét, íz- és zamatanyagát, termőképességét, termőre fordulását, tárolhatóságát."
+    ],
+    [
+      ""
+    ],
+    [
+      "Irodalomjegyzék"
+    ],
+    [
+      "Bagoly László; Deák István; Főző József; Keszei Attila: Gyümölcstermesztés I., FVM",
+      ", 1993."
+    ],
+    [
+      "Vidékfejlesztési, Képzési és Szaktanácsadási Intézet 17-21. oldal, Budapest, 2009."
+    ],
+    [
+      "Dr. Turcsányi Gábor: Mezőgazdasági növénytan, Mezőgazdasági Szaktudás Kiadó, 136-145."
+    ],
+    [
+      "oldal, Budapest, 1995."
+    ],
+    [
+      "Dr.Csihon Ádám: Fajtahasználat a gyümölcstermesztésben, Debreceni Egyetemi Kiadó,"
+    ],
+    [
+      "Debrecen, 2022."
+    ],
+    [
+      "Dr. Gonda István, Dr. Csihon Ádám szerk.: A gyümölcstermesztés alapjai, Debreceni Egyetemi"
+    ],
+    [
+      "Kiadó, Debrecen, 2018."
+    ],
+    [
+      "Ábrajegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Fogalomtár szerzője:",
+        "Borsiné Csikós Anna Magdolna"
+      ],
+      [
+        "Fogalomtár szakmai lektora:",
+        "Kutas Péter"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Mezőgazdaság és erdészet"
+      ],
+      [
+        "Szakma:",
+        "Kertésztechnikus"
+      ],
+      [
+        "Szakmairány:",
+        "Gyümölcstermesztő"
+      ],
+      [
+        "Tanulási terület:",
+        "Gyümölcs- és szőlőtermesztés"
+      ],
+      [
+        "Tantárgy:",
+        "Gyümölcstermesztés"
+      ],
+      [
+        "Évfolyam:",
+        "11. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "17 óra"
+      ]
+    ]
+  ],
+  "headers": [
+    ""
+  ],
+  "footers": [
+    ""
+  ],
+  "footnotes": [
+    "",
+    "",
+    "Dr. Gonda István, Dr. Csihon Ádám, A gyümölcstermesztés alapjai, Debreceni Egyetemi Kiadó, 2018. (Későbbiekben: Dr. Gonda István, Dr. Csihon Ádám, 2018.)",
+    "Dr. Gonda István, Dr. Csihon Ádám, 2018.",
+    "Dr. Gonda István, Dr. Csihon Ádám, 2018.",
+    " Dr. Gonda István, Dr. Csihon Ádám, 2018.",
+    "Bagoly László - Deák István - Főző József-Keszei Attila: Gyümölcstermesztés I., FVM, 1993.",
+    "Dr. Turcsányi Gábor: Mezőgazdasági növénytan 1995. Budapest, Mezőgazdasági Szaktudás Kiadó, 1995.",
+    "Dr. Gonda István, Dr. Csihon Ádám, 2018.",
+    "Dr. Csihon Ádám: Fajtahasználat a gyümölcstermesztésben, Debrecen, Debreceni Egyetemi Kiadó, 2022."
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image20.jpg",
+      "path": null,
+      "bytes": 72997
+    },
+    {
+      "name": "image25.png",
+      "path": null,
+      "bytes": 158227
+    },
+    {
+      "name": "image26.png",
+      "path": null,
+      "bytes": 298842
+    },
+    {
+      "name": "image24.png",
+      "path": null,
+      "bytes": 181080
+    },
+    {
+      "name": "image22.png",
+      "path": null,
+      "bytes": 321014
+    },
+    {
+      "name": "image21.png",
+      "path": null,
+      "bytes": 521601
+    },
+    {
+      "name": "image27.png",
+      "path": null,
+      "bytes": 158247
+    },
+    {
+      "name": "image23.png",
+      "path": null,
+      "bytes": 1171831
+    },
+    {
+      "name": "image31.png",
+      "path": null,
+      "bytes": 1189735
+    },
+    {
+      "name": "image29.jpg",
+      "path": null,
+      "bytes": 20304
+    },
+    {
+      "name": "image35.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image34.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image33.jpg",
+      "path": null,
+      "bytes": 72850
+    },
+    {
+      "name": "image32.png",
+      "path": null,
+      "bytes": 1326119
+    },
+    {
+      "name": "image19.jpg",
+      "path": null,
+      "bytes": 21735
+    },
+    {
+      "name": "image30.png",
+      "path": null,
+      "bytes": 342956
+    },
+    {
+      "name": "image28.png",
+      "path": null,
+      "bytes": 362220
+    },
+    {
+      "name": "image17.jpg",
+      "path": null,
+      "bytes": 14302
+    },
+    {
+      "name": "image18.jpg",
+      "path": null,
+      "bytes": 17288
+    },
+    {
+      "name": "image6.png",
+      "path": null,
+      "bytes": 57736
+    },
+    {
+      "name": "image5.jpg",
+      "path": null,
+      "bytes": 37026
+    },
+    {
+      "name": "image4.png",
+      "path": null,
+      "bytes": 308093
+    },
+    {
+      "name": "image3.png",
+      "path": null,
+      "bytes": 239354
+    },
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 255634
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 138357
+    },
+    {
+      "name": "image8.png",
+      "path": null,
+      "bytes": 67535
+    },
+    {
+      "name": "image7.png",
+      "path": null,
+      "bytes": 302728
+    },
+    {
+      "name": "image10.png",
+      "path": null,
+      "bytes": 103340
+    },
+    {
+      "name": "image16.jpg",
+      "path": null,
+      "bytes": 100676
+    },
+    {
+      "name": "image9.png",
+      "path": null,
+      "bytes": 217685
+    },
+    {
+      "name": "image14.png",
+      "path": null,
+      "bytes": 851539
+    },
+    {
+      "name": "image15.png",
+      "path": null,
+      "bytes": 1166754
+    },
+    {
+      "name": "image12.png",
+      "path": null,
+      "bytes": 984592
+    },
+    {
+      "name": "image13.png",
+      "path": null,
+      "bytes": 766757
+    },
+    {
+      "name": "image11.jpg",
+      "path": null,
+      "bytes": 59572
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Table Normal",
+    "Title",
+    "Normal (Web)",
+    "annotation text",
+    "Cím Char",
+    "Subtitle",
+    "Alcím Char",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "Feloldatlan megemlítés1",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Table Grid",
+    "Jegyzetszöveg Char",
+    "11",
+    "9",
+    "Placeholder Text",
+    "Címsor 4 Char",
+    "Caption",
+    "bajusz_téglalap",
+    "bajusz_téglalap Char",
+    "Címsor 5 Char",
+    "ism_kérdések",
+    "ism_kérdések Char",
+    "Képaláírás Char",
+    "kérdés_számozva",
+    "kérdés_számozva Char",
+    "bajusz_pötty",
+    "bajusz_pötty Char",
+    "szituáció",
+    "fontos",
+    "fontos Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "toc 4",
+    "bajusz_kötőjel",
+    "betűkiemelés",
+    "List Paragraph",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "példa",
+    "példa Char",
+    "[No Paragraph Style]",
+    "toc 5",
+    "toc 6",
+    "toc 7",
+    "toc 8",
+    "toc 9",
+    "Hyperlink",
+    "table of figures",
+    "FollowedHyperlink",
+    "Revision",
+    "annotation reference",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "footnote text",
+    "Lábjegyzetszöveg Char",
+    "footnote reference",
+    "Feloldatlan megemlítés2",
+    "Feloldatlan megemlítés3",
+    "Feloldatlan megemlítés4",
+    "Emphasis",
+    "No Spacing",
+    "Bibliography",
+    "page number",
+    "Default",
+    "Feloldatlan megemlítés5",
+    "Feloldatlan megemlítés6",
+    "Feloldatlan megemlítés7",
+    "[Alapbekezdés]"
+  ]
+}

@@ -1,0 +1,1658 @@
+{
+  "core_properties": {
+    "creator": "Dénes Lilla (ELMS)",
+    "lastModifiedBy": "Pálvölgyi Rita (ELMS)",
+    "revision": "40",
+    "created": "2023-05-12T12:17:00Z",
+    "modified": "2024-07-10T07:52:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal.dotm",
+    "TotalTime": "99",
+    "Pages": "37",
+    "Words": "4831",
+    "Characters": "36960",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "1848",
+    "Paragraphs": "788",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "41003",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "",
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.4.4  ",
+    "Élelmiszervizsgáló laboratóriumok minőségbiztosítása - MSZ ISO/IEC 17025: 2018 szabvány",
+    "Témák kézirata",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Bevezetés",
+    "Minőségirányítási rendszer alkalmazása stratégia döntés egy élelmiszeripari vállalkozás számára. A francia eredetű akkreditáció jelentése: hitelesítés; egy szervezet vagy intézmény megadott feltételek szerinti tevékenységének hivatalos elismerése. Ezt a hitelesítést pedig kizárólag független, a nemzetközi normáknak megfelelő minősítő intézmény végezheti A minőségirányítási rendszerek a vizsgálólaboratóriumot segíthetik a vevők, megrendelők, kirendelők megelégedettségéneknövelésében.",
+    "És éppen a fent említett objektivitásnak és általános standardok szerinti elbírálásnak köszönhetően az akkreditáció a gazdasági életben igen hamar elismertté és elfogadottá vált.",
+    "Forrás: https://www.nah.gov.hu/hu (utolsó megtekintés: 2024.07.03.)",
+    "MAGYAR SZABVÁNY MSZ EN ISO/IEC 17025",
+    "Vizsgáló és kalibrálólaboratóriumok felkészültségének általános követelményei (ISO/IEC 17025:2018)",
+    "E nemzeti szabványt a Magyar Szabványügyi Testület a nemzeti szabványosításról szóló 1995. évi XVIII. törvény alapján tette közé. A szabvány alkalmazása előtt célszerű meggyőződni arról, hogy módosították vagy helyesbítették-e, nincs-e visszavonva, műszaki tartalmú jogszabály hivatkozik-e rá, vagy európai műszaki tartalmú jogszabályhoz harmonizált szabvány-e.",
+    "A szabvány alkalmazása e törvény 6. § (1) bekezdése alapján önkéntes. Az önkéntesség választási lehetőséget biztosít a szabvány alkalmazása vagy mellőzése tekintetében. A szabvány közmegegyezéssel elfogadott műszaki dokumentum, amelynek révén általánosan elismert megoldás érhető el.",
+    "Ha a szabvány alkalmazását dokumentumban hivatkozva önként vállalják, akkor a hivatkozás vonatkozásában a szabvány alkalmazása kötelező.",
+    "Ha a törvény 6 § (2) bekezdése értelmében műszaki tartalmú jogszabály hivatkozik vagy utal e szabványra, akkor e szabvány alkalmazása esetén vélelmezni kell, hogy érvényesülnek azok a jogszabályokban meghatározott alapvető követelmények, amelyekre e szabvány vonatkozik. A szabványtól való eltérés esetén megkövetelhető annak igazolása, hogy a választott megoldás is megfelel a jogszabályi követelményeknek.",
+    "Az európai műszaki tartalmú jogszabályhoz harmonizált szabvány ajánlást ad a jogszabály alapvető követelményeinek való megfelelésre. Az előzőekben leírtakkal összhangban a harmonizált szabvány alkalmazása esetén el kell fogadni, hogy az alkalmazó eleget tett az európai jogszabály, illetve annak megfelelő magyar jogszabály azon követelményeinek, amelyekre a szabvány vonatkozik.",
+    "Mivel a szabványok harmonizáltsága időben változhat, a szabvány alkalmazása előtt célszerű meggyőződni arról , hogy alkalmazása időpontjában harmonizáltnak minősül-e.",
+    "A szabványnak való megfelelőség akkor valósul meg, ha változtatás nélkül érvényesülnek az előírásai. zt a szabványra hivatkozva kell igazolni.",
+    "Alkalmazási terület:",
+    "A rendszerszabvány meghatározza a laboratóriumok felkészültségére (kompetenciájára),  és következetes működésére vonatkozó általános követelményeket.",
+    "Ez a dokumentum minden, laboratóriumi tevékenységet végző szervezetre alkalmazható, függetlenül a személyzet létszámától.",
+    "Szervezeti követelmények, felépítés",
+    "A laboratóriumnak jogi személynek vagy egy jogi személy meghatározott részének kell lennie, amely jogilag felelős laboratóriumi tevékenységéért.",
+    "A laboratóriumnak:",
+    "Ki kell jelölnie a vezetőséget, amely teljes felelősséggel tartozik a laboratóriumért, akiknek tájékoztatni kell a személyzetet a feladataikról, felelősségi és hatáskörükről",
+    "A vezetőségnek, akár belső akár külső személyzetnek elkötelezettnek kell lennie a pártatlanság iránt, nem engedheti meg, kereskedelmi, pénzügyi vagy más nyomás veszélyeztesse a pártatlanságot. Ha a pártatlanság kockázata felmerül a laboratóriumnak meg kell szüntetni vagy minimalizálni az ilyen kockázatot, bizonyítékokkal alátámasztva.",
+    "Felelősnek kell lennie a tevékenységek végrehajtása során megszerzett vagy létrehozott összes információ kezeléséért.",
+    "Az információ a vevő tulajdonának minősül és bizalmasnak tekintendő. A vevőn kívüli forrásból származó információ, például panaszostól, is bizalmasnak minősül a vevő és a laboratórium között nnek az információnak a forrását nem oszthatja meg a vevővel, kivéve ha a forrás beleegyezett.",
+    "A bizalmasság vonatkozik az egész személyzetre, vállalkozóra, bizottsági tagokra, külső testületek személyzetére kivéve, ha a törvény másként rendelkezik.",
+    "Meg kell határozni a laboratórium szervezeti felépítését és irányítási struktúráját, helyét bármely anyaszervezetben, valamint a vezetőség, a műszaki műveletek és a támogató szolgáltatások közötti kapcsolatokat.",
+    "Meg kell határozni a laboratóriumi tevékenységek eredményeit befolyásoló munkát irányító, végrehajtó vagy igazoló személyzet felelősségét, hatáskörét és kölcsönös kapcsolatát.",
+    "Dokumentálnia kell a laboratóriumi tevékenységeket, eredményeket.",
+    "Rendelkezni kell olyan személyzettel, akik  a feladatok ellátásához szükséges hatáskörrel és erőforrásokkal.",
+    "Tevékenységei minden szakaszában meg kell felelnie MSZ EN ISO/IEC17025:2018 szabványban leírtaknak a laboratórium összes állandó létesítményben, beleértve a hordozható (mobil) létesítményeket is.",
+    "A vezetőségnek biztosítania és fenn is kell tartania a kommunikációt az irányítási rendszer eredményességéről, a vevők követelményeiről, teljesítés fontosságáról.",
+    "Az erőforrásokkal, létesítményekkel, berendezésekkel és környezettel kapcsolatos követelmények",
+    "A laboratóriumnak rendelkeznie kell a tevékenységei irányításához és végrehajtásához szükséges személyzettel, létesítményekkel és támogató szolgáltatásokkal.",
+    "A laboratóriumnak rendelkeznie kell eljárással, és feljegyzéseket kell megőriznie a következőkkel kapcsolatban:",
+    "a felkészültségi (kompetencia-) követelmények meghatározása,",
+    "a személyzet kiválasztása,",
+    "a személyzet képzése,",
+    "a személyzet felügyelete,",
+    "a személyzet feljogosítása,",
+    "a személyzet felkészültségének (kompetenciájának) figyelemmel kísérése (monitorozása).",
+    "A laboratóriumnak fel kell hatalmaznia a személyzetet bizonyos laboratóriumi tevékenységek elvégzésére:",
+    "módszerek kidolgozása, módosítása,",
+    "eredmények elemzése, megfelelési nyilatkozatok,",
+    "eredmények jelentése, átvizsgálása és jóváhagyása.",
+    "A létesítményeknek és a környezeti körülményeknek alkalmasnak kell lenniük a laboratóriumi tevékenységekhez, és nem befolyásolhatják hátrányosan az eredmények érvényességét. Például: az eredmények érvényességét hátrányosan befolyásoló hatások közé tartozhatnak, de nem kizárólagosan, a mikrobiológiai szennyeződések, a por, az elektromágneses zavarok, a sugárzás, a páratartalom, az áramellátás, a hőmérséklet, a hang és a rezgés.",
+    "A laboratóriumi tevékenységek végrehajtásához szükséges létesítményekre és környezeti körülményekre vonatkozó követelményeket dokumentálni kell.",
+    "A laboratóriumnak- akár külső helyszínen is - figyelemmel kell kísérnie és felügyelet alatt kell tartania a környezeti körülményekre vonatkozó előírásokat és az azokat befolyásoló eredmények érvényességét.",
+    "A laboratóriumoknak rendelkezni kell megfelelő berendezésekkel, amelyek biztosítják a pontos eredményeket:",
+    "mérőműszerek,",
+    "szoftverek,",
+    "mérési etalonok,",
+    "referenciaanyagok,",
+    "reagensek,",
+    "kalibráló etalon.",
+    "A méréshez használt berendezésnek képesnek kell lennie az érvényes eredmény szolgáltatásához szükséges mérési pontosság és/vagy mérési bizonytalanság elérésére.",
+    "A mérőberendezéseket kalibrálni kell a mérési bizonytalanság és az eredmények érvénytelenségének elkerülése érdekében. Szükség esetén kalibrálási programot kell kidolgozni, vagy át kell vizsgálni a programot.",
+    "A kalibrálást igénylő berendezéseket meghatározott érvényességi időtartamú címkével kell ellátni, kódolni vagy más módon azonosítani, hogy a berendezés használója könnyen azonosíthassa a kalibrálás állapotát, vagy az érvényességi időtartamát.",
+    "Olyan berendezést, amely megkérdőjelezhető, hibás eredményeket ad, ki kell vonni a használatból. Elkülönítve, felcímkézve „használaton kívüli berendezés” megjelöléssel kell tárolni a javításig vagy a végleges kivonásig.",
+    "A berendezésről feljegyzéseket, dokumentumokat kell készíteni, melyeknek tartalmaznia kell:",
+    "a berendezések azonosítását, szoftver verziót;",
+    "a gyártó nevét, típus azonosítóját, sorozatszámot vagy más egyedi azonosítót;",
+    "bizonyítékot annak igazolásáról, hogy a berendezés megfelel a meghatározott követelményeknek;",
+    "jelenlegi elhelyezést;",
+    "kalibrálási időpontokat, eredményeket, beállításokat, elfogadási kritériumokat, a következő kalibrálás esedékességét vagy a kalibrálási időközt;",
+    "a referenciaanyagok dokumentációját, az eredményeket az elfogadási kritériumokat, a lényeges időpontokat és az érvényeség időtartamát;",
+    "karbantartási tervet és az eddig elvégzett karbantartást;",
+    "a berendezés károsodásának, meghibásodásának, módosításának vagy javításának részleteit.",
+    "A laboratóriumnak ki kell alakítania és fenn kell tartania mérési eredményei metrológiai (méréstani) visszavezethetőségét, olyan kalibrálások dokumentált, megszakítás nélküli láncolatával, amelyek mindegyike hozzájárul a mérési bizonytalansághoz, és megfelelő referenciához kapcsolódik.",
+    "A laboratóriumnak biztosítania kell, hogy a mérési eredmények visszavezethetők legyek a nemzetközi mértékegységrendszerig (SI) a következők valamelyikével: felkészült (kompetens) laboratórium által végzett kalibrálás, vagy felkészült (kompetens) gyártó által szállított tanúsított referencia anyagok tanúsított értékei, vagy az SI mértékegységek közvetlen megvalósítása nemzeti vagy nemzetközi etalonokkal való, közvetlen vagy közvetett összehasonlításával.",
+    "A laboratóriumnak gondoskodnia kell arról, hogy csak megfelelő, a laboratóriumi tevékenységeket befolyásoló, külső forrásból biztosított termékeket és szolgáltatásokat használjon, alkalmazzon, ha az ilyen termékeket és szolgáltatásokat:",
+    "a laboratórium saját tevékenységeibe történő beépítésre szánják;",
+    "a laboratórium, részben vagy egészben, közvetlenül a vevőnek szolgáltatja úgy, ahogy az a külső szolgáltatótól érkezett;",
+    "a laboratórium működésének támogatásához használják, alkalmazzák.",
+    "A folyamattal kapcsolatos követelmények",
+    "Az ajánlatkérések, ajánlatok és szerződések átvizsgálása",
+    "A laboratóriumnak eljárással kell rendelkeznie az ajánlatkérések, az ajánlatok és a szerződések átvizsgálására. Az eljárásnak biztosítani kell, hogy",
+    "a követelmények meghatározása, dokumentálása és megértése megfelelő legyen;",
+    "a laboratóriumnak legyen meg a képessége és az erőforrása a követelmények teljesítéséhez;",
+    "külső szolgáltató esetén a laboratórium tájékoztatja a vevőt a konkrét laboratóriumi tevékenységről, amelyet a külső szolgáltató végez, s megszerzi a vevő jóváhagyását;",
+    "a megfelelő módszereket vagy eljárásokat választják ki, és ezek alkalmasak arra, hogy megfeleljenek a vevők követelményeiknek.",
+    "Minden egyes szerződésnek, mind a laboratórium, mind a vevő számára elfogadhatónak kell lennie. A vevő által kért eltérések nem befolyásolhatják a laboratórium hitelességét vagy az eredmények érvényességét.",
+    "A vevőt tájékoztatni kell a szerződéstől való bármely eltérésről.",
+    "Ha a szerződést a munka megkezdése után módosították, a szerződésátvizsgálást meg kell ismételni, és minden módosításról tájékoztatni kell minden érintett személyt.",
+    "Módszerek kiválasztása, igazolása (verifikálása) és érvényesítése (validálása)",
+    "Verifikálás:",
+    "A laboratóriumnak megfelelő módszereket és eljárásokat kell alkalmaznia minden laboratóriumi tevékenységre, és ahol célszerű, a mérési bizonytalanság értékelésére, valamint statisztikai módszereket az adatok elemzésére.",
+    "Minden olyan módszert, eljárást és támogató dokumentációt, mint például a laboratóriumi tevékenységre vonatkozó utasításokat, szabványokat, kézikönyveket és referenciaadatokat, naprakészen kell tartani és a személyzet számára könnyen hozzáférhetővé kell tenni.",
+    "A laboratóriumnak biztosítani kell, hogy a módszer legfrissebb, érvényes változatát alkalmazza, kivéve, ha ez nem megfelelő vagy nem lehetséges. Ha szükséges, a módszer alkalmazását további részletekkel kell kiegészíteni a következetes alkalmazás biztosítása érdekében.",
+    "Ha a vevő nem határozza meg az alkalmazandó módszert, a laboratóriumnak kell kiválasztania a megfelelő módszert és tájékoztatnia kell a vevőt a választott módszerről.",
+    "A laboratóriumnak igazolnia (verifikálnia) kell, hogy megfelelően tudja alkalmazni a módszereket, mielőtt bevezetné azokat, így biztosítva, hogy el tudja érni a kívánt teljesítményt. Az igazolás feljegyzését meg kell őrizni.",
+    "Ha módszerfejlesztésre van szükség, akkor azt el kell végezni és megfelelő erőforrásokkal rendelkező, felkészült személyzetre kell bízni.",
+    "Minden laboratóriumi tevékenység vonatkozásában a módszertől való eltérésnek csak olyankor szabad megtörténnie, ha az eltérést dokumentálták, műszakilag megindokolták, engedélyezték és a vevő elfogadta.",
+    "Validálás",
+    "A laboratóriumnak érvényesítenie (validálnia) kell a nem szabványos módszereket, a laboratórium által kidolgozott módszereket, valamint azokat a szabványos módszereket, amelyeket a tervezett alkalmazási területükön kívül alkalmaznak vagy más módon módosítottak. A validálásnak annyira kell átfogónak lennie, amennyire az adott alkalmazás vagy alkalmazási terület szükségleteinek teljesítéséhez szükséges. Pl. vizsgálati vagy kalibrálási tételek, mintavételi, kezelési és szállítási eljárásait is validálni szükséges.",
+    "Az érvényesített, validált módszerek teljesítmény jellemzőinek, a tervezett használatnak megfelelően felmérve, a vevők szükségleteire kell vonatkozniuk és összhangban kell lenniük a meghatározott körülményekkel.",
+    "Mintavétel",
+    "A laboratóriumnak mintavételi tervvel és módszerrel kell rendelkeznie, ha mintavételt végez nyersanyagokból, anyagokból vagy termékekből a későbbi vizsgálathoz vagy kalibráláshoz. A mintavételi módszernek foglalkoznia kell a felügyelet alatt tartandó tényezőkkel a későbbi vizsgálati vagy kalibrálási eredmények érvényességének biztosítása érdekében. A mintavételi tervnek és módszernek elérhetőnek kell lennie azon a helyen, ahol a mintavételt végzik. A mintavételi tervnek, amikor csak észszerű, megfelelő statisztikai módszereken kell alapulnia.",
+    "A mintavételi módszernek le kell írnia:",
+    "a minták vagy a mintavételi helyek kiválasztását,",
+    "a mintavételi tervet.",
+    "a nyersanyagból, anyagból vagy termékből származó minta (minták) előkészítését, és kezelését a későbbi vizsgálathoz vagy kalibráláshoz szükséges tétel létrehozása érdekében.",
+    "A laboratóriumnak feljegyzéseket kell megőriznie a mintavételi adatokról, amelyek az elvégzett vizsgálat vagy kalibrálás részét képezik. Tartalmazniuk kell:",
+    "hivatkozást az alkalmazott mintavételi módszerre;",
+    "a mintavétel dátumát és idejét;",
+    "a minta azonosítására és leírására szolgáló adatokat. (pl. szám, mennyiség, elnevezés);",
+    "a mintavételt végző személyzet azonosítását;",
+    "a használt berendezés azonosítását;",
+    "a környezeti és szállítási körülményeket;",
+    "diagramokat vagy más egyenértékű eszközöket a mintavételi hely azonosítására, ha ez célszerű;",
+    "eltéréseket, kiegészítéseket, vagy kizárásokat a mintavételi módszerrel és mintavételi tervvel kapcsolatban.",
+    "Kalibrálási és vizsgálati tételek kezelése",
+    "A laboratóriumnak rendelkeznie kell eljárással a vizsgálati vagy kalibrálási tételek szállítására, átvételére, kezelésére, védelmére, tárolására, megőrzésére és ártalmatlanítására vagy visszaküldésére, beleértve minden olyan intézkedést, amely szükséges a vizsgálati vagy kalibrálási tétel épségének megóvásához, valamint a laboratórium és a vevő érdekeinek védelméhez. Óvintézkedéseket kell tenni a kezelés, a szállítás, a tárolás/várakozás, valamint a vizsgálat vagy kalibrálás előkészítése során a tétel károsodásának, szennyeződésének, elvesztésének vagy sérülésnek elkerülése érdekében. A tételhez mellékelt kezelési utasításokat be kell tartani.",
+    "A laboratóriumnak rendelkeznie kell a vizsgálati vagy kalibrálási tételek egyértelmű azonosítására szolgáló rendszerrel. Az azonosítást meg kell őrizni, amíg a tételért a laboratórium felelős.",
+    "A vizsgálati vagy kalibrálási tétel átvételét követően fel kell jegyezni a meghatározott körülményektől való eltéréseket.",
+    "Műszaki feljegyzések",
+    "A laboratóriumnak biztosítania kell, hogy az egyes laboratóriumi tevékenységre vonatkozó műszaki feljegyzések tartalmazzák az eredményeket, a jelentést és elegendő információt ahhoz, hogy lehetőség szerint megkönnyítsék a mérési eredményt befolyásoló tényezők és a kapcsolódó mérési bizonytalanság azonosítását, valamint lehetővé tegyék a laboratóriumi tevékenység megismétlését az eredetihez a lehető legközelebb álló körülmények között. A műszaki feljegyzéseknek tartalmazniuk kell a dátumot és az egyes laboratóriumi tevékenységéért, valamint az adatok és az eredmények ellenőrzéséért felelős személyek azonosítását. Az eredeti megfigyeléseket, adatokat és számításokat a létrehozásuk időpontjában fel kell jegyezni, és azoknak az adott feladattal azonosíthatónak kell lenniük.",
+    "A laboratóriumnak biztosítania kell, hogy a műszaki feljegyzések módosításai visszavezethetők legyenek a korábbi verziókra vagy az eredeti megfigyelésekre. Ezeket az adatokat meg kell őrizni, beleértve a változtatás időpontját, a megváltozott szempontok feltüntetését és a változtatásokért felelős személyzetet.",
+    "A mérési bizonytalanság értékelése",
+    "A laboratóriumoknak meg kell határozniuk a mérési bizonytalanság összetevőit. A mérési bizonytalanság értékelése során minden jelentős összetevőt, beleértve azokat is, amelyek a mintavételből származnak, megfelelő elemzési módszerekkel figyelembe kell venni.",
+    "Az eredmények érvényességének biztosítása",
+    "A laboratóriumnak rendelkeznie kell eljárással az eredmények érvényességének figyelemmel kísérésére (monitorozására). A kapott adatokat úgy kell feljegyezni, hogy a tendenciák kimutathatók legyenek, és ahol megvalósítható, statisztikai módszereket kell alkalmazni az eredmények (pl.: közölt eredmények) átvizsgálására.",
+    "A laboratóriumnak figyelemmel kell kísérnie a teljesítményét más laboratóriumok eredményével összehasonlítva, ahol ez rendelkezésre áll és megfelelő. Pl. részvétel jártassági vizsgálatban vagy részvétel laboratóriumok közötti összehasonlításokban.",
+    "A figyelemmel kísérési (monitorozási) tevékenységekből származó adatokat elemezni kell, felhasználva a laboratóriumi tevékenységek felügyeletére, és ha alkalmazható, fejlesztésére.",
+    "Az eredmények közlése",
+    "Az eredményeket a kibocsátás előtt át kell vizsgálni és jóvá kell hagyni.",
+    "Az eredményeket pontosan, világosan, egyértelműen és objektíven kell megadni, általában egy jelentésben (pl. vizsgálati jegyzőkönyv vagy kalibrálási bizonyítvány vagy mintavételi jelentés). A jelentésnek tartalmaznia kell a vevővel egyeztetett összes információt, amely az eredmények értelmezéséhez szükséges, valamint az alkalmazott módszer által megkívánt összes információt. Az összes kiadott jelentést műszaki feljegyzésként kell megőrizni.",
+    "Ha a vevővel megállapodnak, az eredmények egyszerűsített módon is közölhetők. Viszont bármely információnak, amelyet nem közöltek a vevővel, könnyen elérhetőnek kell lennie.",
+    "A (vizsgálati, kalibrálási vagy mintavételi) jelentésekre vonatkozó közös követelmények ",
+    "Minden egyes jelentésnek legalább a következő információkat kell tartalmaznia, kivéve, ha a laboratóriumnak megalapozott indokai vannak arra, hogy ne így járjon el, ezáltal minimalizálva a félreértés és a visszaélés lehetőségét:",
+    "cím (pl. „Vizsgálati jegyzőkönyv”, Kalibrálási bizonyítvány” vagy „Mintavételi jegyzőkönyv”),",
+    "a laboratórium neve és címe,",
+    "a laboratóriumi tevékenységek végrehajtásának helyszíne, beleértve azt is, amikor a tevékenységeket a vevő létesítményében vagy a laboratórium állandó létesítményitől távol eső helyszíneken, vagy kapcsolódó ideiglenes vagy hordozható (mobil) létesítményben végzik,",
+    "egyedi azonosító, hogy valamennyi összetevőjét a teljes jelentés részeként ismerjék fel, valamint a végének egyértelmű azonosítása,",
+    "a vevő neve és elérhetősége,",
+    "az alkalmazott módszer azonosítása,",
+    "a tétel leírása, egyértelmű azonosítása, és szükség esetén állapota,",
+    "a vizsgálati vagy kalibrálási tétel(ek) átvételének dátuma, valamint a mintavétel dátuma, ha ez kritikus fontosságú az eredmények érvényessége és alkalmazása szempontjából,",
+    "a laboratóriumi tevékenység végrehajtásának dátuma,",
+    "a jelentés kiadásának dátuma,",
+    "hivatkozás a mintavételi tervre és a laboratórium vagy más területek által használt mintavételi módszerre, ha ezek lényegesek az eredmények érvényessége vagy alkalmazása szempontjából,",
+    "egy nyilatkozat arról, hogy az eredmények csak a vizsgált, kalibrált vagy mintavételezett tételekre vonatkoznak,",
+    "az eredmények, indokolt esetben a mértékegységekkel,",
+    "a módszer módosításai, eltérései vagy kizárásai,",
+    "a jelentést jóváhagyó személy(ek) azonosítása,",
+    "egyértelmű azonosítás, ha az eredmények külső szolgáltatóktól származnak.",
+    "A laboratóriumnak felelősnek kell lennie a jelentésben szereplő összes információért, kivéve, ha az információt a vevő nyújtja. A vevő által szolgáltatott adatokat egyértelműen azonosítani kell. Ezen kívül a jelentésben szerepeltetnie kell egy felelősségkizáró nyilatkozatot, ha az információt a vevő nyújtja, és hatással lehet az eredmények érvényességére. Ha a laboratórium nem felelős a mintavételi szakaszért (pl. a mintát a vevő biztosította), a jelentésnek tartalmaznia kell, hogy az eredmények a kapott mintára vonatkoznak.",
+    "Egyéb egyedi követelmények:",
+    "Vizsgálati jelentéseknek, jegyzőkönyveknek, ahol az értelmezéshez szükséges, tartalmazniuk kell a következőket:",
+    "az adott vizsgálati körülményekre vonatkozó információkat, például a környezeti körülményeket,",
+    "további információkat, amelyeket bizonyos módszerek, hatóságok, vevők vagy vevők csoportjai megkövetelhetnek.",
+    "Kalibrálási bizonyítványoknak, tanúsítványoknak tartalmazniuk kell:",
+    "indokolt esetben véleményeket és értelmezéseket",
+    "Mintavételi jegyzőkönyveknek tartalmazniuk kell:",
+    "a mintavétel dátuma,",
+    "a tétel vagy anyag, amelyből a mintát vették, egyedi azonosítását, (beleértve a gyártó nevét, a modell vagy a típus megjelölését és a sorozatszámokat, adott esetben),",
+    "a mintavétel helyét, beleértve bármely diagramot, vázlatot vagy fényképet,",
+    "hivatkozást a mintavételi tervre és a mintavételi módszerre,",
+    "a mintavétel alatti környezeti körülmények részleteit, amelyek befolyásolják az eredmények értelmezését,",
+    "a mérési bizonytalanság értékeléséhez szükséges információkat a későbbi vizsgálathoz vagy kalibráláshoz.",
+    "Megfelelőségi nyilatkozatok közlése:",
+    "A laboratóriumnak oly módon kell közölnie a megfelelőségi nyilatkozatot, hogy a nyilatkozat világosan meghatározza:",
+    "mely eredményekre érvényes a nyilatkozat,",
+    "mely előírások, szabványok vagy ezek részei teljesülnek, vagy nem teljesülnek,",
+    "az alkalmazott döntési szabályt, figyelembe véve az adott döntési szabályhoz kapcsolódó kockázati szintet.",
+    "Vélemények és értelmezések közlése",
+    "A laboratóriumnak biztosítania kell, ha véleményeket és értelmezéseket közöl, hogy csak a véleménynyilvánításra és értelmezésre felhatalmazott személyzet közölje a megfelelő nyilatkozatot. A laboratóriumnak dokumentálnia kell a vélemények és értelmezések alapját.",
+    "Jelentések módosításai",
+    "Ha a kiadott jelentést változtatni, módosítani kell, vagy újra ki kell adni, minden információváltozást világosan azonosítani kell, és ahol helyénvaló, a változás okait a jelentésben fel kell tüntetni.",
+    "Panaszok",
+    "A laboratóriumnak dokumentált eljárással kell rendelkeznie a panaszok fogadására, értékelésére és a panaszokkal kapcsolatos döntések meghozatalára.",
+    "A panaszkezelési folyamat leírását kérésre bármely érdekelt fél rendelkezésére kell bocsátani. A panasz beérkezése után a laboratóriumnak meg kell erősíteni, hogy a panasz a laboratórium olyan tevékenységeihez kapcsolódik-e, amelyért felelős, és ha igen, foglalkoznia kell vele. A laboratóriumnak felelősnek kell lennie panaszkezelési folyamat minden szintjén hozott döntéséért.",
+    "A panaszkezelési folyamatnak legalább a következő elemeket és módszereket kell tartalmaznia:",
+    "a panasz beérkezése, jóváhagyása, kivizsgálása folyamatának leírását, és annak eldöntését, hogy milyen intézkedéseket kell tenni válaszként,",
+    "a panaszok nyomon követését és feljegyzését, beleértve a megoldásukra hozott intézkedéseket is,",
+    "annak biztosítása, hogy minden megfelelő intézkedést megtesznek.",
+    "A panaszt átvevő laboratóriumnak felelősnek kell lennie a panasz jóváhagyásához szükséges összes információ összegyűjtéséért és igazolásáért (verifikálásáért).",
+    "Amikor csak lehetséges, a laboratóriumnak vissza kell igazolnia a panasz átvételét, és tájékoztatnia kell a panaszost az ügy állásáról írásos formában, valamint az eredményekről.",
+    "A panaszossal közölni kívánt eredményeket olyan személy(ek)nek kell létrehozniuk, vagy átvizsgálniuk és jóváhagyniuk, aki(k) a kérdéses eredeti laboratóriumi tevékenységekben nem vett(ek) részt.",
+    "Amikor csak lehetséges, a laboratóriumnak a panaszkezelés végén hivatalos értesítést kell küldenie a panaszosnak.",
+    "Nem megfelelő munka",
+    "A laboratóriumnak rendelkeznie kell egy olyan eljárással, amelyet akkor kell végrehajtania, ha laboratóriumi tevékenységeinek bármely eleme vagy e munka eredményei nem felelnek meg a saját eljárásainak, vagy a vevő elfogadott követelményeinek.",
+    "Ha az értékelés azt mutatja, hogy a nem megfelelő munka ismételten előfordulhat, vagy kétség merül fel azzal kapcsolatban, hogy a laboratórium műveletei megfelelnek saját irányítási rendszerének, a laboratóriumnak helyesbítő tevékenységet kell végeznie.",
+    "Az adat- és információkezelés felügyelete",
+    "A laboratóriumnak hozzáféréssel kell rendelkeznie a laboratóriumi tevékenységek elvégzéséhez szükséges adatokhoz és információkhoz.",
+    "A laboratóriumi információkezelő",
+    "rendszer(eke)t védeni kell a jogosulatlan hozzáféréstől,",
+    "rendszer(eke)t védeni kell a hamisítás és a károsodás/adatvesztés ellen,",
+    "rendszer(eke)t olyan környezetben kell működtetni, amely megfelel a szolgáltatói vagy a laboratóriumi előírásoknak, vagy nem számítógépes rendszerek esetén olyan körülményeket biztosít, amelyek megóvják a kézi rögzítés és a másolás pontosságát,",
+    "rendszer(eke)t oly módon kell karbantartani, hogy az biztosítsa az adatok és az információk sértetlenségét (integritását),",
+    "a rendszer(ek)nek magában (magukban) kell foglalni (foglalniuk) a rendszer meghibásodásainak rögzítését és a megfelelő azonnali intézkedéseket és helyesbítő tevékenységeket.",
+    "A laboratóriumnak biztosítania kell, hogy a laboratóriumi információkezelő rendszer(ek) szempontjából lényeges utasításokat, kézikönyveket és referenciaadatokat könnyen elérhetővé tegyék a személyzet számára.",
+    "Irányítási rendszerrel kapcsolatos követelmények",
+    "Általános előírás",
+    "A laboratóriumnak ki kell alakítania, dokumentálnia kell olyan irányítási rendszert, amely képes alátámasztani és bizonyítani azt, hogy következetesen teljesíti ezen dokumentum követelményeit és biztosítja a laboratóriumi eredmények minőségét.",
+    "A laboratórium irányítási rendszerének legalább a következőkkel kell foglalkoznia.",
+    "az irányítási rendszer dokumentációja (lásd az 4.2. szakaszt)",
+    "az irányítási rendszer dokumentumainak felügyelete (lásd az 4.3. szakaszt)",
+    "a feljegyzések felügyelete (lásd az 4.4. szakaszt)",
+    "a kockázatokkal és lehetőségekkel kapcsolatos tevékenységek (lásd az 4.5. szakaszt)",
+    "fejlesztés (lásd az 4.6. szakaszt)",
+    "helyesbítő tevékenységek (lásd az 4.7. szakaszt)",
+    "belső auditok (lásd az 4.8. szakaszt)",
+    "vezetőségi átvizsgálások (lásd az 4.9. szakaszt)",
+    "Az irányítási rendszer dokumentációja",
+    "4.2.1. A laboratórium vezetőségének e dokumentum céljainak elérése érdekében politikát és célokat kell kialakítania, dokumentálnia és fenntartania, valamint biztosítania kell, hogy a politikát és a célokat elfogadják és megvalósítsák a laboratóriumi szervezet minden szintjén.",
+    "4.2.2. A politikának és a céloknak foglalkozniuk kell a laboratórium felkészültségével (kompetenciájával), pártatlanságával és következetes működésével.",
+    "4.2.3. A laboratórium vezetőségének bizonyítania kell, hogy elkötelezett az irányítási rendszer fejlesztése és bevezetése mellett, és folyamatosan fejleszti annak eredményességét.",
+    "4.2.4. Minden dokumentációt, folyamatot, rendszert, feljegyzést, amely e dokumentum követelményeinek teljesítéséhez kapcsolódik, be kell illeszteni az irányítási rendszerbe, hivatkozni kell rájuk az irányítási rendszerből, vagy az irányítási rendszerhez kell csatolni.",
+    "4.2.5. A laboratóriumi tevékenységekben részt vevő valamennyi személynek hozzáférést kell biztosítani az irányítási rendszer dokumentációjának azon részeihez és a kapcsolódó információkhoz, amelyek a felelősségeikre alkalmazhatók.",
+    "Az irányítási rendszer dokumentumainak felügyelete",
+    "A laboratóriumnak felügyelet alatt kell tartania az ezen dokumentum teljesítéséhez kapcsolódó (belső és külső) dokumentumokat. Például: gyártói utasítások, kalibrálási táblázatok, diagramok, szövegkönyvek. Ezek különböző adathordozókon, például nyomtatott vagy digitális formában is lehetnek.",
+    "A laboratóriumnak biztosítania kell:",
+    "a dokumentumok megfelelőségét a felhatalmazott személy(ek) jóváhagyják kiadás előtt,",
+    "a dokumentumokat rendszeres időközönként átvizsgálják, és szükség szerint frissítsék,",
+    "a változások és a dokumentumok jelenlegi módosítási állapota azonosítva legyen,",
+    "az alkalmazható dokumentumok vonatkozó változatai elérhetők legyenek a felhasználás helyén, és szükség esetén az elosztásukat felügyelet alatt tartsák,",
+    "a dokumentumokat egyedileg azonosítsák,",
+    "az elavult dokumentumok nem tervezett használatát megelőzzék, és megfelelően azonosítsák, ha bármilyen célra megőrzik azokat.",
+    "A feljegyzések felügyelete",
+    "A laboratóriumnak olvasható feljegyzéseket kell létrehoznia és megőriznie az ebben a dokumentumban foglalt követelmények teljesítésének bizonyítására.",
+    "A laboratóriumnak be kell vezetnie a feljegyzéseinek azonosításához, tárolásához, védelméhez, biztonsági másolatának készítéséhez, archiválásához, visszakereséséhez, a megőrzési idejéhez, valamint a selejtezéséhez szükséges felügyeleti tevékenységeket. A laboratóriumnak meg kell őriznie a feljegyzéseket a szerződéses kötelezettségeivel összhangban lévő időtartamig. Ezen feljegyzésekhez való hozzáférésnek összhangban kell lennie a titoktartási kötelezettségvállalásokkal, és a feljegyzéseknek könnyen elérhetőnek kell lenniük.",
+    "A kockázatokkal és lehetőségekkel kapcsolatos tevékenységek",
+    "A laboratóriumnak át kell gondolnia a laboratóriumi tevékenységéhez kapcsolódó kockázatokat és lehetőségeket annak érdekében, hogy:",
+    "biztosítsa, hogy az irányítási rendszer eléri a tervezett eredményeit,",
+    "növelje a laboratórium szándékai és céljai elérésének lehetőségét,",
+    "megelőzze vagy csökkentse a nemkívánatos hatásokat és a lehetséges meghibásodásokat a laboratóriumi tevékenységekben,",
+    "fejlesztést érjen el.",
+    "A laboratóriumnak meg kell terveznie az ezekkel a kockázatokkal és lehetőségekkel kapcsolatos tevékenységeket.",
+    "A kockázatokkal és lehetőségekkel kapcsolatban megtett intézkedéseknek arányosnak kell lenniük a laboratóriumi eredmények érvényességére gyakorolt lehetséges hatással.",
+    "Fejlesztés",
+    "A laboratóriumnak azonosítania kell, és ki kell választania a fejlesztési lehetőségeket, valamint meg kell valósítania minden szükséges intézkedést.",
+    "A laboratóriumnak visszajelzést kell kérnie (akár pozitív, akár negatív) a vevőitől. A visszajelzést elemezni kell és fel kell használni az irányítási rendszer, a laboratóriumi tevékenységek és a vevőszolgálat fejlesztésére.",
+    "Helyesbítő tevékenységek",
+    "Ha nemmegfelelőség fordul elő, a laboratóriumnak",
+    "reagálnia kell a nemmegfelelőségre és ahogy alkalmazható",
+    "intézkedést kell tennie annak felügyeletére és kijavítására,",
+    "foglalkoznia kell a következményekkel.",
+    "értékelnie kell, hogy szükség van-e intézkedésre a nemmegfelelőség okának (okainak) megszüntetésére annak érdekében, hogy az ne forduljon elő újra vagy máshol:",
+    "a nemmegfelelőség átvizsgálásával és elemzésével,",
+    "a nemmegfelelőség okainak meghatározásával,",
+    "annak meghatározásával, hogy léteznek-e vagy előfordulhatnak-e hasonló nemmegfelelőségek.",
+    "végre kell hajtania minden szükséges tevékenységet,",
+    "át kell vizsgálnia minden végrehajtott helyesbítő tevékenység eredményességét,",
+    "aktualizálnia kell a tervezés során meghatározott kockázatokat és lehetőségeket, ha szükséges,",
+    "el kell végeznie a változtatásokat az irányítási rendszerben, ha szükséges.",
+    "A helyesbítő tevékenységeknek alkalmasnak kell lenniük a feltárt nemmegfelelőségek hatásainak kezelésére.",
+    "a laboratóriumnak bizonyítékként feljegyzéseket kell megőriznie:",
+    "a nemmegfelelőségek jellegéről az ok(ok)ról és minden, annak (azok) nyomán megtett intézkedésről,",
+    "az összes helyesbítő tevékenység eredményeiről.",
+    "Belső auditok",
+    "A laboratóriumnak tervezett időközönként belső auditokat kell végeznie, hogy információkat szolgáltasson arról, vajon az irányítási rendszer",
+    "megfelel-e:",
+    "a laboratórium irányítási rendszerére – beleértve a laboratóriumi tevékenységeket is – vonatkozó saját követelményeinek,",
+    "ezen dokumentumok követelményeinek,",
+    "eredményesen van-e bevezetve és fenntartva.",
+    "A laboratóriumnak",
+    "a gyakoriságot, a módszereket, a felelősségeket, a tervezési követelményeket és a jelentéstételt tartalmazó auditprogramot kell terveznie, kialakítania, megvalósítania és fenntartania, melynek figyelembe kell vennie az érintett laboratóriumi tevékenységek fontosságát, a laboratóriumra hatással lévő változásokat és a megelőző auditok eredményeit,",
+    "minden egyes auditra pontosan meg kell határoznia az auditkritériumokat és az alkalmazási területet,",
+    "biztosítani kell, hogy az auditok eredményeit jelentsék az illetékes vezetésnek,",
+    "indokolatlan késedelem nélkül el kell végeznie a megfelelő helyesbítéseket és helyesbítő tevékenységeket,",
+    "az auditprogram megvalósításáról és az auditeredményekről bizonyítékként feljegyzéseket kell megőriznie.",
+    "Vezetőségi átvizsgálások",
+    "A laboratórium vezetőségének tervezett időközönként át kell vizsgálni irányítási rendszerét azért, hogy biztosítsa folyamatos alkalmasságát, megfelelőségét és eredményességét, beleértve az ennek a dokumentumnak a teljesítéshez kapcsolódó, meghatározott politikákat és célokat.",
+    "A vezetőségi átvizsgálás bemeneteit fel kell jegyezni és tartalmazniuk kell a következőkkel kapcsolatos információkat:",
+    "azoknak a belső és külső tényezőknek a változásai, amelyek a laboratórium szempontjából lényegesek,",
+    "a célok teljesítése,",
+    "a politikák és eljárások megfelelősége,",
+    "a korábbi vezetőségi átvizsgálásból származó intézkedések állapota,",
+    "az előző belső auditok eredménye,",
+    "helyesbítő tevékenységek,",
+    "külső testületek által végzett értékelések,",
+    "a munka mennyiségében és típusában, vagy a laboratóriumi tevékenységek körében bekövetkezett változások,",
+    "visszajelzés a vevőktől és a személyzettől,",
+    "panaszok,",
+    "minden végrehajtott fejlesztés eredményessége,",
+    "az erőforrások megfelelősége,",
+    "a kockázatazonosítás eredményei,",
+    "az eredmények érvényessége biztosításának kimenetelei, és",
+    "egyéb lényeges tényezők, mint pl. figyelemmel kísérései-monitorozási-tevékenységek és a képzés.",
+    "A vezetőségi átvizsgálás kimeneteleinek rögzítenie kell az összes döntést és intézkedést legalább a következőkkel kapcsolatban:",
+    "irányítási rendszer és folyamatainak eredményessége,",
+    "a jelen dokumentum követelményeinek teljesítésével kapcsolatos laboratóriumi tevékenységek fejlesztése,",
+    "a szükséges erőforrások biztosítása,",
+    "minden változtatási igény.",
+    "Vizsgálólaboratóriumok akkreditálási programja",
+    "Mi is az akkreditálás:",
+    "„Az akkreditálás annak hivatalos elismerése, hogy egy szervezet, természetes személy alkalmas bizonyos megfelelőségértékelési tevékenységek (vizsgálat, kalibrálás, mintavétel, tanúsítás, ellenőrzés stb.) elvégzésére. Az akkreditálás célja az egységes európai elvekre épülő akkreditálási rendszerekben elismerést nyert szervezetek iránti bizalom növelése, a vizsgálati, tanúsítási és ellenőrzési tevékenység megbízhatóságának emelése, a vizsgálati eredmények és tanúsítványok kölcsönös elfogadásának elősegítése, megteremtve ez által az ismételt vizsgálatok kiküszöbölését és a kereskedelem műszaki akadályainak elhárítását.” (https://www.nah.gov.hu/hu/oldal/mi-az-akkreditalas/)",
+    "Az akkreditálás előnyei:",
+    "Videó: https://www.youtube.com/watch?v=OdzBXB3vN0A (utolsó megnyitás: 2024.07.04.)",
+    "Az akkreditálási okirat",
+    "Az Akkreditálási Okiraton megnevezett vizsgálólaboratórium megfelel az MSZ EN ISO/IEC 17025 hatályos szabvány követelményeinek, melyet a Nemzeti Akkreditáló Hatóság a 2015. évi CXXIV. törvény és a 424/2015. (XII.23.) Kormányrendeletben foglalt felhatalmazása alapján ítél oda.",
+    "Az Akkreditálási Okirat tartalmazza az akkreditált laboratórium nevét, az MSZ EN ISO/IEC 17025 hatályos szabványnak való megfelelést, a nyilvántartási számot, az akkreditálás érvényességét, a kiállítási dátumot, valamint a kiállító Nemzeti Akkreditáló Hatóság megnevezését az elnök elektronikus aláírásával. Az akkreditálás területét az akkreditálási határozat tartalmazza Részletező Okirat formában.",
+    "A laboratórium vizsgálati tevékenységét a vonatkozó jogszabályoknak, az MSZ EN ISO/IEC 17025 hatályos szabványnak megfelelően végzi, törekedve arra, hogy a szakmai felügyeleti szerv, valamint a Nemzeti Akkreditáló Hatóság és ügyfeleinek igényeinek a legnagyobb mértékben megfeleljen.",
+    "Akkreditálási tevékenységgel kapcsolatos adatkezelés",
+    "https://nah.gov.hu/admin/staticmedia/Oldalakhoz_csatolt_dokumentumok/adatv%C3%A9delem/NAH_Adatvedelmi_Tajekoztato_Akkreditalas_2021_06_01_.pdf (utolsó megtekintés: 2024.07.05.)",
+    "Akkreditálási eljárások folyamatábrája",
+    "https://www.nah.gov.hu/hu/oldal/mi-az-akkreditalas/ (utolsó megnyitás: 2024.07.05.)",
+    "",
+    "1. ábra: akkreditálási, újraakkreditálási, területbővítési eljárás folyamata",
+    "Felügyeleti vizsgálati eljárás folyamatábrája",
+    "https://www.nah.gov.hu/hu/oldal/mi-az-akkreditalas/ (utolsó megnyitás: 2024.07.04.)",
+    "Dokumentumok:",
+    "https://www.nah.gov.hu/hu/oldal/NAR_Dokumentumok/ (utolsó megnyitás: 2024.07.04.)",
+    "Irodalomjegyzék",
+    "",
+    "Ábrajegyzék",
+    "1. ábra: akkreditálási, újraakkreditálási, területbővítési eljárás folyamata\t31",
+    "",
+    "",
+    "Táblázatjegyzék",
+    ""
+  ],
+  "runs": [
+    [],
+    [],
+    [],
+    [
+      "Egyedi megrendelés azonosítója: EM-2.4.4  "
+    ],
+    [
+      "Élelmiszervizsgáló laboratóriumok minőségbiztosítása - MSZ ISO/IEC 17025: 2018 szabvány"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      "Bevezetés"
+    ],
+    [
+      "Minőségirányítási rendszer alkalmazása stratégia",
+      " döntés egy élelmiszeripari vállalkozás számára. ",
+      "A francia eredetű ",
+      "akkreditáció",
+      " jelentése: hitelesítés; egy szervezet vagy intézmény megadott feltételek szerinti tevékenységének hivatalos elismerése. Ezt a hitelesítést pedig kizárólag független, a nemzetközi normáknak megfelelő minősítő intézmény ",
+      "végezheti",
+      " A minőségirányítási rendszerek a vizsgálólaboratóriumot segíthetik a vevők, megrendelők, kirendelők ",
+      "megelégedettségének",
+      "növelésében."
+    ],
+    [
+      "És éppen a fent említett objektivitásnak és általános standardok szerinti elbírálásnak köszönhetően az akkreditáció",
+      " ",
+      "a gazdasági életben igen hamar elismertté és elfogadottá vált."
+    ],
+    [
+      "Forrás: ",
+      "https://www.nah.gov.hu/hu (",
+      "utolsó megtekintés: 202",
+      "4",
+      ".",
+      "07",
+      ".03.)"
+    ],
+    [
+      "MAGYAR SZABVÁNY MSZ EN ISO/IEC 17025"
+    ],
+    [
+      "Vizsgáló",
+      " és kalibrálólaboratóriumok felkészültségének általános követelményei (ISO/IEC 17025:2018)"
+    ],
+    [
+      "E nemzeti szabványt a Magyar Szabványügyi Testület a ",
+      "nemzeti szabványosításról szóló 1995. évi XVIII. törvény alapján tette közé. ",
+      "A szabvány alkalmazása előtt célszerű meggyőződni arról, hogy módosították vagy helyesbítették-e, nincs-e visszavonva, műszaki tartalmú jogszabály hivatkozik-e rá, vagy európai műszaki tartalmú jogszabályhoz harmonizált szabvány-e."
+    ],
+    [
+      "A szabvány alkalmazása e törvény 6. § (1) bekezdése alapján önkéntes. Az önkéntesség választási lehetőséget biztosít a szabvány alkalmazása vagy mellőzése tekintetében. A szabvány közmegegyezéssel elfogadott műszaki dokumentum, amelynek révén általánosan elismert megoldás érhető el."
+    ],
+    [
+      "Ha a szabvány alkalmazását dokumentumban hivatkozva önként vállalják, akkor a hivatkozás vonatkozásában a szabvány alkalmazása kötelező."
+    ],
+    [
+      "Ha a törvény 6",
+      " § (2) bekezdése értelmében műszaki tartalmú jogszabály hivatkozik vagy utal e szabványra, akkor e szabvány alkalmazása esetén vélelmezni kell, hogy érvényesülnek azok a jogszabályokban meghatározott alapvető követelmények, amelyekre e szabvány vonatkozik. A szabványtól való eltérés esetén megkövetelhető annak igazolása, hogy a választott megoldás is megfelel a jogszabályi követelményeknek."
+    ],
+    [
+      "Az európai műszaki tartalmú jogszabályhoz harmonizált szabvány ajánlást ad a jogszabály alapvető követelményeinek való megfelelésre. Az előzőekben leírtakkal összhangban a harmonizált szabvány alkalmazása esetén el kell fogadni, hogy az alkalmazó eleget tett az európai jogszabály, illetve annak megfelelő magyar jogszabály azon követelményeinek, amelyekre a szabvány vonatkozik."
+    ],
+    [
+      "Mivel a szabványok harmonizáltsága időben változhat, a szabvány alkalmazása előtt célszerű meggyőződni arról ",
+      ", hogy alkalmazása időpontjában harmonizáltnak minősül-e."
+    ],
+    [
+      "A szabványnak való megfelelőség akkor valósul meg, ha változtatás nélkül érvényesülnek az előírásai. ",
+      "zt a szabványra hivatkozva kell ",
+      "igazolni."
+    ],
+    [
+      "Alkalmazási terület:"
+    ],
+    [
+      "A rendszerszabvány meghatározza a laboratóriumok felkészültségére (kompetenciájára), ",
+      " és következetes működésére vonatkozó általános követelményeket."
+    ],
+    [
+      "Ez a dokumentum minden, laboratóriumi tevékenységet végző szervezetre alkalmazható, függetlenül a személyzet ",
+      "létszámától."
+    ],
+    [
+      "Szervezeti követelmények, felépítés"
+    ],
+    [
+      "A laboratóriumnak jogi személynek vagy egy jogi személy meghatározott részének kell lennie, amely jogilag felelős ",
+      "laboratóriumi tevékenységéért."
+    ],
+    [
+      "A laboratóriumnak:"
+    ],
+    [
+      "Ki kell jelölnie a vezetőséget, amely teljes felelősséggel tartozik a laboratóriumért, akiknek tájékoztatni kell a személyzetet a feladataikról, felelősségi és hatáskörükről"
+    ],
+    [
+      "A vezetőségnek, akár belső",
+      " akár külső személyzetnek elkötelezettnek kell lennie a ",
+      "pártatlanság",
+      " iránt, nem engedheti meg, ",
+      "kereskedelmi, pénzügyi vagy más nyomás veszélyeztesse a ",
+      "pártatlanságot",
+      ". Ha a pártatlanság kockázata felmerül",
+      " a laboratóriumnak meg kell szüntetni vagy minimalizálni az ilyen kockázatot, bizonyítékokkal alátámasztva."
+    ],
+    [
+      "Felelősnek kell lennie a tevékenységek végrehajtása során megszerzett vagy létrehozott összes információ kezeléséért."
+    ],
+    [
+      "Az információ a vevő tulajdonának minősül és ",
+      "bizalmas",
+      "nak tekintendő. A vevőn kívüli forrásból származó információ, például panaszostól, is bizalmasnak minősül a vevő és a laboratórium között",
+      " ",
+      "nnek az információnak a forrását nem oszthatja meg a ",
+      "vevővel, kivéve",
+      " ha a forrás beleegyezett."
+    ],
+    [
+      "A bizalmasság ",
+      "vonatkozik az egész személyzetre, vállalkozóra, bizottsági tagokra, külső testületek személyzetére",
+      " kivéve, ha a törvény másként rendelkezik."
+    ],
+    [
+      "Meg kell határozni a laboratórium szervezeti felépítését és irányítási struktúráját, helyét bármely anyaszervezetben, valamint a vezetőség, a műszaki műveletek és a támogató szolgáltatások közötti kapcsolatokat."
+    ],
+    [
+      "Meg kell határozni a laboratóriumi tevékenységek eredményeit befolyásoló munkát irányító, végrehajtó vagy igazoló személyzet felelősségét, hatáskörét és kölcsönös kapcsolatát."
+    ],
+    [
+      "Dokumentálnia kell a laboratóriumi tevékenységeket, eredményeket."
+    ],
+    [
+      "Rendelkezni",
+      " kell olyan személyzettel, akik ",
+      " a feladatok ellátásához szükséges hatáskörrel és erőforrásokkal."
+    ],
+    [
+      "Tevékenységei minden szakaszában meg kell felelnie ",
+      "MSZ EN ",
+      "ISO/IEC17025:2018 szabványban leírtaknak a laboratórium összes állandó létesítmény",
+      "ben, beleértve a hordozható (mobil) létesítményeket is."
+    ],
+    [
+      "A vezetőségnek biztosítania ",
+      "és fenn is kell tartania a kommunikációt az irányítási rendszer eredményességéről, a vevők követelményeiről, ",
+      "teljesítés fontosságáról."
+    ],
+    [
+      "Az erőforrásokkal, létesítményekkel, berendezésekkel és környezettel kapcsolatos követelmények"
+    ],
+    [
+      "A laboratóriumnak rendelkeznie kell a tevékenységei irányításához és végrehajtásához szükséges személyzettel, létesítményekkel és támogató szolgáltatásokkal."
+    ],
+    [
+      "A laboratóriumnak rendelkeznie kell eljárással, és feljegyzéseket kell megőriznie a következőkkel kapcsolatban:"
+    ],
+    [
+      "a felkészültségi (kompetencia-) követelmények meghatározása,"
+    ],
+    [
+      "a személyzet kiválasztása,"
+    ],
+    [
+      "a személyzet képzése,"
+    ],
+    [
+      "a személyzet felügyelete,"
+    ],
+    [
+      "a személyzet feljogosítása,"
+    ],
+    [
+      "a személyzet felkészültségének (kompetenciájának) figyelemmel kísérése (",
+      "monitorozása",
+      ")."
+    ],
+    [
+      "A laboratóriumnak fel kell hatalmaznia a személyzetet bizonyos laboratóriumi tevékenységek elvégzésére:"
+    ],
+    [
+      "módszerek kidolgozása, módosítása,"
+    ],
+    [
+      "eredmények elemzése, megfelelési nyilatkozatok,"
+    ],
+    [
+      "eredmények jelentése, átvizsgálása és jóváhagyása."
+    ],
+    [
+      "A létesítményeknek és a környezeti körülményeknek alkalmasnak kell lenniük a laboratóriumi tevékenységekhez, és nem befolyásolhatják hátrányosan az eredmények érvényességét. Például: az eredmények érvényességét hátrányosan befolyásoló hatások közé tartozhatnak, de nem kizárólagosan, a mikrobiológiai ",
+      "szennyeződések, a por, az elektromágneses zavarok, a sugárzás, a páratartalom, az áramellátás, a hőmérséklet, a hang és a rezgés."
+    ],
+    [
+      "A laboratóriumi tevékenységek végrehajtásához szükséges létesítményekre és környezeti körülményekre vonatkozó követelményeket dokumentálni kell."
+    ],
+    [
+      "A laboratóriumnak- akár külső helyszínen is - figyelemmel kell kísérnie és felügyelet alatt kell tartania a környezeti körülményekre vonatkozó előírásokat és az azokat befolyásoló eredmények érvényességét."
+    ],
+    [
+      "A laboratóriumoknak rendelkezni kell megfelelő ",
+      "berendezések",
+      "kel, amelyek biztosítják a pontos eredményeket:"
+    ],
+    [
+      "mérőműszerek,"
+    ],
+    [
+      "szoftverek,"
+    ],
+    [
+      "mérési ",
+      "etalonok,"
+    ],
+    [
+      "referenciaanyagok",
+      ","
+    ],
+    [
+      "reagensek",
+      ","
+    ],
+    [
+      "kalibráló etalon."
+    ],
+    [
+      "A méréshez használt berendezésnek képesnek kell lennie az érvényes eredmény szolgáltatásához szükséges mérési pontosság és/vagy mérési bizonytalanság elérésére."
+    ],
+    [
+      "A mérőberendezéseket kalibrálni kell a mérési bizonytalanság és az eredmények érvénytelenségének elkerülése érdekében. Szükség esetén kalibrálási programot kell kidolgozni, vagy át kell vizsgálni a programot."
+    ],
+    [
+      "A ",
+      "kalibrálást",
+      " igénylő berendezéseket meghatározott érvényességi időtartamú címkével kell ellátni, kódolni vagy más módon azonosítani, hogy a berendezés ",
+      "használója könnyen azonosíthassa a kalibrálás állapotát, vagy az érvényességi időtartamát."
+    ],
+    [
+      "Olyan berendezést, amely megkérdőjelezhető, hibás eredményeket ad, ki kell vonni a használatból. Elkülönítve, felcímkézve „használaton kívüli berendezés” megjelöléssel kell tárolni a javításig vagy a végleges kivonásig."
+    ],
+    [
+      "A berendezésről feljegyzéseket, dokumentumokat kell készíteni, melyeknek tartalmaznia kell:"
+    ],
+    [
+      "a berendezések azonosítását, szoftver verziót;"
+    ],
+    [
+      "a gyártó nevét, típus azonosítóját, sorozatszámot vagy más egyedi azonosítót;"
+    ],
+    [
+      "bizonyítékot annak igazolásáról, hogy a berendezés megfelel a meghatározott követelményeknek;"
+    ],
+    [
+      "jelenlegi elhelyezést;"
+    ],
+    [
+      "kalibrálási időpontokat, eredményeket, beállításokat, elfogadási kritériumokat, a következő kalibrálás esedékességét vagy a kalibrálási időközt;"
+    ],
+    [
+      "a referenciaanyagok dokumentációját, az eredményeket az elfogadási kritériumokat, a lényeges időpontokat és az érvényeség időtartamát;"
+    ],
+    [
+      "karbantartási tervet és az eddig elvégzett karbantartást;"
+    ],
+    [
+      "a",
+      " ",
+      "berendezés károsodásának, meghibásodásának, módosításának vagy javításának részleteit."
+    ],
+    [
+      "A laboratóriumnak ki kell alakítania és fenn kell tartania mérési eredményei ",
+      "metrológiai",
+      " ",
+      "(méréstani) ",
+      "visszavezethetőségét",
+      ", olyan kalibrálások dokumentált, ",
+      "megszakítás nélküli láncolatával, amelyek mindegyike hozzájárul a mérési bizonytalansághoz, és megfelelő referenciához kapcsolódik."
+    ],
+    [
+      "A laboratóriumnak biztosítania kell, hogy a mérési eredmények visszavezethetők legyek a nemzetközi mértékegységrendszerig (SI) a következők valamelyikével: felkészült (kompetens) laboratórium által végzett kalibrálás, vagy felkészült (kompetens) gyártó által szállított tanúsított referencia anyagok tanúsított értékei, vagy az SI mértékegységek közvetlen megvalósítása nemzeti vagy nemzetközi etalonokkal való, közvetlen vagy közvetett összehasonlításával."
+    ],
+    [
+      "A laboratóriumnak gondoskodnia kell arról, hogy csak megfelelő, a laboratóriumi tevékenységeket befolyásoló, külső forrásból biztosított termékeket és szolgáltatásokat használjon, alkalmazzon, ha az ilyen termékeket és szolgáltatásokat:"
+    ],
+    [
+      "a laboratórium saját tevékenységeibe történő beépítésre szánják;"
+    ],
+    [
+      "a laboratórium, részben vagy egészben, közvetlenül a vevőnek szolgáltatja úgy, ahogy az a külső szolgáltatótól érkezett;"
+    ],
+    [
+      "a laboratórium működésének támogatásához használják, alkalmazzák."
+    ],
+    [
+      "A folyamattal kapcsolatos követelmények"
+    ],
+    [
+      "Az ",
+      "ajánlatkérések",
+      ", ajánlatok és szerződések átvizsgálása"
+    ],
+    [
+      "A laboratóriumnak eljárással kell rendelkeznie az ajánlatkérések, az ajánlatok és a szerződések átvizsgálására. Az eljárásnak biztosítani kell, hogy"
+    ],
+    [
+      "a követelmények meghatározása, dokumentálása és megértése megfelelő legyen;"
+    ],
+    [
+      "a laboratóriumnak legyen meg a képessége és az erőforrása a követelmények teljesítéséhez;"
+    ],
+    [
+      "külső szolgáltató esetén a laboratórium tájékoztatja a vevőt a konkrét laboratóriumi tevékenységről, amelyet a külső szolgáltató végez, s megszerzi a vevő jóváhagyását;"
+    ],
+    [
+      "a megfelelő módszereket vagy eljárásokat választják ki, és ezek alkalmasak arra, hogy megfeleljenek a vevők követelményeiknek."
+    ],
+    [
+      "Minden egyes szerződésnek, mind a laboratórium, mind a vevő számára elfogadhatónak kell lennie. A vevő által kért eltérések nem befolyásolhatják a laboratórium hitelességét vagy az eredmények érvényességét."
+    ],
+    [
+      "A vevőt tájékoztatni kell a szerződéstől való bármely eltérésről."
+    ],
+    [
+      "Ha a szerződést a munka megkezdése után módosították, a szerződésátvizsgálást meg kell ismételni, és minden módosításról tájékoztatni kell minden érintett személyt."
+    ],
+    [
+      "Módszerek ",
+      "kiválasztása",
+      ", igazolása (verifikálása) és érvényesítése (validálása)"
+    ],
+    [
+      "Verifikálás:"
+    ],
+    [
+      "A laboratóriumnak megfelelő módszereket és eljárásokat kell alkalmaznia minden laboratóriumi tevékenységre, és ahol célszerű, a mérési bizonytalanság értékelésére, valamint statisztikai módszereket az adatok elemzésére."
+    ],
+    [
+      "Minden olyan módszert, eljárást és támogató dokumentációt, mint például a laboratóriumi tevékenységre vonatkozó utasításokat, szabványokat, kézikönyveket és ",
+      "referenciaadatokat",
+      ", naprakészen kell tartani és a személyzet számára könnyen hozzáférhetővé kell tenni."
+    ],
+    [
+      "A laboratóriumnak biztosítani kell, hogy a módszer legfrissebb, érvényes változatát alkalmazza, kivéve, ha ez nem megfelelő vagy nem lehetséges. Ha szükséges, a módszer alkalmazását további részletekkel kell kiegészíteni a következetes alkalmazás biztosítása érdekében."
+    ],
+    [
+      "Ha a vevő nem határozza meg az alkalmazandó módszert, a laboratóriumnak kell kiválasztania a megfelelő módszert és tájékoztatnia kell a vevőt a választott módszerről."
+    ],
+    [
+      "A laboratóriumnak ",
+      "igazolnia",
+      " ",
+      "(verifikálnia)",
+      " kell, hogy megfelelően tudja alkalmazni a módszereket, mielőtt bevezetné azokat, így biztosítva, hogy el tudja érni a kívánt teljesítményt. Az igazolás feljegyzését meg kell őrizni."
+    ],
+    [
+      "Ha módszerfejlesztésre van szükség, akkor azt el kell végezni és megfelelő erőforrásokkal rendelkező, felkészült személyzetre kell bízni."
+    ],
+    [
+      "Minden laboratóriumi tevékenység vonatkozásában a módszertől való eltérésnek csak olyankor szabad megtörténnie, ha az eltérést dokumentálták, műszakilag megindokolták, engedélyezték és a vevő elfogadta."
+    ],
+    [
+      "Validálás"
+    ],
+    [
+      "A laboratóriumnak ",
+      "érvényesítenie",
+      " (",
+      "validálnia",
+      ")",
+      " kell a nem szabványos módszereket, a laboratórium által kidolgozott módszereket, valamint azokat a ",
+      "szabványos módszereket, amelyeket a tervezett alkalmazási területükön kívül alkalmaznak vagy más módon módosítottak. A ",
+      "validálásnak",
+      " annyira kell átfogónak lennie, amennyire az adott alkalmazás vagy alkalmazási terület szükségleteinek teljesítéséhez szükséges. Pl. vizsgálati vagy kalibrálási tételek, mintavételi, kezelési és szállítási eljárásait is ",
+      "validálni",
+      " szükséges."
+    ],
+    [
+      "Az érvényesített, ",
+      "validált",
+      " módszerek teljesítmény jellemzőinek, a tervezett használatnak megfelelően felmérve, a vevők szükségleteire kell vonatkozniuk és összhangban kell lenniük a meghatározott körülményekkel."
+    ],
+    [
+      "Mintavétel"
+    ],
+    [
+      "A laboratóriumnak mintavételi tervvel és módszerrel kell rendelkeznie, ha mintavételt végez nyersanyagokból, anyagokból vagy termékekből a későbbi vizsgálathoz vagy kalibráláshoz. A mintavételi módszernek foglalkoznia kell a felügyelet alatt tartandó tényezőkkel a későbbi vizsgálati vagy kalibrálási eredmények érvényességének biztosítása érdekében. A mintavételi tervnek és módszernek elérhetőnek kell lennie azon a helyen, ahol a mintavételt végzik. A mintavételi tervnek, amikor csak észszerű, megfelelő statisztikai módszereken kell alapulnia."
+    ],
+    [
+      "A mintavételi módszernek le kell írnia:"
+    ],
+    [
+      "a minták vagy a mintavételi helyek kiválasztását,"
+    ],
+    [
+      "a mintavételi tervet."
+    ],
+    [
+      "a nyersanyagból, anyagból vagy termékből származó minta (minták) előkészítését, és kezelését a későbbi vizsgálathoz vagy kalibráláshoz szükséges tétel létrehozása érdekében."
+    ],
+    [
+      "A laboratóriumnak feljegyzéseket kell megőriznie a mintavételi adatokról, amelyek az elvégzett vizsgálat vagy kalibrálás részét képezik. Tartalmazniuk kell:"
+    ],
+    [
+      "hivatkozást az alkalmazott mintavételi módszerre;"
+    ],
+    [
+      "a mintavétel dátumát és idejét;"
+    ],
+    [
+      "a minta azonosítására és leírására szolgáló adatokat. (pl. szám, mennyiség, elnevezés);"
+    ],
+    [
+      "a mintavételt végző személyzet azonosítását;"
+    ],
+    [
+      "a használt berendezés azonosítását;"
+    ],
+    [
+      "a környezeti és szállítási körülményeket;"
+    ],
+    [
+      "diagramokat vagy más egyenértékű eszközöket a mintavételi hely azonosítására, ha ez célszerű;"
+    ],
+    [
+      "eltéréseket, kiegészítéseket, vagy kizárásokat a mintavételi módszerrel és mintavételi tervvel kapcsolatban."
+    ],
+    [
+      "Kalibrálási és ",
+      "vizsgálati",
+      " tételek kezelése"
+    ],
+    [
+      "A laboratóriumnak rendelkeznie kell eljárással a vizsgálati vagy kalibrálási tételek szállítására, átvételére, kezelésére, védelmére, tárolására, megőrzésére és ártalmatlanítására vagy visszaküldésére, beleértve minden olyan intézkedést, amely szükséges a vizsgálati vagy kalibrálási tétel épségének megóvásához, valamint a laboratórium és a vevő érdekeinek védelméhez. Óvintézkedéseket kell tenni a kezelés, a szállítás, a tárolás/várakozás, valamint a vizsgálat vagy kalibrálás előkészítése során a tétel károsodásának, szennyeződésének, elvesztésének vagy sérülésnek elkerülése érdekében. A tételhez mellékelt kezelési utasításokat be kell tartani."
+    ],
+    [
+      "A laboratóriumnak rendelkeznie kell a vizsgálati vagy kalibrálási tételek egyértelmű azonosítására szolgáló rendszerrel. Az azonosítást meg kell őrizni, amíg a tételért a laboratórium felelős."
+    ],
+    [
+      "A vizsgálati vagy kalibrálási tétel átvételét követően fel kell jegyezni a meghatározott körülményektől való eltéréseket."
+    ],
+    [
+      "Műszaki ",
+      "feljegyzések"
+    ],
+    [
+      "A laboratóriumnak biztosítania kell, hogy az egyes laboratóriumi tevékenységre vonatkozó műszaki feljegyzések tartalmazzák az eredményeket, a jelentést és elegendő információt ahhoz, hogy lehetőség szerint megkönnyítsék a mérési eredményt befolyásoló tényezők és a kapcsolódó mérési bizonytalanság azonosítását, valamint lehetővé tegyék a laboratóriumi tevékenység megismétlését az eredetihez a lehető legközelebb álló körülmények között. A műszaki feljegyzéseknek tartalmazniuk kell a dátumot és az egyes laboratóriumi tevékenységéért, valamint az adatok és az eredmények ellenőrzéséért felelős személyek azonosítását. Az eredeti megfigyeléseket, adatokat és számításokat a létrehozásuk időpontjában fel kell jegyezni, és azoknak az adott feladattal azonosíthatónak kell lenniük."
+    ],
+    [
+      "A laboratóriumnak biztosítania kell, hogy a műszaki feljegyzések módosításai visszavezethetők legyenek a korábbi verziókra vagy az eredeti megfigyelésekre. Ezeket az adatokat meg kell őrizni, beleértve a változtatás időpontját, a megváltozott szempontok feltüntetését és a változtatásokért felelős személyzetet."
+    ],
+    [
+      "A mérési ",
+      "bizonytalanság",
+      " értékelése"
+    ],
+    [
+      "A laboratóriumoknak meg kell határozniuk a mérési bizonytalanság összetevőit. A mérési bizonytalanság értékelése során minden jelentős összetevőt, beleértve azokat is, amelyek a mintavételből származnak, megfelelő elemzési módszerekkel figyelembe kell venni."
+    ],
+    [
+      "Az ",
+      "eredmények",
+      " érvényességének biztosítása"
+    ],
+    [
+      "A laboratóriumnak rendelkeznie kell eljárással az eredmények érvényességének figyelemmel kísérésére (",
+      "monitorozására",
+      "). A kapott adatokat úgy kell feljegyezni, hogy a tendenciák kimutathatók legyenek, és ahol megvalósítható, statisztikai módszereket kell alkalmazni az eredmények (pl.: közölt eredmények) átvizsgálására",
+      "."
+    ],
+    [
+      "A laboratóriumnak figyelemmel kell kísérnie a teljesítményét más laboratóriumok eredményével összehasonlítva, ahol ez rendelkezésre áll és megfelelő.",
+      " ",
+      "Pl. részvétel jártassági vizsgálatban vagy részvétel laboratóriumok közötti összehasonlításokban."
+    ],
+    [
+      "A figyelemmel kísérési (",
+      "monitorozási",
+      ") tevékenységekből származó adatokat elemezni kell, felhasználva a laboratóriumi tevékenységek felügyeletére, és ha alkalmazható, fejlesztésére."
+    ],
+    [
+      "Az ",
+      "eredmények",
+      " közlése"
+    ],
+    [
+      "Az eredményeket a kibocsátás előtt át kell vizsgálni és jóvá kell hagyni."
+    ],
+    [
+      "Az eredményeket pontosan, világosan, egyértelműen és objektíven kell megadni, általában egy jelentésben (pl. vizsgálati jegyzőkönyv vagy kalibrálási bizonyítvány vagy mintavételi jelentés). A jelentésnek tartalmaznia kell a vevővel egyeztetett összes információt, amely az eredmények értelmezéséhez szükséges, valamint az alkalmazott módszer által megkívánt összes információt. Az összes kiadott jelentést műszaki feljegyzésként kell megőrizni."
+    ],
+    [
+      "Ha a vevővel megállapodnak, az eredmények egyszerűsített módon is közölhetők. Viszont bármely információnak, amelyet nem közöltek a vevővel, könnyen elérhetőnek kell lennie."
+    ],
+    [
+      "A (vizsgálati, kalibrálási vagy mintavételi) jelentésekre vonatkozó közös követelmények",
+      " "
+    ],
+    [
+      "Minden egyes jelentésnek legalább a következő információkat kell tartalmaznia, kivéve, ha a laboratóriumnak megalapozott indokai vannak arra, hogy ne így járjon el, ezáltal minimalizálva a félreértés és a visszaélés lehetőségét:"
+    ],
+    [
+      "cím (pl. „Vizsgálati jegyzőkönyv”, Kalibrálási bizonyítvány” vagy „Mintavételi jegyzőkönyv”),"
+    ],
+    [
+      "a laboratórium neve és címe,"
+    ],
+    [
+      "a laboratóriumi tevékenységek végrehajtásának helyszíne, beleértve azt is, amikor a tevékenységeket a vevő létesítményében vagy a laboratórium állandó létesítményitől távol eső helyszíneken, vagy kapcsolódó ideiglenes vagy hordozható (mobil) létesítményben végzik,"
+    ],
+    [
+      "egyedi azonosító, hogy valamennyi összetevőjét a teljes jelentés részeként ismerjék fel, valamint a végének egyértelmű azonosítása,"
+    ],
+    [
+      "a vevő neve és elérhetősége,"
+    ],
+    [
+      "az alkalmazott módszer azonosítása,"
+    ],
+    [
+      "a tétel leírása, egyértelmű azonosítása, és szükség esetén állapota,"
+    ],
+    [
+      "a vizsgálati vagy kalibrálási tétel(",
+      "ek",
+      ") átvételének dátuma, valamint a mintavétel dátuma, ha ez kritikus fontosságú az eredmények érvényessége és alkalmazása szempontjából,"
+    ],
+    [
+      "a laboratóriumi tevékenység végrehajtásának dátuma,"
+    ],
+    [
+      "a jelentés kiadásának dátuma,"
+    ],
+    [
+      "hivatkozás a mintavételi tervre és a laboratórium vagy más területek által használt mintavételi módszerre, ha ezek lényegesek az eredmények érvényessége vagy alkalmazása szempontjából,"
+    ],
+    [
+      "egy nyilatkozat arról, hogy az eredmények csak a vizsgált, kalibrált vagy mintavételezett tételekre vonatkoznak,"
+    ],
+    [
+      "az eredmények, indokolt esetben a mértékegységekkel,"
+    ],
+    [
+      "a módszer módosításai, eltérései vagy kizárásai,"
+    ],
+    [
+      "a jelentést jóváhagyó személy(",
+      "ek",
+      ") azonosítása,"
+    ],
+    [
+      "egyértelmű azonosítás, ha az eredmények külső szolgáltatóktól származnak."
+    ],
+    [
+      "A laboratóriumnak felelősnek kell lennie a jelentésben szereplő összes információért, kivéve, ha az információt a vevő nyújtja. A vevő által szolgáltatott adatokat egyértelműen azonosítani kell. Ezen kívül a jelentésben szerepeltetnie kell egy felelősségkizáró nyilatkozatot, ha az információt a vevő nyújtja, és hatással lehet az eredmények érvényességére. Ha a laboratórium nem felelős a mintavételi szakaszért (pl. a mintát a vevő biztosította), a jelentésnek tartalmaznia kell, hogy az eredmények a kapott mintára vonatkoznak."
+    ],
+    [
+      "Egyéb egyedi követelmények:"
+    ],
+    [
+      "Vizsgálati jelentéseknek, jegyzőkönyveknek, ahol az értelmezéshez szükséges, tartalmazniuk kell a következőket:"
+    ],
+    [
+      "az adott vizsgálati körülményekre vonatkozó információkat, például a környezeti körülményeket,"
+    ],
+    [
+      "további információkat, amelyeket bizonyos módszerek, hatóságok, vevők vagy vevők csoportjai megkövetelhetnek."
+    ],
+    [
+      "Kalibrálási bizonyítványoknak, tanúsítványoknak tartalmazniuk kell:"
+    ],
+    [
+      "indokolt esetben véleményeket és értelmezéseket"
+    ],
+    [
+      "Mintavételi jegyzőkönyveknek tartalmazniuk kell:"
+    ],
+    [
+      "a mintavétel dátuma,"
+    ],
+    [
+      "a tétel vagy anyag, amelyből a mintát vették, egyedi azonosítását, (beleértve a gyártó nevét, a modell vagy a típus megjelölését és a sorozatszámokat, adott esetben),"
+    ],
+    [
+      "a mintavétel helyét, beleértve bármely diagramot, vázlatot vagy fényképet,"
+    ],
+    [
+      "hivatkozást a mintavételi tervre és a mintavételi módszerre,"
+    ],
+    [
+      "a mintavétel alatti környezeti körülmények részleteit, amelyek befolyásolják az eredmények értelmezését,"
+    ],
+    [
+      "a mérési bizonytalanság értékeléséhez szükséges információkat a későbbi vizsgálathoz vagy kalibráláshoz."
+    ],
+    [
+      "Megfelelőségi nyilatkozatok közlése:"
+    ],
+    [
+      "A laboratóriumnak oly módon kell közölnie a megfelelőségi nyilatkozatot, hogy a nyilatkozat világosan meghatározza:"
+    ],
+    [
+      "mely eredményekre érvényes a nyilatkozat,"
+    ],
+    [
+      "mely előírások, szabványok vagy ezek részei teljesülnek, vagy nem teljesülnek,"
+    ],
+    [
+      "az alkalmazott ",
+      "döntési szabályt",
+      ", figyelembe véve az adott döntési szabályhoz kapcsolódó kockázati szintet."
+    ],
+    [
+      "Vélemények és értelmezések közlése"
+    ],
+    [
+      "A laboratóriumnak biztosítania kell, ha véleményeket és értelmezéseket közöl, hogy csak a véleménynyilvánításra és értelmezésre felhatalmazott személyzet közölje a megfelelő nyilatkozatot. A laboratóriumnak dokumentálnia kell a vélemények és értelmezések alapját."
+    ],
+    [
+      "Jelentések módosításai"
+    ],
+    [
+      "Ha a kiadott jelentést változtatni, módosítani kell, vagy újra ki kell adni, minden információváltozást világosan azonosítani kell, és ahol helyénvaló, a változás okait a jelentésben fel kell tüntetni."
+    ],
+    [
+      "Panaszok"
+    ],
+    [
+      "A laboratóriumnak dokumentált eljárással kell rendelkeznie a ",
+      "panaszok",
+      " fogadására, értékelésére és a panaszokkal kapcsolatos döntések meghozatalára."
+    ],
+    [
+      "A panaszkezelési folyamat leírását kérésre bármely érdekelt fél rendelkezésére kell bocsátani. A panasz beérkezése után a laboratóriumnak meg kell erősíteni, hogy a panasz a laboratórium olyan tevékenységeihez kapcsolódik-e, amelyért felelős, és ha igen, foglalkoznia kell vele. A laboratóriumnak felelősnek kell lennie panaszkezelési folyamat minden szintjén hozott döntéséért."
+    ],
+    [
+      "A panaszkezelési folyamatnak legalább a következő elemeket és módszereket kell tartalmaznia:"
+    ],
+    [
+      "a panasz beérkezése, jóváhagyása, kivizsgálása folyamatának leírását, és annak eldöntését, hogy milyen intézkedéseket kell tenni válaszként,"
+    ],
+    [
+      "a panaszok nyomon követését és feljegyzését, beleértve a megoldásukra hozott intézkedéseket is,"
+    ],
+    [
+      "annak biztosítása, hogy minden megfelelő intézkedést megtesznek."
+    ],
+    [
+      "A panaszt átvevő laboratóriumnak felelősnek kell lennie a panasz jóváhagyásához szükséges összes információ összegyűjtéséért és igazolásáért (verifikálásáért)."
+    ],
+    [
+      "Amikor csak lehetséges, a laboratóriumnak vissza kell igazolnia a panasz átvételét, és tájékoztatnia kell a panaszost az ügy állásáról írásos formában, valamint az eredményekről."
+    ],
+    [
+      "A panaszossal közölni kívánt eredményeket olyan személy(",
+      "ek",
+      ")",
+      "nek",
+      " kell létrehozniuk, vagy átvizsgálniuk és jóváhagyniuk, aki(k) a kérdéses eredeti laboratóriumi tevékenységekben nem vett(",
+      "ek",
+      ") részt."
+    ],
+    [
+      "Amikor csak lehetséges, a laboratóriumnak a panaszkezelés végén hivatalos értesítést kell küldenie a panaszosnak."
+    ],
+    [
+      "Nem megfelelő munka"
+    ],
+    [
+      "A laboratóriumnak rendelkeznie kell egy olyan eljárással, amelyet akkor kell végrehajtania, ha laboratóriumi tevékenységeinek bármely eleme vagy e munka eredményei nem felelnek meg a saját eljárásainak, vagy a vevő elfogadott követelményeinek."
+    ],
+    [
+      "Ha az értékelés azt mutatja, hogy a nem megfelelő munka ismételten előfordulhat, vagy kétség merül fel azzal kapcsolatban, hogy a laboratórium műveletei megfelelnek saját irányítási rendszerének, a laboratóriumnak helyesbítő tevékenységet kell végeznie."
+    ],
+    [
+      "Az adat- és információkezelés felügyelete"
+    ],
+    [
+      "A laboratóriumnak hozzáféréssel kell rendelkeznie a laboratóriumi tevékenységek elvégzéséhez szükséges adatokhoz és információkhoz."
+    ],
+    [
+      "A laboratóriumi információkezelő"
+    ],
+    [
+      "rendszer(eke)t védeni kell a jogosulatlan hozzáféréstől,"
+    ],
+    [
+      "rendszer(eke)t védeni kell a hamisítás és a károsodás/adatvesztés ellen,"
+    ],
+    [
+      "rendszer(eke)t olyan környezetben kell működtetni, amely megfelel a szolgáltatói vagy a laboratóriumi előírásoknak, vagy nem számítógépes rendszerek esetén olyan körülményeket biztosít, amelyek megóvják a kézi rögzítés és a másolás pontosságát,"
+    ],
+    [
+      "rendszer(eke)t oly módon kell karbantartani, hogy az biztosítsa az adatok és az információk sértetlenségét (integritását),"
+    ],
+    [
+      "a rendszer(",
+      "ek",
+      ")",
+      "nek",
+      " magában (magukban) kell foglalni (foglalniuk) a rendszer meghibásodásainak rögzítését és a megfelelő azonnali intézkedéseket és helyesbítő tevékenységeket."
+    ],
+    [
+      "A laboratóriumnak biztosítania kell, hogy a laboratóriumi információkezelő rendszer(",
+      "ek",
+      ") szempontjából lényeges utasításokat, kézikönyveket és ",
+      "referenciaadatokat",
+      " könnyen elérhetővé tegyék a személyzet számára."
+    ],
+    [
+      "Irányítási rendszerrel kapcsolatos ",
+      "követelmények"
+    ],
+    [
+      "Általános",
+      " előírás"
+    ],
+    [
+      "A laboratóriumnak ki kell alakítania, dokumentálnia kell olyan irányítási rendszert, amely képes alátámasztani és bizonyítani azt, hogy következetesen teljesíti ezen dokumentum követelményeit és biztosítja a laboratóriumi eredmények minőségét."
+    ],
+    [
+      "A laboratórium irányítási rendszerének legalább a következőkkel kell foglalkoznia."
+    ],
+    [
+      "az irányítási rendszer dokumentációja (lásd az 4.2. szakaszt)"
+    ],
+    [
+      "az irányítási rendszer dokumentumainak felügyelete (lásd az 4.3. szakaszt)"
+    ],
+    [
+      "a feljegyzések felügyelete (lásd az 4.4. szakaszt)"
+    ],
+    [
+      "a kockázatokkal és lehetőségekkel kapcsolatos tevékenységek (lásd az 4.5. szakaszt)"
+    ],
+    [
+      "fejlesztés (lásd az 4.6. szakaszt)"
+    ],
+    [
+      "helyesbítő tevékenységek (lásd az 4.7. szakaszt)"
+    ],
+    [
+      "belső auditok (lásd az 4.8. szakaszt)"
+    ],
+    [
+      "vezetőségi átvizsgálások (lásd az 4.9. szakaszt)"
+    ],
+    [
+      "Az ",
+      "irányítási",
+      " rendszer dokumentációja"
+    ],
+    [
+      "4.2.1. A laboratórium vezetőségének e dokumentum céljainak elérése érdekében politikát és célokat kell kialakítania, dokumentálnia és fenntartania, valamint biztosítania kell, hogy a politikát és a célokat elfogadják és megvalósítsák a laboratóriumi szervezet minden szintjén."
+    ],
+    [
+      "4.2.2. A politikának és a céloknak foglalkozniuk kell a laboratórium felkészültségével (kompetenciájával), ",
+      "pártatlanságával",
+      " és következetes működésével."
+    ],
+    [
+      "4.2.3. A laboratórium vezetőségének bizonyítania kell, hogy elkötelezett az irányítási rendszer fejlesztése és bevezetése mellett, és folyamatosan fejleszti annak eredményességét."
+    ],
+    [
+      "4.2.4. Minden dokumentációt, folyamatot, rendszert, feljegyzést, amely e dokumentum követelményeinek teljesítéséhez kapcsolódik, be kell illeszteni az irányítási rendszerbe, hivatkozni kell rájuk az irányítási rendszerből, vagy az irányítási rendszerhez kell csatolni."
+    ],
+    [
+      "4.2.5. A laboratóriumi tevékenységekben részt vevő valamennyi személynek hozzáférést kell biztosítani az irányítási rendszer dokumentációjának azon részeihez és a kapcsolódó információkhoz, amelyek a felelősségeikre alkalmazhatók."
+    ],
+    [
+      "Az irányítási ",
+      "rendszer",
+      " dokumentumainak felügyelete"
+    ],
+    [
+      "A laboratóriumnak felügyelet alatt kell tartania az ezen dokumentum teljesítéséhez kapcsolódó (belső és külső) dokumentumokat. Például: gyártói utasítások, kalibrálási táblázatok, diagramok, szövegkönyvek. Ezek különböző adathordozókon, például nyomtatott vagy digitális formában is lehetnek."
+    ],
+    [
+      "A laboratóriumnak biztosítania kell:"
+    ],
+    [
+      "a dokumentumok megfelelőségét a felhatalmazott személy(",
+      "ek",
+      ") jóváhagyják kiadás előtt,"
+    ],
+    [
+      "a dokumentumokat rendszeres időközönként átvizsgálják, és szükség szerint frissítsék,"
+    ],
+    [
+      "a változások és a dokumentumok jelenlegi módosítási állapota azonosítva legyen,"
+    ],
+    [
+      "az alkalmazható dokumentumok vonatkozó változatai elérhetők legyenek a felhasználás helyén, és szükség esetén az elosztásukat felügyelet alatt tartsák,"
+    ],
+    [
+      "a dokumentumokat egyedileg azonosítsák,"
+    ],
+    [
+      "az elavult dokumentumok nem tervezett használatát megelőzzék, és megfelelően azonosítsák, ha bármilyen célra megőrzik azokat."
+    ],
+    [
+      "A feljegyzések felügyelete"
+    ],
+    [
+      "A laboratóriumnak olvasható feljegyzéseket kell létrehoznia és megőriznie az ebben a dokumentumban foglalt követelmények teljesítésének bizonyítására."
+    ],
+    [
+      "A laboratóriumnak be kell vezetnie a feljegyzéseinek azonosításához, tárolásához, védelméhez, biztonsági másolatának készítéséhez, archiválásához, visszakereséséhez, a megőrzési ",
+      "idejéhez",
+      ", valamint a selejtezéséhez szükséges felügyeleti tevékenységeket. A laboratóriumnak meg kell őriznie a feljegyzéseket a szerződéses kötelezettségeivel összhangban lévő időtartamig. Ezen feljegyzésekhez való hozzáférésnek összhangban kell lennie a titoktartási kötelezettségvállalásokkal, és a feljegyzéseknek könnyen elérhetőnek kell lenniük."
+    ],
+    [
+      "A ",
+      "kockázatokkal",
+      " és lehetőségekkel kapcsolatos tevékenységek"
+    ],
+    [
+      "A laboratóriumnak át kell gondolnia a laboratóriumi tevékenységéhez kapcsolódó kockázatokat és lehetőségeket annak érdekében, hogy:"
+    ],
+    [
+      "biztosítsa, hogy az irányítási rendszer eléri a tervezett eredményeit,"
+    ],
+    [
+      "növelje a laboratórium szándékai és céljai elérésének lehetőségét,"
+    ],
+    [
+      "megelőzze vagy csökkentse a nemkívánatos hatásokat és a lehetséges meghibásodásokat a laboratóriumi tevékenységekben,"
+    ],
+    [
+      "fejlesztést érjen el."
+    ],
+    [
+      "A laboratóriumnak meg kell terveznie az ezekkel a kockázatokkal és lehetőségekkel kapcsolatos tevékenységeket."
+    ],
+    [
+      "A kockázatokkal és lehetőségekkel kapcsolatban megtett intézkedéseknek arányosnak kell lenniük a laboratóriumi eredmények érvényességére gyakorolt lehetséges hatással."
+    ],
+    [
+      "Fejlesztés"
+    ],
+    [
+      "A laboratóriumnak azonosítania kell, és ki kell választania a fejlesztési lehetőségeket, valamint meg kell valósítania minden szükséges intézkedést."
+    ],
+    [
+      "A laboratóriumnak visszajelzést kell kérnie (akár pozitív, akár negatív) a vevőitől. A visszajelzést elemezni kell és fel kell használni az irányítási rendszer, a laboratóriumi tevékenységek és a vevőszolgálat fejlesztésére."
+    ],
+    [
+      "Helyesbítő",
+      " tevékenységek"
+    ],
+    [
+      "Ha nemmegfelelőség fordul elő, a laboratóriumnak"
+    ],
+    [
+      "reagálnia kell a nemmegfelelőségre és ahogy alkalmazható"
+    ],
+    [
+      "intézkedést kell tennie annak felügyeletére és kijavítására,"
+    ],
+    [
+      "foglalkoznia kell a következményekkel."
+    ],
+    [
+      "értékelnie kell, hogy szükség van-e intézkedésre a nemmegfelelőség okának (okainak) megszüntetésére annak érdekében, hogy az ne forduljon elő újra vagy máshol:"
+    ],
+    [
+      "a nemmegfelelőség átvizsgálásával és elemzésével,"
+    ],
+    [
+      "a nemmegfelelőség okainak meghatározásával,"
+    ],
+    [
+      "annak meghatározásával, hogy léteznek-e vagy előfordulhatnak-e hasonló nemmegfelelőségek."
+    ],
+    [
+      "végre kell hajtania minden szükséges tevékenységet,"
+    ],
+    [
+      "át kell vizsgálnia minden végrehajtott helyesbítő tevékenység eredményességét,"
+    ],
+    [
+      "aktualizálnia kell a tervezés során meghatározott kockázatokat és lehetőségeket, ha szükséges,"
+    ],
+    [
+      "el kell végeznie a változtatásokat az irányítási rendszerben, ha szükséges."
+    ],
+    [
+      "A helyesbítő tevékenységeknek alkalmasnak kell lenniük a feltárt nemmegfelelőségek hatásainak kezelésére."
+    ],
+    [
+      "a laboratóriumnak bizonyítékként feljegyzéseket kell megőriznie:"
+    ],
+    [
+      "a nemmegfelelőségek jellegéről az ok(ok)",
+      "ról",
+      " és minden, annak (azok) nyomán megtett intézkedésről,"
+    ],
+    [
+      "az összes helyesbítő tevékenység eredményeiről."
+    ],
+    [
+      "Belső auditok"
+    ],
+    [
+      "A laboratóriumnak tervezett időközönként belső auditokat kell végeznie, hogy információkat szolgáltasson arról, vajon az irányítási rendszer"
+    ],
+    [
+      "megfelel-e:"
+    ],
+    [
+      "a laboratórium irányítási rendszerére – beleértve a laboratóriumi tevékenységeket is – vonatkozó saját követelményeinek,"
+    ],
+    [
+      "ezen dokumentumok követelményeinek,"
+    ],
+    [
+      "eredményesen van-e bevezetve és fenntartva."
+    ],
+    [
+      "A laboratóriumnak"
+    ],
+    [
+      "a gyakoriságot, a módszereket, a felelősségeket, a tervezési követelményeket és a jelentéstételt tartalmazó auditprogramot kell terveznie, kialakítania, megvalósítania és fenntartania, melynek figyelembe kell vennie az érintett laboratóriumi tevékenységek fontosságát, a laboratóriumra hatással lévő változásokat és a megelőző auditok eredményeit,"
+    ],
+    [
+      "minden egyes auditra pontosan meg kell határoznia az auditkritériumokat és az alkalmazási területet,"
+    ],
+    [
+      "biztosítani kell, hogy az auditok eredményeit jelentsék az illetékes vezetésnek,"
+    ],
+    [
+      "indokolatlan késedelem nélkül el kell végeznie a megfelelő helyesbítéseket és helyesbítő tevékenységeket,"
+    ],
+    [
+      "az auditprogram megvalósításáról és az auditeredményekről bizonyítékként feljegyzéseket kell megőriznie."
+    ],
+    [
+      "Vezetőségi ",
+      "átvizsgálások"
+    ],
+    [
+      "A laboratórium vezetőségének tervezett időközönként át kell vizsgálni irányítási rendszerét azért, hogy biztosítsa folyamatos alkalmasságát, megfelelőségét és eredményességét, beleértve az ennek a dokumentumnak a teljesítéshez kapcsolódó, meghatározott politikákat és célokat."
+    ],
+    [
+      "A vezetőségi átvizsgálás bemeneteit fel kell jegyezni és tartalmazniuk kell a következőkkel kapcsolatos információkat:"
+    ],
+    [
+      "azoknak a belső és külső tényezőknek a változásai, amelyek a laboratórium szempontjából lényegesek,"
+    ],
+    [
+      "a célok teljesítése,"
+    ],
+    [
+      "a politikák és eljárások megfelelősége,"
+    ],
+    [
+      "a korábbi vezetőségi átvizsgálásból származó intézkedések állapota,"
+    ],
+    [
+      "az előző belső auditok eredménye,"
+    ],
+    [
+      "helyesbítő tevékenységek,"
+    ],
+    [
+      "külső testületek által végzett értékelések,"
+    ],
+    [
+      "a munka mennyiségében és típusában, vagy a laboratóriumi tevékenységek körében bekövetkezett változások,"
+    ],
+    [
+      "visszajelzés a vevőktől és a személyzettől,"
+    ],
+    [
+      "panaszok,"
+    ],
+    [
+      "minden végrehajtott fejlesztés eredményessége,"
+    ],
+    [
+      "az erőforrások megfelelősége,"
+    ],
+    [
+      "a kockázatazonosítás eredményei,"
+    ],
+    [
+      "az eredmények érvényessége biztosításának kimenetelei, és"
+    ],
+    [
+      "egyéb lényeges tényezők, mint pl. figyelemmel kísérései-",
+      "monitorozási",
+      "-tevékenységek és a képzés."
+    ],
+    [
+      "A vezetőségi átvizsgálás kimeneteleinek rögzítenie kell az összes döntést és intézkedést legalább a következőkkel kapcsolatban:"
+    ],
+    [
+      "irányítási rendszer és folyamatainak eredményessége,"
+    ],
+    [
+      "a jelen dokumentum követelményeinek teljesítésével kapcsolatos laboratóriumi tevékenységek fejlesztése,"
+    ],
+    [
+      "a szükséges erőforrások biztosítása,"
+    ],
+    [
+      "minden változtatási igény."
+    ],
+    [
+      "Vizsgálólaboratóriumok ",
+      "akkreditálási programja"
+    ],
+    [
+      "Mi is az akkreditálás:"
+    ],
+    [
+      "„Az akkreditálás annak hivatalos elismerése, hogy egy szervezet, természetes személy alkalmas bizonyos megfelelőségértékelési tevékenységek (vizsgálat, kalibrálás, mintavétel, tanúsítás, ellenőrzés stb.) elvégzésére.",
+      " ",
+      "Az akkreditálás célja az egységes európai elvekre épülő akkreditálási rendszerekben elismerést nyert szervezetek iránti bizalom növelése, a vizsgálati, tanúsítási és ellenőrzési tevékenység megbízhatóságának emelése, a vizsgálati eredmények és tanúsítványok kölcsönös elfogadásának elősegítése, megteremtve ez által az ",
+      "ismételt vizsgálatok",
+      " kiküszöbölését és a kereskedelem műszaki akadályainak elhárítását.” (",
+      "https://www.nah.gov.hu/hu/oldal/mi-az-akkreditalas/)"
+    ],
+    [
+      "Az akkreditálás előnyei:"
+    ],
+    [
+      "Videó: ",
+      "https://www.youtube.com/watch?v=OdzBXB3vN0A ",
+      "(",
+      "utolsó ",
+      "megnyitás: 202",
+      "4",
+      ".",
+      "07",
+      ".0",
+      "4",
+      ".)"
+    ],
+    [
+      "Az ",
+      "akkreditálási okirat"
+    ],
+    [
+      "Az Akkreditálási Okiraton megnevezett vizsgálólaboratórium megfelel az MSZ EN ISO/IEC 17025 hatályos szabvány követelményeinek, melyet a Nemzeti Akkreditáló Hatóság a 2015. évi CXXIV. törvény és a 424/2015. (XII.23.) Kormányrendeletben foglalt felhatalmazása alapján ítél oda."
+    ],
+    [
+      "Az Akkreditálási Okirat tartalmazza az akkreditált laboratórium nevét, az MSZ EN ISO/IEC 17025 hatályos szabványnak való megfelelést, a nyilvántartási számot, az akkreditálás érvényességét, a kiállítási dátumot, valamint a kiállító Nemzeti Akkreditáló Hatóság megnevezését az elnök elektronikus aláírásával. Az akkreditálás területét az akkreditálási határozat tartalmazza Részletező Okirat formában."
+    ],
+    [
+      "A laboratórium vizsgálati tevékenységét a vonatkozó jogszabályoknak, az MSZ EN ISO/IEC 17025 hatályos szabványnak megfelelően végzi, törekedve arra, hogy a szakmai felügyeleti szerv, valamint a Nemzeti Akkreditáló Hatóság és ügyfeleinek igényeinek a legnagyobb mértékben megfeleljen."
+    ],
+    [
+      "Akkreditálási tevékenységgel kapcsolatos adatkezelés"
+    ],
+    [
+      "https://nah.gov.hu/admin/staticmedia/Oldalakhoz_csatolt_dokumentumok/adatv%C3%A9delem/NAH_Adatvedelmi_Tajekoztato_Akkreditalas_2021_06_01_.pdf",
+      " (utolsó megtekintés: 202",
+      "4",
+      ".",
+      "07",
+      ".0",
+      "5",
+      ".)"
+    ],
+    [
+      "Akkreditálási eljárások folyamatábrája"
+    ],
+    [
+      "https://www.nah.gov.hu/hu/oldal/mi-az-akkreditalas/",
+      " ",
+      "(",
+      "utolsó m",
+      "egnyitás: 202",
+      "4",
+      ".",
+      "07",
+      ".0",
+      "5",
+      ".)"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". ábra:",
+      " akkreditálási, ",
+      "újraakkreditálási",
+      ", területbővítési eljárás folyamata"
+    ],
+    [
+      "Felügyeleti vizsgálati eljárás folyamat",
+      "ábrája"
+    ],
+    [
+      "https://www.nah.gov.hu/hu/oldal/mi-az-akkreditalas/",
+      " ",
+      "(",
+      "utolsó m",
+      "egnyitás: 202",
+      "4",
+      ".",
+      "07",
+      ".0",
+      "4",
+      ".)"
+    ],
+    [
+      "Dokumentumok:"
+    ],
+    [
+      "https://www.nah.gov.hu/hu/oldal/NAR_Dokumentumok/",
+      " ",
+      "(",
+      "utolsó m",
+      "egnyitás: 202",
+      "4",
+      ".",
+      "07",
+      ".0",
+      "4",
+      ".)"
+    ],
+    [
+      "Irodalomjegyzék"
+    ],
+    [
+      ""
+    ],
+    [
+      "Ábrajegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "Táblázatjegyzék"
+    ],
+    []
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Járóné Kőházi-Kis Andrea"
+      ],
+      [
+        "Szakmai lektor:",
+        "Tóth Krisztina"
+      ],
+      [
+        "Évfolyam:",
+        "11. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "16 óra"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Élelmiszeripar"
+      ],
+      [
+        "Szakma:",
+        "Élelmiszer-ellenőrzési technikus"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Élelmiszervizsgáló laboratóriumok működtetése"
+      ],
+      [
+        "Tantárgy:",
+        "Minőségbiztosítás"
+      ],
+      [
+        "",
+        ""
+      ],
+      [
+        "",
+        ""
+      ]
+    ]
+  ],
+  "headers": [
+    "",
+    ""
+  ],
+  "footers": [
+    "",
+    ""
+  ],
+  "footnotes": [
+    "",
+    ""
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image3.jpg",
+      "path": null,
+      "bytes": 168817
+    },
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 56449
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Címsor 1 Char",
+    "Címsor 4 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "Címsor 5 Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Table Normal",
+    "Title",
+    "Cím Char",
+    "Hyperlink",
+    "List Paragraph",
+    "Normal (Web)",
+    "Strong",
+    "Revision",
+    "annotation reference",
+    "annotation text",
+    "Jegyzetszöveg Char",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "FollowedHyperlink",
+    "Subtitle",
+    "Alcím Char",
+    "TOC Heading",
+    "ELMS1",
+    "No Spacing",
+    "Listaszerű bekezdés Char",
+    "ELMS1 Char",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "Caption",
+    "table of figures",
+    "Unresolved Mention",
+    "Címsor 9 Char",
+    "[Alapbekezdés]"
+  ]
+}

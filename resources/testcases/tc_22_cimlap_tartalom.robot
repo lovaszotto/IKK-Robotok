@@ -49,9 +49,97 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
                 #Log To Console    ${first_table}
                 #Log To Console    ---------------------- 
                   # dict létrehozása és kulcsok/értékek 'tisztítása' Python comprehension-nel
-                ${clean}=    Evaluate    {k.rstrip(':').strip(): v.strip() for k, v in dict(${first_table}).items()}
                #${clean} -ben minden # kidobása
+                #Log To Console    ------CLEAN------------ 
+                #Log To Console    ${first_table}
+                #Log To Console    ------------------ 
+                # ----------------- Kötelező zábla szövegek ellenőrzése ellenőrzése --------------------
+                #a Kéziratíró: szövegnek kötelezően szerepelnie kell a ${clean}-ben
+                IF    'Kéziratíró' not in ${first_table}
+                    ${new_err}=    Set Variable    A Kéziratíró mező nem létezik a címlapon!
+                    IF    $err_msg == ''
+                        ${err_msg}=    Set Variable    ${new_err}
+                    ELSE
+                        ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+                    END
+                    Log To Console    [ERROR] ${new_err}
+                END
+                #a Szakmai lektor: szövegnek kötelezően szerepelnie kell a ${clean}-ben
+                IF    'Szakmai lektor' not in ${first_table}
+                    ${new_err}=    Set Variable    A Szakmai lektor mező nem létezik a címlapon!
+                    IF    $err_msg == ''
+                        ${err_msg}=    Set Variable    ${new_err}
+                    ELSE
+                        ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+                    END
+                    Log To Console    [ERROR] ${new_err}
+                END
                 
+                #a Ágazat: szövegnek kötelezően szerepelnie kell a ${clean}-ben
+                IF    'Ágazat' not in ${first_table}
+                    ${new_err}=    Set Variable    A Ágazat mező nem létezik a címlapon!
+                    IF    $err_msg == ''
+                        ${err_msg}=    Set Variable    ${new_err}
+                    ELSE
+                        ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+                    END
+                    Log To Console    [ERROR] ${new_err}
+                END
+
+                #a Szakma: szövegnek kötelezően szerepelnie kell a ${clean}-ben
+                IF    'Szakma' not in ${first_table}
+                    ${new_err}=    Set Variable    A Szakma mező nem létezik a címlapon!
+                    IF    $err_msg == ''
+                        ${err_msg}=    Set Variable    ${new_err}
+                    ELSE
+                        ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+                    END
+                    Log To Console    [ERROR] ${new_err}
+                END
+                #a Tanulási terület: szövegnek kötelezően szerepelnie kell a ${clean}-ben
+                IF    'Tanulási terület' not in ${first_table}
+                    ${new_err}=    Set Variable    A Tanulási terület mező nem létezik a címlapon!
+                    IF    $err_msg == ''
+                        ${err_msg}=    Set Variable    ${new_err}
+                    ELSE
+                        ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+                    END
+                    Log To Console    [ERROR] ${new_err}
+                END
+                #a Tantárgy: szövegnek kötelezően szerepelnie kell a ${clean}-ben
+                IF    'Tantárgy' not in ${first_table}
+                    ${new_err}=    Set Variable    A Tantárgy mező nem létezik a címlapon!
+                    IF    $err_msg == ''
+                        ${err_msg}=    Set Variable    ${new_err}
+                    ELSE
+                        ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+                    END
+                    Log To Console    [ERROR] ${new_err}
+                END
+
+                #a Évfolyam: szövegnek kötelezően szerepelnie kell a ${clean}-ben
+                IF    'Évfolyam' not in ${first_table}
+                    ${new_err}=    Set Variable    A Évfolyam mező nem létezik a címlapon!
+                    IF    $err_msg == ''
+                        ${err_msg}=    Set Variable    ${new_err}
+                    ELSE
+                        ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+                    END
+                    Log To Console    [ERROR] ${new_err}
+                END
+                #a Óraszám: szövegnek kötelezően szerepelnie kell a ${clean}-ben
+                IF    'Óraszám' not in ${first_table}
+                    ${new_err}=    Set Variable    A Óraszám mező nem létezik a címlapon!
+                    IF    $err_msg == ''
+                        ${err_msg}=    Set Variable    ${new_err}
+                    ELSE
+                        ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+                    END
+                    Log To Console    [ERROR] ${new_err}
+                END
+
+
+                ${clean}=    Evaluate    {k.rstrip(':').strip(): v.strip() for k, v in dict(${first_table}).items()}
                 # ----------------- Kéziratíró mező ellenőrzése --------------------
                 ${szerzo}=    Get From Dictionary    ${clean}    Kéziratíró
                 Log To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szerző: ${szerzo}
@@ -136,17 +224,18 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
                     END
                     Log To Console    [ERROR] ${new_err}
                 END
-           
-           
-           
-           
-           
             EXCEPT    AS    ${e}
                 ${first_table}=    Set Variable    ${EMPTY}
                 Log To Console    [ERROR] A címlap táblázat nem létezik! (${e})
-                ${err_msg}=    Set Variable    A címlap táblázat nem létezik!
+                ${new_err}=    Set Variable    A címlap táblázat hibás!
+                IF    $err_msg == ''
+                    ${err_msg}=    Set Variable    ${new_err}
+                ELSE
+                    ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+                END
             END
         END
     END
       # Teszt státusz és Excel jelölés végrehajtása a megadott soron
+      Log To Console   ___________________________________ ${err_msg}
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}

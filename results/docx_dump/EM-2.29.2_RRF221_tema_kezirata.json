@@ -1,0 +1,1807 @@
+{
+  "core_properties": {
+    "creator": "coollab",
+    "lastModifiedBy": "Soós Gabriella Brigitta (ELMS)",
+    "revision": "2",
+    "created": "2024-11-19T12:37:00Z",
+    "modified": "2024-11-19T12:37:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal.dotm",
+    "TotalTime": "0",
+    "Pages": "31",
+    "Words": "5635",
+    "Characters": "39677",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "1803",
+    "Paragraphs": "1332",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "43980",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.29.2  ",
+    "A bor stabilizálása",
+    "Témák kézirata",
+    "",
+    "",
+    "",
+    "",
+    "Tartalomjegyzék",
+    "1\tBevezetés\t2",
+    "2\tA bor zavarosságának okai és típusai\t3",
+    "2.1\tOxidációs elváltozások\t5",
+    "2.2\tFehérjezavarosodás\t6",
+    "2.3\tKristályos zavarosodások\t7",
+    "2.3.1\tBorkő-zavarosodás\t8",
+    "2.3.2\tBorkősavas mész kiválása\t11",
+    "2.3.3\tEgyéb kalciumsók kiválása\t12",
+    "2.3.4\tA borkőstabilitás ellenőrzése\t13",
+    "2.4\tFémes zavarosodások\t15",
+    "2.4.1\tFehértörés\t16",
+    "2.4.2\tFeketetörés\t16",
+    "2.4.3\tRezes törés\t16",
+    "2.5\tBiológiai zavarosodások\t17",
+    "2.6\tKolloid zavarosságok\t17",
+    "2.7\tTechnológiai zavarosságok (technikai szennyeződések)\t18",
+    "3\tA borstabilizáció módjai\t18",
+    "3.1\tA borstabilizáció fizikai módjai\t19",
+    "3.1.1\tMelegkezelés\t19",
+    "3.1.2\tHidegkezelés\t21",
+    "3.1.3\tElektro-dialízis\t23",
+    "3.2\tBorstabilizáció kémiai szerekkel és ennek jogi háttere\t23",
+    "3.2.1\tA kristályosodás gyorsítása\t24",
+    "3.2.2\tStabilizáció védőkolloidokkal\t26",
+    "Ábrajegyzék\t28",
+    "Táblázatjegyzék\t29",
+    "Felhasznált irodalom\t30",
+    "",
+    "Bevezetés",
+    "A bor akkor tekinthető stabilnak, ha fogyasztáskor tükrösen tiszta, teljesen üledék- és zavarosságmentes. A borok stabilitása a palackozás nagymértékű elterjedésével nagy jelentőségre tett szert. Fontos tudni, hogy a színanyagok jelenléte miatt a vörösborok némileg kisebb tisztasági fok mellett is elfogadhatók a fogyasztók részéről, a fehérboroknak és a rozéknak viszont a szemmel látható zavarosságtól mentesnek, tükrös tisztaságúak kell lenniük. A stabilitási követelmények ugyan minden forgalmazandó borra érvényesek, de a palackos boroknál kiemelten fontosak, ezért a stabilitást és a palackozást egymástól elválaszthatatlan technológiai egységnek kell tekinteni. ",
+    "A stabilizáló eljárásoknak az a céljuk, hogy az üledékanyagoktól és az esetleg majd később kicsapódó, úgynevezett „potenciális” üledékanyagoktól megszabadítsák a készre kezelt bort. A palackozott borok legtöbbször azért zavarosodnak meg, mert a kezelések során nem távolították el a potenciális üledékanyagokat.",
+    "Fontos hangsúlyozni, hogy a stabilitás mindig viszonylagos. A kezelések során arra készítik elő a bort, hogy a palackozás utáni körülményeket hátrányos változás nélkül elviselje. Arra kell törekedni, hogy a bor a fogyasztásáig tisztán, üledék- és zavarosságmentesen megőrizze minőségét.",
+    "A stabilizálás témakörébe számos intézkedés sorolható:",
+    "az alkoholos erjedés, amely minden erjeszthető cukrot eltávolít,",
+    "a malolaktikus erjedés, amely az almasavat metabolizálja,",
+    "a kénezés, amely csökkenti a fenolos vegyületek aktivitását, és gátolja vagy megöli a mikroorganizmusokat,",
+    "az aszkorbinsav hozzáadása, amely csökkenti, és némileg stabilizálja a fémeket,",
+    "a fehérjestabilizálás,",
+    "a fémstabilizálás,",
+    "a savtartalom stabilizálása, gyakran a savtartalom beállításával egybekötve,",
+    "a kolloidstabilitás derítéssel történő biztosítása (erjesztés utáni derítések). ",
+    "Az intézkedések egyidejűleg az ízt is befolyásolják.",
+    "A borkezelés logikai sorrendjében egyes beavatkozások megelőzhetik a tisztítást, vagy vele együtt végezhetők. A bor tisztítása, harmonizálása, érésének szabályozása és stabilizálása a borászati technológiában komplex egységként jelentkezik, amely a kellő műszaki felkészültségen kívül alapos szakismeretet kíván.",
+    "",
+    "A bor zavarosságának okai és típusai",
+    "A stabilizálás csak akkor vezet eredményre, ha feltártuk a borban előforduló zavarosodások okait, azok keletkezési körülményeit. Fontos tudni, hogy a bor üledéke legtöbbször nem egynemű anyag. Az üledékanyagok meghatározását három lépésben javasolt elvégezni: ",
+    "szabad szemmel (ebben segít az 1. sz. táblázat),",
+    "a kivált üledék feloldásával és ",
+    "mikroszkópos vizsgálattal. ",
+    "",
+    "Üledékek fajtái és megjelenésük ",
+    "Forrás: saját szerkesztés",
+    "",
+    "Általában a zavarosodást egy tényező (bármelyik zavarosodási tipus) indítja meg, ezután a borban a zavarosodások egész láncolata megtörténhet Azonban, ha ez az egy tényező hiányzik, a bor általában megmarad stabilnak. A kezelések a zavarosodást kiváltó alapvető ok megszüntetésére – gátlására kell törekedni.",
+    "",
+    "A bor jelentősebb zavarosodásai, elváltozásai a következőképpen csoportosíthatók:",
+    "oxidációs elváltozások,",
+    "fehérjezavarosodás,",
+    "kristályos zavarosodások",
+    "fémes zavarosodások,",
+    "biológiai zavarosodások,",
+    "kolloid zavarosodások,",
+    "technikai szennyeződések (kovaföld, perlit, bentonit, dugómorzsa).",
+    "",
+    "Más csoportosítás szerint amorf kiválásoknak is nevezik a fehérje, a kolloidális és a fémes kiválásokat, mivel morfológiailag nem meghatározható alakúak. ",
+    "",
+    "Amorf kiválások meghatározása",
+    "Forrás: https://www.hermanottointezet.hu/sites/default/files/tankonyvek2022/Borkeszites_technologiaja_(oktatasi_segedanyag).pdf (2024.06.26.) 294. oldal",
+    "",
+    "Oxidációs elváltozások",
+    "A bor oxidációs elváltozásai a levegő oxigénjének borba történő behatolásával és az oxidáló enzimek tevékenységével függenek össze. ",
+    "A levegő O2-ja (dioxidja) által okozott, hátrányos oxidációs elváltozások gyakori és bőséges levegőztetéskor az egészséges szőlőből készült boroknál is előfordulhatnak. E folyamatok nemcsak a bor külső megjelenését (szín, tisztaság) változtatják meg, hanem annak jellegét is. Ezáltal jelentősen csökken a bor élvezeti értéke. A levegő oxigénjének zavarosító hatása csak közvetetten érvényesül.",
+    "A könnyű, reduktív fehérborokra különösen hátrányosak az oxidációs elváltozások. A jellemző és megkívánt zöld-fehér szín helyett a sárga színtónus lép előtérbe és megjelenik a barna színárnyalat is. A vörösborok színe barnás árnyalatot kap. A finom szőlőillat- és aromaanyagok átalakulnak, a borok illatban, zamatban szegényebbé válnak, veszítenek frissességükből, üdeségükből. Az oxidációs folyamatok gyakori jelenségei például a „levegőíz”, az „oxidált íz”, a „fáradt íz” stb. ",
+    "Az oxidáló enzimek jelentős elváltozást, nagymértékű zavarosodást okozhatnak a borban. Ennek a legjellegzetesebb formája a barnatörés, mely a bor megbarnulásával, zavarosodásával, valamint kellemetlen illat és íz kialakulásával jár. A bor illata aszalt gyümölcsre, íze kissé a kenyérhéjra emlékeztet, és összhatásában nagyon kellemetlen, élvezhetetlen.",
+    "A barnatörés a polifenol-oxidáz enzimek tevékenységére vezethető vissza. A szőlőben található tirozináz vagy a Botrytis cinerea lakkáz enzimje a levegő oxigénjének segítségével oxidálja a tanninokat, vagy azok építőelemeit (pl. katechin), amelyek kiválnak. ",
+    "A bor barnatörési hajlamát úgynevezett „töréspróbával” állapítják meg: a bormintát félig töltött színtelen palackban, dugaszolatlanul 3–4 napig levegő hatásának teszik ki. A barnatörésre hajlamos bor felszínén – eleinte a palackfal mentén – barna gyűrű jelenik meg. A barnulás fokozatosan átterjed a bor teljes felszínére, majd mélységben folytatódik, végül a folyadék teljesen megbarnul.",
+    "",
+    "Fehérjezavarosodás",
+    "A boroknál gyakori jelenség a fehérjezavarosodás. A fehérje anyagok több-kevesebb részének kicsapódása a legtöbb bornál végbemenő természetes folyamat. A bor kezdetben poros, homályos, majd zavaros lesz. A folyamat két lépcsőből áll. Először a vegyület denaturálódik, de a fehérje pelyhesedése (flokkulációja) csak akkor valósulhat meg, ha az elektromos töltésüket, és az őket körülvevő hidrátburkot egyaránt elveszítik. ",
+    "A fehérjezavarosodás leggyakoribb okai:",
+    "a levegő oxigénje hatására már az első nyílt fejtés alkalmával nitrogéntartalmú anyagok csapódnak ki;",
+    "a bor hőmérsékletének változására a fehérjekicsapódás intenzívebbé válik. Fehérjezavarosodást főként a felmelegedés idéz elő, de hideg hatására is bekövetkezhet;",
+    "a bor szállítása, mozgatása során mechanikai rázó hatásra válnak ki fehérjeanyagok, különösen fiatal újboroknál;",
+    "a házasítás nagy cserzőanyag-tartalmú borral azáltal okozhat fehérjekiválást, hogy a fehérjekolloidok és a cserzőanyagok közötti eredeti egyensúly felbomlik;",
+    "az alkoholtartalom emelkedése ugyancsak okozhat fehérjezavarosodást;",
+    "a pH-érték változásával is kiválhatnak egyes fehérjeanyagok.",
+    "",
+    "A bor számos fehérjét tartalmaz, amelyek koncentrációja több paramétertől függ, és a borkezelés során nagy dinamikát mutat. Az oldott fehérje palackozás előtti mennyiségét befolyásoló főbb tényezők:",
+    "a szőlőfajta és az érettség foka; ",
+    "a bogyók egészségi állapota (a botritisszel fertőzött szőlőben többnyire alacsonyabb a tartalom);",
+    "a cefreáztatás intenzitása;",
+    "a mustkezelés (az enzimek, főként a lizozim növelik, a derítések csökkentik);",
+    "a must bentonitos derítése erőteljesen csökkenti, csakúgy, mint a must pasztőrözése, a fehérje denaturálása miatt;",
+    "az alkoholos és a malolaktikus erjedés növeli a fehérjetartalmat a mikrobiális fehérjék (például mannoproteinek) leadása miatt;",
+    "a bor tisztítása a nagyobb fehérjék mennyiségét csökkenti, az erjesztés utáni derítés az alacsony molekulatömegű fehérjék mennyiségének csökkenését is kiválthatja;",
+    "a pH-értéket növelő intézkedések hatására a bor pH-értéke megközelíti az oldott fehérjék izoelektromos pontját, azok instabillá válnak,",
+    "a házasítások, mindenekelőtt a fehérjében gazdag seprős alj (présbor) hozzáadása nagyban befolyásolhatja a zavarosodásra való hajlamot;",
+    "a tárolás során – főként alacsony hőmérsékleten – bizonyos fokú önstabilizáció megy végbe az oldható molekulák oldhatatlanokká történő átalakulása folytán.",
+    "",
+    "Ha a borban a palackozás után is vannak oldott fehérjék, akkor megfelelő koncentrációnál finomszemcsés, gyakran erősen fénytörő csomók, esetenként akár pelyhek is keletkezhetnek. Ez a fehérjés zavarosodás legtöbbször nagyobb molekulatömegű fenolokat és fémeket is tartalmaz.",
+    "",
+    "Kristályos zavarosodások",
+    "A kristályos zavarosodások minden borban végbemenő természetes folyamatok és a borstabilizáció súlyos problémáihoz sorolhatók. Okozói a kálium- és a kalciumionok, amelyek „kicsapják” a borkősavat. Előbbi esetben borkő (KC4H5O6 kálium-hidrogén-tartarát, KHT), utóbbiban borkősavas mész (CaC4H4O6 – kalcium-tartarát, CaT) keletkezik. Rendszerint a kalciumsók kiválása okozza a nagyobb veszélyt, mivel a bor kalciumtartalma a technológiai szennyeződések következtében több forrásból is növekedhet.",
+    "",
+    "",
+    "Borkő képlete",
+    "",
+    "",
+    "Borkő 3D-modellje",
+    "Forrás: https://www.wikiwand.com/en/Potassium_bitartrate#Media/File:Bitartrate-ion-3D-balls.png (2024. 07. 22.)",
+    "",
+    "",
+    "Borkő kristályok",
+    "Forrás: https://www.dreamstime.com/pile-gold-colored-white-wine-crystals-wine-diamonds-white-background-gold-colored-white-wine-crystals-wine-diamonds-image313682674 (2024.07.22.)",
+    "",
+    "Borkő-zavarosodás",
+    "A borkő kristályok kiválása természetes fizikai-kémiai folyamat, amely már a must fázisban megkezdődik és a borkezelés végéig folytatódik. ",
+    "A borkő koncentrációja egy ponton az oldhatósági érték alá csökken, és a bor borkőstabillá válik. Instabil bor palackozása gyakran vezethet kristályképződéshez. A fogyasztók továbbra is negatívan ítélik meg a palackban lévő kristályokat, így a palackozó mindent megkísérel, hogy ezt elkerülje. A kierjedt újbor a borkőre vonatkoztatva telített oldat. Kémiailag tehát instabil, amelyből az egyensúlyi viszonyok felbomlása esetén borkő válik ki. A borkő oldhatóságát, illetve kicsapódását befolyásolja:",
+    "a hőmérséklet;",
+    "az alkoholtartalom; ",
+    "a pH-érték;",
+    "a borkősavtartalom;",
+    "a kálium, a kalcium és a tartarát ionok koncentrációja;",
+    "a védőfunkciót ellátni képes kolloid vegyületek (védőkolloidok) mennyisége és azok típusa.",
+    "",
+    "A borkő alacsonyabb hőmérsékleten kevésbé oldódik, és alkoholos közegben kicsapódik. Ugyancsak elősegíti a borkő kicsapódását a magas borkősav- és káliumtartalom, továbbá az alacsony pH-érték. A borkőképződés optimális pH-érték tartománya 3,6–3,8 között van. A borkő kiválásával a titrálható savtartalom és az extrakttartalom is csökken.",
+    "",
+    "",
+    "Borkő kristályok a pohárban",
+    "Forrás: https://depositphotos.com/es/photo/wine-tartrate-crystals-bottom-glass-white-wine-566635978.html (2024. 07. 22.)",
+    "",
+    "",
+    "Borkő kristályok a pohárban",
+    "Forrás: https://depositphotos.com/es/photo/white-wine-tartrate-crystals-stuck-empty-wine-glass-648914394.html (2024.07.22.)",
+    "",
+    "",
+    "Borkő kristály kiválása",
+    "Forrás: https://depositphotos.com/es/photo/tartrate-crystals-glass-white-wine-481834104.html (2024.07.22.)",
+    "",
+    "",
+    "Borkőkiválás a palackban",
+    "Forrás: https://depositphotos.com/es/serie/566635978.html?qview=656748352 (2024.07.22.)",
+    "",
+    "Borkősavas mész kiválása ",
+    "A borok szőlőből eredő káliumtartalma 500–700 mg/l (K2O-ban), a természetes kalciumtartalom mindössze 40–70 mg/l (CaO-ban). A kálium mintegy tízszerese a kalcium mennyiségének. A természetes úton felvett kalciumot a bor általában képes oldatban tartani. Ebből az következne, hogy a természetszerűen lejátszódó borkőkiválással ellentétben kalciumos zavarosodással nem kell számolni. A gyakorlatban viszont más a helyzet. A borok kalciumtartalma a természetes úton felvett mennyiségnek a két-háromszorosa is lehet, esetenként elérheti a 200–250 mg/l-t. ",
+    "A kalciumnövekedés technológiai eredetű szennyeződés következménye, melynek okozói a kalcium-karbonátos savtompítás, továbbá a vasbeton tartályok, a derítő- és szűrőanyagok, valamint a borospalackok kalciumtartalma.",
+    "A bor kalciumtartalmának növekedése következtében különböző kalciumsók válnak ki. Közülük a palackos borok üledékanyagaiban leggyakrabban a borkősavas mész fordul elő. Kristályai összefüggő, szürkésfehér zavarosodást idéznek elő, nehezen ülepednek. A borkősavas mész kicsapódása a hőfoktól kevésbé függő, hosszadalmas folyamat.",
+    "A borkő tipikusan csónak vagy gabonaszem, gyakran szabálytalan alakú, a borkősavas mész mindig szabályos, lecsapott sarkú hasáb, fényes kristály.",
+    "",
+    "",
+    "Borkő és borkősavas mész kristályok",
+    "Forrás: https://www.hermanottointezet.hu/sites/default/files/tankonyvek2022/Borkeszites_technologiaja_(oktatasi_segedanyag).pdf 295. o. (2024.07.26.) ",
+    "",
+    "Egyéb kalciumsók kiválása",
+    "A kalcium a borkősav mellett más savakkal is alkot kristályos vagy mikrokristályos kiválásokat. Ilyenek például a nyálkasavas (mucinsavas) kalcium, továbbá a kalcium-foszfát, a vas-kalcium- foszfát, a kalcium-oxalát stb.",
+    "A borok nagy kalciumtartalma katalizálja a fehértörést. Az újabb vizsgálatok alapján feltehető, hogy a fehértöréskor nemcsak vas-foszfát, hanem kalcium-foszfát és vas-kalcium-foszfát is keletkezik.",
+    "A kalciumtartalom csökkentésére újabban ajánlott anyagok, mint amelyek a semleges kálium-tartarát, a kálium-hidrogén-tartarát, a kalcium-tartarát különböző őrleményekben (pl. kovafölddel keverve) és kombinációkban, mint kristálygócok jöhetnek számításba.",
+    "",
+    "A túltelített oldatban a kristályok nemkívánatos kicsapódásának megakadályozásához, vagyis a bor stabilizációjához számos különböző lehetőség kínálkozik:",
+    "az időtényező: idővel a kristályok maguktól stabilizálódnak. Beáll az egyensúlyi állapot, a kristályok kicsapódnak. Ez az időtartam terméktől, hőmérséklettől és koncentrációtól függően több hónapig, vörösboroknál évekig tarthat, és jóval a palackozás után is megtörténhet.",
+    "a kristályosodás gyorsítása: amikor a bor lehűl, a hőmérséklet-koncentrációs pont helye eltolódik a spontán kristályosodás tartományába. A folyamat általában néhány napig tart. KHT-oltókristályok hozzáadásával a kristályképződés néhány órára csökkenthető.",
+    "a reakciópartnerek szelektív eltávolítása: a kálium- vagy kalciumionok, illetve tartarátionok környezetből történő szelektív eltávolításával reakciópartnerek hiányában már nem lehetséges a kristályképződés.",
+    "védőkolloidok hozzáadása: a borra vonatkozó jogszabályok értelmében a védőkolloidok (metaborkősav, gumiarabikum, mannoproteinek vagy karboximetil-cellulóz (CMC) hozzáadása megengedett a késleltetett kristályosodás megakadályozásához.",
+    "",
+    "A borkőstabilitás ellenőrzése",
+    "A palackozás előtt ellenőrizni kell a KHT és a CaT stabilitását.",
+    "A KHT-stabilitás esetében főként három eljárás jön szóba:",
+    "a hidegpróba,",
+    "a mini kontakt eljárás, valamint",
+    "a KHT-telítettségi hőmérséklet mérése (ún. Wurdig-próba).",
+    "",
+    "A kalciumstabilitás az eltérő kristályosodási körülmények miatt nehezebben ellenőrizhető. Az alkalmazott módszer a KHT-telítettségi hőmérséklet mérésére támaszkodik.",
+    "",
+    "Hidegpróba",
+    "A tisztára szűrt és palackozásra kész borból (száraz boroknál) 4 nap, illetve (maradék édességet tartalmazó boroknál és botritisszel fertőzött szőlőfajtákból készült boroknál) 7 nap után vett mintát 0 °C körüli hőmérsékleteken tárolják, majd szemrevételezéssel megvizsgálják, hogy kiváltak-e kristályok. A kristályképződés mértéke kb. 1–2% alkohol hozzáadásával növelhető. Ha borkő csapódik ki, akkor a bor instabilnak minősül. A próba csak a KHT-stabilitásra vonatkozó minőségi megállapításra alkalmas, a jelenlévő kalcium-tartarát mennyiségét (CaT) nem határozza meg.",
+    "",
+    "Mini kontakt eljárás",
+    "A palackozásra kész borból vett mintában –2 °C-on (vagy még jobb, ha azon a hőmérsékleten, amelyen a későbbiekben a kontakt eljárást kívánják végezni) megmérik az elektromos vezetőképességet (μs/cm). Ezután állandó keverés mellett hozzáadnak (4 g/l) finomra őrölt kontakt borkövet. A túltelített oldatban jelenlévő borkő ionjai 2–4 órán belül lerakódnak a kontakt kristályokra, és nagyobb kristályokat képeznek. A borkő kikristályosodásával csökken a vezetőképesség. A reakció akkor ér véget, ha elérte a stabil vezetőképességi szintet. A két vezetőképesség-érték között a különbség a kicsapódott borkőben és a túltelítettség fokában van. Az eljárás egyik változatában 4 perc után megmérik a vezetőképesség csökkenését és extrapolációját. A stabil borok vezetőképessége csak kis mértékben csökken, a kikristályosodás következtében fellépő ionveszteség kicsi. Minél több ion tűnik el az oldatból, annál nagyobb a csökkenés.",
+    "",
+    "KHT-telítettségi hőmérséklet",
+    "A telítettségi hőmérséklet az a hőmérséklet, amelynél a borban lévő oldott borkő még éppen, hogy telített oldatot képez. Minél alacsonyabb ez a hőmérséklet, annál nagyobb a kristálystabilitás. Ha a belső hőmérséklet a telítettségi hőmérséklet alá csökken, túltelített oldat keletkezik. ",
+    "Először megmérjük a szobahőmérsékletű bor vezetőképességét, majd borkő kristályt adva a borhoz, a várakozási idő betartásával ismételten megmérjük a vezetőképességet. A két értékből és a hőmérsékletből kiszámítható a bor telítési hőmérséklete. Ha az megfelelően alacsony, akkor a bor stabilnak mondható. Magasabb hőmérsékletnél számíthatunk borkőkiválásra, ez azonban nagyban függ a borban levő védőkolloidok mennyiségétől. Kiegészítve a minikontakt módszerrel az előrejelzés még magas telítési hőmérsékletű boroknál is lehetséges. ",
+    "Ha a meghatározott telítettségi hőmérséklet a stabil tartományba esik, akkor a bor hűtőszekrényben tárolva stabilnak tekinthető. Feltételesen stabil borok esetében (vagyis, ha a tárolás során kiválás történik) a védőkolloidokkal történő stalizáció alkalmas. Ez a metaborkősavra és a borkőre (KHT), valamint a kalcium-tartarátra (CaT) is érvényes, ennél azonban jóval nehezebb elérni a védő hatást. A magas telítettségi hőmérsékletű borok további stabilizációs intézkedéseket igényelnek. 20 °C felett azonban CMC-vel (Karboxi-metil-cellulózzal) már nem érhető el stabilizáció. Ha a hőmérséklet a bor tárolása során a telítettségi hőmérséklet alá csökken, akkor célszerű, hogy a borkőtöbblet ne haladja meg a 200 mg/l-t.",
+    "",
+    "Fémes zavarosodások",
+    "A szőlőtőke által, főként a gyökéren keresztül felvett fémek mennyisége viszonylag csekély. A must vastartalma legtöbbször 2 mg/l alatt van, réz csak nyomokban lelhető fel. Továbbá szintén nyomokban előfordul még kadmium, cink, ólom, alumínium vagy ón. A megnövekedett fémtartalmak miatti borhibák a borkezelés során keletkeznek. Ronthatják az ízt és zavarossághoz vezethetnek. Néhány fém (elsősorban a vas és a réz) bizonyos körülmények között a borban zavarosodást, törést okozhat. A biztonságos határkoncentráció, amely alatt elvileg nem lép fel fém miatti zavarosság, a vas és a cink esetében 5 mg/l, a réz esetében 0,5 mg/l. A cink azonban már 0,5 mg/l felett fémes, kellemetlen ízt okozhat. A szokásos koncentrációkban a fenti fémek ízleléssel nem érzékelhetők, és a technológia szempontjából sincs jelentőségük. ",
+    "Az alkoholos erjedés csökkenti a fémek koncentrációját. Az élesztő adszorbeál és biológiai szűrőként működik. Az erjedés és a deszorpció elkerülése érdekében az élesztőről történő korai lefejtés után a borok általában fémstabilak.",
+    "A korábban gyakori, nem korrózióálló anyagokból (acél húzócsavarokból, vas dübellel rögzített hordófenékből, acél- vagy betontartályok sérült béléséből stb.) történő vasfelvétel ma már szinte egyáltalán nem játszik szerepet, mivel a felszerelések modernizálódtak, szinte mindenhol saválló acél tartályokkal dolgoznak. Míg a vas miatti zavarosság ma már alig ismert, a réz miatti zavarosságok újra és újra előfordulnak. A fő ok a növények rézkészítményekkel történő kezelése (zárópermetezés) és a bor bakszag elleni rézszulfátos kezelése.",
+    "A fém miatti zavarosság egyik tényezője a fehérjék és cserzőanyagok jelenléte. Már az alsó kritikus tartományban való eltávolításuk is elegendő lehet a zavarosság megelőzéséhez.",
+    "",
+    "Fehértörés",
+    "Savszegény és sok vas(III)iont tartalmazó borokban a foszfátionok a vassal reakcióba lépnek:",
+    "Fe+++ + PO43- = FePO₄³⁻",
+    "A keletkező vas(III)-foszfát fehér, tejszerű zavarosságot okoz, esetenként csapadék alakjában kiválik a borból. Így jön létre a fehértörés.",
+    "Amennyiben a bor fehértörésre hajlamos, úgy a fejtés után azonnal kékderítésben kell részesíteni vagy erős kénezéssel a redoxinívót alacsonyra kell szorítani, vagy citromsav-adagolással a vas(III)ionokat komplex kötésbe kell vinni. Utóbbinál ügyelni kell arra, hogy a forgalomba hozatalkor a bor citromsavtartalma maximálisan 1 g/l lehet).",
+    "",
+    "Feketetörés ",
+    "A vas(III)ionnal a bor fenolos vegyületei is reakcióba léphetnek, s a keletkezett reakciótermék fekete csapadék formájában válik ki. Ezt feketetörésnek nevezik.",
+    "A feketetörésnél létrejövő csapadékot általában vas(III)-tannátnak hívják, de ez a megnevezés nem fedi helyesen a csapadék kémiai összetételét. A cserzőanyagokon kívül ugyanis egyéb fenolos természetű anyagok is (antocianinok, leukoantocianinok stb.) okozhatnak a vas(III)ionokkal feketetörést. A hidrolizálható cserzőanyagot tartalmazó borokban (a hordó fájából kioldott vagy a derítés alkalmával bekerült cserzőanyag következtében) a feketetörés csapadékának színe kékes árnyalatú. A borhiba kékderítéssel megszüntethető.",
+    "",
+    "Rezes törés ",
+    "Erősen kénezett borokban, ha legalább 3–5 mg/l rezet tartalmaznak, és a borokat zárt pórusmentes tartályban tartják, vörösbarna színű csapadék jelenik meg. A jelenség neve rezes törés. A zavarosodás kizárólag oxigén hiányában, tehát reduktív viszonyok között áll elő. A keletkező réz-szulfid más kísérőanyagokkal (például fehérjékkel) együtt, illetve azok hatására flokkulál. A hibás bor kékderítéssel javítható.",
+    "",
+    "Biológiai zavarosodások",
+    "Okozói élesztőgombák és baktériumok. A borászati üzemek számára a legsúlyosabb stabilitási problémákat a biológiai zavarosodások, ezen belül is az élesztőzavarosodások okozzák (a baktériumos zavarosodás nagyon ritka, mivel a bor pH-értéke a baktériumok számára nem kedvező). Ennek magyarázata az, hogy amíg minden más zavarosodás megelőzhető vagy megszüntethető, addig a biológiai zavarosodások az újrafertőződés lehetősége miatt állandó készenlétet és gondoskodást követelnek. „Az előfordulás gyakorisága annál magasabb, minél magasabb töltéskor az élősejtszám, de számszerű összefüggést az induló sejtszám és az eltarthatóság ideje között nem lehet megállapítani.”",
+    "Borok esetében nem lehet olyan élesztőszám-határértéket meghatározni, ami garantálja a bor stabilitását. Vannak olyan élesztők, melyek 104 sejt/l kezdeti koncentrációnál is elpusztulnak, de pl. a Zygosaccharomyces bailii néhány sejtje is képes szemmel látható üledéket eredményezni, így ez tekinthető a palackos borok legveszélyesebb romlásokozójának. Kénessavmentes vagy alacsony kénessavtartalommal készített borok esetén tejsav- és elvétve ecetsav-baktériumok is veszélyeztethetik a stabilitást.",
+    "",
+    "Kolloid zavarosságok",
+    "Az előkezelésnek megfelelően a nagymértékben tiszta borban az első fejtés után számos kolloid vegyület van jelen, amelyek idővel kicsapódnak és zavarossághoz vezethetnek. Ilyenek főként a fenolok, a poliszacharidok, a glükánok, a seprőben lévő micellák, a fehérjék, a különféle polimerekből fémek megkötésével keletkező üledékek. A kolloid természetű anyagok (1–1000 nm) változatos fizikai, kémiai eredettel rendelkeznek, folyamatos reakciókra képesek, kémiai reakcióik kevésbé ismertek. A borban lévő zavarosságot képező anyagok nagy része a kolloid mérettartományba tartozó makromolekulákból (fehérjék) és egyszerűbb molekulák csoportosulásából (tanninok, antocianinok) áll. ",
+    "",
+    "Technológiai zavarosságok (technikai szennyeződések)",
+    "Technológiai figyelmetlenség esetén kovaföld, perlit, bentonit, dugómorzsa ülepedhet le a palack aljára. A technológiai fegyelem betartásával, a szűrés gondos elvégzésével és a palackzárás ellenőrzésével elkerülhetők ezek a szennyeződések.",
+    "",
+    "",
+    "Kovaföld, perlit, bentonit üledékek",
+    "Forrás: https://www.hermanottointezet.hu/sites/default/files/tankonyvek2022/Borkeszites_technologiaja_(oktatasi_segedanyag).pdf 296.o. (2024.07.26.) ",
+    "",
+    "A borstabilizáció módjai",
+    "A különféle zavarosodások felismerése lehetőséget ad arra, hogy megszüntetésükre vagy megelőzésükre a legalkalmasabb kezelési eljárásokat alkalmazzák. A palackozott borokat úgy kell előkészíteni, hogy azok a fogyasztásig eltelt idő alatt a fellépő hőmérséklet-változások, mechanikai hatások ellenére se szenvedjenek semmilyen hátrányos fizikai, kémiai vagy biológiai elváltozást.",
+    "A borstabilizáció érdekében végzett borkezelési eljárások egy részével mesterségesen idézik elő a zavarosodások körülményeit, hogy később hasonló behatásra a bor stabil maradjon. Más kezelésekkel viszont védőhatást gyakorolnak a bor egyes alkotórészeire, így zavarosodás nem következik be.",
+    "A kizárólag stabilitást célzó műveletek mellett a legtöbb borkezelés több-kevesebb hatással van a bor stabilizációjára. A korszerű borászati technológia valamennyi művelete a borstabilizációt is szolgálja a szürettől a palackozásig.",
+    "A stabilizáció módjai fizikai és kémiai módszerek lehetnek. A fizikai módszerek költséges berendezést, felszerelést igényelnek ugyan, de a bor természetes állapotát nem változtatják meg. A kémiai módszerek kevésbé költségesek, de mélyrehatóbb – néha nemkívánatos – hatást gyakorolnak a bor jellegére. A fizikai módszerek egyre nagyobb tért hódítanak, a kémiai szerektől pedig világszerte idegenkednek.",
+    "",
+    "A borstabilizáció fizikai módjai",
+    "A borstabilizáció fizikai módszerei közül a leghatásosabb és legsokrétűbb funkciójú művelet a hőkezelés. Lényege az, hogy a bort pincehőmérséklettől eltérő hőhatásnak vetik alá, abból a célból, hogy később ilyen hatásokkal szemben stabil maradjon. A zavaros bort tisztítóműveletekkel megtisztítják, majd a pincehőmérséklettel megegyező vagy azt megközelítő hőfokon a pincébe fejtik. A hőkezelés a pincehőmérséklettől eltérően kétféle lehet: meleg- és hidegkezelés.",
+    "",
+    "Melegkezelés",
+    "A melegkezelés alkalmával a bort 35–110 °C közötti hőfokra hevítik, egy ideig ezen a hőfokon tartják, majd visszahűtik.",
+    "A melegkezelésnek háromféle stabilizációs célja lehet:",
+    "fehérjestabilizáció,",
+    "biológiai stabilizáció,",
+    "az enzimatikus oxidáció kiküszöbölése.",
+    "",
+    "1. A melegkezelés fehérjestabilizáló hatása azon alapszik, hogy meleg hatására a termolabilis fehérjék koagulálnak (kicsapódnak). A fehérjeanyagok kiválása nagy általánosságban 65–72 °C-on 3–5 perc alatt végbemegy. ",
+    "A fehérjék kicsapódásának két szakasza van. Az első szakaszban denaturálódnak (víztelenítés), a másodikban tannin és fémsók hatására pelyhes csapadék formájában kiválnak. A melegkezelés utáni hűtéssel a kicsapatás még eredményesebb.",
+    "2. A melegkezelés biológiai stabilizáló hatását pasztőrözésnek nevezik. A pasztőrözés célja a biológiai stabilitást leginkább veszélyeztető élesztőgombák elpusztítása, de ez együtt jár a baktériumok pusztulásával. A pasztőrözés hőfoka és időtartama közötti összefüggésben a bor alkohol-, sav- és cukortartalmának van a legnagyobb jelentősége. Az alkohol- és a savtartalom csökkenti, a cukortartalom növeli a kezelés hőigényét. ",
+    "3. Melegkezelés folyamán az oxidázok elpusztulnak, ezáltal csökkennek az oxidációs hatások. Külön kiemelkedő előny az, hogy a lakkáz enzim inaktiválásával kiküszöbölhető a borok barnatörési hajlama, vagy megszűnik a már kialakult barnatörés. Az enzimek inaktiválásához 75 °C szükséges.",
+    "Napjainkban a minőségi borkészítés hangsúlyossá válásával és a reduktív borok iránt megnövekedett fogyasztói igények miatt a melegkezelés alkalmazása háttérbe szorult.",
+    "A hőkezelés általában lemezes hőcserélőkben pillanat pasztőrözéssel történik az alábbi vázlat szerint.",
+    "",
+    "",
+    "A melegkezelés vázlata lemezes hőcserélő alkalmazásával",
+    "Forrás: https://www.hermanottointezet.hu/sites/default/files/tankonyvek2022/Borkeszites_technologiaja_(oktatasi_segedanyag).pdf 299. o. (2024.07.26.)",
+    "",
+    "A melegkezelés hőfoka és időtartama közötti összefüggés alapján a következő eljárásokat különböztetik meg.",
+    "Tartós vagy lassú hevítés. A bort lassan 68–75 °C-ra melegítik, és 3–5 percig ezen a hőfokon tartják. A melegkezelésnek ez a klasszikus módja mindhárom stabilizációs célnak megfelel.",
+    "Gyors hevítés. A bort ugyancsak 68–75 °C-ra melegítik, de gyorsan, és csak 30–60 s-ig hagyják ezen a hőfokon. E hőkezelés elsősorban a pasztőrözést szolgálja.",
+    "Villám- vagy pillanathevítés (Flash-rendszer). A bort 3–4 bar nyomáson, túlhevített gőzzel másodpercek alatt 100–110 °C-ra hevítik, majd 3–5 mp után azonnal hűtik.",
+    "Tartós melegkezelés. A bort csupán 35–40 °C-ra melegítik, és ezen a hőfokon izotermikus tartályban 10–30 napig tárolják. Ez a kezelés a fehérjestabilizáláson kívül sem a pasztőrözéshez, sem az oxidázok inaktiválásához nem elegendő.",
+    "",
+    "A melegkezelés után – bármelyik módszert alkalmazzák – nagyon fontos a bor lehűtése, hogy megakadályozzák az alkohol párolgását.",
+    "",
+    "Javasolt hőkezelés hőmérséklete bortípus és mikróba szennyezettség szerint",
+    "Forrás: https://www.hermanottointezet.hu/sites/default/files/tankonyvek2022/Borkeszites_technologiaja_(oktatasi_segedanyag).pdf 300. o. (2024.07.26.)",
+    "",
+    "Hidegkezelés",
+    "A hidegkezelés lényege az, hogy a bort fagyáspontját megközelítő hőmérsékletre lehűtik, majd 6–10 napig izotermikus tartályban vagy hűtött helyiségben ezen a hőfokon tartják.",
+    "A hidegkezelés fő célja a borkő kicsapatása, de mellette más mellékhatásai is vannak. Így kisebb mértékű fehérjekiválás is bekövetkezhet, bár ez inkább a borkőkiválás utáni pH-érték emelkedéssel függ össze. A hűtésnek oxidációs folyamatokat indukáló hatása van, mivel alacsonyabb hőfokon több oxigént old a bor.",
+    "A hidegkezelés fokozza a borok gázelnyelő képességét. A hűtött bor több CO2-ot és O2-t nyel el. Ezt a hatást a gyöngyöző-, habzó- és pezsgőborok készítésénél hasznosítják.",
+    "A hűtési hőmérséklet. A hűtés annál hatásosabb, minél gyorsabb és minél jobban megközelíti a bor fagyáspontját. A fagyáspont főképpen az alkoholtartalomtól függ, de befolyásolja az extrakttartalom is.",
+    "Száraz borok leghatásosabb hidegkezelési hőfoka Pepin-Gasquet alapján a következő:",
+    "",
+    "Példa:  – vagyis a 12%V/V alkoholtartalmú bor kezelési hőmérséklete -4°C.",
+    "",
+    "Édes boroknál – a cukortartalmat figyelembe véve – erősebb hűtést alkalmaznak, ami közel egybe esik a bor fagyáspontjával.",
+    "",
+    "Példa:  – vagyis a 12%V/V alkoholtartalmú bor fagyási hőmérséklete -5°C.",
+    "A borkőkiválás lassú folyamat, ezért a bort 6–10 napig a hűtési hőmérsékleten kell tartani. A hidegen tartás ideje csökkenthető, ha a hűtött bort keverik, vagy kristályképző anyagokat adnak hozzá. Ilyen anyag a Cristallgen. Adagolásával a hidegen tartás ideje 3–4 napra csökkenthető. ",
+    "Tiszta borban gyorsabb és tökéletesebb a borkőkiválás. A kezelés ideje az első fejtés, derítés, szűrés után javasolt.",
+    "Hűtés hatására vörösborokban létrejöhet olyan kiválás, amely nem tartalmaz fémiont és képződése független az oldott oxigéntől. A festékanyagok (antocianinok) átalakulása a vörösborokban lassú, de állandó jelenség. Oxigén nélkül acéltartályban vagy fahordós érlelésnél a molekulák elérhetnek egy olyan mérettartományt, amikor oldhatatlan csapadék formájában kiválnak.",
+    "",
+    "A bor meleg-, illetve hidegkezelését speciális hőkezelő berendezésekkel végezik.",
+    "Kombinatív hőkezelés. A kombinatív kezelés a meleg- és a hidegkezelés összekapcsolása egy munkafolyamatba. A hirtelen hőmérséklet-változások folytán a stabilizáció hatékonysága megnövekszik.",
+    "Technológiai és gazdaságossági szempontból a meleg-, majd a hidegkezelés a helyes sorrend. A melegkezelés ugyanis rövid ideig tart, míg a hidegkezelés hosszadalmas, továbbá a hidegenergia előállítása is költségesebb. A meleg- és hidegkezelés két külön berendezésen is végezhető, de gazdaságosabb egy munkafolyamatban, egy géppel végezni.",
+    "",
+    "Elektro-dialízis",
+    "Elektro-dialízis: A fizikai módszerek közé tartozik, lényege a borkőkiválás megakadályozása membrántechnika alkalmazásával. Ekkor a többletben lévő (instabil) Ca2+, K+ és borkősav eltávolítása történik oly módon, hogy a kezelendő bort elektromos mezőn és anionszelektív membránon juttatják át. Az egész berendezést úgy kell elképzelni, mint egy nagyméretű akkumulátort. A negatív töltésű ionok (borkősav karboxil-csoportjai) az anód, míg a pozitív töltésűek (köztes cellában lévő kation-pufferek) a katód felé vándorolnak, miközben a szelektívmembránokon áthaladva meg is szűrődnek. Az eljárás segítségével végleges borkőstabilitás érhető el. A technológia kevésbé módosítja a borok ízét, aroma- és színanyagait. A gyakorlatban elterjedt berendezések mintegy 25–90 hl/h teljesítményre képesek. Drága berendezések, üzemeltetésük azonban kevésbé költséges.",
+    "",
+    "Borstabilizáció kémiai szerekkel és ennek jogi háttere",
+    "A kiválások megakadályozására az európai uniós jogszabályok több olyan szert is engedélyeznek, melyeket nem kell feltüntetni a címkén. (Ez alól kivételt képez a kénessav.)",
+    "Metaborkősav. A metaborkősavas kezelés a borkő-stabilizáció kémiai módja. ",
+    "Hatásmechanizmusa az, hogy a borkő kristályait körülveszi, ezáltal megakadályozza a kristályok növekedését, azaz védőkolloidként viselkedik. Ezért a metaborkősavat a készrekezelt borhoz adagolják. A metaborkősav tipikusan kristályosodást gátló anyag. Hatása időben korlátozott, ezért bizonyos idő eltelte után kristályosodást gátló hatása teljesen megszűnik. A jó minőségű szer a bekeverés után 3–6 hónapra megakadályozza a borkő kiválását.",
+    "",
+    "„Szorbinsav, kálium-szorbát. A szorbinsavas kezelés a biológiai stabilizáció egyik kémiai módszere.”2Alkalmazásának célja az élesztőgombák megbénítása, ezáltal a több-kevesebb cukortartalmú borok újraerjedésének a megakadályozása. Maximális mennyisége 200 mg/l (K-szorbát 270 mg/l) A szorbinsav az emberi szervezetre teljesen ártalmatlan, specifikus mikrobagátló szer. Borászati felhasználása nem teljesen problémamentes a kálium-szorbát bomlékonysága miatt. Már a raktározás alkalmával keletkezhet idegen szagú bomlástermék, de a kálium-szorbáttal kezelt borok biológiai savbomlásakor a bor a muskátlira emlékeztető, kellemetlen szagot és ízt kap.",
+    "",
+    "Dimetil-dikarbonát (DMDC). A legalább 5 g/l cukortartalmú, palackos borok mikrobiológiai stabilizálásához engedélyezett szer, amely a borban 24 órán belül elbomlik. Ezalatt a bor fogyasztása tilos! A 24 óra elteltével forgalomba hozott borban nem lehetnek kimutatható szermaradványok.",
+    "",
+    "L-aszkorbinsav. Erős redukálószer, melynek adagolását a kénessavval együtt már az ép szőlő esetében javasolják. A két kezelőszer között szinergizmus alakul ki, ezáltal a szőlő oxidáció elleni védelme még hatékonyabbá válhat.",
+    "Az l-aszkorbinsav az enzimatikus oxidáció ellen hatástalan. A borkezelés későbbi fázisaiban is felhasználható a bor redukált állapotának a fenntartásához. ",
+    "",
+    "A kristályosodás gyorsítása",
+    "A fagypont közeli hőmérsékletre, általában 0–4 °C-ra történő hűtéssel, és időnként a folyadékot (bort) keveréssel kezelve az oldhatósági szorzat eltolódik a KHT közvetlen kristályosodási tartományába, azaz gyorsul a kristályképződés.",
+    "",
+    "A kristályosodás három fokozatban megy végbe:",
+    "1\tCsíraképződés (indukciós fázis)",
+    "Egyes részecskék összeállnak és kiindulópontokat kínálnak további részecskék számára. Kiindulópontok lehetnek idegen részecskék, a tartályfalak érdességei és kristálycsírák (kontakt borkő). Minél nagyobb a részecskék koncentrációja, annál nagyobb a csíraképződés valószínűsége. Az indukciós fázis a folyamat idejét meghatározó lépés.",
+    "",
+    "2\tIonvándorlás (diffúziós fázis)",
+    "Az elektrosztatikus vonzás hatására az ionok az aktív helyekre, a csírák szabad vegyértékeire vándorolnak. Minél rövidebb a megtett út, annál gyorsabban és intenzívebben megy végbe a kristályosodás.",
+    "",
+    "3\tLerakódás (integrációs szakasz)",
+    "Az ionok megtapadnak a kristálycsírák szabad vegyértékein, és ezzel beépülnek a növekvő kristályrácsba.",
+    "A kristályok leülepedését szűrés követi. Ez nagy készülék- és időigénnyel jár. A stabilitás eléréséig a hűtés akár 14 napig tarthat. (Ennek ellenére maradnak kockázatok, amelyek miatt a nagyüzemek keresik a biztonságosabb alternatívát.)",
+    "",
+    "Kontakt eljárás",
+    "A hidegen történő tárolás viszonylag biztonságos alternatívája a kontakt eljárás. A bort lehűtik 0–1 °C-ra, majd oltókristályt kevernek hozzá. Oltókristályok használatával megkerülhető az indukciós fázis, és nagyban gyorsítható a kristályképződés folyamata. Legalább időnkénti kevergetéssel biztosítható az, hogy a 2. és a 3. fázis is hasonlóképpen gyorsan végbe mehessen. Rövid idő elteltével a folyamat véget ér. A stabilitásvizsgálat az esetek többségében pozitív eredménnyel zárul. ",
+    "A nagy kristályok gyorsan leülepednek és adott esetben mosás és őrlés után újra használhatók. A kontakt eljárás ekkor a kontakt borkő magas ára ellenére is gazdaságos. A finom borkő (többnyire amorf borkő-kolloid keverék) továbbra is lebeg, és szűréssel vagy centrifugálással kell eltávolítani. Erre minden elterjedt tisztítási technika alkalmas. ",
+    "",
+    "Stabilizáció védőkolloidokkal",
+    "A hideg savstabilizálással gyorsítható a kristályosodás folyamata. A „felesleges” molekulák kicsapatása után a bor stabil. A védő kolloidok hozzáadása a stabilizáció fordított módját követi. Segítségükkel megakadályozható a kristálynövekedés, vagyis a kolloidok gátolják a kristályosodást. Töltési tulajdonságaikból adódóan már korán képesek megtapadni az előzőleg összeállt KHT- vagy CaT-komplexeken, és megakadályozni a rendezett kristálystruktúrák kialakulását és kicsapódását. Minél nagyobb a kolloidok mennyisége, annál biztosabb védelmet nyújtanak a kristályképződéssel szemben. ",
+    "A borra vonatkozó jogszabályok a már korábban említett metaborkősavval együtt csak néhány kolloid anyagot engedélyeznek:",
+    "",
+    "Gumiarábikum: egy komplex, nagy molekulasúlyú poliszacharid. Általános kolloid stabilizálószer, nagyon hatékony védőkolloid, nemcsak a borkőkiválást, hanem a fémes- és a színanyag kiválásokat is megakadályozza. Palackozás előtt adagolják.",
+    "",
+    "Mannoproteinek: a Saccharomyces cerivisiae sejtfalából származó, tisztított mannoprotein védőkolloid szerepet játszik a borban. Érzékszervi szempontból semleges. A kereskedelmi forgalomban kapható készítmények csak a borkőkiválást akadályozzák meg, a Ca-tartarát ellen nem nyújtanak védelmet.",
+    "",
+    "Karboxi-metil-cellulóz (CMC): az élelmiszeriparban régóta a viszkozitás növelésére használt szer, már kis mennyiségben is teljesen meggátolja a borkőkiválást. Az így kezelt bor lizozimmal nem kezelhető.",
+    "",
+    "Lizozim: egy, a tojásfehérjében található enzim, amely tejsavbaktériumok ellen hatékony, az élesztőkre nincs hatással. Jó alternatíva lehet a lágy borok védelmében. Fehérje természete miatt a bentonittal és a CMC-vel való alkalmazását kerülni kell.",
+    "",
+    "Kitozán: Aspergillus niger penészgombából származó poliszacharid. Széles spektrumú antimikróbás szer. Leginkább a Brettanomyces élesztő okozta fertőzés megelőzésére és kezelésére használják.",
+    "",
+    "A felsorolt szerek valamelyikének hozzáadása határozza meg a palackon feltüntetett eltarthatósági időtartamot és a palackozás időpontját. A korán palackozott (a fejlődési szakaszban lévő) borokat általában mielőbbi fogyasztásra szánják, de jellemzően instabilak. Ezeket ajánlott nagyjából egy évnyi, belátható időtartamra szóló védelemmel ellátni. Az értékesebb borokat, amelyeknek több éven át stabilnak kell maradniuk a palackban, általában csak tartályba történő hosszabb érlelést követően palackozzák. Ezeknél gyakran már lezajlott az önstabilizáció, és kevés további védelmet igényelnek. A magas kolloidtartalmú vörösborok a maguk részéről már stabilizálódtak, és akár több évig is védettek a kicsapódásokkal szemben.",
+    "",
+    "",
+    "Ábrajegyzék",
+    "1. ábra: Amorf kiválások meghatározása\t4",
+    "2. ábra: Borkő képlete\t7",
+    "3. ábra: Borkő 3D-modellje\t8",
+    "4. ábra: Borkő kristályok\t8",
+    "5. ábra: Borkő kristályok a pohárban\t9",
+    "6. ábra: Borkő kristályok a pohárban\t10",
+    "7. ábra: Borkő kristály kiválása\t10",
+    "8. ábra: Borkőkiválás a palackban\t11",
+    "9. ábra: Borkő és borkősavas mész kristályok\t12",
+    "10. ábra: Kovaföld, perlit, bentonit üledékek\t18",
+    "11. ábra: A melegkezelés vázlata lemezes hőcserélő alkalmazásával\t20",
+    "",
+    "Táblázatjegyzék",
+    "1. táblázat: Üledékek fajtái és megjelenésük\t3",
+    "2. táblázat: Javasolt hőkezelés hőmérséklete bortípus és mikróba szennyezettség szerint\t21",
+    "",
+    "",
+    "Felhasznált irodalom",
+    "Eperjesi Imre: Borászati technológia. Budapest, 2010, Mezőgazda Kiadó.",
+    "Mátyus Imre – Nyitrainé Dr. Sárdy Diána – Török Zita: Borkészítés technológiája. Elérhető: https://www.hermanottointezet.hu/sites/default/files/tankonyvek2022/Borkeszites_technologiaja_(oktatasi_segedanyag).pdf (2024.09.06.)",
+    "Tatayné Baksa Erzsébet: Borkészítés. Budapest, 2014, Nemzeti Agrárszaktanácsadási, Képzési és Vidékfejlesztési Intézet.",
+    "Bereczkiné Kardeván Kinga – Kovács Gáborné – Csatáriné Horváth Magdolna – Maráziné Király Ildikó – Tormáné Csizmadia Zsuzsanna – Virágné Széli Márta – Zakariásné Kiskó Bernadett: Általános élelmiszeripari technológiák II. Budapest, 2020, Herman Ottó Intézet."
+  ],
+  "runs": [
+    [],
+    [
+      "Egyedi megrendelés azonosítója:",
+      " EM-2.29.2  "
+    ],
+    [
+      "A bor stabilizálása"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      "Tartalomjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "Bevezetés"
+    ],
+    [
+      "A bor akkor tekinthető stabilnak, ha fogyasztáskor tükrösen tiszta, teljesen üledék- és zavarosságmentes. A borok stabilitása a palackozás nagymértékű elterjedésével nagy jelentőségre tett szert. Fontos tudni, hogy a színanyagok jelenléte miatt a vörösborok némileg kisebb tisztasági fok mellett is elfogadhatók a fogyasztók részéről, a fehérboroknak és a rozéknak viszont a szemmel látható zavarosságtól mentesnek, tükrös tisztaságúak kell lenniük. A stabilitási követelmények ugyan minden forgalmazandó borra érvényesek, de a palackos boroknál kiemelten fontosak, ezért a stabilitást és a palackozást egymástól elválaszthatatlan technológiai egységnek kell tekinteni.",
+      " "
+    ],
+    [
+      "A stabilizáló eljárásoknak az a céljuk, hogy az üledékanyagoktól és az esetleg majd később kicsapódó, úgynevezett „potenciális” üledékanyagoktól megszabadítsák a készre kezelt bort. A palackozott borok legtöbbször azért zavarosodnak meg, mert a kezelések során nem távolították el a potenciális üledékanyagokat."
+    ],
+    [
+      "Fontos hangsúlyozni, hogy a stabilitás mindig viszonylagos. A kezelések során arra készítik elő a bort, hogy a palackozás utáni körülményeket hátrányos változás nélkül elviselje. Arra kell törekedni, hogy a bor a fogyasztásáig tisztán, üledék- és zavarosságmentesen megőrizze minőségét."
+    ],
+    [
+      "A stabilizálás témakörébe számos intézkedés sorolható:"
+    ],
+    [
+      "az alkoholos erjedés, amely minden erjeszthető cukrot eltávolít,"
+    ],
+    [
+      "a malolaktikus erjedés, amely az almasavat metabolizálja,"
+    ],
+    [
+      "a kénezés, amely csökkenti a fenolos vegyületek aktivitását, és gátolja vagy megöli a mikroorganizmusokat,"
+    ],
+    [
+      "az aszkorbinsav hozzáadása, amely csökkenti, és némileg stabilizálja a fémeket,"
+    ],
+    [
+      "a fehérjestabilizálás,"
+    ],
+    [
+      "a fémstabilizálás,"
+    ],
+    [
+      "a savtartalom stabilizálása, gyakran a savtartalom beállításával egybekötve,"
+    ],
+    [
+      "a kolloidstabilitás derítéssel történő biztosítása (erjesztés utáni derítések). "
+    ],
+    [
+      "Az intézkedések egyidejűleg az ízt is befolyásolják."
+    ],
+    [
+      "A borkezelés logikai sorrendjében egyes beavatkozások megelőzhetik a tisztítást, vagy vele együtt végezhetők. A bor tisztítása, harmonizálása, érésének szabályozása és stabilizálása a ",
+      "borászati technológiában komplex egységként jelentkezik, amely a kellő műszaki felkészültségen kívül alapos szakismeretet kíván."
+    ],
+    [],
+    [
+      "A bor zavarosságának okai és típusai"
+    ],
+    [
+      "A stabilizálás csak akkor vezet eredményre, ha feltártuk a borban előforduló zavarosodások okait, azok keletkezési körülményeit. Fontos tudni, hogy a bor üledéke legtöbbször nem egynemű anyag. Az üledékanyagok meghatározását három lépésben javasolt elvégezni: "
+    ],
+    [
+      "szabad szemmel (ebben segít az 1. sz. táblázat),"
+    ],
+    [
+      "a kivált üledék feloldásával és "
+    ],
+    [
+      "mikroszkópos vizsgálattal. "
+    ],
+    [],
+    [
+      "Üledékek fajtái és megjelenésük",
+      " "
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "Általában a zavarosodást egy tényező (bármelyik zavarosodási tipus) indítja meg, ezután a borban a zavarosodások egész láncolata megtörténhet Azonban, ha ez az egy tényező ",
+      "hiányzik, a bor általában megmarad stabilnak. A kezelések a zavarosodást kiváltó alapvető ok megszüntetésére – gátlására kell törekedni."
+    ],
+    [],
+    [
+      "A bor jelentősebb zavarosodásai, elváltozásai a következőképpen csoportosíthatók:"
+    ],
+    [
+      "oxidációs elváltozások,"
+    ],
+    [
+      "fehérjezavarosodás,"
+    ],
+    [
+      "kristályos zavarosodások"
+    ],
+    [
+      "fémes zavarosodások,"
+    ],
+    [
+      "biológiai zavarosodások,"
+    ],
+    [
+      "kolloid zavarosodások,"
+    ],
+    [
+      "technikai szennyeződések (kovaföld, perlit, bentonit, dugómorzsa)."
+    ],
+    [],
+    [
+      "Más csoportosítás szerint amorf kiválásoknak is nevezik a fehérje, a kolloidális és a fémes kiválásokat, mivel morfológiailag nem meghatározható alakúak. "
+    ],
+    [
+      ""
+    ],
+    [
+      "Amorf kiválások meghatározása"
+    ],
+    [
+      "Forrás: ",
+      "https://www.hermanottointezet.hu/sites/default/files/tankonyvek2022/Borkeszites_technologiaja_(oktatasi_segedanyag).pdf",
+      " (2024.06.2",
+      "6.) 294. oldal"
+    ],
+    [],
+    [
+      "Oxidációs elváltozások"
+    ],
+    [
+      "A bor oxidációs elváltozásai a levegő oxigénjének borba történő behatolásával és az oxidáló enzimek tevékenységével függenek össze. "
+    ],
+    [
+      "A levegő O2-ja (dioxidja) által okozott, hátrányos oxidációs elváltozások gyakori és bőséges levegőztetéskor az egészséges szőlőből készült boroknál is előfordulhatnak. E folyamatok nemcsak a bor külső megjelenését (szín, tisztaság) változtatják meg, hanem annak jellegét is. Ezáltal jelentősen csökken a bor élvezeti értéke. A levegő oxigénjének zavarosító hatása csak közvetetten érvényesül."
+    ],
+    [
+      "A könnyű, reduktív fehérborokra különösen hátrányosak az oxidációs elváltozások. A jellemző és megkívánt zöld-fehér szín helyett a sárga színtónus lép előtérbe és megjelenik a barna színárnyalat is. A vörösborok színe barnás árnyalatot kap. A finom szőlőillat- és aromaanyagok átalakulnak, a borok illatban, zamatban szegényebbé válnak, veszítenek frissességükből, üdeségükből. Az oxidációs folyamatok gyakori jelenségei például a „levegőíz”, az „oxidált íz”, a „fáradt íz” stb. "
+    ],
+    [
+      "Az oxidáló enzimek jelentős elváltozást, nagymértékű zavarosodást okozhatnak a borban. Ennek a legjellegzetesebb formája a barnatörés, mely a bor megbarnulásával, zavarosodásával, valamint kellemetlen illat és íz kialakulásával jár. A bor illata aszalt gyümölcsre, íze kissé a kenyérhéjra emlékeztet, és összhatásában nagyon kellemetlen, élvezhetetlen."
+    ],
+    [
+      "A barnatörés a polifenol-oxidáz enzimek tevékenységére vezethető vissza. A szőlőben található tirozináz vagy a Botrytis cinerea lakkáz enzimje a levegő oxigénjének segítségével oxidálja a tanninokat, vagy azok építőelemeit (pl. katechin), amelyek kiválnak. "
+    ],
+    [
+      "A bor barnatörési hajlamát úgynevezett „töréspróbával” állapítják meg: a bormintát félig töltött színtelen palackban, dugaszolatlanul 3–4 napig levegő hatásának teszik ki. A barnatörésre hajlamos bor felszínén – eleinte a palackfal mentén – barna gyűrű jelenik meg. A barnulás fokozatosan átterjed a bor teljes felszínére, majd mélységben folytatódik, végül a folyadék teljesen megbarnul."
+    ],
+    [],
+    [
+      "Fehérjezavarosodás"
+    ],
+    [
+      "A boroknál gyakori jelenség a fehérjezavarosodás. A fehérje anyagok több-kevesebb részének kicsapódása a legtöbb bornál végbemenő természetes folyamat. A bor kezdetben poros, homályos, majd zavaros lesz. A folyamat két lépcsőből áll. Először a vegyület denaturálódik, de a fehérje pelyhesedése (flokkulációja) csak akkor valósulhat meg, ha az elektromos töltésüket, és az őket körülvevő hidrátburkot egyaránt elveszítik. "
+    ],
+    [
+      "A fehérjezavarosodás leggyakoribb okai:"
+    ],
+    [
+      "a levegő oxigénje hatására már az első nyílt fejtés alkalmával nitrogéntartalmú anyagok csapódnak ki;"
+    ],
+    [
+      "a bor hőmérsékletének változására a fehérjekicsapódás intenzívebbé válik. Fehérjezavarosodást főként a felmelegedés idéz elő, de hideg hatására is bekövetkezhet;"
+    ],
+    [
+      "a bor szállítása, mozgatása során mechanikai rázó hatásra válnak ki fehérjeanyagok, különösen fiatal újboroknál;"
+    ],
+    [
+      "a házasítás nagy cserzőanyag-tartalmú borral azáltal okozhat fehérjekiválást, hogy a ",
+      "fehérjekolloidok",
+      " és a cserzőanyagok közötti eredeti egyensúly felbomlik;"
+    ],
+    [
+      "az alkoholtartalom emelkedése ugyancsak okozhat fehérjezavarosodást;"
+    ],
+    [
+      "a pH-érték változásával is kiválhatnak egyes fehérjeanyagok."
+    ],
+    [],
+    [
+      "A bor számos fehérjét tartalmaz, amelyek koncentrációja több paramétertől függ, és a borkezelés során nagy dinamikát mutat. Az oldott fehérje palackozás előtti mennyiségét befolyásoló főbb tényezők:"
+    ],
+    [
+      "a szőlőfajta és az érettség foka; "
+    ],
+    [
+      "a bogyók egészségi állapota (a botritisszel fertőzött szőlőben többnyire alacsonyabb a tartalom);"
+    ],
+    [
+      "a cefreáztatás intenzitása;"
+    ],
+    [
+      "a mustkezelés (az enzimek, főként a lizozim növelik, a derítések csökkentik);"
+    ],
+    [
+      "a must bentonitos derítése erőteljesen csökkenti, csakúgy, mint a must pasztőrözése, a fehérje denaturálása miatt;"
+    ],
+    [
+      "az alkoholos és a malolaktikus erjedés növeli a fehérjetartalmat a mikrobiális fehérjék (például mannoproteinek) leadása miatt;"
+    ],
+    [
+      "a bor tisztítása a nagyobb fehérjék mennyiségét csökkenti, az erjesztés utáni derítés az alacsony molekulatömegű fehérjék mennyiségének csökkenését is kiválthatja;"
+    ],
+    [
+      "a pH-értéket növelő intézkedések hatására a bor pH-értéke megközelíti az oldott fehérjék izoelektromos pontját, azok instabillá válnak,"
+    ],
+    [
+      "a házasítások, mindenekelőtt a fehérjében gazdag seprős alj (présbor) hozzáadása nagyban befolyásolhatja a zavarosodásra való hajlamot;"
+    ],
+    [
+      "a tárolás során – főként alacsony hőmérsékleten – bizonyos fokú önstabilizáció megy végbe az oldható molekulák oldhatatlanokká történő átalakulása folytán."
+    ],
+    [],
+    [
+      "Ha a borban a palackozás után is vannak oldott fehérjék, akkor megfelelő koncentrációnál finomszemcsés, gyakran erősen fénytörő csomók, esetenként akár pelyhek is keletkezhetnek. Ez a fehérjés zavarosodás legtöbbször nagyobb molekulatömegű fenolokat és fémeket is tartalmaz."
+    ],
+    [],
+    [
+      "Kristályos zavarosodások"
+    ],
+    [
+      "A kristályos zavarosodások minden borban végbemenő természetes folyamatok és a borstabilizáció súlyos problémáihoz sorolhatók. Okozói a kálium- és a kalciumionok, amelyek „kicsapják” a borkősavat. Előbbi esetben borkő (KC",
+      "4",
+      "H",
+      "5",
+      "O",
+      "6",
+      " kálium-hidrogén-tartarát, ",
+      "KHT",
+      "), utóbbiban borkősavas mész (CaC",
+      "4",
+      "H",
+      "4",
+      "O",
+      "6",
+      " – kalcium-tartarát, ",
+      "CaT",
+      ") keletkezik. Rendszerint a kalciumsók kiválása okozza a nagyobb veszélyt, mivel a bor kalciumtartalma a technológiai szennyeződések következtében több forrásból is növekedhet."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Borkő képlete"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Borkő 3D-modellje"
+    ],
+    [
+      "Forrás: ",
+      "https://www.wikiwand.com/en/Potassium_bitartrate#Media/File:Bitartrate-ion-3D-balls.png",
+      " (2024. 07",
+      ". 22.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Borkő kristályok"
+    ],
+    [
+      "Forrás: ",
+      "https://www.dreamstime.com/pile-gold-colored-white-wine-crystals-wine-diamonds-white-background-gold-colored-white-wine-crystals-wine-diamonds-image313682674",
+      " (2024.07",
+      ".22.)"
+    ],
+    [],
+    [
+      "Borkő-zavarosodás"
+    ],
+    [
+      "A borkő kristályok kiválása természetes fizikai-kémiai folyamat, amely már a must fázisban megkezdődik és a borkezelés végéig folytatódik. "
+    ],
+    [
+      "A borkő koncentrációja egy ponton az oldhatósági érték alá csökken, és a bor borkőstabillá válik. Instabil bor palackozása gyakran vezethet kristályképződéshez",
+      ". ",
+      "A ",
+      "fogyasztók",
+      " továbbra is negatívan ítélik meg a palackban lévő kristályokat, így a palackozó mindent megkísérel, hogy ezt elkerülje. A kierjedt újbor a borkőre vonatkoztatva telített oldat. Kémiailag tehát ",
+      "instabil, amelyből az egyensúlyi viszonyok felbomlása esetén borkő válik ki.",
+      " ",
+      "A borkő oldhatóságát, illetve kicsapódását befolyásolja:"
+    ],
+    [
+      "a hőmérséklet;"
+    ],
+    [
+      "az alkoholtartalom; "
+    ],
+    [
+      "a pH-érték;"
+    ],
+    [
+      "a borkősavtartalom;"
+    ],
+    [
+      "a kálium, a kalcium és a tartarát ionok koncentrációja;"
+    ],
+    [
+      "a védőfunkciót ellátni képes kolloid vegyületek (védőkolloidok) mennyisége és azok típusa."
+    ],
+    [],
+    [
+      "A borkő alacsonyabb hőmérsékleten kevésbé oldódik, és alkoholos közegben kicsapódik. Ugyancsak elősegíti a borkő kicsapódását a magas borkősav- és káliumtartalom, továbbá az alacsony pH-érték. A borkőképződés optimális pH-érték tartománya 3,6–3,8 között van. A borkő kiválásával a titrálható savtartalom és az extrakttartalom is csökken."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Borkő kristályok a pohárban"
+    ],
+    [
+      "Forrás: ",
+      "https://depositphotos.com/es/photo/wine-tartrate-crystals-bottom-glass-white-wine-566635978.html ",
+      "(",
+      "2024. 07",
+      ". 22.)"
+    ],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "Borkő kristályok a pohárban"
+    ],
+    [
+      "Forrás: ",
+      "https://depositphotos.com/es/photo/white-wine-tartrate-crystals-stuck-empty-wine-glass-648914394.html",
+      " (",
+      "2024.07",
+      ".22.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Borkő kristály kiválás",
+      "a"
+    ],
+    [
+      "Forrás: ",
+      "https://depositphotos.com/es/photo/tartrate-crystals-glass-white-wine-481834104.html",
+      " ",
+      "(",
+      "2024.07",
+      ".22.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Borkőkiválás a palackban"
+    ],
+    [
+      "Forrás: ",
+      "https://depositphotos.com/es/serie/566635978.html?qview=656748352",
+      " (",
+      "2024.07",
+      ".22.)"
+    ],
+    [],
+    [
+      "Borkősavas mész kiválása",
+      " "
+    ],
+    [
+      "A borok szőlőből eredő káliumtartalma 500–700 mg/l (K2O-ban), a természetes kalciumtartalom mindössze 40–70 mg/l (CaO-ban). A kálium mintegy tízszerese a kalcium mennyiségének. A természetes úton felvett kalciumot a bor általában képes oldatban tartani. Ebből az következne, hogy a természetszerűen lejátszódó borkőkiválással ellentétben kalciumos zavarosodással nem kell számolni. A gyakorlatban viszont más a helyzet. A borok kalciumtartalma a természetes úton felvett mennyiségnek a két-háromszorosa is lehet, esetenként elérheti a 200–250 mg/l-t. "
+    ],
+    [
+      "A kalciumnövekedés technológiai eredetű szennyeződés következménye, melynek okozói a kalcium-karbonátos savtompítás, továbbá a vasbeton tartályok, a derítő- és szűrőanyagok, valamint a borospalackok kalciumtartalma."
+    ],
+    [
+      "A bor kalciumtartalmának növekedése következtében különböző kalciumsók válnak ki. Közülük a palackos borok üledékanyagaiban leggyakrabban a borkősavas mész fordul elő. Kristályai összefüggő, szürkésfehér zavarosodást idéznek elő, nehezen ülepednek. A borkősavas mész kicsapódása a hőfoktól kevésbé függő, hosszadalmas folyamat."
+    ],
+    [
+      "A borkő tipikusan csónak vagy gabonaszem, gyakran szabálytalan alakú, a borkősavas mész mindig szabályos, lecsapott sarkú hasáb, fényes kristály."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Borkő és borkősavas mész kristályok"
+    ],
+    [
+      "Forrás: ",
+      "https://www.hermanottointezet.hu/sites/default/files/tankonyvek2022/Borkeszites_technologiaja_(oktatasi_segedanyag).pdf",
+      " 295. o. ",
+      "(2024.07.26",
+      ".) "
+    ],
+    [],
+    [
+      "Egyéb kalciumsók kiválása"
+    ],
+    [
+      "A kalcium a borkősav mellett más savakkal is alkot kristályos vagy mikrokristályos kiválásokat. Ilyenek például a ",
+      "nyálkasavas (mucinsavas) kalcium",
+      ", továbbá a ",
+      "kalcium-foszfát",
+      ", a ",
+      "vas-kalcium- foszfát",
+      ", a ",
+      "kalcium-oxalát",
+      " stb."
+    ],
+    [
+      "A borok nagy kalciumtartalma katalizálja a fehértörést. Az újabb vizsgálatok alapján feltehető, hogy a fehértöréskor nemcsak vas-foszfát, hanem kalcium-foszfát és vas-kalcium-foszfát is keletkezik."
+    ],
+    [
+      "A kalciumtartalom csökkentésére újabban ajánlott anyagok, mint amelyek a semleges kálium-tartarát, a kálium-hidrogén-tartarát, a kalcium-tartarát különböző őrleményekben (pl. kovafölddel keverve) és kombinációkban, mint ",
+      "kristálygócok",
+      " jöhetnek számításba."
+    ],
+    [],
+    [
+      "A túltelített oldatban a kristályok nemkívánatos kicsapódásának megakadályozásához, vagyis a bor stabilizációjához számos különböző lehetőség kínálkozik:"
+    ],
+    [
+      "az időtényező",
+      ": idővel a kristályok maguktól stabilizálódnak. Beáll az egyensúlyi állapot, a kristályok kicsapódnak. Ez az időtartam terméktől, hőmérséklettől és ",
+      "koncentrációtól függően több hónapig, vörösboroknál évekig tarthat, és jóval a palackozás után is megtörténhet."
+    ],
+    [
+      "a kristályosodás gyorsítása:",
+      " amikor a bor lehűl, a hőmérséklet-koncentrációs pont helye eltolódik a spontán kristályosodás tartományába. A folyamat általában néhány napig tart. KHT-oltókristályok hozzáadásával a kristályképződés néhány órára csökkenthető."
+    ],
+    [
+      "a reakciópartnerek szelektív eltávolítása:",
+      " a kálium- vagy kalciumionok, illetve tartarátionok környezetből történő szelektív eltávolításával reakciópartnerek hiányában már nem lehetséges a kristályképződés."
+    ],
+    [
+      "védőkolloidok hozzáadása:",
+      " a borra vonatkozó jogszabályok értelmében a védőkolloidok (metaborkősav, gumiarabikum, mannoproteinek vagy karboximetil-cellulóz (CMC) hozzáadása megengedett a késleltetett kristályosodás megakadályozásához."
+    ],
+    [],
+    [
+      "A borkőstabilitás ellenőrzése"
+    ],
+    [
+      "A palackozás előtt ellenőrizni kell a KHT és a CaT stabilitását."
+    ],
+    [
+      "A KHT-stabilitás esetében főként három eljárás jön szóba:"
+    ],
+    [
+      "a hidegpróba,"
+    ],
+    [
+      "a mini kontakt eljárás, valamint"
+    ],
+    [
+      "a KHT-telítettségi hőmérséklet mérése (ún. ",
+      "Wurdig-próba",
+      ")."
+    ],
+    [],
+    [
+      "A kalciumstabilitás az eltérő kristályosodási körülmények miatt nehezebben ellenőrizhető. Az alkalmazott módszer a KHT-telítettségi hőmérséklet mérésére támaszkodik."
+    ],
+    [],
+    [
+      "Hidegpróba"
+    ],
+    [
+      "A tisztára szűrt és palackozásra kész borból (száraz boroknál) 4 nap, illetve (maradék édességet tartalmazó boroknál és botritisszel fertőzött szőlőfajtákból készült boroknál) 7 nap után vett mintát 0 °C körüli hőmérsékleteken tárolják, majd szemrevételezéssel megvizsgálják, hogy kiváltak-e kristályok. A kristályképződés mértéke kb. 1–2% alkohol hozzáadásával növelhető. Ha borkő csapódik ki, akkor a bor instabilnak minősül",
+      ".",
+      " ",
+      "A próba ",
+      "csak a KHT-stabilitásra vonatkozó minőségi megállapításra alkalmas, a jelenlévő kalcium-tartarát mennyiségét (CaT) nem határozza meg."
+    ],
+    [],
+    [
+      "Mini kontakt eljárás"
+    ],
+    [
+      "A palackozásra kész borból vett mintában –2 °C-on (vagy még jobb, ha azon a hőmérsékleten, amelyen a későbbiekben a kontakt eljárást kívánják végezni) megmérik az elektromos vezetőképességet (μs/cm). Ezután állandó keverés mellett hozzáadnak (4 g/l) finomra őrölt kontakt borkövet. A túltelített oldatban jelenlévő borkő ionjai 2–4 órán belül lerakódnak a kontakt kristályokra, és nagyobb kristályokat képeznek. A borkő kikristályosodásával csökken a vezetőképesség. A reakció akkor ér véget, ha elérte a stabil vezetőképességi szintet. A két vezetőképesség-érték között a különbség a kicsapódott borkőben és a túltelítettség fokában van. Az eljárás egyik változatában 4 perc után megmérik a vezetőképesség csökkenését és ",
+      "extrapolációját",
+      ".",
+      " ",
+      "A stabil borok vezetőképessége csak kis mértékben csökken, a kikristályosodás következtében fellépő ionveszteség kicsi. Minél több ion tűnik el az oldatból, annál nagyobb a csökkenés."
+    ],
+    [],
+    [
+      "KHT-telítettségi hőmérséklet"
+    ],
+    [
+      "A telítettségi hőmérséklet az a hőmérséklet, amelynél a borban lévő oldott borkő még éppen, hogy telített oldatot képez. Minél alacsonyabb ez a hőmérséklet, annál nagyobb a kristálystabilitás. Ha a belső hőmérséklet a telítettségi hőmérséklet alá csökken, túltelített oldat keletkezik.",
+      " "
+    ],
+    [
+      "E",
+      "lőször megmérjük a szobahőmérsékletű bor",
+      " vezetőképességét, majd borkő kristályt adva a borhoz, a várakozási idő betartásával ismételten megmérjük a vezetőképességet. A két értékből és a hőmérsékletből kiszámítható a bor telítési hőmérséklete. Ha az megfelelően alacsony, akkor a bor stabilnak mondható. Magasabb hőmérsékletnél számíthatunk borkőkiválásra, ez azonban nagyban függ a borban levő védőkolloidok mennyiségétől. Kiegészítve a minikontakt módszerrel az előrejelzés még magas telítési hőmérsékletű boroknál is lehetséges. "
+    ],
+    [
+      "Ha a meghatározott telítettségi hőmérséklet a stabil tartományba esik, akkor a bor hűtőszekrényben tárolva stabilnak tekinthető. Feltételesen stabil borok esetében (vagyis, ha a tárolás során kiválás történik) a védőkolloidokkal történő stalizáció alkalmas. Ez a metaborkősavra és a borkőre (KHT), valamint a kalcium-tartarátra (CaT) is érvényes, ennél ",
+      "azonban jóval nehezebb elérni a védő hatást. A magas telítettségi hőmérsékletű borok további stabilizációs intézkedéseket igényelnek. 20 °C felett azonban CMC-vel ",
+      "(Karboxi-metil-cellulózzal)",
+      " ",
+      "már nem érhető el stabilizáció. ",
+      "Ha a hőmérséklet a bor tárolása során a telítettségi hőmérséklet alá csökken, akkor célszerű, hogy a borkőtöbblet ne haladja meg a 200 mg/l-t."
+    ],
+    [],
+    [
+      "Fémes zavarosodások"
+    ],
+    [
+      "A szőlőtőke által, főként a gyökéren keresztül felvett fémek mennyisége viszonylag csekély. A must vastartalma legtöbbször 2 mg/l alatt van, réz csak nyomokban lelhető fel. Továbbá szintén nyomokban előfordul még kadmium, cink, ólom, alumínium vagy ón. A megnövekedett fémtartalmak miatti borhibák a borkezelés során keletkeznek. Ronthatják az ízt és zavarossághoz vezethetnek. Néhány fém (elsősorban a vas és a réz) bizonyos körülmények között a borban zavarosodást, törést okozhat.",
+      " A biztonságos határkoncentráció, amely alatt elvileg nem lép fel fém miatti zavarosság, a vas és a cink esetében 5 mg/l, a réz esetében 0,5 mg/l. A cink azonban már 0,5 mg/l felett fémes, kellemetlen ízt okozhat. ",
+      "A szokásos koncentrációkban a fenti fémek ízleléssel nem érzékelhetők, és a technológia szempontjából sincs jelentőségük. "
+    ],
+    [
+      "Az alkoholos erjedés csökkenti a fémek koncentrációját. Az élesztő adszorbeál és biológiai szűrőként működik. ",
+      "Az erjedés és a deszorpció elkerülése érdekében az élesztőről történő korai lefejtés után a borok általában fémstabilak."
+    ],
+    [
+      "A korábban gyakori, nem korrózióálló anyagokból (acél húzócsavarokból, vas dübellel rögzített hordófenékből, acél- vagy betontartályok sérült béléséből stb.) történő vasfelvétel ma már szinte egyáltalán nem játszik szerepet, mivel a",
+      " felszerelések modernizálódtak, szinte mindenhol saválló acél tartályokkal dolgoznak",
+      ". Míg a vas miatti zavarosság ma már alig ismert, a réz miatti zavarosságok újra és újra előfordulnak. ",
+      "A fő ok a növények rézkészítményekkel történő kezelése (zárópermetezés) és a bor bakszag elleni rézszulfátos kezelése."
+    ],
+    [
+      "A fém miatti zavarosság egyik tényezője a fehérjék és cserzőanyagok jelenléte. Már az alsó kritikus tartományban való eltávolításuk is elegendő lehet a zavarosság megelőzéséhez."
+    ],
+    [],
+    [
+      "Fehértörés"
+    ],
+    [
+      "Savszegény és sok vas(III)iont tartalmazó borokban a foszfátionok a vassal reakcióba lépnek:"
+    ],
+    [
+      "Fe+++ + PO",
+      "4",
+      "3-",
+      " = Fe",
+      "PO₄³⁻"
+    ],
+    [
+      "A keletkező vas(III)-foszfát fehér, tejszerű zavarosságot okoz, esetenként csapadék alakjában kiválik a borból. Így jön létre a fehértörés."
+    ],
+    [
+      "Amennyiben a bor fehértörésre hajlamos, úgy a fejtés után azonnal kékderítésben kell részesíteni vagy erős kénezéssel a ",
+      "redoxinívót",
+      " alacsonyra kell szorítani, vagy citromsav-adagolással a vas(III)ionokat komplex kötésbe kell vinni.",
+      " ",
+      "Utóbbinál ügyelni kell arra, hogy a forgalomba hozatalkor a bor citromsavtartalma maximálisan 1 g/l lehet)."
+    ],
+    [],
+    [
+      "Feketetörés",
+      " "
+    ],
+    [
+      "A vas(III)ionnal a bor fenolos vegyületei is reakcióba léphetnek, s a keletkezett reakciótermék fekete csapadék formájában válik ki. Ezt feketetörésnek nevezik."
+    ],
+    [
+      "A feketetörésnél létrejövő csapadékot általában vas(III)-tannátnak hívják,",
+      " de ez a megnevezés nem fedi helyesen a csapadék kémiai összetételét. A cserzőanyagokon kívül ugyanis egyéb fenolos természetű anyagok is (antocianinok, leukoantocianinok stb.) okozhatnak a vas(III)ionokkal feketetörést. ",
+      "A hidrolizálható cserzőanyagot tartalmazó borokban (a hordó fájából kioldott vagy a derítés alkalmával bekerült cserzőanyag következtében) a feketetörés csapadékának színe kékes árnyalatú",
+      ". A borhiba kékderítéssel megszüntethető."
+    ],
+    [],
+    [
+      "Rezes törés",
+      " "
+    ],
+    [
+      "Erősen kénezett borokban, ha legalább 3–5 mg/l rezet tartalmaznak, és a borokat zárt pórusmentes tartályban tartják, vörösbarna színű csapadék jelenik meg. A jelenség neve rezes törés. A zavarosodás kizárólag oxigén hiányában, tehát reduktív viszonyok között áll elő.",
+      " A keletkező réz-szulfid más kísérőanyagokkal (például fehérjékkel) együtt, illetve azok hatására flokkulál. A hibás bor kékderítéssel javítható."
+    ],
+    [],
+    [
+      "Biológiai zavarosodások"
+    ],
+    [
+      "Okozói élesztőgombák és baktériumok. A borászati üzemek számára a legsúlyosabb stabilitási problémákat a biológiai zavarosodások, ezen belül is az élesztőzavarosodások okozzák",
+      " (a baktériumos zavarosodás nagyon ritka, mivel a bor pH-értéke a baktériumok számára nem kedvező",
+      "). ",
+      "Ennek magyarázata az, hogy amíg minden más zavarosodás megelőzhető vagy megszüntethető, addig a biológiai zavarosodások az újrafertőződés lehetősége miatt állandó készenlétet és gondoskodást követelnek.",
+      " „",
+      "Az előfordulás gyakorisága annál magasabb, minél magasabb töltéskor az élősejtszám, de számszerű összefüggést az induló sejtszám és az eltarthatóság ideje között nem lehet megállapítani.”",
+      ""
+    ],
+    [
+      "Borok esetében nem lehet olyan élesztőszám-határértéket meghatározni, ami garantálja a bor stabilitását. Vannak olyan élesztők, melyek 104 sejt/l kezdeti koncentrációnál is elpusztulnak, de pl. a ",
+      "Zygosaccharomyces bailii",
+      " néhány sejtje is képes szemmel látható üledéket eredményezni, így ez tekinthető a palackos borok legveszélyesebb romlásokozójának",
+      ". ",
+      "Kénessavmentes vagy alacsony kénessavtartalommal készített borok esetén tejsav- és elvétve ecetsav-baktériumok is veszélyeztethetik a stabilitást."
+    ],
+    [],
+    [
+      "Kolloid zavarosságok"
+    ],
+    [
+      "Az előkezelésnek megfelelően a nagymértékben tiszta borban az első fejtés után számos kolloid vegyület van jelen, amelyek idővel kicsapódnak és zavarossághoz vezethetnek. Ilyenek főként a fenolok, a poliszacharidok, a glükánok, a seprőben lévő micellák, a fehérjék, a különféle polimerekből fémek megkötésével keletkező üledékek. A kolloid természetű anyagok (1–1000 nm) változatos fizikai, kémiai eredettel rendelkeznek, folyamatos reakciókra képesek, kémiai reakcióik kevésbé ismertek. ",
+      "A borban lévő zavarosságot képező anyagok nagy része a kolloid mérettartományba tartozó makromolekulákból (fehérjék) és egyszerűbb molekulák csoportosulásából (tanninok, antocianinok) áll. "
+    ],
+    [],
+    [
+      "Technológiai zavarosságok",
+      " (technikai szennyeződések)"
+    ],
+    [
+      "Technológiai figyelmetlenség esetén kovaföld, perlit, bentonit, dugómorzsa ülepedhet le a palack aljára. A technológiai fegyelem betartásával, a szűrés gondos elvégzésével és a palackzárás ellenőrzésével elkerülhetők ezek a szennyeződések."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Kovaföld, perlit, bentonit üledékek"
+    ],
+    [
+      "Forrás: ",
+      "https://www.hermanottointezet.hu/sites/default/files/tankonyvek2022/Borkeszites_technologiaja_(oktatasi_segedanyag).pdf",
+      " 296.o. ",
+      "(2024.07.26",
+      ".)",
+      " "
+    ],
+    [],
+    [
+      "A borstabilizáció",
+      " ",
+      "módjai"
+    ],
+    [
+      "A különféle zavarosodások felismerése lehetőséget ad arra, hogy megszüntetésükre vagy megelőzésükre a legalkalmasabb kezelési eljárásokat alkalmazzák. A palackozott borokat úgy kell előkészíteni, hogy azok a fogyasztásig eltelt idő alatt a fellépő hőmérséklet-változások, mechanikai hatások ellenére se szenvedjenek semmilyen hátrányos fizikai, kémiai vagy biológiai elváltozást."
+    ],
+    [
+      "A borstabilizáció érdekében végzett borkezelési eljárások egy részével mesterségesen idézik elő a zavarosodások körülményeit, hogy később hasonló behatásra a bor stabil maradjon. Más kezelésekkel viszont védőhatást gyakorolnak a bor egyes alkotórészeire, így zavarosodás nem következik be."
+    ],
+    [
+      "A kizárólag stabilitást célzó műveletek mellett a legtöbb borkezelés több-kevesebb hatással van a bor stabilizációjára. ",
+      "A korszerű borászati technológia valamennyi művelete a borstabilizációt is szolgálja a szürettől a palackozásig."
+    ],
+    [
+      "A stabilizáció módjai fizikai és kémiai módszerek lehetnek. A fizikai módszerek költséges berendezést, felszerelést igényelnek ugyan, de a bor természetes állapotát nem változtatják meg. A kémiai módszerek kevésbé költségesek, de mélyrehatóbb – néha nemkívánatos – hatást gyakorolnak a bor jellegére. A fizikai módszerek egyre nagyobb tért hódítanak, a kémiai szerektől pedig világszerte idegenkednek."
+    ],
+    [],
+    [
+      "A borstabilizáció fizikai módjai"
+    ],
+    [
+      "A borstabilizáció fizikai módszerei közül a leghatásosabb és legsokrétűbb funkciójú művelet a hőkezelés. Lényege az, hogy a bort pincehőmérséklettől eltérő hőhatásnak vetik alá, abból a célból, hogy később ilyen hatásokkal szemben stabil maradjon.",
+      " A zavaros bort tisztítóműveletekkel megtisztítják, majd a pincehőmérséklettel megegyező vagy azt megközelítő hőfokon a pincébe fejtik. ",
+      "A hőkezelés a pincehőmérséklettől eltérően kétféle lehet: meleg- és hidegkezelés."
+    ],
+    [],
+    [
+      "Melegkezelés"
+    ],
+    [
+      "A melegkezelés alkalmával a bort 35–110 °C közötti hőfokra hevítik, egy ideig ezen a hőfokon tartják, majd visszahűtik."
+    ],
+    [
+      "A melegkezelésnek háromféle stabilizációs célja lehet:"
+    ],
+    [
+      "fehérjestabilizáció,"
+    ],
+    [
+      "biológiai stabilizáció,"
+    ],
+    [
+      "az enzimatikus oxidáció kiküszöbölése."
+    ],
+    [],
+    [
+      "1",
+      ". A melegkezelés fehérjestabilizáló hatása azon alapszik, hogy meleg hatására a termolabilis fehérjék ",
+      "koagulálnak",
+      " (kicsapódnak). A fehérjeanyagok kiválása nagy általánosságban 65–72 °C-on 3–5 perc alatt végbemegy. "
+    ],
+    [
+      "A fehérjék kicsapódásának két szakasza van. Az első szakaszban denaturálódnak (víztelenítés), a másodikban tannin és fémsók hatására pelyhes csapadék formájában kiválnak. A melegkezelés utáni hűtéssel a kicsapatás még eredményesebb."
+    ],
+    [
+      "2. ",
+      "A melegkezelés biológiai stabilizáló hatását pasztőrözésnek nevezik. A pasztőrözés célja a biológiai stabilitást leginkább veszélyeztető élesztőgombák elpusztítása, de ez együtt jár a baktériumok pusztulásával.",
+      " ",
+      "A pasztőrözés hőfoka és időtartama közötti összefüggésben a bor alkohol-, sav- és cukortartalmának van a legnagyobb jelentősége. Az alkohol- és a savtartalom csökkenti, a cukortartalom növeli a kezelés hőigényét.",
+      " "
+    ],
+    [
+      "3. ",
+      "Melegkezelés folyamán az oxidázok elpusztulnak, ezáltal csökkennek az oxidációs hatások. Külön kiemelkedő előny az, hogy a lakkáz enzim inaktiválásával kiküszöbölhető a borok barnatörési hajlama, vagy megszűnik a már kialakult barnatörés.",
+      " ",
+      "Az enzimek inaktiválásához 75 °C szükséges."
+    ],
+    [
+      "Napjainkban a minőségi borkészítés hangsúlyossá válásával és a reduktív borok iránt megnövekedett fogyasztói igények miatt a melegkezelés alkalmazása háttérbe szorult."
+    ],
+    [
+      "A hőkezelés általában lemezes hőcserélőkben pillanat pasztőrözéssel történik az alábbi vázlat szerint."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "A melegkezelés vázlata lemezes hőcserélő alkalmazásával"
+    ],
+    [
+      "Forrás: ",
+      "https://www.hermanottointezet.hu/sites/default/files/tankonyvek2022/Borkeszites_technologiaja_(oktatasi_segedanyag).pdf",
+      " 299. o. (",
+      "2024.07.2",
+      "6.)"
+    ],
+    [],
+    [
+      "A melegkezelés hőfoka és időtartama közötti összefüggés alapján a következő eljárásokat különböztetik meg."
+    ],
+    [
+      "Tartós vagy lassú hevítés. A bort lassan 68–75 °C-ra melegítik, és 3–5 percig ezen a hőfokon tartják. A melegkezelésnek ez a klasszikus módja mindhárom stabilizációs célnak megfelel."
+    ],
+    [
+      "Gyors hevítés. A bort ugyancsak 68–75 °C-ra melegítik, de gyorsan, és csak 30–60 s-ig hagyják ezen a hőfokon. E hőkezelés elsősorban a pasztőrözést szolgálja."
+    ],
+    [
+      "Villám- vagy pillanathevítés (Flash-rendszer). A bort 3–4 bar nyomáson, túlhevített gőzzel másodpercek alatt 100–110 °C-ra hevítik, majd 3–5 mp után azonnal hűtik."
+    ],
+    [
+      "Tartós melegkezelés. A bort csupán 35–40 °C-ra melegítik, és ezen a hőfokon ",
+      "izotermikus tartályban",
+      " 10–30 napig tárolják. Ez a kezelés a fehérjestabilizáláson kívül sem a pasztőrözéshez, sem az oxidázok inaktiválásához nem elegendő."
+    ],
+    [],
+    [
+      "A melegkezelés után – bármelyik módszert alkalmazzák – nagyon fontos a bor lehűtése, hogy megakadályozzák az alkohol párolgását."
+    ],
+    [],
+    [
+      "Javasolt hőkezelés hőmérséklete bortípus és mikróba szennyezettség szerint"
+    ],
+    [
+      "Forrás: ",
+      "https://www.hermanottointezet.hu/sites/default/files/tankonyvek2022/Borkeszites_technologiaja_(oktatasi_segedanyag).pdf",
+      " 300. ",
+      "o. (2024.07.2",
+      "6.)"
+    ],
+    [],
+    [
+      "Hidegkezelés"
+    ],
+    [
+      "A hidegkezelés lényege az, hogy a bort fagyáspontját megközelítő hőmérsékletre lehűtik, majd 6–10 napig izotermikus tartályban vagy hűtött helyiségben ezen a hőfokon tartják."
+    ],
+    [
+      "A hidegkezelés fő célja a borkő kicsapatása, ",
+      "de mellette más mellékhatásai is vannak. Így kisebb mértékű fehérjekiválás is bekövetkezhet, bár ez inkább a borkőkiválás utáni pH-érték ",
+      "emelkedéssel függ össze. ",
+      "A hűtésnek oxidációs folyamatokat indukáló hatása van, mivel alacsonyabb hőfokon több oxigént old a bor."
+    ],
+    [
+      "A hidegkezelés fokozza a borok gázelnyelő képességét. A hűtött bor több CO",
+      "2",
+      "-ot és O",
+      "2",
+      "-t nyel el. Ezt a hatást a gyöngyöző-, habzó- és pezsgőborok készítésénél hasznosítják."
+    ],
+    [
+      "A hűtési hőmérséklet",
+      ". ",
+      "A hűtés annál hatásosabb, minél gyorsabb és minél jobban megközelíti a bor fagyáspontját. A fagyáspont főképpen az alkoholtartalomtól függ, de befolyásolja az extrakttartalom is."
+    ],
+    [
+      "Száraz borok leghatásosabb hidegkezelési hőfoka P",
+      "epin-Gasquet",
+      " ",
+      "alapján",
+      " a következő:"
+    ],
+    [
+      ""
+    ],
+    [
+      "Példa: ",
+      " – vagyis a 12%",
+      "V",
+      "/",
+      "V ",
+      "alkoholtartalmú bor kezelési hőmérséklete -4°C."
+    ],
+    [],
+    [
+      "Édes boroknál – a cukortartalmat figyelembe véve – erősebb hűtést alkalmaznak, ami közel egybe esik a bor fagyáspontjával."
+    ],
+    [],
+    [
+      "",
+      "Példa: ",
+      " – vagyis a 12%",
+      "V",
+      "/",
+      "V ",
+      "alkoholtartalmú bor fagyási hőmérséklete -5°C."
+    ],
+    [
+      "A borkőkiválás lassú folyamat, ezért a bort 6–10 napig a hűtési hőmérsékleten kell tartani",
+      ". A hidegen tartás ideje csökkenthető, ha a hűtött bort keverik, vagy kristályképző anyagokat adnak hozzá. Ilyen anyag a ",
+      "Cristallgen",
+      ". Adagolásával a hidegen tartás ideje 3–4 napra csökkenthető. "
+    ],
+    [
+      "Tiszta borban gyorsabb és tökéletesebb a borkőkiválás. A kezelés ideje az első fejtés, derítés, szűrés után javasolt."
+    ],
+    [
+      "Hűtés hatására vörösborokban létrejöhet olyan kiválás, amely nem tartalmaz fémiont és képződése független az oldott oxigéntől. A festékanyagok (antocianinok) átalakulása a vörösborokban lassú, de állandó jelenség. Oxigén nélkül acéltartályban vagy fahordós érlelésnél a molekulák elérhetnek egy olyan mérettartományt, amikor oldhatatlan csapadék formájában kiválnak."
+    ],
+    [],
+    [
+      "A bor meleg-, illetve hidegkezelését speciális hőkezelő berendezésekkel végezik."
+    ],
+    [
+      "Kombinatív hőkezelés. A kombinatív kezelés a meleg- és a hidegkezelés összekapcsolása egy munkafolyamatba. A hirtelen hőmérséklet-változások folytán a stabilizáció hatékonysága megnövekszik."
+    ],
+    [
+      "Technológiai és gazdaságossági szempontból a meleg-, majd a hidegkezelés a helyes sorrend. A melegkezelés ugyanis rövid ideig tart, míg a hidegkezelés hosszadalmas, továbbá a hidegenergia előállítása is költségesebb. A meleg- és hidegkezelés két külön berendezésen is végezhető, de gazdaságosabb egy munkafolyamatban, egy géppel végezni."
+    ],
+    [],
+    [
+      "Elektro-dialízis"
+    ],
+    [
+      "Elektro-dialízis: A fizikai módszerek közé tartozik, lényege a borkőkiválás megakadályozása membrántechnika alkalmazásával. Ekkor a többletben lévő (instabil) Ca2+, K+ és borkősav eltávolítása történik oly módon, hogy a kezelendő bort elektromos mezőn és anionszelektív membránon juttatják át. Az egész berendezést úgy kell elképzelni, mint egy nagyméretű akkumulátort. A negatív töltésű ionok (borkősav karboxil-csoportjai) az anód, míg a pozitív töltésűek (köztes cellában lévő kation-pufferek) a katód felé vándorolnak, miközben a szelektívmembránokon áthaladva meg is szűrődnek. Az eljárás segítségével végleges borkőstabilitás érhető el. A technológia kevésbé módosítja a borok ízét, aroma- és színanyagait",
+      ". ",
+      "A gyakorlatban elterjedt berendezések mintegy 25–90 hl/h teljesítményre képesek. Drága berendezések, üzemeltetésük azonban kevésbé költséges."
+    ],
+    [],
+    [
+      "Borstabilizáció kémiai szerekkel és ennek jogi háttere"
+    ],
+    [
+      "A kiválások megakadályozására az európai uniós jogszabályok több olyan szert is",
+      " ",
+      "engedélyeznek, melyeket nem kell feltüntetni a címkén.",
+      " (Ez alól kivételt képez a kénessav.)"
+    ],
+    [
+      "Metaborkősav",
+      ". A metaborkősavas kezelés a borkő-stabilizáció kémiai módja. "
+    ],
+    [
+      "Hatásmechanizmusa az, hogy a borkő kristályait körülveszi, ezáltal megakadályozza a kristályok növekedését, azaz védőkolloidként viselkedik. Ezért a metaborkősavat a készrekezelt borhoz adagolják. A metaborkősav tipikusan kristályosodást gátló anyag. Hatása időben korlátozott, ezért bizonyos idő eltelte után kristályosodást gátló hatása teljesen ",
+      "megszűnik.",
+      " ",
+      "A jó minőségű szer a bekeverés után 3–6 hónapra megakadályozza a borkő kiválását."
+    ],
+    [],
+    [
+      "„Szorbinsav, kálium-szorbát",
+      ".",
+      " A szorbinsavas kezelés a biológiai stabilizáció egyik kémiai módszere.”",
+      "2",
+      "Alkalmazásának célja az élesztőgombák megbénítása, ezáltal a több-kevesebb cukortartalmú borok újraerjedésének a megakadályozása.",
+      " Maximális mennyisége 200 mg/l (K-szorbát 270 mg/l)",
+      " A szorbinsav az emberi szervezetre teljesen ártalmatlan, specifikus mikrobagátló szer. Borászati felhasználása nem teljesen problémamentes a kálium-szorbát bomlékonysága miatt.",
+      " ",
+      "Már a raktározás alkalmával keletkezhet idegen szagú bomlástermék, de a kálium-szorbáttal kezelt borok biológiai savbomlásakor a bor a muskátlira emlékeztető, kellemetlen szagot és ízt kap."
+    ],
+    [],
+    [
+      "Dimetil-dikarbonát (DMDC).",
+      " A legalább 5 g/l cukortartalmú, palackos borok mikrobiológiai stabilizálásához engedélyezett szer, amely a borban 24 órán belül elbomlik. Ezalatt a bor fogyasztása tilos! A 24 óra elteltével forgalomba hozott borban nem lehetnek kimutatható szermaradványok."
+    ],
+    [],
+    [
+      "L-aszkorbinsav.",
+      " Erős redukálószer, melynek adagolását a kénessavval együtt már az ép szőlő esetében javasolják. A két kezelőszer között ",
+      "szinergizmus",
+      " alakul ki, ezáltal a szőlő oxidáció elleni védelme még hatékonyabbá válhat."
+    ],
+    [
+      "Az l-aszkorbinsav az enzimatikus oxidáció ellen hatástalan",
+      ". ",
+      "A borkezelés későbbi fázisaiban is felhasználható a bor redukált állapotának a fenntartásához.",
+      " "
+    ],
+    [],
+    [
+      "A kristályosodás gyorsítása"
+    ],
+    [
+      "A fagypont közeli hőmérsékletre, általában 0–4 °C-ra történő hűtéssel, és időnként a folyadékot (bort) keveréssel kezelve az oldhatósági szorzat eltolódik a KHT közvetlen kristályosodási tartományába, azaz gyorsul a kristályképződés."
+    ],
+    [],
+    [
+      "A kristályosodás három fokozatban megy végbe:"
+    ],
+    [
+      "1",
+      "\tCsíraképződés (indukciós fázis)"
+    ],
+    [
+      "Egyes részecskék összeállnak és kiindulópontokat kínálnak további részecskék számára. Kiindulópontok lehetnek idegen részecskék, a tartályfalak érdességei és kristálycsírák (kontakt borkő). Minél nagyobb a részecskék koncentrációja, annál nagyobb a csíraképződés valószínűsége. Az indukciós fázis a folyamat idejét meghatározó lépés."
+    ],
+    [],
+    [
+      "2",
+      "\tIonvándorlás (diffúziós fázis)"
+    ],
+    [
+      "Az elektrosztatikus vonzás hatására az ionok az aktív helyekre, a csírák szabad vegyértékeire vándorolnak. Minél rövidebb a megtett út, annál gyorsabban és intenzívebben megy végbe a kristályosodás."
+    ],
+    [],
+    [
+      "3",
+      "\tLerakódás (integrációs szakasz)"
+    ],
+    [
+      "Az ionok megtapadnak a kristálycsírák szabad vegyértékein, és ezzel beépülnek a növekvő kristályrácsba."
+    ],
+    [
+      "A kristályok leülepedését szűrés követi. Ez nagy készülék- és időigénnyel jár. A stabilitás eléréséig a hűtés akár 14 napig tarthat",
+      ". (Ennek ellenére maradnak kockázatok, amelyek miatt a nagyüzemek keresik a biztonságosabb alternatívát.)"
+    ],
+    [],
+    [
+      "Kontakt eljárás"
+    ],
+    [
+      "A hidegen történő tárolás viszonylag biztonságos alternatívája a kontakt eljárás. A bort lehűtik 0–1 °C-ra, majd oltókristályt kevernek hozzá. Oltókristályok használatával megkerülhető az indukciós fázis, és nagyban gyorsítható a kristályképződés folyamata. Legalább időnkénti kevergetéssel biztosítható az, hogy a 2. és a 3. fázis is hasonlóképpen gyorsan végbe mehessen. Rövid idő elteltével a folyamat véget ér. A stabilitásvizsgálat az esetek többségében pozitív eredménnyel zárul. "
+    ],
+    [
+      "A nagy kristályok gyorsan leülepednek és adott esetben mosás és őrlés után újra használhatók. A kontakt eljárás ekkor a kontakt borkő magas ára ellenére is gazdaságos. A finom borkő (többnyire amorf borkő-kolloid keverék) továbbra is lebeg, és szűréssel vagy centrifugálással kell eltávolítani. Erre minden elterjedt tisztítási technika alkalmas. "
+    ],
+    [],
+    [
+      "Stabilizáció védőkolloidokkal"
+    ],
+    [
+      "A hideg savstabilizálással gyorsítható a kristályosodás folyamata. A „felesleges” molekulák kicsapatása után a bor stabil. A védő kolloidok hozzáadása a stabilizáció fordított módját követi. Segítségükkel megakadályozható a kristálynövekedés, vagyis a kolloidok gátolják a kristályosodást. Töltési tulajdonságaikból adódóan már korán képesek megtapadni az előzőleg összeállt KHT- vagy CaT-komplexeken, és megakadályozni a rendezett kristálystruktúrák kialakulását és kicsapódását. Minél nagyobb a kolloidok mennyisége, annál biztosabb védelmet nyújtanak a kristályképződéssel szemben. "
+    ],
+    [
+      "A borra vonatkozó jogszabályok",
+      "",
+      " ",
+      "a már korábban említett metaborkősavval együtt csak néhány kolloid anyagot engedélyeznek:"
+    ],
+    [],
+    [
+      "Gumiarábikum: ",
+      "e",
+      "gy komplex, nagy molekulasúlyú poliszacharid. Általános kolloid stabilizálószer, nagyon hatékony védőkolloid, nemcsak a borkőkiválást, hanem a fémes- és a színanyag kiválásokat is megakadályozza. Palackozás előtt adagolják."
+    ],
+    [],
+    [
+      "Mannoproteinek:",
+      " ",
+      "a",
+      " ",
+      "Saccharomyces cerivisiae",
+      " sejtfalából származó, tisztított mannoprotein védőkolloid szerepet játszik a borban. Érzékszervi szempontból semleges. A kereskedelmi forgalomban kapható készítmények csak a borkőkiválást akadályozzák meg, a Ca-tartarát ellen nem nyújtanak védelmet."
+    ],
+    [],
+    [
+      "Karboxi-metil-cellulóz",
+      " (CMC): a",
+      "z élelmiszeriparban régóta a viszkozitás növelésére használt szer, már kis mennyiségben is teljesen meggátolja a borkőkiválást. ",
+      "Az így kezelt bor lizozimmal nem kezelhető."
+    ],
+    [],
+    [
+      "Lizozim:",
+      " ",
+      "egy, a tojásfehérjében található enzim, amely tejsavbaktériumok ellen hatékony, az élesztőkre nincs hatással. Jó alternatíva lehet a lágy borok védelmében. ",
+      "Fehérje természete miatt a bentonittal és a CMC-vel való alkalmazását kerülni kell."
+    ],
+    [],
+    [
+      "Kitozán:",
+      " ",
+      "Aspergillus niger",
+      " penészgombából származó poliszacharid. Széles spektrumú antimikróbás szer. Leginkább a ",
+      "Brettanomyces",
+      " élesztő okozta fertőzés megelőzésére és kezelésére használják."
+    ],
+    [],
+    [
+      "A ",
+      "felsorolt ",
+      "szerek ",
+      "valamelyikének hozzáadása határozza meg a palackon feltüntetett eltarthatósági időtartamot és a palackozás időpontját",
+      ". A korán palackozott (a fejlődési szakaszban lévő) borokat általában mielőbbi fogyasztásra szánják, de jellemzően instabilak. Ezeket ajánlott nagyjából egy évnyi, belátható időtartamra szóló védelemmel ellátni.",
+      " ",
+      "Az értékesebb borokat, amelyeknek több éven át stabilnak kell maradniuk a palackban, általában csak tartályba történő hosszabb érlelést követően palackozzák. Ezeknél gyakran már lezajlott az önstabilizáció, és kevés további védelmet igényelnek. A magas kolloidtartalmú vörösborok a maguk részéről már stabilizálódtak, és akár több évig is védettek a kicsapódásokkal szemben."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Ábrajegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "Táblázatjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "Felhasznált irodalom"
+    ],
+    [
+      "Eperjesi Imre: Borászati technológia. Budapest, 2010, Mezőgazda Kiadó."
+    ],
+    [
+      "Mátyus Imre – Nyitrainé Dr. Sárdy Diána – Török Zita: Borkészítés technológiája. Elérhető: https://www.hermanottointezet.hu/sites/default/files/tankonyvek2022/Borkeszites_technologiaja_(oktatasi_segedanyag).pdf (2024.09.06.)"
+    ],
+    [
+      "Tatayné Baksa Erzsébet: Borkészítés. Budapest, 2014, Nemzeti Agrárszaktanácsadási, Képzési és Vidékfejlesztési Intézet."
+    ],
+    [
+      "Bereczkiné Kardeván Kinga – Kovács Gáborné – Csatáriné Horváth Magdolna – Maráziné Király Ildikó – Tormáné Csizmadia Zsuzsanna – Virágné Széli Márta – Zakariásné Kiskó Bernadett: Általános élelmiszeripari technológiák II. Budapest, 2020, Herman Ottó Intézet."
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Mátyus Imre"
+      ],
+      [
+        "Szakmai lektor:",
+        "Taranyi Dóra Ágnes"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Élelmiszeripar"
+      ],
+      [
+        "Szakma:",
+        "Szőlész-borász"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Borászati technológia"
+      ],
+      [
+        "Tantárgy:",
+        "A bor kezelése és palackozása"
+      ],
+      [
+        "Évfolyam:",
+        "10, 11. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "4 óra"
+      ]
+    ],
+    [
+      [
+        "AZ ÜLEDÉK FAJTÁJA",
+        "AZ ÜLEDÉK FAJTÁJA",
+        "MEGJELENÉS"
+      ],
+      [
+        "BIOLÓGIAI",
+        "Élesztő",
+        "világos, poros vagy szemcsés, esetleg pelyhes üledék vagy zavaros bor; CO2-képződés"
+      ],
+      [
+        "BIOLÓGIAI",
+        "Penészgomba ",
+        "világos vagy sötét pelyhek, szálak vagy vattaszerű csomók; CO2- képződés nincs"
+      ],
+      [
+        "BIOLÓGIAI",
+        "Baktérium",
+        "világos, finom poros, esetleg pelyhes üledék vagy opálos bor; CO2- képződés változó"
+      ],
+      [
+        "KÉMIAI",
+        "Kálium-hidrogén-tartarát",
+        "csillogó világos vagy barnás kristályok vagy szemcsék; gyorsan ülepedik"
+      ],
+      [
+        "KÉMIAI",
+        "Kalcium-tartarát",
+        "csillogó világos kristályok vagy szemcsék, gyorsan ülepedik"
+      ],
+      [
+        "KÉMIAI",
+        "Fehérje",
+        "világos vagy a bor színével megegyező fátyolosság vagy finom porszerű üledék"
+      ],
+      [
+        "FIZIKAI",
+        "Kovaföld",
+        "finom fehér por; gyorsan ülepedik"
+      ],
+      [
+        "FIZIKAI",
+        "Perlit",
+        "durva fehér por; gyorsan ülepedik"
+      ],
+      [
+        "FIZIKAI",
+        "Dugópor",
+        "különálló, barnás színű szemcse vagy pehely; felrázás után sokáig lebeg"
+      ]
+    ],
+    [
+      [
+        "Bor típusa",
+        "Hőkezelés hőmérséklete 20 másodperces hőntartás esetén"
+      ],
+      [
+        "Száraz borok alacsony fertőzöttség esetén",
+        "72°C"
+      ],
+      [
+        "Alacsony cukortartalmú borok, vagy közepes fertőzöttség esetén",
+        "74°C"
+      ],
+      [
+        "Magas cukortartalmú borok, must vagy erjedő bor esetén",
+        "76°C"
+      ]
+    ]
+  ],
+  "headers": [
+    ""
+  ],
+  "footers": [
+    ""
+  ],
+  "footnotes": [
+    "",
+    "",
+    " Mátyus Imre, Nyitrainé Dr. Sárdy Diána, Török Zita - Borkészítés technológiájahttps://www.hermanottointezet.hu/sites/default/files/tankonyvek2022/Borkeszites_technologiaja_(oktatasi_segedanyag).pdf (2024.07.26.)",
+    " (EU) 2019/934 felhatalmazáson alapuló rendelete (2019. március 12.)"
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image12.png",
+      "path": null,
+      "bytes": 123
+    },
+    {
+      "name": "image14.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image13.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image9.png",
+      "path": null,
+      "bytes": 433665
+    },
+    {
+      "name": "image10.png",
+      "path": null,
+      "bytes": 255340
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 146732
+    },
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 8893
+    },
+    {
+      "name": "image3.png",
+      "path": null,
+      "bytes": 125317
+    },
+    {
+      "name": "image11.png",
+      "path": null,
+      "bytes": 305398
+    },
+    {
+      "name": "image4.png",
+      "path": null,
+      "bytes": 261907
+    },
+    {
+      "name": "image6.png",
+      "path": null,
+      "bytes": 258701
+    },
+    {
+      "name": "image5.jpeg",
+      "path": null,
+      "bytes": 127723
+    },
+    {
+      "name": "image8.png",
+      "path": null,
+      "bytes": 139846
+    },
+    {
+      "name": "image7.png",
+      "path": null,
+      "bytes": 254951
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "Table Grid",
+    "[Alapbekezdés]",
+    "Hyperlink",
+    "Unresolved Mention",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "Címsor 4 Char",
+    "Címsor 5 Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "Normal (Web)",
+    "annotation text",
+    "Jegyzetszöveg Char",
+    "Title",
+    "Cím Char",
+    "Subtitle",
+    "Alcím Char",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "Feloldatlan megemlítés1",
+    "11",
+    "9",
+    "Placeholder Text",
+    "Caption",
+    "bajusz_téglalap",
+    "bajusz_téglalap Char",
+    "ism_kérdések",
+    "ism_kérdések Char",
+    "Képaláírás Char",
+    "kérdés_számozva",
+    "kérdés_számozva Char",
+    "a_ELMS_felsorolás_pötty",
+    "a_ELMS_felsorolás_pötty Char",
+    "szituáció",
+    "fontos tartalom_bekezdés",
+    "fontos tartalom_bekezdés Char",
+    "toc 4",
+    "a_ELMS_felsorolás_kötőjel",
+    "betűkiemelés",
+    "List Paragraph",
+    "példa",
+    "példa Char",
+    "Default",
+    "ábraszám",
+    "footnote text",
+    "Lábjegyzetszöveg Char",
+    "footnote reference",
+    "a_ELMS_felsorolás_betűkkel",
+    "kiegészítő opcionális tartalom_bekezdés Char",
+    "a_ELMS_felsorolás_kötőjel_behúzással",
+    "kiegészítő opcionális tartalom_bekezdés",
+    "fogalmak",
+    "table of figures",
+    "Grid Table 4 Accent 1",
+    "Light List",
+    "Medium List 2 Accent 1",
+    "Light List Accent 3",
+    "Táblázataláírás",
+    "a_ELMS_felsorolás_számokkal",
+    "a_ELMS_kiegészítő tartalom",
+    "a_ELMS_fontos tartalom",
+    "a_ELMS_Címsor 1",
+    "a_ELMS_Címsor 2",
+    "a_ELMS_Címsor 2 Char",
+    "a_ELMS_Címsor 3",
+    "a_ELMS_Címsor 4",
+    "a_ELMS_Címsor 3 Char",
+    "a_ELMS_Címsor 5",
+    "a_ELMS_Címsor 4 Char",
+    "a_ELMS_normál szöveg",
+    "a_ELMS_Címsor 5 Char",
+    "a_ELMS_Ábraaláírás",
+    "a_ELMS_Táblázataláírás",
+    "toc 5",
+    "bajusz_pötty",
+    "bajusz_pötty Char",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "a_ELMS_fogalom",
+    "annotation reference",
+    "FollowedHyperlink",
+    "Revision",
+    "Feloldatlan megemlítés2",
+    "Rácsos táblázat1",
+    "Strong"
+  ]
+}

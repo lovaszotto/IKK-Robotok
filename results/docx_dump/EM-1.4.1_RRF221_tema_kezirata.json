@@ -1,0 +1,5422 @@
+{
+  "core_properties": {
+    "title": "1.\t Halmazok, halmazműveletek",
+    "subject": "Matematika érettségifelkészítő",
+    "creator": "Besenczi Attila (ELMS)",
+    "lastModifiedBy": "Pálvölgyi Rita (ELMS)",
+    "revision": "3",
+    "created": "2024-08-02T12:39:00Z",
+    "modified": "2024-08-05T12:37:00Z"
+  },
+  "app_properties": {
+    "Template": "SZK-kézirat_SABLON_2.dotm",
+    "TotalTime": "1",
+    "Pages": "65",
+    "Words": "9560",
+    "Characters": "65971",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "549",
+    "Paragraphs": "150",
+    "ScaleCrop": "false",
+    "lpstr": "1.\t Halmazok, halmazműveletek",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "75381",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "",
+    "Egyedi megrendelés azonosítója: EM-1.4.1",
+    "Vágóállatfajok, -fajták",
+    "Téma kézirata",
+    "Forrás:",
+    "Az eredeti könyv címe: Rassegeflügel kompakt. 2. Auflage. 2020, Der Verlag Eugen Ulmer KG,  ISBN szám: 978-3-8186-0834-7  ",
+    "Az eredeti könyv szerzői:Horst Schmidt, Rudolf Proll \nCsirke, pulyka, lúd, kacsa (részletek)",
+    "",
+    "Az eredeti könyv címe: Farbatlas Nutztierrassen. 8. Auflage. 2016, Der Verlag Eugen Ulmer KG, ISBN szám: 978-3-8001-1296-8  ",
+    "Az eredeti könyv szerzői: Hans Hinrich Sambraus\nSzarvasmarha, juh, sertés (részletek)",
+    "",
+    "Fordította: InterContact Budapest Kft.",
+    "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak.",
+    "",
+    "",
+    "",
+    "Vágóállatok Értékmérő tulajdonságai",
+    "Vágóállat fogalma:",
+    "Vágóállatoknak nevezzük az élelmiszeripari feldolgozás, állati eredetű élelmiszeripari alapanyag előállítása (hús, tej, tojás) céljából tenyésztett haszonállatokat.",
+    "A vágóállatok lehetnek:",
+    "Nagy vágóállatok: sertés, szarvasmarha, juh, ló, bivaly",
+    "Baromfik: tyúkfélék, pulyka, gyöngytyúk, lúd, kacsa",
+    "Egyéb vágóállatok: nyúl, galamb, strucc",
+    "A vágóállatok számos tulajdonsága befolyásolja az élelmiszeripar számára fontos alapanyagok (hús, tej, tojás) előállításának költséghatékony kivitelezését. Azon tulajdonságokat, amelyek meghatározzák a vágóállat élelmiszeripar szempontjából meghatározott hasznosságát, értékmérő tulajdonságoknak nevezzük. Ilyen termelési tulajdonságok lehetnek például a tej- és a hústermelő vagy a tojástermelő képesség. ",
+    "",
+    "Vágóállatok húsipari szempontból fontos értékmérő tulajdonságai",
+    "Hústermelő képesség",
+    "A hústermelő képesség komplex, több résztulajdonságot összefoglaló értékmérő tulajdonság. Magába foglalja a hízékonyságot, a húsformákat, a hústermelés intenzitását és a növekedési erélyt.",
+    "",
+    "A hústermelés intenzitása és a növekedési erély",
+    "A hústermelés intenzitása azt mutatja meg, hogy a vágóállat életének egyes szakaszaiban egységnyi idő alatt mennyi izmot képes a szervezetébe beépíteni. Függ az állat fajtájától, korától, ivarától. A nagy növekedési erély elsősorban a fiatal állatok fejlődése során fontos, hogy, minél rövidebb idő alatt képesek legyenek elérni a vágásérettséget. Általában naponta mért súlygyarapodás grammban kifejezve.",
+    "",
+    "A hústermelés kapacitása",
+    "A hústermelés kapacitása azt fejezi ki, hogy a vágóállat nevelése során mennyi csontos húst képes előállítani. A hízlalást addig a végtömegig érdemes folytatni, amíg a nagyobb mértékű faggyúsodás, zsírosodás nem indul meg.",
+    "",
+    "A hústermelés tartama",
+    "A hústermelés tartama az az időtartam, ameddig a vágóállatok zsírosodás, faggyúsodás nélkül képesek izmot építeni a szervezetükbe. A húsipar szempontjából az a kedvező, ha a húsképzés minél tovább tart.",
+    "",
+    "Faggyú- és zsírtartalom",
+    "A faggyú- és a zsírtartalom a vágóállatok húsának fontos minőségi tulajdonsága. A húsok ízletességét és porhanyósságát az izomrostok között lévő zsír, faggyú határozza meg (márványozottság). A jó minőségű hús zsír-, illetve faggyútartalma kb. 3%. A 10 %-nál magasabb zsírtartalom már kedvezőtlenül befolyásolja a hús minőségét, élvezeti értékét. A faggyúsodásra, zsírosodásra való hajlam függ az állat fajtájától, korától, ivarától. ",
+    "",
+    "Húsformák",
+    "Azoknak a testtájaknak az izmoltsága, amelyek az értékes húsrészeket tartalmazzák. Az értékes húsrészeket tartalmazó testtájak a hát, az ágyék, a far és a comb. Az értékes húsrészek fejlettsége az élő állaton is látható. A húsformák jól öröklődnek, így azok a fajták, amelyek kedvező húsformákkal rendelkeznek, különösen alkalmasak a keresztezésre. Az élő állat húsformáiból közelítőleg lehet következtetni a kitermelhető értékes húsrészek és a csontos hús arányára. ",
+    "",
+    "Tenyésztés szempontjából fontos értékmérő tulajdonságok",
+    "",
+    " Ellenálló képesség",
+    "Az ellenálló képesség az állatok szervezetének a külső hatásokkal, a betegségek okozóival szembeni ellenállása. Genetikailag meghatározott tulajdonság. Elsősorban tenyésztés során van jelentősége.",
+    "",
+    " Takarmányértékesítő képesség",
+    "A takarmányértékesítő képesség az állat azon tulajdonsága, hogy egységnyi takarmányból milyen tömegű hasznos terméket állít elő.",
+    "",
+    "Termékenység, szaporaság",
+    "A termékenységen a hím és a nőivarú állatok rendszeres fogamzásra való képességét, a szaporaságon a nőivarú állatok termékenységi ciklusa során az állat által ellett utódok számát értjük. A szarvasmarha egy utódot szülő, a sertések több utódot szülő állatok. A baromfi esetében a tojástermelő képességgel van összefüggésben. ",
+    "Igényesség",
+    "Az igényesség azt jelenti, hogy a külső körülményekre mennyire érzékeny az állat. Milyen mértékben tűri a rideg tartási körülményeket, a magas és az alacsony hőmérsékletet.",
+    "Vérmérséklet",
+    "A vérmérséklet az állatnak a környezettel szemben tanúsított magatartása. Az élénk vérmérsékletű állat sokat mozog, ezért ezen állatok termelőképessége, súlygyarapodása nem kielégítő, mert a sok mozgás hatására a bevitt takarmány nem a súlygyarapodást, hanem a mozgás által felemésztett energiát szolgálja.",
+    "Gulyakészség",
+    "A gulyakészség azt mutatja meg, hogy az állat hogyan bírja a nagy csoportban tartást. A különböző ivarú és korú állatok együtt tarthatók a termelékenység veszélyeztetése nélkül.",
+    "",
+    "Nagy vágóállatfajok, -fajták",
+    "Testméretük alapján a nagyvágóállatok csoportjába az következő vágóállat fajok tartoznak:",
+    "sertés ",
+    "szarvasmarha",
+    "juh",
+    "ló",
+    "bivaly",
+    " Közülük élelmiszeripari szempontból a sertés és a szravasmarha a legjelentősebb.",
+    "",
+    "Szarvasmarhafajták",
+    "A Magyarországon tenyészett szarvasmarhafajtákat elsősorban hasznosítási irány szerint csoportosítjuk:",
+    "Ősi magyar fajták",
+    "Kettős hasznosítású (tej- és húshasznosítású) szarvasmarhák ",
+    "Tejhasznosítású szarvasmarhák",
+    "Húshasznosítású szarvasmarhák",
+    "",
+    "Ősi magyar fajták",
+    " Magyar szürkemarha – magyar alföldi szarvasmarha",
+    "",
+    "",
+    "ábra: Szürkemarha",
+    "táblázat: A piktogramok magyarázata",
+    "",
+    "Ismertetőjegyei: Nagyméretű szarvasmarha. Színe az ezüstfehértől a hamuszürkéig terjed. A szemek, a far, a has és a combok körül gyakran sötétebb színű, különösen a bikáknál. A borjak vörösessárgán születnek. Feje keskeny és viszonylag rövid. Nyaka hosszú, lapos. Kifejezetten vad természetű fajta. Hosszú, mély mellkasú, enyhén púpos hátú, viszonylag kis tőgyű állatok. Feltűnően hosszú, lendületes szarvuk van, amelyek az ökröknél akár 80 cm hosszúra is megnőhetnek.",
+    "Elterjedése: Elsősorban Magyarországon őshonos. Kis számban más közép- és kelet-európai országokban is előfordulhat. ",
+    "Előnyei: Nagy munkabírású, késői érésű, betegségeknek ellenálló fajta. Jól tűri a szélsőséges körülményeket. A ridegtartást is elviseli, a tartási körülményekre igénytelen. A borjak gyorsan növekednek. Az éves tejhozama körülbelül 2000 L, 4,5% zsírtartalommal. Húsa finom rostú, ízletes, hízlalásra mégis kevésbé alkalmas. Az utóbbi időben gyakran használják anyai ágon hízómarhák előállítására. A tenyészérettségét általában három-négy éves korban éri el.",
+    "Tenyésztési története: A fajta a honfolglaló magyarokkal együtt a IX. században került be a Kárpát-medencébe. A XIV. századtól a XVIII. századig ez a szarvasmarha Magyarország területén kívül is nagyra becsült húsfajta volt, különösen Olaszországban, Ausztriában és Németországban. Amikor a XIX. században a mezőgazdaság intenzívebbé vált, a szürkemarha kiváló munkaállat lett. A XIX. század vége óta az egyedszám csökkent. A rendszerváltás előtt a fajta majdnem kihalt. A legalacsonyabb szintet 187 nőstény és hat bika jelentette. ",
+    "",
+    "Kettős hasznosítású szarvasmarhafajták",
+    "A kettős hasznosítású szarvasmarhák csoportjába tartozó fajták közös jellemzője, hogy mind a hús-, mind a tejtermelő képességük megfelelőnek mondható, de egyik hasznosítási irány esetében sem teljesítenek kiemelkedően. ",
+    "",
+    "Szimentáli",
+    "",
+    "",
+    "ábra: Szimentáli",
+    "",
+    "A fajta Svájcból származik, tenyésztése a XVIII. század vége felé, a XIX. század elején az Alpokban kezdődött.",
+    "Ismertetőjegyei: Erős testfelépítésű szarvasmarha, fejlett csontozattal és jó izomzattal. A színe szabálytalan tarka, a világossárgától a sötét vörösesbarnáig terjed. A fej, a szemek környéke mindig fehér. A lábak alsó része is nagyrészt fehér. ",
+    "Elterjedése: Alpok és környéke, Délkelet-Európa, Észak- és Dél-Amerika, Nagy-Britannia, Kína, Dél-Afrika. ",
+    "Előnyei: Kettős hasznosítású fajta, hús és tejtermelése is jónak mondható. A tehenek éves tejhozama kb. 4500 l, 4,1% zsír- és 3,5% fehérjetartalommal. Kiváló hizlalási teljesítményre képes. A hízóbikák napi hízása kb. 1500 g; a vágási hozam kb. 63%. Jól alkalmazható kisebb fajtákkal való keresztezésre. A tengerentúlon főként húsmarhaként tartják. Alkalmazkodó.",
+    "",
+    " Magyar tarka",
+    "",
+    "ábra: Magyar tarka",
+    "táblázat: Magyar tarka",
+    "Forrás: https://supersteak.hu/magyar-tarka/ (2024.06.24.)",
+    "",
+    "A Magyar tarka a XIX.-XX. század fordulóján a szimentáli keresztezésével jelent meg Magyarországon. ",
+    "Ismertetőjegyei: Küllemében sok hasonlóságot mutat a szimentálival, de finomabb csontozattal és kevésbé robusztus testfelépítésével tér el a kiindulási fajtától. Színe szabálytalan alakú piros, vagy sárgás mintázatú tarka. Testtömege nagy szóródást mutat. A tehenek tömege 600-700, a bikák tömege 900-1300 kg között változik. Magassága a tehenek esetében: 135-140, a bikáké 140-145 cm.  ",
+    "Előnyei: A szimentálihoz hasonlóan kettős hasznosítású fajta. A hústermelő képessége jó. Ízletes, jó minőségű húsa van. A tejtermelő képessége közepes, évente kb. 4500 l tejet termel.  A növekedési erélye jónak mondható. ",
+    "",
+    "Brown swiss (Brown szwisz) – barna svájci borzderes szarvasmarha",
+    "",
+    "",
+    "ábra: Brown swiss",
+    "",
+    "A svájci Alpokból származó kettős hasznosítású borzderes szarvasmarha. ",
+    "Ismertetőjegyei: Közepes méretű és közepesen testtömegű fajta. Egyenletes barna vagy szürkésbarna, a borz szőréhez hasonlatos deres színű. A bikák sötétebbek, mint a tehenek. A szarvvégek, a száj és a paták sötéten pigmentáltak. Szája és szeme fényesen csillogó. Jól izmolt, viszonylag finom csontozatú szarvasmarha. ",
+    "Elterjedése: Az Alpok és az Elő-Alpok hatalmas legelői. A magas tejhozamnak és a különböző éghajlati és tartási körülményekhez való biztonságos alkalmazkodóképességének köszönhetően ez a fajta ma már szinte világszerte elterjedt. ",
+    "Előnyei: Tejtermelésre összpontosító, de kettős hasznosítású szarvasmarha. Évente a testtömeg tízszeresét, azaz 7000 l tejet termel, 4,2% zsír- és 3,6% fehérjetartalom mellett. A hízóbikák napi hízása az 1100 g-ot is elérheti, a vágási kihozatal 62%. ",
+    "",
+    " Pinzgaui szarvasmarha",
+    "",
+    "",
+    "ábra: Pinzgaui szarvasmarha",
+    "",
+    "Osztrák származású fajta. A Wallis svájci kantonból származó szarvasmarhák és az osztrák őshonos fajták keresztezéséből tenyésztették a XIX. században. A fajta a nevét a Salzburg tartományban található Pinzgau régióról kapta. Eredetileg hármas hasznosítású (hús, tej és igavonó) szarvasmarha volt.",
+    "Ismertetőjegyei: Nagy testalkatú, feltűnően hosszú farú szarvasmarha. Színe gesztenyebarna, A háton, a combok hátsó részén, a hason át a mellkas alatti részig széles fehér csík húzódik. A farok szintén fehér. Alkalmanként fekete-fehér állatok is lehetnek. Szája és patái sötétek. Rövid fejű, erős mellkasú, robosztus felépítésű fajta.  A combok jól izmoltak. Szarva van.",
+    "Elterjedése: Főleg Ausztriában és Kelet-Európában elterjedt. ",
+    "Előnyei: Ellenáll a szélsőséges környezeti hatásoknak. Jól tűri a hideg és meleg időjárást is. Kiváló takarmány-felhasználású, békés vérmérsékletű fajta. Erőteljes lábai vannak. A tengerentúlon és Közép-Európában az anyatehén állományokban gyakran tartják húsmarhaként. Alkalmas keresztezésekre. Kettős hasznosítású szarvasmarha, amely egyenlő hangsúlyt fektet a hústermelésre és a tejtermelésre. Éves tejhozama 5300 l, 4,0% zsír- és 3,4% fehérje tartalommal. Egyes egyedek tejtermelési csúcsteljesítménye elérheti az évi 11 000 l-t is. Napi súlygyarapodása elérheti az 1300 g-ot is. Húsa ízletes, jól márványozott. ",
+    "",
+    " Lapálymarhák",
+    "Északnyugat-Európából, az Északi- és a Keleti-tenger partvidékéről származnak. Az Európában előforduló lapálymarha populációban alapvetően két változat jelentős:",
+    "Feketetarka lapály (a populáció 85%-a)",
+    "Vöröstarka lapály (a populáció 10%-a)",
+    "",
+    "Feketetarka lapály",
+    "",
+    "",
+    "ábra: Feketetarka lapály",
+    "",
+    "Ismertetőjegyei: Fekete-fehér foltos. Fekete fej, fehér jegyekkel. A szemet mindig pigmentált bőr veszi körül. A Holstein-frízekkel való keresztezésnek köszönhetően az utóbbi években megnőtt a szarvasmarhák fején a fehér bőrfelületek és a fehér jegyek aránya. A német feketetarka lapály eredeti típusa ma már alig található meg. Közepes testalkatú, közepes izomtömeggel. Minél magasabb a Holstein-fríz vér aránya, a feketetarkák annál nagyobb testalkatúak, hosszabb a lábuk és laposabb az izomzatuk. Szarva van, de a szarvtalanítási kísérletek eredményeként egyre gyakrabban találkozhatunk szarv nélküli állatokkal.",
+    "Elterjedése: A legelterjedtebb szarvasmarhafajta a világon. ",
+    "Előnyei: Tejtermelésre összpontosító, kettős hasznosítású fajta. A törzskönyvezett tehenek éves átlagos tejhozama 8800 l, 4,1% zsír- és 3,4% fehérjetartalom mellett. A hízóbikák napi gyarapodása 1152 g-os hizlaláskor.",
+    "",
+    "Vöröstarka lapály",
+    "\n",
+    "ábra: Vöröstarka lapály",
+    "",
+    "Ismertetőjegyei: Nagy termetű, sötétvörös és fehér, tarka szarvasmarha. Feje vörös, fehér jegyekkel. A Red Holsteinnel való keresztezésnek köszönhetően magasabb lett és laposabb izomzatú. Szarva van. Jelenleg gyakran szarvtalanítják őket.",
+    "Elterjedése: Észak- és Nyugat-Németországban; kisebb számban Németország más régióiban. Hasonló formák előfordulnak helyi elnevezésekkel más közép-európai országokban is. Észak-Amerikában red holstein, más néven red friesian.",
+    "Előnyei: Kevésbé jó körülmények esetében is jól tenyészthető. Jó a takarmány-felhasználási képessége. Tejtermelésre összpontosító, de kettős hasznosítású szarvasmarha. Az éves tejhozama 8000 l, 4,2% zsír- és 3,4% fehérjetartalommal. A fajta fiatal bikái átlagosan 1260 grammos napi súlygyarapodást érnek el. A húshozam eredmények 60%-osak. ",
+    "",
+    "Tejhasznosítású szarvasmarhák",
+    "Elsősorban tejtermelő képességük miatt tenyésztik őket. A tejhasznosítás iránya miatt testfelépítésük a húshasznosítású szarvasmarhákkal összehasonlítva jelentős eltérést mutat. Testük gyengén izmolt, húsformáik (mellkas és a comb rész) fejletlenek.  Tőgyük fejlett, testfelépítésükhöz képest hatalmas méretű is lehet. ",
+    "Jersey (Dzsőrzi)",
+    "",
+    "",
+    "ábra: Jersey marha",
+    "",
+    "Az Anglia és Franciaország között fekvő, La Manche-csatornában található Jersey-szigetről származnak. Nevüket is a szigetről kapták.",
+    "Ismertetőjegyei: Kicsi, kecses, finom csontozatú, gyenge izomzatú szarvasmarhák. A színük nagyon változatos, vannak sárgásbarnától a világosvörösig, valamint krémszínű és majdnem fekete állatok, esetenként kopaszok is. Fejük, válluk, csípőjük szinte mindig sötétebb árnyalatú. Fejük rövid, széles homlokkal. ",
+    "Elterjedése: Az egész világon elterjedtek. Nagy-Britannián kívül Dániában található jelentős állomány.",
+    "Előnyei: Kizárólag tejtermelő fajta. A Jersey tehenek átlagosan évi 5000 l tejet termelnek 6,0% zsír- és 4,1% fehérjetartalom mellett. A tejhozam tartósan magas szintű. Teje a sajt előállításához kiválóan alkalmas alapanyag. Korai érésű fajta. ",
+    "",
+    " Ayrshire (Ajshire)",
+    "",
+    "",
+    "ábra: Ayrshire marha",
+    "",
+    "Jelenlegi változata a XVIII. század végén a délnyugat-skóciai Ayr megyében, valószínűleg dán és holland szarvasmarhák, valamint a Highlands és a Shorthorn, esetleg a Csatorna-szigetekről (Jersey, Guernsey) származó szarvasmarhák keresztezéséből származó őshonos fajtákból származik.",
+    "Ismertetőjegyei: Tejhasznosítású, viszonylag gyengén fejlett mellső negyedekkel és a nagy tőgy miatt erősnek tűnő hátsó negyedekkel rendelkező fajta. Színe foltos barna vagy vörös és fehér; esetenként majdnem tiszta fehér. Feje világos foltokkal pettyezett. Finom csontozatú mérsékelt izomzatú állatok. ",
+    "Elterjedése: Világszerte elterjedtek. Különösen Nagy-Britanniában és Észak-Amerikában népszerűek. Finnországban a szarvasmarha állomány több mint 80%-a az Ayrshire fajtához tartozik. ",
+    "Előnyei: Tenyésztésének hangsúlya a tejhozamon van. Éves átlagos tejhozama 6000 l, 3,9% zsírtartalom mellett. Hústermelése a tejelő fajtához képest jónak mondható. Számos más fajtával keresztezik a tejhozam javítása érdekében.",
+    "",
+    " Holstein-fríz (Holstejn-fríz)",
+    "",
+    "ábra: Holstein-fríz",
+    "Forrás: https://hu.pinterest.com/pin/339669996876638746/ (2024.06.24.)",
+    "táblázat: Holstein-fríz",
+    "",
+    "Ismertetőjegyei: A Feketetarka lapály fajtából Hollandiában nemesítették ki. Az USA-ban a tejtermelő tulajdonságait előtérbe helyezve nemesítették tovább, melynek során a legnagyobb hozammal rendelkező tejtermelő fajta jött létre. A tejtermelő képessége miatt viszonylag kis testű, gyengén izmolt, fejletlen húsformájú állat. A tehenek tőgye fejlett. Színe a feketetarka lapályhoz hasonlóan fekete-fehér tarka. ",
+    "Elterjedése: A világon a legelterjedtebb tejtermelő fajta. Magyarországon is a szarvasmarha állomány túlnyomó része a Holstein-fríz fajtához tartozik.",
+    "Előnyei: Tejtermelése világviszonylatban is egyedülálló, éves szinten átlagosan 8000 l tej előállítására képes. A világon, éves szinten legtöbb tejet adó (27 500 l) szarvasmarha is a Holstein-friz volt.  A hústermelő képessége rendkívül gyenge. Az értékes húsrészek aránya kedvezőtlen. ",
+    "",
+    " Húshasznosítású szarvasmarhák",
+    "Tenyésztésük fő iránya a minél nagyobb mennyiségű és/vagy minél jobb minőségű, márványozott hús előállítása. Közös jellemvonásuk a terjedelmes, dongás mellkas, jól izmolt testfelépítés, izmos, fejlett végtagok. A húshasznosítású szarvasmarhák nő ivarú egyedeinek jellemzője a fejletlen gulyatőgy, ami igen csekély, kizárólag a borjú felnevelésére elegendő tej termelését teszi lehetővé.",
+    "",
+    "Megkülönböztethetünk:",
+    "Kis testű húsmarhákat",
+    "Közepes testű húsmarhákat",
+    "Nagy testű húsmarhákat",
+    "",
+    "Kis testű húsmarhák",
+    "Aberdeen angus (Aberdín engusz)",
+    "",
+    "",
+    "ábra: Aberdeen angus marha",
+    "A fajta Skócia északkeleti részéről, Aberdeen és Angus megyékből származik. Az ásatási leletek azt mutatják, hogy a szarv nélküli szarvasmarhák már az őskorban is jelen voltak a környéken. A célzott tenyésztés a XVII. század végén kezdődött.",
+    "Ismertetőjegyei: Jellegzetes alkatú húsmarha fajta. Kis termetű. Teljesen fekete (Észak- és Dél-Amerikában létezik vörösesbarna változat is = red angus). Rövid lábú és vastag törzsű. A törzse hengeres és oldalról kifejezetten szögletes alakú. A mellső lábi között egyértelműen kiáll a szegycsontja. Feje kicsi és rövid. Szarv nélküli fajta.",
+    "Elterjedése: Nagy-Britannia, Észak- és Dél-Amerika, Új-Zéland, Ausztrália. Magyarországon is előfordul. ",
+    "Előnyei: Ellenálló a zord időjárási körülményekkel szemben. Kivételesen jóindulatú és békés. Igénytelen, alkalmazkodó. Magas vágási hozamú. Húsa finom rostozatú, jól márványozott. A faggyú sárga színe a fajtára jellemző. Az átlagos napi hízás a tesztelt hizóállatoknál kb. 1150 g. Korán faggyúsodik, 350 kg-os élősúlytól kezdve erős zsírfelhalmozódás tapasztalható. Rendkívül gyors növekedésű. Tenyészteljesítménye jónak mondható. A szarvatlanság domináns módon öröklődik.",
+    "",
+    "Hereford (hírford)",
+    "",
+    "",
+    "ábra: Hereford",
+    "",
+    "Ősi angol fajta, amelyet Nyugat-Angliában (Herefordshire-ben) évszázadok óta tenyésztenek. Jelenlegi megjelenését 1800 körül nyerte el a flandriai szarvasmarhák keresztezésével.",
+    "Ismertetőjegyei: Kis testű marha. Az alapszíne a piros. A fej, a nyak alsó része, a mellkas, az alhas, a tőgy vagy herezacskó, a farokbojt és a lábak alsó része, valamint egy keskeny csík a nyak felső részén a marmagasságig fehér színű. Fejlett mellkas és viszonylag rövid lábak jellemzik. A legtöbb állatnak szarva van, a szarvak jellemzően lefelé görbülnek a fej oldalán. Észak-Amerikában és Nagy-Britanniában létezik egy szarv nélküli fajta is (polled hereford).",
+    "Elterjedése: Az egész világon a legelterejdtebb húsmarha. Több mint 5 millió törzskönyvezett példányt tartanak számon. Különösen Nagy-Britanniában, Észak- és Dél-Amerikában, Ausztráliában, Új-Zélandon, Dél-Afrikában elterjedt. Magyarországon is előfordul.",
+    "Előnyei: Igénytelen, allkalmazkodó fajta. Jól tűri az éghajlati eltéréseket. Hosszú életű. A hízóbikák napi gyarapodása átlagosan 1100 g, de maga a hús nem túl zsíros. Korai érésű fajta.",
+    "",
+    "Közepes testű húsmarhák",
+    "Shorthorn (shorthorn) – rövidszarvú",
+    "",
+    "",
+    "ábra: Shorthorn marha",
+    "",
+    "A rövidszarvú szarvasmarhát a XVIII. században Északkelet-Angliában tenyésztették ki nagy testű, jó tejhozamú szarvasmarhákból. ",
+    "Ismertetőjegyei: A rövidszarvú húsmarhafajták közül a Shorthornnak a hátsó része kifejezetten szögletes. Három színváltozata van: piros, fehér és vörös szürkével foltozva. A fajta egyedei között ez utóbbi a legelterjedtebb szín. A színes bundájú állatokon fehér foltok fordulnak elő, különösen az alhason. A szarvak viszonylag rövidek és viaszos színűek. Gyakran genetikailag szarv nélküliek.",
+    "Elterjedése: Eredetileg Északkelet-Angliában (beleértve Durham megyét) terjedt el. Napjainkban már Észak- és Dél-Amerikában és számos más országban is előfordul. ",
+    "Előnyei: Nyugodt temperamentumú, korai érésű fajta. A környezeti tényezőkre igénytelen. Általában húshasznosítású marhák nemesítésénél alkalmazzák. ",
+    "Lincoln Red (Linkoln red)",
+    "",
+    "ábra: Lincoln red",
+    "Forrás: https://www.geograph.org.uk/photo/432117  Fotó:  Richard Croft (2024.06.24.)",
+    "táblázat: Lincoln red",
+    "",
+    "Angliából, Lincolnshire megyéből származó, a shorthorn fajtából kitenyészett, közepes testű húsmarha. Első kitenyészett egyedeiről a XVII. században jelentek meg feljegyzések.",
+    "Ismertetőjegyei: Nyugodt vérmérsékletű, közepes testméretű, jól izmolt fajta. Színe egyszínű piros. Testfelépítése a shorthornhoz hasonló. ",
+    "Elterjedése: Elsősorban Nagy-Britanniában terjedt el. Előfordul Észak Amerikában, Ausztráliában és Európa más országaiban, így Magyarországon is. ",
+    "Előnyei: Igénytelen, nyugodt vérmérsékletű fajta. Húsa a többi brit származású húsmarhával ellentétben faggyúsodásra kevésbé hajlamos.",
+    "Nagy testű húsmarhák",
+    "Aquitániai (akvitániai) szőkemarha",
+    "",
+    "",
+    "ábra: Aquitániai szőkemarha",
+    "",
+    "Franciaországban 1962-ben a három szőke marhafajta, a garonnaise, a quercy és a blonde des pyrénées egyesítésével hozták létre.",
+    "Ismertetőjegyei: Nagy termetű, kivételesen hosszú testű, viszonylag kis fejű szarvasmarha. Egyszerű világos vagy búzaszínű. A szemek és a pofa körül világosabb színű. A törzs alsó része és a lábak alsó része vékonyabb. A száj és a nyálkahártyák rózsaszínűek. Az összes húsos részen nagyon jól fejlett az izomzata. Finom csontozatú. A szarvak viaszos sárga színűek, sötét csúcsokkal.",
+    "Elterjedése: Főként Délnyugat-Franciaországban elterjedt. Egy ideje már a világ valamennyi jelentős hústermelő országában, különösen az USA-ban, Argentínában, Brazíliában és Ausztráliában is előfordul. Egyedi populációk Közép-Európában is megtalálhatók. Franciaországban 500 000 állatot tartanak nyilván.",
+    "Előnyei: Igénytelen, alkalmazkodó és robusztus fajta. Nem érzékeny sem a szélsőséges hőmérsékletre, sem a nagy mennyiségű csapadékra. Jókedélyű állat. Napi gyarapodása 6–12 hónapos korban 1400–1500 g. Kiváló húshozamú fajta. Húsa alacsony zsírtartalmú. ",
+    "Franciaországban tenyésztési programok folynak egyrészt a húsminőség és az anyai tulajdonságok célzott párosítással történő javítására, másrészt pedig a tejelő és tájfajtákkal való keresztezésre szánt bikák kiválasztására.",
+    "Charolais (Sárolé)",
+    "",
+    "",
+    "ábra: Charolais marha",
+    "",
+    "A fajta Franciaországból származik. Tenyésztése a Charolles (Franciaország) környékén elterjedt helyi fajtára vezethető vissza, amelyet a XIX. században fehér rövidszarvúakkal kereszteztek.",
+    "Ismertetőjegyei: Vastag és széles testméretekkel rendelkező, nagy testű húsmarha. A fehértől a krémszínűig változó színű, rózsaszínű foltos szájjal és halvány patákkal. Feje rövid és széles. Erős csontozatú, jól izmolt, kifejlett végtagokkal rendelkező fajta. ",
+    "Elterjedése: Franciaországban és Európa legtöbb országában elterjedt, így Magyarországon is megtalálható. Elterjedt még Észak- és Dél-Amerikában is. ",
+    "Előnyei: Kiváló húsformákkal rendelkező, jókedélyű állat. Rendkívül jó vágási húskihozatallal rendelkezik, az értékes húsrészek aránya kiváló. Húsa jó minőségű, elzsírosodásra kevésbé hajlamos. A napi súlygyarapodása is rendkívül jó. Nem ritka a napi 1300–1600 g-os tömegnövekedés. A fajtánál viszonylag későn alakul ki a vágásérettség, ezért alkalmas nagy végsúlyú hízlalásra. Kedvező takarmányfelhasználása. Jól alkalmazható keresztezésekre.Limousin (Limuzin)",
+    "",
+    "",
+    "",
+    "ábra: Limousin marha",
+    "",
+    "A közép-franciaországi Limousin tartományból származik. Eredetileg mezőgazdasági felhasználásra igavonó fajtának tenyészették. A húsmarhává való áttenyésztésre csak 1900-ban került sor. 2000-ben Franciaországban 907 475 állatot tartottak nyilván. ",
+    "Ismertetőjegyei: Nagy testű, oldalról téglalapot formázó testfelépítésű húsmarha. A színe egyszínű vörösesbarna, a szemek és a pofa körül, valamint a mellkas alsó részén világosabb színű. A bika sötétebb színű. Szája és az ajkai rózsaszínűek. Feje viszonylag kicsi. Erős izomzatú, kifejlett testfelépítésű húsmarha. Finom csontozatú. Szarvai és patái fényesek.",
+    "Elterjedése: Az eredeti tenyészterület Franciaország középső részén található (a központ Limoges városa). Több mint 60 országba exportálták. ",
+    "Előnyei: Igénytelen fajta. Ellenáll az időjárás viszontagságainak. Jó termékenységű, hosszú életű szarvasmarha. A hízóállatok napi hízóképessége magas, átlagosan 1250 g. A fajtára jellemző a magas a húshozam. A húsa finom rostozatú, jól márványozott, kevésbé hajlamos az elzsírosodásra. Jól alkalmazható keresztezésekre.",
+    "",
+    "Fehér-kék belga",
+    "",
+    "",
+    "ábra: Fehér-kék belga marha",
+    "",
+    "Belga eredetű, nagytestű húsmarha. Eredetileg kettős hasznosítású volt. A XIX. század második felében a Charolais és a Shorthorn keverékeket keresztezték. Kezdetben a cél az volt, hogy kizárólag kettős hasznosítású szarvasmarhákat tartsanak. 1950-től kezdődően a populáció egy részénél a húshaszosítási irányt helyezték a tenyésztés középpontjába. ",
+    "Ismertetőjegyei: Rendkívül izmos testfelépítésű, robosztus, nagytestű húsmarha. Színe fehér vagy kék-fehér foltos. Időnként fekete-fehér állatok is megjelennek. Viszonylag kicsi fej. Szarva van. Egyes egyedeknél dupla farok is előfordulhat. ",
+    "Elterjedése: Belgium déli részén és Északkelet-Franciaországban a legelterjedtebb. A legelterjedtebb szarvasmarhafajta Belgiumban, a teljes állomány mintegy 45%-át teszi ki. Magyarországon is megtalálható.",
+    "Előnyei: Húshasznosítású szarvasmarha.  A napi súlygyarapodása az 1300 g-ot is elérheti. Rendkívül jó a húshasznosítása, a vágási húskihozatal a 65%-ot is elérheti. A legjobb hasított testminőség. Az értékes húsrészek aránya rendkívül kedvező.  Korai érésű fajta.",
+    "Különleges húsmarhák",
+    "Wagyu (Wágju) japán marha",
+    "",
+    "ábra: Fekete wagyu",
+    "Forrás: https://adoromicocina.com/carne-wagyu/ (2024.06.24.)",
+    "",
+    "táblázat: fekete wagyu",
+    "",
+    "Japánban tenyésztett, őshonos fajta. Eredete a 17. század elejére nyúlik vissza. Japán a középkor végén a külvilágtól többnyire elzártan létezett. A külvilágból érkező hatások és idegen honos szarvasmarhafajták hiányában kialakult egy japán, tiszta genetikai állományú marhafajta.  Ebben az időszakban a marhákat kifejezetten mezőgazdasági használatra, igavonásra alkalmazták, húsmarhaként történő felhasználását a XX. századig kerülték. A XX. század elején megkezdődött az őshonos japán marhák külföldi marhákkal (pl. Aberdeen angus) történő keresztezése, melynek során az őshonos japán fajtának négy különböző típusa alakult ki:",
+    "Fekete wagyu",
+    "Japán minden részén tenyésztik. A japán wagyu állomány 90%-át ez a fajta teszi ki. ",
+    "Japán Polled",
+    "Az őshonos japán fekete marha és az Aberdeen angus keresztezésével nemesített wagyu fajta.",
+    "Barna wagyu",
+    "A Szimentáli és a japán Akaushi fajta keresztezésével létrejött, vörös színű wagyu fajta.",
+    "Japán shorthorn",
+    "Az angol eredetű Shorthorn és a japán Nanbu fajta keresztezésével létrejött wagyu fajta.",
+    "Ismertetőjegyei: Közepes testfelépítésű, finom csontozatú fatja. Színük fekete (kivéve a Barna wagyut, amelynek színe vörösbarna). Születéskor barna színűek, később feketednek be. Kicsi, rövid fejük van. Nyugodt vérmérsékletűek. Igavonó származása miatt a környezetei körülményekre igénytelen fajta. Napi súlygyarapodása 500-600 g körül alakul. ",
+    "Elterjedése: Japánból élő állatot a mai napig tilos exportálni. A 90-es években a japán kormányzat szigorúan tudományos célzattal engedélyezte, hogy néhány embriót az USA-ba szállítsanak, ahonnan az embriók eljutottak Kanadába és Ausztráliába is. A nem japán eredetű wagyu marhák mind ebből a vonalból származnak. A megtermékenyített embriókat más fajtájú anyaállatba beültetve a fajta megjelent Magyarországon is. ",
+    "Előnyei: Húsa a genetikai vérvonalnak és a speciális tartási körülményeknek köszönhetően rendkívül ízletes. A hús márványozottsága egyedülálló. A hús zsírtartalmának olvadáspontja olyan alacsony, hogy az emberi szájban szinte vajas érzetet keltve elolvad. Emiatt a fajta húsa rendkívül megbecsült a gasztronómiában. Japánban 12 pontos speciális szabvány segíti a wagyu hús minősítését. A hús gasztronómiai státusza megmutatkozik az árán is. Egy jó minősítést kapott wagyu hús kilója akár több százezer forint is lehet. ",
+    "Kobe marhahús",
+    "A csúcs minőségű marhahúst nevezik Kobe marhahúsnak. Kobe egy tenyésztési terület, amely Hyogo prefektúrában található. A kobe jelölést kapott hús csakis kizárólag e területről származott és levágott, fekete wagyu marhából származhat és a hús márványozottságának a 12 pontos szabvány szerinti legjobb minősítéseket kell kapnia. ",
+    "",
+    "Szarvasmarhák kor szerinti elnevezése",
+    "Szopós borjú (újszülött neve az elválasztásig)",
+    "Választott borjú (a tejtáplálás megszüntetésétől 4-6 hónapos korig)",
+    "Növendék üsző (nő ivarú szarvasmarha 6 hónapos kortól az első vemhesülésig)",
+    "Növendék bika (hímivarú szarvasmarha 6 hónapos kortól a hízlalás befejezéséig)",
+    "Tehén (a tenyésztésbe fogott növendék üsző az első ellés után)",
+    "",
+    "Szarvasmarhák ivar szerinti elnevezése",
+    "Bika (hímivarú szarvasmarha)",
+    "Nő ivarú szarvasmarha az üsző, ellés után tehén",
+    "Tinó (ivartalanított hímivarú szarvasmarha)",
+    "Ökör (4 éves kort betöltött, ivartalanított hímivarú szarvasmarha)",
+    "",
+    "Sertések",
+    " Őshonos fajták",
+    "Mangalica",
+    "",
+    "",
+    "ábra: Mangalica",
+    "",
+    "Magyarországon őshonos, védett fajta. A szerb sumádi sertéshez nyúlik vissza a története. A magyar mangalica sertés a XIX. század közepén létrejött fajta, az őshonos bakonyi sertés és a szalontai sertés keresztezésével. Szándékosan nagy szalonnateljesítményre tenyésztették ki. 1927-ben megalakult a Mangalicatenyésztők Országos Szövetsége. Az 1950-es évek végétől a húshasznosítású sertésfajták folyamatosan kiszorították a mangalicát a piacról, emiatt egyedszámuk rohamos csökkenésnek indult. A csökkenés olyan nagymértékű volt, hogy a mangalica egyedszáma a 60-as évekre néhány tucat állatra csökkent. A rendszerváltás után a fajta egyedszáma fokazotosan ismét növekedésnek indult. 1994-ben újra megalakult a Mangalicatenyésztők Országos Egyesülete, mely összefogja és irányítja a magyar mangalica tenyésztést. 2004-ben a mangalicát védett, őshonos nemzeti fajtává nyilvánították. ",
+    "Ismertetőjegyei: Nagy termetű, robosztus sertés, bőre palaszürke. Három színtípust különböztetünk meg:  A leggyakoribb a szőke színű, de van vörös és ún. „fecskehasú” is. Az utóbbi háta sötét, a hasa világos színű. A szőkének sárgás aljszőrzete van. Körmei, ormánylemeze, szemhéja és végbélnyílása fekete. A fülek közepes méretűek és előre lógnak. Háta közepesen hosszú és mérsékelten ívelt. Végtagjai erősek. A malacok hosszanti csíkozásúak, mint a vaddisznó kismalacai.",
+    "Elterjedése: Magyarország, Románia. Szerbia, Horvátország és más délkelet-európai országok. ",
+    "Előnyei: Szalonnasertés. Rendkívül igénytelen. A sűrű aljszőrzetű szőrzetnek köszönhetően nagyon jól tűri a hideget, de a magas hőmérsékletet is jól viseli, ha a dagonyázás is lehetséges. Szalonnájának a telítettlen zsírsav aránya kedvező, így a mangalicából nagyon jó minőségű szalonna alapanyag termelhető ki. A húskihozatali aránya kedvezőtlen, de a hús minősége kiváló, a világhírű spanyol serrano sonka alapanyagául is szolgál.  A húsa a magas pigmenttartalom és alacsonyabb víztartalom miatt a szárazárugyártás kiváló alapanyaga. ",
+    "Sokoldalú állat. Alkalmanként más fajtákkal keresztezik, hogy jó húsminőségű sertéseket állítsanak elő. 11–13 hónapos korában tenyésztésre kész. ",
+    "",
+    "Húshasznosítású sertések",
+    "Magyar nagy fehér hússertés",
+    "",
+    "ábra: Magyar nagy fehér hússertés",
+    "táblázat: Magyar nagy fehér hússertés",
+    "",
+    "Magyarországon a legelterjedtebb sertésfajta. Tenyésztése legalább 80 évre tekint vissza.  A nemesítés során a kiinduló fajta az angol nagyfehér hússertés volt. ",
+    "Ismertetőjegyei: Nagyméretű, hosszú testű, erős, feszes combú sertés. Fehér sörték fehér bőrön. Hegyesfülű.",
+    "Elterjedése: Magyarországon a legelterjedtebb sertésfajta.  A nagy fehér hússertések számos európai és Európán kívüli országban is előfordulnak. ",
+    "Előnyei: Hízékonysága, testtömeg-gyarapodása, takarmányértékesítő képessége közepes. A stresszel szemben ellenálló fajta. Kiváló szaporaságú. A keresztezés során a jó szaporasága és egyéb kedvező tulajdonságai miatt anyaállatként előszeretettel alkalmazzák. ",
+    "",
+    " Magyar lapály sertés",
+    "",
+    "ábra: Magyar lapály sertés",
+    "Forrás: http://www.mintagazda.hu/fse.html (2024.06.24.)",
+    "táblázat: Magyar lapály sertés",
+    "",
+    "A fajta korábban Magyarországra behozott, svéd, angol, dán, holland, finn lapály sertések keresztezésével jött létre.",
+    "Ismertetőjegyei: Hosszú, feszes hátú sertés. Jól izmolt lapockával és combbal rendelkezik. Bőre rózsaszín pigmentmentes, szőrzete fehér, finom szálú, körmei viaszsárgák. A füle előrelógó, tőben megtört.",
+    "Elterjedése: Magyarországon az egyik legelterjedtebb fajta. A lapálysertések különböző fajtái (dán, angol, belga lapály) egész Európában elterjedtek. ",
+    "Előnyei: Későn érő, nagy növekedési erélyű fajta. A hús minősége jó, elzsírosodásra nem hajlamos. Hústermelő képessége jó. A fajta kedvező tulajdonsága, hogy nem stresszérzékeny. Jól keresztezhető a magyar hússertéssel.",
+    "",
+    " Duroc (Durok)",
+    "",
+    "",
+    "ábra: Duroc",
+    "",
+    "Az USA-ból származó fajta.",
+    "Ismertetőjegyei: Nagy termetű sertésfajta. Színe egyszínű világosvöröstől a sötét vörösesbarnáig terjed, esetenként apró fekete foltokkal. Kis lógó fülek. Az orrvonala enyhén be van húzódva. Háta ívelt.",
+    "Elterjedése: Leginkább Észak-Amerikában és Európában terjedt el. Egyedei Magyarországon is megtalálhatók.  ",
+    "Előnyei: Robusztus, jóindulatú állat. Sonkái, lapockái jól izmoltak, kiváló hústermelő fajta, elsősorban hibridnemesítési programokban használják őket. Jókedélyű állat. A napi súlygyarapodása 900 g. Jó a takarmányhasznosítási képessége. A fajta előnyös tulajdonsága, hogy egyáltalán nem stresszérzékeny, emiatt a PSE hús kialakulásának a kockázata kicsi. Kiváló anyai tulajdonságokkal rendelkezik. A kocák sok tejet adnak. A pigmentáció jó védelmet nyújt a közvetlen napfény ellen. ",
+    "Hampshire (Hempshír)",
+    "",
+    "",
+    "ábra: Hampshire",
+    "",
+    "A brit Saddleback sertésektől származik, amelyeket 1825-ben Hampshire megyéből importáltak az USA-ba.",
+    "Ismertetőjegyei: Középtermetű fajta. Alapszíne fekete, amit a lapockák mögött a testen körbefutó fehér csík szakít meg. Feje hosszú, behúzott orrvonallal. Lábai viszonylag rövidek. Fülei hegyesek. ",
+    "Elterjedése: Leginkább Észak-Amerikában és Európában terjedt el. Egyedei Magyarországon is megtalálhatók. A leggyakoribb sertésfajta az USA-ban.",
+    "Előnyei: Termékeny, kiváló anyai tulajdonságokkal rendelkező fajta, emiatt keresztezési programokban, mint anyaállat előszeretettel alkalmazzák. Ellenálló és robusztus. A napi súlygyarapodása 700–800 g. Takarmányfogyasztása 1 kg súlygyarapodásra vetítve 2,70 kg. A színhústartalom több mint 59%. Stressztűrő fajta. Igen jó minőségű hússal rendelkezik. ",
+    "",
+    "Piétrain (Pietrén)",
+    "",
+    "",
+    "ábra: Pietrain",
+    "",
+    "Belga eredetű fajta. Eleinte csak egy tenyésztő tartotta ezeket a sertéseket a kis Piétrain nevű faluban, innen ered az elnevezésük. Az 1950-es évekig csak szűk területen, kis mennyiségben tartották. ",
+    "Ismertetőjegyei: Közepes testű, széles hátú, jól izmolt sertés. Színe tiszta fehér, esetleg világosszürke alapszínű, esetenként szabálytalanul eloszló fekete vagy sötétbarna foltokkal. Feltűnően fejlett sonkái és lapockái vannak. ",
+    "Elterjedése: Számos európai és Európán kívüli országban elterjedt. Magyarországon is megtalálható.",
+    "Előnyei: Kiváló a hústermelő képessége. Fejlett combjai és lapockái vannak. A fajtát négysonkás sertésnek is nevezik. A húsának alacsony a zsírtartalma. A fajta rendkívül stersszérzékeny, emiatt vágás után a hús minőségére kedvezőtlen, rendellenes folyamatok (PSE) alakulhatnak ki.  A napi súlygyarapodása 790 g. A 90–95 kg-os vágósúlyt körülbelül 180 napra érik el. Alkalmas apafajtaként keresztezésekhez.",
+    "",
+    "Hibrid sertések",
+    "A hibridsertések létrehozásának célja, hogy az utód hibrid állatokban a keresztezés során alkalmazott anyai és apai tenyészállatfajták előnyös tulajdonságai minél nagyobb mértékben megjelenjenek. Az így keresztezett hibrid sertések az apai és az anyai fajták előnyös tulajdonságait is hordozzák, ezáltal gazdasági szempontból hasznosabb egyedek hozhatók létre.  A hibridsertések nemesítésének főbb irányai:",
+    "a húskihozatal növelése",
+    "a hízékonyság javítása ",
+    "a szaporaság javítása",
+    "a stresszérzékenység csökkentése",
+    "a tartási körülményekre való igénytelenség",
+    "az ellenállóképesség növelése",
+    "a húsminőség javítása",
+    "a korai vágásérettség kialakulása",
+    "",
+    "Első magyarországi hibrid sertésfajták",
+    " KA-HYB (kaposvári hibrid)",
+    "Magyarországon a 60-as években céltudatosan megjelent a hibrid sertések tenyésztése.  Az első magyar hibrid sertést a Kaposvári Egyetemen KA-HYB néven tenyésztették ki. A KA-HYB sertés hústermelése kedvező volt. Az értékes húsrészek aránya 47-48 %. A szalonna vastagsága nem haladta meg a 25 mm-t. A fajta hústermelő képessége az akkori tenyésztési technológiai viszonyokat figyelembe véve kimagasló volt. Napjainkban a fajtát tenyésztési célból már nem alkalmazzák. ",
+    "",
+    "Pannon-hibrid",
+    "A Magyar nagy fehér hússertés, a Magyar lapály, a Duroc és a Pietrain fajták keresztezésével hozták létre. A Pannon-hibrid esetében az értékes húsrészek aránya 47-48%. A szalonna vastagság értékei is kedvezőek. Manapság a jobb tulajdonságokkal rendelkező modern hibrid fajták kiszorították a piacról. ",
+    "",
+    "Seghers hibrid sertés",
+    "A Seghers hibrid sertés elődje Belgiumból került Magyarországra a ’90-es években. A keresztezés során a Magyar lapály, a Duroc, a Magyar nagy fehér hússertés fajtákat alkalmazták. Az értékes húsrészeinek aránya 48-49 %. A színhústartalom átlagosan 54,3%. Jó szaporaság, jó ellenálló képesség, kiváló hízékonyság jellemezte. A Pannon-hibridhez hasonlóan a modern hibrid sertésfajták (pl. Dan Bred) elterjedésével tenyésztése visszaszorult. ",
+    "",
+    " Napjaink jelentős hibrid sertésfajtái",
+    "DanBred",
+    "A magyarországi sertéstenyésztők a 2000-es évek elején kezdték tenyészetni a Dan Brev-re jellemző genetikai tulajdonságokkal rendelkező sertésfajtát. \tA fajtát kiváló szaporaság és napi testtömeg-gyarapodás jellemzi. Keresztezése során anyai vonalon a Magyar lapály és a Yorkshire fajtákat, apai vonalon a Duroc fajtákat alkalmaznak. A magyarországi hibrid sertés állomány kb. 40 %-a a DanBred fajtához tartozik.",
+    "",
+    "Topigs Norvin",
+    "A Topigs Norvin hibridet a 90-es években kezdték tenyészteni Hollandiában, amely mára a világ egyik vezető sertés hibrid genetikai vonalává vált. A TN70-es koca napjainkban a legjelentősebb, legjobb genetikai tulajdonságokkal rendelkező anyasertés. A Topigs genetikai vonallal keresztezett sertéseket kitűnő szaporaság, takarmányhasznosító képesség és testtömeg-gyarapodás jellemzi. Nagyon jó a hőstressztűrő képességük, illetve ellenállóak a  betegségekkel szemben. ",
+    "",
+    "Hypor Maxter",
+    "A leggyorsabb gyarapodású Pietrain sertés hibrid. A Pietrain stresszérzékenységét a fajta nemesítésével sikerült kiküszöbölni. A fajtát kiváló húsgyarapodás, nagy takarmányhasznosítási hatékonyság és nagy színhústartalom arány jellemzi.   ",
+    "",
+    "Hússertések csoportosítása felhasználás szerint ",
+    "Bacon sertések:",
+    "Hét hónaposnál nem idősebb sertések. Tömegük: 80-90 kg. A szalonna vastagsága a maron 40 mm, a háton és az ágyékon 20 mm. Lapályfajták keresztezett utódai alkalmasak bacon sertésnek.",
+    "",
+    "Sonkasertések:",
+    "Négysonkás sertések. Pl. Pietrain, Belga lapály. Fejlett combbal, lapockával rendelkeznek. 6-7 hónapos korban, 95-120 kg-os élőtömeg elérése után kerülnek vágásra.",
+    "",
+    "Tőkesertések:",
+    "Lakossági, fogyasztói igényeket elégítenek ki. Általában a 110-150 kg közötti testtömegű sertéseket vágják.",
+    "",
+    " TF sertések:",
+    "Tenyésztésből kivont, nagy súlyú (legalább 150 kg vagy a feletti) nőivarú sertések. A húsuk a nagy pigmenttartalom és az alacsony víztartalom miatt a szalámi és a szárazáru előállítására alkalmasak. ",
+    "",
+    "Sertések ivar és kor szerinti elnevezése",
+    "IIvar szerinti elnevezés",
+    "Kan (hímivarú sertés)",
+    "Koca (nőivarú sertés)",
+    "Ivartalanított állatok:",
+    "Ártány (fiatal ivartalanított hímivarú sertés)",
+    "Kanlott (idősebb ivartalanított hímivarú sertés)",
+    "Miskárolt sertés (ivartalanított nőivarú (koca) sertés)",
+    "",
+    "Kor szerinti elnevezés",
+    "Malac (a születéstől az elválasztásig, 8 hetes korig)",
+    "Süldő (az elválasztástól 8 hónapos korig)",
+    "Hízósertés (a hizlalás alatt levő sertés)",
+    "Hízott sertés (a kívánt vágási súlyban lévő sertés)",
+    "",
+    "Baromfifajok, -fajták",
+    "A magyarországi húsfogyasztási szokásokat elemezve megállapítható, hogy a sertés mellett a baromfi és ezen belül is a csirkehús fogyasztásának van a legnagyobb hagyománya. Az egy főre vetített csirkehúsfogyasztás hazánkban a többi vágóállat faj húsának fogyasztásához viszonyítva a legjelentősebb, körülbelül 30 kg évente.  Emiatt a baromfifélék tenyésztésének és feldolgozásának fontos jelentősége van a magyar élelmiszer-ellátásban. A baromfifélék között, különböző hasznosítási szempontokat figyelembe véve, megkülönböztetünk sovány baromfifajokat és -fajtákat, illetve vízibaromfifajokat és -fajtákat.",
+    "Sovány baromfifajok:",
+    "Tyúkfélék (csirke, tyúk)",
+    "Pulyka",
+    "Gyöngytyúk",
+    "Vizibaromfifajok, -fajták:",
+    "Lúdfajták",
+    "Kacsa fajták",
+    "",
+    "Sovány baromfifajok",
+    "Tyúkfélék",
+    "A húsipar számára fontos tyúkfajták csoportosításának legcélszerűbb módja a hasznosítás iránya szerinti csoportosítás.",
+    "Hasznosítási irány szerint megkülönböztetünk:",
+    "Húshasznosítású",
+    "Tojó hasznosítású",
+    "Kettős hasznosítású fajtákat",
+    "",
+    " Húshasznosítású fajták",
+    "Fehér cornish",
+    "A fajta az Egyesült Államokból származik. A Cornish őse az indiai vörös viador fajta volt, melyből az angolok tenyésztették ki a kiváló mell és comb húsformákkal rendelkező cornwall viadort, amely az USA-ban tenyésztett Cornish elődjének tekinthető. A fajta fontos szerepet tölt be a pecsenyecsirke előállításban.",
+    "A Cornish kiemelkedő húsformái és erőteljes comb és mell izomzata miatt gazdasági szempontból jelentős fajta.  Tojástermelése közepes. Nagyjából 100-110 tojást termel évente. Szaporasága mérsékelt. A tollazatának színe fehér, lábai sárgák. Kiváló hústermelése miatt húshibrid fajták keresztezéséhez is alkalmazzák.",
+    "",
+    "",
+    "ábra: Fehér cornish",
+    "Forrás: https://hu.depositphotos.com/123197802/stock-photo-chicken-cornish-eating-watermelon-in.html (2024.06.24.)",
+    "",
+    " Tojó hasznosítású fajták",
+    "Leghorn",
+    "Az Egyesült Államokból származó tojástermelő fajta. Kis testtömege és gyenge hústermelő képessége miatt húshasznosítás szempontjából a fajta nem jelentős. A kifejlett tojók testtömege maximum 2 kg, a kakasoké 2,5 kg. Kiváló a tojástermelő képessége. Évente 250 db tojásnál is többet termelhet. A tojások átlagos tömege az 55 g-ot is meghaladja. ",
+    "Tollazatának színe fehér. Csőre és a lába sárga színű.",
+    "",
+    "ábra: Leghorn",
+    "Forrás: https://hu.depositphotos.com/279458366/stock-photo-chicken-broilers-poultry-farm-white.html (2024.06.24.)",
+    "",
+    "Rhode island red",
+    "A XIX. század közepén az Egyesült Államokban tenyésztették ki. A fajtára jellemző a szögletes, téglaforma, a vízszintes testtartás és a szabad tartás miatt jól látható combok. A Leghornnál nagyobb testtű, tojástermelő fajta. A tojók mérete kb. 2,5 kg. Évente 200-250 db tojást termel. A tojások átlagos mérete 55-61 g körül van.",
+    "Színe kizárólag egyenletes, gazdag sötétvörös, nagyon csillogó lehet. Fekete jegyek megjelenhetnek a szárnyakon és a farkon. A lába és a csőre sárga, a taraja fűrészelt alakú. ",
+    "Különlegességek: a Rhode island fajta egyedei rendkívül erősek. A tollazat növekedésének lassulásával kapcsolatos korábbi problémákat sikerült megoldani. Mozgékonyságuk és temperamentumuk előnyös a szabadban való táplálkozás során.",
+    "",
+    "ábra: Rhode island red kakas és tojó",
+    "",
+    " Kettős hasznosítású fajták",
+    "A kettős hasznosítású fajtákra jellemző, hogy elfogadható a tojás- és a hústermelése is, de mindkét irány elmarad a speciálisan hús és tojáshasznosítású fajták termelésétől.",
+    "",
+    " New Hampshire",
+    "1915-től kezdve az USA-ban, New Hampshire államban Rhode Islandből (Rhode Island reds) tenyésztették ki szigorú szelekcióval. Röviddel 1945 után importálták az aranybarna „csodacsirkéket” Hollandiába. Ausztriában és 1950 körül Németországban is virágzásnak indult a tenyésztésük.",
+    "A széles és mély test alapvetően határozza meg a formáját. Mély és gömbölyű mellkas és telt has alkotja az alapvonalat. A tyúknál a test és a far jó széles. Jól formált combokkal és közepes hosszúságú lábakkal rendelkezik. A tyúkok testtömege 2,5-3 kg között változik.",
+    "Az éves tojástermelése 170-230 db. A ketreces tartást kevésbé tűrő, környezeti hatásokkal szemben ellenálló fajta. Tollazatának színe vörös és sötétsárga árnyalat között változhat. ",
+    "Barátságos természetű állat. Kiváló tojó- és hízócsirke, jól hasznosít minden takarmányt. Az állomány számát tekintve az egyik legelterjedtebb fajta.",
+    "",
+    "",
+    "ábra: New Hampshire kakas és tojó",
+    "",
+    "Plymouth Rocks",
+    "Eredetileg 1850-től az USA-ban (Worcester/Massachusetts) csíkos színben tenyésztették ki jávai, dominikai, brahmai és cochini tyúkfajtákból. A fajta neve az angol rock szóra utal, amely sziklát jelent, és azt jelzi, hogy milyen „sziklaszilárd” egészségű a fajta.  ",
+    "A teste csúcsára állított háromszög formájú. Hosszú, széles és mély farú; széles, közepes hosszúságú, enyhén emelkedő hátú. Közepes hosszúságú combjai és lábai vannak megkülönböztető jegyek nélkül. Jó növekedési erélyű állat. Tojástermelése jó (240 db/év). Színe szürkés, fehér sávokkal.",
+    "Könnyen hízlalható, viszonylag nagy tömegű tojásokat ad, kiváló a hús minősége.",
+    "",
+    "ábra: Plymouth rock kakas és tojó",
+    "",
+    "Sussex",
+    "Angliában tenyészették ki, de eredete a római időkig nyúlik vissza. A XIX. század eleje óta folytak tenyésztési kísérletek a dorking, a cochin és a brahma fajtákkal a dél-angliai Kent, Surrey és Sussex megyékben. ",
+    "A test téglatest formájú és elnyújtott, a mélység-hossz aránya 1:1,5. A felső vonalat a széles és hosszú, vízszintes helyzetű hát alkotja, az alsó vonalat a mély és széles mellkas, valamint a hátrafelé kiugró hasi rész jellemzi. Húsformái gömbölydedek, húsa finom rostozatú. Tojástermelése átlagos, évente 190-200 db. Színére a columbián rajzolat jellemző, aminek eredményeként testének színe általában fehér, a nyak- és a faroktollak feketék. Csőre és lába színe fehér. ",
+    "Jóindulatú viselkedése és hidegtűrő képessége kedvez a téli nevelésnek és tojásrakásnak. Harmonikus általános megjelenése miatt elterjedt kiállítási állat. ",
+    "",
+    "",
+    "ábra: Sussex kakas és tojó",
+    "",
+    "Sárga magyar tyúk (magyar nemesített tyúk)",
+    "A magyarországi tenyésztése a XX. század elején kezdődött, melynek célja a jó tojástermelő képességű fajta kitenyésztése volt. Elsősorban a Dunántúlon, a Duna-Tisza közén és az Alföldön terjedt el. A magyar nemesített tyúkokra az edzettség és az igénytelenség jellemző. A tyúkok testtömege 2-2,5 kg körüli, a kakasok kicsit nagyobbak, 2,8-3 kg körüliek. A sárga magyar tojástermelése megközelíti a 200 tojást évente. A tojások tömege 55-59 g között változik. Színük élénksárga. A nyaktollak végei, a szárny evezőtollai és a faroktollak végei barnásfekete színbe hajlanak. ",
+    "",
+    "ábra: Sárga magyar kakas és tyúk",
+    "Forrás: https://www.ferto-hansag.hu/hu/regi-magyar-baromfifajtak.html (2024.06.24.)",
+    "Forrás: https://www.agraroldal.hu/magyar-tyukfajtak.html (2024.06.24.)",
+    "",
+    "Hibridek",
+    "Egy baromfifajon belül, tudatos módon, keresztezéssel létrehozott utódok, amelyben az apa- és az anyaállat hasznosítás iránya szerinti kedvező tulajdonságai az utódban együttesen öröklődnek. ",
+    "",
+    "Húshibridek",
+    "A húshibrid fajták kitenyésztésének elsődleges célja a kiváló növekedési erélyű és húsformájú egyedek létrehozása. Apai vonalon a kiinduló fajta alapvetően a Cornish, amelynek jól izmolt mell- és combizomzata van. Anyai vonalon a jó növekedési erélyű és jó termékenységű Plymouth fajták terjedtek el. Korábban a húshibridek piacán népszerűek voltak a jó növekedési erélyű hibridfajták, mint az Albor, a Cobb 500, és a Hybro. Napjainkban a brojler, vagy pecsenyecsirke-tenyésztés során alkalmazott elsődleges hibridfajta a kiváló növekedési eréllyel és takarmányértékesítő képességgel rendelkező Ross 308 hibrid. ",
+    "",
+    " Tojó hibridek",
+    "A tojó hibridek tenyésztésének elsődleges célja a kiváló tojástermelő képességű (290-310 db/év) és az erős héjú tojást tojó fajták létrehozása. A fehér héjú tojást tojó hibridek keresztezésének kiinduló fajtája a Leghorn. A sárga héjú tojást tojó hibrideket a Plymouth és a Rhode Island red fajtákból keresztezik. A tojóhibridek piacán korábban a Tetra SL és a Shaver 579 és 288 töltötte be a vezetõ szerepet, addig az utóbbi idõben bővült a választék és az Isabrown, a Hy-Line, a Bovans és a Lohman is egyre jelentősebb teret hódít.",
+    "",
+    "Pecsenyecsirke- (brojler) tenyésztés mélyalmos technológiával",
+    "A brojlercsirke-tenyésztés, -előállítás a magyarországi baromfitartás egyik meghatározó területe. A zárt istállóban, mélyalmos téchnológiával végzett brojlercsirke-tenyésztéshez ma már kizárólag jó termelõképességű, nagy húskihozatalú, jó húsformájú hibrideket (Hybro, Ross hibrid) alkalmaznak. A mélyalmos technológiánál az alkalmazott alomanyag többnyire faforgács, de szecskázott növényi szármaradványokat (pl. szalma) is használtak. A pecsenyecsirkék a tenyésztési és a nevelési időszakuk alatt legalább 1,8-2 kg testtömegre fejlődnek, ami körülbelül hét hetes korukra alakul ki. Az 1,8-2 kg-os vágósúly elérése után nevelési időszak befejeződik, a csirkék vágáséretté válnak. Általánosan megfigyelhető, hogy ennek a testtömegnek az eléréséhez nagyjából 3,5 kg takarmány szükséges. ",
+    "",
+    "Pulyka ",
+    "A háziasított pulyka ősének az Észak-Amerikában őshonos vadpulyka tekinthető. Az első háziasított pulykákat a mexikói indiánok tenyésztették. Európába a spanyol hódítók útján került be. Magyarországon a 16. században a török megszállás során jelent meg. Magyarországon előforduló fajtái közül jelentős az őshonos állatnak tekinthető, védelem alatt álló bronzpulyka és a rézpulyka, illetve a magyar pulyka.",
+    "",
+    "Bronzpulyka",
+    "Az 1960-as évekig hazánkban általánosan elterjedt volt. Edzett, igénytelen, ellenálló fajta. Az állományt tavasztól késő őszig természetes legelőkön tartották.  A kakasok tömege 6-8, a tojóké 5-6 kg. A bronzpulyka 6-8 hónapos korban válik ivaréretté. Kotlási hajlama erős, természetes körülmények között is jól párosodik. Évente átlagosan 45-50, esetenként 80 tojást rak. A tojások színe pettyezett, súlyuk 70-90 g. Színük a nyaktól a hát közepéig világos bronzszínű, a mell és a törzs bronz árnyalatú fekete. ",
+    "",
+    " ",
+    "ábra: Bronzpulyka",
+    "Forrás: https://hgyvk.hu/images/editor-content/e69b271ea4c7309dafcee0b587df9193_shonos_10_bronzpulyka.jpg (2024.06.24.)",
+    "",
+    "Rézpulyka",
+    "A bronzpulykánál valamivel nagyobb testtömegű fajta. A tojók 7, a kakasok 8-10 kg-os testtömeget érhetnek el. Az ősi magyar fajtákra jellemzően, a bronzpulykához hasonlóan igénytelen, ellenálló, a szabadtartást jól viselő fajta. A tojástermelése is hasonló a bronzpulykáéhoz. Színe a sötét rézvöröstől a fakó rozsdavörösig terjedhet. A szárnyon és a hát vonalán fehér tollsávok lehetnek. ",
+    "",
+    "",
+    "ábra: kép Rézpulyka",
+    "Forrás: https://hgyvk.hu/images/editor-content/4f7e2bbbf2b29591d4cb5050b982dfa3_shonos_9_rezpulyka.jpeg (2024.06.24.)",
+    "",
+    " Magyar pulyka",
+    "A magyar pulykának két változata ismert. A fehér és a fekete pulyka. A fehér pulyka valamivel nagyobb testtömegű. A kakasok 6-8, a tojók testtömege 5-6 kg körüli. A fehér pulyka évente 30-40 db tojást rak. A fekete pulyka kakasának a testtömege 6-7, a tojó testtömege 4-5 kg. A tojástermelése is elmarad a fehér pulykától, évente kb. 25-30 db. ",
+    "",
+    "ábra: Magyar fehér pulyka",
+    "Forrás: http://mindenamibaromfi.hupont.hu/5/a-pulykak (2024.06.24.)",
+    "",
+    "Hibrid pulykák",
+    "A pulyka keresztezésének elsődleges iránya a húskihozatal növelése volt. Az első hibrid pulyka a kanadai Diamond white, amely hatalmasan fejlett, széles mellizomzatú, robusztus tulajdonságokkal rendelkező fehér tollú fajta volt. A mai keresztezési irányokban a húskihozatal bővítése mellett a szaporaság és a tojástermelők képesség is fontos szemponttá vált. ",
+    "",
+    "ábra: Széles mellű hibrid pulyka",
+    "Forrás: https://hu.imadeself.com/recepty/belaya-shirokogrudaya.html (2024.06.24.)",
+    "",
+    "Gyöngytyúk",
+    "A gyöngytyúk a baromfifélék közül feltűnő küllemével tűnik ki.  Apró fejükön tarajszerű sisak figyelhető meg, amely a kakasok esetében nagyobb méretű. A csőrük mögött két oldalt vörös szélű, fehér színű áll-lebenyek találhatók. Tollazatuk többnyire szürkéskék-fehér, apró pöttyökkel. Gyakori még a fehér színű, tejföl, sárga-ezüstfehér pöttyökkel színezett gyöngytyúk is. Ritkábban előfordul még szürke, levendula, bronz és foltos színváltozatban is.",
+    "Húsa ízletes, hasonló a vadmadarak, például a fácán húsához. Csontozata a tyúkénál finomabb.",
+    "Hazánkban a gyöngytyúkfajták közül a két jelentősebb a magyar parlagi gyöngytyúk és a hortobágyi hibrid gyöngytyúk.",
+    "",
+    "Magyar parlagi gyöngytyúk",
+    "A csirkéknél kisebb tömegűek. A kakasok súlya 1,30-1,60, a tyúkoké 1,20-1,40 kg. Színük fehér, szürke, kékesszürke, igen ritkán előfordul bronz és tarka változatban is. A magyar parlagi gyöngytyúk törvényileg védett, őshonos baromfifajta. Igénytelen, ellenálló, a parlagi tartást kedvelő fajta. ",
+    "",
+    "ábra: Magyar parlagi gyöngytyúk",
+    "Forrás: https://www.ferto-hansag.hu/hu/magyar-parlagi-gyongytyuk.html (2024.06.24.)",
+    "",
+    " Hortobágyi hibrid gyöngytyúk",
+    "Tollazata kékesszürke. Szabadtartásban és intenzív nevelési körülmények között is jól tenyészthető. A hortobágyi hibrid gyöngytyúkot a francia Gigant gyöngytyúkfajtával keresztezve nagyobb testtömegű, erőteljesebb izmozatú fajtát tenyészettek ki, amelynek testtömege a 2 kg-ot is meghaladhatja. Rendkívül jó a tojástermelő képessége, szabadtartásban 110-120 db/év.",
+    "",
+    "",
+    "ábra: Hortobágyi hibrid gyöngytyúk",
+    "Forrás: https://dka.oszk.hu/116700/116759/1436167067_nagykep.jpg  Fotó: Teo (2024.06.24.)",
+    "Vízibaromfi fajok",
+    "A Magyarországon alkalmazott baromfifaj- és fajtabesorolás alapján a húsipar szempontjából jelentős lúd- és kacsafajokat a vízibaromfik csoportjába sorolják.  A tyúkfélékhez hasonlóan a vízibaromfifajtákat is hasznosítás szerinti alcsoportra oszthatjuk fel. Ilyen fajtabesorolás lehet a hús-, a máj-, valamint a tojó hasznosítású fajták csoportja. ",
+    "",
+    " Lúdfajták",
+    "A vízibaromfik csoportjába tartozó lúdfajtákat hasznosítási irány szerint három csoportba sorolhatjuk. ",
+    "húshasznosítású fajták",
+    "tojó hasznosítású fajták",
+    "májhasznosítású fajták ",
+    "",
+    " Húshasznosítású fajták",
+    "Közös jellemzőjük a jó növekedési erély, az értékes húsrészek (comb, mell) fejlettsége, és a kiváló húsformák. Szaporaságuk mérsékelt.  ",
+    "Emdeni lúd",
+    "Világszerte a legrégebben elterjedt, legismertebb lúdfajta. Valószínűleg 2000 évvel ezelőtt (római kor) tenyésztették ki. Kezdetben „brémai lúd” néven emlegették. Angliában a toulouse-i ludakkal keresztezték. A 19. században került Magyarországra.",
+    "Szokatlanul nagy testméretű állat. Hosszú, széles, masszív törzs, enyhén ívelt, széles hát, enyhén megemelt mellkas jellemzi. Közepes hosszúságú, erős combjai vannak. Jelentős nyakhossza, különösen a gúnárnál. Enyhe s-kanyar van benne, de sima az átmenete a mellkas felé.",
+    "Kiváló hústermelő képességű, tetszetős megjelenésű, nagy testű lúdfajta. Kifejlett korban a gúnárok 10,0 kg, a tojók 9,0 kg testtömeget érnek el. Jó tartási körülmények esetében akár 15 kg-os végtömegre is hizlalható. Az éves tojástermelése 35-40 db között alakul. Kotlási hajlama nem jelentős. ",
+    "A tollazata teljesen fehér, a tojókon azonban a háton és a szárnyon az enyhe szürke színezet vagy csekély mértékű szürke foltosság előfordulhat. ",
+    "",
+    " ",
+    "ábra: Emdeni lúd (gácsér és tojó)",
+    "Pomerániai lúd",
+    "Római kori beszámolók szerint Pomerániában már több mint 3000 évvel ezelőtt is létezett a nagysúlyú ludak tervszerű tenyésztése. 1890 táján a fajta tenyésztésének a középpontja Nyugat-Pomerániában volt. Önálló fajtaként 1912-ben ismerték el. ",
+    "Lekerekített, tojásdad teste jelentős méretű és súlyú. A nagyon széles, kissé felemelt mellkashoz a széles vállak és a hosszú, kissé ívelt hát csatlakoznak. A kifejlett ludaknál megjelenik a hason egy dupla haslebeny. Közepes hosszúságú, szorosan illeszkedő szárnyak és vízszintesen hordott, széles farok jellemzi. Nyaka közepes hosszúságú, egyenes, erős. ",
+    "Az egyik legjobb húshasznosítású lúdfajta. A jól kialakult mellizomzat mellett erősen izmolt comb jellemzi. Zsírosodásra hajlamos, az idősebb hizlalt ludakat ez igen tetszetőssé és ízletessé teszi. A tojók átlagos testtömege 7,0 kg, a gúnároké 8,0 kg. ",
+    "Színük változatos. Fehér, szürke és tarka színváltozatban fordulnak elő. Húsipari szempontból a fehér az értékesebb.",
+    "",
+    " ",
+    "ábra: Pomerániai lúd (gácsér és tojó)",
+    "",
+    " Májhasznosítású fajták",
+    "A májhasznosítású fajták közös jellemzője, hogy nagy- és középnagy testűek, rendkívül jó hízékonyságú állatok. Extrém nagy, akár 1000 g fölötti, kivételes esetekben 1300 g-os máj előállítására képesek.  Szaporaságuk gyenge, illetve közepes.",
+    "",
+    "Toulouse-i lúd (Tulúzi lúd)",
+    "Toulouse környékéről származó francia fajta. A XIX. század végén Franciaországból importálták Angliába. A hozam növelését a nagysúlyú szárazföldi ludak további keresztezésével érték el.",
+    "Nagy súlyú, masszív testű libafajta. Széles, rövid törzs, telt, széles mellkas, széles, nem túl hosszú szárny rövid és erős combok jellemzik. Kiváló májtermelő fajta. Májának tömege sok esetben meghaladja az 1000 g-ot.  Igényes lúdfajta.  Rossz élelemkereső, a rideg tartási körülményeket nehezen viseli el. Tollazatának színe szürke.",
+    "",
+    " ",
+    "ábra: Toulouse-i lúd (gácsér és tojó)",
+    "",
+    "Szürke landeszi lúd",
+    "A dél-franciaországi Landais tartományból származó lúdfajta. A landeszi lúdfajta kiváló májtermelő képességű és hízékonyságú állat.  A májuk tömege átlagosan 800-900 g. Egyes egyedei 1000 g-ot meghaladó máj termelésére is képesek, de ebben a súlyban hajlamos a magas zsírtartalmú ún. zsírmáj kialakítására.",
+    "Tollazata szürkésbarna, a has alján ezüstszürke csíkkal. A csőre és a lába palaszürke, szeme barna színű. Valamennyi külföldi és hazai májhibrid keresztezésében jelentős szerepet játszó fajta.",
+    "",
+    "",
+    "ábra: Landeszi lúd",
+    "Forrás: https://www.energyshobby.hu/landesi-lud/ (2024.06.24.)",
+    "",
+    "Tojó hasznosítású és szaporaságra szelektált lúdfajták",
+    "Kiváló tojástermelő és szaporaságú lúdfaták. A hús- és májhasznosítású ludakhoz képest kisebb testűek. Színük rendszerint fehér.",
+    " ",
+    "Olasz Lúd",
+    "Az olasz ludat a XX. században az olasz parlagi lúdból nemesítették ki, amelynek tenyésztése a római korig vezethető vissza. Rendkívül jó szaporaságú fajta. Testtömege közepesen nehéz, a húshasznosítású ludakhoz képest kisebb testfelépítésű. A gúnárok tömege 5,5-6, a tojók tömege 5-5,5 kg. Májtermelése közepes. A májak tömege 400-500 g. Tojástermelése 40-50 db/év. Tollazatának színe fehér. Az olasz ludat anyai vonalként a húshibridek keresztezésénél alkalmazzák. ",
+    "",
+    "",
+    "ábra: Olasz lúd",
+    "Forrás: https://hu.techexpertolux.com/domashnyaya-ptica/italanskie-gusi.html (2024.06.24.)",
+    "",
+    "Cseh lúd",
+    "A nemesített cseh lúd szaporasága a lúdfajták közül a legjobb. Nemesítésének iránya a kiváló tojástermelő képesség felé tolódott el. Finom rostozatú húsa van, de a viszonylag kis testtömege miatt (5-5,3 kg) húshasznosítású pecsenyelibákkal szemben nem tud alternatívát állítani. Az olasz lúdhoz hasonlóan a húshasznosítású hibridek keresztezésében alkalmazhatják. ",
+    "",
+    "ábra: Cseh lúd",
+    "Forrás: https://fr.wikipedia.org/wiki/Fichier:Czech_Goose.jpg (2024.06.24.)",
+    "",
+    "Rajnamenti lúd",
+    "A Rajnamenti lúd a Rajna felső vidékéről származó tojó hasznosítású lúdfajta. A Rajna vidéki parlagi lúd és az emdeni lúd keresztezésével tenyésztették ki. 1961-ben került Magyarországra. A tojó hasznosítású fajtákhoz hasonlóan kis testű fajta. A tojók testtömege kifejlett korban 5-5,5, a gúnárok testtömege 6 kg. Tojástermelő képessége és szaporasága kiváló. Évente 50-60 db tojást termel. ",
+    "",
+    "",
+    "ábra: Rajnamenti lúd",
+    "Forrás: http://pctrs.network.hu/clubblogpicture/1/5/_/150819_901249707_big.jpg (2024.06.24.)",
+    "",
+    "Kacsafajták",
+    "Hasznosítási irány szerint megkülönböztetünk:",
+    "Húshasznosítású kacsafajtákat",
+    "Tojó hasznosítású kacsafajtákat",
+    "",
+    "Húshasznosítású fajták",
+    "A húshasznosítású kacsafajták közös jellemzője a jó hústermelő képesség, a nagyobb zsírosodási hajlam és a mérsékelt szaporodási képesség.  Legnagyobb jelentőségű húshasznosítású fajta a pekingi kacsa. Az Aylesbury és a Roueni fajta a hústermelő képesség javításában játszik szerepet. ",
+    "",
+    "Pekingi kacsa",
+    "A sült házikacsát a császári dinasztiák évszázadokon átívelő uralkodásuk alatt nemzeti ételnek tekintették Kínában. A fajtából készített étel, a sült pekingi kacsa ma is kínai nemzeti étel, amelyet a világ minden pontján ismertnek és kedvelnek. Tenyésztésük Kínában az évszázadok alatt folyamatos volt. A pekingi kacsákat először 1872-ben vitték be az Egyesült Államokba. 1874-ben Angliában, majd 1877 körül pedig Németországban importálták. A faj hivatalos elismerése az USA-ban 1874-ben történt meg. Keresztezési kísérletek folytak az Aylesbury, a Cayuga és a Roueni kacsákkal. Magyarországon az amerikai fajta terjedt el. ",
+    "Hosszú testalkatú, minden oldalról lekerekített, enyhén felegyenesedett testtartású állat.  Hasa pehelytollak nélküli. Háta enyhén ívelt, szárnyai hosszúak, feszesek. Finom csontos lábai vannak. A lábak színe a világos sárgától a narancssárgáig terjed. Színe fehér. A tojók tömege kifejlett korban 2,5, a gácséroké 3 kg körüli. Viszonylag fiatal korban már vágásérettekké válik. Könnyen tenyészthető, nevelhető fajta. Tojástermelése 200 db/év",
+    "",
+    "",
+    "ábra: Pekingi kacsa",
+    "",
+    "Aylesbury kacsa (Éjleszbüri Kacsa)",
+    "Angol eredetű fajta.  Aylesbury Buckingham megyeszékhelye volt. Vágási súlyát 6–8 hét után éri el (2,5–2,8 kg). A pekingi kacsa megjelenése miatt a szaporulat csökkent.",
+    "Kifejezetten hízókacsa típusú, széles mellkasú és hátú, hosszú törzsű fajta. A felső vonal mérsékelten ívelt. Vízszintes a testtartása, jól fejlett, hasa nem lóg. A farkát zártan, vízszintesen vagy kissé leengedve tartja. Combjai erősek, amelyeket oldaltollak borítanak. Sötétsárga, erős lábai a kor előrehaladtával egyre narancssárgábbak. Nyaka viszonylag vékony, kissé hátrahajtva tartja. Színe fehér. Húsa ízletes, finom rostozatú. Tojástermelő képessége 80 db/év. Húshasznosítási célú keresztezések során, mint jó húsformákkal rendelkező fajta, előszeretettel alkalmazzák. ",
+    "",
+    " ",
+    "ábra: Aylesbury kacsa (gácsér és tojó)",
+    "",
+    "Roueni kacsa (Rueni kacsa)",
+    "A forrásállatok szárazföldi kacsák voltak, amelyek a tőkés réce egyenes ági leszármazottai lehettek. Az elődöket valószínűleg már a XVI. században tenyésztették Franciaországban. A testtömeg alapján 1850 óta szelektáltan folyt tenyésztésük a korábbi Seine Inférieure (ma Seine Maritime) megyében található Rouen környékén, 1897-ben jelent meg a fajta „Anas boschata” vagy „Anas rothomagensis” néven. Ez utóbbi név Normandia régi fővárosának, Rouennak a latin nevéből származik. 1900 körül a vegyes hasznosítású kacsákat keresték a jobb értékesíthetőség érdekében. Egységes típussá tenyésztették Angliában, majd Németországban (1870 körül), ahol „Normandiner”-nek is nevezték. ",
+    "Ugyanolyan testtömegű, mint az Aylesbury kacsa, de a testformája eltérő. Hosszú és széles háta van, szokatlanul mélyen ülő testtel. Hasa nem érintkezik a földdel. A háta teljesen lefedő szárnyai vannak. Combjai erőteljesek. Lábai közepesen hosszúak. Húsa finom rostozatú, a legízletesebb kacsafajták egyike. Növekedési erélye kiváló. Tojástermelése nem túl jó, 60-90 db/év. Tollazatának színe tarka.",
+    "   ",
+    "ábra: Roueni kacsa (gácsér és tojó)",
+    "",
+    "Tojó hasznosítású fajták",
+    "A tojó típusú kacsafajták a húshasznosítású fajtákkal összehasonlítva kisebb testtömegű állatok. Jellemző rájuk a felegyenesedett, úgynevezett pingvin testtartás, a mozgékonyság és a jó táplálékkereső képesség.  Tojástermelésük kiváló. Magyarországon a legismertebb, legjobban elterjedt tojó hasznosítású fajta a Campbell kacsa.",
+    "",
+    " Campbell kacsa (Kampbell kacsa)",
+    " ",
+    "ábra: Campbell kacsa (gácsér és tojó)",
+    "",
+    "A nevét angol tenyésztőjéről, Mrs. Campbellről kapta. A fajtát 1895-től tenyésztették ki Gloucestershire megyében. A cél az volt, hogy a magas tojóteljesítményt és a vágási célú nagyobb testtömeget ötvözzék. Az induló állatok tőkés récék és Roueni vadkacsák voltak. ",
+    "Könnyű testfelépítésű, nem kivételesen karcsú testű. Kissé felegyenesedett, hosszúkás farú, hosszú hátú állat. Mellkasát kissé felemelve, pingvin testtartásszerűen hordja. Hasa jól fejlett, nem lóg. Combjai nem láthatók, belesimulnak a törzsbe. A torok közelében karcsúsodó, Ívelt, középhosszú nyaka van. Finom rostozatú, ízletes húsa van, bár a kifejlett példányok kis testtömege miatt (2-2,5 kg) kevés húst ad. Tojástermelése kiváló. Már 5 hónapos korban elkezdi a tojás termelését. Megfelelő tartási körülmények között évente akár 300 db tojás termelésére is képes. ",
+    "",
+    "Ábrajegyzék",
+    "1. ábra: Szürkemarha\t44",
+    "2. ábra: Szimentáli\t46",
+    "3. ábra: Magyar tarka\t47",
+    "4. ábra: Brown swiss\t48",
+    "5. ábra: Pinzgaui szarvasmarha\t49",
+    "6. ábra: Feketetarka lapály\t50",
+    "7. ábra: Vöröstarka lapály\t51",
+    "8. ábra: Jersey marha\t52",
+    "9. ábra: Ayrshire marha\t53",
+    "10. ábra: Holstein-fríz\t54",
+    "11. ábra: Aberdeen angus marha\t55",
+    "12. ábra: Hereford\t56",
+    "13. ábra: Shorthorn marha\t57",
+    "14. ábra: Lincoln red\t58",
+    "15. ábra: Aquitániai szőkemarha\t59",
+    "16. ábra: Charolais marha\t60",
+    "17. ábra: Limousin marha\t61",
+    "18. ábra: Fehér-kék belga marha\t62",
+    "19. ábra: Fekete wagyu\t63",
+    "20. ábra: Mangalica\t65",
+    "21. ábra: Magyar nagy fehér hússertés\t66",
+    "22. ábra: Magyar lapály sertés\t67",
+    "23. ábra: Duroc\t68",
+    "24. ábra: Hampshire\t69",
+    "25. ábra: Pietrain\t70",
+    "26. ábra: Fehér cornish\t75",
+    "27. ábra: Leghorn\t76",
+    "28. ábra: Rhode island red kakas és tojó\t77",
+    "29. ábra: New Hampshire kakas és tojó\t78",
+    "30. ábra: Plymouth rock kakas és tojó\t79",
+    "31. ábra: Sussex kakas és tojó\t80",
+    "32. ábra: Sárga magyar kakas és tyúk\t80",
+    "33. ábra: Bronzpulyka\t82",
+    "34. ábra: kép Rézpulyka\t83",
+    "35. ábra: Magyar fehér pulyka\t84",
+    "36. ábra: Széles mellű hibrid pulyka\t84",
+    "37. ábra: Magyar parlagi gyöngytyúk\t85",
+    "38. ábra: Hortobágyi hibrid gyöngytyúk\t86",
+    "39. ábra: Emdeni lúd (gácsér és tojó)\t87",
+    "40. ábra: Pomerániai lúd (gácsér és tojó)\t88",
+    "41. ábra: Toulouse-i lúd (gácsér és tojó)\t89",
+    "42. ábra: Landeszi lúd\t89",
+    "43. ábra: Olasz lúd\t90",
+    "44. ábra: Cseh lúd\t91",
+    "45. ábra: Rajnamenti lúd\t91",
+    "46. ábra: Pekingi kacsa\t93",
+    "47. ábra: Aylesbury kacsa (gácsér és tojó)\t94",
+    "48. ábra: Roueni kacsa (gácsér és tojó)\t94",
+    "49. ábra: Campbell kacsa (gácsér és tojó)\t95",
+    "",
+    "",
+    "Táblázatjegyzék",
+    "1. táblázat: A piktogramok magyarázata\t9",
+    "2. táblázat: Magyar tarka\t11",
+    "3. táblázat: Holstein-fríz\t18",
+    "4. táblázat: Lincoln red\t22",
+    "5. táblázat: fekete wagyu\t27",
+    "6. táblázat: Magyar nagy fehér hússertés\t31",
+    "7. táblázat: Magyar lapály sertés\t31",
+    "",
+    "",
+    "FELHASZNÁLT IRODALOM",
+    "Dr. Freidrich L., N. C. (2011). Baromfifeldolgozás . VKSZI .",
+    "Gergely, T. (2018). A világ legjobb marhahúsai. Forrás: https://eszaktour.blog.hu/2018/12/16/a_vilag_legjobb_marhahusai",
+    "Károlyné, J. (2006). Húsipari technológia I. Budapest: FVM Képzési és Szaktanácsadási Intézet.",
+    "Péter, N. (2017). Hentes és mészáros mester jegyzet. Forrás: NAK: https://www.nak.hu/images/2021/Szakkepzes/Hentes-s-mszros-mester-jegyzet.pdf",
+    "Sándor, C. (2012). A Wagyu- A tökéletes marhahús japán szimbólumai. Forrás: https://mezohir.hu/2012/06/14/a-wagyu-tenyesztes-magyar-kovete/ ",
+    "Zsuzsanna, V. T. (2012). úsipari termékgyártás. Budapest: NAKVI .",
+    ""
+  ],
+  "runs": [
+    [],
+    [],
+    [
+      "Egyedi megrendelés azonosítója:",
+      " ",
+      "EM-1.4.1"
+    ],
+    [
+      "Vágóállatfajok, -fajták"
+    ],
+    [
+      "Téma k",
+      "ézirat",
+      "a"
+    ],
+    [
+      "Forrás",
+      ":"
+    ],
+    [
+      "Az eredeti könyv címe: ",
+      "Rassegeflügel",
+      " kompakt. 2. ",
+      "Auflage",
+      ". 20",
+      "20, Der ",
+      "Verlag",
+      " ",
+      "Eugen",
+      " ",
+      "Ulmer",
+      " KG",
+      ",  ISBN szám: 978-3-8186-0834-7  "
+    ],
+    [
+      "Az eredeti könyv ",
+      "szerzői",
+      ":Horst",
+      " Schmidt, Rudolf ",
+      "Proll",
+      " ",
+      "\nCsirke, pulyka, lúd, kacsa (részletek)"
+    ],
+    [],
+    [
+      "Az eredeti könyv címe: ",
+      "Farbatlas",
+      " ",
+      "Nutztierrassen",
+      ". 8. ",
+      "Auflage",
+      ". 2016, Der ",
+      "Verlag",
+      " ",
+      "Eugen",
+      " ",
+      "Ulmer",
+      " KG, ",
+      "ISBN szám: 978-3-8001-1296-8  "
+    ],
+    [
+      "Az eredeti könyv szerzői: Hans ",
+      "Hinrich",
+      " ",
+      "Sambraus",
+      "\nSzarvasmarha, juh, sertés (részletek)"
+    ],
+    [],
+    [
+      "Fordította",
+      ":",
+      " ",
+      "InterContact",
+      " Budapest Kft."
+    ],
+    [
+      "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak."
+    ],
+    [],
+    [],
+    [],
+    [
+      "Vágóállatok ",
+      "É",
+      "rtékmérő tulajdonságai"
+    ],
+    [
+      "Vágóállat fogalma:"
+    ],
+    [
+      "Vágóállatoknak nevezzük az é",
+      "lelmiszeripari feldolgozás, állati eredetű élelmiszeripari alapanyag előállítása (hús, tej, tojás) céljából tenyésztett haszonállat",
+      "okat",
+      "."
+    ],
+    [
+      "A vágóállatok lehetnek:"
+    ],
+    [
+      "Nagy vágóállatok: sertés, szarvasmarha, juh, ló, bivaly"
+    ],
+    [
+      "Baromfik: tyúkfélék, pulyka, gyöngytyúk, lúd, kacsa"
+    ],
+    [
+      "Egyéb vágóállatok: nyúl, galamb, strucc"
+    ],
+    [
+      "A vágóállatok számos tulajdonsága befolyásolja az élelmiszeripar számára fontos alapanyagok (hús, tej, tojás) előállításának költséghatékony kivitelezését. Azon tulajdonságokat, amelyek meghatározzák a vágóállat élelmiszeripar szempontjából meghatározott hasznosságát",
+      ",",
+      " ",
+      "értékmérő tulajdonságoknak nevezzük",
+      ". Ilyen termelési tulajdonságok lehetnek például a tej",
+      "-",
+      " és ",
+      "a ",
+      "hústermelő vagy ",
+      "a ",
+      "tojástermelő képesség. "
+    ],
+    [],
+    [
+      "Vágóállatok húsipari szempontból fontos értékmérő tulajdonságai"
+    ],
+    [
+      "Hústermelő képesség"
+    ],
+    [
+      "A hústermelő képesség k",
+      "omplex, több résztulajdonságot összefoglaló értékmérő tulajdonság. Magába foglalja a ",
+      "hízékonyságot",
+      ", a húsformákat, a ",
+      "hústermelés intenzitását és a növekedési erélyt",
+      "."
+    ],
+    [],
+    [
+      "A hústermelés intenzitása",
+      " és a ",
+      "növekedési erély"
+    ],
+    [
+      "A ",
+      "hústermelés intenzitása azt mutatja meg, hogy a ",
+      "vágóállat életének egyes szakaszaiban ",
+      "egységnyi idő alatt",
+      " mennyi izmot képes a szervezetébe beépíteni. Függ az állat fajtájától",
+      ",",
+      " korától, ",
+      "ivarától",
+      ". ",
+      "A nagy növekedési erély elsősorban a fiatal állatok fejlődése során fontos",
+      ", hogy, minél ",
+      "rövidebb idő alatt képes",
+      "ek",
+      " legyen",
+      "ek",
+      " elérni a vágásérettséget. Általában naponta mért súlygyarapodás grammban kifejezve."
+    ],
+    [],
+    [
+      "A hústermelés kapacitása"
+    ],
+    [
+      "A ",
+      "hústermelés kapacitása azt fejezi ki, hogy a ",
+      "vágóállat nevelése során mennyi csontos húst képes előállítani. A hízlalást addig a végtömegig érdemes folytatni, amíg a nagyobb mértékű ",
+      "faggyúsodás",
+      ", zsírosodás nem indul meg."
+    ],
+    [],
+    [
+      "A hústermelés tartama"
+    ],
+    [
+      "A",
+      " hústermelés tartama a",
+      "z az időtartam, ameddig a vágóállatok zsírosodás, ",
+      "faggyúsodás",
+      " nélkül képesek izmot építeni a szervezetükbe. A húsipar szempontjából az a kedvező, ha a húsképzés minél tovább tart."
+    ],
+    [],
+    [
+      "Faggyú",
+      "-",
+      " és zsírtartalom"
+    ],
+    [
+      "A ",
+      "faggyú- és a zsírtartalom a ",
+      "vágóállatok húsának fontos minőségi tulajdonsága. A húsok ízletességét és porhanyósságát az izomrostok között lévő zsír, faggyú határozza meg (",
+      "márványozottság",
+      ")",
+      ".",
+      " A jó minőségű hús zsír",
+      "-",
+      ", illetve faggyútartalma kb. 3%",
+      ". ",
+      "A 10 %-",
+      "nál",
+      " magasabb zsírtartalom már kedvezőtlenül befolyásolja a hús minőségét, élvezeti értékét. A ",
+      "faggyúsodásra",
+      ", zsírosodásra való hajlam függ az állat fajtájától, korától",
+      ",",
+      " ",
+      "ivarától",
+      ". "
+    ],
+    [],
+    [
+      "Húsformák"
+    ],
+    [
+      "A",
+      "zoknak a testtájaknak az ",
+      "izmoltság",
+      "a",
+      ", amelyek az értékes húsrészeket tartalmazzák. Az értékes húsrészeket tartalmazó testtájak a hát, ",
+      "az ",
+      "ágyék, ",
+      "a ",
+      "far és a comb. Az értékes húsrészek fejlettsége az élő állaton is látható. A húsformák jól öröklődnek, így azok a fajták, amelyek kedvező húsformákkal rendelkeznek",
+      ",",
+      " különösen alkalmasak a keresztezésre. Az élő állat húsformáiból közelítőleg lehet következtetni a kitermelhető értékes húsrészek és a csontos hús arányára. "
+    ],
+    [],
+    [
+      "Tenyésztés szempontjából fontos értékmérő tulajdonságok"
+    ],
+    [],
+    [
+      " ",
+      "Ellenálló képesség"
+    ],
+    [
+      "Az ",
+      "ellenálló képesség az ",
+      "állatok szervezetének a külső hatásokkal, ",
+      "a ",
+      "betegségek okozóival szembeni ellenállása. Genetikailag meghatározott tulajdonság. Elsősorban tenyésztés során van jelentősége."
+    ],
+    [],
+    [
+      " ",
+      "Takarmányértékesítő képesség"
+    ],
+    [
+      "A",
+      " takarmányértékesítő képesség a",
+      "z állat azon tulajdonsága, hogy egységnyi takarmányból milyen tömegű hasznos terméket állít elő."
+    ],
+    [],
+    [
+      "Termékenység, szaporaság"
+    ],
+    [
+      "A termékenységen a hím és ",
+      "a ",
+      "nőivarú állatok rendszeres fogamzásra való képességét, a szaporaságon a nőivarú állatok termékenységi ciklusa során az állat által ellett utódok számát ",
+      "értjük",
+      ". A szarvasmarha egy",
+      " utódot ",
+      "szülő",
+      ", a",
+      " sertések több",
+      " utódot",
+      " szülő állatok. A baromfi esetében a tojástermelő képességgel van összefüggésben. "
+    ],
+    [
+      "Igényesség"
+    ],
+    [
+      "Az",
+      " igényesség az",
+      "t jelenti, hogy a külső körülményekre mennyire érzékeny az állat. Milyen mértékben tűri a rideg tartási körülményeket, a magas és ",
+      "az ",
+      "alacsony hőmérsékletet."
+    ],
+    [
+      "Vérmérséklet"
+    ],
+    [
+      "A ",
+      "vérmérséklet a",
+      "z állatnak a környezettel szemben tanúsított magatartás",
+      "a",
+      ". Az élénk vérmérsékletű állat sokat mozog, ezért ezen állatok termelőképessége",
+      ", súlygyarapodása nem kielégítő, mert a sok mozgás hatására a bevitt takarmány nem a súlygyarapodást, hanem a mozgás által felemésztett energiát szolgálja",
+      "."
+    ],
+    [
+      "Gulyakészség"
+    ],
+    [
+      "A",
+      " gulyakészség azt mutatja meg, hogy a",
+      "z állat hogyan bírja a nagy csoportban tartást. A különböző ivarú és korú állatok együtt ",
+      "tarthatók",
+      " a termelékenység veszélyeztetése nélkül."
+    ],
+    [],
+    [
+      "Nagy vágóállatfajok, ",
+      "-",
+      "fajták"
+    ],
+    [
+      "Testméretük alapján a nagyvágóállatok csoportjába az következő vágóállat fajok tartoznak:"
+    ],
+    [
+      "sertés "
+    ],
+    [
+      "szarvasmarha"
+    ],
+    [
+      "juh"
+    ],
+    [
+      "ló"
+    ],
+    [
+      "bivaly"
+    ],
+    [
+      " ",
+      "Közülük élelmiszeripari szempontból a sertés és a ",
+      "szravasmarha",
+      " a legjelentősebb."
+    ],
+    [],
+    [
+      "Szarvasmarha",
+      "fajták"
+    ],
+    [
+      "A Magyarországon tenyészett szarvasmarhafajtákat elsősorban hasznosítási irány szerint csoportosítjuk:"
+    ],
+    [
+      "Ősi magyar fajták"
+    ],
+    [
+      "Kettős ",
+      "hasznosítású",
+      " ",
+      "(tej- és ",
+      "húshasznosítás",
+      "ú",
+      ") ",
+      "szarvasmarhák "
+    ],
+    [
+      "Tej",
+      "hasznosítású",
+      " szarvasmarhák"
+    ],
+    [
+      "Húshasznosítású",
+      " szarvasmarhák"
+    ],
+    [],
+    [
+      "Ősi ",
+      "m",
+      "agyar fajták"
+    ],
+    [
+      " ",
+      "Magyar szürkemarha",
+      " – magyar alföldi szarvasmarha"
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Szürkemarha"
+    ],
+    [
+      "táblázat: ",
+      "A piktogramok magyarázata"
+    ],
+    [],
+    [
+      "Ismertetőjegyei:",
+      " Nagyméretű ",
+      "szarvas",
+      "marha. ",
+      "Színe az e",
+      "züstfehértől a hamuszürkéig",
+      " terjed",
+      ". A szemek, a far, a has és a combok körül gyakran sötétebb színű, különösen a bikáknál. A borjak vörösessárgán születnek. ",
+      "Feje k",
+      "eskeny és viszonylag rövid",
+      ". Nyaka h",
+      "osszú, lapos. Kifejezetten vad természetű",
+      " fajta",
+      ". Hosszú, mély mellkas",
+      "ú, enyhén púpos hátú, viszonyla",
+      "g",
+      " kis tőgyű állatok. Feltűnően hosszú, lendületes szarvuk van, amelyek az ökröknél akár 80 cm hosszúra is megnőhetnek."
+    ],
+    [
+      "Elterjedése: ",
+      "Elsősorban ",
+      "Magyarország",
+      "on őshonos",
+      ". Kis számban más közép- és kelet-európai országokban",
+      " is előfordulhat",
+      ". "
+    ],
+    [
+      "Előnyei: ",
+      "Nagy munkabírású",
+      ", k",
+      "ésői érésű",
+      ", b",
+      "etegségeknek ellenálló",
+      " fajta",
+      ". ",
+      "Jó",
+      "l",
+      " tűri a szélsőséges körülményeket. ",
+      "A r",
+      "idegtartást is elviseli, a tartási körülményekre i",
+      "génytelen. A borjak gyorsan növekednek. Az éves tejhozam",
+      "a",
+      " körülbelül 2000 ",
+      "L, ",
+      "4,5% zsírtartalommal. ",
+      "Húsa finom rostú, ízletes, hízlalásra mégis kevésbé alkalmas. ",
+      "Az utóbbi időben gyakran használják anyai ágon hízómarhák előállítására.",
+      " A ",
+      "tenyészérettségét",
+      " általában három-négy ",
+      "éves korban éri el."
+    ],
+    [
+      "Tenyésztési története: ",
+      "A fajta",
+      " ",
+      "a ",
+      "honfolglaló",
+      " magyarokkal együtt a IX. században került be a Kárpát-",
+      "m",
+      "edencébe. ",
+      "A XIV. századtól a XVIII. századig ez a szarvasmarha Magyarország területén kívül is nagyra becsült húsfajta volt, különösen Olaszországban, Ausztriában és Németországban. Amikor a XIX. században a mezőgazdaság intenzívebbé vált, a szürkemarha kiváló munkaállat",
+      " lett",
+      ". A XIX. század vége óta az egyedszám csökkent. A",
+      " rendszerváltás előtt a fajta majdnem kihalt. A ",
+      "legalacsonyabb szintet 187 nőstény és hat bika jelentette. "
+    ],
+    [],
+    [
+      "Kettős ",
+      "hasznosítású",
+      " szarvasmarhafajták"
+    ],
+    [
+      "A kettős ",
+      "hasznosítású",
+      " szarvasmarhák csoportjába tartozó ",
+      "fajták közös jellemzője, hogy mind a hús",
+      "-",
+      ", mind a tejtermelő képesség",
+      "ük",
+      " megfelelőnek mondható, de egyik hasznosítás",
+      "i",
+      " irány esetében sem teljesítenek kiemelkedően. "
+    ],
+    [],
+    [
+      "Szimentáli"
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra",
+      ": Szimentáli"
+    ],
+    [],
+    [
+      "A fajta ",
+      "Svájcból",
+      " származik, tenyésztése a XVIII. ",
+      "s",
+      "zázad vége felé",
+      ",",
+      " a XIX. század elején a",
+      "z",
+      " Alpokban kezdődött."
+    ],
+    [
+      "Ismertetőjegyei: ",
+      "Erős testfelépítésű",
+      " szarvasmarha, ",
+      "fejlett",
+      " csontozattal és jó izomzattal. A színe ",
+      "szabálytalan tarka, ",
+      "a világossárgától a sötét vörösesbarnáig terjed. A fej",
+      ",",
+      " a szemek környéke mindig fehér. A lábak alsó része is nagyrészt fehér. "
+    ],
+    [
+      "Elterjedése:",
+      " Alpok és környéke",
+      ", ",
+      "Délkelet-Európa",
+      ",",
+      " Észak- és Dél-Amerika",
+      ",",
+      " Nagy-Britannia",
+      ",",
+      " Kína",
+      ",",
+      " Dél-Afrika",
+      ". "
+    ],
+    [
+      "Előnyei: ",
+      "Kettős ",
+      "hasznosítású",
+      " fajta, ",
+      "h",
+      "ús és tejtermelése is jónak mondható. A tehenek éves tejhozama kb. 4500 ",
+      "l",
+      ", 4,1% zsír- és 3,5% fehérjetartalommal. Kiváló hizlalási teljesítményre képes. A hízóbikák napi hízása kb. 1500 g; a vágási hozam kb. 63%. Jól alkalmazható kisebb fajtákkal való keresztezésre. A tengerentúlon főként húsmarhaként tartják. Alkalmazkodó."
+    ],
+    [],
+    [
+      " ",
+      "Magyar tarka"
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " Magyar tarka"
+    ],
+    [
+      "táblázat",
+      ": Magyar tarka"
+    ],
+    [
+      "Forrás: http",
+      "s://supersteak.hu/magyar-tarka/ ",
+      "(",
+      "2024.06.24.",
+      ")"
+    ],
+    [],
+    [
+      "A ",
+      "M",
+      "agyar tarka a XIX.-XX. ",
+      "század",
+      " fordulóján a szimentáli keresztezésével jelent meg Magyarországon. "
+    ],
+    [
+      "Ismertetőjegyei: ",
+      "Küllemében sok hasonlóságot mutat a szimentálival",
+      ",",
+      " de finomabb csontozattal és kevésbé robusztus testfelépítésével tér el a kiindulási fajtától. ",
+      "Színe szabálytalan alakú piros, vagy sárgás mintázatú tarka. Testtömeg",
+      "e",
+      " nagy szóródást mutat. A tehenek tömege 600-700, a bikák tömege 900-1300 kg között változik. Magasság",
+      "a",
+      " a tehenek esetében: 135-140, a bikáké 140-145 cm",
+      ".",
+      "  "
+    ],
+    [
+      "Előnyei: ",
+      "A ",
+      "s",
+      "zimentálihoz hasonlóan kettős ",
+      "hasznosítású",
+      " fajta. A hústermelő képessége jó. Ízletes",
+      ",",
+      " jó minőségű húsa van. A tejtermelő képessége közepes, évente kb. 4500 ",
+      "l",
+      " tejet termel.  A növekedési erélye jónak mondható. "
+    ],
+    [],
+    [
+      "Brown ",
+      "swiss",
+      " (Brown ",
+      "szwisz",
+      ")",
+      " – barna svájci",
+      " borzderes szarvasmarha"
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra",
+      ": Brown ",
+      "swiss"
+    ],
+    [],
+    [
+      "A svájci Alpokból származó kettős ",
+      "hasznosítású",
+      " ",
+      "borzderes ",
+      "szarvasmarha. "
+    ],
+    [
+      "Ismertetőjegyei: ",
+      "Közepes méretű és közepesen testtömegű fajta. Egyenletes barna vagy szürkésbarna",
+      ", a borz szőréhez hasonlatos deres",
+      " színű. A bikák sötétebbek, mint a tehenek. A ",
+      "szarvvégek",
+      ", a száj és a paták sötéten ",
+      "pigmentáltak",
+      ". Szája és szeme fényesen csillogó. Jól ",
+      "izmolt",
+      ", viszonylag finom csontozatú szarvasmarha. "
+    ],
+    [
+      "Elterjedése: ",
+      "Az Alpok és az Elő-Alpok hatalmas legelői. A magas tejhozamnak és a különböző éghajlati és tartási körülményekhez való biztonságos alkalmazkodóképességének köszönhetően ez a fajta ma már szinte világszerte elterjedt. "
+    ],
+    [
+      "Előnyei: ",
+      "Tejtermelésre összpontosító, de kettős ",
+      "hasznosítású",
+      " szarvasmarha. Évente a testtömeg tízszeresét, azaz 7000 ",
+      "l",
+      " tejet termel",
+      ",",
+      " 4,2% zsír- és 3,6% fehérjetartalom mellett. A",
+      " ",
+      "hízóbikák napi hízása az 1100 g-",
+      "ot",
+      " is elérheti, a vágási kihozatal 62%. "
+    ],
+    [],
+    [
+      " ",
+      "Pinzgaui",
+      " szarvasmarha"
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Pinzgaui",
+      " szarvasmarha"
+    ],
+    [],
+    [
+      "Osztrák származású fajta. A Wallis",
+      " svájci kantonból s",
+      "zármazó szarvasmarhák és az osztrák őshonos fajták keresztezéséből tenyésztették a XIX. században. A fajta a nevét a Salzburg tartományban található ",
+      "Pinzgau",
+      " régióról kapta. Eredetileg hármas ",
+      "hasznosítású",
+      " (hús, tej és igavonó)",
+      " szarvasmarha volt."
+    ],
+    [
+      "Ismertetőjegyei",
+      ":",
+      " ",
+      "Nagy testalkatú, feltűnően hosszú farú szarvasmarha. Színe gesztenyebarna, A háton, a combok hátsó részén, a hason át a mellkas alatti részig széles fehér csík húzódik. A farok szintén fehér. Alkalmanként fekete-fehér állatok is lehetnek. Szája és patái sötétek. Rövid fejű",
+      ",",
+      " erős mellkasú, robosztus felépítésű fajta.  A combok jól ",
+      "izmoltak",
+      ". Szarva van."
+    ],
+    [
+      "Elterjedése: ",
+      "Főleg Ausztriában és Kelet-Európában elterjedt. "
+    ],
+    [
+      "Előnyei: ",
+      "E",
+      "llenáll a szélsőséges környezeti hatásoknak. Jól tűri a hideg és meleg időjárást is. Kiváló takarmány-felhasználású, békés vérmérsékletű fajta. Erőteljes lábai vannak. A tengerentúlon és Közép-Európában az anyatehén állományokban gyakran tartják húsmarhaként. Alkalmas keresztezésekre. Kettős ",
+      "hasznosítású",
+      " szarvasmarha, amely egyenlő hangsúlyt fektet a hústermelésre és a tejtermelésre. Éves tejhozam",
+      "a",
+      " 5300 l, 4,0% zsír",
+      "-",
+      " és 3,4% fehérje ",
+      "tartalommal. ",
+      "Egyes egyedek tejtermelési csúcsteljesítménye elérheti az évi 11 000 ",
+      "l",
+      "-t is. Napi súlygyarapodása elérheti az 1300 g-",
+      "ot",
+      " is. Húsa ízlete",
+      "s",
+      ", jól márványozott. "
+    ],
+    [],
+    [
+      " ",
+      "L",
+      "apálymarhák"
+    ],
+    [
+      "Északnyugat",
+      "-",
+      "Európából",
+      ",",
+      " az Északi",
+      "-",
+      " és a Keleti",
+      "-",
+      "tenger partvidékéről származnak. ",
+      "Az ",
+      "Európában ",
+      "előforduló lapálymarha",
+      " populáció",
+      "ban ",
+      "alapvetően két változat jelentős",
+      ":"
+    ],
+    [
+      "Feketetarka lapály",
+      " (a populáció 85%-a)"
+    ],
+    [
+      "Vöröstarka lapály ",
+      "(a populáció 10%-a)"
+    ],
+    [],
+    [
+      "Feketetarka lapály"
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " Feketetarka lapály"
+    ],
+    [],
+    [
+      "Ismertetőjegyei: ",
+      "Fekete-fehér foltos. Fekete fej",
+      ",",
+      " fehér jegyekkel. A szemet mindig pigmentált bőr veszi körül. A ",
+      "H",
+      "olstein-frízekkel való keresztezésnek köszönhetően az utóbbi években megnőtt a szarvasmarhák fején a fehér bőrfelületek és a fehér jegyek aránya. A német feketetarka lapály eredeti típusa ma már alig található meg. Közepes testalkatú, közepes izomtömeggel. Minél magasabb a ",
+      "H",
+      "olstein-fríz vér aránya, a feketetarkák annál nagyobb testalkatúak, hosszabb a lábuk és laposabb az izomzatuk. Szarva van, de a ",
+      "szarvtalanítási",
+      " kísérletek eredményeként egyre gyakrabban találkozhatunk szarv nélküli állatokkal."
+    ],
+    [
+      "Elterjedése:",
+      " A legelterjedtebb szarvasmarhafajta a világon. "
+    ],
+    [
+      "Előnyei: ",
+      "Tejtermelésre összpontosító",
+      ",",
+      " kettős ",
+      "hasznosítású",
+      " fajta. A törzskönyvezett tehenek éves átlagos tejhozama 8800 l",
+      ",",
+      " 4,1% zsír- és 3,4% fehérjetartalom mellett. ",
+      "A ",
+      "h",
+      "ízóbikák napi gyarapodása 1152 g-",
+      "os",
+      " hizlaláskor."
+    ],
+    [],
+    [
+      "Vöröstarka lapály"
+    ],
+    [
+      "",
+      "\n",
+      ""
+    ],
+    [
+      "ábra:",
+      " Vöröstarka lapály"
+    ],
+    [],
+    [
+      "Ismertetőjegyei:",
+      " ",
+      "Nagy",
+      " ",
+      "termetű, sötétvörös és fehér",
+      ",",
+      " tarka szarvasmarha. ",
+      "F",
+      "eje vörös, fehér jegyekkel. A Red Holsteinnel való keresztezésnek köszönhetően magasabb lett és laposabb izomzatú. Szarva van. Jelenleg gyakran ",
+      "szarvtalanítják",
+      " őket."
+    ],
+    [
+      "Elterjedése:",
+      " Észak- és Nyugat-Németországban; kisebb számban Németország más régióiban. Hasonló formák ",
+      "előfordulnak ",
+      "helyi elnevezésekkel más közép-európai országokban",
+      " is",
+      ". Észak-Amerikában ",
+      "red",
+      " ",
+      "holstein",
+      ", más néven ",
+      "red",
+      " ",
+      "friesian",
+      "."
+    ],
+    [
+      "Előnyei: ",
+      "Kevésbé jó körülmények esetében is jól tenyészthető. Jó ",
+      "a ",
+      "takarmány",
+      "-",
+      "felhasználási képessége. Tejtermelésre összpontosító, de kettős ",
+      "hasznosítású",
+      " szarvasmarha. Az éves tejhozama 8000 ",
+      "l",
+      ", 4,2% zsír- és 3,4% fehérjetartalommal. A fajta fiatal bikái átlagosan 1260 grammos napi súlygyarapodást érnek el. A húshozam eredmények 60%-",
+      "osak",
+      ".",
+      " "
+    ],
+    [],
+    [
+      "Tejhasznosítású",
+      " szarvasmarhák"
+    ],
+    [
+      "Elsősorban tejtermelő képességük miatt tenyésztik őket. A tejhasznosítás iránya miatt testfelépítésük a ",
+      "húshasznosítású",
+      " szarvasmarhákkal összehasonlítva jelentős eltérést mutat. ",
+      "Testük gyengén ",
+      "izmolt",
+      ", húsformáik (mellkas és a comb rész) fejletlenek.  Tőgyük fejlett, testfelépítésükhöz képest hatalmas méretű is lehet. "
+    ],
+    [
+      "Jersey",
+      " (",
+      "Dzsőrzi",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " Jersey marha"
+    ],
+    [],
+    [
+      "Az ",
+      "Anglia és Franciaország között fekvő",
+      ",",
+      " ",
+      "La",
+      " ",
+      "Manche",
+      "-",
+      "csatornában található Jersey",
+      "-",
+      "szigetről származnak. Nevüket is a szigetről kapták",
+      "."
+    ],
+    [
+      "Ismertetőjegyei: ",
+      "Kicsi, kecses, finom csontozatú, gyenge izomzatú szarvasmarhák. A színük nagyon változatos, vannak sárgásbarnától a világosvörösig, valamint krémszínű és majdnem fekete állatok, esetenként kopaszok is. Fejük, válluk, ",
+      "csípőjük",
+      " szinte mindig sötétebb árnyalatú. Fejük rövid, széles homlokkal. "
+    ],
+    [
+      "Elterjedése:",
+      " Az egész világon elterjedtek. Nagy-Britannián kívül Dániában található ",
+      "jelentős",
+      " állomány."
+    ],
+    [
+      "Előnyei: ",
+      "Kizárólag tejtermelő fajta. A ",
+      "J",
+      "ersey tehenek átlagosan évi 5000 l tejet termel",
+      "n",
+      "ek 6,0% zsír- és 4,1% fehérjetartalom mellett. A tejhozam tartósan magas szintű. ",
+      "Teje a sajt előállításához kiválóan alkalmas alapanyag.",
+      " Korai érésű fajta. "
+    ],
+    [],
+    [
+      " ",
+      "Ayrshire",
+      " (",
+      "Ajshire",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Ayrshire",
+      " marha"
+    ],
+    [],
+    [
+      "Jelenlegi változata a XVIII. század végén a délnyugat-skóciai ",
+      "Ayr",
+      " megyében, valószínűleg dán és holland szarvasmarhák, valamint a ",
+      "Highlands",
+      " és a ",
+      "Shorthorn",
+      ", esetleg a Csatorna-szigetekről (Jersey, ",
+      "Guernsey",
+      ") származó szarvasmarhák keresztezéséből származó őshonos fajtákból származik."
+    ],
+    [
+      "Ismertetőjegyei: ",
+      "Tejhasznosítású",
+      ", viszonylag gyengén fejlett mellső negyedekkel és a nagy tőgy miatt erősnek tűnő hátsó negyedekkel rendelkező fajta. Színe foltos barna vagy vörös és fehér; esetenként majdnem tiszta fehér. Feje világos foltokkal pettyezett. Finom csontozatú mérsékelt izomzatú állatok. "
+    ],
+    [
+      "Elterjedése: ",
+      "Világszerte elterjedtek. Különösen Nagy-Britanniában és Észak-Amerikában népszerűek. Finnországban a szarvasmarha",
+      " ",
+      "állomány több mint 80%",
+      "-",
+      "a",
+      " az",
+      " ",
+      "Ayrshire",
+      " fajtához tartozik. "
+    ],
+    [
+      "Előnyei: ",
+      "T",
+      "enyésztésének hangsúlya a tejhozamon van. Éves átlagos tejhozam",
+      "a",
+      " 6000 l, 3,9% zsírtartalom mellett. Hústermelése ",
+      "a ",
+      "tejelő fajtához képest jónak mondható. Számos más fajtával keresztezik a tejhozam javítása érdekében."
+    ],
+    [],
+    [
+      " ",
+      "Ho",
+      "l",
+      "stein",
+      "-f",
+      "ríz",
+      " (",
+      "Holstejn",
+      "-",
+      "fríz)"
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra: ",
+      "Holstein-fríz"
+    ],
+    [
+      "Forrás: https://hu.pinterest.com/pin/339669996876638746/",
+      " ",
+      "(2024.06.24.",
+      ")"
+    ],
+    [
+      "táblázat:",
+      " Holstein-fríz"
+    ],
+    [],
+    [
+      "Ismertetőjegyei: ",
+      "A ",
+      "F",
+      "eketetarka lapály fajtából ",
+      "Hollandiában ",
+      "nemesítették ki. Az USA-ban a tejtermelő tulajdonságait előtérbe helyezve nemesítették",
+      " tovább",
+      ", melynek során a legnagyobb hozammal rendelkező tejtermelő fajta jött létre. A tejtermelő képessége miatt viszonylag kis testű, gyengén ",
+      "izmolt",
+      ", fejletlen húsformájú állat. A tehenek tőgye fejlett. Színe a feketetarka lapályhoz hasonlóan fekete-fehér tarka. "
+    ],
+    [
+      "Elterjedése:",
+      " A világon a legelterjedtebb tejtermelő fajta. Magyarországon is a szarvasmarha ",
+      "állomány",
+      " túlnyomó része a ",
+      "H",
+      "olstein",
+      "-",
+      "fríz fajtához tartozik."
+    ],
+    [
+      "Előnyei: ",
+      "Tejtermelése világviszonylatban is egyedülálló, éves szinten átlagosan 8000 ",
+      "l",
+      " tej előállítására képes. A világon",
+      ",",
+      " éves szinten legtöbb tejet adó (27 500 ",
+      "l",
+      ") szarvasmarha is a ",
+      "H",
+      "olstein",
+      "-",
+      "friz",
+      " volt.  A hústermelő képessége rendkívül gyenge. Az értékes húsrészek aránya kedvezőtlen. "
+    ],
+    [],
+    [
+      " ",
+      "Húshasznosítású",
+      " szarvasmarhák"
+    ],
+    [
+      "Tenyésztésük fő iránya a minél nagyobb mennyiségű és/vagy minél jobb minőségű, márványozott hús előállítása. Közös jellemvonásuk a terjedelmes, dongás mellkas, jól ",
+      "izmolt",
+      " testfelépítés, izmos, fejlett végtagok. A ",
+      "húshasznosítású",
+      " szarvasmarhák ",
+      "nő ivarú",
+      " egyedeinek jellemzője a fejletlen gulyatőgy, ami igen csekély, kizárólag a borjú felnevelésére elegendő tej termelését teszi lehetővé."
+    ],
+    [],
+    [
+      "Megkülönböztethetünk:"
+    ],
+    [
+      "Kis testű húsmarhákat"
+    ],
+    [
+      "Közepes testű húsmarhákat"
+    ],
+    [
+      "Nagy testű húsmarhákat"
+    ],
+    [],
+    [
+      "Kis testű húsmarhák"
+    ],
+    [
+      "Aberdeen",
+      " ",
+      "a",
+      "ngus",
+      " (",
+      "Aberdín",
+      " ",
+      "engusz",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Aberdeen",
+      " ",
+      "angus",
+      " marha"
+    ],
+    [
+      "A fajta Skócia északkeleti részéről, ",
+      "Aberdeen",
+      " és ",
+      "Angus",
+      " megyékből származik. Az ásatási leletek azt mutatják, hogy a szarv nélküli szarvasmarhák már az őskorban is jelen voltak a környéken. A célzott tenyésztés a XVII. század végén kezdődött",
+      "."
+    ],
+    [
+      "Ismertetőjegyei:",
+      " Jellegzetes alkatú húsmarha fajta. ",
+      "Kis",
+      " ",
+      "termetű",
+      ". Teljesen fekete (Észak- és Dél-Amerikában létezik vörösesbarna változat is = ",
+      "red",
+      " ",
+      "angus",
+      "). Rövid lábú és vastag törzsű. A törzse hengeres és oldalról kifejezetten szögletes alakú. A mellső lábi között egyértelműen kiáll a szegycsontja. Feje kicsi és rövid. Szarv nélküli fajta."
+    ],
+    [
+      "Elterjedése: ",
+      "Nagy-Britannia",
+      ",",
+      " Észak- és Dél-Amerika",
+      ",",
+      " Új-Zéland",
+      ",",
+      " Ausztrália. Magyarországon is előfordul. "
+    ],
+    [
+      "Előnyei: ",
+      "Ellenálló a zord időjárási körülményekkel szemben. Kivételesen jóindulatú és békés. Igénytelen, alkalmazkodó. Magas vágási hozamú. Húsa ",
+      "f",
+      "inom ",
+      "rostozatú",
+      ", jól márványozott",
+      ".",
+      " A faggyú sárga színe a fajtára jellemző. Az átlagos napi hízás a tesztelt ",
+      "hizóállatoknál",
+      " kb. 1150 g. Korán ",
+      "faggyúsodik",
+      ", 350 kg-os élősúlytól kezdve erős zsírfelhalmozódás tapasztalható. Rendkívül gyors növekedésű. ",
+      "Tenyészteljesítménye",
+      " jónak mondható. A ",
+      "szarvatlanság",
+      " domináns módon öröklődik."
+    ],
+    [],
+    [
+      "Hereford",
+      " (",
+      "hírford",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Hereford"
+    ],
+    [],
+    [
+      "Ősi ",
+      "angol fajta",
+      ", amelyet Nyugat-Angliában (",
+      "H",
+      "erefordshire",
+      "-ben",
+      ") évszázadok óta tenyésztenek",
+      ".",
+      " Jelenlegi megjelenését 1800 körül nyerte el a flandriai szarvasmarhák keresztezésével."
+    ],
+    [
+      "Ismertetőjegyei:",
+      " Kis testű marha. Az alapszíne a piros. ",
+      "A f",
+      "ej, a nyak alsó része, a mellkas, az alhas, a tőgy vagy herezacskó, a farokbojt és a lábak alsó része, valamint egy keskeny csík a nyak felső részén a marmagasságig fehér színű. Fejlett mellkas és viszonylag rövid lábak jellemzik. A legtöbb állatnak szarva van, a ",
+      "szarvak",
+      " jellemzően lefelé görbülnek a fej oldalán. Észak-Amerikában és Nagy-Britanniában létezik egy szarv nélküli fajta is (",
+      "polled",
+      " ",
+      "hereford",
+      ")."
+    ],
+    [
+      "Elterjedése:",
+      " Az egész világon a ",
+      "legelterejdtebb",
+      " húsmarha. Több mint 5 millió törzskönyvezett példányt tartanak számon. Különösen Nagy-Britanniában, Észak- és Dél-Amerikában, Ausztráliában, Új-Zélandon, Dél-Afrikában elterjedt. Magyarországon is előfordul."
+    ],
+    [
+      "Előnyei: ",
+      "Igénytelen, ",
+      "allkalmazkodó",
+      " fajta. Jól tűri az éghajlati eltéréseket. Hosszú életű. A hízóbikák napi gyarapodása átlagosan 1100 g, de maga a hús nem túl zsíros. Korai érésű fajta."
+    ],
+    [],
+    [
+      "Közepes testű húsmarhák"
+    ],
+    [
+      "Shorthorn",
+      " (",
+      "shorthorn",
+      ")",
+      " – rövidszarvú"
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra: ",
+      "Shorthorn",
+      " marha"
+    ],
+    [],
+    [
+      "A rövidszarvú szarvasmarhát ",
+      "a ",
+      "XVIII. században Északkelet-Angliában tenyésztették ki nagy testű, jó tejhozamú szarvasmarhákból. "
+    ],
+    [
+      "Ismertetőjegyei:",
+      " A rövidszarvú húsmarhafajták közül a ",
+      "S",
+      "horthornnak",
+      " a hátsó része kifejezetten szögletes. Három színváltozata van: piros, fehér és vörös",
+      " ",
+      "szürkével foltozva. A fajta egyedei között e",
+      "z utóbbi a legelterjedtebb szín",
+      ". A színes bundájú állatokon fehér foltok fordulnak elő, különösen az alhason. A ",
+      "szarvak",
+      " viszonylag rövidek és viaszos színűek. Gyakran genetikailag szarv nélküliek."
+    ],
+    [
+      "Elterjedése: ",
+      "Eredetileg Északkelet-Angliában (beleértve ",
+      "Durham",
+      " megyét) terjedt el. Napjainkban már Észak- és Dél-Amerikában és számos más országban is előfordul. "
+    ],
+    [
+      "Előnyei: ",
+      "Nyugodt temperamentumú",
+      ",",
+      " korai érésű fajta. ",
+      "A k",
+      "örnyezeti tényezőkre igénytelen. Általában ",
+      "húshasznosítású",
+      " marhák nemesítésénél alkalmazzák. "
+    ],
+    [
+      "Lincoln Red",
+      " (",
+      "Linkoln",
+      " ",
+      "red",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Lincoln ",
+      "red"
+    ],
+    [
+      "Forrás: https://www.geograph.org.uk/photo/432117  Fotó:  Richard ",
+      "Croft",
+      " ",
+      "(2024.06.24.",
+      ")"
+    ],
+    [
+      "táblázat:",
+      " Lincoln ",
+      "red"
+    ],
+    [],
+    [
+      "Angliából, ",
+      "Lincolnshire",
+      " megyéből származó",
+      ",",
+      " a ",
+      "shorthorn",
+      " fajtából kitenyészett",
+      ",",
+      " közepes testű húsmarha. Első kitenyészett egyedeiről a XVII. században jelentek meg feljegyzések."
+    ],
+    [
+      "Ismertetőjegyei:",
+      " ",
+      "Nyugodt vérmérsékletű, közepes testméretű, jól ",
+      "izmolt",
+      " fajta. Szín",
+      "e",
+      " egyszínű piros. Testfelépítése a ",
+      "shorthornhoz",
+      " hasonló. "
+    ],
+    [
+      "Elterjedése: ",
+      "Elsősorban Nagy-",
+      "Britanniában terjedt el. E",
+      "lőfordul Észak Amerikában",
+      ", Ausztráliában",
+      " és ",
+      "Európa más országaiban",
+      ",",
+      " így Magyarországon is. "
+    ],
+    [
+      "Előnyei: ",
+      "Igénytelen, nyugodt vérmérsékletű fajta. Húsa a többi brit származású húsmarhával ellentétben ",
+      "faggyúsodásra",
+      " kevésbé hajlamos."
+    ],
+    [
+      "Nagy testű húsmarhák"
+    ],
+    [
+      "Aquitániai",
+      " ",
+      "(",
+      "akvitániai",
+      ") ",
+      "szőkemarha"
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Aquitániai",
+      " szőkemarha"
+    ],
+    [],
+    [
+      "Franciaországban",
+      " ",
+      "1962-ben a három szőke marhafajta, a ",
+      "garonnaise",
+      ", a ",
+      "quercy",
+      " és a ",
+      "blonde",
+      " des ",
+      "pyrénées",
+      " egyesítésével hozták létre."
+    ],
+    [
+      "Ismertetőjegyei: ",
+      "Nagy",
+      " ",
+      "termetű",
+      ", kivételesen ",
+      "hosszú testű",
+      ", v",
+      "iszonylag ",
+      "kis ",
+      "fej",
+      "ű szarvasmarha",
+      ". Egyszerű világos vagy búzaszínű. ",
+      "A",
+      " szemek és a pofa körül",
+      " világosabb színű",
+      ". A törzs alsó része és a lábak alsó része vékonyabb. A száj és a nyálkahártyák rózsaszínűek. Az összes húsos részen nagyon jól fejlett",
+      " az",
+      " izomzat",
+      "a",
+      ". Finom csontozatú. A ",
+      "szarvak",
+      " viaszos sárga színűek, sötét csúcsokkal."
+    ],
+    [
+      "Elterjedése: ",
+      "Főként ",
+      "D",
+      "élnyugat",
+      "-",
+      "Franciaországban elterjedt. ",
+      "Egy ideje már a világ valamennyi jelentős hústermelő országában, különösen az USA-ban, Argentínában, Brazíliában és ",
+      "Ausztráliában",
+      " is előfordul",
+      ". Egyedi populációk Közép-Európában",
+      " is megtalálhatók",
+      ". Franciaországban 500 000 állatot tartanak",
+      " nyilván",
+      "."
+    ],
+    [
+      "Előnyei: ",
+      "Igénytelen",
+      ", alkalmazkodó",
+      " és ",
+      "robusztus",
+      " ",
+      "fajta",
+      ". Nem érzékeny sem a szélsőséges hőmérsékletre, sem a nagy mennyiségű csapadékra. Jókedélyű állat. Napi gyarapodás",
+      "a",
+      " 6–12 hónapos korban 1400–1500 g. ",
+      "Kiváló húshozamú fajta. Húsa a",
+      "lacsony ",
+      "zsírtartal",
+      "mú",
+      ". "
+    ],
+    [
+      "Franciaországban tenyésztési programok folynak egyrészt a húsminőség és az anyai tulajdonságok célzott párosítással történő javítására, másrészt pedig a tejelő és tájfajtákkal való keresztezésre szánt bikák kiválasztására."
+    ],
+    [
+      "Charolais",
+      " (",
+      "Sárolé",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Charolais",
+      " marha"
+    ],
+    [],
+    [
+      "A fajta Franciaországból származik. Tenyésztése",
+      " ",
+      "a ",
+      "Charolles",
+      " (Franciaország) környékén elterjedt helyi fajtára vezethető vissza, amelyet a XIX. században fehér rövidszarvúakkal kereszteztek."
+    ],
+    [
+      "Ismertetőjegyei:",
+      " ",
+      "Vastag és széles testméretekkel rendelkező",
+      ",",
+      " nagy testű húsmarha. A fehértől a krémszínűig változó színű, rózsaszínű foltos szájjal és halvány patákkal. Feje rövid és széles. Erős csontozatú, jól ",
+      "izmolt",
+      ", kifejlett végtagokkal rendelkező fajta. "
+    ],
+    [
+      "Elterjedése:",
+      " Franciaország",
+      "ban",
+      " és Európa legtöbb ",
+      "országában elterjedt, így Magyarországon is megtalálható. Elterjedt még",
+      " Észak- és Dél-",
+      "Amerikában is.",
+      " "
+    ],
+    [
+      "Előnyei: ",
+      "Kiváló húsformákkal rendelkező,",
+      " ",
+      "jókedélyű ",
+      "állat. ",
+      "Rendkívül",
+      " jó vágási húskihozatallal rendelkezik, az értékes húsrészek aránya kiváló. Hús",
+      "a",
+      " jó minőségű, elzsírosodásra kevésbé hajlamos. A napi súlygyarapodása is rendkívül jó. Nem ritka a napi",
+      " 1300–1600 g",
+      "-",
+      "os",
+      " ",
+      "tömegnövekedés",
+      ". A fajtánál v",
+      "iszonylag ",
+      "későn alakul ki a ",
+      "vágá",
+      "s",
+      "érettség, ezért alkalmas nagy végsúlyú hízlalásra. Kedvező takarmányfelhasználás",
+      "a",
+      ". Jól alkalmazható ",
+      "keresztezésekre",
+      ".",
+      "Limousin",
+      " (Limuzin)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Limousin",
+      " marha"
+    ],
+    [],
+    [
+      "A k",
+      "özép-franciaországi ",
+      "Limousin",
+      " tartományból származik. Eredetileg mezőgazdasági felhasználásra igavonó fajtának tenyészették.",
+      " ",
+      "A húsmarhává való áttenyésztésre csak 1900-ban került sor. 2000-ben Franciaországban 907 475 állatot tartottak nyilván. "
+    ],
+    [
+      "Ismertetőjegyei:",
+      " ",
+      "N",
+      "agy testű, oldalról téglalapot formázó ",
+      "testfelépítésű ",
+      "húsmarha. A ",
+      "színe ",
+      "egyszínű vörösesbarna, a szemek és a pofa körül, valamint a mellkas alsó részén világosabb színű. A bika sötétebb színű. ",
+      "Szája ",
+      "és ",
+      "az ajkai rózsaszínűek",
+      ". ",
+      "Feje viszonylag kicsi",
+      ". ",
+      "Erős izomzatú, kifejlett testfelépítésű húsmarha",
+      ". Finom csontozatú. ",
+      "Szarvai és patái fényesek."
+    ],
+    [
+      "Elterjedése:",
+      " Az eredeti ",
+      "tenyészterület",
+      " Franciaország középső részén található (a központ Limoges városa). Több mint 60 országba exportálták. "
+    ],
+    [
+      "Előnyei: ",
+      "Igénytelen fajta.",
+      " ",
+      "Ellenáll az időjárás viszontagságainak. Jó termékenység",
+      "ű, hosszú ",
+      "életű",
+      " szarvasmarha",
+      ". A hízóállatok napi hízóképessége",
+      " magas,",
+      " átlagosan 1250 g. ",
+      "A fajtára ",
+      "jellemző a m",
+      "agas a húshozam. A hús",
+      "a",
+      " finom ",
+      "rosto",
+      "zatú",
+      ", jól márványozott, kevésbé hajlamos az elzsírosodásra",
+      ". Jól alkalmazható keresztezésekre."
+    ],
+    [],
+    [
+      "Fehér-kék belga"
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " Fehér-kék belga marha"
+    ],
+    [],
+    [
+      "Belga eredetű",
+      ",",
+      " nagytestű húsmarha. Eredetileg kettős ",
+      "hasznosítású",
+      " volt. A XIX. század második felében a ",
+      "C",
+      "harolais",
+      " és a ",
+      "S",
+      "horthorn",
+      " keverékeket keresztezték. Kezdetben a cél az volt, hogy kizárólag kettős ",
+      "hasznosítású",
+      " szarvasmarhákat tartsanak. 1950-től kezdődően a populáció egy részénél a ",
+      "húshaszosítási",
+      " irányt helyezték a tenyésztés középpontjába. "
+    ],
+    [
+      "Ismertetőjegyei: ",
+      "Rendkívül",
+      " izmos testfelépítésű, robosztus",
+      ",",
+      " nagytestű húsmarha. Színe fehér vagy kék-fehér foltos. Időnként fekete-fehér állatok is megjelennek. Viszonylag kicsi fej. Szarva van. Egyes ",
+      "egyedeknél",
+      " dupla farok is előfordulhat. "
+    ],
+    [
+      "Elterjedése: ",
+      "Belgium déli részén és Északkelet-Franciaországban a legelterjedtebb. A legelterjedtebb szarvasmarhafajta Belgiumban, a teljes állomány mintegy 45%-át teszi ki. Magyarországon is megtalálható."
+    ],
+    [
+      "Előnyei: ",
+      "Húshasznosítású",
+      " szarvasmarha.  A napi súlygyarapodás",
+      "a az",
+      " 1300 g-",
+      "ot",
+      " is elérheti. Rendkívül jó a húshasznosítása, a vágási húskihozatal a 65%-",
+      "ot",
+      " is elérheti. A legjobb hasított testminőség. Az értékes húsrészek aránya rendkívül kedvező.  Korai érésű fajta."
+    ],
+    [
+      "Különleges húsmarhák"
+    ],
+    [
+      "Wagyu",
+      " ",
+      "(",
+      "Wágju",
+      ") ",
+      "japán marha"
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra",
+      ": ",
+      "F",
+      "ekete ",
+      "wagyu"
+    ],
+    [
+      "Forrás: https://adoromicoci",
+      "na.com/carne-wagyu/ ",
+      "(2024.06.24.",
+      ")"
+    ],
+    [],
+    [
+      "táblázat: ",
+      "fekete ",
+      "wagyu"
+    ],
+    [],
+    [
+      "Japánban tenyésztett",
+      ",",
+      " őshonos fajta. Eredete a 17. század elejére nyúlik vissza. Japán a középkor végén a külvilágtól többnyire elzártan létezett. A külvilágból érkező hatások és ",
+      "idegen honos ",
+      "szarvasmarhafajták hiányában kialakult egy japán",
+      ",",
+      " tiszta genetikai állományú marhafajta.  Ebben az időszakban a marhákat kifejezetten mezőgazdasági használatra, igavonásra alkalmazták, húsmarhaként történő felhasználását a XX. századi",
+      "g",
+      " kerülték. A XX. század elején megkezdődött az őshonos japán marhák külföldi marhákkal (pl. ",
+      "A",
+      "berdeen",
+      " ",
+      "angus",
+      ") történő keresztezése, melynek során ",
+      "az ",
+      "őshonos japán fajtának ",
+      "négy ",
+      "különböző ",
+      "típusa",
+      " ",
+      "alakult ki:"
+    ],
+    [
+      "Fekete ",
+      "wagyu"
+    ],
+    [
+      "Japán minden részén tenyésztik. A japán ",
+      "wagyu",
+      " állomány 90%-át ez a fajta teszi ki. "
+    ],
+    [
+      "Japán Polled"
+    ],
+    [
+      "Az őshonos japán fekete marha és az ",
+      "A",
+      "berdeen",
+      " ",
+      "angus",
+      " keresztezésével nemesített ",
+      "wagyu",
+      " fajta."
+    ],
+    [
+      "Barna ",
+      "wagyu"
+    ],
+    [
+      "A ",
+      "S",
+      "zim",
+      "en",
+      "táli és a japán ",
+      "A",
+      "kaushi",
+      " fajta keresztezésével létrejött",
+      ",",
+      " ",
+      "vörös színű ",
+      "wagyu",
+      " fajta",
+      "."
+    ],
+    [
+      "Japán ",
+      "shorthorn"
+    ],
+    [
+      "Az angol eredetű ",
+      "S",
+      "horthorn",
+      " és a japán ",
+      "N",
+      "anbu",
+      " fajta keresztezésével létrejött ",
+      "wagyu",
+      " fajta",
+      "."
+    ],
+    [
+      "Ismertetőjegyei:",
+      " Közepes testfelépítésű, finom csontozatú ",
+      "fatja",
+      ". Színük fekete",
+      " (kivéve a Barna ",
+      "wagyut",
+      ", amelynek színe vörösbarna)",
+      ". ",
+      "S",
+      "zületéskor barna színűek, később feketednek be. Kicsi, rövid fejük van. Nyugodt vérmérsékletűek",
+      ".",
+      " Igavonó származása miatt a környezetei körülményekre igénytelen fajta. Napi súlygyarapodása 500-600 g körül alakul. "
+    ],
+    [
+      "Elterjedése: ",
+      "Japánból élő állatot a mai napig tilos exportálni. A 90-es években ",
+      "a j",
+      "apán kormányzat szigorúan tudományos célzattal engedélyezte, hogy néhány embriót az USA-ba szállítsanak, ahonnan az embriók eljutottak Kanadába és Ausztráliába is. A nem japán eredetű ",
+      "wagyu",
+      " marhák mind ebből a vonalból származnak. A megtermékenyített embriókat más fajtájú anyaállatba beültetve a fajta megjelent Magyarországon is.",
+      " "
+    ],
+    [
+      "Előnyei: ",
+      "Húsa a genetikai vérvonalnak és a speciális tartási körülményeknek köszönhetően rendkívül ízletes. A hús ",
+      "márványozottsága",
+      " egyedülálló. A hús zsírtartalmának olvadáspontja olyan alacsony, hogy az emberi szájban szinte vajas érzetet keltve elolvad. Emiatt a fajta húsa ",
+      "rendkívül",
+      " megbecsült ",
+      "a ",
+      "gasztronómiában. Japánban 12 pontos speciális szabvány segíti a ",
+      "wagyu",
+      " hús minősítését",
+      ". ",
+      "A hús gasztronómiai státusza megmutatkozik az árán is. Egy jó minősítést kapott ",
+      "wagy",
+      "u",
+      " hús kilója akár több százezer forint is lehet.",
+      " "
+    ],
+    [
+      "K",
+      "obe marhahús"
+    ],
+    [
+      "A csúcs minőségű marhahúst nevezik Kobe marhahúsnak. Kobe egy tenyésztési terület, amely ",
+      "Hyogo",
+      " ",
+      "prefektúrában",
+      " található. A ",
+      "kobe",
+      " jelölést kapott hús csakis kizárólag e területről származott és levágott",
+      ",",
+      " fekete ",
+      "wagyu",
+      " marhából származhat és a hús ",
+      "márványozottságának",
+      " a 12 pontos szabvány szerinti legjobb minősítéseket kell kapnia. "
+    ],
+    [],
+    [
+      "Sz",
+      "arvasmarhák kor szerinti elnevezése"
+    ],
+    [
+      "Szopós borjú ",
+      "(",
+      "ú",
+      "jszülött neve az elválasztásig)"
+    ],
+    [
+      "Választott borjú ",
+      "(",
+      "a",
+      " tejtáplálás megszüntetésétől 4-6 hónapos korig)"
+    ],
+    [
+      "Növendék üsző ",
+      "(",
+      "n",
+      "ő",
+      " ",
+      "ivarú szarvasmarha 6 hónapos kortól az első vemhesülésig)"
+    ],
+    [
+      "Növendék bika ",
+      "(",
+      "h",
+      "ímivarú szarvasmarha 6 hónapos kortól a hízlalás befejezéséig)"
+    ],
+    [
+      "Tehén",
+      " ",
+      "(",
+      "a",
+      " tenyésztésbe fogott növendék üsző az első ellés után)"
+    ],
+    [],
+    [
+      "Szarvasmarhák ",
+      "ivar",
+      " szerinti elnevezése"
+    ],
+    [
+      "Bika ",
+      "(hímivarú szarvasmarha)"
+    ],
+    [
+      "Nő",
+      " ",
+      "ivarú szarvasmarha az üsző, ellés után tehén"
+    ],
+    [
+      "Tinó ",
+      "(ivartalanított hímivarú szarvasmarha)"
+    ],
+    [
+      "Ökör ",
+      "(4 éves kort betöltött",
+      ",",
+      " ivartalanított hímivarú szarvasmarha)"
+    ],
+    [],
+    [
+      "Sertés",
+      "ek"
+    ],
+    [
+      " ",
+      "Őshonos fajták"
+    ],
+    [
+      "Mangalica"
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " Mangalica"
+    ],
+    [],
+    [
+      "Magyarországon őshonos, védett fajta. ",
+      "A szerb ",
+      "sumádi",
+      " sertéshez nyúlik vissza a története. A magyar mangalica sertés a XIX. század közepén ",
+      "létre",
+      "jött fajta, az őshonos bakonyi sertés és a ",
+      "szalontai",
+      " sertés keresztezésével. Szándékosan nagy szalonnateljesítményre tenyésztették ki. 1927-ben megalakult a Mangalicatenyésztők Országos Szövetsége. ",
+      "Az 1950-es évek végétől a ",
+      "húshasznosítású",
+      " sertésfajták folyamatosan kiszorították a mangalicát a piacról",
+      ",",
+      " emiatt egyedszámuk rohamos csökkenésnek indult. A csökkenés olyan nagymértékű volt, hogy a mangalica egyedszáma a 60-as évekre néhány tucat állatra csökkent. A rendszerváltás után a fajta egyedszáma ",
+      "fokazotosan",
+      " ismét növekedésnek indult. ",
+      "1994-ben újra megalakult a Mangalicatenyésztők Országos Egyesülete, mely összefogja és irányítja a magyar mangalica tenyésztést. 2004-ben a mangalicát védett, őshonos nemzeti fajtává nyilvánították. "
+    ],
+    [
+      "Ismertetőjegyei: ",
+      "Nagy",
+      " ",
+      "termetű, robosztus sertés, bőre palaszürke. Három színtípust különböztetünk meg",
+      ":  ",
+      "A",
+      " leggyakoribb a szőke színű, de van vörös és ún. „fecskehasú” is. Az utóbbi háta sötét, a hasa világos színű",
+      ". A szőkének sárgás aljszőrzete van. Körmei, ormánylemeze, szemhéja és végbélnyílása fekete. A fülek közepes méretűek és előre lógnak. Háta közepesen hosszú és mérsékelten ívelt. Végtagja",
+      "i",
+      " erősek. A malacok hosszanti ",
+      "csíkozásúak",
+      ", mint a vaddisznó kismalacai."
+    ],
+    [
+      "Elterjedése:",
+      " Magyarország, Románia. Szerbia, Horvátország és más délkelet-európai országok. "
+    ],
+    [
+      "Előnyei:",
+      " Szalonnasertés. Rendkívül igénytelen. A sűrű aljszőrzetű szőrzetnek köszönhetően nagyon jól tűri a hideget, de a magas hőmérsékletet is jól viseli, ha a ",
+      "dagonyázás",
+      " is lehetséges. Szalonnájának a telítettlen zsírsav aránya kedvező, így a mangalicából nagyon jó minőségű szalonna alapanyag termelhető ki. A húskihozatali aránya kedvezőtlen, de a hús minősége kiváló, a világhírű spanyol ",
+      "serrano",
+      " sonka alapanyagául is szolgál.  A húsa ",
+      "a ",
+      "magas pigmenttartalom és alacsonyabb víztartalom miatt a szárazárugyártás kiváló alapanyaga. "
+    ],
+    [
+      "Sokoldalú állat. Alkalmanként más fajtákkal keresztezik, hogy jó húsminőségű",
+      " ",
+      "sertéseket állítsanak elő. 11–13 hónapos korában tenyésztésre kész. "
+    ],
+    [],
+    [
+      "Húshasznosítású",
+      " sertések"
+    ],
+    [
+      "Magyar nagy fehér hússertés"
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " Magyar nagy fehér hússertés"
+    ],
+    [
+      "t",
+      "áblázat",
+      ": Magyar nagy fehér hússertés"
+    ],
+    [],
+    [
+      "Magyarországon a legelterjedtebb sertésfajta. ",
+      "Tenyésztése legalább 80 évre tekint vissza.  A nemesítés során a kiinduló fajta az angol nagyfehér hússertés volt.",
+      " "
+    ],
+    [
+      "Ismertetőjegyei:",
+      " Nagyméretű, hosszú testű, erős, feszes combú sertés. Fehér sörték fehér bőrön. Hegyesfülű."
+    ],
+    [
+      "Elterjedése:",
+      " Magyarországon a legelterjedtebb sertésfajta.  A nagy fehér hússertések számos európai és Európán kívüli országban is előfordulnak. "
+    ],
+    [
+      "Előnyei:",
+      " ",
+      "Hízékonysága",
+      ", testtömeg-gyarapodása, takarmányértékesítő képessége közepes. A ",
+      "stresszel",
+      " szemben ellenálló fajta. Kiváló szaporaságú. A keresztezés során a jó szaporasága és egyéb kedvező tulajdonságai mia",
+      "tt anyaállatként előszeretettel",
+      " alkalmazzák. "
+    ],
+    [],
+    [
+      " ",
+      "Magyar lapály sertés"
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " Magyar lapály sertés"
+    ],
+    [
+      "Forrás: http://www.mi",
+      "ntagazda.hu/fse.html ",
+      "(2024.06.24.",
+      ")"
+    ],
+    [
+      "táblázat:",
+      " ",
+      "Magyar lapály sertés"
+    ],
+    [],
+    [
+      "A fajta korábban Magyarországra behozott, ",
+      "s",
+      "véd, angol, dán, holland, finn lapály sertések ",
+      "keresztezésével jött létre."
+    ],
+    [
+      "Ismertetőjegyei: ",
+      "Hosszú, feszes hátú sertés. Jól ",
+      "izmolt",
+      " lapockával és combbal rendelkezik. Bőre rózsaszín pigmentmentes, szőrzete fehér, finom szálú, körmei viaszsárgák. A füle ",
+      "előrelógó",
+      ", tőben megtört."
+    ],
+    [
+      "Elterjedése:",
+      " Magyarországon az egyik legelterjedtebb fajta. ",
+      "A lapálysertések különböző fajtái (dán, angol, belga lapály) egész Európában elterjedtek. "
+    ],
+    [
+      "Előnyei:",
+      " Későn érő, nagy növekedési erélyű fajta. A hús minősége jó, el",
+      "zsírosodásra nem hajlamos. ",
+      "H",
+      "ústermelő képessége jó. ",
+      "A fajt",
+      "a kedvező tulajdonsága, hogy nem stresszérzékeny. Jól keresztezhető a magyar hússertéssel."
+    ],
+    [],
+    [
+      " ",
+      "Duroc",
+      " (",
+      "Durok",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Duroc"
+    ],
+    [],
+    [
+      "Az USA-ból származó fajta."
+    ],
+    [
+      "Ismertetőjegyei: ",
+      "Nagy",
+      " ",
+      "termetű",
+      " sertésfajta",
+      ". ",
+      "Színe egyszínű világosvöröstől a sötét vörösesbarnáig",
+      " terjed",
+      ", esetenként apró fekete foltokkal. Kis lógó fülek. Az orrvonala enyhén be van húzódva. Háta ívelt."
+    ],
+    [
+      "Elterjedése:",
+      " ",
+      "Leginkább ",
+      "Észak-Amerik",
+      "ában és",
+      " ",
+      "E",
+      "uróp",
+      "ában terjedt el",
+      ". ",
+      "Egyedei Magyarországon is megtalálhatók.  "
+    ],
+    [
+      "Előnyei: ",
+      "Robusztus",
+      ", j",
+      "óindulatú",
+      " állat. Sonkái, lapockái jól ",
+      "izmoltak",
+      ", kiváló hústermelő fajta",
+      ",",
+      " elsősorban hibridnemesítési programokban használják őket. Jókedélyű állat. A napi súlygyarapodása 900 g. Jó ",
+      "a takarmányhasznosítási képessége. ",
+      "A f",
+      "ajta előnyös tulajdonsága, hogy egyáltalán nem stresszérzékeny, emiatt a PSE hús kialakulásának a kockázata kicsi. ",
+      "Kiváló anyai tulajdonságokkal rendelkezik. A kocák sok tejet adnak. A pigmentáció jó védelmet nyújt a közvetlen napfény ellen. "
+    ],
+    [
+      "Hampshire",
+      " (",
+      "Hempshír",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " Hampshire"
+    ],
+    [],
+    [
+      "A brit ",
+      "S",
+      "addleback",
+      " sertésektől származik, amelyeket 1825-ben Hampshire megyéből importáltak az USA-ba."
+    ],
+    [
+      "Ismertetőjegyei: ",
+      "Középtermetű fajta. Alapszíne fekete, amit a lapockák mögött a testen körbefutó fehér csík szakít meg. Feje hosszú, behúzott orrvonallal. Lábai viszonylag rövidek. Fülei hegyesek. "
+    ],
+    [
+      "Elterjedése: ",
+      "Leginkább Észak-Amerikában és Európában terjedt el. Egyedei Magyarországon is megtalálhatók. A leggyakoribb sertésfajta az USA-ban."
+    ],
+    [
+      "Előnyei: ",
+      "Termékeny, kiváló anyai tulajdonságokkal rendelkező fajta, emiatt keresztezési programokban, mint anyaállat előszeretettel alkalmazzák. Ellenálló és robusztus. A napi súlygyarapodása 700–800 g. ",
+      "T",
+      "akarmányfogyasztás",
+      "a",
+      " 1 kg súlygyarapodásra vetítve 2,70 kg. A színhústartalom több mint 59%. Stressztűrő fajta. Igen jó minőségű hússal rendelkezik. "
+    ],
+    [],
+    [
+      "Piétrain",
+      " (",
+      "Pietrén",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra",
+      ": ",
+      "Pietrain"
+    ],
+    [],
+    [
+      "Belga eredetű fajta",
+      ". ",
+      "Eleinte csak egy tenyésztő tartotta ezeket a sertéseket a kis ",
+      "Piétrain",
+      " ",
+      "nevű ",
+      "faluban, innen ered a",
+      "z elnevezésük",
+      ". Az 1950-es évekig csak szűk területen, kis mennyiségben tartották. "
+    ],
+    [
+      "Ismertetőjegyei: ",
+      "Közepes ",
+      "testű, széles hátú, jól ",
+      "izmolt",
+      " sertés",
+      ". ",
+      "Színe tiszta fehér, esetleg világosszürke alapszínű, esetenként szabálytalanul eloszló fekete vagy sötétbarna foltokkal. Feltűnően fejlett sonkái és lapockái vannak. "
+    ],
+    [
+      "Elterjedése: ",
+      "Számos európai és Európán kívüli országban",
+      " elterjedt. Magyarországon is megtalálható."
+    ],
+    [
+      "Előnyei: ",
+      "Kiváló ",
+      "a hústermelő képessége",
+      ". ",
+      "Fejlett combjai és lapockái vannak",
+      ". ",
+      "A fajtát négysonkás sertésnek is nevezik",
+      ". ",
+      "A húsának alacsony a zsírtartalma",
+      ". ",
+      "A fajta ",
+      "rendkívül",
+      " ",
+      "stersszérzékeny",
+      ", emiatt ",
+      "vágás után a hús minőségére kedvezőtlen",
+      ", rendellenes folyamatok (PSE) ",
+      "alakulhatnak ki.  ",
+      "A napi súlygyarapodás",
+      "a",
+      " 790 g. A 90–95 kg-os vágósúlyt körülbelül 180 napra érik el. Alkalmas apafajtaként keresztezésekhez."
+    ],
+    [],
+    [
+      "Hibrid sertések"
+    ],
+    [
+      "A hibridsertés",
+      "ek létrehozásának célja, hogy az utód hibrid állatokban a ",
+      "keresztezés során alkalmazott anyai és apai tenyészállatfajták előnyös tulajdonságai minél nagyobb mértékben ",
+      "megjelenjen",
+      "ek",
+      ". Az így keresztezett hibrid sertések az apai és az anyai fajták előnyös tulajdonságait is hordozzák, ezáltal gazdasági szempontból hasznosabb egyedek hozhatók létre.  ",
+      "A h",
+      "ibridsertések nemesítésének főbb irányai:"
+    ],
+    [
+      "a húskihozatal növelése"
+    ],
+    [
+      "a ",
+      "hízékonyság",
+      " javítása "
+    ],
+    [
+      "a szaporaság javítása"
+    ],
+    [
+      "a ",
+      "stresszérzékenység csökkentése"
+    ],
+    [
+      "a tartási körülményekre való igénytelenség"
+    ],
+    [
+      "az ellenállóképesség növelése"
+    ],
+    [
+      "a hús",
+      "minőség javítása"
+    ],
+    [
+      "a ",
+      "korai vágásérettség kialakulása"
+    ],
+    [],
+    [
+      "Első magyarországi",
+      " hibrid sertésfajták"
+    ],
+    [
+      " ",
+      "KA-HYB (kapo",
+      "s",
+      "vári hibrid)"
+    ],
+    [
+      "Magyarországon a 60-as években céltuda",
+      "to",
+      "s",
+      "a",
+      "n megjelent a hibrid sertések tenyésztése",
+      ".",
+      "  ",
+      "Az e",
+      "lső magyar hibrid sertést ",
+      "a ",
+      "Kaposvári Egyetemen KA-HYB néven tenyésztették ki. A KA-HYB sertés hústermelése kedvező",
+      " volt",
+      ". Az értékes húsrészek aránya 47-48 %. A szalonna vastagsága nem halad",
+      "ta",
+      " meg a 25 mm-t. A fajta hústermelő képessége ",
+      "az akkori tenyésztési technológiai viszonyokat figyelembe véve ",
+      "kimagasló",
+      " volt",
+      ".",
+      " Napjainkban a fajtát tenyésztési célból már nem alkalmazzák. "
+    ],
+    [],
+    [
+      "Pannon-hibrid"
+    ],
+    [
+      "A ",
+      "M",
+      "agyar nagy fehér hússertés, a ",
+      "M",
+      "agyar lapály",
+      ",",
+      " a ",
+      "D",
+      "uroc",
+      " és a ",
+      "P",
+      "ietrain",
+      " fajták keresztezésével hozták létre. A Pannon-hibrid esetében az értékes húsrészek aránya 47-48%. A szalonna vastagság értékei is kedvezőek.",
+      " Manapság a jobb tulajdonságokkal rendelkező modern hibrid fajták kiszorították a piacró",
+      "l",
+      ". "
+    ],
+    [],
+    [
+      "Seghers",
+      " hibrid",
+      " ",
+      "sertés"
+    ],
+    [
+      "A ",
+      "Seghers",
+      " hibrid sertés elődje ",
+      "Belgiumból",
+      " került Magyarországra a ’90-es években. A keresztezés során ",
+      "a ",
+      "M",
+      "agyar lapály, ",
+      "a ",
+      "D",
+      "uroc",
+      ", ",
+      "a ",
+      "M",
+      "agyar nagy fehér hús",
+      "sertés ",
+      "fajták",
+      "at",
+      " ",
+      "alkalmaz",
+      "ták",
+      ". Az értékes húsrészeinek aránya 48-49 %. A színhústartalom átlagosan 54,3%",
+      ".",
+      " Jó szaporaság, jó ellenálló képesség, kiváló ",
+      "h",
+      "í",
+      "zékonyság",
+      " ",
+      "jellemezte. A Pannon-hibridhez hasonlóan a modern hibrid sertésfajták (pl. ",
+      "D",
+      "a",
+      "n",
+      " ",
+      "Bred",
+      ") elterjedésével tenyésztése visszaszorult. "
+    ],
+    [],
+    [
+      " ",
+      "Napjaink jelentős hibrid",
+      " ",
+      "sertésfajtái"
+    ],
+    [
+      "D",
+      "an",
+      "Bred"
+    ],
+    [
+      "A magyarországi sertéstenyésztők a 2000-es évek elején kezdték ",
+      "tenyészetni",
+      " a ",
+      "Dan",
+      " ",
+      "Brev",
+      "-re jellemző genetikai tulajdonságokkal rendelkező sertésfajtát. ",
+      "\t",
+      "A fajtát kiváló szaporaság és napi testtömeg",
+      "-",
+      "gyarapodás ",
+      "jellemzi",
+      ". ",
+      "Keresztezése ",
+      "során",
+      " anyai vonalon a Magyar lapály és ",
+      "a ",
+      "Yorkshire",
+      " fajtákat, apai vonalon ",
+      "a ",
+      "Duroc",
+      " fajtákat alkalmaznak. A magyarországi hibrid sertés állomány kb. 40 %-",
+      "a",
+      " ",
+      "a",
+      " ",
+      "DanB",
+      "red",
+      " fajtához tartozik."
+    ],
+    [],
+    [
+      "Topigs",
+      " ",
+      "Norvin"
+    ],
+    [
+      "A ",
+      "Topigs",
+      " ",
+      "Norvin",
+      " hibridet a 90-es években kezdték tenyészteni",
+      " ",
+      "Hollan",
+      "d",
+      "iában, amely mára a világ egyik vezető sertés hibrid genetikai vonalává vált. A TN70-es koca napjainkban a legjelentősebb, legjobb genetikai tulajdonságokkal rendelkező anyasertés. A ",
+      "Topigs",
+      " genetikai vonallal keresztezett sertéseket kit",
+      "ű",
+      "nő szaporaság, takarmányhasznosító képesség és testtömeg",
+      "-",
+      "gyarapodás ",
+      "jellemzi",
+      ". Nagyon jó ",
+      "a ",
+      "hőstressztűrő képességük, illetve ",
+      "ellenállóak",
+      " ",
+      "a  betegségekkel",
+      " szemben. "
+    ],
+    [],
+    [
+      "Hypor",
+      " ",
+      "Maxter"
+    ],
+    [
+      "A l",
+      "eggyorsabb gyarapodású ",
+      "Pietrain",
+      " sertés hibrid. ",
+      "A ",
+      "Pietrain",
+      " stresszérzékenységét a fajta nemesítésével sikerült kiküszöbölni. A fajtát kiváló húsgyarapodás, nagy takarmányhasznosítási hatékonyság és nagy színhústartalom arány ",
+      "jellemzi",
+      ".  ",
+      " "
+    ],
+    [],
+    [
+      "Hússertések csoportosítása",
+      " felhasználás szerint",
+      " "
+    ],
+    [
+      "Bacon sertések",
+      ":"
+    ],
+    [
+      "Hét hónaposnál nem idősebb sertések. Tömegük: 80-90 kg",
+      ".",
+      " ",
+      "A s",
+      "zalonna vastagság",
+      "a",
+      " a maron 40 mm",
+      ",",
+      " a háton és az ágyékon 20 mm. Lapályfajták keresztezett utódai alkalmasak ",
+      "bacon sertésnek",
+      "."
+    ],
+    [],
+    [
+      "Sonkasertések:"
+    ],
+    [
+      "Négysonkás sertések. Pl. ",
+      "Pietrain",
+      ", B",
+      "elga lapály. Fejlett combbal, lapockával rendelkeznek. 6-7 hónapos korban",
+      ",",
+      " 95-120 kg-os élőtömeg elérése után kerülnek vágásra."
+    ],
+    [],
+    [
+      "Tőkesertések:"
+    ],
+    [
+      "Lakossági, fogyasztói igényeket elégítenek ki. Általában ",
+      "a ",
+      "110-150 kg közötti testtömegű sertéseket vágják."
+    ],
+    [],
+    [
+      " ",
+      "TF sertések:"
+    ],
+    [
+      "Tenyésztésből kivont",
+      ",",
+      " nagy súlyú (legalább 150 kg vagy a feletti) nőivarú sertések. A húsuk a nagy pigmenttartalom és az alacsony víztartalom miatt a szalámi és ",
+      "a ",
+      "szárazáru előállítására alkalmasak. "
+    ],
+    [],
+    [
+      "Sertések ivar és kor szerinti elnevezése"
+    ],
+    [
+      "I",
+      "Ivar",
+      " szerinti elnevezés"
+    ],
+    [
+      "Kan (hímivarú sertés)"
+    ],
+    [
+      "Koca (nőivarú sertés)"
+    ],
+    [
+      "Ivartalanított állatok:"
+    ],
+    [
+      "Ártány (fiatal ivartalanított hímivarú sertés)"
+    ],
+    [
+      "Kanlott",
+      " (idősebb ivartalanított hímivarú sertés)"
+    ],
+    [
+      "Miskárolt sertés (ivartalanított nőivarú (koca) sertés)"
+    ],
+    [],
+    [
+      "Kor szerinti elnevezés"
+    ],
+    [
+      "Malac (a születéstől az elválasztásig, 8 hetes korig)"
+    ],
+    [
+      "Süldő (az elválasztástól 8 hónapos korig)"
+    ],
+    [
+      "Hízósertés (a hizlalás alatt levő sertés)"
+    ],
+    [
+      "Hízott sertés (a",
+      " kívánt vágás",
+      "i",
+      " súlyban lévő sertés)"
+    ],
+    [],
+    [
+      "Baromfifajok, ",
+      "-",
+      "fajták"
+    ],
+    [
+      "A magyarországi húsfogyasztási szokásokat elem",
+      "e",
+      "zve megállapítható, hogy a sertés mellett a baromfi és ezen belül is a csirkehús fogyasztásának van a legnagyobb hagyománya. Az egy főre vetített csirkehúsfogyasztás hazánkban a többi vágóállat faj húsának fogyasztásához viszonyítva a legjelentősebb, körülbelül 30 kg évente.  Emiatt a baromfifélék tenyésztésének és feldolgozásának fontos jelentősége van a magyar élelmiszer",
+      "-",
+      "ellátásban. A baromfifélék köz",
+      "ött,",
+      " különböző hasznosítási szempontokat figyel",
+      "em",
+      "be",
+      " ",
+      "véve",
+      ",",
+      " megkülönböztetünk sovány baromfifajokat és ",
+      "-",
+      "fajtákat, illetve ",
+      "vízibaromfi",
+      "fajokat és ",
+      "-",
+      "fajtákat."
+    ],
+    [
+      "Sovány baromfifajok:"
+    ],
+    [
+      "Tyúkfélék (csirke, tyúk)"
+    ],
+    [
+      "Pulyka"
+    ],
+    [
+      "Gyöngytyúk"
+    ],
+    [
+      "Vizibaromfifajok, ",
+      "-",
+      "fajták:"
+    ],
+    [
+      "Lúdfajták"
+    ],
+    [
+      "Kacsa fajták"
+    ],
+    [],
+    [
+      "S",
+      "ovány b",
+      "aromfifajok"
+    ],
+    [
+      "Tyúkfélé",
+      "k"
+    ],
+    [
+      "A húsipar számára fontos tyúkfajták csoportosításának legcélszerűbb módja a hasznosítás iránya szerinti csoportosítás."
+    ],
+    [
+      "Hasznosítási irány szerint megkülönböztetünk:"
+    ],
+    [
+      "Húshasznosítású"
+    ],
+    [
+      "Tojó ",
+      "hasznosítású"
+    ],
+    [
+      "Kettős ",
+      "hasznosítású",
+      " fajtákat"
+    ],
+    [],
+    [
+      " ",
+      "Húshasznosítású",
+      " fajták"
+    ],
+    [
+      "Fehér ",
+      "cornish"
+    ],
+    [
+      "A fajta az Egyesült Államokból származik. A ",
+      "C",
+      "ornish",
+      " ",
+      "őse",
+      " az indiai vörös ",
+      "viador fajta",
+      " volt, melyből az a",
+      "ngolok tenyésztették ki a kivál",
+      "ó mell és comb húsformákkal rendelkező ",
+      "cornwall",
+      " ",
+      "viadort, amely az USA-ban tenyésztett ",
+      "C",
+      "ornish",
+      " elődjének tekinthető. A fajta fontos szerepet tölt be a pecsenyecsirke előállításban."
+    ],
+    [
+      "A ",
+      "C",
+      "ornish",
+      " kiemelkedő húsformái és erőteljes comb és mell izomzata miatt gazdasági szempontból jelentős fajta.  Tojástermelése közepes. Nagyjából 100-110 tojást te",
+      "rmel",
+      " évente. Szaporasága mérsékelt. A tollazatának színe fehér, lábai sárgák. ",
+      "Kiváló",
+      " hústermelése miatt húshibrid fajták keresztezéséhez is alkalmazzák."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Fehér ",
+      "cornish"
+    ],
+    [
+      "Forrás: https://hu.depositphotos.com/123197802/stock-photo-chicken-cornish-eatin",
+      "g-watermelon-in.html ",
+      "(2024.06.24.",
+      ")"
+    ],
+    [],
+    [
+      " ",
+      "Toj",
+      "ó ",
+      "hasznosítású",
+      " fajták"
+    ],
+    [
+      "Leghorn"
+    ],
+    [
+      "Az Egyesült Államokból származó tojástermelő fajta. Kis testtömege és gyenge hústermelő képessége miatt húshasznos",
+      "ít",
+      "ás szempontjából a fajta nem jelentős. A kifejlett tojók testtömege maximum 2 kg, a kakasoké 2,5 kg. Kiváló a t",
+      "o",
+      "j",
+      "á",
+      "stermelő képessége. Évente 250 db tojásnál is többet termelhet. A tojások átlagos tömege az 55 g-",
+      "ot",
+      " is meghaladja. "
+    ],
+    [
+      "Tollazatának ",
+      "színe",
+      " fehér. Csőre és a lába sárga színű."
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Leghorn"
+    ],
+    [
+      "Forrás: https://hu.depositphotos.com/279458366/stock-photo-chicken-broilers-poul",
+      "try-farm-white.html ",
+      "(2024.06.24.",
+      ")"
+    ],
+    [],
+    [
+      "Rhode ",
+      "island",
+      " ",
+      "red"
+    ],
+    [
+      "A XIX. század közepén az Egyesült Államokban tenyésztették ki. A fajtára jellemző a szögletes, téglaforma, a vízszintes testtartás és ",
+      "a ",
+      "szabad tartás miatt jól látható combok. ",
+      "A ",
+      "L",
+      "eghornnál",
+      " nagyobb testtű, tojástermelő fajta. A tojók mérete kb. 2,5 kg. Évente 200-250 db tojást termel. A tojások átlagos mérete 55-61 g körül van."
+    ],
+    [
+      "Színe",
+      " kizárólag egyenletes, gazdag sötétvörös, nagyon csillogó lehet. Fekete jegyek megjelenhetnek a szárnyakon és a farkon. A lába",
+      " és a ",
+      "csőre sárga, ",
+      "a ",
+      "taraja fűrészelt alakú. "
+    ],
+    [
+      "Különlegességek:",
+      " a ",
+      "R",
+      "hode ",
+      "island",
+      " fajta egyedei rendkívül erősek. A tollazat növekedésének lassulásával kapcsolatos korábbi problémákat sikerült megoldani. Mozgékonyságuk és temperamentumuk előnyös a szabadban való táplálkozás során."
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " Rhode ",
+      "island",
+      " ",
+      "red",
+      " kakas és tojó"
+    ],
+    [],
+    [
+      " ",
+      "Kettős ",
+      "hasznosítású",
+      " fajták"
+    ],
+    [
+      "A k",
+      "ettős ",
+      "hasznosítású",
+      " fajtákra jellemző, hogy elfogadható a tojás",
+      "-",
+      " és a hústermelése is, de mindkét irány elmarad a speciálisan hús és ",
+      "tojáshasznosítású",
+      " fajták termelésétől."
+    ],
+    [],
+    [
+      " ",
+      "New Hampshire"
+    ],
+    [
+      "1915-től kezdve az USA-ban, New Hampshire államban ",
+      "R",
+      "hode ",
+      "I",
+      "slandből (",
+      "R",
+      "hode ",
+      "I",
+      "sland ",
+      "reds",
+      ") tenyésztették ki szigorú szelekcióval. Röviddel 1945 után importálták az aranybarna „csodacsirkéket” Hollandiába. Ausztriában és 1950 körül Németországban is virágzásnak indult a tenyésztésük."
+    ],
+    [
+      "A",
+      " széles és mély test alapvetően határozza meg a formáját. Mély és gömbölyű mellkas és telt has alkotja az alapvonalat. A tyúknál a test és a far jó széles. ",
+      "J",
+      "ól formált combokkal és közepes hosszúságú lábakkal rendelkezik. A tyúkok testtömege 2,5-3 kg között változik."
+    ],
+    [
+      "Az éves tojástermelése 170-230 db. A ketreces tartást kevésbé tűrő, környezeti hatásokkal szemben ellenálló fajta.",
+      " Tollazatának színe vörös és sötétsárga árnyalat között változhat. "
+    ],
+    [
+      "Barátságos természetű állat. Kiváló tojó- és hízócsirke, jól hasznosít minden takarmányt. Az állomány számát tekintve az egyik legelterjedtebb fajta."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "ábra",
+      ": New Hampshire kakas és tojó"
+    ],
+    [],
+    [
+      "Plymouth ",
+      "Rocks"
+    ],
+    [
+      "Eredetileg 1850-től az USA-ban (Worcester/Massachusetts) csíkos színben tenyésztették ki jávai, dominikai, ",
+      "brahmai",
+      " és ",
+      "cochini",
+      " tyúkfajtákból. A fajta neve az angol rock szóra utal, amely sziklát jelent, és ",
+      "azt jelzi",
+      ", hogy milyen „sziklaszilárd” egészségű a fajta. ",
+      " "
+    ],
+    [
+      "A teste",
+      " csúcsára állított háromszög formájú. Hosszú, széles és mély farú",
+      ";",
+      " széles, közepes hosszúságú, enyhén emelkedő hátú. Közepes hosszúságú combjai és lábai vannak megkülönböztető jegyek nélkül. Jó növekedési eré",
+      "ly",
+      "ű állat. Tojástermelése jó (240 db/év).",
+      " Színe szürkés, fehér sávokkal",
+      "."
+    ],
+    [
+      "Könnyen ",
+      "hízlalható",
+      ", viszonylag nagy tömegű tojásokat ad, kiváló a hús minősége."
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " Plymouth rock kakas és tojó"
+    ],
+    [],
+    [
+      "Sussex"
+    ],
+    [
+      "Angliában ten",
+      "yészették ki, de eredete a római",
+      " időkig nyúlik vissza",
+      ". A",
+      " XIX. század eleje óta folytak tenyésztési kísérletek a ",
+      "dorking",
+      ", a ",
+      "cochin",
+      " és a ",
+      "brahma",
+      " fajtákkal a dél-angliai Kent, ",
+      "Surrey",
+      " és ",
+      "Sussex",
+      " megyékben. "
+    ],
+    [
+      "A",
+      " test ",
+      "téglatest",
+      " formájú és elnyújtott, a mélység-hossz aránya 1:1,5. A felső vonalat a széles és hosszú, vízszintes helyzetű hát alkotja, az alsó vonalat a mély és széles mellkas, valamint a hátrafelé kiugró hasi rész ",
+      "jellemzi",
+      ". Húsformái göm",
+      "b",
+      "ölydedek, húsa finom ",
+      "rostozatú",
+      ". Tojástermelése átlagos, évente 190-200 db. Színére a ",
+      "columbián",
+      " ",
+      "rajzolat jellemző",
+      ", ",
+      "aminek eredményeként t",
+      "estének színe általában fehér, ",
+      "a ",
+      "nyak",
+      "-",
+      " és ",
+      "a ",
+      "faroktollak feketék. Cs",
+      "ő",
+      "re és lába színe fehér. "
+    ],
+    [
+      "J",
+      "óindulatú viselkedése és hidegtűrő képessége kedvez a téli nevelésnek és tojásrakásnak. Harmonikus általános megjelenése miatt elterjedt kiállítási állat. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Sussex",
+      " kakas és tojó"
+    ],
+    [],
+    [
+      "Sárga magyar tyúk ",
+      "(m",
+      "agyar nemesített tyúk)"
+    ],
+    [
+      "A magyarországi tenyésztése a XX. század elején kezdődött, melynek célja a jó tojástermelő képességű fajta kitenyésztése volt. ",
+      "Elsősorban a ",
+      "Dunántúlon,",
+      " ",
+      "a Duna-Tisza közén és az Alföld",
+      "ön terjedt el. A magyar nemesített tyúkokra ",
+      "az ",
+      "edzettség és az igénytelenség jellemző. A tyúkok testtömege 2-2,5 kg körüli",
+      ",",
+      " a kakasok kicsit nagyob",
+      "b",
+      "ak, 2,8-3 kg körüliek. A sárga magyar tojástermelése megközelíti a 200 tojást évente. A tojások tömege 55-59 g között változik. Színük élénksárga. A nyaktollak ",
+      "végei",
+      ", a szárny evezőtollai és a faroktollak ",
+      "végei",
+      " ",
+      "barnásfekete",
+      " színbe hajlanak. "
+    ],
+    [
+      "",
+      ""
+    ],
+    [
+      "ábra:",
+      " Sárga magyar kakas és tyúk"
+    ],
+    [
+      "Forrás: https://www.ferto-hansag.hu/hu/regi-magya",
+      "r-baromfifajtak.html ",
+      "(2024.06.24.",
+      ")"
+    ],
+    [
+      "Forrás: https://www.agraroldal.hu/magyar-tyukfajtak.html ",
+      "(2024.06.24.",
+      ")"
+    ],
+    [],
+    [
+      "Hibridek"
+    ],
+    [
+      "Egy baromfifajon belül, tudatos módon, keresztezéssel létrehozott utó",
+      "dok, amelyben az apa",
+      "-",
+      " és az anya",
+      "állat hasznosítás iránya szerinti kedvező tulajdonságai az utódban együttesen öröklődnek. "
+    ],
+    [],
+    [
+      "Húshibridek"
+    ],
+    [
+      "A húshibrid fajták kitenyésztésének elsődleges célja a kiváló növekedési erélyű és húsformájú egyedek létrehozása.",
+      " Apai vonalon a kiinduló fajta alapvetően",
+      " a",
+      " ",
+      "Cornish",
+      ", amelynek jól ",
+      "izmolt",
+      " mell",
+      "-",
+      " és combizomzata van. Anyai vonalon a jó növekedési erélyű és jó termékenységű Plymouth fajták terjedtek el. Korábban a húshibridek piacán népszerűek voltak a jó növekedési erélyű hibridfajták, mint az ",
+      "Albor",
+      ", ",
+      "a ",
+      "Cobb",
+      " 500, és a ",
+      "Hybro",
+      ". Napjainkban a brojler",
+      ", vagy ",
+      "pecsenyecsirke",
+      "-",
+      "tenyésztés során alkalmazott elsődleges hibridfajta a kiváló növekedési eréllyel és takarmányértékesítő képességgel rendelkező Ross 308 hibrid. "
+    ],
+    [],
+    [
+      " ",
+      "Tojó hibridek"
+    ],
+    [
+      "A tojó hibridek tenyésztésének elsődleges célja a kiváló tojástermelő képességű (290-310 db/év) és az erős héjú tojást tojó fajták létrehozása. A fehér héjú tojást tojó hibridek keresztezésének kiinduló fajtája a ",
+      "Leghorn",
+      ". A sárga héjú tojást tojó hibrideket a Plymouth és a R",
+      "ho",
+      "de ",
+      "I",
+      "sland ",
+      "red",
+      " fajtákból keresztezik. ",
+      "A toj",
+      "ó",
+      "hibridek ",
+      "piacán ",
+      "korábban a Tetra SL és a ",
+      "Shaver",
+      " 579 és 288 töltötte be a ",
+      "vezetõ",
+      " szerepet, addig az utóbbi ",
+      "idõben",
+      " b",
+      "ő",
+      "vült a választék és az ",
+      "Isabrown",
+      ", a ",
+      "Hy",
+      "-Line, a ",
+      "Bovans",
+      " és a ",
+      "Lohman",
+      " is egyre jelent",
+      "ő",
+      "sebb teret hódít."
+    ],
+    [],
+    [
+      "Pecsenyecsirke",
+      "-",
+      " (brojler) tenyésztés mélyalmos technológiával"
+    ],
+    [
+      "A brojlercsirke",
+      "-",
+      "tenyésztés, ",
+      "-",
+      "előállítás ",
+      "a magyarországi baromfitartás egyik meghatározó területe.",
+      " A zárt ",
+      "istállóban,",
+      " mélyalmos ",
+      "téchnológiával",
+      " végzett brojlercsirke",
+      "-",
+      "tenyésztéshez ma ",
+      "már kizárólag jó ",
+      "termelõképesség",
+      "ű",
+      ", nagy húskihozatalú, jó húsformájú hibrideket ",
+      "(",
+      "Hybro",
+      ", Ross hibrid) ",
+      "alkalmaznak.",
+      " A mélyalmos technológiánál a",
+      "z alkalmazott alomanyag többnyire faforgács, de szecskázott növényi ",
+      "szármaradványokat",
+      " (pl. szalma) is használtak",
+      ". ",
+      "A pecsenyecsirkék a tenyésztési és ",
+      "a ",
+      "nevelési időszakuk alatt legalább 1,8-2 kg testtömegre fejlődnek, ami körülbelül hét hetes korukra alakul ki. Az 1,8-2 kg-os vágósúly elérése után nevelési időszak befejeződik, a csirkék vágáséretté válnak. Általánosan megfigyelhető, hogy ennek a testtömegnek az eléréséhez nagyjából 3,5 kg takarmány szükséges. "
+    ],
+    [],
+    [
+      "Pulyka",
+      " "
+    ],
+    [
+      "A háziasított pulyka ",
+      "ősének",
+      " az Észak-Amerikában őshonos vadpulyka tekinthető. Az első háziasított pulykákat a mexikói indiánok tenyésztették. Európába a ",
+      "spanyol",
+      " hódítók útján került be. Magyarország",
+      "on",
+      " a 16. században a török megszállás során ",
+      "jelent meg",
+      ". Magyarországon előforduló fajtái közül jelentős az őshonos állatnak tekinthető",
+      ",",
+      " védelem alatt álló bronzpulyka és a rézpulyka, illetve a magyar pulyka."
+    ],
+    [],
+    [
+      "Bronzpulyka"
+    ],
+    [
+      "Az ",
+      "1960-as évekig hazánkban általánosan elterjedt volt. Edzett, igénytelen, ellenálló fajta.",
+      " ",
+      "Az ",
+      "állományt tavasztól késő őszig természetes legelőkön tartották.  A kakasok tömege 6-8, a tojóké 5-6 kg. A bronzpulyka 6-8 hónapos korban válik ivaréretté. Kotlási hajlama erős, természetes körülmények között is jól párosodik. Évente átlagosan 45-50, esetenként 80 tojást rak. A tojások színe pettyezett, súlyuk 70-90 g. Színük a nyaktól a hát közepéig világos bronzszínű, ",
+      "a ",
+      "mell és a törzs bronz árnyalatú fekete. "
+    ],
+    [],
+    [
+      "",
+      " "
+    ],
+    [
+      "ábra:",
+      " Bronzpulyka"
+    ],
+    [
+      "Forrás: https://hgyvk.hu/images/editor-content/e69b271ea4c7309dafcee0b587df9193_shonos_10_bronzpulyka.jpg ",
+      "(2024.06.24.",
+      ")"
+    ],
+    [],
+    [
+      "Rézpulyka"
+    ],
+    [
+      "A bronzpulykánál valamivel nagyobb testtömegű fajta. A tojók 7, a kakasok 8-10 kg-os testtömeget érhetnek el. Az ősi magya",
+      "r fajtákra jellemzően, a bronzpu",
+      "lykához hasonlóan igénytelen, ellenálló, a szabadtartást jól viselő fajta. A tojástermelése is hasonló a bronzpulykáéhoz. Szín",
+      "e",
+      " a sötét rézvöröstől a fakó rozsdavörösig terjedhet. A szárnyon és a hát vonalán fehér tollsávok lehetnek. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " kép Rézpulyka"
+    ],
+    [
+      "Forrás:",
+      " https://hgyvk.hu/images/editor-content/4f7e2bbbf2b29591d4cb5050b982dfa3_shonos_9_rezpulyka.jpeg ",
+      "(2024.06.24.",
+      ")"
+    ],
+    [],
+    [
+      " ",
+      "Magyar pulyka"
+    ],
+    [
+      "A magyar pulykának két változata ismert. A fehér és a fekete pulyka. A fehér pulyka valamivel nagyobb testtömegű. A kakasok 6-8, a tojók testtömege 5-6 kg körüli. A fehér pulyka évente 30-40 db tojást rak. A fekete pulyka kakasának a test",
+      "t",
+      "ömege 6-7, a tojó testtömege 4-5 kg. A tojástermelése is elmarad a fehér pulykától",
+      ", é",
+      "vente kb. 25-30 db. "
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Magyar fehér pulyka"
+    ],
+    [
+      "Forrás: ",
+      "http://mindenamibaromfi.hupont.hu/5/a-pulykak ",
+      "(2024.06.24.",
+      ")"
+    ],
+    [],
+    [
+      "Hibrid pulykák"
+    ],
+    [
+      "A pulyka keresztezés",
+      "ének",
+      " elsődleges iránya a húskihozatal növelése volt. Az első hibrid pulyka a kanadai ",
+      "D",
+      "iamond ",
+      "white",
+      ", amely hatalmasan fejlett, széles mellizomzatú, robusztus tulajdonságokkal rendelkező fehér tollú fajta volt. A mai keresztezési irányokban a húskihozatal bővítése mellett a szaporaság és a tojástermelők képesség is fontos ",
+      "szemponttá",
+      " vált. "
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Széles mellű hibrid pulyka"
+    ],
+    [
+      "Forrás: https://hu.imadeself.com/recepty/belaya-shirokogrudaya.html ",
+      "(2024.06.24.",
+      ")"
+    ],
+    [],
+    [
+      "Gyöngytyúk"
+    ],
+    [
+      "A gyöngytyúk a baromfifélék közül feltűnő ",
+      "külleméve",
+      "l tűnik ki.  Apró fejükön tarajszerű sisak figyelhető meg, amely a kakasok esetében nagyobb méretű. A csőrük mögött két oldalt vörös szélű",
+      ",",
+      " fehér színű áll-lebenyek találhatók. Tollazatuk többnyire szürkéskék",
+      "-",
+      "fehér, apró pöttyökkel. Gyakori még a fehér színű, ",
+      "tejföl",
+      ",",
+      " sárga",
+      "-ezüstfehér pöttyökkel színezett gyöngytyúk is",
+      ".",
+      " Ritkábban előfordul még szürke, levendula, bronz és foltos színváltozatban is."
+    ],
+    [
+      "Húsa ízletes, hasonló a vadmadarak, például a fácán húsához. Csontozata a tyúkénál finomabb."
+    ],
+    [
+      "H",
+      "azánkban a gyöngytyúkfajták közül a két jelentősebb a magyar parlagi gyöngytyúk és a hortobágyi hibrid gyön",
+      "gy",
+      "tyúk."
+    ],
+    [],
+    [
+      "Magyar parlagi gyöngytyúk"
+    ],
+    [
+      "A csirkéknél kisebb tömegűek. A kakasok súlya 1,30-1,60",
+      ",",
+      " a tyúkoké 1,20-1,40 kg. Színük fehér, szürke, kékesszürke, igen ritkán előfordul bronz és tarka változatban is. A magyar parlagi gyöngytyúk törvényileg védett",
+      ",",
+      " őshonos baromfifajta. Igénytelen, ellenálló, a parlagi tartást kedvelő fajta. "
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Magyar parlagi gyöngytyúk"
+    ],
+    [
+      "Forrás: https://www.ferto-hansag.hu/hu/magyar-parlagi-gyongytyuk.html ",
+      "(2024.06.24.",
+      ")"
+    ],
+    [],
+    [
+      " ",
+      "Hortobágyi hibrid gyöngytyúk"
+    ],
+    [
+      "Tollazata kékesszürke. Szabadtartásban és intenzív nevelési körülmények között is jó",
+      "l",
+      " tenyészthető. A hortobágyi hibrid gyöngytyúk",
+      "ot",
+      " a francia ",
+      "Gigant",
+      " gyöngytyúkfajtával keresztezve nagyobb testtömegű, erőt",
+      "el",
+      "jesebb ",
+      "izmozatú",
+      " fajtát tenyészettek ki, amelynek testtömege a 2 kg-ot is meghaladhatja. Rendkívül jó a tojástermelő képessége, szabadtartásban 110-120 db/év."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Hortobágyi hibrid gyöngytyúk"
+    ],
+    [
+      "Forrás: https://dka.oszk.hu/116700/116759/1436167067_nagykep.jpg  Fotó: ",
+      "Teo",
+      " ",
+      "(2024.06.24.",
+      ")"
+    ],
+    [
+      "V",
+      "í",
+      "zibaromfi fajok"
+    ],
+    [
+      "A Magyarországon alkalmazott baromfifaj",
+      "-",
+      " és fajtabesorolás alapján a húsipar szempontjából jelentős lúd",
+      "-",
+      " és kacsafajokat a ",
+      "vízibaromfik",
+      " csoportjába sorolják.",
+      "  ",
+      "A tyúkfélékhez hasonlóan a v",
+      "í",
+      "zibaromfifajtákat is hasznosítás szerinti alcsoportra oszthatjuk fel. Ilyen fajtabesorolás lehet a hús",
+      "-",
+      ", ",
+      "a ",
+      "máj",
+      "-",
+      ", ",
+      "valamint a ",
+      "tojó ",
+      "hasznosítású",
+      " fajták csoportja. "
+    ],
+    [],
+    [
+      " ",
+      "Lúdfajták"
+    ],
+    [
+      "A ",
+      "vízibaromfik",
+      " csoportjába tartozó lúdfajtákat hasznosítási irány szerint három csoportba sorolhatjuk. "
+    ],
+    [
+      "húshasznosítású",
+      " fajták"
+    ],
+    [
+      "tojó ",
+      "hasznosítású",
+      " fajták"
+    ],
+    [
+      "májhasznosítású",
+      " fajták "
+    ],
+    [],
+    [
+      " ",
+      "Húshasznosítású",
+      " fajták"
+    ],
+    [
+      "Közös ",
+      "jellemzőjük",
+      " a jó növekedési erély, az értékes húsrészek (comb, mell) fejlettsége, és a kiváló húsformák. Szaporaságuk mérsékelt.  "
+    ],
+    [
+      "Emdeni",
+      " lúd"
+    ],
+    [
+      "Világszerte a legrégebben elterjed",
+      "t",
+      ", legismertebb lúdfajta. ",
+      "Valószínűleg 2000 évvel ezelőtt (római kor) tenyésztették ki. Kezdetben „brémai lúd” néven emlegették. Angliában a toulouse-i ludakkal keresztezték. A 19. században került Magyarországra."
+    ],
+    [
+      "Szokatlanul nagy testméretű állat. Hosszú, széles, masszív törzs, enyhén ívelt, széles hát, enyhén megemelt mellkas ",
+      "jellemzi",
+      ". Közepes hosszúságú, erős combjai vannak. Jelentős nyakhossz",
+      "a",
+      ", különösen a gúnárnál. Enyhe s-kanyar van benne, de sima az átmenete a mellkas felé."
+    ],
+    [
+      "Kiváló hústermelő képességű, tetszetős megjelenésű, nagy testű lúdfajta. ",
+      "K",
+      "ifejlett korban a gúnárok 10,0 kg, a tojók 9,0 kg testtömeget érnek el. Jó tartási ",
+      "körülmények",
+      " esetében akár 15 kg-os végtömegre is hizlalható. Az éves ",
+      "t",
+      "ojástermelése 35-40 db között alakul. Kotlási hajlama nem jelentős. "
+    ],
+    [
+      "A tollazata teljesen fehér, a tojókon azonban a háton és a szárnyon az enyhe szürke színezet vagy csekély mértékű szürke foltosság előfordulhat. "
+    ],
+    [],
+    [
+      "",
+      " ",
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Emdeni",
+      " lúd (gácsér és tojó)"
+    ],
+    [
+      "Pomerániai lúd"
+    ],
+    [
+      "Római kori beszámolók szerint ",
+      "Pomerániában",
+      " már több mint 3000 évvel ezelőtt is létezett a nagysúlyú ludak tervszerű tenyésztése. 1890 táján a fajta tenyésztésének a középpontja Nyugat-",
+      "Pomerániában",
+      " v",
+      "olt",
+      ". Önálló fajtaként 1912-ben ismerték el. "
+    ],
+    [
+      "L",
+      "ekerekített, tojásdad teste jelentős méretű és súlyú. A nagyon széles, kissé felemelt mellkashoz a széles vállak és a hosszú, kissé ívelt hát csatlakoz",
+      "na",
+      "k. A kifejlett ludaknál megjelenik a hason egy dupla haslebeny. Közepes hosszúságú, szorosan illeszkedő szárnyak és vízszintesen hordott, széles farok ",
+      "jellemzi",
+      ". Nyaka közepes hosszúságú, egyenes, erős. "
+    ],
+    [
+      "Az egyik legjobb ",
+      "húshasznosítású",
+      " lúdfajta. A jól kialakult mellizomzat mellett erősen ",
+      "izmolt",
+      " comb ",
+      "jellemzi",
+      ". Zsírosodásra hajlamos, az idősebb hizlalt ludakat ez igen tetszetőssé és ízletessé teszi. A tojók átlagos testtömege 7,0 kg, a gúnároké 8,0 kg. "
+    ],
+    [
+      "Színük változatos. Fehér, szürke és tarka színváltozatban fordulnak elő. Húsipari szempontból a fehér az értékesebb."
+    ],
+    [],
+    [
+      "",
+      " ",
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Pomerániai lúd (gácsér és tojó)"
+    ],
+    [],
+    [
+      " ",
+      "Májhasznosítású",
+      " fajták"
+    ],
+    [
+      "A ",
+      "májhasznosítású",
+      " fajták közös jellemzője, hogy nagy- és középnagy test",
+      "űek, rendkívül jó ",
+      "hízékonyságú",
+      " állatok",
+      ". Extrém nagy, akár 1000 g fölötti, kivételes esetekben 1300 g-",
+      "os",
+      " máj előállítására képesek.  Szaporaságuk gyenge, illetve közepes."
+    ],
+    [],
+    [
+      "Toulouse-i lúd",
+      " (",
+      "Tulúzi",
+      " lúd)"
+    ],
+    [
+      "Toulouse környékéről származó ",
+      "francia fajta",
+      ".",
+      " ",
+      "A XIX. század végén Franciaországból importálták Angliába. A hozam növelését a nagysúlyú szárazföldi ludak további keresztezésével érték el."
+    ],
+    [
+      "Nagy súlyú, masszív testű libafajta. Széles, rövid törzs, telt, széles mellkas, széles, nem túl hosszú szárny rövid és erős combok jellemzik. Kiváló májtermelő fajta. Májának tömege sok esetben meghaladja az 1000 g-",
+      "ot",
+      ".  Igényes lúdfajta.  Rossz élelemkereső, a rideg tartási körülményeket nehezen viseli el. Tollazatának színe ",
+      "szürke",
+      "."
+    ],
+    [],
+    [
+      "",
+      " ",
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Toulouse-i lúd (gácsér és tojó)"
+    ],
+    [],
+    [
+      "Szürke ",
+      "landeszi",
+      " lúd"
+    ],
+    [
+      "A d",
+      "él",
+      "-",
+      "franciaországi ",
+      "Landais",
+      " tartományból származó lúdfajta. A ",
+      "landeszi",
+      " lúdfajta kiváló májtermelő képességű és ",
+      "hízékonyságú",
+      " állat.  A májuk tömege átlagosan 800-900 g. Egyes egyedei 1000 g-",
+      "ot",
+      " meghaladó máj termelésére is képesek, de ebben a súlyban hajlamos a ",
+      "magas ",
+      "zsírtartalmú",
+      " ún. ",
+      "zsírmáj kialakítására."
+    ],
+    [
+      "Tollazata szürkésbarna",
+      ",",
+      " a has alján ezüstszürke csíkkal. A csőre és a lába palaszürke, szeme barna színű. Valamennyi külföldi és hazai májhibrid keresztezésében jelentős szerepet játszó fajta."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Landeszi",
+      " lúd"
+    ],
+    [
+      "Forrás: https://www.energyshobby.hu/landesi-lud/ ",
+      "(2024.06.24.",
+      ")"
+    ],
+    [],
+    [
+      "Tojó ",
+      "hasznosítású",
+      " és szaporaságra szelektált lúdfajták"
+    ],
+    [
+      "Kiváló tojástermelő és szaporaságú lúdfaták. A hús",
+      "-",
+      " és ",
+      "májhasznosítású",
+      " ludakhoz képest kisebb testűek. Színük rendszerint fehér."
+    ],
+    [
+      " "
+    ],
+    [
+      "Olasz Lúd"
+    ],
+    [
+      "Az olasz ",
+      "ludat",
+      " a XX. században az olasz parlagi lúdból nemesítették ki, amelynek tenyésztése a római korig vezethető vissza. Rendkívül jó szaporaságú fajta. Testtömege közepesen nehéz, a ",
+      "húshasznosítású",
+      " ludakhoz képest kisebb testfelépítésű. A gúnárok tömege 5,5-6, a tojók tömege 5-5,5 kg. Májtermelése közepes. A májak tömege 400-500 g",
+      ".",
+      " Tojástermelése 40-50 db/év. Tollazatának színe fehér. Az olasz ",
+      "ludat",
+      " anyai vonalként a húshibridek keresztezésénél alkalmazzák. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Olasz lúd"
+    ],
+    [
+      "Forrás: ",
+      "https://hu.techexpertolux.com/domashnyaya-ptica/italanskie-gusi.html ",
+      "(2024.06.24.",
+      ")"
+    ],
+    [],
+    [
+      "Cseh lúd"
+    ],
+    [
+      "A nemesített cseh lúd szaporasága a lúdfajták közül a legjobb. Nemesítésének iránya a kiváló tojástermelő képesség felé tolódott el. Finom ",
+      "rostozatú",
+      " húsa van, de a viszonylag kis testtömege miatt (5-5,3 kg) ",
+      "húshasznosítású",
+      " pecsenyelibákkal szemben nem tud alternatívát ",
+      "állítani. Az olasz lúdhoz hasonlóan a ",
+      "húshasznosítású",
+      " hibridek keresztezésében alkalmazhatják. "
+    ],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Cseh lúd"
+    ],
+    [
+      "Forrás: https://fr.wikipedia.org/wiki/Fichier",
+      ":Czech",
+      "_Goose.jpg ",
+      "(2024.06.24.",
+      ")"
+    ],
+    [],
+    [
+      "Rajnamenti lúd"
+    ],
+    [
+      "A R",
+      "ajnamenti lúd a Rajna felső vidékéről származó tojó ",
+      "hasznosítású",
+      " lúdfajta. A ",
+      "R",
+      "ajna vidéki parlagi lúd és az ",
+      "emdeni",
+      " lúd keresztezésével tenyésztették ki. 1961-ben került Magyarországra. A tojó ",
+      "hasznosítású",
+      " fajtákhoz hasonl",
+      "óan kis",
+      " ",
+      "testű fajta. A tojók test",
+      "tömege kifejlett korban 5-5,5, a gúnárok testtömege 6 kg. Tojástermelő képessége és szaporasága kiváló. Évente 50-60 db tojást termel. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Rajnamenti lúd"
+    ],
+    [
+      "Forrás: http://pctrs.network.hu/clubblogpicture/1/5/_/150819_901249707_big.jpg ",
+      "(2024.06.24.",
+      ")"
+    ],
+    [],
+    [
+      "Kacsafajták"
+    ],
+    [
+      "Hasznosítási irány szerint megkülönböztetünk:"
+    ],
+    [
+      "Húshasznosítású",
+      " kacsafajtákat"
+    ],
+    [
+      "Tojó ",
+      "hasznosítású",
+      " kacsafajtákat"
+    ],
+    [],
+    [
+      "Húshasznosítású",
+      " fajták"
+    ],
+    [
+      "A ",
+      "h",
+      "úshasznosítású",
+      " kacsafajták közös jellemzője a jó hústermelő képesség, a nagyobb zsírosodási hajlam és a mérsékelt szaporodási képesség.  Legnagyobb jelentőségű ",
+      "húshasznosí",
+      "tású",
+      " fajta a pekingi kacsa. Az ",
+      "A",
+      "ylesbury",
+      " és a ",
+      "R",
+      "oueni",
+      " fajta a hústermelő képesség javításában játszik szerepet. "
+    ],
+    [],
+    [
+      "Pekingi kacsa"
+    ],
+    [
+      "A ",
+      "sült házikacsát a császári dinasztiák évszázadokon átívelő uralkodás",
+      "uk",
+      " alatt nemzeti ételnek tekintették Kínában. A fajtából készített étel",
+      ",",
+      " a sült pekingi kacsa ma is kínai nemzeti étel, amelyet a világ minden pontján ismertnek és kedvelnek. Tenyésztésük ",
+      "Kínában ",
+      "az évszázadok alatt folyamatos volt. A ",
+      "pekingi kacsákat először 1872-ben ",
+      "vitték",
+      " be ",
+      "az Egyesült Államokba",
+      ". 1874-ben Angliába",
+      "n",
+      ", majd 1877 körül pedig Németországba",
+      "n",
+      " importálták. A faj hivatalos elismerése az USA-ban 1874-ben történt meg. Keresztezési kísérletek folytak az ",
+      "A",
+      "ylesbury",
+      ", ",
+      "a ",
+      "C",
+      "ayuga",
+      " és ",
+      "a ",
+      "R",
+      "oueni",
+      " kacsákkal. Magyarországon az amerikai fajta terjedt el. "
+    ],
+    [
+      "Hosszú",
+      " ",
+      "testalkatú, minden oldalról lekerekített, enyhén felegyenesedett testtartású állat.  Hasa pehelytollak nélküli. Háta enyhén ívelt, szárnyai hosszúak, feszesek. Finom csontos lábai vannak. A lábak színe a világos sárgától a narancssárgáig terjed. Színe fehér. A tojók tömege kifejlett korban 2,5, a gácséroké 3 kg körüli. Viszonylag fiatal korban már vágásérettekké vál",
+      "ik",
+      ". Könnyen tenyészthető, nevelhető fajta. Tojástermelése 200 db/év"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Pekingi kacsa"
+    ],
+    [],
+    [
+      "Aylesbury",
+      " kacsa",
+      " (",
+      "É",
+      "jleszb",
+      "ü",
+      "ri",
+      " Kacsa)"
+    ],
+    [
+      "Angol eredetű fajta.",
+      " ",
+      " ",
+      "Aylesbury",
+      " Buckingham megyeszékhelye volt. Vágási súlyát 6–8 hét után éri el (2,5–2,8 kg). A pekingi kacsa megjelenése miatt a szaporulat csökkent."
+    ],
+    [
+      "Kifejezetten hízókacsa típusú, széles mellkasú és hátú, hosszú törzsű fajta. A felső vonal mérsékelten ívelt. Vízszintes ",
+      "a ",
+      "testtartása, jól fejlett, hasa nem lóg. A farkát zártan, vízszintesen vagy kissé leengedve tartja. Combjai erősek, amelyeket oldaltollak borítanak. Sötétsárga, erős lábai a kor ",
+      "előrehaladtával",
+      " egyre narancssárgábbak. Nyaka viszonylag vékony, kissé ",
+      "hátrahaj",
+      "tva",
+      " tartja. Színe fehér. Húsa ízletes, finom ",
+      "rostozatú",
+      ". Tojástermelő képessége 80 db/év. Húshasznosítási célú ",
+      "keresztezések",
+      " során, mint jó húsformákkal rendelkező fajta",
+      ",",
+      " előszeretettel alkalmazzák. "
+    ],
+    [],
+    [
+      "",
+      " ",
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Aylesbury",
+      " kacsa (gácsér és tojó)"
+    ],
+    [],
+    [
+      "Roueni",
+      " kacsa",
+      " (",
+      "Rueni",
+      " kacsa)"
+    ],
+    [
+      "A forrásállatok szárazföldi kacsák voltak, amelyek a tőkés réce egyenes ági leszármazottai lehettek. Az elődöket valószínűleg már a XVI. században tenyésztették Franciaországban. A testtömeg alapján 1850 óta szelektáltan folyt tenyésztésük a korábbi ",
+      "Seine",
+      " ",
+      "Inférieure",
+      " (ma ",
+      "Seine",
+      " ",
+      "Maritime",
+      ") megyében található ",
+      "Rouen",
+      " környékén, 1897-ben jelent meg a fajta „",
+      "Anas",
+      " ",
+      "boschata",
+      "” vagy „",
+      "Anas",
+      " ",
+      "rothomagensis",
+      "” néven. Ez utóbbi név Normandia régi fővárosának, ",
+      "Rouennak",
+      " ",
+      "a ",
+      "latin nevéből származik. 1900 körül a vegyes ",
+      "hasznosítású",
+      " kacsákat keresték a jobb értékesíthetőség érdekében. Egységes típussá tenyésztették Angliában, majd Németországban (1870 körül), ahol „Normandiner”-",
+      "nek",
+      " is nevezték. "
+    ],
+    [
+      "Ugyanolyan testtömegű",
+      ", mint az ",
+      "A",
+      "ylesbury",
+      " kacsa, de a testformája eltérő. Hosszú és széles háta van",
+      ",",
+      " szokatlanul mélyen ",
+      "ülő",
+      " testtel. Hasa nem érintkezik a föld",
+      "d",
+      "el. ",
+      "A háta teljesen lefedő ",
+      "szárnyai vannak",
+      ".",
+      " Combjai ",
+      "erőteljesek",
+      ". Lábai közepesen hosszú",
+      "ak. Húsa finom ",
+      "ros",
+      "tozatú",
+      ", a legízletesebb kacsafajták egyike. ",
+      "Növekedési",
+      " erélye kiváló. Tojástermelése nem túl jó, 60-90 db/év. Tollazatának színe tarka."
+    ],
+    [
+      "",
+      "   ",
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Roueni",
+      " kacsa (gácsér és tojó)"
+    ],
+    [],
+    [
+      "Tojó ",
+      "hasznosítás",
+      "ú",
+      " fajták"
+    ],
+    [
+      "A tojó típusú kacsafajták a ",
+      "húshasznosítású",
+      " fajtákkal ö",
+      "sszehasonlítva kisebb testtömeg",
+      "ű állatok. Jellemző rájuk ",
+      "a ",
+      "felegyenesedett, úgynevezett pingvin testtartás, a mozgékonyság és a jó táplálékkereső képesség.  Tojástermelésük kiváló. Magyarországon a legismertebb, legjobban elterjedt tojó ",
+      "hasznosítású",
+      " fajta a ",
+      "Campbell",
+      " kacsa."
+    ],
+    [],
+    [
+      " ",
+      "Campbell",
+      " kacsa",
+      " (",
+      "Kampbell",
+      " kacsa)"
+    ],
+    [
+      "",
+      " ",
+      ""
+    ],
+    [
+      "ábra:",
+      " ",
+      "Campbell",
+      " kacsa (gácsér és tojó)"
+    ],
+    [],
+    [
+      "A nevét angol tenyésztőjéről, Mrs. ",
+      "Campbellről",
+      " kapta. A fajtát 1895-től tenyésztették ki ",
+      "Gloucestershire",
+      " megyében. A cél az volt, hogy a magas tojóteljesítményt és a vágási célú nagyobb testtömeget ötvözzék. Az induló állato",
+      "k tőkés récék és ",
+      "R",
+      "oueni",
+      " vadkacsák voltak. "
+    ],
+    [
+      "Könnyű testfelépítésű, nem kivételesen karcsú testű. Kissé felegyenesedett, hosszúkás farú, hosszú hátú állat. Mellkasát kissé felemelve",
+      ",",
+      " pingvin ",
+      "testtartásszerűen",
+      " hordja. Hasa jól fejlett, nem lóg. Combjai nem láthatók, belesimulnak a törzsbe. A torok közelében karcsúsodó, Ívelt, középhosszú nyaka van. Finom ",
+      "rostozatú",
+      ", ízletes húsa van, bár a k",
+      "i",
+      "fejlett példányok kis testtömege miatt (2-2,5 kg) kevés húst ad. Tojástermelése kiváló. Már 5 hónapos korban elkezdi a tojás termelését. Megfelelő tartási körülmények között évente akár 300 db tojás termelésére is képes. "
+    ],
+    [
+      ""
+    ],
+    [
+      "Ábrajegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "Táblázatjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "FELHASZNÁLT IRODALOM"
+    ],
+    [
+      "",
+      "",
+      "",
+      "Dr. Freidrich L., N. C. (2011). ",
+      "Baromfifeldolgozás .",
+      " VKSZI ."
+    ],
+    [
+      "Gergely, T. (2018). ",
+      "A világ legjobb marhahúsai",
+      ". Forrás: https://eszaktour.blog.hu/2018/12/16/a_vilag_legjobb_marhahusai"
+    ],
+    [
+      "Károlyné, J. (2006). ",
+      "Húsipari technológia I.",
+      " Budapest: FVM Képzési és Szaktanácsadási Intézet."
+    ],
+    [
+      "Péter, N. (2017). ",
+      "Hentes és mészáros mester jegyzet",
+      ". Forrás: NAK: https://www.nak.hu/images/2021/Szakkepzes/Hentes-s-mszros-mester-jegyzet.pdf"
+    ],
+    [
+      "Sándor, C. (2012). ",
+      "A Wagyu- A tökéletes marhahús japán szimbólumai",
+      ". Forrás: https://mezohir.hu/2012/06/14/a-wagyu-tenyesztes-magyar-kovete/ "
+    ],
+    [
+      "Zsuzsanna, V. T. (2012). ",
+      "úsipari termékgyártás.",
+      " Budapest: NAKVI ."
+    ],
+    [
+      ""
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Nágl Péter"
+      ],
+      [
+        "Szakmai lektor:",
+        "Szabó László"
+      ],
+      [
+        "Iskolai felhasználási cél:",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Élelmiszeripar"
+      ],
+      [
+        "Szakma:",
+        "Húsipari technikus"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Húsipari alapműveletek"
+      ],
+      [
+        "Tantárgy:",
+        "Vágóállat-ismeret"
+      ],
+      [
+        "Évfolyam:",
+        "11. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "18 óra"
+      ]
+    ],
+    [
+      [
+        "",
+        "A piktogramok magyarázata"
+      ],
+      [
+        "",
+        "Marmagasság (a négylábú gerinces állatok földtől mért legmagasabb pontja) cm-ben, a hím és a nőstény állatra vonatkozó méretek feltüntetésével"
+      ],
+      [
+        "",
+        "A kifejlett állat testtömege kg-ban, a hím és a nőstény állatra vonatkozó súly feltüntetésével"
+      ],
+      [
+        "",
+        "Származási ország vagy földrajzi terület"
+      ],
+      [
+        "",
+        "Sajátosság, például teljesítmény, különleges jellemző vagy veszélyesség"
+      ],
+      [
+        "N.a.",
+        "Nem áll rendelkezésre információ"
+      ]
+    ],
+    [
+      [
+        "Bika 140-145\nTehén 135-140",
+        "Bika 900-1300\nTehén 600-700",
+        "Magyarország",
+        "Nemesítés a hústermelés növelése irányába"
+      ]
+    ],
+    [
+      [
+        "Bika 145\nTehén 140",
+        "Bika 900\nTehén 650-750",
+        "Hollandia, USA",
+        "Tejhasznosítású marha"
+      ]
+    ],
+    [
+      [
+        "Bika 140\nTehén 130",
+        "Bika: 950\nTehén: 600 ",
+        "   Nagy-Britannia",
+        "Húsmarhák nemesítése"
+      ]
+    ],
+    [
+      [
+        "Bika 145\nTehén 130",
+        "Bika: 630\nTehén: 550",
+        "   Japán",
+        "Különleges minőségű, márványozott marhahús"
+      ]
+    ],
+    [
+      [
+        "Kan: 85\nKoca: 80",
+        "Kan: 350-420\nKoca: 280-350",
+        "   Magyarország",
+        "Legelterjedtebb sertésfajta Magyarországon"
+      ]
+    ],
+    [
+      [
+        "Kan: 82\nKoca: 80",
+        "Kan: 300\nKoca: 280",
+        "Magyarország",
+        "Svéd, angol, dán, holland lapálysertések keresztezésével"
+      ]
+    ]
+  ],
+  "headers": [
+    "",
+    "",
+    ""
+  ],
+  "footers": [
+    "",
+    "",
+    ""
+  ],
+  "footnotes": [
+    "",
+    ""
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image52.jpeg",
+      "path": null,
+      "bytes": 193708
+    },
+    {
+      "name": "image53.png",
+      "path": null,
+      "bytes": 427148
+    },
+    {
+      "name": "image54.png",
+      "path": null,
+      "bytes": 453315
+    },
+    {
+      "name": "image55.png",
+      "path": null,
+      "bytes": 483910
+    },
+    {
+      "name": "image57.jpeg",
+      "path": null,
+      "bytes": 126888
+    },
+    {
+      "name": "image60.jpeg",
+      "path": null,
+      "bytes": 142318
+    },
+    {
+      "name": "image58.jpeg",
+      "path": null,
+      "bytes": 53434
+    },
+    {
+      "name": "image59.jpeg",
+      "path": null,
+      "bytes": 91843
+    },
+    {
+      "name": "image56.png",
+      "path": null,
+      "bytes": 437536
+    },
+    {
+      "name": "image47.png",
+      "path": null,
+      "bytes": 656404
+    },
+    {
+      "name": "image50.png",
+      "path": null,
+      "bytes": 6498
+    },
+    {
+      "name": "image43.png",
+      "path": null,
+      "bytes": 684347
+    },
+    {
+      "name": "image44.jpeg",
+      "path": null,
+      "bytes": 223565
+    },
+    {
+      "name": "image45.png",
+      "path": null,
+      "bytes": 697939
+    },
+    {
+      "name": "image46.png",
+      "path": null,
+      "bytes": 6594
+    },
+    {
+      "name": "image61.jpeg",
+      "path": null,
+      "bytes": 10092
+    },
+    {
+      "name": "image48.png",
+      "path": null,
+      "bytes": 6923
+    },
+    {
+      "name": "image49.png",
+      "path": null,
+      "bytes": 678787
+    },
+    {
+      "name": "image51.jpeg",
+      "path": null,
+      "bytes": 136854
+    },
+    {
+      "name": "image67.png",
+      "path": null,
+      "bytes": 526533
+    },
+    {
+      "name": "image63.jpeg",
+      "path": null,
+      "bytes": 162338
+    },
+    {
+      "name": "image74.jpeg",
+      "path": null,
+      "bytes": 62203
+    },
+    {
+      "name": "image75.png",
+      "path": null,
+      "bytes": 456945
+    },
+    {
+      "name": "image76.png",
+      "path": null,
+      "bytes": 477300
+    },
+    {
+      "name": "image77.png",
+      "path": null,
+      "bytes": 445423
+    },
+    {
+      "name": "image78.png",
+      "path": null,
+      "bytes": 490515
+    },
+    {
+      "name": "image79.png",
+      "path": null,
+      "bytes": 458155
+    },
+    {
+      "name": "image80.png",
+      "path": null,
+      "bytes": 412684
+    },
+    {
+      "name": "image81.png",
+      "path": null,
+      "bytes": 421635
+    },
+    {
+      "name": "image73.jpeg",
+      "path": null,
+      "bytes": 224413
+    },
+    {
+      "name": "image72.jpeg",
+      "path": null,
+      "bytes": 49616
+    },
+    {
+      "name": "image71.jpeg",
+      "path": null,
+      "bytes": 419152
+    },
+    {
+      "name": "image64.jpeg",
+      "path": null,
+      "bytes": 53491
+    },
+    {
+      "name": "image65.png",
+      "path": null,
+      "bytes": 421944
+    },
+    {
+      "name": "image66.png",
+      "path": null,
+      "bytes": 436518
+    },
+    {
+      "name": "image42.png",
+      "path": null,
+      "bytes": 6365
+    },
+    {
+      "name": "image68.png",
+      "path": null,
+      "bytes": 449043
+    },
+    {
+      "name": "image69.png",
+      "path": null,
+      "bytes": 535651
+    },
+    {
+      "name": "image70.png",
+      "path": null,
+      "bytes": 473639
+    },
+    {
+      "name": "image62.jpeg",
+      "path": null,
+      "bytes": 71416
+    },
+    {
+      "name": "image38.png",
+      "path": null,
+      "bytes": 680259
+    },
+    {
+      "name": "image40.jpeg",
+      "path": null,
+      "bytes": 65096
+    },
+    {
+      "name": "image11.jpeg",
+      "path": null,
+      "bytes": 98603
+    },
+    {
+      "name": "image12.png",
+      "path": null,
+      "bytes": 693849
+    },
+    {
+      "name": "image13.png",
+      "path": null,
+      "bytes": 7463
+    },
+    {
+      "name": "image14.png",
+      "path": null,
+      "bytes": 721957
+    },
+    {
+      "name": "image15.png",
+      "path": null,
+      "bytes": 7479
+    },
+    {
+      "name": "image16.png",
+      "path": null,
+      "bytes": 731895
+    },
+    {
+      "name": "image17.png",
+      "path": null,
+      "bytes": 7441
+    },
+    {
+      "name": "image18.png",
+      "path": null,
+      "bytes": 640642
+    },
+    {
+      "name": "image10.png",
+      "path": null,
+      "bytes": 8157
+    },
+    {
+      "name": "image9.png",
+      "path": null,
+      "bytes": 618802
+    },
+    {
+      "name": "image8.png",
+      "path": null,
+      "bytes": 836
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image3.png",
+      "path": null,
+      "bytes": 672785
+    },
+    {
+      "name": "image4.png",
+      "path": null,
+      "bytes": 8500
+    },
+    {
+      "name": "image5.png",
+      "path": null,
+      "bytes": 579
+    },
+    {
+      "name": "image6.png",
+      "path": null,
+      "bytes": 540
+    },
+    {
+      "name": "image7.png",
+      "path": null,
+      "bytes": 1390
+    },
+    {
+      "name": "image41.png",
+      "path": null,
+      "bytes": 728159
+    },
+    {
+      "name": "image19.png",
+      "path": null,
+      "bytes": 7633
+    },
+    {
+      "name": "image21.png",
+      "path": null,
+      "bytes": 7070
+    },
+    {
+      "name": "image20.png",
+      "path": null,
+      "bytes": 692830
+    },
+    {
+      "name": "image33.png",
+      "path": null,
+      "bytes": 7940
+    },
+    {
+      "name": "image34.png",
+      "path": null,
+      "bytes": 707095
+    },
+    {
+      "name": "image35.png",
+      "path": null,
+      "bytes": 7343
+    },
+    {
+      "name": "image36.png",
+      "path": null,
+      "bytes": 731654
+    },
+    {
+      "name": "image37.png",
+      "path": null,
+      "bytes": 8325
+    },
+    {
+      "name": "image39.png",
+      "path": null,
+      "bytes": 7287
+    },
+    {
+      "name": "image31.jpeg",
+      "path": null,
+      "bytes": 81738
+    },
+    {
+      "name": "image32.png",
+      "path": null,
+      "bytes": 738673
+    },
+    {
+      "name": "image29.png",
+      "path": null,
+      "bytes": 660871
+    },
+    {
+      "name": "image22.png",
+      "path": null,
+      "bytes": 742659
+    },
+    {
+      "name": "image23.png",
+      "path": null,
+      "bytes": 6683
+    },
+    {
+      "name": "image30.png",
+      "path": null,
+      "bytes": 8116
+    },
+    {
+      "name": "image24.jpeg",
+      "path": null,
+      "bytes": 24706
+    },
+    {
+      "name": "image26.png",
+      "path": null,
+      "bytes": 7014
+    },
+    {
+      "name": "image28.png",
+      "path": null,
+      "bytes": 8204
+    },
+    {
+      "name": "image25.png",
+      "path": null,
+      "bytes": 642228
+    },
+    {
+      "name": "image27.png",
+      "path": null,
+      "bytes": 664896
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Normal (Web)",
+    "annotation text",
+    "Title",
+    "Cím Char",
+    "Subtitle",
+    "Alcím Char",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "Feloldatlan megemlítés1",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Table Grid",
+    "Jegyzetszöveg Char",
+    "11",
+    "9",
+    "Placeholder Text",
+    "Címsor 4 Char",
+    "Caption",
+    "bajusz_téglalap",
+    "bajusz_téglalap Char",
+    "Címsor 5 Char",
+    "ism_kérdések",
+    "ism_kérdések Char",
+    "Képaláírás Char",
+    "kérdés_számozva",
+    "kérdés_számozva Char",
+    "bajusz_pötty",
+    "bajusz_pötty Char",
+    "szituáció",
+    "fontos",
+    "fontos Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "toc 4",
+    "bajusz_kötőjel",
+    "betűkiemelés",
+    "List Paragraph",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "példa",
+    "példa Char",
+    "toc 5",
+    "toc 6",
+    "toc 7",
+    "toc 8",
+    "toc 9",
+    "table of figures",
+    "[Nincs bekezdésstílus]",
+    "Behúzás",
+    "Behúzás Char",
+    "[No Paragraph Style]",
+    "Hyperlink",
+    "Rácsos táblázat1",
+    "annotation reference",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "Emphasis",
+    "Strong",
+    "lexikonok_fe_c_msz__pallas",
+    "FollowedHyperlink",
+    "Revision",
+    "Megjegyzés tárgya Char1",
+    "Jegyzetszöveg Char1",
+    "SK Képaláírás",
+    "SK Táblázat",
+    "Bibliography"
+  ]
+}

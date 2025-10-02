@@ -1,0 +1,2362 @@
+{
+  "core_properties": {
+    "creator": "Dénes Lilla (ELMS)",
+    "lastModifiedBy": "Soós Gabriella Brigitta (ELMS)",
+    "revision": "2",
+    "created": "2024-09-24T15:49:00Z",
+    "modified": "2024-09-24T15:49:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal",
+    "TotalTime": "0",
+    "Pages": "36",
+    "Words": "5809",
+    "Characters": "40083",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "334",
+    "Paragraphs": "91",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "45801",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.5.6  ",
+    "Savanyított termékek gyártása",
+    "Témák kézirata",
+    "Forrás: Milchkunde und Milchhygiene, Der Verlag Eugen Ulmer KG,  2016. ISBN 978-3-8252-8664-4\nAz eredeti könyv szerzői: Erwin Märtlbauer, Heinz Becker",
+    "",
+    "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak.",
+    "",
+    "",
+    "",
+    "",
+    "Savanyított tejtermékek",
+    "A Magyar Élelmiszerkönyv a fermentált (erjesztett) tejtermékeket a savanyú tejtermékek termékcsoportjába sorolja ezen termékeket savanyú vagy savanyított tejtermékeknek illetve savanyú vagy savanyított tejkészítményeknek is szokás nevezni.",
+    "Tehát: savanyú tejtermék = savanyú tejkészítmény = fermentált tejtermék vagy tejkészítmény",
+    "Ezen termékek két fő csoportba sorolhatók a savanyú tejek és savanyú tejszínek.",
+    "A pontos szakmai és előírás szerinti meghatározásuk: a savanyú tej- és tejszínkészítmények csoportjába olyan termékek (1. ábra) tartoznak, amelyek megfelelően előkészített, hőkezelt tejből vagy tejszínből savanyítással és alvasztással készülnek, mikrobatenyészetek hozzáadásával. A termék típusától függően egyéb összetevőket is hozzá adathatók az alapanyaghoz a készítés közben.",
+    "Ilyen összetevő lehet:",
+    "- tejsűrítmény,",
+    "- vaj,",
+    "- tejpor, savópor,",
+    "- víz, ",
+    "- étkezési só,",
+    "- tejfehérje, savófehérje",
+    "- étkezési kazeinátok (kazeinfehérje)",
+    "- prebiotikumok,",
+    "- ízesítőanyag és zselatin (kizárólag az ízesített termékekhez",
+    "Savanyú tejnek minősül a megfelelően előkészített, hőkezelt tejből és szükség szerinti mennyiségben felhasznált adalékanyagokból savanyítással és alvasztással készült, 10%-nál (m/m) kisebb zsírtartalmú termék. A savanyú tej kategóriájába tartozó termékek a joghurt, a kefir és az aludttej.",
+    "Savanyú tejszínnek minősül a megfelelően előkészített, hőkezelt tejszínből és szükség szerinti mennyiségben felhasznált adalékanyagokból savanyítással és alvasztással készült, 10% (m/m) és azt meghaladó zsírtartalmú termék. A savanyú tejszín kategóriájába tartozó termék a tejföl.",
+    "",
+    "1. ábra: Magyarországon a legismertebb savanyított tej- és tejszínkészítmények",
+    "(Forrás: https://www.ovip.hu/fajlok/raktarkezelo/kepek/thumb-151-3624481606200564770878.jpg; https://www.ovip.hu/fajlok/raktarkezelo/kepek/thumb-151-11239671649148502649873.jpg; https://www.ovip.hu/fajlok/raktarkezelo/kepek/thumb-151-3624501608626260603431.jpg; https://www.ovip.hu/fajlok/raktarkezelo/kepek/thumb-151-3624431605629818251318.jpg, letöltés: 2024. 06. 23.)",
+    "Savanyított tejtermékek gyártástechnológiája",
+    "A savanyított tejtermékeket készítésekor a meghatározott zsírtartalmú tejet vagy tejszínt először homogénezik és hőntartásos módszerrel pasztőrözik, majd lehűtik.  Ezután beoltják, vagyis mikroorganizmusokat adnak hozzá. Megkezdődik az alvasztás folyamata, vagyis a fermentáció (erjesztés). Ennek során a hozzáadott mikroorganizmusok tejsavat termelnek. A savanyított tejtermékek esetén savanyító hatású baktériumkultúrákat használnak, ezért az alvasztás egyben savanyítással is jár (savas alvasztás). Az alvasztási folyamat végén a terméket tovább hűtik, majd utóérlelik. Egyes változatoknál alvasztás után habarnak, ízesítenek, és alkalmazhatnak utóhőkezelést, esetleg habosítást is. Ezekkel a technológiai lépésekkel ismerkedhetsz meg részletesebben a következő részben.",
+    "Megkülönböztetnek:",
+    "élőflórás natúr savanyú tejeket és tejszíneket",
+    "nem élőflórás natúr savanyú tejeket és tejszíneket",
+    "élőflórás ízesített savanyú tej- és tejszínkészítményeket",
+    "nem élőflórás ízesített savanyú tej- és tejszínkészítményeket",
+    "A savanyú tej- és tejszínkészítmények jellegét és ízét az alvasztáskor keletkező tejsav, valamint az érlelésükhöz felhasznált mikroorganizmusok által termelt aromaanyagok adják.",
+    "A savanyított tej- és tejszínkészítmények gyártástechnológiai folyamatát szemlélteti a 2. ábra.",
+    "",
+    "",
+    "2. ábra: Savanyított tej- és tejszínkészítmények gyártástechnológiai folyamata",
+    "(Forrás: a szakértő saját ábrája)",
+    "A gyártási folyamat első szakaszával, a nyerstej átvételétől a fölözésen, zsírbeállításon, pasztőrözésen át a hűtésig, részletesen foglalkoztál az előző fejezetekben. A továbbiakban a tej, tejszín beoltásával kezdődően ismerheted meg a technológiai folyamatokat.",
+    "A beoltást követő tejsavas fermentáció, vagyis a savanyítás-alvasztás általánosan alkalmazott technológiai művelet minden típusú savanyított tejtermék esetében. A termékek közötti egyik fő különbséget az adja, hogy az alvasztás hol kap helyet a technológiai folyamatban. Erről a későbbiekben az egyes termékekhez kapcsolódóan részletesen is tanulhatsz. Most az alvasztásról mint általános technológiai műveletről lesz szó.",
+    "Az alvasztás folyamata",
+    "A savanyú tej- és tejszínkészítmények jellege az alvasztás során alakul ki, ezért ezeknél a készítményeknél ez a gyártási folyamat egyik legfontosabb művelete. Az alvasztás olyan technológiai művelet, amely során a folyékony tej, tejszín kocsonyás állapotba megy át, úgynevezett májas alvadék keletkezik. (3. ábra). Az alvadás lényege, hogy a tejet, tejszínt megfelelő színtenyészettel (starterkultúrával) beoltva alvadásig savanyítjuk. A starterkultúrákról a TEJIPARI TECHNOLÓGIA MIKROBIOLÓGIAI ALAPJAI című fejezetben már részletesen tanultál.",
+    "",
+    "3. ábra: Alvasztás - a folyékony tej, tejszín kocsonyás állapotba megy át – májas alvadék",
+    "(Forrás: https://www.alamy.com/hu/equipment-of-a-private-cheese-factory-and-stages-of-preparation-and-production-image398740659.html?imageid=E471996D-5C5C-4484-8DB4-B560E62250DA&p=1380773&pn=3&searchId=2aa53ac393654f2c31bdc2a29e0fc7f4&searchtype=0; letöltés: 2024.06.23.)",
+    "Az alvasztási folyamat műveletei a beoltás, a savanyítás-alvasztás és az utóérlelés.",
+    "Beoltás",
+    "A beoltás a színtenyészet (starterkultúra) mikrobáinak bejuttatása az alvasztásra váró tejbe, tejszínbe a megfelelő hőmérsékleten.",
+    "A pasztőrözés után a tejet vagy tejszínt először a terméktípusnál alkalmazott starterkultúra mikrobáinak optimális szaporodási hőmérsékletére hűtik. Ez a beoltási hőmérséklet (beoltási hőfok).",
+    "Ezután a szükséges kultúramennyiséget hozzáadják a termékhez (4. ábra Kultúra adagolása). A kultúrát vagy egyszerre öntik az egész termékmennyiségbe, vagy folytonosan, csővezetéken keresztül adagolják.",
+    "",
+    "4. ábra: Kultúra adagolása",
+    "(Forrás: https://www.alamy.com/hu/cheesemaker-add-starter-ferment-in-a-large-steel-tank-full-of-milk-cheese-production-cheesery-dairy-farming-starter-culture-in-the-production-of-image546357829.html?imageid=F309DA06-6AFD-435B-BE93-E07A97CFA45E&p=1734233&pn=1&searchId=059d81a062c3ed5b32253d633a3453ea&searchtype=0; letöltés: 2024. 06.23.)",
+    "Fontos, hogy adagolás után a savanyító mikrobakultúrát alaposan el kell keverni az alapanyagban, hogy a mikroorganizmusok eloszlása egyenletes legyen.",
+    "Savanyítás",
+    "A beoltott tejet, tejszínt a színtenyészet mikrobáinak szaporodásához ideális hőmérsékleten tartják. A mikroorganizmusok így elszaporodnak, és megkezdik a tejcukor bontását. A tejcukor bontásakor tejsav keletkezik, így fokozatosan beindul a savanyodási folyamat. A tejsav-koncentráció emelkedésének hatására fokozatosan emelkedik a savfok, illetve csökken a pH-érték. A savfok, pH-érték fogalmáról A TEJ ÖSSZETEVŐI, TECHNOLÓGIAI SZEREPÜK, TEJÁTVÉTEL, TEJKEZELÉS című fejezetben már részletesen tanultál.",
+    "A savas alvadás egy bonyolult kolloidkémiai folyamat, amely három szakaszra bontható.",
+    "Első lépésben a bevitt mikroorganizmusok gyors szaporodása folytán a tejcukorból tejsav képződik. A keletkező tejsav a tej szénsavas, foszforsavas és citromsavas sóival lép reakcióba.",
+    "A második lépésben a kalcium-kazeinátot és kalcium-foszfátot tartalmazó, komplex kazeinmicellából a tejsav kalciumot von ki. A belső burokból kilépő kalciumionokból tejsavas kalcium keletkezik. A külső burokban lévő oldhatatlan kalcium-foszfát pedig vízben oldódó kalcium-foszfáttá alakul. A folyamatot vázlatosan a 5. ábra szemlélteti.",
+    "",
+    "5. ábra: A savas alvadási folyamat hatására bekövetkező változások a kalcium-kazeinát, kalcium-foszfát micellában",
+    "(Forrás: Dr. Ketting Ferenc: Tejipari technológia I. Budapest, 1977, Mezőgazdasági Könyvkiadó. 109. oldal 55. ábra)",
+    "a, kalcium-kazeinát kalcium-foszfát micella\t\tb, kazeinmicella",
+    "1 kazein, 2 vízburok, 3 kalciumion, 4 oldhatatlan kalcium-foszfát",
+    " ",
+    "A harmadik lépésben a savasodás hatására a kazeinmicella fokozatosan elveszíti negatív töltését. Amikor eléri a 4,6 pH-értéket, elektromosan semlegessé válik. Ekkor a savasodás során már részben felbomlott, kazeinmicellákból álló fehérjeláncok új struktúrát kezdenek kialakítani. Laza térhálót alkotnak, üregeikbe savó záródik. Ezáltal létrejön a gél tartó szerkezete. A kazein kolloidálisan oldott, szol állapotból átmegy kocsonyás, gél állapotba. A folyamatot az 6. ábra szemlélteti.",
+    "",
+    "6. ábra: A térhálószerű váz kialakulása az alvadás során",
+    "a, szol állapot (hígan folyó)\t\tb, gél állapot (kocsonyás)",
+    "(Forrás: Dr. Ketting Ferenc: Tejipari technológia I. Budapest, 1977, Mezőgazdasági Könyvkiadó. 110. oldal, 56. ábra)",
+    "Az alvadás folyamata kívülről, szabad szemmel is jól látható, mivel a hígan folyó tejből kocsonyás alvadék keletkezik. Ezt a kocsonyás jelleggel rendelkező alvadékot májas alvadéknak (3. ábra) nevezik. A kialakult májas alvadékot kocsonyás, zselészerű, félszilárd halmazállapot jellemzi. Ez az átmenet 4,6 pH-értéknél következik be, ami 25–28 SH°-nak felel meg.",
+    "Ha az alvadék a gélszerkezet elérését követően tovább savanyodik, akkor megindul a térháló üregeibe zárt savó kiválása. A savókiválás a savanyított termékek esetében negatív folyamat, hiszen senki sem szereti, ha a joghurtja savóban úszik. A 7. ábrán láthatod a különbséget, az a, képen megfelelő az állomány; a b, képen egy savókiválásos joghurtot láthatsz.",
+    "",
+    "7. ábra: Joghurt állománya",
+    "(Forrás: szakértő saját ábrája)",
+    "a, krémes állományú joghurt,\t\tb, savókiválásos joghurt",
+    "A savókiválás megelőzése érdekében az alvadás bekövetkezése után az alvadékot azonnal 10°C alá hűtik, hogy lelassítsák a tejsavbaktériumok további szaporodását és a tejsav további termelődését.",
+    "Utóérlelés",
+    "A friss alvadék lágy, laza állományú, kellemesen savanyú, de üres ízű. Az utóérlelés célja, hogy a friss, üres ízű termékben íz- és zamatanyagok termelődjenek.",
+    "Az utóérlelés során a terméket lehűtik 4–6 °C-ra, és ezen a hőfokon tárolják. Ezen a hőmérsékleten a starterkultúrának azok a baktériumtörzsei szaporodnak intenzívebben, amelyek az aromaanyagok termelődéséért felelnek.  A savanyodás lelassul, az alvadék megszilárdul, aroma- és zamatanyagok termelődnek. Az utóérlelés időtartama 12–24 óra. A különböző savanyú tej- és tejszínkészítményekben a színtenyészetek mikrobái más-más aromaanyagokat termelnek, így alakul ki a termékek jellegzetes szaga és íze.",
+    "A savanyú tej- és tejszínkészítményekben termelődő fontosabb aromaanyagok:",
+    "Aludttej, tejföl: szénsav, ecetsav, propionsav, hangyasav, tejsav, diacetil",
+    "Joghurt: hangyasav, ecetsav, propionsav, tejsav, diacetil, acetaldehid",
+    "Kefir: etil-alkohol, propil-alkohol, hangyasav, tejsav, ecetsav, propionsav, diacetil, szénsav",
+    "A habarás folyamata",
+    "A habart állományú savanyított termékek előállításának speciális technológiai művelete az alvadék feltörése és habarása. A folyamat célja a homogén krémes állag kialakítása.",
+    "A savanyú tej- és tejszínkészítmények alvasztásának két alapvető módszere van. A pohárban alvasztás esetén az alvasztási folyamat a vevőhöz kerülő csomagolásban, műanyag poharakban megy végbe. Tankos alvasztás esetén az alvasztás az alvasztótankban (8. ábra Alvasztó tank) történik. Ez utóbbi esetben az alvasztás és az utóérlelés közé ékelődik a habarás művelete, amelynek célja a végtermék optimális állagának kialakítása.",
+    "A habarás során első lépésként az alvadékot elkezdik hűteni, majd felvágják (9. ábra Alvadék felvágása) az alvasztótankban található speciális keverőlapáttal. Ez az úgynevezett töretés vagy feltörés. Ezt követi a habarás (keverés) művelete, amelynek hatására az alvadék csomómentes, sima, krémes állományú lesz.",
+    "",
+    "8. ábra: Alvasztó tank",
+    "(Forrás: https://www.alamy.com/hu/interior-of-cheese-factory-with-fermentation-tank-technology-equipment-at-cheese-farm-modern-cheese-farm-image441764649.html?imageid=9A09BD9B-0B06-402B-A751-CB0B4509CB6D&p=1323931&pn=4&searchId=18cc51f7586297534af853776349ff21&searchtype=0, letöltés: 2024.06.23.)",
+    "",
+    "9. ábra: Alvadék felvágás",
+    "(Forrás: https://www.alamy.com/hu/stock-image-goats-cheese-production-goas-alp-161655558.html?imageid=A193BF94-414D-49FD-AB5D-0D21162D37B7&p=75444&pn=1&searchId=0997f61d16425f88b81e6423497eb52b&searchtype=0, Letöltés: 2024.06.23.)",
+    "A habarás sikerességének alapvető feltétele, hogy a habarást az alvadék 4,5–4,6 pH-értéke között kezdjék meg, és még 4,4 pH-érték alá csökkenés előtt befejezzék, miközben az alvadékot minél gyorsabban 10 °C alatti hőmérsékletre hűtik.",
+    "",
+    "A joghurt gyártástechnológiája",
+    "A joghurtok a savanyú tejkészítmények csoportjába tartoznak. A joghurtoknak számos változatuk van, amelyeket a továbbiakban ismerhetsz meg.",
+    "A gyártás során alkalmazott technológiai műveletek a tej beoltásáig azonosak minden savanyított tejterméknél. A megfelelő zsírtartalomra beállított tejet kb. 65–70 °C-ra előmelegítik, és ezen a hőmérsékleten 150–200 bar nyomáson homogénezik. A homogénezést a hőntartásos pasztőrözés követi, 90–95 °C-on 20 másodperces hőntartással.",
+    "Pasztőrözés után a tejet 42–45 °C-ra visszahűtik, majd ezen a hőmérsékleten a kultúra típusától függően (gyártói leírás alapján) 0,01–3% joghurtkultúrával beoltják. 2–4 órát alvasztják, majd az alvadék kialakulása után 10°C alá hűtik, és 6–24 órát érlelik a megfelelő aromatermelés kialakulásához.",
+    "Joghurt esetében a beoltáshoz használt joghurtkultúra törzsei: Streptococcus thermophilus (10. ábra) és a Lactobacillus bulgaricus (11. ábra), amelyek 1:1 arányban találhatók a joghurtkultúrában. Ezen törzsek szaporodási optimuma 40–45 °C.",
+    "",
+    "10. ábra: Streptococcus thermophilus",
+    "(Forrás: https://st2.depositphotos.com/5316818/44680/i/600/depositphotos_446809600-stock-photo-bacteria-streptococcus-thermophilus-illustration-probiotic.jpg 2023, Letöltés: 2024. 06. 23.)",
+    "",
+    "11. ábra: Lactobacillus bulgaricus",
+    "(Forrás: https://st.depositphotos.com/54528468/53399/i/600/depositphotos_533998570-stock-photo-illustration-lactobacillus-bulgaricus-bacteria.jpg, Letöltés: 2024. 06. 23.)",
+    "A joghurtkultúra 42–45 °C-on való tenyésztése során rendkívül fontos, hogy az alvadási 4,5–4,6 pH elérése után a tenyészetet minél gyorsabban +5 °C körüli hőmérsékletre hűtsék. Ellenkező esetben a tenyészet túlsavanyodik, túl sok bacillus termelődik, a coccusok és pálcikák (bacillusok) ideális 1:1 aránya felborul, a coccus-pálca (10., 11. ábra) arány a pálcák javára növekszik. A hűtés nem csak a savanyodást gátolja meg: ezen az alacsony hőmérsékleten alakulnak ki a joghurt jellegzetes aromaanyagai is.",
+    "A joghurtok aromaanyagainak fő alkotórésze az acetaldehid, amely jellegzetes szagú szerves vegyület, a természetben az érett gyümölcsökben fordul elő.",
+    "A joghurt eredetileg juhtejből készült, amelynek nagyobb a szárazanyag-tartalma. Napjainkban már csak házi körülmények között készítenek juhtejből joghurtot. Az üzemi joghurtgyártásban a tehéntej minőségét javítják megfelelő technológiai paraméterekkel és adalékanyagokkal.",
+    "A homogénezés hatására nő az alvadék szilárdsága és vízmegkötő képessége, ezáltal csökken a savókiválás (7. ábra) mennyisége.",
+    "A magasabb pasztőrözési hőmérséklet hatására a hőérzékeny savófehérjék egy része kicsapódik. Ez szintén növeli az alvadék vízmegkötő képességét.",
+    "A tej szárazanyag-tartalma is növelhető tejpor, savópor hozzáadásával. A tejfehérje-készítményekkel való dúsítás szintén megengedett. A tej szárazanyag-tartalmának növelésével javítható a savanyú tejtermék állaga, főként a zsírszegény vagy fölözött termékek esetében megakadályozható a hígfolyósság, illetve a savókiválás. A hígfolyósság során a termék állománya nem kellően krémes jellegű, hanem inkább folyós. Étkezési zselatin (sűrítőszer) csak az ízesített joghurtok gyártásánál használható a viszkozitás növelésére.",
+    "Nézd meg az 12. ábrát, amely a joghurtok készítésének általános gyártástechnológiáit szemlélteti, a következő fejezetekben ezekkel fogsz megismerkedni.",
+    "",
+    "12. ábra: Joghurttermékek előállításának legfontosabb műveleteinek vázlatos ábrázolása",
+    "Natúr, pohárban alvasztott, májas állományú joghurt gyártása",
+    "A gyártás során a májas állományt (kocsonyás állag) úgy érik el, hogy a joghurtot az alvadási folyamat végén már nem keverik, mozgatják, szivattyúzzák. Ez úgy lehetséges, hogy az alvadási folyamat a vevőhöz kerülő csomagolásban megy végbe.",
+    "A joghurtkultúra hozzáadását és egyenletes elkeverését követően a terméket gyorsan poharakba adagolják (13. ábra adagológép), lezárják, majd az alvasztókamrába viszik. Az alvasztókamra olyan termosztát helyiség, amelyben az alvadási idő alatt biztosítják az állandó érlelési hőfokot, a 4,5–4,6 pH eléréséig. Az alvasztókamrában 42–45 °C-on alvadásig savanyítják a joghurtot. Ezután a poharazott termékeket óvatosan, hogy a lágy alvadék ne rázkódjon, raklapokon átviszik a hűtőbe. Itt történik az utóérlelés.",
+    "",
+    "13. ábra: Adagológép",
+    " (Forrás: https://www.alamy.com/hu/installation-for-pouring-yogurt-into-plastic-cups-at-dairy-plant-food-industry-image489202177.html?imageid=F827B038-78AF-4482-8316-C54736498176&p=785766&pn=1&searchId=84c117458604503ee5a7acf9c541099a&searchtype=0, Letöltés: 2024.06.24.)",
+    "Ügyelni kell arra, hogy az egyszerre beoltott alapanyagtej 1/2–1 óra alatt letölthető legyen a poharakba, hiszen a termofil kultúrával savanyított joghurt viszonylag gyorsan megalvad.",
+    "Tankban alvasztott, habart joghurt gyártása",
+    "A joghurtgyártás másik lehetséges módja a habarásos technológia alkalmazása. Ennek lényege, hogy az alvadási folyamat az érlelőtankban zajlik le, és a végén az alvadékot habarással (keveréssel) feltörik, vagyis töretik. Az így készült termékeket nevezik habart joghurtoknak.",
+    "Az alvasztótankban a beoltást követően megtörténik az alvadás. Az alvadékot a tankban található keverővel összetöretik, és ezzel egy időben elkezdik a hűtését is. Ha a termék elérte a megfelelő állagot, poharakba töltik (adagolják). Ezután hűtőraktárban még további 12–24 órán át érlelik, mielőtt a boltok polcaira kerülne.",
+    "Ízesített joghurt készítése esetén az ízesítőanyagot a feltörést és a habarást követően lehet az alvadékhoz hozzáadni. Gyümölcsjoghurt gyártásakor ennek két módja lehetséges. A gyümölcsvelőt hozzákeverhetik a tankban lévő habart joghurthoz. Napjainkban azonban inkább a poharakba töltés (adagolás) közben történik a termék ízesítése. Az ízesítőanyagot a csővezetékbe injektálják, majd a csővezetékbe épített, spirállemezes keverő-habaró elem segítségével bekeverik a joghurtba. A terméket ezután adagolják (14. ábra Ízesített joghurt adagolása) és egységcsomagolják.",
+    "",
+    "14. ábra: Ízesített joghurt adagolása",
+    "(Forrás: https://www.youtube.com/watch?v=Db5-yO6-bLg 3:16 képernyőkép, Letöltés: 2024. 06.23.)",
+    "Különböző technológiával gyártott, ízesített joghurtok gyártása",
+    "Napjainkban nagyon sokféle ízesített joghurtkészítmény kapható a technológiai lehetőségeknek, illetve az adalék- és ízesítőanyagok számtalan variációjának köszönhetően. Ízesített joghurtoknál megengedett a száraz anyag tömegének növelése, a tejfehérje-készítményekkel való dúsítás és étkezési zselatin hozzáadása Egyes gyártók a kultúra összetételén is változtatnak, hogy ne legyen annyira erős a joghurtra egyébként jellemző savanykás íz. A Lactobacillus bulgaricust más laktobacilusokkal, például Lactobacillus acidophilus -szal helyettesítik. Ezzel a mai fogyasztói elvárásoknak tesznek eleget, ugyanis így kevésbé savanyú a termék, és nincs kifejezett acetaldehides aromája. Mind az erősebb savanyú íz, mind pedig a joghurtra tulajdonképpen jellemző acetaldehides aroma a Lactobacillus bulgaricus anyagcseréjének a következménye. A fentieken túl az enyhe készítményekben (kevésbé savanyú készítményekben) aktív probiotikus kultúrák alkalmazhatók.",
+    "A 15. ábrán a különböző technológiával gyártott ízesített joghurtkészítmények gyártási folyamata látható.",
+    "",
+    "15. ábra: Ízesített joghurtkészítmények gyártási folyamatai",
+    "(Forrás: http://www.em.sapientia.siculorum.ro/pdf/oktatasi%20segedanyagok/04%20Tejipari%20technologia%20jegyzet/06%20Savanyu%20Tej%20Tejszin.pdf 8-9. oldal 9.7 ábra, Letöltés: 2024. 06. 24.)",
+    "Ezek gyártástechnológiai folyamatai a joghurtkultúrával történő beoltásig teljesen azonosak.",
+    "A 15. ábrán látható első kategória az (1) ízesített joghurt, amelynek technológiai folyamatai megegyeznek a Tankban alvasztott, habart joghurt gyártása fejezetben megismert technológiai folyamatokkal.",
+    "A második kategória az (2) utóhőkezelt, habosított joghurt, ennél a kategóriánál a habarást és az ízesítést követően utóhőkezelik a terméket 72–76 °C-on, majd 5 °C alá hűtik és nitrogéngázzal habosítják 25–50%-os térfogat-növekedésig. A habosított terméket töltik, csomagolják. A csomagolt terméket a hűtőraktárban még 6–24 órán keresztül utóérlelik, mielőtt a fogyasztóhoz kerül.",
+    "A harmadik kategóriába tartoznak az (3) ivójoghurtok. Ezek a típusú joghurtok híg állományúak, így fogyasztásuk egyszerű: nem kell őket kikanalazni a pohárból vagy tégelyből, üdítőitalként fogyaszthatók. Itt az utóhőkezelés után nem történik habosítás, hanem töltik és csomagolják a terméket, majd hűtik és utóérlelik.",
+    "A negyedik kategóriát alkotják a (4) gyümölccsel rétegzett, májas joghurtok. A beoltott joghurttejet a tégelyben található gyümölcsrétegre adagolják, ezt követően alvasztják, hűtik és érlelik. A gyümölccsel rétegzett joghurtkészítményeknél fokozottan ügyelni kell arra, hogy a két réteg ne keveredjen.",
+    "A kefir gyártástechnológiája",
+    "A kefir kaukázusi eredetű termék, íze kellemesen savanykás, kissé szénsavas. Gyártástechnológiája a beoltási hőfokban és a felhasznált kultúra típusában tér el a joghurt gyártástechnológiájától. A beoltásnál a baktériumok és az élesztőtenyészetek specifikus keverékét adják a tejhez a fermentáció beindításához. A baktériumok és az élesztő egyedülálló keveréke adja a kefir egyedi ízét és textúráját. A kefirre enyhén vajas, gyümölcsös, kissé élesztős, a termelődött CO2-tól kissé pezsgő aroma jellemző.",
+    "A kefirkészítéshez az alábbi élesztőtörzseket használják (ezeket röviden kefirgombának (16. ábra) is nevezik):",
+    "Candida colliculosa élesztő egytörzsű-kultúrája",
+    "Debaryomyces hansenii élesztő egytörzsű-kultúrája.",
+    "Kluyveromyces marxianus subsp. marxianus élesztő egytörzsű-kultúrája",
+    "",
+    "16. ábra: Kefírgomba",
+    "(Forrás: https://st2.depositphotos.com/1004158/7074/i/600/depositphotos_70749023-stock-photo-organic-probiotic-milk-kefir-grains.jpg, Letöltés: 2024. 06. 26.)",
+    "A kefirkészítéshez az alábbi mikrobatörzseket szokták alkalmazni:",
+    "Lactococcus lactis subsp. cremoris",
+    "Lactococcus lactis subsp. lactis biovar. diacetylactis",
+    "Lactococcus lactis subsp. lactis",
+    "Leuconostoc",
+    "Streptococcus thermophilus",
+    "Lactobacillus acidophilus",
+    "Lactobacillus caucasicus",
+    "A kefirkészítéshez használt mikroorganizmusok optimális szaporodási hőmérséklete 20–30 °C. A beoltási hőfokot a felhasznált mikroorganizmusok kombinációja határozza meg. Az optimális beoltási hőfokot a gyártó a kultúra adatlapján (17. ábra) mindig feltünteti.",
+    "",
+    "17. ábra: Kefirkultúra adatlapja, az alkalmazott hőmérséklet a savanyítási idő és a pH-csökkenés összefüggésében (az optimális savanyodási görbe zöld színnel jelölve, a hozzá tartozó hőfokkal)",
+    "(Forrás: https://mtkiwebaruhaz.hu/users/default/mtki//imports/naverp/item_pdf/texactkefir1.pdf, letöltés: 2024. 06. 23.)",
+    "Natúr, pohárban alvasztott, májas állományú kefir gyártása",
+    "A gyártási folyamat megegyezik a májas állományú joghurt készítésének műveleteivel. A különbség a beoltási hőfokban és a felhasznált kultúrában van. A 18. ábra a natúr, pohárban alvasztott, májas állományú kefir gyártási folyamatát szemlélteti.",
+    "A kefirkultúra hozzáadását és egyenletes elkeverését követően a terméket gyorsan poharakba adagolják, lezárják, majd az alvasztókamrába viszik. Itt 20–30 °C-on alvadásig savanyítják. Ezután a poharazott termékeket raklapokon, óvatosan, hogy a lágy alvadék ne rázkódjon, átviszik a hűtőbe. Itt történik az utóérlelés.",
+    "18. ábra: Natúr, pohárban alvasztott, májas állományú kefir gyártási folyamata",
+    "(Forrás: Szakértő saját szerkesztésű ábrája)",
+    "Tankban alvasztott, habart állományú kefir gyártása",
+    "A gyártási folyamat megegyezik a habart állományú joghurt készítésének műveleteivel. A különbség a beoltási hőfokban és a felhasznált kultúrában van.",
+    "A 19. ábra a tankban alvasztott, habart állományú kefir gyártási folyamatát szemlélteti.",
+    "Hazánkban nem igazán elterjedt a habart kefir gyártása, a fogyasztók inkább a májas állományú kefir fogyasztását részesítik előnyben.",
+    "19. ábra: Tankban alvasztott, habart állományú kefir gyártási folyamata",
+    "(Forrás: Szakértő saját szerkesztésű ábrája)",
+    "",
+    "A tejföl gyártástechnológiája",
+    "A tejföl gyártási folyamata megegyezik a kefir készítésének műveleteivel. A különbség annyi, hogy a tejföl készítéséhez nem tejet, hanem jellemzően frissen fölözött tejszínt használnak. Ezenkívül a beoltást a vaj- és túrókészítésnél is alkalmazott vajkultúrával végzik.",
+    "A gyártás során a már beállított zsírtartalmú, fölözött tejszínt előbb homogénezik, hogy megelőzzék a további felfölöződést és a savókiválást. Ezután magas hőfokon hőkezelik néhány perces hőntartással.",
+    "Beoltásnál a vajkultúrából a beoltott alapanyag 0,01–3%-ának megfelelő mennyiséget adnak a tejszínhez. A beoltáshoz használt baktériumtörzsek szaporodásához a 24–26 °C az optimális hőmérséklet (mezofil kultúra). Ezért az alvasztás ezen a hőfokon történik. Az alvasztás a joghurthoz, kefirhez hasonlóan történhet pohárban vagy – habart termék esetén – alvasztótankban. Alvadás után a tejfölt 10 °C alá hűtik és utóérlelik.",
+    "A kész tejföl főbb jellemzői: kellemesen savanykás íz, savómentes, sűrű állomány. A hazai kínálatban a 12 és 20%-os zsírtartalmú tejfölök a legnépszerűbbek.",
+    "Pohárban alvasztott, májas állományú tejföl gyártása",
+    "A 20. ábra a natúr, pohárban alvasztott, májas állományú tejföl gyártási folyamatát szemlélteti. A technológiai folyamat megegyezik a natúr, májas állományú joghurt és kefir gyártásával. A magas zsírtartalmú alapanyag miatt fokozottan ügyelni kell a homogénezésre.",
+    "20. ábra: Natúr, pohárban alvasztott, májas állományú tejföl gyártási folyamata",
+    "(Forrás: Szakértő saját szerkesztésű ábrája)",
+    "Tankban alvasztott, habart tejföl gyártása",
+    "A 21. ábra a tankban alvasztott, habart tejföl gyártási folyamatát szemlélteti. A technológiai folyamat megegyezik a natúr, tankban alvasztott joghurt és kefir gyártásával.",
+    "21. ábra: Tankban alvasztott, habart tejföl gyártási folyamata",
+    "(Forrás: Szakértő saját szerkesztésű ábrája)",
+    "Joghurtok, ízesített joghurtok, kefirek, tejfölök minőségi előírásai és ellenőrzésük",
+    "A savanyú tejtermékekre vonatkozó minőségi előírásokat a Magyar Élelmiszerkönyv 1-3/19-1 számú rendelete határozza meg.",
+    "Zsírtartalmi követelmények",
+    "Savanyú tejkészítmények (joghurtok, kefirek) esetén az alábbi zsírfokozatok megengedettek: ",
+    "Zsíros savanyú tejkészítmény esetén a zsírtartalom legalább 5,0% (m/m), de kevesebb mint 10,0% (m/m)",
+    "Savanyú tejkészítmény esetén a zsírtartalom legalább 3,0 % (m/m), de kevesebb mint 5,0% (m/m)",
+    "Zsírszegény savanyú tejkészítmény esetén a zsírtartalom több mint 0,5% (m/m), de kevesebb mint 3,0% (m/m)",
+    "Sovány savanyú tejkészítmény esetén a zsírtartalom legfeljebb 0,5% (m/m)",
+    "A késztermék zsírtartalmának az ellenőrzés során meg kell felelnie a jelzett termékkategóriákon belüli értékeknek, vagyis a termék zsírtartalma nem lépheti át a zsírfokozatnak megfelelő minimum- és maximumértékeket. Savanyú tejkészítmények esetén a csomagoláson feltüntetett zsírtartalom-érték és a termék vizsgálata során mért zsírtartalom-érték között az eltérés nem lehet nagyobb +/− 0,3%-nál.  ",
+    "Savanyú tejszínkészítmények (tejfölök) esetén az alábbi zsírfokozatok megengedettek:",
+    "zsíros savanyú tejszínkészítmény esetén a zsírtartalom legalább 30% (m/m);",
+    "savanyú tejszínkészítmény esetén a zsírtartalom legalább 18% (m/m), de kevesebb mint 30% (m/m);",
+    "félzsíros savanyú tejszínkészítmény esetén a zsírtartalom legalább 10% (m/m), de kevesebb mint 18% (m/m).",
+    "A késztermék zsírtartalmának az ellenőrzés során meg kell felelnie a jelzett termékkategóriákon belüli értékeknek, vagyis a termék zsírtartalma nem lépheti át a zsírfokozatnak megfelelő minimum- és maximumértékeket. Savanyú tejszínkészítmények esetén a csomagoláson feltüntetett zsírtartalom-érték és a termék vizsgálata során mért zsírtartalom-érték között az eltérés nem lehet nagyobb +/− 1,5%-nál.",
+    "Kémiai követelmények",
+    "Általános kémiai előírás, hogy a savanyú tej- és tejszínkészítmények fehérjetartalma érje el a zsírmentes szárazanyag-tartalom legalább 34%-át. Így például, ha 100 g termékben 8,9 g a zsírmentes szárazanyag-tartalom, akkor a 8,9 g legalább 34%-ának fehérjének kell lennie, vagyis a készterméknek minimum 3,0 g fehérjét kell tartalmaznia.",
+    "Minimális zsírmentes szárazanyag-tartalom-értéket csak a savanyú tejszínkészítményekre vonatkozóan határoztak meg. Félzsíros tejföl esetén a terméknek legalább 6,4% zsírmentes szárazanyagot kell tartalmaznia, ennél magasabb zsírkategória esetén a minimális szárazanyag-tartalom 5,9%.",
+    "Szintén csak a savanyú tejszínkészítményekre vonatkozóan határoztak meg kötelező savfokértékeket. Az ilyen termékek savfokának 25–40 SH° között kell mozognia.",
+    "Mikrobiológiai követelmények",
+    "A Magyar Élelmiszerkönyv kötelező előírásairól szóló 152/2009. (XI. 12.) FVM rendelet a minimális tejsavbaktérium-számot és élesztőszámot csak az élőflórás natúr és ízesített savanyú tej- és tejszínkészítmények esetén írja elő.",
+    "Az előírt élőcsíraszámok a mérési bizonytalanságot is figyelembe véve:",
+    "•\tKefir esetén a minimális élesztőszám a késztermékben 10 000–100 000 élőcsíra/g (104 élőcsíra/g), ",
+    "•\ta kultúrából származó tejsavbaktériumok száma pedig legalább 10 000 000–100 000 000 élőcsíra/g (107 élőcsíra/g).",
+    "•\tSavanyú tejkészítmények esetén a kultúrából származó tejsavbaktériumok száma legalább 107 élőcsíra/g.",
+    "•\tSavanyú tejszínkészítmények esetén a kultúrából származó tejsavbaktériumok száma legalább 105 élőcsíra/g.",
+    "",
+    "Az általános mikrobiológiai követelményeket az élelmiszerek mikrobiológiai kritériumairól szóló A Bizottság 2073/2005/EK rendelete (2005. november 15.) és az élelmiszerekben előforduló mikrobiológiai szennyeződések megengedhető mértékéről szóló 4/1998. (XI. 11.) EüM rendelet határozza meg.",
+    "Érzékszervi követelmények",
+    "Natúr savanyú tej- és tejszínkészítmények",
+    "Külső: Egyenletesen csontfehér színű, felfölöződéstől mentes.",
+    "Állomány: A májas alvadék egynemű, a csomagolóeszköz falához jól tapadó, felfölöződéstől és savókiválástól mentes, összekeverés után sima, sűrűn vagy hígan folyó. A habart alvadék egynemű, felfölöződéstől és savókiválástól mentes, sima, sűrűn vagy hígan folyó.",
+    "Szag: Kellemesen savanykás, a termék jellegének megfelelően aromás.",
+    "Íz: Kellemesen savanykás, a termék jellegének megfelelően zamatos.",
+    "Ízesített savanyú tej- és tejszínkészítmények",
+    "Külső: Egyenletes, a termék jellegének megfelelő színű, felfölöződéstől és savókiválástól mentes, darabos ízesítőanyagok felhasználásakor az alvadékban a darabok láthatók, habosítás esetén a habszerkezet érzékelhető.",
+    "Állomány: Hígan vagy közepesen sűrűn folyó vagy habszerkezetű, felfölöződéstől és savókiválástól mentes, darabos ízesítőanyagok használatakor az alvadékban a darabok érzékelhetők.",
+    "Szag: Kellemesen savanykás, a használt kultúrára és az ízesítőanyagra vagy az aromára jellemző.",
+    "Íz: Kellemes savanykás-édeskés vagy savanykás-sós, a használt kultúrára és az ízesítőanyagra vagy az aromára jellemző.",
+    "Savanyú tej- és tejszínkészítmények jellemző hibái",
+    "Renyhe alvadás",
+    "A renyhe alvadás oka a felhasznált kultúra gyenge savanyító képessége, például kevesebb kultúrát használtak fel a beoltásnál, esetleg a felhasznált kultúra összetétele nem volt megfelelő. Előfordulhat, hogy a tejátvétel folyamán hiba történt, és gátlóanyagot tartalmazó tej került a tételbe, és ez akadályozta a kultúra mikrobáinak megfelelő szaporodását, mivel a joghurtkultúra különösen érzékeny a gátlóanyagokra.",
+    "Felfölöződés",
+    "Felfölöződést okozhat a homogénezés elhagyása, vagy ha nem megfelelő módon ment végbe a művelet.",
+    "Csomós állomány",
+    "Csomós állományú (22. ábra) lehet a termék, ha az egy tömegben alvasztott termék feltörésénél, habarásánál nem tartják be az előírásokat. Az alvadék feltörését 4,5–4,6 pH-értéknél el kell kezdeni, és a habarást a 4,4 pH-érték eléréséig be kell fejezni. Ügyelni kell a gyors hűtési folyamatra. A 4,6 pH-érték elérését követően az alvadékot a lehető leggyorsabban 10 °C alá kell hűteni.",
+    "",
+    "22. ábra: Csomós állományú joghurt",
+    "(Forrás: https://www.alamy.com/hu/homemade-yogurt-in-spoon-isolated-on-white-background-image503298194.html?imageid=1F449D74-70CD-489B-B77B-A84757921C16&p=1318702&pn=1&searchId=8c3c2994b6ccaaa5e103782a820e900a&searchtype=0, letöltés: 2024 06. 24.)",
+    "Túlsavanyodás",
+    "A túlsavanyodás legtöbbször technológiai hiba: olyankor következik be, ha alvadás után a tétel nincs azonnal lehűtve. A hűtést követő, későbbi savanyodás már az áru romlására utal.",
+    "Savóeresztés",
+    "A savóeresztés (23. ábra) a tárolási idő előrehaladtával fordulhat elő. Okozhatja a nem megfelelő módon végzett homogénezés, a stabilizálószerek felhasználásánál elkövetett hiba, esetleg a melegen való, korai mozgatás vagy az alvadék túlsavanyodása.",
+    "",
+    "23. ábra: Intenzív savóeresztés",
+    "(Forrás: https://www.alamy.com/hu/layer-of-whey-protein-formed-on-top-of-packaged-yogurt-after-opening-in-white-background-natural-process-and-is-safe-to-consume-image386215213.html?imageid=47F374BE-0C43-4D98-9DDF-66268C5635F7&p=1296763&pn=1&searchId=4b18f6c6d79e40deb8f0a3e6a43bf220&searchtype=0, letöltés: 2024. 06. 24.)",
+    "Ízhibák",
+    "Üres (jellegtelen) íz – A joghurt üres ízű lesz, ha a felhasznált kultúrának gyenge a savanyító hatása, mert csökkent az aromaanyagok termelése. Üres ízt okozhat még az utóérlelés elhagyása vagy jelentős lerövidítése.",
+    "Kesernyés íz – A kesernyés íz penészfertőzésre utal.",
+    "Élesztős íz - A fokozódó élesztős íz az élesztős fertőzés következménye.",
+    "Olajos, karcos, avas íz – Az olajos, karcos, avas íz a magasabb zsírtartalommal kapcsolatos ízhiba, ezért ez a savanyú tejszínkészítményekre jellemző. A tejfölben lévő zsír valamilyen oknál fogva bomlásnak indul, a bomlás során keletkező anyagok okozzák ezt az ízhibát.",
+    "Idegen, émelyítő íz és szag – Az idegen, émelyítő íz és szag minden esetben baktériumos fertőzés következménye, az ilyen termék fogyasztásra alkalmatlan.",
+    "Irodalomjegyzék",
+    "A Magyar Élelmiszerkönyv 1-3/19-1 számú előírása a tejtermékekről https://elelmiszerlanc.kormany.hu/download/d/b6/d2000/vegleges_el%C5%91%C3%ADr%C3%A1s_jogt%C3%A1rb%C3%B3l.pdf (2024.06. 22.)",
+    "A Bizottság 2073/2005/EK rendelete (2005. november 15.) az élelmiszerek mikrobiológiai kritériumairól: https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=CELEX%3A02005R2073-20200308, 2024.06.22.",
+    "4/1998. (XI. 11.) EüM rendelet",
+    "az élelmiszerekben előforduló mikrobiológiai szennyeződések megengedhető mértékéről",
+    "https://njt.hu/jogszabaly/1998-4-20-0B, 2024 06.23.",
+    "Fenyvessy József, Csanádi József, Csapó János, Csapó-Kiss, Zsuzsanna.: Tejipari technológia. Tej és tejtermékek a táplálkozásban. Kolozsvár, 2014, Scientia Kiadó.",
+    "Dr. Ketting Ferenc: Tejipari technológia I. Budapest, 1977, Mezőgazdasági Könyvkiadó.",
+    "",
+    "ÁBRAJEGYZÉK",
+    "1. ábra: Magyarországon a legismertebb savanyított tej- és tejszínkészítmények\t4",
+    "2. ábra: Savanyított tej- és tejszínkészítmények gyártástechnológiai folyamata\t6",
+    "3. ábra: Alvasztás - a folyékony tej, tejszín kocsonyás állapotba megy át – májas alvadék\t7",
+    "4. ábra: Kultúra adagolása\t8",
+    "5. ábra: A savas alvadási folyamat hatására bekövetkező változások a kalcium-kazeinát, kalcium-foszfát micellában\t9",
+    "6. ábra: A térhálószerű váz kialakulása az alvadás során\t10",
+    "7. ábra: Joghurt állománya\t11",
+    "8. ábra: Alvasztó tank\t12",
+    "9. ábra: Alvadék felvágás\t13",
+    "10. ábra: Streptococcus thermophilus\t14",
+    "11. ábra: Lactobacillus bulgaricus\t15",
+    "12. ábra: Joghurttermékek előállításának legfontosabb műveleteinek vázlatos ábrázolása\t16",
+    "13. ábra: Adagológép\t17",
+    "14. ábra: Ízesített joghurt adagolása\t18",
+    "15. ábra: Ízesített joghurtkészítmények gyártási folyamatai\t20",
+    "16. ábra: Kefírgomba\t22",
+    "17. ábra: Kefirkultúra adatlapja, az alkalmazott hőmérséklet a savanyítási idő és a pH-csökkenés összefüggésében (az optimális savanyodási görbe zöld színnel jelölve, a hozzá tartozó hőfokkal)\t23",
+    "18. ábra: Natúr, pohárban alvasztott, májas állományú kefir gyártási folyamata\t24",
+    "19. ábra: Tankban alvasztott, habart állományú kefir gyártási folyamata\t25",
+    "20. ábra: Natúr, pohárban alvasztott, májas állományú tejföl gyártási folyamata\t27",
+    "21. ábra: Tankban alvasztott, habart tejföl gyártási folyamata\t28",
+    "22. ábra: Csomós állományú joghurt\t32",
+    "23. ábra: Intenzív savóeresztés\t33",
+    ""
+  ],
+  "runs": [
+    [],
+    [
+      "Egyedi megrendelés azonosítója: EM-2.5.6  "
+    ],
+    [
+      "Savanyított termékek gyártása"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [
+      "Forrás",
+      ": ",
+      "Milchkunde",
+      " und ",
+      "Milchhygiene",
+      ", Der ",
+      "Verlag",
+      " ",
+      "Eugen",
+      " ",
+      "Ulmer",
+      " KG",
+      ",  2016.",
+      " ISBN 978-3-8252-8664-4",
+      "\nAz eredeti könyv szerzői: Erwin ",
+      "Märtlbauer",
+      ", Heinz Becker"
+    ],
+    [],
+    [
+      "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak."
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "Savanyított tejtermékek"
+    ],
+    [
+      "A Magyar Élelmiszerkönyv a fermentált (erjesztett) tejtermékeket a savanyú tejtermékek termékcsoportjába sorolja ",
+      "ezen",
+      " termékeket savanyú vagy savanyított tejtermékeknek illetve savanyú vagy savanyított tejkészítményeknek is szokás nevezni."
+    ],
+    [
+      "Tehát: savanyú tejtermék = savanyú tejkészítmény = fermentált tejtermék vagy tejkészítmény"
+    ],
+    [
+      "Ezen termékek két fő csoportba sorolhatók a savanyú tejek és savanyú tejszínek."
+    ],
+    [
+      "A pontos szakmai és előírás szerinti meghatározásuk: a savanyú tej- és tejszínkészítmények csoportjába olyan termékek (1. ábra) tartoznak, amelyek ",
+      "megfelelően előkészített, hőkezelt tejből vagy tejszínből savanyítással és alvasztással készülnek, mikrobatenyészetek hozzáadásával. A termék típusától függően egyéb összetevőket is hozzá adathatók az alapanyaghoz a készítés közben."
+    ],
+    [
+      "Ilyen összetevő lehet:"
+    ],
+    [
+      "- tejsűrítmény,"
+    ],
+    [
+      "- vaj,"
+    ],
+    [
+      "- tejpor, savópor,"
+    ],
+    [
+      "- víz, "
+    ],
+    [
+      "- étkezési só,"
+    ],
+    [
+      "- tejfehérje, savófehérje"
+    ],
+    [
+      "- étkezési kazeinátok (kazeinfehérje)"
+    ],
+    [
+      "- ",
+      "prebiotikumok",
+      ","
+    ],
+    [
+      "- ",
+      "ízesítőanyag és zselatin (kizárólag az ízesített termékekhez"
+    ],
+    [
+      "Savanyú tej",
+      "nek minősül a megfelelően előkészített, hőkezelt tejből és szükség szerinti mennyiségben felhasznált adalékanyagokból savanyítással és alvasztással készült, 10%-",
+      "nál",
+      " (m/m) kisebb ",
+      "zsírtartalmú",
+      " termék. A savanyú tej kategóriájába tartozó termékek a joghurt, a kefir és az aludttej."
+    ],
+    [
+      "Savanyú tejszín",
+      "nek minősül a megfelelően előkészített, hőkezelt tejszínből és szükség szerinti mennyiségben felhasznált adalékanyagokból savanyítással és alvasztással készült, 10% (m/m) és azt meghaladó zsírtartalmú termék. A savanyú tejszín kategóriájába tartozó termék a tejföl."
+    ],
+    [
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". ábra:",
+      " ",
+      "Magyarországon a legismertebb savanyított tej- és tejszínkészítmények"
+    ],
+    [
+      "(",
+      "Forrás: https://www.ovip.hu/fajlok/raktarkezelo/kepek/thumb-151-3624481606200564770878.jpg",
+      "; ",
+      "https://www.ovip.hu/fajlok/raktarkezelo/kepek/thumb-151-11239671649148502649873.jpg",
+      ";",
+      " ",
+      "https://www.ovip.hu/fajlok/raktarkezelo/kepek/thumb-151-3624501608626260603431.jpg; ",
+      "https://www.ovip.hu/fajlok/raktarkezelo/kepek/thumb-151-3624431605629818251318.jpg",
+      ", l",
+      "etöltés: ",
+      "2024. 06",
+      ". ",
+      "23",
+      ".",
+      ")"
+    ],
+    [
+      "Savanyított tejtermékek gyártástechnológiája"
+    ],
+    [
+      "A savanyított tejtermékeket készítésekor a meghatározott zsírtartalmú tejet vagy tejszínt először homogénezik és ",
+      "hőntartásos",
+      " módszerrel pasztőrözik, majd lehűtik.  Ezután beoltják, vagyis mikroorganizmusokat adnak hozzá. Megkezdődik az alvasztás folyamata, vagyis a fermentáció (erjesztés). Ennek során a hozzáadott mikroorganizmusok tejsavat termelnek. A savanyított tejtermékek esetén savanyító hatású baktériumkultúrákat használnak, ezért az alvasztás egyben savanyítással is jár (savas alvasztás). Az alvasztási folyamat végén a terméket tovább hűtik, majd ",
+      "utóérlelik",
+      ".",
+      " Egyes változatoknál alvasztás után habarnak, ",
+      "ízesítenek",
+      ", és alkalmazhatnak utóhőkezelést, esetleg ",
+      "habosítást",
+      " is. Ezekkel a technológiai lépésekkel ismerkedhetsz meg részletesebben a következő részben."
+    ],
+    [
+      "Megkülönböztetnek:"
+    ],
+    [
+      "élőflórás natúr savanyú tejeket és tejszíneket"
+    ],
+    [
+      "nem élőflórás natúr savanyú tejeket és tejszíneket"
+    ],
+    [
+      "élőflórás ízesített savanyú tej- és tejszínkészítményeket"
+    ],
+    [
+      "nem élőflórás ízesített savanyú tej- és tejszínkészítményeket"
+    ],
+    [
+      "A savanyú tej- és tejszínkészítmények jellegét és ízét az alvasztáskor keletkező tejsav, valamint az érlelésükhöz felhasznált mikroorganizmusok által termelt aromaanyagok adják."
+    ],
+    [
+      "A savanyított tej- és tejszínkészítmények gyártástechnológiai folyamatát szemlélteti a 2. ábra."
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "2",
+      "",
+      ". ábra:",
+      " Savanyított tej- és tejszínkészítmények gyártástechnológiai folyamata"
+    ],
+    [
+      "(Forrás: a szakértő saját ábrája)"
+    ],
+    [
+      "A gyártási folyamat első szakaszával, a nyerstej átvételétől a fölözésen, zsírbeállításon, pasztőrözésen át a hűtésig, részletesen foglalkoztál az előző fejezetekben. A továbbiakban a tej, tejszín beoltásával kezdődően ismerheted meg a technológiai folyamatokat."
+    ],
+    [
+      "A beoltást követő tejsavas fermentáció, vagyis a savanyítás-alvasztás általánosan alkalmazott technológiai művelet minden típusú savanyított tejtermék esetében. A termékek közötti egyik fő különbséget az adja, hogy az alvasztás hol kap helyet a technológiai folyamatban. Erről a későbbiekben az egyes termékekhez kapcsolódóan részletesen is tanulhatsz. Most az ",
+      "alvasztásról",
+      " mint általános technológiai műveletről lesz szó."
+    ],
+    [
+      "Az alvasztás folyamata"
+    ],
+    [
+      "A savanyú tej- és tejszínkészítmények jellege az alvasztás során alakul ki, ezért ezeknél a készítményeknél ez a gyártási folyamat egyik legfontosabb művelete. ",
+      "Az alvasztás olyan technológiai művelet, amely során a folyékony tej, tejszín kocsonyás állapotba megy át",
+      ", úgynevezett májas alvadék keletkezik. (3. ábra). Az alvadás lényege, hogy a tejet, tejszínt megfelelő színtenyészettel (starterkultúrával) beoltva alvadásig savanyítjuk. A ",
+      "starterkultúrákról a TEJIPARI TECHNOLÓGIA MIKROBIOLÓGIAI ALAPJAI című fejezetben már részletesen tanultál."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "3",
+      "",
+      ". ábra:",
+      " Alvasztás - a folyékony tej, tejszín kocsonyás állapotba megy át – májas alvadék"
+    ],
+    [
+      "(",
+      "Forrás: https://www.alamy.com/hu/equipment-of-a-private-cheese-factory-and-stages-of-preparation-and-production-image398740659.html?imageid=E471996D-5C5C-4484-8DB4-B560E62250DA&p=1380773&pn=3&searchId=2aa53ac3936",
+      "; ",
+      "l",
+      "etöltés: ",
+      "2024.06.23",
+      ".",
+      ")"
+    ],
+    [
+      "Az alvasztási folyamat műveletei a beoltás, a savanyítás-alvasztás és az utóérlelés."
+    ],
+    [
+      "Beoltás"
+    ],
+    [
+      "A beoltás a színtenyészet (starterkultúra) mikrobáinak bejuttatása az alvasztásra váró tejbe, tejszínbe a megfelelő hőmérsékleten."
+    ],
+    [
+      "A pasztőrözés után a tejet ",
+      "vagy tejszínt ",
+      "először a terméktípusnál alkalmazott starterkultúra mikrobáinak optimális szaporodási hőmérsékletére hűtik. Ez a beoltási hőmérséklet (beoltási hőfok)."
+    ],
+    [
+      "Ezután a szükséges kultúramennyiséget hozzáadják a termékhez (4. ábra Kultúra adagolása). A kultúrát vagy egyszerre öntik az egész termékmennyiségbe, vagy folytonosan, csővezetéken keresztül adagolják."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "4",
+      "",
+      ". ábra:",
+      " ",
+      "Kultúra adagolása"
+    ],
+    [
+      "(",
+      "Forrás: ",
+      "https://www.alamy.com/hu/cheesemaker-add-starter-ferment-in-a-large-steel-tank-full-of-milk-cheese-production-cheesery-dairy-farming-starter-culture-in-the-production-of-image546357829.html?imageid=F309DA06-6AFD-435B-BE93-E07A97CFA45E&p=1734233&pn=1&searchId=059d81a062c3ed5b32253d633a3453ea&searchtype=0; l",
+      "etöltés: 2024",
+      ". ",
+      "06.23.",
+      ")"
+    ],
+    [
+      "Fontos, hogy adagolás után a savanyító mikrobakultúrát alaposan el kell keverni az alapanyagban, hogy a mikroorganizmusok ",
+      "eloszlása ",
+      "egyenletes legyen."
+    ],
+    [
+      "Savanyítás"
+    ],
+    [
+      "A beoltott tejet, tejszínt a színtenyészet mikrobáinak szaporodásához ideális hőmérsékleten tartják. A mikroorganizmusok így elszaporodnak, és megkezdik a tejcukor bontását. A tejcukor bontásakor tejsav keletkezik, így fokozatosan beindul a savanyodási folyamat. A tejsav-koncentráció emelkedésének hatására fokozatosan emelkedik a savfok, illetve csökken a pH-érték. A savfok, pH-érték fogalmáról ",
+      "A TEJ ÖSSZETEVŐI, TECHNOLÓGIAI SZEREPÜK, TEJÁTVÉTEL, TEJKEZELÉS",
+      " című fejezetben már részletesen tanultál."
+    ],
+    [
+      "A savas alvadás egy bonyolult kolloidkémiai folyamat, amely három szakaszra bontható."
+    ],
+    [
+      "Első lépésben a bevitt mikroorganizmusok gyors szaporodása folytán a tejcukorból tejsav képződik. A keletkező tejsav a tej szénsavas, foszforsavas és citromsavas sóival lép reakcióba."
+    ],
+    [
+      "A második lépésben a kalcium-",
+      "kazeinátot",
+      " és kalcium-foszfátot tartalmazó, komplex kazeinmicellából a tejsav kalciumot von ki. A belső burokból kilépő kalciumionokból tejsavas kalcium keletkezik. A külső burokban lévő oldhatatlan kalcium-foszfát pedig vízben oldódó kalcium-foszfáttá alakul. A folyamatot vázlatosan a 5. ábra szemlélteti."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "5",
+      "",
+      ". ábra:",
+      " ",
+      "A savas alvadási folyamat hatására bekövetkező változások a kalcium-",
+      "kazeinát",
+      ", kalcium-foszfát micellában"
+    ],
+    [
+      "(Forrás: Dr. ",
+      "Ketting",
+      " Ferenc: Tejipari technológia I. Budapest, 1977, Mezőgazdasági Könyvkiadó. 109. oldal 55. ábra)"
+    ],
+    [
+      "a, kalcium-",
+      "kazeinát",
+      " kalcium-foszfát micella",
+      "\t",
+      "\t",
+      "b, kazeinmicella"
+    ],
+    [
+      "1 kazein, 2 vízburok, 3 kalciumion, 4 oldhatatlan kalcium-foszfát"
+    ],
+    [
+      " "
+    ],
+    [
+      "A harmadik lépésben a savasodás hatására a kazeinmicella fokozatosan elveszíti negatív töltését. Amikor eléri a 4,6 pH-értéket, elektromosan semlegessé válik. Ekkor a savasodás során már részben felbomlott, kazeinmicellákból álló fehérjeláncok új struktúrát kezdenek kialakítani. Laza térhálót alkotnak, üregeikbe savó záródik. Ezáltal létrejön a gél tartó szerkezete. A kazein ",
+      "kolloidálisan",
+      " oldott, szol állapotból átmegy kocsonyás, gél állapotba. A folyamatot az 6. ábra szemlélteti."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "6",
+      "",
+      ". ábra:",
+      " ",
+      "A térhálószerű váz kialakulása az alvadás során"
+    ],
+    [
+      "a, szol állapot (hígan folyó)",
+      "\t",
+      "\t",
+      "b, gél állapot (kocsonyás)"
+    ],
+    [
+      "(",
+      "Forrás: Dr. ",
+      "Ketting",
+      " Ferenc: Tejipari technológia I. Budapest, 1977, Mezőgazdasági Könyvkiadó. 110. oldal, 56. ábra",
+      ")"
+    ],
+    [
+      "Az alvadás folyamata kívülről, szabad szemmel is jól látható, mivel a hígan folyó tejből kocsonyás alvadék keletkezik. Ezt a kocsonyás jelleggel rendelkező alvadékot májas alvadéknak (3. ábra) nevezik. A kialakult májas alvadékot kocsonyás, zselészerű, félszilárd halmazállapot jellemzi. Ez az átmenet 4,6 pH-értéknél következik be, ami 25–28 SH°-",
+      "nak",
+      " felel meg."
+    ],
+    [
+      "Ha az alvadék a gélszerkezet elérését követően tovább savanyodik, akkor megindul a térháló üregeibe zárt savó kiválása. A savókiválás a savanyított termékek esetében negatív folyamat, hiszen senki sem szereti, ha a joghurtja savóban úszik. A 7. ábrán láthatod a különbséget, az a, képen megfelelő az állomány; a b, képen egy savókiválásos joghurtot láthatsz."
+    ],
+    [
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "7",
+      "",
+      ". ábra: ",
+      "Joghurt állománya"
+    ],
+    [
+      "(Forrás: szakértő saját ábrája)"
+    ],
+    [
+      "a, krémes állományú joghurt,",
+      "\t",
+      "\t",
+      "b, savókiválásos joghurt"
+    ],
+    [
+      "A savókiválás megelőzése érdekében az alvadás bekövetkezése után az alvadékot azonnal 10°C alá hűtik, hogy lelassítsák a tejsavbaktériumok további szaporodását és a tejsav további termelődését."
+    ],
+    [
+      "Utóérlelés"
+    ],
+    [
+      "A friss alvadék lágy, laza állományú, kellemesen savanyú, de üres ízű. Az utóérlelés célja, hogy a friss, üres ízű termékben íz- és zamatanyagok termelődjenek."
+    ],
+    [
+      "Az utóérlelés során a terméket lehűtik 4–6 °C-ra, és ezen a hőfokon tárolják. Ezen a hőmérsékleten a starterkultúrának azok a baktériumtörzsei szaporodnak intenzívebben, amelyek az aromaanyagok termelődéséért felelnek.",
+      " ",
+      " A savanyodás lelassul, az alvadék megszilárdul, aroma- és zamatanyagok termelődnek. Az utóérlelés időtartama 12–24 óra. A különböző savanyú tej- és tejszínkészítményekben a színtenyészetek mikrobái más-más aromaanyagokat termelnek, így alakul ki a termékek jellegzetes szaga és íze."
+    ],
+    [
+      "A savanyú tej- és tejszínkészítményekben termelődő fontosabb aromaanyagok:"
+    ],
+    [
+      "Aludttej, tejföl: szénsav, ecetsav, ",
+      "propionsav",
+      ", hangyasav, tejsav, ",
+      "diacetil"
+    ],
+    [
+      "Joghurt: hangyasav, ecetsav, ",
+      "propionsav",
+      ", tejsav, ",
+      "diacetil",
+      ", acetaldehid"
+    ],
+    [
+      "Kefir: etil-alkohol, propil-alkohol, hangyasav, tejsav, ecetsav, ",
+      "propionsav",
+      ", ",
+      "diacetil",
+      ", szénsav"
+    ],
+    [
+      "A habarás folyamata"
+    ],
+    [
+      "A habart állományú savanyított termékek előállításának speciális technológiai művelete az alvadék feltörése és habarása. A folyamat célja a homogén krémes állag kialakítása."
+    ],
+    [
+      "A savanyú tej- és tejszínkészítmények alvasztásának két alapvető módszere van. A pohárban alvasztás esetén az alvasztási folyamat a vevőhöz kerülő csomagolásban, műanyag poharakban megy végbe. Tankos alvasztás esetén az alvasztás az alvasztótankban (8. ábra Alvasztó tank) történik. Ez utóbbi esetben az alvasztás és az utóérlelés közé ékelődik a habarás művelete, amelynek célja a végtermék optimális állagának kialakítása."
+    ],
+    [
+      "A habarás során első lépésként az alvadékot elkezdik hűteni, majd felvágják (9. ábra Alvadék felvágása) az alvasztótankban található speciális keverőlapáttal. Ez az úgynevezett töretés vagy feltörés. Ezt követi a habarás (keverés) művelete, amelynek hatására az alvadék csomómentes, sima, krémes állományú lesz."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "8",
+      "",
+      ". ábra:",
+      " Alvasztó tank"
+    ],
+    [
+      "(",
+      "Forrás: ",
+      ", ",
+      "l",
+      "etöltés: ",
+      "2024.06.23",
+      ".",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "9",
+      "",
+      ". ábra:",
+      " Alvadék felvágás"
+    ],
+    [
+      "(",
+      "Forrás: https://www.alamy.com/hu/stock-image-goats-cheese-production-goas-alp-161655558.html?imageid=A193BF94-414D-49FD-AB5D-0D21162D37B7&p=75444&pn=1&searchId=0997f61d16425f88b81e6423497eb52b&searchtype=0",
+      ", ",
+      "Letöltés",
+      ": ",
+      "2024.06.23",
+      ".",
+      ")"
+    ],
+    [
+      "A habarás sikerességének alapvető feltétele, hogy a habarást az alvadék 4,5–4,6 pH-értéke között kezdjék meg, és még 4,4 pH-érték alá csökkenés előtt befejezzék, miközben az alvadékot minél gyorsabban 10 °C alatti hőmérsékletre hűtik."
+    ],
+    [
+      ""
+    ],
+    [
+      "A joghurt gyártástechnológiája"
+    ],
+    [
+      "A joghurtok a savanyú tejkészítmények csoportjába tartoznak.",
+      " ",
+      "A joghurtoknak számos változatuk van, amelyeket a továbbiakban ismerhetsz meg."
+    ],
+    [
+      "A gyártás során alkalmazott technológiai műveletek a tej beoltásáig azonosak minden savanyított tejterméknél. A megfelelő zsírtartalomra beállított tejet kb. 65–70 °C-ra előmelegítik, és ezen a hőmérsékleten 150–200 bar nyomáson homogénezik. A ",
+      "homogénezést",
+      " a ",
+      "hőntartásos",
+      " pasztőrözés követi, 90–95 °C-",
+      "on",
+      " 20 másodperces ",
+      "hőntartással",
+      "."
+    ],
+    [
+      "Pasztőrözés után a tejet 42–45 °C-ra visszahűtik, majd ezen a hőmérsékleten a kultúra típusától függően (gyártói leírás alapján) 0,01–3% joghurtkultúrával beoltják. 2–4 órát alvasztják, majd az alvadék kialakulása után 10°C alá hűtik, és 6–24 órát érlelik a megfelelő aromatermelés kialakulásához."
+    ],
+    [
+      "Joghurt esetében a beoltáshoz használt joghurtkultúra törzsei: ",
+      "Streptococcus",
+      " ",
+      "thermophilus",
+      " (10. ábra) ",
+      "és a ",
+      "Lactobacillus",
+      " ",
+      "bulgaricus",
+      " (11. ábra)",
+      ", amelyek 1:1 arányban találhatók a joghurtkultúrában. Ezen törzsek szaporodási optimuma 40–45 °C."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "10",
+      "",
+      ". ábra:",
+      " ",
+      "Streptococcus",
+      " ",
+      "thermophilus"
+    ],
+    [
+      "(",
+      "Forrás: ",
+      ".depositphotos.com/5316818/44680/i/600/depositphotos_446809600-stock-photo-bacteria-streptococcus-thermophilus-illustration-probiotic.jpg 2023",
+      ", ",
+      "Letöltés",
+      ": ",
+      "2024",
+      ". 06. ",
+      "23",
+      ".",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "11",
+      "",
+      ". ábra:",
+      " ",
+      "Lactobacillus",
+      " ",
+      "bulgaricus"
+    ],
+    [
+      "(",
+      "Forrás: ",
+      "//st.depositphotos.com/54528468/53399/i/600/depositphotos_533998570-stock-photo-illustration-lactobacillus-bulgaricus-bacteria.jpg",
+      ", ",
+      "Letöltés",
+      ": ",
+      "2024",
+      ". 06. ",
+      "23",
+      ".",
+      ")"
+    ],
+    [
+      "A joghurtkultúra 42–45 °C-",
+      "on",
+      " való tenyésztése során rendkívül fontos, hogy az alvadási 4,5–4,6 pH elérése után a tenyészetet minél gyorsabban +5 °C körüli hőmérsékletre hűtsék. Ellenkező esetben a tenyészet túlsavanyodik, túl sok ",
+      "bacillus",
+      " termelődik, a ",
+      "coccusok",
+      " és pálcikák (",
+      "bacillusok",
+      ") ideális 1:1 aránya felborul, a ",
+      "coccus",
+      "-pálca (10., 11. ábra) arány a pálcák javára növekszik. A hűtés nem csak a savanyodást gátolja meg: ezen az alacsony hőmérsékleten alakulnak ki a joghurt jellegzetes ",
+      "aromaanyagai",
+      " is."
+    ],
+    [
+      "A joghurtok ",
+      "aromaanyagainak",
+      " fő alkotórésze az acetaldehid, amely jellegzetes szagú szerves vegyület, a természetben az érett gyümölcsökben fordul elő."
+    ],
+    [
+      "A joghurt eredetileg juhtejből készült, amelynek nagyobb a szárazanyag-tartalma. Napjainkban már csak házi körülmények között készítenek juhtejből joghurtot. Az üzemi joghurtgyártásban a tehéntej minőségét javítják megfelelő technológiai paraméterekkel és adalékanyagokkal."
+    ],
+    [
+      "A ",
+      "homogénezés",
+      " hatására nő az alvadék szilárdsága és vízmegkötő képessége, ezáltal csökken a savókiválás (7. ábra) mennyisége."
+    ],
+    [
+      "A magasabb pasztőrözési hőmérséklet hatására a hőérzékeny savófehérjék egy része kicsapódik. Ez szintén növeli az alvadék vízmegkötő képességét."
+    ],
+    [
+      "A tej szárazanyag-tartalma is növelhető tejpor, savópor hozzáadásával. A tejfehérje-készítményekkel való dúsítás szintén megengedett. A tej szárazanyag-tartalmának növelésével javítható a savanyú tejtermék állaga, főként a zsírszegény vagy fölözött termékek esetében megakadályozható a ",
+      "hígfolyósság",
+      ", illetve a savókiválás. A ",
+      "hígfolyósság",
+      " során a termék ",
+      "állománya nem kellően krémes jellegű,",
+      " hanem inkább folyós. Étkezési zselatin (sűrítőszer) csak az ízesített joghurtok gyártásánál használható a viszkozitás növelésére."
+    ],
+    [
+      "Nézd meg az 12. ábrát, amely a joghurtok készítésének általános gyártástechnológiáit szemlélteti, a következő fejezetekben ezekkel fogsz megismerkedni."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "12",
+      "",
+      ". ábra:",
+      " Joghurttermékek előállításának legfontosabb műveleteinek vázlatos ábrázolása"
+    ],
+    [
+      "Natúr, pohárban alvasztott, májas állományú joghurt gyártása"
+    ],
+    [
+      "A gyártás során a májas állományt (kocsonyás állag) úgy érik el, hogy a joghurtot az alvadási folyamat végén már nem keverik, mozgatják, szivattyúzzák. Ez úgy lehetséges, hogy az alvadási folyamat a vevőhöz kerülő csomagolásban megy végbe."
+    ],
+    [
+      "A joghurtkultúra hozzáadását és egyenletes elkeverését követően a terméket gyorsan poharakba adagolják (13. ábra adagológép), lezárják, majd az alvasztókamrába viszik. Az alvasztókamra olyan termosztát helyiség, amelyben az alvadási idő alatt biztosítják az állandó érlelési hőfokot, a 4,5–4,6 pH eléréséig. Az alvasztókamrában 42–45 °C-",
+      "on",
+      " alvadásig savanyítják a joghurtot. Ezután a poharazott termékeket óvatosan, hogy a lágy alvadék ne rázkódjon, raklapokon átviszik a hűtőbe. Itt történik az utóérlelés."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "13",
+      "",
+      ". ábra:",
+      " Adagológép"
+    ],
+    [
+      " ",
+      "(",
+      "Forrás: ",
+      "ml?imageid=F827B038-78AF-4482-8316-C54736498176&p=785766&pn=1&searchId=84c117458604503ee5a7acf9c541099a&searchtype=0",
+      ", ",
+      "Letöltés",
+      ": ",
+      "2024.06.24",
+      ".",
+      ")"
+    ],
+    [
+      "Ügyelni kell arra, hogy az egyszerre beoltott alapanyagtej 1/2–1 óra alatt letölthető legyen a poharakba, hiszen a ",
+      "termofil",
+      " kultúrával savanyított joghurt viszonylag gyorsan megalvad."
+    ],
+    [
+      "Tankban alvasztott, habart joghurt gyártása"
+    ],
+    [
+      "A joghurtgyártás másik lehetséges módja a ",
+      "habarásos",
+      " technológia alkalmazása. Ennek lényege, hogy az alvadási folyamat az érlelőtankban zajlik le, és a végén az alvadékot habarással (keveréssel) feltörik, vagyis töretik. Az így készült termékeket nevezik habart joghurtoknak."
+    ],
+    [
+      "Az ",
+      "alvasztó",
+      "tankban a beoltást követően megtörténik az alvadás. Az alvadékot a tankban található keverővel összetöretik, és ezzel egy időben elkezdik a hűtését is. Ha a termék elérte a megfelelő állagot, poharakba töltik (adagolják",
+      ")",
+      ". Ezután hűtőraktárban még további 12–24 órán át érlelik, mielőtt a boltok polcaira kerülne."
+    ],
+    [
+      "Ízesített joghurt készítése esetén az ízesítőanyagot a feltörést és a habarást követően lehet az alvadékhoz hozzáadni. Gyümölcsjoghurt gyártásakor ennek két módja lehetséges. A gyümölcsvelőt hozzákeverhetik a tankban lévő habart joghurthoz. Napjainkban azonban inkább a poharakba töltés (adagolás) közben történik a termék ízesítése. Az ízesítőanyagot a csővezetékbe injektálják, majd a csővezetékbe épített, spirállemezes keverő-habaró elem segítségével bekeverik a joghurtba. A terméket ezután adagolják (14. ábra Ízesített joghurt adagolása) és ",
+      "egységcsomagolják",
+      "."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "14",
+      "",
+      ". ábra:",
+      " Ízesített joghurt adagolása"
+    ],
+    [
+      "(",
+      "Forrás: https://www.youtube.com/watch?v=Db5-y",
+      " 3:16 képernyőkép",
+      ", ",
+      "Letöltés",
+      ": ",
+      "2024. 06.23",
+      ".",
+      ")"
+    ],
+    [
+      "Különböző technológiával gyártott, ízesített joghurtok gyártása"
+    ],
+    [
+      "Napjainkban nagyon sokféle ízesített joghurtkészítmény kapható a technológiai lehetőségeknek, illetve az adalék- és ízesítőanyagok számtalan variációjának köszönhetően. Ízesített joghurtoknál megengedett a száraz anyag tömegének növelése, a tejfehérje-készítményekkel való dúsítás és étkezési zselatin hozzáadása",
+      " ",
+      "Egyes gyártók a kultúra összetételén is változtatnak, hogy ne legyen annyira erős a joghurtra egyébként jellemző savanykás íz. A ",
+      "Lactobacillus",
+      " ",
+      "bulgaricust",
+      " más ",
+      "laktobacilusokkal",
+      ", például ",
+      "Lactobacillus",
+      " ",
+      "acidophilus",
+      " -",
+      "szal",
+      " helyettesítik. Ezzel a mai fogyasztói elvárásoknak tesznek eleget, ugyanis így kevésbé savanyú a termék, és nincs kifejezett acetaldehides aromája. Mind az erősebb savanyú íz, mind pedig a joghurtra tulajdonképpen jellemző acetaldehides aroma a ",
+      "Lactobacillus",
+      " ",
+      "bulgaricus",
+      " anyagcseréjének a következménye. A fentieken túl az enyhe készítményekben (kevésbé savanyú készítményekben) aktív ",
+      "probiotikus",
+      " kultúrák alkalmazhatók."
+    ],
+    [
+      "A 1",
+      "5",
+      ". ábrán a különböző technológiával gyártott ízesített joghurtkészítmények gyártási folyamata látható."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "15",
+      "",
+      ". ábra:",
+      " Ízesített joghurtkészítmények gyártási folyamatai"
+    ],
+    [
+      "(",
+      "Forrás: ",
+      "w.em.sapientia.siculorum.ro/pdf/oktatasi%20segedanyagok/04%20Tejipari%20tec",
+      "hnologia%20jegyzet/06%20Savanyu%20Tej%20Tejszin.pdf 8-9. oldal 9.7 ábra",
+      ", ",
+      "Letöltés",
+      ": ",
+      "2024. 06. 24",
+      ".",
+      ")"
+    ],
+    [
+      "Ezek gyártástechnológiai folyamatai a joghurtkultúrával történő beoltásig teljesen azonosak."
+    ],
+    [
+      "A 15. ábrán látható első kategória az (1) ízesített joghurt, amelynek technológiai folyamatai megegyeznek a Tankban alvasztott, habart joghurt gyártása fejezetben megismert technológiai folyamatokkal."
+    ],
+    [
+      "A második kategória az (2) utóhőkezelt, habosított joghurt, ennél a kategóriánál a habarást és az ízesítést követően ",
+      "utóhőkezelik",
+      " a terméket 72–76 °C-",
+      "on",
+      ", majd 5 °C alá hűtik és nitrogéngázzal ",
+      "habosítják",
+      " 25–50%-",
+      "os",
+      " térfogat-növekedésig. A habosított terméket töltik, csomagolják. A csomagolt terméket a hűtőraktárban még 6–24 órán keresztül ",
+      "utóérlelik",
+      ", mielőtt a fogyasztóhoz kerül."
+    ],
+    [
+      "A harmadik kategóriába tartoznak az (3) ivójoghurtok. Ezek a típusú joghurtok híg állományúak, így fogyasztásuk egyszerű: nem kell őket kikanalazni a pohárból vagy tégelyből, üdítőitalként fogyaszthatók. Itt az utóhőkezelés után nem történik ",
+      "habosítás",
+      ", hanem töltik és csomagolják a terméket, majd hűtik és ",
+      "utóérlelik",
+      "."
+    ],
+    [
+      "A negyedik kategóriát alkotják a (4) gyümölccsel rétegzett, májas joghurtok. A beoltott joghurttejet a tégelyben található gyümölcsrétegre adagolják, ezt követően alvasztják, hűtik és érlelik. A gyümölccsel rétegzett joghurtkészítményeknél fokozottan ügyelni kell arra, hogy a két réteg ne keveredjen.",
+      ""
+    ],
+    [
+      "A kefir gyártástechnológiája"
+    ],
+    [
+      "A kefir kaukázusi eredetű termék, íze kellemesen savanykás, kissé szénsavas. Gyártástechnológiája a beoltási hőfokban és a felhasznált kultúra típusában tér el a joghurt gyártástechnológiájától. A beoltásnál a baktériumok és az élesztőtenyészetek specifikus keverékét adják a tejhez a fermentáció beindításához. A baktériumok és az élesztő egyedülálló keveréke adja a kefir egyedi ízét és textúráját. A kefirre enyhén vajas, gyümölcsös, kissé élesztős, a termelődött CO",
+      "2",
+      "-tól kissé pezsgő aroma jellemző."
+    ],
+    [
+      "A kefirkészítéshez az alábbi élesztőtörzseket használják (ezeket röviden kefirgombának (16. ábra) is nevezik):"
+    ],
+    [
+      "Candida ",
+      "colliculosa",
+      " élesztő egytörzsű-kultúrája"
+    ],
+    [
+      "Debaryomyces",
+      " ",
+      "hansenii",
+      " élesztő egytörzsű-kultúrája."
+    ],
+    [
+      "Kluyveromyces",
+      " ",
+      "marxianus",
+      " ",
+      "subsp",
+      ". ",
+      "marxianus",
+      " élesztő egytörzsű-kultúrája"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "16",
+      "",
+      ". ábra:",
+      " ",
+      "Kefírgomba"
+    ],
+    [
+      "(",
+      "Forrás: ",
+      ", ",
+      "Letöltés",
+      ": ",
+      "2024.",
+      " 06. 26.",
+      ")"
+    ],
+    [
+      "A kefirkészítéshez az alábbi mikrobatörzseket szokták alkalmazni:"
+    ],
+    [
+      "Lactococcus",
+      " ",
+      "lactis",
+      " ",
+      "subsp",
+      ". ",
+      "cremoris"
+    ],
+    [
+      "Lactococcus",
+      " ",
+      "lactis",
+      " ",
+      "subsp",
+      ". ",
+      "lactis",
+      " ",
+      "biovar",
+      ". ",
+      "diacetylactis"
+    ],
+    [
+      "Lactococcus",
+      " ",
+      "lactis",
+      " ",
+      "subsp",
+      ". ",
+      "lactis"
+    ],
+    [
+      "Leuconostoc"
+    ],
+    [
+      "Streptococcus",
+      " ",
+      "thermophilus"
+    ],
+    [
+      "Lactobacillus",
+      " ",
+      "acidophilus"
+    ],
+    [
+      "Lactobacillus",
+      " ",
+      "caucasicus"
+    ],
+    [
+      "A kefirkészítéshez használt mikroorganizmusok optimális szaporodási hőmérséklete 20–30 °C. A beoltási hőfokot a felhasznált mikroorganizmusok kombinációja határozza meg. ",
+      "Az optimális beoltási hőfokot a gyártó a kultúra adatlapján (17. ábra) mindig feltünteti."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "17",
+      "",
+      ". ábra:",
+      " Kefirkultúra adatlapja, az alkalmazott hőmérséklet a savanyítási idő és a pH-csökkenés összefüggésében (az optimális savanyodási görbe zöld színnel jelölve, a hozzá tartozó hőfokkal)"
+    ],
+    [
+      "(",
+      "Forrás: ",
+      "https://mtkiwebaruhaz.hu/users/default/mtki//imports/naverp/item_pdf/texactkefir1.pdf, l",
+      "etöltés",
+      ": 2024. 06. 23",
+      ".",
+      ")"
+    ],
+    [
+      "Natúr, pohárban alvasztott, májas állományú kefir gyártása"
+    ],
+    [
+      "A gyártási folyamat megegyezik a májas állományú joghurt készítésének műveleteivel. A különbség a beoltási hőfokban és a felhasznált kultúrában van. A 1",
+      "8",
+      ". ábra a natúr, pohárban alvasztott, májas állományú kefir gyártási folyamatát szemlélteti."
+    ],
+    [
+      "A kefirkultúra hozzáadását és egyenletes elkeverését követően a terméket gyorsan poharakba adagolják, lezárják, majd az alvasztókamrába viszik. Itt 20–30 °C-",
+      "on",
+      " alvadásig savanyítják. Ezután a poharazott termékeket raklapokon, óvatosan, hogy a lágy alvadék ne rázkódjon, átviszik a hűtőbe. Itt történik az utóérlelés."
+    ],
+    [
+      "",
+      "",
+      "",
+      "18",
+      "",
+      ". ábra:",
+      " Natúr, pohárban alvasztott, májas állományú kefir gyártási folyamata"
+    ],
+    [
+      "(",
+      "Forrás: ",
+      "Szakértő saját szerkesztésű ábrája)"
+    ],
+    [
+      "Tankban alvasztott, habart állományú kefir gyártása"
+    ],
+    [
+      "A gyártási folyamat megegyezik a habart állományú joghurt készítésének műveleteivel. A különbség a beoltási hőfokban és a felhasznált kultúrában van."
+    ],
+    [
+      "A ",
+      "19",
+      ". ábra a tankban alvasztott, habart állományú kefir gyártási folyamatát szemlélteti."
+    ],
+    [
+      "Hazánkban nem igazán elterjedt a habart kefir gyártása, a fogyasztók inkább a májas állományú kefir fogyasztását részesítik előnyben."
+    ],
+    [
+      "",
+      "",
+      "",
+      "19",
+      "",
+      ". ábra:",
+      " Tankban alvasztott, habart állományú kefir gyártási folyamata"
+    ],
+    [
+      "(",
+      "Forrás: ",
+      "Szakértő ",
+      "saját szerkesztés",
+      "ű ábrája)"
+    ],
+    [
+      ""
+    ],
+    [
+      "A tejföl gyártástechnológiája"
+    ],
+    [
+      "A tejföl gyártási folyamata megegyezik a kefir készítésének műveleteivel. A különbség annyi, hogy a tejföl készítéséhez nem tejet, hanem jellemzően frissen fölözött tejszínt használnak. Ezenkívül a beoltást a vaj- és túrókészítésnél is alkalmazott vajkultúrával végzik."
+    ],
+    [
+      "A gyártás során a már beállított zsírtartalmú, fölözött tejszínt előbb homogénezik, hogy megelőzzék a további ",
+      "felfölöződést",
+      " és a savókiválást. Ezután magas hőfokon ",
+      "hőkezelik",
+      " néhány perces ",
+      "hőntartással",
+      "."
+    ],
+    [
+      "Beoltásnál a vajkultúrából a beoltott alapanyag 0,01–3%-",
+      "ának",
+      " megfelelő mennyiséget adnak a tejszínhez. A beoltáshoz használt baktériumtörzsek szaporodásához a 24–26 °C az optimális hőmérséklet (",
+      "mezofil",
+      " kultúra). Ezért az alvasztás ezen a hőfokon történik. Az alvasztás a joghurthoz, kefirhez hasonlóan történhet pohárban vagy – habart termék esetén – alvasztótankban. Alvadás után a tejfölt 10 °C alá hűtik és ",
+      "utóérlelik",
+      "."
+    ],
+    [
+      "A kész tejföl főbb jellemzői: kellemesen savanykás íz, savómentes, sűrű állomány. A hazai kínálatban a 12 és 20%-os zsírtartalmú tejfölök a legnépszerűbbek."
+    ],
+    [
+      "Pohárban alvasztott, májas állományú tejföl gyártása"
+    ],
+    [
+      "A 2",
+      "0",
+      ". ábra a natúr, pohárban alvasztott, májas állományú tejföl gyártási folyamatát szemlélteti. A technológiai folyamat megegyezik a natúr, májas állományú joghurt és kefir gyártásával. A magas zsírtartalmú alapanyag miatt fokozottan ügyelni kell a ",
+      "homogénezésre",
+      "."
+    ],
+    [
+      "",
+      "",
+      "",
+      "20",
+      "",
+      ". ábra:",
+      " Natúr, pohárban alvasztott, májas állományú tejföl gyártási folyamata"
+    ],
+    [
+      "(",
+      "Forrás: ",
+      "Szakértő ",
+      "saját szerkesztés",
+      "ű ábrája)"
+    ],
+    [
+      "Tankban alvasztott, habart tejföl gyártása"
+    ],
+    [
+      "A 2",
+      "1",
+      ". ábra a tankban alvasztott, habart tejföl gyártási folyamatát szemlélteti. A technológiai folyamat megegyezik a natúr, tankban alvasztott joghurt és kefir gyártásával."
+    ],
+    [
+      "",
+      "",
+      "",
+      "21",
+      "",
+      ". ábra:",
+      " Tankban alvasztott, habart tejföl gyártási folyamata"
+    ],
+    [
+      "(Forrás: Szakértő saját szerkesztésű ábrája)"
+    ],
+    [
+      "Joghurtok, ízesített joghurtok, kefirek, tejfölök minőségi előírásai és ellenőrzésük"
+    ],
+    [
+      "A savanyú tejtermékekre vonatkozó minőségi előírásokat a Magyar Élelmiszerkönyv 1-3/19-1 számú rendelete határozza meg."
+    ],
+    [
+      "Zsírtartalmi követelmények"
+    ],
+    [
+      "Savanyú tejkészítmények (joghurtok, kefirek) esetén az alábbi zsírfokozatok megengedettek: "
+    ],
+    [
+      "Zsíros savanyú tejkészítmény esetén a zsírtartalom legalább 5,0% (m/m), de kevesebb mint 10,0% (m/m)"
+    ],
+    [
+      "Savanyú tejkészítmény esetén a zsírtartalom legalább 3,0 % (m/m), de kevesebb mint 5,0% (m/m)"
+    ],
+    [
+      "Zsírszegény savanyú tejkészítmény esetén a zsírtartalom több mint 0,5% (m/m), de kevesebb mint 3,0% (m/m)"
+    ],
+    [
+      "Sovány savanyú tejkészítmény esetén a zsírtartalom legfeljebb 0,5% (m/m)"
+    ],
+    [
+      "A késztermék zsírtartalmának az ellenőrzés során meg kell felelnie a jelzett termékkategóriákon belüli értékeknek, vagyis a termék zsírtartalma nem lépheti át a zsírfokozatnak megfelelő minimum- és maximumértékeket. Savanyú tejkészítmények esetén a csomagoláson feltüntetett zsírtartalom-érték és a termék vizsgálata során mért zsírtartalom-érték között az eltérés nem lehet nagyobb +/− 0,3%-",
+      "nál",
+      ".  "
+    ],
+    [
+      "Savanyú tejszínkészítmények (tejfölök) esetén az alábbi zsírfokozatok megengedettek:"
+    ],
+    [
+      "zsíros savanyú tejszínkészítmény esetén a zsírtartalom legalább 30% (m/m);"
+    ],
+    [
+      "savanyú tejszínkészítmény esetén a zsírtartalom legalább 18% (m/m), de kevesebb mint 30% (m/m);"
+    ],
+    [
+      "félzsíros savanyú tejszínkészítmény esetén a zsírtartalom legalább 10% (m/m), de kevesebb mint 18% (m/m)."
+    ],
+    [
+      "A késztermék zsírtartalmának az ellenőrzés során meg kell felelnie a jelzett termékkategóriákon belüli értékeknek, vagyis a termék zsírtartalma nem lépheti át a zsírfokozatnak megfelelő minimum- és maximumértékeket. Savanyú tejszínkészítmények esetén a csomagoláson feltüntetett zsírtartalom-érték és a termék vizsgálata során mért zsírtartalom-érték között az eltérés nem lehet nagyobb +/− 1,5%-",
+      "nál",
+      "."
+    ],
+    [
+      "Kémiai követelmények"
+    ],
+    [
+      "Általános kémiai előírás, hogy a savanyú tej- és tejszínkészítmények fehérjetartalma érje el a zsírmentes szárazanyag-tartalom legalább 34%-át. Így például, ha 100 g termékben 8,9 g a zsírmentes szárazanyag-tartalom, akkor a 8,9 g legalább 34%-",
+      "ának",
+      " fehérjének kell lennie, vagyis a készterméknek minimum 3,0 g fehérjét kell tartalmaznia."
+    ],
+    [
+      "Minimális zsírmentes szárazanyag-tartalom-értéket csak a savanyú tejszínkészítményekre vonatkozóan határoztak meg. Félzsíros tejföl esetén a terméknek legalább 6,4% zsírmentes szárazanyagot kell tartalmaznia, ennél magasabb zsírkategória esetén a minimális szárazanyag-tartalom 5,9%."
+    ],
+    [
+      "Szintén csak a savanyú tejszínkészítményekre vonatkozóan határoztak meg kötelező savfokértékeket. Az ilyen termékek savfokának 25–40 SH° között kell mozognia."
+    ],
+    [
+      "Mikrobiológiai követelmények"
+    ],
+    [
+      "A Magyar Élelmiszerkönyv kötelező előírásairól szóló 152/2009. (XI. 12.) FVM rendelet a minimális tejsavbaktérium-számot és élesztőszámot csak az élőflórás natúr és ízesített savanyú tej- és tejszínkészítmények esetén írja elő."
+    ],
+    [
+      "Az előírt élőcsíraszámok a mérési bizonytalanságot is figyelembe véve:"
+    ],
+    [
+      "•",
+      "\tKefir esetén a minimális élesztőszám a késztermékben 10 000–100 000 élőcsíra/g (10",
+      "4",
+      " élőcsíra/g), "
+    ],
+    [
+      "•",
+      "\ta kultúrából származó tejsavbaktériumok száma pedig legalább 10 000 000–100 000 000 élőcsíra/g (10",
+      "7",
+      " élőcsíra/g)."
+    ],
+    [
+      "•",
+      "\tSavanyú tejkészítmények esetén a kultúrából származó tejsavbaktériumok száma legalább 10",
+      "7",
+      " élőcsíra/g."
+    ],
+    [
+      "•",
+      "\tSavanyú tejszínkészítmények esetén a kultúrából származó tejsavbaktériumok száma legalább 10",
+      "5",
+      " élőcsíra/g."
+    ],
+    [],
+    [
+      "Az általános mikrobiológiai követelményeket az élelmiszerek mikrobiológiai kritériumairól szóló ",
+      "A Bizottság 2073/2005/EK rendelete (2005. november 15.) ",
+      "és az élelmiszerekben előforduló mikrobiológiai szennyeződések megengedhető mértékéről szóló 4/1998. (XI. 11.) EüM rendelet határozza meg."
+    ],
+    [
+      "Érzékszervi követelmények"
+    ],
+    [
+      "Natúr savanyú tej- és tejszínkészítmények"
+    ],
+    [
+      "Külső:",
+      " Egyenletesen csontfehér színű, ",
+      "felfölöződéstől",
+      " mentes."
+    ],
+    [
+      "Állomány:",
+      " A májas alvadék egynemű, a csomagolóeszköz falához jól tapadó, ",
+      "felfölöződéstől",
+      " és savókiválástól mentes, összekeverés után sima, sűrűn vagy hígan folyó. A habart alvadék egynemű, ",
+      "felfölöződéstől",
+      " és savókiválástól mentes, sima, sűrűn vagy hígan folyó."
+    ],
+    [
+      "Szag:",
+      " Kellemesen savanykás, a termék jellegének megfelelően aromás."
+    ],
+    [
+      "Íz:",
+      " Kellemesen savanykás, a termék jellegének megfelelően zamatos."
+    ],
+    [
+      "Ízesített savanyú tej- és tejszínkészítmények"
+    ],
+    [
+      "Külső:",
+      " Egyenletes, a termék jellegének megfelelő színű, ",
+      "felfölöződéstől",
+      " és savókiválástól mentes, darabos ízesítőanyagok felhasználásakor az alvadékban a darabok láthatók, ",
+      "habosítás",
+      " esetén a habszerkezet érzékelhető."
+    ],
+    [
+      "Állomány:",
+      " Hígan vagy közepesen sűrűn folyó vagy habszerkezetű, ",
+      "felfölöződéstől",
+      " és savókiválástól mentes, darabos ízesítőanyagok használatakor az alvadékban a darabok érzékelhetők."
+    ],
+    [
+      "Szag:",
+      " Kellemesen savanykás, a használt kultúrára és az ízesítőanyagra vagy az aromára jellemző."
+    ],
+    [
+      "Íz:",
+      " Kellemes savanykás-édeskés vagy savanykás-sós, a használt kultúrára és az ízesítőanyagra vagy az aromára jellemző."
+    ],
+    [
+      "Savanyú tej- és tejszínkészítmények jellemző hibái"
+    ],
+    [
+      "Renyhe alvadás"
+    ],
+    [
+      "A renyhe alvadás oka a felhasznált kultúra gyenge savanyító képessége, például kevesebb kultúrát használtak fel a beoltásnál, esetleg a felhasznált kultúra összetétele nem volt megfelelő. Előfordulhat, hogy a tejátvétel folyamán hiba történt, és gátlóanyagot tartalmazó tej került a tételbe, és ez akadályozta a kultúra mikrobáinak megfelelő szaporodását, mivel a joghurtkultúra különösen érzékeny a gátlóanyagokra."
+    ],
+    [
+      "Felfölöződés"
+    ],
+    [
+      "Felfölöződést",
+      " okozhat a ",
+      "homogénezés",
+      " elhagyása, vagy ha nem megfelelő módon ment végbe a művelet."
+    ],
+    [
+      "Csomós állomány"
+    ],
+    [
+      "Csomós állományú (2",
+      "2",
+      ". ábra) lehet a termék, ha az egy tömegben alvasztott termék feltörésénél, habarásánál nem tartják be az előírásokat. Az alvadék feltörését 4,5–4,6 pH-értéknél el kell kezdeni, és a habarást a 4,4 pH-érték eléréséig be kell fejezni. Ügyelni kell a gyors hűtési folyamatra. A 4,6 pH-érték elérését követően az alvadékot a lehető leggyorsabban 10 °C alá kell hűteni."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "22",
+      "",
+      ". ábra:",
+      " Csomós állományú joghurt"
+    ],
+    [
+      "(Forrás: ",
+      "//www.alamy.com/hu/homemade-yogurt-in-spoon-isolated-on-white-background-image503298194.html?imageid=1F449D74-70CD-489B-B77B-A84757921C16&p=1318702&pn=1&searchId=8c3c2994b6ccaaa5e103782a820e900a&searchtype=0",
+      ", ",
+      "l",
+      "etöltés",
+      ": ",
+      "2024 06. 24",
+      ".",
+      ")"
+    ],
+    [
+      "Túlsavanyodás"
+    ],
+    [
+      "A túlsavanyodás legtöbbször technológiai hiba: olyankor következik be, ha alvadás után a tétel nincs azonnal lehűtve. A hűtést követő, későbbi savanyodás már az áru romlására utal."
+    ],
+    [
+      "Savóeresztés"
+    ],
+    [
+      "A savóeresztés (23. ábra)",
+      " ",
+      "a tárolási idő előrehaladtával fordulhat elő. Okozhatja a nem megfelelő módon végzett ",
+      "homogénezés",
+      ", a stabilizálószerek felhasználásánál elkövetett hiba, esetleg a melegen való, korai mozgatás vagy az alvadék túlsavanyodása."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "23",
+      "",
+      ". ábra:",
+      " Intenzív savóeresztés"
+    ],
+    [
+      "(",
+      "Forrás: https://www.alamy.com/hu/layer-of-whey-protein-formed-on-top-of-packaged-yogurt-after-opening-in-white-background-natural-process-and-is-safe-to-consume-image386215213.html?imageid=47F374BE-0C43-4D98-9DDF-66268C5635F7&p=1296763&pn=1&searchId=4b18f6c6d79e40deb8f0a3e6a43bf220&searchtype=0",
+      ", l",
+      "etöltés: ",
+      "2024",
+      ". 0",
+      "6",
+      ". 2",
+      "4",
+      ".",
+      ")"
+    ],
+    [
+      "Ízhibák"
+    ],
+    [
+      "Üres (jellegtelen) íz – A joghurt üres ízű lesz, ha a felhasznált kultúrának gyenge a savanyító hatása, mert csökkent az aromaanyagok termelése. Üres ízt okozhat még az utóérlelés elhagyása vagy jelentős lerövidítése."
+    ],
+    [
+      "Kesernyés íz – A kesernyés íz penészfertőzésre utal."
+    ],
+    [
+      "Élesztős íz - A fokozódó élesztős íz az élesztős fertőzés következménye."
+    ],
+    [
+      "Olajos, karcos, avas íz – Az olajos, karcos, avas íz a magasabb zsírtartalommal kapcsolatos ízhiba, ezért ez a savanyú tejszínkészítményekre jellemző. A tejfölben lévő zsír valamilyen oknál fogva bomlásnak indul, a bomlás során keletkező anyagok okozzák ezt az ízhibát."
+    ],
+    [
+      "Idegen, émelyítő íz és szag – Az idegen, émelyítő íz és szag minden esetben baktériumos fertőzés következménye, az ilyen termék fogyasztásra alkalmatlan."
+    ],
+    [
+      "Irodalomjegyzék"
+    ],
+    [
+      "A Magyar Élelmiszerkönyv 1-3/19-1 számú előírása a tejtermékekről ",
+      " (",
+      "2024.06",
+      ".",
+      " 22.",
+      ")"
+    ],
+    [
+      "A Bizottság 2073/2005/EK rendelete (2005. november 15.) ",
+      "az élelmiszerek mikrobiológiai kritériumairól:",
+      " https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=CELEX%3A02005R2073-20200308, ",
+      "2024.06.22."
+    ],
+    [
+      "4/1998. (XI. 11.) EüM rendelet"
+    ],
+    [
+      "az élelmiszerekben előforduló mikrobiológiai szennyeződések megengedhető mértékéről"
+    ],
+    [
+      "https://njt.hu/jogszabaly/1998-4-20-0B,",
+      " ",
+      "2024 06.23."
+    ],
+    [
+      "Fenyvessy",
+      " József, Csanádi József, Csapó János, Csapó-Kiss, Zsuzsanna.: Tejipari technológia. Tej és tejtermékek a táplálkozásban",
+      ". Kolozsvár, 2014, ",
+      "Scientia",
+      " Kiadó."
+    ],
+    [
+      "Dr. ",
+      "Ketting",
+      " Ferenc: Tejipari technológia I.",
+      " Budapest, 1977, Mezőgazdasági Könyvkiadó."
+    ],
+    [
+      ""
+    ],
+    [
+      "ÁBRAJEGYZÉK"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Pákozdi Enikő"
+      ],
+      [
+        "Szakmai lektor:",
+        "Zakariásné Kiskó Bernadett"
+      ],
+      [
+        "Évfolyam:",
+        "12. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "27 óra"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Élelmiszeripar"
+      ],
+      [
+        "Szakma:",
+        "Tejipari technikus"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Tejtermékgyártás"
+      ],
+      [
+        "Tantárgy:",
+        "Tejipari technológia I."
+      ]
+    ],
+    [
+      [
+        "Felhasznált segéd-, adalék- és alapanyagok",
+        "Gyártástechnológiai műveletek",
+        "Technológiai paraméterek"
+      ],
+      [
+        "Beállított zsírtartalmú tej",
+        "Előmelegítés",
+        "70-75 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Homogénezés",
+        "150–200 bar"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hőkezelés",
+        "90–95 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hűtés",
+        "20–30 °C-ra"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "Kefirkultúra",
+        "Beoltás",
+        "0,01–3%"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Töltés, csomagolás",
+        ""
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Alvasztás",
+        "4,6–4,8 pH-ig"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hidegérlelés",
+        "12–24 óra < 10 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hűtőraktározás",
+        "< 10 °C"
+      ]
+    ],
+    [
+      [
+        "Felhasznált segéd-, adalék- és alapanyagok",
+        "Gyártástechnológiai műveletek",
+        "Technológiai paraméterek"
+      ],
+      [
+        "Beállított zsírtartalmú tej",
+        "Előmelegítés",
+        "60–65 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Homogénezés",
+        "150–200 bar"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hőkezelés",
+        "90–95 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hűtés",
+        "20–30 °C-ra"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "Kefirkultúra",
+        "Beoltás",
+        "0,01–3%"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Alvasztás",
+        "4,6–4,8 pH-ig"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Alvadék feltörése",
+        ""
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Habarás, hűtés",
+        "4,5–4,6 pH < 10 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Töltés, csomagolás",
+        ""
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hidegérlelés",
+        "12–24 óra < 10 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hűtőraktározás",
+        "< 10 °C"
+      ]
+    ],
+    [
+      [
+        "Felhasznált segéd-, adalék- és alapanyagok",
+        "Gyártástechnológiai műveletek",
+        "Technológiai paraméterek"
+      ],
+      [
+        "Beállított zsírtartalmú tejszín",
+        "Előmelegítés",
+        "70–75 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Homogénezés",
+        "150–200 bar"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hőkezelés",
+        "90–95 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hűtés",
+        "20–30 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "Vajkultúra",
+        "Beoltás",
+        "0,01–3 %"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Töltés, csomagolás",
+        ""
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Alvasztás",
+        "4,6–4,8 pH-ig"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hidegérlelés",
+        "12–24 óra < 10 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hűtőraktározás",
+        "< 10 °C"
+      ]
+    ],
+    [
+      [
+        "Felhasznált segéd-, adalék- és alapanyagok",
+        "Gyártástechnológiai műveletek",
+        "Technológiai paraméterek"
+      ],
+      [
+        "Beállított zsírtartalmú tejszín",
+        "Előmelegítés",
+        "60–65 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Homogénezés",
+        "150–200 bar"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hőkezelés",
+        "90–95 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hűtés",
+        "20–30 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "Vajkultúra",
+        "Beoltás",
+        "0,01–3%"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Alvasztás",
+        "4,6–4,8 pH-ig"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Alvadék feltörése",
+        ""
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Habarás, hűtés",
+        "4,5–4,6 pH < 10 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Töltés, csomagolás",
+        ""
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hidegérlelés",
+        "12–24 óra < 10 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hűtőraktározás",
+        "< 10 °C"
+      ]
+    ]
+  ],
+  "headers": [
+    "",
+    ""
+  ],
+  "footers": [
+    "RRF-2.2.1-22-2022-00001 azonosító számú, „Szakképzési digitális tananyagfejlesztés” c. projekt\n\nIKK Nonprofit Zrt.\nH-1033 Budapest, Szőlőkert utca 9.\nH-1243 Budapest, Pf.: 669\nikk.hu | iroda@ikk.hu\n\n",
+    ""
+  ],
+  "footnotes": [
+    "",
+    ""
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image20.jpg",
+      "path": null,
+      "bytes": 295871
+    },
+    {
+      "name": "image21.png",
+      "path": null,
+      "bytes": 204690
+    },
+    {
+      "name": "image22.jpg",
+      "path": null,
+      "bytes": 56750
+    },
+    {
+      "name": "image18.png",
+      "path": null,
+      "bytes": 458900
+    },
+    {
+      "name": "image19.png",
+      "path": null,
+      "bytes": 226097
+    },
+    {
+      "name": "image24.jpg",
+      "path": null,
+      "bytes": 56021
+    },
+    {
+      "name": "image17.png",
+      "path": null,
+      "bytes": 298006
+    },
+    {
+      "name": "image25.jpg",
+      "path": null,
+      "bytes": 66573
+    },
+    {
+      "name": "image26.jpg",
+      "path": null,
+      "bytes": 44219
+    },
+    {
+      "name": "image23.png",
+      "path": null,
+      "bytes": 379781
+    },
+    {
+      "name": "image16.jpg",
+      "path": null,
+      "bytes": 138996
+    },
+    {
+      "name": "image15.jpg",
+      "path": null,
+      "bytes": 138942
+    },
+    {
+      "name": "image7.png",
+      "path": null,
+      "bytes": 10864
+    },
+    {
+      "name": "image6.jpg",
+      "path": null,
+      "bytes": 18319
+    },
+    {
+      "name": "image5.jpg",
+      "path": null,
+      "bytes": 20365
+    },
+    {
+      "name": "image4.jpg",
+      "path": null,
+      "bytes": 15921
+    },
+    {
+      "name": "image3.jpg",
+      "path": null,
+      "bytes": 20641
+    },
+    {
+      "name": "image8.png",
+      "path": null,
+      "bytes": 16218
+    },
+    {
+      "name": "image9.jpg",
+      "path": null,
+      "bytes": 68703
+    },
+    {
+      "name": "image10.jpg",
+      "path": null,
+      "bytes": 68794
+    },
+    {
+      "name": "image14.jpg",
+      "path": null,
+      "bytes": 19992
+    },
+    {
+      "name": "image13.png",
+      "path": null,
+      "bytes": 107511
+    },
+    {
+      "name": "image12.jpg",
+      "path": null,
+      "bytes": 79769
+    },
+    {
+      "name": "image11.png",
+      "path": null,
+      "bytes": 393284
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 56449
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Table Normal",
+    "Title",
+    "Subtitle",
+    null,
+    null,
+    null,
+    null,
+    "annotation text",
+    "Jegyzetszöveg Char",
+    "annotation reference",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Hyperlink",
+    "Feloldatlan megemlítés1",
+    "Caption",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "table of figures",
+    "List Paragraph",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char"
+  ]
+}

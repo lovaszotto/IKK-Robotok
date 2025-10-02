@@ -1,0 +1,1829 @@
+{
+  "core_properties": {
+    "creator": "Pintér Andrea (ELMS)",
+    "lastModifiedBy": "Soós Gabriella Brigitta (ELMS)",
+    "revision": "2",
+    "created": "2024-09-24T12:20:00Z",
+    "modified": "2024-09-24T12:20:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal",
+    "TotalTime": "0",
+    "Pages": "38",
+    "Words": "7078",
+    "Characters": "48840",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "407",
+    "Paragraphs": "111",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "55807",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "Egyedi megrendelés azonosítója: EM-2.10.4  ",
+    "Az erjedés művelete",
+    "Témák kézirata",
+    "Forrás: Az eredeti könyv címe: Technologie des Weines, 1. Auflage 2015, Der Verlag Eugen Ulmer KG,\nISBN 978-3-8001-7959-6, Az eredeti könyv szerzői: Jochen Hamatschek",
+    "",
+    "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak.",
+    "",
+    "",
+    "",
+    "Tartalomjegyzék",
+    "1 Az alkoholos erjedés általános technológiája\t3",
+    "1.1 Hőmérséklet-szabályozás az erjesztés során\t3",
+    "1.2 Az erjedési hő elvezetése\t5",
+    "1.3 A keletkező szén-dioxid elvezetése\t7",
+    "1.4 Erjedési űr\t7",
+    "2 A spontán és irányított erjesztés\t9",
+    "2.1 Spontán erjedés\t9",
+    "2.2 Irányított erjesztés\t9",
+    "2.2.1 Az élesztőtörzs kiválasztásának kritériumai\t11",
+    "2.3 Különleges élesztők\t12",
+    "2.4 Erjesztési segédanyagok, élesztőtápanyagok hozzáadása\t13",
+    "2.4.1 Koinokuláció\t15",
+    "2.4.2 Felületnövelő szerek\t15",
+    "2.4.3 Erjedési zavarok\t15",
+    "3 Fehérborok erjesztése\t18",
+    "3.1 Általános fehérborerjesztés technológiája\t18",
+    "3.2 Illatos szőlőfajtákból készült fehérborok erjesztési technológiája\t19",
+    "3.3 Különleges erjesztési módok\t20",
+    "4 Rozéborok erjesztése\t24",
+    "4.1 Sillerborok erjesztése\t26",
+    "5 Vörösborok erjesztése\t28",
+    "5.1 Héjonerjesztéses vörösborkészítési technológia\t28",
+    "5.1.1 Hideg maceráció\t28",
+    "5.1.2 A törkölykalap bemerítése\t29",
+    "5.1.3 Az erjedési hőmérséklet\t29",
+    "5.1.4 Spontán erjedés vagy fajélesztővel végzett erjesztés\t30",
+    "5.1.5 Az erjedés időtartalma, a préselés időpontjának megválasztása\t30",
+    "5.1.6 A must korai leengedése (korai fejtés, saignée)\t30",
+    "5.1.7 A tannin használata az erjesztés során\t31",
+    "5.2 Melegítéses vörösborkészítési eljárás\t33",
+    "5.2.1 Szénsavatmoszférás vörösborkészítési eljárás - maceration carbonique\t34",
+    "5.3 Blanc de noir bor készítése\t35",
+    "Ábrajegyzék\t36",
+    "Felhasznált irodalom\t37",
+    "",
+    "",
+    "Az alkoholos erjedés általános technológiája",
+    "Az élesztőgombák kierjesztik a mustban lévő cukortartalmat, közben főként etil-alkoholt, szén-dioxidot és hőt termelnek. Ezt a folyamatot alkoholos erjedésnek nevezik. Az erjedés mikrobiológiai és biokémiai háttere az előző fejezetekben van ismertetve. Az alkoholos erjedés kimenetelét rengeteg környezeti, mikrobiológiai és technológiai feltétel határozza meg. Ez a rövid időszak, amikor a mustból bor születik, igen intenzív és izgalmas szakasza a borkészítésnek.",
+    "Az alkoholos erjedés lefolyását számos olyan paraméter jellemzi, amelyek befolyásolják a borélesztő (vadélesztő, vagy az irányított erjesztés során alkalmazott fajélesztő) aktivitását, ezen keresztül az erjedő tétel minőségét. Akár spontán erjedésről, melyet vadélesztők végeznek, akár szelektált fajélesztőkkel való irányított erjesztésről legyen is szó. Ezek között az egyik nagyon fontos tényező az erjedési hőmérséklet.",
+    "",
+    "Hőmérséklet-szabályozás az erjesztés során",
+    "Az erjedés függ a hőmérséklettől: 10-35 °C között zajlik le. Ez alatt vagy e felett az élesztő túl nagy stressznek van kitéve. 10 ˚C alatt az erjesztési tevékenység fokozatosan leáll, különösen, ha már etanol (etil-alkohol) is képződött. 35 ˚C fölött pedig számolni kell a borélesztők gyors pusztulásával, amit a folyamat közben keletkező etil- alkohol is felgyorsít, következésképp az erjedés leáll. Az erjedési zavarokat nagyon sok esetben hőmérsékleti hibák okozzák. Az indulási hőmérséklet és az erjedés teljes folyamata alatti hőmérséklet tudatos megválasztása fontos döntés, a megvalósítás pedig igazi kihívás. Az erjedési hőmérséklet szabályozása a kívánt borstílusnak és az erjedés egészséges lefolyásának is fontos eleme. Ha az erjedési hőmérséklet nem megfelelő, ennek a készülő borra nézve hosszú távú következményei lehetnek. Pl. elhúzódó erjedés, az erjedés leállása, nem megfelelő illat- és zamatanyagok képződése stb. Az elhúzódó erjedés folyamatos felügyeletet és szükség esetén gyors beavatkozást igényel.",
+    "Az alkoholos erjedés lefolyását számos olyan paraméter jellemzi, amelyek befolyásolják a borélesztő aktivitását.",
+    "A hideg erjesztés több mint 3 hétig is eltarthat, a meleg erjesztés akár már 3 nap után befejeződhet. Minél alacsonyabb hőfokon történik az erjesztés, annál több időt vesz igénybe, hiszen az élesztők lassabban tudnak dolgozni és szaporodni. Melegebb hőmérsékleten nagyobb intenzitással végzik az erjesztést, és nagyobb ütemben is szaporodnak, vagyis a rendelkezésre álló tápanyag hamarabb el is fogy, így néhány nap alatt dolguk végeztével elpusztulnak, az erjedés leáll.",
+    "Néhány alapvető tény az erjedési hőmérséklettel kapcsolatban:",
+    "Az erjedési hőmérséklet növekedésével az alkoholhozam csökken, az etanol gyakorlatilag eltávozik a keletkező szén-dioxiddal, és ugyanez vonatkozik más illékony anyagokra, például az illatanyagokra, de az acetaldehidre is. Ha az erjedési hőmérséklet magas, az erjedés igen intenzívvé válik, ami azt eredményezi, hogy rövid idő alatt sok szén-dioxid keletkezik. A heves erjedésben a távozó gáz magával viszi az etil-alkohol molekulákat az illékony komponensekkel (illatanyagokkal) együtt.",
+    "A biomassza-termelés a hőmérséklet emelkedésével nő, vagyis egyre több sejt képződik, ez jelen esetben azt jelenti, hogy az élesztők száma rohamosan nő, vagyis egyre nagyobb tömeget alkotnak. Ezt az élesztőtömeget nevezzük biomasszának.",
+    "A héjon erjesztés során a hőmérséklet emelkedésével fokozódik a szín- és a fenolextrakció, a borok testesebbé, teltebbé válnak.",
+    "Az élősejtek száma az erjedés végéhez közeledve csökken, annak ellenére, hogy a hőmérséklet növekszik, hiszen a tápanyag fogytán van és az élesztők számára mérgező etil-alkohol pedig egyre magasabb koncentrációban van jelen.",
+    "A glicerin, az észterek, a magasabb rendű alkoholok, a butándiol a hőmérséklet növekedésével fokozottan termelődnek és a cukormentes extrakt is növekszik.",
+    " Az erjedési hőmérséklet növekedésével nő a későbbi spontán malolaktikus erjedés valószínűsége, hiszen a tejsavbaktériumok fel tudnak szaporodni az élesztők árnyékában. Az erjedési hőmérsékletre vonatkozó hőmérséklet-ajánlások a különféle borkészítési technológiák esetén eltérnek, azonban az egyes technológiákra vonatkozó általános szabályt az évjárati adottságok, a szőlő minősége, a hagyományok felülírhatják.",
+    "",
+    "Az erjedési hő elvezetése",
+    "Az alkoholos erjedés exoterm reakció. Elméletileg az alkoholos erjedés egyenletét alapulvéve kb. 25 kcal (kb. 105 kJ) szabadul fel egy mol erjesztett cukorból, amely hő formájában keletkezik. A 1. ábra vázlatosan mutatja a felszabaduló hő eloszlását. A hő egy része, körülbelül 20%-a, a szén-dioxiddal együtt távozik. Másik része az erjesztőtartály felületén távozik, amíg a helyiség hőmérséklete alacsonyabb, mint az erjesztési hőmérséklet. A többi az erjedő must felmelegedéséhez vezet. A must hőmérséklete akár több mint 20 °C-kal is emelkedhet. Ez azt jelenti, hogy a hőmérséklet jóval meghaladja (35 ˚C felett) a borélesztő hőmérséklettűrő képességét, és az erjedés leáll (túlforr).",
+    "",
+    "A felszabaduló erjedési energia eloszlása",
+    "Forrás: Saját kép",
+    "",
+    "Általánosan elmondható, hogy a nagy erjesztési térfogatok kisebb fajlagos felületet eredményeznek. A jól vezető rozsdamentes acéltartályok jobban hűthetőek, mint a vasbeton tartályok vagy a fahordók, mert a fémek sokkal jobb hővezetők, mint a vasbeton vagy a fa.",
+    "Néhány lehetséges megoldás az erjedési hő elvezetésére:",
+    "Kettős köpennyel ellátott vagy csőkígyós tartályok (2. ábra), melyekben hűtőfolyadék kering, biztosítva a folyamatos hűtést. Sajnos, előfordulhat a hőtőfolyadék belekeveredése az erjedő borba a hűtőrendszer meghibásodása miatt. Ezt mindenképp meg kell akadályozni, mert a hűtőfolyadékok az emberi egészségre káros vegyületeket tartalmaznak.",
+    "",
+    "Hűtőköpennyel ellátott koracél tartály",
+    "Forrás: https://www.ghidimetalli.it/en/serbatoi-inox/insulated-tank-stainless-steel/ (Letöltés: 2024.07.10.)",
+    "",
+    "Hőcserélő lemezek vagy hűtőkígyók, (3. ábra) melyek mobil rendszerként is használhatóak.",
+    "",
+    "Mobil hűtőpanelek borok erjesztéséhez",
+    "Forrás: http://vinoservice.hu/iranyitott-erjesztes (Letöltés: 2024.07.10.)",
+    "",
+    "A tartály külső felszínére történő vízpermetezés, ami a párolgás révén fejti ki hűtő hatását.",
+    "",
+    "A keletkező szén-dioxid elvezetése",
+    "Nagyon fontos feladat gondoskodni az erjedés során keletkező szén-dioxid elvezetéséről. A korábbi fejezetekben volt arról szó, hogy ez a gáz komoly veszélyt jelent a pincékben.",
+    "Az erjesztőhelyiségekben kötelezően ki kell helyezni a veszélyre figyelmeztető táblákat, valamint szellőzőberendezésekkel kell megoldani a szén-dioxid eltávolítását. Előírás erjesztőüzemek esetén a szén-dioxid jelző készülék felszerelése bizonyos üzemnagyság felett.",
+    "Néhány nagyobb borászatban mód van arra is, hogy az erjedéskor keletkező szén-dioxid gázt összegyűjtsék. Ebben az esetben a gázt megtisztítják a folyadék halmazállapotú és szilárd szennyeződésektől, majd nyomás alatt cseppfolyós halmazállapotban tárolják a későbbi felhasználásig. Később megoldható ezzel a tartályokban lévő bor feletti levegő kiszorítása, vagyis az oxidáció mérséklése, valamint alkalmas arra is, hogy a szén-dioxid gázt visszaoldják, így kézítve gyöngyöző- vagy habzóbort.",
+    "",
+    "Erjedési űr",
+    "Az erjesztés során a tartály az elkerülhetetlen habképződés miatt legfeljebb 80%-ig tölthető meg, vagyis a maradék 20 % fogja adni az erjedési űrt. Így elkerülhető válik, hogy a tartály falán a keletkező hab kifolyjon. A tartály külső felületére száradó erjedési hab nemcsak látványában riasztó, hanem komoly mikrobiológiai kockázatot rejt. A lecsengő erjedési fázisban már csak kevés CO2 kerül a külvilágba, és a folyadék térfogata a lehűlés miatt csökken, vagyis oxigén oldódhat be a borba akár rövid időn belül is. Ezt a tényt mindenképp figyelmbe kell venni a bor további kezelése kapcsán.",
+    "A spontán és irányított erjesztés",
+    "Spontán erjedés",
+    "A spontán erjedés azt jelenti, hogy a szőlőbogyók felületéről, valamint a pincei eszközökről és a pince légtérből a mustba kerülő vadélesztő gombák viszik végbe az erjedés folyamatát.",
+    "Manapság reneszánszát éli a spontán erjesztés, nemcsak Magyarországon, hanem világszerte. Ennek fő okai az egyediségre irányuló vágy és a különlegességek keresése. Vitathatatlan, hogy a spontán erjesztés más végeredményt ad, mint a fajélesztőkkel történő erjesztés. Az így készített borokat összetettebb karakterűeknek tartják a borászok.",
+    "A spontán erjesztéseket azonban sokkal bonyolultabb elvégezni és ellenőrizni, nem minden esetben sikeres, és jelentős a kockázata.",
+    "Összefoglalva tehát a spontán erjesztés hatalmas előnye a különleges, egyedi karakterű bor. Egyre inkább erősödik az a trend a fogyasztók körében, hogy a borokban a terroirt és a borász egyedi stílusát keressék.",
+    "Hátrányaként meg kell említeni a következő kockázati tényezőket: az erjedés idő előtti leállása, a nem kívánatos anyagcseretermékek keletkezése, például etil-acetát, illósav, kén-hidrogén stb.",
+    "A spontán erjedés komoly szaktudást és hatalmas odafigyelést kíván a borásztól. Az erjedés elejétől a legvégéig naponta többször is ellenőrizni kell a cukorfogyást, az alkoholtartalom növekedését, illetve az erjedő tétel illatát és ízét.",
+    "",
+    "Irányított erjesztés",
+    "A fajélesztő musthoz való hozzáadása a tulajdonképpeni borélesztőt az első pillanattól kezdve domináns helyzetbe hozza. A vadélesztőket elnyomják, mielőtt jelentős mennyiségben tudnák képezni saját anyagcseretermékeiket. A fajélesztő folyékony formában vagy száraz élesztő formájában is megvásárolható.",
+    "A szárított élesztők terjedtek el jobban, mert használatuk egyszerűbb. Az egészséges szőlő esetében a dózist 10–25 g/hl értékben adják meg, amely körülbelül 106 sejt/ml-t visz a beoltandó mustba. Az adagolás ettől eltérhet, ha a szőlőben már megindultak a rothadási folyamatok: minden 10%-os rothadás esetén ajánlott a hozzáadott mennyiséget 2 g/hl-rel növelni.",
+    "Használat előtt az élesztősejteket rehidratálni kell. Ezt először 32–37 °C-os víz és must fele-fele arányú keverékében érdemes elvégezni. Az élesztő számára a rehidratálás kritikus fázis. A vízfelvétel a kiszáradt és részben sérült citoplazmamembránon keresztül nem szabályozott módon történik, és szennyező anyagokat juttathat be a sejtekbe. Az élesztőkészítményekhez olyan anyagokat (élesztő tápanyagokat) is kevernek, melyek a vízfelvétel során segítenek a sejtmembrán egészséges visszaépítésében, így a sejtek hatékonyabban alkalmazkodnak a mustban lévő körülményekhez. Nagyon fontos, hogy a hideg, előkészített musthoz nem szabad rögtön hozzáönteni a már felfutott élesztőkeveréket, hanem fokozatosan kell hozzászoktatni az élesztőket az alacsonyabb hőmérséklethez és a magas cukortartalomhoz. A hideg mustból csak annyi keverhető a must-víz-élesztő keverékhez, hogy a hőmérséklete ne csökkenjen 5 ˚C -nál többet egyszerre (ezt hívják hőlépcsőnek).  Ezt a hőlépcsőt addig kell alkalmazni, amíg az élesztőkeverék és a beoltani kívánt must hőmérséklete azonos nem lesz. Ellenkező esetben könnyen előfordulhat, hogy az élesztő hidegsokkot kap, és nem fog működni.",
+    "Olyan élesztőtörzsek is megjelentek már a piacon, amelyek előzetes rehidratálás nélkül közvetlenül a musthoz adhatóak.",
+    "Ideális esetben a fajélesztők használata olyan erjedési aromát eredményez, amelyet kizárólag az élesztő anyagcseréje jellemez. Más mikroorganizmusok ebben az esetben nem kapnak lehetőséget arra, hogy aktívvá váljanak.  Számos, egymástól eltérő erjesztési tulajdonságokkal rendelkező törzseket szelektáltak. A különböző törzsek többé-kevésbé ugyanazokat az anyagokat termelik. A különbségek a mennyiségekben rejlenek, mivel az egyes anyagcsere-utak (az anyagcsere során bekövetkező biokémiai reakciók minősége, valamint a keletkező vegyületek minősége és mennyisége) eltérőek lehetnek. A környezeti feltételek megváltoztatása is (hőmérséklet, oldott oxigéntartalom, tápanyagok mennyisége és minősége, ozmotikus nyomás stb.) hatással vannak az élesztőgombák által termelt anyagcsere termékekre.",
+    "A különböző élesztőtörzsek más-más mennyiségben képeznek illat- és zamatanyagokat, ennek eredményeképpen a különböző törzsek anyagcseréjüktől függően eltérő aromabenyomásokat hagynak maguk után. A 4. ábra példaként négy különböző szárazélesztő jellemzőinek kifejeződését hasonlítja össze.",
+    "",
+    "A jellemzők kifejeződése egy vörösbor négy különböző élesztőtörzzsel történő párhuzamos erjesztése után",
+    "",
+    "Az NT50 jelöléssel ellátott törzsre jellemző, hogy a bor kevésbé fanyar, illetve, hogy a „fűszeres” vagy „zöldpaprikás” jellemzők erősebben fejeződnek ki. Ezzel szemben a Color törzs magasabb színintenzitást ért el, mint a három összehasonlító partner.",
+    "Összefoglalva kijelenthető, hogy az irányított erjesztés esetén a folyamat nagy biztonsággal végbemegy, olyan aromakaraktereket adva a bornak, melyek előre kiválaszthatóak. A borok így jól felismerhetőek lesznek, a terroir és a borász egyedi stílusa viszont nem feltétlenül jelenik meg, ez utóbbiak megjelenését inkább a spontán erjedés teszi lehetővé. Természetesen, ha nem biztosítják az élesztők számára a megfelelő környezeti feltételeket, akkor az irányított erjedés is félremehet, megakadhat.",
+    "",
+    "Az élesztőtörzs kiválasztásának kritériumai",
+    "Ahhoz, hogy egy törzs fajélesztőként sikeres legyen, számos tulajdonságnak kell megfelelnie:",
+    "gyors erjesztésre legyen képes a konkurens mikroorganizmusok elnyomása érdekében, még alacsony hőmérsékleten is,",
+    "a must cukortartalmát maradéktalanul alakítsa át etil-alkohollá,",
+    "magas tolerancia vegyszerekkel szemben (gombaölőszer-maradékok, SO2),",
+    "jó ülepedés és tömör élesztőüledék képzése,",
+    "alacsony habképzés,",
+    "illósavak alacsony fokú termelése,",
+    "fokozott glicerintermelés (így kevesebb alkohol képzése),",
+    "H2S, SO2 vagy kénmegkötő anyagok (acetaldehid, piruvát, ketoglutársav) alacsony fokú termelése,",
+    "magas hőmérséklettűrés,",
+    "genetikai stabilitás,",
+    "jó hidratálódás száraz élesztők esetén,",
+    "kisebb tápanyagigény (nitrogén, tiamin),",
+    "killer tulajdonság (specifikus fehérjék képzése, amelyek gátolják és elpusztítják az érzékenyebb vadélesztőket; pl. második beoltáshoz egy megakadt erjesztésben),",
+    "magas alkoholtolerancia,",
+    "a tejsavbaktériumok támogatása vagy gátlása,",
+    "a vörösbor színkímélő erjesztése,",
+    "az almasav részleges lebontása,",
+    "a kívánt aromaanyagok  előállítása.",
+    "Különleges élesztők",
+    "A kutatás és fejlesztés egyebek mellett a különleges tulajdonságokkal rendelkező élesztők tenyésztésével is foglalkozik. A száraz élesztők rehidratálás nélküli közvetlen felhasználásáról már volt szó. A tartályhoz közvetlenül csatlakoztatott szivattyúval lehet ezeket hozzáadni, amely az élesztőt a szívóvezetékben lévő tölcsérből veszi fel. Ha ez az újabb fejlesztés elterjed, a pincében végzett munka jelentősen könnyebbé válhat.",
+    "Az erjedés stagnálása örökös probléma a pincében. Gyakran előfordul, hogy az élesztő 10–30 g/l maradékcukornál megakad. Sok esetben ilyenkor a glükóz már nagyrészt kierjedt, és a maradékcukor főleg fruktózból áll. Ha a glükóz/fruktóz arány kisebb, mint 0,1, a borélesztő anyagcseréje inaktívvá válhat. A fruktóz erjesztése utólag hozzáadott fruktofil (fruktózkedvelő) borélesztőkkel lehetséges. A mustban a glükóz és a fruktóz, mint erjeszthető cukrok vannak jelen. A mustok nagy általánosságban ugyanannyi glükózt és fruktózt tartalmaznak, vagyis az arányuk egymáshoz képest 1:1. A Saccharomyces cerevisiae törzsei glükofil (glükózkedvelő) tulajdonsággal bírnak, azaz erjesztés során a glükózt részesítik előnyben. Ahogy fogy a cukor mennyisége az erjedés során, a glükóz-fruktóz arány egyre jobban felborul a fruktóz javára. Nem segít az élesztőknek az sem, hogy a keletkező etil-alkohol egyre nagyobb stresszt okoz számukra. Ezzel magyarázható az, hogy a borokban lévő maradék cukortartalom nagy része fruktóz. Ha megakadt erjedést szeretnének újraindítani, érdemes fruktofil élesztő törzset választani a feladathoz. Ilyen élesztők pl. a Saccharomyces bayanus egyes törzsei, illetve a Candida vadélesztő nemzettséghez tartozó egyes fajok.",
+    "",
+    "Erjesztési segédanyagok, élesztőtápanyagok hozzáadása",
+    "Az irányított erjesztés, a fajélesztők széles körű elterjedése szükségessé tette a megfelelő tápanyag-utánpótlást is. Ha az élesztő a számára nem ideális a környezet (hidegerjesztés), az adott stresszfaktorral is meg kell küzdenie. Ilyen esetben biztosítani kell számukra a megfelelő vegyületeket, ellenkező esetben nem a kívánatos anyagcseretermékeket fogják termelni. Különösen a nitrogén-, a kén- és a B1-vitamin-ellátás áll a tápanyag-utánpótlás középpontjában. Minden olyan must vagy cefre erjesztéséhez szükséges tápanyagot pótolni, melyekben nem megfelelő a tápanyag- és a vitaminellátottság. A hatályban lévő uniós bortörvény a következő tápanyagokat és adalékanyagokat sorolja fel:",
+    "diammónium-foszfát (DAP) vagy ammónium-szulfát hozzáadása; legfeljebb 1 g/l határértékig használható (sóban kifejezve),",
+    "ammónium-biszulfit NH4HSO3 (ammónium-hidrogén-szulfit) hozzáadása; 0,2 g/l határértékig használható (sóban kifejezve),",
+    "tiamin-diklórhidrát (B1-vitamin) hozzáadása; 0,6 mg/l határértékig használható (tiaminban kifejezve),",
+    "élesztősejtfal-készítmények felhasználása 40 g/100 l határértékig.",
+    "A tápanyaghiány általában stressznek teszi ki az élesztőt, és befolyásolja a végső erjedést.",
+    "Megfelelő mennyiségű makro- és mikrotápanyagokra van szükségük az élesztőknek ahhoz, a munkájukat maradéktalanul el tudják végezni. Makrotápanyagok a szén, a nitrogén, a foszfor és a kén. Szénforrásként természetesen a legfőbb tápanyagukat, a glükózt és a fruktózt használják. Nitrogénre, foszforra és kénre a fehérjeszintézishez, a szaporodáshoz van szükségük, és fontosak az aromaanyag-képzésben is.",
+    "Mikrotápanyagaik a vitaminok (biotin és tiamin) és az ásványi anyagok (Mg, K, Mn, Cu, Fe, Zn), melyek feltétlenül fontosak a sejtszintű enzimatikus folyamataikban.",
+    "Irányított erjesztés esetén már az erjesztés elindulása előtt fontos adat az ún. YAN-érték, mely az élesztők által felhasználható nitrogén mennyiségéről ad felvilágosítást. Ahhoz, hogy az erjedés egészségesen végbemenjen, a mustnak minimum 140-150 mg/l YAN-értéket kell tartalmaznia. A stresszel terhelt évjáratokban (például aszály, extrém sok csapadék esetén) különösen kevés a mustok YAN-értéke. Ezekben az esetekben az erjedés közben ki kell egészíteni hozzáadott tápanyagokkal. Rengeteg tápanyagkészítmény elérhető a hazai borászok számára, melyek kaphatóak folyékony és por alakban is. Lehet választani szervetlen tápanyagokkal és szerves összetevőkkel kombinált változatokat is. A tápanyag-adagolás technológiáját a gyártó általában pontosan meghatározza, de ettől el lehet térni indokolt esetben. Általában több adagban javasolják a tápanyag bekeverését amiatt, hogy az élesztők folyamatosan kellő mennyiségű és minőségű tápanyagokhoz jussanak az erjesztés során. A tápanyagmenedzsmentet (a tápanyag-adagolás technológiáját) érdemes már az erjesztési technológia előtt meghatározni a YAN-érték, illetve a korábbi tapasztalatok ismeretében. ",
+    "Amennyiben az erjedő bor kén-hidrogén szagúvá válik, nagy valószínűséggel elhasználta az élesztőpopuláció a rendelkezésére álló nitrogénforrást, vagyis tápanyaghiányban szenved. Az ilyen erjesztés azonnal rendbehozható kevés mennyiségű szervetlen vagy kombinált tápanyaggal.",
+    "Ugyanakkor a nagy mennyiségű, feleslegben hozzáadott tápanyag nemcsak gazdasági kárt jelent, hiszen ezek a segédanyagok drágák, hanem a bor későbbi életében is problémát jelenthet. A bor illata és íze megváltozhat, és mikrobiológiai szempontból is veszélyes lehet, hiszen a vadélesztők számára maradék tápanyag marad a borban, amit könnyedén ki tudnak használni.",
+    "",
+    "Koinokuláció",
+    "Irányított erjesztés során, fehér- és vörösborok esetén általánosan elfogadott technológia a koinokuláció, azaz együttes beoltás. Az élesztővel való beoltás után 2-3 nappal tejsavbaktériumokat adagolnak a mustba azzal a szándékkal, hogy az erjedés leállása után, a még megmaradó erjedési hőmérsékletet kihasználva az erjedés ideje alatt felszaporodó tejsavbaktériumok megkezdik a biológiai almasavbontást. Így gyakorlatilag rögtön az erjedés után, ellenőrzött körülmények között bontható le az almasav.",
+    "",
+    "Felületnövelő szerek",
+    "A must megfelelő tisztítása tisztább és egészségesebb illatú és ízű bort eredményez. Ugyanakkor a nagyüzemi musttisztítási módszerek, mint például a flotálás, a derítés, a must túltisztításához vezethetnek. Ebben az esetben az erjedés vontatottá válhat, hiszen a belső felület, amit a természetes zavarosító anyagok (bogyóhús, héjrészek stb.) alkotnak, ahol az élesztőgombák az élettevékenységüket folytatják, nagy mértékben lecsökken. A természetes seprő hozzáadása bizonyult a leghatékonyabbnak a must belső felületének növelésében. Az eljárás nemcsak a CO2 felszabadulását tudta biztosítani, hanem egyúttal az élesztő számára nélkülözhetetlen zsírsavak, ásványi anyagok és vitaminok hordozójává vált. Elterjedten használnak még az erjesztéshez bentonit készítményeket is a belső felület növelése céljából.",
+    "",
+    "Erjedési zavarok",
+    "Erjedési zavarnak neveznek minden olyan erjedést, legyen az spontán vagy irányított, amelyek aktivitása nem elegendő a must teljes megerjesztéséhez. A 10 g-nál több maradékcukrot tartalmazó borok különlegesen sok figyelmet igényelnek, és fokozott kockázatot jelentenek. Az erjedési zavarok könnyen felismerhetőek az alkoholképződés mértéke (kevesebb alkohol képződik, és nem fogy a cukor) alapján. Sok esetben a lassú, nem teljes erjedés esetén az erjedési melléktermékek fokozott mértékben képződnek, mivel az élesztő anyagcseréje megváltozik, és nem kívánatos vegyületeket termel. ",
+    "Az erjedés nem kívánt leállása nem tévesztendő össze a tisztán lezajló erjedés szándékosan kezdeményezett leállításával. Így készítenek főleg saját fruktózból származó természetes maradék édességgel rendelkező borokat, melyeket a fogyasztók kifejezetten kedvelnek. Az erjedést tudatosan a kívánt cukor- és alkoholtartalom elérése után leállítják, az élesztőgombákat elpusztítják. Erre a célra többféle módszer is a borászok rendelkezésére áll. Mind a hűtés, mind a kénezés alkalmazása megakasztja az erjedés folyamatát. Általában e két módszer együttes alkalmazásával érik el a kívánt hatást. Kb. 5 ˚C körüli hőmérsékletre hűtve lekénezik (50 mg/l szabad kénessavval) az erjedő tételt. Így az élesztők életkörülményei hirtelen és drasztikusan megváltoznak, a populáció elpusztul, vagyis az erjedés leáll.",
+    "Az 5. ábra összefoglalja az alkoholos erjedés minőségét befolyásoló tényezőket. ",
+    "",
+    "Az alkoholos erjedés lefolyását befolyásoló tényezők",
+    "",
+    "Az erjedési zavarok kiküszöbölésére alkalmas megoldások a következőek lehetnek:",
+    "Az élesztők fakultatív anaerob mikroorganizmusok, a szaporodásuk oxigén jelenlétében felgyorsulhat. Ezért az akadozó erjedésben lévő tétel felkeverése új lendületet adhat az erjedési folyamatnak.",
+    "A zajos erjedési fázisban lévő musttal való házasítás is megoldást jelenthet elhúzódó erjedés esetén. (Ha egészségesen erjedő mustot adnak a megakadt vagy a leállt tételhez, akkor az egészségesen szaporodó és erjesztő élesztőgombák be tudják indítani újra az erjedést.)",
+    "Beoltás egy speciális élesztővel, amely a helyzettől függően fruktofil vagy alkoholtűrő tulajdonsággal rendelkezik.",
+    "Erjedési segédanyagok, melyek a must belső felületét képesek megnövelni.",
+    "",
+    "Fehérborok erjesztése",
+    "Általános fehérborerjesztés technológiája",
+    "Rendkívül sokféle fehérbort készítenek a hazai és a külföldi borászok. A stílusok, a szőlőfeldolgozási, mustkezelési technológiák, ezen belül az erjedési technológiák is nagyon változatosak.",
+    "Fehérborok esetén a 20 ˚C alatti erjesztési hőmérséklet ajánlható. Ezen a hőmérsékleten az élesztők kevesebb észtert és több magasabb rendű alkoholt képeznek.",
+    "A legelterjedtebb fehérborkészítési technológia szerint az erjedő tételt 16-18 ˚C-on tartják, így nagy biztonsággal kierjeszthetőek a borok egyenletesen.",
+    "Az erjedés történhet spontán módon vagy irányított technológiával is. Az erjesztéshez többféle edényzetet is használhatnak. A legelterjedtebb a koracéltartály, mert hűtőköpeny vagy mobil hűtő segítségével jól szabályozható a benne erjedő bor hőmérséklete és könnyen tisztítható. Gyakori technológia a jól beérett, magas cukor- és extraktartalmú mustok esetén a fahordóban (3. ábra) történő erjesztés is. Ebben az esetben a pincében, viszonylag alacsony külső hőmérsékleten történik az erjedés, vagyis az erjedő bor hőmérséklete nem emelkedik a kritikus határ (kb. 30 ˚) közelébe.",
+    "",
+    "Fahordóban történő fehérbor erjesztés",
+    "Forrás: https://www.wollersheim.com/wine-101-barrel-fermentation/ (Letölve: 2024.07.10.)",
+    "",
+    "A manapság egyre inkább elterjedőben lévő alternatív erjesztő edényekben folyó erjesztésről a Különleges erjesztési technológiák részben található részletes információ.",
+    "",
+    "Illatos szőlőfajtákból készült fehérborok erjesztési technológiája",
+    "Az illatos, könnyű fehérborok esetén – Irsai Olivér, Ottonel muskotály, Sárgamuskotály, Tramini stb. – a kifejezetten a hidegerjesztés (10-12 ˚C) terjedt el, melynek során a szőlőre jellemző elsődleges illat- és zamatanyagok kerülnek előtérbe a megfelelő fajélesztőt használva. Ebben az esetben a mustot 10 ˚C-ra hűtik, beoltják hidegtűrő és speciális aromaanyagok termelésére kifejlesztett fajélesztővel, és 40-50 g/l maradék cukortartalomnál elengedik az erjedést. A hűtést leállítják és hagyják, hogy az utóerjedésben lévő bor hőmérséklete emelkedjen. Mivel már túl sok hő nem keletkezik az erjedés utolsó szakaszában, ezért 15-16 ˚C-nál nem lesz magasabb a bor hőmérséklete, de a cukrot biztonsággal átalakítja az élesztő. Így a bor intenzív illatú és zamatú lesz.",
+    "",
+    "Különleges erjesztési módok",
+    "A magas cukortartalmú mustok esetén érdemes kicsit magasabb induló hőmérséklettel segíteni az élesztők munkáját, hogy biztonsággal el tudjanak kezdeni szaporodni. A magas cukortartalom magas ozmotikus nyomást jelent az élesztősejtekre, ezért, ha a hőmérsékleti optimumon tartják őket, akkor legalább csak egy stresszfaktorral kell megküzdeniük. Ezeket a tételeket érdemes 20-23 ˚C-on erjeszteni.",
+    "Maradék természetes cukrot tartalmazó fehérborok készítése esetén az erjedést a kívánt cukortartalomnál leállíthatják kénezéssel, szűréssel. Így a szőlőből származó maradék cukortartalom – ami jellemzően fruktóz – teszi édessé a bort, és az alkoholtartalma is kevesebb lesz, ami a jelenlegi fogyasztási trendeknek kedvez. ",
+    "Természetes maradék cukortartalom maradhat akkor is a fehérborokban, ha a szőlőt túlérett állapotban szüretelik le, és az erjedés közben keletkező alkoholtartalom miatt a folyamat természetes úton leáll. Ebben az esetben is főképp a fruktóz dominál a maradék cukortartalomban. Ezek a töppedt szőlőből származó, magas minőségű borok magukon viselik a túlérett szőlőből származó aromaanyagokat, melyek főképp aszalványokra emlékeztető, körtés, birses jegyeket jelentenek.",
+    "Jégborok esetén maga a szüret és a feldolgozás is különleges. Nagyon alacsony hőmérsékleten, -4 ˚C alatt szüretelik az alapanyagot, majd kíméletes, gyors feldolgozás után erjesztik a magas cukortartalmú mustot. Ebben az esetben is az a fő szabály, hogy az élesztők munkáját segítve a hőmérsékletet a számukra optimális érték közelében tartsák.",
+    "A fahordóban történő erjesztés lehetőségéről korábban volt szó, de van néhány különlegesnek mondható lehetőség is. Létezik olyan borstílus, amely esetén a fehérbor szőlő mustját barrique hordóban erjesztik ki. Az alapanyag ebben az esetben jól beérett, egészséges, magas minőségű és beltartalmi értékekkel rendelkező must. A barrique hordóból kioldódó erőteljes, rendszerint füstös, csokoládés ízjegyek dominálnak főképp az így készült borokban. A technológia lényege, hogy a mustot új vagy első-, illetve másodtöltésű barrique hordóba teszik és pincehőmérsékleten (12-16 ˚C) indul az erjedés. Lehet spontán vagy irányított erjesztéssel is készíteni. Erjedés után a finomseprőn érlelik még néhány hétig az elkészült újbort. A tölgyfából beoldódó zamatanyagok és a mikrooxidáció alapvetően meghatározzák a borok karakterét, teljesen eltérő borstílust adva ezeknek a boroknak. A bor színe mélyebbé válik, az elsődleges aromaanyagok helyett átveszik a szerepet a hordóból kioldódó ízek, aromák.",
+    "Manapság egyre inkább előtérbe kerül a kvevriben, agyagedényekben (amforákban) történő erjesztés. Ezek az edények kis űrtartalmúak, vagyis a fajlagos felületük nagy, emiatt ugyanúgy, mint a fahordók esetén, nem melegszenek túl erjedés közben. A natúrborok (olyan borok, amelyek biológiai gazdálkodásból származó szőlőből készülnek, kézi szüretből származnak és összes kénessavtartalmuk maximum 40 mg/l lehet.) készítői használják világszerte leggyakrabban ezeket az ősi borkészítésből vett tárolóedényeket. A fahordók, különösen akkor, ha nemcsak tárolásra használják őket, hanem bennük erjed a bor, meghatározzák alapvetően a borok jellegét. Nem így az agyagból készült kvevrik esetén, hiszen a hordós jegyek itt nem jelennek meg, sokkal inkább a szőlőfajta és a terroir jelleg fog dominálni. A natúrborok egyik képviselője a narancsbor, mely egy az eddigiektől eltérő technológiával készül. A fehérborokat héjon erjesztik, így színanyagban, polifenolokban, tanninokban gazdagok lesznek. Ez azért izgalmas bortípus, mert egyszerre találhatók meg bennük a fehérborokra jellemző jegyek a vörösborra jellemző ízekkel, textúrákkal. A natúrborokat minden esetben spontán erjedéssel készítik a borászok.",
+    "",
+    "Kvevri (amfora)",
+    "Forrás: https://www.cgtrader.com/3d-models/interior/kitchen/kvevri-for-red-and-white-wine (Letöltve:2024.07.10.)",
+    "",
+    "A natúrborok világába illő különleges erjesztési módokhoz tartozik a manapság a fogyasztók körében egyre divatosabbá váló bortípus, a Pét-Nat (pétillant naturel). Franciaországból származó technológiáról van szó, ami a pezsgőkészítés hőskorát idézi. Fehér és rozé változatban is készülhet, kizárólag natúrbor lehet az alapja. Az erjedésben lévő bort (maximum 18 g/l maradék cukortartalommal) nyomásálló üvegekbe töltik, és a pincében vagy más klimatizált helyiségben teljesen kierjesztik. Így egy kifejezetten zavaros, nagyon friss, egyedi gyöngyöző- vagy habzóbort kapnak.",
+    "A tokaji borkülönlegességek erjesztési technológiái a megfelelő tananyag fejezetben kerülnek tárgyalásra.",
+    "Rozéborok erjesztése",
+    "A rozék méltán népszerűek a borok világában. Megnyerő színükért, légies, könnyed stílusokért sokan rajonganak.",
+    "A rozéborok készítése nem egyszerű feladat, hiszen sok olyan tényező van, ami érzékenyen befolyásolja a készülő bor minőségét. Ilyen tényezők például az erjesztés körülményei is, ahol kiemelhető fontossággal bír az erjesztéshez használt élesztőgomba aromaképzése, valamint az erjesztési hőmérséklet is. Az élesztő ráadásul adszorbeál egy kevés antocianint (borban lévő színanyagokat), így a bor az erjedés után világosabb tónusú, mint az erjedés előtti must. A rozét általában alacsony hőmérsékleten fogyasztják, ezért nagyon fontos a frissesség és a gyümölcsös jelleg. A magas savtartalom elfogadható, emiatt a malolaktikus erjedésről általában lemondanak. A déli termőhelyekről származó rozéborok általában sokkal intenzívebb színűek, mint az északi területekről származók a melegebb klíma miatt, hiszen a kékszőlők hamarabb beérnek, így több színanayagot is tartalmaznak.",
+    "A rozé színanyag kinyerésének módja az, hogy a cefrét áztatják az illatos szőlők készítési technológiájához hasonlóan. Vagyis a kékszőlőt kíméletesen feldolgozzák, majd a must együtt marad a bogyóhéjjal. A feldolgozás során vigyáznak arra, hogy a magok ne sérüljenek, illetve a cefrét kénezik kis mértékben annak érdekében, hogy a szőlő héjában elhelyezkedő színanyagtasakok felszakadjanak. Az áztatás ideje döntő fontosságú a rozéborok készítése esetén, hiszen minél tovább ázik együtt a must és a szőlő héja, annál erőteljesebb színű és tannintartalmú bort fognak tudni készíteni.",
+    "A rozéborok készítésének három eltérő technológiája:",
+    "Az egyik, legelterjedtebb rozékészítési technológia szerint a kékszőlőt technológiai érettségben szüretelik le megfelelően magas savtartalommal és alacsony pH-val, kevesebb színanyaggal. A szőlő gyors és kíméletes feldolgozása után 2-24 órán át áztatják a cefrét, hogy a megfelelő mennyiségű színanyag kioldódjon a szőlő héjából. A kíméletes préselés után rendszerint irányított erjesztés (kifejezetten rozéborok készítéséhez kifejlesztett, málnás, epres, esetenként tutti-fruttis illat- és ízjegyeket termelő élesztők használatával) következik. Kulcsfontosságú erjesztés közben a folyamatos, tudatos tápanyag-adagolás, hogy azokat az elvárt aromajegyeket termeljék az élesztők, melyekre kifejlesztették őket a gyártók. 12-14˚C-on észter- és acetáttermelés, 16-18 ˚C-on a szőlőfajta jellegét kihangsúlyozó aromajegyek képzése erőteljesebb.",
+    "A rozé minőségének optimalizálására és egyúttal a vörösbor színhozamának növelésére való a következő rozékészítési technológia. A kékszőlőt teljes érettségben szedik le, majd kíméletesen dolgozzák fel. Az elkészült cefréről lefejtenek bizonyos mennyiségű (10-20 %) színmustot néhány óra maceráció után, de legkésőbb az erjedés beindulását követően (2-48 óra). A színmustot kierjesztve merészebb, rusztikusabb, mélyebb színű rozébort kapnak, a cefre pedig koncentrálódik, így nagyobb színanyaggal és tannintartalommal rendelkező vörösbort készíthetnek a cefre erjesztésével. A francia szóhasználattal élve ezt a technológiát saignée (kivéreztetés) módszernek nevezik. A teljes antocianin-mennyiség ekkor kevesebb cefremennyiségben oszlik el, az így készülő vörösbor intenzívebb színű lesz.",
+    "A harmadik rozétípus készítésének technológiája nem elterjedt, főképp az új utakat kereső borászok választják ezt a lehetőséget, merőben eltérő rozé borokat készítve. A kékszőlőt teljes érésben szüretelik, majd a cefréről leválasztott mustot 20-22 ˚C körüli hőmérsékleten fahordóban erjesztik spontán erjesztéssel. Az így készült borok különlegesek, húsosak, testesebbek. A tölgyfahordós jegyeket viselik magukon (fűszerek, kávé, vanília stb.). Savtartalmuk kerekebb, mint az első technológiával készült boroké.",
+    "",
+    "Rozé erjesztése",
+    "Forrás: https://www.cgtrader.com/3d-models/interior/kitchen/kvevri-for-red-and-white-wine (Letöltve: 2024.07.10.)",
+    "",
+    "Sillerborok erjesztése",
+    "A sillerbor hagyományosan készített bortípus hazánkban, több száz éves múltra tekint vissza. Alapvetően a rozé és a vörösborok közötti átmenetnek tekinthető bortípus. A színe a rozétól kissé sötétebb, illatában és ízében inkább a vörösborokra jellemző jegyeket tükrözi. A sillerborok gyümölcsös, könnyed, a gasztronómiába jól beilleszthető borok.",
+    "A kékszőlőt teljes érésben szüretelik, majd kíméletesen feldolgozzák. Az erjedés első 2-4 napja gyakorlatilag megegyezik a héjonerjesztéses vörösborkészítés technológiájával, majd a kellő színárnyalat és fenolos extrakció elérése után a cefrét préselik, és az alkoholos erjesztést tovább folytatják. Az erjedési hőmérséklet 18-20 ˚C körül alakul. Az erjesztés történhet spontán vagy irányított módon, az erjesztőedényzetet tekintve többnyire koracél tartály a legelterjedtebb. Természetesen a siller bor esetén is egyedi és különleges karaktert lehet elérni fahordós, vagy egyéb alternatív erjesztőedényzet használatával is.",
+    "Vörösborok erjesztése",
+    "Héjonerjesztéses vörösborkészítési technológia",
+    "Ez a legelterjedtebb technológia, amely világszerte hagyományos módszer már a vörösborkészítés kezdete óta.",
+    "Alapkövetelmény, hogy teljesen érett, rothadásmentes szőlőt szüreteljenek. Már a szüret alatt ajánlatos CO2 vagy SO2 gázzal gondoskodni az oxidáció elleni védelemről. A szőlőt kíméletesen és gyorsan kell feldolgozni a cefreállapotig.",
+    "A készülő vörösbor minőségét a következő tényezőkkel tudják befolyásolni az erjedés előtt és alatt:",
+    "Hideg maceráció a cefreerjesztés előtt, több napon keresztül 0° közeli hőmérsékleten.",
+    "Saignée technológia, vagyis a kékszőlő mustjának korai levétele.",
+    "Az erjesztés módja (spontán vagy irányított erjedés).",
+    "Az erjesztési hőmérséklet.",
+    "A törkölykalap bemerítésének technikája. Ezt a kiválasztott erjesztőtartály határozza meg.",
+    "A cefre kontaktideje a préselésig, beleértve az utómacerációt is.",
+    "Tannin hozzáadása az erjedő tételhez.",
+    "Tölgyfaforgács (chips) hozzáadása az erjesztéshez.",
+    "",
+    "Hideg maceráció",
+    "A déli bortermelő országokban használják, különösen a burgundi fajták esetében, az északi bortermelő régiókban ezt a módszer nem terjedt el annyira. A cél az, hogy összetettebb és kifejezett színintenzitású, különösen gyümölcsös vörösborokat készítsenek. Ehhez a cefrét 3–5 napig 8 °C alatt tárolják, lehetőleg oxidáció elleni védelemmel, pl. 60–70 mg/l SO2 hozzáadásával. A bor értékességét meghatározó számos antocianin és tannin már ebben a szakaszban átkerül a lébe, a magok kioldódása nélkül. A hidegen eltöltött kontaktidő után melegítésre van szükség az erjesztéshez, hiszen ezen a hőmérsékleten az élesztőgombák nem tudnak erjeszteni. A maceráció után a cefrét felmelegítik 20 ˚C környékére, hogy az erjedés elindulhasson. Ezzel az eljárással különösen intenzív, gyümölcsös vörösborok készülhetnek, ugyanakkor hátrányként írható fel, hogy a borkészítés költségesebb.",
+    "",
+    "A törkölykalap bemerítése",
+    "Az erjesztés során intenzíven keletkezik szén-dioxid, emiatt a törköly összefüggő pogácsaként felúszik a felszínre, ami kiemelkedik a folyadékból, ezért újra be kell meríteni. Ellenkező esetben a színkinyerés megszakadhat és nagy mikrobiológiai kockázatnak lesz kitéve a törkölypogácsa: hibás erjedés, oxidáció, ecetesedés lehetnek a következmények. A cefreerjesztés minősége végső soron a felúszó törkölypogácsa helyes kezelésétől függ. A hagyományosan, nyílt kádakban történő héjonerjesztés esetén csömöszölésnek nevezik azt a folyamatot, amikor a kialakult törkölykalapot visszanyomják és újra és újra belekeverik az erjedő cefrébe. A mai modern borászati technológiák lehetővé teszik, hogy számos módszer közül lehessen kiválasztani az alkalmas tartályokat, technológiákat. Mind árban, mind automatizáltságban, mind a törköly macerációjának módjában jelentős eltéréseket lehet tapasztalni.",
+    "A vörösborkészítés fejezet tárgyalja ezeket a technológiai megoldásokat részletesen.",
+    "",
+    "Az erjedési hőmérséklet",
+    "Függetlenül a cefreerjesztési módszertől, az erjedési hőmérséklet fontos tényező, amely komolyan befolyásolja az eredményt. A vörösborokat magasabb hőmérsékleten kell erjeszteni, mint a fehér- és a rozéborokat, hiszen a színanyagok és a fenolos anyagok hatékony kioldása a cél. A zajos erjedési fázisba való gyors belépés érdekében 20 °C feletti, de akár 25 °C-os kezdeti hőmérsékletet célszerű alkalmazni. Ehhez fel kell melegíteni a cefrét, különösen hideg maceráció után, illetve alacsony szüreti hőmérséklet esetén. Az erjesztés során keletkező hőt viszont el kell vezetni. Ha ugyanis nem megfelelő a hőelvezetés, akkor 30 °C felett etanol jelenlétében inaktiválódhatnak az élesztősejtek. A törkölykalapban lényegesen rosszabb a hőelvezetés, mint az erjedő folyadékban. Már a közepes méretű erjesztőtartályokban is előfordulhat akár 12 °C-os hőmérséklet-különbség is, ami normál erjesztési hőmérsékleten az élesztő elpusztulását okozza a törkölyben lévő folyadékban. A hőmérséklet kiegyenlítődését rendszeres átkeveréssel kell biztosítani.",
+    "",
+    "Spontán erjedés vagy fajélesztővel végzett erjesztés",
+    "A vörös cefre különösen alkalmas a spontán erjesztésre. A bogyók felszínén megtapadt összes élesztőgomba bekerül ugyanis a cefrébe, és a viszonylag magas kezdeti hőmérséklet miatt általában gyorsan megindul az erjedés.",
+    "Jellemzően a vörösboroknál is irányítottan történik az erjedés, főképp a nagyüzemi borászatokban, a kisebb pincékben használják ki a spontán erjesztés lehetőségét.",
+    "Nagyon sokfajta fajélesztőt fejlesztettek ki vörösborok erjesztéséhez, melyek garantálják a fajtajelleg erőteljes kifejeződését és azt, hogy a nemkívánatos anyagcseretermékek minél alacsonyabb mértékben képződjenek.",
+    "",
+    "Az erjedés időtartalma, a préselés időpontjának megválasztása",
+    "A törköly és az erjedésben lévő bor közötti kontaktidő határozza meg a fenolok extrakcióját. A szín kioldódása 4 nap után éri el a maximumot, a tanninoknak viszont akár 6 hétre is szükségük lehet ahhoz, hogy hatékonyan ki tudjanak oldódni a héjrészekből és a magokból. Ha a bort és a törkölyt már 5–7 nap után szétválasztják, akkor könnyű vagy közepesen nehéz vörösborokat kapnak. A prémium minőségű, stabil tanninszerkezetű, összetett vörösborokhoz lényegesen hosszabb kontaktidőre van szükség, még akár az erjedés leállása után is. A folyamat meghatározó tényezője a szőlő érettségi foka, amely együtt jár a fenolok „érettségével” is.",
+    "A különféle kékszőlőfajták jelentősen különböznek egymástól a fenolok mennyisége és összetétele tekintetében. A hosszabb állásidő alatt egyre több keserű vegyület (például katechin) oldódik ki a magvakból, így az érzékszervi benyomás a kesernyésség irányába tolódik el.",
+    "Utómacerációról akkor lehet beszélni, ha a préselésre egy bizonyos idővel az erjesztés befejezése után kerül sor. Ennek időpontja az érzékszervi szempontoktól és a kívánt borstílustól függ.",
+    "",
+    "A must korai leengedése (korai fejtés, saignée)",
+    "A cefréről leengednek meghatározott mennyiségű mustot, így az értékes összetevők töményednek, mivel eltolódik a héj és a must aránya a cefrében. A borok intenzívebb színűek, gyümölcsösebbek és testesebb ízűek lesznek. A lefejtett must pedig felhasználható blanc de noir borfajta vagy rozé készítésére.",
+    "",
+    "A tannin használata az erjesztés során",
+    "A hatályban lévő uniós szabályozás engedi a tannin hozzáadását az erjesztésben is. Ez azért fontos, mert a tannin oldhatatlan komplexeket hoz létre a fehérjékkel és egyéb zavarosító anyagokat is képes kicsapni. Különösen a vörösborban használják ki a tannin reakcióképességét az antocianinokkal és más fenolokkal. Vörösborok esetén jól ki lehet használni azt a tulajdonságát, hogy a tannin stabilizálja a színt és intenzívebbé teszi a bor ízét. Chips (tölgyfaforgács) használata a cefre erjesztésekor elterjedt technológia, ami lényegében a barrique hordóban történő tárolás alternatívája, amelyet különösen a közepes minőségű és árkategóriájú borok esetében alkalmaznak. Vitathatatlan, hogy kedvezőbb munkaigényű és költségű megoldás, mint a fahordókban való érlelés.",
+    "A chips készítményeket a fehér- és a vörösborok  erjedése és érlelése során használják annak érdekében, hogy a tölgyfából jellegzetes illat- és zamatanyagokat juttassanak a borba. A fadaraboknak kizárólag a Quercus (tölgyfa) fajokból szabad származniuk. A tölgyfadarabok meghagyhatók természetes állapotukban, illetve hevíthetők alacsony, közepes vagy magas hőmérsékleten, azonban nem vethetőek alá égési folyamatnak, és nem lehetnek sem elszenesedettek, sem morzsalékos tapintásúak. A hevítésen kívül nem vethetők alá semmiféle kémiai, enzimes vagy fizikai kezelésnek.",
+    "Fehérborok esetén érdemes egy külön erre a célra készített zsákban az erjedő mustba helyezni, majd az erjedés végén eltávolítani az újborból.",
+    "Vörösborok esetén a cefréhez hozzáadott chips a préselés után a törkölyben marad. A faforgács alternatívájaként (és a barrique-kezeléshez még közelebb álló megoldásként) kivehető fabetéteket vagy nagyobb fadarabokat (dongákat) helyeznek a tárolótartályokba. A 9. ábra példákat mutat különböző kialakítású faforgácsokra.",
+    "",
+    "Különböző faforgács-formák",
+    "",
+    "A musthoz és az erjedésben lévő cefréhez 3–5-ször nagyobb mennyiségű faforgácsot kell adni, mint az érlelésre szánt borhoz. Ennek az oka a rövidebb kontaktidő, hiszen az erjesztés során először létre kell jönnie az extrakciós anyagnak, vagyis az etanolnak.",
+    "A 10. ábra egy vörösbor aromaprofilját mutatja két különböző chipváltozat használata esetén, összehasonlítva a kezeletlen cefreerjesztéssel.",
+    "A kezelt változatok a „fekete ribizli” kivételével minden tulajdonságban egyértelműen eltérnek a kontroll erjesztéstől. A tölgyfaforgácsos kezelés a koncentrációtól függően befolyásol számos ízjellemzőt, különösen a kávés-füstös aromát. A kesernyésség, amely általában az érettség hiányát jelenti, lecsökken. A fenolok megnövekedett mennyisége miatt a fával való érintkezés felgyorsítja a fenolok polimerizációját. A 6 hónapos tárolás után végzett kóstolási teszt egyértelmű előnyt mutatott a kevesebb tölgyfaforgáccsal kezelt változat esetében.",
+    "",
+    "A cefréhez adott tölgyfaforgács hatása egy vörösbor aromaprofiljára; kontaktidő: 8 nap",
+    "",
+    "Melegítéses vörösborkészítési eljárás",
+    "Az eljárást Németországban fejlesztették ki az 1970-es és 1980-as években, főképp azért, mert a német szőlőfajták viszonylag alacsonyabb színpotenciálja és a szőlő részben elégtelen érettsége miatt maximális mértékben fel kellett használni a rendelkezésre álló antocianinokat és tanninokat, az enzimatikus veszteségeket pedig minimalizálni kellett.",
+    "A melegítés során bevitt nagy energiamennyiség erős hatást fejt ki a cefre szerkezetére, illetve befolyásolja a további feldolgozást és a későbbi bor stílusát is. A cefre melegítése a kíméletes feldolgozás ellentéte. A hőközlés után a következő szempontok játszanak szerepet az erjesztés technológiájában:",
+    "A Saccharomyces cerevisiae versenytársaiként fellépő idegen szervezetek, például penészgombák, élesztők és baktériumok elpusztulnak. Ezután nagyon tisztán és gyorsan zajlik le a tiszta élesztőkultúrával végzett alkoholos erjedés. ",
+    "A melegítés után már nem lehetséges a spontán erjedés.",
+    "Az így készült borok általában valamivel intenzívebb színűek, kékebb vagy ibolyás-vörösesebb árnyalatot mutatnak, és gyorsabban érnek, mint a cefrén erjesztett borok.",
+    "Az erjedési hőmérséklet 18 és 24°-os között ideális ennél a technológiánál, mert ebben a hőmérséklet-tartományban az antocianinok mennyiségének folyamatos növekedését tapasztalták. Az erjedéshez speciális szárított fajélesztőt kell alkalmazni, mely segít megőrizni a melegítés során kinyert színanyagokat és intenzív, gyümölcsös jelleget ad a bornak. Az erjesztés közben gyakran használnak pektinbontó enzimeket abból a célból, hogy az erjedés után a cefre hatékonyabban préselhetőbb legyen, valamint a kész bor szűrhetősége javuljon.",
+    "",
+    "Szénsavatmoszférás vörösborkészítési eljárás - maceration carbonique",
+    "Ezt a módszert Michel Flanzy francia borász mutatta be 1935-ben, de csak az 1960-as évek végén kezdték el használni primőr borok előállítására Franciaországban. Az eljárással kis tannintartalmú vörösborok készíthetők, amelyek korán fogyaszthatóak. Ma már világszerte ismert módszer, és számos követőre talált.",
+    "Az eljárás során az egészséges bogyókat kíméletesen, szigorúan anaerob atmoszférába helyezik, és 25–30 °C-os hőmérsékleten tartják. A reduktív atmoszférát szén-dioxid gáz bevezetésével oldják meg. A sértetlen bogyók felszívják a szén-dioxidot, megváltozik az anyagcseréjük és a sejten belüli enzimatikus lebomlási folyamatok indulnak el. A saját enzimjeik segítségével a cukrokat lebontják etil-alkohollá az alkoholos erjesztés, vagyis élesztőgomba segítsége nélkül. Emiatt legfeljebb 2 térfogatszázalékos koncentrációban keletkezik etanol úgy, hogy a bogyóhúsban lévő cukor 20 %-a lebomlik. A sejten belüli enzimatikus lebomlási folyamatok során nagy mennyiségben keletkezik glicerin, borostyánkősav, illetve számos olyan vegyület, mely fűszeresebb, gyümölcsösebb karakterűvé teszi az így késztett borokat. Az almasav enzimatikus lebomlása is megtörténik, de nem malolaktikus fermentáció következtében, vagyis tejsav nem keletkezik a folyamat során. Ezzel párhuzamosan a pektin hidrolizálódik, és a metilcsoportok leválásával kis mennyiségű metanol keletkezik. Ilyen körülmények között 3-4 nap elteltével az antocianinok a bogyó héjából a bogyúhúsba vándorolnak. A bogyó húsa intenzív vörösre színűvé válik. A folyamat akkor ér véget, amikor a szőlő saját enzimjei 7-8 nap után elvesztik az aktivitásukat. Ekkor le lehet préselni a cefrét. Érdekessége az eljárásnak, hogy a préslé értékesebb a színlénél, mert több színanyagot, illetve illat- és zamatanyagot tartalmaz.",
+    "A második fázisban az alkoholos erjedés történik meg leginkább spontán módon. Érdemes az erjedési hőmérsékletet 20 ˚C-on tartani, hogy az első fázisban kialakult illat- és zamatanyagok megmaradhassanak. Néhány nap alatt, viszonylag gyorsan meg is történik az erjedés.",
+    "A módszer kíméletes szüretet és kezelést igényel, zúzást nem szabad alkalmazni. Már 2-3 nap elteltével megváltozik a bogyók aromája. Az alkoholban elrakott gyümölcsökre és a rumban párolt bogyós gyümölcsökre emlékeztet. A kész erjesztett bor aromája az aszalt gyümölcsökre, gyümölcskészítményekre vagy az aszalt szilvára hasonlít.",
+    "A szénsavatmoszférás eljárás nagyon munkaigényes a szőlő kezelése és rendszeres ellenőrzése miatt. A tejsavbaktériumok és a vadélesztők is ideális szaporodási feltételeket találnak ebben a környezetben. Főképp olyan borászok alkalmazzák, akik nem túl nagy mennyiségben készítenek vörösbort és fontos számukra a kis tannintartalmú, gyümölcsös és friss vörösbor karakter. Az így készült vörösbor korán fogyasztható, de hamar vénül.",
+    "",
+    "Blanc de noir bor készítése",
+    "Ez a borfajta (blanc de noir) általában csak mint érdekesség jelenik meg a pincészetek borválasztékában. A kékszőlők gyors és kíméletes feldolgozása fehérbort eredményez, hiszen így megakadályozható, hogy a kékszőlők héjában található színanyagok a mustba kerüljenek. Ideális esetben a kézi szüretelést közvetlenül kíméletes, alacsony nyomáson való préselésnek kell követnie, majd a színanyagszegény mustot a szőlőbogyó héja nélkül erjesztik, hasonlóan a fehérborokhoz. Így egy kifejezetten világos színű, ezüstös vagy egészen halványsárga bor lesz a végeredmény, melyben határozottan érezhetőek lesznek a vörösborra jellemző illat- és ízjegyek, bár tannintartalma inkább a fehérborokhoz fog hasonlítani.",
+    "",
+    "Ábrajegyzék",
+    "1. ábra:\tA felszabaduló erjedési energia eloszlása\t5",
+    "2. ábra:\tHűtőköpennyel ellátott koracél tartály\t6",
+    "3. ábra:\tMobil hűtőpanelek borok erjesztéséhez\t7",
+    "4. ábra:\tA jellemzők kifejeződése egy vörösbor négy különböző élesztőtörzzsel történő párhuzamos erjesztése után\t11",
+    "5. ábra:\tAz alkoholos erjedés lefolyását befolyásoló tényezők\t16",
+    "6. ábra:\tFahordóban történő fehérbor erjesztés\t19",
+    "7. ábra:\tKvevri (amfora)\t22",
+    "8. ábra:\tRozé erjesztése\t26",
+    "9. ábra:\tKülönböző faforgács-formák\t32",
+    "10. ábra:\tA cefréhez adott tölgyfaforgács hatása egy vörösbor aromaprofiljára; kontaktidő: 8 nap\t33",
+    "",
+    "",
+    "Felhasznált irodalom",
+    "Andrew Murray Vineyards, Étancher: Hard to say, fun to drink Elérhető: https://www.andrewmurrayvineyards.com/index.cfm?method=blog.blogList&blogCategoryID=E95E2161-ABFF-ACED-BA08-90E529D123EC (Letöltési idő: 2024.07.05.)",
+    "Eperjesi Imre: Borászati technológia. Budapest, 2010, Mezőgazda Kiadó",
+    "Bene Zsuzsannna: Naturbor készítés qvevri technológiával. Elérhető: https://www.biokontroll.hu/naturbor-keszites-qvevri-technologiaval/ (Letöltési idő: 2024.07.05)"
+  ],
+  "runs": [
+    [
+      "Egyedi megrendelés azonosítója: EM-2.10.4  "
+    ],
+    [
+      "Az erjedés művelete"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [
+      "Forrás",
+      ": ",
+      "Az eredeti könyv címe: ",
+      "Technologie",
+      " des ",
+      "Weines",
+      ", 1. ",
+      "Auflage",
+      " 2015, Der ",
+      "Verlag",
+      " ",
+      "Eugen",
+      " ",
+      "Ulmer",
+      " KG,",
+      "\n",
+      "ISBN 978-3-8001-7959-6, Az eredeti könyv szerzői: ",
+      "Jochen",
+      " ",
+      "Hamatschek"
+    ],
+    [],
+    [
+      "A kéziratban található, külön forrásm",
+      "egjelölést ",
+      "nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak."
+    ],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      "Tartalomjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "Az alkoholos erjedés általános technológiája"
+    ],
+    [
+      "Az élesztőgombák kierjesztik a mustban lévő cukortartalmat, közben főként etil-alkoholt, szén-dioxidot és hőt termelnek. Ezt a folyamatot alkoholos erjedésnek nevezik. Az erjedés mikrobiológiai és biokémiai háttere az előző fejezetekben van ismertetve. Az alkoholos erjedés kimenetelét rengeteg környezeti, mikrobiológiai és technológiai feltétel határozza meg. Ez a rövid időszak, amikor a mustból bor születik, igen intenzív és izga",
+      "lmas szakasza a borkészítésnek."
+    ],
+    [
+      "Az alkoholos erjedés lefolyását számos olyan paraméter ",
+      "jellemzi",
+      ", amelyek befolyásolják a borélesztő (vadélesztő, vagy az irányított erjesztés során alkalmazott fajélesztő) aktivitását, ezen keresztül az erjedő tétel minőségét. Akár spontán erjedésről, melyet vadélesztők végeznek, akár szelektált fajélesztőkkel való irányított erjesztésről legyen is szó. Ezek között az egyik nagyon fontos tényező az erjedési hőmérséklet."
+    ],
+    [],
+    [
+      "Hőmérséklet-szabályozás az erjesztés során"
+    ],
+    [
+      "Az erjedés függ a hőmérséklettől: 10-35 °C között zajlik le. Ez alatt vagy e felett az élesztő túl nagy stressznek van kitéve. 10 ˚C alatt az erjesztési tevékenység fokozatosan leáll, különösen, ha már etanol (etil-alkohol) is képződött. 35 ˚C fölött pedig számolni kell a borélesztők gyors pusztulásával, amit a folyamat közben keletkező etil- alkohol is felgyorsít, következésképp az erjedés leáll. Az erjedési ",
+      "zavarokat nagyon sok esetben hőmérsékleti hibák okozzák. Az indulási hőmérséklet és az erjedés teljes folyamata alatti hőmérséklet tudatos megválasztása fontos döntés, a megvalósítás pedig igazi kihívás. Az erjedési hőmérséklet szabályozása a kívánt borstílusnak és az erjedés egészséges lefolyásának is fontos eleme. Ha az erjedési hőmérséklet nem megfelelő, ennek a készülő borra nézve hosszú távú következményei lehetnek. Pl. elhúzódó erjedés, az erjedés leállása, nem megfelelő illat- és zamatanyagok képződése stb. Az elhúzódó erjedés folyamatos felügyeletet és szükség esetén gyors beavatkozást igényel."
+    ],
+    [
+      "Az alkoholos erjedés lefolyását számos olyan paraméter ",
+      "jellemzi",
+      ", amelyek befolyásolják a borélesztő aktivitását."
+    ],
+    [
+      "A hideg erjesztés több mint 3 hétig is eltarthat, a ",
+      "meleg erjesztés akár már 3 nap után ",
+      "befejeződhet",
+      ". ",
+      "Minél alacsonyabb hőfokon történik az erjesztés, annál több időt vesz igénybe, hiszen az élesztők lassabban tudnak dolgozni és szaporodni. Melegebb hőmérsékleten nagyobb intenzitással végzik az erjesztést, és nagyobb ütemben is szaporodnak, vagyis a rendelkezésre álló tápanyag hamarabb el is fogy, így néhány nap alatt dolguk végeztével elpusztulnak, az erjedés leáll."
+    ],
+    [
+      "Néhány alapvető tény az erjedési hőmérséklettel kapcsolatban:"
+    ],
+    [
+      "Az erjedési hőmérséklet növekedésével az alkoholhozam csökken, az etanol gyakorlatilag eltávozik a keletkező szén-dioxiddal, és ugyanez vonatkozik más illékony anyagokra, például az illatanyagokra, de az acetaldehidre is. Ha az erjedési hőmérséklet magas, az erjedés igen intenzívvé válik, ami azt eredményezi, hogy rövid idő alatt sok szén-dioxid keletkezik. A heves erjedésben a távozó gáz magával viszi az etil-alkohol molekulákat az illékony komponensekkel (illatanyagokkal) együtt."
+    ],
+    [
+      "A biomassza-",
+      "termelés a hőmérséklet emelkedésével nő, vagyis egyre több sejt képződik, ez jelen esetben azt jelenti, hogy az élesztők száma rohamosan nő, vagyis egyre nagyobb tömeget alkotnak. Ezt az élesztőtömeget nevezzük biomasszának."
+    ],
+    [
+      "A héjon erjesztés során a hőmérséklet emelkedésével fokozódik a szín- és a ",
+      "fenolextrakció",
+      ", a borok testesebbé, teltebbé válnak."
+    ],
+    [
+      "Az élősejtek száma az erjedés végéhez közeledve csökken, annak ellenére, hogy a hőmérséklet növekszik, hiszen a tápanyag fogytán van és az élesztők számára mérgező etil-alkohol pedig egyre magasabb koncentrációban van jelen."
+    ],
+    [
+      "A glicerin, az észterek, a magasabb rendű alkoholok, a ",
+      "butándiol",
+      " a hőmérséklet növekedésével fokozottan termelődnek és a cukormentes ",
+      "extrakt",
+      " is növekszik."
+    ],
+    [
+      " Az erjedési hőmérséklet növekedésével nő a későbbi spontán ",
+      "malolaktikus",
+      " erjedés valószínűsége, hiszen a tejsavbaktériumok fel tudnak szaporodni az élesztők árnyékában. Az erjedési hőmérsékletre vonatkozó hőmérséklet-ajánlások a különféle borkészítési technológiák esetén eltérnek, azonban az egyes technológiákra vonatkozó általános szabályt az évjárati adottságok, a szőlő minősége, a hagyományok felülírhatják."
+    ],
+    [],
+    [
+      "Az erjedési hő elvezetése"
+    ],
+    [
+      "Az alkoholos erjedés exoterm reakció. ",
+      "Elméletileg az alkoholos erjedés egyenletét ",
+      "alapulvéve",
+      " kb. 25 kcal (kb. 105 kJ) szabadul fel egy mol erjesztett cukorból, amely hő formájában keletkezik. A 1. ábra vázlatosan mutatja a felszabaduló hő eloszlását. A hő egy része, körülbelül 20%-",
+      "a",
+      ", a szén-dioxiddal együtt távozik. Másik része az erjesztőtartály felületén távozik, amíg a helyiség hőmérséklete alacsonyabb, mint az erjesztési hőmérséklet. A többi az erjedő must felmelegedéséhez vezet. A must hőmérséklete akár több mint 20 °C-",
+      "kal",
+      " is emelkedhet. Ez azt jelenti, hogy a hőmérséklet jóval meghaladja (35 ˚C felett) a borélesztő hőmérséklettűrő képességét, és az erjedés leáll (",
+      "túlforr)."
+    ],
+    [
+      ""
+    ],
+    [
+      "A felszabaduló erjedési energia eloszlása"
+    ],
+    [
+      "Forrás: Saját kép"
+    ],
+    [],
+    [
+      "Általánosan elmondható, hogy a nagy erjesztési ",
+      "térfogatok kisebb fajlagos felületet eredményeznek. A jól vezető rozsdamentes acéltartályok jobban ",
+      "hűthetőek",
+      ", mint a vasbeton tartályok vagy a fahordók, mert a fémek sokkal jobb hőveze",
+      "tők, mint a vasbeton vagy a fa."
+    ],
+    [
+      "Néhány lehetséges megoldás az erjedési hő elvezetésére:"
+    ],
+    [
+      "Kettős köpennyel ellátott vagy csőkígyós tartályok (2. ábra), ",
+      "melyekben hűtőfolyadék kering, biztosítva a folyamatos hűtést. Sajnos, előfordulhat a hőtőfolyadék belekeveredése az erjedő borba a hűtőrendszer meghibásodása miatt. Ezt mindenképp meg kell akadályozni, mert a hűtőfolyadékok az emberi egészségre káros vegyületeket tartalmaznak."
+    ],
+    [
+      ""
+    ],
+    [
+      "Hűtőköpennyel ellátott koracél tartály"
+    ],
+    [
+      "Forrás: https://www.ghidimetalli.it/en/serbatoi-inox/insulated-tank-stainless-",
+      " (Letöltés: 2024.07.10",
+      ".)"
+    ],
+    [],
+    [
+      "Hőcserélő lemezek vagy ",
+      "hűtőkígyók, (3. ábra) melyek mobil rendszerként ",
+      "is használhatóak."
+    ],
+    [
+      ""
+    ],
+    [
+      "Mobil hűtőpanelek borok erjesztéséhez"
+    ],
+    [
+      "Forrás: http://vinoservice.hu/iranyitott-er",
+      " (Letöltés: 2024.07.10",
+      ".)"
+    ],
+    [],
+    [
+      "A tartály külső felszínére történő vízpermetezés, ami a párolgás révén fejti ki hűtő hatását."
+    ],
+    [],
+    [
+      "A keletkező szén-dioxid elvezetése"
+    ],
+    [
+      "Nagyon fontos feladat gondoskodni az erjedés során keletkező szén-dioxid elvezetéséről. A korábbi fejezetekben volt arról szó, hogy ez a gáz komoly veszélyt jelent a pincékben."
+    ],
+    [
+      "Az erjesztőhelyiségekben kötelezően ki kell helyezni a veszélyre figyelmeztető táblákat, valamint szellőzőberendezésekkel kell megoldani a szén-dioxid eltávolítását. Előírás erjesztőüzemek esetén a szén-dioxid jelző készülék felszerelése bizonyos üzemnagyság felett."
+    ],
+    [
+      "Néhány nagyobb borászatban mód van arra is, hogy az erjedéskor keletkező szén-dioxid gázt ",
+      "összegyűjtsék",
+      ". Ebben az esetben a gázt megtisztítják a folyadék halmazállapotú és szilárd szennyeződésektől, majd nyomás alatt cseppfolyós halmazállapotban tárolják a későbbi felhasználásig. Később megoldható ezzel a tartályokban lévő bor feletti levegő kiszorítása, vagyis az oxidáció mérséklése, valamint alkalmas arra is, hogy a ",
+      "szén-dioxid gázt visszaoldják, így ",
+      "kézítve",
+      " ",
+      "gyöngyöző- vagy habzóbort."
+    ],
+    [],
+    [
+      "Erjedési űr"
+    ],
+    [
+      "Az erjesztés során a tartály az elkerülhetetlen habképződés miatt legfeljebb 80%-",
+      "ig",
+      " tölthető meg, vagyis a maradék 20 % fogja adni az erjedési ",
+      "űrt. Így elkerülhető válik, hogy a tartály falán a keletkező hab kifolyjon. A tartály külső felületére száradó erjedési hab nemcsak látványában riasztó, hanem komoly mikrobiológiai kockázatot rejt. A lecsengő erjedési fázisban már csak kevés CO",
+      "2",
+      " kerül a külvilágba, és a folyadék térfogata a lehűlés miatt ",
+      "csökken, vagyis oxigén oldódhat be a borba akár rövid időn belül is. Ezt a tényt mindenképp ",
+      "figyelmbe",
+      " kell venni a bor további kezelése kapcsán."
+    ],
+    [
+      "A spontán és irányított erjesztés"
+    ],
+    [
+      "Spontán erjedés"
+    ],
+    [
+      "A spontán erjedés azt jelenti, hogy a szőlőbogyók felületéről, valamint a pincei eszközökről és a pince légtérből a mustba kerülő vadélesztő gombák visz",
+      "ik végbe az erjedés folyamatát."
+    ],
+    [
+      "Manapság reneszánszát éli a spontán erjesztés, nemcsak Magyarországon, hanem világszerte. Ennek fő okai az egyediségre irányuló vágy és a különlegességek keresése. Vitathatatlan, hogy a spontán erjesztés más végeredményt ad, mint a fajélesztőkkel történő erjesztés. Az így készített borokat összetettebb karakterűeknek tartják a borászok."
+    ],
+    [
+      "A spontán erjesztéseket azonban sokkal bonyolultabb elvégezni és ellenőrizni, nem minden esetben si",
+      "keres, és jelentős a kockázata."
+    ],
+    [
+      "Összefoglalva tehát a spontán erjesztés hatalmas előnye a különleges, egyedi karakterű bor. Egyre inkább erősödik az a trend a fogyasztók körében, hogy a borokban a ",
+      "terroirt",
+      " és a borász egyedi stílusát keressék."
+    ],
+    [
+      "Hátrányaként meg kell említeni a következő kockázati tényezőket: az erjedés idő előtti leállása, a nem kívánatos anyagcseretermékek keletkezése, például etil-acetát, illósav, kén-hidrogén stb."
+    ],
+    [
+      "A spontán erjedés komoly szaktudást és hatalmas odafigyelést kíván a borásztól. Az erjedés elejétől a legvégéig naponta többször is ellenőrizni kell a cukorfogyást, az alkoholtartalom növekedését, illetve az erjedő té",
+      "tel illatát és ízét."
+    ],
+    [],
+    [
+      "Irányított erjesztés"
+    ],
+    [
+      "A",
+      " fajélesztő musthoz való hozzáadása a tulajdonképpeni borélesztőt az első pillanattól kezdve domináns helyzetbe hozza. A vadélesztőket elnyomják, mielőtt jelentős mennyiségben tudnák képezni saját anyagcseretermékeiket. A fajélesztő folyékony formában vagy száraz éleszt",
+      "ő formájában is megvásárolható."
+    ],
+    [
+      "A szárított élesztők terjedtek el jobban, mert használatuk egyszerűbb. Az egészséges szőlő esetében a dózist 10–25 g/hl értékben adják meg, amely körülbelül 10",
+      "6",
+      " sejt/ml-t visz a beoltandó mustba. Az adagolás ettől eltérhet, ha a szőlőben már megindultak a rothadási folyamatok: minden 10%-",
+      "os",
+      " rothadás esetén ajánlott a hozzáadott ",
+      "mennyiséget 2 g/hl-",
+      "rel",
+      " növelni."
+    ],
+    [
+      "Használat előtt az élesztősejteket ",
+      "rehidratálni",
+      " kell. Ezt először ",
+      "32–37 °C-",
+      "os",
+      " víz és must fele-fele arányú keverékében érdemes elvégezni. Az élesztő számára a ",
+      "rehidratálás",
+      " kritikus fázis. A vízfelvétel a kiszáradt és részben sérült citoplazmamembránon keresztül nem szabályozott módon történik, és szennyező anyagokat juttathat be a sejtekbe. Az élesztőkészítményekhez olyan ",
+      "anyagokat (élesztő tápanyagokat) is kevernek, melyek a vízfelvétel során segítenek a sejtmembrán egészséges visszaépítésében, így a sejtek hatékonyabban alkalmazkodnak a mustban lévő körülményekhez. Nagyon fontos, hogy a hideg, előkészített musthoz nem szabad rögtön hozzáönteni a már felfutott élesztőkeveréket, hanem fokozatosan kell hozzászoktatni az élesztőket az alacsonyabb hőmérséklethez és a magas cukortartalomhoz. A hideg mustból csak annyi keverhető a must-víz-élesztő keverékhez, hogy a hőmérséklete ne csökkenjen 5 ˚C -",
+      "nál",
+      " többet egyszerre (ezt hívják hőlépcsőnek).  Ezt a hőlépcsőt addig kell alkalmazni, amíg az élesztőkeverék és a beoltani kívánt must hőmérséklete azonos nem lesz. Ellenkező esetben könnyen előfordulhat, hogy az élesztő hidegsokkot ",
+      "kap, és nem fog működni."
+    ],
+    [
+      "Olyan élesztőtörzsek is megjelentek már a piacon, amelyek előzetes ",
+      "rehidratálás",
+      " nélkül közvetlenül a musthoz ",
+      "adhatóak",
+      "."
+    ],
+    [
+      "Ideális esetben a fajélesztők használata olyan erjedési aromát eredményez, amelyet kizárólag az élesztő anyagcseréje jellemez. Más mikroorganizmusok ebben az esetben nem kapnak lehetőséget arra, hogy aktívvá váljanak.  Számos, egymástól eltérő erjesztési tulajdonságokkal rendelkező törzseket szelektáltak. A különböző törzsek többé-kevésbé ugyanazokat az anyagokat termelik. A különbségek a mennyiségekben rejlenek, mivel az egyes anyagcsere-utak (az anyagcsere során bekövetkező biokémiai reakciók minősége, valamint a keletkező vegyületek minősége és mennyisége) eltérőek lehetnek. A környezeti feltételek megváltoztatása is (hőmérséklet, oldott oxigéntartalom, tápanyagok mennyisége és minősége, ozmotikus nyomás stb.) hatással vannak az élesztőgombák által",
+      " termelt anyagcsere termékekre."
+    ],
+    [
+      "A különböző élesztőtörzsek más-más mennyiségben képeznek illat- és zamatanyagokat, ennek eredményeképpen a különböző törzsek anyagcseréjüktől függően eltérő aromabenyomásokat hagynak maguk után. A 4. ábra példaként négy különböző szárazélesztő jellemzőinek ",
+      "kifejeződését",
+      " hasonlítja össze."
+    ],
+    [
+      ""
+    ],
+    [
+      "A jellemzők kifejeződése egy vörösbor négy különböző élesztőtörzzsel történő párhuzamos erjesztése után"
+    ],
+    [],
+    [
+      "Az NT50 jelöléssel ellátott törzsre jellemző, hogy a bor kevésbé fanyar, illetve, hogy a „fűszeres” vagy „zöldpaprikás” jellemzők erősebben fejeződnek ki. Ezzel szemben a ",
+      "Color",
+      " törzs magasabb színintenzitást ért el, mint ",
+      "a három összehasonlító partner."
+    ],
+    [
+      "Összefoglalva kijelenthető, hogy az irányított erjesztés esetén a folyamat nagy biztonsággal végbemegy, olyan aromakaraktereket adva a bornak, melyek előre ",
+      "kiválaszthatóak",
+      ". A borok így jól ",
+      "felismerhetőek",
+      " lesznek, a ",
+      "terroir",
+      " és a borász egyedi stílusa viszont nem feltétlenül jelenik meg, ez utóbbiak megjelenését inkább a spontán erjedés teszi lehetővé.",
+      " ",
+      "Természetesen, ha nem biztosítják az élesztők számára a megfelelő környezeti feltételeket, akkor az ",
+      "irányított erjedés is félremehet, megakadhat."
+    ],
+    [],
+    [
+      "Az élesztőtörzs kiválasztásának kritériumai"
+    ],
+    [
+      "Ahhoz, hogy egy törzs fajélesztőként sikeres legyen, számos tulajdonságnak kell megfelelnie:"
+    ],
+    [
+      "gyors erjesztésre legyen képes a konkurens mikroorganizmusok elnyomása érdekében, még alacsony hőmérsékleten is,"
+    ],
+    [
+      "a must cukortartalmát maradéktalanul alakítsa át etil-alkohollá,"
+    ],
+    [
+      "magas tolerancia vegyszerekkel szemben (gombaölőszer-maradékok, SO",
+      "2",
+      "),"
+    ],
+    [
+      "jó ülepedés és tömör élesztőüledék képzése,"
+    ],
+    [
+      "alacsony habképzés,"
+    ],
+    [
+      "illósavak alacsony fokú termelése,"
+    ],
+    [
+      "fokozott glicerintermelés (így kevesebb alkohol képzése),"
+    ],
+    [
+      "H",
+      "2",
+      "S, SO",
+      "2",
+      " vagy kénmegkötő anyagok (acetaldehid, ",
+      "piruvát",
+      ", ",
+      "ketoglutársav",
+      ") alacsony fokú termelése,"
+    ],
+    [
+      "magas hőmérséklettűrés,"
+    ],
+    [
+      "genetikai stabilitás,"
+    ],
+    [
+      "jó hidratálódás száraz élesztők esetén,"
+    ],
+    [
+      "kisebb tápanyagigény (nitrogén, ",
+      "tiamin",
+      "),"
+    ],
+    [
+      "killer",
+      " tulajdonság (specifikus fehérjék képzése, amelyek gátolják és elpusztítják az érzékenyebb vadélesztőket; pl. második beoltáshoz egy megakadt erjesztésben),"
+    ],
+    [
+      "magas alkoholtolerancia,"
+    ],
+    [
+      "a tejsavbaktériumok támogatása vagy gátlása,"
+    ],
+    [
+      "a vörösbor színkímélő erjesztése,"
+    ],
+    [
+      "az almasav részleges lebontása,"
+    ],
+    [
+      "a kívánt aromaanyagok ",
+      " előállítása."
+    ],
+    [
+      "Különleges élesztők"
+    ],
+    [
+      "A kutatás és fejlesztés egyebek mellett a különleges tulajdonságokkal rendelkező élesztők tenyésztésével is foglalkozik. A száraz élesztők ",
+      "rehidratálás",
+      " nélküli közvetlen felhasználásáról már volt szó. A tartályhoz közvetlenül csatlakoztatott szivattyúval lehet ezeket hozzáadni, amely az élesztőt a szívóvezetékben lévő tölcsérből veszi fel. Ha ez az újabb fejlesztés elterjed, a pincében végzett munka jelentősen könnyebbé válhat."
+    ],
+    [
+      "Az erjedés stagnálása örökös probléma a pincében. Gyakran előfordul, hogy az élesztő 10–30 g/l maradékcukornál megakad. Sok esetben ilyenkor a glükóz már nagyrészt kierjedt, és a maradékcukor főleg fruktózból áll. Ha a glükóz/fruktóz arány kisebb, mint 0,1, a borélesztő ",
+      "anyagcseréje inaktívvá válhat. A fruktóz erjesztése utólag hozzáadott ",
+      "fruktofil",
+      " (fruktózkedvelő) borélesztőkkel lehetséges. A mustban a glükóz és a fruktóz, mint erjeszthető cukrok vannak jelen. A mustok nagy általánosságban ugyanannyi glükózt és fruktózt tartalmaznak, vagyis az arányuk egymáshoz képest 1:1. A ",
+      "Saccharomyces",
+      " ",
+      "cerevisiae",
+      " törzsei ",
+      "glükofil",
+      " (glükózkedvelő) tulajdonsággal bírnak, azaz erjesztés során a glükózt részesítik előnyben. Ahogy fogy a cukor mennyisége az erjedés során, a glükóz-fruktóz arány egyre jobban felborul a fruktóz javára. Nem segít az élesztőknek az sem, hogy a keletkező etil-alkohol egyre nagyobb stresszt okoz számukra. Ezzel magyarázható az, hogy a borokban lévő maradék cukortartalom nagy része fruktóz. Ha megakadt erjedést szeretnének újraindítani, érdemes ",
+      "fruktofil",
+      " élesztő törzset választani a feladathoz. Ilyen élesztők pl. a ",
+      "Saccharomyces",
+      " ",
+      "bayanus",
+      " egyes törzsei, illetve a ",
+      "Candida",
+      " vadélesztő nemzettséghez tartozó egyes fajok."
+    ],
+    [],
+    [
+      "Erjesztési segédanyagok, élesztőtápanyagok hozzáadása"
+    ],
+    [
+      "Az irányított erjesztés, a fajélesztők széles körű elterjedése szükségessé tette a megfelelő tápanyag-utánpótlást is. Ha az élesztő a számára ",
+      "nem ideális a környezet (",
+      "hidegerjesztés), az adott stresszfaktorral is meg kell küzdenie. Ilyen esetben biztosítani kell számukra a megfelelő vegyületeket, ellenkező esetben nem a kívánatos anyagcseretermékeket fogják termelni. Különösen a nitrogén-, a kén- és a B1-vitamin-ellátás áll a tápanyag-utánpótlás középpontjában. Minden olyan must vagy cefre erjesztéséhez szükséges tápanyagot pótolni, melyekben nem megfelelő a tápanyag- és a vitaminellátottság. A hatályban lévő uniós bortörvény a következő tápanyagokat és adalékanyagokat sorolja fel:"
+    ],
+    [
+      "diammónium",
+      "-foszfát (DAP) vagy ammónium-",
+      "szulfát hozzáadása; legfeljebb 1 g/l határértékig használható (sóban kifejezve),"
+    ],
+    [
+      "ammónium-",
+      "biszulfit",
+      " NH",
+      "4",
+      "HSO",
+      "3",
+      " (ammónium-hidrogén-szulfit) hozzáadása; 0,2 g/l határértékig használható (sóban kifejezve),"
+    ],
+    [
+      "tiamin-diklórhidrát",
+      " (B1-vitamin) hozzáadása; 0,6 mg/l határértékig használható (",
+      "tiaminban",
+      " kifejezve),"
+    ],
+    [
+      "élesztősejtfal-készítmények felhasználása 40 g/100 l határértékig."
+    ],
+    [
+      "A tápanyaghiány általában stressznek teszi ki az élesztőt, és befolyásolja a végső erjedést."
+    ],
+    [
+      "Megfelelő mennyiségű makro- és ",
+      "mikrotápanyagokra",
+      " van szükségük az élesztőknek ahhoz, a munkájukat maradéktalanul el tudják végezni. ",
+      "Makrotápanyagok",
+      " a szén, a nitrogén, a foszfor és a kén. Szénforrásként természetesen a legfőbb tápanyagukat, a glükózt és a fruktózt használják. Nitrogénre, foszforra és kénre a fehérjeszintézishez, a szaporodáshoz van szükségük, és fontosak az aromaanyag-képzésben is."
+    ],
+    [
+      "Mikrotápanyagaik",
+      " a vitaminok (",
+      "biotin",
+      " és ",
+      "tiamin",
+      ") és az ásványi anyagok (Mg, K, ",
+      "Mn",
+      ", ",
+      "Cu",
+      ", Fe, ",
+      "Zn",
+      "), melyek feltétlenül fontosak a sejtszi",
+      "ntű ",
+      "enzimatikus",
+      " folyamataikban."
+    ],
+    [
+      "Irányított erjesztés esetén már az erjesztés elindulása előtt fontos adat az ún. YAN-",
+      "érték, mely az élesztők által felhasználható nitrogén mennyiségéről ad felvilágosítást. Ahhoz, hogy az erjedés egészségesen ",
+      "végbemenjen",
+      ", a mustnak minimum 140-150 mg/l YAN-értéket kell tartalmaznia. A ",
+      "stresszel",
+      " terhelt évjáratokban (például aszály, extrém sok csapadék esetén) különösen kevés a mustok YAN-értéke. Ezekben az esetekben az erjedés közben ki kell egészíteni hozzáadott tápanyagokkal. Rengeteg tápanyagkészítmény elérhető a hazai borászok számára, melyek kaphatóak folyékony és por alakban is. Lehet választani szervetlen tápanyagokkal és szerves összetevőkkel kombinált változatokat is. A tápanyag-adagolás technológiáját a gyártó általában pontosan meghatározza, de ettől el lehet térni indokolt esetben. Általában több adagban javasolják a tápanyag bekeverését amiatt, hogy az élesztők folyamatosan kellő mennyiségű és minőségű tápanyagokhoz jussanak az erjesztés során.",
+      " ",
+      "A tápanyagmenedzsmentet (a tápanyag-adagolás technológiáját) érdemes már az erjesztési technológia előtt meghatározni a YAN-érték, illetve a korábbi tapasztalatok ismeretében. "
+    ],
+    [
+      "Amennyiben az erjedő bor kén-hidrogén szagúvá válik, nagy valószínűséggel elhasználta az élesztőpopuláció a rendelkezésére álló nitrogénforrást, vagyis tápanyaghiányban szenved. Az ilyen erjesztés azonnal rendbehozható kevés mennyiségű szervetlen vagy kombinált tápanyaggal."
+    ],
+    [
+      "Ugyanakkor a nagy mennyiségű, feleslegben hozzáadott tápanyag nemcsak gazdasági kárt jelent, hiszen ezek a segédanyagok drágák, hanem a bor későbbi életében is problémát jelenthet. A bor illata és íze megváltozhat, és mikrobiológiai szempontból is veszélyes lehet, hiszen a vadélesztők számára maradék tápanyag marad a borban, amit könnyedén ki tudnak használni."
+    ],
+    [],
+    [
+      "Koinokuláció"
+    ],
+    [
+      "Irányított erjesztés során, fehér- és vörösborok esetén általánosan elfogadott technológia a ",
+      "koinokuláció",
+      ", azaz együttes beoltás. Az élesztővel való beoltás után 2-3 nappal tejsavbaktériumokat adagolnak a mustba azzal a szándékkal, hogy az erjedés leállása után, a még megmaradó erjedési hőmérsékletet kihasználva az erjedés ideje alatt felszaporodó tejsavbaktériumok megkezdik a biológiai almasavbontást. Így gyakorlatilag rögtön az erjedés után, ellenőrzött körülmények",
+      " között bontható le az almasav."
+    ],
+    [],
+    [
+      "Felületnövelő szerek"
+    ],
+    [
+      "A must megfelelő tisztítása tisztább és egészségesebb illatú és ízű bort eredményez. Ugyanakkor a nagyüzemi musttisztítási módszerek, mint például a ",
+      "flotálás, a derítés, a must túltisztításához vezethetnek. ",
+      "Ebben az esetben az erjedés vontatottá válhat, hiszen a belső felület, amit a természetes ",
+      "zavarosító",
+      " anyagok (bogyóhús, héjrészek stb.) alkotnak, ahol az élesztőgombák az élettevékenységüket folytatják, ",
+      "nagy mértékben",
+      " lecsökken. A ",
+      "természetes seprő hozzáadása bizonyult a leghatékonyabbnak a must ",
+      "belső felületének növelésében. Az eljárás n",
+      "emcsak a CO",
+      "2",
+      " felszabadulását tudta biztosítani, hanem egyúttal az élesztő számára nélkülözhetetlen zsírsavak, ásványi anyagok és vitaminok hordozójává vált. Elterjedten használnak még az erjesztéshez ",
+      "bentonit készítményeket is a belső felület növelése céljából."
+    ],
+    [],
+    [
+      "Erjedési zavarok"
+    ],
+    [
+      "Erjedési zavarnak",
+      " neveznek minden olyan erjedést, legyen az spontán vagy irányított, amelyek aktivitása nem elegendő a must teljes megerjesztéséhez. A 10 g-nál több ",
+      "maradékcukrot tartalmazó borok különlegesen sok figyelmet igényelnek, és fokozott kockázatot jelentenek. Az erjedési zavarok könnyen ",
+      "felismerhetőek",
+      " az alkoholképződés mértéke (kevesebb alkohol képződik, és nem fogy a cukor) alapján. Sok esetben a lassú, nem teljes erjedés esetén az erjedési melléktermékek fokozott mértékben képződnek, mivel az élesztő anyagcseréje megváltozik, és nem kívánatos vegyületeket termel.",
+      " "
+    ],
+    [
+      "Az erjedés nem kívánt leállása nem tévesztendő össze a tisztán lezajló erjedés szándékosan kezdeményezett leállításával. Így készítenek főleg saját fruktózból származó természetes maradék édességgel rendelkező borokat, melyeket a fogyasztók kifejezetten kedvelnek. Az erjedést tudatosan a kívánt cukor- és alkoholtartalom elérése után leállítják, az ",
+      "élesztőgombákat elpusztítják. Erre a célra többféle módszer is a borászok rendelkezésére áll. Mind a hűtés, mind a kénezés alkalmazása megakasztja az erjedés folyamatát. Általában e két módszer együttes alkalmazásával érik el a kívánt hatást. Kb. 5 ˚C körüli hőmérsékletre hűtve lekénezik (50 mg/l szabad kénessavval) az erjedő tételt. Így az élesztők életkörülményei hirtelen és drasztikusan megváltoznak, a populáció elpusztul, vagyis az erjedés leáll."
+    ],
+    [
+      "Az 5. ábra összefoglalja az alkoholos erjedés minőségét befolyásoló tényezőket. "
+    ],
+    [
+      ""
+    ],
+    [
+      "Az alkoholos erjedés lefolyását befolyásoló tényezők"
+    ],
+    [],
+    [
+      "Az erjedési zavarok kiküszöbölésére alkalmas megoldások a ",
+      "következőek",
+      " lehetnek:"
+    ],
+    [
+      "Az élesztők fakultatív anaerob mikroorganizmusok, a szaporodásuk oxigén jelenlétében felgyorsulhat. Ezért az akadozó erjedésben lévő tétel felkeverése új lendületet adhat az erjedési folyamatnak."
+    ],
+    [
+      "A zajos erjedési fázisban lévő musttal való házasítás is megoldást jelenthet elhúzódó erjedés esetén. (Ha egészségesen erjedő mustot adnak a megakadt vagy a leállt tételhez, akkor az egészségesen szaporodó és erjesztő élesztőgombák be tudják indítani újra az erjedést.)"
+    ],
+    [
+      "Beoltás egy speciális élesztővel, amely a helyzettől függően ",
+      "fruktofil",
+      " vagy alkoholtűrő tulajdonsággal rendelkezik."
+    ],
+    [
+      "Erjedési segédanyagok, melyek a must belső felületét képesek megnövelni."
+    ],
+    [],
+    [
+      "Fehérborok erjesztése"
+    ],
+    [
+      "Általános fehérborerjesztés technológiája"
+    ],
+    [
+      "Rendkívül sokféle fehérbort készítenek a hazai és a külföldi borászok. A stílusok, a szőlőfeldolgozási, mustkezelési technológiák, ezen belül az erjedési techn",
+      "ológiák is nagyon változatosak."
+    ],
+    [
+      "Fehérborok esetén a 20 ˚C alatti erjesztési hőmérséklet ajánlható. Ezen a hőmérsékleten az élesztők kevesebb észtert és több ma",
+      "gasabb rendű alkoholt képeznek."
+    ],
+    [
+      "A legelterjedtebb fehérborkészítési technológia szerint az erjedő tételt 16-18 ˚C-",
+      "on",
+      " tartják, így nagy ",
+      "biztonsággal ",
+      "kierjeszthetőek",
+      " a borok egyenletesen."
+    ],
+    [
+      "Az erjedés történhet spontán módon vagy irányított technológiával is. Az erjesztéshez többféle ",
+      "edényzetet",
+      " is használhatnak. A legelterjedtebb a koracéltartály, mert hűtőköpeny vagy mobil hűtő segítségével jól szabályozható a benne erjedő bor hőmérséklete és könnyen tisztítható. Gyakori technológia a jól beérett, magas cukor- és ",
+      "extraktartalmú",
+      " mustok esetén a fahordóban (3. ábra) történő erjesztés is. Ebben az ",
+      "esetben",
+      " a pincében, viszonylag alacsony külső hőmérsékleten történik az erjedés, vagyis az erjedő bor hőmérséklete nem emelkedik a krit",
+      "ikus határ (kb. 30 ˚) közelébe."
+    ],
+    [
+      ""
+    ],
+    [
+      "Fahordóban történő fehérbor erjesztés"
+    ],
+    [
+      "F",
+      "orrás",
+      ": https://www.wollersheim.com/wine-101-barrel-ferme",
+      " (",
+      "Letölve",
+      ": 2024.07.10",
+      ".",
+      ")"
+    ],
+    [],
+    [
+      "A manapság egyre inkább elterjedőben lévő alternatív erjesztő edényekben folyó erjesztésről a Különleges erjesztési technológiák részben található részletes információ."
+    ],
+    [],
+    [
+      "Illatos szőlőfajtákból készült fehérborok erjesztési technológiája"
+    ],
+    [
+      "Az illatos, könnyű fehérborok esetén – ",
+      "Irsai",
+      " Olivér, ",
+      "Ottonel",
+      " muskotály, Sárgamuskotály, Tramini stb. – a ",
+      "kifejezetten a ",
+      "hidegerjesztés (10-12 ˚C) terjedt el, melynek során a szőlőre jellemző elsődleges illat- és zamatanyagok kerülnek előtérbe a megfelelő fajélesztőt használva. Ebben az esetben a mustot 10 ˚C-ra hűtik, beoltják hidegtűrő és speciális aromaanyagok termelésére kifejlesztett fajélesztővel, és 40-50 g/l maradék cukortartalomnál elengedik az erjedést. A hűtést leállítják és hagyják, hogy az utóerjedésben lévő bor ",
+      "hőmérséklete emelkedjen. Mivel már túl sok hő nem keletkezik az erjedés utolsó szakaszában, ezért 15-16 ˚C-nál nem lesz magasabb a bor hőmérséklete, de a cukrot biztonsággal átalakítja az élesztő. Így a bor ",
+      "intenzív illatú és zamatú lesz."
+    ],
+    [],
+    [
+      "Különleges erjesztési módok"
+    ],
+    [
+      "A magas ",
+      "cukortartalmú",
+      " mustok esetén érdemes kicsit magasabb induló hőmérséklettel segíteni az élesztők munkáját, hogy biztonsággal el tudjanak kezdeni szaporodni. A magas cukortartalom magas ozmotikus nyomást jelent az élesztősejtekre, ezért, ha a hőmérsékleti optimumon tartják őket, akkor legalább csak egy stresszfaktorral kell megküzdeniük. Ezeket a tételeket érdemes 20-23 ˚C-",
+      "on",
+      " erjeszteni."
+    ],
+    [
+      "Maradék természetes cukrot tartalmazó fehérborok készítése esetén az erjedést a kívánt cukortartalomnál leállíthatják kénezéssel, szűréssel. Így a szőlőből származó maradék cukortartalom – ami jellemzően fruktóz – teszi édessé a bort, és az alkoholtartalma is kevesebb lesz, ami a jelenlegi fogyasztási trendeknek kedvez. "
+    ],
+    [
+      "Természetes maradék cukortartalom maradhat akkor is a fehérborokban, ha a szőlőt túlérett állapotban szüretelik le, és az erjedés közben keletkező alkoholtartalom miatt a folyamat természetes úton leáll. Ebben az esetben is főképp a fruktóz dominál a maradék cukortartalomban. Ezek a töppedt szőlőből származó, magas minőségű borok magukon viselik a túlérett szőlőből származó aromaanyagokat, melyek főképp aszalványokra emlékeztető, kört",
+      "és, birses jegyeket jelentenek."
+    ],
+    [
+      "Jégborok esetén maga a szüret és a feldolgozás is különleges. Nagyon alacsony hőmérsékleten, -4 ˚C alatt szüretelik az alapanyagot, majd kíméletes, gyors feldolgozás után erjesztik a magas ",
+      "cukortartalmú",
+      " mustot. Ebben az esetben is az a fő szabály, hogy az élesztők munkáját segítve a hőmérsékletet a számukra optimális érték közelében tartsák."
+    ],
+    [
+      "A fahordóban történő erjesztés lehetőségéről korábban volt szó, de van néhány különlegesnek mondható lehetőség is. Létezik olyan borstílus, amely esetén a fehérbor szőlő mustját ",
+      "barrique",
+      " hordóban erjesztik ki. Az alapanyag ebben az esetben jól beérett, egészséges, magas minőségű és ",
+      "beltartalmi",
+      " értékekkel rendelkező must. A ",
+      "barrique",
+      " hordóból kioldódó erőteljes, rendszerint füstös, csokoládés ízjegyek dominálnak főképp az így készült borokban. A technológia lényege, hogy a mustot új vagy első-, illetve másodtöltésű ",
+      "barrique",
+      " hordóba teszik és pincehőmérsékleten (12-16 ˚C) indul az erjedés. Lehet spontán vagy irányított erjesztéssel is ",
+      "készíteni. Erjedés után a finomseprőn érlelik még néhány hétig az elkészült újbort. A tölgyfából beoldódó zamatanyagok és a ",
+      "mikrooxidáció",
+      " alapvetően meghatározzák a borok karakterét, teljesen eltérő borstílust adva ezeknek a boroknak. A bor színe mélyebbé válik, az elsődleges aromaanyagok helyett átveszik a szerepet a hordóból kioldódó ízek, aromák."
+    ],
+    [
+      "Manapság egyre inkább előtérbe kerül a ",
+      "kvevriben",
+      ", ",
+      "agyagedényekben (amforákban) történő erjesztés. Ezek az edények kis ",
+      "űrtartalmúak",
+      ", vagyis a fajlagos felületük nagy, emiatt ugyanúgy, mint a fahordók esetén, nem melegszenek túl erjedés közben. A natúrborok (olyan borok, amelyek biológiai gazdálkodásból származó szőlőből készülnek, kézi szüretből származnak és összes kénessavtartalmuk maximum 40 mg/l lehet.) készítői használják világszerte leggyakrabban ezeket az ősi borkészítésből vett tárolóedényeket. A fahordók, különösen akkor, ha nemcsak tárolásra használják őket, hanem bennük erjed a bor, meghatározzák alapvetően a borok jellegét. Nem így az agyagból készült ",
+      "kvevrik",
+      " esetén, hiszen a hordós jegyek itt nem jelennek meg, sokkal inkább a szőlőfajta és a ",
+      "terroir",
+      " jelleg fog dominálni. A natúrborok egyik képviselője a narancsbor, mely egy az eddigiektől eltérő technológiával készül. A fehérborokat héjon erjesztik, így színanyagban, ",
+      "polifenolokban",
+      ", tanninokban gazdagok lesznek. Ez azért izgalmas bortípus, mert egyszerre találhatók meg bennük a fehérborokra jellemző jegyek a vörösborra jellemző ízekkel, textúrákkal. A natúrborokat minden esetben spontán erjedéssel készítik a borászok",
+      "."
+    ],
+    [
+      ""
+    ],
+    [
+      "Kvevri",
+      " (amfora)"
+    ],
+    [
+      "Forrás: https://www.cgtrader.com/3d-models/interior/kitchen/kvevri-for-red-and-white-wine (Letöltve:2024.07.10",
+      ".",
+      ")"
+    ],
+    [],
+    [
+      "A natúrborok világába illő különleges erjesztési módokhoz tartozik a manapság a fogyasztók körében egyre divatosabbá váló bortípus, a Pét-",
+      "Nat",
+      " (",
+      "pétillant",
+      " ",
+      "naturel",
+      "). Franciaországból származó technológiáról van szó, ami a pezsgőkészítés hőskorát idézi. Fehér és rozé változatban is készülhet, kizárólag natúrbor lehet az alapja. Az erjedésben lévő bort (maximum 18 g/l maradék cukortartalommal) nyomásálló üvegekbe töltik, és a pincében vagy ",
+      "más ",
+      "klimatizált",
+      " helyiségben teljesen kierjesztik. Így egy kifejezetten zavaros, nagyon friss, egyedi gyöngyöző- vagy h",
+      "abzóbort kapnak."
+    ],
+    [
+      "A tokaji borkülönlegességek erjesztési technológiái ",
+      "a megfelelő tananyag fejezetben kerülnek tárgyalásra."
+    ],
+    [
+      "Rozéborok erjesztése"
+    ],
+    [
+      "A rozék méltán népszerűek a borok világában. Megnyerő színükért, légies, könnyed stílusokért sokan rajonganak."
+    ],
+    [
+      "A rozéborok készítése nem egyszerű feladat, hiszen sok olyan tényező van, ami érzékenyen befolyásolja a készülő bor minőségét. Ilyen tényezők például az erjesztés körülményei is, ahol kiemelhető fontossággal bír az erjesztéshez használt élesztőgomba aromaképzése, valamint az erjesztési hőmérséklet is. Az élesztő ráadásul adszorbeál egy kevés ",
+      "antocianint",
+      " (borban lévő színanyagokat), így a bor az erjedés után világosabb tónusú, mint az erjedés előtti must. A rozét általában alacsony hőmérsékleten fogyasztják, ezért nagyon fontos a frissesség és a gyümölcsös jelleg. A magas savtartalom elfogadható, emiatt a ",
+      "malolaktikus",
+      " erjedésről általában lemondanak. A déli termőhelyekről származó rozéborok általában sokkal intenzívebb színűek, mint az északi területekről ",
+      "származók a melegebb klíma miatt, hiszen a kékszőlők hamarabb beérnek, így több ",
+      "színanayagot",
+      " is tartalmaznak."
+    ],
+    [
+      "A rozé színanyag kinyerésének módja az, hogy a cefrét áztatják az illatos szőlők készítési technológiájához hasonlóan. Vagyis a kékszőlőt kíméletesen feldolgozzák, majd a must együtt marad a bogyóhéjjal. A feldolgozás során vigyáznak arra, hogy a magok ne sérüljenek, illetve a cefrét kénezik kis mértékben annak érdekében, hogy a szőlő héjában elhelyezkedő színanyagtasakok felszakadjanak. Az áztatás ideje döntő fontosságú a rozéborok készítése esetén, hiszen minél tovább ázik együtt a must és a szőlő héja, annál erőteljesebb színű és ",
+      "tannintartal",
+      "mú",
+      " bort fognak tudni készíteni."
+    ],
+    [
+      "A rozéborok készítésének három eltérő technológiája:"
+    ],
+    [
+      "Az egyik, legelterjedtebb rozékészítési technológia szerint a kékszőlőt technológiai érettségben szüretelik le megfelelően magas savtartalommal és alacsony pH-",
+      "val",
+      ", kevesebb színanyaggal. A szőlő gyors és kíméletes feldolgozása után 2-24 órán át áztatják a cefrét, hogy a megfelelő mennyiségű színanyag kioldódjon a szőlő héjából. A kíméletes préselés után rendszerint irányított erjesztés (kifejezetten rozéborok készítéséhez kifejlesztett, málnás, epres, esetenként tutti-",
+      "fruttis",
+      " illat- és ízjegyeket termelő élesztők használatával) következik. Kulcsfontosságú erjesztés közben a folyamatos, tudatos tápanyag-adagolás, hogy azokat az elvárt aromajegyeket termeljék az élesztők, melyekre kifejlesztették őket a gyártók. 12-14˚C-on észter- és acetáttermelés, 16-18 ˚C-",
+      "on",
+      " a szőlőfajta jellegét kihangsúlyozó ar",
+      "omajegyek képzése erőteljesebb."
+    ],
+    [
+      "A ",
+      "rozé minőségének optimalizálására és egyúttal a vörösbor színhozamának növelésére való a következő rozékészítési technológia. A kékszőlőt teljes érettségben szedik le, majd kíméletesen dolgozzák fel. Az elkészült cefréről lefejtenek bizonyos mennyiségű (10-20 %) színmustot néhány óra ",
+      "maceráció",
+      " után, de legkésőbb az erjedés beindulását követően (2-48 óra). A színmustot kierjesztve merészebb, rusztikusabb, mélyebb színű rozébort kapnak, a cefre pedig koncentrálódik, így nagyobb színanyaggal és tannintartalommal rendelkező vörösbort készíthetnek a cefre erjesztésével. A francia szóhasználattal élve ezt a technológiát ",
+      "saignée",
+      " (kivéreztetés) módszernek nevezik. A teljes ",
+      "antocianin",
+      "-mennyiség ekkor kevesebb cefremennyiségben oszlik el, az így készülő vörösbor intenzívebb színű lesz."
+    ],
+    [
+      "A harmadik rozétípus készítésének technológiája nem elterjedt, főképp az új utakat kereső borászok választják ezt a lehetőséget, merőben eltérő rozé borokat készítve. A kékszőlőt teljes érésben szüretelik, majd a cefréről leválasztott mustot 20-22 ˚C körüli hőmérsékleten fahordóban erjesztik spontán erjesztéssel. Az így készült borok különlegesek, húsosak, testesebbek. A tölgyfahordós jegyeket viselik magukon (fűszerek, kávé, vanília stb.). Savtartalmuk kerekebb, mint az első",
+      " technológiával készült boroké."
+    ],
+    [
+      ""
+    ],
+    [
+      "Rozé erjesztése"
+    ],
+    [
+      "Forrás",
+      ": https://www.cgtrader.com/3d-models/interior/kitchen/kvevri-for-red-and-w",
+      " (Letöltve: 2024.07.10",
+      ".",
+      ")"
+    ],
+    [],
+    [
+      "Sillerborok erjesztése"
+    ],
+    [
+      "A sillerbor hagyományosan készített bortípus hazánkban, több száz éves múltra tekint vissza. Alapvetően a rozé és a vörösborok közötti átmenetnek tekinthető bortípus. A színe a rozétól ",
+      "kissé sötétebb, illatában és ízében inkább a vörösborokra jellemző jegyeket tükrözi. A sillerborok gyümölcsös, könnyed, a gasztronómiába jól beilleszthető borok."
+    ],
+    [
+      "A kékszőlőt teljes érésben szüretelik, majd kíméletesen feldolgozzák. Az erjedés első 2-4 napja gyakorlatilag megegyezik a ",
+      "héjonerjesztéses",
+      " ",
+      "vörösborkészítés technológiájával, majd a kellő színárnyalat és fenolos ",
+      "extrakció",
+      " elérése után a cefrét préselik, és az alkoholos erjesztést tovább folytatják. Az erjedési hőmérséklet 18-20 ˚C körül alakul. Az erjesztés történhet spontán vagy irányított módon, az ",
+      "erjesztőedényzetet",
+      " tekintve többnyire koracél tartály a legelterjedtebb. Természetesen a siller bor esetén is egyedi és különleges karaktert lehet elérni fahordós, vagy egyéb alternatív ",
+      "erj",
+      "esztőedényzet",
+      " használatával is."
+    ],
+    [
+      "Vörösborok erjesztése"
+    ],
+    [
+      "Héjonerjesztéses vörösborkészítési technológia"
+    ],
+    [
+      "Ez a legelterjedtebb technológia, amely világszerte hagyományos módszer már ",
+      "a vörösborkészítés kezdete óta."
+    ],
+    [
+      "Alapkövetelmény, hogy teljesen érett, rothadásmentes szőlőt szüreteljenek. Már a szüret alatt ajánlatos CO",
+      "2",
+      " vagy SO",
+      "2",
+      " gázzal gondoskodni az oxidáció elleni védelemről. A szőlőt kíméletesen és gyorsan kell feldolgozni a cefreállapotig."
+    ],
+    [
+      "A készülő vörösbor minőségét a következő tényezőkkel tudják befolyásolni az erjedés előtt és alatt:"
+    ],
+    [
+      "Hideg ",
+      "maceráció",
+      " a cefreerjesztés előtt, több napon keresztül 0° közeli hőmérsékleten."
+    ],
+    [
+      "Saignée",
+      " technológia, vagyis a kékszőlő mustjának korai levétele."
+    ],
+    [
+      "Az erjesztés módja (spontán vagy irányított erjedés)."
+    ],
+    [
+      "Az erjesztési hőmérséklet."
+    ],
+    [
+      "A törkölykalap bemerítésének technikája. Ezt a kiválasztott erjesztőtartály határozza m",
+      "eg."
+    ],
+    [
+      "A cefre ",
+      "kontaktideje",
+      " a préselésig, beleértve az ",
+      "utómacerációt",
+      " is."
+    ],
+    [
+      "Tannin hozzáadása az erjedő tételhez."
+    ],
+    [
+      "Tölgyfaforgács (chips) hozzáadása az erjesztéshez."
+    ],
+    [],
+    [
+      "Hideg ",
+      "maceráció"
+    ],
+    [
+      "A ",
+      "déli bortermelő országokban használják, különösen a burgundi fajták esetében, az északi bortermelő régiókban ezt a mó",
+      "dszer nem terjedt el annyira. A ",
+      "cél az, hogy összetettebb és kifejezett színintenzitású, különösen gyümölcsös vörösborokat készítsenek. Ehhez a cefrét 3–5 napig 8 °C alatt tárolják, lehetőleg oxidáció elleni védelemmel, pl. 60–70 mg/l SO",
+      "2",
+      " hozzáadásával. A ",
+      "bor értékességét meghatározó számos ",
+      "antocianin",
+      " és tannin már ebben a szakaszban átkerül a léb",
+      "e, a magok kioldódása nélkül. A ",
+      "hidegen eltöltött kontaktidő után melegítésre van szükség az erjesztéshez, hiszen ezen a hőmérsékleten az élesztőgombák nem tudnak erjeszteni. A ",
+      "maceráció",
+      " után a cefrét felmelegítik 20 ˚C környékére, hogy az erjedés elindulhasson. Ezzel az eljárással különösen intenzív, gyümölcsös vörösborok készülhetnek, ugyanakkor hátrányként írható fel, hogy a borkészítés költségesebb."
+    ],
+    [],
+    [
+      "A ",
+      "törkölykalap bemerítése"
+    ],
+    [
+      "Az erjesztés során intenzíven keletkezik szén-dioxid, emiatt a törköly összefüggő pogácsaként felúszik a felszínre, ami kiemelkedik a folyadékból, ezért újra be kell meríteni. Ellenkező esetben a színkinyerés megszakadhat és nagy mikrobiológiai kockázatnak lesz kitéve a törkölypogácsa: hibás erjedés, oxidáció, ecetesed",
+      "és lehetnek a következmények. A ",
+      "cefreerjesztés minősége végső soron a felúszó törkölypogácsa helyes kezelésétől függ. A hagyományosan, nyílt kádakban történő ",
+      "héjonerjesztés",
+      " esetén csömöszölésnek nevezik azt a folyamatot, amikor a kialakult törkölykalapot visszanyomják és újra és újra belekeverik az erjedő cefrébe. A mai modern borászati technológiák lehetővé teszik, hogy számos módszer közül lehessen kiválasztani az alkalmas tartályokat, technológiákat. Mind árban, mind automatizáltságban, mind a törköly ",
+      "macerációjának",
+      " módjában jelentős",
+      " eltéréseket lehet tapasztalni."
+    ],
+    [
+      "A vörösborkészítés fejezet tárgyalja ezeket a technológiai megoldásokat részletesen."
+    ],
+    [],
+    [
+      "Az er",
+      "jedési hőmérséklet"
+    ],
+    [
+      "Függetlenül a cefreerjesztési módszertől, az erjedési hőmérséklet fontos tényező, amely komolyan befolyásolja az eredményt. A vörösborokat magasabb hőmérsékleten kell erjeszteni, mint a fehér- és a rozéborokat, hiszen a színanyagok és a fenolos anyagok hatékony kioldása a cél. A zajos erjedési fázisba való gyors belépés érdekében 20 °C feletti, de akár 25 °C-",
+      "os",
+      " kezdeti hőmérsékletet célszerű alkalmazni. Ehhez fel kell melegíteni a cefrét, különösen hideg ",
+      "maceráció",
+      " után, illetve alacsony szüreti hőmérséklet esetén. Az erjesztés során keletkező hőt viszont el kell vezetni. Ha ugyanis nem megfelelő a hőelvezetés, akkor 30 °C felett etanol jelenlétében ",
+      "inakti",
+      "válódhatnak",
+      " az élesztősejtek. A ",
+      "törkölykalapban lényegesen rosszabb a hőelvezetés, mint az erjedő folyadékban. Már a közepes méretű erjesztőtartályokban is előfordulhat akár 12 °C-",
+      "os",
+      " hőmérséklet-különbség is, ami normál erjesztési hőmérsékleten az élesztő elpusztulását okozza a törkölyben lévő folyadékb",
+      "an. A ",
+      "hőmérséklet ",
+      "kiegyenlítődését",
+      " rendszeres átkeveréssel kell biztosítani."
+    ],
+    [],
+    [
+      "Spontán erjedés vagy fajélesztővel végzett erjesztés"
+    ],
+    [
+      "A ",
+      "vörös cefre különösen al",
+      "kalmas a spontán erjesztésre. A ",
+      "bogyók felszínén megtapadt összes ",
+      "élesztőgomba bekerül ugyanis a cefrébe, és a viszonylag magas kezdeti hőmérséklet miatt általában gyorsan megindul az erjedés."
+    ],
+    [
+      "Jellemzően a vörösboroknál is irányítottan történik az erjedés, főképp a nagyüzemi borászatokban, a kisebb pincékben használják ki a spontán erjesztés lehetőségét."
+    ],
+    [
+      "Nagyon sokfajta fajélesztőt fejlesztettek ki vörösborok erjesztéséhez, melyek garantálják a fajtajelleg erőteljes ",
+      "kifejeződését",
+      " és azt, hogy a nemkívánatos anyagcseretermékek minél alacsonyabb mértékben képződjenek."
+    ],
+    [],
+    [
+      "Az erjedés időtartalma, a préselés időpontjának megválasztása"
+    ],
+    [
+      "A ",
+      "törköly és az erjedésben lévő bor közötti kontaktidő határozz",
+      "a meg a fenolok ",
+      "extrakcióját",
+      ". A ",
+      "szín kioldódása 4 nap után éri el a maximumot, a tanninoknak viszont akár 6 hétre is szükségük lehet ahhoz, hogy hatékonyan ki tudjanak oldódni a héjrészekből és a magokból. Ha a bort és a törkölyt már 5–7 nap után szétválasztják, akkor könnyű vagy közepes",
+      "en nehéz vörösborokat kapnak. A ",
+      "prémium minőségű, stabil tanninszerkezetű, összetett vörösborokhoz lényegesen hosszabb kontaktidőre van szükség, még akár",
+      " az erjedés leállása után is. A ",
+      "folyamat meghatározó tényezője a szőlő érettségi foka, amely együtt j",
+      "ár a fenolok „érettségével” is."
+    ],
+    [
+      "A ",
+      "különféle kékszőlőfajták jelentősen különböznek egymástól a fenolok mennyisége és összetét",
+      "ele tekintetében. A ",
+      "hosszabb állásidő alatt egyre több keserű vegyület (például ",
+      "katechin",
+      ") oldódik ki a magvakból, így az érzékszervi benyomás a ke",
+      "sernyésség irányába tolódik el."
+    ],
+    [
+      "Utómacerációról",
+      " akkor lehet beszélni, ha a préselésre egy bizonyos idővel az erjesztés befejezése után kerül sor. Ennek időpontja az érzékszervi szempontoktól",
+      " és a kívánt borstílustól függ."
+    ],
+    [],
+    [
+      "A ",
+      "must ",
+      "korai leengedése (korai fejtés, ",
+      "saignée",
+      ")"
+    ],
+    [
+      "A ",
+      "cefréről leengednek meghatározott mennyiségű mustot, így az értékes összetevők töményednek, mivel eltolódik a héj",
+      " és a must aránya a cefrében. A ",
+      "borok intenzívebb színűek, ",
+      "gyümölcsösebbe",
+      "k és testesebb ízűek lesznek. A ",
+      "lefejtett must pedig felhasználható ",
+      "blanc",
+      " de noir borfajta vagy rozé készítésére."
+    ],
+    [],
+    [
+      "A ",
+      "tannin használata az erjesztés során"
+    ],
+    [
+      "A ",
+      "hatályban lévő uniós szabályozás engedi a tannin hozzáadását az erjesztésben is. Ez azért fontos, mert a tannin oldhatatlan komplexeket hoz létre a fehérjékkel és egyéb ",
+      "zavarosító",
+      " anyagokat is képes kicsapni. Különösen a vörösborban használják ki a tannin reakcióképességét az ",
+      "antocianinokkal",
+      " és más fenolokkal. Vörösborok esetén jól ki lehet használni azt a tulajdonságát, hogy a tannin stabilizálja a színt és intenzívebbé teszi a bor ízét. ",
+      "Chips (tölgyfaforgács) használata a cefre erjesztésekor elterjedt technológia, ami lényegében a ",
+      "barrique",
+      " hordóban történő tárolás alternatívája, amelyet különösen a közepes minőségű és ",
+      "árkategóri",
+      "ájú",
+      " borok esetében alkalmaznak. Vitathatatlan, hogy kedvezőbb munkaigényű és költségű megoldás, mint a fahordókban ",
+      "való érlelés."
+    ],
+    [
+      "A ",
+      "chips készítményeket a fehér- és a ",
+      "vörösborok  erjedése",
+      " és érlelése során használják annak érdekében, hogy a tölgyfából jellegzetes illat- és zamata",
+      "nyagokat juttassanak a borba. A ",
+      "fadaraboknak kizárólag a ",
+      "Quercus",
+      " (tölgyfa)",
+      " fajokból szabad származniuk. A ",
+      "tölgyfadarabok meghagyhatók természetes állapotukban, illetve hevíthetők alacsony, közepes vagy magas hőmérsékleten, azonban nem ",
+      "vethetőek",
+      " alá égési folyamatnak, és nem lehetnek sem elszenesedettek,",
+      " sem morzsalékos tapintásúak. A ",
+      "hevítésen kívül nem vethetők alá semmiféle kémiai, e",
+      "nzimes vagy fizikai kezelésnek."
+    ],
+    [
+      "Fehérborok esetén érdemes egy külön erre a célra készített zsákban az erjedő mustba helyezni, majd az erjedés végén eltávolítani az újborból."
+    ],
+    [
+      "Vörösborok esetén a ",
+      "cefréhez hozzáadott chips a prés",
+      "elés után a törkölyben marad. A ",
+      "faforgács alternatívájaként (és a ",
+      "barrique",
+      "-kezeléshez még közelebb álló megoldásként) kivehető fabetéteket vagy nagyobb fadarabokat (dongákat) h",
+      "elyeznek a tárolótartályokba. A ",
+      "9",
+      ". ábra példákat mutat különböző kialakítású faforgácsokra."
+    ],
+    [
+      ""
+    ],
+    [
+      "Különböző faforgács-formák"
+    ],
+    [],
+    [
+      "A musthoz és az erjedésben lévő cefréhez 3–5-ször nagyobb mennyiségű faforgácsot kell adni, mint az érlelésre szánt borhoz. Ennek az oka a rövidebb kontaktidő, hiszen az erjesztés során először létre kell jönnie az ",
+      "extrakciós",
+      " anyagnak, vagyis az etanolnak."
+    ],
+    [
+      "A 10",
+      ". ábra egy vörösbor aromaprofilját mutatja két különböző chipváltozat használata esetén, összehasonlítva a kezeletlen cefreerjesztéssel."
+    ],
+    [
+      "A ",
+      "kezelt változatok a „fekete ribizli” kivételével minden tulajdonságban egyértelműen eltérn",
+      "ek a kontroll erjesztéstől. A ",
+      "tölgyfaforgácsos kezelés a koncentrációtól függően befolyásol számos ízjellemzőt, kül",
+      "önösen a kávés-füstös aromát. A ",
+      "kesernyésség, amely általában az érettsé",
+      "g hiányát jelenti, lecsökken. A ",
+      "fenolok megnövekedett mennyisége miatt a fával való érintkezés felgyorsítj",
+      "a a fenolok polimerizációját. A ",
+      "6 hónapos tárolás után végzett kóstolási teszt egyértelmű előnyt mutatott a kevesebb tölgyfaforgáccsal kezelt változat esetében."
+    ],
+    [
+      ""
+    ],
+    [
+      "A cefréhez adott tölgyfaforgács hatása egy vörösbor aromaprofiljára; kontaktidő: 8 nap"
+    ],
+    [],
+    [
+      "Melegítéses vörösborkészítési eljárás"
+    ],
+    [
+      "Az eljárást Németországban fejlesztették ki az 1970-es és 1980-a",
+      "s években, főképp azért, mert a ",
+      "német szőlőfajták viszonylag alacsonyabb színpotenciálja és a szőlő részben elégtelen érettsége miatt maximális mértékben fel kellett használni a rendelkezésre álló ",
+      "antocianinokat",
+      " és tanninokat, az ",
+      "enzimatikus",
+      " veszteségeket pedig minimalizálni kellett."
+    ],
+    [
+      "A melegítés során bevitt nagy energiamennyiség erős hatást fejt ki a cefre szerkezetére, illetve befolyásolja a további feldolgozást és a későbbi bor stílusát is. ",
+      "A ",
+      "cefre melegítése a kím",
+      "életes feldolgozás ellentéte. A ",
+      "hőközlés után a következő szempontok játszanak szerepet az erjesztés technológiájában:"
+    ],
+    [
+      "A ",
+      "Saccharomyces",
+      " ",
+      "cerevisiae",
+      " versenytársaiként fellépő idegen szervezetek, például penészgombák, élesztők és baktériumok elpusztulnak. Ezután nagyon tisztán és gyorsan zajlik le a tiszta élesztőkultúrával végzett alkoholos erjedés. "
+    ],
+    [
+      "A ",
+      "melegítés után már nem lehetséges a spontán erjedés."
+    ],
+    [
+      "Az így készült borok általában valamivel intenzívebb színűek, kékebb vagy ibolyás-vörösesebb árnyalatot mutatnak, és gyorsabban érnek, mint a cefrén erjesztett borok."
+    ],
+    [
+      "Az erjedési hőmérséklet 18 és 24°-",
+      "os",
+      " között ideális ennél a technológiánál, mert ebben a hőmérséklet-tartományban az ",
+      "antocianinok",
+      " mennyiségének folyamatos növekedését tapasztalták. Az erjedéshez speciális szárított fajélesztőt kell alkalmazni, mely segít megőrizni a melegítés során kinyert színanyagokat és intenzív, gyümölcsös jelleget ad a bornak. Az erjesztés közben gyakran használnak pektinbontó enzimeket abból a célból, hogy az erjedés után a cefre hatékonyabban préselhetőbb legyen, valamint a ",
+      "kész bor ",
+      "szűrhetősége",
+      " javuljon."
+    ],
+    [],
+    [
+      "Szénsavatmoszférás vörösborkészítési eljárás - ",
+      "maceration",
+      " ",
+      "carbonique"
+    ],
+    [
+      "Ezt a módszert ",
+      "Michel ",
+      "Flanzy",
+      " francia borász mutatta be 1935-ben, de csak az 1960-as évek végén kezdték el használni primőr borok előállítására Franciaországban. Az eljárással kis ",
+      "tannintartalmú",
+      " vörösborok készíthetők, amelyek korán ",
+      "fogyaszthatóak",
+      ". Ma már világszerte ismert módszer, és számos követőre talált."
+    ],
+    [
+      "Az eljárás során az egészséges bogyókat kíméletesen, szigorúan anaerob atmoszférába helyezik, és 25–30",
+      " °C-",
+      "os",
+      " hőmérsékleten tartják. A ",
+      "reduktív atmoszférát szén-dioxid ",
+      "gáz bevezetésével oldják meg. A ",
+      "sértetlen bogyók felszívják a szén-dioxidot, megváltozik az anyagcseréjük és a sejten belüli ",
+      "enzimatikus",
+      " lebomlási folyamatok indulnak el. A saját enzimjeik segítségével a cukrokat lebontják etil-alkohollá az alkoholos erjesztés, vagyis élesztőgomba segítsége nélkül. Emiatt legfeljebb 2 térfogatszázalékos koncentrációban keletkezik etanol úgy, hogy a bogyóhúsban lévő cukor 20 %-a lebomlik. A sejten belüli ",
+      "enzimatikus",
+      " lebomlási folyamatok során nagy mennyiségben keletkezik glicerin, borostyánkősav, illetve számos olyan vegyület, mely fűszeresebb, gyümölcsösebb karakterűvé teszi az így késztett borokat. Az almasav ",
+      "enzimatikus",
+      " lebomlása is megtörténik, de nem ",
+      "malolaktikus",
+      " fermentáció következtében, vagyis tejsav nem keletkezik a folyamat során. Ezzel párhuzamosan a pektin ",
+      "hidrolizálódik",
+      ", és a metilcsoportok leválásával kis mennyiségű metanol keletkezik. Ilyen körülmények között 3-4 nap elteltével az ",
+      "antocianinok",
+      " ",
+      "a bogyó héjá",
+      "ból a ",
+      "bogyúhúsba",
+      " vándorolnak. A ",
+      "bogyó húsa in",
+      "tenzív vörösre színűvé válik. A ",
+      "folyamat akkor ér véget, amikor a szőlő saját enzimjei 7-8 nap után elvesztik az aktivitásukat. Ekkor le lehet préselni a cefrét. Érdekessége az eljárásnak, hogy a préslé értékesebb a színlénél, mert több színanyagot, illetve il",
+      "lat- és zamatanyagot tartalmaz."
+    ],
+    [
+      "A második fázisban az alkoholos erjedés történik meg leginkább spontán módon. Érdemes az erjedési hőmérsékletet 20 ˚C-",
+      "on",
+      " tartani, hogy az első fázisban kialakult illat- és zamatanyagok megmaradhassanak. Néhány nap alatt, viszonylag gyorsan meg is történik az erjedés."
+    ],
+    [
+      "A ",
+      "módszer kíméletes szüretet és ",
+      "kezelést igényel, zúzást nem szabad alkalmazni. Már 2-3 nap elteltével megváltozik a bogyók aromája. Az alkoholban elrakott gyümölcsökre és a rumban párolt bo",
+      "gyós gyümölcsökre emlékeztet. A ",
+      "kész erjesztett bor aromája az aszalt gyümölcsökre, gyümölcskészítményekre va",
+      "gy az aszalt szilvára hasonlít."
+    ],
+    [
+      "A ",
+      "szénsavatmoszférás eljárás nagyon munkaigényes a szőlő kezelése és ",
+      "rendszeres ellenőrzése miatt. A ",
+      "tejsavbaktériumok és a vadélesztők is ideális szaporodási feltételeket találnak ebben a környezetben. Főképp olyan borászok alkalmazzák, akik nem túl nagy mennyiségben készítenek vörösbort és fontos számukra a kis ",
+      "tannintartalmú",
+      ", gyümölcsös és friss vörösbor karakter. Az így készült vörösbor korán fogyasztható, de hamar vénül."
+    ],
+    [],
+    [
+      "Blanc de noir bor készítése"
+    ],
+    [
+      "Ez a borfajta (",
+      "blanc",
+      " de noir) általában ",
+      "csak",
+      " mint érdekesség jelenik meg a pincészetek borválasztékában. A kékszőlők gyors és kíméletes feldolgozása fehérbort eredményez, hiszen így megakadályozható, hogy a kékszőlők héjában található színanyagok a mustba kerüljenek. Ideális esetben a kézi szüretelést közvetlenül kíméletes, alacsony nyomáson való préselésnek kell követnie, majd a színanyagszegény mustot a szőlőbogyó héja nélkül erjesztik, hasonlóan a fehérborokhoz. Így egy kifejezetten világos színű, ezüstös vagy egészen halványsárga bor lesz a végeredmény, melyben határozottan ",
+      "érezhetőek",
+      " lesznek a vörösborra jellemző illat- és ízjegyek, bár tannintartalma inkább a fehérborokhoz fog hasonlítani."
+    ],
+    [
+      ""
+    ],
+    [
+      "Ábrajegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "Felhasznált irodalom"
+    ],
+    [
+      "Andrew Murray ",
+      "Vineyards",
+      ", ",
+      "Étancher",
+      ": ",
+      "Hard",
+      " ",
+      "to",
+      " ",
+      "say",
+      ", ",
+      "fun",
+      " ",
+      "to",
+      " ",
+      "drink",
+      " Elérhető: https://www.andrewmurrayvineyards.com/index.cfm",
+      "?method",
+      "=blog.blogList&blogCategoryID=E95E2161-ABFF-ACED-BA08-90E529D123EC (Letöltési idő: 2024.07.05.)"
+    ],
+    [
+      "Eperjesi Imre: Borászati technológia. Budapest, 2010, Mezőgazda Kiadó"
+    ],
+    [
+      "Bene ",
+      "Zsuzsannna",
+      ": ",
+      "Naturbor",
+      " készítés ",
+      "qvevri",
+      " technológiával. Elérhető: https://www.biokontroll.hu/naturbor-keszites-qvevri-technologiaval/ (Letöltési idő: 2024.07.05)"
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Takács Edina"
+      ],
+      [
+        "Szakmai lektor:",
+        "Lefler Péter"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Élelmiszeripar"
+      ],
+      [
+        "Szakma:",
+        "Szőlész-borász"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Borászati technológia"
+      ],
+      [
+        "Tantárgy:",
+        "Erjesztés"
+      ],
+      [
+        "Évfolyam:",
+        "10, 11. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "15 óra"
+      ]
+    ]
+  ],
+  "headers": [
+    ""
+  ],
+  "footers": [
+    ""
+  ],
+  "footnotes": [
+    "",
+    ""
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image10.png",
+      "path": null,
+      "bytes": 20571
+    },
+    {
+      "name": "image12.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image9.png",
+      "path": null,
+      "bytes": 522731
+    },
+    {
+      "name": "image11.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image7.jpg",
+      "path": null,
+      "bytes": 69852
+    },
+    {
+      "name": "image6.jpg",
+      "path": null,
+      "bytes": 85208
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 34514
+    },
+    {
+      "name": "image8.jpg",
+      "path": null,
+      "bytes": 113778
+    },
+    {
+      "name": "image2.jpg",
+      "path": null,
+      "bytes": 61415
+    },
+    {
+      "name": "image4.png",
+      "path": null,
+      "bytes": 71294
+    },
+    {
+      "name": "image5.png",
+      "path": null,
+      "bytes": 64378
+    },
+    {
+      "name": "image3.jpg",
+      "path": null,
+      "bytes": 12488
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "Címsor 4 Char",
+    "Címsor 5 Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "Normal (Web)",
+    "annotation text",
+    "Jegyzetszöveg Char",
+    "Title",
+    "Cím Char",
+    "Subtitle",
+    "Alcím Char",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "Hyperlink",
+    "Feloldatlan megemlítés1",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Table Grid",
+    "11",
+    "9",
+    "Placeholder Text",
+    "Caption",
+    "bajusz_téglalap",
+    "bajusz_téglalap Char",
+    "ism_kérdések",
+    "ism_kérdések Char",
+    "Képaláírás Char",
+    "kérdés_számozva",
+    "kérdés_számozva Char",
+    "bajusz_pötty",
+    "bajusz_pötty Char",
+    "szituáció",
+    "fontos",
+    "fontos Char",
+    "toc 4",
+    "bajusz_kötőjel",
+    "betűkiemelés",
+    "List Paragraph",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "példa",
+    "példa Char",
+    "toc 5",
+    "toc 6",
+    "toc 7",
+    "toc 8",
+    "toc 9",
+    "[Nincs bekezdésstílus]",
+    "Revision",
+    "annotation reference",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "Symbol",
+    "Feloldatlan megemlítés2",
+    "FollowedHyperlink",
+    "table of figures",
+    "Unresolved Mention",
+    "SZK ábrajegyzék",
+    "SZK táblajegyzék",
+    "[Alapbekezdés]",
+    "cf01"
+  ]
+}

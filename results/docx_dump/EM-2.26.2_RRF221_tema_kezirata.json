@@ -1,0 +1,3311 @@
+{
+  "core_properties": {
+    "title": "SABLON_kéziratalap_v1.1.dotm",
+    "creator": "Lenovo",
+    "lastModifiedBy": "Németh Nikolett (ELMS)",
+    "revision": "16",
+    "created": "2024-11-27T07:39:00Z",
+    "modified": "2024-12-02T11:06:00Z"
+  },
+  "app_properties": {
+    "Template": "SABLON_kéziratalap_v1.2_HATÁLYOS (1)",
+    "TotalTime": "375",
+    "Pages": "37",
+    "Words": "7029",
+    "Characters": "48503",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "404",
+    "Paragraphs": "110",
+    "ScaleCrop": "false",
+    "lpstr": "SABLON_kéziratalap_v1.1.dotm",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "55422",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.26.2  ",
+    "Az egyéni vállalkozó jövedelemadózási formái",
+    "Témák kézirata",
+    "",
+    "",
+    "Tartalomjegyzék",
+    "1\tAz egyéni vállalkozók adózási szabályai a személyi jövedelemadóban\t2",
+    "1.1\tAz egyéni vállalkozó\t2",
+    "1.1.1\tMegbízási jogviszony vs. egyéni vállalkozás\t2",
+    "1.2\tAz egyéni vállalkozások nyilvántartási kötelezettsége\t5",
+    "1.3\tAz egyéni vállalkozók járulékfizetése\t5",
+    "2\tA vállalkozói személyi jövedelemadó\t6",
+    "2.1\tVállalkozói bevétel\t7",
+    "2.2\tVállalkozói költségek\t8",
+    "2.3\tA vállalkozói kivét\t10",
+    "2.4\tA vállalkozói jövedelem\t10",
+    "2.5\tA vállalkozói osztalékalap adózási szabályai\t12",
+    "3\tAz átalányadózás szabályai\t18",
+    "4\tA kisadózó vállalkozók tételes adója, az adónem választásának feltételei\t21",
+    "4.1\tA kata alanyai\t21",
+    "4.2\tA kata alapjának meghatározása\t23",
+    "4.3\tA kata mértéke\t24",
+    "4.4\tA kata által kiváltott adónemek\t25",
+    "5\tEgyszerűbb feladatok megoldása\t26",
+    "5.1\tA vállalkozói személyi jövedelemadóhoz kapcsolódó feladatok\t27",
+    "5.2\tAz átalányadóhoz kapcsolódó feladatok\t30",
+    "5.3\tA kisadózó vállalkozók tételes adójához kapcsolódó feladatok\t31",
+    "5.4\tEsettanulmány elkészítése\t32",
+    "Táblázatjegyzék\t35",
+    "Irodalomjegyzék\t36",
+    "",
+    "Az egyéni vállalkozók adózási szabályai a személyi jövedelemadóban",
+    "Az egyéni vállalkozó",
+    "Az egyéni vállalkozásokról mindenki hallott már, sőt biztosan mindenki találkozott is egyéni vállalkozóval. Egy villanyszerelő vagy egy szobafestő nagy valószínűséggel ezt a vállalkozási formát választja, de egyszerűbb önálló tevékenységet végezni bármely szakma esetén, ha van vállalkozói igazolvány.",
+    "A gazdasági és jogi alapismeretek tantárgyban már esett szó az egyéni vállalkozásról mint egy lehetséges vállalkozási formáról. Ismétlésként itt csak az egyéni vállalkozó legfontosabb jellemzői szerepelnek.",
+    "Olyan cselekvőképes természetes személy, akinek a neve megtalálható az egyéni vállalkozók hatósági nyilvántartásában.",
+    "Korlátlan felelősség mellett rendszeres, üzletszerű gazdasági tevékenységet folytat nyereségszerzés és vagyonnövelés céljából. Tevékenységét saját nevében és kockázatára végzi.",
+    "Bárki lehet egyéni vállalkozó, aki Magyarországon székhellyel (vagy külföldiként tartózkodási engedéllyel) rendelkezik, kivéve ",
+    "a kiskorúakat, vagy akik cselekvőképtelenség miatt gondnokság alatt állnak,",
+    "azokat, akik gazdasági társaság vagy egyéni cég korlátlanul felelős tagjai, illetve",
+    "azokat, akiket a bíróság letöltendő szabadságvesztésre ítélt, és az elítéléshez fűződő hátrányos jogkövetkezmények alól még nem mentesültek. (A törvény konkrétan felsorolja a kizáró bűncselekményeket.)",
+    "Megbízási jogviszony vs. egyéni vállalkozás",
+    "A megbízási jogviszonynál a megbízottnak lényegesen kevesebb kötelezettsége van. Megkötik a szerződést, elvégzi a rábízott feladatokat, és várja, hogy a folyószámlájára megérkezzen a pénz. Ezt az összeget már saját szükségleteinek kielégítésére fordíthatja, hiszen a megbízó már levonta belőle a személyi jövedelemadót és a társadalombiztosítási járulékot. Ezen túlmenően a megbízónak szociális hozzájárulási adót is kell fizetnie a megbízási díj után.",
+    "Az egyéni vállalkozó a megrendelővel vállalkozói szerződést köt. A teljesítést követően ezt az összeget maradéktalanul megkapja, a fizetési kötelezettségekről magának kell gondoskodni. Attól függően, hogy milyen feltételekkel, milyen módon, milyen körülmények között végzi a vállalkozói tevékenységét, a számlájára beérkezett összegből több-kevesebb adót, járulékot kell fizetnie. ",
+    "A megrendelők a saját kötelezettségük csökkentése miatt ezt a formát jobban támogatják, viszont a magánszemélyeknek nagyon pontosan kell ismerniük, hogy az egyéni vállalkozás indítása hosszú távon milyen feladatokat, fizetési kötelezettségeket jelent.",
+    "",
+    "A megbízási díjjal kapcsolatos adó- és járulékfizetéssel a személyi jövedelemadóról szóló tananyagban lehet találkozni. ",
+    "A magánszemély számára önálló tevékenységből származó jövedelemnek minősül.",
+    "A megbízott a kifizető számára nyilatkozik, hogy a tevékenységgel kapcsolatban lesz-e elszámolható költsége.",
+    "A megállapított jövedelem alapján a megbízó levonja a személyi jövedelemadót és a társadalombiztosítási járulékot.",
+    "Az adóalap alapján a kifizető kiszámolja az őt terhelő szociális hozzájárulási adót, majd a levonásokkal együtt elkészíti a bevallását, és határidőben rendezi az állami költségvetéssel szembeni fizetési kötelezettségeit. ",
+    "",
+    "Ha a magánszemély úgy dönt, hogy számára kedvezőbb az egyéni vállalkozás indítása, akkor ezt nagyon egyszerűen és gyorsan megteheti az elektronikus rendszeren keresztül (Webes Ügysegéd), vagy személyesen a NAV bármelyik ügyfélszolgálatán.",
+    "A személyes adatok feltüntetése mellett ki kell választania, hogy milyen tevékenységekkel szeretne foglalkozni (az Önálló vállalkozók tevékenységi jegyzékében szereplő kódok alapján).",
+    "Ha a tevékenysége indokolja, akkor bejelentkezhet az általános forgalmi adó hatálya alá.",
+    "El kell döntenie, hogy a tevékenységét főfoglalkozásként vagy valamilyen más jogviszony mellett folytatja.",
+    "Meg kell határozni, hogy melyik adózási módot választja.",
+    "",
+    "Miből választhat?",
+    "Választhatja a vállalkozói személyi jövedelemadó (vszja) szerinti adózást, ahol a bevételeivel szemben ténylegesen felmerülő költségeket tud felsorakoztatni.",
+    "Vannak olyan tevékenységek, ahol a szakember sok anyaggal, eszközzel dolgozik. Ilyenkor ezek a tételek a vállalkozás számára költséget jelentenek. A jövedelmet a bevétel és a számlákkal igazolt költségek különbségeként állapítja meg.",
+    "Választhatja az átalányadózást, ahol a jövedelem meghatározása adott költséghányad alapján történik.",
+    "Abban az esetben kedvező ez az adózási mód, ha a tevékenység minimális költséget igényel (például szellemi tevékenységek).",
+    "Választhatja a kisadózó vállalkozások tételes adóját (kata), ha a feltételeknek megfelel. Ez egy rendkívül kedvező adózási forma, mert egy havi fix összeg (50 000 Ft) megfizetésével a vállalkozó az összes fizetési kötelezettségét rendezi. 2022. szeptember 1-jétől jelentősen leszűkítették azoknak a körét, akik élhetnek ezzel a lehetőséggel.",
+    "",
+    "Az induló vállalkozás a tevékenységének megkezdésekor bejelenti, hogy melyik adózási módot kívánja alkalmazni. Döntése az adóévre és a teljes vállalkozási tevékenységére szól. ",
+    "Van rá lehetőség, hogy megváltoztassa a döntését. Az előző évről készült személyijövedelemadó-bevallásban nyilatkozhat arról, hogy a következő adóévben másik adózási módot választ.",
+    "Az egyéni vállalkozások nyilvántartási kötelezettsége",
+    "Az egyéni vállalkozók a gazdasági tevékenységükhöz kapcsolódóan nyilvántartásokat kötelesek vezetni, amelyek a pénzforgalmat, az ezekhez kapcsolódó, de pénzmozgással nem járó változásokat hitelesen képesek bemutatni. A lehetséges formákat, az egyes dokumentumok tartalmát az szja-törvény 5. melléklete részletesen tartalmazza.",
+    "A magánszemélynek folyamatosan, időrendben kell rögzítenie minden olyan adatot, amely az adókötelezettség betartásához és az utólagos ellenőrzéshez megfelelő információt szolgáltat.",
+    "Alapnyilvántartások:",
+    "naplófőkönyv,",
+    "pénztárkönyv,",
+    "bevételi és költségnyilvántartás,",
+    "bevételi nyilvántartás.",
+    "Részletező nyilvántartások:",
+    "vevőkkel szembeni követelések nyilvántartása,",
+    "szállítókkal szembeni kötelezettségek nyilvántartása,",
+    "eszköznyilvántartás,",
+    "munkabérekkel, jövedelemkivéttel kapcsolatos nyilvántartás,",
+    "gépjárműhasználathoz kapcsolódó nyilvántartás,",
+    "leltár.",
+    " Az egyéni vállalkozók járulékfizetése",
+    "A társadalombiztosítás szempontjából az egyéni vállalkozók három csoportra oszthatók:",
+    "Főfoglalkozású (biztosított) egyéni vállalkozó az, aki a vállalkozási tevékenysége mellett ",
+    "legfeljebb heti 36 órás munkaviszonyban dolgozik,",
+    "nappali rendszerben nem folytat tanulmányokat,",
+    "társas vállalkozásnak nem főfoglalkozású tagja.",
+    "Másodfoglalkozású az az egyéni vállalkozó, akinek emellett más biztosítási jogviszonya is van: legalább heti 36 órában munkaviszonyban dolgozik vagy nappali tagozaton tanul.",
+    "Kiegészítő tevékenységű az az egyéni vállalkozó, aki nyugdíj mellett végzi a vállalkozási tevékenységét.",
+    "",
+    "Mennyi társadalombiztosítási járulékot és szociális hozzájárulási adót kell fizetnie egy egyéni vállalkozónak? Ezt foglalja össze az 1. táblázat.",
+    "Az egyéni vállalkozók tb-járulék- és szociálishozzájárulásiadó-fizetési kötelezettsége",
+    "Forrás: saját szerkesztés",
+    "A vállalkozói személyi jövedelemadó",
+    "Az szja-törvény (1995. évi CXVII. törvény) külön fejezetben foglalkozik az egyéni vállalkozások adózásával.",
+    "A különadózó jövedelmek között részletesen szabályozza a vállalkozói személyi jövedelemadóval, az átalányadóval és a tételes átalányadóval kapcsolatos szabályokat. (A kata alkalmazásáról külön jogszabály, a 2022. évi XIII. törvény rendelkezik.)",
+    "",
+    "A vállalkozói jövedelem szerinti adózást választó vállalkozó a klasszikus módon számolja a jövedelmét: az adóév folyamán elért bevételét az elszámolható költségekkel csökkenti. Az adófizetési kötelezettség két részből áll.",
+    "Először mint vállalkozás állapítja meg a jövedelmét, és abból 9% vállalkozói személyi jövedelemadót számol. Ez tartalmában hasonlít a gazdasági társaságok esetében használatos társasági adóhoz. (A társasági adózást külön tananyag tartalmazza.)",
+    "Az adóval csökkentett jövedelem a vállalkozó számára az osztalék, amelyet a sikeresen működő vállalkozásából a maga számára felhasznál. Tehát ennek adózása az szja-törvény alapján 15%.",
+    "Vállalkozói bevétel",
+    "Az egyéni vállalkozók bevételét tekintve a pénzforgalmi szemlélet érvényesül. Ennek értelmében az számít az adott időszak bevételeibe, amit a vállalkozó megkapott a kezébe, vagy jóváírtak a számláján.",
+    "Mi minősül a törvény szerint bevételnek?",
+    "A legnagyobb tétel az értékesítésből, szolgáltatásnyújtásból származó bevétele. Idetartozik minden pénzösszeg vagy vagyoni érték, amelyet a tevékenysége ellenértékeként kapott. Az árbevételt korrigálni kell az esetleges engedménnyel, felárral, árkiegészítéssel, a csomagolásért, szállításért külön felszámított összeggel.",
+    "Az eladott tárgyi eszközökért kapott ellenérték.",
+    "Kapott kamatok (pénzügyi és késedelmi), kötbér, kártérítés.",
+    "A felvett támogatás összege, ha azzal kapcsolatban már számolt el költségeket.",
+    "Idetartozik az is, ha az előállított termékeket saját szükségleteire használja fel, vagy ellenszolgáltatás nélkül átadja valakinek. ",
+    "",
+    "Bevételt növelő tételek:",
+    "Az adóbevallásban szerepel néhány bevételt növelő tétel. Ezek akkor fordulnak elő egy egyéni vállalkozó adóbevallásában, ha adózási módot vált. (Például a kata helyett a vállalkozói személyi jövedelemadózást választja.)",
+    "",
+    "Bevételt csökkentő tételek:",
+    "Olyan csökkentő tételek fordulnak elő, amelyekkel a törvényalkotók valamire ösztönözni szeretnék a vállalkozókat (ezek a gazdasági társaságok esetében a társasági adózásban is megjelennek).",
+    "Abban az esetben, ha az egyéni vállalkozó legalább 50%-ban megváltozott munkaképességű alkalmazottat foglalkoztat, akkor havonta az ő bérével, legfeljebb a minimálbérrel csökkentheti a bevételét.",
+    "Egyévi szociális hozzájárulási adóval csökkentheti a bevételét, ha korábban álláskeresőt vagy szabadságvesztésből szabaduló személyt foglalkoztat.",
+    "Ha az egyéni vállalkozó duális képzőhelyként is működik, akkor a tanulókkal kötött szakképzési munkaszerződés után havonta a minimálbér 24%-ával csökkentheti a bevételét. A sikeres szakmai vizsgát követően a képzésben részt vevő tanulók után (nappali és esti tagozatosok után is) befizetett szociális hozzájárulási adóval is csökkentheti a bevételét.",
+    "Továbbá csökkenthető a bevétel, ha nő a foglalkoztatotti létszám, vagy ha a vállalkozás a saját tevékenységéhez kapcsolódóan kutatásokat végez.",
+    "Vállalkozói költségek",
+    "Az elszámolható vállalkozói költségeket a törvény melléklete részletesen tartalmazza. Általánosságban úgy lehetne megfogalmazni, hogy a vállalkozói költségek azok a ráfordítások, amelyek a vállalkozó tevékenységéhez szükségesek, amelyeket kizárólag az önálló tevékenységéhez használ. A leggyakrabban előforduló tételek:",
+    "A tevékenység folytatásának érdekében az anyag- és árubeszerzésre fordított kiadások, igénybe vett szolgáltatások számla szerinti összege (javítás, karbantartás, szállítás, könyvelés, takarítás stb.). Az alvállalkozóknak kifizetett díjak.",
+    "A kizárólag üzemi célt szolgáló tárgyi eszközök (ingatlanok, gépek, berendezések) és nem anyagi eszközök (vagyoni értékű jogok, szellemi termékek) beszerzésére fordított összeg abban az esetben, ha az (egyedileg) nem haladja meg a 200 000 forintot. ",
+    "Ennél magasabb összeg esetén csak az időarányos értékcsökkenés számolható el költségként.",
+    "Ha alkalmazottat foglalkoztat, akkor a számára megállapított bruttó munkabér, béren kívüli juttatás, és az ahhoz kapcsolódó szociális hozzájárulási adó.",
+    "Elszámolható minden olyan kiadás is, ami a foglalkoztatáshoz kapcsolódik: üzemorvosi vizsgálat díja, biztosítási díj, továbbképzési költségek, esetleges juttatások.",
+    "A vállalkozó és az alkalmazottai számára kifizetett továbbképzési, utazási, szállás- és kiküldetési költségek, ha azok egyértelműen kapcsolódnak a vállalkozási tevékenységhez.",
+    "Egyéb, gyakran előforduló kiadások:",
+    "kamarai, érdekképviseleti szervezet számára fizetett tagdíj,",
+    "a felvett hitelhez kapcsolódó kamat,",
+    "a központi költségvetésbe vagy a helyi önkormányzat számára fizetett adó, hatósági díj, illeték,",
+    "a tevékenység helyszínéhez kapcsolódó költségek (bérleti díj, fűtés, világítás, telefon stb.),",
+    "lízinghez kapcsolódó költségek.",
+    "",
+    "Nem lehet költségként elszámolni, azaz az adózás szempontjából nem csökkentheti a vállalkozás jövedelmét:",
+    "az a bírság, késedelmi pótlék, amelyet valamelyik jogszabály megsértése miatt rónak a vállalkozóra (kivétel ez alól az önellenőrzési pótlék),",
+    "a hitel vagy kölcsön törlesztése,",
+    "a közcélú adományokra fizetett összeg,",
+    "a magánszemélyektől és a jövedelemkivétből levont személyi jövedelemadó és társadalombiztosítási járulék.",
+    "A vállalkozói kivét",
+    "A fentiekhez hasonlóan szintén költséget jelent az egyéni vállalkozó számára a vállalkozásból havonta felvett, saját szükségleteinek kielégítésére fordított összeg, a vállalkozói jövedelemkivét.",
+    "Az egyéni vállalkozó magát foglalkoztatja, ezért magának – mint magánszemélynek – „bért” fizet. Éppúgy megilleti őt is a munkájáért járó fizetség, akár a többi dolgozót. A vállalkozás számára ez az összeg és a hozzá kapcsolódó szociális hozzájárulási adó költség, a vállalkozónak pedig önálló tevékenységből származó jövedelem. A megállapított összegből a vállalkozótól (mint magánszemélytől) le kell vonni az szja-előleget és a társadalombiztosítási járulékot. Így ő is csak a nettó összeget fordíthatja saját maga szükségleteire. (Emlékezz rá, hogy a személyi jövedelemadó számítása során a jövedelemkivéttel szemben már semmilyen módon nem számolható el költség!)",
+    "A jövedelemkivét az összevonás alá eső jövedelem része, ezért ugyanazok az adókedvezmények érvényesíthetők, mint a munkavállalók esetében. (Érdemes átismételni a személyi jövedelemadó tananyagban szereplő kedvezményeket.) Tehát az egyéni vállalkozót is megilleti például az eltartottak után járó családi kedvezmény vagy a személyi kedvezmény.",
+    "A vállalkozói jövedelem",
+    "Az éves jövedelem számítása a fentiek alapján történik: a korrigált (növelő, csökkentő tételekkel módosított) bevételből az év során felmerült és elszámolható költségeket lehet levonni. Nagyon ritkán fordul elő, hogy a két összeg megegyezik, ezért a vállalkozó pozitív eredmény esetén nyereséggel, negatív eredmény esetén veszteséggel zárja az évet.",
+    "",
+    "Eredményes működés esetén van azonban lehetőség arra, hogy a korábbi évek veszteségével csökkentse az adóalapját. ",
+    "Elhatárolt vesztesége keletkezik, ha az egyik évben a költségei meghaladják a bevétel összegét. Ezzel a korábbi veszteséggel csökkentheti az adóév jövedelmét, annak legfeljebb az 50%-áig. Nagyobb összeg esetén ez több éven keresztül lehet csökkentő tényező.",
+    "",
+    "A törvény értelmében az egyéni vállalkozónak – ha volt bevétele – abban az esetben is kell vállalkozói személyi jövedelemadót fizetnie, ha egyébként az év során veszteséges volt a működése.",
+    "Két számadatot kell összehasonlítani:",
+    "a korábbi információk alapján megállapított jövedelmet és",
+    "az úgynevezett „jövedelem- (nyereség-) minimum”-ot, melynek értéke az éves bevétel 2%-a.",
+    "A fenti két érték közül a magasabbat kell az adószámítás során adóalapnak tekinteni.",
+    "",
+    "Példa:",
+    "EGYES vállalkozó bevétele: 10 000 000 Ft, az elszámolható költségeinek össze: 6 000 000 Ft. Ez egy eredményes év volt, hiszen 4 000 000 Ft nyeresége keletkezett, ez alapján adózik. A jövedelemminimum 200 000 Ft lenne (10 000 000 × 0,02 = 200 000 Ft).",
+    "",
+    "KETTES vállalkozó bevétele szintén 10 000 000 Ft volt, viszont a tevékenységével kapcsolatban 11 000 000 Ft költség számolható el. 1 000 000 Ft vesztesége keletkezett. Ebben az esetben az adószámítás a jövedelemminimum alapján történik, 200 000 Ft lesz az adóalap.",
+    "",
+    "HÁRMAS vállalkozó 10 000 000 Ft bevétellel és 9 900 000 Ft költséggel nyereséget produkált (10 000 000 – 9 900 000 = 100 000 Ft), de ez a jövedelemminimum alatt marad. Ebben az esetben is a jövedelemminimum (200 000 Ft) lesz az adóalap.",
+    "",
+    "A vállalkozói személyi jövedelemadó az adóalap 9%-a.",
+    "A számított adó csökkenthető annak 70%-áig, ha a vállalkozó a tevékenységéhez kapcsolódóan tárgyi eszköz beszerzéséhez, előállításához pénzügyi intézettől hitelt vett fel (ideértendő a pénzügyi lízing is). Adókedvezményként a kamatot lehet érvényesíteni. ",
+    "Ez a módosított vállalkozói személyi jövedelemadó képezi az adófizetési kötelezettség egyik részét.",
+    "A vállalkozói osztalékalap adózási szabályai",
+    "Az adószámítás az osztalékalap adójának megállapításával folytatódik.",
+    "Szükség van az adózás utáni vállalkozói jövedelemre. Ahogy arról már szó esett korábban, maga a jövedelem a bevételek és a költségek különbözete. Ez lehet pozitív vagy negatív szám is.",
+    "(Az előző részben kellett egy kitérőt tenni, mert az adómegállapításnak volt egy minimális alapja. Ez csak a vállalkozói személyi jövedelemadó számításához szükséges.)",
+    "A megállapított jövedelem és a vállalkozói szja-fizetési kötelezettség különbözete adja a vállalkozói osztalékalapot. Itt elválik egymástól a vállalkozó és a magánszemély, hiszen ez az az összeg, amit saját szükségleteire használ a vállalkozás eredményéből. Az osztalékalap után 15% adófizetési és 13% szociálishozzájárulásiadó-fizetési kötelezettség keletkezik.",
+    "Két megjegyzés az előző mondathoz:",
+    "Ez az osztalék nem ugyanaz, mint ami az szja-bevallás különadózó jövedelmei között szerepel. Oda azok az összegek kerülnek, amelyeket a vállalkozó más gazdasági társaságban lévő tulajdonrésze után kap. Azon túl, hogy saját egyéni vállalkozása van, még rendelkezik részvényekkel, üzletrészekkel, azok után osztalékra jogosult, de annak adózását az illető vállalkozás rendezi.",
+    "A szociális hozzájárulási adót abban az esetben kell a fenti összeg alapján számítani és fizetni, ha a vállalkozó összevont adóalapba tartozó jövedelme nem érte el a minimálbér 24-szeresét. Ha a munkáltatója (a kifizető) a számára megállapított bér után már fizetett szociális hozzájárulási adót, akkor az egyéni vállalkozót a vállalkozási tevékenységére tekintettel csak a plafonösszegig terheli a szociális hozzájárulási adó megfizetésének kötelezettsége (2024-ben 12 × 266 800 = 6 403 200 Ft).",
+    "",
+    "A következő vázlat segít rendszerezni a vállalkozói személyi jövedelemadó lényegét. Két egyéni vállalkozó adatai állnak rendelkezésre:",
+    "",
+    "Az értékesítésből származó bevételből kell kiindulni. Ezt számlázta ki a vállalkozó. Megkapta készpénzben, vagy beérkezett a bankszámlájára.",
+    "szemléltető táblázat I.",
+    "Forrás: saját szerkesztés",
+    "",
+    "A tevékenységével kapcsolatban költségei merültek fel. A törvény külön mellékletben sorolja fel azokat a tételeket, amelyek az adószámítás szempontjából elszámolhatók.",
+    "szemléltető táblázat II.",
+    "Forrás: saját szerkesztés",
+    "",
+    "A kettő különbsége adja a vállalkozói jövedelmet.",
+    "szemléltető táblázat III.",
+    "Forrás: saját szerkesztés",
+    "A vállalkozói személyi jövedelemadót a fenti jövedelem alapján számolják, de figyelni kell a jövedelemminimumra. Ha az adóévben nagyon alacsony nyereség vagy esetleg veszteség keletkezett, akkor a bevétel (1. pont) 2%-a után számítják az adót.",
+    "szemléltető táblázat IV.",
+    "Forrás: saját szerkesztés",
+    "",
+    "A vállalkozói személyi jövedelemadó az adóalap 9%-a.",
+    "szemléltető táblázat V.",
+    "Forrás: saját szerkesztés",
+    "",
+    "A vállalkozói jövedelemből (3. pont) levonva a számított adót (5. pont) határozható meg az adózás utáni jövedelem. Ha esetleg veszteséges volt az egyéni vállalkozói tevékenység, akkor (bár adófizetési kötelezettség keletkezett), az adózás utáni jövedelem nulla.",
+    "szemléltető táblázat VI.",
+    "Forrás: saját szerkesztés",
+    "",
+    "Ha pozitív az osztalékadó alapja, akkor annak 15%-a lesz az adó. (Pontos elnevezése szerint az osztalékalap adója, elkülönítve az osztalékadótól.)",
+    "szemléltető táblázat VII.",
+    "Forrás: saját szerkesztés",
+    "",
+    "Az adófizetési kötelezettség a vállalkozói személyi jövedelemadónak és az osztalékalap adójának összege. Az egyéni vállalkozásból származó jövedelem után szociálishozzájárulásiadó-fizetési kötelezettség keletkezhet.",
+    "szemléltető táblázat VIII.",
+    "Forrás: saját szerkesztés",
+    "",
+    "Az egyéni vállalkozónak a bevételeiről és a kiadásairól (költségeiről) alap- és részletező nyilvántartásokat kell vezetnie azért, hogy az adóbevallás elévüléséig bármikor alá tudja támasztani a kiszámított értékeket. Alapnyilvántartás a naplófőkönyv vagy pénztárkönyv, amely rögzíti a gazdasági események hatásait. Részletező nyilvántartás készül például a tárgyi eszközökről, jövedelemkivétről, hitelfelvételről.",
+    "A tételes költségelszámolást választó egyéni vállalkozó havonta, minden hónap 12. napjáig járulékbevallást készít. Az szja-fizetési kötelezettsége az adóévet követően, május 20-ig kerül be az szja-bevallásába.",
+    "",
+    "Példa:",
+    "Vállalkozó Vilmos vízvezeték-szerelő, aki teljes munkaidős (heti 36 órát meghaladó) munkaviszonyban egy kft.-nél dolgozik. Főállása mellett egyéni vállalkozó. Az áfa tekintetében alanyi adómentes, a lehetséges változatok közül a vállalkozói személyi jövedelemadó szerinti adózást választotta. Az adóévben az egyéni vállalkozói bevételeiről és költségeiről a következő információk állnak rendelkezésre:",
+    "a tevékenység ellenértékeként kapott készpénz vagy jóváírt összeg: 5 500 000 Ft,",
+    "értékesített tárgyi eszköz eladási ára: 200 000 Ft,",
+    "egy óvodának térítés nélkül átadott termékek szokásos piaci értéke: 100 000 Ft,",
+    "vállalkozói tevékenységére tekintettel kapott kamat: 50 000 Ft,",
+    "vállalkozói kivét: 200 000 Ft/hó,",
+    "anyagbeszerzésre fordított kiadás: 650 000 Ft,",
+    "kis értékű tárgyi eszközök beszerzése (3 db)\t: 50 000 Ft,",
+    "reklámköltség: 50 000 Ft,",
+    "gépkocsihasználat (útnyilvántartás nélkül elszámolható): 200 000 Ft,",
+    "műszaki gépek elszámolható értékcsökkenése: 100 000 Ft,",
+    "igénybe vett szolgáltatások kiadásai: 400 000 Ft.",
+    "",
+    "Bevételek:",
+    "\tÉrtékesítés árbevétele:\t5 500 000",
+    "\tTárgyieszköz-értékesítés bevétele:\t200 000",
+    "\tTérítés nélkül átadott vagyonelemek értéke:\t100 000",
+    "\tKapott kamat:\t50 000",
+    "\tÖsszesen:\t5 850 000",
+    "",
+    "Elszámolható költségek:",
+    "\tJövedelemkivét:\t12 × 200 000 = 2 400 000",
+    "\tJövedelemkivét szociális hozzájárulási adója:",
+    "\t\t2 400 000 × 0,13 = 312 000",
+    "\tAnyagbeszerzés:\t650 000",
+    "\tKis értékű tárgyi eszköz beszerzése:\t150 000",
+    "\tReklámköltség:\t50 000",
+    "\tGépkocsihasználat:\t200 000",
+    "\tGépek értékcsökkenése:\t100 000",
+    "\tIgénybe vett szolgáltatások költsége:\t 400 000",
+    "\tÖsszesen:\t4 262 000",
+    "",
+    "Vállalkozói jövedelem:",
+    "\tBevételek:\t5 850 000",
+    "\tElszámolható költségek:\t4 262 000",
+    "\tÖsszesen:\t1 588 000",
+    "",
+    "Vállalkozói személyi jövedelemadó: 1 588 000 × 0,09 = 142 920 Ft",
+    "(Jövedelemminimum: 5 850 000 × 0,02 = 117 000 Ft, alacsonyabb, mint a vállalkozói jövedelem.)",
+    "Adózás utáni vállalkozói jövedelem (vállalkozói osztalékalap): 1 588 000 – 142 920 = 1 445 080 Ft.",
+    "Vállalkozói osztalékalap adója: 1 445 080 × 0,15 = 216 762 Ft.",
+    "Adófizetési kötelezettség: 142 920 + 216 762 = 359 682 Ft.",
+    "",
+    "Szociálishozzájárulásiadó-fizetési kötelezettsége akkor keletkezik, ha a munkabére vagy az egyéb összevonás alá eső jövedelme 6 403 200 Ft alatt maradt.",
+    "Vilmos havonta 200 000 Ft jövedelemkivéttel „bért” fizet magának, amelyből 15% személyi jövedelemadót és 18,5% társadalombiztosítási járulékot kell „levonnia” és befizetnie.",
+    "Az átalányadózás szabályai",
+    "Az egyéni vállalkozó dönthet úgy, hogy a vállalkozási tevékenységére tekintettel a vállalkozási jövedelem szerinti adózás helyett az átalányadózást választja. ",
+    "Ez a forma azok számára javasolt, akik a működésük során kevés költséggel tudnak számolni, a vállalkozási tevékenységük elsősorban munkaigényes, a szakmai tudásukra épül. Kevés anyagot, gépet használnak, a munkavégzésük változó helyen történik. Tipikusan ilyenek a szellemi tevékenységek: oktatás, egészségügyi tevékenység. Ezt célszerű választani abban az esetben is, ha a munkavégzéshez szükséges anyagok beszerzését a megrendelő végzi (például burkolás, szobafestés).",
+    "Az átalányadózást bárki választhatja, akinek a bevétele az éves minimálbér tízszerese alatt marad (266 800 × 12 × 10 = 32 016 000 Ft). Abban az esetben, ha kizárólag kiskereskedelmi tevékenységet folytat, akkor ez az összeghatár: 160 080 000 Ft.",
+    "",
+    "Elszámolható költségek hiányában ez egy kedvező adózási forma, ezért ha át kell térni a vállalkozói jövedelem szerinti adózásra, az egyfajta szankció is lehet. Feltétlenül váltania kell a másik adózási módra:",
+    "ha a bevétele eléri az értékhatárt, vagy",
+    "ha nyugta- vagy számlaadás elmulasztása miatt mulasztási bírságot kell fizetnie.",
+    "",
+    "Az átalányadó számításakor a vállalkozói bevételből kell kiindulni. A jövedelem megállapításához az szja-törvény által meghatározott költséghányad levonására van lehetőség. Ilyen esetben a felmerült költségeket számlával vagy egyéb bizonylattal nem szükséges igazolni.",
+    "A bevétel 90%-a levonható költségként, ha az egyéni vállalkozó kizárólag kiskereskedelmi tevékenységgel foglalkozik. Ez azt jelenti, hogy az adózás szempontjából a bevételének 10%-a lesz a jövedelem. Ugyancsak 90%-os költséghányad érvényesíthető a mezőgazdasági őstermelők esetében.",
+    "A bevétel 80%-a számolható költségként, tehát 20% lesz a jövedelem azon tevékenységek esetén, amelyeket a törvény tételesen felsorol. Néhány példa ezek közül:",
+    "mezőgazdasági, erdőgazdálkodási, halászati, bányászati tevékenységek,",
+    "építőipari szolgáltatás,",
+    "ipari gép, berendezés, háztartási cikk, számítógép, kommunikációs eszköz javítása,",
+    "taxis személyszállítás, közúti áruszállítás,",
+    "fényképészet,",
+    "textil-, szőrmetisztítás,",
+    "fodrászat, szépségápolás,",
+    "személygépjármű-vezetők képzése.",
+    "A tevékenységek felsorolásánál a TESZOR’08 (Termékek és szolgáltatások osztályozási rendszere) lista alapján egyértelműen meghatározható, hogy mely tevékenységek esetén alkalmazható a 80%-os költséghányad.",
+    "Minden más tevékenységre a 40%-os költséghányad (60%-os jövedelemhányad) alkalmazható.",
+    "",
+    "Ha az egyéni vállalkozónak több tevékenységből is származik bevétele, és ezek történetesen a költséghányad szempontjából más-más kategóriába tartoznak, akkor a teljes bevételre az alacsonyabbat kell alkalmazni. Ha egy egyéni vállalkozó kisboltot üzemeltet, de szabadidejében családi rendezvényeken fényképezést is vállal, akkor a teljes bevételével szemben 80%-os költséghányadot számolhat el.",
+    "",
+    "Az adófizetési kötelezettség megállapításának menete:",
+    "Az egyéni vállalkozó az év során kézhez kapott vagy a folyószámlájára beérkezett bevételét összesíti. A járulékbevallásait negyedévente kell elkészítenie, ezért negyedévente (az év elejétől göngyölítve) végzi el a számítást.",
+    "A tevékenységének függvényében meghatározza a költséghányad nagyságát. Ilyenkor nem a vállalkozási főtevékenysége az irányadó, hanem amiből a bevétele származott.",
+    "A bevételből a megfelelő költséghányaddal számított érték levonása adja az éves jövedelmet.",
+    "Adómentes a jövedelem az éves szintű minimálbér feléig. 2024-ben ez az összeg 1 600 800 Ft (266 800 × 6 = 1 600 800 Ft). Ekkora jövedelemig tehát nem keletkezik adófizetési kötelezettség, viszont az efölötti rész az összevont adóalapba tartozik.",
+    "",
+    "Példa:",
+    "",
+    "Átalányos Ábris árnyékolástechnikai berendezések felszerelésével foglalkozik. Az adóévre az átalányadó alkalmazását választotta, az ő esetében a 40%-os költséghányaddal kell számolni. Az év során 8 000 000 Ft bevétele keletkezett.",
+    "Elszámolható költség (költségátalány alapján): 8 000 000 × 0,4 = 3 200 000 Ft.",
+    "Jövedelem: 8 000 000 – 3 200 000 = 4 800 000 Ft.",
+    "A jövedelem adómentes része: 1 600 800 Ft.",
+    "Az összevonás alá eső jövedelem összege: 4 800 000 – 1 600 800 = 3 199 200 Ft, amely után a szokásos módon 15% személyi jövedelemadót kell fizetni.",
+    "Ábrisnak 479 880 Ft (3 199 200 × 0,15 = 479 880 Ft) szja-fizetési kötelezettsége keletkezik, ha más jövedelemmel, kedvezménnyel nem rendelkezik. ",
+    "Járulék- és szociálishozzájárulásiadó-fizetési kötelezettsége attól függ, hogy az egyéni vállalkozás mellett van-e másik jogviszonya. ",
+    "Főfoglalkozású tevékenység esetén legalább a minimálbér után fizet tb-járulékot, és a minimálbér 112,5%-a után szociális hozzájárulási adót.",
+    "Másodfoglalkozású vállalkozó esetén az alap a tényleges jövedelem.",
+    "",
+    "Rövid Rozina egy panelház átalakított garázsában rövidáruboltot üzemeltet. Vállalkozói bevétele csak ebből a tevékenységből származik: gombokat, kézimunka-alapanyagokat, színes szalagokat értékesített 12 000 000 Ft értékben. Kizárólag kiskereskedelmi tevékenységből származik árbevétele, ezért a jövedelme megállapításához a 90%-os költséghányad alkalmazható.",
+    "Éves árbevétel: 12 000 000 Ft.",
+    "Elszámolható költség (költségátalány alapján): 12 000 000 × 0,9 = 10 800 000 Ft.",
+    "Jövedelem: 12 000 000 – 10 800 000 = 1 200 000 Ft.",
+    "A jövedelem adómentes része: 1 600 800 Ft.",
+    "Adófizetési kötelezettség: 1 200 000 – 1 600 800 = –400 800 → 0.",
+    "Rozinának az egyéni vállalkozói tevékenysége után nem kell adót fizetnie.",
+    "",
+    "Az átalányadózást választó egyéni vállalkozó negyedévente bevallást készít a keletkezett jövedelméről és a járulékfizetési kötelezettségéről. Adóelőleg-fizetési kötelezettsége csak abban az esetben lesz, ha a jövedelme eléri az 1 600 800 forintot. Ezt a negyedévet követő hónap 12-éig kell rendeznie.",
+    "",
+    "Mivel a költségek elszámolása diktált költséghányad alapján történik, az egyéni vállalkozó csak a bevételeiről vezet nyilvántartást. A felmerült költségekkel kapcsolatos számlákat, bizonylatokat csak azért célszerű megőrizni, mert elképzelhető, hogy utólag kell megállapítani a vállalkozói személyi jövedelemadót.",
+    "A kisadózó vállalkozók tételes adója, az adónem választásának feltételei",
+    "",
+    "Az egyéni vállalkozókkal kapcsolatban egyszer csak egy érdekes fogalom jelent meg: egyre-másra használták a kata kifejezést. Nem mindenki tudta, hogy mit takar ez a négy betű, viszont azt beszélték, hogy ez valami jót jelent, kedvező a számukra.",
+    "A kata alanyai",
+    "A kata mozaikszó a kisadózó vállalkozók tételes adója kifejezést takarja. ",
+    "",
+    "2002-ig kell visszamenni az időben. Ez volt az az év, amikor megszületett az egyszerűsített vállalkozói adó (eva). A törvényalkotók célja az volt, hogy egyszerűbbé tegyék a vállalkozások adózását. Az áfát is tartalmazó bevétel 15%-a kiváltott minden adó- és járulékfizetési kötelezettséget. Ez amellett, hogy egyszerű százalékszámítással kivitelezhető volt, mentesítette a vállalkozásokat attól, hogy mindenféle megoldásokat keressenek a költségszámlák szaporítására.",
+    "Az évek során bebizonyosodott, hogy ez a mérték hosszú távon – amellett, hogy a vállalkozók számára roppant kedvező volt – a költségvetés szempontjából nem szerencsés. A nagyságát folyamatosan emelték, míg elérte a 37%-ot. 2020-ban megszüntették ezt az adózási formát, hiszen időközben valami jobbat alkottak.",
+    "",
+    "Újabb előrelépés történt 2012-ben, amikor törvény született a katáról (2012. évi CXLVII. törvény a kisadózó vállalkozók tételes adójáról). Ezzel az egyszerűt még egyszerűbbre cserélték, hiszen mindenfajta számolás nélkül, havonta fix összeg befizetésével mindenfajta adót és járulékot kiváltott a vállalkozó. Voltak szabályok, amelyekre figyelni kellett, de igazán a bevétel felső határa jelentette az egyetlen korlátot.",
+    "",
+    "2022-ben gyökeresen megreformálták azt a rendszert, amit korábban nagyon sokan kedveltek. 2022. szeptember 1-jétől már „régi katáról” és „új katáról” beszéltek a vállalkozók.",
+    "Miben új az új?",
+    "",
+    "2022. szeptember 1-jétől már csak a főfoglalkozású egyéni vállalkozók választhatják ezt az adózási módot. Az új törvény életbe lépésével jelentősen leszűkült azoknak a köre, akik élhetnek a lehetőséggel.",
+    "Tehát nem alkalmazhatják, akik",
+    "legalább heti 36 órás munkaviszonyban dolgoznak,",
+    "az egyéni vállalkozás mellett valamely gazdasági társaságnak főfoglalkozású tagjai,",
+    "nyugdíj, rokkantsági ellátás mellett végeznek vállalkozási tevékenységet,",
+    "nappali rendszerű oktatásban tanulnak,",
+    "akiknek az adószámát az elmúlt egy évben törölte az adóhatóság,",
+    "akik ingatlan-bérbeadásból szereztek bevételt.",
+    "Továbbá nem választhatják a betéti társaságok, egyéni cégek, illetve néhány kiemelt tevékenység esetén az egyéni vállalkozók: egyéni ügyvéd, közjegyző, állatorvos.",
+    "",
+    "A feltételeknek a tárgyhónap minden napján fenn kell állniuk. Induló vállalkozás esetén a nyilvántartásba vétel napjától, működő vállalkozás esetén a bejelentést követő hónap első napjától lép életbe az adóalanyiság.",
+    "Nagyon szigorúan szabályozott, hogy kitől származhat bevétele a vállalkozónak. Akkor felel meg a kata előírásainak, ha bevétele kizárólag magánszemélytől, mezőgazdasági őstermelőtől származik. Nem állíthat ki számlát jogi személyek, egyéni vállalkozók, egyéni cégek, társasházak részére. (Ez alól a taxisok mentességet élveznek.)",
+    "",
+    "Megszűnhet ez az adózási forma",
+    "az egyéni vállalkozó döntése alapján; ",
+    "ha változik a vállalkozó jogviszonya, és nem alkalmazhatja tovább ezt a formát (például teljes munkaidős munkaszerződéssel vállal munkát);",
+    "a NAV határozata alapján, valamilyen jogsértés miatt (például ha nem jelenti be a munkavállalóját).",
+    "",
+    "A kisadózó vállalkozó nyilvántartási kötelezettsége a bevételek feljegyzésére terjed ki. Az általa kiállított számlákat, nyugtákat kell az adóbevallások elévülési idejéig (5 év) megőrizni.",
+    "A kata alapjának meghatározása",
+    "A kata esetében kétféle adó létezik:",
+    "a korábban említett tételes adó,",
+    "az éves bevétel függvényében számítandó 40%-os különadó.",
+    "",
+    "A kisadózók esetében a jövedelemszámítás az éves bevallás alkalmával történik. Az adóévet követő év február 25-éig kell nyilatkozniuk az éves bevételükről. Tehát e határidőig kell összesítenie az év során készpénzben megkapott vagy a bankszámláján jóváírt összegeket. Ha magasabb a törvényben szereplő határértéknél, akkor kell kiszámítani és megfizetni a különadót.",
+    "A kata mértéke",
+    "Tételes adót, havi 50 000 Ft-ot fizet a kataalany egyéni vállalkozó minden naptári hónapra, amelyben legalább egy napig fennállnak a feltételek. A fizetési határidő a következő hónap 12-e. Bevallási kötelezettsége évente egyszer van (a tárgyévet követő év február 25-éig).",
+    "",
+    "Akkor mentesül a vállalkozó az 50 000 Ft fizetése alól, ha egész hónapban például táppénzen, gyeden volt, katonai szolgálatot teljesített, szabadságvesztését töltötte vagy szüneteltette a vállalkozási tevékenységét.",
+    "",
+    "Ha a vállalkozási tevékenységéből származó bevétele meghaladja a 18 000 000 Ft-ot, akkor – a tételes kötelezettség mellett – az efölötti rész után 40% különadó-fizetési kötelezettsége keletkezik. Ha a kataalanyiság nem áll fenn a teljes évben, akkor időarányosan havi 1 500 000 Ft-ot kell az adott hónapokra keretösszegnek tekinteni.",
+    "",
+    "Példa:",
+    "",
+    "Újkata1 vállalkozó varrónő, a teljes naptári évben varrogatott, javítgatott. A vállalkozási tevékenységből származó éves bevétele 4 000 000 Ft volt.",
+    "Minden hónapban határidőben befizette az 50 000 Ft tételes adót, a következő évben február 25-ig a katabevallásban nyilatkozott a bevétel összegéről.",
+    "",
+    "Újkata2 vállalkozó magánórák keretében emelt szintű érettségi vizsgára készít fel diákokat. Kisbabája született, ezért november 1-jétől csecsemőgondozási díjban részesül. A vállalkozási tevékenységből 2 500 000 Ft bevétele keletkezett.",
+    "Januártól október végéig (10 hónapra) minden hónapban megtörtént a tételes kata megfizetése. Arról nincs információ, hogy a szülést megelőzően volt-e esetleg táppénzes állományban, így az utolsó két hónapban mentesült az 50 000 Ft fizetése alól. A csed összegét az előző évi jövedelem függvényében állapítja meg a Magyar Államkincstár, ami ebben az esetben igen alacsony.",
+    "A tárgyév bevételeiről február 25-ig kell elkészíteni a katabevallást, ami a 2 500 000 Ft bevételt tartalmazza.",
+    "",
+    "Újkata3 gyógytornász. Főállású egyéni vállalkozás formájában, egy alkalmazottal végzi a tevékenységét. Az év során 19 000 000 bevételt értek el. Egy vírusos fertőzés miatt három hétig táppénzes állományban volt, viszont ez idő alatt az alkalmazott folytatta a munkát.",
+    "A háromhetes hiányzás nem mentesíti a vállalkozót a tételes kisvállalkozói adó megfizetése alól, hiszen minden hónapban legalább egy napig folytatták a tevékenységet. (Mivel az alkalmazott a betegsége alatt is dolgozott, így folyamatosan keletkezett bevétel.)",
+    "Minden hónapban átutalta az 50 000 Ft-ot (összesen 12 × 50 000 = 600 000 Ft-ot) a következő hónap 12-éig.",
+    "Az éves bevallásban szerepel a 19 000 000 Ft bevétel, ami miatt a különadót meg kell fizetnie. 19 000 000 – 18 000 000 = 1 000 000 Ft bevétel után 40% az adó mértéke. Tehát február 25-ig további 400 000 Ft-ot kell fizetnie.",
+    "A kata által kiváltott adónemek ",
+    "A tételes adó fizetésének időtartamára a kisadózó vállalkozó biztosítottnak minősül. Minden társadalombiztosítási és álláskeresési ellátásra jogosultságot szerez.",
+    "A havi 50 000 Ft befizetése roppant kedvező az egyéni vállalkozók számára, lényegesen alacsonyabb kötelezettséget jelent bármelyik más adózási módhoz képest. Ebből adódóan viszont a társadalombiztosítási ellátásokat is mindössze a 108 000 Ft-ot alapul véve számolják. (Azt javasolják a kata szerint adózóknak, hogy amit havonta megspórolnak, azt megtakarításként helyezzék nyugdíj- vagy egészségbiztosítási pénztárba.)",
+    "",
+    "Az 50 000 Ft tételes adó megfizetésével az egyéni vállalkozó mentesül számos adókötelezettség alól. Nem kell megállapítania, bevallania és megfizetnie a gazdasági tevékenységével összefüggésben",
+    "a vállalkozói személyi jövedelemadót, az osztalékalap utáni adót, az átalányadót,",
+    "a jövedelemkivét után magánszemélyként fizetendő személyi jövedelemadót és a társadalombiztosítási járulékot,",
+    "a szociális hozzájárulási adót.",
+    "Egyszerűbb feladatok megoldása",
+    "Ellenőrizd a tudásod a következő két feladat segítségével!",
+    "",
+    "1. feladat",
+    "",
+    "B. Bódog bőrdíszműves egyéni vállalkozó bevételeiről és költségeiről a következő információkkal rendelkezünk:",
+    "(vállalkozási tevékenységét heti 36 órát meghaladó munkaviszony mellett végzi, az áfa tekintetében alanyi adómentes)",
+    "a korábbi években elhatárolt veszteség: 300 000 Ft,",
+    "a tevékenység ellenértékeként kapott készpénz vagy jóváírt összeg: 7 300 000 Ft,",
+    "alkalmazott részére kifizetett bér: 3 500 000 Ft,",
+    "anyagbeszerzésre fordított kiadás: 1 900 000 Ft,",
+    "biztosítótól kapott kártérítés: 50 000 Ft,",
+    "cégautóadó: 100 000 Ft,",
+    "dolgozótól levont szja: 480 000 Ft,",
+    "értékesített tárgyi eszköz eladási ára: 400 000 Ft,",
+    "fejlesztési célra kapott támogatás összege, melynek felhasználása megtörtént, és költségként elszámolta: 1 500 000 Ft,",
+    "gépkocsijavítási költség: 120 000 Ft,",
+    "gépkocsihasználat költsége (útnyilvántartás szerint): 600 000 Ft,",
+    "kapott kamat: 150 000 Ft,",
+    "kapott kötbér: 80 000 Ft,",
+    "kis értékű tárgyi eszközök beszerzése: 150 000 Ft,",
+    "könyvviteli szolgáltatás díja: 160 000 Ft,",
+    "közadakozás céljából átadott termékek szokásos piaci értéke: 100 000 Ft,",
+    "munkaruha- és védőeszköz-beszerzés: 180 000 Ft,",
+    "műszaki gépek elszámolható értékcsökkenése: 250 000 Ft,",
+    "reprezentációs költség: 80 000 Ft,",
+    "szociális hozzájárulási adó: 400 000 Ft,",
+    "telefon-, internethasználat: 120 000 Ft.",
+    "",
+    "2. feladat",
+    "",
+    "C. Csillagvirág főállású egyéni vállalkozó csipketerítő-készítéssel foglalkozik. Kézműves termékeit kizárólag magánszemélyeknek értékesíti. Bevételeiről és költségeiről a következő információkkal rendelkezünk:",
+    "A vállalkozási tevékenységből származó bevétele: 21 000 000 Ft.",
+    "Számlával igazolt költsége: 2 500 000 Ft.",
+    "Jövedelemkivét: 350 000 Ft/hó.",
+    "A vállalkozói személyi jövedelemadóhoz kapcsolódó feladatok ",
+    "1. feladat: B. Bódog adatai alapján",
+    "(Az adatok forintban értendők.)",
+    "A dolgozótól levont szja nem jelent költséget a vállalkozás számára.",
+    "Feladatmegoldás (B. Bódog) – vállalkozói személyi jövedelemadó alkalmazása",
+    "Forrás: saját szerkesztés",
+    "",
+    "2. feladat: C. Csillagvirág adatai alapján",
+    "(Az adatok forintban értendők.)",
+    "Feladatmegoldás (C. Csillagvirág) – vállalkozói személyi jövedelemadó alkalmazása",
+    "Forrás: saját szerkesztés",
+    "",
+    "Magánszemélyként a jövedelemkivét után fizetendő:",
+    "személyi jövedelemadó: 4 200 000 × 0,15 = 630 000 Ft,",
+    "társadalombiztosítási járulék: 4 200 000 × 0,185 = 777 000 Ft.",
+    "Az átalányadóhoz kapcsolódó feladatok",
+    "1. feladat: B. Bódog adatai alapján",
+    "(Az adatok forintban értendők.)",
+    "Feladatmegoldás (B. Bódog) – átalányadó alkalmazása",
+    "Forrás: saját szerkesztés",
+    "",
+    "2. feladat: C. Csillagvirág adatai alapján",
+    "(Az adatok forintban értendők.)",
+    "Feladatmegoldás (C. Csillagvirág) – átalányadó alkalmazása",
+    "Forrás: saját szerkesztés",
+    "A kisadózó vállalkozók tételes adójához kapcsolódó feladatok",
+    "1. feladat: B. Bódog adatai alapján",
+    "",
+    "A feladat szövegéből kiderül, hogy Bódog másodfoglalkozású egyéni vállalkozó, így nincs lehetősége a kata szerint adózni. Csak főfoglalkozású egyéni vállalkozóknak van lehetőségük a havi tételes (50 000 Ft-os, mindent kiváltó) adó fizetésére.",
+    "",
+    "2. feladat: C. Csillagvirág adatai alapján",
+    "",
+    "Tételes adó: 12 × 50 000 = 600 000 Ft.",
+    "Különadó, mivel a bevétele meghaladta a 18 000 000 Ft-ot:",
+    "(21 000 000 – 18 000 000) × 0,4 = 1 200 000 Ft.",
+    "",
+    "Összegzés",
+    "",
+    "A fenti adatok alapján B. Bódog számára a vállalkozói jövedelemadó szerinti adózás a kedvezőbb, hiszen a bevételével szemben jelentős költséget tud elszámolni. A tevékenysége anyag- és eszközigényes, és alkalmazottat is foglalkoztat. Másodfoglalkozású egyéni vállalkozó, így a munkaviszonyából is rendelkezik jövedelemmel, amelyből a személyi jövedelemadót és a társadalombiztosítási járulékot levonja a kifizető, és szociális hozzájárulási adót is fizet a munkavállalója után.",
+    "",
+    "C. Csillagvirág az az egyéni vállalkozó, akinél a kata szerinti adózás a legjobb forma. Értékesek a termékei, viszonylag nagy forgalmat produkált, viszont jórészt a szakmai tudására és a kézügyességére van szüksége. Az anyag- és eszközigény minimális. ",
+    "Megfelel a feltételeknek: főállású egyéni vállalkozó és kizárólag magánszemélyeknek értékesítette a termékeit, így alkalmazhatja a kisadózó vállalkozók tételes adóját.",
+    "Esettanulmány elkészítése",
+    "Három jó barát, akik már a gimnáziumi évek alatt szoros barátságot kötöttek, együtt túrázik a hegyekben. Jelenleg mindannyian alkalmazásban állnak (vállalkozásnál, hivatalban), viszont gyakran kerül szóba közöttük az önálló munkavégzés.",
+    "",
+    "Atosz informatikus, kitanulta a fényképezés minden csínját-bínját. Szabadidejében szívesen vesz részt rendezvényeken: fotósként, videósként, ceremóniamesterként.",
+    "Portosz a vendéglátásban dolgozik cukrászként. Specialitása az egyedi tortakülönlegességek elkészítése. Az elmúlt években számos díjat nyert szakmai versenyeken (belföldön és külföldön egyaránt).",
+    "Aramisz logopédus, aki a helyi pedagógiai szakszolgálat munkatársaként igyekszik a gyerekek beszéd-rendellenességeit megelőzni, kiszűrni, kezelni.",
+    "",
+    "Tervezgetnek, számolgatnak, gondolkodnak: ha egyéni vállalkozóként végeznék a tevékenységüket, akkor az mekkora adókötelezettséget, jövedelmet jelentene számukra.",
+    "",
+    "A 6. táblázat a tervezett adatokat tartalmazza, a jelenleg meglévő jogszabályok, információk alapján. ",
+    "(Az adatok forintban értendők.)",
+    "",
+    "Esettanulmány megoldása",
+    "Forrás: saját szerkesztés",
+    "",
+    "A tervezett adatok alapján Portosznak a vállalkozói jövedelemadó szerinti adózás lenne a legkedvezőbb. A cukrászat a magas szintű szakmai tudás és kreativitás mellett rendkívül anyag- és eszközigényes tevékenység. Az adó alapja az elszámolható költségekkel csökkentett bevétel. A jövedelemkivét összegéből magánemberként személyi jövedelemadót és társadalombiztosítási járulékot kell fizetnie. Elképzelhető, hogy megrendelői között nem csak magánszemélyek lesznek, ez kizárja őt a kata szerinti adózásból.",
+    "",
+    "Atosznak az átalányadó alkalmazása ajánlott, hiszen ehhez a tevékenységhez viszonylag kevés költség kapcsolódik. 40%-os költséghányaddal számolt, de egy adott évben, ha csak fényképészetből származik a bevétele, akkor a 80%-os arány alkalmazható. Az átalányadó mellett szociális hozzájárulási adó és társadalombiztosítási járulék megfizetésének kötelezettsége is keletkezik legalább a minimálbér után. Az ő esetében is elképzelhető „céges” megrendelés.",
+    "",
+    "Aramisz tevékenységére egyértelműen a magánszemélyeknek van szüksége. A bevételéhez képest elenyésző a költsége. Mindenképpen a kisadózó vállalkozók tételes adója szerinti adózás javasolt számára.",
+    "",
+    "Táblázatjegyzék",
+    "1. táblázat: Az egyéni vállalkozók tb-járulék- és szociálishozzájárulásiadó-fizetési kötelezettsége\t6",
+    "2. táblázat: szemléltető táblázat I.\t13",
+    "3. táblázat: szemléltető táblázat II.\t13",
+    "4. táblázat: szemléltető táblázat III.\t13",
+    "5. táblázat: szemléltető táblázat IV.\t14",
+    "6. táblázat: szemléltető táblázat V.\t14",
+    "7. táblázat: szemléltető táblázat VI.\t14",
+    "8. táblázat: szemléltető táblázat VII.\t15",
+    "9. táblázat: szemléltető táblázat VIII.\t15",
+    "10. táblázat: Feladatmegoldás (B. Bódog) – vállalkozói személyi jövedelemadó alkalmazása\t29",
+    "11. táblázat: Feladatmegoldás (C. Csillagvirág) – vállalkozói személyi jövedelemadó alkalmazása\t30",
+    "12. táblázat: Feladatmegoldás (B. Bódog) – átalányadó alkalmazása\t30",
+    "13. táblázat: Feladatmegoldás (C. Csillagvirág) – átalányadó alkalmazása\t31",
+    "14. táblázat: Esettanulmány megoldása\t33",
+    "",
+    "Irodalomjegyzék",
+    "1995. évi CXVII. törvény a személyi jövedelemadóról https://njt.hu/jogszabaly/1995-117-00-00 (2024.11.04.)",
+    "2022. évi XIII. törvény a kisvállalkozói adózók tételes adójáról https://njt.hu/jogszabaly/2022-13-00-00.4#CI (2024.11.04.)",
+    "NAV Információs füzetek https://nav.gov.hu/ugyfeliranytu/nezzen-utana/inf_fuz/informacios-fuzetek---2024 (2024.10.26.)"
+  ],
+  "runs": [
+    [],
+    [
+      "Egyedi megrendelés azonosítója: EM-2.26.2  "
+    ],
+    [
+      "Az egyéni vállalkozó jövedelemadózási formái"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [
+      ""
+    ],
+    [],
+    [
+      "Tartalomjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "Az egyéni vállalkozók adózási szabályai a személyi jövedelemadóban"
+    ],
+    [
+      "Az egyéni vállalkozó"
+    ],
+    [
+      "Az egyéni vállalkozásokról mindenki hallott már, sőt biztosan mindenki találkozott is egyéni vállalkozóval. Egy villanyszerelő vagy egy szobafestő nagy valószínűséggel ezt a vállalkozási formát választja, de egyszerűbb önálló tevékenységet végezni bármely szakma esetén,",
+      " ha van vállalkozói igazolvány."
+    ],
+    [
+      "A gazdasági és jogi alapismeretek tantárgyban már esett szó az ",
+      "egyéni ",
+      "vállalkoz",
+      "ás",
+      "ról",
+      " mint egy lehetséges vállalkozási formáról. Ismétlésként itt csak a",
+      "z ",
+      "egyéni vállalkozó",
+      " legfontosabb jellemző",
+      "i",
+      " szerepelnek."
+    ],
+    [
+      "Olyan cselekvőképes természetes személy, akinek a neve megtalálható az egyéni vállalkozók hatósági nyilvántartásában."
+    ],
+    [
+      "Korlátlan felelősség mellett rendszeres, üzletszerű gazdasági tevékenységet folytat nyereségszerzés és vagyonnövelés céljából. Tevékenységét saját nevében és kockázatára végzi."
+    ],
+    [
+      "Bárki lehet egyéni vállalkozó, aki Magyarországon székhellyel (vagy külföldi",
+      "ként",
+      " tartózkodási engedéllyel) rendelkezik, kivéve "
+    ],
+    [
+      "a kiskorúakat, vagy akik cselekvőképtelenség miatt gondnokság alatt állnak,"
+    ],
+    [
+      "azokat, akik gazdasági társaság vagy egyéni cég korlátlanul felelős tagjai, illetve"
+    ],
+    [
+      "azokat, akiket a bíróság letöltendő szabadságvesztésre ítélt, és az elítéléshez fűződő hátrányos jogkövetkezmények alól még nem mentesültek. (A törvény konkrétan felsorolja a kizáró bűncselekményeket.)"
+    ],
+    [
+      "Megbízási jogviszony ",
+      "vs",
+      ".",
+      " egyéni vállalkozás"
+    ],
+    [
+      "A megbízási jogviszonynál a megbízottnak lényegesen kevesebb kötelezettsége van. Megkötik a szerződést, elvégzi a rábízott feladatokat, és várja, hogy a folyószámlájára megérkezzen a pénz. Ezt az összeget már saját szükségleteinek kielégítésére fordíthatja, ",
+      "hiszen a megbízó már levonta belőle a személyi jövedelemadót és a társadalombiztosítási járulékot. Ezen túlmenően a megbízónak szociális hozzájárulási adót is kell fizetnie a megbízási díj után."
+    ],
+    [
+      "Az egyéni vállalkozó a megrendelővel vállalkozói szerződést köt. A teljesítést követően ezt az összeget maradéktalanul megkapja, a fizetési kötelezettségekről magának kell gondoskodni. Attól függően, hogy milyen feltételekkel, milyen módon, milyen körülmények között végzi a vállalkozói tevékenységét, a számlájára beérkezett összegből több-kevesebb adót, járulékot kell fizetnie. "
+    ],
+    [
+      "A megrendelők a saját ",
+      "kötelezettségük csökkentése",
+      " miatt ezt a formát jobban támogatják, viszont a magánszemélyeknek nagyon pontosan kell ismerniük, hogy az egyéni vállalkozás indítása hosszú távon milyen feladatokat, fizetési kötelezettségeket jelent."
+    ],
+    [],
+    [
+      "A ",
+      "megbízási díj",
+      "jal kapcsolatos adó",
+      "-",
+      " és járulékfizetéssel a személyi jövedelemadóról szóló tananyagban lehet találkozni. "
+    ],
+    [
+      "A magánszemély számára önálló tevékenységből származó jövedelemnek minősül."
+    ],
+    [
+      "A ",
+      "megbízott a ",
+      "kifizető számára nyilatkozik, hogy a tevékenységgel kapcsolatban lesz-e elszámolható költsége."
+    ],
+    [
+      "A megállapított jövedelem alapján a megbízó levonja a személyi jövedelemadót és a társadalombiztosítási járulékot."
+    ],
+    [
+      "Az adóalap alapján a kifizető kiszámolja az őt terhelő szociális hozzájárulási adót, majd a levonásokkal együtt elkészíti a bevallását, és határidőben rendezi a",
+      "z állami költségvetéssel szembeni",
+      " fizetési kötelezettségeit. "
+    ],
+    [],
+    [
+      "Ha a magánszemély úgy dönt, hogy számára kedvezőbb az egyéni vállalkozás indítása, akkor ezt nagyon egyszerűen és gyorsan megteheti az elektronikus rendszeren keresztül (Webes Ügysegéd), vagy személyesen a NAV bármelyik ügyfélszolgálatán."
+    ],
+    [
+      "A személyes adatok feltüntetése mellett ki kell választania, hogy milyen tevékenységekkel szeretne foglalkozni (",
+      "az ",
+      "Önálló ",
+      "v",
+      "állalkozók ",
+      "t",
+      "evékenységi ",
+      "j",
+      "egyzékében szereplő kódok alapján)."
+    ],
+    [
+      "Ha a tevékenysége indokolja, akkor bejelentkezhet az általános forgalmi adó hatálya alá."
+    ],
+    [
+      "El kell döntenie, hogy a tevékenységét főfoglalkozásként vagy valamilyen más jogviszony mellett folytatja."
+    ],
+    [
+      "Meg kell határozni, hogy melyik adózási módot választja."
+    ],
+    [],
+    [
+      "Miből választhat?"
+    ],
+    [
+      "Választhatja a ",
+      "vállalkozói személyi jövedelemadó",
+      " (",
+      "vszja",
+      ")",
+      " szerinti adózást, ahol a bevételeivel szemben ténylegesen felmerülő költségeket tud felsorakoztatni."
+    ],
+    [
+      "Vannak olyan tevékenységek, ahol",
+      " a",
+      " szakember sok anyaggal, eszközzel dolgozik. Ilyenkor ezek a tételek a vállalkozás számára költséget jelentenek. A jövedelmet ",
+      "a ",
+      "bevétel és a számlákkal igazolt költségek különbségeként állapítja meg."
+    ],
+    [
+      "Választhatja az ",
+      "átalányadó",
+      "zást, ahol a jövedelem meghatározása adott költséghányad alapján történik."
+    ],
+    [
+      "Abban az esetben kedvező ez az adózási mód, ha a tevékenység minimális költséget igényel ",
+      "(",
+      "például szellemi tevékenységek",
+      ")",
+      "."
+    ],
+    [
+      "Választhatja ",
+      "a kisadózó vállalkozások tételes adójá",
+      "t (",
+      "kata",
+      "), ha a feltételeknek megfelel. ",
+      "Ez egy r",
+      "endkívül kedvező adózási forma, mert egy havi fix összeg ",
+      "(50 000 Ft) ",
+      "megfizetésével a vállalkozó az összes fizetési kötelezettségét rendezi. 2022. szeptember 1-jétől jelentősen leszűkítették azoknak a körét, akik élhetnek ezzel a lehetőséggel."
+    ],
+    [],
+    [
+      "Az i",
+      "nduló vállalkozás a tevékenységének megkezdésekor bejelenti, hogy melyik adózási módot kívánja alkalmazni. Döntése az adóévre és a teljes vállalkozási tevékenységére szól. "
+    ],
+    [
+      "Van rá l",
+      "ehetőség, hogy ",
+      "meg",
+      "változtass",
+      "a a döntését",
+      ". ",
+      "A",
+      "z előző évről készült személyijövedelemadó",
+      "-",
+      "bevallásban nyilatkozhat arról, hogy a következő adóévben másik adózási módot választ."
+    ],
+    [
+      "Az egyéni vállalkozások nyilvántartási kötelezettsége"
+    ],
+    [
+      "Az egyéni vállalkozók a gazdasági tevékenységükhöz kapcsolódóan nyilvántartásokat kötelesek vezetni",
+      ", amelyek a pénzforgalmat, az ezekhez kapcsolódó, de pénzmozgással nem járó változásokat hitelese",
+      "n",
+      " képes",
+      "ek",
+      " bemutatni.",
+      " A",
+      " lehetséges formákat, az egyes dokumentumok tartalmát a",
+      "z",
+      " ",
+      "szja-",
+      "törvény 5. melléklete részletesen tartalmazza",
+      "."
+    ],
+    [
+      "A magánszemély",
+      "n",
+      "ek ",
+      "folyamatosan, időrendben kell rögzítenie minden olyan adatot, amely az adókötelezettség betartásához és az utólagos ellenőrzéshez megfelelő információt szolgáltat."
+    ],
+    [
+      "Alapnyilvántartások:"
+    ],
+    [
+      "naplófőkönyv,"
+    ],
+    [
+      "pénztárkönyv,"
+    ],
+    [
+      "bevételi és költségnyilvántartás,"
+    ],
+    [
+      "bevételi nyilvántartás",
+      "."
+    ],
+    [
+      "Részletező",
+      " nyilvántartások:"
+    ],
+    [
+      "vevőkkel",
+      " ",
+      "szembeni követelések nyilvántartása,"
+    ],
+    [
+      "szállítókkal szembeni kötelezettségek nyilvántartása,"
+    ],
+    [
+      "eszköznyilvántartás,"
+    ],
+    [
+      "munkabérekkel, ",
+      "jövedelemkivéttel",
+      " kapcsolatos nyilvántartás,"
+    ],
+    [
+      "gépjárműhasználathoz kapcsolódó nyilvántartás,"
+    ],
+    [
+      "leltár."
+    ],
+    [
+      " ",
+      "Az egyéni vállalkozók járulékfizetése"
+    ],
+    [
+      "A társadalombiztosítás szempontjából az egyéni vállalkozók három csoportra oszthatók:"
+    ],
+    [
+      "Főfoglalkozású ",
+      "(biztosított) ",
+      "egyéni vállalkozó az, aki a vállalkozási tevékenysége mellett "
+    ],
+    [
+      "legfeljebb heti 36 órás munkaviszonyban dolgozik,"
+    ],
+    [
+      "nappali rendszer",
+      "ben",
+      " nem folytat tanulmányokat,"
+    ],
+    [
+      "társas vállalkozásnak nem főfoglalkozású tagja."
+    ],
+    [
+      "Másodfoglalkozású az az egyéni vállalkozó, akinek emellett más biztosítási jogviszonya is van: legalább heti 36 órában munkaviszonyban dolgozik vagy nappali tagozaton tanul."
+    ],
+    [
+      "Kiegészítő tevékenységű az az egyéni vállalkozó, aki nyugdíj mellett végzi a vállalkozási tevékenységét."
+    ],
+    [],
+    [
+      "Mennyi",
+      " társadalombiztosítási járulék",
+      "ot",
+      " és szociális hozzájárulási adó",
+      "t",
+      " ",
+      "kell fizetnie egy egyéni vállalkozónak? Ezt foglalja össze az ",
+      "1. táblázat."
+    ],
+    [
+      "Az egyéni vállalkozók ",
+      "tb",
+      "-járulék",
+      "-",
+      " és szociálishozzájárulásiadó",
+      "-fizetési",
+      " kötelezettsége"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [
+      "A vállalkozói személyi jövedelemadó"
+    ],
+    [
+      "A",
+      "z szja-",
+      "törvény (1995. évi CXVII. törvény) külön fejezetben foglalkozik az egyéni vállalkozások adózásával."
+    ],
+    [
+      "A ",
+      "különadózó",
+      " jövedelmek között részletesen szabályozza a vállalkozói személyi jövedelemadóval, az átalányadóval és a tételes átalányadóval kapcsolatos szabályokat. (A ",
+      "kata",
+      " ",
+      "alkalmazásáról külön ",
+      "jogszabály, a",
+      " 2022. évi XIII. törvény",
+      " rendelkezik.",
+      ")"
+    ],
+    [],
+    [
+      "A vállalkozói jövedelem szerinti adózást választó vállalkozó a klasszikus módon számolja a jövedelmé",
+      "t:",
+      " ",
+      "az",
+      " adóév folyamán elért ",
+      "bevétel",
+      "ét az ",
+      "elszámolható költség",
+      "ekkel csökkenti. Az adófizetési kötelezettség két részből áll."
+    ],
+    [
+      "Először",
+      " mint vállalkozás állapítja meg a jövedelmét, és abból 9% vállalkozói személyi jövedelemadót számol. Ez tartalmában hasonlít a gazdasági társaságok esetében használatos társasági adóhoz. (A ",
+      "társasági adózás",
+      "t külön tananyag tartalmazza.)"
+    ],
+    [
+      "Az ",
+      "adóval csökkentett",
+      " jövedelem a vállalkozó számára ",
+      "az ",
+      "osztalék",
+      ", amelyet a sikeresen működő vállalkozásából a maga számára felhasznál. Tehát ennek adózása a",
+      "z",
+      " ",
+      "szja-",
+      "törvény alapján 15%."
+    ],
+    [
+      "Vállalkozói b",
+      "evétel"
+    ],
+    [
+      "Az egyéni vállalkozók bevételét tekintve a pénzforgalmi szemlélet érvényesül. Ennek értelmében az számít az adott időszak bevételeibe, amit a vállalkozó megkapott a kezébe",
+      ",",
+      " vagy jóváírtak a számláján."
+    ],
+    [
+      "Mi minősül a törvény szerint bevételnek?"
+    ],
+    [
+      "A legnagyobb tétel az értékesítésből, szolgáltatásnyújtásból származó bevétele. ",
+      "Idetart",
+      "ozik minden pénzösszeg vagy vagyoni érték, amelyet a tevékenysége ellenértékeként kapott. Az árbevételt korrigálni kell az esetleges engedménnyel, felárral, ",
+      "árkiegészítéssel",
+      ", a csomagolásért, szállításért külön felszámított összeggel."
+    ],
+    [
+      "Az eladott tárgyi eszközökért kapott ellenérték."
+    ],
+    [
+      "Kapott kamatok (pénzügyi és késedelmi), kötbér, kártérítés."
+    ],
+    [
+      "A felvett támogatás összege",
+      ", ha azzal kapcsolatban már számolt el költségeket",
+      "."
+    ],
+    [
+      "Idetart",
+      "ozik az is, ha az előállított termékeket saját szükségleteire használja fel, vagy ellenszolgáltatás nélkül átadja valakinek. "
+    ],
+    [],
+    [
+      "Bevételt növelő tételek:"
+    ],
+    [
+      "Az adóbevallásban szerepel néhány bevételt növelő tétel. Ezek akkor fordulnak elő egy egyéni vállalkozó adóbevallásában, ha adózási módot vált. (Például a ",
+      "kata",
+      " ",
+      "helyett a vállalkozói személyi jövedelemadózást választja.)"
+    ],
+    [],
+    [
+      "Bevételt csökkentő tételek",
+      ":"
+    ],
+    [
+      "Olyan csökkentő tételek fordulnak elő, amelyekkel a törvényalkotók valamire ösztönözn",
+      "i",
+      " szeretnék a vállalkozókat (ezek a gazdasági társaságok esetében a társasági adózásban is megjelennek)."
+    ],
+    [
+      "Abban az esetben, ha az egyéni vállalkozó legalább 50%-",
+      "ban",
+      " megváltozott munkaképességű alkalmazottat foglalkoztat, akkor havonta az ő bérével, legfeljebb a minimálbérrel csökkentheti a bevételét."
+    ],
+    [
+      "Egyévi szociális hozzájárulási adóval csökkentheti a bevételét, ha korább",
+      "an",
+      " álláskeresőt vagy szabadságvesztésből szabaduló személyt foglalkoztat."
+    ],
+    [
+      "Ha az egyéni vállalkozó duális képzőhelyként is működik, akkor a tanulókkal kötött szakképzési munkaszerződés után havonta a minimálbér 24%-",
+      "ával",
+      " csökkentheti a bevételét. A sikeres szakmai vizsgát követően a képzésben részt vevő tanulók ",
+      "után ",
+      "(nappali és esti ",
+      "tagozat",
+      "osok",
+      " után",
+      " is) befizetett szociális hozzájárulási adóval is csökkentheti a bevételét."
+    ],
+    [
+      "Továbbá c",
+      "sökkenthető a bevétel, ha nő a foglalkoztatott",
+      "i",
+      " létszám, vagy ha ",
+      "a vállalkozás a ",
+      "saját tevékenységéhez kapcsolódóan kutatásokat végez."
+    ],
+    [
+      "Vállalkozói k",
+      "öltségek"
+    ],
+    [
+      "Az elszámolható vállalkozói költségeket a törvény melléklete részletesen tartalmazza",
+      ".",
+      " ",
+      "Általánosságban úgy lehetne megfogalmazni, hogy ",
+      "a vállalkozói költségek ",
+      "azok a ráfordítások, amelyek a ",
+      "vállalkozó ",
+      "tevékenységéhez szükségesek, amelye",
+      "ke",
+      "t kizárólag az önálló tevékenységéhez használ. A leggyakrabban előforduló tételek:"
+    ],
+    [
+      "A tevékenység folytatásának érdekében az anyag-",
+      " ",
+      "és árubeszerzésre fordított kiadások, igénybe vett szolgáltatások számla szerinti összege (javítás, karbantartás, szállítás, könyvelés, takarítás stb",
+      ".",
+      "). Az alvállalkozóknak kifizetett díjak."
+    ],
+    [
+      "A kizárólag üzemi célt szolgáló tárgyi eszközök (ingatlanok, gépek, berendezések) és nem anyagi eszközök (vagyoni értékű jogok, szellemi termékek) beszerzésére fordított összeg abban az esetben, ha az (egyedileg) nem haladja meg a 200 000 forintot. "
+    ],
+    [
+      "Ennél magasabb összeg esetén csak az időarányos értékcsökkenés számolható el költségként."
+    ],
+    [
+      "Ha alkalmazottat foglalkoztat, akkor a számára megállapított bruttó munkabér, béren kívüli juttatás, és az ahhoz kapcsolódó szociális hozzájárulási adó."
+    ],
+    [
+      "Elszámolható minden olyan kiadás is, ami a foglalkoztatáshoz kapcsolódik: üzemorvosi vizsgálat díja, biztosítási díj, továbbképzés",
+      "i",
+      " költsége",
+      "k",
+      ", esetleges juttatások."
+    ],
+    [
+      "A vállalkozó és ",
+      "az ",
+      "alkalmazottai számára kifizetett továbbképzési, utazási, szállás",
+      "- és",
+      " kiküldetési költségek, ha azok egyértelműen kapcsolódnak a vállalkozási tevékenységhez."
+    ],
+    [
+      "Egyéb, gyakran előforduló kiadások:"
+    ],
+    [
+      "kamarai, érdekképviseleti szervezet számára fizetett tagdíj,"
+    ],
+    [
+      "a ",
+      "felvett hitelhez kapcsolódó kamat,"
+    ],
+    [
+      "a központi költségvetésbe vagy a helyi önkormányzat számára fizetett adó, hatósági díj, illeték",
+      ","
+    ],
+    [
+      "a tevékenység helyszínéhez kapcsolódó költségek ",
+      "(",
+      "bérleti díj, fűtés, világítás, telefon stb.",
+      "),"
+    ],
+    [
+      "lízinghez kapcsolódó költségek."
+    ],
+    [],
+    [
+      "Nem lehet költségként elszámolni, azaz az adózás szempontjából nem csökkentheti a vállalkozás jövedelmét:"
+    ],
+    [
+      "az a bírság, késedelmi pótlék, amelyet valamelyik jogszabály megsértése miatt rónak a vállalkozóra (",
+      "k",
+      "ivétel ez alól az önellenőrzési pótlék)",
+      ","
+    ],
+    [
+      "a hitel vagy kölcsön törlesztése,"
+    ],
+    [
+      "a közcélú adományokra fizetett összeg,"
+    ],
+    [
+      "a magánszemélyektől és a ",
+      "jövedelemkivétből",
+      " levont személyi jövedelemadó és társadalombiztosítási járulék."
+    ],
+    [
+      "A vállalkozói kivét"
+    ],
+    [
+      "A fentiekhez hasonlóan szintén költséget jelent ",
+      "az egyéni vállalkozó számára a vállalkozásból havonta felvett, ",
+      "saját ",
+      "szükséglet",
+      "einek ",
+      "kielégítésére fordított összeg, a ",
+      "vállalkozói ",
+      "jövedelemkivét",
+      "."
+    ],
+    [
+      "Az egyéni vállalkozó magát foglalkoztatja, ezért",
+      " magának –",
+      " mint magánszemélynek",
+      " ",
+      "– ",
+      "„bért” ",
+      "fizet. ",
+      "Éppúgy megilleti őt is a munkájáért járó fizetség, akár a többi dolgozót",
+      ". A vállalkozás számára ez az összeg és a hozzá kapcsolódó szociális hozzájárulási adó költség, a vállalkozónak",
+      " ",
+      "pedig önálló tevékenységből származó jövedelem. A megállapított összegből a vállalkozótól ",
+      "(",
+      "mint magánszemélytől",
+      ")",
+      " le kell vonni a",
+      "z",
+      " ",
+      "szja",
+      "-előleget és a társadalombiztosítási járulékot. Így ő is csak a nettó összeget fordíthatja saját maga szükségleteire. (Emlékezz ",
+      "rá",
+      ", hogy a személyi",
+      " ",
+      "jövedelemadó számítása során a ",
+      "jövedelemkivéttel",
+      " szemben már semmilyen módon ",
+      "n",
+      "em számolható el költség",
+      "!",
+      ")"
+    ],
+    [
+      "A ",
+      "jövedelemkivét",
+      " az összevonás alá eső jövedelem része, ezért ugyanazok az adókedvezmények érvényesíthetők, mint a munkavállalók esetében. (Érdemes átismételni a személyi jövedelemadó tananyagban szereplő kedvezményeket.) Tehát az egyéni vállalkozót is megilleti például a",
+      "z",
+      " eltartottak után járó családi kedvezmény vagy a személyi kedvezmény."
+    ],
+    [
+      "A vállalkozói jövedelem"
+    ],
+    [
+      "Az éves jövedelem számítása a fentiek alapján történik: a korrigált (növelő, csökkentő tételekkel módosított) bevételből az év során felmerült és elszámolható költségeket lehet levonni.",
+      " Nagyon ritkán fordul elő, hogy a két összeg megegyezik, ezért ",
+      "a vállalkozó ",
+      "pozitív eredmény esetén nyereséggel, negatív eredmény esetén veszteséggel zár",
+      "j",
+      "a az évet."
+    ],
+    [],
+    [
+      "Eredményes működés esetén van azonban lehetőség",
+      " arra",
+      ", hogy a korábbi évek veszteségével csökkentse az adóalapját. "
+    ],
+    [
+      "Elhatárolt veszteség",
+      "e keletkezik, ha az egyik évben a költségei meghaladják a bevétel összegét.",
+      " Ezzel a korábbi veszteséggel csökkentheti az adóév jövedelmét, annak legfeljebb az 50%-",
+      "áig",
+      ". Nagyobb összeg esetén ez több éven keresztül lehet csökkentő tényező."
+    ],
+    [],
+    [
+      "A törvény értelmében az egyéni vállalkozónak – ha volt bevétele ",
+      "–",
+      " abban az esetben is kell vállalkozói személyi jövedelemadót fizetni",
+      "e",
+      ", ha egyébként az év során veszteséges volt a működése."
+    ],
+    [
+      "Két számadatot kell összehasonlítani:"
+    ],
+    [
+      "a korábbi információk alapján megállapított jövedelmet és"
+    ],
+    [
+      "az úgynevezett „",
+      "jövedelem",
+      "-",
+      " ",
+      "(nyereség",
+      "-",
+      ")",
+      " ",
+      "minimum",
+      "”-",
+      "ot",
+      ", melynek",
+      " értéke az éves bevétel 2%-a."
+    ],
+    [
+      "A fenti két érték közül a magasabbat kell az adószámítás során adóalapnak tekinteni."
+    ],
+    [],
+    [
+      "Példa:"
+    ],
+    [
+      "EGYES vállalkozó bevétele: 10 000 000 Ft, az elszámolható költségeinek össze: 6 000 000 Ft. Ez egy eredményes év volt, hiszen 4 000 000 ",
+      "Ft ",
+      "nyeresége keletkezett",
+      ", ez alapján a",
+      "d",
+      "ózik",
+      ". A jövedelemminimum 200 000 Ft lenne (10 000 000 × 0,02 = 200 000 Ft)."
+    ],
+    [],
+    [
+      "KETTES vállalkozó bevétele szintén 10 000 000 Ft volt, viszont a tevékenységével kapcsolatban 11 000 000 Ft költség számolható el. 1 000 000 ",
+      "Ft ",
+      "vesztesége keletkezett. Ebben az esetben az adószámítás a jövedelemminimum alapján történik, 200 000 Ft lesz az adóalap."
+    ],
+    [],
+    [
+      "HÁRMAS vállalkozó 10 000 000 Ft bevétellel és 9 900 000 Ft költséggel nyereséget produkált (10 000 000 – 9 900 000 = 100 000 Ft), de ez a jövedelemminimum alatt marad. Ebben az esetben is a jövedelemminimum (200",
+      " ",
+      "000",
+      " Ft",
+      ") lesz az adóalap."
+    ],
+    [],
+    [
+      "A vállalkozói személyi jövedelemadó az adóalap 9%-a."
+    ],
+    [
+      "A számított adó csökkenthető annak 70%-",
+      "áig",
+      ", ha a vállalkoz",
+      "ó a",
+      " tevékenységéhez kapcsolódóan tárgyi eszköz beszerzés",
+      "é",
+      "hez, előállítás",
+      "á",
+      "hoz pénzügyi intézettől hitelt vett fel (ideértendő a pénzügyi lízing is). Adókedvezményként a kamatot lehet érvényesíteni. "
+    ],
+    [
+      "Ez a módosított vállalkozói személyi jövedelemadó képezi az adófizetési kötelezettség egyik részét."
+    ],
+    [
+      "A vállalkozói osztalékalap adózási szabályai"
+    ],
+    [
+      "Az adószámítás az osztalék",
+      "alap adójának",
+      " megállapításával folytatódik."
+    ],
+    [
+      "Szükség van az adózás utáni vállalkozói jövedelemre. ",
+      "Ahogy arról már szó esett korábban, m",
+      "aga a jövedelem a bevételek és ",
+      "a ",
+      "költségek különbözete. Ez lehet pozitív vagy negatív szám is."
+    ],
+    [
+      "(Az előző részben kellett egy kitérőt tenni, mert az adómegállapításnak volt egy minimális alapja. Ez csak a vállalkozói személyi jövedelemadó számításához szükséges.)"
+    ],
+    [
+      "A megállapított jövedelem és a vállalkozói ",
+      "szja-",
+      "fizetési kötelezettség különbözete adja a vállalkozói osztalékalapot. Itt elválik ",
+      "egymástól ",
+      "a vállalkozó és a magánszemély, hiszen ez az az összeg, amit saját szükségleteire használ a vállalkozás eredményéből. Az osztalékalap után 15% adófizetési és 13% szociálishozzájárulásiadó",
+      "-",
+      "fizetési kötelezettség keletkezik."
+    ],
+    [
+      "Két megjegyzés az előző mondathoz:"
+    ],
+    [
+      "Ez az osztalék nem ugyanaz, ",
+      "mint ",
+      "ami a",
+      "z",
+      " ",
+      "szja-",
+      "bevallás ",
+      "különadózó",
+      " jövedelmei között szerepel. Oda azok az összege",
+      "k",
+      " kerülnek, amelye",
+      "ke",
+      "t a vállalkozó más gazdasági társaságban lévő",
+      " ",
+      "tulajdonrésze után kap. Azon túl, hogy saját egyéni vállalkozása van, még rendelkezik részvényekkel, üzletrészekkel",
+      ",",
+      " azok után osztalékra jogosult, de annak adózását az illető vállalkozás rendezi."
+    ],
+    [
+      "A szociális hozzájárulási adót abban az esetben kell a fenti összeg alapján számítani és fizetni, ha a vállalkozó összevont adóalapba tartozó jövedelme nem érte el a minimálbér 24-szeresét. ",
+      "Ha a munkáltatója (",
+      "a ",
+      "kifizető) a számára megállapított bér után ",
+      "már ",
+      "fizetett szociális hozzájárulási adót, ",
+      "akkor az egyéni vállalkozót ",
+      "a vállalkozási tevékenységére tekintettel csak a plafonösszegig terheli",
+      " ",
+      "a ",
+      "szociális",
+      " ",
+      "hozzájárulási",
+      " ",
+      "adó",
+      " meg",
+      "fizetés",
+      "ének",
+      " kötelezettség",
+      "e",
+      " ",
+      "(2024-ben 12 × 266 800 = 6 403 200 Ft)."
+    ],
+    [],
+    [
+      "A következő vázlat segít rendszerezni a vállalkozói személyi jövedelemadó lényegét. Két egyéni vállalkozó adatai állnak rendelkezésre:"
+    ],
+    [],
+    [
+      "Az értékesítésből származó bevételből kell kiindulni. ",
+      "E",
+      "zt számláz",
+      "t",
+      "a ki a vállalkozó. Megkap",
+      "t",
+      "a készpénzben, vagy beérkez",
+      "ett",
+      " a bankszámlájára."
+    ],
+    [
+      "szemléltető táblázat I."
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "A tevékenységével kapcsolatban költségei merül",
+      "t",
+      "ek fel. A törvény külön mellékletben sorolja fel azokat a tételeket, amelyek az adószámítás szempontjából elszámolhatók."
+    ],
+    [
+      "szemléltető táblázat II."
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "A kettő különbsége adja a vállalkozói jövedelmet."
+    ],
+    [
+      "szemléltető táblázat III."
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [
+      "A vállalkozói személyi jövedelemadót a fenti jövedelem alapján számolják, de figyelni kell a jövedelemminimumra. Ha az adóévben nagyon alacsony nyereség vagy esetleg veszteség keletkezett, akkor a bevétel (1. pont) 2%-",
+      "a",
+      " után számítják az adót."
+    ],
+    [
+      "szemléltető táblázat IV."
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "A vállalkozói személyi jövedelemadó az adóalap 9%-a."
+    ],
+    [
+      "szemléltető táblázat V."
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "A vállalkozó",
+      "i",
+      " jövedelemből (3. pont) levonva a számított adót (5. pont) határozható meg az adózás utáni jövedelem. Ha esetleg veszteséges volt az egyéni vállalkozó",
+      "i",
+      " tevékenység, akkor (bár adófizetési kötelezettség keletkezett), az adózás utáni jövedelem nulla."
+    ],
+    [
+      "szemléltető táblázat VI."
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "Ha pozitív az osztalékadó alapja, akkor annak 15%-a lesz az adó. (Pontos elnevezése szerint ",
+      "az ",
+      "osztalékalap adója, elkülönítve az osztalékadótól.)"
+    ],
+    [
+      "szemléltető táblázat VII."
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "Az adófizetési kötelezettség a vállalkozói személyi jövedelemadó",
+      "nak",
+      " és az osztalék",
+      "alap ",
+      "adó",
+      "jának",
+      " összege. Az egyéni vállalkozásból származó jövedelem után szociálishozzájárulásiadó",
+      "-fizetési ",
+      "kötelezettség keletkezhet."
+    ],
+    [
+      "szemléltető táblázat VIII."
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "Az egyéni vállalkozónak a bevételeiről és a kiadásairól (költségeiről) alap-",
+      " ",
+      "és részletező nyilvántartásokat kell vezetnie",
+      " azért, hogy az adóbevallás elévüléséig bármikor alá tudja támasztani a kiszámított értékeket. Alapnyilvántartás a naplófőkönyv vagy pénztárkönyv, amely rögzíti a gazdasági események hatásait. Részletező nyilvántartás készül például a tárgyi eszközökről, ",
+      "jövedelemkivétről",
+      ", hitelfelvételről."
+    ],
+    [
+      "A tételes költségelszámolást választó egyéni vállalkozó havonta, minden hónap 12. napjáig járulékbevallást készít. A",
+      "z",
+      " ",
+      "szja-",
+      "fizetési kötelezettsége az adóévet követően, május 20-ig kerül be az szja",
+      "-",
+      "bevallásába."
+    ],
+    [],
+    [
+      "Példa",
+      ":"
+    ],
+    [
+      "Vállalkozó Vilmos vízvezeték",
+      "-",
+      "szerelő, aki teljes munkaidős (heti 36 órát meghaladó) munkaviszonyban egy kft",
+      ".",
+      "-",
+      "nél",
+      " ",
+      "dolgozik. ",
+      "Főállása",
+      " mellett egyéni vállalkozó. ",
+      "A",
+      "z áfa tekintetében alanyi adómentes, a lehetséges változatok közül a vállalkozói személyi jövedelemadó szerinti adózást választotta. Az adóévben az egyéni vállalkozói bevételeiről és költségeiről a következő információk állnak rendelkezésre",
+      ":"
+    ],
+    [
+      "a tevékenység ellenértékeként kapott készpénz vagy jóváírt összeg",
+      ": ",
+      "5 500 000 Ft,"
+    ],
+    [
+      "értékesített tárgyi eszköz eladási ára",
+      ": ",
+      "200 000 Ft,"
+    ],
+    [
+      "egy óvodának térítés nélkül átadott termékek szokásos piaci értéke",
+      ": ",
+      "100 000 Ft,"
+    ],
+    [
+      "vállalkozói tevékenységére tekintettel kapott kamat",
+      ": ",
+      "50 000 Ft,"
+    ],
+    [
+      "vállalkozói kivét",
+      ": ",
+      "200 000 Ft/hó,"
+    ],
+    [
+      "anyagbeszerzésre fordított kiadás",
+      ": ",
+      "650 000 Ft,"
+    ],
+    [
+      "kis",
+      " ",
+      "értékű tárgyi eszközök beszerzése (3 db)",
+      "\t",
+      ": ",
+      "50 000 Ft,"
+    ],
+    [
+      "reklámköltség",
+      ": ",
+      "50 000 Ft,"
+    ],
+    [
+      "gépkocsihasználat (útnyilvántartás nélkül elszámolható)",
+      ": ",
+      "200 000 Ft,"
+    ],
+    [
+      "műszaki gépek elszámolható értékcsökkenése",
+      ": ",
+      "100 000 Ft,"
+    ],
+    [
+      "igénybe vett szolgáltatások kiadásai",
+      ": ",
+      "400 000 Ft."
+    ],
+    [],
+    [
+      "Bevételek:"
+    ],
+    [
+      "\tÉrtékesítés árbevétele:",
+      "\t5 500 000"
+    ],
+    [
+      "\tTárgyieszköz",
+      "-",
+      "értékesítés bevétele:",
+      "\t200 000"
+    ],
+    [
+      "\tTérítés nélkül átadott vagyonelemek értéke:",
+      "\t100 000"
+    ],
+    [
+      "\tKapott kamat:",
+      "\t50 000"
+    ],
+    [
+      "\tÖsszesen:",
+      "\t5 850 000"
+    ],
+    [],
+    [
+      "Elszámolható költségek:"
+    ],
+    [
+      "\t",
+      "Jövedelemkivét",
+      ":",
+      "\t12 × 200 000 = 2 400 000"
+    ],
+    [
+      "\t",
+      "Jövedelemkivét",
+      " szociális hozzájárulási adója:"
+    ],
+    [
+      "\t",
+      "\t2 400 000 × 0,13 = 312 000"
+    ],
+    [
+      "\tAnyagbeszerzés:",
+      "\t650 000"
+    ],
+    [
+      "\tKis",
+      " ",
+      "értékű tárgyi eszköz beszerzése:",
+      "\t150 000"
+    ],
+    [
+      "\tReklámköltség:",
+      "\t50 000"
+    ],
+    [
+      "\tGépkocsihasználat:",
+      "\t200 000"
+    ],
+    [
+      "\tGépek értékcsökkenése:",
+      "\t100 000"
+    ],
+    [
+      "\tIgénybe vett szolgáltatások költsége:",
+      "\t",
+      " ",
+      "400 000"
+    ],
+    [
+      "\tÖsszesen:",
+      "\t4 262 000"
+    ],
+    [],
+    [
+      "Vállalkozói jövedelem:"
+    ],
+    [
+      "\tBevételek:",
+      "\t5 850 000"
+    ],
+    [
+      "\tElszámolható költségek:",
+      "\t4 262 000"
+    ],
+    [
+      "\tÖsszesen:",
+      "\t1 588 000"
+    ],
+    [],
+    [
+      "Vállalkozói személyi jövedelemadó: 1 588 000 × 0,09 = 142 920 Ft"
+    ],
+    [
+      "(Jövedelemminimum: 5 850 000 × 0,02 = 117 000 Ft, alacsonyabb, mint a vállalkozói jövedelem.)"
+    ],
+    [
+      "Adózás utáni vállalkozói jövedelem (vállalkozói osztalékalap): 1 588 000 – 142 920 = 1 445 080 Ft",
+      "."
+    ],
+    [
+      "Vállalkozói osztalékalap adója: 1 445 080 × 0,15 = 216 762 Ft."
+    ],
+    [
+      "Adófizetési kötelezettség: 142 920 + 216 762 = 359 682 Ft."
+    ],
+    [],
+    [
+      "Szociálishozzájárulásiadó",
+      "-",
+      "fizetési kötelezettsége akkor keletkezik, ha a munkabére vagy az egyéb összevonás alá eső jövedelme 6 403 200 Ft alatt maradt."
+    ],
+    [
+      "Vilmos havonta 200 000 Ft ",
+      "jövedelemkivéttel",
+      " „bért” fizet magának, amelyből 15% személyi jövedelemadót és 18,5% társadalombiztosítási járulékot kell „levonnia” és befizetnie."
+    ],
+    [
+      "Az átalányadózás szabályai"
+    ],
+    [
+      "Az egyéni vállalkozó dönthet úgy, hogy a vállalkozási tevékenységére tekintettel a vállalkozási jövedelem szerinti adózás helyett az átalányadózást választja. "
+    ],
+    [
+      "Ez a forma azok számára javasolt, akik a működésük során kevés költséggel tudnak számolni",
+      ",",
+      " ",
+      "a",
+      " vállalkozási tevékenységük elsősorban munkaigényes, a szakmai tudásukra épül. Kevés anyagot, gépet használnak, a munkavégzésük változó helyen történik. Tipikusan ilyenek a szellemi tevékenységek: oktatás, egészségügyi tevékenység. ",
+      "E",
+      "zt célszerű választani abban az esetben is, ha a munkavégzéshez szükséges anyagok beszerzését a megrendelő végzi (",
+      "például",
+      " burkolás, szobafestés)."
+    ],
+    [
+      "Az átalányadózást bárki választhatja, akinek a bevétele az éves minimálbér tízszerese alatt marad (266 800 × 12 ×",
+      " ",
+      "10 = 32 016 000 Ft). Abban az esetben, ha kizárólag kiskereskedelmi tevékenységet folytat, akkor ez az összeghatár: 160 080 000 Ft."
+    ],
+    [],
+    [
+      "Elszámolható költségek hiányában ez egy kedvező adózási forma",
+      ",",
+      " ezért ",
+      "ha át kell térni a vállalkozói jövedelem szerinti adózásra, ",
+      "az egyfajta szankció is",
+      " lehet",
+      ". ",
+      "Feltétlenül váltania kell",
+      " a ",
+      "másik adózási módra",
+      ":"
+    ],
+    [
+      "ha ",
+      "a bevétele eléri az értékhatárt, vagy"
+    ],
+    [
+      "ha ",
+      "nyugta- vagy számlaadás elmulasztása miatt mulasztási bírságot kell fizetnie."
+    ],
+    [],
+    [
+      "Az átalányadó számításakor a vállalkozói bevételből kell kiindulni. A jövedelem megállapításához a",
+      "z",
+      " ",
+      "szja-",
+      "törvény által meghatározott költséghányad levonására van lehetőség. Ilyen esetben a felmerült költségeket számlával vagy egyéb bizonylattal nem szükséges igazolni."
+    ],
+    [
+      "A bevétel 90%-a levonható költségként, ha az egyéni vállalkozó kizárólag kiskereskedelmi tevékenységgel foglalkozik. Ez azt jelenti, hogy az adózás szempontjából a bevételének 10%-a lesz a jövedelem.",
+      " Ugyancsak 90%-",
+      "os",
+      " költséghányad érvényesíthető a mezőgazdasági őstermelők esetében."
+    ],
+    [
+      "A bevétel 80%-a számolható költségként, tehát 20% lesz a jövedelem azon tevékenységek esetén, amelyeket a törvény tételesen felsorol. Néhány példa ezek közül:"
+    ],
+    [
+      "mezőgazdasági, erdőgazdálkodási, halászati, bányászati tevékenységek,"
+    ],
+    [
+      "építőipari szolgáltatás,"
+    ],
+    [
+      "ipari gép, berendezés, háztartási cikk, számítógép, kommunikációs eszköz javítása,"
+    ],
+    [
+      "taxis személyszállítás, közúti áruszállítás,"
+    ],
+    [
+      "fényképészet,"
+    ],
+    [
+      "textil",
+      "-",
+      ", szőrmetisztítás,"
+    ],
+    [
+      "fodrászat, szépségápolás,"
+    ],
+    [
+      "személygépjármű-vezető",
+      "k",
+      " képzés",
+      "e",
+      "."
+    ],
+    [
+      "A tevékenységek felsorolásánál a TESZOR’08 (Termékek és szolgáltatások ",
+      "o",
+      "sztályozási ",
+      "r",
+      "endszere) lista alapján egyértelműen meghatározható, hogy mely tevékenységek esetén alkalmazható a 80%-",
+      "os",
+      " költséghányad."
+    ],
+    [
+      "Minden más tevékenységre a 40%-",
+      "os",
+      " költséghányad (60%-",
+      "os",
+      " jövedelemhányad) alkalmazható."
+    ],
+    [],
+    [
+      "Ha az egyéni vállalkoz",
+      "ónak több tevékenységből is származik bevétele, és ezek történetesen a költséghányad szempontjából más-más kategóriába tartoznak, akkor a teljes bevételre az alacsonyabbat kell alkalmazni.",
+      " Ha egy egyéni vállalkozó kisboltot üzemeltet, de szabadidejében ",
+      "családi rendezvényeken fényképezést is vállal, akkor a teljes bevételével szemben 80%-",
+      "os",
+      " költséghányadot számolhat el."
+    ],
+    [],
+    [
+      "Az adófizetési kötelezettség megállapításának menete",
+      ":"
+    ],
+    [
+      "Az egyéni vállalkozó az év során kézhez kapott vagy a folyószámlájára beérkezett bevételét összesíti.",
+      " A járulékbevallásait negyedévente kell elkészítenie, ezért negyedévente (az év elejétől göngyölítve) végzi el a számítást."
+    ],
+    [
+      "A tevékenységének függvényében meghatározza a költséghányad nagyságát. Ilyenkor nem a vállalkozási főtevékenysége az irányadó, hanem amiből a bevétele származott."
+    ],
+    [
+      "A bevételből a megfelelő költséghányaddal számított érték le",
+      "vonása adja az éves jövedelmet."
+    ],
+    [
+      "Adómentes a jövedelem az éves szintű minimálbér feléig. 2024-ben ez az összeg 1 600 800 Ft (266 800 × 6 = 1 600 800 Ft). Ekkora jövedelemig tehát nem keletkezik adófizetési kötelezettség, viszont az efölötti rész az összevont adóalapba tartozik",
+      "."
+    ],
+    [],
+    [
+      "Példa",
+      ":"
+    ],
+    [],
+    [
+      "Átalányos Ábris ",
+      "árnyékolástechnikai berendezések felszerelésével foglalkozik. ",
+      "A",
+      "z adóévre az átalányadó alkalmazását választotta, az ő esetében a 40%-",
+      "os",
+      " költséghányaddal kell számolni. Az év során 8 000 000 Ft bevétele keletkezett."
+    ],
+    [
+      "Elszámolható költség (költségátalány alapján): 8 000 000 × 0,4 = 3 200 000 Ft",
+      "."
+    ],
+    [
+      "Jövedelem: 8 000 000 – 3 200 000 = 4 800 000 Ft."
+    ],
+    [
+      "A jövedelem adómentes része: 1 600 800 Ft",
+      "."
+    ],
+    [
+      "Az összevonás alá eső jövedelem összege: 4 800 000 – 1 600 800 = 3 199 200 Ft, amely után a szokásos módon 15% szemé",
+      "lyi jövedelemadót kell fizetni."
+    ],
+    [
+      "Ábrisnak 479 880 Ft (3 199 200 × 0,15 = 479 880 Ft) ",
+      "szja-",
+      "fizetési kötelezettsége keletkezik, ha más jövedelemmel, kedvezménnyel nem rendelkezik.",
+      " "
+    ],
+    [
+      "Járulék-",
+      " ",
+      "és szociálishozzájárulásiadó",
+      "-",
+      "fizetési kötelezettsége ",
+      "attól függ, hogy az egyéni vállalkozás mellett van-e másik jogviszonya. "
+    ],
+    [
+      "Főfoglalkozású tevékenység esetén legalább a minimálbér után fizet ",
+      "tb",
+      "-járulékot, és a minimálbér 112,5%-",
+      "a",
+      " után szociális hozzájárulási adót."
+    ],
+    [
+      "Másodfoglalkozású vállalkozó esetén az alap a tényleges jövedelem."
+    ],
+    [],
+    [
+      "Rövid Rozina",
+      " egy panelház átalakított garázsában rövidáruboltot üzemeltet. Vállalkozói bevétele csak ebből a tevékenységből származik: gombokat, kézimunka",
+      "-",
+      "alapanyagokat, színes szalagokat értékesített 12 000 000 Ft értékben. Kizárólag kiskereskedelmi tevékenységből származik árbevétele, ezért a jövedelme megállapításához a 90%-",
+      "os",
+      " költséghányad alkalmazható."
+    ],
+    [
+      "Éves árbevétel: 12 000 000 Ft",
+      "."
+    ],
+    [
+      "Elszámolható költség (költségátalány alapján): 12 000 000 × 0,9 = 10 800 000 Ft",
+      "."
+    ],
+    [
+      "Jövedelem: 12 000 000 – 10 800 000 = 1 200 000 Ft",
+      "."
+    ],
+    [
+      "A jövedelem adómentes része: 1 600 800 Ft",
+      "."
+    ],
+    [
+      "Adófizetési kötelezettség: 1 200 000 – 1 600 800 = ",
+      "–",
+      "400 800 → 0",
+      "."
+    ],
+    [
+      "Rozinának az egyéni vállalkozói tevékenysége után nem kell adót fizetnie."
+    ],
+    [],
+    [
+      "Az átalányadózást választó egyéni vállalkozó negyedévente bevallást készít a keletkezett jövedelméről és a járulékfizetési kötelezettségéről. Adóelőleg",
+      "-",
+      "fizetési kötelezettsége csak abban az esetben lesz, ha a jövedelme eléri az 1 600 800 forintot. Ezt a negyedévet követő hónap 12",
+      "-",
+      "éig kell rendeznie."
+    ],
+    [],
+    [
+      "Mivel a költségek elszámolása diktált költséghányad alapján történik, az egyéni vállalkozó csak a bevételeiről vezet nyilvántartást.",
+      " A felmerült költségekkel kapcsolatos számlákat, bizonylatokat csak azért célszerű megőrizni, mert elképzelhető, hogy utólag kell megállapítani a vállalkozói személyi jövedelemadót."
+    ],
+    [
+      "A kisadózó vállalkozók tételes adója, az adónem választásának feltételei"
+    ],
+    [],
+    [
+      "Az egyéni vállalkozók",
+      "kal kapcsolatban",
+      " egyszer csak egy érdekes ",
+      "fogalom",
+      " jelent meg",
+      ":",
+      " ",
+      "e",
+      "gyre-másra használták a ",
+      "kata",
+      " kifejezést. Nem mindenki tudta, hogy mit takar ez a négy betű, viszont azt beszélték, hogy ez valami jót jelent, kedvező a számukra."
+    ],
+    [
+      "A ",
+      "kata",
+      " alanyai"
+    ],
+    [
+      "A ",
+      "kata",
+      " ",
+      "mozaikszó a ",
+      "k",
+      "isadózó ",
+      "v",
+      "állalkozók ",
+      "t",
+      "ételes ",
+      "a",
+      "dója",
+      " kifejezést takarja. "
+    ],
+    [],
+    [
+      "2002-ig kell visszamenni az időben. Ez vo",
+      "l",
+      "t az az év, amikor megszületett az egyszerűsített ",
+      "v",
+      "állalkozói ",
+      "a",
+      "dó (",
+      "eva",
+      "). A törvényalkotók célja az volt, hogy egyszerűbbé tegy",
+      "ék",
+      " a vállalkozások adózását. Az áfát is tartalmazó bevétel 15%-a kiváltott minden adó",
+      "-",
+      " és járulékfizetési kötelezettséget. Ez amellett, hogy egyszerű százalékszámítással kivitelezhető volt, mentesítette a vállalkozásokat attól, hogy mindenféle megoldásokat keressenek a költségszámlák szaporítására."
+    ],
+    [
+      "Az évek során bebizonyosodott, hogy ez a mérték hosszú távon ",
+      "– ",
+      "amellett, hogy ",
+      "a vállalkozók számára ",
+      "roppant kedvező volt",
+      " –",
+      " ",
+      "a költségvetés szempontjából nem szerencsés",
+      ". A ",
+      "nagyságát",
+      " folyamatosan emelték, míg elérte a 37%-",
+      "ot",
+      ". 2020-ban megszüntették ezt az adózási formát, hiszen időközben valami jobbat alkottak."
+    ],
+    [],
+    [
+      "Újabb előrelépés történt ",
+      "2012-ben, amikor törvény született a ",
+      "katá",
+      "ról",
+      " (2012. évi CXLVII. törvény a kisadózó vállalkozók tételes adójáról). Ezzel az egyszerűt még ",
+      "egyszerűbbre cserélték,",
+      " hiszen mindenfajta számolás nélkül, havonta fix összeg befizetésével mindenfajta adót és járulékot kiváltott a vállalkozó.",
+      " Voltak szabályok, amelyekre figyelni kellett, de igazán a bevétel felső határa jelentett",
+      "e az egyetlen",
+      " korlátot."
+    ],
+    [],
+    [
+      "2022-ben gyökeresen megreformálták azt a rendszert, amit korábban nagyon soka",
+      "n",
+      " kedveltek. 2022. szeptember 1-jétől már „régi ",
+      "katáról",
+      "” és „új ",
+      "katáról",
+      "” beszéltek a vállalkozók."
+    ],
+    [
+      "Mi",
+      "ben",
+      " új az új?"
+    ],
+    [],
+    [
+      "2022. szeptember 1-jétől már csak a főfoglalkozású egyéni vállalkozók választhatják ezt az adózási módot. Az új törvény életbe lépésével jelentősen leszűkült azoknak a köre, akik élhetnek a lehetőséggel."
+    ],
+    [
+      "Tehát nem alkalmazhatják, akik"
+    ],
+    [
+      "legalább heti 36 órás munkaviszonyban dolgoznak,"
+    ],
+    [
+      "az egyéni vállalkozás mellett valamely gazdasági társaságnak főfoglalkozású tagjai,"
+    ],
+    [
+      "nyugdíj, rokkantsági ellátás mellett végeznek vállalkozási tevékenységet,"
+    ],
+    [
+      "nappali rendszerű oktatásban tanulnak,"
+    ],
+    [
+      "akiknek az adószámát az elmúlt egy évben törölte az ",
+      "a",
+      "dóhatóság,"
+    ],
+    [
+      "akik ingatlan",
+      "-",
+      "bérbeadásból szereztek bevételt."
+    ],
+    [
+      "Továbbá nem választhatják a betéti társaságok, egyéni cégek, illetve néhány kiemelt tevékenység esetén az egyéni vállalkozók: egyéni ügyvéd, közjegyző, állatorvos."
+    ],
+    [],
+    [
+      "A feltételeknek a tárgyhónap minden napján fenn kell állniuk. Induló vállalkozás esetén a nyilvántartásba vétel napjától, működő vállalkozás esetén a bejelentést követő hónap első napjától lép életbe az adóalanyiság."
+    ],
+    [
+      "Nagyon szigorúan szabályozott, hogy kitől származhat bevétele a vállalkozónak. Akkor felel meg a ",
+      "kata",
+      " ",
+      "előírásainak, ha bevétele kizárólag magánszemélytől, mezőgazdasági őstermelőtől származik. Nem állíthat ki számlát jogi személyek, egyéni vállalkozók, egyéni cégek, társasházak részére. ",
+      "(Ez alól a taxisok mentességet élveznek.)"
+    ],
+    [],
+    [
+      "Megszűnhet ez az adózási forma"
+    ],
+    [
+      "az egyéni vállalkozó döntése alapján",
+      ";",
+      " "
+    ],
+    [
+      "ha változik a vállalkozó jogviszonya, és nem alkalmazhatja tovább ezt a formát (például teljes munkaidős munkaszerződéssel vállal munkát)",
+      ";"
+    ],
+    [
+      "a NAV határozata alapján",
+      ",",
+      " valamilyen jogsértés miatt (például ha nem jelenti be a munkavállalóját)."
+    ],
+    [],
+    [
+      "A kisadózó vállalkozó nyilvántartási kötelezettsége a bevételek feljegyzésére terjed ki. Az általa kiállított számlákat, nyugtákat kell az adóbevallások elévülési idejéig (5 év) megőrizni."
+    ],
+    [
+      "A ",
+      "kata",
+      " ",
+      "alapjának meghatározása"
+    ],
+    [
+      "A ",
+      "kata",
+      " ",
+      "esetében kétféle adó létezik:"
+    ],
+    [
+      "a korábban említett tételes adó",
+      ","
+    ],
+    [
+      "az éves bevétel függvényében számítandó 40%-",
+      "os",
+      " ",
+      "külön",
+      "adó",
+      "."
+    ],
+    [],
+    [
+      "A kisadózók esetében a jövedelemszámítás az éves bevallás ",
+      "alkalmával",
+      " történ",
+      "ik.",
+      " ",
+      "A",
+      "z adóévet követő év február 25",
+      "-éig",
+      " kell nyilatkozniuk az éves bevételükről. ",
+      "Tehát e határidőig kell összesítenie az év során készpénzben megkapott vagy a bankszámláján jóváírt összegeket. Ha magasabb a törvényben szereplő határértéknél, akkor kell kiszámítani és megfizetni a ",
+      "különadót",
+      "."
+    ],
+    [
+      "A ",
+      "kata",
+      " ",
+      "mértéke"
+    ],
+    [
+      "Tételes adót, havi 50 000 Ft-ot fizet",
+      " a ",
+      "kata",
+      "alany",
+      " egyéni vállalkozó",
+      " minden naptári hónapra, amelyben legalább egy napig fennállnak a feltételek. A fizetési határidő a következő hónap 12",
+      "-e",
+      ". Beval",
+      "l",
+      "ási kötelezettsége évente egyszer van",
+      " ",
+      "(",
+      "a tárgyévet követő év február 25-éig",
+      ")",
+      "."
+    ],
+    [],
+    [
+      "Akkor mentesül a vállalkozó a",
+      "z 50 000 Ft ",
+      "fizetés",
+      "e",
+      " alól, ha egész hónapban például táppénzen, ",
+      "gyed",
+      "en volt, katonai szolgálatot teljesített, szabadságvesztését töltötte vagy szüneteltette a vállalkozási tevékenységét."
+    ],
+    [],
+    [
+      "Ha a vállalkozási tevékenységéből származó bevétele meghaladja a 18 000 000 Ft-ot, akkor – a tételes kötelezettség mellett ",
+      "–",
+      " az efölötti rész után 40% ",
+      "különadó",
+      "-",
+      "fizetési kötelezettsége keletkezik.",
+      " ",
+      "Ha a ",
+      "kata",
+      "alanyiság",
+      " nem áll fenn a teljes évben, akkor időarányosan havi 1 500 000 Ft-ot kell az adott hónapokra keretösszegnek tekinteni."
+    ],
+    [],
+    [
+      "Példa",
+      ":"
+    ],
+    [],
+    [
+      "Újkata1 ",
+      "vállalkozó varrónő, a teljes naptári évben varrogatott, javítgatott. A vállalkozási tevékenységből származó éves bevétele 4 000 000 Ft volt."
+    ],
+    [
+      "Minden hónapban határidőben befizette az 50 000 Ft tételes adót, a következő évben február 25-ig a ",
+      "kata",
+      "bevallásban",
+      " nyilatkozott a bevétel összegéről."
+    ],
+    [],
+    [
+      "Újkata2 ",
+      "vállalkozó magánórák keretében emelt",
+      " szintű",
+      " érettségi vizsgára készít fel diákokat. Kisbabája született, ezért november 1-jétől csecsemőgondozási díjban részesül. A vállalkozási tevékenységből 2 500 000 Ft bevétele keletkezett."
+    ],
+    [
+      "Januártól október végéig (10 hónapra) minden hónapban megtörtént a tételes ",
+      "kata",
+      " ",
+      "megfizetése. Arról nincs információ, hogy a szülést megelőzően volt-e esetleg táppénzes állományban, így az utolsó két hónapban mentesült az 50 000 Ft fizetése alól. A ",
+      "csed",
+      " ",
+      "összegét az előző évi jövedelem függvényében állapítja meg a Magyar Államkincstár, ami ebben az esetben igen alacsony."
+    ],
+    [
+      "A tárgyév bevételeiről február 25-ig kell elkészíteni a ",
+      "kata",
+      "bevallást",
+      ", ami a 2 500 000 Ft bevételt tartalmazza."
+    ],
+    [],
+    [
+      "Újkata3 ",
+      "gyógytornász. Főállású egyéni vállalkozás formájában, egy alkalmazottal végzi a tevékenységét. Az év során 19 000 000 bevételt értek el. Egy vírusos fertőzés miatt három hétig táppénzes állományban volt, viszont ez idő alatt az alkalmazott folytatta a munkát."
+    ],
+    [
+      "A háromhetes hiányzás nem mentesíti a vállalkozót a tételes kisvállalkozói adó megfizetése alól, hiszen minden hónapban legalább egy napig ",
+      "folytatták a tevékenységet",
+      ". ",
+      "(",
+      "Mivel az alkalmazott a betegsége alatt is dolgozott, így folyamatosan keletkezett bevétel.",
+      ")"
+    ],
+    [
+      "Minden hónapban átutalta az 50 000 Ft-ot (összesen 12 × 50 000 = 600 000 Ft-ot) a következő hónap 12",
+      "-éig",
+      "."
+    ],
+    [
+      "Az éves bevallásban szerepel a 19 000 000 Ft bevétel, ami miatt a ",
+      "különadót",
+      " meg kell fizetnie. 19 000 000 – 18 000 000 = 1 000 000 Ft bevétel után 40% az adó mértéke. Tehát február 25-ig további 400 000 Ft-ot kell fizetnie."
+    ],
+    [
+      "A ",
+      "kata ",
+      "által kiváltott adónemek",
+      " "
+    ],
+    [
+      "A tételes adó fizetésének időtartamára a kisadózó vállalkozó biztosítottnak minősül. ",
+      "M",
+      "inden társadalombiztosítási és álláskeresési ellátásra jogosultságot szerez."
+    ],
+    [
+      "A havi 50 000 Ft befizetése roppant kedvező az egyéni vállalkozók számára, lényegesen alacsonyabb kötelezettséget jelent bármelyik más adózási módhoz képest. Ebből adódóan viszont a társadalombiztosítási ellátásokat is mindössze",
+      " a",
+      " 108 000 Ft-ot alapul véve számolják. (Azt javasolják a ",
+      "kata",
+      " ",
+      "szerint adózóknak, hogy amit havonta megspórolnak, azt megtakarításként helyezzék nyugdíj- vagy egészségbiztosítási pénztárba.)"
+    ],
+    [],
+    [
+      "Az 50 000 Ft tételes adó megfizetésével az egyéni vállalkozó mentesül számos adókötelezettség alól. Nem kell megállapítania, bevallania és megfizetnie a gazdasági tevékenységével összefüggésben"
+    ],
+    [
+      "a vállalkozói személyi jövedelemadót, az osztalékalap utáni adót, ",
+      "az ",
+      "átalányadót,"
+    ],
+    [
+      "a ",
+      "jövedelemkivét",
+      " után magánszemélyként fizetendő személyi jövedelemadót és ",
+      "a ",
+      "társadalombiztosítási járulékot,"
+    ],
+    [
+      "a szociális hozzájárulási adót."
+    ],
+    [
+      "Egyszerűbb ",
+      "feladatok megoldása"
+    ],
+    [
+      "Ellenőrizd a tudásod a következő két feladat segítségével!"
+    ],
+    [],
+    [
+      "1. feladat"
+    ],
+    [],
+    [
+      "B. Bódog ",
+      "bőrdíszműves ",
+      "egyéni vállalkozó bevételeiről és költségeiről a következő információkkal rendelkezünk:"
+    ],
+    [
+      "(vállalkozási tevékenységét heti 36 órát meghaladó munkaviszony mellett végzi, az áfa tekintetében alanyi adómentes)"
+    ],
+    [
+      "a korábbi években elhatárolt veszteség",
+      ":",
+      " ",
+      "3",
+      "00 000 Ft,"
+    ],
+    [
+      "a tevékenység ellenértékeként kapott készpénz vagy jóváírt összeg",
+      ":",
+      " ",
+      "7 300 000 Ft,"
+    ],
+    [
+      "alkalmazott részére kifizetett bér",
+      ":",
+      " ",
+      "3 500 000 Ft,"
+    ],
+    [
+      "anyagbeszerzésre fordított kiadás",
+      ":",
+      " ",
+      "1 900 000 Ft,"
+    ],
+    [
+      "biztosítótól kapott kártérítés",
+      ":",
+      " ",
+      "50 000 Ft,"
+    ],
+    [
+      "cégautóadó",
+      ":",
+      " ",
+      "100 000 Ft,"
+    ],
+    [
+      "dolgozótól levont ",
+      "szja:",
+      " ",
+      "480 000 Ft,"
+    ],
+    [
+      "értékesített tárgyi eszköz eladási ára",
+      ":",
+      " ",
+      "400 000 Ft,"
+    ],
+    [
+      "fejlesztési célra kapott támogatás összege, mely",
+      "nek",
+      " felhasználása",
+      " ",
+      "megtörtént, és költségként elszámolta",
+      ":",
+      " ",
+      "1 500 000 Ft,"
+    ],
+    [
+      "gépkocsijavítási költség",
+      ":",
+      " ",
+      "120 000 Ft,"
+    ],
+    [
+      "gépkocsihasználat költsége (útnyilvántartás szerint)",
+      ":",
+      " ",
+      "600 000 Ft,"
+    ],
+    [
+      "kapott kamat",
+      ":",
+      " ",
+      "150 000 Ft,"
+    ],
+    [
+      "kapott kötbér",
+      ":",
+      " ",
+      "80",
+      " ",
+      "000",
+      " ",
+      "Ft",
+      ","
+    ],
+    [
+      "kis",
+      " ",
+      "értékű tárgyi eszközök beszerzése",
+      ":",
+      " ",
+      "150 000 Ft,"
+    ],
+    [
+      "könyvviteli szolgáltatás díja",
+      ":",
+      " ",
+      "1",
+      "60 000 Ft,"
+    ],
+    [
+      "közadakozás céljából átadott termékek szokásos piaci értéke",
+      ":",
+      " ",
+      "100 000 Ft,"
+    ],
+    [
+      "munkaruha",
+      "-",
+      " és védőeszköz",
+      "-",
+      "beszerzés",
+      ":",
+      " ",
+      "1",
+      "8",
+      "0 000 Ft,"
+    ],
+    [
+      "műszaki gépek elszámolható értékcsökkenése",
+      ":",
+      " ",
+      "250 000 Ft,"
+    ],
+    [
+      "reprezentációs költség",
+      ":",
+      " ",
+      "80 000 Ft,"
+    ],
+    [
+      "szociális hozzájárulási adó",
+      ":",
+      " ",
+      "40",
+      "0 000 Ft,"
+    ],
+    [
+      "telefon-, internethasználat",
+      ":",
+      " ",
+      "1",
+      "2",
+      "0 000 Ft."
+    ],
+    [],
+    [
+      "2. feladat"
+    ],
+    [],
+    [
+      "C. Csillagvirág főállású egyéni vállalkozó csipketerítő-készítéssel foglalkozik. Kézműves termékeit kizárólag magánszemélyeknek értékesíti. Bevételeiről és költségeiről a következő információkkal rendelkezünk:"
+    ],
+    [
+      "A vállalkozási tevékenységből származó bevétele: 21 000 000 Ft."
+    ],
+    [
+      "Számlával igazolt költsége: 2 500 000 Ft."
+    ],
+    [
+      "Jövedelemkivét",
+      ": 350 000 Ft/hó."
+    ],
+    [
+      "A v",
+      "állalkozói személyi jövedelemadó",
+      "hoz kapcsolódó feladatok",
+      " "
+    ],
+    [
+      "1. feladat: B. Bódog adatai alapján"
+    ],
+    [
+      "(",
+      "A",
+      "z ",
+      "adatok ",
+      "forint",
+      "ban",
+      " értendők",
+      ".",
+      ")"
+    ],
+    [
+      "A d",
+      "olgozótól ",
+      "levont szja nem jelent költséget a vállalkozás számára",
+      "."
+    ],
+    [
+      "Feladatmegoldás (",
+      "B.",
+      " ",
+      "Bódog",
+      ") – vállalkozói személyi jövedelemadó alkalmazása"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "2. feladat: C. Csillagvirág adatai alapján"
+    ],
+    [
+      "(Az adatok forintban értendők.)"
+    ],
+    [
+      "Feladatmegoldás (",
+      "C. Csillagvirág",
+      ") – vállalkozói személyi jövedelemadó alkalmazása"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "Magánszemélyként a ",
+      "jövedelemkivét",
+      " után fizetendő:"
+    ],
+    [
+      "személyi jövedelemadó: 4 200 000 × 0,15 = 630 000 Ft,"
+    ],
+    [
+      "társadalombiztosítási járulék: 4 200 000 × 0,185 = 777 000 Ft."
+    ],
+    [
+      "Az á",
+      "talányadó",
+      "hoz kapcsolódó feladatok"
+    ],
+    [
+      "1. feladat: B. Bódog adatai alapján"
+    ],
+    [
+      "(",
+      "A",
+      "z ",
+      "adatok ",
+      "forint",
+      "ban",
+      " értendők",
+      ".",
+      ")"
+    ],
+    [
+      "Feladatmegoldás (",
+      "B. Bódog",
+      ") ",
+      "–",
+      " átalányadó alkalmazása"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "2. feladat: C. Csillagvirág adatai alapján"
+    ],
+    [
+      "(Az adatok forintban értendők.)"
+    ],
+    [
+      "Feladatmegoldás (",
+      "C. Csillagvirág",
+      ") – átalányadó alkalmazása"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [
+      "A k",
+      "isadózó vállalkozók ",
+      "t",
+      "ételes ",
+      "a",
+      "dójá",
+      "hoz",
+      " ",
+      "kapcsolódó feladatok"
+    ],
+    [
+      "1. feladat: B. Bódog adatai alapján"
+    ],
+    [],
+    [
+      "A feladat szövegéből kiderül, hogy Bódog másodfoglalkozású egyéni vállalkozó, így nincs lehetősége a ",
+      "kata",
+      " ",
+      "szerint adózni. Csak főfoglalkozású egyéni vállalkozók",
+      "nak van lehetőségük",
+      " a havi tételes (50 000 Ft-os, mindent kiváltó) adó fizetés",
+      "ér",
+      "e."
+    ],
+    [],
+    [
+      "2. feladat: C. Csillagvirág adatai alapján"
+    ],
+    [],
+    [
+      "Tételes adó: 12 × 50 000 = 600 000 Ft."
+    ],
+    [
+      "Különadó",
+      ", mivel a bevétele meghaladta a 18 000 000 Ft-ot",
+      ":"
+    ],
+    [
+      "(21 000 000 – 18 000 000) × 0,4 = 1 200 000 Ft."
+    ],
+    [],
+    [
+      "Összegzés"
+    ],
+    [],
+    [
+      "A fenti adatok alapján ",
+      "B. Bódog számára ",
+      "a vállalkozói jövedelemadó szerinti adózás a kedvezőbb, hiszen a bevételével szemben jelentős költséget tud elszámolni. A tevékenysége anyag-",
+      " ",
+      "és eszközigényes, és ",
+      "alkalmazottat is foglalkoztat. Másodfoglalkozású egyéni vállalkozó, így a munkaviszonyából is rendelkezik jövedelemmel, amelyből a személyi jövedelemadót és a társadalombiztosítási járulékot levonja a kifizető, és szociális",
+      " ",
+      "hozzájárulási adót is fizet a munkavállalója után."
+    ],
+    [],
+    [
+      "C. Csillagvirág",
+      " az az egyéni vállalkozó, akinél a ",
+      "kata",
+      " szerinti adózás a legjobb forma. Értékesek a termékei, viszonylag nagy forgalmat produkált, viszont jórészt a szakmai tudására és a kézügyességére van szüksége. Az anyag- és eszközigény minimális. "
+    ],
+    [
+      "Megfelel a feltételeknek: főállású egyéni vállalkozó és kizárólag magánszemélyeknek értékesítette a termékeit, így alkalmazhatja a kisadózó vállalkozók tételes adóját."
+    ],
+    [
+      "Esettanulmány ",
+      "elkészítése"
+    ],
+    [
+      "Három jó",
+      " ",
+      "barát, akik már a gimnáziumi évek alatt szoros barátságot kötöttek, együtt ",
+      "túrázik ",
+      "a hegyekben. Jelenleg mindannyian alkalmazásban állnak (vállalkozásnál, hivatalban), viszont gyakran kerül szóba közöttük az önálló munkavégzés."
+    ],
+    [],
+    [
+      "Atosz",
+      " informatikus, kitanulta a fényképezés minden csínját-bínját. Szabadidejében szívesen vesz részt rendezvényeken: fotósként, videósként, ceremóniamesterként."
+    ],
+    [
+      "Portosz",
+      " a vendéglátásban dolgozik cukrászként. Specialitása az egyedi",
+      " tortakülönlegességek elkészítése.",
+      " Az elmúlt években számos díjat nyert szakmai versenyeken (belföldön és külföldön egyaránt)",
+      "."
+    ],
+    [
+      "Aramisz",
+      " logopédus, aki a helyi pedagógiai szakszolgálat munkatársaként igyekszik a gyerekek beszéd-rendellenességeit megelőzni, kiszűrni, kezelni."
+    ],
+    [],
+    [
+      "Tervezgetnek, számolgatnak, gondolkodnak: ha egyéni vállalkozóként végeznék a tevékenységüket, akkor ",
+      "az",
+      " mekkora adókötelezettséget, jövedelmet jelentene számukra."
+    ],
+    [],
+    [
+      "A ",
+      "6.",
+      " táblázat a tervezett adatokat tartalmazza, a jelenleg meglévő jogszabályok, információk alapján",
+      ".",
+      " "
+    ],
+    [
+      "(Az adatok forintban értendők.)"
+    ],
+    [],
+    [
+      "Esettanulmány megoldása"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "A tervezett adatok alapján ",
+      "Portosznak",
+      " ",
+      "a vállalkozói jövedelemadó szerinti adózás lenne a legkedvezőbb. A cukrászat a magas szintű szakmai tudás és kreativitás mellett rendkívül anyag- és eszközigényes tevékenység. Az adó alapja az elszámolható költségekkel csökkentett bevétel. A ",
+      "jövedelemkivét",
+      " összegéből magánemberként személyi jövedelemadót és társadalombiztosítási járulékot ",
+      "kell fizetnie.",
+      " ",
+      "Elképzelhető, hogy megrendelői között nem csak magánszemélyek lesznek, ez kizárja őt a ",
+      "kata",
+      " szerinti adózásból."
+    ],
+    [],
+    [
+      "Atosznak",
+      " az átalányadó alkalmazása ajánlott, hiszen ehhez a tevékenységhez viszonylag kevés költség kapcsolódik. 40%-",
+      "os",
+      " költséghányaddal számolt, de egy adott évben, ha csak fényképészetből származik a bevétele, akkor a 80%-",
+      "os",
+      " arány alkalmazható.",
+      " Az átalányadó mellett ",
+      "s",
+      "zociális hozzájárulási adó és társadalombiztosítási járulék ",
+      "meg",
+      "fizetés",
+      "ének",
+      " kötelezettsége is keletkezik legalább a minimálbér után. Az ő esetében is elképzelhető „céges” megrendelés."
+    ],
+    [],
+    [
+      "Aramisz",
+      " tevékenységére egyértelműen a magánszemélyeknek van szüksége. A bevételéhez képest elenyésző a költsége. Mindenképpen a kisadózó vállalkozók tételes adó",
+      "ja",
+      " szerinti adózás javasolt számára."
+    ],
+    [
+      ""
+    ],
+    [
+      "Táblázatjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "Irodalomjegyzék"
+    ],
+    [
+      "1995. évi CXVII. törvény a személyi jövedelemadóról https://njt.hu/jogszabaly/1995-117-00-00 (2024.11.04.)"
+    ],
+    [
+      "2022. évi XIII. törvény a kisvállalkozói adózók tételes adójáról https://njt.hu/jogszabaly/2022-13-00-00.4#CI (2024.11.04.)"
+    ],
+    [
+      "NAV Információs füzetek https://nav.gov.hu/ugyfeliranytu/nezzen-utana/inf_fuz/informacios-fuzetek---2024 (2024.10.26.)"
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Magdáné Német Ildikó Éva"
+      ],
+      [
+        "Szakmai lektor:",
+        "Udvariné Csorba Erika"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Gazdálkodás és menedzsment"
+      ],
+      [
+        "Szakma:",
+        "Pénzügyi-számviteli ügyintéző"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Pénzügyi ügyintézői feladatok"
+      ],
+      [
+        "Tantárgy:",
+        "Adózás"
+      ],
+      [
+        "Évfolyam:",
+        "13. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "18 óra"
+      ]
+    ],
+    [
+      [
+        "Vállalkozók",
+        "Társadalombiztosítási járulék\n18,5%",
+        "Szociális hozzájárulási adó\n13%"
+      ],
+      [
+        "Főfoglalkozású (biztosított) egyéni vállalkozó",
+        "vállalkozói jövedelemkivét, de legalább a minimálbér (garantált bérminimum)",
+        "vállalkozói jövedelemkivét, de legalább a minimálbér (garantált bérminimum) 1,125-szerese,\nosztalékadó alapja"
+      ],
+      [
+        "Másodfoglalkozású egyéni vállalkozó",
+        "a ténylegesen elért jövedelem, az alap megegyezik a személyi jövedelemadó számításának alapjával",
+        "a ténylegesen elért jövedelem, az alap megegyezik a személyi jövedelemadó számításának alapjával,\nosztalékadó alapja"
+      ],
+      [
+        "Kiegészítő tevékenységű egyéni vállalkozó",
+        "nincs fizetési kötelezettség",
+        "nincs fizetési kötelezettség"
+      ]
+    ],
+    [
+      [
+        "Nyereséges Nyikoláj 2024. évi bevétele az egyéni vállalkozói tevékenységéből: 10 000 000 Ft.",
+        "Veszteséges Vendel 2024. évi bevétele az egyéni vállalkozói tevékenységéből: 3 000 000 Ft."
+      ]
+    ],
+    [
+      [
+        "Nyikolájnak 4 000 000 Ft elszámolható költsége keletkezett az év során a tevékenységével kapcsolatban.",
+        "Vendel (is) 4 000 000 Ft költséget számolhat el."
+      ]
+    ],
+    [
+      [
+        "Nyikolájnak a fenti adatok alapján 6 000 000 Ft vállalkozói jövedelme keletkezett (10 000 000 – 4 000 000 = 6 000 000 Ft).",
+        "Vendel tevékenysége ebben az adóévben sajnos veszteséges volt. A felmerült költségei meghaladják a bevételét. Vállalkozói jövedelme: –1 000 000 Ft. (3 000 000 – 4 000 000 = –1 000 000 Ft)"
+      ]
+    ],
+    [
+      [
+        "A jövedelemminimum 200 000 Ft (10 000 000 × 0,02 = 200 000 Ft). Nyikolájnak ennél magasabb a jövedelme (6 000 000 Ft), tehát az adó alapja a tényleges vállalkozói jövedelme lesz.",
+        "A jövedelemminimum 200 000 Ft (10 000 000 × 0,02 = 200 000 Ft). Vendel jövedelme ennél alacsonyabb (mi több, negatív szám), az adó alapja a jövedelemminimum lesz."
+      ]
+    ],
+    [
+      [
+        "A vállalkozói személyi jövedelemadó: 6 000 000 × 0,09 = 540 000 Ft.",
+        "A vállalkozói személyi jövedelemadó: 200 000 × 0,09 = 18 000 Ft."
+      ]
+    ],
+    [
+      [
+        "Az adózás utáni jövedelem: 6 000 000 – 540 000 = 5 460 000 Ft.",
+        "Az adózás utáni jövedelem Vendel esetében nulla, hiszen a vállalkozási tevékenysége veszteséges volt. Nem érvényesül az a matematikai szabály, hogy a veszteségből az adó még nagyobb veszteséget csinál."
+      ]
+    ],
+    [
+      [
+        "Nyikoláj 5 460 000 Ft után fizet adót: 5 460 000 × 0,15 = 819 000 Ft-ot.",
+        "Vendelnek az osztalékadó alapja nulla lett, ezért ilyen címen nem keletkezik adófizetési kötelezettsége."
+      ]
+    ],
+    [
+      [
+        "Nyikolájnak az egyéni vállalkozói tevékenysége után 540 000 + 819 000 = 1 359 000 Ft adókötelezettsége keletkezett.\nA szociális hozzájárulási adót 5 460 000 Ft után kell fizetnie (5 460 000 × 0,13 = 709 800 Ft-ot), ha az összevont adóalapba tartozó jövedelmei a felső határ alatt vannak. (Más jövedelméről nincs információnk.)",
+        "Vendelnek csak vállalkozói szja-fizetési kötelezettsége keletkezett: 18 000 Ft. \nA vállalkozói osztalékalapja nulla, ezért szociálishozzájárulásiadó-fizetési kötelezettsége sincs."
+      ]
+    ],
+    [
+      [
+        "Bevétel",
+        "9 580 000",
+        "9 580 000"
+      ],
+      [
+        "Bevétel",
+        "Értékesítés árbevétele",
+        "7 300 000"
+      ],
+      [
+        "Bevétel",
+        "Kapott kártérítés",
+        "50 000"
+      ],
+      [
+        "Bevétel",
+        "Értékesített tárgyi eszköz eladási ára",
+        "400 000"
+      ],
+      [
+        "Bevétel",
+        "Fejlesztési célra kapott támogatás",
+        "1 500 000"
+      ],
+      [
+        "Bevétel",
+        "Kapott kamat",
+        "150 000"
+      ],
+      [
+        "Bevétel",
+        "Kapott kötbér",
+        "80 000"
+      ],
+      [
+        "Bevétel",
+        "Közadakozás céljából átadott termékek értéke",
+        "100 000"
+      ],
+      [
+        "Költségek",
+        "7 560 000",
+        "7 560 000"
+      ],
+      [
+        "Költségek",
+        "Alkalmazott bére",
+        "3 500 000"
+      ],
+      [
+        "Költségek",
+        "Anyagbeszerzés",
+        "1 900 000"
+      ],
+      [
+        "Költségek",
+        "Cégautóadó",
+        "100 000"
+      ],
+      [
+        "Költségek",
+        "Gépkocsi javítási költsége",
+        "120 000"
+      ],
+      [
+        "Költségek",
+        "Gépkocsihasználat",
+        "600 000"
+      ],
+      [
+        "Költségek",
+        "Kis értékű tárgyi eszköz beszerzése",
+        "150 000"
+      ],
+      [
+        "Költségek",
+        "Könyvviteli szolgáltatás díja",
+        "160 000"
+      ],
+      [
+        "Költségek",
+        "Munkaruha, védőeszköz beszerzése",
+        "180 000"
+      ],
+      [
+        "Költségek",
+        "Műszaki gépek értékcsökkenése",
+        "250 000"
+      ],
+      [
+        "Költségek",
+        "Reprezentációs költség",
+        "80 000"
+      ],
+      [
+        "Költségek",
+        "Szociális hozzájárulási adó",
+        "400 000"
+      ],
+      [
+        "Költségek",
+        "Telefon-, internethasználat költsége",
+        "120 000"
+      ],
+      [
+        "Jövedelem",
+        "9 580 000 – 7 560 000 = 2 020 000",
+        "2 020 000"
+      ],
+      [
+        "",
+        "Jövedelemminimum: 9 580 000 × 0,02 = 191 600",
+        ""
+      ],
+      [
+        "Elhatárolt veszteség",
+        "Legfeljebb a jövedelem 50%-a",
+        "300 000"
+      ],
+      [
+        "Vállalkozói adóalap",
+        "2 020 000 – 300 000 = 1 720 000",
+        "1 720 000"
+      ],
+      [
+        "Vállalkozói személyi jövedelemadó",
+        "1 720 000 × 0,09 = 154 800",
+        "154 800"
+      ],
+      [
+        "Adózás utáni vállalkozói jövedelem (= vállalkozói osztalékalap)",
+        "1 720 000 – 154 800 = 1 565 200",
+        "1 565 200"
+      ],
+      [
+        "Vállalkozói osztalékalap adója",
+        "1 565 200 × 0,15 = 234 780",
+        "234 780"
+      ],
+      [
+        "Adófizetési kötelezettség",
+        "154 800 + 234 780 = 389 580",
+        "389 580"
+      ],
+      [
+        "Szociális hozzájárulási adó",
+        "Ha az összevonás alá eső jövedelem a határérték alatt marad:\n1 565 200 × 0,13 = 203 476",
+        "203 476"
+      ]
+    ],
+    [
+      [
+        "Bevétel",
+        "",
+        "21 000 000"
+      ],
+      [
+        "Költségek",
+        "",
+        "7 246 000"
+      ],
+      [
+        "Költségek",
+        "Számlával igazolt költség",
+        "2 500 000"
+      ],
+      [
+        "Költségek",
+        "Jövedelemkivét\n12 × 350 000 = 4 200 000",
+        "4 200 000"
+      ],
+      [
+        "Költségek",
+        "Szociális hozzájárulási adó\n4 200 000 × 0,13 = 546 000",
+        "546 000"
+      ],
+      [
+        "Jövedelem",
+        "21 000 000 – 7 246 000 = 13 754 000",
+        "13 754 000"
+      ],
+      [
+        "",
+        "Jövedelemminimum: 21 000 000 × 0,02 = 420 000",
+        ""
+      ],
+      [
+        "Vállalkozói adóalap",
+        "",
+        "13 754 000"
+      ],
+      [
+        "Vállalkozói személyi jövedelemadó",
+        "13 754 000 × 0,09 = 1 237 860",
+        "1 237 860"
+      ],
+      [
+        "Adózás utáni vállalkozói jövedelem (= vállalkozói osztalékalap)",
+        "13 754 000 – 1 237 860 = 12 516 140",
+        "12 516 140"
+      ],
+      [
+        "Vállalkozói osztalékalap adója",
+        "12 516 140 × 0,15 = 1 877 421",
+        "1 877 421"
+      ],
+      [
+        "Adófizetési kötelezettség",
+        "1 237 860 + 1 877 421 = 3 115 281",
+        "3 115 281"
+      ],
+      [
+        "Szociális hozzájárulási adó",
+        "Jövedelemkivét után: 546 000\nOsztalék után: (6 403 200 – 4 200 000) × 0,13 = 286 416",
+        "832 416"
+      ]
+    ],
+    [
+      [
+        "Bevételek",
+        "",
+        "9 580 000"
+      ],
+      [
+        "Költséghányad (40%)",
+        "9 580 000 × 0,4 = 3 832 000",
+        "3 832 000"
+      ],
+      [
+        "Jövedelem",
+        "9 580 000 – 3 832 000 = 5 748 000",
+        "5 748 000"
+      ],
+      [
+        "Adómentes jövedelem",
+        "266 800 × 6 = 1 600 800",
+        "1 600 800"
+      ],
+      [
+        "Adóalap",
+        "5 748 000 – 1 600 800 = 4 147 200",
+        "4 147 200"
+      ],
+      [
+        "Számított adó",
+        "4 147 200 × 0,15 = 622 080",
+        "622 080"
+      ],
+      [
+        "Szociális hozzájárulási adó",
+        "Ha az összevonás alá eső jövedelem a határérték alatt marad:\n4 147 200 × 0,13 = 539 136",
+        "539 136"
+      ]
+    ],
+    [
+      [
+        "Bevételek",
+        "",
+        "21 000 000"
+      ],
+      [
+        "Költséghányad (40%)",
+        "21 000 000 × 0,4 = 8 400 000",
+        "8 400 000"
+      ],
+      [
+        "Jövedelem",
+        "21 000 000 – 8 400 000 = 12 600 000",
+        "12 600 000"
+      ],
+      [
+        "Adómentes jövedelem",
+        "266 800 × 6 = 1 600 800",
+        "1 600 800"
+      ],
+      [
+        "Adóalap",
+        "12 600 000 – 1 600 800 = 10 999 200",
+        "10 999 200"
+      ],
+      [
+        "Számított adó",
+        "10 999 200 × 0,15 = 1 649 880",
+        "1 649 880"
+      ],
+      [
+        "Szociális hozzájárulási adó",
+        "(10 999 200 – 6 403 200) × 0,13 = 597 480",
+        "597 480"
+      ],
+      [
+        "Társadalombiztosítási járulék",
+        "10 999 200 × 0,185 = 2 034 852",
+        "2 034 852"
+      ]
+    ],
+    [
+      [
+        "Megnevezés",
+        "Atosz",
+        "Portosz",
+        "Aramisz"
+      ],
+      [
+        "Éves nettó árbevétel",
+        "30 000 000",
+        "25 000 000",
+        "20 000 000"
+      ],
+      [
+        "Tervezhető költségek\nanyag,\nigénybe vett szolgáltatás,\nbérköltség,\njárulékok,\nértékcsökkenés",
+        "6 000 000\n(elsősorban személyi jellegű ráfordítások a személyes közreműködés miatt, minimális anyagigény, nem túl jelentős eszközszükséglet)",
+        "18 000 000\n(prémiumminőségű anyagok, eszközigényes cukrászműhely, alkalmi jelleggel segítő munkaerő foglalkoztatása)",
+        "5 000 000\n(jószerével csak személyi jellegű ráfordítás a jövedelemkivétből adódóan)"
+      ],
+      [
+        "Jövedelem, ha a vállalkozói személyi jövedelemadó szerint adózik",
+        "24 000 000",
+        "7 000 000",
+        "15 000 000"
+      ],
+      [
+        "Vszja és osztalékalap adója",
+        "24 000 000 × 0,09 = 2 160 000\n(24 000 000 – 2 160 000) × 0,15 = 3 276 000",
+        "7 000 000 × 0,09 = 630 000\n(7 000 000 – 630 000) × 0,15 = 955 500",
+        "15 000 000 × 0,09 = 1 350 000\n(15 000 000 – 1 350 000) × 0,15 = 2 047 500"
+      ],
+      [
+        "Szociális hozzájárulási adó",
+        "(24 000 000 – 2 160 000) × 0,13 = 2 839 200",
+        "(7 000 000 – 630 000) × 0,13 = 828 100",
+        "(15 000 000 – 1 350 000) × 0,13 = 1 774 500"
+      ],
+      [
+        "Jövedelem átalányadó alkalmazásával",
+        "30 000 000 × 0,6 = 18 000 000",
+        "25 000 000 × 0,6 = 15 000 000",
+        "20 000 000 × 0,6 = 12 000 000"
+      ],
+      [
+        "Átalányadó",
+        "(18 000 000 – 1 600 800) × 0,15 = 2 459 880",
+        "(15 000 000 – 1 600 800) × 0,15 = 2 009 880",
+        "(12 000 000 – 1 600 800) × 0,15 = 1 559 880"
+      ],
+      [
+        "Kisadózó vállalkozók tételes adója\n(és különadó)",
+        "12 × 50 000 = 600 000\n(30 000 000 – 18 000 000) × 0,4 = 4 800 000",
+        "12 × 50 000 = 600 000\n(25 000 000 – 18 000 000) × 0,4 = 2 800 000",
+        "12 × 50 000 = 600 000\n(20 000 000 – 18 000 000) × 0,4 = 800 000"
+      ]
+    ]
+  ],
+  "headers": [
+    "",
+    ""
+  ],
+  "footers": [
+    "",
+    ""
+  ],
+  "footnotes": [
+    "",
+    ""
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 56449
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Normal (Web)",
+    "annotation text",
+    "Title",
+    "Cím Char",
+    "Subtitle",
+    "Alcím Char",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "Hyperlink",
+    "Feloldatlan megemlítés1",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Table Grid",
+    "Jegyzetszöveg Char",
+    "11",
+    "9",
+    "Placeholder Text",
+    "Címsor 4 Char",
+    "Caption",
+    "bajusz_téglalap",
+    "bajusz_téglalap Char",
+    "Címsor 5 Char",
+    "ism_kérdések",
+    "ism_kérdések Char",
+    "Képaláírás Char",
+    "kérdés_számozva",
+    "kérdés_számozva Char",
+    "a_ELMS_felsorolás_pötty",
+    "szituáció",
+    "fontos tartalom_bekezdés",
+    "fontos tartalom_bekezdés Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "toc 4",
+    "a_ELMS_felsorolás_kötőjel",
+    "betűkiemelés",
+    "List Paragraph",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "példa",
+    "példa Char",
+    "Default",
+    "ábraszám",
+    "footnote text",
+    "Lábjegyzetszöveg Char",
+    "footnote reference",
+    "a_ELMS_felsorolás_betűkkel",
+    "kiegészítő opcionális tartalom_bekezdés Char",
+    "a_ELMS_felsorolás_kötőjel_behúzással",
+    "kiegészítő opcionális tartalom_bekezdés",
+    "fogalmak",
+    "table of figures",
+    "Grid Table 4 Accent 1",
+    "Light List",
+    "Medium List 2 Accent 1",
+    "Light List Accent 3",
+    "Táblázataláírás",
+    "a_ELMS_felsorolás_számokkal",
+    "a_ELMS_kiegészítő tartalom",
+    "a_ELMS_fontos tartalom",
+    "a_ELMS_Címsor 1",
+    "a_ELMS_Címsor 2",
+    "a_ELMS_Címsor 2 Char",
+    "a_ELMS_Címsor 3",
+    "a_ELMS_Címsor 4",
+    "a_ELMS_Címsor 3 Char",
+    "a_ELMS_Címsor 5",
+    "a_ELMS_Címsor 4 Char",
+    "a_ELMS_normál szöveg",
+    "a_ELMS_Címsor 5 Char",
+    "a_ELMS_Ábraaláírás",
+    "a_ELMS_Táblázataláírás",
+    "toc 5",
+    "bajusz_pötty",
+    "bajusz_pötty Char",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "a_ELMS_fogalom",
+    "annotation reference",
+    "Unresolved Mention",
+    "Revision",
+    "FollowedHyperlink",
+    "toc 6"
+  ]
+}

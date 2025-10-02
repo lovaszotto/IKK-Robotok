@@ -1,0 +1,4339 @@
+{
+  "core_properties": {
+    "creator": "Sinkovicz Szilvia (ELMS)",
+    "lastModifiedBy": "Buzás Anita (ELMS)",
+    "revision": "5",
+    "created": "2024-09-25T10:31:00Z",
+    "modified": "2024-09-26T10:04:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal.dotm",
+    "TotalTime": "163",
+    "Pages": "47",
+    "Words": "6542",
+    "Characters": "45143",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "376",
+    "Paragraphs": "103",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "51582",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.13.1",
+    "A zöldségfélék növényvédelme I.",
+    "Témák kézirata",
+    "Forrás: Az eredeti könyv címe: Laber, Hermann – Lattauschke, Gerald (Hrsg.): Gemüsebau. 3., erweiterte Auflage. Stuttgart (Hohenheim), 2020, Ulmer.",
+    "ISBN 978-3-8186-0837-8",
+    "",
+    "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak.",
+    "",
+    "",
+    "TARTALOMJEGYZÉK",
+    "1\tA növényvédelem feladata, jelentősége\t2",
+    "2\tA növények károsítói\t2",
+    "2.1\tKórokok, kórokozók, növénybetegségek\t3",
+    "2.1.1\tBelső eredetű kórokok\t4",
+    "2.1.2\tKülső eredetű, élettelen, nem fertőző kórokok\t4",
+    "2.1.2.1\tIdőjárási tényezők\t4",
+    "2.1.2.2\tTalajtényezők\t6",
+    "2.1.2.3\tToxikus anyagok\t7",
+    "2.1.3\tKülső eredetű, élő, fertőző kórokok\t7",
+    "2.1.3.1\tNövényt megbetegítő vírusok\t7",
+    "2.1.3.2\tNövényt megbetegítő baktériumok\t10",
+    "2.1.3.3\tNövényt megbetegítő gombák\t11",
+    "2.2\tKártevő állatok\t16",
+    "2.3\tGyomnövények\t25",
+    "2.3.1\tA gyomnövények fogalma, kártétele\t25",
+    "2.3.2\tA kertészeti kultúrák legfontosabb gyomnövényei\t28",
+    "2.3.2.1\tEgyéves, kétszikű gyomnövények\t28",
+    "2.3.2.2\tÉvelő, kétszikű gyomnövények\t35",
+    "2.3.2.3\tEgyéves, egyszikű gyomnövények\t38",
+    "2.3.2.4\tÉvelő, egyszikű gyomnövények\t41",
+    "IRODALOMJEGYZÉK\t43",
+    "ÁBRAJEGYZÉK\t45",
+    "",
+    "A növényvédelem feladata, jelentősége",
+    "A növényvédelmi tevékenység egyidejű az emberiség első növénytermesztési tevékenységeivel. Növényvédelmi tevékenység volt már az is, amikor a növények termesztése előtt megtisztítottak egy területet, eltávolították a nemkívánatos növényeket, majd a termesztett növényeket igyekeztek megvédeni a vadállatoktól. A későbbiekben is védeni kellett a termesztett növényeket a termés mennyiségét csökkentő vagy a minőségét rontó betegségektől, állatoktól, egyéb növényektől.",
+    "",
+    "Hosszú fejlődés után a növényvédelem akkor alakult külön szakterületté, amikor a kémia és a vegyipar fejlődésével vegyi anyagokat, növényvédő szereket is felhasználtak a növények védelmére.",
+    "",
+    "Napjainkban úgy határozható meg, hogy a növényvédelem elsődleges feladata a növények és a növényi termékek (feldolgozatlan állapotú, vagy csak egyszerűen előkészített, pl. őrölt, szárított vagy préselt, növényekből előállított termékek) védelme a károsító szervezetektől. A korszerű növényvédelem esetén a károsító szervezetektől való védelemhez ma már hozzátartozik a károsító szervezetek elleni védekezésre képes állatok, növények és mikroorganizmusok felhasználása és védelme is. Ezen kívül a növényvédelem feladata a növények megvédése a környezeti tényezők káros hatásaitól. Mindezeket a feladatokat úgy kell megoldani, hogy a növényvédelmi tevékenység a lehető legkisebb mértékben okozzon zavart a környezetben, a mezőgazdasági-ökológiai rendszerekben, továbbá ne károsítsa az emberi egészséget. ",
+    "A növények károsítói",
+    "A növényeken kárt okozó élettelen tényezőket és élő szervezeteket összefoglalóan károsítóknak nevezik. A károsító élő szervezeteken belül megkülönböztetnek:",
+    "fertőző kórokozókat (pl. vírusok, baktériumok, gombák),",
+    "kártevő állatokat (pl. fonálférgek, puhatestűek, ízeltlábúak, madarak, emlősök),",
+    "gyomnövényeket.",
+    "",
+    "A kárt okozó élettelen tényezők lehetnek:",
+    "időjárási tényezők,",
+    "talajtényezők,",
+    "toxikus anyagok.",
+    "",
+    "Az élő és az élettelen tényezők által okozott károsítások a növényeken általában jól látható formában jelentkeznek. A károsítások miatt romlik a növények életben maradásának az esélye, csökken a növényi termékek minősége és mennyisége.",
+    "Kórokok, kórokozók, növénybetegségek",
+    "A növénybetegségeket a kórokok váltják ki. A kórokok lehetnek:",
+    "belső eredetű kórokok,",
+    "külső eredetű, élettelen, nem fertőző kórokok (időjárás, talaj, toxikus anyag),",
+    "külső eredetű, élő, fertőző kórokok (pl. vírusok, baktériumok, gombák).",
+    "",
+    "Betegség esetén a növényen érzékelhető elváltozások jönnek létre. Ezt az elváltozást tünetnek, azaz szimptómának nevezik. A tünetek érzékelhetők látással (pl. elszíneződés, alakváltozás, seb, váladék), tapintással (érdes, sima, ragadós) és szaglással (illatos, büdös, dohos).",
+    "Belső eredetű kórokok",
+    "A belső eredetű kórokok a növények genetikai rendellenességei. Genetikai rendellenesség esetén a növényen keletkezhetnek például torz képződmények: szalagosodás (széles, lapos, szalagszerű elváltozás), szárösszenövés, csavarodás.",
+    "Külső eredetű, élettelen, nem fertőző kórokok",
+    "Külső eredetű élettelen, nem fertőző kórokoknak nevezik a növény számára optimálistól eltérő környezeti tényezőket.",
+    "Élettelen, nem fertőző okok lehetnek:",
+    "időjárási tényezők,",
+    "talajtényezők,",
+    "toxikus anyagok.",
+    "Időjárási tényezők",
+    "Az időjárási tényezők a hőmérséklet, a fény, a csapadék és a levegő.",
+    "",
+    "Hőmérséklet",
+    "A túlzottan magas hőmérséklet akadályozza a virágok kötődését. A növényházakban nevelt, de nem edzett palánták a szabadföldre kiültetve károsodhatnak. A növény hőmérsékleti maximumát meghaladó hőmérsékleten hőguta (a növény hőmérsékleti maximumát meghaladó hőmérsékleten bekövetkező vízvesztés miatti állapot, amely már a vízpótlással sem fordítható vissza) alakul ki.",
+    "",
+    "Alacsony hőmérsékleten a növények fejlődése lelassul. Ha a hőmérséklet a növény hőmérsékleti minimuma alá esik, fagyás következik be. Kifagyás akkor alakul ki, ha a télen a fagyott talajban a növény gyökere elpusztul. A felfagyás tavasszal fordul elő, amikor a talaj fagyása és felengedése miatt a térfogata olyan gyorsan változik, hogy a növény gyökérzete nem tudja követni és elszakad. Megfázás akkor alakul ki, ha a hőmérséklet a növény hőmérsékleti minimuma közelében van. Ebben az esetben a növény gyengén fejlődik, sárgás elszíneződést mutat, a virágok rosszul kötődnek, lehullanak.",
+    "",
+    "Fény",
+    "A túl kevés fény a növények sárgulását, megnyúlását okozza, ez az etioláltság.",
+    "A túl erős fény, a közvetlen napsugárzás perzselést (túl erős fény vagy az előírtnál nagyobb töménységben kijuttatott kémiai anyagok hatására kialakuló elhalt foltokat), napégést (a közvetlen napsugárzásnak kitett növényi részeken perzselődést) okoz a növényeken.",
+    "",
+    "Csapadék",
+    "A csapadék vagy a víz hiánya először lankadást okoz, majd hervad és elszárad a növény. A növény hervadásakor a gyökérszőrök is elszáradnak, ezzel megszűnik a növény és a talaj közötti kapcsolat. A tartós szárazságot felváltó vízbőség a termények felrepedését okozza (felrepedhet például a retekgumó, a káposztafej, a paradicsom bogyó).",
+    "",
+    "A sok víz a gyökereket károsítja, mert a talajban kevés lesz az oxigén. Vízbőség esetén vízkórság, azaz ödéma is kialakulhat: a levél fonákán zöld, majd elparásodó dudorok (barnás színű, enyhén kiemelkedő, szabálytalan alakú réteg) alakulnak ki. A sok csapadék esetén kialakuló magas páratartalmú levegőben a betegségek gyorsabban terjednek. A jégverés a zöld növényi részeket károsítja.",
+    "",
+    "A levegő páratartalma",
+    "A levegő magas páratartalma a virágok rossz kötődését okozhatja. Alacsony páratartalom mellett a növények többet párologtatnak, több vízre van szükségük. Tároláskor a levegő alacsony páratartalma a termények vízvesztését, fonnyadását okozza.",
+    "Légmozgás",
+    "",
+    "A közepes erősségű légmozgás (5-10 km/óra sebességű szél) a talajt szárítja. Az erős légmozgás (40 km/óra feletti vagy annál nagyobb sebességű szél) a lágyszárú növények (pl. gabonafélék, borsó stb.) megdőlését, a fás növények ágainak letörését okozza. A nagy vihar fákat dönt ki. Homoktalajon a homok elhordása miatt a frissen vetett állományok megsemmisülhetnek, vagy a homokkristályoktól károsodnak.",
+    "Talajtényezők",
+    "A talaj kedvezőtlen szerkezete is károsan hathat a növényre. A kötött vagy sekélyen művelt talajokon a karógyökerek elágazódnak.",
+    "Az eketalpbetegség (az azonos mélységű szántás hatására a barázda fenekén kialakuló kemény réteg) esetén a szántott mélység alatt lévő tömött talaj hátráltatja a növény fejlődését.",
+    "",
+    "A talaj kémhatása akkor káros, ha a növény pH-igénye és a talaj pH-ja eltérő. Meszes talajon a savanyú talajt igénylő növények gyengén fejlődnek, száradnak, ugyanez fordított esetben is érvényesül.",
+    "",
+    "A talaj nem megfelelő tápanyagtartalma több kórok kiváltója lehet. A tápanyagok hiánya miatt bekövetkező betegségeket hiánybetegségeknek nevezik. (Az egyes makro- és mikroelemek hatása részletesebben a Talaj és tápanyag fejezetben.) Hiánybetegségeket okoz a makro- és a mikroelemek abszolút hiánya. Ilyen hiánybetegség például a zeller, valamint a cékla szívlevélelhalását és gumó-, illetve gyökértestkorhadását előidéző bórhiány. Relatív tápanyaghiány akkor alakul ki, ha a makroelemek túlzott mennyisége nehezíti, vagy lehetetlenné teszi a mikroelemek felvételét. Ilyen pl. a paprika és a paradicsom csúcsrothadását kiváltó kalciumhiány. Ilyenkor a többszöri öntözéssel a makroelemek mennyiségét csökkentve a kalcium felvétele elősegíthető. A tápanyagok bősége buja növekedést, kötődési rendellenességet okozhat.",
+    "A talajtényezők okozta károk talajvizsgálatokra épülő trágyázással csökkenthetők.",
+    "Toxikus anyagok",
+    "A növényeket károsító toxikus anyagok a por, a gázok, a szennyvíz, a műtrágyák, a növényvédő szerek, a serkentőanyagok és a termésszabályozók.",
+    "A növényekre rakódó por a fotoszintézis hatékonyságának csökkentése miatt az asszimilációs (az élőlények felépítő anyagcsere-folyamata) tevékenységet rontja. A porban lévő kémiai anyagok is károsak.",
+    "",
+    "A gázok közül a legártalmasabbak a kén-, a fluor-, a klór- és a nitrogénvegyületek, ezek főleg ipari üzemekből kerülnek ki. A gépjárművekből kikerülő kipufogógázok lombszáradást és növénypusztulást idéznek elő. A kipufogógáz ólomtartalma miatt a növény értékesíthetetlen lesz.",
+    "",
+    "A szennyvíz nagy nitrogéntartalma és a benne lévő kémiai anyagok, valamint a veszélyes mikroorganizmusok miatt káros.",
+    "",
+    "A műtrágyák, a növényvédő szerek a túladagolás, a szakszerűtlen használat esetén károsíthatják a növényeket. A túladagolás, az előírtnál nagyobb töménység hatására perzselés alakulhat ki a növényeken. Ha szakszerűtlen módon szeles időben juttatják ki a gyomirtó szereket, akkor az elsodródás miatt a közelben levő termesztett növények is károsodhatnak.",
+    "Külső eredetű, élő, fertőző kórokok",
+    "A külső eredetű, élő, fertőző kórokok (pl. vírusok, baktériumok, gombák), más néven a kórokozók fertőző növénybetegségeket okoznak. A kórokozók által a növényen okozott tüneteket kórképnek nevezik.",
+    "Növényt megbetegítő vírusok",
+    "A vírusok még nem sejtes szerveződésű élőlények. Méretük nanométerben adható meg, ami a milliméter milliomodrésze. Alakjuk változatos (1. ábra). A vírusok önálló anyagcserét nem folytatnak, hanem beépülnek a gazdanövénybe, megváltoztatják az anyagcseréjét és megbetegítik.",
+    "",
+    "",
+    "1. ábra: A vírusok változatos alakúak",
+    "Forrás: https://hu.depositphotos.com/379218012/stock-illustration-morphological-types-size-viruses-helical.html, (megnyitás: 2024.07.04.)",
+    "",
+    "A vírusok a zöldségnövényeken a következő tüneteket okozzák:",
+    "növekedéscsökkenés, törpülés,",
+    "torzulás, színelváltozás (pl. sárgulás).",
+    "mozaikfoltosság (a leveleken kialakuló, az erek által határolt szögletes, sárgás foltok) (2. ábra).",
+    "",
+    "2. ábra: Uborkamozaik vírus tünete",
+    "Forrás: https://hu.depositphotos.com/587863000/stock-photo-cucumber-mosaic-virus-cmv-important.html, (megnyitás: 2024.07.04.)",
+    "",
+    "A vírusok terjedhetnek:",
+    "mechanikai úton apró sebeken keresztül,",
+    "olyan élő szervezetekkel (állatokkal, élősködő növényekkel, gombákkal), amelyek a vírust felveszik, tovább viszik és leadják,",
+    "vegetatív úton szaporított növényrészekkel,",
+    "vetőmaggal,",
+    "talajjal.",
+    "",
+    "Mechanikai úton apró sebeken keresztül juthatnak be a növénybe a vírusok. A vírussal fertőzött növény szövetnedve jut be a seben keresztül. A szövetnedvben a vírusok megtartják a fertőzőképességüket, így megfertőzik a másik növényt is. A szövetnedv főleg a termesztési eljárások során (pl. kacsozás) szerszámokkal, de kézzel is átvihető egyik növényről a másikra. Az átvitel azonban úgy is megtörténhet, ha a fertőzött növény sérült levele érintkezik egy másik növényen keletkezett sebzési felülettel.",
+    "Az élő szervezetek közül jelentős vírusátvivők a fonálférgek, az ízeltlábúak (levéltetvek, tripszek (keskeny testfelépítésű, szúró-szívó szájszervű rovarok), kabócák, bogarak, atkák). Az állatok a vírusokat átvihetik a külső testrészükön. A növényeket a szívogatásukkal megsebző levéltetvek például a szúró-szívó szájszervükön megtapadt vírusokat vihetik át egyik növényről a másikra. A vírusok az állatok testébe is bejuthatnak, ami szintén a táplálkozásuk során kerül át a növénybe.",
+    "A vírusokat terjeszthetik a szívogatásukkal károsító élősködő növények is (pl.: aranka). A vírus a beteg növény szívókáin keresztül jut át az egészségesbe.",
+    "",
+    "A gombákkal történő átvitel csak néhány vírusnál jelentős.",
+    "",
+    "A vírusok átvihetők vegetatív úton szaporított növényrészekkel is, például hagymával, hagymagumóval, rizómával, szemzőhajtással, dugvánnyal.",
+    "",
+    "A vetőmag átviheti a vírusokat a felületén vagy a belsejében. A mag felületén elhelyezkedő vírus a csíranövényt fertőzi meg a csírázáskor.",
+    "",
+    "A talajjal történő átvitelkor a vírus a talaj kolloidjaihoz kötődik.",
+    "Növényt megbetegítő baktériumok",
+    "A növényeket megbetegítő baktériumok egysejtűek, pálcika alakúak, általában mikrométeres nagyságúak (a milliméter ezredrésze) (3. ábra). Osztódással szaporodnak.",
+    "",
+    "",
+    "3. ábra: A sárgarépán lágyrothadást okozó baktériumok",
+    "Forrás: https://pixels.com/featured/erwinia-carotovora-scimat.html, (megnyitás: 2024.07.04.)",
+    "",
+    "A baktériumok a növényekbe bejuthatnak sebeken, légzőnyílásokon, víznyílásokon (a levelek szélén vagy a csúcsán kialakuló, a víz kiválasztására alkalmas nyílásokon), paraszemölcsökön (lenticellákon: a másodlagos bőrszövet síkjából kiemelkedő, levegőcserét biztosító dudorokon) keresztül.",
+    "",
+    "A baktérium okozta tünetek a következők:",
+    "levélfoltosság,",
+    "lágyrothadás (4. ábra),",
+    "hervadás.",
+    "",
+    "4. ábra: Baktériumos Lágyrothadás tünete sárgarépán",
+    "Forrás: https://hun.imadeself.com/ovoshchi/alternarioz-morkovi.html, (megnyitás: 2024.07.04.)",
+    "",
+    "A baktériumok terjedhetnek:",
+    "fertőzött maggal (a mag belsejében és a mag felületén is), pollennel;",
+    "a vegetatív szaporítással: vegetatív úton szaporított növényi részekkel (pl. dugványokkal, hagymával, rizómával), oltás, szemzés esetén vírussal fertőzött alannyal, vagy a leválasztott nemes növényi résszel;",
+    "vízcseppekkel;",
+    "rovarok rágása okozta sebeken keresztül, fonálférgekkel;",
+    "az ember növényápoló munkájával.",
+    "",
+    "A baktériumok számára a nedves, párás körülmények a kedvezőek.",
+    "Növényt megbetegítő gombák",
+    "A gombák lehetnek egy- vagy többsejtűek, általában telepes felépítésűek (a sejtosztódással kialakuló új sejtek nem válnak szét, hanem együtt maradnak, telepet hoznak létre, de szövetek még nem alakulnak ki). A legtöbb gomba testét fonal alakú sejtek építik fel, amelyeket hifáknak (gombafonalnak) neveznek, ezek összessége a micélium (gombaszövet). A gombáknak nincsenek zöld színtestjeik, fotoszintézisre nem képesek. Táplálkozásukhoz szerves anyagra van szükségük: egyes gombafajok elpusztult élőlények maradványain élnek, mások a növények gyökérzetén keresztül juthatnak tápanyaghoz, vagy az élő gazdaszervezet (pl. a növények) tápanyagait bontják le. Spórákkal szaporodnak.",
+    "",
+    "A legtöbb növényi betegséget a gombák okozzák. A gombák természetes nyílásokon (pl. sztómán), vagy sérüléseken keresztül hatolnak a növényi szövetbe, de vannak olyan gombafajok, amelyek képesek áttörni a növény felületén. Terjedésüket segíti a víz, a légmozgás, de terjedhetnek a fertőzött szaporítóanyaggal is: vetőmaggal, ivartalan szaporítóképletekkel (pl. gumóval, hagymával).",
+    "",
+    "A növényeket megbetegítő gombafajok micéliuma vagy a növények felületén, vagy a növények belsejében található. A növény felületén élő gombafajok a táplálkozásuk érdekében hifákat bocsátanak a növénybe.",
+    "",
+    "A kórokozó gombák hatására a gombafajtól függően változatos tünetek alakulhatnak ki. A legjellemzőbb tünetek:",
+    "palántadőlés (5. ábra),",
+    "hervadás (6. ábra),",
+    "penészes rothadás (7. ábra, 8. ábra),",
+    "foltosodás (9. ábra, 10. ábra, 11. ábra),",
+    "lisztes bevonat (12. ábra).",
+    "",
+    "A növényeket károsító gombák környezeti igényei is eltérőek. Vannak olyanok, amelyek száraz meleg időben, mások hűvös, csapadékos körülmények között okozhatnak járványt.",
+    "",
+    "5. ábra: Palántadőlés",
+    "Forrás: https://www.agrofil.hu/hu/hirek/csiranovenyek-betegsegei-palantadoles, (megnyitás: 2024.07.04.)",
+    "",
+    "",
+    "6. ábra: A borsó fuzáriumos hervadása",
+    "Forrás: https://docplayer.hu/111023828-A-borso-betegsegei-fuzarium-alternaria-aszkohita-rizoktonia-fajok-a-talajbol-fertoznek-es.html, (megnyitás: 2024.07.04.)",
+    "",
+    "",
+    "7. ábra: Penészes rothadás a sárgarépán",
+    "Forrás: https://magyarmezogazdasag.hu/2017/11/18/tarolasi-karositok, (megnyitás: 2024.07.04.)",
+    "",
+    "",
+    "8. ábra: A paradicsom botritiszes betegsége",
+    "Forrás: https://www.alamy.com/stock-photo-grey-mould-botrytis-cinerea-mycelium-on-glasshouse-tomato-fruit-20694819.html, (megnyitás: 2024.07.04.)",
+    "",
+    "",
+    "9. ábra: Foltosodás a paradicsom levelén",
+    "Forrás: http://safru.hu/paradicsom-gyakori-betegsegei, (megnyitás: 2024.07.04.)",
+    "",
+    "10. ábra: Káposztaperonoszpóra",
+    "Forrás: https://www.invasive.org/browse/detail.cfm?imgnum=5512808, (megnyitás: 2024.07.04.)",
+    "",
+    "",
+    "11. ábra: A sárgarépa alternáriás levélfoltossága",
+    "Forrás: https://www.maag-garden.ch/de/produktsuche/nach-schaden/alternaria-moehrenschwaerze-458.php, (megnyitás: 2024.07.04.)",
+    "",
+    "",
+    "12. ábra: Uborkalisztharmat",
+    "Forrás: https://hu.depositphotos.com/207910558/stock-photo-close-cucumber-leafs-white-powdery.html, (megnyitás: 2024.07.04.)",
+    "Kártevő állatok",
+    "Kártevő állatoknak nevezik azokat a növényevő állatfajokat, amelyek a növénytermesztés eredményességét hátrányosan befolyásolják. A növényevő állatfajok jelentős károkat okoznak a növények termesztése és a termények raktározása során.",
+    "",
+    "A zöldségtermesztésben károsító állati kártevők nagyobb csoportjai:",
+    "fonálférgek: pl. gyökérgubacsképző fonálférgek (13. ábra), gumórontó-fonálféreg, burgonya-fonálféreg;",
+    "puhatestűek: pl. meztelen csigák (15. ábra);",
+    "ízeltlábúak:",
+    "rákok: pl. ászkarákok (16. ábra);",
+    "rovarok: pl. tripszek (17. ábra), molytetvek (18. ábra), levéltetvek (19. ábra), bogarak (20. ábra), lepkék (21., 22. ábra), legyek (23., 24. ábra), szúnyogok;",
+    "atkák: pl. takácsatkák (25., 26. ábra);",
+    "madarak: pl. balkáni gerle (27. ábra);",
+    "emlősök: pl. mezei nyúl, mezei pocok (28. ábra).",
+    "",
+    "",
+    "13. ábra: Gyökérgubacsképző fonálféreg",
+    "Forrás: https://www.cabidigitallibrary.org/doi/10.1079/cabicompendium.33245, (megnyitás: 2024.07.04.)",
+    "",
+    "",
+    "14. ábra: Gyökérgubacsképző fonálféreg kárképe a paradicsom gyökerén",
+    "Forrás: https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/meloidogyne-javanica, (megnyitás: 2024.07.04.)",
+    "",
+    "",
+    "15. ábra: Spanyol csupasz csiga kárképe a karfiol levelén",
+    "Forrás: https://hu.depositphotos.com/608813510/stock-photo-spanish-slug-pest-arion-vulgaris.html, (megnyitás: 2024.07.04.)",
+    "",
+    "16. ábra: Ászka",
+    "Forrás: https://hu.depositphotos.com/616873092/stock-photo-detailed-closeup-european-common-grey.html, (megnyitás: 2024.07.04.)",
+    "",
+    "",
+    "17. ábra: Tripsz kárképe a vöröshagyma levelén",
+    "Forrás: https://hu.depositphotos.com/466138212/stock-photo-dangerous-pest-important-commercial-crops.html, (megnyitás: 2024.07.04.)",
+    "",
+    "",
+    "18. ábra: Üvegházi molytetű (kb. 1 mm hosszúságú)",
+    "Forrás: https://hu.depositphotos.com/302671946/stock-photo-groups-tiny-trialeurodes-vaporariorum-leaf.html, (megnyitás: 2024.07.04.)",
+    "",
+    "",
+    "19. ábra: Levéltetvek a (kb. 1-3 mm-es nagyságúak) bab levelén",
+    "Forrás: https://hu.depositphotos.com/407594718/stock-photo-black-bean-aphid-aphis-fabae.html, (megnyitás: 2024.07.04.)",
+    "",
+    "",
+    "20. ábra: Burgonyabogár (kb. 1 cm nagyságú)",
+    "Forrás: https://hu.depositphotos.com/492258682/stock-photo-colorado-potato-beetle-green-plant.html, (megnyitás: 2024.07.04.)",
+    "",
+    "",
+    "21. ábra: Káposztalepke (kb. 5 cm nagyságú)",
+    "Forrás: https://hu.depositphotos.com/76787897/stock-photo-isolated-large-white-butterfly.html, (megnyitás: 2024.07.04.)",
+    "",
+    "",
+    "22. ábra: Káposztalepke hernyója (kb. 5 cm hosszúságú)",
+    "Forrás: https://hu.depositphotos.com/330526692/stock-photo-close-up-of-cabbage-caterpillars.html, (megnyitás: 2024.07.04.)",
+    "",
+    "",
+    "23. ábra: Hagymalégy (kb. 6-6,5 mm hosszú)",
+    "Forrás: https://hu.depositphotos.com/111911996/stock-photo-delia-antiqua-fly-on-onion.html, (megnyitás: 2024.07.04.)",
+    "",
+    "",
+    "24. ábra: Hagymalégy lárvái (nyűvek) (kb. 5-7 mm hosszú)",
+    "Forrás: https://www.aujardin.info/fiches/delia-antiqua.php, (megnyitás: 2024.07.04.)",
+    "",
+    "",
+    "25. ábra: Közönséges takácsatka (kb. 0,3-0,5 mm nagyságú)",
+    "Forrás: https://www.sciencephoto.com/media/1168564/view/red-spider-mite-tetranychus-urticae, (megnyitás: 2024.07.05.)",
+    "",
+    "",
+    "",
+    "26. ábra: Közönséges takácsatka kárképe a paradicsom levelén",
+    "Forrás: https://hu.depositphotos.com/324279500/stock-photo-close-mass-red-spider-mites.html, (megnyitás: 2024.07.05.)",
+    "",
+    "",
+    "27. ábra: Balkáni gerle",
+    "Forrás: https://hu.depositphotos.com/64739717/stock-photo-eurasian-collared-dove-streptopelia-decaocto.html, (megnyitás: 2024.07.05.)",
+    "",
+    "",
+    "28. ábra: Mezei pocok (kb. 12-14 cm nagyságú)",
+    "Forrás: https://hu.depositphotos.com/34020381/stock-photo-common-vole-microtus-arvalis-on.html, (megnyitás: 2024.07.05.)",
+    "",
+    "A legtöbb kártevő az ízeltlábúakhoz, azon belül a rovarokhoz tartozik. Jelenleg több mint egymillió az ismert rovarfajok száma, ez kétszer annyi, mint az összes többi élőlényfaj együtt. Mivel az összes élőlényfaj számán belül ilyen nagy arányú a rovarok fajszáma, ezért a kártevő élőlények csoportján belül is a legnépesebb csoportot képviselik.",
+    "",
+    "A kártevő állatok által okozott, szabad szemmel is látható elváltozás a kárkép. A kárkép jellegzetességei segítenek a kártevő azonosításában.",
+    "",
+    "A kárképek típusai:",
+    "sérülések, sebek: pl. rágás a növényi részeken (15., 20., 22. ábra);",
+    "szín- és alakváltozás: pl. ezüstös elszíneződés a tripszek szívogatása miatt bekövetkező klorofill-elhalás miatt (17. ábra);",
+    "gubacsok: a kártevő tevékenysége (például szívogatása) miatt szövetburjánzás alakul ki a növényen, ami térfogat-gyarapodás, azaz gubacs formájában látható a növényen (14. ábra);",
+    "növényi részek hervadása, száradása;",
+    "a kártevő állatok ürüléke, váladéka, szövedéke (26. ábra).",
+    "Gyomnövények",
+    "A gyomnövények fogalma, kártétele",
+    "Gyomnak nevezik bármely fejlődési stádiumban lévő növényt vagy növényi részt (mag, tarack, rizóma, hagyma stb.), amely ott fordul elő, ahol jelenléte nem kívánatos.",
+    "A nemkívánatos jelenlét azt jelenti, hogy vannak olyan növények, amelyekről általában mindenki tudja, hogy gyomnövény, például a pongyola pitypang (39. ábra), de a haszonnövényként (olyan növények, amelyek az ember számára élelmezési, ipari, esztétikai vagy egyéb értéket jelentenek) ismert napraforgó is gyomnövénynek tekinthető, ha egy szabadföldi zöldborsótáblában fordul elő. Viszont a pongyola pitypang sem mondható minden esetben gyomnak, mert gyógynövényként is felhasználható a levele és a gyöktörzse. Ha egy réten jelenik meg, ott nem mondható a jelenléte nem kívánatosnak, nem tekinthető gyomnövénynek.",
+    "A gyom megnevezés tehát nem jelent egy meghatározott növénycsoportot, a kártétel megléte dönti el, hogy az adott esetben gyomnak neveznek-e egy növényt.",
+    "",
+    "A gyomnövények többféle módon okozhatnak kárt a haszonnövények termesztésekor:",
+    "területfoglalással,",
+    "allelopátiás hatásukkal,",
+    "versengéssel (kompetíció),",
+    "kártevők élőhelyeiként funkcionálhatnak,",
+    "szennyezik a betakarított termést.",
+    "",
+    "A gyomnövények kártételének a leginkább észrevehető formája, hogy a termesztett növények közötti megjelenésükkel területet foglalnak el. A kistermetű fajok nagy mennyiségükkel, például a tyúkhúr (35. ábra); a nagytermetű fajok, például a parlagfű (30. ábra) szálankénti előfordulásukkal is képesek a haszonnövények elnyomására.",
+    "",
+    "Több gyomnövény allelopátiás hatású. Az allelopatikus növények leggyakrabban a gyökerükön vagy a levelükön keresztül olyan kémiai anyagokat bocsátanak ki, amelyek más növények (a kultúrnövényeken kívül ezek más gyomnövények is lehetnek) csírázását, növekedését, fejlődését gátolhatják. Ilyen gátló anyagok a növények szárában, virágában, termésében és a lehullott magjában is előfordulhatnak. Az allelopatikus anyagok a növényből kipárolgással, gyökér általi kiválasztással, eső hatására a levelekből történő kimosódással, az allelopatikus növények növényi maradványainak elbomlása után kerülhetnek a környezetbe.",
+    "",
+    "Egy adott területen a növényfajok között verseny folyik a fény, a víz és a tápanyagok megszerzéséért. A gyomnövények a haszonnövényeknél gyorsabb és erőteljesebb növekedésűek, fejlődésűek, így a termesztett növények ebben a versenyben a legtöbbször alulmaradnak.",
+    "Az elgyomosodott területek a kártevő állatok élőhelyei és természetes tápnövényei. A gyomos állományok mikroklímája kedvez a kórokozók elszaporodásának. A gyomnövények akadályozzák a növényvédő szerek eljutását is a haszonnövényekhez, rontják a növényvédelmi munkák hatékonyságát. A gyomnövények sokszor akadályozzák az egyéb növényápolási munkákat is.",
+    "",
+    "A gyomok növényi részei, főleg a termésük és a magjuk a kultúrnövények termését és a belőlük készült termékeket szennyezhetik. Ebből a szempontból meghatározó jelentőségűek a mérgező gyomnövények. Ilyen mérgező növény például a csattanó maszlag (33. ábra), amelynek minden része mérgező. Különösen a főzeléknövények (pl. zöldborsó, zöldbab) termesztésekor nem szabad meghagyni a növények között, mert a gépi betakarításkor bekerülhet a feldolgozásra, fogyasztásra kerülő növényi részek közé.",
+    "",
+    "A „jó gyom” fogalma",
+    "A gyomnövényeknek a gazdasági szempontból kifejeződő kártétele mellett pozitív hatásai is vannak. A mélyen gyökerező gyomok tápanyagokat hoznak fel a talaj alsóbb rétegeiből, melyeket számos kultúrnövény (a vadon termő növényekből nemesített és termesztett növények) nem érne el. A gyomnövények a talajok nitrát túltelítettségét is enyhíteni képesek, mivel a növekedésük során nagy mennyiségű nitrogént vesznek fel a környezetükből.",
+    "A gyomállomány védi a talajt az eróziótól, azon kívül kedvező mikroklímát biztosít a talaj mikroorganizmusainak és ellátja őket szerves hulladékkal. Jelzi a környezeti tényezőket (klíma, talajtípus, víz- és tápanyag-ellátottság, talajkémhatás).",
+    "",
+    "A biológiai sokféleség hordozói és jelentős szerepük van az agroökoszisztémákban (a mezőgazdasági termeléssel kialakított növénytársulásokban). A kultúrnövények mellett a gyomok is fontos szerepet töltenek be az agroökoszisztémák táplálékláncában. A különböző növényi részek, pl. a levél, szár, pollen és nektár táplálékul szolgálnak a növényevő állatoknak és beporzó rovaroknak. Számos rovar életciklusa kötődik a gyomnövényekhez, például a tyúkhúr esetében több mint 70 rovarfajjal mutattak ki ilyen kapcsolatot. Ezen kívül a gyomvegetáció az állatok búvó- és szaporodási helye is.",
+    "",
+    "A gyomok fontos táplálékforrásai a mezei vadfajoknak, egyrészt közvetlenül a magvak, másrészt a gyomokat fogyasztó rovarok révén. Számos napjainkban veszélyeztetett madárfaj esetében a felnőtt egyedek legfontosabb táplálékai a gyommagvak, míg a csibék elsősorban a gyomokkal társuló rovarfaunát fogyasztják. Hazánkban például a fogoly táplálékának zömét a következő növények szolgálják: szulákpohánka, kövér porcsin, zöld és fakó muhar, fehér libatop, kakaslábfű és szőrös disznóparéj. A fogolycsibék 20 napos korukig rovarokkal táplálkoznak, amelyek között jelentős hányadot képviselnek a gyom-, ill. a termesztett növények kártevői. Nemzetközi kutatások szerint a gyomnövénycsaládok közül a következők különösen fontosak a szántóföldi élőhelyekhez kötődő madarak táplálkozásában: pázsitfűfélék, keserűfűfélék, libatopfélék, szegfűfélék és keresztesvirágúak.",
+    "",
+    "A fentiek figyelembevételével megszületett a „jó gyom” fogalma, ahová olyan fajokat sorolnak, melyek a kultúrnövényhez viszonyítva kevésbé versenyképesek, ugyanakkor értékesek a gerinctelen élőlények és a madarak szempontjából. Angliai vizsgálatok szerint ide tartozik például a madár keserűfű, a vadrepce, a fehér libatop, a baracklevelű keserűfű, a tyúkhúr, az egynyári perje, a piros árvacsalán, a pásztortáska és a perzsa veronika.",
+    "",
+    "Hazánkban mintegy 150 olyan gyomnövény él, amelyek veszélyeztetettségük révén felkerültek a Vörös Listára (a kihalással fenyegetett fajok listája). Ezek a növények az intenzív mezőgazdasági termelés következtében eltűnőben vannak, más fajok viszont jelentősen felszaporodtak az elmúlt évtizedekben. Ez utóbbiak közé tartozik például a sok problémát okozó parlagfű. A parlagfű terjedése meggyorsítja a biodiverzitás (az élőlények biológiai sokfélesége) pusztulását, nemcsak azzal, hogy elözönli az élőhelyeket és elnyomja az értékesebb gyomfajokat, hanem azért is, mert a visszaszorítására tett erőfeszítések többnyire egyet jelentenek a teljes gyomnövényzet megsemmisítésével.",
+    "A kertészeti kultúrák legfontosabb gyomnövényei",
+    "A kertészeti kultúrákban előforduló leggyakoribb gyomnövények életformájukat tekintve egyévesek vagy évelők. Az egyéves növények egy év alatt magot érlelnek, és ezt követően elpusztulnak. Az évelők olyan lágyszárú növények, amelyek valamilyen szervükkel (például a hagymával) áttelelnek, így több éven keresztül életben maradnak, és magot érlelnek.",
+    "",
+    "Egyéb növénytani jellemzőik alapján ezek a gyomnövények lehetnek egyszikűek vagy kétszikűek. Az egyszikű növények legjellemzőbb tulajdonsága a bojtos gyökérzet és a párhuzamos erezetű levél. A kétszikű növényeknek főgyökérrendszere van, levélerezetük, főérből és oldalerekből áll.",
+    "Egyéves, kétszikű gyomnövények",
+    "Szőrös disznóparéj",
+    "A szőrös disznóparéj (29. ábra) észak-amerikai eredetű, egyéves, kétszikű növény.",
+    "A talaj felmelegedését követően kelése tavasztól nyár elejéig folyamatos. Később a magja csak nedves talajban csírázik.",
+    "Ültetvényekben, kertekben, házak körül, parlagokon rendszeresen gyomosít.",
+    "",
+    "29. ábra: Szőrös disznóparéj",
+    "Forrás: https://hu.depositphotos.com/325233680/stock-photo-gardening-green-amaranth-amaranthus-retroflexus.html, (megnyitás: 2024.07.05.)",
+    "",
+    "Ürömlevelű parlagfű",
+    "Az ürömlevelű parlagfű (30. ábra) észak-amerikai eredetű, egyéves, kétszikű növény.",
+    "Magvai a talaj felmelegedése után tavasztól a nyár végéig folyamatosan csíráznak. Júniustól októberig virágzik. Virágpora veszélyes allergén (allergiás reakciót kiváltó anyag)!",
+    "Utak mellett, parlagokon hatalmas állományai alakulhatnak ki. Elszaporodását a parlagterületek növekedése is elősegíti.",
+    "",
+    "30. ábra: Ürömlevelű parlagfű",
+    "Forrás: https://hu.depositphotos.com/12464848/stock-photo-ambrosia-common-ragweed-09.html, https://hu.depositphotos.com/82514926/stock-photo-american-common-ragweed.html, (megnyitásuk: 2024.07.05.)",
+    "",
+    "Pásztortáska",
+    "A pásztortáska (31. ábra) Európában őshonos, de a világon sokfelé elterjedt egyéves, kétszikű gyomnövény.",
+    "Magjai a nyár végén, ősszel, de tavasszal is csíráznak. „A téli hideget csíranövény (a csírázáskor kialakuló olyan fiatal növény, amelynek még nincsenek lomblevelei) vagy tőlevélrózsa alakjában vészeli át.”",
+    "A pásztortáska kertekben, utak mentén, mezőgazdasági területeken gyakran előfordul.",
+    "",
+    "",
+    "31. ábra: Pásztortáska",
+    "Forrás: https://hu.depositphotos.com/452881944/stock-photo-capsella-bursa-pastoris-flowers-fruit.html, https://hu.depositphotos.com/194468340/stock-photo-shepherd-purse-capsella-bursa-pastoris.html, (megnyitásuk: 2024.07.05.)",
+    "",
+    "Fehér libatop",
+    "A fehér libatop (32. ábra) Eurázsiai-mediterrán származású, egyéves, kétszikű növény.",
+    "Magjai tavasztól őszig egyformán jól csíráznak, de az intenzív csírázása március-május hónapokra tehető.",
+    "Vetési és útszéli gyomtársulások gyakori növénye. A szántóföldeken kívül kertekben és ültetvényekben is általánosan elterjedt. Megtalálható nem művelt területeken is. Veszélyességét fokozza, hogy számos kártevő és kórokozó gazdanövénye.",
+    "",
+    "32. ábra: Fehér libatop",
+    "Forrás: https://hu.depositphotos.com/378397428/stock-photo-nature-field-grows-orach-chenopodium.html, https://hu.depositphotos.com/362096846/stock-photo-nature-field-grows-chenopodium-album.html, (megnyitásuk: 2024.07.05.)",
+    "",
+    "Csattanó maszlag",
+    "A csattanó maszlag (33. ábra) Észak-Amerikából és Mexikóból származik, ma már az egész világon elterjedt. Egyéves, kétszikű növény.",
+    "Tavasztól nyár elejéig különböző mélységekből folyamatosan nagy tömegben csírázik. A fő csírázási ideje május. Csírázása és kelése a nyári időszakban is megfigyelhető.",
+    "A növény minden része, de leginkább a levele és a magja mérgező!",
+    "A művelt és a parlagterületeken egyaránt előfordul. Szántóföldön különösen a kapásnövények kellemetlen károsítója.",
+    "",
+    "",
+    "",
+    "33. ábra: Csattanó maszlag",
+    "Forrás: https://hu.depositphotos.com/419143526/stock-photo-thorn-apple-datura-stramonium-rhineland.html, https://hu.depositphotos.com/639569826/stock-photo-wild-grows-poisonous-medicinal-plant.html, (megnyitásuk: 2024.07.05.)",
+    "",
+    "Kanadai betyárkóró",
+    "A kanadai betyárkóró (34. ábra) Észak- és Közép-Amerikában honos, de mára már világszerte elterjedt, egyéves, kétszikű növény, de ősszel csírázva áttelelő.",
+    "Május végétől október elejéig virágzik, nedvesség esetén magjai kora tavasztól késő őszig jól csíráznak.",
+    "",
+    "Korábban szinte csak parlagterületeken jelent meg, de most már mindenfelé nagy mennyiségben elterjedt. Terjedését segíti, hogy olyan kémiai anyagokat termel, amivel képes meggátolni más növények csírázását, tehát képes elpusztítani a körülötte lévő gyomokat is. Több gyomirtó szerrel szemben ellenálló. ",
+    "",
+    "34. ábra: Kanadai betyárkóró",
+    "Forrás: https://hu.depositphotos.com/256444768/stock-photo-horseweed-erigeron-conyza-canadensis.html, https://hu.depositphotos.com/598316956/stock-photo-erigeron-canadensis-grows-wild-summer.html, (megnyitásuk: 2024.07.05.)",
+    "",
+    "Tyúkhúr",
+    "A tyúkhúr (35. ábra) európai származású egyéves, kétszikű növény. A tyúkhúr vékony karógyökérrel csatlakozik a talajhoz. Elfekvő szárú növény, szőnyegszerűen betakarja a talajt.",
+    "Már 2 °C-on megindul a csírázása, de az optimális hőmérséklet 15 °C körül van. Nyár végén, ősszel kezd csírázni, de még tavasszal is folytatódhat a csírázása.",
+    "Ha egy-egy területen túlburjánzik, nem hagyja levegőhöz jutni a kultúrnövényeket, késleltetheti a fejlődésüket.",
+    "",
+    "",
+    "35. ábra: Tyúkhúr",
+    "Forrás: https://hu.depositphotos.com/475244818/stock-photo-spring-stellaria-media-grows-wild.html, (megnyitás: 2024.07.05.)",
+    "",
+    "Kövér porcsin",
+    "A kövér porcsin (36. ábra) ázsiai származású, de ma már szinte az egész világon elterjedt egyéves, kétszikű gyomnövény. Pozsgás szárú és levelű növény.",
+    "Fő csírázási időszaka a késő tavasz. Kedveli a meleg időjárást, a napos területeket, a homokos talajokat, szárazságtűrő.",
+    "Kapás- és zöldségkultúrákban, szőlőültetvényekben, falaknál és utakon gyakori.",
+    "",
+    "",
+    "36. ábra: Kövér porcsin",
+    "Forrás: https://hu.depositphotos.com/536026842/stock-photo-nature-soil-weed-grows-purslane.html, (megnyitás: 2024.07.05.)",
+    "",
+    "Porcsin keserűfű",
+    "A porcsin keserűfű (37. ábra) az egész Földön elterjedt, egyéves, kétszikű növény.",
+    "A kora tavasztól nyárig csírázó növény, igénytelen, a taposást is jól tűrő növény, szőnyegszerűen képes beborítani a talajt. Gyökerei mélyre hatolnak a talajba.",
+    "A forgatás nélküli talajművelés kedvez az elszaporodásának.",
+    "",
+    "37. ábra: Porcsin keserűfű",
+    "Forrás: https://hu.depositphotos.com/606345568/stock-photo-stems-common-knotgrass-leaves-covered.html, (megnyitás: 2024.07.05.)",
+    "Évelő, kétszikű gyomnövények",
+    "Apró szulák",
+    "Az apró szulák (38. ábra) dél-eurázsiai eredetű, évelő, kétszikű növény. Ivartalanul a talajban mélyen kúszó gyökértarackjaival (szaporítógyökereivel) terjed.",
+    "Június elejétől kora őszig virágzik. Szaporítógyökerei (módosult gyökér, amelyen szaporodást szolgáló járulékos rügyek képződnek) miatt nehezen irtható. Kiterjedt gyökérrendszere miatt a tápanyagokért és a vízért történő versengésben a kultúrnövények és más gyomfajok jelentős versenytársa. „Allelopátiás hatása is ismert: csírázásgátlást, esetleg a kultúrnövények növekedésének gátlását okozhatja”.",
+    "",
+    "Hazánkban közönséges. Nagy tömegei az Alföld száraz területein (szántóföldek, kertek, szőlő, gyümölcsösök stb.) találhatók meg, de előfordul az ország más területein is.",
+    "",
+    "",
+    "38. ábra: Apró szulák",
+    "Forrás: https://hu.depositphotos.com/535602840/stock-photo-flowers-blooming-park.html, (megnyitás: 2024.07.05.)",
+    "",
+    "Pongyola pitypang",
+    "A pongyola pitypang (39. ábra) erőteljes karógyökeret fejlesztő, évelő, kétszikű gyomnövény. Gyökere valójában függőleges gyöktörzs (rizóma). Gyöktörzse segítségével áttelel.",
+    "„Ahol megtelepszik, ott nagyon káros gyommá válhat. Veszélyét növeli, hogy magról és erős gyökérrendszeréről (gyöktörzséről) is jól szaporodik”.  A talajművelés miatt feldarabolódó gyöktörzsének kis darabjairól is kihajthat. Magról is szaporodik, termése a szél útján nagy távolságra eljuthat.",
+    "",
+    "",
+    "",
+    "39. ábra: Pongyola pitypang",
+    "Forrás: https://hu.depositphotos.com/568457646/stock-photo-closed-bud-dandelion-dandelion-white.html, https://hu.depositphotos.com/567789652/stock-photo-whole-dandelion-plant-roots-table.html, (megnyitásuk: 2024.07.06.)",
+    "",
+    "Mezei aszat",
+    "A mezei aszat (40. ábra) Eurázsia mediterrán területeiről terjedt el és került Közép-Európába. Évelő, szaporítógyökeres, kétszikű növény.",
+    "Ivartalan úton gyökértarackjaival szaporodik. Magja a repítőkészülékkel (a termés csúcsán kialakuló bóbita) ellátott termése útján a szél segítségével nagy távolságokra is eljuthat.",
+    "Szántóföldeken, kertekben, ültetvényekben az egyik legnehezebben kezelhető gyomnövény.",
+    "",
+    "",
+    "40. ábra: Mezei aszat",
+    "Forrás: https://hu.depositphotos.com/49943743/stock-photo-cirsium-arvense-canada-thistle-flower.html, https://hu.depositphotos.com/645516726/stock-photo-cirsium-arvense-perennial-species-flowering.html, (megnyitásuk: 2024.07.06.)",
+    "",
+    "Szürke madársóska",
+    "A szürke madársóska (41. ábra) a Földközi-tenger mentén volt őshonos, de mára már az egész világon elterjedt egyéves vagy évelő kétszikű gyomnövény.",
+    "",
+    "Az indás évelők csoportjába tartozik, Magyarországon egynyári, melegebb éghajlaton évelő. A föld felett kúszó indáinak (a föld felszínén szétterjedő szaporodásra módosult föld feletti szárainak) a legyökeresedésével vegetatív szaporodásra képes. A legyökeresedő indák segítségével gyorsan terjed.",
+    "",
+    "Áprilistól október közepéig folyamatosan virágzik. Sok, könnyen kicsírázó magot érlel a növény. Magról is jól szaporodik. A termések a magokat messzire elszórják.",
+    "",
+    "",
+    "41. ábra: Szürke madársóska",
+    "Forrás: https://hu.depositphotos.com/634478304/stock-photo-yellow-wood-sorrel-sits-stone.html, (megnyitás: 2024.07.06.)",
+    "Egyéves, egyszikű gyomnövények",
+    "Héla zab",
+    "A héla zab (42. ábra) Eurázsiában őshonos, egyéves, egyszikű növény.",
+    "Magról szaporodik. A magvak csírázása már viszonylag alacsony hőmérsékleten megindul, április első harmadában csírázik. A növény jól bokrosodik, ezért nagy mennyiségű magot érlel.",
+    "Az országban gyakorlatilag minden művelt területen megtalálható, a homokos talajokat kevésbé kedveli. Általában a táblaszegélyben kel erősebben és innen terjed a tábla belseje felé.",
+    "",
+    "",
+    "42. ábra: Héla zab",
+    "Forrás: https://hu.depositphotos.com/268876816/stock-photo-avena-fatua-wild-oat-isolated.html, (megnyitás: 2024.07.06.)",
+    "",
+    "Közönséges kakaslábfű",
+    "A közönséges kakaslábfű (43. ábra) dél-eurázsiai eredetű egyszikű, egyéves gyomnövény. Az egyik legelterjedtebb és legveszélyesebb egyszikű gyomnövény.",
+    "",
+    "Nyár elején csírázó, ősszel magot érlelő gyom. Nagyobb mélységből is csírázóképes, csírázási időszaka elnyújtott, gyakran több hullámban kel. Magassága az egy métert is meghaladhatja. A szár alsó részében földre hajló (letérdelő) növény gyakran legyökeresedik.",
+    "",
+    "A kötött talajokon kívül mindenütt megtalálja életfeltételeit. Eredetileg mocsári növény volt, ezért a vízborítást is jól tűri, de a száraz talajokon is jól megél.",
+    "",
+    "43. ábra: Közönséges kakaslábfű",
+    "Forrás: https://gobotany.nativeplanttrust.org/species/echinochloa/crus-galli/, (megnyitás: 2024.07.06.)",
+    "",
+    "Pirók ujjasmuhar",
+    "A pirók ujjasmuhar (44. ábra) az egész Földön elterjedt, egyéves, egyszikű növény.",
+    "Szára először elfekvő, majd felálló. A lekönyöklő szár gyakran legyökeresedik. A növény jól bokrosodik. Melegkedvelő, mélyre nyúló gyökérrendszere miatt a szárazsággal szemben ellenálló. Virágzata kézfej alakú, általában 5-7 elágazásra tagolódik, de ezek sohasem egy pontból erednek. Ez alapján is megkülönböztethető a hozzá hasonló csillagpázsittól.",
+    "Magja május közepétől szeptemberig csírázik.",
+    "",
+    "A pirók ujjasmuhar élőhelyéről sikeresen kiszorítja a többi gyomot is. Allelopátiás hatása miatt a kultúrnövények fejlődését is visszaveti.",
+    "",
+    "",
+    "44. ábra: Pirók ujjasmuhar",
+    "Forrás: https://hu.depositphotos.com/432702732/stock-photo-wild-digitaria-sanguinalis-grows-field.html, https://hu.depositphotos.com/494738552/stock-photo-wild-digitaria-sanguinalis-grows-field.html, (megnyitásuk: 2024.07.06.)",
+    "Évelő, egyszikű gyomnövények",
+    "Csillagpázsit",
+    "A csillagpázsit (45. ábra) egyszikű, évelő gyomnövény. Erőteljesen, hosszan kúszó tarackjaival terjed, így sűrű gyepet is alkothat.",
+    "Elsősorban vegetatív úton, tarackokkal szaporodik. A taposást és a szárazságot is jól tűri.",
+    "",
+    "",
+    "45. ábra: Csillagpázsit",
+    "Forrás: https://hu.depositphotos.com/460702920/stock-photo-field-full-wild-dynodon-dactylon.html, https://hu.depositphotos.com/206437952/stock-photo-cynodon-dactylon-grama-allergens-plants.html, (megnyitásuk: 2024.07.06.)",
+    "",
+    "Közönséges tarackbúza",
+    "A közönséges tarackbúza (46. ábra) évelő, rendszerint ivartalan úton, szártarackjaival szaporodó, egyszikű növény.",
+    "",
+    "Nagyobb távolságokra maggal terjed. A magok könnyen és gyorsan csíráznak. A csírázás évében még nem virágzik, csak szártarackot fejleszt. Június elejétől késő őszig virágzik.",
+    "Az országban mindenütt honos. Ahol nem bolygatják a talajt, ott felszaporodhat.",
+    "",
+    "46. ábra: Közönséges tarackbúza",
+    "Forrás: https://hu.depositphotos.com/479778946/stock-photo-meadow-wild-grows-grass-weeds.html, https://extension.usu.edu/pests/ipm/images/turf-pest-guide/weeds/quack_grass_steve_dewey_utah_state_university_bugwood.jpg, (megnyitásuk: 2024.07.07.)",
+    "",
+    "",
+    "IRODALOMJEGYZÉK",
+    "Dr. Csorba Virág: Milyen tulajdonság a rezisztencia és a tolerancia?:",
+    "https://agroforum.hu/szaktanacsadas-kerdesek/milyen-tulajdonsag-a-rezisztencia-es-a-tolerancia/, (megnyitás: 2024.06.20.)",
+    "Dr. Füstös Zsuzsanna, Dr. Hodossi Sándor-Dr. Kovács András: Zöldségtermesztés I., 2020., Budapest, Herman Ottó Intézet.",
+    "Dr. Glits Márton, Dr. Pénzes István, Dr. Petrányi István: Általános növényvédelmi ismeretek, 2007., Budapest, FVM Vidékfejlesztési, Képzési és Szaktanácsadási Intézet.",
+    "Dr. Karmán József: Szántóföldjeink gyomnövényei - Pongyola pitypang:",
+    "https://www.agronaplo.hu/szakfolyoirat/2000/12/novenyvedelem/szantofoldeink-gyomnovenyei-pongyola-pipang-taraxacum-officinale-web, (megnyitás: 2024.06.22.)",
+    "Dr. Pinke Gyula: A gyomnövények haszna: https://www.agronaplo.hu/szakfolyoirat/2011/03/szantofold/a-gyomnovenyek-haszna-2, (megnyitás: 2024.06.27.)",
+    "Zöldségfélék védelme: http://zoldcentrum.hu/pdf/03_zoldseg_technologia.pdf, (megnyitás: 2024.06.23.)",
+    "Simonitsné Krausz Dóra: Kis mennyiségű permetlé bekeverése háztáji permetezéshez: https://agroforum.hu/blog/haz-taj/kis-mennyisegu-permetle-bekeverese-haztaji-permetezeshez/, (megnyitás: 2024.06.21.)",
+    "Csomagolóeszköz begyűjtési rendszer: https://cseber.hu/, (hivatkozási dátum: 2024.06.26.)",
+    "Mit jelent a növények védelme?: https://portal.nebih.gov.hu/-/mit-jelent-a-novenyek-vedelme-, (megnyitás: 2024.06.19.)",
+    "A növényvédő szerek csoportosítása a hatóanyag és a növény kapcsolata szerint:",
+    "https://portal.nebih.gov.hu/-/a-novenyvedo-szerek-csoportositasa-a-hatoanyag-es-a-noveny-kapcsolata-szerint, (megnyitás: 2024.06.23.)",
+    "A növényvédő szerek csoportosítása a környezeti kockázat szerint:",
+    "https://portal.nebih.gov.hu/-/a-novenyvedo-szerek-csoportositasa-a-kornyezeti-kockazat-szerint, (megnyitás: 2024.06.23.)",
+    "A növényvédő szerek csoportosítása forgalmi kategóriák szerint:",
+    "https://portal.nebih.gov.hu/-/a-novenyvedo-szerek-csoportositasa-forgalmi-kategoriak-szerint, (megnyitás: 2024.06.24.)",
+    "Miért van szükségünk a növényegészségügyre?:",
+    "https://portal.nebih.gov.hu/-/miert-van-szuksegunk-a-novenyegeszsegugyre-, (megnyitás: 2024.06.19.)",
+    "Növényvédő szerek biztonságos tárolása:",
+    "https://portal.nebih.gov.hu/-/novenyvedo-szerek-biztonsagos-tarolasa, (megnyitás: 2024.06.24.)",
+    "Az integrált termesztés alapelvei - Ültetvények: https://portal.nebih.gov.hu/documents/10182/1166168/Ultetvenyek+2018.pdf/8fb6bfd6-61fc-13db-ad81-6f0c5d10505e, (megnyitás: 2024.06.19.)",
+    "Tyúkhúr, gyógynövény és gyomnövény egyben: https://www.agrarszektor.hu/kiskert/20201106/tyukhur-gyogynoveny-es-gyomnoveny-egyben-tyukhur-csepp-tyukhur-tea-hol-kaphato-25814, (megnyitás: 2024.06.20.)",
+    "Agrárkörnyezetgazdálkodás és az integrált növényvédelem:",
+    "https://www.nak.hu/tajekoztatasi-szolgaltatas/kornyezetgazdalkodas/104197-agrarkornyezetgazdalkodas-es-az-integralt-novenyvedelem-i, (megnyitás: 2024.06.21.)",
+    "Hermann Laber, Gerald Lattauschke: Gemüsebau, 2020., Der Verlag Eugen Ulmer KG",
+    "Szélesi Ferenc: Az egész országban uralkodik a betyárkóró, 2022.: https://www.agraroldal.hu/betyarkoro_img-1.html, (megnyitás: 2024.06.19.)",
+    "",
+    "ÁBRAJEGYZÉK",
+    "1. ábra: A vírusok változatos alakúak\t8",
+    "2. ábra: Uborkamozaik vírus tünete\t8",
+    "3. ábra: A sárgarépán lágyrothadást okozó baktériumok\t10",
+    "4. ábra: Baktériumos Lágyrothadás tünete sárgarépán\t11",
+    "5. ábra: Palántadőlés\t13",
+    "6. ábra: A borsó fuzáriumos hervadása\t13",
+    "7. ábra: Penészes rothadás a sárgarépán\t13",
+    "8. ábra: A paradicsom botritiszes betegsége\t14",
+    "9. ábra: Foltosodás a paradicsom levelén\t14",
+    "10. ábra: Káposztaperonoszpóra\t15",
+    "11. ábra: A sárgarépa alternáriás levélfoltossága\t15",
+    "12. ábra: Uborkalisztharmat\t15",
+    "13. ábra: Gyökérgubacsképző fonálféreg\t16",
+    "14. ábra: Gyökérgubacsképző fonálféreg kárképe a paradicsom gyökerén\t17",
+    "15. ábra: Spanyol csupasz csiga kárképe a karfiol levelén\t17",
+    "16. ábra: Ászka\t18",
+    "17. ábra: Tripsz kárképe a vöröshagyma levelén\t18",
+    "18. ábra: Üvegházi molytetű (kb. 1 mm hosszúságú)\t19",
+    "19. ábra: Levéltetvek a (kb. 1-3 mm-es nagyságúak) bab levelén\t19",
+    "20. ábra: Burgonyabogár (kb. 1 cm nagyságú)\t20",
+    "21. ábra: Káposztalepke (kb. 5 cm nagyságú)\t20",
+    "22. ábra: Káposztalepke hernyója (kb. 5 cm hosszúságú)\t21",
+    "23. ábra: Hagymalégy (kb. 6-6,5 mm hosszú)\t21",
+    "24. ábra: Hagymalégy lárvái (nyűvek) (kb. 5-7 mm hosszú)\t22",
+    "25. ábra: Közönséges takácsatka (kb. 0,3-0,5 mm nagyságú)\t22",
+    "26. ábra: Közönséges takácsatka kárképe a paradicsom levelén\t23",
+    "27. ábra: Balkáni gerle\t23",
+    "28. ábra: Mezei pocok (kb. 12-14 cm nagyságú)\t24",
+    "29. ábra: Szőrös disznóparéj\t29",
+    "30. ábra: Ürömlevelű parlagfű\t29",
+    "31. ábra: Pásztortáska\t30",
+    "32. ábra: Fehér libatop\t31",
+    "33. ábra: Csattanó maszlag\t32",
+    "34. ábra: Kanadai betyárkóró\t33",
+    "35. ábra: Tyúkhúr\t33",
+    "36. ábra: Kövér porcsin\t34",
+    "37. ábra: Porcsin keserűfű\t35",
+    "38. ábra: Apró szulák\t36",
+    "39. ábra: Pongyola pitypang\t37",
+    "40. ábra: Mezei aszat\t37",
+    "41. ábra: Szürke madársóska\t38",
+    "42. ábra: Héla zab\t39",
+    "43. ábra: Közönséges kakaslábfű\t40",
+    "44. ábra: Pirók ujjasmuhar\t41",
+    "45. ábra: Csillagpázsit\t41",
+    "46. ábra: Közönséges tarackbúza\t42",
+    ""
+  ],
+  "runs": [
+    [],
+    [],
+    [
+      "Egyedi megrendelés azonosítója: EM-2.13.1"
+    ],
+    [
+      "A",
+      " zöldségfélék növényvédelme ",
+      "I."
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [
+      "Forrás",
+      ":",
+      " ",
+      "Az eredeti könyv címe: ",
+      "Laber",
+      ", Hermann – ",
+      "Lattauschke",
+      ", ",
+      "Gerald",
+      " (",
+      "Hrsg",
+      ".): ",
+      "Gemüsebau",
+      ". 3",
+      ".,",
+      " ",
+      "erweiterte",
+      " ",
+      "Auflage",
+      ". Stuttgart (",
+      "Hohenheim",
+      "), 2020, ",
+      "Ulmer",
+      "."
+    ],
+    [
+      "ISBN 978-3-8186-0837-8"
+    ],
+    [],
+    [
+      "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak."
+    ],
+    [],
+    [],
+    [
+      "T",
+      "ARTALOMJEGYZÉK"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "A ",
+      "növényvédelem feladata, jelentősége"
+    ],
+    [
+      "A növényvédelmi tevékenység egyidejű az emberiség első növénytermesztési tevékenységeivel. Növényvédelmi tevékenység volt már az is, amikor a növények termesztése előtt megtisztítottak egy területet, eltávolították a nemkívánatos növényeket, majd a termesztett növényeket igyekeztek megvédeni a vadállatoktól. A későbbiekben is védeni kellett a termesztett növényeket a termés mennyiségét csökkentő vagy a minőségét rontó betegségektől, állatoktól, egyéb növényektől."
+    ],
+    [],
+    [
+      "Hosszú fejlődés után a növényvédelem akkor alakult külön szakterületté, amikor a kémia és a vegyipar fejlődésével vegyi anyagokat, növényvédő szereket is felhasználtak a növények védelmére."
+    ],
+    [],
+    [
+      "Napjainkban úgy határozható meg, hogy a ",
+      "növényvédelem elsődleges feladata",
+      " a növények és a ",
+      "növényi ",
+      "termékek",
+      " (feldolgozatlan ",
+      "állapotú,",
+      " vagy csak egyszerűen előkészített, pl. őrölt, szárított vagy préselt, növényekből előállított termékek) védelme a ",
+      "károsító szervezetektől.",
+      " A korszerű növényvédelem esetén a károsító szervezetektől való védelemhez ma már hozzátartozik a ",
+      "károsító szervezetek elleni védekezésre képes állatok, növények és mikroorganizmusok",
+      " felhasználása és védelme is. Ezen kívül a növényvédelem feladata a növények megvédése a ",
+      "környezeti tényezők káros hatásaitól.",
+      " Mindezeket a feladatokat úgy kell megoldani, hogy a növényvédelmi tevékenység a lehető ",
+      "legkisebb mértékben okozzon zavart a környezetben,",
+      " a mezőgazdasági-ökológiai rendszerekben, továbbá ",
+      "ne károsítsa az emberi egészséget.",
+      " ",
+      ""
+    ],
+    [
+      "A ",
+      "növények",
+      " ",
+      "károsítói"
+    ],
+    [
+      "A növényeken kárt okozó ",
+      "élettelen tényezőket ",
+      "és ",
+      "élő szervezeteket ",
+      "összefoglalóan ",
+      "károsítóknak",
+      " nevezik. A károsító ",
+      "élő szervezeteken ",
+      "belül megkülönböztetnek:"
+    ],
+    [
+      "fertőző ",
+      "kórokozókat",
+      " (pl. vírusok, baktériumok, gombák),"
+    ],
+    [
+      "kártevő állatokat ",
+      "(pl. fonálférgek, puhatestűek, ízeltlábúak, madarak, emlősök),"
+    ],
+    [
+      "gyomnövényeket",
+      "."
+    ],
+    [],
+    [
+      "A kárt okozó ",
+      "élettelen ",
+      "tényezők",
+      " lehetnek:"
+    ],
+    [
+      "időjárási tényezők,"
+    ],
+    [
+      "talajtényezők,"
+    ],
+    [
+      "toxikus anyagok.",
+      ""
+    ],
+    [],
+    [
+      "Az élő és az élettelen tényezők által okozott károsítások a növényeken általában jól látható formában jelentkeznek. A károsítások miatt ",
+      "romlik a növények életben maradásának az esélye, csökken a növényi termékek minősége",
+      " ",
+      "és",
+      " ",
+      "mennyisége."
+    ],
+    [
+      "Kórokok",
+      ", ",
+      "kórokozók",
+      ", ",
+      "növénybetegségek"
+    ],
+    [
+      "A ",
+      "növénybetegségeket",
+      " a kórokok váltják ki. A ",
+      "kórokok",
+      " lehetnek:"
+    ],
+    [
+      "belső eredetű kórokok,"
+    ],
+    [
+      "külső eredetű, élettelen, nem fertőző kórokok ",
+      "(időjárás, talaj, toxikus anyag),"
+    ],
+    [
+      "külső eredetű, élő, fertőző kórokok",
+      " (pl. vírusok, baktériumok, gombák)."
+    ],
+    [],
+    [
+      "Betegség ",
+      "esetén",
+      " a növényen érzékelhető elváltozások jönnek létre. Ezt az elváltozást ",
+      "tünetnek",
+      ", azaz ",
+      "szimptómának",
+      " nevezik. ",
+      "A tünetek érzékelhetők látással (pl. elszíneződés, alakváltozás, seb, váladék), tapintással (érdes, sima, ragadós) és szaglással (illatos, büdös, dohos)."
+    ],
+    [
+      "Belső eredetű kórokok"
+    ],
+    [
+      "A belső eredetű kórokok a növények genetikai rendellenességei. Genetikai rendellenesség ",
+      "esetén",
+      " a növényen keletkezhetnek például torz képződmények: ",
+      "szalagosodás",
+      " (széles, lapos, szalagszerű elváltozás),",
+      " ",
+      "szárösszenövés",
+      ", csavarodás."
+    ],
+    [
+      "Külső eredetű, élettelen, nem fertőző kórokok"
+    ],
+    [
+      "Külső eredetű élettelen, nem fertőző kórokoknak",
+      " nevezik a növény számára optimálistól eltérő környezeti tényezőket."
+    ],
+    [
+      "Élettelen, nem fertőző okok",
+      " lehetnek:"
+    ],
+    [
+      "időjárási tényezők,"
+    ],
+    [
+      "talajtényezők,"
+    ],
+    [
+      "toxikus anyagok."
+    ],
+    [
+      "Időjárási tényezők"
+    ],
+    [
+      "Az időjárási tényezők a ",
+      "hőmérséklet,",
+      " a ",
+      "fény,",
+      " a ",
+      "csapadék",
+      " és",
+      " a",
+      " ",
+      "levegő."
+    ],
+    [],
+    [
+      "Hőmérséklet"
+    ],
+    [
+      "A ",
+      "túlzottan magas hőmérséklet",
+      " akadályozza a ",
+      "virágok kötődését. A növényházakban nevelt, de nem ",
+      "edzett",
+      " palánták a szabadföldre kiültetve károsodhatnak. A növény hőmérsékleti maximumát meghaladó hőmérsékleten ",
+      "hőguta",
+      " (a növény hőmérsékleti maximumát meghaladó hőmérsékleten bekövetkező vízvesztés miatti állapot, amely már a vízpótlással sem fordítható vissza) alakul ki."
+    ],
+    [],
+    [
+      "Alacsony hőmérsékleten",
+      " a növények fejlődése lelassul. Ha a hőmérséklet a növény hőmérsékleti minimuma alá esik, ",
+      "fagyás",
+      " következik be",
+      ". ",
+      "Kifagyás",
+      " akkor alakul ki, ha a télen a fagyott talajban a növény gyökere elpusztul. A ",
+      "felfagyás",
+      " tavasszal fordul elő, amikor a talaj fagyása és felengedése miatt a térfogata olyan gyorsan változik, hogy a növény gyökérzete nem tudja követni és elszakad. ",
+      "Megfázás",
+      " akkor alakul ki, ha a hőmérséklet a növény hőmérsékleti minimuma közelében van. Ebben az esetben a növény gyengén fejlődik, sárgás elszíneződést mutat, a virágok rosszul kötődnek, lehullanak."
+    ],
+    [],
+    [
+      "Fény"
+    ],
+    [
+      "A ",
+      "túl kevés fény",
+      " a növények sárgulását, megnyúlását okozza, ez az ",
+      "etioláltság",
+      "."
+    ],
+    [
+      "A ",
+      "túl erős fény, ",
+      "a közvetlen napsugárzás ",
+      "perzselést ",
+      "(túl erős fény vagy az előírtnál nagyobb töménységben kijuttatott kémiai anyagok hatására kialakuló elhalt foltokat), ",
+      "napégést",
+      " (a közvetlen napsugárzásnak kitett növényi részeken perzselődést) okoz a növényeken."
+    ],
+    [],
+    [
+      "Csapadék"
+    ],
+    [
+      "A ",
+      "csapadék vagy a víz hiánya",
+      " először ",
+      "lankadást ",
+      "okoz, majd ",
+      "hervad",
+      " és ",
+      "elszárad ",
+      "a növény. A növény hervadásakor a gyökérszőrök is elszáradnak, ezzel megszűnik a növény és a talaj közötti kapcsolat. A tartós szárazságot felváltó vízbőség a ",
+      "termények felrepedését",
+      " okozza (felrepedhet például a retekgumó, a káposztafej, a paradicsom bogyó)."
+    ],
+    [],
+    [
+      "A ",
+      "sok víz",
+      " a ",
+      "gyökereket károsítja,",
+      " mert a talajban kevés lesz az oxigén. Vízbőség esetén ",
+      "vízkórság, azaz ödéma",
+      " is kialakulhat: a levél ",
+      "fonákán",
+      " zöld, majd ",
+      "elparásodó",
+      " dudorok (barnás színű, enyhén kiemelkedő, szabálytalan alakú réteg) alakulnak ki. A sok csapadék esetén kialakuló ",
+      "magas ",
+      "páratartalmú",
+      " levegőben",
+      " a betegségek gyorsabban terjednek. A ",
+      "jégverés",
+      " a zöld növényi részeket károsítja."
+    ],
+    [],
+    [
+      "A levegő páratartalma"
+    ],
+    [
+      "A ",
+      "levegő magas páratartalma",
+      " a virágok rossz kötődését okozhatja. Alacsony páratartalom mellett a növények többet párologtatnak, több vízre van szükségük. Tároláskor a ",
+      "levegő ",
+      "alacsony páratartalma",
+      " a termények vízvesztését, fonnyadását okozza."
+    ],
+    [
+      "Légmozgás"
+    ],
+    [],
+    [
+      "A ",
+      "közepes erősségű légmozgás",
+      " (5-10 km/óra sebességű szél) a talajt szárítja. Az ",
+      "erős légmozgás",
+      " (40 km/óra feletti vagy annál nagyobb sebességű szél) a lágyszárú növények (pl. gabonafélék, borsó stb.) megdőlését, a fás növények ágainak letörését okozza. A nagy vihar fákat dönt ki. Homoktalajon a homok elhordása miatt a frissen vetett állományok megsemmisülhetnek, vagy a homokkristályoktól károsodnak."
+    ],
+    [
+      "Talajtényezők"
+    ],
+    [
+      "A",
+      " talaj kedvezőtlen szerkezete ",
+      "is károsan hathat a növényre. A kötött vagy sekélyen művelt talajokon a karógyökerek elágazódnak."
+    ],
+    [
+      "Az ",
+      "eketalpbetegség (az azonos mélységű szántás hatására a barázda fenekén kialakuló kemény réteg) esetén a szántott mélység alatt lévő tömött talaj hátráltatja a növény fejlődését."
+    ],
+    [],
+    [
+      "A ",
+      "talaj kémhatása",
+      " akkor káros, ha a növény pH-igénye és a talaj pH-ja eltérő. Meszes talajon a savanyú talajt igénylő növények gyengén fejlődnek, száradnak, ugyanez fordított esetben is érvényesül."
+    ],
+    [],
+    [
+      "A ",
+      "talaj nem megfelelő tápanyagtartalma",
+      " ",
+      "több kórok kiváltója lehet. A ",
+      "tápanyagok hiánya",
+      " ",
+      "miatt bekövetkező betegségeket ",
+      "hiánybetegségeknek",
+      " nevezik. (Az egyes makro- és mikroelemek hatása részletesebben a Talaj és tápanyag fejezetben.) Hiánybetegségeket okoz a ",
+      "makro- és a mikroelemek ",
+      "abszolút hiánya.",
+      " Ilyen hiánybetegség például a zeller, valamint a cékla szívlevélelhalását és gumó-, illetve gyökértestkorhadását előidéző bórhiány. ",
+      "Relatív tápanyaghiány",
+      " akkor alakul ki, ha a ",
+      "makroelemek",
+      " túlzott mennyisége nehezíti, vagy lehetetlenné teszi a mikroelemek felvételét. Ilyen pl. a paprika és a paradicsom csúcsrothadását kiváltó kalciumhiány. Ilyenkor a többszöri öntözéssel a ",
+      "makroelemek",
+      " mennyiségét csökkentve a kalcium felvétele elősegíthető. A ",
+      "tápanyagok bősége",
+      " buja növekedést, kötődési rendellenességet okozhat."
+    ],
+    [
+      "A talajtényezők okozta károk talajvizsgálatokra épülő trágyázással csökkenthetők."
+    ],
+    [
+      "Toxikus anyagok"
+    ],
+    [
+      "A növényeket károsító toxikus anyagok a ",
+      "por,",
+      " a ",
+      "gázok,",
+      " a ",
+      "szennyvíz,",
+      " a ",
+      "műtrágyák,",
+      " a ",
+      "növényvédő szerek,",
+      " a ",
+      "serkentőanyagok",
+      " és a ",
+      "termésszabályozók."
+    ],
+    [
+      "A növényekre rakódó ",
+      "por",
+      " a fotoszintézis hatékonyságának csökkentése miatt az ",
+      "asszimilációs",
+      " (az élőlények ",
+      "felépítő anyagcsere-folyamata) ",
+      "tevékenységet",
+      " rontja. A porban lévő kémiai anyagok is károsak."
+    ],
+    [],
+    [
+      "A",
+      " gázok ",
+      "közül a",
+      " ",
+      "legártalmasabbak a kén-, a fluor-, a klór- és a nitrogénvegyületek, ezek főleg ipari üzemekből kerülnek ki. A gépjárművekből kikerülő kipufogógázok",
+      " ",
+      "lombszáradást és növénypusztulást idéznek elő. A kipufogógáz ólomtartalma miatt a növény értékesíthetetlen lesz."
+    ],
+    [],
+    [
+      "A ",
+      "szennyvíz ",
+      "nagy nitrogéntartalma és a benne lévő kémiai anyagok, valamint a veszélyes mikroorganizmusok miatt káros."
+    ],
+    [],
+    [
+      "A ",
+      "műtrágyák,",
+      " a ",
+      "növényvédő szerek",
+      " a túladagolás, a szakszerűtlen használat esetén károsíthatják a növényeket. A túladagolás, az előírtnál nagyobb töménység hatására perzselés alakulhat ki a növényeken. Ha szakszerűtlen módon szeles időben juttatják ki a gyomirtó szereket, akkor az elsodródás miatt a közelben levő termesztett növények is károsodhatnak."
+    ],
+    [
+      "Külső eredetű, élő, fertőző kórokok"
+    ],
+    [
+      "A külső eredetű, élő, fertőző kórokok (pl. vírusok, baktériumok, gombák), más néven ",
+      "a kórokozók fertőző növénybetegségeket okoznak",
+      ". A ",
+      "kórokozók által",
+      " a növényen okozott tüneteket ",
+      "kórképnek",
+      " nevezik."
+    ],
+    [
+      "Növényt megbetegítő vírusok"
+    ],
+    [
+      "A ",
+      "vírusok",
+      " még ",
+      "nem sejtes ",
+      "szerveződésű",
+      " élőlények. Méretük ",
+      "nanométerben",
+      " adható meg, ami a milliméter milliomodrésze. Alakjuk változatos (",
+      "1. ábra",
+      "). A vírusok ",
+      "önálló anyagcserét nem ",
+      "folytatnak,",
+      " hanem beépülnek a gazdanövénybe, megváltoztatják az ",
+      "anyagcseréjét és megbetegítik."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". ábra:",
+      " A vírusok változatos alakúak"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://hu.depositphotos.com/379218012/stock-illustration-morphological-types-size-viruses-helical.html",
+      ",",
+      " (",
+      "m",
+      "egnyitás: 2024.07.04.)"
+    ],
+    [],
+    [
+      "A vírusok a zöldségnövényeken a következő ",
+      "tüneteket ",
+      "okozzák:"
+    ],
+    [
+      "növekedéscsökkenés, törpülés,"
+    ],
+    [
+      "torzulás, színelváltozás (pl. sárgulás)."
+    ],
+    [
+      "mozaikfoltosság (a leveleken kialakuló, az erek által határolt szögletes, sárgás foltok) (",
+      "2. ábra",
+      ")."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "2",
+      "",
+      ". ábra:",
+      " Uborkamozaik vírus tünete"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://hu.depositphotos.com/587863000/stock-photo-cucumber-mosaic-virus-cmv-important.html",
+      ",",
+      " (",
+      "m",
+      "egnyitás: 2024.0",
+      "7",
+      ".0",
+      "4",
+      ".)"
+    ],
+    [],
+    [
+      "A vírusok ",
+      "terjedhetnek",
+      ":"
+    ],
+    [
+      "mechanikai úton apró sebeken keresztül,"
+    ],
+    [
+      "olyan élő szervezetekkel (állatokkal, élősködő növényekkel, gombákkal), amelyek a vírust felveszik, tovább",
+      " ",
+      "viszik és leadják,"
+    ],
+    [
+      "vegetatív úton szaporított növényrészekkel,"
+    ],
+    [
+      "vetőmaggal,"
+    ],
+    [
+      "talajjal."
+    ],
+    [],
+    [
+      "Mechanikai úton",
+      " apró sebeken keresztül juthatnak be a növénybe a vírusok. A vírussal fertőzött növény szövetnedve jut be a seben keresztül. A szövetnedvben a vírusok megtartják a fertőzőképességüket, így megfertőzik a másik növényt is. A szövetnedv főleg a termesztési eljárások során (pl. kacsozás) szerszámokkal, de kézzel is átvihető egyik növényről a másikra. Az átvitel azonban úgy is megtörténhet, ha a fertőzött növény sérült levele érintkezik egy másik növényen keletkezett sebzési felülettel."
+    ],
+    [
+      "Az ",
+      "élő szervezetek",
+      " közül jelentős ",
+      "vírusátvivők",
+      " a fonálférgek, az ízeltlábúak (",
+      "levéltetvek",
+      ", ",
+      "tripszek",
+      " (keskeny testfelépítésű, szúró-szívó szájszervű rovarok), kabócák, bogarak, atkák). ",
+      "Az állatok a vírusokat átvihetik a külső testrészükön. A növényeket a szívogatásukkal megsebző ",
+      "levéltetvek",
+      " például a szúró-szívó szájszervükön megtapadt vírusokat vihetik át egyik növényről a másikra. A vírusok az állatok testébe is bejuthatnak, ami szintén a táplálkozásuk során kerül át a növénybe."
+    ],
+    [
+      "A vírusokat terjeszthetik a szívogatásukkal károsító élősködő növények is (pl.: aranka). A vírus a beteg növény szívókáin keresztül jut át az egészségesbe."
+    ],
+    [],
+    [
+      "A gombákkal történő átvitel csak néhány vírusnál jelentős."
+    ],
+    [],
+    [
+      "A vírusok átvihetők ",
+      "vegetatív úton szaporított növényrészekkel",
+      " is, például hagymával, hagymagumóval, ",
+      "rizómával",
+      ", szemzőhajtással, dugvánnyal."
+    ],
+    [],
+    [
+      "A ",
+      "vetőmag",
+      " átviheti a vírusokat a felületén vagy a belsejében. A mag felületén elhelyezkedő vírus a csíranövényt fertőzi meg a csírázáskor."
+    ],
+    [],
+    [
+      "A ",
+      "talajjal",
+      " történő átvitelkor a vírus a talaj kolloidjaihoz kötődik."
+    ],
+    [
+      "Növényt megbetegítő baktériumok"
+    ],
+    [
+      "A növényeket megbetegítő ",
+      "baktériumok",
+      " ",
+      "egysejtűek,",
+      " pálcika alakúak, általában mikrométeres nagyságúak (a milliméter ezredrésze) (",
+      "3. ábra",
+      "). Osztódással szaporodnak."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "3",
+      "",
+      ". ábra:",
+      " A sárgarépán lágyrothadást okozó baktériumok"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://pixels.com/featured/erwinia-carotovora-scimat.html",
+      ",",
+      " (",
+      "m",
+      "egnyitás: 2024.07.0",
+      "4",
+      ".)"
+    ],
+    [],
+    [
+      "A baktériumok a növényekbe bejuthatnak ",
+      "sebeken, légzőnyílásokon, ",
+      "víznyílásokon ",
+      "(a levelek szélén vagy a csúcsán kialakuló, a víz kiválasztására alkalmas nyílásokon),",
+      " ",
+      "paraszemölcsökön",
+      " (lenticellákon: a másodlagos bőrszövet síkjából kiemelkedő, levegőcserét biztosító dudorokon) keresztül."
+    ],
+    [],
+    [
+      "A baktérium okozta ",
+      "tünetek",
+      " a következők:"
+    ],
+    [
+      "levélfoltosság,"
+    ],
+    [
+      "lágyrothadás (",
+      "4. ábra",
+      "),"
+    ],
+    [
+      "hervadás."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "4",
+      "",
+      ". ábra: ",
+      "Baktériumos Lágyrothadás tünete sárgarépán"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://hun.imadeself.com/ovoshchi/alternarioz-morkovi.html",
+      ",",
+      " (",
+      "m",
+      "egnyitás: 2024.0",
+      "7",
+      ".0",
+      "4",
+      ".)"
+    ],
+    [],
+    [
+      "A baktériumok ",
+      "terjedhetnek",
+      ":"
+    ],
+    [
+      "fertőzött maggal (a mag belsejében és a mag felületén is), pollennel;"
+    ],
+    [
+      "a vegetatív szaporítással: vegetatív úton szaporított növényi részekkel (pl. dugványokkal, hagymával, ",
+      "rizómával",
+      "), oltás, szemzés esetén vírussal fertőzött alannyal, vagy a leválasztott nemes növényi résszel;"
+    ],
+    [
+      "vízcseppekkel;"
+    ],
+    [
+      "rovarok rágása okozta sebeken keresztül, fonálférgekkel;"
+    ],
+    [
+      "az ember növényápoló munkájával."
+    ],
+    [],
+    [
+      "A baktériumok számára a ",
+      "nedves, párás körülmények",
+      " a kedvezőek."
+    ],
+    [
+      "Növényt megbetegítő gombák"
+    ],
+    [
+      "A gombák lehetnek egy- vagy többsejtűek, ",
+      "általában ",
+      "telepes felépítésűek ",
+      "(a sejtosztódással kialakuló új sejtek nem válnak szét, hanem együtt maradnak, telepet hoznak létre, de szövetek még nem alakulnak ki). A legtöbb gomba testét fonal alakú sejtek építik fel, amelyeket ",
+      "hifáknak",
+      " (gombafonalnak) neveznek, ezek összessége a ",
+      "micélium",
+      " (gombaszövet). A gombáknak ",
+      "nincsenek zöld színtestjeik,",
+      " fotoszintézisre nem képesek. Táplálkozásukhoz szerves anyagra van szükségük: ",
+      "egyes gombafajok elpusztult élőlények maradványain élnek, mások a növények gyökérzetén keresztül juthatnak tápanyaghoz, vagy az élő gazdaszervezet (pl. a növények) tápanyagait bontják le. ",
+      "Spórákkal ",
+      "szaporodnak."
+    ],
+    [],
+    [
+      "A legtöbb növényi betegséget a gombák okozzák. ",
+      "A gombák ",
+      "természetes nyílásokon",
+      " (pl. ",
+      "sztómán",
+      "), vagy ",
+      "sérüléseken",
+      " keresztül hatolnak a növényi szövetbe, de vannak olyan gombafajok, amelyek képesek ",
+      "áttörni a növény felületén.",
+      " Terjedésüket segíti a ",
+      "víz",
+      ", a ",
+      "légmozgás",
+      ", de terjedhetnek a ",
+      "fertőzött szaporítóanyaggal ",
+      "is: vetőmaggal, ivartalan szaporítóképletekkel (pl. gumóval, hagymával)."
+    ],
+    [],
+    [
+      "A növényeket megbetegítő gombafajok micéliuma vagy a ",
+      "növények felületén",
+      ",",
+      " vagy a ",
+      "növények belsejében",
+      " található. A növény felületén élő gombafajok a táplálkozásuk érdekében ",
+      "hifákat",
+      " bocsátanak a növénybe."
+    ],
+    [],
+    [
+      "A ",
+      "kórokozó gombák hatására a gombafajtól függően változatos tünetek alakulhatnak ki. A ",
+      "legjellemzőbb tünetek",
+      ":"
+    ],
+    [
+      "palántadőlés (",
+      "5. ábra",
+      "),"
+    ],
+    [
+      "hervadás (",
+      "6. ábra",
+      "),"
+    ],
+    [
+      "penészes rothadás (",
+      "7. ábra, 8. ábra",
+      "),"
+    ],
+    [
+      "foltosodás",
+      " (",
+      "9. ábra, 10. ábra, 11. ábra",
+      "),"
+    ],
+    [
+      "lisztes bevonat (",
+      "12. ábra",
+      ")."
+    ],
+    [],
+    [
+      "A növényeket károsító gombák ",
+      "környezeti igényei is eltérőek.",
+      " Vannak olyanok, amelyek száraz meleg időben, mások hűvös, csapadékos körülmények között okozhatnak járványt."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "5",
+      "",
+      ". ábra: ",
+      "Palántadőlés"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://www.agrofil.hu/hu/hirek/csiranovenyek-betegsegei-palantadoles",
+      ",",
+      " (",
+      "m",
+      "egnyitás: 2024.07.04.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "6",
+      "",
+      ". ábra: ",
+      "A borsó ",
+      "fuzáriumos",
+      " hervadása"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://docplayer.hu/111023828-A-borso-betegsegei-",
+      "fuzarium-alternaria-aszkohita-rizoktonia-fajok-a-talajbol-fertoznek-es",
+      ".html",
+      ",",
+      " (",
+      "m",
+      "egnyitás: 2024.07.04.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "7",
+      "",
+      ". ábra: ",
+      "Penészes rothadás a sárgarépán"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://magyarmezogazdasag.hu/2017/11/18/tarola",
+      "si-karositok",
+      ",",
+      " (",
+      "m",
+      "egnyitás: 2024.07.04.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "8",
+      "",
+      ". ábra: ",
+      "A paradicsom ",
+      "botritiszes",
+      " betegsége"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://www.alamy.com/stock-photo-grey-mould-botrytis-cinerea-mycelium-on-glasshouse-tomato-fruit-20694819",
+      ".html",
+      ",",
+      " (",
+      "m",
+      "egnyitás: 2024.07.04.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "9",
+      "",
+      ". ábra: ",
+      "Foltosodás",
+      " a paradicsom levelén"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "http://safru.hu/paradicsom-gyakori-be",
+      "tegsegei",
+      ",",
+      " (",
+      "m",
+      "egnyitás: 2024.07.04.)"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "10",
+      "",
+      ". ábra:",
+      " Káposztaperonoszpóra"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://www.invasive.org/browse/detail.cfm",
+      "?imgnum",
+      "=5512808, (megnyitás: 2024.07.04.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "11",
+      "",
+      ". ábra: ",
+      "A sárgarépa ",
+      "alternáriás",
+      " levélfoltossága"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://www.maag-garden.ch/de/produktsuch",
+      "e/nach-schaden/alternaria-moehrenschwaerze-458.php, (megnyitás: 2024.07.04.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "12",
+      "",
+      ". ábra: ",
+      "Uborkalisztharmat"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://hu.depositphotos.com/207910558/stock-photo-close-cucumber-leafs-white-powdery.html, (megnyitás: 2024.07.04.)"
+    ],
+    [
+      "Kártevő",
+      " ",
+      "állatok"
+    ],
+    [
+      "Kártevő állatoknak ",
+      "nevezik azokat a növényevő állatfajokat, amelyek a növénytermesztés eredményességét hátrányosan befolyásolják. A növényevő állatfajok jelentős károkat okoznak a növények termesztése és a termények raktározása során."
+    ],
+    [],
+    [
+      "A zöldségtermesztésben károsító állati kártevők nagyobb csoportjai:"
+    ],
+    [
+      "fonálférgek:",
+      " pl. gyökérgubacsképző fonálférgek (",
+      "13. ábra",
+      "), gumórontó-fonálféreg, burgonya-fonálféreg;"
+    ],
+    [
+      "puhatestűek: ",
+      "pl. meztelen csigák (",
+      "15. ábra",
+      ");"
+    ],
+    [
+      "ízeltlábúak:"
+    ],
+    [
+      "rákok: pl. ászkarákok (",
+      "16. ábra",
+      ");"
+    ],
+    [
+      "rovarok: pl. ",
+      "tripszek",
+      " (",
+      "17. ábra",
+      "), ",
+      "molytetvek",
+      " (",
+      "18. ábra",
+      "), ",
+      "levéltetvek",
+      " (",
+      "19. ábra",
+      "), bogarak (",
+      "20. ábra",
+      "), lepkék (",
+      "21",
+      ".,",
+      " 22. ábra",
+      "), legyek (",
+      "23., 24. ábra",
+      "), szúnyogok;"
+    ],
+    [
+      "atkák: pl. takácsatkák (",
+      "25",
+      ".,",
+      " 26. ábra",
+      ");"
+    ],
+    [
+      "madarak: ",
+      "pl. balkáni gerle (",
+      "27. ábra",
+      ");"
+    ],
+    [
+      "emlősök: ",
+      "pl. mezei nyúl, mezei pocok (",
+      "28. ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "13",
+      "",
+      ". ábra: ",
+      "Gyökérgubacsképző fonálféreg"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://www.cabidigitallibrary.org/doi/10.1079/cabicomp",
+      "endium.33245, (megnyitás: 2024.07.04.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "14",
+      "",
+      ". ábra:",
+      " Gyökérgubacsképző fonálféreg kárképe a paradicsom gyökerén"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/meloidogyne-javanica, (megnyitás: 2024.07.04.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "15",
+      "",
+      ". ábra:",
+      " Spanyol csupasz csiga kárképe a karfiol levelén"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://hu.depositphotos.com/608813510/stock-phot",
+      "o-spanish-slug-pest-arion-vulgaris.html, (megnyitás: 2024.07.04.)"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "16",
+      "",
+      ". ábra: ",
+      "Ászka"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://hu.depositphotos.com/616873092/stock-photo",
+      "-detailed-closeup-european-common-grey.html, (megnyitás: 2024.07.04.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "17",
+      "",
+      ". ábra:",
+      " ",
+      "Tripsz",
+      " kárképe a vöröshagyma levelén"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://hu.depositphotos.com/466138212/stock-photo-d",
+      "angerous-pest-important-commercial-crops.html, (megnyitás: 2024.07.04.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "18",
+      "",
+      ". ábra:",
+      " Üvegházi molytetű (kb. 1 mm hosszúságú)"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://hu.depositphotos.com/302671946/stock-photo-gr",
+      "oups-tiny-trialeurodes-vaporariorum-leaf.html, (megnyitás: 2024.07.04.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "19",
+      "",
+      ". ábra: ",
+      "Levéltetvek",
+      " a (kb. 1-3 mm-es nagyságúak) bab levelén"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://hu.depositphotos.com/407594718/stock-pho",
+      "to-black-bean-aphid-aphis-fabae.html, (megnyitás: 2024.07.04.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "20",
+      "",
+      ". ábra:",
+      " Burgonyabogár (kb. 1 cm nagyságú)"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://",
+      "hu.depositphotos.com/492258682/stock-photo-colorado-potato-beetle-green-plant.html, (megnyitás: 2024.07.04.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "21",
+      "",
+      ". ábra:",
+      " Káposztalepke (kb. 5 cm nagyságú)"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://h",
+      "u.depositphotos.com/76787897/stock-photo-isolated-large-white-butterfly.html, (megnyitás: 2024.07.04.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "22",
+      "",
+      ". ábra: ",
+      "Káposztalepke hernyója (kb. 5 cm hosszúságú)"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://",
+      "hu.depositphotos.com/330526692/stock-photo-close-up-of-cabbage-caterpillars.html, (megnyitás: 2024.07.04.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "23",
+      "",
+      ". ábra:",
+      " Hagymalégy (kb. 6-6,5 mm hosszú)"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https:/",
+      "/hu.depositphotos.com/111911996/stock-photo-delia-antiqua-fly-on-onion.html, (megnyitás: 2024.07.04.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "24",
+      "",
+      ". ábra:",
+      " Hagymalégy lárvái (nyűvek) (kb. 5-7 mm hosszú)"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://www.aujardin.info/fiches/delia-antiqua.php, (megnyitás: 2024.07.04.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "25",
+      "",
+      ". ábra: ",
+      "Közönséges takácsatka (kb. 0,3-0,5 mm nagyságú)"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://www.sciencephoto.com/media/1168564/view/red-spider-mite-tetranychus-urticae, (megnyitás: 2024.07.05.)"
+    ],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "26",
+      "",
+      ". ábra: ",
+      "Közönséges takácsatka kárképe a paradicsom levelén"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://",
+      "hu.depositphotos.com/324279500/stock-photo-close-mass-red-spider-mites.html, (megnyitás: 2024.07.05.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "27",
+      "",
+      ". ábra:",
+      " Balkáni gerle"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://hu.d",
+      "epositphotos.com/64739717/stock-photo-eurasian-collared-dove-streptopelia-decaocto.html, (megnyitás: 2024.07.05.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "28",
+      "",
+      ". ábra: ",
+      "Mezei pocok (kb. 12-14 cm nagyságú)"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://",
+      "hu.depositphotos.com/34020381/stock-photo-common-vole-microtus-arvalis-on.html, (megnyitás: 2024.07.05.)"
+    ],
+    [],
+    [
+      "A legtöbb kártevő az ízeltlábúakhoz, azon belül a ",
+      "rovarokhoz",
+      " tartozik. Jelenleg több mint egymillió az ismert rovarfajok száma, ez kétszer annyi, mint az összes többi élőlényfaj együtt. Mivel az összes élőlényfaj számán belül ilyen ",
+      "nagy arányú",
+      " a rovarok fajszáma, ezért a kártevő élőlények csoportján belül is a legnépesebb csoportot képviselik."
+    ],
+    [],
+    [
+      "A kártevő állatok által okozott, szabad szemmel is látható elváltozás a kárkép.",
+      " A kárkép jellegzetességei segítenek a kártevő azonosításában."
+    ],
+    [],
+    [
+      "A kárképek típusai:"
+    ],
+    [
+      "sérülések, sebek: pl. rágás a növényi részeken (",
+      "15",
+      ".,",
+      " 20., 22. ábra",
+      ");"
+    ],
+    [
+      "szín- és alakváltozás: pl. ezüstös elszíneződés a ",
+      "tripszek",
+      " szívogatása miatt bekövetkező klorofill-elhalás miatt (",
+      "17. ábra",
+      ");"
+    ],
+    [
+      "gubacsok: a kártevő tevékenysége (például szívogatása) miatt szövetburjánzás alakul ki a növényen, ami térfogat-gyarapodás, azaz ",
+      "gubacs",
+      " formájában látható a növényen (",
+      "14. ábra",
+      ");"
+    ],
+    [
+      "növényi részek hervadása, száradása;"
+    ],
+    [
+      "a kártevő állatok ürüléke, váladéka, szövedéke (",
+      "26. ábra",
+      ")."
+    ],
+    [
+      "Gyomnövények"
+    ],
+    [
+      "A gyomnövények fogalma, kártétele"
+    ],
+    [
+      "Gyomnak",
+      " nevezik bármely fejlődési stádiumban lévő növényt vagy növényi részt (mag, tarack, ",
+      "rizóma",
+      ", hagyma stb.), amely ott fordul elő, ahol ",
+      "jelenléte nem kívánatos",
+      "."
+    ],
+    [
+      "A nemkívánatos jelenlét azt jelenti, hogy vannak olyan növények, amelyekről általában mindenki tudja, hogy gyomnövény, például a pongyola pitypang (",
+      "39. ábra",
+      "), de a ",
+      "haszonnövényként",
+      " (olyan növények, amelyek az ember számára élelmezési, ipari, esztétikai vagy egyéb értéket jelentenek)",
+      " ",
+      "ismert napraforgó is gyomnövénynek tekinthető, ha egy szabadföldi zöldborsótáblában fordul elő. Viszont a pongyola pitypang sem mondható minden esetben gyomnak, mert gyógynövényként is felhasználható a levele és a gyöktörzse. Ha egy réten jelenik meg, ott nem mondható a jelenléte nem kívánatosnak, nem tekinthető gyomnövénynek."
+    ],
+    [
+      "A gyom megnevezés tehát nem jelent egy meghatározott növénycsoportot, ",
+      "a kártétel megléte",
+      " dönti el, hogy az adott esetben gyomnak neveznek-e egy növényt."
+    ],
+    [],
+    [
+      "A gyomnövények többféle módon okozhatnak kárt a haszonnövények termesztésekor:"
+    ],
+    [
+      "területfoglalással,"
+    ],
+    [
+      "allelopátiás",
+      " hatásukkal,"
+    ],
+    [
+      "versengéssel (",
+      "kompetíció",
+      "),"
+    ],
+    [
+      "kártevők élőhelyeiként funkcionálhatnak,"
+    ],
+    [
+      "szennyezik a betakarított termést."
+    ],
+    [],
+    [
+      "A gyomnövények kártételének a leginkább észrevehető formája, hogy a termesztett növények közötti megjelenésükkel ",
+      "területet foglalnak el.",
+      " A kistermetű fajok nagy mennyiségükkel, például a tyúkhúr (",
+      "35. ábra",
+      "); a nagytermetű fajok, például a parlagfű (",
+      "30. ábra",
+      ") ",
+      "szálankénti",
+      " előfordulásukkal is képesek a haszonnövények elnyomására."
+    ],
+    [],
+    [
+      "Több gyomnövény ",
+      "allelopátiás",
+      " hatású.",
+      " Az ",
+      "allelopatikus",
+      " növények leggyakrabban a ",
+      "gyökerükön",
+      " vagy a ",
+      "levelükön",
+      " keresztül olyan kémiai anyagokat bocsátanak ki, amelyek ",
+      "más növények",
+      " (a kultúrnövényeken kívül ezek más gyomnövények is lehetnek) ",
+      "csírázását, növekedését, fejlődését gátolhatják.",
+      " Ilyen gátló anyagok a növények szárában, ",
+      "virágában",
+      ", termésében és a lehullott magjában is előfordulhatnak. Az ",
+      "allelopatikus",
+      " anyagok a növényből kipárolgással, gyökér általi kiválasztással, eső hatására a levelekből történő kimosódással, az ",
+      "allelopatikus",
+      " növények növényi maradványainak elbomlása után kerülhetnek a környezetbe."
+    ],
+    [],
+    [
+      "Egy adott területen a növényfajok között ",
+      "verseny folyik a fény, a víz és a tápanyagok megszerzéséért.",
+      " A gyomnövények a haszonnövényeknél gyorsabb és erőteljesebb növekedésűek, fejlődésűek, így a termesztett növények ebben a versenyben a legtöbbször alulmaradnak."
+    ],
+    [
+      "Az elgyomosodott területek a ",
+      "kártevő állatok élőhelyei",
+      " és természetes tápnövényei. A gyomos állományok ",
+      "mikroklímája kedvez a kórokozók elszaporodásának.",
+      " A gyomnövények ",
+      "akadályozzák a növényvédő szerek eljutását is a haszonnövényekhez,",
+      " rontják a növényvédelmi munkák hatékonyságát. A gyomnövények sokszor ",
+      "akadályozzák az egyéb növényápolási munkákat",
+      " is."
+    ],
+    [],
+    [
+      "A gyomok növényi részei, főleg a termésük és a magjuk a kultúrnövények ",
+      "termését ",
+      "és a belőlük készült",
+      " termékeket",
+      " ",
+      "szennyezhetik.",
+      " Ebből a szempontból meghatározó jelentőségűek a mérgező gyomnövények. Ilyen mérgező növény például a csattanó maszlag (",
+      "33. ábra",
+      "), amelynek minden része mérgező. Különösen a főzeléknövények (pl. zöldborsó, zöldbab) termesztésekor nem szabad meghagyni a növények között, mert a gépi betakarításkor bekerülhet a feldolgozásra, fogyasztásra kerülő növényi részek közé."
+    ],
+    [],
+    [
+      "A „jó gyom” fogalma"
+    ],
+    [
+      "A gyomnövényeknek a gazdasági szempontból ",
+      "kifejeződő",
+      " kártétele mellett pozitív hatásai is vannak. A mélyen gyökerező gyomok tápanyagokat hoznak fel a talaj alsóbb ",
+      "rétegeiből",
+      ", melyeket számos",
+      " ",
+      "kultúrnövény",
+      " (",
+      "a vadon termő növényekből nemesített és termesztett növények)",
+      " nem ",
+      "érne el. A gyomnövények a talajok nitrát túltelítettségét is enyhíteni képesek, mivel a növekedésük során nagy mennyiségű nitrogént vesznek fel a környezetükből."
+    ],
+    [
+      "A gyomállomány védi a talajt az eróziótól, azon kívül kedvező mikroklímát biztosít a talaj mikroorganizmusainak és ellátja őket szerves hulladékkal. Jelzi a környezeti tényezőket (klíma, talajtípus, víz- és tápanyag-ellátottság, talajkémhatás)."
+    ],
+    [],
+    [
+      "A biológiai sokféleség hordozói és jelentős szerepük van az ",
+      "agroökoszisztémákban",
+      " (a mezőgazdasági termeléssel kialakított növénytársulásokban). A kultúrnövények mellett a gyomok is fontos szerepet töltenek be az ",
+      "agroökoszisztémák",
+      " táplálékláncában. A különböző növényi részek, pl. a levél, szár, pollen és nektár táplálékul szolgálnak a növényevő állatoknak és beporzó rovaroknak. Számos rovar életciklusa kötődik a gyomnövényekhez, például a tyúkhúr esetében több mint 70 rovarfajjal mutattak ki ilyen kapcsolatot. Ezen kívül a gyomvegetáció az állatok búvó- és szaporodási helye is."
+    ],
+    [],
+    [
+      "A gyomok fontos táplálékforrásai a mezei vadfajoknak, egyrészt közvetlenül a magvak, másrészt a gyomokat fogyasztó rovarok révén. Számos napjainkban veszélyeztetett madárfaj esetében a felnőtt egyedek legfontosabb táplálékai a gyommagvak, míg a csibék elsősorban a gyomokkal társuló rovarfaunát fogyasztják. Hazánkban például a fogoly táplálékának zömét a következő növények szolgálják: szulákpohánka, kövér porcsin, zöld és fakó muhar, fehér libatop, kakaslábfű és szőrös disznóparéj. A fogolycsibék 20 napos korukig rovarokkal táplálkoznak, amelyek között jelentős hányadot képviselnek a gyom-, ill. a termesztett növények kártevői. Nemzetközi kutatások szerint a gyomnövénycsaládok közül a következők különösen fontosak a szántóföldi élőhelyekhez kötődő madarak táplálkozásában: pázsitfűfélék, keserűfűfélék, libatopfélék, szegfűfélék és keresztesvirágúak."
+    ],
+    [],
+    [
+      "A fentiek figyelembevételével megszületett a „",
+      "jó gyom",
+      "” fogalma, ahová olyan fajokat sorolnak, melyek a kultúrnövényhez viszonyítva kevésbé versenyképesek, ugyanakkor értékesek a gerinctelen élőlények és a madarak szempontjából. Angliai vizsgálatok szerint ide tartozik például ",
+      "a madár keserűfű, a vadrepce, a fehér libatop, a ",
+      "baracklevelű",
+      " keserűfű, a tyúkhúr, az egynyári perje, a piros árvacsalán, a pásztortáska és a perzsa veronika."
+    ],
+    [],
+    [
+      "Hazánkban mintegy 150 olyan gyomnövény él, amelyek veszélyeztetettségük révén felkerültek a Vörös Listára (a kihalással fenyegetett fajok listája). Ezek a növények az intenzív mezőgazdasági termelés következtében eltűnőben vannak, más fajok viszont jelentősen felszaporodtak az elmúlt évtizedekben. Ez utóbbiak közé tartozik például a sok problémát okozó parlagfű. A parlagfű terjedése meggyorsítja a ",
+      "biodiverzitás",
+      " (az élőlények biológiai sokfélesége) pusztulását, nemcsak azzal, hogy elözönli az élőhelyeket és elnyomja az értékesebb gyomfajokat, hanem azért is, mert a visszaszorítására tett erőfeszítések többnyire egyet jelentenek a teljes gyomnövényzet megsemmisítésével."
+    ],
+    [
+      "A kertészeti kultúrák legfontosabb gyomnövényei"
+    ],
+    [
+      "A kertészeti kultúrákban előforduló leggyakoribb gyomnövények életformájukat tekintve ",
+      "egyévesek",
+      " vagy ",
+      "évelők.",
+      " Az ",
+      "egyéves növények",
+      " egy év alatt magot érlelnek, és ezt követően elpusztulnak. Az ",
+      "évelők",
+      " olyan lágyszárú növények, amelyek valamilyen szervükkel (például a hagymával) áttelelnek, így több éven keresztül életben maradnak, és magot érlelnek."
+    ],
+    [],
+    [
+      "Egyéb növénytani jellemzőik alapján ezek a gyomnövények lehetnek ",
+      "egyszikűek",
+      " vagy ",
+      "kétszikűek.",
+      " Az ",
+      "egyszikű növények",
+      " legjellemzőbb tulajdonsága a bojtos gyökérzet és a párhuzamos erezetű levél. A ",
+      "kétszikű növényeknek",
+      " ",
+      "főgyökérrendszere",
+      " van, levélerezetük, ",
+      "főérből",
+      " és ",
+      "oldalerekből",
+      " áll."
+    ],
+    [
+      "Egyéves, kétszikű gyomnövények"
+    ],
+    [
+      "Szőrös disznóparéj"
+    ],
+    [
+      "A szőrös disznóparéj (",
+      "29. ábra",
+      ") észak-amerikai eredetű, ",
+      "egyéves, kétszikű",
+      " növény."
+    ],
+    [
+      "A talaj felmelegedését követően kelése tavasztól nyár elejéig folyamatos. ",
+      "Később a magja csak nedves talajban csírázik."
+    ],
+    [
+      "Ültetvényekben, kertekben, házak körül, par",
+      "lagokon rendszeresen ",
+      "gyomosít",
+      "."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "29",
+      "",
+      ". ábra: ",
+      "Szőrös disznóparéj"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://",
+      "hu.depositphotos.com/325233680/stock-photo-gardening-green-amaranth-amaranthus-retroflexus.html, (megnyitás: 2024.07.05.)"
+    ],
+    [],
+    [
+      "Ürömlevelű",
+      " parlagfű"
+    ],
+    [
+      "Az ",
+      "ürömlevelű",
+      " parlagfű (",
+      "30. ábra",
+      ") észak-amerikai eredetű, ",
+      "egyéves, kétszikű",
+      " növény."
+    ],
+    [
+      "Magvai",
+      " a talaj felmelegedése után tavasztól a nyár végéig folyamatosan csíráznak.",
+      " Júniustól októberig virágzik.",
+      " ",
+      "Virágpora veszélyes allergén ",
+      "(allergiás reakciót kiváltó anyag)",
+      "!"
+    ],
+    [
+      "Utak mellett, parlagokon hatalmas állományai alakulhatnak ki. Elszaporodását a parlagterü",
+      "letek növekedése is elősegíti."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "30",
+      "",
+      ". ábra: ",
+      "Ürömlevelű",
+      " parlagfű"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://",
+      "hu.depositphotos.com/12464848/stock-photo-ambrosia-common-ragweed-09.html, https://hu.depositphotos.com/82514926/stock-photo-american-common-ragweed.html, (megnyitásuk: 2024.07.05.)"
+    ],
+    [],
+    [
+      "Pásztortáska"
+    ],
+    [
+      "A pásztortáska (",
+      "31. ábra",
+      ") Európában őshonos, de a világon sokfelé elterjedt ",
+      "egyéves, kétszikű ",
+      "gyomnövény."
+    ],
+    [
+      "Magjai a nyár végén, ősszel, de tavasszal is csírázn",
+      "ak. „",
+      "A téli hideget ",
+      "csíranövény",
+      " (a csírázáskor kialakuló olyan fiatal növény, amelynek még nincsenek lomblevelei) vagy tőlevélrózsa alakjában vészeli át.”",
+      ""
+    ],
+    [
+      "A pásztortáska kertekben, utak mentén, mezőgazdasági területeken ",
+      "gyakran előfordul."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "31",
+      "",
+      ". ábra: ",
+      "Pásztortáska"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://",
+      "hu.depositphotos.com/452881944/stock-photo-capsella-bursa-pastoris-flowers-fruit.html, https://hu.depositphotos.com/194468340/stock-photo-shepherd-purse-capsella-bursa-pastoris.html, (megnyitásuk: 2024.07.05.)"
+    ],
+    [],
+    [
+      "Fehér libatop"
+    ],
+    [
+      "A fehér libatop (",
+      "32. ábra",
+      ") Eurázsiai-mediterrán származású, ",
+      "egyéves, kétszikű",
+      " növény."
+    ],
+    [
+      "Magjai tavasztól őszig egyformán jól csíráznak, de az intenzív csírázása március-május hónapokra tehető."
+    ],
+    [
+      "Vetési és útszéli gyomtársulások gyakori növénye. A szántóföldeken kívül kertekben és ültetvényekben is általánosan elterjedt. Megtalálható nem művelt területeken is. Veszélyességét fokozza, hogy számos ",
+      "kártevő és kórokozó gazdanövénye."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "32",
+      "",
+      ". ábra: ",
+      "Fehér libatop"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https:/",
+      "/hu.depositphotos.com/378397428/stock-photo-nature-field-grows-orach-chenopodium.html, https://hu.depositphotos.com/362096846/stock-photo-nature-field-grows-chenopodium-album.html, (megnyitásuk: 2024.07.05.)"
+    ],
+    [],
+    [
+      "Csattanó maszlag"
+    ],
+    [
+      "A csattanó maszlag (",
+      "33. ábra",
+      ") Észak-Amerikából és Mexikóból származik, ma már az egész világon elterjedt. ",
+      "Egyéves, kétszikű ",
+      "növény."
+    ],
+    [
+      "Tavasztól nyár elejéig ",
+      "különböző mélységekből folyamatosan nagy tömegben csírázik. ",
+      "A fő csírázási ideje ",
+      "május.",
+      " Csírázása és kelése a nyári időszakban is megfigyelhető."
+    ],
+    [
+      "A növény minden része, de leginkább a levele és a magja mérgező!"
+    ],
+    [
+      "A művelt és a parlagterületeken egyaránt előfordul. Szántóföldön különösen a kapásnö",
+      "vények kellemetlen károsítója."
+    ],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "33",
+      "",
+      ". ábra: ",
+      "Csattanó maszlag"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://",
+      "hu.depositphotos.com/419143526/stock-photo-thorn-apple-datura-stramonium-rhineland.html, https://hu.depositphotos.com/639569826/stock-photo-wild-grows-poisonous-medicinal-plant.html, (megnyitásuk: 2024.07.05.)"
+    ],
+    [],
+    [
+      "Kanadai betyárkóró"
+    ],
+    [
+      "A kanadai betyárkóró (",
+      "34. ábra",
+      ") Észak- és Közép-Amerikában honos, de mára már világszerte elterjedt, ",
+      "egyéves, kétszikű ",
+      "növény, de ",
+      "ősszel csírázva áttelelő."
+    ],
+    [
+      "Május végétől október elejéig virágzik, nedvesség esetén magjai kora tavasztól késő őszig jól csíráznak."
+    ],
+    [],
+    [
+      "Korábban szinte csak parlagterületeken jelent meg, de most már mindenfelé nagy mennyiségben elterjedt. Terjedését segíti, hogy olyan kémiai anyagokat termel, amivel ",
+      "képes meggátolni más növények csírázását,",
+      " tehát képes elpusztítani a körülötte lévő gyomokat is. ",
+      "Több gyomirtó szerrel szemben ",
+      "ellenálló. ",
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "34",
+      "",
+      ". ábra: ",
+      "Kanadai betyárkóró"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://hu.depositphotos.com/256444768/stock-photo-horseweed-erigeron-conyza-canadensis.html, https://hu.depositphotos.com/598316956/stock-photo-erigeron-canadensis-grows-wild-summer.html, (megnyitásuk: 2024.07.05.)"
+    ],
+    [],
+    [
+      "Tyúkhúr"
+    ],
+    [
+      "A tyúkhúr (",
+      "35. ábra",
+      ") európai származású ",
+      "egyéves, kétszikű",
+      " növény. A tyúkhúr vékony karógyökérrel csatlakozik a talajhoz. Elfekvő szárú növény, ",
+      "szőnyegszerűen",
+      " betakarja a talajt."
+    ],
+    [
+      "Már 2 °C-",
+      "on",
+      " megindul a csírázása, de az optimális hőmérséklet 15 °C körül van. ",
+      "Nyár végén, ősszel kezd csírázni, de még tavasszal is folytatódhat a csírázása."
+    ],
+    [
+      "Ha egy-egy területen túlburjánzik, ",
+      "nem hagyja levegőhöz jutni a kultúrnövényeket, ",
+      "késleltetheti a fejlődésüket."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "35",
+      "",
+      ". ábra: ",
+      "Tyúkhúr"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://",
+      "hu.depositphotos.com/475244818/stock-photo-spring-stellaria-media-grows-wild.html, (megnyitás: 2024.07.05.)"
+    ],
+    [],
+    [
+      "Kövér porcsin"
+    ],
+    [
+      "A kövér porcsin (",
+      "36. ábra",
+      ") ázsiai származású, de ma már szinte az egész világon elterjedt ",
+      "egyéves, kétszikű ",
+      "gyomnövény. Pozsgás szárú és levelű növény."
+    ],
+    [
+      "Fő csírázási időszaka a késő tavasz. Kedveli a meleg időjárást, a napos területeket, a homokos talajokat, szárazságtűrő."
+    ],
+    [
+      "Kapás- és zöldségkultúrákban, szőlőültetvényekben, falaknál és utakon gyakori."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "36",
+      "",
+      ". ábra: ",
+      "Kövér porcsin"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https:/",
+      "/hu.depositphotos.com/536026842/stock-photo-nature-soil-weed-grows-purslane.html, (megnyitás: 2024.07.05.)"
+    ],
+    [],
+    [
+      "Porcsin keserűfű"
+    ],
+    [
+      "A porcsin keserűfű (",
+      "37. ábra",
+      ") az egész Földön elterjedt, ",
+      "egyéves, kétszikű",
+      " növény."
+    ],
+    [
+      "A kora tavasztól nyárig csírázó növény, ",
+      "igénytelen, a taposást is jól tűrő növény, ",
+      "szőnyegszerűen",
+      " képes beborítani a talajt. Gyökerei mélyre hatolnak a talajba."
+    ],
+    [
+      "A forgatás nélküli talajművelés kedvez az elszaporodásának."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "37",
+      "",
+      ". ábra:",
+      " Porcsin keserűfű"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://",
+      "hu.depositphotos.com/606345568/stock-photo-stems-common-knotgrass-leaves-covered.html, (megnyitás: 2024.07.05.)"
+    ],
+    [
+      "Évelő, kétszikű gyomnövények"
+    ],
+    [
+      "Apró szulák"
+    ],
+    [
+      "Az apró szulák (",
+      "38. ábra",
+      ") dél-eurázsiai eredetű, ",
+      "évelő, kétszikű",
+      " növény. Ivartalanul a talajban ",
+      "mélyen kúszó ",
+      "gyökértarackjaival ",
+      "(szaporítógyökereivel) terjed."
+    ],
+    [
+      "Június elejétől kora őszig virágzik. ",
+      "Szaporítógyökerei ",
+      "(módosult gyökér, amelyen szaporodást szolgáló járulékos rügyek képződnek)",
+      " miatt nehezen irtható. ",
+      "Kiterjedt gyökérrendszere miatt a tápanyagokért és a vízért történő versengésben a kultúrnövények és más gyomfajok jelentős versenytársa. „",
+      "Allelopátiás",
+      " hatása is ismert: csírázásgátlást, esetleg a kultúrnövények növekedésének gátlását okozhatja”",
+      "",
+      "."
+    ],
+    [],
+    [
+      "Hazánkban közönséges. Nagy tömegei az Alföld száraz területein (szántóföldek, kertek, szőlő, gyümölcsösök stb.) találhatók meg, de előfordul az ország más területein is."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "38",
+      "",
+      ". ábra: ",
+      "Apró szulák"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https:",
+      "//hu.depositphotos.com/535602840/stock-photo-flowers-blooming-park.html, (megnyitás: 2024.07.05.)"
+    ],
+    [],
+    [
+      "Pongyola pitypang"
+    ],
+    [
+      "A pongyola pitypang (",
+      "39. ábra",
+      ") erőteljes karógyökeret fejlesztő, ",
+      "évelő, kétszikű",
+      " gyomnövény. Gyökere valójában függőleges gyöktörzs (",
+      "rizóma",
+      "). Gyöktörzse segítségével áttelel."
+    ],
+    [
+      "„Ahol megtelepszik, ott nagyon káros gyommá válhat. ",
+      "Veszélyét növeli, hogy ",
+      "magról",
+      " és erős gyökérrendszeréről ",
+      "(gyöktörzséről) is jól szaporodik”",
+      ".",
+      " ",
+      "",
+      " A talajművelés miatt ",
+      "feldarabolódó",
+      " ",
+      "gyöktörzsének kis darabjairól is kihajthat. ",
+      "Magról is szaporodik, termése a szél ú",
+      "tján nagy távolságra eljuthat."
+    ],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "39",
+      "",
+      ". ábra:",
+      " Pongyola pitypang"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https:",
+      "//hu.depositphotos.com/568457646/stock-photo-closed-bud-dandelion-dandelion-white.html, https://hu.depositphotos.com/567789652/stock-photo-whole-dandelion-plant-roots-table.html, (megnyitásuk: 2024.07.06.)"
+    ],
+    [],
+    [
+      "Mezei aszat"
+    ],
+    [
+      "A mezei aszat (",
+      "40. ábra",
+      ") Eurázsia mediterrán területeiről terjedt el és került Közép-Európába. ",
+      "Évelő, szaporítógyökeres, kétszikű növény."
+    ],
+    [
+      "Ivartalan úton ",
+      "gyökértarackjaival szaporodik",
+      ". ",
+      "Magja",
+      " a repítőkészülékkel (a termés csúcsán kialakuló bóbita) ",
+      "ellátott termése útján a szél segítségével nagy távolságokra is eljuthat."
+    ],
+    [
+      "Szántóföldeken, kertekben, ültetvényekben az egyik legn",
+      "ehezebben kezelhető gyomnövény."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "40",
+      "",
+      ". ábra: ",
+      "Mezei aszat"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://hu.depositphotos.com/49943743/stock-photo-cirsium-arvense-canada-thistle-flower.html, https://hu.depositphotos.com/645516726/stock-photo-cirsium-arvense-perennial-species-flowering.html, (megnyitásuk: 2024.07.06.)"
+    ],
+    [],
+    [
+      "Szürke madársóska"
+    ],
+    [
+      "A szürke madársóska (",
+      "41. ábra",
+      ") a Földközi-tenger mentén volt őshonos, de mára már az egész világon elterjedt ",
+      "egyéves vagy évelő kétszikű gyomnövény."
+    ],
+    [],
+    [
+      "Az indás évelők csoportjába tartozik,",
+      " Magyarországon egynyári,",
+      " melegebb éghajlaton évelő. ",
+      "A ",
+      "föld felett kúszó indáinak ",
+      "(a föld felszínén szétterjedő szaporodásra módosult föld feletti szárainak) ",
+      "a legyökeresedésével vegetatív szaporodásra képes",
+      ".",
+      " A legyökeresedő indák segítségével gyorsan terjed."
+    ],
+    [],
+    [
+      "Áprilistól október közepéig folyamatosan virágzik. Sok, könnyen kicsírázó magot érlel a növény. ",
+      "Magról is jól szaporodik. ",
+      "A termések a magokat messzire elszórják."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "41",
+      "",
+      ". ábra: ",
+      "Szürke madársóska"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://hu.depositphotos.com/634478304/stock-photo-yellow-wood-sorrel-sits-stone.html, (megnyitás: 2024.07.06.)"
+    ],
+    [
+      "Egyéves, egyszikű gyomnövények"
+    ],
+    [
+      "Héla",
+      " zab"
+    ],
+    [
+      "A ",
+      "héla",
+      " zab (",
+      "42. ábra",
+      ") Eurázsiában őshonos, ",
+      "egyéves, egyszikű",
+      " növény."
+    ],
+    [
+      "Magról szaporodik.",
+      " A magvak csírázása már viszonylag alacsony hőmérsékleten megindul, április első harmadában csírázik. ",
+      "A növény jól bokrosodik, ezért nagy mennyiségű magot érlel."
+    ],
+    [
+      "Az országban gyakorlatilag minden művelt területen megtalálható, a homokos talajokat kevésbé kedveli. Általában ",
+      "a táblaszegélyben kel erősebben",
+      " és innen terjed a tábla belseje felé."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "42",
+      "",
+      ". ábra: ",
+      "Héla",
+      " zab"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https:/",
+      "/hu.depositphotos.com/268876816/stock-photo-avena-fatua-wild-oat-isolated.html, (megnyitás: 2024.07.06.)"
+    ],
+    [],
+    [
+      "Közönséges kakaslábfű"
+    ],
+    [
+      "A közönséges kakaslábfű (",
+      "43. ábra",
+      ") dél-eurázsiai eredetű ",
+      "egyszikű, egyéves",
+      " gyomnövény. Az egyik ",
+      "legelterjedtebb és legveszélyesebb egyszikű gyomnövény."
+    ],
+    [],
+    [
+      "Nyár elején csír",
+      "ázó, ősszel magot érlelő gyom. ",
+      "Nagyobb mélységből is csírázóképes",
+      ", ",
+      "csírázási időszaka elnyújto",
+      "tt, gyakran több hullámban kel.",
+      " Magassága az egy métert is meghaladhatja. A szár alsó részében földre hajló (letérdelő) növény gyakran legyökeresedik."
+    ],
+    [],
+    [
+      "A kötött talajokon kívül mindenütt megtalálja életfeltételeit. Eredetileg mocsári növény volt, ezért ",
+      "a vízborítást is jól tűri, de a száraz talajokon is jól megél."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "43",
+      "",
+      ". ábra: ",
+      "Közönséges kakaslábfű"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://gobotany.nativeplanttrust.org/species/echinochloa/crus-galli/, (megnyitás: 2024.07.06.)"
+    ],
+    [],
+    [
+      "Pirók ujjasmuhar"
+    ],
+    [
+      "A pirók ujjasmuhar (",
+      "44. ábra",
+      ") az egész Földön elterjedt, ",
+      "egyéves, egyszikű",
+      " növény."
+    ],
+    [
+      "Szára először elfekvő, majd felálló. A lekönyöklő ",
+      "szár gyakran legyökeresedik.",
+      " A növény ",
+      "jól bokrosodik.",
+      " ",
+      "Melegkedvelő, mélyre nyúló gyökérrendszere miatt a ",
+      "szárazsággal szemben ellenálló",
+      ". ",
+      "Virágzata kézfej alakú, általában ",
+      "5-7 elágazásra ",
+      "tagolódik, de ezek sohasem egy pontból erednek. Ez alapján is megkülönböztethető a hozzá hasonló csillagpázsittól."
+    ],
+    [
+      "Magja május közepétől szeptemberig csírázik."
+    ],
+    [],
+    [
+      "A pirók ujjasmuhar élőhelyéről sikeresen kiszorítja a többi gyomot is. ",
+      "Allelopátiás",
+      " hatása",
+      " miatt a kultúrnövények fejlődését is visszaveti."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "44",
+      "",
+      ". ábra: ",
+      "Pirók ujjasmuhar"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://",
+      "hu.depositphotos.com/432702732/stock-photo-wild-digitaria-sanguinalis-grows-field.html, https://hu.depositphotos.com/494738552/stock-photo-wild-digitaria-sanguinalis-grows-field.html, (megnyitásuk: 2024.07.06.)"
+    ],
+    [
+      "Évelő, egyszikű gyomnövények"
+    ],
+    [
+      "Csillagpázsit"
+    ],
+    [
+      "A csillagpázsit (",
+      "45. ábra",
+      ") ",
+      "egyszikű, évelő",
+      " gyomnövény. Erőteljesen, hosszan kúszó ",
+      "tarackjaival",
+      " terjed, így sűrű gyepet is alkothat."
+    ],
+    [
+      "Elsősorban ",
+      "vegetatív úton, tarackokkal szaporodik",
+      ". A taposást és a szárazságot is jól tűri."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "45",
+      "",
+      ". ábra: ",
+      "Csillagpázsit"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https:/",
+      "/hu.depositphotos.com/460702920/stock-photo-field-full-wild-dynodon-dactylon.html, https://hu.depositphotos.com/206437952/stock-photo-cynodon-dactylon-grama-allergens-plants.html, (megnyitásuk: 2024.07.06.)"
+    ],
+    [],
+    [
+      "Közönséges tarackbúza"
+    ],
+    [
+      "A közönséges tarackbúza",
+      " ",
+      "(",
+      "46. ábra",
+      ")",
+      " évelő,",
+      " rendszerint ivartalan úton, ",
+      "szártarackjaival",
+      " szaporodó,",
+      " ",
+      "egyszikű",
+      " növény."
+    ],
+    [],
+    [
+      "Nagyobb távolságokra maggal terjed.",
+      " A magok könnyen és gyorsan csíráznak. A csírázás évében még nem virágzik, csak ",
+      "szártarackot",
+      " fejleszt. Június elejétől késő őszig virágzik."
+    ],
+    [
+      "Az országban mindenütt honos. Ahol nem bolygatják a talajt, ott felszaporodhat."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "46",
+      "",
+      ". ábra:",
+      " Közönséges tarackbúza"
+    ],
+    [
+      "Forrás:",
+      " ",
+      "https://",
+      "hu.depositphotos.com/479778946/stock-photo-meadow-wild-grows-grass-weeds.html, https://extension.usu.edu/pests/ipm/images/turf-pest-guide/weeds/quack_grass_steve_dewey_utah_state_university_bugwood.jpg, (megnyitásuk: 2024.07.07.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "I",
+      "RODALOMJEGYZÉK"
+    ],
+    [
+      "Dr.",
+      " ",
+      "Csorba",
+      " ",
+      "Virág:",
+      " ",
+      "Milyen",
+      " ",
+      "tulajdonság",
+      " ",
+      "a",
+      " ",
+      "rezisztencia",
+      " ",
+      "és",
+      " ",
+      "a",
+      " ",
+      "tolerancia",
+      "?:"
+    ],
+    [
+      "https://agroforum.hu/szaktanacsadas-kerdesek/milyen-tulajdonsag-a-rezisztencia-es-a-tolerancia/",
+      ",",
+      " (megnyitás: 2024.06.20",
+      ".",
+      ")"
+    ],
+    [
+      "Dr.",
+      " ",
+      "Füstös",
+      " ",
+      "Zsuzsanna",
+      ", ",
+      "Dr.",
+      " ",
+      "Hodossi",
+      " ",
+      "Sándor-Dr.",
+      " ",
+      "Kovács",
+      " ",
+      "András:",
+      " ",
+      "Zöldségtermesztés",
+      " ",
+      "I.",
+      ", 2020.,",
+      " ",
+      "Budapest,",
+      " ",
+      "Herman",
+      " ",
+      "Ottó",
+      " ",
+      "Intézet."
+    ],
+    [
+      "Dr.",
+      " ",
+      "Glits",
+      " ",
+      "Márton",
+      ", ",
+      "Dr.",
+      " ",
+      "Pénzes",
+      " ",
+      "István",
+      ", ",
+      "Dr.",
+      " ",
+      "Petrányi",
+      " ",
+      "István:",
+      " ",
+      "Általános",
+      " ",
+      "növényvédelmi",
+      " ",
+      "ismeretek",
+      ", 2007., ",
+      "Budapest,",
+      " ",
+      "FVM",
+      " ",
+      "Vidékfejlesztési,",
+      " ",
+      "Képzési",
+      " ",
+      "és",
+      " ",
+      "Szaktanácsadási",
+      " ",
+      "Intézet."
+    ],
+    [
+      "Dr. Karmán József: Szántóföldjeink gyomnövényei - Pongyola pitypang:"
+    ],
+    [
+      "https://www.agronaplo.hu/szakfolyoirat/2000/12/novenyvedelem/szantofoldeink-gyomnovenyei-pongyola-pipang-taraxacum-officinale-web, (megnyitás: 2024.06.22.)"
+    ],
+    [
+      "Dr.",
+      " ",
+      "Pinke",
+      " ",
+      "Gyula:",
+      " ",
+      "A",
+      " ",
+      "gyomnövények",
+      " ",
+      "haszna",
+      ": ",
+      "https://www.agronaplo.hu/szakfolyoirat/2011/03/szantofold/a-gyomnovenyek-haszna-2,",
+      " (megnyitás: 2024.06.27",
+      ".",
+      ")"
+    ],
+    [
+      "Zöldségfélék",
+      " ",
+      "védelme",
+      ": ",
+      "http://zoldcentrum.hu/pdf/03_zoldseg_technologia.pdf,",
+      " (megnyitás: 2024.06.23",
+      ".",
+      ")"
+    ],
+    [
+      "Simonitsné",
+      " ",
+      "Krausz",
+      " ",
+      "Dóra:",
+      " ",
+      "Kis",
+      " ",
+      "mennyiségű",
+      " ",
+      "permetlé",
+      " ",
+      "bekeverése",
+      " ",
+      "háztáji",
+      " ",
+      "permetezéshez",
+      ": ",
+      "https://agroforum.hu/blog/haz-taj/kis-mennyisegu-permetle-bekeverese-haztaji-permetezeshez/,",
+      " (megnyitás: 2024.06.21",
+      ".",
+      ")"
+    ],
+    [
+      "Csomagolóeszköz",
+      " ",
+      "begyűjtési",
+      " ",
+      "rendszer",
+      ": ",
+      "https://cseber.hu/,",
+      " (hivatkozási dátum: 2024.06.26",
+      ".",
+      ")"
+    ],
+    [
+      "Mit",
+      " ",
+      "jelent",
+      " ",
+      "a",
+      " ",
+      "növények",
+      " ",
+      "védelme",
+      "?",
+      ":",
+      " ",
+      "https://portal.nebih.gov.hu/-/mit-jelent-a-novenyek-vedelme-,",
+      " (megnyitás: 2024.06.19",
+      ".",
+      ")"
+    ],
+    [
+      "A",
+      " ",
+      "növényvédő",
+      " ",
+      "szerek",
+      " ",
+      "csoportosítása",
+      " ",
+      "a",
+      " ",
+      "hatóanyag",
+      " ",
+      "és",
+      " ",
+      "a",
+      " ",
+      "növény",
+      " ",
+      "kapcsolata",
+      " ",
+      "szerint",
+      ":"
+    ],
+    [
+      "https://portal.nebih.gov.hu/-/a-novenyvedo-szerek-csoportositasa-a-hatoanyag-es-a-noveny-kapcsolata-szerint,",
+      " (megnyitás: 2024.06.23",
+      ".",
+      ")"
+    ],
+    [
+      "A",
+      " ",
+      "növényvédő",
+      " ",
+      "szerek",
+      " ",
+      "csoportosítása",
+      " ",
+      "a",
+      " ",
+      "környezeti",
+      " ",
+      "kockázat",
+      " ",
+      "szerint",
+      ":"
+    ],
+    [
+      "https://portal.nebih.gov.hu/-/a-novenyvedo-szerek-csoportositasa-a-kornyezeti-kockazat-szerint,",
+      " (megnyitás: 2024.06.23",
+      ".",
+      ")"
+    ],
+    [
+      "A",
+      " ",
+      "növényvédő",
+      " ",
+      "szerek",
+      " ",
+      "csoportosítása",
+      " ",
+      "forgalmi",
+      " ",
+      "kategóriák",
+      " ",
+      "szerint",
+      ":"
+    ],
+    [
+      "https://portal.nebih.gov.hu/-/a-novenyvedo-szerek-csoportositasa-forgalmi-kategoriak-szerint,",
+      " (megnyitás: 2024.06.24",
+      ".",
+      ")"
+    ],
+    [
+      "Miért",
+      " ",
+      "van",
+      " ",
+      "szükségünk",
+      " ",
+      "a",
+      " ",
+      "növényegészségügyre",
+      "?",
+      ":"
+    ],
+    [
+      "https://portal.nebih.gov.hu/-/miert-van-szuksegunk-a-novenyegeszsegugyre-,",
+      " (megnyitás: 2024.06.19",
+      ".",
+      ")"
+    ],
+    [
+      "Növényvédő",
+      " ",
+      "szerek",
+      " ",
+      "biztonságos",
+      " ",
+      "tárolása",
+      ":"
+    ],
+    [
+      "https://portal.nebih.gov.hu/-/novenyvedo-szerek-biztonsagos-tarolasa,",
+      " (megnyitás: 2024.06.24",
+      ".",
+      ")"
+    ],
+    [
+      "Az",
+      " ",
+      "integrált",
+      " ",
+      "termesztés",
+      " ",
+      "alapelvei",
+      " - ",
+      "Ültetvények",
+      ": ",
+      "https://portal.nebih.gov.hu/documents/10182/1166168/Ultetvenyek+2018.pdf/8fb6bfd6-61fc-13db-ad81-6f0c5d10505e,",
+      " (megnyitás: 2024.06.19",
+      ".",
+      ")"
+    ],
+    [
+      "Tyúkhúr,",
+      " ",
+      "gyógynövény",
+      " ",
+      "és",
+      " ",
+      "gyomnövény",
+      " ",
+      "egyben",
+      ": ",
+      "https://www.agrarszektor.hu/kiskert/20201106/tyukhur-gyogynoveny-es-gyomnoveny-egyben-tyukhur-csepp-tyukhur-tea-hol-kaphato-25814,",
+      " (megnyitás: 2024.06.20",
+      ".",
+      ")"
+    ],
+    [
+      "Agrárkörnyezetgazdálkodás",
+      " ",
+      "és",
+      " ",
+      "az",
+      " ",
+      "integrált",
+      " ",
+      "növényvédelem",
+      ":"
+    ],
+    [
+      "https://www.nak.hu/tajekoztatasi-szolgaltatas/kornyezetgazdalkodas/104197-agrarkornyezetgazdalkodas-es-az-integralt-novenyvedelem-i,",
+      " (megnyitás: 2024.06.21",
+      ".",
+      ")"
+    ],
+    [
+      "Hermann ",
+      "Laber",
+      ", ",
+      "Gerald",
+      " ",
+      "Lattauschke",
+      ": ",
+      "Gemüsebau",
+      ", 2020., Der ",
+      "Verlag",
+      " ",
+      "Eugen",
+      " ",
+      "Ulmer",
+      " KG"
+    ],
+    [
+      "Szélesi",
+      " ",
+      "Ferenc:",
+      " ",
+      "Az",
+      " ",
+      "egész",
+      " ",
+      "országban",
+      " ",
+      "uralkodik",
+      " ",
+      "a",
+      " ",
+      "betyárkóró",
+      ", 2022.: ",
+      "https://www.agraroldal.hu/betyarkoro_img-1.html,",
+      " (megnyitás: 2024.06.19",
+      ".",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "ÁBRA",
+      "JEGYZÉK"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Dzsudzsák Szilvia"
+      ],
+      [
+        "Szakmai lektor:",
+        "Hári Erika"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Mezőgazdaság és erdészet"
+      ],
+      [
+        "Szakma:",
+        "Kertésztechnikus"
+      ],
+      [
+        "Szakmairány:",
+        "Zöldségtermesztő"
+      ],
+      [
+        "Tanulási terület:",
+        "Zöldségtermesztés"
+      ],
+      [
+        "Tantárgy:",
+        "Zöldségtermesztési ismeretek"
+      ],
+      [
+        "Évfolyam:",
+        "11, 12, 13. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "19 óra"
+      ]
+    ]
+  ],
+  "headers": [
+    ""
+  ],
+  "footers": [
+    ""
+  ],
+  "footnotes": [
+    "",
+    "",
+    " Mit jelent a növények védelme: https://portal.nebih.gov.hu/-/mit-jelent-a-novenyek-vedelme-, 2020., (megnyitás: 2024.06.28.)",
+    " Dr. Glits Márton, Dr. Pénzes István, Dr. Petrányi István: Általános növényvédelmi ismeretek, 2007., Budapest, FVM Vidékfejlesztési, Képzési és Szaktanácsadási Intézet., 9., 25.o.",
+    " Pásztortáska: https://kwizda.hu/pasztortaska~d14965, (megnyitás: 2024.06.28.)",
+    " Szélesi Ferenc: Az egész országban uralkodik a betyárkóró, 2022., https://www.agraroldal.hu/betyarkoro_img-1.html, (megnyitás: 2024.07.03.)",
+    " https://kwizda.hu/apro-szulak~d12984, (megnyitás: 2024.07.04.)",
+    " Dr. Karmán József: Szántóföldeink gyomnövényei – Pongyola pitypang, 2013.: https://galamb.agronaplo.hu/szakfolyoirat/2000/12/novenyvedelem/szantofoldeink-gyomnovenyei-pongyola-pipang-taraxacum-officinale-web, (megnyitás: 2024.06.29.)"
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image27.jpg",
+      "path": null,
+      "bytes": 29537
+    },
+    {
+      "name": "image34.jpg",
+      "path": null,
+      "bytes": 48721
+    },
+    {
+      "name": "image36.jpg",
+      "path": null,
+      "bytes": 80358
+    },
+    {
+      "name": "image33.jpg",
+      "path": null,
+      "bytes": 52319
+    },
+    {
+      "name": "image35.jpg",
+      "path": null,
+      "bytes": 66056
+    },
+    {
+      "name": "image30.jpg",
+      "path": null,
+      "bytes": 48777
+    },
+    {
+      "name": "image31.jpg",
+      "path": null,
+      "bytes": 29448
+    },
+    {
+      "name": "image29.jpg",
+      "path": null,
+      "bytes": 41103
+    },
+    {
+      "name": "image37.jpg",
+      "path": null,
+      "bytes": 97384
+    },
+    {
+      "name": "image28.jpg",
+      "path": null,
+      "bytes": 49836
+    },
+    {
+      "name": "image32.jpg",
+      "path": null,
+      "bytes": 46396
+    },
+    {
+      "name": "image41.jpg",
+      "path": null,
+      "bytes": 64853
+    },
+    {
+      "name": "image39.jpg",
+      "path": null,
+      "bytes": 48757
+    },
+    {
+      "name": "image48.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image47.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image46.jpg",
+      "path": null,
+      "bytes": 31303
+    },
+    {
+      "name": "image45.jpg",
+      "path": null,
+      "bytes": 39468
+    },
+    {
+      "name": "image44.jpg",
+      "path": null,
+      "bytes": 43056
+    },
+    {
+      "name": "image43.jpg",
+      "path": null,
+      "bytes": 28178
+    },
+    {
+      "name": "image42.jpg",
+      "path": null,
+      "bytes": 32601
+    },
+    {
+      "name": "image26.jpg",
+      "path": null,
+      "bytes": 54849
+    },
+    {
+      "name": "image40.jpg",
+      "path": null,
+      "bytes": 27968
+    },
+    {
+      "name": "image38.jpg",
+      "path": null,
+      "bytes": 58766
+    },
+    {
+      "name": "image23.jpg",
+      "path": null,
+      "bytes": 32471
+    },
+    {
+      "name": "image24.jpg",
+      "path": null,
+      "bytes": 11381
+    },
+    {
+      "name": "image7.jpg",
+      "path": null,
+      "bytes": 30342
+    },
+    {
+      "name": "image8.jpg",
+      "path": null,
+      "bytes": 51851
+    },
+    {
+      "name": "image9.jpg",
+      "path": null,
+      "bytes": 27967
+    },
+    {
+      "name": "image10.jpg",
+      "path": null,
+      "bytes": 80948
+    },
+    {
+      "name": "image6.jpg",
+      "path": null,
+      "bytes": 95946
+    },
+    {
+      "name": "image5.jpg",
+      "path": null,
+      "bytes": 70755
+    },
+    {
+      "name": "image4.jpg",
+      "path": null,
+      "bytes": 7121
+    },
+    {
+      "name": "image3.jpg",
+      "path": null,
+      "bytes": 48493
+    },
+    {
+      "name": "image2.jpg",
+      "path": null,
+      "bytes": 60976
+    },
+    {
+      "name": "image1.jpg",
+      "path": null,
+      "bytes": 29425
+    },
+    {
+      "name": "image25.jpg",
+      "path": null,
+      "bytes": 109388
+    },
+    {
+      "name": "image11.jpg",
+      "path": null,
+      "bytes": 57899
+    },
+    {
+      "name": "image13.jpg",
+      "path": null,
+      "bytes": 21352
+    },
+    {
+      "name": "image12.jpg",
+      "path": null,
+      "bytes": 48765
+    },
+    {
+      "name": "image21.jpg",
+      "path": null,
+      "bytes": 42043
+    },
+    {
+      "name": "image22.jpg",
+      "path": null,
+      "bytes": 63988
+    },
+    {
+      "name": "image19.jpg",
+      "path": null,
+      "bytes": 49175
+    },
+    {
+      "name": "image20.jpg",
+      "path": null,
+      "bytes": 36730
+    },
+    {
+      "name": "image17.jpg",
+      "path": null,
+      "bytes": 32449
+    },
+    {
+      "name": "image18.jpg",
+      "path": null,
+      "bytes": 44507
+    },
+    {
+      "name": "image14.jpg",
+      "path": null,
+      "bytes": 31126
+    },
+    {
+      "name": "image16.jpg",
+      "path": null,
+      "bytes": 42312
+    },
+    {
+      "name": "image15.jpg",
+      "path": null,
+      "bytes": 48478
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Table Normal",
+    "Title",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "Címsor 4 Char",
+    "Címsor 5 Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "ELMS",
+    "Grid Table 5 Dark Accent 1",
+    "elms_ContentText",
+    "elms_Egyszeres",
+    "elms_Fogalom",
+    "elms_Fogalom:invalid",
+    "elms_Fontos",
+    "elms_HelyesValasz",
+    "elms_HibasValasz",
+    "elms_JogiSzoveg",
+    "elms_Opcionalis",
+    "annotation reference",
+    "annotation text",
+    "Jegyzetszöveg Char",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Placeholder Text",
+    "Table Grid",
+    "Hyperlink",
+    "elms_Media",
+    "table of figures",
+    "List Paragraph",
+    "elms_Tobbszoros",
+    "elms_Parosito",
+    "elms_Sorbarendezo",
+    "elms_Legordulo",
+    "elms_Kitolto",
+    "elms_FogdEsVidd",
+    "elms_Kijelolo",
+    "elms_Gyakorlo",
+    "elms_numeric",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "toa heading",
+    "table of authorities",
+    "footnote text",
+    "Lábjegyzetszöveg Char",
+    "footnote reference",
+    "Bibliography",
+    "Címsor 1 (helyőrző)",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "elms_TartalomCimsor",
+    "toc 4",
+    "elms_cim_1_tananyag",
+    "elms_cim_2_egyseg",
+    "elms_cim_3_fejezet",
+    "elms_cim_4_lecke",
+    "elms_tananyag",
+    "elms_egyseg",
+    "Revision",
+    "Caption",
+    "Nem lista1",
+    "msonormal",
+    "FollowedHyperlink",
+    "icon",
+    "docon",
+    "bookmark-status",
+    "is-visually-hidden-touch",
+    "visually-hidden",
+    "has-text-white-static",
+    "HTML Top of Form",
+    "z-A kérdőív teteje Char",
+    "has-text-primary",
+    "HTML Bottom of Form",
+    "z-A kérdőív alja Char",
+    "tree-expander",
+    "tree-expander-indicator",
+    "Normal (Web)",
+    "Emphasis",
+    "HTML Code",
+    "Strong",
+    "68831B013408452FBD29B6FDEC9893802",
+    "6FD96C86FC10454FA6AE06C5190120182",
+    "Outline List 2",
+    "Outline List 1",
+    "Signature",
+    "Aláírás Char",
+    "Subtitle",
+    "Alcím Char",
+    "Closing",
+    "Befejezés Char",
+    "envelope address",
+    "Outline List 3",
+    "Cím Char",
+    "Plain Text",
+    "Csak szöveg Char",
+    "Date",
+    "Dátum Char",
+    "Document Map",
+    "Dokumentumtérkép Char",
+    "Table Simple 1",
+    "Table Simple 2",
+    "Table Simple 3",
+    "Table Elegant",
+    "E-mail Signature",
+    "E-mail aláírása Char",
+    "Intense Reference",
+    "Intense Emphasis",
+    "envelope return",
+    "List Bullet",
+    "List Bullet 2",
+    "List Bullet 3",
+    "List Bullet 4",
+    "List Bullet 5",
+    "Subtle Reference",
+    "Subtle Emphasis",
+    "Table Subtle 1",
+    "Table Subtle 2",
+    "HTML Keyboard",
+    "HTML Address",
+    "HTML-cím Char",
+    "HTML Definition",
+    "HTML Cite",
+    "HTML Typewriter",
+    "HTML Preformatted",
+    "HTML-ként formázott Char",
+    "HTML Sample",
+    "HTML Acronym",
+    "HTML Variable",
+    "Quote",
+    "Idézet Char",
+    "Intense Quote",
+    "Kiemelt idézet Char",
+    "Table Classic 1",
+    "Table Classic 2",
+    "Table Classic 3",
+    "Table Classic 4",
+    "Book Title",
+    "Medium Shading 1",
+    "Medium Shading 1 Accent 1",
+    "Medium Shading 1 Accent 2",
+    "Medium Shading 1 Accent 3",
+    "Medium Shading 1 Accent 4",
+    "Medium Shading 1 Accent 5",
+    "Medium Shading 1 Accent 6",
+    "Medium Shading 2",
+    "Medium Shading 2 Accent 1",
+    "Medium Shading 2 Accent 2",
+    "Medium Shading 2 Accent 3",
+    "Medium Shading 2 Accent 4",
+    "Medium Shading 2 Accent 5",
+    "Medium Shading 2 Accent 6",
+    "Medium List 1",
+    "Medium List 1 Accent 1",
+    "Medium List 1 Accent 2",
+    "Medium List 1 Accent 3",
+    "Medium List 1 Accent 4",
+    "Medium List 1 Accent 5",
+    "Medium List 1 Accent 6",
+    "Medium List 2",
+    "Medium List 2 Accent 1",
+    "Medium List 2 Accent 2",
+    "Medium List 2 Accent 3",
+    "Medium List 2 Accent 4",
+    "Medium List 2 Accent 5",
+    "Medium List 2 Accent 6",
+    "Medium Grid 1",
+    "Medium Grid 1 Accent 1",
+    "Medium Grid 1 Accent 2",
+    "Medium Grid 1 Accent 3",
+    "Medium Grid 1 Accent 4",
+    "Medium Grid 1 Accent 5",
+    "Medium Grid 1 Accent 6",
+    "Medium Grid 2",
+    "Medium Grid 2 Accent 1",
+    "Medium Grid 2 Accent 2",
+    "Medium Grid 2 Accent 3",
+    "Medium Grid 2 Accent 4",
+    "Medium Grid 2 Accent 5",
+    "Medium Grid 2 Accent 6",
+    "Medium Grid 3",
+    "Medium Grid 3 Accent 1",
+    "Medium Grid 3 Accent 2",
+    "Medium Grid 3 Accent 3",
+    "Medium Grid 3 Accent 4",
+    "Medium Grid 3 Accent 5",
+    "Medium Grid 3 Accent 6",
+    "List",
+    "List 2",
+    "List 3",
+    "List 4",
+    "List 5",
+    "List Continue",
+    "List Continue 2",
+    "List Continue 3",
+    "List Continue 4",
+    "List Continue 5",
+    "Table List 1",
+    "List Table 1 Light",
+    "List Table 1 Light Accent 1",
+    "List Table 1 Light Accent 2",
+    "List Table 1 Light Accent 3",
+    "List Table 1 Light Accent 4",
+    "List Table 1 Light Accent 5",
+    "List Table 1 Light Accent 6",
+    "Table List 2",
+    "List Table 2 Accent 1",
+    "List Table 2 Accent 2",
+    "List Table 2 Accent 3",
+    "List Table 2 Accent 4",
+    "List Table 2 Accent 5",
+    "List Table 2 Accent 6",
+    "Table List 3",
+    "List Table 3 Accent 1",
+    "List Table 3 Accent 2",
+    "List Table 3 Accent 3",
+    "List Table 3 Accent 4",
+    "List Table 3 Accent 5",
+    "List Table 3 Accent 6",
+    "Table List 4",
+    "List Table 4 Accent 1",
+    "List Table 4 Accent 2",
+    "List Table 4 Accent 3",
+    "List Table 4 Accent 4",
+    "List Table 4 Accent 5",
+    "List Table 4 Accent 6",
+    "Table List 5",
+    "List Table 5 Dark",
+    "List Table 5 Dark Accent 1",
+    "List Table 5 Dark Accent 2",
+    "List Table 5 Dark Accent 3",
+    "List Table 5 Dark Accent 4",
+    "List Table 5 Dark Accent 5",
+    "List Table 5 Dark Accent 6",
+    "Table List 6",
+    "List Table 6 Colorful",
+    "List Table 6 Colorful Accent 1",
+    "List Table 6 Colorful Accent 2",
+    "List Table 6 Colorful Accent 3",
+    "List Table 6 Colorful Accent 4",
+    "List Table 6 Colorful Accent 5",
+    "List Table 6 Colorful Accent 6",
+    "Table List 7",
+    "List Table 7 Colorful",
+    "List Table 7 Colorful Accent 1",
+    "List Table 7 Colorful Accent 2",
+    "List Table 7 Colorful Accent 3",
+    "List Table 7 Colorful Accent 4",
+    "List Table 7 Colorful Accent 5",
+    "List Table 7 Colorful Accent 6",
+    "Table List 8",
+    "List Table 2",
+    "List Table 3",
+    "List Table 4",
+    "macro",
+    "Makró szövege Char",
+    "Note Heading",
+    "Megjegyzésfej Char",
+    "Salutation",
+    "Megszólítás Char",
+    "Table Contemporary",
+    "No Spacing",
+    "Normal Indent",
+    "page number",
+    "Table Columns 1",
+    "Table Columns 2",
+    "Table Columns 3",
+    "Table Columns 4",
+    "Table Columns 5",
+    "Table Professional",
+    "Table Grid 1",
+    "Table Grid 2",
+    "Table Grid 3",
+    "Table Grid 4",
+    "Table Grid 5",
+    "Table Grid 6",
+    "Table Grid 7",
+    "Table Grid 8",
+    "line number",
+    "Dark List",
+    "Dark List Accent 1",
+    "Dark List Accent 2",
+    "Dark List Accent 3",
+    "Dark List Accent 4",
+    "Dark List Accent 5",
+    "Dark List Accent 6",
+    "List Number",
+    "List Number 2",
+    "List Number 3",
+    "List Number 4",
+    "List Number 5",
+    "Colorful Shading",
+    "Colorful Shading Accent 1",
+    "Colorful Shading Accent 2",
+    "Colorful Shading Accent 3",
+    "Colorful Shading Accent 4",
+    "Colorful Shading Accent 5",
+    "Colorful Shading Accent 6",
+    "Colorful List",
+    "Colorful List Accent 1",
+    "Colorful List Accent 2",
+    "Colorful List Accent 3",
+    "Colorful List Accent 4",
+    "Colorful List Accent 5",
+    "Colorful List Accent 6",
+    "Colorful Grid",
+    "Colorful Grid Accent 1",
+    "Colorful Grid Accent 2",
+    "Colorful Grid Accent 3",
+    "Colorful Grid Accent 4",
+    "Colorful Grid Accent 5",
+    "Colorful Grid Accent 6",
+    "Block Text",
+    "Body Text",
+    "Szövegtörzs Char",
+    "Body Text 2",
+    "Szövegtörzs 2 Char",
+    "Body Text 3",
+    "Szövegtörzs 3 Char",
+    "Body Text Indent",
+    "Szövegtörzs behúzással Char",
+    "Body Text Indent 2",
+    "Szövegtörzs behúzással 2 Char",
+    "Body Text Indent 3",
+    "Szövegtörzs behúzással 3 Char",
+    "Body Text First Indent",
+    "Szövegtörzs első sora Char",
+    "Body Text First Indent 2",
+    "Szövegtörzs első sora 2 Char",
+    "Plain Table 1",
+    "Plain Table 2",
+    "Plain Table 3",
+    "Plain Table 4",
+    "Plain Table 5",
+    "Grid Table Light",
+    "Grid Table 1 Light",
+    "Grid Table 1 Light Accent 1",
+    "Grid Table 1 Light Accent 2",
+    "Grid Table 1 Light Accent 3",
+    "Grid Table 1 Light Accent 4",
+    "Grid Table 1 Light Accent 5",
+    "Grid Table 1 Light Accent 6",
+    "Grid Table 2",
+    "Grid Table 2 Accent 1",
+    "Grid Table 2 Accent 2",
+    "Grid Table 2 Accent 3",
+    "Grid Table 2 Accent 4",
+    "Grid Table 2 Accent 5",
+    "Grid Table 2 Accent 6",
+    "Grid Table 3",
+    "Grid Table 3 Accent 1",
+    "Grid Table 3 Accent 2",
+    "Grid Table 3 Accent 3",
+    "Grid Table 3 Accent 4",
+    "Grid Table 3 Accent 5",
+    "Grid Table 3 Accent 6",
+    "Grid Table 4",
+    "Grid Table 4 Accent 1",
+    "Grid Table 4 Accent 2",
+    "Grid Table 4 Accent 3",
+    "Grid Table 4 Accent 4",
+    "Grid Table 4 Accent 5",
+    "Grid Table 4 Accent 6",
+    "Grid Table 5 Dark",
+    "Grid Table 5 Dark Accent 2",
+    "Grid Table 5 Dark Accent 3",
+    "Grid Table 5 Dark Accent 4",
+    "Grid Table 5 Dark Accent 5",
+    "Grid Table 5 Dark Accent 6",
+    "Grid Table 6 Colorful",
+    "Grid Table 6 Colorful Accent 1",
+    "Grid Table 6 Colorful Accent 2",
+    "Grid Table 6 Colorful Accent 3",
+    "Grid Table 6 Colorful Accent 4",
+    "Grid Table 6 Colorful Accent 5",
+    "Grid Table 6 Colorful Accent 6",
+    "Grid Table 7 Colorful",
+    "Grid Table 7 Colorful Accent 1",
+    "Grid Table 7 Colorful Accent 2",
+    "Grid Table 7 Colorful Accent 3",
+    "Grid Table 7 Colorful Accent 4",
+    "Grid Table 7 Colorful Accent 5",
+    "Grid Table 7 Colorful Accent 6",
+    "index 1",
+    "index 2",
+    "index 3",
+    "index 4",
+    "index 5",
+    "index 6",
+    "index 7",
+    "index 8",
+    "index 9",
+    "index heading",
+    "Table Colorful 1",
+    "Table Colorful 2",
+    "Table Colorful 3",
+    "Table Theme",
+    "Table 3D effects 1",
+    "Table 3D effects 2",
+    "Table 3D effects 3",
+    "toc 5",
+    "toc 6",
+    "toc 7",
+    "toc 8",
+    "toc 9",
+    "Message Header",
+    "Üzenetfej Char",
+    "endnote text",
+    "Végjegyzet szövege Char",
+    "endnote reference",
+    "Light Shading Accent 1",
+    "Light Shading Accent 2",
+    "Light Shading Accent 3",
+    "Light Shading Accent 4",
+    "Light Shading Accent 5",
+    "Light Shading Accent 6",
+    "Light List",
+    "Light List Accent 1",
+    "Light List Accent 2",
+    "Light List Accent 3",
+    "Light List Accent 4",
+    "Light List Accent 5",
+    "Light List Accent 6",
+    "Light Grid",
+    "Light Grid Accent 1",
+    "Light Grid Accent 2",
+    "Light Grid Accent 3",
+    "Light Grid Accent 4",
+    "Light Grid Accent 5",
+    "Light Grid Accent 6",
+    "Light Shading",
+    "Table Web 1",
+    "Table Web 2",
+    "Table Web 3",
+    "Nem lista2",
+    "Default",
+    "Rácsos táblázat1",
+    "Rácsos táblázat2",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Feloldatlan megemlítés1",
+    "[Alapbekezdés]",
+    "Unresolved Mention"
+  ]
+}

@@ -1,0 +1,1399 @@
+{
+  "core_properties": {
+    "creator": "Nagy Szabolcs (ELMS)",
+    "lastModifiedBy": "Portik Izabella (ELMS)",
+    "revision": "3",
+    "created": "2024-09-24T12:36:00Z",
+    "modified": "2024-09-26T11:30:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal",
+    "TotalTime": "2",
+    "Pages": "23",
+    "Words": "3503",
+    "Characters": "24176",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "201",
+    "Paragraphs": "55",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "27624",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.12.3  ",
+    "Egynyári dísznövények ültetése és szaporításuk létesítményei",
+    "Témák kézirata",
+    "Forrás: Grieb, Ortrud: Der Werker. Zierpflanzenbau. 3., aktualisierte Auflage. Stuttgart (Hohenheim), 2018, Ulmer.\nISBN 978-3-8186-0388-5\nBettin, Andreas: Kulturtechniken im Zierpflanzenbau. Stuttgart (Hohenheim), 2011, Ulmer.\nISBN 978-3-8001-5187-5",
+    "",
+    "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak.",
+    "",
+    "",
+    "",
+    "TARTALOMJEGYZÉK",
+    "1\tEGYNYÁRI DÍSZNÖVÉNYEK KONTÉNERBE VAGY CSERÉPBE ÜLTETÉSE\t2",
+    "1.1\tCSEREPEK ÉS KONTÉNEREK\t2",
+    "1.2\tÜLTETÉS KÉZZEL\t3",
+    "1.3\tÜLTETÉS GÉPPEL\t4",
+    "1.4\tAZ ÁTÜLTETÉS\t6",
+    "1.5\tEGYNYÁRIAK KIÜLTETÉSE SZABADFÖLDRE\t7",
+    "1.6\tEGYNYÁRI DÍSZNÖVÉNYEK LÁDÁBA ÜLTETÉSE\t9",
+    "2\tAZ IVAROS ÉS IVARTALAN SZAPORÍTÁS BERENDEZÉSEI ÉS GÉPEILÉTESÍTMÉNYEI\t12",
+    "2.1\tFÓLIA ALATTI NEVELÉS\t14",
+    "2.2\tKÖDPERMETES NÖVÉNYNEVELÉS\t16",
+    "2.2.1\tKödgépek\t17",
+    "Ábrajegyzék\t19",
+    "Táblázatjegyzék\t20",
+    "",
+    "EGYNYÁRI DÍSZNÖVÉNYEK KONTÉNERBE VAGY CSERÉPBE ÜLTETÉSE",
+    "A generatív és vegetatív szaporítás útján nyert egészséges, megfelelő korú és méretű növényeket cserepekbe vagy konténerekbe ültetik, általában így kerülnek értékesítésre. A téma az egynyári dísznövényekkel történik bemutatásával együtt kerül áttekintésre, de minden más dísznövény kultúránál alkalmazzuk ezt az eljárást. ",
+    "CSEREPEK ÉS KONTÉNEREK",
+    "A két liternél nagyobb űrtartalmú cserepeket a kertészek konténernek nevezik. A legolcsóbbak és kisebb űrtartalmúak a műanyag cserepek. Kaphatók különböző átmérőjű fekete, agyagvörös, tarka színűekben vagy nyomtatott mintávalzatú cserepek és különböző átmérővel. A 9-es cserépnek például a felső átmérője kilenc centiméter, ezért nevezik így a gyakorlatbani életben. A kör vagyés szögletes alapterületű cserepek egyaránt elhelyezhetők hozzájuk illő tálcákban.",
+    "Agyagedényeket már ritkán használunk. Nagyon masszívak, de nagy súlyuk hátrányt jelent a munka során. Az agyagedényeket nehéz tisztítani és egymásra helyezve tárolni. A szép agyagedények arra jók, hogy az eladásra kínált növényeknek szép megjelenést kölcsönözzenek, így a vásárló többet fizet értük.",
+    "Az egynyári virágokhoz és balkonnövényekhez használhatunk szerves anyagból készült cserepeket (1. ábra), amelyeket el lehet ültetni a növényekkel együtt, mert egy idő után lebomlanak. Ezek a cserepek készülhetnek kókuszrostból, préselt tőzegből, keményítőből, rizshéjból, bambuszból vagy kenderrostból. Néhányan közülük a cseréptöltő géppel is tökéletesen működikhasználható. A cseréptöltő gépek feladata a cserepek előre bekevert közeggel való megtöltése, ezzel előkészítve az ez után soron következő ültetési folyamatot. Ezek jJelenleg még drágábbak, mint a műanyag cserepek, ugyanakkor környezetbarát megoldást jelentenek. A tőzegkorongok úgy néznek ki, mint a tabletták. Ha nedvességet kapnak, az ültetőközeg megduzzad, és cseréptőzeglabda „nő ki” belőle, amelyet egy finom szövet tart össze. Egyszeri magvetésre és dugványozásra használatosak.",
+    "",
+    "",
+    "1. ábra: Növényi összetevőkből készült cserép, tőzegkorongok és tőzegből készült palántatálca",
+    "",
+    "ÜLTETÉS KÉZZEL",
+    "Az ültetés az év bármely szakában megtörténhet. Ez mindig a termesztési céltól és a lehetőségeinktől függ. A legtöbb növényt tavasszal ültetik, de a növényszaporító létesítmények esetén ez sokkal korábbra is hozható. Ha az ültetés már téll végén elkezdődik, és a szabadban még fagyos a szabadban az időjárás, Téli fagyok idején az ültetőközeget virágföldet időben be kell hozni a melegre, hogy felmelegedjen. A fiatal növénynek megfelelő vízellátásra van szüksége, hogy jól átvészelje az átültetést. Az ültetéshez először egy ládában előkészítjük a fiatal egynyári dísznövényeket, hogy kézhezre álljanak az ültetéshezkor. Nagyobb mennyiségek esetén érdemes cseréptöltő gépet használni. ",
+    "A kisebb mennyiségeket a cseréptöltő asztalnál ültetjük (2. ábra). A fiatal növényeket magunk mellé balra, az ültetőközegbe virágföldre helyezzük, a jobb oldalon pedig fejjel lefelé elhelyezzük az egymásba rakott cserepeket. A kész cserepeknek szánt ládát magunktól balra helyezzük el. Ha nincs hely az asztalon, akkor egymásra rakott dobozokra tesszük őket, nem a földre.",
+    "",
+    "2. ábra: Ültetés",
+    "",
+    "Jobb kézzel megfogunk egy cserepet, és annyi ültetőközeget töltünk bele, hogy a növény még jól elférjen benne. Bal kézzel belehelyezünk egy fiatal növényt, és megfelelő pozícióban tartjuk, míg a jobb kézzel földetközeget töltünk rá. Mindkét kézzel finoman átnyomkodjuk. Bal kézzel félre tesszük a kész cserepet, míg a jobb kézzel már a következőért nyúlunk. Balkezesek mindezt fordított oldalon végezhetik ellentétes kézzel.",
+    "A növényeknek a közeg felszínére merőlegesen kell a cserép közepén állniuk körülbelül ugyanolyan mélyen, mint korábban voltak. A beültetés után jól megöntözzük a növényeket, hogy az ültetőközeg szemcséi bemosódjanaanak a gyökerekhez. A különböző fajtákat külön-külön címkékkel jelöljük a ládákon. ",
+    "",
+    "ÜLTETÉS GÉPPEL",
+    "Egynyári dísznöványeknél ültetőgépet is használnak. Ültetőgépet azonban beállítani és feltölteni csak nagy mennyiségű növény ültetésekor érdemes. Ezt a módszert kétnyári-, évelő-, és fásszárú dísznövényeknél is használják. Az ültetőközeg-tartályt fel kell tölteni a növény számára alkalmas közeggel, az ültetőedény-tárolót tiszta ültetőedényekkel. Elő kell készíteni az ültetni kívánt növényeket, és munkához lehet látni. A gép megtölti az ültetőedényeket ültetőfölddelközeggel, és egy fúróval mélyedést alakít ki a z ültetőközegbe (3. ábra). ",
+    "",
+    "3. ábra: Ültetőgép",
+    "",
+    "Ebbe a mélyedésbe kerül a növény. Különböző méretű fúrók közül is lehet választani. Az ültetőedény futószalagon halad tovább. A szalagról leveszik, majd ládákba, tálcákba helyezik. A sebesség állítható, ugyanis egyes növények gyorsabban ültethetők, míg más fajok több időt igényelnek. Ültetőgéppel történő ültetéskor célszerű a palántákat mindjárt palántázó tálcába vetni vagy tűzdelni, mert így minden növénynek egyforma nagyságú gyökérlabdája lesz. Ha minden alkalommal más méretű mélyedésre van szükség, akkor félre lehet tenni a fúrót, és kézzel is el lehet készíteni a lyukakat. Munka után az ültetőgépet alaposan meg kell tisztítani. Az ültetőgép műkődését ez a videó is bemutatja. ",
+    "Az ültetőgép első használata előtt pontosan ismernünk kell a veszélyes részeket és a vészleállító kapcsolók helyét. A vészkapcsolónak minden munkaállásrólhelyről elérhetőnek kell lennie. Fokozott körültekintésodafigyelés szükséges a következő esetekben:",
+    "•\tHa új ültetőedények betöltésekor az egyik leesik. → A veszélyes területre történő benyúlás előtt a gépet ki kell kapcsolni.",
+    "•\tEgy növény melléesik. → Az ültetőedények közé történő benyúlás előtt a gépet ki kell kapcsolni.",
+    "•\tFurcsa dolog látható az ültetőföldbenközegben? → A veszélyes területre történő benyúlás előtt a gépet ki kell kapcsolni.",
+    "•\tTisztítani vagy javítani kívánja a gépet? → Előbb ki kell kapcsolni a gépet.",
+    "•\tJaj! Az ujjak beszorultak a szállítószalagnál, a kéz a fúrógép alá került → Nyomja meg a vészleállító kapcsolót (4. ábra)!",
+    "",
+    "4. ábra: A vészleállító kapcsoló mindig feltűnő színű",
+    "",
+    "AZ ÁTÜLTETÉS",
+    "A növényeket leginkább azelőtt kell értékesíteni, hogy át kellene ültetni őket egy nagyobb cserépbe vagy konténerbe. Egynyári- és kétnyári növényeknél ezt csak nagyon ritkán várják meg,alkalmazzák, hiszen az értékesítésre hamarabb sor kerül, mint hogy a növény átültetésre szorulnajon. Inkább növényházi növényeknél-, évelőknél és fás szárúaknál fordul előalkalmazzuk az átültetést.",
+    " Az átültetés csak akkor éri meg anyagilag, ha a nagy növényeket magasabb áron tudjuk értékesíteni – elsősorban balkon- és ámpolnanövény összeültetéseknél, vagy ha anyanövényre van szükségünk. Ha a földlabda teljesen átgyökeresedett, a növényt át kell ültetni. Ha a gyökereknek nincs több helyük növekedni, a növény túlfejletté (beöregedetté) válik (5. ábra). A túlfejlett növények lassan nőnek és idő előtt virágot hoznak. A bonsai esetében viszont éppen ez a kívánatos jelenségt az állapotota túlfejlettség állapotát tartjuk fenn a megfelelő metszésekkel. Ha túlfejlett növényeket ültetünk ki, azok csak lassan fognak növekedni. ",
+    "A kiültetéshez a cserép szélét fejjel felfelé az asztal szélének ütögetjük. Így a földlabda kiesik. Ha a földlabda normálisanteljesen átgyökeresedett, a cserép oldalfalának ütögetésével megkönnyíthetjük a kivételét,t és egyszerűen átültethetjük egy nagyobb cserépbe. Ha a gyökerek már körbenőttek a cserép fala mentén, és alig látható az ültetőközeg, felszakítjuk a földlabdát. Visszavágjuk a túl hosszú gyökereket, és újraültetjük a növényt. Ha sok gyökeret vágunk le, ennek arányaiban a növény hajtásait is vissza kell vágnunk.",
+    "",
+    "5. ábra: Különböző mértékben átgyökeresedett földlabdák, a bal oldalon látható a túlfejlett",
+    "",
+    "EGYNYÁRIAK KIÜLTETÉSE SZABADFÖLDRE",
+    "Az egynyári és kétnyári vágott virágokat – például a kerti őszirózsát (Callistephus chinensis) vagy a tátikát (Antirrhinum majus) – szabadföldrbe ültetjük és itt neveljük az értékesítésig. ",
+    "Szabadföldi ültetésnél alapvetően először fellazítjuk, felkapáljuk a talajt, majd utakat készítünk benne. Az ágyások többsége 1,20 méter széles, a köztük lévő utak pedig 30 centiméter szélesek. Az ágyásban sorhúzóval kijelöljük a növénysorokat. A megfelelő ültetési távolságot az adott sorban kézzel mérjük ki. Az ültetőgödrök földjét jobb oldalra dobjuk ki. Olyan nagyra kell ásni őket, hogy a földlabdák kényelmesen elférjenek bennük. Bal kézzel behelyezzük a növényeket, majd tövüknél fogva lenyomkodjuk őket, a talajt tömörítve. A földlabda nélküli gyökereknek képzeletben kiegyenesítve el kell férniük a gödörben (6. ábra). A krizantémokat (Chrysanthemum × grandiflorum) és a szegfűket (Dianthus caryophyllus) hálóban ültetjük. ",
+    "",
+    "6. ábra: A gyökereknek kinyújtva el kell férniük az ültetőgödörben",
+    "",
+    "A növények megtámasztására szolgáló hálókat később húzzuk fel, amikor a növények elérték a kellő magasságot ehhez. ",
+    "Gyakran évelő dísznövényeket is kiültetünk szabadföldre. A hagymákat és gumókat – például kardvirágok (Gladiolus fajták) és íriszek (Iris × hollandica) esetében – megfelelő távolságban és megfelelő mélységben (alapszabály: a hagyma méretének kétszerese) helyezzük el a földben. Az ültetést követően óvatosan megöntözzük a növényeket (7. ábra). A talaj az öntözést követően feliszapolódásra hajlamos. A legjobb, ha alacsony kijuttatási sebességű öntözőberendezést használunk. ",
+    "",
+    "7. ábra: Frissen ültetett rózsa",
+    "",
+    "A fás szárúak nál is sok esetben előfordul a szabadföldbere való kiültetés. A vágott virágnak szánt rózsákat üvegházba ültetjük. Ezek télen általában földlabda nélkül érkeznek a kertészetekbe. Először 24 órára vízbe tesszük őket, hogy megfelszívják magukat vízzel. Mély ültetőgödröket ásunk. A gyökereknek függőlegesen lefelé el kell férniük az ültetőgödörben. Ültetéskor enyhén visszavágjuk a gyökereket és a hajtásokat. Az oltás helye közvetlenül a talajszint alatt helyezkedjen el. Az ültetés után óvatosan megnyomjuk, így tömörítjük a földet. Ez után tömlőből öntözzük meg úgy, hogy a talaj jól lbemosódjon a gyökerekhez.",
+    "",
+    "EGYNYÁRI DÍSZNÖVÉNYEK LÁDÁBA ÜLTETÉSE",
+    "Ha ládába ültetünk növényeket (nem csak egynyáriakat, hanem kétnyáriakat, évelőket is lehet ládába ültetni), az alábbiak szerint járunk el. Ha a ládán nincs vízelvezető nyílás az alján, akkor fúrunk bele néhányat. Ezután vízelvezetőésként körülbelül három centiméternyi, nagy vízáteresztő képességű anyagot, (például duzzasztott agyagot, kavicsot, sódert) töltünk beleaz aljába. Erre egy flízréteget helyezünk, hogy az ültetőközeg és a gyökerek ne tudják eltömíteni a vízelvezető réteget. Ezután töltjük be az ültetőközeget, de még nem töltjük fel teljesen a ládát. Ha bizonytalanok vagyunk az ültetési mélységgel kapcsolatban, próbaképpen tegyük be először a cserepeket a ládába. Ha ezt a mélységet megfelelőnek találjuk, megtisztítjuk a növényeket, kivesszük őket a cserépből, elültetjük őket, és feltöltjük a ládát ültetőközeggel. Az ültetőközegnek teljesen el kell fednie a földlabdákat. Azokat a növényeket, amelyek majd átlógnak a láda szélén, a láda széléhez viszonyítva kissé ferdén kell beültetni (8. ábra). A hatékonyabb öntözés érdekében a ládát nem töltjük meg teljesen ültetőközeggel, hanem a felső két centimétert szabadon hagyjuk. Ezt hívjuk öntözőperemnekvíztérnek. Ezután a helyére tesszük a ládát és megöntözzük.",
+    "",
+    "8. ábra: Láda beültetett növényekkel",
+    "",
+    "Egyre népszerűbbek a víztárolóval ellátott balkonládák (9. ábra). Ezeknek az aljába nem szabad lyukakat fúrni, mert azzal tönkretesszük őket. A ládákban az öntözővíz z elfolyók-elvezetők magasabban vannak, így egy bizonyos mennyiségű víz a láda alján marad. Az ültetőközeget  földet és a gyökereket távolabb tartják a víz fölött, hogy ne rothadjanak meg. A víz csak akkor jut el a növényhez, amikor annak szüksége van rá. Az aktuális vízmennyiséget vízszintjelző mutatja. Így könnyen látható, hogy mikor kell öntözni. Ezeknél a ládáknál sokkal ritkábban kell öntözni, mint a normál ládák esetében.",
+    "",
+    "9. ábra: Víztárolóval ellátott balkonláda",
+    "",
+    "A földkeverék tulajdonságai",
+    "A kialakult gyökerek növekedésének serkentésére előnyös a visszafogottabb tápanyagellátás. A hangafélék már kis mennyiségű tápanyagra is érzékenyek lehetnek – itt gyakran csak kis mennyiségű tápanyagot tartalmazó meszezett tőzeget használnak. ",
+    "A tápanyag-tartalom mellett a pH-érték is fontos. Itt a cél a növény optimális fejlődését elősegítő tartomány meghatározása. Míg a hangafélék és csarabok nemzetségének számos fajtája 3,0 pH-értéknél gyökeret ereszt, a legtöbb más fajta 5-ös pH-érték alatt csak rosszul gyökerezik. ",
+    "Emellett a szubsztrát más kémiai tulajdonságai is befolyásolják a gyökér képződését és növekedését. A fiatal tőzegek, amelyek a tárolás vagy a szállítás közben mikrobiális átalakuláson mennek át, erősen felmelegedhetnek, ugyanúgy, mint a komposzt. Ilyen önhevítő szubsztrátokban a gyökerek képződése és növekedése erősen korlátozott.",
+    "A szubsztrátnak lehetővé kell tennie a könnyű vetést, ültetést. A nagyon zsenge dugványok ültetésénél ezért szögesléccel készítik elő a szubsztrátot. Készen kilyukasztott stabil dugványnevelő tálcák is kaphatók a kereskedelemben.",
+    "",
+    "A KÖZEG BENEDVESÍTÉSE",
+    "Gőzöljük a talajt vagy komposztot nagyon (200 °C fölé) felforrósított vízgőzzel. A földet legalább 20 percig 90 °C-ra kell forrósítani. Ehhez a gőzt csöveken keresztül a földbe nyomják. A földet előzőleg fóliával letakarják, hogy a gőz ne tudjon olyan könnyen távozni. Külön erre a célra épült tárolókban a földet elektromosan is fel lehet melegíteni, mint egy sütőben. Ez elpusztítja a gyommagvakat és a betegséget okozó csírákat.",
+    "",
+    "AZ IVAROS ÉS IVARTALAN SZAPORÍTÁS BERENDEZÉSEI ÉS GÉPEILÉTESÍTMÉNYEI ",
+    "Valamennyi szaporító eljárás fontos célja, hogy a dugványokszaporított növényeknek a párologtatás miatti vízveszteségét minimálisra csökkentsék, figyelembe véve a fent említett többi növekedési tényezőt isA. Esetenként az egyes szaporítási módszereket összességében értékelik.  Az alkalmazott szaporítási módszer kiválasztását befolyásolhatja fügákg az adott növény faj vagy növényfajta genetikai tulajdonságaitól, a szaporítandó növények mennyiségeétől, az időjárási tényezőktől és persze anyagi lehetőségeinktől is. Az egyes szaporítási módszereket összességében értékelik. Valamennyi szaporító eljárás fontos célja, hogy a szaporított növényeknek a párologtatás miatti vízveszteségét minimálisra csökkentsék.Ez alapvetőenviszont alig lehetséges – a szaporítandó kultúra és az éghajlati viszonyok figyelembe vétele nélkül. HMár most hasznosabb lehet egy meglévő és kipróbált szaporítórendszer optimalizálása, mint egy új rendszer beszerzése, amely talán csak jobbnak tűnik, de nem ismerjük.",
+    "A generatív és a vegetatív szaporításnak is egyaránt vannak előnyei és hátrányai, amelyeket az alábbi táblázat foglal össze: ",
+    "",
+    "1. Táblázat: A generatív és a vegetatív szaporítás előnyei és hátrányai",
+    "",
+    "A földkeverék tulajdonságai",
+    "A kialakult gyökerek növekedésének serkentésére előnyös a visszafogottabb tápanyagellátás. A hangafélék már kis mennyiségű tápanyagra is érzékenyek lehetnek – itt gyakran csak kis mennyiségű tápanyagot tartalmazó meszezett tőzeget használnak. ",
+    "A tápanyag-tartalom mellett a pH-érték is fontos. Itt a cél a növény optimális fejlődését elősegítő tartomány meghatározása. Míg a hangafélék és csarabok nemzetségének számos fajtája 3,0 pH-értéknél gyökeret ereszt, a legtöbb más fajta 5-ös pH-érték alatt csak rosszul gyökerezik. ",
+    "Emellett a szubsztrát más kémiai tulajdonságai is befolyásolják a gyökér képződését és növekedését. A fiatal tőzegek, amelyek a tárolás vagy a szállítás közben mikrobiális átalakuláson mennek át, erősen felmelegedhetnek, ugyanúgy, mint a komposzt. Ilyen önhevítő szubsztrátokban a gyökerek képződése és növekedése erősen korlátozott.",
+    "A szubsztrátnak lehetővé kell tennie a könnyű vetést, ültetést. A nagyon zsenge dugványok ültetésénél ezért szögesléccel készítik elő a szubsztrátot. Készen kilyukasztott stabil dugványnevelő tálcák is kaphatók a kereskedelemben.",
+    "",
+    "A KÖZEG BENEDVESÍTÉSE",
+    "Gőzöljük a talajt vagy komposztot nagyon (200 °C fölé) felforrósított vízgőzzel. A földet legalább 20 percig 90 °C-ra kell forrósítani. Ehhez a gőzt csöveken keresztül a földbe nyomják. A földet előzőleg fóliával letakarják, hogy a gőz ne tudjon olyan könnyen távozni. Külön erre a célra épült tárolókban a földet elektromosan is fel lehet melegíteni, mint egy sütőben. Ez elpusztítja a gyommagvakat és a betegséget okozó csírákat.",
+    "",
+    "A növényszaporítás történhet szabadföldben és/vagy valamely szaporító létesítményben. A szaporító létesítmény alkalmazása gyakoribb, mivel – bár magasabb költségű – mégis biztosabb megoldás az egészséges és minőségi növényanyag előállítására, és itt számos környezeti feltétel szabályozható, optimalizálható. A fóliaházak és üvegházak is korszerű megoldásnak mutatkoznak. A következőkben bemutatásra kerülnek ezen növénynevelő létesítményeknek a növényszaporítás terén releváns  főbb ismérvei a növényszaporítás terén.  ",
+    "",
+    "FÓLIA ALATTI NEVELÉS",
+    "Az egynyári dísznövényeknél a fólia alatti szaporítás esetébennál különbséget teszünk a síkvízszintesen elhelyezett fólia és az alagútfólia között. Ezeket a szaporításmódokoat más lágyszárú dísznövénykultúráknál is alkalmazzuk. A fólia alatti nevelést az egynyári dísznövénynevelés esetén mutatjuk be, de nem csak erre a növénycsoportra vonatkozikalkalmazható. ",
+    "A fólia biztosítja a párologtatás elleni védelmet. EUgyanakkor elkerülendő a növénydugványállomány túlzott felmelegedése magas fénysugárzás esetén, ekkor aza üvegházat szaporító berendezést árnyékolni kell. Kiváltképpen a fólia külső árnyékolása előnyös. A hőmérséklet csökkentésére fehérrecsökkentésére, fehérre festett, úgynevezett tejfóliákat is használnak a növényszaporításban. Ha öntözőkocsik is rendelkezésre állnak, akkor ezek is felhasználhatók a hőmérséklet csökkentésére: kívülről kell meg kell öntözni a fóliát. A kertészeti ágazatban számos változata van a fóliáknak. A fóliavázakra leggyakrabban különböző vastagságú polietilén fóliákat alkalmaznak, de kezdenek előtérbe kerülni a speciálisabb növényfóliák is, mint a téli fagyvédő buborékfólia vagy a takarófólia, amely csak ideiglenesen kerül alkalmazásra a fagyok napokon. ",
+    "Fólia alatt történő nevelésnél gyakran fűtik az ültetőa nevelőközegetszubsztrátot fűtik –-, vagy asztal alatti fűtéssel, vagy padlófűtéssel. Ügyelni kell arra, hogy a hőmérséklet-eloszlás egyenletes legyen, a hőmérséklet ne ingadozzon (amit hőérzékelő kapcsolóval tudunk biztosítani), különben az állomány meggyökeresedése egyenetlen lesz. A fóliáa alatti szaporítás nagy előnye a felhasznált hőmérséklet hatékony hasznosítása. Munkaszervezés szempontjából azonban vannak hátrányai, mivel a fóliát – főként, miután a növényanyag meggyökeresedett a rendszeres szellőztetés és öntözés miatt – gyakran kell mozgatni. ",
+    "Vízszintesen elhelyezett fátyolfólia vagy PE-fólia használatakor (10. ábra) a növény érintkezik a fóliával. A növény lombja így a melegágy legalacsonyabb hőmérsékletű részén, a fóliánál található. Itt csapódik le a víz, ez hűti a növényt is, és csökkenti a párologtatási veszteségeket. Ahhoz, hogy a fólia lehetőleg jól érintkezzék a növényekkel, az szükséges, hogy a növények magassága egyenletes legyen. A lehető legvékonyabb PE-fólia jobban rásimul a növények leveleire, mint egy vastag fólia. Ez a módszer előnyös az erős  magas besugárzás és a túl magas hőmérséklet veszélyeinek szempontjábólelkerülésében, de csak olyan növényeknél alkalmazható, amelyeket nem fenyeget  kevésbé érzékenyek a botriítiszes gombafertőzésre. A szaporítás sikerességének ellenőrzéséhez egy ablakot vágnak a fóliába (10. ábra), amit csak a növényanyag folyamamtos ellenőrzéshez nyitnak ki.",
+    "",
+    "10. ábra: Azáleák gyökeresedése fátyolfólia alatt.",
+    "",
+    "Azáleák gyökeresedése fátyolfólia alatt. A szaporítás sikerességének ellenőrzéséhez egy ablakot vágtak a fóliába, amit csak a növényanyag folyaamtos ellenőrzéshez nyitnak ki. Jól látható a fólia alsó oldalánfelén lecsapódó víz és a levelek érintkezése a fóliával.",
+    "",
+    "Alternatív lehetőséget kínál egynyári növényekre és más dísznövény kultúrák szaporítására a fóliaalagút. Megelőzendő a csepegést és azzal a botritisz fertőzés számára a megfelelő fertőzési körülményeket, a fóliát feszesre húzzák (11. ábra).",
+    "",
+    "11. ábra: Fóliaalagút.",
+    "",
+    "KÖDPERMETES NÖVÉNYNEVELÉS",
+    "A ködpermetes növénynevelés esetében a szaporítás üvegházban történik, fólia használata nélkül. A párologtatás ellen i védelemként a növényeken levő vízből képződő filmréteg szolgáltat védelmet. A permetezéő impulzus hatására finom vízcseppek jutnak a növényekre –, ahol a permetező impulzusnakennek akkor kell bekövetkeznie, amikor a levélfelület egy meghatározott százalékban megszáradt. A szükséges víznyomás mintegy 3–4  bar, a cseppek átmérői nagyobbak, mint 30  μm. Ezt azA permetező impulzust, annak kezdetét és végét, a „Helfert-féle műlevélharmatmérő” szabályozza, amit ebben a videóban is bemutatunk. A berendezés Mmérőfelületkénte egy fémcsík szolgál. Ez a „tesztlap”, amely nehezebb lesz, ha víz éri –; ekkor kikapcsolódik a permetező berendezés. A ködpermetes növénynevelést ez a videó mutatja be. A technológia egynyári dísznövények esetében elterjedt, de más növénycsoportoknál, így kétnyárinál és évelőnél is alkalmazzák, és előfordul a növényházi- és fás szárú dísznövények esetén is. ",
+    "A fúvókák az öntözőkocsira vagy fix helyekre szerelhetők fel (12. ábra). A növénynevelés e formájánál – eltérően a fóliás szaporítástól – lehetőség van a közegszubsztrát erőteljes vízizes terhelésére. ",
+    "",
+    "12. ábra: Mozgó ködpermetezős szaporítás.",
+    "",
+    "Ködgépek",
+    "A ködpermetes szaporítás alternatívájaként egyre többször használnak ködgépeket. Ezek képezik a növényszaporítás legköltségesebb formáját. Kétféle rendszer terjedt el: nagy nyomású ködgépek (13. ábra) és kettős anyagúkettős anyagúkét komponensű ködgépek (14. ábra). A nagy nyomású ködgépek, amelyek részben 100 bart is meghaladó nyomással dolgozhatnak, csak akkor működtethetők, ha a vízben nincsenek kiváló sók és a fúvókák eldugulása szűréssel megelőzhető. A két komponensű A kettős anyagú ködgépek gyengébb minőségű vízzel is használhatók. A víz mellett a benne levő sókat is eloszlatják a sűrített levegővel a helyiségben, így azok nem rakódhatnak le a fúvókákon, mint a nagy nyomású berendezéseknél. A cseppek méreteinek csökkentésére ultrahang alkalmazásával használhatócsökkenthető. ",
+    "",
+    "13. ábra: Nagynyomású ködgép.",
+    "",
+    "14. ábra: Két komponenst Két anyagot permetező fúvókával előállított ködgép",
+    "",
+    "Ábrajegyzék",
+    "1. ábra: Növényi összetevőkből készült cserép, tőzegkorongok és tőzegből készült palántatálca\t3",
+    "2. ábra: Ültetés\t4",
+    "3. ábra: Ültetőgép\t5",
+    "4. ábra: A vészleállító kapcsoló mindig feltűnő színű\t6",
+    "5. ábra: Különböző mértékben átgyökeresedett földlabdák, a bal oldalon látható a túlfejlett\t7",
+    "6. ábra: A gyökereknek kinyújtva el kell férniük az ültetőgödörben\t8",
+    "7. ábra: Frissen ültetett rózsa\t8",
+    "8. ábra: Láda beültetett növényekkel\t10",
+    "9. ábra: Víztárolóval ellátott balkonláda\t10",
+    "10. ábra: Azáleák gyökeresedése fátyolfólia alatt.\t15",
+    "11. ábra: Fóliaalagút.\t16",
+    "12. ábra: Mozgó ködpermetezős szaporítás.\t17",
+    "13. ábra: Nagynyomású ködgép.\t17",
+    "14. ábra: Két komponenst Két anyagot permetező fúvókával előállított ködgép\t18",
+    "",
+    "Táblázatjegyzék",
+    "1. Táblázat: A generatív és a vegetatív szaporítás előnyei és hátrányai\t13",
+    ""
+  ],
+  "runs": [
+    [],
+    [],
+    [
+      "Egyedi megrendelés azonosítója: EM-2.12.3  "
+    ],
+    [
+      "Egynyári dísznövények ültetése és szaporításuk létesítményei"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [
+      "Forrás",
+      ": ",
+      "Grieb",
+      ", ",
+      "Ortrud",
+      ": Der ",
+      "Werker",
+      ". ",
+      "Zierpflanzenbau",
+      ". 3",
+      ".,",
+      " ",
+      "aktualisierte",
+      " ",
+      "Auflage",
+      ". Stuttgart (",
+      "Hohenheim",
+      "), 2018, ",
+      "Ulmer",
+      ".",
+      "\nISBN 978-3-8186-0388-5",
+      "\nBettin, Andreas: ",
+      "Kulturtechniken",
+      " ",
+      "im",
+      " ",
+      "Zierpflanzenbau",
+      ". Stuttgart (",
+      "Hohenheim",
+      "), 2011, ",
+      "Ulmer",
+      ".",
+      "\nISBN 978-3-8001-5187-5"
+    ],
+    [],
+    [
+      "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak."
+    ],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      "TARTALOMJEGYZÉK"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "EGYNYÁRI DÍSZNÖVÉNYEK KONTÉNERBE VAGY CSERÉPBE ÜLTETÉSE"
+    ],
+    [
+      "A generatív és vegetatív szaporítás útján nyert egészséges, megfelelő ",
+      "korú",
+      " és méretű növényeket cserepekbe vagy ",
+      "konténerekbe",
+      " ültetik, általában így kerülnek értékesítésre. A téma az egynyári dísznövényekkel ",
+      "történik",
+      " bemutatásával együtt kerül áttekintésre, de minden más dísznövény kultúránál alkalmazzuk ezt az eljárást. "
+    ],
+    [
+      "CSEREPEK ",
+      "ÉS",
+      " KONTÉNEREK"
+    ],
+    [
+      "A két liternél nagyobb ",
+      "űrtartalmú",
+      " cserepeket a kertészek ",
+      "konténer",
+      "nek",
+      " nevezik. A legolcsóbbak és kisebb ",
+      "űrtartalmúak",
+      " a ",
+      "műanyag cserepek",
+      ". Kaphatók különböző átmérőjű fekete, agyagvörös, tarka színűekben vagy nyomtatott mintávalzatú cserepek és különböző átmérővel. A 9-es cserépnek például a felső átmérője kilenc centiméter, ezért nevezik így a ",
+      "gyakorlatbani",
+      " életben. A kör ",
+      "vagyés",
+      " szögletes alapterületű cserepek egyaránt elhelyezhetők hozzájuk illő tálcákban."
+    ],
+    [
+      "Agyagedényeket ",
+      "már ritkán használunk. Nagyon ",
+      "masszívak",
+      ", de nagy súlyuk hátrányt jelent a munka során. Az agyagedényeket nehéz tisztítani és egymásra helyezve tárolni. A szép agyagedények arra jók, hogy az eladásra kínált növényeknek szép megjelenést kölcsönözzenek, így a vásárló többet fizet értük."
+    ],
+    [
+      "Az egynyári virágokhoz és balkonnövényekhez használhatunk ",
+      "szerves anyagból készült cserepeket (1. ábra)",
+      ", amelyeket el lehet ültetni a növényekkel együtt, mert egy idő után lebomlanak. Ezek a cserepek készülhetnek kókuszrostból, préselt tőzegből, keményítőből, rizshéjból, bambuszból vagy kenderrostból. Néhányan közülük a cseréptöltő géppel is tökéletesen ",
+      "működikhasználható",
+      ". A cseréptöltő gépek feladata a cserepek előre bekevert közeggel való megtöltése, ezzel előkészítve az ez után soron következő ültetési folyamatot. Ezek ",
+      "jJelenleg",
+      " még drágábbak, mint a műanyag cserepek, ugyanakkor környezetbarát megoldást jelentenek. A tőzegkorongok úgy néznek ki, mint a tabletták. Ha nedvességet kapnak, az ültetőközeg megduzzad, és cseréptőzeglabda „nő ki” belőle, amelyet egy finom szövet tart össze. Egyszeri magvetésre és dugványozásra használatosak."
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". ábra: ",
+      "Növényi összetevőkből készült cserép, tőzegkorongok és tőzegből készült palántatálca"
+    ],
+    [],
+    [
+      "ÜLTETÉS KÉZZEL"
+    ],
+    [
+      "Az ültetés az év bármely szakában megtörténhet. Ez mindig a termesztési céltól és a lehetőségeinktől függ. A legtöbb növényt tavasszal ültetik, de a növényszaporító létesítmények esetén ez sokkal korábbra is hozható. Ha az ültetés már ",
+      "téll",
+      " végén elkezdődik, és a szabadban még fagyos a szabadban az időjárás, Téli fagyok idején az ",
+      "ültetőközeget virágföldet",
+      " időben be kell hozni a melegre, hogy",
+      " felmelegedjen.",
+      " A fiatal növénynek megfelelő vízellátásra van szüksége, hogy jól átvészelje az átültetést. Az ültetéshez először ",
+      "egy ",
+      "ládában előkészítjük a fiatal egynyári dísznövényeket,",
+      " hogy ",
+      "kézhezre",
+      " álljanak az ",
+      "ültetéshezkor",
+      ". Nagyobb mennyiségek esetén érdemes cseréptöltő gépet használni. "
+    ],
+    [
+      "A kisebb mennyiségeket a cseréptöltő asztalnál ültetjük ",
+      "(",
+      "2",
+      ". ábra)",
+      ". A fiatal növényeket magunk mellé balra, az ",
+      "ültetőközegbe virágföldre",
+      " helyezzük, a jobb oldalon pedig ",
+      "fejjel lefelé elhelyezzük",
+      " az egymásba rakott cserepeket. A kész cserepeknek szánt ládát magunktól balra helyezzük el. Ha nincs hely az asztalon, akkor egymásra rakott dobozokra tesszük őket, nem a földre."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "2",
+      "",
+      ". ábra: ",
+      "Ültetés"
+    ],
+    [],
+    [
+      "Jobb kézzel megfogunk egy cserepet, és annyi ültetőközeget töltünk bele, hogy a növény még jól elférjen benne. Bal kézzel belehelyezünk egy fiatal növényt, és megfelelő ",
+      "pozícióban",
+      " tartjuk, míg a jobb kézzel ",
+      "földetközeg",
+      "et",
+      " töltünk rá.",
+      " Mindkét kézzel finoman átnyomkodjuk. ",
+      "Bal kézzel félre tesszük a kész cserepet, míg a jobb kézzel már a következőért nyúlunk. Balkezesek mindezt fordított oldalon végezhetik ellentétes kézzel."
+    ],
+    [
+      "A növényeknek a ",
+      "közeg",
+      " felszínére merőlegesen kell a cserép közepén állniuk körülbelül ugyanolyan mélyen, mint korábban voltak. A beültetés után jól megöntözzük a növényeket, hogy az ",
+      "ültetőközeg szemcséi ",
+      "bemosódjanaanak",
+      " a gyökerekhez.",
+      " A különböző fajtákat külön-külön címkékkel jelöljük a ládákon. "
+    ],
+    [],
+    [
+      "ÜLTETÉS GÉPPEL"
+    ],
+    [
+      "Egynyári ",
+      "dísznöványeknél",
+      " ültetőgépet is használnak. Ültetőgépet azonban beállítani és feltölteni csak nagy mennyiségű növény ültetésekor érdemes. Ezt a módszert kétnyári-, évelő-, és fásszárú dísznövényeknél is használják. ",
+      "Az ültetőközeg-tartályt fel kell tölteni a növény számára alkalmas ",
+      "közeg",
+      "gel, az ültetőedény-tárolót tiszta ültetőedényekkel",
+      ". Elő kell készíteni az ültetni kívánt növényeket, és munkához lehet látni. A gép megtölti az ültetőedényeket ",
+      "ültetőfölddelközeggel",
+      ", és egy fúróval mélyedést alakít ki a z ültetőközegbe ",
+      "(",
+      "3",
+      ". ábra)",
+      ". "
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "3",
+      "",
+      ". ",
+      "ábra",
+      ": ",
+      "Ültetőgép"
+    ],
+    [],
+    [
+      "Ebbe a mélyedésbe kerül a növény. Különböző méretű fúrók közül is lehet választani. Az ",
+      "ültetőedény futószalagon halad tovább.",
+      " A szalagról leveszik, majd ládákba, tálcákba helyezik. A sebesség állítható, ugyanis egyes növények gyorsabban ültethetők, míg más fajok több időt igényelnek. Ültetőgéppel történő ültetéskor célszerű a palántákat mindjárt palántázó tálcába vetni vagy tűzdelni, mert így minden növénynek egyforma nagyságú gyökérlabdája lesz. Ha minden alkalommal más méretű mélyedésre van szükség, akkor félre lehet tenni a fúrót, és ",
+      "kézzel is el lehet készíteni a lyukakat.",
+      " Munka után az ültetőgépet alaposan meg kell tisztítani. Az ültetőgép ",
+      "műkődését",
+      " ez a videó",
+      "",
+      " is bemutatja. "
+    ],
+    [
+      "Az ültetőgép első használata előtt pontosan ismernünk kell a ",
+      "veszélyes részeket ",
+      "és a vészleállító kapcsolók helyét. A ",
+      "vészkapcsolónak",
+      " minden ",
+      "munkaállásrólhelyről",
+      " elérhetőnek kell lennie. Fokozott ",
+      "körültekintésodafigyelés",
+      " szükséges a következő esetekben:"
+    ],
+    [
+      "•",
+      "\tHa új ültetőedények betöltésekor az egyik leesik. → ",
+      "A veszélyes területre történő benyúlás előtt a gépet ki kell kapcsolni."
+    ],
+    [
+      "•",
+      "\tEgy növény ",
+      "melléesik",
+      ". → Az ültetőedények közé történő benyúlás előtt a gépet ki kell kapcsolni."
+    ],
+    [
+      "•",
+      "\tFurcsa dolog látható az ",
+      "ültetőföldbenközegben",
+      "? → A veszélyes területre történő benyúlás előtt a gépet ki kell kapcsolni."
+    ],
+    [
+      "•",
+      "\tTisztítani vagy javítani kívánja a gépet? → Előbb ki kell kapcsolni a gépet."
+    ],
+    [
+      "•",
+      "\t",
+      "Jaj!",
+      " Az ujjak beszorultak a szállítószalagnál, a kéz a fúrógép alá került → ",
+      "Nyomja meg a vészleállító kapcsolót (4. ábra)!"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "4",
+      "",
+      ". ábra: ",
+      "A vészleállító kapcsoló mindig feltűnő színű"
+    ],
+    [],
+    [
+      "AZ ",
+      "ÁTÜLTETÉS"
+    ],
+    [
+      "A növényeket leginkább azelőtt kell értékesíteni, hogy át kellene ültetni őket egy nagyobb cserépbe vagy ",
+      "konténerbe",
+      ". Egynyári- és kétnyári növényeknél ezt csak nagyon ritkán várják ",
+      "meg",
+      ",alkalmazzák",
+      ", hiszen az értékesítésre hamarabb sor kerül, mint hogy a növény átültetésre ",
+      "szorulnajon",
+      ". Inkább növényházi növényeknél-, évelőknél és fás szárúaknál ",
+      "fordul",
+      " előalkalmazzuk az átültetést."
+    ],
+    [
+      " Az átültetés csak akkor éri meg anyagilag, ha a nagy növényeket magasabb áron tudjuk értékesíteni – elsősorban balkon- és ",
+      "ámpolna",
+      "növény összeültetéseknél, vagy ha ",
+      "anyanövényre van szükségünk. Ha a ",
+      "földlabda",
+      " teljesen átgyökeresedett",
+      ", a növényt ",
+      "át",
+      " ",
+      "kell",
+      " ",
+      "ültetni",
+      ". Ha a gyökereknek nincs több helyük növekedni, a növény ",
+      "túlfejletté (beöregedetté)",
+      " válik ",
+      "(",
+      "5",
+      ". ábra)",
+      ". A túlfejlett növények lassan nőnek és idő előtt virágot hoznak. A ",
+      "bonsai",
+      " esetében viszont éppen ez a kívánatos ",
+      "jelenségt",
+      " az ",
+      "állapotota",
+      " túlfejlettség állapotát tartjuk fenn a megfelelő metszésekkel. Ha túlfejlett növényeket ültetünk ki, azok csak lassan fognak növekedni. "
+    ],
+    [
+      "A kiültetéshez a cserép szélét fejjel felfelé az asztal szélének ütögetjük. Így a földlabda kiesik. Ha a földlabda normálisanteljesen átgyökeresedett, a cserép oldalfalának ütögetésével megkönnyíthetjük a ",
+      "kivételét",
+      ",t",
+      " és egyszerűen átültethetjük egy nagyobb cserépbe. Ha a gyökerek már ",
+      "körbenőttek",
+      " a cserép fala mentén, és alig látható az ültetőközeg, felszakítjuk a földlabdát. Visszavágjuk a túl hosszú gyökereket, és ",
+      "újraültetjük",
+      " a növényt. ",
+      "Ha sok gyökeret vágunk le, ennek arányaiban a növény hajtásait is vissza kell vágnunk."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "5",
+      "",
+      ". ábra: ",
+      "Különböző mértékben átgyökeresedett földlabdák, a ",
+      "bal oldalon",
+      " látható a túlfejlett"
+    ],
+    [],
+    [
+      "EGYNYÁRIAK KIÜLTETÉSE SZABADFÖLDRE"
+    ],
+    [
+      "Az egynyári és kétnyári ",
+      "vágott virágokat",
+      " – például a kerti őszirózsát (",
+      "Callistephus",
+      " ",
+      "chinensis",
+      ") vagy a tátikát (",
+      "Antirrhinum",
+      " ",
+      "majus",
+      ") – ",
+      "szabadföldrbe",
+      " ",
+      "ültetjük",
+      " és itt neveljük az értékesítésig. "
+    ],
+    [
+      "Szabadföldi ültetésnél alapvetően először fellazítjuk, felkapáljuk a talajt, majd utakat készítünk benne. Az ágyások többsége 1,20 méter széles, a köztük lévő utak pedig 30 centiméter szélesek. Az ágyásban sorhúzóval kijelöljük a növénysorokat. A megfelelő ültetési távolságot az adott sorban kézzel mérjük ki. Az ",
+      "ültetőgödrök",
+      " ",
+      "föld",
+      "jét jobb oldalra dobjuk ki. ",
+      "Olyan nagyra",
+      " kell ásni őket, hogy ",
+      "a földlabdák kényelmesen elférjenek bennük",
+      ". Bal kézzel ",
+      "behelyezzük a növényeket, majd ",
+      "tövüknél",
+      " fogva lenyomkodjuk őket, a ",
+      "talaj",
+      "t tömörítve. A földlabda nélküli ",
+      "gyökereknek",
+      " ",
+      "képzeletben kiegyenesítve",
+      " el kell férniük a gödörben ",
+      "(",
+      "6",
+      ". ábra)",
+      ". A krizantémokat (",
+      "Chrysanthemum",
+      " × ",
+      "grandiflorum",
+      ") és a szegfűket (",
+      "Dianthus",
+      " ",
+      "caryophyllus",
+      ") hálóban ültetjük. "
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "6",
+      "",
+      ". ábra: ",
+      "A gyökereknek kinyújtva el kell férniük az ültetőgödörben"
+    ],
+    [],
+    [
+      "A növények megtámasztására szolgáló hálókat később húzzuk fel, amikor a növények elérték a kellő magasságot ehhez. "
+    ],
+    [
+      "Gyakran évelő dísznövényeket is kiültetünk szabadföldre. A hagymákat és gumókat – például kardvirágok (",
+      "Gladiolus",
+      " fajták) és íriszek (",
+      "Iris",
+      " × ",
+      "hollandica",
+      ") esetében – megfelelő távolságban és megfelelő mélységben (alapszabály: a hagyma méretének kétszerese) helyezzük el a ",
+      "föld",
+      "ben. Az ",
+      "ültetést",
+      " követően ",
+      "óvatosan megöntözzük",
+      " a növényeket ",
+      "(",
+      "7",
+      ". ábra)",
+      ". A talaj az öntözést követően ",
+      "feliszapolódás",
+      "ra hajlamos. A legjobb, ha alacsony kijuttatási sebességű öntözőberendezést használunk. "
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "7",
+      "",
+      ". ábra: ",
+      "Frissen ültetett rózsa"
+    ],
+    [],
+    [
+      "A fás szárúak ",
+      "nál",
+      " is sok esetben előfordul a ",
+      "szabadföldbere",
+      " való kiültetés. A ",
+      "vágott virágnak szánt rózsákat üvegházba",
+      " ültetjük. Ezek télen általában földlabda nélkül érkeznek a kertészetekbe. Először 24 órára vízbe tesszük őket, hogy megfelszívják magukat vízzel. Mély ültetőgödröket ásunk. A ",
+      "gyökereknek",
+      " ",
+      "függőlegesen lefelé ",
+      "el kell férniük az ültetőgödörben. Ültetéskor ",
+      "enyhén",
+      " ",
+      "visszavágjuk a gyökereket és a hajtásokat",
+      ". Az ",
+      "oltás helye",
+      " ",
+      "közvetlenül a talajszint alatt",
+      " helyezkedjen el. Az ültetés után óvatosan megnyomjuk, így tömörítjük a ",
+      "föld",
+      "et. Ez után tömlőből öntözzük meg úgy, hogy a ",
+      "talaj",
+      " jól ",
+      "lbemosódjon",
+      " ",
+      "a gyökerekhez",
+      "."
+    ],
+    [],
+    [
+      "EGYNYÁRI DÍSZNÖVÉNYEK LÁDÁBA ÜLTETÉSE"
+    ],
+    [
+      "Ha ",
+      "ládába",
+      " ültetünk növényeket (nem csak egynyáriakat, hanem kétnyáriakat, évelőket is lehet ládába ültetni), az alábbiak szerint járunk el. Ha a ládán nincs ",
+      "vízelvezető nyílás",
+      " az alján, akkor fúrunk bele néhányat. Ezután ",
+      "vízelvezetőésként",
+      " körülbelül három centiméternyi, nagy vízáteresztő képességű anyagot, (például duzzasztott agyagot, kavicsot, sódert) töltünk beleaz aljába. Erre egy ",
+      "flízréteg",
+      "et",
+      " helyezünk, hogy az ültetőközeg és a gyökerek ne tudják eltömíteni a vízelvezető réteget. Ezután töltjük be az ",
+      "ültetőközeget",
+      ", de még nem töltjük fel teljesen a ládát. Ha bizonytalanok vagyunk az ültetési mélységgel kapcsolatban, próbaképpen tegyük be először a cserepeket a ládába. Ha ezt a mélységet megfelelőnek találjuk, megtisztítjuk a növényeket, kivesszük őket a cserépből, elültetjük ",
+      "őket, és feltöltjük a ládát ültetőközeggel. Az ",
+      "ültetőközeg",
+      "nek teljesen el kell fednie a földlabdákat",
+      ". Azokat a növényeket, amelyek majd átlógnak a láda szélén, a láda széléhez viszonyítva kissé ferdén kell beültetni ",
+      "(",
+      "8",
+      ". ábra)",
+      ". A hatékonyabb öntözés érdekében a ládát nem töltjük meg teljesen ültetőközeggel, hanem a felső két centimétert szabadon hagyjuk. Ezt hívjuk ",
+      "öntözőperemnekvíztérnek",
+      ". Ezután a helyére tesszük a ládát és ",
+      "megöntözzük",
+      "."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "8",
+      "",
+      ". ábra: ",
+      "Láda beültetett növényekkel"
+    ],
+    [],
+    [
+      "Egyre népszerűbbek a ",
+      "víztárolóval ",
+      "ellátott balkonládák ",
+      "(",
+      "9",
+      ". ábra)",
+      ". Ezeknek az aljába nem szabad lyukakat fúrni, mert azzal ",
+      "tönkretesszük",
+      " őket. A ládákban az öntözővíz z elfolyók-elvezetők magasabban vannak, így egy bizonyos mennyiségű víz a láda alján marad. Az ",
+      "ültetőközeget  földet",
+      " és a gyökereket távolabb tartják a víz fölött, hogy ne rothadjanak meg. A víz csak akkor jut el a növényhez, amikor annak szüksége van rá. Az ",
+      "aktuális",
+      " vízmennyiséget ",
+      "vízszintjelző mutatja.",
+      " Így könnyen látható, hogy mikor kell öntözni. Ezeknél a ládáknál sokkal ritkábban kell öntözni, mint a normál ládák esetében."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "9",
+      "",
+      ". ábra: ",
+      "Víztárolóval ellátott balkonláda"
+    ],
+    [],
+    [
+      "A földkeverék tulajdonságai"
+    ],
+    [
+      "A kialakult gyökerek növekedésének serkentésére előnyös a visszafogottabb tápanyagellátás. A hangafélék már kis mennyiségű tápanyagra is érzékenyek lehetnek – itt gyakran csak kis mennyiségű tápanyagot tartalmazó meszezett tőzeget használnak. "
+    ],
+    [
+      "A tápanyag-tartalom mellett a ",
+      "pH-érték",
+      " is fontos. Itt a cél a növény optimális fejlődését elősegítő tartomány meghatározása. Míg a ",
+      "hangafélék",
+      " és ",
+      "csarabok",
+      " nemzetségének számos fajtája 3,0 pH-értéknél gyökeret ereszt, a legtöbb más fajta 5-ös pH-érték alatt csak rosszul gyökerezik. "
+    ],
+    [
+      "Emellett a ",
+      "szubsztrát",
+      " más ",
+      "kémiai tulajdonságai",
+      " is befolyásolják a gyökér képződését és növekedését. A fiatal tőzegek, amelyek a tárolás vagy a szállítás közben ",
+      "mikrobiális",
+      " átalakuláson mennek át, erősen felmelegedhetnek, ugyanúgy, mint a komposzt. Ilyen önhevítő ",
+      "szubsztrátokban",
+      " a gyökerek képződése és növekedése erősen korlátozott."
+    ],
+    [
+      "A ",
+      "szubsztrátnak",
+      " lehetővé kell tennie a könnyű vetést, ültetést.",
+      " A nagyon zsenge dugványok ültetésénél ezért szögesléccel készítik elő a ",
+      "szubsztrátot",
+      ". Készen kilyukasztott ",
+      "stabil",
+      " dugványnevelő tálcák is kaphatók a kereskedelemben."
+    ],
+    [],
+    [
+      "A KÖZEG BENEDVESÍTÉSE"
+    ],
+    [
+      "Gőzöljük a talajt vagy komposztot nagyon (200 °C fölé) ",
+      "felforrósított vízgőzzel",
+      ". A földet legalább ",
+      "20 percig",
+      " ",
+      "90 °C-ra",
+      " kell forrósítani. Ehhez a gőzt ",
+      "csöveken",
+      " keresztül a földbe nyomják. A földet előzőleg fóliával letakarják, hogy a gőz ne tudjon olyan könnyen távozni. Külön erre a célra épült tárolókban a földet elektromosan is fel lehet melegíteni, mint egy sütőben. Ez elpusztítja a ",
+      "gyommagvakat",
+      " és a betegséget okozó csírákat."
+    ],
+    [],
+    [
+      "AZ IVAROS ",
+      "ÉS",
+      " IVARTALAN SZAPORÍTÁS BERENDEZÉSEI ÉS GÉPEILÉTESÍTMÉNYEI",
+      " "
+    ],
+    [
+      "Valamennyi szaporító eljárás fontos célja, hogy a dugványokszaporított növényeknek a párologtatás miatti ",
+      "vízveszteségét ",
+      "minimálisra",
+      " csökkentsék",
+      ", figyelembe véve a fent említett többi növekedési tényezőt ",
+      "isA",
+      ". Esetenként az egyes szaporítási módszereket összességében értékelik.  Az alkalmazott szaporítási módszer kiválasztását befolyásolhatja ",
+      "fügákg",
+      " az adott növény faj vagy növényfajta ",
+      "genetikai",
+      " tulajdonságaitól, a szaporítandó növények ",
+      "mennyiségeétől",
+      ", az időjárási tényezőktől és persze anyagi lehetőségeinktől is. Az egyes szaporítási módszereket összességében értékelik. Valamennyi szaporító eljárás fontos célja, hogy a szaporított növényeknek a párologtatás miatti ",
+      "vízveszteségét ",
+      "minimálisra",
+      " ",
+      "csökkentsék",
+      ".Ez",
+      " ",
+      "alapvetőenviszont",
+      " alig lehetséges – a szaporítandó kultúra és az éghajlati viszonyok figyelembe vétele nélkül. ",
+      "HMár",
+      " most hasznosabb lehet egy meglévő és kipróbált szaporítórendszer optimalizálása, mint egy új rendszer beszerzése, amely talán csak jobbnak tűnik, de nem ismerjük."
+    ],
+    [
+      "A generatív és a vegetatív szaporításnak is egyaránt vannak előnyei és hátrányai, amelyeket az alábbi táblázat foglal össze: "
+    ],
+    [],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". Táblázat: ",
+      "A generatív és a vegetatív szaporítás előnyei és hátrányai"
+    ],
+    [],
+    [
+      "A földkeverék tulajdonságai"
+    ],
+    [
+      "A kialakult gyökerek növekedésének serkentésére előnyös a visszafogottabb tápanyagellátás. A hangafélék már kis mennyiségű tápanyagra is érzékenyek lehetnek – itt gyakran csak kis mennyiségű tápanyagot tartalmazó meszezett tőzeget használnak. "
+    ],
+    [
+      "A tápanyag-tartalom mellett a ",
+      "pH-érték",
+      " is fontos. Itt a cél a növény optimális fejlődését elősegítő tartomány meghatározása. Míg a ",
+      "hangafélék",
+      " és ",
+      "csarabok",
+      " nemzetségének számos fajtája 3,0 pH-értéknél gyökeret ereszt, a legtöbb más fajta 5-ös pH-érték alatt csak rosszul gyökerezik. "
+    ],
+    [
+      "Emellett a ",
+      "szubsztrát",
+      " más ",
+      "kémiai tulajdonságai",
+      " is befolyásolják a gyökér képződését és növekedését. A fiatal tőzegek, amelyek a tárolás vagy a szállítás közben ",
+      "mikrobiális",
+      " átalakuláson mennek át, erősen felmelegedhetnek, ugyanúgy, mint a komposzt. Ilyen önhevítő ",
+      "szubsztrátokban",
+      " a gyökerek képződése és növekedése erősen korlátozott."
+    ],
+    [
+      "A ",
+      "szubsztrátnak",
+      " lehetővé kell tennie a könnyű vetést, ültetést.",
+      " A nagyon zsenge dugványok ültetésénél ezért szögesléccel készítik elő a ",
+      "szubsztrátot",
+      ". Készen kilyukasztott ",
+      "stabil",
+      " dugványnevelő tálcák is kaphatók a kereskedelemben."
+    ],
+    [],
+    [
+      "A KÖZEG BENEDVESÍTÉSE"
+    ],
+    [
+      "Gőzöljük a talajt vagy komposztot nagyon (200 °C fölé) ",
+      "felforrósított vízgőzzel",
+      ". A földet legalább ",
+      "20 percig",
+      " ",
+      "90 °C-ra",
+      " kell forrósítani. Ehhez a gőzt ",
+      "csöveken",
+      " keresztül a földbe nyomják. A földet előzőleg fóliával letakarják, hogy a gőz ne tudjon olyan könnyen távozni. Külön erre a célra épült tárolókban a földet elektromosan is fel lehet melegíteni, mint egy sütőben. Ez elpusztítja a ",
+      "gyommagvakat",
+      " és a betegséget okozó csírákat."
+    ],
+    [],
+    [
+      "A növényszaporítás történhet szabadföldben ",
+      "és/vagy",
+      " valamely szaporító létesítményben. A szaporító létesítmény alkalmazása gyakoribb, mivel – bár magasabb költségű ",
+      "– mégis",
+      " biztosabb megoldás az egészséges és minőségi növényanyag előállítására, és itt számos környezeti feltétel szabályozható, optimalizálható. A fóliaházak és üvegházak is korszerű megoldásnak mutatkoznak. A következőkben bemutatásra ",
+      "kerülnek ",
+      "ezen",
+      " növénynevelő létesítményeknek a növényszaporítás terén releváns  főbb ismérvei a növényszaporítás terén.  "
+    ],
+    [],
+    [
+      "FÓLIA ALATTI NEVELÉS"
+    ],
+    [
+      "Az egynyári dísznövényeknél a fólia alatti szaporítás ",
+      "esetébennál",
+      " különbséget teszünk a síkvízszintesen elhelyezett fólia és az alagútfólia között. Ezeket a ",
+      "szaporításmódokoat",
+      " más lágyszárú dísznövénykultúráknál is alkalmazzuk. A fólia alatti nevelést az egynyári dísznövénynevelés esetén mutatjuk be, de nem csak erre a növénycsoportra ",
+      "vonatkozikalkalmazható",
+      ". "
+    ],
+    [
+      "A fólia biztosítja a párologtatás elleni védelmet.",
+      " ",
+      "EUgyanakkor",
+      " elkerülendő a növénydugványállomány túlzott felmelegedése magas fénysugárzás esetén, ekkor aza üvegházat szaporító berendezést árnyékolni kell. Kiváltképpen a fólia külső árnyékolása előnyös. A hőmérséklet csökkentésére ",
+      "fehérrecsökkentésére",
+      ", fehérre festett, úgynevezett tejfóliákat is használnak a növényszaporításban. Ha öntözőkocsik is rendelkezésre állnak, akkor ezek is felhasználhatók a hőmérséklet csökkentésére: kívülről kell meg kell öntözni a fóliát. A kertészeti ágazatban számos változata van a fóliáknak. A fóliavázakra leggyakrabban különböző vastagságú polietilén fóliákat alkalmaznak, de kezdenek előtérbe kerülni a ",
+      "speciálisabb",
+      " növényfóliák is, mint a téli fagyvédő buborékfólia vagy a takarófólia, amely csak ideiglenesen kerül alkalmazásra a fagyok napokon. "
+    ],
+    [
+      "Fólia alatt történő nevelésnél gyakran fűtik az ",
+      "ültetőa",
+      " ",
+      "nevelőközegetszubsztrátot",
+      " fűtik –-, vagy asztal alatti fűtéssel, vagy padlófűtéssel. ",
+      "Ügyelni kell arra, hogy a hőmérséklet-eloszlás egyenletes ",
+      "legyen,",
+      " a hőmérséklet ne ingadozzon (amit hőérzékelő kapcsolóval tudunk biztosítani), különben az állomány meggyökeresedése egyenetlen lesz. A ",
+      "fóliáa",
+      " alatti szaporítás nagy előnye a felhasznált hőmérséklet hatékony hasznosítása. Munkaszervezés szempontjából azonban vannak hátrányai, mivel a fóliát – főként, miután a növényanyag meggyökeresedett a rendszeres szellőztetés és öntözés miatt – ",
+      "gyakran kell mozgatni.",
+      " "
+    ],
+    [
+      "Vízszintesen elhelyezett fátyolfólia vagy PE-fólia használatakor ",
+      "(",
+      "10",
+      ". ábra)",
+      " a növény érintkezik a fóliával. A növény lombja így a melegágy legalacsonyabb hőmérsékletű részén, a fóliánál található. Itt csapódik le a víz, ",
+      "ez hűti a növényt is,",
+      " és csökkenti a párologtatási veszteségeket. Ahhoz, hogy a fólia lehetőleg jól érintkezzék a növényekkel, az szükséges, hogy a növények magassága egyenletes legyen. A lehető legvékonyabb PE-fólia jobban rásimul a növények leveleire, mint egy vastag fólia. Ez a módszer előnyös az ",
+      "erős  magas",
+      " besugárzás és a túl magas hőmérséklet veszélyeinek ",
+      "szempontjábólelkerülésében",
+      ", de csak olyan növényeknél alkalmazható, ",
+      "amelyeket nem fenyeget ",
+      " kevésbé érzékenyek ",
+      "a ",
+      "botri",
+      "í",
+      "tiszes",
+      " gomba",
+      "fertőzés",
+      "re",
+      ".",
+      " A szaporítás sikerességének ellenőrzéséhez egy ablakot vágnak a fóliába ",
+      "(",
+      "10",
+      ". ábra),",
+      " amit csak a növényanyag ",
+      "folya",
+      "m",
+      "amtos",
+      " ellenőrzéshez nyitnak ki."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "10",
+      "",
+      ". ábra: ",
+      "Azáleák gyökeresedése fátyolfólia alatt."
+    ],
+    [],
+    [
+      "Azáleák gyökeresedése fátyolfólia alatt. A szaporítás sikerességének ellenőrzéséhez egy ablakot vágtak a fóliába, amit csak a növényanyag ",
+      "folyaamtos",
+      " ellenőrzéshez nyitnak ki. Jól látható a fólia alsó ",
+      "oldalánfelén",
+      " lecsapódó víz és a levelek érintkezése a fóliával."
+    ],
+    [],
+    [
+      "Alternatív lehetőséget kínál egynyári növényekre és más dísznövény kultúrák szaporítására a ",
+      "fóliaalagút.",
+      " Megelőzendő a csepegést és azzal a ",
+      "botritisz",
+      " fertőzés számára a megfelelő fertőzési körülményeket, a fóliát feszesre húzzák ",
+      "(",
+      "11",
+      ". ábra)",
+      "."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "11",
+      "",
+      ". ábra: ",
+      "Fóliaalagút."
+    ],
+    [],
+    [
+      "KÖDPERMETES NÖVÉNYNEVELÉS"
+    ],
+    [
+      "A ködpermetes növénynevelés esetében a szaporítás üvegházban történik, fólia használata nélkül. A párologtatás ellen i védelemként a növényeken levő vízből képződő filmréteg szolgáltat védelmet. A ",
+      "permetezéő",
+      " impulzus hatására finom vízcseppek jutnak a növényekre –, ahol a permetező ",
+      "impulzusnakennek",
+      " akkor kell bekövetkeznie, amikor a levélfelület egy meghatározott százalékban megszáradt. A szükséges víznyomás mintegy 3–4  bar, a cseppek átmérői nagyobbak, mint 30  ",
+      "μm",
+      ". Ezt ",
+      "azA",
+      " permetező impulzust, annak kezdetét és végét, a „",
+      "Helfert",
+      "-féle műlevélharmatmérő” szabályozza,",
+      "",
+      " amit ebben a videóban is bemutatunk. A berendezés ",
+      "Mmérőfelületkénte",
+      " egy fémcsík szolgál. Ez a „tesztlap”, amely nehezebb lesz, ha ",
+      "víz éri",
+      " –; ekkor kikapcsolódik a permetező berendezés. A ködpermetes növénynevelést ez a videó",
+      "",
+      " mutatja be. A technológia egynyári dísznövények esetében elterjedt, de más növénycsoportoknál, így kétnyárinál és évelőnél is alkalmazzák, és előfordul a növényházi- és fás szárú dísznövények esetén is. "
+    ],
+    [
+      "A fúvókák az öntözőkocsira vagy ",
+      "fix",
+      " helyekre szerelhetők fel ",
+      "(",
+      "12",
+      ". ábra)",
+      ". A növénynevelés e formájánál – eltérően a fóliás szaporítástól – lehetőség van a ",
+      "közegszubsztrát",
+      " erőteljes ",
+      "vízizes",
+      " terhelésére. "
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "12",
+      "",
+      ". ábra: ",
+      "Mozgó ködpermetezős szaporítás."
+    ],
+    [],
+    [
+      "Ködgépek"
+    ],
+    [
+      "A ködpermetes szaporítás alternatívájaként egyre többször használnak ködgépeket. Ezek képezik a növényszaporítás legköltségesebb formáját. Kétféle rendszer terjedt el: nagy nyomású ködgépek ",
+      "(",
+      "13",
+      ". ábra) ",
+      "és kettős anyagúkettős anyagúkét",
+      " ",
+      "komponensű",
+      " ködgépek ",
+      "(",
+      "14. ábra",
+      ")",
+      ". A nagy nyomású ködgépek, amelyek részben 100 bart is meghaladó nyomással dolgozhatnak, csak akkor működtethetők, ha a vízben nincsenek kiváló sók és a fúvókák eldugulása szűréssel megelőzhető. A ",
+      "két komponensű",
+      " A kettős anyagú ködgépek gyengébb minőségű vízzel is használhatók. A víz mellett a benne levő sókat is eloszlatják a sűrített levegővel a helyiségben, így azok nem rakódhatnak le a fúvókákon, mint a nagy nyomású berendezéseknél. A cseppek méreteinek csökkentésére ultrahang alkalmazásával használhatócsökkenthető. "
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "13",
+      "",
+      ". ábra: ",
+      "Nagynyomású ködgép."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "14",
+      "",
+      ". ábra: ",
+      "Két ",
+      "komponenst",
+      " Két anyagot permetező fúvókával előállított ködgép"
+    ],
+    [
+      ""
+    ],
+    [
+      "Ábrajegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      "Táblázatjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [
+      ""
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Dr. Kisvarga Szilvia"
+      ],
+      [
+        "Szakmai lektor:",
+        "Dr. Orlóci László"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Mezőgazdaság és erdészet"
+      ],
+      [
+        "Szakma:",
+        "Kertész technikus"
+      ],
+      [
+        "Szakmairány:",
+        "Dísznövénytermesztő, virágkötő"
+      ],
+      [
+        "Tanulási terület:",
+        "Dísznövénytermesztés"
+      ],
+      [
+        "Tantárgy:",
+        "Dísznövénytermesztés"
+      ],
+      [
+        "Évfolyam:",
+        "11. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "9 óra"
+      ]
+    ],
+    [
+      [
+        "Generatív szaporítás",
+        "Vegetatív szaporítás"
+      ],
+      [
+        "A növényanyag eltérő genetikai változatossága a termesztési módtól függően",
+        "Azonos genetikai kiindulóanyag, például a fajta"
+      ],
+      [
+        "Viszonylag olcsó szaporítás",
+        "Nagy ráfordítás az anyanövények fenntartására, ezért általában drágább, mint a generatív szaporítás"
+      ],
+      [
+        "A nem kívánt fenotípus elkerülése általában nehézkes vagy lehetetlen, mivel ez csak a megfelelő szülővonalak mellett lehetséges, ezért a növényfajta-védelemre általában nincs szükség",
+        "A nem kívánt szaporítást fajtavédelemmel lehet elérni"
+      ],
+      [
+        "Időigényes termesztés",
+        "Egy új fajta nemesítése után in vitro tenyésztéssel gyorsan megvalósul a tömeges szaporítás"
+      ],
+      [
+        "Viszonylag csekély ráfordítás a szülővonalak egészségének megtartásához",
+        "Nagy ráfordítás az anyanövény-állomány egészségének megtartásához"
+      ],
+      [
+        "Csak aA csíraképes magot nevelő növények esetében lehetségesalkalmazható ez a szaporítási mód.",
+        "Azoknál a növényeknél is lehetséges, amelyeknél a magról történő szaporítás nehézkes (például hosszú palánta-fázis, a magok rövid ideig tárolhatók, komplikált csírázás)"
+      ]
+    ]
+  ],
+  "headers": [
+    ""
+  ],
+  "footers": [
+    ""
+  ],
+  "footnotes": [
+    "",
+    "",
+    " Lásd: https://www.youtube.com/watch?v=cntjkukFYsU Lekérdezés dátuma: 2024. 08. 02.",
+    " Lásd: https://www.youtube.com/watch?v=bzFAQvc-gRI Lekérdezés dátuma: 2024. 08. 02.",
+    " Lásd: https://www.youtube.com/watch?v=5iZjlkpMXkU Lekérdezés dátuma: 2024. 08. 02."
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image14.png",
+      "path": null,
+      "bytes": 388836
+    },
+    {
+      "name": "image13.png",
+      "path": null,
+      "bytes": 492900
+    },
+    {
+      "name": "image12.png",
+      "path": null,
+      "bytes": 297483
+    },
+    {
+      "name": "image16.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image17.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image15.png",
+      "path": null,
+      "bytes": 451451
+    },
+    {
+      "name": "image9.png",
+      "path": null,
+      "bytes": 239652
+    },
+    {
+      "name": "image10.png",
+      "path": null,
+      "bytes": 250713
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 66815
+    },
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 462436
+    },
+    {
+      "name": "image3.png",
+      "path": null,
+      "bytes": 340334
+    },
+    {
+      "name": "image11.png",
+      "path": null,
+      "bytes": 523274
+    },
+    {
+      "name": "image4.png",
+      "path": null,
+      "bytes": 194085
+    },
+    {
+      "name": "image6.png",
+      "path": null,
+      "bytes": 257798
+    },
+    {
+      "name": "image5.png",
+      "path": null,
+      "bytes": 157131
+    },
+    {
+      "name": "image8.png",
+      "path": null,
+      "bytes": 306611
+    },
+    {
+      "name": "image7.png",
+      "path": null,
+      "bytes": 378339
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "List Paragraph",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "TOC Heading",
+    "Címsor 3 Char",
+    "Címsor 4 Char",
+    "Címsor 5 Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "Caption",
+    "toc 1",
+    "toc 2",
+    "Hyperlink",
+    "kérdés_számozva",
+    "annotation reference",
+    "table of figures",
+    "toc 3",
+    "annotation text",
+    "Jegyzetszöveg Char",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "[Alapbekezdés]"
+  ]
+}

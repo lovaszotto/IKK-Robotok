@@ -1,0 +1,3680 @@
+{
+  "core_properties": {
+    "creator": "Nágl Péter",
+    "lastModifiedBy": "Németh Nikolett (ELMS)",
+    "revision": "12",
+    "created": "2024-10-31T11:49:00Z",
+    "modified": "2024-11-15T14:13:00Z"
+  },
+  "app_properties": {
+    "Template": "elms_sablon",
+    "TotalTime": "227",
+    "Pages": "44",
+    "Words": "4936",
+    "Characters": "34061",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "283",
+    "Paragraphs": "77",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "38920",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.28.1  ",
+    "Húskészítmények gyártástechnológiai műveletei és gépei I. – Aprítás, keverés",
+    "Témák kézirata",
+    "",
+    "",
+    "",
+    "TARTALOMJEGYZÉK",
+    "1\tAprítás művelete, A húsiparban alkalmazott aprító gépek\t3",
+    "1.1\tAprítás elméleti háttere\t3",
+    "1.2\tA húsiparban alkalmazott aprítógépek, berendezések\t5",
+    "1.2.1\tA húsiparban alkalmazott durva aprításra alkalmas aprítógépek\t6",
+    "1.2.1.1\tDarálógépek\t6",
+    "1.2.1.2\tKockázógépek\t13",
+    "1.2.2\tA húsiparban alkalmazott, durva és finomaprításra, keverésre is alkalmas aprítógépek\t15",
+    "1.2.2.1\tKutterek\t15",
+    "1.2.3\tA húsiparban alkalmazott finomaprításra alkalmas aprítógépek\t26",
+    "1.2.3.1\tFinomaprító gépek\t26",
+    "2\tKeverés művelete, a húsiparban alkalmazott keverő berendezések\t32",
+    "2.1\tKeverés műveletének elméleti háttere\t32",
+    "2.2\tKeverőgépek\t33",
+    "2.2.1\tA keverőgépek főbb szerkezeti elemei\t34",
+    "2.2.1.1\tCsészés keverőgépek\t36",
+    "2.2.1.2\tVályús keverőgépek\t37",
+    "3\tAz aprító, keverő és töltőgépekkel szemben támasztott legfontosabb higiéniai és munkabiztonsági előírások\t39",
+    "3.1\tA berendezések alkalmazás a során betartandó legfontosabb munkabiztonsági követelmények\t39",
+    "3.2\tA berendezések alkalmazása során betartandó legfontosabb higiéniai követelmények\t40",
+    "Irodalomjegyzék\t41",
+    "Ábrajegyzék\t42",
+    "",
+    "Aprítás művelete, A húsiparban alkalmazott aprító gépek",
+    "Aprítás elméleti háttere",
+    "Szilárd anyagok mechanikai erővel végrehajtott kisebb részekre történő szétdarabolása.",
+    "Az aprítás műveletének technológiai célja a késztermék előállítása során felhasznált anyagok kisebb részekre történő szétdarabolásával a gyártástechnológiai műveletek hatékonyabb végrehajtásának elősegítése. ",
+    "Az aprítás egy egyneműsítő művelet, amely nem változtatja meg az aprított anyag összetételét.",
+    "Aprítás művelete során a szilárd anyag részecskéit összetartó kohéziós erőket kell legyőzni. A kohéziós erő anyagonként változik és jellemző az anyagra.",
+    "A kohéziós erő nagyságát az aprítandó anyag egyedi jellemzői határozzák meg, emiatt a kohéziós erő anyagonként változó. Ilyen változók lehetnek:",
+    "az anyag szöveti összetétele (hús kötőszövet tartalma)",
+    "az anyag víztartalma",
+    "hőmérséklete (hűtött, fagyasztott hús, szalonna)",
+    "Az aprítás során a kohéziós erő ellenállásának leküzdése az aprítandó anyag tulajdonságaitól függően történhet (1. ábra):",
+    "Nyomással ",
+    "Ütéssel",
+    "Húzással",
+    "Nyírással ",
+    "",
+    "",
+    "1. ábra: Aprítási módok",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 36. old",
+    "Aprítás során az aprítandó anyag kohéziós erejének a leküzdésére alkalmazható aprítási módok szemléltetése",
+    "",
+    "Az aprítógépekben minden esetben többféle erő is előfordul, de mindig van egy központi erő, amely meghatározza az aprítás jellegét. A húsiparban alkalmazott aprítógépek esetében a fő aprító erő a nyíróerő.",
+    "Az aprítás energiaszükséglete igen nagy, mert a befektetett munka jelentős része hővé alakul.",
+    "Technológiai szempontból az aprítás mérete a 30 mm-es élhosszúságú kockától a kolloid finomságú pépig terjedhet. A 30 mm-es aprítási méret felett a szilárd testek aprítását darabolásnak nevezzük. ",
+    "Az aprítás műveletének fontos jellemzője az aprítási fok. Az aprítási fok az anyag aprítás előtti és aprítás utáni méretének a hányadosa:",
+    "n = D/d",
+    "n = aprítási fok",
+    "D = aprítás előtti szemcseméret",
+    "d = aprítás utáni szemcseméret",
+    "Az aprítással kialakított szemcseméret alapján megkülönböztetünk durva és finom aprítást.",
+    "Durva aprítás:",
+    "Az aprítási szemcseméret 30 mm-től néhány mm-ig terjed.",
+    "Finomaprítás:",
+    "A szemcseméret 1-2 mm-től a kolloid mérettartományig (500 nm)",
+    "",
+    "A húsiparban alkalmazott aprítógépek, berendezések",
+    "A húsiparban az aprítás művelete alapműveletnek tekinthető a húskészítmények előállítása során alkalmazott gyártástechnológiai folyamatokban. A húskészítmények előállítása során felhasznált gyártási anyagok aprításának végrehajtásához különféle aprítóberendezéseket alkalmaznak.",
+    "",
+    "Az aprítóberendezéseket az aprítás mértéke alapján:",
+    "durva ",
+    "vagy finomaprító berendezések csoportjába sorolhatjuk.",
+    "",
+    "A húsiparban alkalmazott durva aprításra alkalmas aprítógépek:",
+    "darálógépek",
+    "kockázó gépek",
+    "",
+    "A húsiparban alkalmazott, durva és finomaprításra, keverésre is alkalmas aprítógépek:",
+    "kutterek",
+    "A húsiparban alkalmazott finomaprításra alkalmas aprítógépek:",
+    "finomaprító gépek: kolloid malom, KS kutter, Stephan kutter",
+    "",
+    "A húsiparban alkalmazott durva aprításra alkalmas aprítógépek",
+    "",
+    "Darálógépek",
+    "A hús és gyártási szalonna, egyéb gyártási anyagok (bőrke, ehető belsőség) durva aprítására alkalmas berendezés (2. ábra). A darálógépekkel elérhető legkisebb szemcseméret 1-2 mm.",
+    "Az aprítást a darálógép késes-tárcsás vágószerkezete végzi. A vágószerkezet működése során a behordó csiga az aprítandó húst a tárcsa furatainak nyomja, amely így betüremkedik a furatokba. A betüremkedett húst a tárcsa síkján elmozduló kés éle és a tárcsa furatainak pereme közötti nyíróerő fogja aprítani. ",
+    "",
+    "",
+    "",
+    "2. ábra: Darálógép",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984.) 38. old",
+    "Darálógép szemléltetése",
+    "",
+    "",
+    "",
+    "3. ábra: Egy és kétélű darálókések",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 38. old",
+    "Darálókések szemléltetése",
+    "",
+    "",
+    "",
+    "4. ábra: Darálótárcsák",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 38. old",
+    "Darálótárcsák szemléltetése",
+    "",
+    "",
+    "5. ábra: A nyírás szemléltetetése a vágószerkezetben",
+    "Forrás: https://www.youtube.com/watch?v=6zH4V27r26c (2024.07.09.)",
+    "Szemlélteti a darálógép vágószerkezetében végbemenő nyírás jelenségét",
+    "",
+    "A darálógép vágószerkezetének hatékony működési alapfeltétele, hogy a kés és a tárcsa között megfelelő mértékű legyen a szorítóerő. A kis szorítóerő esetében nem lesz megfelelő az aprítás, mert a kés éle és a tárcsa síkja között nem keletkezik elég nyíróerő, az anyag „elcsúszik” a vágóélek között. A túlzott szorítóerő alkalmazása esetén azonban a kések és a tárcsák nagyfokú kopásnak, nagy súrlódásnak vannak kitéve. A nagy súrlódás hatására az aprítás során hő keletkezik, ami káros hatással van az aprítandó anyag minőségére. A megfelelő szorítóerőt a berendezés vágószerkezetét rögzítő, lezáró szorítógyűrű biztosítja. ",
+    "A darálógép vágószerkezete lehet egy (6. ábra), vagy több (7. ábra) fokozatú. Kis teljesítményű, egyszerű darálógépekben egyfokozatú vágószerkezetet, nagyobb teljesítményű darálógépek esetében több késből és tárcsából álló vágószerkezetet alkalmaznak. ",
+    "Az egyfokozatú vágószerkezet egy sima egyélű késből és egy lyuktárcsából áll. A lyuktárcsa furat átmérője határozza meg az aprítási szemcseméretet. ",
+    "",
+    "6. ábra: Darálógép egyfokozatú vágószerkezete",
+    "Forrás: https://www.akbyramon.com/en/product/forage-ak-ramon-superstar/ (2024.07.09.)",
+    "Az egyfokozatú vágószerkezet szemléltetése",
+    "",
+    "Többfokozatú vágószerkezet esetében a vágószerkezet részei a behordó csiga irányából ",
+    "nagy nyílású elővágó tárcsával (stesszelő tárcsa)",
+    "egyélű kés ",
+    "nagy furatátmérőjű lyuktárcsa",
+    "kétélű kés",
+    "lyuktárcsa a kívánt aprítási szemcseméretű furatátmérővel",
+    "szorítógyűrű",
+    "",
+    "",
+    "7. ábra: Többfokozatú vágószerkezet",
+    "Forrás: Saját ábra",
+    "A többfokozatú vágószerkezet szemléltetése.",
+    "",
+    "Az anyag szállítását, illetve az anyag belekényszerítését a vágószerkezetbe a behordó csiga végzi. Attól függően, hogy a hány behordó csigával rendelkeznek, a darálógépek lehetnek",
+    "",
+    "Egy tengelyű darálógépek (8. ábra)",
+    "Egy tengelyű daráló esetében az aprítandó anyag szállítását a vágószerkezethez a darálócsiga végzi. Általában az ilyen egytengelyű darálógépeknél a darálócsiga eltérő menetemelkedésű. A menetemelkedés a vágószerkezet felé csökken, így az anyagot szállítás során folyamatosan tömöríti a vágószerkezet felé. Többnyire egyszerűbb, kisebb teljesítményű darálógépek esetében alkalmazzák. ",
+    "",
+    "8. ábra: Egy tengelyű darálógép",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 41.old.",
+    "Egy tengelyű darálógép szemléltetése.",
+    "",
+    "Két kéttengelyű darálógépek (9. ábra)",
+    "Az aprítandó anyagnak a darálógép garatjából történő adagolását és az anyag vágószerkezethez kényszerítését két különböző tengelyre rögzített csiga végzi. A két csiga fordulatszáma külön-külön szabályozható. Könyökdaráló esetében a behordócsiga tengelye a darálócsiga tengelyére merőleges felépítésű.",
+    "",
+    "",
+    "9. ábra: Két tengelyű könyökdaráló",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 42.old.",
+    "Két tengelyű darálógép szemléltetése.",
+    "",
+    "A modernebb darálógépek vágószerkezetére ínleválasztó feltétet is elhelyezhetnek. Az ínleválasztó vágószerkezeten (10. ábra) elhelyezkedő tárcsa felületén mélyedések, úgynevezett hornyok vannak. A vágószerkezet működése során a behordó csiga az aprítandó húst a tárcsa furatainak nyomja. A hústól eltérő keménységű, állományú ín kevésbé tud betüremkedni a tárcsa furataiba. A kés forgás közben a keményebb állományú ínt a hornyokba vezeti, majd a kivezető gyűrű segítségével a kivezető csövön keresztül az ín elvezethető a darálógépből. ",
+    "",
+    "",
+    "10. ábra: Ínleválasztó vágószerkezet felépítése",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 43.old",
+    "Ínleválasztó vágószerkezet felépítésének szemléltetése.",
+    "",
+    "Kockázógépek",
+    "Főként felvágottak, mozaikos húskészítmények előállítása során felhasznált hús, szalonna és egyéb anyagok (zöldségek) nagyobb méretű aprítására, kockázására alkalmazható berendezések. A kockázógépek vágószerkezete vágókeretekből és sarló alakú késekből áll. A vágókeret párhuzamosan, egymástól meghatározott távolságban elhelyezett késpengékből épül fel. A vágószerkezet általában két vágókeretet tartalmaz. Az egyik vágókeretben a kések vízszintesen, a másik keretben a kések függőlegesen állnak. Egy adott vágókeretben a kések közötti távolság állandó, ami meghatározza az aprítási, kockázási méretet. A berendezésbe különböző késtávolságú vágókeretek helyezhetők, amelyekkel szabályozható a kockázás mérete.  A vágókeret által csíkokra vágott anyagot a vágókeret síkján mozgó sarló alakú kések fogják kockára vágni.",
+    "",
+    "",
+    "11. ábra: Vízszintes elrendezésű kockázógép",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 62.old.",
+    "kockázógép felépítésének szemléltetése.",
+    "",
+    "Működése:",
+    "A berendezésbe behelyezett kockázandó anyagot egy dugattyú nyomja át a vágókereteken. A vágókeretben lévő késeket villanymotor mozgatja, amelyek csíkokra fogja vágni az aprítandó anyagot. A végső kocka alakot a vágókeretek síkján mozgó sarló alakú kés fogja kialakítani.",
+    "",
+    "",
+    "12. ábra: Kockázógép vágószerkezetének működése",
+    "Forrás: https://www.youtube.com/watch?v=EcS2fBZ9Mo0 (2024.07.09.)",
+    "kockázógép vágószerkezet működésének szemléltetése.",
+    "",
+    "A húsiparban alkalmazott, durva és finomaprításra, keverésre is alkalmas aprítógépek",
+    "Kutterek",
+    "A töltelékes húskészítmények előállítása során alkalmazott berendezések. A kutterek a termékgyártás fontos berendezései, mert több gyártástechnológiai műveletet is képesek elvégezni. Működésük során nem csak a gyártási anyagok aprítására, finomaprításra alkalmasak, hanem a kialakításuk és műszaki megoldásaik révén az aprítás mellett a töltőmassza készítése, keverése is végrehajtható a berendezésekben. ",
+    "",
+    "",
+    "13. ábra: Kutter felépítése",
+    "Forrás: Saját ábra",
+    "",
+    "Kutter felépítésének szemléltetése",
+    "A kutter részei:\n1. késes vágószerkezet\n2. kuttertányér\n3. fedél\n4. késtengely\n5. ürítőgomba\n6. hajtómű\n7. villanymotor",
+    "",
+    "Felépítésük:",
+    "",
+    "A kutter tányér",
+    "A kutter tányér feladata az aprítani-keverni kívánt gyártási anyagok befogadása. Alakja egy félgyűrű alakú forgástest, ún. tórusz, amely a tengely körül forgatható.  A félgyűrű nagysága és mélysége határozza meg a kuttertányér űrméretét. A kutter tányér űrméretét jellemzően literben szokták meghatározni. A tányér űrmérete fontos jellemzője a berendezés teljesítményének, vágóképességének. A kuttereket különböző méretekben gyártják. A legkisebb méretű kutterek 12-30 literes tányérral rendelkeznek. Ezeket többnyire üzemi konyhákban, kiskapacitású gyártó üzemekben alkalmazzák.  Az ipari termelésben alkalmazott berendezéseknek az űrmérete 80 litertől, akár 500 literig terjedhet. A kutter tányért lassú 7-15/perces fordulatszámon egy villanymotor által mozgatott csigahajtómű forgatja meg. ",
+    "",
+    "",
+    "14. ábra: Kuttertányér felépítése",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 45.old.",
+    "Kuttertányér felépítésének szemléltetése.",
+    "",
+    "A vágószerkezet:",
+    "A kutter vágószerkezete sarló alakú, vagy tört ívű delta késekből áll. A kések száma a berendezés teljesítményétől függően 4-12 darab. A késeket a kiegyensúlyozott forgás miatt párosával, egymással szemben helyezik el.",
+    "",
+    "",
+    "15. ábra: Kutter vágószerkezet",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 49.old",
+    "Kutter vágószerkezetének szemléltetése.",
+    "",
+    "A tengelyre történő rögzítés alapján a kések lehetnek:",
+    "•\tnyitott agyú, villaszerű kialakítású ",
+    "•\tzárt agyú kések",
+    "",
+    "",
+    "16. ábra: Kutter kés típusai rögzítés alapján.",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 49.old",
+    "Kutter kések szemléltetése.",
+    "",
+    "A késeket távtartó gyűrű választja el egymástól, a vágószerkezet stabil lezárását szorító csavar biztosítja. ",
+    "A kések alakja, vágásfelülete is befolyásolja az aprítás-keverés hatékonyságát. Régebbi fejlesztésű, illetve kisebb teljesítményű kutterek esetében a kések alakja és vágásfelülete ívelt, sarló alakú. Nagyobb teljesítményű, illetve modernebb fejlesztésű berendezéseknél a kés alakja, vágásfelülete nem ívelt, hanem egymással szöget bezáró tört ívű (delta kés). Az ilyen kialakítású késeknek jobb a vágási tulajdonsága, illetve a vágóél élettartama hosszabb, mint a sarló alakú késeké.",
+    "",
+    "",
+    "17. ábra: Kutter kések alakja",
+    "Forrás: Saját ábra",
+    "Kutter kések alakjának szemléltetése.",
+    "",
+    "A késtengely csapágyazása alapján megkülönböztethetünk:",
+    "•\tkétoldalon",
+    "•\tegyoldalon csapágyazott kuttereket.",
+    "A két oldalon csapágyazott késtengely esetében nyitott agyú kések alkalmazhatók. A két oldalon csapágyazott késtengely nagyobb szilárdságú, hátránya, hogy a vágószerkezet nehezebben szerelhető. ",
+    "Az egy oldalon csapágyazott késtengely esetében a késtengely végére szerelhető fel a vágószerkezet. ennél a műszaki megoldásnál a vágószerkezet kései zárt agyúak. A vágószerkezet könnyebben szerelhető a kések rögzítése biztonságosabb. Nyitott agyú kések felszerelésére is van lehetőség. Ebben az esetben két nyitott agyú kés összeillesztésével késpárt hoznak létre. A késpár így felhelyezhető lesz a késtengelyre.",
+    "Az egy oldalon csapágyazott késtengelyt repülőtengelynek nevezik.",
+    "",
+    "",
+    "18. ábra: Vágószerkezet rögzítési lehetőségei a késtengelyen",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 49.old",
+    "Vágószerkezet rögzítés lehetőségeinek szemléltetése.",
+    "",
+    "",
+    "19. ábra: Nyitott agyú késekből kialakított késpár",
+    "Forrás: Húsipari és baromfiipari gépek II. (Berszán G, Budapest, 1999) 70.old",
+    "Nyitott agyú késekből késpár kialakításának szemléltetése.",
+    "",
+    "A késtengelyt nagy teljesítményű villanymotor hajtja meg. A fordulatszám az aprítási-keverési művelet igénye alapján széles határok között szabályozható.  A maximális fordulatszám akár 5000 fordulat/perc is lehet. ",
+    "",
+    "Az ürítőgomba",
+    "Az ürítőgomba segítségével távolítható el a kész töltőmassza a kutter tányérból.  Az ürítőgomba a kutter tányér görbületének megfelelő átmérőjű kör profilú részegység, amelyet külön villanymotor hajt. Az ürítőgomba csuklós, mozgatható megoldással van rögzítve a berendezéshez, hogy könnyen ki és behajtható legyen a kutter tányérba.",
+    "",
+    "",
+    "20. ábra: Ürítőgomba működése",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 46.old",
+    "",
+    "A kutter tányérjában lévő töltőmassza (színe rózsaszín) a sárga nyilak irányába mozog. Eközben az ürítőgomba a tengelyen ábrázolt fekete nyíl irányába forog.",
+    "Ürítőgomba működésének szemléltetése.",
+    "",
+    "\tFedél",
+    "A vágószerkezetet és a kutter tányérjának jelentős részét hidraulikus dugattyúval mozgatható fedél borítja. A fedél biztosítja, hogy a gyorsan forgó vágószerkezet a külvilágtól zártan működjön, ezáltal elkerülhető a munkabalesetek kialakulása. A fedél ezenkívül meggátolja, hogy működés közben a massza kicsapódjon a berendezésből. A fedél villamos reteszeléssel van ellátva, így felhajtott állapotban nem lehet a kutter késeit működtetni.",
+    "",
+    "",
+    "21. ábra: Kutter fedél működése",
+    "Forrás: https://www.youtube.com/watch?v=99pM4TAmA-E&t=38s 00:16-tól 00:22-ig (2024.07.09.)",
+    "Kutter fedél működésének animálása a videó alapján. (00:16-tól 00:22-ig).",
+    "Kutter fedél működésének szemléltetése.",
+    "",
+    "A berendezés működése:",
+    "Működés során a félgyűrű alakú kuttertányérba adagolják a gyártás során felhasznált anyagokat. A kuttertányér a berendezés működése során megadott fordulatszámon forog. A késtengelyre szerelt sarló alakú kések beleérnek a félgyűrű kialakítású tányérba. Az aprítás-keverés művelete során a kuttertányér késtengelyhez képest lassú fordulaton (7-15/perc) forog. A nagy sebességgel forgó sarló alakú kések a tányérba adagolt aprítandó anyagot minden egyes fordulatnál keresztülvágják. A kések a kialakításuknak és a nagy sebességnek köszönhetően nem csak aprítják az anyagokat, hanem össze is keverik, így egy fázisban végrehajtható a két technológiai művelet. Az aprítás-keverés során a magas fordulatszámon forgó kések súrlódnak a masszában. A súrlódás miatt hő keletkezik, emiatt az aprítandó anyag hűtéséről gondoskodni kell. ",
+    "A kész töltőmasszát az ürítőgomba segítségével távolítják el a kuttertányérból.  A töltőmassza ürítésekor a tányér a masszát a forgó ürítőgombához juttatja, ami a gomba felületéhez érve, a forgás hatására gyakorlatilag kifordul a tányérból. A tányérból kiforduló anyag csúszdán át jut a szállítókocsiba. ",
+    "",
+    "",
+    "22. ábra: Kutter működése",
+    "Forrás: https://www.youtube.com/watch?v=147dHsfd-uY (2024.07.09.)",
+    "A youtube videóhoz hasonlóan egy a kutter működését bemutató videó beszerkesztése.",
+    "Kutter működésének szemléltetése.",
+    "",
+    "Vákuum kutterek:",
+    "Felépítésüket tekintve megegyeznek az egy, vagy két oldalon csapágyazott kutterek felépítésével. Fő különbség, hogy a vákuum kutterek esetében a kutter tányért teljes mértékben lefedő, légmentesen záródó fedéllel, zárják le. Működés során a berendezésben beépített vákuumszivattyú eltávolítja a levegőt az aprító-keverő térből.  Egyes kuttereknél vákuum helyett nitrogén (N2) védőgázt juttatnak be az aprító-keverő térbe. A nitrogén hűtési tulajdonsága miatt alkalmas az aprítás során keletkezett hő csökkentésére, a töltőmassza hűtésére, ezáltal biztosítható, hogy a töltőmassza az aprítás során ne tudjon olyan mértékben felmelegedni, amely a húsfehérjék denaturálódásával a termék minőségérét negatívan befolyásolná. ",
+    "A vákuum alkalmazásának előnyei:",
+    "•\tAz aprítás-keverés művelete során a kések nem keverik bele a levegőt a töltőmasszába, így elkerülhető a légzárványok kialakulása a termékben.",
+    "•\tAz aprító-keverő tér lezárásával a berendezés működési zaja csökkenthető.",
+    "",
+    "Főzőkutterek:",
+    "Olyan gyártási alapanyagok aprítására is alkalmas, amelyek előfőzést igényelnek, illetve olyan technológiák esetében alkalmazzák, amelyek során a pépkészítés magas hőmérsékleten történik. (a kenőmájas gyártástechnológiája) Felépítése hasonló a zárt aprító-keverőterű vákuum kutteréhez, azzal a különbséggel, hogy a kutter tányér és a burkolat közötti térbe gőzt vezetnek be. A kutter tányér és a burkolat közé bevezetett gőz fogja melegíteni a gyártási anyagokat.",
+    "",
+    "",
+    "23. ábra Főzőkutter",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 52.old",
+    "Főzőkutter felépítésének szemléltetése.",
+    "",
+    "Kutterek alkalmazása a pépkészítés, illetve a szalámi gyártás során",
+    "A kutterek felépítésükből, műszaki megoldásaikból adódóan különböző töltelékes húsipari termék csoportok előállítására alkalmazhatók, mivel a vágószerkezet módosításával, illetve a késtengely és a kutter tányér fordulatszámának szabályozásával képesek kielégíteni az egyes termékcsoportok speciális gyártástechnológiai követelményeit. ",
+    "A pépkészítésnél alkalmazott kutter elsősorban a kutter tányér és a késtengely működési fordulatszámában, illetve a kések számában különbözik a szalámi gyártás során alkalmazott keverő kuttertől. ",
+    "A pépkészítés során alkalmazott kutter késtengelyének fordulatszáma magas, a kutter tányér fordulatszáma alacsony. A kések száma legalább nyolc. ",
+    "A szalámi gyártásnál alkalmazott kutter késtengelyének fordulatszáma alacsony, a kutter tányér fordulatszáma magas. A kések száma maximum hat.",
+    "",
+    "A húsiparban alkalmazott finomaprításra alkalmas aprítógépek",
+    "Finomaprító gépek",
+    "A finomaprító gépeket a húsipari alapanyagok, húspép, bőrkepép, ínpép, töltőmassza kolloid finomságú aprítására alkalmazzák. Vágószerkezetük alapján megkülönböztethetünk, tépőfogas, vagy késes-tárcsás finomaprító berendezéseket.",
+    "",
+    "A húsiparban leggyakrabban alkalmazott finomaprító berendezések:",
+    "-\tKolloidmalom",
+    "-\tStephan kutter",
+    "-\tKS kutter",
+    "",
+    "Kolloid malom:",
+    "Vágószerkezete álló és forgó, fogazott őrlőkúpokból áll. Az aprítás a fogazott forgó és álló őrlőkúpok közötti dörzsölő-tépő hatás következtében valósul meg.",
+    "",
+    "24. ábra: Kolloidmalom",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 53.old",
+    "Kolloidmalom felépítésének szemléltetése.",
+    "",
+    "Működése:",
+    "",
+    "25. ábra: Kolloidmalom vágószerkezet működése",
+    "Forrás: https://www.youtube.com/watch?v=Q3EHkpNVP9g (2024.07.09.)",
+    "A linken található videó alapján animáció készítése.",
+    "A kolloidmalom vágószerkezet működésének bemutatása.",
+    "",
+    "Az aprítandó anyag a gép garatjából a durván fogazott őrlőkúpba kerül, majd az őrlőkúp forgása miatt létrejövő centrifugális erő hatására a forgó és az álló őrlőkúp közötti résbe kényszerül, ahol megtörténik az aprítás első fázisa. Az anyag ezután a finomabb fogazású forgó és álló őrlőkúp között megy át, ahol a végleges aprítási méretre aprítja a gép az anyagot. Az aprítási fokot az őrlőkúpok közötti távolság állításával szabályozható. A forgó és állórész távolításával csökken, közelítésével nő az aprítás mértéke. A forgópúpok csavarral vannak rögzítve a villanymotorra. Az őrlőkúpokból kilépő aprított anyagot a kihordó tányér vezeti a kiömlő csőbe.",
+    "",
+    "Stephan kutter:",
+    "A Stephan kutter több fokozatú vágószerkezete álló és forgó vágógyűrűkből áll. Az álló és forgó gyűrűk között alakul ki a vágóhézag. A vágóhézag nagysága szabályozható. A Stephan kutter vágószerkezete közvetlenül a villanymotor tengelyére van szerelve.",
+    "",
+    "",
+    "26. ábra: Stephan kutter felépítése",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 55.old",
+    "Stephan kutter felépítésének szemléltetése.",
+    "",
+    "",
+    "27. ábra: Stephan kutter vágószerkezete",
+    "Forrás Húsipari gépek II. (Berszán G, Budapest, 1984) 54.old",
+    "Stephan kutter vágószerkezetének szemléltetése.",
+    "",
+    "Működése:",
+    "A garatba betáplált anyag egy szállítócsiga segítségével megy keresztül a vágószerkezeten. Az álló és forgó gyűrű tépőfogai közötti távolság a vágóhézag, amibe az aprítandó anyag bekényszerül. A tépőfogak aprító-dörzsölő hatása végi el az aprítást.  Az aprított anyag szállító csövön keresztül kerül a szállító kocsiba. ",
+    "",
+    "",
+    "28. ábra: Stephan kutter működése",
+    "Forrás https://www.youtube.com/watch?v=kWxsNrumAhE (2024.07.09.)",
+    "Stephan kutter működésének a szemléltetése",
+    "",
+    "KS (késes-tárcsás) kutter",
+    "A KS kutter vágószerkezete, hasonlóan a darálógépekéhez késes-tárcsás felépítésű. A gyors forgás miatt a kések három szárnyú propeller kialakításúak. ",
+    "",
+    "",
+    "29. ábra: KS kutter",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 56.old",
+    "KS kutter felépítésének bemutatása",
+    "",
+    "",
+    "30. ábra: KS kutter vágószerkezet felépítése",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 56.old",
+    "KS kutter vágószerkezetének szemléltetése",
+    "",
+    "Működése:",
+    "A garatba adagolt masszát egy masszakidobó lapát juttatja a vágószerkezethez. A folyamat során a gyorsan forgó kések a tárcsák furatain keresztülpréselik az aprítandó anyagot. Az aprított anyagot a kihordólapát juttatja a kiömlőcsőbe. A vágószerkezet forgó részei egy bordás tengelyre vannak erősítve. A két kés körmökkel kapcsolódik egymáshoz. A bordás tengely egy ékszíjhatás segítségével kapcsolódik a villanymotorhoz. ",
+    "",
+    "",
+    "31. ábra: KS kutter vágószerkezete",
+    "Forrás: https://www.youtube.com/watch?v=E-XegGnIm2M&t=4s (2024.07.09.)",
+    "KS kutter vágószerkezetének a szemléltetése",
+    "",
+    "A finomaprító berendezések vágószerkezeteinek üzemeltetése során a magas fordulatszám és a szerkezeti kialakítás miatt súrlódás lép fel. A súrlódás során hő keletkezik, amely az aprítandó anyagban fehérje denaturációt és egyéb káros hatást válthat ki, amely negatívan befolyásolhatja a késztermék minőségét. Emiatt a finomaprítás során biztosítani kell a massza hűtését.",
+    "",
+    "Keverés művelete, a húsiparban alkalmazott keverő berendezések ",
+    "Keverés műveletének elméleti háttere",
+    "Keverésnek nevezzük az áramlás létrehozásával az azonos, vagy különböző fázisú folyadék, vagy szilárd szemcsés rendszerek, illetve különböző fizikai állapotú (pl. hőmérsékletű) anyagok homogén rendszerré való egyesítését, körülhatárolt térben.",
+    "A művelet általános céljai:",
+    "Homogén anyag előállítása (különböző szemcseméretű anyagok, szemcsés fűszerek eloszlatása)",
+    "Hőmérséklet-kiegyenlítődés elősegítése (különböző hőmérsékletű anyagok keverése)",
+    "Anyagátadás, komponensvándorlás gyorsítása (Keveréssel egyenletessé válik a vándorló komponensek eloszlása)",
+    "",
+    "Keverés törvényszerűségei:",
+    "Keverési idő: A homogén állapot eléréséhez szükséges idő.",
+    " A keverésnél a legfontosabb tényező a keverő mozgási sebessége. A keverő nagyobb sebességgel való mozgatása az anyagban nagyobb súrlódási veszteséget jelent.",
+    "",
+    "A keverés során fellépő veszteségek:",
+    "A keverőgépek keverőelemeit villanymotor hajtja. A villanymotorban és a hajtóműben különböző veszteségek léphetnek fel. A keverő berendezés hatásfoka megmutatja, hogy mekkora a berendezésben fellépő veszteségek összege.",
+    "A gyakorlatban számtalanszor előfordul, hogy a keverés nem az optimális keverési körülmények között zajlik le. ",
+    "",
+    "Ennek okai:",
+    "Változó keverő igénybevétel",
+    "Túlkeverés",
+    "Együttmozgás",
+    "",
+    "Változó keverő-igénybevétel: ",
+    "Változó viszkozitás miatt jön létre. Pl. keverés során a massza egyre rugalmasabbá nyúlóssá válik, nő a viszkozitása. A keverés során a hús és kötőszöveti fehérjék vizet vesznek fel, nő a massza sűrűsége, viszkozitása. A keverőelemek állandó fordulatszámú mozgatásához egyre nagyobb energia szükséges. ",
+    "",
+    "Túlkeverés:",
+    "A homogén állapot elérése után is történik keverés. Massza kenődésével állományproblémákat okozhat.",
+    "",
+    "Az együttmozgás:",
+    "A keverendő folyadék a keverővel együtt mozog, közel azonos sebességgel áramlik. Csökken a homogenizálás hatékonysága. A jelenség elkerülése érdekében ütközőket szerelnek a keverőtérbe.",
+    "A húsiparban a keverés műveletét pép és töltőmassza készítésnél, illetve a zsírgyártás során a zsírhűtés, zsír egyneműsítés céljából alkalmazzák. A pép és a töltőmassza készítés során szilárd (hús, szalonna, egyéb anyag pl.bőrke), porszerű (fűszer), folyékony (víz) halmazállapotú anyagokat keverünk.",
+    "",
+    "Keverőgépek ",
+    "Kutterek (aprító-keverőgép) Az aprítás fejezetben volt róla szó részletesen. ",
+    "Csészés keverőgépek",
+    "Vályús keverőgépek",
+    "",
+    "A keverőgépek főbb szerkezeti elemei",
+    "A keverendő anyagokat befogadó edény",
+    "A keverőszerkezet",
+    "A hajtómű és a kiegészítő berendezések",
+    "",
+    "Keverőedények:",
+    "A gépek kialakítása alapján megkülönböztetünk csészés, illetve vályús keverőedényeket. Feladatuk a keverni kívánt anyagok befogadása. A keverőgépek gyártási teljesítményének fő meghatározója a keverőedény mérete. A keverőedény méretét literben szokták meghatározni. A húsiparban a kisebb űrméretű, 50-60 literes keverőgépektől egészen a több száz literes űrméretű keverőgépekig alkalmazzák őket.",
+    "",
+    "Keverőszerkezetek:",
+    "A húsiparban alkalmazott keverőberendezések feladatuktól függően többféle keverőszerkezettel rendelkezhetnek. A legfontosabb keverőszerkezet profilok:",
+    "lapkeverők:",
+    "Főként folyékonyabb halmazállapotú anyagok keverésére alkalmazható (pl. zsír). A keverőszerkezet tengelyére téglalap alakú keverőelemeket rögzítenek.",
+    "horgony alakú keverők:",
+    "Hús massza keverésére is alkalmas horgony alakú keverőelem. A horgony alakú keverőelemeket a keverőszerkezet tengelyére csavart alakban helyezik el. Az ilyen kialakításnál a keverőelem nemcsak keveri, hanem szállítja is a keverendő anyagokat. ",
+    "karos keverők:",
+    "Alakjuk szerint lehetnek nyitott karos keverők, vagy tömör karos keverők. A horgony alakú keverőkhöz hasonlóan főként húsmassza keverésére alkalmazhatók. ",
+    "szárnyas keverő",
+    "A horgonykeverőhöz hasonlóan a keverőszárnyak a tengelyre csavart profillal vannak rögzítve. Folyadék és húsmassza is keverésére is alkalmas.",
+    "csavar keverő",
+    "A húsipari keverőkben leggyakrabban alkalmazott keverő elem típus. A keverés mellett szállítja és forgatja is a húsmasszát.",
+    "",
+    "",
+    "32. ábra: Keverőelem profilok",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 81.old",
+    "Keverőelem profilok bemutatása",
+    "",
+    "Hajtómű és kiegészítő berendezések:",
+    "A keverőgépek keverőszerkezetét villanymotor és a fordulat szabályzását lehetővé tevő hajtómű mozgatja. ",
+    "Kiegészítő berendezések a fedél működés közbeni felnyitását megakadályozó reteszelés, adagoló és ürítő szerkezet, illetve a keverőszerkezet vezérlését biztosító egység. ",
+    "",
+    "Csészés keverőgépek",
+    "Fő részegységei:",
+    "-\tA mozgatható keverőcsésze",
+    "-\tA billenthető karos keverő",
+    "-\tHajtómű és a gépváz",
+    "-\tA keverőelem és a csésze fordulatát szabályzó vezérlés",
+    "",
+    "33. ábra: Csészés keverőgép",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 83.old",
+    "Csészés keverőgép felépítésének bemutatása",
+    "",
+    "A csészés keverőgép jellegzetessége, hogy keverőcsésze kerekekkel van felszerelve és nincs közvetlenül a gépbe építve, így a keverőcsésze egyben szállítóeszközként is funkcionál. A keverni kívánt anyagokat a csészébe helyezik, majd a rögzítik a géptesthez.  A keverőkar billenthető, hogy a keverőcsésze rögzíthető, vagy eltávolítható legyen. A keverőcsésze rögzítése után az anyagot a mozgó keverőelem keveri. Keverés során a keverőcsésze is forgó mozgást végez.",
+    "Munkavédelmi okokból a csészére zárható fedelet szereltek, amely megakadályozza, hogy üzem közben a gépbe belenyúljanak. A fedél reteszelt. Nyitott állapotban a keverőelem nem indul el. ",
+    "",
+    "",
+    "34. ábra: Csészés keverőgép működése",
+    "Forrás: https://www.youtube.com/watch?v=fZeWXP_e6yc (2024.07.09.)",
+    "Csészés keverőgép működésének bemutatása",
+    "",
+    "Vályús keverőgépek",
+    "Fő részegységei:",
+    "-\tA vályú alakú keverőteknő",
+    "-\tA teknőben forgó két keverőelem",
+    "-\tHajtómű",
+    "-\tA keverőelemek fordulatát szabályzó vezérlés",
+    "",
+    "",
+    "35. ábra: Vályús keverőgép",
+    "Forrás: Húsipari gépek II. (Berszán G, Budapest, 1984) 84.old",
+    "Vályús keverőgép működésének bemutatása",
+    "",
+    "36. ábra: Vályús keverőgép működése",
+    "Forrás: https://www.youtube.com/watch?v=sWZmPpQBVPs&t=16s (2024.07.09.)",
+    "Vályús keverőgép működésének bemutatása.",
+    "",
+    "Működése:",
+    "A két keverőelem a kettős U alakú teknőben forog. Az U alakú teknőt válaszlap határolja, amelynek két végén átömlési lehetőség van. A keverést a végző keverőelemek kialakítása lehet csavarkeverő, vagy horgonykeverő, esetleg más lap profilú keverőelem. A keverőelemeket fogaskerék hajtóművön keresztül villanymotor hatja. A keverőelemek általában egymással szemben, vagy egymással ellentétes irányban forognak. A két keverőelem azonos irányban nem forog. A keverendő anyagokat kézi erővel, vagy szállítókocsit emelő szerkezet segítségével juttatják a keverővályúba. A bekevert töltőmassza a gép homlokfelületén lévő ajtón ürítik ki. Egyes keverőgép típusok esetében a massza kiürítése történhet a keverővályú billentésével is. ",
+    "A modernebb fejlesztésű gépekben a keverőelemek fordulatszáma, forgási iránya, illetve a keverési idő a technológiai igény függvényében programozható, szabályozható.",
+    "A keverőteknő fölé rácsos fedelet szereltek, amely munkavédelmi okokból elektromosan reteszelt. Nyitott állapotban a keverőelemek nem indulnak el.",
+    "",
+    "Az aprító, keverő és töltőgépekkel szemben támasztott legfontosabb higiéniai és munkabiztonsági előírások",
+    "A berendezések alkalmazás a során betartandó legfontosabb munkabiztonsági követelmények",
+    "",
+    "A gépek és berendezéseket a művelet végeztével tisztítás és fertőtlenítés előtt áramtalanítani kell. ",
+    "Aprítási műveletekhez csak olyan gép és berendezés alkalmazható, amely nem zárlatos, amelynek burkolata, vezetéke, kapcsolója nem sérült és az érintésvédelmi szabályoknak megfelelő földeléssel van ellátva.  ",
+    "A gépek garatját lehetőség szerint olyan magasra kell elhelyezni, hogy kézzel ne lehessen a garatba nyúlni. Abban az esetben, ha a gép garatjába, vágószerkezetébe lehetséges a benyúlás (pl. darálógép garat, vágószerkezet) abban az esetben benyúlást megakadályozó védőrácsot kell felhelyezni. ",
+    "A kutterek fedelét villamos reteszeléssel kell ellátni. A villamos reteszelés meggátolja, hogy nyitott fedelű berendezés vágószerkezete elinduljon. ",
+    "A berendezéseket az üzemben úgy kell elhelyezni, hogy az anyagmozgatás közöttük könnyen megvalósítható legyen. A berendezés ne zárja el, nem szűkítse le a közlekedő utakat. ",
+    "",
+    "A berendezések alkalmazása során betartandó legfontosabb higiéniai követelmények",
+    "Húskészítmények előállítása során csak olyan gyártástechnológia gép és berendezés alkalmazható:",
+    "amelyekből a hús és más gyártási anyag, mosó és öblítővíz maradéktalanul eltávolítható.",
+    "amelyeknek a külső és belső felülete könnyen tisztítható és fertőtleníthető.",
+    "amely olyan anyagokból épül fel, amelyek nem lépnek reakcióba sem a gyártási     anyagokkal, sem a tisztító és fertőtlenítő szerekkel. ",
+    "A gépeket és berendezéseket az üzemben úgy kell elhelyezni, hogy:",
+    "az anyagmozgatás, a gép szét és összeszerelése könnyen megvalósítható legyen.",
+    "a gépek környezete és a gép alatti és körüli padozat könnyen tisztítható és fertőtleníthető legyen.  ",
+    "hogy az megfeleljen gyártástechnológiai folyamat útvonalára vonatkozó, jogszabályok és a HACCP rendszer által meghatározott előírásoknak.",
+    "",
+    "",
+    "",
+    "",
+    "Ábrajegyzék",
+    "1. ábra: Aprítási módok\t4",
+    "2. ábra: Darálógép\t6",
+    "3. ábra: Egy és kétélű darálókések\t7",
+    "4. ábra: Darálótárcsák\t7",
+    "5. ábra: A nyírás szemléltetetése a vágószerkezetben\t8",
+    "6. ábra: Darálógép egyfokozatú vágószerkezete\t9",
+    "7. ábra: Többfokozatú vágószerkezet\t10",
+    "8. ábra: Egy tengelyű darálógép\t11",
+    "9. ábra: Két tengelyű könyökdaráló\t12",
+    "10. ábra: Ínleválasztó vágószerkezet felépítése\t13",
+    "11. ábra: Vízszintes elrendezésű kockázógép\t14",
+    "12. ábra: Kockázógép vágószerkezetének működése\t15",
+    "13. ábra: Kutter felépítése\t16",
+    "14. ábra: Kuttertányér felépítése\t17",
+    "15. ábra: Kutter vágószerkezet\t18",
+    "16. ábra: Kutter kés típusai rögzítés alapján.\t18",
+    "17. ábra: Kutter kések alakja\t19",
+    "18. ábra: Vágószerkezet rögzítési lehetőségei a késtengelyen\t20",
+    "19. ábra: Nyitott agyú késekből kialakított késpár\t21",
+    "20. ábra: Ürítőgomba működése\t22",
+    "21. ábra: Kutter fedél működése\t23",
+    "22. ábra: Kutter működése\t24",
+    "23. ábra Főzőkutter\t25",
+    "24. ábra: Kolloidmalom\t27",
+    "25. ábra: Kolloidmalom vágószerkezet működése\t27",
+    "26. ábra: Stephan kutter felépítése\t28",
+    "27. ábra: Stephan kutter vágószerkezete\t29",
+    "28. ábra: Stephan kutter működése\t29",
+    "29. ábra: KS kutter\t30",
+    "30. ábra: KS kutter vágószerkezet felépítése\t30",
+    "31. ábra: KS kutter vágószerkezete\t31",
+    "32. ábra: Keverőelem profilok\t35",
+    "33. ábra: Csészés keverőgép\t36",
+    "34. ábra: Csészés keverőgép működése\t37",
+    "35. ábra: Vályús keverőgép\t38",
+    "36. ábra: Vályús keverőgép működése\t38",
+    ""
+  ],
+  "runs": [
+    [],
+    [],
+    [
+      "Egyedi megrendelés azonosítója: EM-2.28.1  "
+    ],
+    [
+      "Húskészítmények gyártástechnológiai műveletei és gépei I. – Aprítás, keverés"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [],
+    [],
+    [],
+    [
+      "TARTALOMJEGYZÉK"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "Aprítás",
+      " művelete, A húsiparban alkalmazott aprító ",
+      "gépek"
+    ],
+    [
+      "Aprítás elméleti háttere"
+    ],
+    [
+      "Szilárd anyagok mechanikai erővel végrehajtott kisebb részekre történő szétdarabolása."
+    ],
+    [
+      "Az aprítás műveletének technológiai célja a késztermék előállítása során felhasznált anyagok kisebb részekre történő szétdarabolásával a gyártástechnológiai műveletek hatékonyabb végrehajtásának elősegítése. "
+    ],
+    [
+      "Az aprítás egy egyneműsítő művelet, amely nem változtatja meg az aprított anyag összetételét."
+    ],
+    [
+      "Aprítás művelete során a szilárd anyag részecskéit összetartó kohéziós erőket kell legyőzni. A kohéziós erő anyagonként változik és jellemző az anyagra."
+    ],
+    [
+      "A kohéziós erő nagyságát az aprítandó anyag egyedi jellemzői határozzák meg, emiatt a kohéziós erő anyagonként változó. Ilyen változók lehetnek:"
+    ],
+    [
+      "az anyag szöveti összetétele (hús kötőszövet tartalma)"
+    ],
+    [
+      "az anyag víztartalma"
+    ],
+    [
+      "hőmérséklete (hűtött, fagyasztott hús, szalonna)"
+    ],
+    [
+      "Az aprítás során a kohéziós erő ellenállásának leküzdése az aprítandó anyag tulajdonságaitól függően történhet",
+      " (1. ábra)",
+      ":"
+    ],
+    [
+      "Nyomással "
+    ],
+    [
+      "Ütéssel"
+    ],
+    [
+      "Húzással"
+    ],
+    [
+      "Nyírással",
+      " "
+    ],
+    [
+      ""
+    ],
+    [],
+    [
+      "",
+      "",
+      "",
+      "1. ábra:",
+      " ",
+      "",
+      "Aprítási módok"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984)",
+      " 36. old"
+    ],
+    [
+      "Aprítás során az aprítandó anyag kohéziós erejének a leküzdésére alkalmazható aprítási módok szemléltetése"
+    ],
+    [],
+    [
+      "Az aprítógépekben minden esetben többféle erő is előfordul, de mindig van egy központi erő, amely meghatározza az aprítás jellegét. A húsiparban alkalmazott aprítógépek esetében a fő aprító erő a ",
+      "nyíróerő."
+    ],
+    [
+      "Az aprítás energiaszükséglete igen nagy, mert a befektetett munka jelentős része hővé alakul."
+    ],
+    [
+      "Technológiai szempontból ",
+      "az ",
+      "aprítás ",
+      "mérete ",
+      "a 30 mm-es élhosszúságú kockától a kolloid finomságú pépig terjedhet. A 30 mm",
+      "-es ",
+      "aprítási méret felett a szilárd testek aprítását darabolásnak nevezzük. "
+    ],
+    [
+      "Az aprítás műveletének fontos jellemzője az aprítási fok. Az aprítási fok az anyag aprítás előtti és aprítás utáni méretének a hányadosa:"
+    ],
+    [
+      "n = D/d"
+    ],
+    [
+      "n = aprítási fok"
+    ],
+    [
+      "D = aprítás előtti szemcseméret"
+    ],
+    [
+      "d = aprítás utáni szemcseméret"
+    ],
+    [
+      "Az aprítással kialakított szemcseméret alapján megkülönböztetünk durva és finom aprítást."
+    ],
+    [
+      "Durva aprítás:"
+    ],
+    [
+      "A",
+      "z aprítási",
+      " szem",
+      "cseméret 30 mm-",
+      "től",
+      " néhány mm-",
+      "ig",
+      " terjed."
+    ],
+    [
+      "Finomaprítás:"
+    ],
+    [
+      "A szemcseméret 1-2 mm-",
+      "től",
+      " a kolloid mérettartományig (500 nm)"
+    ],
+    [],
+    [
+      "A húsiparban alkalmazott aprítógépek, berendezések"
+    ],
+    [
+      "A húsiparban ",
+      "az ",
+      "aprítás művelete alapműveletnek tekinthető a húskészítmények előállítása során alkalmazott gyártástechnológiai folyamatokban. A húskészítmények előállítása során felhasznált gyártási anyagok aprításának végrehajtásához különféle ap",
+      "rítóberendezéseket alkalmaznak."
+    ],
+    [],
+    [
+      "Az aprítóberendezéseket az aprítás mértéke alapján:"
+    ],
+    [
+      "durva "
+    ],
+    [
+      "vagy finomaprító berendezések csoportjába sorolhatjuk."
+    ],
+    [],
+    [
+      "A húsiparban alkalmazott durva aprításra alkalmas aprítógépek:"
+    ],
+    [
+      "darálógépek"
+    ],
+    [
+      "kockázó gépek"
+    ],
+    [],
+    [
+      "A húsiparban alkalmazott, ",
+      "durva és finomaprításra, ",
+      "keverésre is alkalmas aprítógépek:"
+    ],
+    [
+      "kutterek"
+    ],
+    [
+      "A húsiparban alkalmazott finomaprításra alkalmas aprítógépek:"
+    ],
+    [
+      "finomaprító gépek",
+      ": ",
+      "kolloid malom, KS ",
+      "kutter",
+      ", ",
+      "Stephan",
+      " ",
+      "kutter"
+    ],
+    [],
+    [
+      "A húsiparban alkalmazott durva aprításra alkalmas aprítógépek"
+    ],
+    [],
+    [
+      "Darálógépek"
+    ],
+    [
+      "A hús és gyártási szalonna, egyéb gyártási anyagok (bőrke, ehető belsőség) durva aprítására alkalmas berendezés",
+      " (2. ábra)",
+      ". A darálógépekkel elérhető legkisebb szemcseméret 1-2 mm."
+    ],
+    [
+      "Az aprítást a darálógép késes-tárcsás vágószerkezete végzi. A vágószerkezet működése során a behordó csiga az aprítandó húst a tárcsa furatainak nyomja, amely így betüremkedik a furatokba. A betüremkedett húst a tárcsa síkján elmozduló kés éle és a tárcsa furatainak pereme közötti nyíróerő fogja aprítani. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [],
+    [
+      "",
+      "",
+      "",
+      "2. ábra:",
+      " ",
+      "",
+      "Darálógép"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Be",
+      "rszán",
+      " G, Budapest, 1984.) 38. old"
+    ],
+    [
+      "Darálógép szemléltetése"
+    ],
+    [],
+    [
+      ""
+    ],
+    [],
+    [
+      "",
+      "",
+      "",
+      "3. ábra",
+      ":",
+      " ",
+      "",
+      "Egy és kétélű darálókések"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 38",
+      ". old"
+    ],
+    [
+      "Darálókések szemléltetése"
+    ],
+    [],
+    [
+      ""
+    ],
+    [],
+    [
+      "",
+      "",
+      "",
+      "4. ábra",
+      ":",
+      " ",
+      "",
+      "Darálótárcsák"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 38",
+      ". old"
+    ],
+    [
+      "Darálótárcsák szemléltetése"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "5. ábra",
+      ":",
+      " ",
+      "",
+      "A nyírás szemléltetetése a vágószerkezetben"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://www.youtube.com/watch?v=6zH4V27r26c (2024.07.09.)"
+    ],
+    [
+      "Szemlélteti a darálógép vágószerkezetében végbemenő nyírás jelenségét"
+    ],
+    [],
+    [
+      "A darálógép vágószerkezet",
+      "ének",
+      " ",
+      "hatékony",
+      " működés",
+      "i",
+      " alapfeltétele, hogy a kés és a tárcsa között megfelelő mértékű leg",
+      "yen a szorítóerő. A kis szorító",
+      "erő esetében nem lesz megfelelő az aprítás, mert a kés éle és a tárcsa síkja között nem keletkezik elég nyíróerő, az anyag „elcsúszik” a vágóélek között. ",
+      "A t",
+      "úlzott szorítóerő alkalmazása eseté",
+      "n azonban",
+      " ",
+      "a ",
+      "kések és a tárcsák ",
+      "nagyfokú",
+      " kopásnak, nagy súrlódásnak vannak kitéve. A nagy súrlódás hatására az aprítás során hő keletkezik, ami káros hatással van az aprítandó anyag minőségére. A megfelelő szorítóerőt a berendezés vágószerkezetét rögzítő, lezáró szorítógyűrű biztosítja. "
+    ],
+    [
+      "A darálógép vágószerkezete lehet egy",
+      " (6. ábra)",
+      ", vagy több",
+      " (7. ábra)",
+      " fokozatú. Kis teljesítményű, egyszerű darálógépekben egyfokozatú vágószerkezetet, nagyobb teljesítményű darálógépek esetében több késből és tárcsából álló vágószerkezetet alkalmaznak. "
+    ],
+    [
+      "Az egyfokozatú vágószerkezet egy sima egyélű késből és egy lyuktárcsából áll. A lyuktárcsa furat átmérője határozza meg az aprítási szemcseméretet. "
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "6. ábra:",
+      " ",
+      "",
+      "Darálógép egyfokozatú vágószerkezete"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://www.akbyramon.com/en/product/forage-ak-ramon-superstar/ (2024.07.09.)"
+    ],
+    [
+      "Az egyfokozatú vágószerkezet szemléltetése"
+    ],
+    [],
+    [
+      "Többfokozatú vágószerkezet esetében a vágószerkezet részei a behordó csiga irányából "
+    ],
+    [
+      "nagy nyílású elővágó tárcsával ",
+      "(",
+      "stesszelő",
+      " tárcsa)"
+    ],
+    [
+      "egyélű kés "
+    ],
+    [
+      "nagy furatátmérőjű lyuktárcsa"
+    ],
+    [
+      "kétélű kés"
+    ],
+    [
+      "lyuktárcsa a kívánt aprítási szemcseméretű furatátmérővel"
+    ],
+    [
+      "szorítógyűrű"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "7. ábra:",
+      " ",
+      "",
+      "Többfokozatú vágószerkezet"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Saját ábra"
+    ],
+    [
+      "A többfokozatú vágószerkezet szemléltetése",
+      "."
+    ],
+    [],
+    [
+      "Az anyag szállítását, illetve az anyag belekényszerítését a vágószerkezetbe a behordó csiga végzi. Attól függően, hogy a hány behordó csigával rendelkeznek",
+      ",",
+      " a darálógépek lehetnek"
+    ],
+    [],
+    [
+      "Egy tengelyű darálógépek",
+      " (8. ábra)"
+    ],
+    [
+      "Egy tengelyű daráló esetében az aprítandó anyag szállítását a vágószerkezethez a darálócsiga végzi. Általában az ilyen egytengelyű darálógépeknél a darálócsiga eltérő menetemelkedésű. A menetemelkedés a vágószerkezet felé csökken, így az anyagot szállítás során folyamatosan tömöríti a vágószerkezet felé. Többnyire egyszerűbb, kisebb teljesítményű darálógépek esetében alkalmazzák. "
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "8. ábra:",
+      " ",
+      "",
+      "Egy tengelyű darálógép"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 41.old."
+    ],
+    [
+      "Egy tengelyű darálógép szemléltetése",
+      "."
+    ],
+    [],
+    [
+      "Két kéttengelyű darálógépek",
+      " (9. ábra)"
+    ],
+    [
+      "Az aprítandó anyagnak a darálógép garatjából történő adagolását és az anyag vágószerkezethez kényszerítését két különböző tengelyre rögzített csiga végzi. A két csiga fordulatszáma külön-külön szabályozható. Könyökdaráló esetében a behordócsiga tengelye a darálócsiga tengelyére merőleges felépítésű."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "9. ábra:",
+      " ",
+      "",
+      "Két tengelyű könyökdaráló"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 42.old."
+    ],
+    [
+      "Két tengelyű darálógép szemléltetése",
+      "."
+    ],
+    [],
+    [
+      "A modernebb darálógépek vágószerkezetére ínleválasztó feltétet is elhelyezhetnek. Az ínleválasztó vágószerkezet",
+      "en",
+      " ",
+      "(10. ábra) ",
+      "elhelyezkedő tárcsa felületén mélyedések, úgynevezett hornyok vannak. A vágószerkezet működése során a behordó csiga az aprítandó húst a tárcsa furatainak nyomja. A hústól eltérő keménységű, állományú ín kevésbé tud betüremkedni a tárcsa furataiba. A kés forgás közben a keményebb állományú ",
+      "ínt",
+      " a hornyokba vezeti",
+      ",",
+      " majd a kivezető gyűrű segítségével a kivezető csövön keresztül ",
+      "az ",
+      "ín elvezethető a darálógépből. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "10. ábra:",
+      " ",
+      "",
+      "Ínleválasztó vágószerkezet felépítése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 43.old"
+    ],
+    [
+      "Ínleválasztó",
+      " vágószerkezet felépítésének szemléltetése",
+      "."
+    ],
+    [],
+    [
+      "Kockázógépek"
+    ],
+    [
+      "Főként felvágottak, mozaikos húskészítmények előállítása során felhasznált hús, szalonna és egyéb anyagok (zöldségek) nagyobb méretű aprítására, kockázására alkalmazható berendezések. A kockázógépek vágószerkezete vágókeretekből és sarló alakú késekből áll. A vágókeret párhuzamosan, egymástól meghatározott távolságban elhelyezett késpengékből épül fel. A vágószerkezet általában két vágókeretet tartalmaz. Az egyik vágókeretben a kések vízszintesen, a másik keretben a kések függőlegesen állnak. Egy adott vágókeretben a kések közötti távolság állandó, ami meghatározza az aprítási, kockázási méretet. A berendezésbe különböző késtávolságú vágókeretek helyezhetők, amelyekkel szabályozható a kockázás mérete.  A vágókeret által csíkokra vágott anyagot a ",
+      "vágókeret síkján mozgó ",
+      "sarló alakú kések fogják kockára vágni."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "11. ábra:",
+      " ",
+      "",
+      "Vízszintes elrendezésű kockázógép"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 62.old."
+    ],
+    [
+      "kockázógép felépítésének szemléltetése",
+      "."
+    ],
+    [],
+    [
+      "Működése:"
+    ],
+    [
+      "A berendezésbe behelyezett kockázandó anyagot egy dugattyú nyomja át a vágókereteken. A vágókeretben lévő késeket villanymotor mozgatja, amelyek csíkokra fogja vágni az aprítandó anyagot. A végső kocka alakot a vágókeretek síkján mozgó sarló alakú kés fogja kialakítani."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "12. ábra:",
+      " ",
+      "",
+      "Kockázógép vágószerkezetének működése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://www.youtube.com/watch?v=EcS2fBZ9Mo0 (2024.07.09.)"
+    ],
+    [
+      "kockázógép vágószerkezet működésének szemléltetése",
+      "."
+    ],
+    [],
+    [
+      "A húsiparban alkalmazott, ",
+      "durva és finom",
+      "aprításra",
+      ",",
+      " keverésre is alkalmas aprítógépek"
+    ],
+    [
+      "Kutterek"
+    ],
+    [
+      "A töltelékes húskészítmények előállítása során alkalmazott berendezések. A ",
+      "kutterek",
+      " a termékgyártás fontos berendezései, mert több gyártástechnológiai műveletet is képesek elvégezni. Működésük során nem csak a gyártási anyagok aprítására, finomaprításra alkalmasak, hanem a kialakításuk és műszaki megoldásaik révén az aprítás mellett a töltőmassza készítése, keverése is végrehajtható a berendezésekben. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "13. ábra:",
+      " ",
+      "",
+      "Kutter",
+      " felépítése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Saját ábra"
+    ],
+    [],
+    [
+      "Kutter",
+      " felépítésének szemléltetése"
+    ],
+    [
+      "A ",
+      "kutter",
+      " részei:",
+      "\n1. késes vágószerkezet",
+      "\n2. ",
+      "kuttertányér",
+      "\n3. fedél",
+      "\n4. késtengely",
+      "\n5. ürítőgomba",
+      "\n6. hajtómű",
+      "\n7. villanymotor"
+    ],
+    [],
+    [
+      "Felépítésük:"
+    ],
+    [],
+    [
+      "A ",
+      "kutter",
+      " tányér"
+    ],
+    [
+      "A ",
+      "kutter",
+      " tányér feladata az aprítani-keverni kívánt gyártási anyagok befogadása. Alakja egy félgyűrű alakú forgástest",
+      ",",
+      " ",
+      "ún. ",
+      "tórusz",
+      ", amely a tengely körül forgatható.  A félgyűrű nagysága és mélysége határozza meg a ",
+      "kuttertányér",
+      " űrméretét. A ",
+      "kutter",
+      " tányér űrméretét jellemzően literben szokták meghatározni. A tányér űrmérete fontos jellemzője a berendezés teljesítményének, vágóképességének. A ",
+      "kuttereket",
+      " különböző méretekben gyártják. A legkisebb méretű ",
+      "kutterek",
+      " 12-30 literes tányérral rendelkeznek. Ezeket többnyire üzemi konyhákban, kiskapacitású gyártó üzemekben alkalmazzák.  Az ipari termelésben alkalmazott berendezéseknek az űrmérete 80 litertől, akár 500 literig terjedhet. A ",
+      "kutter",
+      " tányért lassú 7-15/perces fordulatszámon egy villanymotor által mozgatott csigahajtómű forgatja meg. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "14. ábra:",
+      " ",
+      "",
+      "Kuttertányér",
+      " felépítése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 45.old."
+    ],
+    [
+      "Kuttertányér",
+      " felépítésének szemléltetése",
+      "."
+    ],
+    [],
+    [
+      "A vágószerkezet",
+      ":"
+    ],
+    [
+      "A ",
+      "kutter",
+      " vágószerkezete sarló alakú, vagy tört ívű delta késekből áll. A kések száma a berendezés teljesítményétől függően 4-12 darab. A késeket a kiegyensúlyozott forgás miatt párosával, egymással szemben helyezik el."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "15. ábra:",
+      " ",
+      "",
+      "Kutter",
+      " vágószerkezet"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 49.old"
+    ],
+    [
+      "Kutter",
+      " vágószerkezetének szemléltetése",
+      "."
+    ],
+    [],
+    [
+      "A tengelyre történő rögzítés alapján a kések lehetnek:"
+    ],
+    [
+      "•",
+      "\tnyitott agyú, villaszerű kialakítású "
+    ],
+    [
+      "•",
+      "\tzárt agyú kések"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "16. ábra:",
+      " ",
+      "",
+      "Kutter",
+      " kés típusai rögzítés alapján."
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 49.old"
+    ],
+    [
+      "Kutter",
+      " kések szemléltetése",
+      "."
+    ],
+    [],
+    [
+      "A késeket távtartó gyűrű választja el egymástól, a vágószerkezet stabil lezárását szorító csavar biztosítja. "
+    ],
+    [
+      "A kések alakja, vágásfelülete is befolyásolja az aprítás-keverés hatékonyságát. Régebbi fejlesztésű, illetve kisebb teljesítményű ",
+      "kutterek",
+      " esetében a kések alakja és vágásfelülete ívelt, sarló alakú. Nagyobb teljesítményű, illetve modernebb fejlesztésű berendezéseknél a kés alakja, vágásfelülete nem ívelt, hanem egymással szöget bezáró tört ívű",
+      " (delta kés)",
+      ". Az ilyen kialakítású késeknek jobb a vágási tulajdonsága, illetve a vágóél élettartama hosszabb, mint a sarló alakú késeké."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "17. ábra:",
+      " ",
+      "",
+      "Kutter",
+      " kések alakja"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Saját ábra"
+    ],
+    [
+      "Kutter",
+      " kések alakjának szemléltetése",
+      "."
+    ],
+    [],
+    [
+      "A késtengely csapágyazása alapján megkülönböztethetünk:"
+    ],
+    [
+      "•",
+      "\tkét",
+      "oldalon"
+    ],
+    [
+      "•",
+      "\tegy",
+      "oldalon csapágyazott ",
+      "kuttereket",
+      "."
+    ],
+    [
+      "A két oldalon csapágyazott késtengely esetében nyitott agyú kések alkalmazhatók. A két oldalon csapágyazott késtengely nagyobb szilárdságú, hátránya, hogy a vágószerkezet nehezebben szerelhető. "
+    ],
+    [
+      "Az egy oldalon csapágyazott késtengely esetében a késtengely végére szerelhető fel a vágószerkezet. ennél a műszaki megoldásnál a vágószerkezet kései zárt agyúak. A vágószerkezet könnyebben szerelhető a kések rögzítése biztonságosabb. ",
+      "Nyitott agyú kések felszerelésére is van lehetőség. Ebben az esetben két nyitott agyú kés összeillesztésével késpárt hoznak létre. A késpár így felhelyezhető lesz a késtengelyre."
+    ],
+    [
+      "Az egy oldalon csapágyazott késte",
+      "ngelyt repülőtengelynek nevezik."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "18. ábra:",
+      " ",
+      "",
+      "Vágószerkezet rögzítési lehetőségei a késtengelyen"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 49.old"
+    ],
+    [
+      "Vágószerkezet rögzítés lehetőségeinek szemléltetése",
+      "."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "19. ábra:",
+      " ",
+      "",
+      "Nyitott agyú késekből kialakított késpár"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari és baromfiipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1999) 70.old"
+    ],
+    [
+      "Nyitott agyú késekből késpár kialakításának szemléltetése",
+      "."
+    ],
+    [],
+    [
+      "A késtengelyt nagy teljesítményű villanymotor hajtja meg. A fordulatszám az aprítási-keverési művelet igénye alapján széles határok között szabályozható.  A maximális fordulatszám akár 5000 fordulat/perc is lehet. "
+    ],
+    [],
+    [
+      "Az ürítőgomba"
+    ],
+    [
+      "Az ürítőgomba segítségével távolítható el a kész töltőmassza a ",
+      "kutter",
+      " tányérból.  Az ürítőgomba a ",
+      "kutter",
+      " tányér görbületének megfelelő átmérőjű kör profilú részegység, amelyet külön villanymotor hajt. Az ürítőgomba csuklós, mozgatható megoldással van rögzítve a berendezéshez, hogy könnyen ki és behajtható legyen a ",
+      "kutter",
+      " tányérba."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "20. ábra:",
+      " ",
+      "",
+      "Ürítőgomba működése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 46.old"
+    ],
+    [],
+    [
+      "A ",
+      "kutter",
+      " tányérjában lévő töltőmassza (színe rózsaszín) a sárga nyilak irányába mozog. Eközben az ürítőgomba a tengelyen ábrázolt fekete nyíl irányába forog",
+      "."
+    ],
+    [
+      "Ürítőgomba működésének szemléltetése",
+      "."
+    ],
+    [],
+    [
+      "\t",
+      "Fedél"
+    ],
+    [
+      "A vágószerkezetet és a ",
+      "kutter",
+      " tányérjának jelentős részét hidraulikus dugattyúval mozgatható fedél borítja. A fedél biztosítja, hogy a gyorsan forgó vágószerkezet a külvilágtól zártan működjön, ezáltal elkerülhető a munkabalesetek kialakulása. A fedél ezenkívül meggátolja, hogy működés közben a massza kicsapódjon a berendezésből. A fedél villamos reteszeléssel van ellátva, így felhajtott állapotban nem lehet a ",
+      "kutter",
+      " késeit működtetni."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "21. ábra:",
+      " ",
+      "",
+      "Kutter",
+      " fedél működése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://www.youtube.com/watch?v=99pM4TAmA-E&t=38s 00:16-tól 00:22-ig (2024.07.09.)"
+    ],
+    [
+      "Kutter",
+      " fedél működésének animálása a videó alapján. (00:16-tól 00:22-ig",
+      ")."
+    ],
+    [
+      "Kutter",
+      " fedél működésének szemléltetése",
+      "."
+    ],
+    [],
+    [
+      "A berendezés működése:"
+    ],
+    [
+      "Működés során a félgyűrű alakú ",
+      "kuttertányérba",
+      " adagolják a gyártás során felhasznált anyagokat. A ",
+      "kuttertányér",
+      " a berendezés működése során megadott fordulatszámon forog. A késtengelyre szerelt sarló alakú kések beleérnek a félgyűrű kialakítású tányérba. Az aprítás-keverés művelete során a ",
+      "kuttertányér",
+      " késtengelyhez képest lassú fordulaton (7-15/perc) forog. A nagy sebességgel forgó sarló alakú kések a tányérba adagolt aprítandó anyagot minden egyes fordulatnál keresztülvágják. A kések a kialakításuknak és a nagy sebességnek köszönhetően nem csak aprítják az anyagokat, hanem össze is keverik, így egy fázisban végrehajtható a két technológiai művelet. Az aprítás-keverés során a magas fordulatszámon forgó kések súrlódnak a masszában. A súrlódás miatt hő keletkezik, emiatt az aprítandó anyag hűtéséről gondoskodni kell. "
+    ],
+    [
+      "A kész töltőmasszát az ürítőgomba segítségével távolítják el a ",
+      "kuttertányérból",
+      ".  A töltőmassza ü",
+      "rítésekor a tányér a masszát a ",
+      "forgó ürítőgombához juttatja, ami a gomba felületéhez érve, a ",
+      "forgás hatására gyakorlatilag kifordul a tányérból. A tányérból kiforduló anyag csúszdán át jut a szállítókocsiba. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "22. ábra:",
+      " ",
+      "",
+      "Kutter",
+      " működése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://www.youtube.com/watch?v=147dHsfd-uY (2024.07.09.)"
+    ],
+    [
+      "A ",
+      "youtube",
+      " videóhoz hasonlóan egy a ",
+      "kutter",
+      " működését bemutató videó beszerkesztése",
+      "."
+    ],
+    [
+      "Kutter",
+      " működésének szemléltetése",
+      "."
+    ],
+    [],
+    [
+      "Vákuum ",
+      "kutterek",
+      ":"
+    ],
+    [
+      "Felépítésüket tekintve megegyeznek az egy, vagy két oldalon csapágyazott ",
+      "kutterek",
+      " felépítésével. Fő különbség, hogy a vákuum ",
+      "kutterek",
+      " esetében a ",
+      "kutter",
+      " tányért teljes mértékben lefedő, légmentesen záródó fedéllel, zárják le. Működés során a berendezésben beépített vákuumszivattyú eltávolítja a levegőt az aprító-keverő térből.  Egyes ",
+      "kuttereknél",
+      " vákuum helyett nitrogén (N2) védőgázt juttatnak be az aprító-keverő térbe. A nitrogén hűtési tulajdonsága miatt alkalmas az aprítás során keletkezett hő csökkentésére, a töltőmassza hűtésére, ezáltal biztosítható, hogy a töltőmassza az aprítás során ne tudjon olyan mértékben felmelegedni, amely a húsfehérjék denaturálódásával a termék minőségérét negatívan befolyásolná. "
+    ],
+    [
+      "A vákuum alkalmazásának előnyei:"
+    ],
+    [
+      "•",
+      "\tAz aprítás-keverés művelete során a kések nem keverik bele a levegőt a töltőmasszába, így elkerülhető a légzárványok kialakulása a termékben."
+    ],
+    [
+      "•",
+      "\tAz aprító-keverő tér lezárásával a berendezés működési zaja csökkenthető."
+    ],
+    [],
+    [
+      "Főzőkutterek",
+      ":"
+    ],
+    [
+      "Olyan gyártási alapanyagok aprítására is alkalmas, amelyek előfőzést igényelnek, illetve olyan technológiák esetében alkalmazzák, amelyek során a pépkészítés magas hőmérsékleten történik. (a kenőmájas gyártástechnológiája) Felépítése hasonló a zárt aprító-",
+      "keverőter",
+      "ű",
+      " vákuum ",
+      "kutteréhez",
+      ", azzal a különbséggel, hogy a ",
+      "kutter",
+      " tányér és a burkolat közötti térbe gőzt vezetnek be. A ",
+      "kutter",
+      " tányér és a burkolat közé bevezetett gőz fogja melegíteni a gyártási anyagokat."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "23. ábra",
+      " ",
+      "",
+      "Főzőkutter"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 52.old"
+    ],
+    [
+      "Főzőkutter",
+      " felépítésének szemléltetése",
+      "."
+    ],
+    [],
+    [
+      "Kutterek",
+      " alkalmazása a pépkészítés, ",
+      "illetve a szalámi gyártás során"
+    ],
+    [
+      "A ",
+      "kutterek",
+      " felépítésükből, műszaki megoldásaikból adódóan különböző töltelékes húsipari termék csoportok előállítására alkalmazhatók, mivel a vágószerkezet módosításával, illetve a késtengely és a ",
+      "kutter",
+      " tányér fordulatszámának szabályozásával képesek kielégíteni az egyes termékcsoportok speciális gyártástechnológiai követelményeit. "
+    ],
+    [
+      "A pépkészítésnél alkalmazott ",
+      "kutter",
+      " elsősorban a ",
+      "kutter",
+      " tányér és a késtengely működési fordulatszámában, illetve a kések számában különbözik a szalámi gyártás során alkalmazott keverő ",
+      "kuttertől",
+      ". "
+    ],
+    [
+      "A pépkészítés során alkalmazott ",
+      "kutter",
+      " késtengelyének fordulatszáma magas, a ",
+      "kutter",
+      " tányér fordulatszáma alacsony. A kések száma legalább nyolc. "
+    ],
+    [
+      "A szalámi gyártásnál alkalmazott ",
+      "kutter",
+      " késtengelyének fordulatszáma alacsony, a ",
+      "kutter",
+      " tányér fordulatszáma magas. A kések száma maximum hat."
+    ],
+    [],
+    [
+      "A húsiparban alkalmazott finomaprításra alkalmas aprítógépek"
+    ],
+    [
+      "Finomaprító gépek"
+    ],
+    [
+      "A finomaprító gépeket a húsipari alapanyagok, húspép, bőrkepép, ",
+      "ínpép",
+      ", töltőmassza kolloid finomságú aprítására alkalmazzák. Vágószerkezetük alapján megkülönböztethetünk, tépőfogas, vagy késes-tárcsás finomaprító berendezéseket."
+    ],
+    [],
+    [
+      "A húsiparban leggyakrabban alkalmazott finomaprító berendezések:"
+    ],
+    [
+      "-",
+      "\t",
+      "Kolloidmalom"
+    ],
+    [
+      "-",
+      "\t",
+      "Stephan",
+      " ",
+      "kutter"
+    ],
+    [
+      "-",
+      "\tKS ",
+      "kutter"
+    ],
+    [],
+    [
+      "Kolloid malom:"
+    ],
+    [
+      "Vágószerkezete álló és forgó, fogazott őrlőkúpokból áll. Az aprítás a fogazott forgó és álló őrlőkúpok közötti dörzsölő-tépő h",
+      "atás következtében valósul meg."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "24. ábra",
+      ":",
+      " ",
+      "",
+      "Kolloidmalom"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 53.old"
+    ],
+    [
+      "Kolloidmalom felépítésének szemléltetése",
+      "."
+    ],
+    [],
+    [
+      "Működése:"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "25. ábra:",
+      " ",
+      "",
+      "Kolloidmalom vágószerkezet működése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://www.youtube.com/watch?v=Q3EHkpNVP9g (2024.07.09.)"
+    ],
+    [
+      "A linken található videó alapján animáció készítése",
+      "."
+    ],
+    [
+      "A kolloidmalom vágószerkezet működésének bemutatása",
+      "."
+    ],
+    [],
+    [
+      "Az aprítandó anyag a gép garatjából a durván fogazott őrlőkúpba kerül, majd az őrlőkúp forgása miatt létrejövő centrifugális erő hatására a forgó és az álló őrlőkúp közötti résbe kényszerül, ahol megtörténik az aprítás első fázisa. Az anyag ezután a finomabb fogazású forgó és álló őrlőkúp között megy át, ahol a végleges aprítási méretre aprítja a gép az anyagot. Az aprítási fokot az őrlőkúpok közötti távolság állításával szabályozható. A forgó és állórész távolításával csökken, közelítésével nő az aprítás mértéke. A forgópúpok csavarral vannak rögzítve a villanymotorra. Az őrlőkúpokból kilépő aprított anyagot a kihordó tányér vezeti a kiömlő csőbe."
+    ],
+    [],
+    [
+      "Stephan",
+      " ",
+      "kutter",
+      ":"
+    ],
+    [
+      "A ",
+      "Stephan",
+      " ",
+      "kutter",
+      " több fokozatú vágószerkezete álló és forgó vágógyűrűkből áll. Az álló és forgó gyűrűk között alakul ki a vágóhézag. A vágóhézag nagysága szabályozható. A ",
+      "Stephan",
+      " ",
+      "kutter",
+      " vágószerkezete közvetlenül a villanymotor tengelyére van szerelve."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "26. ábra:",
+      " ",
+      "",
+      "Stephan",
+      " ",
+      "kutter",
+      " felépítése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 55.old"
+    ],
+    [
+      "Stephan",
+      " ",
+      "kutter",
+      " felépítésének szemléltetése",
+      "."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "27. ábra:",
+      " ",
+      "",
+      "Stephan",
+      " ",
+      "kutter",
+      " vágószerkezete"
+    ],
+    [
+      "F",
+      "orrás",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 54.old"
+    ],
+    [
+      "Stephan",
+      " ",
+      "kutter",
+      " vágószerkezetének szemléltetése",
+      "."
+    ],
+    [],
+    [
+      "Működése:"
+    ],
+    [
+      "A garatba betáplált anyag egy szállítócsiga segítségével megy keresztül a vágószerkezeten. Az álló és forgó gyűrű tépőfogai közötti távolság a vágóhézag, amibe az aprítandó anyag bekényszerül. A tépőfogak aprító-dörzsölő hatása végi el az aprítást.  Az aprított anyag szállító csövön keresztül kerül a szállító kocsiba. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "28. ábra:",
+      " ",
+      "",
+      "Stephan",
+      " ",
+      "kutter",
+      " működése"
+    ],
+    [
+      "F",
+      "orrás",
+      " ",
+      "https://www.youtube.com/watch?v=kWxsNrumAhE (2024.07.09.)"
+    ],
+    [
+      "Stephan",
+      " ",
+      "kutter",
+      " működésének a szemléltetése"
+    ],
+    [],
+    [
+      "KS (késes-tárcsás) ",
+      "kutter"
+    ],
+    [
+      "A KS ",
+      "kutter",
+      " vágószerkezete, hasonlóan a darálógépekéhez kése",
+      "s-",
+      "tárcsás felépítésű. A gyors forgás miatt a kések három szárnyú propeller kialakításúak. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "29. ábra:",
+      " ",
+      "",
+      "KS ",
+      "kutter"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 56.old"
+    ],
+    [
+      "KS ",
+      "kutter",
+      " felépítésének bemutatása"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "30. ábra",
+      ":",
+      " ",
+      "",
+      "KS ",
+      "kutter",
+      " vágószerkezet felépítése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 56.old"
+    ],
+    [
+      "KS ",
+      "kutter",
+      " vágószerkezetének szemléltetése"
+    ],
+    [],
+    [
+      "Működése:"
+    ],
+    [
+      "A garatba adagolt masszát egy masszakidobó lapát juttatja a vágószerkezethez. A folyamat során a gyorsan forgó kések a tárcsák furatain keresztülpréselik az aprítandó anyagot. Az aprított anyagot a kihordólapát juttatja a kiömlőcsőbe. A vágószerkezet forgó részei egy bordás tengelyre vannak erősítve. A két kés körmökkel kapcsolódik egymáshoz. A bordás tengely egy ékszíjhatás segítségével kapcsolódik a villanymotorhoz. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "31. ábra:",
+      " ",
+      "",
+      "KS ",
+      "kutter",
+      " vágószerkezete"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://www.youtube.com/watch?v=E-XegGnIm2M&t=4s (2024.07.09.)"
+    ],
+    [
+      "KS ",
+      "kutter",
+      " vágószerkezetének a szemléltetése"
+    ],
+    [],
+    [
+      "A finomaprító berendezések vágószerkezeteinek üzemeltetése során a magas fordulatszám és a szerkezeti kialakítás miatt súrlódás lép fel. A súrlódás során hő keletkezik, amely az aprítandó anyagban fehérje ",
+      "denaturációt",
+      " és egyéb káros hatást válthat ki, amely negatívan befolyásolhatja a késztermék minőségét. Emiatt a finomaprítás során biztosítani kell a massza hűtését."
+    ],
+    [],
+    [
+      "Ke",
+      "verés művelete",
+      ", ",
+      "a húsiparban alkalmazott keverő berendezések",
+      " "
+    ],
+    [
+      "Keverés műveletének ",
+      "elméleti",
+      " háttere"
+    ],
+    [
+      "Keverésnek nevezzük",
+      " az áramlás létrehozásával",
+      " az azonos, vagy különböző fázisú folyadék, vagy szilárd szemcsés rendszerek, illetve különböző fizikai állapotú (pl. hőmérsékletű) anyagok homogén rendszerré való egyesítését, körülhatárolt térben."
+    ],
+    [
+      "A művelet általános céljai:"
+    ],
+    [
+      "Homogén anyag előállítása (különb",
+      "ö",
+      "ző szemcseméretű anyagok, szemcsés fűszerek eloszlatása)"
+    ],
+    [
+      "Hőmérséklet-kiegyenlítődés elősegítése (különböző hőmérsékletű anyagok keverése)"
+    ],
+    [
+      "Anyagátadás, komponensvándorlás gyorsítása (Keveréssel egyenletessé válik a vándorló komponensek eloszlása)"
+    ],
+    [],
+    [
+      "Keverés törvényszerűségei:"
+    ],
+    [
+      "Keverési idő: ",
+      "A homogén állapot eléréséhez szükséges idő."
+    ],
+    [
+      " A keverésnél a legfontosabb tén",
+      "yező a keverő mozgási sebessége",
+      ". A keverő nagyobb sebességgel való moz",
+      "gatása az anyagban ",
+      "nagyobb súrlódási veszteséget jelent."
+    ],
+    [],
+    [
+      "A keverés során fellépő veszteségek:"
+    ],
+    [
+      "A keverőgépek keverőelemeit villanymotor hajtja. A villanymotorban és a hajtóműben különböző veszteségek léphetnek fel. A keverő",
+      " ",
+      "berendezés hatásfoka megmutatja, hogy mekkora a berendezésben fellépő veszteségek összege."
+    ],
+    [
+      "A gyakorlatban számtalanszor előfordul, hogy a keverés nem az optimális keverési körülmények között zajlik le. "
+    ],
+    [],
+    [
+      "Ennek okai:"
+    ],
+    [
+      "Változó keverő igénybevétel"
+    ],
+    [
+      "Túlkeverés"
+    ],
+    [
+      "Együttmozgás"
+    ],
+    [],
+    [
+      "Változó keverő-igénybevétel: "
+    ],
+    [
+      "Változó viszkozitás miatt jön létre. Pl. keverés során a massza egyre rugalmasabbá nyúlóssá válik, ",
+      "nő",
+      " a viszkozitása. A keverés során a hús és kötőszöveti fehérjék vizet vesznek fel, nő a massza sűrűsége, viszkozitása. A keverőelemek állandó fordulatszámú mozgatásához egyre nagyobb energia szükséges. "
+    ],
+    [],
+    [
+      "Túlkeverés:"
+    ],
+    [
+      "A homogén állapot elérése után is történik keverés. Massza ",
+      "kenődésével",
+      " ",
+      "á",
+      "llományproblémákat okozhat."
+    ],
+    [],
+    [
+      "Az ",
+      "együttmozgás",
+      ":"
+    ],
+    [
+      "A keverendő folyadék a keverővel együtt mozog, közel azonos sebességgel áramlik. Csökken a homogenizálás hatékonysága. A jelenség elkerülése érdekében ütközőket szerelnek a keverőtérbe."
+    ],
+    [
+      "A húsiparban a keverés műveletét pép és töltőmassza készítésnél, illetve a zsírgyártás során a zsírhűtés, zsír ",
+      "egyneműsítés",
+      " céljából alkalmazzák. A pép és a töltőmassza készítés során szilárd (hús, szalonna, egyéb anyag pl.bőrke), porszerű (fűszer), folyékony (víz) halmazállapotú anyagokat keverünk."
+    ],
+    [],
+    [
+      "Keverőgépek",
+      " "
+    ],
+    [
+      "Kutterek",
+      " (aprító-keverőgép) Az aprítás fejezetben volt róla szó részletesen. "
+    ],
+    [
+      "Csészés keverőgépek"
+    ],
+    [
+      "Vály",
+      "ú",
+      "s keverőgépek"
+    ],
+    [],
+    [
+      "A keverőgépek főbb szerkezeti elemei"
+    ],
+    [
+      "A keverendő anyagokat befogadó edény"
+    ],
+    [
+      "A keverőszerkezet"
+    ],
+    [
+      "A hajtómű és a kiegészítő berendezések"
+    ],
+    [],
+    [
+      "Keverőedények:"
+    ],
+    [
+      "A gépek kialakítása alapján megkülönböztetünk csészés, illetve vályús keverőedényeket. Feladatuk a keverni kívánt anyagok befogadása. A keverőgépek gyártási teljesítményének fő meghatározója a keverőedény mérete. A keverőedény méretét literben szokták meghatározni. A húsiparban a kisebb űrméretű, 50-60 literes keverőgépektől egészen a több száz literes űrméretű keverőgépekig alkalmazzák őket."
+    ],
+    [],
+    [
+      "Keverőszerkezetek:"
+    ],
+    [
+      "A húsiparban alkalmazott keverőberendezések feladatuktól függően többféle keverőszerkezettel rendelkezhetnek. A legfontosabb keverőszerkezet profilok:"
+    ],
+    [
+      "lapkeverők:"
+    ],
+    [
+      "Főként folyékonyabb halmazállapotú anyagok keverésére alkalmazható (pl. zsír). A keverőszerkezet tengelyére téglalap alakú keverőelemeket rögzítenek."
+    ],
+    [
+      "horgony alakú keverők:"
+    ],
+    [
+      "Hús massza keverésére is alkalmas horgony alakú keverőelem. A horgony alakú keverőelemeket a keverőszerkezet tengelyére csavart alakban helyezik el. Az ilyen kialakításnál a keverőelem nemcsak keveri, hanem szállítja is a keverendő anyagokat. "
+    ],
+    [
+      "karos keverők:"
+    ],
+    [
+      "Alakjuk szerint lehetnek nyitott karos keverők, vagy tömör karos keverők. A horgony alakú keverőkhöz hasonlóan főként húsmassza keverésére alkalmazhatók. "
+    ],
+    [
+      "szárnyas keverő"
+    ],
+    [
+      "A horgonykeverőhöz hasonlóan a keverőszárnyak a tengelyre csavart profillal vannak rögzítve. Folyadék és húsmassza is keverésére is alkalmas."
+    ],
+    [
+      "csavar keverő"
+    ],
+    [
+      "A húsipari keverőkben leggyakrabban alkalmazott keverő elem típus. A keverés mellett szállítja és forgatja is a húsmasszát."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "32. ábra:",
+      " ",
+      "",
+      "Keverőelem profilok"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 81.old"
+    ],
+    [
+      "Keverőelem profilok bemutatása"
+    ],
+    [],
+    [
+      "Hajtómű és kiegészítő berendezések:"
+    ],
+    [
+      "A keverőgépek keverőszerkezetét villanymotor és a fordulat szabályzását lehetővé tevő hajtómű mozgatja. "
+    ],
+    [
+      "Kiegészítő berendezések a fedél működés közbeni felnyitását megakadályozó reteszelés, adagoló és ürítő szerkezet, illetve a keverőszerkezet vezérlését biztosító egység. "
+    ],
+    [],
+    [
+      "Csészés keverőgépek"
+    ],
+    [
+      "Fő részegységei:"
+    ],
+    [
+      "-",
+      "\tA mozgatható keverőcsésze"
+    ],
+    [
+      "-",
+      "\tA billenthető karos keverő"
+    ],
+    [
+      "-",
+      "\tHajtómű és a gépváz"
+    ],
+    [
+      "-",
+      "\tA keverőelem és a csésze fordulatát szabályzó vezérlés"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "33. ábra:",
+      " ",
+      "",
+      "Csészés keverőgép"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 83.old"
+    ],
+    [
+      "Csészés keverőgép felépítésének bemutatása"
+    ],
+    [],
+    [
+      "A csészés keverőgép jellegzetessége, hogy keverőcsésze kerekekkel van felszerelve és nincs közvetlenül a gépbe építve, így a keverőcsésze egyben szállítóeszközként is funkcionál. A keverni kívánt anyagokat a csészébe helyezik, majd a rögzítik a géptesthez.  A keverőkar billenthető, hogy a keverőcsésze rögzíthető, vagy eltávolítható legyen. A keverőcsésze rögzítése ",
+      "után az anyagot a mozgó keverőelem keveri. Keverés során a keverőcsésze is forgó mozgást végez."
+    ],
+    [
+      "Munkavédelmi okokból a csészére zárható fedelet szereltek, amely megakadályozza, hogy üzem közben a gépbe belenyúljanak. A fedél reteszelt. Nyitott állapotban a keverőelem nem indul el. "
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "34. ábra:",
+      " ",
+      "",
+      "Csészés keverőgép működése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://www.youtube.com/watch?v=fZeWXP_e6yc (2024.07.09.)"
+    ],
+    [
+      "Csészés keverőgép működésének bemutatása"
+    ],
+    [],
+    [
+      "Vályús keverőgépek"
+    ],
+    [
+      "Fő részegységei:"
+    ],
+    [
+      "-",
+      "\tA vályú alakú keverőteknő"
+    ],
+    [
+      "-",
+      "\tA teknőben forgó két keverőelem"
+    ],
+    [
+      "-",
+      "\tHajtómű"
+    ],
+    [
+      "-",
+      "\tA keverőelemek fordulatát szabályzó vezérlés"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "35. ábra:",
+      " ",
+      "",
+      "Vályús keverőgép"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "Húsipari gépek II. (",
+      "Berszán",
+      " G, Budapest, 1984) 84.old"
+    ],
+    [
+      "Vályús keverőgép működésének bemutatása"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "36. ábra:",
+      " ",
+      "",
+      "Vályús keverőgép működése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "https://www.youtube.com/watch?v=sWZmPpQBVPs&t=16s (2024.07.09.)"
+    ],
+    [
+      "Vályús keverőgép működésének bemutatása",
+      "."
+    ],
+    [],
+    [
+      "Működése:"
+    ],
+    [
+      "A két keverőelem a kettős U alakú teknőben forog. A",
+      "z",
+      " U alakú teknőt válaszlap határolja, amelynek két végén átömlési lehetőség van. A keverést a végző keverőelemek kialakítása lehet csavarkeverő, vagy horgonykeverő, esetleg más lap profilú keverőelem. A keverőelemeket fogaskerék",
+      " ",
+      "hajtóművön keresztül villanymotor hatja. ",
+      "A keverőelemek általában egymással szemben, vagy egymással ellentétes irányban forognak. A két keverőelem azonos irányban nem forog. A",
+      " keverendő anyagokat kézi erővel, vagy szállítókocsit emelő szerkezet segítségével juttatják a keverővályúba. A bekevert töltőmassza a gép homlokfelületén lévő ajtón ürítik ki. Egyes keverőgép típusok esetében a massza kiürítése történhet a keverővályú billentésével is. "
+    ],
+    [
+      "A modernebb fejlesztésű gépekben a keverőelemek fordulatszáma, forgási iránya, illetve a keverési idő a technológiai igény függvényében programozható, szabályozható."
+    ],
+    [
+      "A keverőteknő fölé rácsos fedelet szereltek, amely munkavédelmi okokból elektromosan reteszelt. Nyitott állapotban a keverőelemek nem indulnak el."
+    ],
+    [],
+    [
+      "Az aprító, keverő és töltőgépekkel szemben támasztott legfontosabb higiéniai és munkabiztonsági előírások"
+    ],
+    [
+      "A berendezések alkalmazás a során betartandó legfontosabb munkabiztonsági követelmények"
+    ],
+    [],
+    [
+      "A gépek és berendezéseket a művelet végeztével tisztítás és fertőtlenítés előtt ",
+      "áramtalanítani",
+      " kell. "
+    ],
+    [
+      "Aprítási műveletekhez csak olyan gép és berendezés alkalmazható, amely nem zárlatos, amelynek burkolata, vezetéke, kapcsolója nem sérült és az érintésvédelmi szabályoknak megfelelő földeléssel van ellátva.  "
+    ],
+    [
+      "A gépek garatját lehetőség szerint olyan magasra kell elhelyezni, hogy kézzel ne lehessen a garatba nyúlni. Abban az esetben, ha a gép garatjába, vágószerkezetébe lehetséges a benyúlás (pl. darálógép garat, vágószerkezet) abban az esetben benyúlást megakadályozó védőrácsot kell felhelyezni. "
+    ],
+    [
+      "A ",
+      "kutterek",
+      " fedelét villamos reteszeléssel kell ellátni. A villamos reteszelés meggátolja, hogy nyitott ",
+      "fedelű",
+      " ",
+      "berendezés vágószerkezete elinduljon. "
+    ],
+    [
+      "A berendezéseket az üzemben úgy kell elhelyezni, hogy az anyagmozgatás közöttük könnyen megvalósítható legyen. A berendezés ne zárja el, nem szűkítse le a közlekedő utakat. "
+    ],
+    [],
+    [
+      "A berendezések alkalmazása során betartandó legfontosabb higiéniai követelmények"
+    ],
+    [
+      "Húskészítmények előállítása során csak olyan ",
+      "gyártástechnológia gép",
+      " és berendezés alkalmazható:"
+    ],
+    [
+      "amelyekből a hús és más gyártási anyag, mosó és öblítővíz maradéktalanul eltávolítható."
+    ],
+    [
+      "amelyeknek a külső és belső felülete könnyen tisztítható és fertőtleníthető."
+    ],
+    [
+      "amely olyan anyagokból épül fel, amelyek nem lépnek reakcióba sem a gyártási     anyagokkal, sem a tisztító és fertőtlenítő szerekkel. "
+    ],
+    [
+      "A gépeket és berendezéseket az üzemben úgy kell elhelyezni, hogy:"
+    ],
+    [
+      "az anyagmozgatás, a gép szét és összeszerelése könnyen megvalósítható legyen."
+    ],
+    [
+      "a gépek ",
+      "környezete ",
+      "és a gép alatti és körüli padozat könnyen tisztítható és fertőtleníthető legyen.  "
+    ],
+    [
+      "hogy az megfeleljen gyártástechnológiai folyamat útvonalára vonatkozó, jogszabályok és a HACCP rendszer által meghatározott előírásoknak."
+    ],
+    [
+      ""
+    ],
+    [],
+    [
+      ""
+    ],
+    [],
+    [
+      "Ábrajegyzék"
+    ],
+    [
+      "",
+      "",
+      "",
+      "1. ábra:",
+      " ",
+      "Aprítási módok",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "4",
+      ""
+    ],
+    [
+      "2. ábra:",
+      " ",
+      "Darálógép",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "6",
+      ""
+    ],
+    [
+      "3. ábra:",
+      " ",
+      "Egy és kétélű darálókések",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "7",
+      ""
+    ],
+    [
+      "4. ábra:",
+      " ",
+      "Darálótárcsák",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "7",
+      ""
+    ],
+    [
+      "5. ábra:",
+      " ",
+      "A nyírás szemléltetetése a vágószerkezetben",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "8",
+      ""
+    ],
+    [
+      "6. ábra:",
+      " ",
+      "Darálógép egyfokozatú vágószerkezete",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "9",
+      ""
+    ],
+    [
+      "7. ábra:",
+      " ",
+      "Többfokozatú vágószerkezet",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "10",
+      ""
+    ],
+    [
+      "8. ábra:",
+      " ",
+      "Egy tengelyű darálógép",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "11",
+      ""
+    ],
+    [
+      "9. ábra:",
+      " ",
+      "Két tengelyű könyökdaráló",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "12",
+      ""
+    ],
+    [
+      "10. ábra:",
+      " ",
+      "Ínleválasztó vágószerkezet felépítése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "13",
+      ""
+    ],
+    [
+      "11. ábra:",
+      " ",
+      "Vízszintes elrendezésű kockázógép",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "14",
+      ""
+    ],
+    [
+      "12. ábra:",
+      " ",
+      "Kockázógép vágószerkezetének működése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "15",
+      ""
+    ],
+    [
+      "13. ábra:",
+      " ",
+      "Kutter felépítése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "16",
+      ""
+    ],
+    [
+      "14. ábra:",
+      " ",
+      "Kuttertányér felépítése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "17",
+      ""
+    ],
+    [
+      "15. ábra:",
+      " ",
+      "Kutter vágószerkezet",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "18",
+      ""
+    ],
+    [
+      "16. ábra:",
+      " ",
+      "Kutter kés típusai rögzítés alapján.",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "18",
+      ""
+    ],
+    [
+      "17. ábra:",
+      " ",
+      "Kutter kések alakja",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "19",
+      ""
+    ],
+    [
+      "18. ábra:",
+      " ",
+      "Vágószerkezet rögzítési lehetőségei a késtengelyen",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "20",
+      ""
+    ],
+    [
+      "19. ábra:",
+      " ",
+      "Nyitott agyú késekből kialakított késpár",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "21",
+      ""
+    ],
+    [
+      "20. ábra:",
+      " ",
+      "Ürítőgomba működése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "22",
+      ""
+    ],
+    [
+      "21. ábra:",
+      " ",
+      "Kutter fedél működése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "23",
+      ""
+    ],
+    [
+      "22. ábra:",
+      " ",
+      "Kutter működése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "24",
+      ""
+    ],
+    [
+      "23. ábra",
+      " ",
+      "Főzőkutter",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "25",
+      ""
+    ],
+    [
+      "24. ábra:",
+      " ",
+      "Kolloidmalom",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "27",
+      ""
+    ],
+    [
+      "25. ábra:",
+      " ",
+      "Kolloidmalom vágószerkezet működése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "27",
+      ""
+    ],
+    [
+      "26. ábra:",
+      " ",
+      "Stephan kutter felépítése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "28",
+      ""
+    ],
+    [
+      "27. ábra:",
+      " ",
+      "Stephan kutter vágószerkezete",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "29",
+      ""
+    ],
+    [
+      "28. ábra:",
+      " ",
+      "Stephan kutter működése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "29",
+      ""
+    ],
+    [
+      "29. ábra:",
+      " ",
+      "KS kutter",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "30",
+      ""
+    ],
+    [
+      "30. ábra:",
+      " ",
+      "KS kutter vágószerkezet felépítése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "30",
+      ""
+    ],
+    [
+      "31. ábra:",
+      " ",
+      "KS kutter vágószerkezete",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "31",
+      ""
+    ],
+    [
+      "32. ábra:",
+      " ",
+      "Keverőelem profilok",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "35",
+      ""
+    ],
+    [
+      "33. ábra:",
+      " ",
+      "Csészés keverőgép",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "36",
+      ""
+    ],
+    [
+      "34. ábra:",
+      " ",
+      "Csészés keverőgép működése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "37",
+      ""
+    ],
+    [
+      "35. ábra:",
+      " ",
+      "Vályús keverőgép",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "38",
+      ""
+    ],
+    [
+      "36. ábra:",
+      " ",
+      "Vályús keverőgép működése",
+      "\t",
+      "",
+      "",
+      "",
+      "",
+      "38",
+      ""
+    ],
+    [
+      ""
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Nágl Péter"
+      ],
+      [
+        "Szakmai lektor:",
+        "Kosztolányi Attila"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Élelmiszeripar"
+      ],
+      [
+        "Szakma:",
+        "Húsipari technikus"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Húsipari alapműveletek"
+      ],
+      [
+        "Tantárgy:",
+        "Gyártástechnológiai alapműveletek és gépei"
+      ],
+      [
+        "Évfolyam:",
+        "12. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "40 óra"
+      ]
+    ]
+  ],
+  "headers": [
+    "",
+    ""
+  ],
+  "footers": [
+    "",
+    ""
+  ],
+  "footnotes": [
+    "",
+    ""
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image28.jpeg",
+      "path": null,
+      "bytes": 65279
+    },
+    {
+      "name": "image27.png",
+      "path": null,
+      "bytes": 478509
+    },
+    {
+      "name": "image29.jpeg",
+      "path": null,
+      "bytes": 67486
+    },
+    {
+      "name": "image24.png",
+      "path": null,
+      "bytes": 885257
+    },
+    {
+      "name": "image25.jpg",
+      "path": null,
+      "bytes": 75331
+    },
+    {
+      "name": "image30.png",
+      "path": null,
+      "bytes": 610630
+    },
+    {
+      "name": "image23.png",
+      "path": null,
+      "bytes": 470991
+    },
+    {
+      "name": "image26.jpeg",
+      "path": null,
+      "bytes": 120418
+    },
+    {
+      "name": "image32.jpeg",
+      "path": null,
+      "bytes": 92262
+    },
+    {
+      "name": "image22.jpeg",
+      "path": null,
+      "bytes": 50011
+    },
+    {
+      "name": "image38.png",
+      "path": null,
+      "bytes": 579819
+    },
+    {
+      "name": "image37.jpeg",
+      "path": null,
+      "bytes": 72326
+    },
+    {
+      "name": "image36.png",
+      "path": null,
+      "bytes": 245532
+    },
+    {
+      "name": "image35.jpeg",
+      "path": null,
+      "bytes": 55548
+    },
+    {
+      "name": "image34.jpeg",
+      "path": null,
+      "bytes": 37207
+    },
+    {
+      "name": "image33.png",
+      "path": null,
+      "bytes": 835378
+    },
+    {
+      "name": "image31.jpeg",
+      "path": null,
+      "bytes": 89630
+    },
+    {
+      "name": "image20.jpeg",
+      "path": null,
+      "bytes": 47275
+    },
+    {
+      "name": "image19.png",
+      "path": null,
+      "bytes": 65916
+    },
+    {
+      "name": "image8.jpeg",
+      "path": null,
+      "bytes": 50416
+    },
+    {
+      "name": "image7.jpeg",
+      "path": null,
+      "bytes": 120240
+    },
+    {
+      "name": "image6.jpeg",
+      "path": null,
+      "bytes": 70465
+    },
+    {
+      "name": "image5.jpeg",
+      "path": null,
+      "bytes": 49659
+    },
+    {
+      "name": "image4.jpeg",
+      "path": null,
+      "bytes": 59875
+    },
+    {
+      "name": "image3.jpeg",
+      "path": null,
+      "bytes": 79228
+    },
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image9.png",
+      "path": null,
+      "bytes": 157597
+    },
+    {
+      "name": "image10.jpeg",
+      "path": null,
+      "bytes": 92075
+    },
+    {
+      "name": "image11.jpeg",
+      "path": null,
+      "bytes": 68435
+    },
+    {
+      "name": "image18.JPG",
+      "path": null,
+      "bytes": 40088
+    },
+    {
+      "name": "image17.jpeg",
+      "path": null,
+      "bytes": 43817
+    },
+    {
+      "name": "image16.jpeg",
+      "path": null,
+      "bytes": 70899
+    },
+    {
+      "name": "image15.png",
+      "path": null,
+      "bytes": 99482
+    },
+    {
+      "name": "image14.jpeg",
+      "path": null,
+      "bytes": 80430
+    },
+    {
+      "name": "image13.jpeg",
+      "path": null,
+      "bytes": 90851
+    },
+    {
+      "name": "image12.jpeg",
+      "path": null,
+      "bytes": 88474
+    },
+    {
+      "name": "image21.jpeg",
+      "path": null,
+      "bytes": 42279
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "ELMS",
+    "Grid Table 5 Dark Accent 1",
+    "elms_ContentText",
+    "elms_Egyszeres",
+    "elms_Fogalom",
+    "elms_Fogalom:invalid",
+    "elms_Fontos",
+    "elms_HelyesValasz",
+    "elms_HibasValasz",
+    "elms_JogiSzoveg",
+    "elms_Opcionalis",
+    "annotation reference",
+    "annotation text",
+    "Jegyzetszöveg Char",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Placeholder Text",
+    "Table Grid",
+    "Hyperlink",
+    "elms_Media",
+    "table of figures",
+    "List Paragraph",
+    "elms_Tobbszoros",
+    "elms_Parosito",
+    "elms_Sorbarendezo",
+    "elms_Legordulo",
+    "elms_Kitolto",
+    "elms_FogdEsVidd",
+    "elms_Kijelolo",
+    "elms_Gyakorlo",
+    "elms_numeric",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "toa heading",
+    "table of authorities",
+    "footnote text",
+    "Lábjegyzetszöveg Char",
+    "footnote reference",
+    "Címsor 1 Char",
+    "Bibliography",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "Címsor 4 Char",
+    "Címsor 1 (helyőrző)",
+    "Címsor 5 Char",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "elms_TartalomCimsor",
+    "toc 4",
+    "elms_cim_1_tananyag",
+    "elms_cim_2_egyseg",
+    "elms_cim_3_fejezet",
+    "elms_cim_4_lecke",
+    "elms_tananyag",
+    "elms_egyseg",
+    "Revision",
+    "Caption",
+    "Nem lista1",
+    "msonormal",
+    "FollowedHyperlink",
+    "icon",
+    "docon",
+    "bookmark-status",
+    "is-visually-hidden-touch",
+    "visually-hidden",
+    "has-text-white-static",
+    "HTML Top of Form",
+    "z-A kérdőív teteje Char",
+    "has-text-primary",
+    "HTML Bottom of Form",
+    "z-A kérdőív alja Char",
+    "tree-expander",
+    "tree-expander-indicator",
+    "Normal (Web)",
+    "Emphasis",
+    "HTML Code",
+    "Strong",
+    "68831B013408452FBD29B6FDEC9893802",
+    "6FD96C86FC10454FA6AE06C5190120182",
+    "Outline List 2",
+    "Outline List 1",
+    "Signature",
+    "Aláírás Char",
+    "Subtitle",
+    "Alcím Char",
+    "Closing",
+    "Befejezés Char",
+    "envelope address",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "Outline List 3",
+    "Title",
+    "Cím Char",
+    "Plain Text",
+    "Csak szöveg Char",
+    "Date",
+    "Dátum Char",
+    "Document Map",
+    "Dokumentumtérkép Char",
+    "Table Simple 1",
+    "Table Simple 2",
+    "Table Simple 3",
+    "Table Elegant",
+    "E-mail Signature",
+    "E-mail aláírása Char",
+    "Intense Reference",
+    "Intense Emphasis",
+    "envelope return",
+    "List Bullet",
+    "List Bullet 2",
+    "List Bullet 3",
+    "List Bullet 4",
+    "List Bullet 5",
+    "Subtle Reference",
+    "Subtle Emphasis",
+    "Table Subtle 1",
+    "Table Subtle 2",
+    "HTML Keyboard",
+    "HTML Address",
+    "HTML-cím Char",
+    "HTML Definition",
+    "HTML Cite",
+    "HTML Typewriter",
+    "HTML Preformatted",
+    "HTML-ként formázott Char",
+    "HTML Sample",
+    "HTML Acronym",
+    "HTML Variable",
+    "Quote",
+    "Idézet Char",
+    "Intense Quote",
+    "Kiemelt idézet Char",
+    "Table Classic 1",
+    "Table Classic 2",
+    "Table Classic 3",
+    "Table Classic 4",
+    "Book Title",
+    "Medium Shading 1",
+    "Medium Shading 1 Accent 1",
+    "Medium Shading 1 Accent 2",
+    "Medium Shading 1 Accent 3",
+    "Medium Shading 1 Accent 4",
+    "Medium Shading 1 Accent 5",
+    "Medium Shading 1 Accent 6",
+    "Medium Shading 2",
+    "Medium Shading 2 Accent 1",
+    "Medium Shading 2 Accent 2",
+    "Medium Shading 2 Accent 3",
+    "Medium Shading 2 Accent 4",
+    "Medium Shading 2 Accent 5",
+    "Medium Shading 2 Accent 6",
+    "Medium List 1",
+    "Medium List 1 Accent 1",
+    "Medium List 1 Accent 2",
+    "Medium List 1 Accent 3",
+    "Medium List 1 Accent 4",
+    "Medium List 1 Accent 5",
+    "Medium List 1 Accent 6",
+    "Medium List 2",
+    "Medium List 2 Accent 1",
+    "Medium List 2 Accent 2",
+    "Medium List 2 Accent 3",
+    "Medium List 2 Accent 4",
+    "Medium List 2 Accent 5",
+    "Medium List 2 Accent 6",
+    "Medium Grid 1",
+    "Medium Grid 1 Accent 1",
+    "Medium Grid 1 Accent 2",
+    "Medium Grid 1 Accent 3",
+    "Medium Grid 1 Accent 4",
+    "Medium Grid 1 Accent 5",
+    "Medium Grid 1 Accent 6",
+    "Medium Grid 2",
+    "Medium Grid 2 Accent 1",
+    "Medium Grid 2 Accent 2",
+    "Medium Grid 2 Accent 3",
+    "Medium Grid 2 Accent 4",
+    "Medium Grid 2 Accent 5",
+    "Medium Grid 2 Accent 6",
+    "Medium Grid 3",
+    "Medium Grid 3 Accent 1",
+    "Medium Grid 3 Accent 2",
+    "Medium Grid 3 Accent 3",
+    "Medium Grid 3 Accent 4",
+    "Medium Grid 3 Accent 5",
+    "Medium Grid 3 Accent 6",
+    "List",
+    "List 2",
+    "List 3",
+    "List 4",
+    "List 5",
+    "List Continue",
+    "List Continue 2",
+    "List Continue 3",
+    "List Continue 4",
+    "List Continue 5",
+    "Table List 1",
+    "List Table 1 Light",
+    "List Table 1 Light Accent 1",
+    "List Table 1 Light Accent 2",
+    "List Table 1 Light Accent 3",
+    "List Table 1 Light Accent 4",
+    "List Table 1 Light Accent 5",
+    "List Table 1 Light Accent 6",
+    "Table List 2",
+    "List Table 2 Accent 1",
+    "List Table 2 Accent 2",
+    "List Table 2 Accent 3",
+    "List Table 2 Accent 4",
+    "List Table 2 Accent 5",
+    "List Table 2 Accent 6",
+    "Table List 3",
+    "List Table 3 Accent 1",
+    "List Table 3 Accent 2",
+    "List Table 3 Accent 3",
+    "List Table 3 Accent 4",
+    "List Table 3 Accent 5",
+    "List Table 3 Accent 6",
+    "Table List 4",
+    "List Table 4 Accent 1",
+    "List Table 4 Accent 2",
+    "List Table 4 Accent 3",
+    "List Table 4 Accent 4",
+    "List Table 4 Accent 5",
+    "List Table 4 Accent 6",
+    "Table List 5",
+    "List Table 5 Dark",
+    "List Table 5 Dark Accent 1",
+    "List Table 5 Dark Accent 2",
+    "List Table 5 Dark Accent 3",
+    "List Table 5 Dark Accent 4",
+    "List Table 5 Dark Accent 5",
+    "List Table 5 Dark Accent 6",
+    "Table List 6",
+    "List Table 6 Colorful",
+    "List Table 6 Colorful Accent 1",
+    "List Table 6 Colorful Accent 2",
+    "List Table 6 Colorful Accent 3",
+    "List Table 6 Colorful Accent 4",
+    "List Table 6 Colorful Accent 5",
+    "List Table 6 Colorful Accent 6",
+    "Table List 7",
+    "List Table 7 Colorful",
+    "List Table 7 Colorful Accent 1",
+    "List Table 7 Colorful Accent 2",
+    "List Table 7 Colorful Accent 3",
+    "List Table 7 Colorful Accent 4",
+    "List Table 7 Colorful Accent 5",
+    "List Table 7 Colorful Accent 6",
+    "Table List 8",
+    "List Table 2",
+    "List Table 3",
+    "List Table 4",
+    "macro",
+    "Makró szövege Char",
+    "Note Heading",
+    "Megjegyzésfej Char",
+    "Salutation",
+    "Megszólítás Char",
+    "Table Contemporary",
+    "No Spacing",
+    "Normal Indent",
+    "page number",
+    "Table Columns 1",
+    "Table Columns 2",
+    "Table Columns 3",
+    "Table Columns 4",
+    "Table Columns 5",
+    "Table Professional",
+    "Table Grid 1",
+    "Table Grid 2",
+    "Table Grid 3",
+    "Table Grid 4",
+    "Table Grid 5",
+    "Table Grid 6",
+    "Table Grid 7",
+    "Table Grid 8",
+    "line number",
+    "Dark List",
+    "Dark List Accent 1",
+    "Dark List Accent 2",
+    "Dark List Accent 3",
+    "Dark List Accent 4",
+    "Dark List Accent 5",
+    "Dark List Accent 6",
+    "List Number",
+    "List Number 2",
+    "List Number 3",
+    "List Number 4",
+    "List Number 5",
+    "Colorful Shading",
+    "Colorful Shading Accent 1",
+    "Colorful Shading Accent 2",
+    "Colorful Shading Accent 3",
+    "Colorful Shading Accent 4",
+    "Colorful Shading Accent 5",
+    "Colorful Shading Accent 6",
+    "Colorful List",
+    "Colorful List Accent 1",
+    "Colorful List Accent 2",
+    "Colorful List Accent 3",
+    "Colorful List Accent 4",
+    "Colorful List Accent 5",
+    "Colorful List Accent 6",
+    "Colorful Grid",
+    "Colorful Grid Accent 1",
+    "Colorful Grid Accent 2",
+    "Colorful Grid Accent 3",
+    "Colorful Grid Accent 4",
+    "Colorful Grid Accent 5",
+    "Colorful Grid Accent 6",
+    "Block Text",
+    "Body Text",
+    "Szövegtörzs Char",
+    "Body Text 2",
+    "Szövegtörzs 2 Char",
+    "Body Text 3",
+    "Szövegtörzs 3 Char",
+    "Body Text Indent",
+    "Szövegtörzs behúzással Char",
+    "Body Text Indent 2",
+    "Szövegtörzs behúzással 2 Char",
+    "Body Text Indent 3",
+    "Szövegtörzs behúzással 3 Char",
+    "Body Text First Indent",
+    "Szövegtörzs első sora Char",
+    "Body Text First Indent 2",
+    "Szövegtörzs első sora 2 Char",
+    "Plain Table 1",
+    "Plain Table 2",
+    "Plain Table 3",
+    "Plain Table 4",
+    "Plain Table 5",
+    "Grid Table Light",
+    "Grid Table 1 Light",
+    "Grid Table 1 Light Accent 1",
+    "Grid Table 1 Light Accent 2",
+    "Grid Table 1 Light Accent 3",
+    "Grid Table 1 Light Accent 4",
+    "Grid Table 1 Light Accent 5",
+    "Grid Table 1 Light Accent 6",
+    "Grid Table 2",
+    "Grid Table 2 Accent 1",
+    "Grid Table 2 Accent 2",
+    "Grid Table 2 Accent 3",
+    "Grid Table 2 Accent 4",
+    "Grid Table 2 Accent 5",
+    "Grid Table 2 Accent 6",
+    "Grid Table 3",
+    "Grid Table 3 Accent 1",
+    "Grid Table 3 Accent 2",
+    "Grid Table 3 Accent 3",
+    "Grid Table 3 Accent 4",
+    "Grid Table 3 Accent 5",
+    "Grid Table 3 Accent 6",
+    "Grid Table 4",
+    "Grid Table 4 Accent 1",
+    "Grid Table 4 Accent 2",
+    "Grid Table 4 Accent 3",
+    "Grid Table 4 Accent 4",
+    "Grid Table 4 Accent 5",
+    "Grid Table 4 Accent 6",
+    "Grid Table 5 Dark",
+    "Grid Table 5 Dark Accent 2",
+    "Grid Table 5 Dark Accent 3",
+    "Grid Table 5 Dark Accent 4",
+    "Grid Table 5 Dark Accent 5",
+    "Grid Table 5 Dark Accent 6",
+    "Grid Table 6 Colorful",
+    "Grid Table 6 Colorful Accent 1",
+    "Grid Table 6 Colorful Accent 2",
+    "Grid Table 6 Colorful Accent 3",
+    "Grid Table 6 Colorful Accent 4",
+    "Grid Table 6 Colorful Accent 5",
+    "Grid Table 6 Colorful Accent 6",
+    "Grid Table 7 Colorful",
+    "Grid Table 7 Colorful Accent 1",
+    "Grid Table 7 Colorful Accent 2",
+    "Grid Table 7 Colorful Accent 3",
+    "Grid Table 7 Colorful Accent 4",
+    "Grid Table 7 Colorful Accent 5",
+    "Grid Table 7 Colorful Accent 6",
+    "index 1",
+    "index 2",
+    "index 3",
+    "index 4",
+    "index 5",
+    "index 6",
+    "index 7",
+    "index 8",
+    "index 9",
+    "index heading",
+    "Table Colorful 1",
+    "Table Colorful 2",
+    "Table Colorful 3",
+    "Table Theme",
+    "Table 3D effects 1",
+    "Table 3D effects 2",
+    "Table 3D effects 3",
+    "toc 5",
+    "toc 6",
+    "toc 7",
+    "toc 8",
+    "toc 9",
+    "Message Header",
+    "Üzenetfej Char",
+    "endnote text",
+    "Végjegyzet szövege Char",
+    "endnote reference",
+    "Light Shading Accent 1",
+    "Light Shading Accent 2",
+    "Light Shading Accent 3",
+    "Light Shading Accent 4",
+    "Light Shading Accent 5",
+    "Light Shading Accent 6",
+    "Light List",
+    "Light List Accent 1",
+    "Light List Accent 2",
+    "Light List Accent 3",
+    "Light List Accent 4",
+    "Light List Accent 5",
+    "Light List Accent 6",
+    "Light Grid",
+    "Light Grid Accent 1",
+    "Light Grid Accent 2",
+    "Light Grid Accent 3",
+    "Light Grid Accent 4",
+    "Light Grid Accent 5",
+    "Light Grid Accent 6",
+    "Light Shading",
+    "Table Web 1",
+    "Table Web 2",
+    "Table Web 3"
+  ]
+}

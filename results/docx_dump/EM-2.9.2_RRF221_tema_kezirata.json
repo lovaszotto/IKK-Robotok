@@ -1,0 +1,4586 @@
+{
+  "core_properties": {
+    "creator": "Fodor Alexandra (ELMS)",
+    "lastModifiedBy": "Soós Gabriella Brigitta (ELMS)",
+    "revision": "2",
+    "created": "2024-09-24T13:58:00Z",
+    "modified": "2024-09-24T13:58:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal",
+    "TotalTime": "0",
+    "Pages": "61",
+    "Words": "7568",
+    "Characters": "52223",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "435",
+    "Paragraphs": "119",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "59672",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.9.2",
+    "Agrárműszaki erőforrások hidraulikus teljesítményátvitele II.",
+    "Témák kézirata",
+    "",
+    "",
+    "",
+    "Tartalomjegyzék",
+    "1.\tAz energiaátalakítók kialakítása\t2",
+    "1.1.\tFogaskerekes energiaátalakítók\t5",
+    "1.1.1.\tKülső fogazású fogaskerekes szivattyúk és hidromotorok\t6",
+    "1.1.1.1.\tA külső fogazású fogaskerekes szivattyú felépítése és működése\t6",
+    "1.1.1.2.\tA fogaskerekek jellemző geometriai méretei és meghatározásuk\t10",
+    "1.1.1.3.\tKülső fogazású fogaskerekes hidromotorok\t16",
+    "1.1.2.\tBelső és külső fogazású fogaskerekes szivattyúk és hidromotorok\t17",
+    "1.1.2.1.\tKülső és belső fogazású hidromotorok\t23",
+    "1.1.3.\tBelső fogazású bolygófogaskerekes (orbit) szivattyúk és hidromotorok\t24",
+    "1.1.3.1.\tA kommutátor és a munkaterek kapcsolata\t36",
+    "1.1.3.2.\tBelső fogazású bolygófogaskerekes (orbit) hidromotorok\t37",
+    "1.1.4.\tCsúszólapátos szivattyúk és hidromotorok\t39",
+    "1.1.4.1.\tKiegyensúlyozatlan forgórészű szivattyúk\t44",
+    "1.1.4.2.\tKiegyensúlyozott forgórészű szivattyúk\t46",
+    "1.1.4.3.\tVáltoztatható szállítású csúszólapátos szivattyúk\t48",
+    "1.1.4.4.\tA csúszólapátok kialakítása és elrendezése\t50",
+    "1.1.4.5.\tCsúszólapátos rendszerű hidromotor\t55",
+    "Ábrajegyzék\t58",
+    "Irodalomjegyzék\t60",
+    "",
+    "1.\tAz energiaátalakítók kialakítása",
+    "A mezőgazdasági erő- és munkagépek hidraulikus rendszerében alkalmazott energiaátalakítók mozgástípusuk szerint három nagy csoportba oszthatók:",
+    "forgómozgású,",
+    "egyenesvonalú mozgású,",
+    "lengőmozgású energiaátalakítók.",
+    "",
+    "A forgómozgású energiaátalakítók a működés során az energiaátalakítást forgó mozgás révén valósítják meg.",
+    "Az egyenesvonalú mozgást végző energiaátalakítók esetén az energia átalakítása a szerkezeti egységek egyenesvonalú mozgása közben történik.",
+    "A lengőmozgású energiaátalakítók működés során lengő mozgást végezve biztosítják az energia átalakítását.",
+    "",
+    "Az energiaátalakítókat az energiaátalakítás iránya szerint két nagy csoportba lehet bontani:",
+    "mechanikus energiából hidraulikus energiát előállító egységek, pl. szivattyúk;",
+    "hidraulikus energiából mechanikus energiát előállító egységek, pl. hidromotorok, hidraulikus munkahengerek.",
+    "",
+    "Szivattyúk: A mezőgazdasági gépeken általában térfogatkiszorítás elvén működő szivattyúkat alkalmaznak. A térfogatkiszorítás elvén működő szivattyúkban a meghajtott egységek működése közben megváltozik munkatérfogat mérete. A munkatérfogat növekedése esetén a térben nyomáscsökkenés lép fel, és a térbe munkafolyadék áramlik be, ez a szívás szakasza. A munkatérfogat csökkenésekor a nyomás növekszik és a térből munkatérfolyadék áramlik ki, ez a szivattyú nyomási szakasza.",
+    "",
+    "A térfogatkiszorítás elvén működő szivattyúk csoportosítása:",
+    "fogaskerékszivattyú:",
+    "külső fogazású,",
+    "belső fogazású,",
+    "csúszólapátos szivattyú:",
+    "egyszeres szállítású,",
+    "kettős szállítású,",
+    "dugattyús szivattyúk:",
+    "radiáldugattyús szivattyú:",
+    "belső excenteres,",
+    "külső excenteres,",
+    "axiáldugattyús szivattyú:",
+    "ferdetárcsás,",
+    "ferdetengelyes.",
+    "csavarszivattyúk.",
+    "",
+    "Amikor egy adott szivattyú tulajdonságairól vagy teljesítményéről szeretnél beszélni, akkor a következő jellemzőket szükséges ismerned:",
+    "fajlagos szállítás: egy hajtó tengely fordulata alatt szállított munkafolyadék mennyisége [,",
+    "a szivattyú maximális üzemi nyomása [MPa],",
+    "a szivattyú üzemi fordulatszáma [1/min; 1/s],",
+    "működés közben változtatható-e a szállított munkafolyadék mennyisége,",
+    "beépítés alkalmával független-e a hidraulikus csatlakozók helyzete (ebben az esetben megcserélhető a vezeték).",
+    "",
+    "Hidromotorok: A mezőgazdasági gépekben alkalmazott szivattyúk többsége alkalmas arra, hogy hidromotorként használják, egyes esetekben átalakítással oldható meg a motorként való üzemeltetés. A hidromotorok működés közben a munkafolyadékot nyomással juttatják a munkatérbe, ahol az a mechanikus egységet elmozdítja, melynek tengelye így alkalmassá válik gépszerkezetek meghajtására.",
+    "",
+    "A térfogatkiszorítás elvén működő leggyakrabban alkalmazott hidromotorok csoportosítása:",
+    "fogaskerekes hidromotor:",
+    "külső fogazású,",
+    "belső fogazású,",
+    "dugattyús hidromotor:",
+    "radiáldugattyús:",
+    "belső excenteres,",
+    "külső excenteres,",
+    "axiáldugattyús:",
+    "ferdetárcsás,",
+    "ferdetengelyes.",
+    "",
+    "A hidromotorok egyik nagy előnye a belső égésű motorokkal szemben, hogy már az indulás pillanatában maximális nyomatékot képesek leadni, ami nagyban megkönnyíti a meghajtott gépszerkezetek indítási folyamatát.",
+    "",
+    "Amikor egy hidromotor tulajdonságairól vagy teljesítményéről szeretnél beszélni, akkor a következő jellemzőket szükséges ismerned:",
+    "fajlagos nyelés: egy tengely fordulata alatt elnyelt munkafolyadék mennyisége [,",
+    "a hidromotor maximális üzemi nyomása [MPa],",
+    "a hidromotor üzemi fordulatszám-tartománya [1/min; 1/s],",
+    "működés közben változtatható-e az elnyelt munkafolyadék mennyisége,",
+    "beépítés alkalmával független-e a hidraulikus csatlakozók helyzete (ebben az es esetben megcserélhető a vezeték).",
+    "Hidraulikus munkahengerek: A mezőgazdasági gépekben gyakran alkalmazott energiaátalakító, mely a munkafolyadék nyomási energiáját alakítja át mechanikai munkává.",
+    "1.1.\tFogaskerekes energiaátalakítók",
+    "A fogaskerekes energiaátalakítókban hidraulikus szivattyúk esetén a munkafolyadékkal energiát közlő, illetve hidromotorok esetén a munkafolyadék által munkát végző forgó egységek külső vagy belső fogaskerekekből állnak.",
+    "",
+    "A szivattyúk és hidromotorok veszteségei:",
+    "térfogati (résveszteség),",
+    "mechanikai (alkatrészek közötti súrlódás),",
+    "hidraulikus (folyadéksúrlódás).",
+    "",
+    "Térfogati veszteség: a munkafolyadék szállítását végző elemek rendszerében az alkotórészek egymáshoz kapcsolódásának helyein működési vagy kopásból eredő rések képződhetnek. A réseken a munkafolyadék az egyik térből a másikba távozik, ezt a veszteséget résveszteségnek vagy volumetrikus veszteségnek nevezik.",
+    "",
+    "Mechanikai veszteség: a szivattyúban és a hidromotorban az egymáshoz viszonyítottan elmozduló alkatrészek között fellépő súrlódásból keletkezik, ami nyomásveszteséget eredményez.",
+    "",
+    "Hidraulikus veszteség: a munkafolyadék áramlása során a részecskék egymáshoz és a csővezetékekhez, valamint a rendszerben lévő idomokhoz, pl. a könyökhöz súrlódnak, a fellépő súrlódásból veszteség keletkezik, ami nyomásveszteséggel is jár.",
+    "1.1.1.\tKülső fogazású fogaskerekes szivattyúk és hidromotorok",
+    "A külső fogazású fogaskerekes szivattyúkat a bemenő (hajtó) tengelyen keresztül hajtják meg, és a működésük során a kapcsolódó fogaskerekek fogárkai között történik a munkafolyadék szállítása.",
+    "",
+    "A szivattyúk működés közben a munkafolyadékot akkor tudják nagy nyomással továbbítani, ha a (szívó-nyomó) munkatér tömített és a munkafolyadék a be- és kilépő nyílásokon keresztül elhagyja el a szivattyút. Amennyiben a rendszer nem tömített, a munkafolyadék nyomása csökken, ami a szivattyú hatásfokának romlását okozza.",
+    "1.1.1.1.\tA külső fogazású fogaskerekes szivattyú felépítése és működése",
+    "A külső fogazású fogaskerekes szivattyú felépítését és működését az 1. ábra szemlélteti.",
+    "",
+    "",
+    "1. ábra: Külső fogazású fogaskerekes szivattyú működési elve",
+    "Forrás: Mezei Tibor – Kocsis István – Dr. Varga Vilmos: Mezőgazdasági erőgépek I., Budapest, 2011, Herman Ottó Intézet Nonprofit Kft. 399. o.",
+    "",
+    "2. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "",
+    "3. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "A fogaskerekes szivattyú működési elve:",
+    "A fogaskerekek egymással kapcsolatban vannak és a házban helyezkednek el, a fogaskerekek fogárkaiban halad a munkafolyadék. A szivattyú hajtó fogaskerekének meghajtása a hozzá kapcsolódó hajtott fogaskereket is forgásba hozza. A házon általában két kivezetés található: „A” szívóoldal és a „B” a nyomó oldal. A szívóoldalon a fogaskerekek forgása miatt a házban a térfogat megnő, ami nyomáscsökkenést okoz „A” terében, és a munkafolyadék beáramlik, majd megtölti a fogárkokat. A fogaskerekek forgása közben a munkafolyadék a fogárkokban helyezkedik el, melyet a ház és a fogaskerék választ el egymástól. A „B” térben a fogaskerekek forgásából adódóan a fogárkokban lévő munkafolyadék nyomása megnő (a fogaskerekek összeforgása miatt), és a munkafolyadék kiáramlik a nyomótérből.",
+    "",
+    "A külső fogazású fogaskerekes szivattyú szerkezeti felépítése (4. ábra)",
+    "",
+    "",
+    "4. ábra: Külső fogazású fogaskerekes szivattyú szerkezeti felépítése",
+    "Forrás: https://www.linquip.com/industrial-directories/1008/gear-pump (Megnyitás: 2024.07.01.)",
+    "",
+    "",
+    "5. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "6. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "Szivattyúház: a szivattyúházhoz kapcsolódnak az egyes alkatrészek, valamint a ház biztosítja a fogaskerekek külső kerületén a tömítést a működés során.",
+    "Hajtó fogaskerék (z1): a hajtó fogaskerék tengelyén következik be a szivattyú meghajtása, ami megforgatja a hajtott fogaskereket (z2), miközben a ház és a fogárkok közötti térben a munkafolyadékot szállítja.",
+    "Hajtott fogaskerék (z2): a hajtása közben a ház és a fogárok közötti térben szintén a munkafolyadékot szállítja.",
+    "Siklócsapágyak: a fogaskerekek tengelyeit támasztják meg, valamint a fogaskerekek homlokfelületén biztosítják a tömítést, hogy a munkafolyadék csak a fogárkokon keresztül tudjon halani.",
+    "Háztömítés: a szivattyúház és a zárófedél, valamint a szivattyúház és a peremes fedél között akadályozza meg a munkafolyadék kiáramlását.",
+    "Tengelytömítés: a tengelyek és a velük csatlakozó elemek között akadályozza meg a munkafolyadék távozását a rendszerből.",
+    "Peremes fedél: csavarokkal kapcsolódik a házhoz, biztosítja a kapcsolatot a szivattyú meghajtóegységéhez. A peremes fedél zárja elölről a szivattyúházat, valamint a siklócsapágyakat is rögzíti.",
+    "Zárófedél: csavarokkal van rögzítve a házhoz, továbbá hátulról zárja a szivattyút, valamint a hátsó részben elhelyezkedő siklócsapágyakat tartja a helyükön.",
+    "Csavar(ok): a házhoz rögzítik a szivattyú működéséhez szükséges szerkezeti egységeket, pl. zárófedél, peremes fedél.",
+    "Tengely: szivattyú esetében a meghajtást biztosítja, hidromotorként üzemeltetve viszont a nyomatékot adja tovább.",
+    "1.1.1.2.\tA fogaskerekek jellemző geometriai méretei és meghatározásuk",
+    "A fogaskerekek jellemző geometriai méreteit a 7. és 8. ábra szemlélteti.",
+    "",
+    "",
+    "7. ábra: Fogaskerék jellemző átmérői és fogjellemzői",
+    "Forrás: https://tudasbazis.sulinet.hu/hu/szakkepzes/vegyipar/muszaki-ismeretek/a-modul-osztokor-attetel/fogaskerek-modulja-levezetese (Megnyitás 2024.07.01.)",
+    "",
+    "",
+    "8. ábra: Fogaskerék jellemző méretei",
+    "Forrás: https://www.chegg.com/homework-help/questions-and-answers/1-identify-features-involute-gear-tooth-nomenclature-15-12-13-14-16-10-9-10-2-3-4-12-13-14-q32762932 (Megnyitás: 2024.07.01.)",
+    "",
+    "A fogaskerekek legfontosabb adatai",
+    "",
+    "Osztás",
+    "Az osztás (p) az osztókörön mért fogvastagság és a fogárok hossza.",
+    "",
+    "Modul",
+    "A modul (m) a fogaskerék egyik jellemző adata, amelyet az osztás és a π hányadosával lehet meghatározni.",
+    "",
+    "Osztókörátmérő",
+    "Az osztókörátmérő (d) a fogaskerék fejköre és a lábköre közötti kör, ezen a körön mérik a fog és a fogárok közötti hosszat.",
+    "",
+    "Ahol:",
+    "z: fogaskerék fogszáma",
+    "Teljes fogmagasság",
+    "A teljes fogmagasság (h) a fogaskerék fogának a teljes magassága, amely általában:",
+    "",
+    "Ahol:",
+    "m: modul [mm]",
+    "",
+    "Fejmagasság",
+    "A fejmagasság az osztókör és a fejkör közötti távolság, amelynek nagysága általában:",
+    "",
+    "A fejmagasság rendszerint megegyezik a modul nagyságával.",
+    "",
+    "Lábmagasság",
+    "A lábmagasság az osztókör és a lábkör közötti távolság, amely nagysága jellemzően:",
+    "",
+    "",
+    "Fejkörátmérő",
+    "A fejkörátmérő a fogaskerék külső fogfelületét határoló kör átmérője, amely a következő módon határozható meg:",
+    "",
+    "",
+    "Lábkörátmérő",
+    "A lábkörátmérő a fogaskerék fogainak alsó határoló körének az átmérője, amely a következők szerint határozható meg:",
+    "",
+    "Fogaskerék szélessége: a fogaskerék fogprofiljának a szélessége.",
+    "",
+    "A fogaskerekes szivattyú által szállított fajlagos munkafolyadék mennyisége (q):",
+    "",
+    "ahol:",
+    "m: modul [mm],",
+    "d: osztókör átmérője [mm],",
+    "b: fogaskerék szélessége [mm].",
+    "",
+    "A fogaskerekes szivattyú térfogatáramának nagysága (Q):",
+    "",
+    "ahol:",
+    "q: fajlagos szállítás [mm3],",
+    "n: szivattyú tengelyének fordulatszáma [1/s].",
+    "",
+    "Feladat",
+    "Egy fogaskerekes szivattyú fogszáma 20, a fogaskerék szélessége 40 mm és a modul nagysága 3 mm. A szivattyút percenként 1400-as fordulatszámon hajtják meg.",
+    "Határozza meg:",
+    "a szivattyú fajlagos szállítását [dm3/fordulat],",
+    "a szivattyú térfogatáramát [dm3/min]!",
+    "",
+    "Megoldás",
+    "z = 20",
+    "b = 40 mm = 0,4 dm",
+    "m = 3 mm = 0,03 dm",
+    "n = 1400 1/min",
+    "q = ? [dm3/fordulat]",
+    "Q = ? [dm3/min]",
+    "",
+    "A fajlagos szállítási mennyiség:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "A szivattyú fajlagos munkafolyadék-szállítása 0,045 [dm3/fordulat].",
+    "",
+    "A szivattyú által szállított munkafolyadék térfogatárama:",
+    "",
+    "",
+    "",
+    "A szivattyú percenként 63,3 dm3 munkafolyadékot szállít.",
+    "A fogaskerekes szivattyúk volumetrikus hatásfokának javítása érdekében a nagyobb nyomású teret összekötik a peremes fedél és a siklócsapágy, valamint a zárófedél és a siklócsapágy közötti térrel (9. ábra).",
+    "",
+    "9. ábra: Munkafolyadék visszavezetése a siklócsapágy és a fedelek közé",
+    "Forrás: https://www.linquip.com/blog/hydraulic-pump-working-principles/ (Megnyitás: 2024.07.02.)",
+    "",
+    "10. ábra: Két szállítási irányú, tengelykapcsolóval hajtott szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "",
+    "11. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "A munkafolyadék a fedelek és a siklócsapágyak közötti teret tölti ki, és a nyomásból fakadó erő a siklócsapágyakat nekiszorítja a fogaskerék homlokfelületének. A siklócsapágy és a fogaskerék közötti felfekvő felületek a nyomás hatására jobb tömítést biztosítanak, ezzel javítják a szivattyú hatásfokát.",
+    "A mezőgazdasági gépeken alkalmazott külső fogazású fogaskerekes szivattyúk szállítási jellemzői:",
+    "Fajlagos munkafolyadék-szállítás: 0,1–200 cm3/fordulat.",
+    "Maximális üzemi nyomás: 12–16 MPa.",
+    "Üzemeltetési fordulatszám tartománya: 1000–6000 fordulat/min.",
+    "1.1.1.3.\tKülső fogazású fogaskerekes hidromotorok",
+    "A külső fogazású fogaskerekes szivattyúk többsége átalakítás nélkül alkalmas hidromotorként való üzemeltetésre. A hidromotorként való üzemeltetés során a nyomással rendelkező munkafolyadékot a munkatérbe vezetik be, ahol az a fogaskerekeket megforgatja, és a fogaskerék tengelyén keresztül meghajtja a hozzá kapcsolt szerkezeti egységet.",
+    "",
+    "",
+    "12. ábra: Külső fogazású fogaskerekes hidromotor",
+    "Forrás: Mezei Tibor – Kocsis István – Dr. Varga Vilmos: Erőgépek I. Budapest, 2011, Herman Ottó Intézet Nonprofit Kft. 399. o.",
+    "",
+    "",
+    "13. ábra: Állandó folyadéknyelésű, két áramlási irányú és két forgási irányú hidromotor",
+    "Forrás: saját készítésű",
+    "",
+    "A nyomással rendelkező munkafolyadékot az „A” oldalon vezetik be a munkatérbe, ahol a munkafolyadék megforgatja a fogaskerekeket. A forgás közben a fogárkokban a munkafolyadék a „B” oldali térbe kerülve kiáramlik a munkatérből. A tengellyel rendelkező fogaskerék pedig a munkafolyadék nyomásából keletkezett nyomatékkal meghajtja a hozzá kapcsolt szerkezeti egységet.",
+    "1.1.2.\tBelső és külső fogazású fogaskerekes szivattyúk és hidromotorok",
+    "A szivattyúk szállítást végző elemei általában egy belső és külső fogazású fogaskerékből és egy térelválasztó ívből állnak (14. ábra).",
+    "",
+    "",
+    "14. ábra: Belső és külső fogazású fogaskerekes szivattyú felépítése",
+    "Forrás: https://electricalworkbook.com/internal-gear-pump/ (Megnyitás: 2024.07.02.)",
+    "",
+    "15. ábra: Két szállítási irányú, tengelykapcsolóval hajtott szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "",
+    "16. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "A szivattyú szerkezeti egységei:",
+    "Ház: egységbe foglalja a működéshez szükséges szerkezeti egységeket.",
+    "Tengely: biztosítja szivattyú esetében a meghajtást, illetve hidromotor esetében a nyomaték leadását.",
+    "Külső fogazású fogaskerék: a munkafolyadék szállítását és a szivattyú működtetését biztosítja.",
+    "Belső fogazású fogaskerék: a külső fogazású fogaskerékhez kapcsolódva a munkafolyadék szállítását végzi.",
+    "Térelválasztó ív: elválasztja a külső és belső fogazású fogaskerekek közötti teret, így biztosítja, hogy a munkafolyadék a működés minden fázisában mozogjon.",
+    "Szívóoldali csatlakozó: a munkafolyadék beáramlását biztosító csővezetékcsatlakozó.",
+    "Nyomóoldali csatlakozó: a szivattyú által szállított munkafolyadék elszállításához szükséges csővezetéket kötik ide.",
+    "",
+    "A szivattyú működése",
+    "A munkafolyadék útját a szivattyúban három szakaszra lehet bontani:",
+    "szívási szakasz,",
+    "szállítás a szivattyúban,",
+    "nyomási szakasz.",
+    "",
+    "Szívási szakasz",
+    "A szívás szakaszában (17. ábra) a szivattyú szívótere a szívócsonkhoz csatlakozik. A működés során a külső és belső fogazású fogaskerekek a térelválasztó ív által határolt térben egymáson legördülve térfogatnövekedést hoznak létre. A térfogatnövekedés miatt a fogaskerekek és a térelválasztó ív terében a nyomás csökken. A nyomáscsökkenés hatására a teret munkafolyadék tölti ki.",
+    "",
+    "",
+    "17. ábra: A szivattyú szívási szakasza",
+    "Forrás: https://electricalworkbook.com/internal-gear-pump/ (Megnyitás: 2024.07.02.)",
+    "",
+    "18. ábra: Két szállítási irányú, tengelykapcsolóval hajtott szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "",
+    "19. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "Szállítás a szivattyú belsejében",
+    "A szíváskor beáramló munkafolyadék kitölti a fogaskerékárkokat, és forgás közben továbbítja a szivattyú nyomócsonkjának irányába a beáramlott munkafolyadékot (20. ábra).",
+    "",
+    "20. ábra: A munkafolyadék útja a szivattyú belsejében",
+    "Forrás: https://electricalworkbook.com/internal-gear-pump/ (Megnyitás: 2024.07.02.)",
+    "",
+    "",
+    "21. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "22. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "A fogaskerek fogárkait a térelválasztó ív választja el egymástól, ami biztosítja a munkaterek egymástól való elválasztását.",
+    "",
+    "Nyomási szakasz",
+    "A külső és belső fogazású fogaskerek és a térelválasztó ív által határolt térhez a nyomócsonk kapcsolódik. A fogaskerekek a működés során azonos irányba forognak, és a fogárkokban szállított munkafolyadék a nyomócsonkba áramlik (23. ábra).",
+    "",
+    "",
+    "23. ábra: A szivattyú nyomási szakasza",
+    "Forrás: https://electricalworkbook.com/internal-gear-pump/ (Megnyitás: 2024.07.02.)",
+    "",
+    "",
+    "24. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "",
+    "25. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "A fogaskerekes szivattyú által szállított fajlagos munkafolyadék mennyisége (q):",
+    "",
+    "ahol:",
+    "m: modul [mm],",
+    "d: osztókör átmérője [mm],",
+    "b: fogaskerék szélessége [mm].",
+    "",
+    "A fogaskerekes szivattyú térfogatáramának nagysága (Q).",
+    "",
+    "ahol:",
+    "q: fajlagos szállítás [mm3],",
+    "n: szivattyú tengelyének fordulatszáma [1/s].",
+    "",
+    "A mezőgazdasági gépeken alkalmazott fogaskerekes szivattyúk szállítási jellemzői:",
+    "Fajlagos munkafolyadék-szállítás: 0,1–200 cm3/fordulat.",
+    "Maximális üzemi nyomás: 12–16 MPa.",
+    "Üzemeltetési fordulatszám tartománya: 1000–2000 fordulat/min.",
+    "1.1.2.1.\tKülső és belső fogazású hidromotorok",
+    "A szivattyú hidromotorként is üzemeltethető, ebben az esetben munkafolyadékot nyomással vezetik a hidromotor belsejébe (26. ábra).",
+    "",
+    "",
+    "26. ábra: Belső fogazású fogaskerék-szivattyú szerkezeti egységei",
+    "Forrás: https://electricalworkbook.com/internal-gear-pump/ (Megnyitás: 2024.07.02.)",
+    "",
+    "",
+    "27. ábra: Állandó folyadéknyelésű, két áramlási irányú és két forgási irányú hidromotor",
+    "Forrás: saját készítésű",
+    "",
+    "A beáramló oldalon bevezetik a munkafolyadékot, amely kitölti a munkateret. A nyomással rendelkező munkafolyadék megforgatja a külső és belső fogazású fogaskerekeket. A forgás következtében a külső fogazású fogaskerék tengelye meghajtja a hozzá kapcsolt szerkezeti egységet.",
+    "1.1.3.\tBelső fogazású bolygófogaskerekes (orbit) szivattyúk és hidromotorok",
+    "A belső fogazású bolygókerekes szivattyúban (28. ábra) a fogaskerekek fogazása speciális kialakítású. Az orbit szivattyúk alapvetően két rendszerűek lehetnek:",
+    "a belső és külső fogazású fogaskerek együtt forognak,",
+    "a külső fogazású fogaskerék bolygómozgással „körbeforog” az álló belső fogazású fogaskerékben.",
+    "A belső és külső fogazású együtt forgó fogaskerekes szivattyú szerkezeti felépítése:",
+    "A szivattyúban a belső fogazású fogaskerék (fogazott gyűrű) eggyel több fogárokkal rendelkezik, mint a hozzá kapcsolódó külső fogazású fogaskerék.",
+    "",
+    "",
+    "28. ábra: Belső fogazású bolygókerekes szivattyú működési elve",
+    "Forrás: https://engineering.purdue.edu/Maha_AVteam/OLD/research%20projects/Gerotor%202011%20sept%2017/00_Old/Gerotor%20Pump%20(Animated)_Original.gif (Megnyitás: 2024.07.02.)",
+    "",
+    "29. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "",
+    "30. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "Belső fogazású fogaskerék (fogazott gyűrű): speciális fogprofillal kialakított gyűrű, melyhez pontosan kapcsolódik a külső fogazású fogaskerék.",
+    "Külső fogazású fogaskerék: a belső fogazással rendelkező fogazott gyűrűhöz viszonyítva egy foggal kevesebb található rajta, a fogaskerék a fogazott gyűrű belső terét öt külön térre választja el.",
+    "Tengely: a külső fogazású fogaskerékhez kapcsolódik. A szivattyú meghajtása a tengelyen keresztül történik, illetve hidromotor esetében ez biztosítja meghajtani kívánt szerkezeti egység működtetését.",
+    "Szívócsatorna: a fogaskerekek oldalát záró házban van kialakítva és a belső fogazású gyűrűn három fogárokhoz csatlakozik. A működése során nyomáscsökkenés lép fel a térben.",
+    "Nyomócsatorna: a fogaskerekek oldalát záró házban van kialakítva és a belső fogazású gyűrűn három fogárokhoz csatlakozik. A működése során nyomásnövekedés lép fel a térben.",
+    "",
+    "A szivattyú működése:",
+    "A működés tárgyalásakor az (orbit) szivattyú fogai által határolt terekben uralkodó nyomásból indulunk ki (31. ábra).",
+    "",
+    "",
+    "31. ábra: Belső fogazású bolygókerekes (orbit) szivattyú munkaterei",
+    "Forrás: https://engineering.purdue.edu/Maha_AVteam/OLD/research%20projects/Gerotor%202011%20sept%2017/00_Old/Gerotor%20Pump%20(Animated)_Original.gif (Megnyitás: 2024.07.02.)",
+    "",
+    "32. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "",
+    "33. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "A külső fogazású fogaskerék hajtása során a belső fogazású fogaskerék is forog és az I. és a II. tér nagysága növekszik, ezért a nyomás csökken, melynek hatására a szívócsatornán munkafolyadék áramlik be a két térbe. A III., IV. és az V. térben a fogaskerekek gördülése miatt a térfogat csökken és a nyomás nő. Ezekből a terekből a munkafolyadék a nyomócsatornába áramlik. A szivattyú szállítása kis nyomásváltozások mellett jön létre, mivel a szívó- és nyomócsatornák egyszerre több térrel vannak kapcsolatban.",
+    "",
+    "A külső fogazású bolygómozgással körbeforgó fogaskerekes szivattyú felépítése (34. ábra) és működése:",
+    "Ebben a szivattyúban a külső fogazású fogaskerék az álló belső fogazású fogaskerékben (fogazott gyűrűben) elforog, miközben bolygómozgással körbejárja a fogazott gyűrűt.",
+    "",
+    "",
+    "34. ábra: Külső fogazású bolygómozgással körbeforgó fogaskerekes (Orbit) szivattyú felépítése",
+    "Forrás: https://www.youtube.com/watch?v=_iNDK5R8kV4 (Megnyitás: 2024.07.02.)",
+    "",
+    "Szivattyúház: a szerkezeti egységek kapcsolódását és rögzítését biztosítja amellett, hogy a komplett szivattyú rögzítését is lehetővé teszi.",
+    "Hajtótengely: a tengely külső részéhez csatlakozik a forgóelosztó (kommutátor), a belső részéhez pedig a közvetítő tengely fogazott csatlakozója. A szivattyú meghajtása, illetve hidromotor esetében a szerkezeti egység meghajtása a tengelyen keresztül történik.",
+    "Forgóelosztó (kommutátor): a jobb hatásfokú működés érdekében a rajta lévő nyílásokon és a házban kialakított furatokon keresztül a munkafolyadék a szivattyú munkatereibe kerül, vagy onnan távozik. A forgóelosztó a működés során együtt forog a külső fogazású fogaskerékkel.",
+    "Közvetítő tengely: mindkét végén speciális fogazással rendelkezik, az egyik vége hajtótengelyhez, a másik vége a külső fogazású fogaskerékhez kapcsolódik. A fogazás kialakítása biztosítja, hogy a működés során külső fogazású fogaskerék a fogasgyűrűben bolygómozgással tudjon elfordulni. A kapcsolat biztosításán túl a nyomatékátadást is lehetővé teszi szivattyúként és hidromotorként való használat során is.",
+    "Külső fogazású fogaskerék, 6 fog: a belső fogazással rendelkező fogazott gyűrűhöz viszonyítva egy foggal kevesebb található rajta, a fogaskerék és a fogazott gyűrű belső terét hat külön térre választja el.",
+    "Belső fogazású fogaskerék (fogazott gyűrű), 7 fog: speciális fogprofillal kialakított gyűrű, melyhez pontosan kapcsolódik a külső fogazású fogaskerék.",
+    "Közbetét: oldalról zárja a fogaskerekek munkatereit, egyik oldalon a szivattyúházhoz, másik oldalon a fogaskerekekhez csatlakozik.",
+    "Tömítőgyűrű: biztosítja, hogy az egymáshoz kapcsolódó felületek (szivattyúház, közbetét, fogazott gyűrű, zárófedél) között ne tudjon kiáramolni a munkafolyadék a munkatérből.",
+    "Zárófedél: oldalról zárja a fogaskerekek munkatereit.",
+    "Csavarok: a szivattyúházhoz rögzítik zárófedelet,a  fogazott gyűrűt és a közbetétet.",
+    "Szívó- és nyomócsatlakozók: a működés közben a munkafolyadék be- és kiáramlását biztosító csatlakozók bekötési helyei.",
+    "",
+    "A munkafolyadék szállítását a fogaskerekek végzik (35. ábra). Mindegyik fogárokhoz egy a szivattyúházban kialakított furat csatlakozik. A szivattyú szállítást végző elemei:",
+    "",
+    "",
+    "35. ábra: Bolygófogaskerekes (orbit) szivattyú kialakítása",
+    "Forrás: Mezei Tibor – Kocsis István – Dr. Varga Vilmos: Mezőgazdasági erőgépek I., Budapest, 2011, Herman Ottó Intézet Nonprofit Kft. 402. o.",
+    "",
+    "",
+    "36. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "",
+    "37. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "Tengelyeltolás (excentricitás): a külső fogazású fogaskerék és a fogazott gyűrű középvonalának eltérése, ettől is függ a szállított munkafolyadék mennyisége.",
+    "A szivattyú működésének tárgyalása előtt szükséges ismerni a munkatereket és azokat határoló szerkezeti egységeket (38. ábra).",
+    "",
+    "38. ábra: A bolygófogaskerekes (orbit) szivattyú munkaterei",
+    "Forrás: Kocsis István, Mezei Tibor, Dr. Varga Vilmos Imre: Mezőgazdasági erőgépek I. 402. o.",
+    "",
+    "",
+    "39. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "",
+    "40. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "A terek csatlakozása a szívó-, nyomó- és a résolajcsatornákhoz, melyet a forgóelosztó (kommutátor) vezérel:",
+    "szívócsatorna: V, VI és a VII tér,",
+    "nyomócsatorna: I, II és III,",
+    "résolajvezeték IV.",
+    "",
+    "A külső fogazású fogaskerék hajtásakor a belső fogazású fogaskerék áll és a külső fogazású fogaskerék legördül a fogazott belső gyűrűn, miközben bolygómozgást végezve „körbejárja” a fogazott belső gyűrűt. Az ábrán látható helyzetben a következő folyamat zajlik le az egyes terekben, amikor a tengelyt meghajtják:",
+    "tér: a fogaskerék gördüléséből adódóan a térfogat csökken, és elkezdődik a munkafolyadék szállítása, ekkor a legnagyobb a tér mérete.",
+    "tér: a térfogat ugyancsak csökken, és a munkafolyadék szállítása zajlik.",
+    "tér: a térfogat csökken és a munkafolyadék szállítása már a végéhez közelít, ebben a helyzetben a térfogatcsökkenés már kismértékű.",
+    "tér: ebben a helyzetben alig van térfogatcsökkenés, és már nem is történik a munkafolyadék-szállítás. A mozgó alkatrészek között viszont munkafolyadék kerülhet ebbe a térbe, melyet el kell vezetni egy külön csatornán, mert a keletkező nyomás rontaná a szivattyú hatásfokát. A résolajvezetéken áramló munkafolyadékot általában a hidraulikatartályba vezetik vissza.",
+    "tér: a fogaskerék gördülése során térfogatnövekedés keletkezik, ami nyomáscsökkenést okoz a térben. A nyomáscsökkenés hatására munkafolyadék áramlik be. Ebben a helyzetben kezdődik a szívási folyamat.",
+    "tér: a térfogatnövekedés miatt a térben csökken a nyomás, és munkafolyadékkal telítődik a tér.",
+    "tér: a térfogatnövekedés már nem nagymértékű, ezért kevés munkafolyadék áramlik a munkatérbe. Ebben a helyzetben fejeződik be a szívási folyamat.",
+    "",
+    "A külső fogazású fogaskerék tovább gördülésekor a munkaterekben lejátszódó folyamatok a következők szerint alakulnak (41. ábra):",
+    "",
+    "",
+    "41. ábra: Bolygófogaskerekes (orbit) szivattyú működése",
+    "Forrás: Kocsis István, Mezei Tibor, Dr. Varga Vilmos Imre: Mezőgazdasági erőgépek I. Budapest, 2011, Herman Ottó Intézet Nonprofit Kft. 402. o.",
+    "",
+    "",
+    "42. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "43. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "Az ábrából látható, hogy a külső fogazású kerék másik helyzetben található, és a munkaterekben zajló folyamatok is megváltoztak:",
+    "I.\ttér: ebben a helyzetben alig van térfogatcsökkenés, és már nem is történik a munkafolyadék-szállítás. A mozgó alkatrészek között viszont munkafolyadék kerülhet ebbe a térbe, melyet el kell vezetni egy külön csatornán, mert a keletkező nyomás rontaná a szivattyú hatásfokát.",
+    "II.\ttér: a fogaskerék gördülésének köszönhetően térfogatnövekedés keletkezik, ami nyomáscsökkenést okoz a térben. A nyomáscsökkenés hatására munkafolyadék áramlik be. Ebben a helyzetben kezdődik el a szívási folyamat.",
+    "III.\ttér: a térfogatnövekedés miatt a térben csökken a nyomás, és munkafolyadékkal telítődik a tér.",
+    "IV.\ttér: a térfogatnövekedés már nem nagymértékű, ezért kevés munkafolyadék áramlik a munkatérbe. Ebben a helyzetben fejeződik be a szívási folyamat.",
+    "V.\ttér: a fogaskerék gördüléséből adódóan a térfogat csökken, és elkezdődik a munkafolyadék szállítása, ebben a fázisban a legnagyobb a tér mérete.",
+    "VI.\ttér: szintén csökken a térfogat, és a munkafolyadék szállítása zajlik.",
+    "VII.\ttér: a térfogat csökken, és a munkafolyadék szállítása már a végéhez közelít, ebben a helyzetben a térfogatcsökkenés már kismértékű.",
+    "Az álló fogazott gyűrű fogárkaiban lévő munkafolyamatokhoz szükséges munkafolyadék megfelelő áramlását a külső fogazású fogaskerékkel együtt forgó forgóelosztó biztosítja. A forgóelosztóban a csatornák úgy vannak kialakítva, hogy a különféle munkafolyamatoknak megfelelően lehetővé tegyék a munkafolyadék áramlását.",
+    "1.1.3.1.\tA kommutátor és a munkaterek kapcsolata",
+    "",
+    "44. ábra: A forgóelosztó és a munkaterek kapcsolata",
+    "Forrás: Kocsis István, Mezei Tibor, Dr. Varga Vilmos Imre: Mezőgazdasági erőgépek I. Budapest, 2011, Herman Ottó Intézet Nonprofit Kft. 403. o.",
+    "",
+    "",
+    "45. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "46. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "A 44. ábrán az egyes munkaterek kapcsolata látható a forgóelosztó csatornáival. A jelenlegi kommutátorállásnál a munkafolyadék útja a csatornákban a következő:",
+    "Szívási folyamat: az 5., 6. és a 7. fogárkokban.",
+    "Nyomási folyamat: a 2., 3. és a 4. fogárokokban.",
+    "A résolajat az 1. fogárokból vezetik el.",
+    "",
+    "A mezőgazdasági gépekben alkalmazott bolygófogaskerekes orbit szivattyúk szállítási jellemzői:",
+    "Fajlagos munkafolyadék-szállítás: 0,1–200 cm3/fordulat.",
+    "Maximális üzemi nyomás: 12–16 MPa.",
+    "Üzemeltetési fordulatszám tartománya: 1000–6000 fordulat/min.",
+    "1.1.3.2.\tBelső fogazású bolygófogaskerekes (orbit) hidromotorok",
+    "A szivattyú átalakítás nélkül alkalmazható hidromotorként is, ilyenkor a munkafolyadékot nyomással vezetik a hidromotorba.",
+    "",
+    "47. ábra: A forgóelosztó és a munkaterek kapcsolata",
+    "Forrás: Kocsis István, Mezei Tibor, Dr. Varga Vilmos Imre: Mezőgazdasági erőgépek I. Budapest, 2011, Herman Ottó Intézet Nonprofit Kft. 403. o.",
+    "",
+    "",
+    "48. ábra: Állandó folyadéknyelésű, két áramlási irányú és két forgási irányú hidromotor",
+    "Forrás: saját készítésű",
+    "",
+    "Az 47. ábrán látható az egyes munkaterek kapcsolata a forgóelosztó csatornáival. A jelenlegi kommutátorállásnál a munkafolyadék útja a csatornákban a következő:",
+    "Beáramlási folyamat: az 5., 6. és a 7. fogárkokban.",
+    "Kiáramlási folyamat: a 2., 3. és a 4. fogárokokban.",
+    "A résolajat az 1. fogárokból vezetik el.",
+    "1.1.4.\tCsúszólapátos szivattyúk és hidromotorok",
+    "A csúszólapátos szivattyúk a munkafolyadék szállítását egy forgórészben, a sugárirányban elmozduló lapátok és a szivattyúház által határolt munkaterekben végzik. A szivattyú főbb szerkezeti egységeit és működését a 49-es ábra szemlélteti.",
+    "",
+    "",
+    "49. ábra: Csúszólapátos szivattyú szerkezeti felépítése",
+    "Forrás: https://nanopdf.com/download/hydraulic-pumps-ii_pdf (Megnyitás: 2024.07.02.)",
+    "",
+    "",
+    "50. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "51. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "Szivattyúház: egységbe foglalja a szivattyút, valamint a működéshez szükséges munkatérrel, csatornákkal és csatlakozásokkal rendelkezik. A szivattyú munkatereit határoló felület kör alakú.",
+    "Forgórész (rotor): biztosítja a szivattyú meghajtását, melynek hornyaiban a működés közben sugárirányban elmozduló lapátok (jelen esetben 6 db) találhatók.",
+    "Csúszólapátok: a forgórész hornyaiban helyezkednek el, a munkatereket egymástól elválasztják, függetlenné teszik. Forgás közben a centrifugális erő hatására a forgórészben sugárirányba elmozdulnak, a ház falának támaszkodva megőrzik a terek függetlenségét.",
+    "Szívócsatorna: a szivattyúházban kialakított csatorna, melyen keresztül munkafolyadék juthat a munkatérbe.",
+    "Szívócsonk: a munkafolyadék bevetését biztosító csővezeték csatlakozását teszi lehetővé.",
+    "Nyomócsatorna: a szivattyúházban kialakított csatorna, melyen keresztül a munkatérből a munkafolyadék kiáramlik.",
+    "Nyomócsonk: a munkafolyadék elvezetését biztosító csővezeték csatlakozását teszi lehetővé.",
+    "",
+    "A szivattyú működésének tárgyalásakor a munkaterek kialakulásával és a bennük lejátszódó folyamatokkal szükséges megismerkedni (52. ábra).",
+    "",
+    "",
+    "52. ábra: Csúszólapátos szivattyú munkaterei",
+    "Forrás: https://www.youtube.com/watch?v=5jsKMoF79F0 (Megnyitás: 2024.07.02.)",
+    "",
+    "",
+    "53. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "54. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "A tengely meghajtásakor a munkaterekben zajló folyamatokat az 55. ábra szemlélteti.",
+    "",
+    "",
+    "55. ábra: Munkaterekben zajló folyamatok",
+    "Forrás: https://www.youtube.com/watch?v=5jsKMoF79F0 (Megnyitás: 2024.07.02.)",
+    "",
+    "",
+    "56. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "",
+    "57. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "A kör alakú házban a forgórész középvonala eltolt. Tehát a forgórész a házban nem középen helyezkedik el, éppen ez teszi lehetővé forgás közben a munkaterek térfogatának megváltozását. A forgórész forgása miatt a csúszólapátok a horonyban sugárirányba mozdulnak el, egészen a szivattyúház munkaterét határoló felületig. A szivattyúházat oldalról fedelek zárják le, így a munkatérfogat zártnak tekinthető.",
+    "tér: a munkatérfogat nő, ennek következtében a nyomás csökken, és a munkafolyadék beáramlik a munkatérbe. Megkezdődik a szívási folyamat. Forgás közben a csúszólapát a szivattyúház felé mozdul.",
+    "tér: a munkatérfogat növekszik, és a munkafolyadék beáramlik a munkatérbe. Forgás közben a csúszólapát a szivattyúház felé mozdul.",
+    "tér: a térfogat még mindig növekszik, és a munkafolyadék a munkatérbe áramlik, a szívási folyamat a végéhez közelít. Forgás közben a csúszólapát még mindig a szivattyúház felé mozdul.",
+    "tér: a munkatérfogat csökken, ennek következtében megkezdődik a munkafolyadék kiáramlása a munkatérből. Kezdetét veszi a nyomási folyamat. Forgás közben a csúszólapát a tengely felé mozdul.",
+    "tér: a munkatérfogat tovább csökken, és ennek következtében a munkafolyadék kiáramlik a munkatérből. Forgás közben a csúszólapát a tengely felé mozdul.",
+    "tér: a munkatérfogat még mindig csökken, és a munkafolyadék kiáramlása folytatódik. Ebben a helyzetben a térfogatcsökkenés már kismértékű, a nyomási folyamat a végéhez közelít. Forgás közben a csúszólapát a tengely felé mozdul.",
+    "",
+    "A csúszólapátos szivattyúkat kialakításuk szerint három fő csoportra osztják:",
+    "kiegyensúlyozatlan forgórészű,",
+    "kiegyensúlyozott forgórészű,",
+    "változtatható folyadékszállítású.",
+    "1.1.4.1.\tKiegyensúlyozatlan forgórészű szivattyúk",
+    "A kiegyensúlyozatlan csúszólapátos szivattyú egy hengeres forgórészből és kör alakú szivattyúházból áll (58. ábra). A forgórész a szivattyúházban nem középen helyezkedik, hanem az egyik oldalra el van tolva.",
+    "",
+    "58. ábra: Kiegyensúlyozatlan forgórészű csúszólapátos szivattyú",
+    "Forrás: https://www.lunchboxsessions.com/materials/fixed-variable-displacement-pumps/introduction-to-vane-pumps-lesson (Megnyitás: 2024.07.02.)",
+    "",
+    "",
+    "59. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "",
+    "60. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "Működés során a szívó- és nyomóoldalak között nyomásváltozás alakul ki, ami a forgórész tengelyét oldalirányba igyekszik eltolni. Az oldalirányú elmozdulás a tengelyre és a tengely csapágyazására többletterhelést mér. A nagyobb terhelés miatt a csapágy élettartama csökkenhet.",
+    "1.1.4.2.\tKiegyensúlyozott forgórészű szivattyúk",
+    "A kiegyensúlyozott csúszólapátos szivattyú háza ellipszis alakú, ebben a forgórész középpontosan helyezkedik el (61. ábra).",
+    "",
+    "",
+    "61. ábra: Kiegyensúlyozott forgórészű csúszólapátos szivattyú",
+    "Forrás: https://www.lunchboxsessions.com/materials/fixed-variable-displacement-pumps/introduction-to-vane-pumps-lesson (Megnyitás: 2024.07.02.)",
+    "",
+    "62. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "",
+    "63. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "Az ellipszis alakú szivattyúház és a forgórész (rotor) középpontja azonos. A szivattyúház a kialakítása miatt két szívó- és két nyomóoldallal rendelkezik, ezért működés közben kiegyenlíti a forgórész oldalirányú terhelését. A két szívó- és a két nyomócsatornát a szivattyúházban kialakított csatornák kötik össze, melyek egy-egy csatlakozóhoz továbbítják a munkafolyadékot. A szivattyú előnye a kiegyensúlyozott forgórész mellett, hogy a tengely egyetlen körül fordulása a munkaterekben két munkafolyamatot eredményez. A két munkafolyamat alatt minden munkatérben kétszer zajlik szívás és nyomás. Az egy körül fordulás alatt a munkaterek által végzett szállítások számát ütemszámnak nevezik. A szóban forgó ábrán látható szivattyú ütemszáma 2.",
+    "",
+    "A kiegyensúlyozott forgórészű hidraulikus szivattyú szerkezeti felépítése (64. ábra):",
+    "",
+    "",
+    "64. ábra: Kiegyensúlyozott csúszólapátos szivattyú",
+    "Forrás: https://www.jbj.co.uk/vane-pumps.html (Megnyitás: 2024.07.02.)",
+    "1.1.4.3.\tVáltoztatható szállítású csúszólapátos szivattyúk",
+    "A szivattyúk felhasználása és üzemeltetése sokszor igényli, hogy a szivattyúk folyadékszállítása változtatható legyen. A változtatható szállítású folyadékszivattyúk szerkezeti felépítését és működését a 65. ábra szemlélteti.",
+    "",
+    "",
+    "65. ábra: Változtatható folyadékszállítású csúszólapátos szivattyú felépítése",
+    "Forrás: https://slideplayer.com/slide/3525346/ (Megnyitás: 2024.07.02.)",
+    "",
+    "",
+    "66. ábra: Két szállítási irányú változtatható szállítású szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "",
+    "67. ábra: Két szállítási irányú tengelykapcsolóval hajtott változtatható szállítású szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "Szivattyúház: a működéshez szükséges szerkezeti egységeket foglalja magába, és az elemek csatlakozását biztosítja.",
+    "Gyűrű: biztosítja munkaterek és a lapátok külső határolását, valamint a szivattyúházban az állítószerkezet elmozdításával a munkatereknek a forgórész középpontjától való elmozdulását.",
+    "Forgórész: benne helyezkednek el és szükséges mértékben elmodulnak a csúszólapátok, valamint a szivattyú meghajtását is lehetővé teszi a tengelyen keresztül.",
+    "Csúszólapát: a munkatereket választja el egymástól, és biztosítja azok sugárirányú tömítését.",
+    "Tengely: a forgórészhez csatlakozva a szivattyú meghajtását biztosítja.",
+    "Szívócsonk: a munkafolyadék munkatérbe bevezetésére szolgál.",
+    "Nyomócsonk: a munkafolyadék munkatérből való elvezetését teszi lehetővé.",
+    "Állítóegység: csavarorsós szerkezet, mely a gyűrűnek támaszkodik. Állítás során a gyűrűt a házban mozdítja el.",
+    "Támasztóegység: a gyűrű stabil megtámasztását biztosítja a szivattyúházban, szükség esetén pedig (az állítás során) engedi elmozdulni azt.",
+    "",
+    "A szivattyú alapvető működési módja a kiegyensúlyozatlan forgórészű szivattyúval egyezik meg. Lényeges eltérés azonban, hogy a munkatér határolását gyűrű végzi, amely a szivattyúházban az állító- és a támasztóegységen keresztül biztosítja a szivattyú megfelelő működését. Az állítás során a gyűrűt a forgórészhez képest mozdítják el, ami a tengelyeltolást (excentricitást) megváltoztatva módosítja a folyadékszállítás mennyiségét.",
+    "1.1.4.4.\tA csúszólapátok kialakítása és elrendezése",
+    "A szivattyú üzemi jellemzőit nagymértékben befolyásolja a csúszólapátok kialakítása és elrendezése. A jobb hatásfokkal való üzemeltetés szempontjából nem mindegy, hogy mekkora súrlódás lép fel a lapát és a ház között. Az elérhető maximális üzemi nyomás szempontjából pedig a lapát és a szivattyúház közötti tömítés is meghatározó tényező. A lapátok gyakran alkalmazott megoldásai:",
+    "szorítóerő növelése a munkafolyadék nyomásával,",
+    "tömítésnövelés több lapáttal,",
+    "kiegyenlítéses lapátnyomás-csökkentés.",
+    "",
+    "Szorítóerő növelése a munkafolyadék nyomásával",
+    "A szivattyú résveszteségének csökkentése érdekében a csúszólapátot a szivattyúház falához szorítják. A szorítóerő növelése érdekében pedig a munkafolyadék egy részét a nyomóoldalról a csúszólapátok alá vezetik (68. ábra).",
+    "",
+    "",
+    "68. ábra: Erőnövelés a munkafolyadék lapát alá vezetésével",
+    "Forrás: https://slideplayer.hu/slide/2088453/ 10. slide, (Megnyitás: 2024.07.03.)",
+    "",
+    "Az ábrán látható, hogy a forgórészben elhelyezkedő lapát alá munkafolyadékot vezetnek, amely a nyomóoldalról került ide. A megoldásnak köszönhetően nő a szivattyú által szállított munkafolyadék nyomása, a csúszólapát és a szivattyúház közötti súrlódási ellenállás szintén növekszik.  Mindennek következtében a szivattyú maximális üzemi nyomása nagyobb lesz, ezzel szemben a csúszólapátok szivattyúházhoz súrlódásának mértéke is növekedni fog.",
+    "",
+    "Tömítésnövelés több lapáttal",
+    "A jobb tömítés elérésének másik módja, hogy egy lapáthoronyba több csúszólapátot helyeznek el, és szintén a munkafolyadék egy részével szorítják a lapátokat a szivattyúház falához (69. ábra).",
+    "",
+    "69. ábra: Tömítésnövelés több lapát alkalmazásával",
+    "Forrás: https://slideplayer.hu/slide/2088453/ 10. slide, (Megnyitás: 2024.07.03.)",
+    "",
+    "A szivattyúház és a csúszólapát közötti tömítés javítható, ha a csúszólapát tömítőfelületét a szorítóerő módosítása nélkül csökkentik. Két lapát alkalmazásával és a felfekvő tömítőél felületének csökkentésével jobb tömítés érhető el a szivattyúház és a csúszólapát között. Ez a megoldás javítja a tömítést, viszont növeli a lapát és a szivattyúház közötti súrlódási ellenállást.",
+    "",
+    "Kiegyenlítéses lapátnyomás-csökkentés",
+    "Az előző két megoldás esetében jelentősen nő a csúszólapát és a szivattyúház közötti súrlódás, ami nem minden esetben megfelelő. A súrlódási erő csökkentése érdekében alkalmazzák a munkafolyadék lapátok közötti bevezetését, aminek következtében a lapátokat a házhoz szorító erő nagysága csökken (70. ábra).",
+    "",
+    "",
+    "70. ábra: Munkafolyadék alkalmazása a lapátok felületi nyomásának csökkentésére",
+    "Forrás: https://slideplayer.hu/slide/2088453/ 10. slide, (Megnyitás: 2024.07.03.)",
+    "",
+    "A csúszólapát belül üreges, melyen keresztül a forgórész felől munkafolyadék áramlik a lapát és a ház közé. Az üregen keresztül munkafolyadék kerül a csúszólapát és a szivattyúház közé, amely igyekszik a lapátot a szivattyúház falától eltávolítani. Az ábrán látható, hogy a csúszólapát alsó (A) és felső (A1) részén lévő felület nagysága nem egyforma. A két felület eltéréséből adódik, hogy a csúszólapátra ható erő (F), valamint a szivattyúház és a lapát között ébredő kiegyenlítő erő (F1) nem egyforma. A két erő különbsége adja meg a tényleges összeszorító erő nagyságát. Ennél a megoldásnál csökken csúszólapát és a szivattyúház között fellépő súrlódási ellenállás.",
+    "A mezőgazdasági gépeken alkalmazott csúszólapátos szivattyúk szállítási jellemzői:",
+    "Fajlagos munkafolyadék-szállítás: 5–-120 cm3/fordulat.",
+    "Maximális üzemi nyomás: 6–-16 MPa.",
+    "Üzemeltetési fordulatszám tartománya: 750–-2000 fordulat/min.",
+    "A szivattyú által szállított munkafolyadék mennyiségének meghatározása",
+    "A csúszólapátos szivattyú fajlagos szállítása függ a szivattyú geometriai jellemzőitől (71. ábra).",
+    "",
+    "",
+    "71. ábra: Csúszólapátos szivattyú geometriája",
+    "Forrás: https://www.researchgate.net/figure/Operating-diagram-of-a-single-acting-rotary-vane-pump_fig1_281369375 (Megnyitás: 2024.07.03.)",
+    "",
+    "A szivattyú fajlagos szállításának meghatározása:",
+    "",
+    "Ahol:",
+    "b: szivattyúház szélessége",
+    "e: tengelyeltolás (excentricitás)",
+    "D: szivattyúház belső átmérője",
+    "z: csúszólapátok száma",
+    "s: csúszólapátok vastagsága",
+    "i: ütemszám",
+    "",
+    "A csúszólapátos szivattyú térfogatáramának nagysága (Q):",
+    "",
+    "ahol:",
+    "q: fajlagos szállítás [mm3],",
+    "n: szivattyú tengelyének fordulatszáma [1/s].",
+    "",
+    "Feladat",
+    "Egy hat csúszólapáttal szerelt szivattyú házának szélessége 30 mm, a szivattyúház belső átmérője 60 mm. A csúszólapátok szélessége 3 mm. A szivattyú kiegyenlített forgórészű, az ütemszáma 2. A forgórész középvonalának és a szivattyúház középvonalának eltérése 5 mm. A szivattyú percenként 1200-at fordul.",
+    "Határozza meg:",
+    " a szivattyú fajlagos szállítását [cm3/fordulat],",
+    "a térfogatáram nagyságát [cm3/min]!",
+    "",
+    "Megoldás",
+    "z = 6 db",
+    "b = 30 mm = 3 cm",
+    "D = 60 mm = 6 cm",
+    "s = 3 mm = 0,3 cm",
+    "i = 2",
+    "e = 5 mm= 0,5 cm",
+    "n = 1200 1/min",
+    "q = ? [cm3/fordulat]",
+    "Q = ? [cm3/min]",
+    "",
+    "A fajlagos szállítás meghatározása:",
+    "",
+    "",
+    "",
+    "",
+    "A szivattyú fajlagos szállítása: 102,297 cm3/fordulat.",
+    "A szivattyú által szállított térfogatáram nagysága:",
+    "",
+    "",
+    "",
+    "A szivattyú térfogatáramának nagysága 122756,4 [cm3/min].",
+    "1.1.4.5.\tCsúszólapátos rendszerű hidromotor",
+    "Ahhoz, hogy a csúszólapátos rendszerű szivattyú alkalmassá váljon a hidromotorként való használatra, átalakítás szükséges. Ugyanis szivattyúüzem esetén a meghajtott forgórész és a lapátokra ható centrifugális erő a szivattyúház falához szorítja a csúszólapátokat. Hidromotorként való használat esetén (72. ábra) a forgórész áll, és a csúszólapátokra nem hat semmilyen összeszorító erő, ezért a munkaterek nem választódnak el egymástól. Ezért a forgórész nem fordul el, amikor munkafolyadékot vezetnek a munkaterekbe.",
+    "",
+    "72. ábra: Csúszólapátos hidromotor működése",
+    "Forrás: https://www.mdpi.com/energies/energies-15-06229/article_deploy/html/images/energies-15-06229-g008-550.jpg (Megnyitás: 2024.06.29.)",
+    "",
+    "",
+    "73. ábra: Állandó folyadéknyelésű, két áramlási irányú és két forgási irányú hidromotor",
+    "Forrás: saját készítésű",
+    "",
+    "Az ábrán látható hidromotor a kiegyenlítéses forgórészű szivattyú kialakításához hasonló, tehát a forgórész egy körülfordulása alatt minden munkatér két teljes munkafolyamatot végez. A munkaterekben végbemenő folyamatok a következők:",
+    "A munkatérbe a munkafolyadék nyomással érkezik, a rugó a lapátot a hidromotorház falának szorítja. A munkafolyadék nyomása elmozdítja a forgórészt.",
+    "A munkatérbe a munkafolyadék nyomással érkezik, a munkafolyadék a forgórészt forgatja.",
+    "A munkatérből a munkafolyadék távozik, és a leggyakrabban alkalmazott rendszerek esetében visszatér a hidraulikus rendszer tartályába.",
+    "A munkafolyadék beáramlása megkezdődik a munkatérbe, ezzel a forgórészt forgatja.",
+    "A munkafolyadék a munkatérbe áramolva forgatja a forgórészt.",
+    "A munkafolyadék a munkatérbe áramolva forgatja a forgórészt.",
+    "A munkatérből távozik a munkafolyadék.",
+    "A munkatérből távozik a munkafolyadék.",
+    "A kiegyenlített forgórészű hidromotor egyenletes meghajtást tesz lehetővé.",
+    "",
+    "Ábrajegyzék",
+    "1. ábra: Külső fogazású fogaskerekes szivattyú működési elve\t6",
+    "2. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú\t7",
+    "3. ábra: Két szállítási irányú szivattyú\t7",
+    "4. ábra: Külső fogazású fogaskerekes szivattyú szerkezeti felépítése\t8",
+    "5. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú\t8",
+    "6. ábra: Két szállítási irányú szivattyú\t9",
+    "7. ábra: Fogaskerék jellemző átmérői és fogjellemzői\t10",
+    "8. ábra: Fogaskerék jellemző méretei\t11",
+    "9. ábra: Munkafolyadék visszavezetése a siklócsapágy és a fedelek közé\t14",
+    "10. ábra: Két szállítási irányú, tengelykapcsolóval hajtott szivattyú\t15",
+    "11. ábra: Két szállítási irányú szivattyú\t15",
+    "12. ábra: Külső fogazású fogaskerekes hidromotor\t16",
+    "13. ábra: Állandó folyadéknyelésű, két áramlási irányú és két forgási irányú hidromotor\t16",
+    "14. ábra: Belső és külső fogazású fogaskerekes szivattyú felépítése\t17",
+    "15. ábra: Két szállítási irányú, tengelykapcsolóval hajtott szivattyú\t17",
+    "16. ábra: Két szállítási irányú szivattyú\t18",
+    "17. ábra: A szivattyú szívási szakasza\t19",
+    "18. ábra: Két szállítási irányú, tengelykapcsolóval hajtott szivattyú\t19",
+    "19. ábra: Két szállítási irányú szivattyú\t20",
+    "20. ábra: A munkafolyadék útja a szivattyú belsejében\t20",
+    "21. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú\t21",
+    "22. ábra: Két szállítási irányú szivattyú\t21",
+    "23. ábra: A szivattyú nyomási szakasza\t22",
+    "24. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú\t22",
+    "25. ábra: Két szállítási irányú szivattyú\t22",
+    "26. ábra: Belső fogazású fogaskerék-szivattyú szerkezeti egységei\t24",
+    "27. ábra: Állandó folyadéknyelésű, két áramlási irányú és két forgási irányú hidromotor\t24",
+    "28. ábra: Belső fogazású bolygókerekes szivattyú működési elve\t25",
+    "29. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú\t25",
+    "30. ábra: Két szállítási irányú szivattyú\t26",
+    "31. ábra: Belső fogazású bolygókerekes (orbit) szivattyú munkaterei\t27",
+    "32. ábra: Két szállítási irányú szivattyú\t27",
+    "33. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú\t28",
+    "34. ábra: Külső fogazású bolygómozgással körbeforgó fogaskerekes (Orbit) szivattyú felépítése\t29",
+    "35. ábra: Bolygófogaskerekes (orbit) szivattyú kialakítása\t30",
+    "36. ábra: Két szállítási irányú szivattyú\t31",
+    "37. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú\t31",
+    "38. ábra: A bolygófogaskerekes (orbit) szivattyú munkaterei\t32",
+    "39. ábra: Két szállítási irányú szivattyú\t32",
+    "40. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú\t32",
+    "41. ábra: Bolygófogaskerekes (orbit) szivattyú működése\t34",
+    "42. ábra: Két szállítási irányú szivattyú\t34",
+    "43. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú\t35",
+    "44. ábra: A forgóelosztó és a munkaterek kapcsolata\t36",
+    "45. ábra: Két szállítási irányú szivattyú\t36",
+    "46. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú\t37",
+    "47. ábra: A forgóelosztó és a munkaterek kapcsolata\t38",
+    "48. ábra: Állandó folyadéknyelésű, két áramlási irányú és két forgási irányú hidromotor\t38",
+    "49. ábra: Csúszólapátos szivattyú szerkezeti felépítése\t39",
+    "50. ábra: Két szállítási irányú szivattyú\t39",
+    "51. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú\t40",
+    "52. ábra: Csúszólapátos szivattyú munkaterei\t41",
+    "53. ábra: Két szállítási irányú szivattyú\t41",
+    "54. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú\t42",
+    "55. ábra: Munkaterekben zajló folyamatok\t42",
+    "56. ábra: Két szállítási irányú szivattyú\t43",
+    "57. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú\t43",
+    "58. ábra: Kiegyensúlyozatlan forgórészű csúszólapátos szivattyú\t45",
+    "59. ábra: Két szállítási irányú szivattyú\t45",
+    "60. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú\t46",
+    "61. ábra: Kiegyensúlyozott forgórészű csúszólapátos szivattyú\t46",
+    "62. ábra: Két szállítási irányú szivattyú\t47",
+    "63. ábra: Két szállítási irányú tengelykapcsolóval hajtott szivattyú\t47",
+    "64. ábra: Kiegyensúlyozott csúszólapátos szivattyú\t48",
+    "65. ábra: Változtatható folyadékszállítású csúszólapátos szivattyú felépítése\t48",
+    "66. ábra: Két szállítási irányú változtatható szállítású szivattyú\t49",
+    "67. ábra: Két szállítási irányú tengelykapcsolóval hajtott változtatható szállítású szivattyú\t49",
+    "68. ábra: Erőnövelés a munkafolyadék lapát alá vezetésével\t51",
+    "69. ábra: Tömítésnövelés több lapát alkalmazásával\t52",
+    "70. ábra: Munkafolyadék alkalmazása a lapátok felületi nyomásának csökkentésére\t53",
+    "71. ábra: Csúszólapátos szivattyú geometriája\t53",
+    "72. ábra: Csúszólapátos hidromotor működése\t56",
+    "73. ábra: Állandó folyadéknyelésű, két áramlási irányú és két forgási irányú hidromotor\t56",
+    "",
+    "",
+    "Irodalomjegyzék",
+    "Mezei Tibor, Kocsis István, Dr. Varga Vilmos: Mezőgazdasági erőgépek I. (2011), Budapest, Herman Ottó Intézet Kft., ISBN: 978-963-309-021-3"
+  ],
+  "runs": [
+    [],
+    [],
+    [
+      "Egyedi megrendelés azonosítója: EM-2.9.2"
+    ],
+    [
+      "A",
+      "grárműszaki erőforrások hidrauli",
+      "k",
+      "us teljesítményátvitele ",
+      "II."
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      "Tartalomjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "1.",
+      "\t",
+      "Az energiaátalakítók kialakítása"
+    ],
+    [
+      "A mezőgazdasági erő- és munkagépek hidraulikus rendszerében alkalmazott energiaátalakítók mozgástípusuk szerint három nagy csoportba oszthatók:"
+    ],
+    [
+      "forgómozgású,"
+    ],
+    [
+      "egyenesvonalú mozgású,"
+    ],
+    [
+      "lengőmozgású energiaátalakítók."
+    ],
+    [],
+    [
+      "A forgómozgású energiaátalakítók a működés során az energiaátalakítást forgó mozgás révén valósítják meg."
+    ],
+    [
+      "Az egyenesvonalú mozgást végző energiaátalakítók esetén az energia átalakítása a szerkezeti egységek egyenesvonalú mozgása közben történik."
+    ],
+    [
+      "A lengőmozgású energiaátalakítók működés során lengő mozgást végezve biztosítják az energia átalakítását."
+    ],
+    [],
+    [
+      "Az energiaátalakítókat az energiaátalakítás iránya szerint két nagy csoportba lehet bontani:"
+    ],
+    [
+      "mechanikus energiából hidraulikus energiát előállító egységek, pl. szivattyúk;"
+    ],
+    [
+      "hidraulikus energiából mechanikus energiát előállító egységek, pl. ",
+      "hidromotorok",
+      ", hidraulikus munkahengerek."
+    ],
+    [],
+    [
+      "Szivattyúk: ",
+      "A mezőgazdasági gépeken általában térfogatkiszorítás elvén működő szivattyúkat alkalmaznak. A térfogatkiszorítás elvén működő szivattyúkban a meghajtott egységek működése közben megváltozik ",
+      "munkatérfogat",
+      " mérete. A munkatérfogat növekedése esetén a térben nyomáscsökkenés lép fel, és a térbe ",
+      "munkafolyadék",
+      " áramlik be, ez a szívás szakasza. A munkatérfogat csökkenésekor a nyomás növekszik és a térből munkatérfolyadék áramlik ki, ez a szivattyú nyomási szakasza."
+    ],
+    [],
+    [
+      "A térfogatkiszorítás elvén működő szivattyúk csoportosítása:"
+    ],
+    [
+      "fogaskerékszivattyú",
+      ":"
+    ],
+    [
+      "külső fogazású,"
+    ],
+    [
+      "belső fogazású,"
+    ],
+    [
+      "csúszólapátos",
+      " szivattyú",
+      ":"
+    ],
+    [
+      "egyszeres szállítású,"
+    ],
+    [
+      "kettős szállítású,"
+    ],
+    [
+      "dugattyús szivattyúk",
+      ":"
+    ],
+    [
+      "radiáldugattyús szivattyú:"
+    ],
+    [
+      "belső excenteres,"
+    ],
+    [
+      "külső excenteres,"
+    ],
+    [
+      "axiáldugattyús",
+      " szivattyú:"
+    ],
+    [
+      "ferdetárcsás,"
+    ],
+    [
+      "ferdetengelyes."
+    ],
+    [
+      "csavarszivattyúk",
+      "."
+    ],
+    [],
+    [
+      "Amikor egy adott szivattyú tulajdonságairól vagy teljesítményéről szeretnél beszélni, akkor a következő jellemzőket szükséges ismerned:"
+    ],
+    [
+      "fajlagos szállítás: egy hajtó tengely fordulata alatt szállított munkafolyadék mennyisége [",
+      ","
+    ],
+    [
+      "a szivattyú maximális üzemi nyomása [",
+      "MPa",
+      "],"
+    ],
+    [
+      "a szivattyú üzemi fordulatszáma [1/min; 1/s],"
+    ],
+    [
+      "működés közben változtatható-e a szállított munkafolyadék mennyisége,"
+    ],
+    [
+      "beépítés alkalmával független-e a hidraulikus csatlakozók helyzete (ebben az esetben megcserélhető a vezeték)."
+    ],
+    [],
+    [
+      "Hidromotorok",
+      ": A mezőgazdasági gépekben alkalmazott szivattyúk többsége alkalmas arra, hogy ",
+      "hidromotorként",
+      " használják, egyes esetekben átalakítással oldható meg a motorként való üzemeltetés. A ",
+      "hidromotorok",
+      " működés közben a munkafolyadékot nyomással juttatják a ",
+      "munkatérbe, ahol az a mechanikus egységet elmozdítja, melynek tengelye így alkalmassá válik gépszerkezetek meghajtására."
+    ],
+    [],
+    [
+      "A térfogatkiszorítás elvén működő leggyakrabban alkalmazott ",
+      "hidromotorok",
+      " csoportosítása:"
+    ],
+    [
+      "fogaskerekes ",
+      "hidromotor",
+      ":"
+    ],
+    [
+      "külső fogazású,"
+    ],
+    [
+      "belső fogazású,"
+    ],
+    [
+      "dugattyús ",
+      "hidromotor",
+      ":"
+    ],
+    [
+      "radiáldugattyús:"
+    ],
+    [
+      "belső excenteres,"
+    ],
+    [
+      "külső excenteres,"
+    ],
+    [
+      "axiáldugattyús",
+      ":"
+    ],
+    [
+      "ferdetárcsás,"
+    ],
+    [
+      "ferdetengelyes."
+    ],
+    [],
+    [
+      "A ",
+      "hidromotorok",
+      " egyik nagy előnye a belső égésű motorokkal szemben, hogy már az indulás pillanatában maximális nyomatékot képesek leadni, ami nagyban megkönnyíti a meghajtott gépszerkezetek indítási folyamatát."
+    ],
+    [],
+    [
+      "Amikor egy ",
+      "hidromotor",
+      " tulajdonságairól vagy teljesítményéről szeretnél beszélni, akkor a következő jellemzőket szükséges ismerned:"
+    ],
+    [
+      "fajlagos nyelés: egy tengely fordulata alatt elnyelt munkafolyadék mennyisége [",
+      ","
+    ],
+    [
+      "a ",
+      "hidromotor",
+      " maximális üzemi nyomása [",
+      "MPa",
+      "],"
+    ],
+    [
+      "a ",
+      "hidromotor",
+      " üzemi fordulatszám-tartománya [1/min; 1/s],"
+    ],
+    [
+      "működés közben változtatható-e az elnyelt munkafolyadék mennyisége,"
+    ],
+    [
+      "beépítés alkalmával független-e a hidraulikus csatlakozók helyzete (ebben az es esetben megcserélhető a vezeték)."
+    ],
+    [
+      "Hidraulikus munkahengerek: A mezőgazdasági gépekben gyakran alkalmazott energiaátalakító, mely a munkafolyadék nyomási energiáját alakítja át mechanikai munkává."
+    ],
+    [
+      "1.",
+      "1",
+      ".",
+      "\t",
+      "Fogaskerekes energiaátalakítók"
+    ],
+    [
+      "A fogaskerekes energiaátalakítókban hidraulikus szivattyúk esetén a munkafolyadékkal energiát közlő, illetve ",
+      "hidromotorok",
+      " esetén a munkafolyadék által munkát végző forgó egységek külső vagy belső fogaskerekekből állnak."
+    ],
+    [],
+    [
+      "A szivattyúk és ",
+      "hidromotorok",
+      " veszteségei:"
+    ],
+    [
+      "térfogati (résveszteség),"
+    ],
+    [
+      "mechanikai (alkatrészek közötti súrlódás),"
+    ],
+    [
+      "hidraulikus (folyadéksúrlódás)."
+    ],
+    [],
+    [
+      "Térfogati veszteség: a munkafolyadék szállítását végző elemek rendszerében az alkotórészek egymáshoz kapcsolódásának helyein működési vagy kopásból eredő rések képződhetnek. A réseken a munkafolyadék az egyik térből a másikba távozik, ezt a veszteséget résveszteségnek vagy ",
+      "volumetrikus",
+      " veszteségnek nevezik."
+    ],
+    [],
+    [
+      "Mechanikai veszteség: a szivattyúban és a ",
+      "hidromotorban",
+      " az egymáshoz viszonyítottan elmozduló alkatrészek között fellépő súrlódásból keletkezik, ami nyomásveszteséget eredményez."
+    ],
+    [],
+    [
+      "Hidraulikus veszteség: a munkafolyadék áramlása során a részecskék egymáshoz és a csővezetékekhez, valamint a rendszerben lévő idomokhoz, pl. a könyökhöz súrlódnak, a fellépő súrlódásból veszteség keletkezik, ami nyomásveszteséggel is jár."
+    ],
+    [
+      "1.",
+      "1",
+      ".1.",
+      "\t",
+      "Külső fogazású fogaskerekes szivattyúk és ",
+      "hidromotorok"
+    ],
+    [
+      "A külső fogazású fogaskerekes szivattyúkat a bemenő (hajtó) tengelyen keresztül hajtják meg, és a működésük során a kapcsolódó fogaskerekek fogárkai között történik a munkafolyadék szállítása."
+    ],
+    [],
+    [
+      "A szivattyúk működés közben a munkafolyadékot akkor tudják nagy nyomással továbbítani, ha a (szívó-nyomó) munkatér tömített és a munkafolyadék a be- és kilépő nyílásokon keresztül elhagyja el a szivattyút. ",
+      "Amennyiben a rendszer nem tömített, a munkafolyadék nyomása csökken, ami a szivattyú hatásfokának romlását okozza."
+    ],
+    [
+      "1.",
+      "1",
+      ".1.1.",
+      "\t",
+      "A külső fogazású fogaskerekes szivattyú felépítése és működése"
+    ],
+    [
+      "A ",
+      "külső fogazású fogaskerekes szivattyú",
+      " felépítését és működését az",
+      " 1. ábra ",
+      "szemlélteti."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". ábra: ",
+      "Külső fogazású fogaskerekes szivattyú működési elve"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " Mezei Tibor – Kocsis István – Dr. Varga Vilmos: Mezőgazdasági erőgépek I., Budapest, 2011, Herman Ottó Intézet Nonprofit Kft. 399. o."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "2",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú tengelykapcsolóval hajtott szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "3",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "A fogaskerekes szivattyú működési elve:"
+    ],
+    [
+      "A fogaskerekek egymással kapcsolatban vannak és a házban helyezkednek el, a fogaskerekek fogárkaiban halad a munkafolyadék. A szivattyú hajtó fogaskerekének meghajtása a hozzá kapcsolódó hajtott fogaskereket is forgásba hozza. A házon általában két kivezetés található: „A” szívóoldal és a „B” a nyomó oldal. A szívóoldalon a fogaskerekek forgása miatt a házban a térfogat megnő, ami nyomáscsökkenést okoz „A” terében, és a munkafolyadék beáramlik, majd megtölti a fogárkokat. A fogaskerekek forgása közben a munkafolyadék a fogárkokban helyezkedik el, melyet a ház és a fogaskerék választ el egymástól. A „B” térben a fogaskerekek ",
+      "forgásából adódóan a fogárkokban lévő munkafolyadék nyomása megnő (a fogaskerekek összeforgása miatt), és a munkafolyadék kiáramlik a nyomótérből."
+    ],
+    [],
+    [
+      "A külső fogazású fogaskerekes szivattyú szerkezeti felépítése (",
+      "4. ábra",
+      ")"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "4",
+      "",
+      ". ábra: ",
+      "Külső fogazású fogaskerekes szivattyú szerkezeti felépítése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.linquip.com/industrial-directories/1008/gear-pump (Megnyitás: 2024.07.01.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "5",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú tengelykapcsolóval hajtott szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "s",
+      "aját készítésű"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "6",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "Szivattyúház:",
+      " a szivattyúházhoz kapcsolódnak az egyes alkatrészek, valamint a ház biztosítja a fogaskerekek külső kerületén a tömítést a működés során."
+    ],
+    [
+      "Hajtó fogaskerék (z",
+      "1",
+      "):",
+      " a hajtó fogaskerék tengelyén következik be a szivattyú meghajtása, ami megforgatja a hajtott fogaskereket (z",
+      "2",
+      "), miközben a ház és a fogárkok közötti térben a munkafolyadékot szállítja."
+    ],
+    [
+      "Hajtott fogaskerék (z",
+      "2",
+      "):",
+      " a hajtása közben a ház és a fogárok közötti térben szintén a munkafolyadékot szállítja."
+    ],
+    [
+      "Siklócsapágyak:",
+      " a fogaskerekek tengelyeit támasztják meg, valamint a fogaskerekek homlokfelületén biztosítják a tömítést, hogy a munkafolyadék csak a fogárkokon keresztül tudjon halani."
+    ],
+    [
+      "Háztömítés:",
+      " a szivattyúház és a zárófedél, valamint a szivattyúház és a peremes fedél között akadályozza meg a munkafolyadék kiáramlását."
+    ],
+    [
+      "Tengelytömítés",
+      ": a tengelyek és a velük csatlakozó elemek között akadályozza meg a munkafolyadék távozását a rendszerből."
+    ],
+    [
+      "Peremes fedél",
+      ": csavarokkal kapcsolódik a házhoz, biztosítja a kapcsolatot a szivattyú meghajtóegységéhez. A peremes fedél zárja elölről a szivattyúházat, valamint a siklócsapágyakat is rögzíti."
+    ],
+    [
+      "Zárófedél:",
+      " csavarokkal van rögzítve a házhoz, továbbá hátulról zárja a szivattyút, valamint a hátsó részben elhelyezkedő siklócsapágyakat tartja a helyükön."
+    ],
+    [
+      "Csavar(ok):",
+      " ",
+      "a házhoz rögzítik a szivattyú működéséhez szükséges szerkezeti egységeket, pl. zárófedél, peremes fedél."
+    ],
+    [
+      "Tengely:",
+      " szivattyú esetében a meghajtást biztosítja, ",
+      "hidromotorként",
+      " üzemeltetve viszont a nyomatékot adja tovább."
+    ],
+    [
+      "1.",
+      "1",
+      ".1.2.",
+      "\t",
+      "A fogaskerekek jellemző geometriai méretei és meghatározásuk"
+    ],
+    [
+      "A fogaskerekek jellemző geometriai méreteit a ",
+      "7. és 8. ábra ",
+      "szemlélteti."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "7",
+      "",
+      ". ábra: ",
+      "Fogaskerék jellemző átmérői és fogjellemzői"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://tudasbazis.sulinet.hu/hu/szakkepzes/vegyipar/muszaki-ismeretek/a-modul-osztokor-attetel/fogaskerek-modulja-levezetese (Megnyitás 2024.07.01",
+      ".",
+      ")"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "8",
+      "",
+      ". ábra: ",
+      "Fogaskerék jellemző méretei"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.chegg.com/homework-help/questions-and-answers/1-identify-features-involute-gear-tooth-nomenclature-15-12-13-14-16-10-9-10-2-3-4-12-13-14-q32762932 (Megnyitás: 2024.07.01.)"
+    ],
+    [],
+    [
+      "A fogaskerekek legfontosabb adatai"
+    ],
+    [],
+    [
+      "Osztás"
+    ],
+    [
+      "Az osztás (p) az osztókörön mért fogvastagság és a fogárok hossza."
+    ],
+    [],
+    [
+      "Modul"
+    ],
+    [
+      "A modul (m) a fogaskerék egyik jellemző adata, amelyet az osztás és a π hányadosával lehet meghatározni."
+    ],
+    [],
+    [
+      "Osztókörátmérő"
+    ],
+    [
+      "Az osztókörátmérő (d) a fogaskerék fejköre és a lábköre közötti kör, ezen a körön mérik a fog és a fogárok közötti hosszat."
+    ],
+    [],
+    [
+      "Ahol:"
+    ],
+    [
+      "z: fogaskerék fogszáma"
+    ],
+    [
+      "Teljes fogmagasság"
+    ],
+    [
+      "A teljes fogmagasság (h) a fogaskerék fogának a teljes magassága, amely általában",
+      ":"
+    ],
+    [],
+    [
+      "Ahol:"
+    ],
+    [
+      "m: modul [mm]"
+    ],
+    [],
+    [
+      "Fejmagasság"
+    ],
+    [
+      "A fejmagasság az osztókör és a fejkör közötti távolság, amelynek nagysága általában:"
+    ],
+    [],
+    [
+      "A fejmagasság rendszerint megegyezik a modul nagyságával."
+    ],
+    [],
+    [
+      "Lábmagasság"
+    ],
+    [
+      "A lábmagasság az osztókör és a lábkör közötti távolság, amely nagysága jellemzően:"
+    ],
+    [],
+    [],
+    [
+      "Fejkörátmérő"
+    ],
+    [
+      "A fejkörátmérő a fogaskerék külső fogfelületét határoló kör átmérője, amely a következő módon határozható meg:"
+    ],
+    [],
+    [],
+    [
+      "Lábkörátmérő"
+    ],
+    [
+      "A lábkörátmérő a fogaskerék fogainak alsó határoló körének az átmérője, amely a következők szerint határozható meg:"
+    ],
+    [],
+    [
+      "Fogaskerék szélessége: a fogaskerék fogprofiljának a szélessége."
+    ],
+    [],
+    [
+      "A fogaskerekes szivattyú által szállított fajlagos munkafolyadék mennyisége (q):"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "m: modul [mm],"
+    ],
+    [
+      "d: osztókör átmérője [mm],"
+    ],
+    [
+      "b: fogaskerék szélessége [mm]."
+    ],
+    [],
+    [
+      "A fogaskerekes szivattyú térfogatáramának nagysága (Q):"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "q: fajlagos szállítás [mm",
+      "3",
+      "],"
+    ],
+    [
+      "n: szivattyú tengelyének fordulatszáma [1/s]."
+    ],
+    [],
+    [
+      "Feladat"
+    ],
+    [
+      "Egy fogaskerekes szivattyú fogszáma 20, a fogaskerék szélessége 40 mm és a modul nagysága 3 mm. A szivattyút percenként 1400-as fordulatszámon hajtják meg."
+    ],
+    [
+      "Határozza meg:"
+    ],
+    [
+      "a szivattyú fajlagos szállítását [dm",
+      "3",
+      "/fordulat],"
+    ],
+    [
+      "a szivattyú térfogatáramát [dm",
+      "3",
+      "/min]!"
+    ],
+    [],
+    [
+      "Megoldás"
+    ],
+    [
+      "z = 20"
+    ],
+    [
+      "b = 40 mm = 0,4 dm"
+    ],
+    [
+      "m = 3 mm = 0,03 dm"
+    ],
+    [
+      "n = 1400 1/min"
+    ],
+    [
+      "q = ?",
+      " [dm",
+      "3",
+      "/fordulat]"
+    ],
+    [
+      "Q = ?",
+      " [dm",
+      "3",
+      "/min]"
+    ],
+    [],
+    [
+      "A fajlagos szállítási mennyiség:"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "A szivattyú fajlagos munkafolyadék-szállítása 0,045 [dm",
+      "3",
+      "/fordulat]."
+    ],
+    [],
+    [
+      "A szivattyú által szállított munkafolyadék térfogatárama:"
+    ],
+    [],
+    [],
+    [],
+    [
+      "A szivattyú percenként 63,3 dm",
+      "3",
+      " munkafolyadékot szállít."
+    ],
+    [
+      "A fogaskerekes szivattyúk ",
+      "volumetrikus",
+      " hatásfokának javítása érdekében a nagyobb nyomású teret összekötik a peremes fedél és a siklócsapágy, valamint a zárófedél és a siklócsapágy közötti térrel (",
+      "9. ábra",
+      ")."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "9",
+      "",
+      ". ábra: ",
+      "Munkafolyadék visszavezetése a siklócsapágy és a fedelek közé"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.linquip.com/blog/hydraulic-pump-working-principles/ (Megnyitás: 2024.07.02.)"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "10",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú, tengelykapcsolóval hajtott szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "11",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "A munkafolyadék a fedelek és a siklócsapágyak közötti teret tölti ki, és a nyomásból fakadó erő a siklócsapágyakat nekiszorítja a fogaskerék homlokfelületének. A siklócsapágy és a fogaskerék közötti felfekvő felületek a nyomás hatására jobb tömítést biztosítanak, ezzel javítják a szivattyú hatásfokát."
+    ],
+    [
+      "A mezőgazdasági gépeken alkalmazott külső fogazású fogaskerekes szivattyúk szállítási jellemzői:"
+    ],
+    [
+      "Fajlagos munkafolyadék-szállítás: 0,1–200 cm3/fordulat."
+    ],
+    [
+      "Maximális üzemi nyomás: 12–16 ",
+      "MPa",
+      "."
+    ],
+    [
+      "Üzemeltetési fordulatszám tartománya: 1000–6000 fordulat/min."
+    ],
+    [
+      "1.",
+      "1",
+      ".1.3.",
+      "\t",
+      "Külső fogazású fogaskerekes ",
+      "hidromotorok"
+    ],
+    [
+      "A külső fogazású fogaskerekes szivattyúk többsége átalakítás nélkül alkalmas ",
+      "hidromotorként",
+      " való üzemeltetésre. A ",
+      "hidromotorként",
+      " való üzemeltetés során a nyomással rendelkező munkafolyadékot a munkatérbe vezetik be, ahol az a fogaskerekeket megforgatja, és a fogaskerék tengelyén keresztül meghajtja a hozzá kapcsolt szerkezeti egységet."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "12",
+      "",
+      ". ábra: ",
+      "Külső fogazású fogaskerekes ",
+      "hidromotor"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " Mezei Tibor – Kocsis István – Dr. Varga Vilmos: Erőgépek I. Budapest, 2011, Herman Ottó Intézet Nonprofit Kft. 399. o."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "13",
+      "",
+      ". ábra: ",
+      "Állandó folyadéknyelésű, két áramlási irányú és két forgási irányú ",
+      "hidromotor"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "A nyomással rendelkező munkafolyadékot az „A” oldalon vezetik be a munkatérbe, ahol a munkafolyadék megforgatja a fogaskerekeket. A forgás közben a fogárkokban a munkafolyadék a „B” oldali térbe kerülve kiáramlik a munkatérből. A tengellyel rendelkező fogaskerék pedig a munkafolyadék nyomásából keletkezett nyomatékkal meghajtja a hozzá kapcsolt szerkezeti egységet."
+    ],
+    [
+      "1.",
+      "1",
+      ".",
+      "2",
+      ".",
+      "\t",
+      "Belső és külső fogazású fogaskerekes szivattyúk és ",
+      "hidromotorok"
+    ],
+    [
+      "A szivattyúk szállítást végző elemei általában egy belső és külső fogazású fogaskerékből és egy térelválasztó ívből állnak (",
+      "14. ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "14",
+      "",
+      ". ábra: ",
+      "Belső és külső fogazású fogaskerekes szivattyú felépítése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://electricalworkbook.com/internal-gear-pump/ (Megnyitás: 2024.07.02.)"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "15",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú, tengelykapcsolóval hajtott szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "16",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "A szivattyú szerkezeti egységei",
+      ":"
+    ],
+    [
+      "Ház",
+      ": egységbe foglalja a működéshez szükséges szerkezeti egységeket."
+    ],
+    [
+      "Tengely",
+      ": biztosítja szivattyú esetében a meghajtást, illetve ",
+      "hidromotor",
+      " esetében a nyomaték leadását."
+    ],
+    [
+      "Külső fogazású fogaskerék",
+      ": a munkafolyadék szállítását és a szivattyú működtetését biztosítja."
+    ],
+    [
+      "Belső fogazású fogaskerék",
+      ": a külső fogazású fogaskerékhez kapcsolódva a munkafolyadék szállítását végzi."
+    ],
+    [
+      "Térelválasztó ív",
+      ": elválasztja a külső és belső fogazású fogaskerekek közötti teret, így biztosítja, hogy a munkafolyadék a működés minden fázisában mozogjon."
+    ],
+    [
+      "Szívóoldali csatlakozó",
+      ": a munkafolyadék beáramlását biztosító csővezetékcsatlakozó."
+    ],
+    [
+      "Nyomóoldali csatlakozó",
+      ": a szivattyú által szállított munkafolyadék elszállításához szükséges csővezetéket kötik ide."
+    ],
+    [],
+    [
+      "A szivattyú működése"
+    ],
+    [
+      "A munkafolyadék útját a szivattyúban három szakaszra lehet bontani:"
+    ],
+    [
+      "szívási szakasz,"
+    ],
+    [
+      "szállítás a szivattyúban,"
+    ],
+    [
+      "nyomási szakasz."
+    ],
+    [],
+    [
+      "Szívási szakasz"
+    ],
+    [
+      "A szívás szakaszában (",
+      "17. ábra",
+      ") a szivattyú szívótere a ",
+      "szívócsonkhoz",
+      " csatlakozik. A működés során a külső és belső fogazású fogaskerekek a térelválasztó ív által határolt térben egymáson legördülve térfogatnövekedést hoznak létre. A térfogatnövekedés miatt a fogaskerekek és a térelválasztó ív terében a nyomás csökken. A nyomáscsökkenés hatására a teret munkafolyadék tölti ki."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "17",
+      "",
+      ". ábra: ",
+      "A szivattyú szívási szakasza"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://electricalworkbook.com/internal-gear-pump/ (Megnyitás: 2024.07.02.)"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "18",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú, tengelykapcsolóval hajtott szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "19",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "Szállítás a szivattyú belsejében"
+    ],
+    [
+      "A szíváskor beáramló munkafolyadék kitölti a fogaskerékárkokat, és forgás közben továbbítja a szivattyú ",
+      "nyomócsonkjának",
+      " irányába a beáramlott munkafolyadékot (",
+      "20. ábra",
+      ")."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "20",
+      "",
+      ". ábra: ",
+      "A munkafolyadék útja a szivattyú belsejében"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://electricalworkbook.com/internal-gear-pump/ (Megnyitás: 2024.07.02",
+      ".",
+      ")"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "21",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú tengelykapcsolóval hajtott szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "s",
+      "aját készítésű"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "22",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "s",
+      "aját készítésű"
+    ],
+    [
+      "A fogaskerek fogárkait a térelválasztó ív választja el egymástól, ami biztosítja a munkaterek egymástól való elválasztását."
+    ],
+    [],
+    [
+      "Nyomási szakasz"
+    ],
+    [
+      "A külső és belső fogazású fogaskerek és a térelválasztó ív által határolt térhez a nyomócsonk kapcsolódik. A fogaskerekek a működés során azonos irányba forognak, és a fogárkokban szállított munkafolyadék a nyomócsonkba áramlik (",
+      "23. ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "23",
+      "",
+      ". ábra: ",
+      "A szivattyú nyomási szakasza"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://electricalworkbook.com/internal-gear-pump/ (",
+      "Megnyitás",
+      ": 2024.07.02.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "24",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú tengelykapcsolóval hajtott szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "25",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "A fogaskerekes szivattyú által szállított fajlagos munkafolyadék mennyisége (q):"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "m: modul [mm],"
+    ],
+    [
+      "d: osztókör átmérője [mm],"
+    ],
+    [
+      "b: fogaskerék szélessége [mm]."
+    ],
+    [],
+    [
+      "A fogaskerekes szivattyú ",
+      "térfogatáramának",
+      " nagysága (Q)."
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "q: fajlagos szállítás [mm",
+      "3",
+      "],"
+    ],
+    [
+      "n: szivattyú tengelyének fordulatszáma [1/s]."
+    ],
+    [],
+    [
+      "A mezőgazdasági gépeken alkalmazott fogaskerekes szivattyúk szállítási jellemzői:"
+    ],
+    [
+      "Fajlagos munkafolyadék-szállítás: 0,1–200 cm3/fordulat."
+    ],
+    [
+      "Maximális üzemi nyomás: 12–16 ",
+      "MPa",
+      "."
+    ],
+    [
+      "Üzemeltetési fordulatszám tartománya: 1000–2000 fordulat/min."
+    ],
+    [
+      "1.1.2.1.",
+      "\t",
+      "Külső és belső fogazású ",
+      "hidromotorok"
+    ],
+    [
+      "A szivattyú ",
+      "hidromotorként",
+      " is üzemeltethető, ebben az esetben munkafolyadékot nyomással vezetik a ",
+      "hidromotor",
+      " belsejébe (",
+      "26. ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "26",
+      "",
+      ". ábra: ",
+      "Belső fogazású fogaskerék-szivattyú szerkezeti egységei"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://electricalworkbook.com/internal-gear-pump/ (Megnyitás: 2024.07.02.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "27",
+      "",
+      ". ábra: ",
+      "Állandó folyadéknyelésű, két áramlási irányú és két forgási irányú ",
+      "hidromotor"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "A beáramló oldalon bevezetik a munkafolyadékot, amely kitölti a munkateret. A nyomással rendelkező munkafolyadék megforgatja a külső és belső fogazású fogaskerekeket. A forgás következtében a külső fogazású fogaskerék tengelye meghajtja a hozzá kapcsolt szerkezeti egységet."
+    ],
+    [
+      "1.1.3.",
+      "\t",
+      "Belső fogazású bolygófogaskerekes (",
+      "orbit",
+      ") szivattyúk és ",
+      "hidromotorok"
+    ],
+    [
+      "A belső fogazású bolygókerekes szivattyúban (",
+      "28. ábra",
+      ") a fogaskerekek fogazása speciális kialakítású. Az ",
+      "orbit",
+      " szivattyúk alapvetően két rendszerűek lehetnek:"
+    ],
+    [
+      "a belső és külső fogazású fogaskerek együtt forognak,"
+    ],
+    [
+      "a külső fogazású fogaskerék bolygómozgással „",
+      "körbeforog",
+      "” az álló belső fogazású fogaskerékben."
+    ],
+    [
+      "A belső és külső fogazású együtt forgó fogaskerekes szivattyú szerkezeti felépítése:"
+    ],
+    [
+      "A szivattyúban a belső fogazású fogaskerék (fogazott gyűrű) eggyel több fogárokkal rendelkezik, mint a hozzá kapcsolódó külső fogazású fogaskerék."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "28",
+      "",
+      ". ábra: ",
+      "Belső fogazású bolygókerekes szivattyú működési elve"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://engineering.purdue.edu/Maha_AVteam/OLD/research%20projects/Gerotor%202011%20sept%2017/00_Old/Gerotor%20Pump%20(Animated)_Original.gif (Megnyitás: 2024.07.02.)"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "29",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú tengelykapcsolóval hajtott szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "30",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "Belső fogazású fogaskerék (fogazott gyűrű):",
+      " speciális fogprofillal kialakított gyűrű, melyhez pontosan kapcsolódik a külső fogazású fogaskerék."
+    ],
+    [
+      "Külső fogazású fogaskerék:",
+      " a belső fogazással rendelkező fogazott gyűrűhöz viszonyítva egy foggal kevesebb található rajta, a fogaskerék a fogazott gyűrű belső terét öt külön térre választja el."
+    ],
+    [
+      "Tengely",
+      ": a külső fogazású fogaskerékhez kapcsolódik. A szivattyú meghajtása a tengelyen keresztül történik, illetve ",
+      "hidromotor",
+      " esetében ez biztosítja meghajtani kívánt szerkezeti egység működtetését."
+    ],
+    [
+      "Szívócsatorna",
+      ": a fogaskerekek oldalát záró házban van kialakítva és a belső fogazású gyűrűn három fogárokhoz csatlakozik. A működése során nyomáscsökkenés lép fel a térben."
+    ],
+    [
+      "Nyomócsatorna",
+      ": a fogaskerekek oldalát záró házban van kialakítva és a belső fogazású gyűrűn három fogárokhoz csatlakozik. A működése során nyomásnövekedés lép fel a térben."
+    ],
+    [],
+    [
+      "A szivattyú működése:"
+    ],
+    [
+      "A működés tárgyalásakor az (",
+      "orbit",
+      ") szivattyú fogai által határolt terekben uralkodó nyomásból indulunk ki (",
+      "31. ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "31",
+      "",
+      ". ábra: ",
+      "Belső fogazású bolygókerekes (",
+      "orbit",
+      ") szivattyú munkaterei"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://engineering.purdue.edu/Maha_AVteam/OLD/research%20projects/Gerotor%202011%20sept%2017/00_Old/Gerotor%20Pump%20(Animated)_Original.gif (Megnyitás: 2024.07.02.)"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "32",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "33",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú tengelykapcsolóval hajtott szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " ",
+      "s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "A külső fogazású fogaskerék hajtása során a belső fogazású fogaskerék is forog és az I. és a II. tér nagysága növekszik, ezért a nyomás csökken, melynek hatására a szívócsatornán munkafolyadék áramlik be a két térbe. A III., IV. és az V. térben a fogaskerekek gördülése miatt a térfogat csökken és a nyomás nő. Ezekből a terekből a munkafolyadék a nyomócsatornába áramlik. A szivattyú szállítása kis nyomásváltozások mellett jön létre, mivel a szívó- és nyomócsatornák egyszerre több térrel vannak kapcsolatban."
+    ],
+    [],
+    [
+      "A külső fogazású bolygómozgással ",
+      "körbeforgó",
+      " fogaskerekes szivattyú felépítése (",
+      "34. ábra",
+      ") és működése:"
+    ],
+    [
+      "Ebben a szivattyúban a külső fogazású fogaskerék az álló belső fogazású fogaskerékben (fogazott gyűrűben) elforog, miközben bolygómozgással körbejárja a fogazott gyűrűt."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "34",
+      "",
+      ". ábra: ",
+      "Külső fogazású bolygómozgással ",
+      "körbeforgó",
+      " fogaskerekes (",
+      "Orbit",
+      ") szivattyú felépítése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.youtube.com/watch?v=_iNDK5R8kV4 (Megnyitás: 2024.07.02",
+      ".",
+      ")"
+    ],
+    [],
+    [
+      "Szivattyúház",
+      ": a szerkezeti egységek kapcsolódását és rögzítését biztosítja amellett, hogy a komplett szivattyú rögzítését is lehetővé teszi."
+    ],
+    [
+      "Hajtótengely",
+      ": a tengely külső részéhez csatlakozik a forgóelosztó (kommutátor), a belső részéhez pedig a közvetítő tengely fogazott csatlakozója. A szivattyú meghajtása, illetve ",
+      "hidromotor",
+      " esetében a szerkezeti egység meghajtása a tengelyen keresztül történik."
+    ],
+    [
+      "Forgóelosztó (kommutátor):",
+      " a jobb hatásfokú működés érdekében a rajta lévő nyílásokon és a házban kialakított furatokon keresztül a munkafolyadék a szivattyú munkatereibe kerül, vagy onnan távozik. A forgóelosztó a működés során együtt forog a külső fogazású fogaskerékkel."
+    ],
+    [
+      "Közvetítő tengely:",
+      " mindkét végén speciális fogazással rendelkezik, az egyik vége hajtótengelyhez, a másik vége a külső fogazású fogaskerékhez kapcsolódik. A fogazás kialakítása biztosítja, hogy a működés során külső fogazású fogaskerék a fogasgyűrűben bolygómozgással tudjon elfordulni. A kapcsolat biztosításán túl a nyomatékátadást is lehetővé teszi szivattyúként és ",
+      "hidromotorként",
+      " való használat során is."
+    ],
+    [
+      "Külső fogazású fogaskerék, 6 fog:",
+      " a belső fogazással rendelkező fogazott gyűrűhöz viszonyítva egy foggal kevesebb található rajta, a fogaskerék és a fogazott gyűrű belső terét hat külön térre választja el."
+    ],
+    [
+      "Belső fogazású fogaskerék (fogazott gyűrű), 7 fog",
+      ": speciális fogprofillal kialakított gyűrű, melyhez pontosan kapcsolódik a külső fogazású fogaskerék."
+    ],
+    [
+      "Közbetét",
+      ": oldalról zárja a fogaskerekek munkatereit, egyik oldalon a szivattyúházhoz, másik oldalon a fogaskerekekhez csatlakozik."
+    ],
+    [
+      "Tömítőgyűrű",
+      ": biztosítja, hogy az egymáshoz kapcsolódó felületek (szivattyúház, közbetét, fogazott gyűrű, zárófedél) között ne tudjon kiáramolni a munkafolyadék a munkatérből."
+    ],
+    [
+      "Zárófedél",
+      ": oldalról zárja a fogaskerekek munkatereit."
+    ],
+    [
+      "Csavarok",
+      ": a szivattyúházhoz rögzítik ",
+      "zárófedelet",
+      ",a",
+      "  fogazott gyűrűt és a közbetétet."
+    ],
+    [
+      "Szívó- és nyomócsatlakozók",
+      ": a működés közben a munkafolyadék be- és kiáramlását biztosító csatlakozók bekötési helyei."
+    ],
+    [],
+    [
+      "A munkafolyadék szállítását a fogaskerekek végzik (",
+      "35. ábra",
+      "). Mindegyik fogárokhoz egy a szivattyúházban kialakított furat csatlakozik. A szivattyú szállítást végző elemei:"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "35",
+      "",
+      ". ábra: ",
+      "Bolygófogaskerekes (",
+      "orbit",
+      ") szivattyú kialakítása"
+    ],
+    [
+      "Forrás: Mezei Tibor – Kocsis István – Dr. Varga Vilmos: Mezőgazdasági erőgépek I., Budapest, 2011, Herman Ottó Intézet Nonprofit Kft. 402. o."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "36",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "37",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú tengelykapcsolóval hajtott szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "Tengelyeltolás (excentricitás):",
+      " a külső fogazású fogaskerék és a fogazott gyűrű középvonalának eltérése, ettől is függ a szállított munkafolyadék mennyisége."
+    ],
+    [
+      "A szivattyú működésének tárgyalása előtt szükséges ismerni a munkatereket és azokat határoló szerkezeti egységeket (",
+      "38. ábra",
+      ")."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "38",
+      "",
+      ". ábra: ",
+      "A bolygófogaskerekes (",
+      "orbit",
+      ") szivattyú munkaterei"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " Kocsis István, Mezei Tibor, Dr. Varga Vilmos Imre: Mezőgazdasági erőgépek I. 402. o."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "39",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "40",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú tengelykapcsolóval hajtott szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "A ",
+      "terek csatlakozása",
+      " a szívó-, nyomó- és a résolajcsatornákhoz, melyet a forgóelosztó (kommutátor) vezérel:"
+    ],
+    [
+      "szívócsatorna: V, VI és a VII tér,"
+    ],
+    [
+      "nyomócsatorna: I, II és III,"
+    ],
+    [
+      "résolajvezeték IV."
+    ],
+    [],
+    [
+      "A külső fogazású fogaskerék hajtásakor a belső fogazású fogaskerék áll és a külső fogazású fogaskerék legördül a fogazott belső gyűrűn, miközben bolygómozgást végezve „körbejárja” a fogazott belső gyűrűt. Az ábrán látható helyzetben a következő folyamat zajlik le az egyes terekben, amikor a tengelyt meghajtják:"
+    ],
+    [
+      "tér: a fogaskerék gördüléséből adódóan a térfogat csökken, és elkezdődik a munkafolyadék szállítása, ekkor a legnagyobb a tér mérete."
+    ],
+    [
+      "tér: a térfogat ugyancsak csökken, és a munkafolyadék szállítása zajlik."
+    ],
+    [
+      "tér: a térfogat csökken és a munkafolyadék szállítása már a végéhez közelít, ebben a helyzetben a térfogatcsökkenés már kismértékű."
+    ],
+    [
+      "tér: ebben a helyzetben alig van térfogatcsökkenés, és már nem is történik a munkafolyadék-szállítás. A mozgó alkatrészek között viszont munkafolyadék kerülhet ebbe a térbe, melyet el kell vezetni egy külön csatornán, mert a keletkező nyomás rontaná a szivattyú hatásfokát. A résolajvezetéken áramló munkafolyadékot általában a hidraulikatartályba vezetik vissza."
+    ],
+    [
+      "tér: a fogaskerék gördülése során térfogatnövekedés keletkezik, ami nyomáscsökkenést okoz a térben. A nyomáscsökkenés hatására munkafolyadék áramlik be. Ebben a helyzetben kezdődik a szívási folyamat."
+    ],
+    [
+      "tér: a térfogatnövekedés miatt a térben csökken a nyomás, és munkafolyadékkal telítődik a tér."
+    ],
+    [
+      "tér: a térfogatnövekedés már nem nagymértékű, ezért kevés munkafolyadék áramlik a munkatérbe. Ebben a helyzetben fejeződik be a szívási folyamat."
+    ],
+    [],
+    [
+      "A külső fogazású fogaskerék tovább",
+      " ",
+      "gördülésekor a munkaterekben lejátszódó folyamatok a következők szerint alakulnak (",
+      "41. ábra",
+      "):"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "41",
+      "",
+      ". ábra: ",
+      "Bolygófogaskerekes (",
+      "orbit",
+      ") szivattyú működése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " Kocsis István, Mezei Tibor, Dr. Varga Vilmos Imre: Mezőgazdasági erőgépek I. Budapest, 2011, Herman Ottó Intézet Nonprofit Kft. 402. o."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "42",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "43",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú tengelykapcsolóval hajtott szivattyú"
+    ],
+    [
+      "Forrás: saját készítésű"
+    ],
+    [],
+    [
+      "Az ábrából látható, hogy a külső fogazású kerék másik helyzetben található, és a munkaterekben zajló folyamatok is megváltoztak:"
+    ],
+    [
+      "I.",
+      "\ttér",
+      ": ebben a helyzetben alig van térfogatcsökkenés, és már nem is történik a munkafolyadék-szállítás. A mozgó alkatrészek között viszont munkafolyadék kerülhet ebbe a térbe, melyet el kell vezetni egy külön csatornán, mert a keletkező nyomás rontaná a szivattyú hatásfokát."
+    ],
+    [
+      "II.",
+      "\ttér:",
+      " a fogaskerék gördülésének köszönhetően térfogatnövekedés keletkezik, ami nyomáscsökkenést okoz a térben. A nyomáscsökkenés hatására munkafolyadék áramlik be. Ebben a helyzetben kezdődik el a szívási folyamat."
+    ],
+    [
+      "III.",
+      "\ttér:",
+      " a térfogatnövekedés miatt a térben csökken a nyomás, és munkafolyadékkal telítődik a tér."
+    ],
+    [
+      "IV.",
+      "\ttér:",
+      " a térfogatnövekedés már nem nagymértékű, ezért kevés munkafolyadék áramlik a munkatérbe. Ebben a helyzetben fejeződik be a szívási folyamat."
+    ],
+    [
+      "V.",
+      "\ttér",
+      ": a fogaskerék gördüléséből adódóan a térfogat csökken, és elkezdődik a munkafolyadék szállítása, ebben a fázisban a legnagyobb a tér mérete."
+    ],
+    [
+      "VI.",
+      "\ttér:",
+      " szintén csökken a térfogat, és a munkafolyadék szállítása zajlik."
+    ],
+    [
+      "VII.",
+      "\ttér:",
+      " a térfogat csökken, és a munkafolyadék szállítása már a végéhez közelít, ebben a helyzetben a térfogatcsökkenés már kismértékű."
+    ],
+    [
+      "Az álló fogazott gyűrű fogárkaiban lévő munkafolyamatokhoz szükséges munkafolyadék megfelelő áramlását a külső fogazású fogaskerékkel együtt forgó forgóelosztó biztosítja. A forgóelosztóban a csatornák úgy vannak kialakítva, hogy a különféle munkafolyamatoknak megfelelően lehetővé tegyék a munkafolyadék áramlását."
+    ],
+    [
+      "1.1.3.1.",
+      "\t",
+      "A kommutátor és a munkaterek kapcsolata"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "44",
+      "",
+      ". ábra:",
+      " A forgóelosztó és a munkaterek kapcsolata"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " Kocsis István, Mezei Tibor, Dr. Varga Vilmos Imre: Mezőgazdasági erőgépek I. Budapest, 2011, Herman Ottó Intézet Nonprofit Kft. 403. o."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "45",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "46",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú tengelykapcsolóval hajtott szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "A ",
+      "44. ábrán",
+      " az egyes munkaterek kapcsolata látható a forgóelosztó csatornáival. A jelenlegi kommutátorállásnál a munkafolyadék útja a csatornákban a következő:"
+    ],
+    [
+      "Szívási folyamat: az 5., 6. és a 7. fogárkokban."
+    ],
+    [
+      "Nyomási folyamat: a 2., 3. és a 4.",
+      " ",
+      "fogárokokban."
+    ],
+    [
+      "A résolajat az 1. fogárokból vezetik el."
+    ],
+    [],
+    [
+      "A mezőgazdasági gépekben alkalmazott bolygófogaskerekes ",
+      "orbit",
+      " szivattyúk szállítási jellemzői:"
+    ],
+    [
+      "Fajlagos munkafolyadék-szállítás: 0,1–200 cm3/fordulat."
+    ],
+    [
+      "Maximális üzemi nyomás: 12–16 ",
+      "MPa",
+      "."
+    ],
+    [
+      "Üzemeltetési fordulatszám tartománya: 1000–6000 fordulat/min."
+    ],
+    [
+      "1.1.3.2.",
+      "\t",
+      "Belső fogazású bolygófogaskerekes (",
+      "orbit",
+      ") ",
+      "hidromotorok"
+    ],
+    [
+      "A szivattyú átalakítás nélkül alkalmazható ",
+      "hidromotorként",
+      " is, ilyenkor a munkafolyadékot nyomással vezetik a ",
+      "hidromotorba",
+      "."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "47",
+      "",
+      ". ábra: ",
+      "A forgóelosztó és a munkaterek kapcsolata"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " Kocsis István, Mezei Tibor, Dr. Varga Vilmos Imre: Mezőgazdasági erőgépek I. Budapest, 2011, Herman Ottó Intézet Nonprofit Kft. 403. o."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "48",
+      "",
+      ". ábra: ",
+      "Állandó folyadéknyelésű, két áramlási irányú és két forgási irányú ",
+      "hidromotor"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "Az ",
+      "47. ábrán",
+      " látható az egyes munkaterek kapcsolata a forgóelosztó csatornáival. A jelenlegi kommutátorállásnál a munkafolyadék útja a csatornákban a következő:"
+    ],
+    [
+      "Beáramlási folyamat: az 5., 6. és a 7. fogárkokban."
+    ],
+    [
+      "Kiáramlási folyamat: a 2., 3. és a 4. fogárokokban."
+    ],
+    [
+      "A résolajat az 1. fogárokból vezetik el."
+    ],
+    [
+      "1.1.4.",
+      "\t",
+      "Csúszólapátos",
+      " szivattyúk és ",
+      "hidromotorok"
+    ],
+    [
+      "A ",
+      "csúszólapátos",
+      " szivattyúk a munkafolyadék szállítását egy forgórészben, a sugárirányban elmozduló lapátok és a szivattyúház által határolt munkaterekben végzik. A szivattyú főbb szerkezeti egységeit és működését a ",
+      "49-es ábra",
+      " szemlélteti."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "49",
+      "",
+      ". ábra: ",
+      "Csúszólapátos",
+      " szivattyú szerkezeti felépítése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://nanopdf.com/download/hydraulic-pumps-ii_pdf (Megnyitás: 2024.07.02",
+      ".",
+      ")"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "50",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "51",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú tengelykapcsolóval hajtott szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "Szivattyúház",
+      ": egységbe foglalja a szivattyút, valamint a működéshez szükséges munkatérrel, csatornákkal és csatlakozásokkal rendelkezik. A szivattyú munkatereit határoló felület kör alakú."
+    ],
+    [
+      "Forgórész (rotor):",
+      " biztosítja a szivattyú meghajtását, melynek hornyaiban a működés közben sugárirányban elmozduló lapátok (jelen esetben 6 db) találhatók."
+    ],
+    [
+      "Csúszólapátok",
+      ": a forgórész hornyaiban helyezkednek el, a munkatereket egymástól elválasztják, függetlenné teszik. Forgás közben a centrifugális erő hatására a forgórészben sugárirányba elmozdulnak, a ház falának támaszkodva megőrzik a terek függetlenségét."
+    ],
+    [
+      "Szívócsatorna",
+      ": a szivattyúházban kialakított csatorna, melyen keresztül munkafolyadék juthat a munkatérbe."
+    ],
+    [
+      "Szívócsonk",
+      ": a munkafolyadék bevetését biztosító csővezeték csatlakozását teszi lehetővé."
+    ],
+    [
+      "Nyomócsatorna",
+      ": a szivattyúházban kialakított csatorna, melyen keresztül a munkatérből a munkafolyadék kiáramlik."
+    ],
+    [
+      "Nyomócsonk",
+      ": a munkafolyadék elvezetését biztosító csővezeték csatlakozását teszi lehetővé."
+    ],
+    [],
+    [
+      "A szivattyú működésének tárgyalásakor a munkaterek kialakulásával és a bennük lejátszódó folyamatokkal szükséges megismerkedni (",
+      "52. ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "52",
+      "",
+      ". ábra: ",
+      "Csúszólapátos",
+      " szivattyú munkaterei"
+    ],
+    [
+      "Forrás: https://www.youtube.com/watch?v=5jsKMoF79F0 (Megnyitás: 2024.07.02.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "53",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "54",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú tengelykapcsolóval hajtott szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "A tengely meghajtásakor a munkaterekben zajló folyamatokat az ",
+      "55. ábra",
+      " szemlélteti."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "55",
+      "",
+      ". ábra: ",
+      "Munkaterekben zajló folyamatok"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.youtube.com/watch?v=5jsKMoF79F0 (Megnyitás: 2024.07.02.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "56",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "57",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú tengelykapcsolóval hajtott szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "A kör alakú házban a forgórész középvonala eltolt. Tehát a forgórész a házban nem középen helyezkedik el, éppen ez teszi lehetővé forgás közben a munkaterek térfogatának megváltozását. A forgórész forgása miatt a ",
+      "csúszólapátok",
+      " a horonyban sugárirányba mozdulnak el, egészen a szivattyúház munkaterét határoló felületig. A szivattyúházat oldalról fedelek zárják le, így a munkatérfogat zártnak tekinthető."
+    ],
+    [
+      "tér",
+      ": a munkatérfogat nő, ennek következtében a nyomás csökken, és a munkafolyadék beáramlik a munkatérbe. Megkezdődik a szívási folyamat. Forgás közben a ",
+      "csúszólapát",
+      " a szivattyúház felé mozdul."
+    ],
+    [
+      "tér",
+      ": a munkatérfogat növekszik, és a munkafolyadék beáramlik a munkatérbe. Forgás közben a ",
+      "csúszólapát",
+      " a szivattyúház felé mozdul."
+    ],
+    [
+      "tér",
+      ": a térfogat még mindig növekszik, és a munkafolyadék a munkatérbe áramlik, a szívási folyamat a végéhez közelít. Forgás közben a ",
+      "csúszólapát",
+      " még mindig a szivattyúház felé mozdul."
+    ],
+    [
+      "tér",
+      ": a munkatérfogat csökken, ennek következtében megkezdődik a munkafolyadék kiáramlása a munkatérből. Kezdetét veszi a nyomási folyamat. Forgás közben a ",
+      "csúszólapát",
+      " a tengely felé mozdul."
+    ],
+    [
+      "tér",
+      ": a munkatérfogat tovább csökken, és ennek következtében a munkafolyadék kiáramlik a munkatérből. Forgás közben a ",
+      "csúszólapát",
+      " a tengely felé mozdul."
+    ],
+    [
+      "tér",
+      ": a munkatérfogat még mindig csökken, és a munkafolyadék kiáramlása folytatódik. Ebben a helyzetben a térfogatcsökkenés már kismértékű, a nyomási folyamat a végéhez közelít. Forgás közben a ",
+      "csúszólapát",
+      " a tengely felé mozdul."
+    ],
+    [],
+    [
+      "A ",
+      "csúszólapátos",
+      " szivattyúkat kialakításuk szerint három fő csoportra osztják:"
+    ],
+    [
+      "kiegyensúlyozatlan forgórészű,"
+    ],
+    [
+      "kiegyensúlyozott forgórészű,"
+    ],
+    [
+      "változtatható folyadékszállítású."
+    ],
+    [
+      "1.1.4.1.",
+      "\t",
+      "Kiegyensúlyozatlan forgórészű szivattyúk"
+    ],
+    [
+      "A ",
+      "kiegyensúlyozatlan",
+      " ",
+      "csúszólapátos",
+      " szivattyú egy hengeres forgórészből és kör alakú szivattyúházból áll (",
+      "58. ábra",
+      "). A forgórész a szivattyúházban nem középen helyezkedik, hanem az egyik oldalra el van tolva."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "58",
+      "",
+      ". ábra: ",
+      "Kiegyensúlyozatlan forgórészű ",
+      "csúszólapátos",
+      " szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.lunchboxsessions.com/materials/fixed-variable-displacement-pumps/introduction-to-vane-pumps-lesson (Megnyitás: 2024.07.02.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "59",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "60",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú tengelykapcsolóval hajtott szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "Működés során a szívó- és nyomóoldalak között nyomásváltozás alakul ki, ami a forgórész tengelyét oldalirányba igyekszik eltolni. Az oldalirányú elmozdulás a tengelyre és a tengely csapágyazására többletterhelést mér. A nagyobb terhelés miatt a csapágy élettartama csökkenhet."
+    ],
+    [
+      "1.1.4.2.",
+      "\t",
+      "Kiegyensúlyozott forgórészű szivattyúk"
+    ],
+    [
+      "A ",
+      "kiegyensúlyozott",
+      " ",
+      "csúszólapátos",
+      " szivattyú háza ellipszis alakú, ebben a forgórész középpontosan helyezkedik el (",
+      "61. ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "61",
+      "",
+      ". ábra: ",
+      "Kiegyensúlyozott forgórészű ",
+      "csúszólapátos",
+      " szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.lunchboxsessions.com/materials/fixed-variable-displacement-pumps/introduction-to-vane-pumps-lesson (Megnyitás: 2024.07.02.)"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "62",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "63",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú tengelykapcsolóval hajtott szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "Az ellipszis alakú szivattyúház és a forgórész (rotor) középpontja azonos. A szivattyúház a kialakítása miatt két szívó- és két nyomóoldallal rendelkezik, ezért működés közben kiegyenlíti a forgórész oldalirányú terhelését. A két szívó- és a két nyomócsatornát a szivattyúházban kialakított csatornák kötik össze, melyek egy-egy csatlakozóhoz továbbítják a munkafolyadékot. A szivattyú előnye a kiegyensúlyozott forgórész mellett, hogy a tengely egyetlen ",
+      "körül fordulása",
+      " a munkaterekben két munkafolyamatot eredményez. A két munkafolyamat alatt minden munkatérben kétszer zajlik szívás és nyomás. Az egy ",
+      "körül fordulás",
+      " alatt a munkaterek által ",
+      "végzett szállítások számát ütemszámnak nevezik. A szóban forgó ábrán látható szivattyú ütemszáma 2."
+    ],
+    [],
+    [
+      "A kiegyensúlyozott forgórészű hidraulikus szivattyú szerkezeti felépítése (",
+      "64. ábra",
+      "):"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "64",
+      "",
+      ". ábra: ",
+      "Kiegyensúlyozott ",
+      "csúszólapátos",
+      " szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.jbj.co.uk/vane-pumps.html (Megnyitás: 2024.07",
+      ".",
+      "02.)"
+    ],
+    [
+      "1.1.4.3.",
+      "\t",
+      "Változtatható szállítású ",
+      "csúszólapátos",
+      " szivattyúk"
+    ],
+    [
+      "A szivattyúk felhasználása és üzemeltetése sokszor igényli, hogy a szivattyúk folyadékszállítása változtatható legyen. A változtatható szállítású folyadékszivattyúk szerkezeti felépítését és működését a ",
+      "65. ábra",
+      " szemlélteti."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "65",
+      "",
+      ". ábra: ",
+      "Változtatható folyadékszállítású ",
+      "csúszólapátos",
+      " szivattyú felépítése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://slideplayer.com/slide/3525346/ (Megnyitás: 2024.07.02.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "66",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú változtatható szállítású szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "67",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú tengelykapcsolóval hajtott változtatható szállítású szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " saját készítésű"
+    ],
+    [],
+    [
+      "Szivattyúház",
+      ": a működéshez szükséges szerkezeti egységeket foglalja magába, és az elemek csatlakozását biztosítja."
+    ],
+    [
+      "Gyűrű",
+      ": biztosítja munkaterek és a lapátok külső határolását, valamint a szivattyúházban az állítószerkezet elmozdításával a munkatereknek a forgórész középpontjától való elmozdulását."
+    ],
+    [
+      "Forgórész",
+      ": benne helyezkednek el és szükséges mértékben elmodulnak a ",
+      "csúszólapátok",
+      ", valamint a szivattyú meghajtását is lehetővé teszi a tengelyen keresztül."
+    ],
+    [
+      "Csúszólapát",
+      ": a munkatereket választja el egymástól, és biztosítja azok sugárirányú tömítését."
+    ],
+    [
+      "Tengely",
+      ": a forgórészhez csatlakozva a szivattyú meghajtását biztosítja."
+    ],
+    [
+      "Szívócsonk",
+      ": a munkafolyadék munkatérbe bevezetésére szolgál."
+    ],
+    [
+      "Nyomócsonk",
+      ": a munkafolyadék munkatérből való elvezetését teszi lehetővé."
+    ],
+    [
+      "Állítóegység",
+      ": csavarorsós szerkezet, mely a gyűrűnek támaszkodik. Állítás során a gyűrűt a házban mozdítja el."
+    ],
+    [
+      "Támasztóegység",
+      ": a gyűrű stabil megtámasztását biztosítja a szivattyúházban, szükség esetén pedig (az állítás során) engedi elmozdulni azt."
+    ],
+    [],
+    [
+      "A szivattyú alapvető működési módja a kiegyensúlyozatlan forgórészű szivattyúval egyezik meg. ",
+      "Lényeges eltérés",
+      " azonban, hogy a munkatér határolását gyűrű végzi, amely a szivattyúházban az állító- és a támasztóegységen keresztül biztosítja a szivattyú megfelelő működését. Az állítás során a gyűrűt a forgórészhez képest mozdítják el, ami a tengelyeltolást (excentricitást) megváltoztatva módosítja a folyadékszállítás mennyiségét."
+    ],
+    [
+      "1.1.4.4.",
+      "\t",
+      "A ",
+      "csúszólapátok",
+      " kialakítása és elrendezése"
+    ],
+    [
+      "A szivattyú üzemi jellemzőit nagymértékben befolyásolja a ",
+      "csúszólapátok",
+      " kialakítása és elrendezése. A jobb hatásfokkal való üzemeltetés szempontjából nem mindegy, hogy mekkora súrlódás lép fel a lapát és a ház között. Az elérhető maximális üzemi nyomás szempontjából pedig a lapát és a szivattyúház közötti tömítés is meghatározó tényező. A lapátok gyakran alkalmazott megoldásai:"
+    ],
+    [
+      "szorítóerő növelése a munkafolyadék nyomásával,"
+    ],
+    [
+      "tömítésnövelés több lapáttal,"
+    ],
+    [
+      "kiegyenlítéses",
+      " lapátnyomás-csökkentés."
+    ],
+    [],
+    [
+      "Szorítóerő növelése a munkafolyadék nyomásával"
+    ],
+    [
+      "A szivattyú résveszteségének csökkentése érdekében a ",
+      "csúszólapátot",
+      " a szivattyúház falához szorítják. A szorítóerő növelése érdekében pedig a munkafolyadék egy részét a nyomóoldalról a ",
+      "csúszólapátok",
+      " alá vezetik (",
+      "68. ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "68",
+      "",
+      ". ábra: ",
+      "Erőnövelés a munkafolyadék lapát alá vezetésével"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://slideplayer.hu/slide/2088453/ 10. ",
+      "slide",
+      ", (Megnyitás: 2024.07.03.)"
+    ],
+    [],
+    [
+      "Az ábrán látható, hogy a forgórészben elhelyezkedő lapát alá munkafolyadékot vezetnek, amely a nyomóoldalról került ide. A megoldásnak köszönhetően nő a szivattyú által szállított munkafolyadék nyomása, a ",
+      "csúszólapát",
+      " és a szivattyúház közötti súrlódási ellenállás szintén növekszik.  Mindennek következtében a szivattyú maximális üzemi nyomása nagyobb lesz, ezzel szemben a ",
+      "csúszólapátok",
+      " szivattyúházhoz súrlódásának mértéke is növekedni fog."
+    ],
+    [],
+    [
+      "Tömítésnövelés több lapáttal"
+    ],
+    [
+      "A jobb tömítés elérésének másik módja, hogy egy lapáthoronyba több ",
+      "csúszólapátot",
+      " helyeznek el, és szintén a munkafolyadék egy részével szorítják a lapátokat a szivattyúház falához (",
+      "69. ábra",
+      ")."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "69",
+      "",
+      ". ábra: ",
+      "Tömítésnövelés több lapát alkalmazásával"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://slideplayer.hu/slide/2088453/ 10. ",
+      "slide",
+      ", (Megnyitás: 2024.07.03.)"
+    ],
+    [],
+    [
+      "A szivattyúház és a ",
+      "csúszólapát",
+      " közötti tömítés javítható, ha a ",
+      "csúszólapát",
+      " tömítőfelületét a szorítóerő módosítása nélkül csökkentik. Két lapát alkalmazásával és a felfekvő tömítőél felületének csökkentésével jobb tömítés érhető el a szivattyúház és a ",
+      "csúszólapát",
+      " között. Ez a megoldás javítja a tömítést, viszont növeli a lapát és a szivattyúház közötti súrlódási ellenállást."
+    ],
+    [],
+    [
+      "Kiegyenlítéses",
+      " lapátnyomás-csökkentés"
+    ],
+    [
+      "Az előző két megoldás esetében jelentősen nő a ",
+      "csúszólapát",
+      " és a szivattyúház közötti súrlódás, ami nem minden esetben megfelelő. A súrlódási erő csökkentése érdekében alkalmazzák a munkafolyadék lapátok közötti bevezetését, aminek következtében a lapátokat a házhoz szorító erő nagysága csökken (",
+      "70. ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "70",
+      "",
+      ". ábra: ",
+      "Munkafolyadék alkalmazása a lapátok felületi nyomásának csökkentésére"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://slideplayer.hu/slide/2088453/ 10. ",
+      "slide",
+      ", (Megnyitás: 2024.07.03.)"
+    ],
+    [],
+    [
+      "A ",
+      "csúszólapát",
+      " belül üreges",
+      ", melyen keresztül a forgórész felől munkafolyadék áramlik a lapát és a ház közé. Az üregen keresztül munkafolyadék kerül a ",
+      "csúszólapát",
+      " és a szivattyúház közé, amely igyekszik a lapátot a szivattyúház falától eltávolítani. Az ábrán látható, hogy a ",
+      "csúszólapát",
+      " alsó (A) és felső (A",
+      "1",
+      ") részén lévő felület nagysága nem egyforma. A két felület eltéréséből adódik, hogy a ",
+      "csúszólapátra",
+      " ható erő (F), valamint a szivattyúház és a lapát között ébredő kiegyenlítő erő (F",
+      "1",
+      ") nem egyforma. A két erő különbsége adja meg a tényleges összeszorító erő nagyságát. Ennél a megoldásnál csökken ",
+      "csúszólapát",
+      " és a szivattyúház között fellépő súrlódási ellenállás."
+    ],
+    [
+      "A mezőgazdasági gépeken alkalmazott ",
+      "csúszólapátos",
+      " szivattyúk szállítási jellemzői:"
+    ],
+    [
+      "Fajlagos munkafolyadék-szállítás: 5–-120 cm3/fordulat."
+    ],
+    [
+      "Maximális üzemi nyomás: 6–-16 ",
+      "MPa",
+      "."
+    ],
+    [
+      "Üzemeltetési fordulatszám tartománya: 750–-2000 fordulat/min."
+    ],
+    [
+      "A szivattyú által szállított munkafolyadék mennyiségének meghatározása"
+    ],
+    [
+      "A ",
+      "csúszólapátos",
+      " szivattyú fajlagos szállítása függ a szivattyú geometriai jellemzőitől (",
+      "71. ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "71",
+      "",
+      ". ábra: ",
+      "Csúszólapátos",
+      " szivattyú geometriája"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.researchgate.net/figure/Operating-diagram-of-a-single-acting-rotary-vane-pump_fig1_281369375 (Megnyitás: 2024.07.03.)"
+    ],
+    [],
+    [
+      "A szivattyú fajlagos szállításának meghatározása:"
+    ],
+    [],
+    [
+      "Ahol:"
+    ],
+    [
+      "b: szivattyúház szélessége"
+    ],
+    [
+      "e: tengelyeltolás (excentricitás)"
+    ],
+    [
+      "D: szivattyúház belső átmérője"
+    ],
+    [
+      "z: ",
+      "csúszólapátok",
+      " száma"
+    ],
+    [
+      "s: ",
+      "csúszólapátok",
+      " vastagsága"
+    ],
+    [
+      "i: ütemszám"
+    ],
+    [],
+    [
+      "A ",
+      "csúszólapátos",
+      " szivattyú térfogatáramának nagysága (Q):"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "q: fajlagos szállítás [mm",
+      "3",
+      "],"
+    ],
+    [
+      "n: szivattyú tengelyének fordulatszáma [1/s]."
+    ],
+    [],
+    [
+      "Feladat"
+    ],
+    [
+      "Egy hat ",
+      "csúszólapáttal",
+      " szerelt szivattyú házának szélessége 30 mm, a szivattyúház belső átmérője 60 mm. A ",
+      "csúszólapátok",
+      " szélessége 3 mm. A szivattyú kiegyenlített forgórészű, az ütemszáma 2. A forgórész középvonalának és a szivattyúház középvonalának eltérése 5 mm. A szivattyú percenként 1200-at fordul."
+    ],
+    [
+      "Határozza meg:"
+    ],
+    [
+      " a szivattyú fajlagos szállítását [cm",
+      "3",
+      "/fordulat],"
+    ],
+    [
+      "a térfogatáram nagyságát [cm",
+      "3",
+      "/min]!"
+    ],
+    [],
+    [
+      "Megoldás"
+    ],
+    [
+      "z = 6 db"
+    ],
+    [
+      "b = 30 mm = 3 cm"
+    ],
+    [
+      "D = 60 mm = 6 cm"
+    ],
+    [
+      "s = 3 mm = 0,3 cm"
+    ],
+    [
+      "i = 2"
+    ],
+    [
+      "e = 5 mm= 0,5 cm"
+    ],
+    [
+      "n = 1200 1/min"
+    ],
+    [
+      "q = ?",
+      " [cm",
+      "3",
+      "/fordulat]"
+    ],
+    [
+      "Q = ?",
+      " [cm",
+      "3",
+      "/min]"
+    ],
+    [],
+    [
+      "A fajlagos szállítás meghatározása:"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "A szivattyú fajlagos szállítása: 102,297 cm",
+      "3",
+      "/fordulat."
+    ],
+    [
+      "A szivattyú által szállított térfogatáram nagysága:"
+    ],
+    [],
+    [],
+    [],
+    [
+      "A szivattyú térfogatáramának nagysága 122756,4 [cm",
+      "3",
+      "/min]."
+    ],
+    [
+      "1.1.4.5.",
+      "\t",
+      "Csúszólapátos",
+      " rendszerű ",
+      "hidromotor"
+    ],
+    [
+      "Ahhoz, hogy a ",
+      "csúszólapátos",
+      " rendszerű szivattyú alkalmassá váljon a ",
+      "hidromotorként",
+      " való használatra, ",
+      "átalakítás",
+      " ",
+      "szükséges",
+      ". Ugyanis szivattyúüzem esetén a meghajtott forgórész és a lapátokra ható centrifugális erő a szivattyúház falához szorítja a ",
+      "csúszólapátokat",
+      ". ",
+      "Hidromotorként",
+      " való használat esetén (",
+      "72. ábra",
+      ") a forgórész áll, és a ",
+      "csúszólapátokra",
+      " nem hat semmilyen összeszorító erő, ezért a munkaterek nem választódnak el egymástól. Ezért a forgórész nem fordul el, amikor munkafolyadékot vezetnek a munkaterekbe."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "72",
+      "",
+      ". ábra: ",
+      "Csúszólapátos",
+      " ",
+      "hidromotor",
+      " működése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.mdpi.com/energies/energies-15-06229/article_deploy/html/images/energies-15-06229-g008-550.jpg (Megnyitás: 2024.06.29.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "73",
+      "",
+      ". ábra: ",
+      "Állandó folyadéknyelésű, két áramlási irányú és két forgási irányú ",
+      "hidromotor"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "Az ábrán látható ",
+      "hidromotor",
+      " a ",
+      "kiegyenlítéses",
+      " forgórészű szivattyú kialakításához hasonló, tehát a forgórész egy ",
+      "körülfordulása",
+      " alatt minden munkatér két teljes munkafolyamatot végez. A munkaterekben végbemenő folyamatok a következők:"
+    ],
+    [
+      "A munkatérbe a munkafolyadék nyomással érkezik, a rugó a lapátot a ",
+      "hidromotorház",
+      " falának szorítja. A munkafolyadék nyomása elmozdítja a forgórészt."
+    ],
+    [
+      "A munkatérbe a munkafolyadék nyomással érkezik, a munkafolyadék a forgórészt forgatja."
+    ],
+    [
+      "A munkatérből a munkafolyadék távozik, és a leggyakrabban alkalmazott rendszerek esetében visszatér a hidraulikus rendszer tartályába."
+    ],
+    [
+      "A munkafolyadék beáramlása megkezdődik a munkatérbe, ezzel a forgórészt forgatja."
+    ],
+    [
+      "A munkafolyadék a munkatérbe áramolva forgatja a forgórészt."
+    ],
+    [
+      "A munkafolyadék a munkatérbe áramolva forgatja a forgórészt."
+    ],
+    [
+      "A munkatérből távozik a munkafolyadék."
+    ],
+    [
+      "A munkatérből távozik a munkafolyadék."
+    ],
+    [
+      "A kiegyenlített forgórészű ",
+      "hidromotor",
+      " egyenletes meghajtást tesz lehetővé."
+    ],
+    [
+      ""
+    ],
+    [
+      "Á",
+      "bra",
+      "jegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "Irodalomjegyzék"
+    ],
+    [
+      "Mezei Tibor, Kocsis István, Dr. Varga Vilmos: Mezőgazdasági erőgépek I. (2011), Budapest, Herman Ottó Intézet Kft., ISBN: 978-963-309-021-3"
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kompetencia tesztek szerzője:",
+        "Kocsis István"
+      ],
+      [
+        "Kompetencia tesztek szakmai lektora:",
+        "Orosz György Gyula"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Mezőgazdaság és erdészet"
+      ],
+      [
+        "Szakma:",
+        "Mezőgazdasági gépésztechnikus"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Mezőgazdasági gépek"
+      ],
+      [
+        "Tantárgy:",
+        "Agrárműszaki erőgépek"
+      ],
+      [
+        "Évfolyam:",
+        "12. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "16 óra"
+      ]
+    ]
+  ],
+  "headers": [
+    ""
+  ],
+  "footers": [
+    ""
+  ],
+  "footnotes": [
+    "",
+    ""
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image25.jpg",
+      "path": null,
+      "bytes": 35974
+    },
+    {
+      "name": "image26.jpg",
+      "path": null,
+      "bytes": 49151
+    },
+    {
+      "name": "image27.jpg",
+      "path": null,
+      "bytes": 5774
+    },
+    {
+      "name": "image23.jpg",
+      "path": null,
+      "bytes": 38538
+    },
+    {
+      "name": "image22.jpg",
+      "path": null,
+      "bytes": 23412
+    },
+    {
+      "name": "image24.jpg",
+      "path": null,
+      "bytes": 31107
+    },
+    {
+      "name": "image32.jpg",
+      "path": null,
+      "bytes": 29842
+    },
+    {
+      "name": "image29.jpg",
+      "path": null,
+      "bytes": 4844
+    },
+    {
+      "name": "image35.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image34.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image33.png",
+      "path": null,
+      "bytes": 87745
+    },
+    {
+      "name": "image21.jpg",
+      "path": null,
+      "bytes": 25913
+    },
+    {
+      "name": "image31.jpg",
+      "path": null,
+      "bytes": 7611
+    },
+    {
+      "name": "image30.jpg",
+      "path": null,
+      "bytes": 5864
+    },
+    {
+      "name": "image28.jpg",
+      "path": null,
+      "bytes": 6471
+    },
+    {
+      "name": "image18.jpg",
+      "path": null,
+      "bytes": 26782
+    },
+    {
+      "name": "image19.jpg",
+      "path": null,
+      "bytes": 33725
+    },
+    {
+      "name": "image7.jpg",
+      "path": null,
+      "bytes": 29263
+    },
+    {
+      "name": "image6.jpg",
+      "path": null,
+      "bytes": 18600
+    },
+    {
+      "name": "image5.jpg",
+      "path": null,
+      "bytes": 30882
+    },
+    {
+      "name": "image4.jpg",
+      "path": null,
+      "bytes": 67406
+    },
+    {
+      "name": "image3.jpg",
+      "path": null,
+      "bytes": 4721
+    },
+    {
+      "name": "image2.jpg",
+      "path": null,
+      "bytes": 5265
+    },
+    {
+      "name": "image1.jpg",
+      "path": null,
+      "bytes": 25660
+    },
+    {
+      "name": "image20.jpg",
+      "path": null,
+      "bytes": 15317
+    },
+    {
+      "name": "image8.jpg",
+      "path": null,
+      "bytes": 5372
+    },
+    {
+      "name": "image10.jpg",
+      "path": null,
+      "bytes": 11949
+    },
+    {
+      "name": "image17.jpg",
+      "path": null,
+      "bytes": 26668
+    },
+    {
+      "name": "image16.jpg",
+      "path": null,
+      "bytes": 22108
+    },
+    {
+      "name": "image9.jpg",
+      "path": null,
+      "bytes": 23817
+    },
+    {
+      "name": "image15.jpg",
+      "path": null,
+      "bytes": 27102
+    },
+    {
+      "name": "image13.jpg",
+      "path": null,
+      "bytes": 26338
+    },
+    {
+      "name": "image14.jpg",
+      "path": null,
+      "bytes": 33016
+    },
+    {
+      "name": "image11.jpg",
+      "path": null,
+      "bytes": 13651
+    },
+    {
+      "name": "image12.jpg",
+      "path": null,
+      "bytes": 12426
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "Címsor 4 Char",
+    "Címsor 5 Char",
+    "Címsor 6 Char",
+    "Table Normal",
+    "Title",
+    "Cím Char",
+    "Subtitle",
+    "Alcím Char",
+    "annotation text",
+    "Jegyzetszöveg Char",
+    "annotation reference",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "Table Simple 1",
+    "Table Simple 2",
+    "Table Simple 3",
+    "Table Elegant",
+    "Table Subtle 1",
+    "Table Subtle 2",
+    "Table Classic 1",
+    "Table Classic 2",
+    "Table Classic 3",
+    "Table Classic 4",
+    "Medium Shading 1",
+    "Medium Shading 1 Accent 1",
+    "Medium Shading 1 Accent 2",
+    "Medium Shading 1 Accent 3",
+    "Medium Shading 1 Accent 4",
+    "Medium Shading 1 Accent 5",
+    "Medium Shading 1 Accent 6",
+    "Medium Shading 2",
+    "Medium Shading 2 Accent 1",
+    "Medium Shading 2 Accent 2",
+    "Medium Shading 2 Accent 3",
+    "Medium Shading 2 Accent 4",
+    "Medium Shading 2 Accent 5",
+    "Medium Shading 2 Accent 6",
+    "Medium List 1",
+    "Medium List 1 Accent 1",
+    "Medium List 1 Accent 2",
+    "Medium List 1 Accent 3",
+    "Medium List 1 Accent 4",
+    "Medium List 1 Accent 5",
+    "Medium List 1 Accent 6",
+    "Medium List 2",
+    "Medium List 2 Accent 1",
+    "Medium List 2 Accent 2",
+    "Medium List 2 Accent 3",
+    "Medium List 2 Accent 4",
+    "Medium List 2 Accent 5",
+    "Medium List 2 Accent 6",
+    "Medium Grid 1",
+    "Medium Grid 1 Accent 1",
+    "Medium Grid 1 Accent 2",
+    "Medium Grid 1 Accent 3",
+    "Medium Grid 1 Accent 4",
+    "Medium Grid 1 Accent 5",
+    "Medium Grid 1 Accent 6",
+    "Medium Grid 2",
+    "Medium Grid 2 Accent 1",
+    "Medium Grid 2 Accent 2",
+    "Medium Grid 2 Accent 3",
+    "Medium Grid 2 Accent 4",
+    "Medium Grid 2 Accent 5",
+    "Medium Grid 2 Accent 6",
+    "Medium Grid 3",
+    "Medium Grid 3 Accent 1",
+    "Medium Grid 3 Accent 2",
+    "Medium Grid 3 Accent 3",
+    "Medium Grid 3 Accent 4",
+    "Medium Grid 3 Accent 5",
+    "Medium Grid 3 Accent 6",
+    "Table List 1",
+    "List Table 1 Light",
+    "List Table 1 Light Accent 1",
+    "List Table 1 Light Accent 2",
+    "List Table 1 Light Accent 3",
+    "List Table 1 Light Accent 4",
+    "List Table 1 Light Accent 5",
+    "List Table 1 Light Accent 6",
+    "Table List 2",
+    "List Table 2 Accent 1",
+    "List Table 2 Accent 2",
+    "List Table 2 Accent 3",
+    "List Table 2 Accent 4",
+    "List Table 2 Accent 5",
+    "List Table 2 Accent 6",
+    "Table List 3",
+    "List Table 3 Accent 1",
+    "List Table 3 Accent 2",
+    "List Table 3 Accent 3",
+    "List Table 3 Accent 4",
+    "List Table 3 Accent 5",
+    "List Table 3 Accent 6",
+    "Table List 4",
+    "List Table 4 Accent 1",
+    "List Table 4 Accent 2",
+    "List Table 4 Accent 3",
+    "List Table 4 Accent 4",
+    "List Table 4 Accent 5",
+    "List Table 4 Accent 6",
+    "Table List 5",
+    "List Table 5 Dark",
+    "List Table 5 Dark Accent 1",
+    "List Table 5 Dark Accent 2",
+    "List Table 5 Dark Accent 3",
+    "List Table 5 Dark Accent 4",
+    "List Table 5 Dark Accent 5",
+    "List Table 5 Dark Accent 6",
+    "Table List 6",
+    "List Table 6 Colorful",
+    "List Table 6 Colorful Accent 1",
+    "List Table 6 Colorful Accent 2",
+    "List Table 6 Colorful Accent 3",
+    "List Table 6 Colorful Accent 4",
+    "List Table 6 Colorful Accent 5",
+    "List Table 6 Colorful Accent 6",
+    "Table List 7",
+    "List Table 7 Colorful",
+    "List Table 7 Colorful Accent 1",
+    "List Table 7 Colorful Accent 2",
+    "List Table 7 Colorful Accent 3",
+    "List Table 7 Colorful Accent 4",
+    "List Table 7 Colorful Accent 5",
+    "List Table 7 Colorful Accent 6",
+    "Table List 8",
+    "List Table 2",
+    "List Table 3",
+    "List Table 4",
+    "Table Contemporary",
+    "Table Columns 1",
+    "Table Columns 2",
+    "Table Columns 3",
+    "Table Columns 4",
+    "Table Columns 5",
+    "Table Professional",
+    "Table Grid",
+    "Table Grid 1",
+    "Table Grid 2",
+    "Table Grid 3",
+    "Table Grid 4",
+    "Table Grid 5",
+    "Table Grid 6",
+    "Table Grid 7",
+    "Table Grid 8",
+    "Dark List",
+    "Dark List Accent 1",
+    "Dark List Accent 2",
+    "Dark List Accent 3",
+    "Dark List Accent 4",
+    "Dark List Accent 5",
+    "Dark List Accent 6",
+    "Colorful Shading",
+    "Colorful Shading Accent 1",
+    "Colorful Shading Accent 2",
+    "Colorful Shading Accent 3",
+    "Colorful Shading Accent 4",
+    "Colorful Shading Accent 5",
+    "Colorful Shading Accent 6",
+    "Colorful List",
+    "Colorful List Accent 1",
+    "Colorful List Accent 2",
+    "Colorful List Accent 3",
+    "Colorful List Accent 4",
+    "Colorful List Accent 5",
+    "Colorful List Accent 6",
+    "Colorful Grid",
+    "Colorful Grid Accent 1",
+    "Colorful Grid Accent 2",
+    "Colorful Grid Accent 3",
+    "Colorful Grid Accent 4",
+    "Colorful Grid Accent 5",
+    "Colorful Grid Accent 6",
+    "Plain Table 1",
+    "Plain Table 2",
+    "Plain Table 3",
+    "Plain Table 4",
+    "Plain Table 5",
+    "Grid Table Light",
+    "Grid Table 1 Light",
+    "Grid Table 1 Light Accent 1",
+    "Grid Table 1 Light Accent 2",
+    "Grid Table 1 Light Accent 3",
+    "Grid Table 1 Light Accent 4",
+    "Grid Table 1 Light Accent 5",
+    "Grid Table 1 Light Accent 6",
+    "Grid Table 2",
+    "Grid Table 2 Accent 1",
+    "Grid Table 2 Accent 2",
+    "Grid Table 2 Accent 3",
+    "Grid Table 2 Accent 4",
+    "Grid Table 2 Accent 5",
+    "Grid Table 2 Accent 6",
+    "Grid Table 3",
+    "Grid Table 3 Accent 1",
+    "Grid Table 3 Accent 2",
+    "Grid Table 3 Accent 3",
+    "Grid Table 3 Accent 4",
+    "Grid Table 3 Accent 5",
+    "Grid Table 3 Accent 6",
+    "Grid Table 4",
+    "Grid Table 4 Accent 1",
+    "Grid Table 4 Accent 2",
+    "Grid Table 4 Accent 3",
+    "Grid Table 4 Accent 4",
+    "Grid Table 4 Accent 5",
+    "Grid Table 4 Accent 6",
+    "Grid Table 5 Dark",
+    "Grid Table 5 Dark Accent 1",
+    "Grid Table 5 Dark Accent 2",
+    "Grid Table 5 Dark Accent 3",
+    "Grid Table 5 Dark Accent 4",
+    "Grid Table 5 Dark Accent 5",
+    "Grid Table 5 Dark Accent 6",
+    "Grid Table 6 Colorful",
+    "Grid Table 6 Colorful Accent 1",
+    "Grid Table 6 Colorful Accent 2",
+    "Grid Table 6 Colorful Accent 3",
+    "Grid Table 6 Colorful Accent 4",
+    "Grid Table 6 Colorful Accent 5",
+    "Grid Table 6 Colorful Accent 6",
+    "Grid Table 7 Colorful",
+    "Grid Table 7 Colorful Accent 1",
+    "Grid Table 7 Colorful Accent 2",
+    "Grid Table 7 Colorful Accent 3",
+    "Grid Table 7 Colorful Accent 4",
+    "Grid Table 7 Colorful Accent 5",
+    "Grid Table 7 Colorful Accent 6",
+    "Table Colorful 1",
+    "Table Colorful 2",
+    "Table Colorful 3",
+    "Table Theme",
+    "Table 3D effects 1",
+    "Table 3D effects 2",
+    "Table 3D effects 3",
+    "Light Shading Accent 1",
+    "Light Shading Accent 2",
+    "Light Shading Accent 3",
+    "Light Shading Accent 4",
+    "Light Shading Accent 5",
+    "Light Shading Accent 6",
+    "Light List",
+    "Light List Accent 1",
+    "Light List Accent 2",
+    "Light List Accent 3",
+    "Light List Accent 4",
+    "Light List Accent 5",
+    "Light List Accent 6",
+    "Light Grid",
+    "Light Grid Accent 1",
+    "Light Grid Accent 2",
+    "Light Grid Accent 3",
+    "Light Grid Accent 4",
+    "Light Grid Accent 5",
+    "Light Grid Accent 6",
+    "Light Shading",
+    "Table Web 1",
+    "Table Web 2",
+    "Table Web 3",
+    "List Paragraph",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "toc 4",
+    "Hyperlink",
+    "Caption",
+    "Stílus1",
+    "table of figures",
+    "Feloldatlan megemlítés1",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "[Alapbekezdés]"
+  ]
+}

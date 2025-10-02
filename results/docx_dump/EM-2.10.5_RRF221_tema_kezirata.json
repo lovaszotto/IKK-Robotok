@@ -1,0 +1,3559 @@
+{
+  "core_properties": {
+    "creator": "Pintér Andrea (ELMS)",
+    "lastModifiedBy": "Soós Gabriella Brigitta (ELMS)",
+    "revision": "2",
+    "created": "2024-09-24T12:26:00Z",
+    "modified": "2024-09-24T12:26:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal",
+    "TotalTime": "0",
+    "Pages": "52",
+    "Words": "9311",
+    "Characters": "64248",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "535",
+    "Paragraphs": "146",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "73413",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.10.5  ",
+    "A bor tisztító kezelései",
+    "Témák kézirata",
+    "Forrás: Az eredeti könyv címe: Technologie des Weines, 1. Auflage 2015, Der Verlag Eugen Ulmer KG,\nISBN 978-3-8001-7959-6, Az eredeti könyv szerzői: Jochen Hamatschek",
+    "",
+    "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak.",
+    "",
+    "",
+    "",
+    "Tartalomjegyzék",
+    "1 A borok tisztító kezelései\t3",
+    "1.1 A borok öntisztulása\t3",
+    "1.2 Fejtés\t5",
+    "1.2.1 Fejtések fajtái\t5",
+    "1.3.1\tA fejtések módjai\t5",
+    "1.2.1.1 Nyílt fejtés\t5",
+    "1.2.1.2 Félig zárt fejtés\t6",
+    "1.2.1.3 Zárt fejtés\t6",
+    "1.2.1.4 Körfejtés (kevertetés)\t7",
+    "1.2.1.5 Ellennyomásos fejtés\t7",
+    "1.3 Derítés\t9",
+    "1.3.1\tA derítés általános szabályai\t9",
+    "1.3.1 Derítőanyagok\t10",
+    "1.3.1.1 Ásványi derítőszerek\t10",
+    "1.3.1.2 Fehérjetartalmú derítőszerek\t11",
+    "1.3.1.3 Kálium-ferro(II)-cianid (sárgavérlúgsó)\t13",
+    "1.3.1.4 Egyéb derítőszerek, derítési segédanyagok\t13",
+    "1.3.1.5 Összetett derítőszerek\t14",
+    "1.3.2 Derítési módok\t17",
+    "1.3.2.1 Kombinált derítés\t17",
+    "1.3.3 Derítés gyakorlati végrehajtása\t17",
+    "2 Szeparálás (centrifugális ülepítés)\t19",
+    "3 Szűrés\t22",
+    "3.1 A szűrés alapjai\t22",
+    "3.1.1 A kovaföld szűréshez (ráiszapoló szűrés) felhasznált szűrőanyagok\t26",
+    "3.1.2 „Mélységi szűrés” előregyártott szűrőlapokkal\t30",
+    "3.1.2.1 Modulszűrés\t31",
+    "3.1.2.2 Lapszűrés\t32",
+    "3.1.2.2 Szűrőgyertyák\t35",
+    "3.1.3 Statikus membránszűrés (dead end szűrés)\t36",
+    "3.1.4 Dinamikus membránszűrés (cross-flow, avagy keresztáramú szűrés)\t38",
+    "3.1.4.1 Membrán\t40",
+    "3.1.4.1 Membránszűrő berendezések\t43",
+    "3.1.4.3 Vákuumdobszűrés\t44",
+    "3.2 A bor tisztításának összefüggései\t46",
+    "Ábrajegyzék\t49",
+    "Táblajegyzék\t50",
+    "Felhasznált irodalom\t51",
+    "",
+    "",
+    "A borok tisztító kezelései",
+    "A bor tisztítása ugyan azokon a fizikai-kémiai mechanizmusokon alapul, mint a must tisztítása. Különbséget jelent a bor jóval kisebb viszkozitása, amely növeli a kezelések hatékonyságát, de mindenekelőtt az a követelmény, hogy a tisztítást az összes üledékrészecske eltávolításáig kell végezni.",
+    "A bor kezelésének célja a bor élvezeti értékének biztosítása. Az újbortól a bor forgalomba hozataláig a különböző borászati műveletekkel az üledék- és zavarosságmentességet (a bor tisztaságát), a bor fejlődését, érését és annak stabilizációját biztosítják, valamint javítják az esetleges összetételbeli hiányosságokat.",
+    "A borkezelési eljárások a következők:",
+    "a bor tisztítása;",
+    "a bor harmonikus összetételének kialakítása;",
+    "a bor fejlődésének, érésének szabályozása;",
+    "a bor stabilizálása.",
+    "A borok fejlődésük egyes szakaszaiban különböző mértékben tartalmaznak zavarosító anyagokat (más néven szedimentet). A kierjedt újborok még szén-dioxiddal telítettek, illatuk, zamatuk fejletlen.",
+    "Az újbor (seprős újbor) legalább 3⁄5 részben erjedt, illetve az alkoholos erjedés után az élesztőtől még nem különvált bor.",
+    "A bor a fejlődése során a bekövetkező fizikai, kémiai és biológiai hatásokra „fátyolossá” opálossá (enyhén zavarosságot mutat) válhat, kiválások, zavarosodás következhet be. ",
+    "A bor – saját rendszeréből adódóan – hajlamos egy ún. öntisztulásra. Ez a folyamat bekövetkezhet önmagától, illetve különböző kezelésekkel.",
+    "",
+    "A borok öntisztulása",
+    "Ez a folyamat a gravitációs erő következménye. A zavaros újbor – nyugalmi állapotban tartva – a gravitáció hatására ülepedni kezd, kémiailag stabilizálódnak a borban lévő részecskék. Ez a folyamat nagyon lassú és korántsem tökéletes. Az öntisztulás sebességét és eredményességét a következők tényezők tudják javítani:",
+    "ha a szőlő egészséges, és a teljes érettség állapotában szüretelik;",
+    "ha a mustfrakciók elválasztásánál az utóprésmustot külön választják;",
+    "ha a cefrét, illetve a mustot hatékony segédanyagokkal kezelik (enzimkezelés);",
+    "ha az erjedés folyamatát irányítják.",
+    "Az öntisztulás jelensége kedvező hatású a borminőségre, és gazdaságossági szempontból is érdemes kihasználni. A borok természetes, illetve szabályozott öntisztulása kedvező hatással van a borok stabilizációjára is.",
+    "Az oxigénfelvétel elkerülése érdekében az erjesztőtartályt már az erjedési fázis lecsengésekor fel kell tölteni azonos minőségű kierjedt újborral (hozzátöltés), lehetőség szerint csökkenteni kell az erjedési űr nagyságát a tartályban. Legtöbbször az erjedés következtében habkarima rakódik le a tartályon, amely táptalajként mikrobiológiailag veszélyes lehet. A hozzátöltés után anélkül lehet dönteni a lefejtés, illetve a derítés időpontjáról, hogy közvetlenül szorítana az idő.",
+    "Az erjedés végét követő első lépés az úgynevezett „első fejtés”, ami egy nevezetes fejtés. Az újbort különválasztják az elhalt élesztőtömegtől (seprőtől) és áttöltik egy másik tartályba. A seprő (durva seprő) leválasztása történhet csupán a felülúszó folyadék leszivattyúzásával, de akár az első derítési intézkedéssel összekötve is. A „második fejtés” -el az első fejtés során nem leválasztott seprőmaradék, a még lebegő, körülbelül 0,05–0,2 térfogatszázaléknyi élesztősejt, az úgynevezett finom seprő elválasztása történik meg.",
+    "Gépesített rendszereknél erre alkalmas berendezés a:",
+    "szeparátor,",
+    "a ráiszapoló szűrés (kovaföldszűrés) és a ",
+    "keresztáramú (cross flow) mikroszűrés.",
+    "Az ezután többé-kevésbé élesztőmentes bor megfelelő kénhozzáadás és teletöltött tartályban történő tárolás esetén kémiailag és mikrobiológiailag stabil.",
+    " A modern nagyüzemek a fogyasztói boroknál biztonsági okokból nagyon gyakran a gyors első fejtést választják. Ezután minden további borkezelés időszűke vagy említésre méltó termékkockázat nélkül elvégezhető. Műszaki felszereltség hiányában, vagy a finom seprőn történő tároláshoz csak a fejtést alkalmazzák, nem kombinálják más művelettel.",
+    "A borkezelésnél nagy az egyetértés abban, hogy az első fejtést időben el kell végezni a fokozatosan lebomló seprő, valamint a lehetséges oxidáció megakadályozása érdekében.",
+    "",
+    "Fejtés",
+    "A fejtés művelete a következőképpen határozható meg:",
+    "A fejtés általánosan elterjedt, alapvető pinceművelet. Fizikai fogalom szerint közegáramoltatás, nyomáskülönbség hatására (Δp), zárt csővezetékeken, zárt tereken, berendezéseken, vagy nyitott csatornákon keresztül.",
+    "A mai üzemi gyakorlatban fő szerepe a belső szállításokban és más borkezelési eljárások végrehajtásában van (szűrés, hőkezelés, derítés stb.).",
+    "Fejtéskor általában az üledéktől is elválasztják a bort, így az egyre tisztább lesz.",
+    "",
+    "Fejtések fajtái",
+    "A fejtések fajtái a következők:",
+    "átfejtés (egyik tartályból egy másikba, akár valamilyen más borkezelési művelettel párosítva, pl.: hőkezeléssel, szűrésel stb.)",
+    "színelés (üledékről való lefejtés pl.: seprő, derítési alj stb.)",
+    "szellőztető nyílt fejtés (a kénhidrogén szag eltüntetésére)",
+    "házasítás-fejtés (két- vagy több bor összefejtése)",
+    "ki- és betárolás (tartálykocsi ürítése vagy töltése)",
+    "körfejtés (kevertetés)",
+    "szállítás (áttárolás üzemrészek, pincék között)",
+    "töltés (palackozásra feladás)",
+    "oxidációs folyamatok elősegítése a bor fejlődése és stabilizálása érdekében",
+    "A fejtéseket a technológiai feladatnak megfelelően a következő módokon hajtják végre.",
+    "A fejtések módjai",
+    "Nyílt fejtés ",
+    "Nyílt fejtéskor a bort a csapon át a kármentőbe engedik, és innen vezetik be felülről (vagy alulról) a másik tárolóedénybe. Lényege, hogy a bor a fejtés közben a szabad levegővel érintkezik!",
+    "",
+    "A fejtések módjai 1",
+    "Forrás: Kazai Jánosné: Borászati és üdítőital-ipari technológia gyakorlat. Budapest, 1999, FVM Képzési és Szaktanácsadási Intézet, 54. oldal",
+    "",
+    "Félig zárt fejtés",
+    "Félig zárt fejtéskor nem használnak kármentőt, a bort közvetlenül a csapról szívják és így vezetik be a felső töltőnyíláson keresztül a másik tárolóedénybe. A bor csak a fogadótartályban lévő levegővel találkozik.",
+    "",
+    "A fejtések módjai 2",
+    "Forrás: Kazai Jánosné: Borászati és üdítőital-ipari technológia gyakorlat. Budapest, 1999, FVM Képzési és Szaktanácsadási Intézet, 54. oldal",
+    "",
+    "Zárt fejtés",
+    "Zárt fejtés esetén a két tárolóedény csapját – fejtőgép közbeiktatásával – fejtővezetékkel kötik össze. A bor felszíne nyugodt marad, ezért kevesebb levegőt tud elnyelni. Tökéletesebb a módszer, ha a töltésre kerülő tartályba a fejtés előtt valamilyen védőgázt vezetnek (pl. CO2, N2).",
+    "",
+    "A fejtések módjai 2",
+    "Forrás: Kazai Jánosné: Borászati és üdítőital-ipari technológia gyakorlat. Budapest, 1999, FVM Képzési és Szaktanácsadási Intézet, 54. oldal",
+    "",
+    "Körfejtés (kevertetés)",
+    "Ennél a műveletnél a tartályból kivett bort ugyanabba a tartályba fejtik vissza. Általában kevertetésnél, szellőztető nyílt fejtésnél, vörösbor készítésekor a törkölykalap elárasztásánál alkalmazzák.",
+    "",
+    "Ellennyomásos fejtés",
+    "Az ellennyomásos fejtést szén-dioxid tartalmú boroknál használják. Célja, hogy a szén-dioxid- tartalom a nyomáscsökkenés miatt ne távozzon el a folyadékból. A fogadó tartályt szén-dioxiddal előfeszítik, azaz azonos nyomásértékre hozzák, mint az ürítendő tartályt. A két tartály felül összeköttetésben van egymással a nyomás folyamatos kiegyenlítése végett. A folyadékszint emelkedésével a felesleges nyomás az ürítendő tartályban lévő bor fölé kerül.",
+    "A fejtés műveleti ideje a bor mindennemű mozgatása és az esetleges oxidáció miatt fontos tényező. ",
+    "A várható fejtési időt a következőképpen lehet kiszámolni:",
+    "",
+    "A fejtés során figyelembe kell venni a következőket:",
+    "milyen bort fejtenek?",
+    "mennyi bort fejtenek?",
+    "mekkora távolságra és magasságra fejtenek?",
+    "összekapcsolják-e a fejtést más borkezeléssel?",
+    "milyen legyen a fejtés módja, az áramlás jellege, térfogatárama?",
+    "A már tanultak szerint, az erjedés után a bor első lefejtése és az üledéktől való különválasztása (színelés) következik. Gyakran közvetlenül összekötik más kezelési intézkedésekkel, például kénezéssel, szellőztetéssel, derítéssel vagy tisztítással. Intézkedéstől függően egy második, esetleg harmadik fejtés is szükséges lehet.",
+    "A fejtés időpontja az üzemi szükségszerűségekhez, valamint a bor igényeihez is igazodik. Meghatározásánál figyelembe kell venni a technológiai célt és a bor barnatörésre való hajlamát.",
+    "Az első fejtést az erjedés befejeződése után 2-6 hét múlva végzik. Az élesztők és a baktériumok ülepítési idejétől függően a bor az első fejtés után még többé-kevésbé zavaros.",
+    "Korai fejtést az elsődleges szőlőillattal és -zamattal rendelkező, reduktív borok és a könnyű savszegény borok esetében végeznek, ezzel elkerülve a biológiai savcsökkenést és az aromaveszteségeket. Az erjedés befejeztével szinte azonnal fejtik a penészes, rothadt szőlő terméséből készült bort. Nem kielégítő musttisztítás esetén nagy és gyorsan lebomló élesztőüledékkel (seprő) kell számolni, amely hajlamos úgynevezett „bakszagot” okozni. Ilyenkor feltétlenül korai lefejtés szükséges. Ezeket a borokat lehetőleg azonnal mikrobiológiailag és kémiailag stabilizálni, azaz kénezni, kell, és teljesen teletöltött tartályban kell tárolni.",
+    "Később fejtik a nagy cukortartalmú mustokból nyert magasabb alkohol- és extrakttartalmú borokat, amelyeknél rendszerint hosszú az utóerjedési szakasz és az öntisztulásuk is lassúbb. Az egészséges élesztőn történő hosszabb tárolás lehetővé teszi a bor további öntisztulását, és érzékszervi szempontból kívánatos poliszacharidok felvételéhez vezethet.",
+    "A biológiai almasavbomlás elősegítése miatt később fejtik a vörösborokat és egyes fehérborokat. A technológiában hagyományos második fejtést 3-4 hónappal az első fejtés után, a harmadik fejtést ezután 5-6 hónap múlva végzik. (Csak a hosszabb érlelési időt igénylő boroknál indokolt a második, illetve a további fejtések elvégzése).",
+    "Végezetül rendszeres érzékszervi ellenőrzést kell végezni a seprőn történő tárolás során bekövetkező, nem kívánatos fejlemények felismerése és a megfelelő intézkedések meghozatala érdekében.",
+    "A leggyakoribb és érzékszervileg könnyen felismerhető hiba az élesztőszag. A korai szakaszban a megszüntetéséhez többnyire elegendő az egyszerű szellőztetés (szellőztető nyílt fejtés alkalmazása). Az oxigén oxidálja a zavaró hidrogén-szulfidot, és közömbösíti a szagát.",
+    "A részecskéket kevés maradék kolloidtól eltekintve le kell választani, hogy a bor optikailag tiszta, mikroorganizmusoktól mentes és a kémiai utólagos zavarosodással szemben védett legyen.",
+    "Az élesztők mérete körülbelül 10 μm, a baktériumok mintegy 20-szor kisebbek.",
+    "Utóbbi célból adott esetben további stabilizáló intézkedések szükségesek.",
+    "",
+    "Derítés",
+    "A művelet végső célja a bor tisztulásának elősegítése és gyorsítása, mihamarabb stabil borállapot elérése, a zavarosító anyagok eltávolítása a borból.",
+    "A derítés művelete a következőképpen határozható meg: ",
+    "A derítés a borok (mustok) tisztító, stabilizáló kezelése. Derítőanyagokat (derítőszereket) kevernek a borba, azok ott kifejtik fizikai, kémiai, biológiai vagy együttes hatásukat, majd gravitációs erővel leülepednek, ezáltal magukkal viszik a bor zavarosító anyagait. Hatásukra a bor tisztább és stabilabb lesz.",
+    "A derítés során a derítőanyagok:",
+    "tömörítik a lebegő zavarosságokat, így a nagyobb méretű szemcsék gyorsabban ülepednek",
+    "a bor egyes oldott nemkívánatos alkotórészeit (fehérje, , durva cserzőanyag) teszik szilárd halmazállapotúvá, vagy kötik szilárd szemcsékhez, így szűrhetővé válnak.",
+    "Újbor kezelése során az első fejtést követően néhány héttel szokás deríteni. Szintén derítést végeznek a házasítás művelete után is, amikor az összeállításban megbomolhat az egyensúly a bor alapvető alkotóelemei között. Zajos erjedés után először színelni kell a seprős újbort, majd azt követően lehet deríteni.",
+    "A derítés során a derítőszerek túl-, illetve alul adagolása nem vezet a kívánt eredményre, ezért fontos ismerni a derítés általános szabályait!",
+    "",
+    "A derítés általános szabályai",
+    "A derítést mindig próbaderítés előzze meg! Ennek célja a megfelelő derítőszer és annak mennyiségének pontos meghatározása.",
+    "A próbaderítést mindig ugyanabból az anyagból végezzék, amiből a derítést végrehajtják! Másik, akár ugyanolyan anyag is, más hatásfokkal rendelkezhet! (tárolás közben veszíthet hatóanyag-tartalmából)",
+    "A próbaderítést célszerű üzemi körülmények között végezni! A pincei hőmérsékleten a bor másképp viselkedhet, mint a laboratóriumban.",
+    "A derítendő bor nyugalmi állapotban legyen! Ha a borban CO2 szabadul fel, vagy utóerjedés zajlik, akkor az gátolja a derítőanyagok leülepedését.",
+    "A derítendő bor hőmérséklete 8°C felett legyen! Az alacsonyabb hőmérsékleten a bor viszkozitása megnő és ez nehezíti a „csapadék” leülepedését.",
+    "A derítőszert a gyártó utasításai szerint kell előkészíteni! A hatásfok elérése érdekében fontos, hogy a gyártó által meghatározott módon és időben készítsék elő a derítőanyagokat.",
+    "Derítés folyamán tartsák be a beadagolási sorrendet! Néhány derítőszer egymás hatását csökkentheti, ha nem a megfelelő sorrendben adják a derítendő borhoz.",
+    "Biztosítani kell a megfelelő kevertetést és a derítőszer számára a megfelelő hatóidőt! A derítőszerek általában rövid idő alatt /15-180 perc/ hatnak, de a jó csapadékképződéshez és annak leülepedéséhez 6-14 nap időt kell biztosítani.",
+    "Fontos, hogy az üledék kevés és tömör legyen! Tömör üledéknél színeléssel könnyebben elválasztható a derítési alj és a derített bor.",
+    "Derítőanyagok",
+    "A borászatban használatos derítőszerek hatásukban és összetételükben különböznek egymástól. Csoportosításuk a következőképpen történhet:",
+    "ásványi derítőszerek",
+    "fehérjetartalmú derítőszerek",
+    "kálium-ferro(II)-cianid (sárgavérlúgsó)",
+    "egyéb derítőszerek",
+    "",
+    "Ásványi derítőszerek ",
+    "szervetlen, szilárd, porszerű anyagok (granulátumok)",
+    "nem vegyülnek a bor alkotórészeivel",
+    "oldhatatlan alumínium-szilikátok",
+    "hatásuk elsősorban a fizikai (töltéskülönbségen alapuló) felületvonzáson alapszik",
+    "legnagyobb jelentőségű a BENTONIT",
+    "Bentonit: Vulkanikus hamuból származó agyagásvány (kalciumot, magnéziumot tartalmazó alumínium-szilikát).",
+    "Elnevezése eredeti lelőhelyére (a település nevére) utal (Benton, USA).",
+    "Rendkívül nagy a felülete, 1 g bentonit felülete közel 5 m2. Szemcsenagysága alig nagyobb a kolloidokénál. Nagy fajsúllyal rendelkezik, ezért jó az ülepedési sebessége.",
+    "Vízzel duzzasztott állapotban erős negatív töltést vesz fel, ezáltal adszorbeálja a pozitív töltéssel rendelkező fehérjéket, kolloidokat. A duzzadó képessége lényeges szempont, mert ez hatással van a tisztító és stabilizáló hatásra. Az egyes bentonitok vízfelvétele saját tömegük 10-20 szorosa is lehet.",
+    "Beadagolás: a gyártó előírási szerint elkészített szuszpenziót (ez általában tízszeres mennyiségű vízben történő, 24 órás duzzasztás), állandó keverés mellett kell adagolni a derítendő borhoz (pl.: nyílt körfejtés segítségével).",
+    "A borászok ma már a bentonitféleségek széles termékskálájával találkozhatnak, így a számukra minden tekintetben megfelelő tisztító és stabilizáló szerek közül választhatnak.",
+    "Meg kell említeni, hogy a korszerű borászatban szinte alig nélkülözhető bentonit használatának káros hatásai is lehetnek! A túladagolás az alábbi veszélyeket okozhatja:",
+    "mint erősen hatékony adszorbens, a borból értékes aminosavakat, zamatanyagokat is kivesz;",
+    "jelentősen megnövelheti a bor nátrium tartalmát, ami a borexportra vonatkozó előírások teljesíthetőségének akadályát okozza. /A borok Na-tartalma nem haladhatja meg a 60mg/l értéket/.",
+    "",
+    "Fehérjetartalmú derítőszerek",
+    "Alkalmazásuk a borászatban régóta ismert. Az anyagásványokkal szemben pozitív töltéssel rendelkeznek, így a bor negatív töltésű tannintartalmával képeznek csapadékot. Ebbe a csoportba tartozik: a zselatin, a vizahólyag, a tojásfehérje, a fölözött tehéntej és a kazein.",
+    "Zselatin",
+    "Vízben erősen duzzadó fehérjeszármazék /lényegében tisztított enyv/, a kollagének csoportjába tartozik.",
+    "Derítéskor a borhoz adott zselatinoldat molekulái a bor pH-tartományában (2,8–3,5 pH) pozitív töltéssel rendelkeznek. Derítő hatását úgy adja, hogy a bor természetes cserzőanyagaival történő kicsapódás után keletkezett pelyhes csapadék adszorbeáló hatása köti magához a szuszpendált részecskéket. (flokkuláció). A fémek közül az aktív háromértékű vas is tannin-vas-komplex formájában flokkulál a zselatinnal.",
+    "Adagolásakor 4-16 g/hl értékkel kell számolni a próbaderítés alapján. Előkészítésekor a zselatint 5-szörös mennyiségű hideg vízben kell duzzasztani (akár 24 órán keresztül), majd a gél állapotból meleg víz hozzáadásával egy szol (erősen viszkózus folyadék) állapotot kell képezni. Ezt a szol állapotot borral elkeverve felhabosítják („csűrölik”), és így adják derítéskor a borhoz.",
+    "A bor természetes tannintartalma – elsősorban fehér borok esetén – nem elegendő a megfelelő hatás eléréséhez, ezért valamilyen tannint is adnak a borhoz. 1 g zselatinra számítva 0,5-1 g tannin szükséges. /Beadagoláskor először a tannint, majd utána a zselatint adagolják./",
+    "A száraz zselatin körülményes előkészítése miatt könnyebben kezelhető anyagokat kezdtek el használni a borok derítésekor. Pl.: hideg vízben oldódó, folyékony halmazállapotú, valamint más anyagokkal aktivált zselatint.",
+    "/A zselatinos derítéshez adott tannin a szőlő természetes cserzőanyagaitól idegen, emiatt csak annyit szabad adagolni, amennyi a zselatinnal maradék nélkül kicsapódik. A feleslegtől fanyar, húzós ízűvé válhat a bor./",
+    "A tannin helyett újabban KOVASAV SZOL-t használnak.",
+    "Magyarországi kísérletek szerint a kovasav-zselatinos derítés jól alkalmazható nagy polifenol-tartalmú, nehezen deríthető újborok tisztító kezelésére a túlderítés veszélye nélkül. Ezáltal jelentős szerepe lehet a borkezelések automatizálásában.",
+    "Vizahólyag",
+    "A viza (tokhalfélék családjába tartozó hal) úszóhólyagja már évtizedekkel előtt is általános derítőszer volt a borászati technológiában. A hosszabb ideig fahordóban érlelt borok esetén közvetlenül a palackozás előtt alkalmazzák. Manapság már ritkán használt derítőszer, más szintetikus anyagok átvették a szerepét.",
+    "Tojásfehérje",
+    "Leginkább a vörösborok derítésére használják, mivel a derítőszerek közül legjobban kíméli a színanyagokat. Hatóanyaga az albumin és a globulin, amelyek a borban elkeverve erősen duzzadnak és úgy viselkednek, mint a zselatin. /adagolás: 1-3 tojásfehérje/hl/",
+    "Fölözött tehéntej",
+    "Ma már alig használt derítőszer. Hatóanyaga a kazein és az albumin. A kazein a bor savainak hatására, az albumin a cserzőanyag hatására csapódik ki. Használata hibás borok (olajszag) kezelésénél javasolt. /adagolás: 0,5-1,5l/hl/",
+    "Kazein",
+    "Tejből készített összetett fehérje, általában por alakban kerül kiszerelésre. Derítőszerként ritkán használják, de színtelenítő hatása miatt érdemes ismerni. A sötétebb tónusú fehér borokat világosítja, a fenolos anyagokat eltávolítja.",
+    "",
+    "Kálium-ferro(II)-cianid (sárgavérlúgsó)",
+    "A sárgavérlúgsó {K4[Fe(CN)6]} a borban lévő nehézfémekkel (vas, réz cink, mangán) oldhatatlan csapadékot képez, ezért eltávolításukra alkalmas. Ezáltal meg lehet előzni a különféle fémes töréseket, elő lehet segíteni a bor stabilitását. A vasionnal alkotott csapadék úgynevezett „berlini kék” színű – innen a kékderítés elnevezés. A kékderítés fokozott elővigyázatosságot igényel, mert túlderítés, vagy nem elegendő kevertetés esetén „helyi túlderítés” léphet fel és a bor pH-érték tartományán cián-hidrogén szabadulhat fel, ami veszélyes méreg. Ebből adódóan a kékderítési alj veszélyes hulladék!",
+    "A kékderítést jogszabályban meghatározott, vizsgával rendelkező személy végezheti! A szükséges derítőszer mennyiségének megállapítása és az elvégzett derítés visszaellenőrzése laboratóriumban kell, hogy megtörténjen. Ennek ellenőrzésére a borászati hatóságoknak joga van!",
+    "/A mai borkészítési technológiában a saválló acél eszközök használata miatt a fémes szennyeződésekből keletkező borhibák megszűnőben vannak./",
+    "",
+    "Egyéb derítőszerek, derítési segédanyagok",
+    "PVPP (polivinil-polipirrolidon)",
+    "Vízben és alkoholos-vizes elegyben oldhatatlan műanyag. A PVPP a zselatinhoz hasonlóan flokkulál a borban lévő tanninok jelenlétében. Az oxidálható és kondenzálható polifenolokat távolítja el. Pirkadt fehérborok (piros bogyóhéjú fajták: Tramini, Szürkebarát stb.) általános derítőszere. Túl tanninos, szárító ízhatású vörös borok és pezsgő alapborok kezelésére is alkalmas. A túlderítés elkerülése érdekében 80g/hl mennyiségben alkalmazható.",
+    "Aktív szén",
+    "Tisztított növényi eredetű szén származék, amely hatalmas belső felülettel rendelkezik (400-1200m2/g) fehérborok szagtalanítására és színtelenítésére használt anyag. 30-40g/hl mennyiségben alkalmazzák.",
+    "Ca- vagy K-alginát",
+    "Kizárólag a palackos erjesztésű és degorzsálással (pezsgőkészítés során fagyasztással távolítják el a seprőt) seprőtelenített pezsgők és gyöngyözőborok előállítása esetén használják, mint a seprő lerázását elősegítő adalék. (lásd Pezsgők című tananyagrész!) Ezeket a derítőszereket tengeri algákból állítják elő. Íztelen, szagtalan por formájában forgalmazott, mikroszkopikus méretű rostokat tartalmazó derítőszer. Alkoholban nem oldódik, 4-6g/hl mennyiségben használatos.",
+    "Derítési segédanyagok",
+    "Borászati tannin (csersav): Vízben oldható és alkoholban részben oldható, porként forgalmazott kezelőanyag, amelyet dió-, tölgy- gesztenyefa, vagy törköly alapanyagból nyernek. Kesernyés, fanyar ízhatást eredményez. Újborok teltségét, fehérjestabilitását okozza, a derítés hatékonyságát növeli, a zselatinos derítés „segédanyaga”. Adagolása fehér borokhoz 5 g/hl, vörös borokhoz 5-10g/hl.",
+    "Kovasav szol: Folyékony (szol) halmazállapotú, a kovasavanhidrid (üveggyártás mellékterméke) 15-30%-os vizes oldata. Negatív töltésű felülettel rendelkező kolloid részecskéket tartalmaz. Pozitív töltésű fehérjékkel – elsősorban a zselatinnal – reakcióba lépnek, flokkulálódnak. A fehérjealapú derítőszerek derítési segédanyaga, mert a teljes fehérjemennyiséget képes megkötni a túlderítés veszélye nélkül. Tömör üledéket eredményez, gyorsítja a tisztulást. Alkalmazott adagja 20-100 ml/hl.",
+    "",
+    "Összetett derítőszerek",
+    "Az összetett derítőszerek egyszerre stabilizálják a polifenol-, a fehérje- és a nitrogén tartalmat, a fémionok mennyiségét pedig csökkentik. Feladatuk a színvesztés és az oxidáció megakadályozása. Komplex termékek, többfajta bentonit, fehérje alapú derítőszer, kolloid, PVPP, kovasav kombinációit tartalmazzák. /Ha a derítőszer allergénmentes, biotermék vagy vegán borok előállításához is használható, azt a gyártók külön feltüntetik/.",
+    "A leggyakrabban használt derítőszerek jellemzőit az 1. sz. táblázat tartalmazza.",
+    "A leggyakrabban használt derítőszerek és jellemzőik",
+    "",
+    "Derítési módok",
+    "A derítések módjait a felhasznált derítőszerek, illetve azok kombinációinak megnevezésével különböztetik meg. Általánosan a következő elnevezéseket használják:",
+    "csersav-zselatin derítés",
+    "kovasav-zselatin derítés",
+    "bentonit derítés",
+    "sárgavérlúgsós derítés (kékderítés)",
+    "kombinált derítés",
+    "",
+    "Kombinált derítés",
+    "A borászati technológiában jó hatásfokkal alkalmazhatók a különböző derítőszerek kombinációi, ezáltal nagyobb stabilitás és tömör üledék alakítható ki. A derítéskor alkalmazandó anyagok szükséges mennyiségének és azok beadagolási sorrendjének a megállapítását a próbaderítés alapján végzik el. /Ilyenkor két vagy több derítőszert nem szabad egyszerre a borhoz adagolni, mert azok egymás hatását kiolthatják./",
+    "A helyes sorrend általánosan: ",
+    "elsőként a derítési segédanyagként használt kovasav szolt, vagy borászati tannint (csersavat) adagolják a borhoz ",
+    "Kevertetés után a zselatin beadagolása következik, majd 120-180 perc hatóidő után ",
+    "a bentonit beadagolása történik meg",
+    "/Ha kékderítést is végeznek, akkor a sárgavérlúgsót a tannin/kovasavszol után adagolják be/.",
+    "",
+    "Derítés gyakorlati végrehajtása",
+    "Az első feladat mindig a próbaderítés! Ez történhet nagyobb üzemek esetén a saját laboratóriumban, vagy egyéb borászati szolgáltatásokat nyújtó cégek segítségével.",
+    "A próbaderítés beállításánál mindig figyelembe kell venni a gyártó által javasolt adagolást. A derítőszert megfelelően előkészítve, növekvő koncentrációval összeállítanak egy 3-5 mintából álló sorozatot, amelyhez hozzámérik a derítőszert. Homogenizálják (összerázzák) és a bor tárolási hőmérsékletén tárolják. Néhány nap múlva kiértékelik az eredményt. Kiértékeléskor a már legkisebb megfelelő tisztaságot adó derítőszer mennyiséget veszik a derítés alapjául. Bentonitos derítés esetén úgynevezett hőpróbát is kell végezni, amivel a hőre érzékeny (thermolabilis) fehérjék eltávolítását ellenőrzik. /A tisztaság szempontjából kiértékelt sorozatot szűrik és meleg helyen 1-2 napig tárolják. (50°C-on 2-3 óra). Amennyiben a hőpróba után fehérjekiválást tapasztalnak, akkor a hatás elérése érdekében a nagyobb adaggal derítenek.",
+    "Derítés elvégzése során a derítőszert (szereket) pontosan kimérik és a használati utasítás szerint előkészítik, majd a borhoz keverik. Fontos, hogy a beadagolt derítőszereket megfelelő sorrendben kell beadagolni és alaposan el kell keverni. /A derítés megkezdése előtt a tartályból levétet kell venni a keverési űr biztosításához. A levét mennyisége 1-5% is lehet – a derítőszerek tulajdonságaitól (pl.: habzás) függően./ A levétet később vissza kell tölteni a tartályba.",
+    "A derítési üledékről 6-14 nap múlva lehet a bort lefejteni (színelni). Színelés után a műveletet általában szűrés egészíti ki.",
+    "A keletkező derítési aljat az üzem nagyságának megfelelően kell kezelni. A 25-500 hl bort előállítók esetén a borseprőre vonatkozó szabályozás szerint kell eljárni. Az 500 hl feletti bort elállítóknak a megsemmisítésről lepárlás útján kell gondoskodni.",
+    "",
+    "Szeparálás (centrifugális ülepítés)",
+    "A szeparálás (centrifugális ülepítés) a borászati technológiában a mustok, a seprős újborok, valamint híg seprők szétválasztására és tisztítására alkalmas eljárás. Előkészítő művelete a musttisztításnál is alkalmazott gravitációs erőn alapuló ülepítés. Ülepítés után a kisebb szedimenttartalmú borok nagyobb teljesítménnyel szeparálhatók, ezáltal a művelet is gazdaságosabb.",
+    "A szeparálás alkalmazási területei:",
+    "a must erjedés előtti tisztítása",
+    "a kierjedt újbor /és tankpezsgő/ kezelése (seprőtelenítés)",
+    "derítés után a bor „színelése” (az üledék elválasztása a bortól)",
+    "A szeparálás tulajdonképpen a szuszpenziók szétválasztására szolgáló művelet, amely szétválasztást centrifugális erőtérben lehet végrehajtani. A szeparálás leválaszt gyakorlatilag minden élesztősejtet, továbbá eltávolítja a kolloid jelentős mennyiségét. ",
+    "A centrifugális erő elméletét és mechanikai elveit a holland Huygens dolgozta ki 1669-ben. Magát az eszközt Otto von Guericke német fizikus alkotta meg. A folyamatosan működő szeparátort Gustaf de Laval készítette el 1882-ben. Ez a centrifuga a tej fölözésére szolgált. (A berendezés 6000-7000 fordulat/perc teljesítménnyel működött.)",
+    "A szeparálás magas költséggel járó, körülményes eljárás, ezért akkor célszerű alkalmazni, ha gyors és éles szétválasztásra van szükség. A gyenge minőségű, esetlegesen betegségre hajlamos borokat gyorsan el kell választani az erjedéskor keletkezett üledéktől. Centrifugálással már a technológiai sor elején nagy mennyiségű zavarosító anyagot tudnak eltávolítani, ezzel lehet gyorsítani a borok tisztulását, és a szeparált borok a későbbiekben kevesebb derítőszert is igényelnek.",
+    "A borászati gyakorlatban alkalmazott szeparátorok (szeparálást végző berendezések) fordulatszáma olyan nagy (6000/ perc), hogy az adott térben az erő sokszorosa a gravitációnak, az erőtérben a folyadék felszíne gyakorlatilag függőleges, ezáltal a zavarosító anyag a berendezés belső falához tapad, ahonnan a technológia függvényében szakaszosan, vagy folyamatosan eltávolítható. ",
+    "A szeparátorokat a következő szempontok alapján lehet csoportosítani:",
+    "a dobbetétek alakja szerint: - körkamrás, tányéros szeparátorok, csigás centrifugák ",
+    "a dob ürítése szerint: szakaszos/kézi ürítésű, szakaszosan önürítő, folyamatosan önürítő szeparátorok",
+    "Borászati alkalmazásban a legjelentősebbek a tányéros – szakaszosan önürítő szeparátorok. ",
+    "",
+    "Szakaszosan önürítő tányéros szeparátor metszeti képe",
+    "Forrás: https://www.alfalaval.com/globalassets/images/products/separation/centrifugal-separators/separators/how-separation-works/hiw_hotspot_separator.png, (Letöltés 2024.07.11.)",
+    "",
+    "Szakaszosan önűritő tányéros szeparátor szerkezeti felépítése",
+    "Forrás: Bacskay Csaba: Borászati és üdítőitalipari gépek I. Budapest, 1999, Agrárszakoktatási Intézet, 219. oldal",
+    "",
+    "Ha nem áll rendelkezésre szeparátor, akkor a zavarosító részecskéket szűrőkkel kell eltávolítani. Ez általában több lépésben, különböző technikákkal történik. Azok a szűrőrendszerek, melyek nagy mennyiségű seprő felvételére képesek, finom szűrésre alig alkalmasak.",
+    "Szűrés",
+    "A szűrés alapjai",
+    "A szűrés szilárd anyagokat tartalmazó folyadékok (szuszpenziók) mechanikus leválasztása egy áteresztő réteg (szűrőközeg) használatával.",
+    "A szűrés fogalma a következőképpen definiálható:",
+    "A szűrőanyagok és a szűrési módok megválasztása a következőktől függ: ",
+    "Mustok, borok fizikai tisztító, szétválasztó művelete, szitahatás elvén, nyomáskülönbség (Δp) hatására, valamilyen szűrőrétegen átáramoltatva. A szűréssel tükrös tisztaság, illetve csírátlan állapot érhető el.",
+    "Hányadik szűrést végzik el az adott tételen:",
+    "a bor tulajdonságaitól (könnyű vagy testes; édes vagy száraz; milyen a bor viszkozitása),",
+    "a zavarosító anyagok jellemzőitől (azok mérete, mennyisége, egyéb tulajdonságai).",
+    "A szűrőhatás a szűrőfelület milyenségét tekintve lehet:",
+    "felületi (kétdimenziós szűrés, szitahatás elvén),",
+    "mélységi (háromdimenziós szűrés, lepényszűrés – más néven ráiszapoló szűrés).",
+    "A szűrés megvalósítása történhet:",
+    "a szűrés megindulásakor adott szűrőfelülettel (lapszűrés, membránszűrés),",
+    "folyamatosan utánadagolt szűrőanyaggal (kovaföld szűrés),",
+    "folyamatosan tisztított szűrőfelülettel (cross-flow szűrés, vákuumdobszűrés).",
+    "",
+    "Felületi- és a mélységi szűrés elve",
+    "Forrás: Bacskay Csaba: Borászati és üdítőitalipari gépek I. Budapest, 1999, Agrárszakoktatási Intézet, 235. oldal",
+    "",
+    "A szilárd anyagtól megszabadított folyadékot szűrletnek, a szűrőanyagon visszamaradt zavarosító anyagot szűrőlepénynek nevezzük. ",
+    "A borászatban általánosan alkalmazott szűrési módok a következők:",
+    "szűrés tartályos kovaföld szűrővel (ún. szűrőaggregát),",
+    "szűrés kamrás kovaföld szűrővel,",
+    "szűrés lapszűrővel (durva szűrés),",
+    "csírátlanító szűrés lapszűrővel,",
+    "szűrés membránszűrőkkel,",
+    "seprőszűrés szűrőpréssel,",
+    "aljborok, híg seprők szűrése vákuum dobszűrővel.",
+    "A szűrés folyamán három hatás érvényesülhet:",
+    "a szitahatás a kapillárisok méreténél nagyobb szemcséket tartja vissza,",
+    "a mélységi hatás a kapillárisok méreténél kisebb szennyeződéseket fogja meg a hajszálcsövek iránytöréseinél,",
+    "az adszorpció az elektromos töltések alapján és az adhézió segítségével köti meg a részecskéket (az adszorpciós hatás csak a szűrés kezdetén nagy, később megszűnik).",
+    "A szűrés tényleges esetei a három hatás kombinációi.",
+    "",
+    "A szita-, a mélységi- és adszorpciós hatású szűrés elve",
+    "szitahatás\t\tmélységi hatás \t\tadszorpciós hatás",
+    "Forrás: Bacskay Csaba: Borászati és üdítőitalipari gépek I. Budapest, 1999, Agrárszakoktatási Intézet, 236. oldal",
+    "",
+    "Borszűrőket csupán a múlt század elejétől használnak. Előtte az idő múlásával végbemenő öntisztulás (természetes ülepedés) volt az egyetlen mód a tiszta bor előállítására. A kovaföld- és lapszűrők bevezetése csökkentette a kockázatot, és használatukkal véges idő alatt csíraszegény vagy éppen csíramentes bort lehet előállítani. A szűrőrendszerek evolúciója az elmúlt 100 évben a borkezelést is megújította.",
+    "A pincében történő szűrés célja a csíramentes, elfogadható maradékkolloid mennyiségű bor gazdaságos előállítása. A palackozáskori befejező szűrés már csak egyfajta őrfunkciót tölthet be, és semmiképpen sem a részecskék visszatartására szolgál. Az ekkor használt membránszűrőket nem a seprő visszatartására tervezték.",
+    "A lapszűrők és kovaföld szűrők számos változatát statikusan elválasztó membránszűrők és dinamikusan működő keresztáramú szűrők egészítették ki, és számos esetben fel is váltották azokat.",
+    "Nagyon sok kis- és közepes méretű üzemben továbbra is a kovaföldszűrést vagy a lapszűrést használják. Általánosan elmondható, hogy a használt gépi technológia attól függ, hogy éppen mi áll rendelkezésre; nagyon sokszor a hosszú élettartamú készülékeket akkor is tovább használják, ha a műszaki színvonal már meghaladta.",
+    "A folyamattechnológiában számos kísérlet történt a már szinte átláthatatlanul változatos szűrőberendezések rendszerezésére. A 6. ábra módszertana leképezi a borkezelést és az általa használt technikákat.",
+    "",
+    "A bor tisztítására használt szűrőrendszerek szűrési elv szerinti rendszerezése",
+    "",
+    "A szűrés mérettartomány szerinti csoportosítását az 2. táblázat tartalmazza.",
+    "A szűrések csoportosítása mérettartomány szerint",
+    "",
+    "A kovaföld szűréshez (ráiszapoló szűrés) felhasznált szűrőanyagok",
+    "Továbbra is széles körben elterjedt borszűrés a kovaföld használatával történő, más néven nevezve ráiszapoló szűrés. Alternatívaként (illetve hozzákeverve) perlitet, az ezredfordulótól egyre gyakrabban cellulózt használnak.",
+    "A kovaföld-szűrés értelmezhető úgy, mint egy folyamatos, háromdimenziós szűrés. Szűréskor az utánadagolt kovaföld (szűrési segédanyag) mennyiségét és minőségét általában a bor zavarossága és szűrhetősége határozza meg. /Általános szabály: zavarosabb borhoz több, tisztább borhoz kevesebb kovaföldet adagolnak/",
+    "A kovaföld a harmadkorban és a negyedkorban a tengerek, vagy édesvizű tavak fenekén, esetenként akár 100 m vastag rétegben lerakódott közel 10 000 kovamoszat (diatóma) tisztított, szárított és őrölt váza. Egy cm3 kovaföld akár 1 milliárd, formákban változatos formájú diatóma vázat tartalmazhat.",
+    "Előkészítésénél, a víz és minden szerves alkotórész eltávolításához 800 °C-ra hevítést alkalmaznak. Az előzőleg amorf struktúra egy része hevítéskor kristályos formákká alakul át. ",
+    "Minél finomabb a szűrési segédeszközök szemcsemérete, annál jobb a leválasztási hatásfok. A finom kovaföld elvileg mindenfajta mikroorganizmust képes leválasztani. Ezek a szűrőrendszerek szerkezetükből és anyagukból adódóan azonban nem sterilizálhatók, így szoros értelemben vett steril szűrés nem lehetséges.",
+    "A kovaföld megkötő hatása a diatómák közötti labirintusszerű üregeken alapul, amelyekben a részecskék elakadnak. A porozitásból adódóan a bor egy része is visszamarad. A száraz és a nedves súly közötti eltérés a térfogatsűrűség körülbelül két-háromszorosa. Egy kilogramm kovaföldre számítva 1–3 l bor vész kárba.",
+    "A hulladékként kezelendő szűréskor visszamaradt seprős kovaföld mennyisége ennek megfelelően nő. A biológiai hulladékként történő mezőgazdasági hasznosítás nedves állapotban és azonnali bedolgozással megengedett. A gyakorlatilag nehézfémmentes, a leválasztott zavarosító anyagok formájában könnyen lebomló fehérjéket tartalmazó szűrő kovaföld szerves trágyaként alkalmas felhasználásra.",
+    "A pincei felhasználáskor óvintézkedéseket kell tenni! A száraz kovaföld porzik, a por egy része a tüdőbe jutva maradandóan károsíthatja a tüdő hörgőcskéit. A biztonsági adatlapok alapján a száraz kovaföld hosszabb belégzés káros az egészségre.",
+    "A perlit őrölt és megtisztított vulkanikus kőzet. A tisztításkor felhevítik, a belsejében megkötött víz közben erőteljesen felduzzasztja a kőzetet, és létrehozza a „seprő” megkötéséhez szükséges nagy felületet. A kovaföldhöz hasonlóan a perlit is alapvetően szilícium- és alumínium-oxidból áll, és ugyancsak egyaránt használható előiszapolásra, vagyis a szűrőfelületen történő úgynevezett alapréteg kialakítására, amely a később utánadagolt kovaföld mennyiségének biztosít egy stabil alapot, valamint szűrésre is alkalmas.",
+    "A cellulóz a növényi sejtfal fő alkotóeleme. A ráiszapoló szűrésben sok éve használják, de kezdetben csak az előiszapolás részét képezte. Amióta a cellulózrostok műszakilag szűk méretskálán előállíthatók, a tényleges szűrés pusztán ezáltal sikeresen kivitelezhetővé vált. A cellulózrostok önmagukban szűrőlepényt képeznek, amely viszonylag stabil a repedésképződéssel szemben, ami csökkenti a boráttörés veszélyét, vagyis nem szakad át a kialakult szűrőfelület az esetlegesen bekövetkező nagyobb nyomás hatására. Ezenkívül a cellulóz a kovaföldtől vagy perlittől eltérően nem abrazív hatású, vagyis nem koptatja, dörzsöli a szivattyúk, illetve sziták és támasztószövetek felszínét: azok tehát gyakorlatilag nem kopnak. A mezőgazdasági hasznosítása korlátozás nélkül lehetséges.",
+    "A durva szűrést a bor esetében a gyakorlatban főként kovaföldszűrőkkel végzik. Az elvileg durva szűrésre ugyancsak alkalmas vákuumdobszűrőt még kevés pincészet használja (főleg nagyüzemek), és borszűrésre gyakorlatilag egyáltalán nem.",
+    "A kamrás kovaföldszűrő szerkezeti felépítését és működését a 9. és 10. ábra mutatja",
+    "",
+    "Kamrás kovaföldszűrő berendezés",
+    "Forrás: Bacskay Csaba: Borászati és üdítőitalipari gépek I. Budapest, 1999, Agrárszakoktatási Intézet, 86. oldal",
+    "",
+    "",
+    "Kamrás kovaföldszűrő berendezés működési elve",
+    "Forrás: Bacskay Csaba: Borászati és üdítőitalipari gépek I. Budapest, 1999, Agrárszakoktatási Intézet, 87. oldal",
+    "",
+    "A borászatban leggyakrabban alkalmazott tartályos kovaföldszűrők típusai a korongos szűrő és a tányéros szűrő /működési elvüket és felépítésüket a Borászati gépek tananyag részletesen magyarázza/.",
+    "",
+    "Tartályos (korongos) kovaföldszűrő berendezés szerkezete",
+    "Forrás: https://www.hogyan-kell.com/szakerto-147/osszefoglalo-a-fegyelem-feldolgozoipar.html (Letöltve: 2024.07.10.)",
+    "",
+    "",
+    "Tartályos (tányéros) kovaföldszűrő berendezés szerkezeti felépítése",
+    "Forás: Eperjesi Imre: Borászat. Budapest, 1998, Mezőgazda Kiadó, 159. oldal",
+    "",
+    "Minden szűrés célja a szűrendő tétel egyféle szűrési megközelítéssel történő feldolgozása. A kovaföldszűrésnél végeredményben a folyamatos szűrési segédanyag-adagolás a meghatározó. Az adagolandó szűrési segédanyag mennyisége általánosan 15 – 150 g/hl. A szűrés eredményessége a kezelő tapasztalatán is múlik!",
+    "",
+    "„Mélységi szűrés” előregyártott szűrőlapokkal",
+    "A mélységi szűrés iparilag előregyártott, nagy pórustérfogatú (80%) és ennek megfelelően nagy felvevőkapacitású szűrőanyagokat használ. A borkezelésben két különböző rendszert használnak:",
+    "nyitott szűrő mélységi szűrőlapokkal,",
+    "zárt szűrő moduláris felépítésű mélységi szűrőlapokkal.",
+    "A 13. sz. ábrán egy nyitott (terelő kamrával ellátott) lapszűrő látható.",
+    "",
+    "Lapszűrő terelőkamrával",
+    "A = beömlőnyílás; B, C, E = 1. szűrlet kiömlőnyílása; D = 2. szűrlet lefolyónyílása.",
+    "",
+    "Ennél a rendszernél a szűrőlapokat kézzel helyezik be a keretbe. A szerkezetet a berendezés kereteinek összeszorításával egy egységbe foglalják, majd a szűrés előtt bő vízzel elárasztják őket, amíg szagsemlegessé válnak (úgynevezett papíríz eltávolítása).",
+    "A szűrendő folyadék egyenletesen eloszlik az üreges szűrőlapokon, átáramlik a szűrőelemeken és szűrletként egy központi helyen összegyűlik. A szűrlet egy terelőkamrán keresztül áthalad egy második, például finomabb szűrőlapokkal ellátott rendszerbe. Egy menetben és egy rendszerben, közvetlenül egymás után elvégezhető az elő- és a finomszűrés, vagy a terelőkamra elhagyásával megduplázható a szűrőfelület.",
+    " Modulszűrés",
+    "A modulszűrők lehetnek tányéros vagy gyertyás szűrők. A szűrlet elvezetése központilag történik. A mélységi szűrőlapokkal ellátott modulszűrők a szűrőlapokhoz hasonlóan működnek. Két-két egymásra helyezett, kerek szűrőtányért egy-egy közbenső vezető- és támasztólap kapcsol össze szűrőcella-modullá, amelynek külső peremét „körbefröccsöntéssel” tömítik. Sok ilyen szűrőcellát egymástól kis távolságban, távtartókkal elválasztva és szorosan egymásra helyezve beépítenek egy légmentesen zárt házba. A szűrő csepegésmentes, viszonylag kis keverékzónájú (kicsi a szűrésre alkalmas tér a berendezésben) és a nyitott rendszereknél sokkal higiénikusabb. Mint minden mélységi szűrő, a modulok is viszonylag nagy mennyiségű seprőt képesek felvenni. A modulok kevesebb helyet foglalnak, mint a nyitott lapszűrők. Használat, visszamosás és sterilizálás után a gyártó előírásainak megfelelően mindenkor használatra készek.",
+    "",
+    "Tárcsa alakú modulok, valamint egy redőzött szűrőgyertya",
+    "",
+    "A mélységi szűrők hideg, vagy nem túl meleg, legfeljebb 60 °C-os vízzel visszamosatva nagymértékben regenerálhatók. A visszamosás a kiömlőnyílástól a beömlőnyílás felé, vízzel történik. A szűrőlap aszimmetrikus, tölcsérszerű felépítése kedvező a visszamosáshoz. A beömlőoldalon nagyobbak a pórusok, mint a kiömlőoldalon. A pH-érték változásával a szűrőközeg és az üledékanyag telítődési tulajdonságai is megváltoznak, és a már adszorbeált részecskék újra leválnak.",
+    "3.1.2.2 Lapszűrés",
+    "A lapszűrés a borkezelésben máig a legszélesebb körben használt szűrőrendszer. Főként a palackozás előtt a steril területen, vagy a membránszűrés védelmére használják. A kisüzemek azonban lassan már az üledékanyagok teljes körére használják a lapszűrőket annak köszönhetően, hogy a szűrőlapok szűrési hatásfoka nagy mértékben változtatható.",
+    "A szűrőlapokat áteresztőképességük alapján tudjuk megkülönböztetni. A fajlagos áteresztő képesség a következően értelmezhető: 1 m2 szűrőfelületen, 1 óra alatt, 1 bar nyomáson átáramló 20°C hőmérsékletű desztillált víz mennyisége. /Ez az úgynevezett D-érték/",
+    "D-értékre vonatkozó tájékoztató adatok:",
+    "D-érték a szűrőanyagok esetén",
+    "Forrás: Harasztiné Lajtár Klára: Borászati technológiák eszközei I. Eger, 2012, A borkultúra központ kiadványai 126. oldal",
+    "",
+    "A borászati műveleteknél alkalmazott tájékoztató értékek:",
+    "Borászatban alkalmazott D-értékek",
+    "Forrás: Harasztiné Lajtár Klára: Borászati technológiák eszközei I. Eger, 2012, A borkultúra központ kiadványai 126. oldal",
+    "",
+    "A szűrőlapok szűrési tartományát (nagy általánosságban) az 5. sz. táblázat tartalmazza:",
+    "Szűrőlapok szűrési tartománya",
+    "Forrás: Harasztiné Lajtár Klára: Borászati technológiák eszközei I. Eger, 2012, A borkultúra központ kiadványai 126. oldal",
+    "",
+    "A szűrőlapok alapváza lényegében speciálisan előkészített cellulózrostokból áll, a szűrő hatásért pedig főként a cellulózrostokban elhelyezkedő kovaföld felelős. (A durva tisztításra használt lapok perlitet is tartalmaznak.) A hozzáadott polimerek (gyanták) javítják a nedves szilárdságot, növelik a stabilitást, és csökkentik az elkerülhetetlen csepegést.",
+    "A technológiában főként 20 × 20, 40 × 40, 60 × 60 vagy 100 × 100 cm-es szűrőlapokat használnak. Egy lapszűrőben akár több tucat alkot belőlük megfelelően nagy szűrőfelületet. Durva vagy finom szűréskor 800–900, steril szűréskor 450 l/m2/óra szűrési teljesítmény érhető el. A 19. ábrán különböző méretű négyzetes és kerek szűrőlapok láthatók a megfelelő szűrőeszközökkel.",
+    "",
+    "Küböző méretű és formájú szűrőlapok",
+    "",
+    "A kereskedelmi forgalomban kapható szűrőlapok 3–5 mm vastagok, és szűrőfelületük m2-enként akár 4 l borseprő felvételére képes. Az élesztők vagy más durva részecskék már a felületen fennakadnak, a kisebbek a lap mélységében ágyazódnak be, vagy az adszorpció tartja vissza őket. (A 0,5 μm méretű tejsavbaktériumnak a tiszta oldalig elméletben saját átmérője akár 5000-szeresének megfelelő utat kell megtennie.) A szűrés lefolyását meghatározó paraméter a beömlőnyílás és a kiömlőnyílás közötti nyomásnövekedés (Δp), azaz végeredményben a felvevőképesség eléréséig áthaladó mennyiség. A maximális nyomáskülönbség a steril szűrésnél csupán 1,5 bar, a durva vagy finom szűrésnél nagyjából kétszer ekkora. A megengedett nyomáskülönbség túllépése a lapok átszakadásához, boráttöréshez vezethet. A nyomásnövekedést az okozza, hogy a lapok fokozatosan eltömődnek. Az eltömődés mértéke az üledékanyagok jellegétől függ.",
+    "",
+    "Mélységi szűrőlapról készült pásztázó elektronmikroszkópos felvétel",
+    "",
+    "A 16. sz. ábrán egy mélységi szűrőlap pásztázó elektronmikroszkópos felvétele látható.",
+    "A kerek/tányérszerű részecskék diatómák (kovaföld), a hosszú rostok cellulózrostok.",
+    "A szűrőlapok választéka hatalmas. A forgalmazók különböző szűrőanyagokkal a teljes palettát lefedik a durva szűréstől a steril szűrésig. A leválasztási hatásfok fordítottan arányos a teljesítménnyel. Néhány új innovatív technológiát érdemes megismerni:",
+    "Fibrillált cellulóz szűrőközeg",
+    "Egy új fejlesztés kimondottan a fibrillált cellulózon alapul, amely felváltja az ásványi szűrőanyagot. A kovaföld vagy perlit nélküli lapok előnye a jobb visszamoshatóság, a legalább hasonló, gyakran nagyobb teljesítmény, a kisebb cseppveszteség, a szinte teljes biológiai lebonthatóság és a nagyobb nyomástűrő képesség.",
+    "Idegen szagok eltávolítására szolgáló szűrőlapok",
+    "2007 óta kaphatók olyan szűrőlapok, amelyek speciális alumínium-szilikát adszorbenst tartalmaznak a bor dohos szagának eltávolításához. A penészes dugóra, szőlőre, tartályra vagy csomagolóanyagra emlékeztető szagot korábban gyakorlatilag nem lehetett megszüntetni. A dugóíz esetében ez a 2,4,6-triklór-anizol (TCA), a penészíz esetében a geosmin. 20 ng/l hozzáadásával 1 ng/l, vagyis az ízlelési küszöb alá lehetett csökkenteni.",
+    "",
+    "Szűrőgyertyák",
+    "A mélységi szűrőgyertyák többnyire különböző polipropilén- vagy cellulóz-acetát rostokból készülnek. A csak néhány μm vastag rostokat háromdimenziós „nemszőtt szövetként” egy mag köré hurkolják. A nemszőtt szövet mátrixában lévő üregeknél nagyobb részecskék a szűrő mélységében elakadnak. A nemszőtt szövet készülhet egyféle anyagból, amelyet harmonikaszerűen összehajtogatnak (redőznek), hogy ezzel megnöveljék a felületét. Az anyagvastagság kívülről befelé csökken, a szűrés hatásfoka ennek megfelelően kívülről befelé nő.",
+    "A mélységi szűrőgyertyákat többnyire a ráiszapoló szűrés után, illetve a finomszűrés után használják, hogy az üledékanyagokkal alig terhelhető, statikus membránszűrőt védjék az eltömődéssel szemben. A membránszűrő „őrfunkciót”, a mélységi szűrőgyertya az előszűrő funkcióját tölti be. Jó visszamoshatóságuknak köszönhetően mindkettő hosszú élettartamú és ezáltal gazdaságos.",
+    "Az adszorpciós tulajdonságokkal és/vagy mélységi hatással rendelkező szűrőanyagok alapvetően bizonyos adszorpciós színcsökkentő hatást mutathatnak.",
+    "",
+    "Statikus membránszűrés (dead end szűrés)",
+    "A membránszűrők a múlt század hetvenes éveinek végétől fokozatosan kiszorítják a lapszűrőket a steril szűrésből. A membránszűréshez hajtogatott membránokat használnak, amelyeket gyertya alakban zárt rozsdamentes acélházakba csavaroznak. A membrán vastagsága kevesebb mint 200 μm, azaz nagyon csekély, csakúgy, mint a felvevőképessége. Használatának előfeltétele a nagy hatásfokú előszűrés: erre a célra megfelelő visszatartási hatásfokú lapszűrők vagy lapszűrő modulok alkalmasak.",
+    "A membránszűrők csak biztonsági szűrőként, szórványos részecskék kiszűrésére szolgálnak. A felületen főként üledékanyagok maradnak vissza, a baktériumok vagy kolloidok gyakran bejuthatnak a borba. A membránszűrés ezeknél egyfajta mélységi szűrő szerepét is betölti. A baktériumoknak ahhoz, hogy átjuthassanak a tiszta oldalra, sejtátmérőjük mintegy 400×-osának megfelelő utat kell megtenniük. A biztosan élesztőmentes szűréshez 0,65 μm pórusméretű szűrőanyagot kell használni. A 0,45 μm-es baktériumok ennél is kisebb porozitást (pórusméretet) igényelnek. A 21. sz. ábrán három steril szűrésre használt gyertyaszűrő látható.",
+    "",
+    "Gyertyaszűrő",
+    "",
+    "A felvevőképesség lapszűréssel szembeni hiányát jelentős előnyök ellensúlyozzák:",
+    "a mikrobiológiai biztonság,",
+    "a termékbiztonság,",
+    "a gazdaságosság,",
+    "a rendszer sértetlenségének vizsgálata (integritásvizsgálat).",
+    "A steril szűrésnél a mikrobiológiai biztonság előfeltétele, hogy maga a szűrőrendszer is sterilizálható legyen. A zárt modulok erre jóval inkább alkalmasak, mint a lapszűrők, és az anyagi ráfordítás is kisebb. A döntő előny azonban az integritásvizsgálat lehetősége, amellyel nagy biztonsággal megállapítható a rendszer rendeltetésszerű állapota. A membránok sértetlenségét minden szűrés előtt meg kell vizsgálni. A gyakorlatban kétféle vizsgálatot használnak:",
+    "A bubble point test (buborékpont-meghatározás) a membrán pórusaiban lévő víz eltávolításához szükséges levegőnyomást méri. A víz átmérőtől függően különböző tartóerővel tapad a membrán pórusaiban. Minél kisebb egy pórus, annál nagyobb a kapilláris erő. A például anyagtörés folytán létrejövő, nagy pórusok kapilláris ereje sokkal kisebb. Ez a vizsgálat a pórusméret mértéke, a kapilláris erő alapján ellenőrzi a membránok épségét, és összehasonlítja a mért értéket a gyártó adataival.",
+    "A nyomástartási próba a nedves membrán szűretlen oldalát meghatározott levegőnyomás alá helyezve létrejövő nyomásesést méri. A nyomás a buborékpont-meghatározásnál alkalmazott nyomás mintegy 70–80%-a. A levegő nyomást fejt ki a vízzel telt pórusokra, és a kapilláris erő megakadályozza a víz távozását. A membrán nyomóoldalán idővel bekövetkező nyomásesés a membrán épségének a mércéje.",
+    "Steril szűrést végezni csak alapos előtisztítás és a mikrobiológiai csíraszám (esetlegesen jelenlévő szaporodásra még képes élesztők) jelentős csökkentése után célszerű.",
+    "A membránszűrőket a palackozás előtti steril szűréskor legtöbbször elő- és kiegészítő szűrőkkel kombináltan használják. Ez biztosítja azt, hogy a szűrő ne tömődjön el.",
+    "Dinamikus membránszűrés (cross-flow, avagy keresztáramú szűrés)",
+    "A dinamikus membránszűrés eljárástechnikailag az anyagok szétválasztására használt membránfolyamatok nagy csoportjának részét képezi. A „keresztáramú (cross-flow) szűrés” elnevezés a membránfelülettel párhuzamos áramlásból ered. A dinamikus szűrések mind ezen az úgynevezett kényszeráramoltatásos elven alapulnak.",
+    "A borkezelésben cross-flow mikroszűrés (CMF) megnevezéssel többnyire 0,2 μm-es vagy 0,45 μm-es porozitású membránokat használnak. A bor makromolekuláit ezek gyakorlatilag nem tartják vissza, az élesztőket, a baktériumokat és a nagyobb üledékkolloidokat viszont igen. A keresztáramú szűrők olyan membránszűrők, amelyeknél a vékony membrán hosszú kerámia- vagy polimercsövek belsejében található.",
+    "Az ultraszűrés (UF) már eredeti polimer összetevőket is képes leválasztani a borból. Emiatt a borkezelésben csak speciális eljárásoknál (intenzív színű fehérborok kezelése, vörösborok színtelenítése), és kizárólag az USA-ban engedélyezett.",
+    "A szintén nyomáselven működő nanoszűrés (NF) a felső leválasztási tartományban még alapulhat porozitáson, míg a szűkebb tartományban az anyagok szétválasztásának alapja az oldódásos diffúzió. A folyadék fokozatosan feloldja a kisebb molekulákat a membránon és a membránban, amelyen ezután átdiffundálnak.",
+    "Végezetül fordított (reverz) ozmózissal (RO) a tengervíz is sótalanítható. A vízen kívül gyakorlatilag minden molekulát visszatart. A fordított ozmózisnál a molekuláris szétválasztás egy félig áteresztő membránon keresztül, kizárólag az oldódásos diffúzió elve szerint működik.",
+    "A reverz ozmózisnál (RO) is szükség van keresztáramoltatásra. A fordított ozmózis membránjának kimenetén egy nagynyomású szelep található. A szelep zárásakor a folyadék nyomása megnő. Amint a folyadéknyomás meghaladja a must vagy bor ozmózisnyomását, permeátum keletkezik, vagyis a víz átnyomódik a membránon. A száraz borban lévő víz leválasztásához 20–30 bar körüli nyomás szükséges. A nagy cukorkoncentrációjú, sokkal nagyobb ozmotikus potenciálú mustok 70–80 bar nagyságú nyomást igényelnek.",
+    "A fordított ozmózis a borkezelésben különböző feladatokra használható önmagában vagy más rendszerekkel kombinálva:",
+    "must töménységének részleges vízelvonással történő növeléséhez; ",
+    "a mustban lévő cukor leválasztásához, a potenciális alkohol csökkentése céljából; ",
+    "a nem kívánt összetevők szelektív eltávolításához; ",
+    "a bor alkoholtartalmának csökkentéséhez.",
+    "A dinamikus szűrési technikák membránjainak felépítése elvileg megegyezik a dead end szűrésnél használtakkal. A vékony, tulajdonképpeni elválasztó membrán támasztó és stabilizáló szövetekre támaszkodik, amelyeken keresztül a szűrlet kifolyik. A döntő különbség a statikus szűréshez képest az áramlás vezetésében rejlik. A 18. ábra összehasonlítja a két módszer működési elvét.",
+    "",
+    "A statikus és a dinamikus szűrés összehasonlítása.",
+    "",
+    "A mikro-, ultra- és nanoszűrésnél történő, dinamikus szűrésnél a statikus szűréshez képest jóval lassabban alakul ki a felületi réteg, mert a keringtetett áramlás magával sodorja a már levált részecskéket. A permeátum áram a kezdetben nagy l/m2 szűrőfelület és óra (fluxus l/m2/ó) értékek először erőteljesen, majd egyfajta egyensúlyi állapot létrejötte után már csak fokozatosan csökkenek tovább. Ha a fluxus gazdaságtalanná válik, akkor kémiai tisztítást kell végezni. A szűrő oldalról, szűrlettel vagy vízzel történő időnkénti visszamosással az érték kissé újra megnövelhető (például 40-ről 70 l/m2/órára).",
+    "",
+    "3.1.4.1 Membrán",
+    "A dinamikus szűrés legfontosabb része a membrán. A bor szűrésekor kétféle anyagot használnak: szerves anyagból (polimerekből) és szervetlen anyagokból (kerámiából) készült membránokat. A 23. ábrán egy kerámiamembrán látható számos csatornával és egy üreges szálas („makaróni”) membránnal, egy struktúra, alak és anyag szerinti felosztásban. Minden műszaki membrán a biológiai membránok példáján alapul, amelyek nélkül egyetlen élő sejt sem létezhetne.",
+    "",
+    "Membránszűrés szűrőelemei",
+    "",
+    "Fent polimer-, lent kerámiamembránok felvételei láthatók; mellettük a membránok rendszerezése.",
+    "",
+    "Kerámiaelem hét membráncsatornával",
+    "",
+    "A szuszpenzió hosszirányban folyik a vékony csatornákban, a csatornák belső falán áthatol a membrán oldalán, ahonnan a gyűjtőtartályba kerül. A 20. ábrán az áramlás menete látható egy hét membráncsatornás kerámiaelem példáján és az elem hatására létrejövő áramlási helyzettel. Az üzemi gyakorlatban sok különálló polimermembránt, illetve sok kerámiaelemet kötegbe fognak össze.",
+    "A szuszpenzió a membráncsatornában a keringtető szivattyú beállításától és a termék követelményeitől függően 500 és 5000 mm/s közötti sebességgel áramlik. Minél nagyobb az áramlási sebesség, annál nagyobb a fluxus, minél nagyobb a turbulencia, annál jobb a felülettisztító hatás.",
+    "A 21. ábrán egy 0,2 μm-es kerámiamembrán elektronmikroszkópos képe látható. Jól látható az egyenetlenség és a különböző pórusméretek. A névlegesnél nagyobb részecskék egy része is csak a tér mélységében akad fenn. Legtöbbször 0,2 μm-es membránokat használnak. A molekulaméretre vonatkoztatva ez a porozitás a borban nem kívánatos kolloid-, illetve molekulaméreteknek felel meg. A membránon keresztül történő tényleges szűrés nem hat a borok érzékszervi tulajdonságaira.",
+    "",
+    "Egy kerámiamembrán felületének elektronmikroszkópos képe; különböző porozitási, illetve részecske-visszatartási méretadatok összevetése (a jobb oldalon).",
+    "",
+    "A kerámiaelemek masszívabbak. A nagy ellenálló képesség hatékonyabb tisztítást tesz lehetővé, és hosszabb élettartamot eredményez. A polimermembránok egy ponton visszafordíthatatlanná váló eltömődése a múltban jelentős költségtényező volt. A jelenlegi műszaki színvonalat nemcsak a nagyüzemekben, hanem a közepes, sőt kisebb üzemekben is a mikroszűrés képviseli.  Alkalmazása gyorsan terjed a kedvező adottságai miatt. A bornál alkalmazott CMF bevezetése utáni első években gyakoriak voltak a minőségromlás miatti panaszok.",
+    "Modulok (házban elhelyezett membránok)",
+    "A kerámiaelemeket, illetve üreges szálakat modulokká fogják össze. A 21. sz. ábrán rozsdamentes acélból készült, kerámiaelemekkel ellátott modulok, valamint egy üreges szálas műanyag modul látható.",
+    "",
+    "Kerámia- (bal oldal) és polimermembrán- modulok (a jobb oldalon)",
+    "",
+    "A modulok és membránelemek paraméterei a hosszúság és az átmérő. Ez a két adat határozza meg a szűrőfelületet a modulban, amely végeredményben az időegység alatt elérhető teljes szűrési teljesítmény mutatója.",
+    "",
+    "Membránszűrő berendezések",
+    "A szűrés végrehajtásához a modulokat be kell építeni egy szűrőberendezésbe. Ennek legalább egy üzemi tartállyal (puffer tartály) kell rendelkeznie, amelyből a modulok feltölthetők, egy keringtető szivattyúból, egy keretből a modulok rögzítéséhez, valamint a szükséges csövekből és műszerekből. A retentátum (zavarosító anyagokkal telített folyadék) nyitott körben visszafolyik az üzemi tartályba, amely a szűrlet levezetéséből adódóan egyre inkább megtelik üledékkel. A nyitott rendszernek több hátránya is van, így leginkább az egyszerű és különösen az olcsó berendezéseknél jöhet szóba:",
+    "a keringtető szivattyú által bevitt energia felmelegíti a bort,",
+    "a felmelegedés hatására CO2 és illékony aromák szabadulnak fel,",
+    "a nyitott rendszer oxigénfelvétele nagy SO2-szükséglethez vezet,",
+    "az egyre nagyobb koncentrációjú üledékanyag a szűrés időtartamára nagy nyíróerőknek van kitéve, amelyek fokozott mértékben hoznak létre kolloidokat.",
+    "",
+    "Tangenciális szűrőmembrán működése",
+    "Forrás: Harasztiné Lajtár Klára: Borászati technológiák eszközei I. Eger, 2012, A borkultúra központ kiadványai 143. oldal",
+    "",
+    "A rendszereket gyakran visszamosó berendezéssel szerelik fel. A tiszta oldal felől gázt (CO2, levegő, nitrogén) vagy szűrletet lehet átpréselni a membránon, és le lehet választani a felületi réteg egy részét.",
+    "",
+    "3.1.4.3 Vákuumdobszűrés",
+    "A vákuumdobszűrők nagyobb mennyiségű, nehezen szűrhető, magas szedimenttartalmú szuszpenziók (gyümölcslé, híg seprő, derítési alj, aljbor) folyamatos szűrésére alkalmas berendezések.",
+    "A jó és eredményes szűrés elérése a szűrőfelület kialakításán múlik. /Ezt a szűrőanyag megfelelő kiválasztásával, jó előkészítésével és lassú adagolással érhetjük el/. A szűrő nagy felületű (1-60 m2) vízszintes helyzetű, forgatható szűrődobbal rendelkezik, amelynek a palástja acél fémszövet. A forgódobban létrehozott vákuum a feliszapolt szűrőrétegen és az acélszövet paláston keresztül szűri meg a szűrendő anyagot. A forgódobra tapadt szedimentet és az elhasznált szűrőanyagot egy folyamatosan előre haladó késes kaparó szerkezet filmszerű rétegben távolítja el a szűrődobról. Ezáltal egy teljesen új szűrőréteget biztosít a következő forgási művelethez, amikor is a szűrendő bort tartó vályúba belemerülve a vákuum felszívja a szűrőfelületre a bort, és mire az újra a kaparószerkezethez ér, addigra meg is szűri azt. A szűrt bor a dobból távozva kerül a szűrletgyűjtőbe. És a folyamat egészen addig tart, míg a szűrődobon található megfelelő szűrőfelület.",
+    "",
+    "Vákuum dobszűrő felépítése",
+    "Forrás: Bacskay Csaba: Borászati és üdítőitalipari gépek I. Budapest, 1999, Agrárszakoktatási Intézet, 272. oldal",
+    "",
+    "",
+    "Vákuum dobszűrő működési sémája",
+    "Forrás: Bacskay Csaba: Borászati és üdítőitalipari gépek I. Budapest, 1999, Agrárszakoktatási Intézet, 273. oldal",
+    "",
+    "A bor tisztításának összefüggései",
+    "Az előző fejezetekben bemutattuk a must vagy a bor pincészetekben történő tisztítására szolgáló technikák széles körét. Az üzemnek a bor tisztításakor is ismernie kell, hogy saját egyedi körülményei között milyen módszerek kombinációja a leghatékonyabb és legeredményesebb.",
+    "A megfelelő kezelések kiválasztásánál az alábbiakat kell figyelembe venni:",
+    "A nagy átmérőjű részecskéknek a térfogata is megfelelően nagy. Kis részecskék előfordulhatnak nagy mennyiségben, de a térfogatuk összességében kicsi.",
+    "Az ülepítés szempontjából kedvezőbb a nagy mennyiségű durva üledék, mint a sok apró részecske. Az ülepítés tisztító hatása 1 μm-nél véget ér; az élesztők ülepednek, a baktériumok általában nem.",
+    "A többi tisztítási (szűrési) technika annál hatékonyabb, minél kevesebb üledék található a beömlő folyadékban. Ez különösen érvényes a kovaföldszűrésre, a mélységi szűrésre és a membránszűrésre.",
+    "Végezetül a 30. ábra összefoglalóan mutatja a különböző szűrési technikákkal kiszűrhető anyagokat, mikroorganizmusokat:",
+    "",
+    "",
+    "Szűrési diagram",
+    "Forrás: Harasztiné Lajtár Klára: Borászati technológiák eszközei I. Eger, 2012, A borkultúra központ kiadványai 145. oldal",
+    "",
+    "Továbbra is viták folynak arról, hogy melyik szűrőrendszer kínál több előnyt: a CMF vagy a kovaföldszűrés. Megfelelő beállításnál mindkét rendszer képes egy lépésben palackozható terméket előállítani. A kitűzött cél a meghatározó. Ha nagy mennyiséget kell rövid idő alatt szűrni, akkor a kovaföldszűrő rendelkezik a megfelelő előnyökkel. Ha a magas pH-értékű és alacsony savtartalmú boroknál a biológiai biztonság a legfontosabb, akkor a CMF-módszer a helyes választás. (Ha egy üzem automatikus folyamatokat alkalmaz, és elutasítja a kovaföldet vagy egyéb segédeszközöket, akkor nem kerülheti meg a CMF-et.)",
+    "A bor tulajdonképpeni tisztítását összefüggéseiben kell tekinteni. A seprőn történő tárolás, a lefejtés időpontja, a szellőztetési, derítési és stabilizációs intézkedések vagy az alkalmazott tisztítási technológia mind kihat a bor tulajdonságaira, azaz a minőségére.",
+    "A seprőről történő korai leválasztás is negatív hatással van a minőségre, és növeli az atipikus öregedés (UTA) kialakulására való hajlamot.",
+    "Fő megállapításként leszögezhető, hogy a bor modern eszközökkel és a jelenlegi műszaki színvonalon végzett tisztításával a különböző rendszerek alig vezetnek analitikai vagy érzékszervi különbségekhez. Ugyanerre a felismerésre jutottak a must tisztítása vagy a préseléssel történő fázisszétválasztás során is. A bor minőségét meghatározhatja az intézkedés, az alkalmazott technika azonban sokkal kevésbé játszik szerepet. Kiválasztásukat számos paraméter határozza meg, amelyek között azonban nem a minőség befolyásolása a legfontosabb.",
+    "A Darcy-féle áteresztőképesség (Darcy-féle vízérték) a szűrési tulajdonságok alapján besoroláshoz nemzetközileg használt leggyakoribb eljárás. Az értékek a szemcseméret-eloszlással korrelálnak. 1 darcy permeabilitású az 1 cm hosszú és 1 cm2 keresztmetszetű kőzetdarab, amely egy 1 cp viszkozitású folyadékot a be- és a kilépés helye közötti 1 bar nyomáskülönbség mellett 0 °C hőmérsékleten és 760 Hgmm légköri nyomáson 1 s alatt 1cm3/ cm2 intenzitással enged keresztül.",
+    "",
+    "Ábrajegyzék",
+    "1. ábra:\tA fejtések módjai 1\t6",
+    "2. ábra:\tA fejtések módjai 2\t6",
+    "3. ábra:\tA fejtések módjai 2\t7",
+    "4. ábra:\tSzakaszosan önürítő tányéros szeparátor metszeti képe\t20",
+    "5. ábra:\tSzakaszosan önűritő tányéros szeparátor szerkezeti felépítése\t21",
+    "6. ábra:\tFelületi- és a mélységi szűrés elve\t23",
+    "7. ábra:\tA szita-, a mélységi- és adszorpciós hatású szűrés elve\t24",
+    "8. ábra:\tA bor tisztítására használt szűrőrendszerek szűrési elv szerinti rendszerezése\t25",
+    "9. ábra:\tKamrás kovaföldszűrő berendezés\t28",
+    "10. ábra:\tKamrás kovaföldszűrő berendezés működési elve\t28",
+    "11. ábra:\tTartályos (korongos) kovaföldszűrő berendezés szerkezete\t29",
+    "12. ábra:\tTartályos (tányéros) kovaföldszűrő berendezés szerkezeti felépítése\t30",
+    "13. ábra:\tLapszűrő terelőkamrával\t31",
+    "14. ábra:\tTárcsa alakú modulok, valamint egy redőzött szűrőgyertya\t32",
+    "15. ábra:\tKüböző méretű és formájú szűrőlapok\t34",
+    "16. ábra:\tMélységi szűrőlapról készült pásztázó elektronmikroszkópos felvétel\t35",
+    "17. ábra:\tGyertyaszűrő\t37",
+    "18. ábra:\tA statikus és a dinamikus szűrés összehasonlítása.\t40",
+    "19. ábra:\tMembránszűrés szűrőelemei\t41",
+    "20. ábra:\tKerámiaelem hét membráncsatornával\t41",
+    "21. ábra:\tEgy kerámiamembrán felületének elektronmikroszkópos képe; különböző porozitási, illetve részecske-visszatartási méretadatok összevetése (a jobb oldalon).\t42",
+    "22. ábra:\tKerámia- (bal oldal) és polimermembrán- modulok (a jobb oldalon)\t43",
+    "23. ábra:\tTangenciális szűrőmembrán működése\t44",
+    "24. ábra:\tVákuum dobszűrő felépítése\t45",
+    "25. ábra:\tVákuum dobszűrő működési sémája\t46",
+    "26. ábra:\tSzűrési diagram\t47",
+    "",
+    "Táblajegyzék",
+    "1. táblázat:\tA leggyakrabban használt derítőszerek és jellemzőik\t16",
+    "2. táblázat:\tA szűrések csoportosítása mérettartomány szerint\t26",
+    "3. táblázat:\tD-érték a szűrőanyagok esetén\t33",
+    "4. táblázat:\tBorászatban alkalmazott D-értékek\t33",
+    "5. táblázat:\tSzűrőlapok szűrési tartománya\t33",
+    "",
+    "",
+    "Felhasznált irodalom",
+    "Kazai, Jánosné: Borászati és üdítőital-ipari technológia gyakorlat. Budapest, 1999, FVM Képzési és Szaktanácsadási Intézet.",
+    "Mátyus Imre, Nyitrainé Dr. Sárdy Diána, Török Zita: Borkészítés technológiája. Budapest, 2022, Herman Ottó Intézet Nonprofit Kft. http://www.hermanottointezet.hu/sites/default/files/tankonyvek2022/Borkeszites_technologiaja_(oktatasi_segedanyag).pdf.",
+    "Tatayné Baksa Erzsébet: Borkészítés. Budapest, 2010, FVM Vidékfejlesztési, Képzési és Szaktanácsadási Intézet.",
+    "Bacskay Csaba: Borászati és üdítőitalipari gépek I. Budapest, 1999, Agrárszakoktatási Intézet",
+    "Eperjesi Imre: Borászat. Budapest, 1998, Mezőgazda Kiadó",
+    "Harasztiné Lajtár Klára: Borászati technológiák eszközei I. Eger, 2012, A borkultúra központ kiadványai "
+  ],
+  "runs": [
+    [],
+    [
+      "Egyedi me",
+      "grendelés azonosítója: EM-2.10.5",
+      "  "
+    ],
+    [
+      "A bor tisztító kezelései"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [
+      "Forrás",
+      ": ",
+      "Az eredeti könyv címe: ",
+      "Technologie",
+      " des ",
+      "Weines",
+      ", 1. ",
+      "Auflage",
+      " 2015, Der ",
+      "Verlag",
+      " ",
+      "Eugen",
+      " ",
+      "Ulmer",
+      " KG,",
+      "\nISBN 978-3-8001-7959-6, Az eredeti könyv szerzői: ",
+      "Jochen",
+      " ",
+      "Hamatschek"
+    ],
+    [],
+    [
+      "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak",
+      "."
+    ],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      "Tartalomjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "A borok tisztító kezelései"
+    ],
+    [
+      "A bor tisztítása ugyan azokon a fizikai-kémiai mechanizmusokon alapul, mint a must tisztítása. Különbséget jelent a bor jóval kisebb viszkozitása, amely növeli a kezelések hatékonyságát, de mindenekelőtt az a követelmény, hogy a tisztítást az összes üledékrészecs",
+      "ke eltávolításáig kell végezni."
+    ],
+    [
+      "A bor kezelésének célja a bor élvezeti értékének biztosítása. Az újbortól a bor forgalomba hozataláig a különböző borászati műveletekkel az üledék- és zavarosságmentességet (a bor tisztaságát), a bor fejlődését, érését és annak stabilizációját biztosítják, valamint javítják az esetleges ",
+      "összetételbeli",
+      " hiányosságokat."
+    ],
+    [
+      "A borkezelési eljárások a ",
+      "következők:"
+    ],
+    [
+      "a bor ",
+      "tisztítása;"
+    ],
+    [
+      "a bor harmonikus összetételének kialakítása;"
+    ],
+    [
+      "a bor fejlődésének, érésének szabályozása;"
+    ],
+    [
+      "a bor stabilizálása."
+    ],
+    [
+      "A borok fejlődésük egyes szakaszaiban különböző mértékben tartalmaznak ",
+      "zavarosító",
+      " anyagokat (más néven ",
+      "szedimentet",
+      "). A kierjedt újborok még szén-dioxiddal telített",
+      "ek, ",
+      "illatuk",
+      ", ",
+      "zamatuk",
+      " fejletlen."
+    ],
+    [
+      "Az ",
+      "újbor (seprős újbor) legalább ",
+      "3",
+      "⁄",
+      "5",
+      " részben erjedt, illetve az alkoholos erjedés után az él",
+      "esztőtől még nem különvált bor."
+    ],
+    [
+      "A bor a fejlődése során a bekövetkező fizikai, kémiai és biológiai hatásokra ",
+      "„fátyolossá” opálossá (enyhén zavarosságot mutat) válhat, kiválások, zavarosodás következhet ",
+      "be. "
+    ],
+    [
+      "A bor – saját rendszeréből adódóan – hajlamos egy ún. ",
+      "öntisztulásra",
+      ". Ez a folyamat bekövetkezhet önmagától, illetve ",
+      "különböző kezelésekkel."
+    ],
+    [],
+    [
+      "A borok öntisztulása"
+    ],
+    [
+      "Ez a folyamat a gravitációs erő következménye. A zavaros újbor – nyugalmi állapotban tartva – a gravitáció hatására ülepedni ",
+      "kezd",
+      ", kémiailag stabilizálódnak a borban lévő részecskék. Ez ",
+      "a folyamat nagyon lassú és korántsem tökéletes. Az öntisztulás sebességét és eredményességét a következők tényezők tudják javítani:"
+    ],
+    [
+      "ha a szőlő egészséges, és a teljes érettség állapotában szüretelik;"
+    ],
+    [
+      "ha a ",
+      "mustfrakciók elválasztásánál az utóprésmustot külön választják;"
+    ],
+    [
+      "ha a cefrét, illetve a mustot hatékony segédanyagokkal kezelik (enzimkezelés);"
+    ],
+    [
+      "ha az erjedés folyamatát irányítják."
+    ],
+    [
+      "Az öntisztulás jelensége kedvező hatású a borminőségre, és gazdaságossági szempontból is érdemes kihasználni. A borok természetes, illetve szabályozott öntisztulása kedvező hatással v",
+      "an a borok stabilizációjára is."
+    ],
+    [
+      "Az oxigénfelvétel elkerülése érdekében az erjesztőtartályt már az erjedési fázis lecsengésekor fel kell tölteni azonos minőségű kierjedt újborral (hozzátöltés), lehetőség szerint csökkenteni kell az erjedési űr nagyságát a tartályban. Legtöbbször az erjedés következtében ",
+      "habkarima rakódik le a tartályon, amely táptalajként ",
+      "mikrobiológiailag",
+      " veszélyes lehet. A hozzátöltés után anélkül lehet dönteni a lefejtés, illetve a derítés időpontjáról, hogy közvetlenül szorítana az idő."
+    ],
+    [
+      "Az erjedés végét követő első lépés az úgynevezett „első fejtés”, ami egy nevezetes fejtés. Az újbort különválasztják az elhalt élesztőtömegtől (",
+      "seprőtől",
+      ") és áttöltik egy másik tartályba. A ",
+      "seprő (durva seprő) leválasztása ",
+      "történhet csupán a felülúszó folyadék leszivattyúzásával, ",
+      "de akár az első derítési intézkedéssel összekötve is. A „második fejtés” -el az első fejtés során nem leválasztott seprőmaradék, a még lebegő, körülbelül 0,05–0,2 ",
+      "térfogatszázaléknyi",
+      " élesztősejt, az úgynevezett ",
+      "finom seprő",
+      " elválasztása történik meg."
+    ],
+    [
+      "Gépesített rendszereknél ",
+      "erre alkalmas berendezés ",
+      "a",
+      ":"
+    ],
+    [
+      "szeparátor,"
+    ],
+    [
+      "a ráiszapoló szűrés (",
+      "kovaföldszűrés",
+      ") és ",
+      "a",
+      " "
+    ],
+    [
+      "keresztáramú (",
+      "cross",
+      " flow) ",
+      "mikroszűrés",
+      "."
+    ],
+    [
+      "Az ezután többé-kevésbé élesztőmentes bor megfelelő kénhozzáadás és teletöltött tartályban történő tárolás esetén kémiailag és ",
+      "mikrobiológiailag",
+      " stabil."
+    ],
+    [
+      " ",
+      "A modern nagyüzemek a fogyasztói boroknál ",
+      "biztonsági okokból nagyon gyakran a gyors első fejtést választják. Ezután minden további borkezelés ",
+      "időszűke vagy említésre méltó termékkockázat nélkül elvégezhető. Műszaki felszereltség hiányában, vagy a finom seprőn történő tároláshoz csak a fejtést alkalmazzák, ",
+      "nem kombinálják más művelettel."
+    ],
+    [
+      "A borkezelésnél nagy az egyetértés abban, hogy az első fejtést időben el kell végezni a fokozatosan lebomló seprő, valamint a lehetséges oxidáció megakadályozása érdekében."
+    ],
+    [],
+    [
+      "Fejtés"
+    ],
+    [
+      "A fejtés művelete a következőképpen határozható meg:"
+    ],
+    [
+      "A fejtés általánosan elterjedt, alapvető pinceművelet. Fizikai fogalom szerint közegáramoltatás, nyomáskülönbség hatására (",
+      "Δp",
+      "), zárt csővezetékeken, zárt tereken, berendezéseken, vagy ",
+      "nyitott csatornákon keresztül."
+    ],
+    [
+      "A mai üzemi gyakorlatban fő szerepe a belső szállításokban és más borkezelési eljárások végrehajtásában van (szűrés, hőkezelés, derítés stb.)."
+    ],
+    [
+      "Fejtéskor általában ",
+      "az üledéktől is elválasztják a bort",
+      ", így az egyre ",
+      "tisztább lesz",
+      "."
+    ],
+    [],
+    [
+      "Fejtések fajtái"
+    ],
+    [
+      "A fejtések fajtái a következők:"
+    ],
+    [
+      "átfejtés (egyik tartályból egy másikba, akár valamilyen más borkezelési művelettel párosítva, pl.: hőkezeléssel, ",
+      "szűrésel",
+      " stb.)"
+    ],
+    [
+      "színelés (üledékről való lefejtés pl.: seprő, derítési alj stb.)"
+    ],
+    [
+      "szellőztető nyílt ",
+      "fejtés (a kénhidrogén szag eltüntetésére)"
+    ],
+    [
+      "házasítás-fejtés (két- vagy több bor összefejtése)"
+    ],
+    [
+      "ki- és betárolás (tartálykocsi ürítése vagy töltése)"
+    ],
+    [
+      "körfejtés (kevertetés)"
+    ],
+    [
+      "szállítás (áttárolás üzemrészek, pincék között)"
+    ],
+    [
+      "töltés (palackozásra feladás)"
+    ],
+    [
+      "oxidációs folyamatok elősegítése a bor fejlődése és stabilizálása érdekében"
+    ],
+    [
+      "A fejtéseket a technológiai feladatnak megfelelően a következő módokon hajtják végre."
+    ],
+    [
+      "A fejtések módjai"
+    ],
+    [
+      "Nyílt fejtés",
+      " "
+    ],
+    [
+      "Nyílt fejtéskor a bort a csapon át a kármentőbe engedik, és innen vezetik be felülről (vagy alulról) a másik tárolóedénybe. Lényege, hogy a bor a fejtés közben a szabad levegővel érintkezik!"
+    ],
+    [
+      ""
+    ],
+    [
+      "A fejtések módjai 1"
+    ],
+    [
+      "Forrás: ",
+      "Kazai",
+      " Jánosné: Borászati és üdítőital-ipari technológia gyakorlat. Budapest, 1999, FVM Képzési és Szaktanácsadási Intézet, 54. oldal"
+    ],
+    [],
+    [
+      "Félig zárt fejtés"
+    ],
+    [
+      "Félig zárt fejtéskor nem használnak kármentőt, a bort közvetlenül a csapról szívják és így vezetik be a felső töltőnyíláson keresztül a másik tárolóedénybe. A bor csak a fogadótartályban lévő levegővel találkozik."
+    ],
+    [
+      ""
+    ],
+    [
+      "A fejtések módjai 2"
+    ],
+    [
+      "Forrás: ",
+      "Kazai",
+      " Jánosné: Borászati és üdítőital-ipari technol",
+      "ógia gyakorlat. Budapest, 1999, ",
+      "FVM Képzési és Szaktanácsadási Intézet, 54. oldal"
+    ],
+    [],
+    [
+      "Zárt fejtés"
+    ],
+    [
+      "Zárt fejtés esetén a két tárolóedény csapját – fejtőgép közbeiktatásával – fejtővezetékkel kötik össze. A bor felszíne nyugodt marad, ezért kevesebb levegőt tud elnyelni. Tökéletesebb a módszer, ha a töltésre kerülő tartályba a fejtés előtt valamilyen védőgázt vezetnek (pl. CO2, N2)."
+    ],
+    [
+      ""
+    ],
+    [
+      "A fejtések módjai 2"
+    ],
+    [
+      "Forrás: ",
+      "Kazai",
+      " Jánosné: Borászati és üdítőital-ipari technológia gyakorlat. Budapest, 1999, FVM Képzési és Szaktanácsadási Intézet, 54. oldal"
+    ],
+    [],
+    [
+      "K",
+      "örfejtés",
+      " (kevertetés)"
+    ],
+    [
+      "Ennél a műveletnél a tartályból kivett bort ",
+      "ugyanabba a tartályba ",
+      "fejtik vissza. Általában kevertetésnél, szellőztető nyílt fejtésnél, vörösbor készítésekor a törkölykalap elárasztásánál alkalmazzák."
+    ],
+    [],
+    [
+      "E",
+      "llennyomásos",
+      " fejtés"
+    ],
+    [
+      "Az ",
+      "ellennyomásos",
+      " fejtést szén-dioxid tartalmú boroknál használják. Célja, hogy a szén-dioxid- tartalom a nyomáscsökkenés miatt ne távozzon el a folyadékból. A fogadó tartályt szén-dioxiddal előfeszítik, azaz azonos nyomásértékre hozzák, mint az ürítendő tartályt. A két tartály felül összeköttetésben van egymással a nyomás folyamatos kiegyenlítése végett. A folyadékszint emelkedésével a felesleges nyomás az ürítendő tartályban lévő bor fölé kerül."
+    ],
+    [
+      "A fejtés ",
+      "műveleti ideje",
+      " a bor mindennemű mozgatása és az esetleges oxidáció miatt fontos tényező. "
+    ],
+    [
+      "A várható fejtési időt a következőképpen lehet kisz",
+      "ámolni:"
+    ],
+    [],
+    [
+      "A fejtés során figyelembe kell venni a következőket:"
+    ],
+    [
+      "milyen bort fejtenek?"
+    ],
+    [
+      "mennyi bort fejtenek?"
+    ],
+    [
+      "mekkora távolságra és magasságra fejtenek?"
+    ],
+    [
+      "összekapcsolják-e a fejtést más borkezeléssel?"
+    ],
+    [
+      "milyen legyen a fejtés módja, az áramlás jellege, térfogatárama?"
+    ],
+    [
+      "A már tanultak szerint, az erjedés után a bor első lefejtése és az üledéktől való különválasztása (színelés) következik. Gyakran közvetlenül összekötik más kezelési intézkedésekkel, például ",
+      "kénezéssel, szellőztetéssel, derítéssel vagy tisztítással. Intézkedéstől függően egy második, esetleg harm",
+      "adik fejtés is szükséges lehet."
+    ],
+    [
+      "A fejtés időpontja ",
+      "az üzemi szükségszerűségekhez, valamint a bor igényeihez is igazodik. ",
+      "Meghatározásánál figyelembe kell venni a technológiai célt és a bor barnatörésre való hajlamát."
+    ],
+    [
+      "Az ",
+      "első fejtést ",
+      "az erjedés ",
+      "befejeződése",
+      " után 2-6 hét múlva végzik. Az élesztők és a baktériumok ülepítési idejétől függően a bor az első fejtés ",
+      "után még többé-kevésbé zavaros."
+    ],
+    [
+      "Korai fejtést ",
+      "az elsődleges szőlőillattal és -zamattal rendelkező, reduktív borok és a könnyű savszegény borok esetében végeznek, ezzel elkerülve a biológiai savcsökkenést és az aromaveszteségeket. Az erjedés befejeztével szinte azonnal fejtik a penészes, rothadt szőlő terméséből készült bort. ",
+      "Nem kielégítő musttisztítás esetén nagy és gyorsan lebomló élesztőüledékkel (seprő) kell számolni, amely hajlamos úgynevezett ",
+      "„bakszagot” okozni. Ilyenkor feltétlenül korai lefejtés szükséges. Ezeket a borokat lehetőleg azonnal ",
+      "mikrobiológiailag",
+      " és kémiailag stabilizálni, azaz kénezni, kell, és teljesen teletöltött tartályban kell tárolni."
+    ],
+    [
+      "Később fejtik ",
+      "a nagy ",
+      "cukortartalmú",
+      " mustokból nyert magasabb alkohol- és ",
+      "extrakttartalmú",
+      " borokat, amelyeknél rendszerint hosszú az utóerjedési szakasz és az öntisztulásuk is lassúbb. Az egészséges élesztőn történő hosszabb tárolás lehetővé teszi a bor további öntisztulását, és ",
+      "érzékszervi szempontból kívánatos ",
+      "poliszacharidok",
+      " felvételéhez vezethet."
+    ],
+    [
+      "A biológiai almasavbomlás elősegítése miatt később fejtik a vörösborokat és egyes fehérborokat. A technológiában hagyományos ",
+      "második fejtést",
+      " ",
+      "3-4 hónappal az első fejtés után, a harmadik fejtést ezután 5-6 hónap múlva ",
+      "végzik. (Csak a hosszabb érlelési időt igénylő boroknál indokolt a második, illetve a további fejtések elvégzése)."
+    ],
+    [
+      "Végezetül rendszeres érzékszervi ellenőrzést kell végezni a seprőn történő tárolás során bekövetkező, nem kívánatos fejlemények felismerése és a megfelelő inté",
+      "zkedések meghozatala érdekében."
+    ],
+    [
+      "A leggyakoribb és érzékszervileg könnyen felismerhető hiba az élesztőszag. A korai szakaszban a megszüntetéséhez többnyire elegendő az egyszerű szellőztetés (szellőztető nyílt fejtés alkalmazása). Az oxigén oxidálja a zavaró ",
+      "hidrogén-szul",
+      "fidot, és közömbösíti a szagát."
+    ],
+    [
+      "A részecskéket kevés maradék kolloidtól eltekintve le kell választani, hogy a bor optikailag tiszta, mikroorganizmusoktól mentes és a kémiai utólagos zavarosodással szemben védett legyen."
+    ],
+    [
+      "Az élesztők mérete körülbelül 10 ",
+      "μm",
+      ", a baktériumok mintegy 20-szor kisebbek."
+    ],
+    [
+      "Utóbbi célból adott esetben további stabil",
+      "izáló intézkedések szükségesek."
+    ],
+    [],
+    [
+      "Derítés"
+    ],
+    [
+      "A művelet végső célja a bor tisztulásának elősegítése és gyorsítása, mihamarabb stabil borállapot elérése, a ",
+      "zavarosító",
+      " anyagok eltávolítása a borból."
+    ],
+    [
+      "A derítés művelete a következőképpen határozható meg: "
+    ],
+    [
+      "A derítés a borok (mustok) tisztító, stabilizáló kezelése. Derítőanyagokat (derítőszereket) kevernek a borba, azok ott kifejtik fizikai, kémiai, biológiai vagy együttes hatásukat, majd gravitációs erővel leülepednek, ezáltal magukkal viszik a bor ",
+      "zavarosító",
+      " anyagait. Hatásukra a ",
+      "bor tisztább és stabilabb lesz."
+    ],
+    [
+      "A derítés során a derítőanyagok:"
+    ],
+    [
+      "tömörítik a lebegő ",
+      "zavarosságokat, így a nagyobb méret",
+      "ű szemcsék gyorsabban ülepednek"
+    ],
+    [
+      "a bor egyes oldott nemkívánatos alkotórészeit (fehérje, ",
+      ", durva cserzőanyag) teszik szilárd halmazállapotúvá, vagy kötik szilárd szemcsékhez, így szűrhetővé válnak."
+    ],
+    [
+      "Újbor kezelése során az első fejtést követően néhány héttel szokás deríteni. Szintén derítést végeznek a házasítás művelete után is, amikor az összeállításban megbomolhat az egyensúly a bor alapvető alkotóelemei között. Zajos erjedés után először színelni kell a seprős újbort, ma",
+      "jd azt követően lehet deríteni."
+    ],
+    [
+      "A derítés során a derítőszerek túl-, illetve alul adagolása nem vezet a kívánt eredményre, ezért fontos ismerni a derítés általános szabályait!"
+    ],
+    [],
+    [
+      "A derítés általános szabályai",
+      "",
+      "",
+      ""
+    ],
+    [
+      "A derítést mindig próbaderítés előzze meg!",
+      " Ennek célja a megfelelő derítőszer és annak mennyiségének pontos meghatározása."
+    ],
+    [
+      "A próbaderítést mindig ugyanabból az anyagból végezzék, amiből a derítést végrehajtják!",
+      " Másik, akár ugyanolyan anyag is, más hatásfokkal rendelkezhet! (tárolás közben veszíthet hatóanyag-tartalmából)"
+    ],
+    [
+      "A próbaderítést célszerű üzemi körülmények között végezni!",
+      " A pincei hőmérsékleten a bor másképp viselkedhet, mint a laboratóriumban."
+    ],
+    [
+      "A derítendő bor nyugalmi állapotban legyen!",
+      " Ha a borban CO",
+      "2",
+      " szabadul fel, vagy utóerjedés zajlik, akkor az gátolja a derítőanyagok leülepedését."
+    ],
+    [
+      "A derítendő bor hőmérséklete 8°C felett legyen! ",
+      "Az alacsonyabb hőmérsékleten a bor viszkozitása ",
+      "megnő",
+      " és ez nehezíti a „csapadék” leülepedését."
+    ],
+    [
+      "A derítőszert a gyártó utasításai szerint kell előkészíteni!",
+      " A hatásfok elérése érdekében fontos, hogy a gyártó által meghatározott módon és időben készítsék elő a derítőanyagokat."
+    ],
+    [
+      "Derítés folyamán tartsák be a beadagolási sorrendet!",
+      " Néhány derítőszer egymás hatását csökkentheti, ha nem a megfelelő sorrendben adják a derítendő borhoz."
+    ],
+    [
+      "Biztosítani kell a megfelelő kevertetést és a derítőszer számára a megfelelő hatóidőt!",
+      " A derítőszerek általában rövid idő alatt /15-180 perc/ hatnak, de a jó csapadékképződéshez és annak leülepedéséhez 6-14 nap időt kell biztosítani."
+    ],
+    [
+      "Fontos, hogy az üledék kevés és tömör legyen!",
+      " Tömör üledéknél színeléssel könnyebben elválasztható a derítési alj és a derített bor."
+    ],
+    [
+      "Derítőanyagok"
+    ],
+    [
+      "A borászatban használatos derítőszerek hatásukban és összetételükben különböznek egymástól. ",
+      "Csoportosításuk a következőképpen történhet:"
+    ],
+    [
+      "ásványi derítőszerek"
+    ],
+    [
+      "fehérjetartalmú",
+      " derítőszerek"
+    ],
+    [
+      "kálium-",
+      "ferro",
+      "(",
+      "II)-cianid (sárgavérlúgsó)"
+    ],
+    [
+      "egyéb derítőszerek"
+    ],
+    [],
+    [
+      "Ásványi derítőszerek",
+      " "
+    ],
+    [
+      "szervetlen, szilárd, porszerű anyagok (granulátumok)"
+    ],
+    [
+      "nem vegyülnek a bor alkotórészeivel"
+    ],
+    [
+      "oldhatatlan alumínium-szilikátok"
+    ],
+    [
+      "hatásuk elsősorban a fizikai (",
+      "töltéskülönbségen alapuló) felületvonzáson alapszik"
+    ],
+    [
+      "legnagyobb jelentőségű a BENTONIT"
+    ],
+    [
+      "Bentonit:",
+      " Vulkanikus hamuból származó agyagásvány (kalciumot, magnéziumot tartalmazó alumínium-szilikát)."
+    ],
+    [
+      "Elnevezése eredeti lelőhelyére (a település nevére) utal (",
+      "Benton",
+      ", USA)."
+    ],
+    [
+      "Rendkívül nagy a felülete, ",
+      "1 g bentonit felülete közel 5 m",
+      "2",
+      ". Szemcsenagysága alig nagyobb a kolloidokénál. Nagy fajsúllyal rendelkezik, ezért jó az ülepedési sebessége."
+    ],
+    [
+      "Vízzel duzzasztott állapotban erős negatív töltést vesz fel, ezáltal adszorbeálja a pozitív töltéssel rendelkező fehérjéket, kolloidokat. A duzzadó képessége lényeges szempont, mert ez hatással van a tisztító és stabilizáló hatásra. Az egyes bentonitok vízfelvétele saját tömegük 10-20 szorosa is lehet."
+    ],
+    [
+      "Beadagolás: a gyártó előírási szerint elkészített szuszpenziót (ez általában tízszeres mennyiségű vízben történő, 24 órás duzzasztás), állandó keverés mellett kell adagolni a derítendő borhoz (pl.: nyílt körfejtés segítségével)."
+    ],
+    [
+      "A borászok ma már a bentonitféleségek széles termékskálájával találkozhatnak, így a számukra minden tekintetben megfelelő tisztító és stabilizáló szerek közül választhatnak."
+    ],
+    [
+      "Meg kell említeni, hogy a korszerű borászatban szinte alig nélkülözhető bentonit használatának káros hatásai is lehetnek! ",
+      "A túladagolás az alábbi veszélyeket okozhatja",
+      ":"
+    ],
+    [
+      "mint erősen hatékony adszorbens, a borból értékes aminosavakat, zamatanyagokat is kivesz;"
+    ],
+    [
+      "jelentősen megnövelheti a bor nátrium tartalmát, ami a borexportra vonatkozó előírások teljesíthetőségének ",
+      "akadályát okozza. /A ",
+      "borok",
+      " Na-tartalma nem haladhatja meg a 60mg/l értéket/."
+    ],
+    [],
+    [
+      "Fehérjetartalmú",
+      " derítőszerek"
+    ],
+    [
+      "Alkalmazásuk a borászatban régóta ismert. Az anyagásványokkal szemben pozitív töltéssel rendelkeznek, így a bor negatív töltésű tannintartalmával képeznek csapadékot. Ebbe a csoportba tartozik: a zselatin, a vizahólyag, a tojásfehérje, a fölözött tehéntej és a kazein."
+    ],
+    [
+      "Zselatin"
+    ],
+    [
+      "Vízben erősen duzzadó fehérjeszármazék /lényegében tisztított enyv/, a kollagének csoportjába tartozik."
+    ],
+    [
+      "Derítéskor a borhoz adott zselatinoldat molekulái a bor pH-tartományában (2,8–3,5 pH) pozitív töltéssel rendelkeznek. Derítő hatását úgy adja, hogy a bor természetes ",
+      "cserzőanyagaival",
+      " történő kicsapódás után keletkezett pelyhes csapadék adszorbeáló hatása köti magához a szuszpendált részecskéket. (",
+      "flokkuláció). A fémek közül az aktív háromértékű vas is tannin-vas-komplex form",
+      "ájában ",
+      "flokkulál",
+      " a zselatinnal."
+    ],
+    [
+      "Adagolásakor 4-16 g/hl értékkel kell számolni a próbaderítés alapján. Előkészítésekor a zselatint 5-szörös mennyiségű hideg vízben kell duzzasztani (akár 24 órán keresztül), majd a gél állapotból meleg víz hozzáadásával egy szol (erősen viszkózus folyadék) állapotot kell képezni. Ezt a ",
+      "szol állapotot borral elkeverve ",
+      "felhabosítják",
+      " („csűrölik”), és így adják derítéskor a borhoz."
+    ],
+    [
+      "A bor természetes tannintartalma – elsősorban fehér borok esetén – nem elegendő a megfelelő hatás eléréséhez, ezért valamilyen tannint is adnak a borhoz. 1 g zselatinra számítva 0,5-1 g tannin szükséges. /Beadagoláskor először a tannint, majd utána a zselatint adagolják./"
+    ],
+    [
+      "A száraz zselatin körülményes előkészítése miatt könnyebben kezelhető anyagokat kezdtek el használni a borok derítésekor. Pl.: hideg vízben oldódó, folyékony halmazállapotú, valamint más anyagokkal aktivált zselatint."
+    ],
+    [
+      "/A zselatinos derítéshez adott tannin a szőlő természetes ",
+      "cserzőanyagaitól",
+      " idegen, emiatt csak annyit szabad adagolni, amennyi a zselatinnal maradék nélkül kicsapódik. A feleslegtől fanyar, húzós ízűvé válhat a bor./"
+    ],
+    [
+      "A tannin helyett újabban KOVASAV SZOL-t használnak."
+    ],
+    [
+      "Magyarországi kísérletek szerint a kovasav-zselatinos derítés jól alkalmazható nagy ",
+      "polifenol",
+      "-tartalmú, nehezen deríthető újborok tisztító kezelésére a túlderítés veszélye nélkül. Ezáltal jelentős szerepe lehet a ",
+      "borkezelések automatizálásában."
+    ],
+    [
+      "Vizahólyag"
+    ],
+    [
+      "A viza (tokhalfélék családjába tartozó hal) úszóhólyagja már évtizedekkel előtt is általános derítőszer volt a borászati technológiában. A hosszabb ideig fahordóban érlelt borok esetén közvetlenül a palackozás előtt alkalmazzák. Manapság már ritkán használt derítőszer, más szintetikus anyagok átvették a szerepét."
+    ],
+    [
+      "Tojásfehérje"
+    ],
+    [
+      "Leginkább a vörösborok derítésére használják, mivel a derítőszerek közül legjobban kíméli a színanyagokat. Hatóanyaga az albumin és a globulin, amelyek a borban elkeverve erősen ",
+      "duzzadnak",
+      " és úgy viselkednek, mint a zselatin. /adagolás: 1-3 tojásfehérje/hl/"
+    ],
+    [
+      "Fölözött tehéntej"
+    ],
+    [
+      "Ma már alig használt derítőszer. Hatóanyaga a kazein és az albumin. A kazein a bor ",
+      "savainak",
+      " hatására, az albumin a cserzőanyag hatására csapódik ki. Használata hibás borok (olajszag) kezelésénél javasolt. /adagolás: 0,5-1,5l/hl/"
+    ],
+    [
+      "Kazein"
+    ],
+    [
+      "Tejből készített összetett fehérje, általában por alakban kerül kiszerelésre. Derítőszerként ritkán használják, de színtelenítő hatása miatt érdemes ismerni. A sötétebb tónusú fehér borokat világosítja, a fenolos anyagokat eltávolítja."
+    ],
+    [],
+    [
+      "Kálium-",
+      "ferro",
+      "(",
+      "II)-cianid (sárgavérlúgsó)"
+    ],
+    [
+      "A sárgavérlúgsó {",
+      "K",
+      "4",
+      "[",
+      "Fe(CN)",
+      "6",
+      "]} a borban lévő nehézfémekkel (vas, réz cink, mangán) oldhatatlan csapadékot képez, ezért eltávolításukra alkalmas. Ezáltal meg lehet előzni a különféle fémes töréseket, elő lehet segíteni a bor stabilitását. A vasionnal alkotott csapadék úgynevezett „berlini kék” színű – innen a kékderítés elnevezés. A kékderítés fokozott elővigyázatosságot igényel, mert túlderítés, vagy nem elegendő kevertetés esetén „helyi túlderítés” léphet fel és a bor pH-érték tartományán",
+      " cián-hidrogén szabadulhat fel,",
+      " ami veszélyes méreg. Ebből adódóan a kékderítési alj veszélyes hulladék!"
+    ],
+    [
+      "A kékderítést jogszabályban meghatározott, vizsgával rendelkező személy végezheti! A szükséges derítőszer mennyiségének megállapítása és az elvégzett derítés visszaellenőrzése laboratóriumban kell, hogy megtörténjen. Ennek ellenőrzésére a borászati hatóságoknak joga van!"
+    ],
+    [
+      "/A mai borkészítési technológiában a saválló acél eszközök használata miatt a fémes szennyeződésekből keletke",
+      "ző borhibák megszűnőben vannak.",
+      "/"
+    ],
+    [],
+    [
+      "Egyéb derítőszerek, derítési ",
+      "segédanyagok"
+    ],
+    [
+      "PVPP (",
+      "polivinil-polipirrolidon",
+      ")"
+    ],
+    [
+      "Vízben és alkoholos-vizes elegyben oldhatatlan műanyag. A PVPP a zselatinhoz hasonlóan ",
+      "flokkulál",
+      " a borban lévő tanninok jelenlétében. Az oxidálható és kondenzálható ",
+      "polifenolokat",
+      " ",
+      "távolítja el. Pirkadt fehérborok (piros bogyóhéjú fajták: Tramini, Szürkebarát stb.) általános derítőszere. Túl tanninos, szárító ízhatású vörös borok és pezsgő alapborok kezelésére is alkalmas. A túlderítés elkerülése érdekében 80g/hl mennyiségben alkalmazható."
+    ],
+    [
+      "Aktív szén"
+    ],
+    [
+      "Tisztított növényi eredetű szén származék, amely hatalmas belső felülettel rendelkezik (400-1200m2/g) fehérborok szagtalanítására és színtelenítésére használt anyag. 30-40g/hl mennyiségben alkalmazzák."
+    ],
+    [
+      "Ca",
+      "- vagy K-",
+      "alginát"
+    ],
+    [
+      "Kizárólag a palackos ",
+      "erjesztésű",
+      " és ",
+      "degorzsálással",
+      " (pezsgőkészítés során fagyasztással távolítják el a seprőt) ",
+      "seprőtelenített",
+      " pezsgők és gyöngyözőborok előállítása esetén használják, mint a seprő lerázását elősegítő adalék. (lásd Pezsgők című tananyagrész!) Ezeket a derítőszereket tengeri algákból állítják elő. Íztelen, szagtalan por formájában forgalmazott, mikroszkopikus méretű rostokat tartalmazó derítőszer. Alkoholban nem oldódik, 4-6g/hl mennyiségben használatos."
+    ],
+    [
+      "Derítési segédanyagok"
+    ],
+    [
+      "Borászati tannin (csersav): ",
+      "Vízben oldható és alkoholban részben oldható, porként forgalmazott kezelőanyag, amelyet dió-, tölgy- gesztenyefa, vagy törköly alapanyagból nyernek. Kesernyés, fanyar ízhatást eredményez. Újborok teltségét, fehérjestabilitását okozza, ",
+      "a derítés hatékonyságát növeli, ",
+      "a zselatinos derítés „segédanyaga”. Adagolása fehér borokhoz 5 g/hl, vörös borokhoz 5-10g/hl."
+    ],
+    [
+      "Kovasav szol: ",
+      "Folyékony (szol) halmazállapotú, a kovasavanhidrid (üveggyártás mellékterméke) 15-30%-",
+      "os",
+      " vizes oldata. Negatív töltésű felülettel rendelkező kolloid részecskéket tartalmaz. Pozitív töltésű fehérjékkel – elsősorban a zselatinnal – reakcióba lépnek, ",
+      "flokkulálódnak",
+      ". A fehérjealapú derítőszerek derítési segédanyaga, mert a teljes fehérjemennyiséget képes megkötni a túlderítés veszélye nélkül. Tömör üledéket eredményez, gyorsítja a tisztulást. Alkalmazott adagja 20-100 ml/hl."
+    ],
+    [],
+    [
+      "Összetett derítőszerek"
+    ],
+    [
+      "Az összetett derítőszerek egyszerre stabilizálják a ",
+      "polifenol",
+      "-, a fehérje- és a nitrogén tartalmat, a fémionok mennyiségét pedig csökkentik. Feladatuk a színvesztés és az oxidáció megakadályozása. Komplex termékek, többfajta bentonit, fehérje alapú derítőszer, kolloid, ",
+      "PVPP, kovasav kombinációit tartalmazzák. /Ha a derítőszer allergénmentes, biotermék vagy ",
+      "vegán",
+      " borok előállításához is használható, azt a gyártók külön feltüntetik/."
+    ],
+    [
+      "A leggyakrabban használt derítőszerek jellemzőit az 1. sz. tábláza",
+      "t tartalmazza."
+    ],
+    [
+      "A leggyakrabban használt derítőszerek és jellemzőik"
+    ],
+    [],
+    [
+      "Derítési módok"
+    ],
+    [
+      "A derítések módjait a felhasznált derítőszerek, illetve azok kombinációinak megnevezésével különböztetik meg. Általánosan a következő elnevezéseket használják:"
+    ],
+    [
+      "csersav-zselatin derítés"
+    ],
+    [
+      "kovasav-zselatin derítés"
+    ],
+    [
+      "bentonit derítés"
+    ],
+    [
+      "sárgavérlúgsós derítés (kékderítés)"
+    ],
+    [
+      "kombinált ",
+      "derítés"
+    ],
+    [],
+    [
+      "Kombinált derítés"
+    ],
+    [
+      "A borászati technológiában jó hatásfokkal alkalmazhatók a különböző derítőszerek kombinációi, ezáltal nagyobb stabilitás és tömör üledék alakítható ki. A derítéskor alkalmazandó anyagok szükséges mennyiségének és azok beadagolási sorrendjének a megállapítását a próbaderítés alapján végzik el. /Ilyenkor két vagy több derítőszert nem szabad egyszerre a borhoz adagolni, mert azok egymás hatását kiolthatják./"
+    ],
+    [
+      "A helyes sorrend általánosan: "
+    ],
+    [
+      "elsőként a derítési segédanyagként használt kovasav szolt, vagy borászati tannint (csersavat) adagolják a borhoz "
+    ],
+    [
+      "Kevertetés után a zselatin beadagolása következik, majd 120-180 perc hatóidő után "
+    ],
+    [
+      "a bentonit beadagolása történik meg"
+    ],
+    [
+      "/Ha kékderítést is végeznek, akkor a sárgavérlúgsót a tannin/kovasavszol után adagolják be/."
+    ],
+    [],
+    [
+      "Derítés gyakorlati végrehajtása"
+    ],
+    [
+      "Az első feladat mindig a próbaderítés! Ez történhet nagyobb üzemek esetén a saját laboratóriumban, vagy egyéb borászati szolgáltatásokat nyújtó cégek segítségével."
+    ],
+    [
+      "A próbaderítés beállításánál mindig figyelembe kell venni a gyártó által javasolt adagolást. A derítőszert megfelelően előkészítve, növekvő koncentrációval összeállítanak egy 3-5 mintából álló sorozatot, amelyhez hozzámérik a derítőszert. Homogenizálják (összerázzák) és a bor tárolási hőmérsékletén tárolják. Néhány nap múlva kiértékelik az eredményt. Kiértékeléskor a ",
+      "már legkisebb megfelelő tisztaságot adó derítőszer mennyiséget veszik a derítés alapjául. Bentonitos derítés esetén úgynevezett hőpróbát is kell végezni, amivel a hőre érzékeny (",
+      "thermolabilis",
+      ") fehérjék eltávolítását ellenőrzik. /A tisztaság szempontjából kiértékelt sorozatot szűrik és meleg helyen 1-2 napig tárolják. (50°C-on 2-3 óra). Amennyiben a hőpróba után fehérjekiválást tapasztalnak, akkor a hatás elérése érdekében a nagyobb adaggal derítenek."
+    ],
+    [
+      "Derítés elvégzése során a derítőszert (szereket) pontosan kimérik és a használati utasítás szerint előkészítik, majd a borhoz keverik. Fontos, hogy a beadagolt derítőszereket megfelelő sorrendben kell beadagolni és alaposan el kell keverni. /A derítés megkezdése előtt a tartályból ",
+      "levétet",
+      " kell ",
+      "venni a keverési űr biztosításához. A levét mennyisége 1-5% is lehet – a derítőszerek tulajdons",
+      "ágaitól (pl.: habzás) függően./ ",
+      "A ",
+      "levétet",
+      " később vissza kell tölteni a tartályba."
+    ],
+    [
+      "A derítési üledékről 6-14 nap múlva lehet a bort lefejteni (színelni). Színelés után a műveletet általában szűrés egészíti ki."
+    ],
+    [
+      "A keletkező derítési aljat az üzem nagyságának megfelelően kell kezelni. A 25-500 hl bort előállítók esetén ",
+      "a borseprőre vonatkozó szabályozás szerint kell eljárni. Az 500 hl feletti bort elállítóknak a megsemmisítésről lepárlás útján kell gondoskodni."
+    ],
+    [],
+    [
+      "Szeparálás (centrifugális ülepítés)"
+    ],
+    [
+      "A szeparálás (centrifugális ülepítés) a borászati technológiában a mustok, a seprős újborok, valamint híg seprők szétválasztására és tisztítására alkalmas eljárás. Előkészítő művelete a musttisztításnál is alkalmazott gravitációs erőn alapuló ülepítés. Ülepítés után a kisebb ",
+      "szedimenttartalmú",
+      " borok nagyobb teljesítménnyel szeparálhatók, ezáltal a művelet is gazdaságosabb."
+    ],
+    [
+      "A szeparálás alkalmazási területei:"
+    ],
+    [
+      "a must erjedés előtti tisztítása"
+    ],
+    [
+      "a kierjedt ",
+      "újbor /és tankpezsgő/ kezelése (",
+      "seprőtelenítés",
+      ")"
+    ],
+    [
+      "derítés után a bor „színelése” (az üledék elválasztása a bortól)"
+    ],
+    [
+      "A szeparálás tulajdonképpen a szuszpenziók szétválasztására szolgáló művelet, amely szétválasztást centrifugális erőtérben lehet végrehajtani. A szeparálás leválaszt gyakorlatilag minden élesztősejtet, továbbá eltávolítja a kolloid jelentős mennyiségét. "
+    ],
+    [
+      "A centrifugális erő elméletét és mechanikai elveit a ",
+      "holland Huygens dolgozta ki 1669-ben. Magát az eszközt Otto von ",
+      "Guerick",
+      "e",
+      " német fizikus alkotta meg. A folyamatosan működő szeparátort ",
+      "Gustaf",
+      " de ",
+      "Laval",
+      " készítette el 1882-ben. Ez a centrifuga a tej fölözésére szolgált. (A berendezés 6000-7000 fordulat/perc teljesítménnyel működött.)"
+    ],
+    [
+      "A szeparálás magas költséggel járó, körülményes eljárás, ezért akkor célszerű alkalmazni, ha gyors és éles szétválasztásra van szükség. A gyenge minőségű, esetlegesen betegségre hajlamos borokat gyorsan el kell választani az erjedéskor keletkezett üledéktől. Centrifugálással már a technológiai sor elején nagy mennyiségű ",
+      "zavarosító",
+      " anyagot tudnak eltávolítani, ezzel lehet gyorsítani a borok tisztulását, és a szeparált borok a későbbiekben kevesebb derítőszert is igényelnek."
+    ],
+    [
+      "A borászati gyakorlatban alkalmazott szeparátorok (szeparálást végző berendezések) fordulatszáma olyan nagy (6000/ perc), hogy az adott térben az erő sokszorosa a gravitációnak, az erőtérben a folyadék felszíne gyakorlatilag függőleges, ezáltal a ",
+      "zavarosító",
+      " anyag a berendezés belső falához tapad, ahonnan a technológia függvényében szakaszosan, vagy folyamatosan eltávolítható. "
+    ],
+    [
+      "A szeparátorokat a következő szempontok alapján lehet csoportosítani:"
+    ],
+    [
+      "a dobbetétek alakja szerint:",
+      " - ",
+      "körkamrás, tányéros szeparátorok, csigás centrifugák "
+    ],
+    [
+      "a dob ürítése szerint:",
+      " szakaszos/kézi ",
+      "ürítésű",
+      ", szakaszosan önürítő, folyamatosan önürítő szeparátorok"
+    ],
+    [
+      "Borászati alkalmazásban a legjelentősebbek a tányéros – szakaszosan önürítő szeparátorok.",
+      " "
+    ],
+    [
+      ""
+    ],
+    [
+      "Szakaszosan önürítő tányéros szeparátor metszeti képe"
+    ],
+    [
+      "Forrás",
+      ": https://www.alfalaval.com/globalassets/images/products/separation/centrifugal-separators/s",
+      ", ",
+      "(Letöltés 2024",
+      ".07.11.)"
+    ],
+    [
+      ""
+    ],
+    [
+      "Szakaszosan önűritő tányéros szeparátor szerkezeti felépítése"
+    ],
+    [
+      "Forrás",
+      ": ",
+      "Bacskay",
+      " Csaba: Borászati és üdítőitalipari gépek I. ",
+      "Budapest, 1999, ",
+      "Agrárszakoktatási Intézet, 219. o",
+      "ldal"
+    ],
+    [],
+    [
+      "Ha nem áll rendelkezésre szeparátor, akkor a ",
+      "zavarosító",
+      " részecskéket szűrőkkel kell eltávolítani. Ez általában több lépésben, különböző technikákkal történik. Azok a szűrőrendszerek, melyek nagy mennyiségű seprő felvételére képesek, ",
+      "finom szűrésre alig alkalmasak."
+    ],
+    [
+      "Szűrés"
+    ],
+    [
+      "A szűrés alapjai"
+    ],
+    [
+      "A szűrés szilárd anyagokat tartalmazó folyadékok (szuszpenziók) mechanikus leválasztása egy áteresztő ré",
+      "teg (szűrőközeg) használatával."
+    ],
+    [
+      "A szűrés fogalma a következőképpen definiálható:"
+    ],
+    [
+      "A szűrőanyagok és a szűrési módok megválasztása a következőktől függ:",
+      " "
+    ],
+    [
+      "Mustok, borok fizikai tisztító, szétválasztó művelete, szitahatás elvén, nyomáskülönbség (",
+      "Δp",
+      ") hatására, valamilyen szűrőrétegen átáramoltatva. A szűréssel tükrös tisztaság, illetve csírátlan állapot érhető el."
+    ],
+    [
+      "H",
+      "ányadik szű",
+      "rést végzik el az adott tételen:"
+    ],
+    [
+      "a bor tulajdonságaitól (könnyű vagy testes; édes vagy száraz; milyen a bor viszkozitása),"
+    ],
+    [
+      "a ",
+      "zavarosító",
+      " anyagok jellemzőitől (azok mérete, mennyisége, egyéb tulajdonságai)."
+    ],
+    [
+      "A szűrőhatás a szűrőfelület milyenségét tekintve lehet:"
+    ],
+    [
+      "felületi (kétdimenziós szűrés, szitahatás elvén),"
+    ],
+    [
+      "mélységi (háromdimenziós szűrés, lepényszűrés ",
+      "– más néven ráiszapoló szűrés)."
+    ],
+    [
+      "A szűrés megvalósítása történhet:"
+    ],
+    [
+      "a szűrés megindulásakor adott szűrőfelülettel (lapszűrés, membránszűrés),"
+    ],
+    [
+      "folyamatosan ",
+      "utánadagolt",
+      " szűrőanyaggal ",
+      "(kovaföld",
+      " szűrés),"
+    ],
+    [
+      "folyamatosan tisztított szűrőfelülettel (",
+      "cross",
+      "-flow szűrés, vákuumdobszűrés)."
+    ],
+    [
+      ""
+    ],
+    [
+      "F",
+      "elületi- és a mélységi szűrés elve"
+    ],
+    [
+      "Forrás",
+      ": ",
+      "Bacskay",
+      " Csaba: Borászati és üdítőitalipari gépek I. ",
+      "Budapest, 1999, ",
+      "Agrárszakoktatási Intézet, 235. ",
+      "oldal"
+    ],
+    [],
+    [
+      "A szilárd anyagtól megszabadított folyadékot szűrletnek, a szűrőanyagon ",
+      "visszamaradt ",
+      "zavarosító",
+      " anyagot szűrőlepénynek nevezzük. "
+    ],
+    [
+      "A borászatban általánosan alkalmazott szűrési módok a következők:"
+    ],
+    [
+      "szűrés tartályos kovaföld szűrővel ",
+      "(ún. szűrőaggregát),"
+    ],
+    [
+      "szűrés kamrás kovaföld szűrővel,"
+    ],
+    [
+      "szűrés lapszűrővel (durva szűrés),"
+    ],
+    [
+      "csírátlanító szűrés lapszűrővel,"
+    ],
+    [
+      "szűrés membránszűrőkkel,"
+    ],
+    [
+      "seprőszűrés szűrőpréssel,"
+    ],
+    [
+      "aljborok, híg seprők szűrése vákuum dobszűrővel."
+    ],
+    [
+      "A szűrés folyamán három hatás érvényesülhet:"
+    ],
+    [
+      "a ",
+      "szitahatás",
+      " a kapillárisok méreténél nagyobb szemcséket tartja vissza,"
+    ],
+    [
+      "a ",
+      "mélységi hatás",
+      " a kapillárisok méreténél kisebb szennyeződéseket fogja meg a hajszálcsövek iránytöréseinél,"
+    ],
+    [
+      "az ",
+      "adszorpció",
+      " az elektromos töltések alapján és az adhézió segítségével köti meg a részecskéket (az adszorpciós hatás csak a szűrés kezdetén nagy, később megszűnik)."
+    ],
+    [
+      "A szűrés tényleges es",
+      "etei a három hatás kombinációi."
+    ],
+    [
+      ""
+    ],
+    [
+      "A szita-, a mélységi- és adszorpciós hatású szűrés elve"
+    ],
+    [
+      "szitahatás",
+      "\t",
+      "\tmélységi hatás ",
+      "\t",
+      "\tadszorpciós hatás"
+    ],
+    [
+      "Forrás",
+      ": ",
+      "Bacskay",
+      " Csaba: Borászati és üdítőitalipari gépek I. ",
+      "Budapest, 1999, ",
+      "Agrárszakoktatási Intézet, 236. o",
+      "ldal"
+    ],
+    [],
+    [
+      "Borszűrőket csupán a múlt század elejétől használnak. Előtte az idő múlásával végbemenő öntisztulás (természetes ülepedés) volt az egyetlen mód a tiszta bor előállítására. A kovaföld- és lapszűrők bevezetése csökkentette a kockázatot, és használatukkal véges idő alatt csíraszegény vagy éppen csíramentes bort lehet előállítani. A szűrőrendszerek evolúciója az elmúlt 100 évben a borkezelést is megújította."
+    ],
+    [
+      "A pincében történő szűrés célja a csíramentes",
+      ", elfogadható maradékkolloid mennyiségű bor gazdaságos előállítása. A palackozáskori befejező szűrés már csak egyfajta őrfunkciót tölthet be, és semmiképpen sem a részecskék visszatartására szolgál. Az ekkor használt membránszűrőket nem a s",
+      "eprő visszatartására tervezték."
+    ],
+    [
+      "A lapszűrők és kovaföld szűrők számos változatát ",
+      "statikusan elválasztó membránszűrők és dinamikusan működő keresztáramú szűrők egészítették ki, és számos e",
+      "setben fel is váltották azokat."
+    ],
+    [
+      "Nagyon sok kis- és közepes méretű üzemben továbbra is a kovaföldszűrést vagy a lapszűrést használják. Általánosan elmondható, hogy a használt gépi technológia attól függ, hogy éppen mi áll rendelkezésre; nagyon sokszor a hosszú élettartamú készülékeket akkor is tovább használják, ha a műszaki színvonal már meghaladta",
+      "."
+    ],
+    [
+      "A folyamattechnológiában számos kísérlet történt a már szinte átláthatatlanul változatos szűrőberendezések rendszerezésére. A 6. ábra módszertana leképezi a borkezelést és ",
+      "az általa használt technikákat."
+    ],
+    [
+      ""
+    ],
+    [
+      "A bor tisztítására h",
+      "asznált szűrőrendszerek szűrési elv szerinti rendszerezése"
+    ],
+    [],
+    [
+      "A szűrés mérettartomány szerinti csoportosítását az ",
+      "2. táblázat tartalmazza."
+    ],
+    [
+      "A szűrések csoportosítása mérettartomány szerint"
+    ],
+    [],
+    [
+      "A kovaföld szűréshez (ráiszapoló szűrés) felhasznált szűrőanyagok"
+    ],
+    [
+      "Továbbra is széles körben elterjedt borszűrés a ",
+      "kovaföld ",
+      "használatával történő, más néven nevezve",
+      " ",
+      "ráiszapoló szűrés",
+      ". Alternatívaként (illetve hozzákeverve) ",
+      "perlitet,",
+      " az ezredfordulótól egyre gyakrabban ",
+      "cellulózt",
+      " használnak."
+    ],
+    [
+      "A kovaföld-szűrés értelmezhető úgy, mint egy folyamatos, háromdimenziós szűrés. Szűréskor az ",
+      "utánadagolt",
+      " kovaföld (szűrési segédanyag) mennyiségét és minőségét általában a bor zavarossága és ",
+      "szűrhetősége",
+      " határozza meg. /Általános szabály: zavarosabb borhoz több, tisztább borhoz kevesebb kovaföldet adagolnak/"
+    ],
+    [
+      "A ",
+      "kovaföld",
+      " a harmadkorban és a negyedkorban a tengerek, vagy ",
+      "édesvizű",
+      " tavak fenekén, esetenként akár 100 m vastag rétegben lerakódott közel 10 000 kovamoszat (",
+      "diatóma",
+      ") tisztított, szárított és őrölt váza. Egy cm",
+      "3",
+      " kovaföld akár 1 milliárd, formákban változatos formájú ",
+      "diatóma",
+      " vázat tartalmazhat",
+      "."
+    ],
+    [
+      "Előkészítésénél, a víz és minden szerves alkotórész eltávolításához 800 °C-ra hevítést alkalmaznak. Az előzőleg amorf struktúra egy része hevítéskor kristályos formákká alakul át. "
+    ],
+    [
+      "Minél finomabb a szűrési segédeszközök szemcsemérete, annál jobb a leválasztási hatásfok. A finom kovaföld elvileg mindenfajta mikroorganizmust képes leválasztani. Ezek a szűrőrendszerek szerkezetükből és ",
+      "anyagukból",
+      " adódóan azonban ",
+      "nem sterilizálhatók",
+      ", így szoros értelemben vett ",
+      "steril szűrés nem lehetséges",
+      "."
+    ],
+    [
+      "A kovaföld megkötő hatása a diatómák közötti labirintusszerű üregeken alapul, amelyekben a részecskék elakadnak. A porozitásból adódóan a bor egy része is visszamarad. A száraz és a nedves súly közötti eltérés a térfogatsűrűség körülbelül két-háromszorosa. Egy kilogramm kovaföldre számítva 1–3 l bor vész kárba."
+    ],
+    [
+      "A hulladékként kezelendő szűréskor visszamaradt seprős kovaföld mennyisége ennek megfelelően nő. ",
+      "A biológiai hulladékként történő mezőgazdasági hasznosítás nedves állapotban és azonnali bedolgozással megengedett. A gyakorlatilag nehézfémmentes, a leválasztott ",
+      "zavarosító",
+      " anyagok formájában könnyen lebomló fehérjéket tartalmazó szűrő kovaföld szerves trág",
+      "yaként alkalmas felhasználásra."
+    ],
+    [
+      "A pincei felhasználáskor óvintézkedéseket kell tenni! A száraz kovaföld porzik, a por egy része a tüdőbe jutva maradandóan károsíthatja a tüdő hörgőcskéit. A biztonsági adatlapok alapján a száraz kovaföld hosszabb belégzés káros az egészségre."
+    ],
+    [
+      "A ",
+      "perlit ",
+      "őrölt és megtisztított vulkanikus kőzet. A tisztításkor felhevítik, a belsejében megkötött víz közben erőteljesen felduzzasztja a kőzetet, és létrehozza a „seprő” megkötéséhez szükséges nagy felületet. A kovaföldhöz hasonlóan a perlit is alapvetően szilícium- és alumínium-oxidból áll, és ugyancsak egyaránt használható előiszapolásra, vagyis a szűrőfelületen történő úgynevezett alapréteg kialakítására, amely a később ",
+      "utánadagolt",
+      " kovaföld mennyiségének biztosít egy stabil alapot,",
+      " valamint szűrésre is alkalmas."
+    ],
+    [
+      "A ",
+      "cellulóz",
+      " a növényi sejtfal fő alkotóeleme. A ráiszapoló szűrésben sok éve használják, de kezdetben csak az előiszapolás részét képezte. Amióta a cellulózrostok műszakilag szűk méretskálán előállíthatók, a tényleges szűrés pusztán ezáltal sikeresen kivitelezhetővé vált. A cellulózrostok önmagukban szűrőlepényt képeznek, amely viszonylag stabil a repedésképződéssel szemben, ami csökkenti a boráttörés veszélyét, vagyis nem szakad át a kialakult szűrőfelület az esetlegesen bekövetkező nagyobb nyomás hatására. Ezenkívül a cellulóz a kovaföldtől vagy perlittől eltérően nem ",
+      "abrazív",
+      " hatású, ",
+      "vagyis nem koptatja, dörzsöli a szivattyúk, illetve sziták és támasztószövetek felszínét: azok tehát gyakorlatilag nem kopnak. A mezőgazdasági hasznosítása korlátozás nélkül lehetséges."
+    ],
+    [
+      "A durva szűrést a bor esetében a gyakorlatban főként kovaföldszűrőkkel végzik. Az elvileg durva szűrésre ugyancsak alkalmas vákuumdobszűrőt még kevés pincészet használja (főleg nagyüzemek), és borszűrésre gyakorlatilag egyáltalán ",
+      "nem."
+    ],
+    [
+      "A kamrás kovaföldszűrő szerkeze",
+      "ti felépítését és működését a 9. és 10",
+      ". ábra mutatja"
+    ],
+    [
+      ""
+    ],
+    [
+      "Kamrás kovaföldszűrő berendezés"
+    ],
+    [
+      "Forrás",
+      ": ",
+      "Bacskay",
+      " Csaba: Borászati és üdítőitalipari gépek I",
+      ".",
+      " ",
+      "Budapest, 1999, ",
+      "Agrárszakoktatási Intézet, ",
+      "86. oldal"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Kamrás kovaföldszűrő berendezés működési elve"
+    ],
+    [
+      "Forrás",
+      ": ",
+      "Bacskay",
+      " Csaba: Borászati és üdítőitalipari gépek I. ",
+      "Budapest, 1999, ",
+      "Agrárszakoktatási Intézet, ",
+      "87. oldal"
+    ],
+    [],
+    [
+      "A borászatban leggyakrabban alkalmazott tartályos kovaföldszűrők típusai a korongos szűrő és a tányéros szűrő /működési elvüket és felépítésüket a Borászati gépek tananyag részletesen ",
+      "magyarázza/",
+      "."
+    ],
+    [
+      ""
+    ],
+    [
+      "Tartályos (korongos) kovaföldszűrő berendezés szerkezete"
+    ],
+    [
+      "Forrás: ",
+      "https://www.hogyan-kell.com/szakerto-147/osszefoglalo-a-fegyelem-feldolgozoipar.html ",
+      "(Letöltve: 2024.07.10",
+      ".)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Tartályos (tányéros) kovaföldszűrő berendezés szerkezeti felépítése"
+    ],
+    [
+      "Forás",
+      ": Eperjesi I",
+      "mre:",
+      " Borászat. ",
+      "Budapest, 1998, Mezőgazda Kiadó, ",
+      "159",
+      ". oldal"
+    ],
+    [],
+    [
+      "Minden szűrés célja a szűrendő tétel egyféle szűrési megközelítéssel történő feldolgozása. A kovaföldszűrésnél végeredményben a folyamatos szűrési segédanyag-adagolás a meghatározó. Az adagolandó szűrési segédanyag mennyisége általánosan 15 – 150 g/hl. A szűrés eredményessége a kezelő tapasztalatán is múlik!"
+    ],
+    [],
+    [
+      "„Mélységi szűrés” ",
+      "előregyártott",
+      " szűrőlapokkal"
+    ],
+    [
+      "A mélységi szűrés iparilag ",
+      "előregyártott",
+      ", nagy pórustérfogatú (80%) és ennek megfelelően nagy felvevőkapacitású szűrőanyagokat használ. A borkezelésben két különböző rendszert használnak:"
+    ],
+    [
+      "nyitott szűrő mélységi szűrőlapokkal,"
+    ],
+    [
+      "zárt szűrő moduláris felépítésű mélységi szűrőlapokkal."
+    ],
+    [
+      "A 13",
+      ". sz. ábrán egy nyitott (terelő kamrával ellátott) lapszűrő látható."
+    ],
+    [
+      ""
+    ],
+    [
+      "Lapszűrő terelőkamrával"
+    ],
+    [
+      "A = beömlőnyílás; B, C, E = 1.",
+      " szűrlet kiömlőnyílása; D = 2. ",
+      "szűrlet lefolyónyílása."
+    ],
+    [],
+    [
+      "Ennél a rendszernél a szűrőlapokat kézzel helyezik be a keretbe. A szerkezetet a berendezés kereteinek összeszorításával egy egységbe foglalják, majd a szűrés előtt bő vízzel elárasztják őket, amíg szagsemlegessé válnak (úgy",
+      "nevezett papíríz eltávolítása)."
+    ],
+    [
+      "A szűrendő folyadék egyenletesen eloszlik az üreges szűrőlapokon, átáramlik a szűrőelemeken és szűrletként egy központi helyen összegyűlik. A szűrlet egy terelőkamrán keresztül áthalad egy második, például finomabb szűrőlapokkal ellátott rendszerbe. Egy menetben és egy rendszerben, közvetlenül egymás után elvégezhető az elő- és a finomszűrés, vagy a terelőkamra elhagyásával megduplázható a szűrőfelület."
+    ],
+    [
+      " ",
+      "Modulszűrés"
+    ],
+    [
+      "A modulszűrők lehetnek",
+      " tányéros vagy gyertyás szűrők. ",
+      "A szűrlet elvezetése központilag történik. A mélységi szűrőlapokkal ellátott modulszűrők a szűrőlapokhoz hasonlóan működnek. Két-két egymásra helyezett, kerek szűrőtányért egy-egy közbenső vezető- és támasztólap kapcsol össze szűrőcella-modullá, amelynek külső peremét „",
+      "körbefröccsöntéssel",
+      "” tömítik. Sok ilyen szűrőcellát egymástól kis távolságban, távtartókkal elválasztva és szorosan egymásra helyezve beépítenek egy légmentesen zárt házba. A szűrő csepegésmentes, viszonylag kis keverékzónájú (kicsi a szűrésre alkalmas tér a berendezésben) és a nyitott rendszereknél sokkal higiénikusabb. Mint minden mélységi szűrő, a modulok is viszonylag nagy mennyiségű seprőt ",
+      "képesek felvenni. A modulok kevesebb helyet foglalnak, mint a nyitott lapszűrők. Használat, visszamosás és sterilizálás után a gyártó előírásainak megfelelőe",
+      "n mindenkor használatra készek."
+    ],
+    [
+      ""
+    ],
+    [
+      "Tárcsa alakú modulok, valamint egy redőzött szűrőgyertya"
+    ],
+    [],
+    [
+      "A mélységi szűrők hideg, vagy nem túl meleg, legfeljebb 60 °C-",
+      "os",
+      " vízzel ",
+      "visszamosatva",
+      " nagymértékben regenerálhatók. A visszamosás a kiömlőnyílástól a beömlőnyílás felé, vízzel történik. A szűrőlap aszimmetrikus, tölcsérszerű felépítése kedvező a visszamosáshoz. A beömlőoldalon nagyobbak a pórusok, mint a kiömlőoldalon. A pH-érték változásával a szűrőközeg és az üledékanyag telítődési tulajdonságai is megváltoznak, és a már adszorbeált részecskék újra leválnak."
+    ],
+    [
+      "3.1.2.2 Lapszűrés"
+    ],
+    [
+      "A lapszűrés a borkezelésben máig a legszélesebb körben használt szűrőrendszer. Főként a palackozás előtt a steril területen, vagy a membránszűrés védelmére használják. A kisüzemek azonban lassan már az üledékanyagok teljes körére használják a lapszűrőket annak köszönhetően, hogy a szűrőlapok szűrési hatásfoka ",
+      "nagy mértékben",
+      " változtatható."
+    ],
+    [
+      "A szűrőlapokat áteresztőképességük alapján tudjuk megkülönböztetni. A fajlagos áteresztő képesség a következően értelmezhető: ",
+      "1 m",
+      "2",
+      " szűrőfelületen, 1 óra alatt, 1 bar nyomáson átáramló 20°C hőmérsékletű desztillált víz mennyisége",
+      ". /Ez az úgynevezett D-érték/"
+    ],
+    [
+      "D-értékre vonatkozó tájé",
+      "koztató adatok:"
+    ],
+    [
+      "D-érték a szűrőanyagok esetén"
+    ],
+    [
+      "Forrás",
+      ": Harasztiné Lajtár Klára: ",
+      "Borászati technológiák eszközei I.",
+      " ",
+      "Eger, 2012, A borkultúra központ kiadványai",
+      " ",
+      "126. oldal"
+    ],
+    [],
+    [
+      "A borászati műveleteknél alkalmazott tájék",
+      "oztató értékek:"
+    ],
+    [
+      "Borászatban alkalmazott D-értékek"
+    ],
+    [
+      "Forrás: Harasztiné Lajtár Klára: Borászati technológiák eszközei I. Eger, 2012, A borkultúra központ kiadványai 126. oldal"
+    ],
+    [],
+    [
+      "A szűrőlapok szűrési tartom",
+      "ányát (nagy általánosságban) az 5",
+      ". sz. táblázat tartalmazza",
+      ":"
+    ],
+    [
+      "Szűrőlapok szűrési tartománya"
+    ],
+    [
+      "Forrás: Harasztiné Lajtár Klára: Borászati technológiák eszközei I. Eger, 2012, A borkultúra központ kiadványai 126. oldal"
+    ],
+    [],
+    [
+      "A szűrőlapok alapváza lényegében speciálisan előkészített cellulózrostokból áll, a szűrő hatásért pedig főként a cellulózrostokban elhelyezkedő kovaföld felelős. (A durva tisztításra használt lapok perlitet is tartalmaznak.) A hozzáadott polimerek (gyanták) javítják a nedves szilárdságot, növelik a stabilitást, és csökkenti",
+      "k az elkerülhetetlen csepegést."
+    ],
+    [
+      "A technológiában főként 20 × 20, 40 × 40, 60 × 60 vagy 100 × 100 cm-es szűrőlapokat használnak. Egy lapszűrőben akár több tucat alkot belőlük megfelelően nagy szűrőfelületet. Durva vagy finom szűréskor 800–900, steril szűréskor 450 l/m",
+      "2",
+      "/óra szűr",
+      "ési teljesítmény érhető el. A 19",
+      ". ábrán különböző méretű négyzetes és kerek szűrőlapok láthatók a megfelelő szűrőeszközökkel."
+    ],
+    [
+      ""
+    ],
+    [
+      "Kü",
+      "böző",
+      " méretű és formájú szűrőlapok"
+    ],
+    [],
+    [
+      "A kereskedelmi forgalomban kapható szűrőlapok 3–5 mm vastagok, és szűrőfelületük m",
+      "2",
+      "-enként akár 4 l borseprő felvételére képes. Az élesztők vagy más durva részecskék már a felületen fennakadnak, a kisebbek a lap mélységében ágyazódnak be, vagy az adszorpció tartja vissza őket. (A 0,5 ",
+      "μm",
+      " méretű tejsavbaktériumnak a tiszta oldalig elméletben saját átmérője akár 5000-szeresének megfelelő utat kell megtennie.) A szűrés lefolyását meghatározó paraméter a beömlőnyílás és a kiömlőnyílás közötti nyomásnövekedés (",
+      "Δp",
+      "), azaz végeredményben a felvevőképesség eléréséig áthaladó mennyiség. A maximális nyomáskülönbség a steril szűrésnél csupán 1,5 bar, a durva vagy finom szűrésnél nagyjából kétszer ekkora. A megengedett nyomáskülönbség túllépése a lapok átszakadásához, ",
+      "boráttöréshez",
+      " vezethet. A nyomásnövekedést az okozza, hogy a lapok fokozatosan eltömődnek. Az eltömődés mértéke az",
+      " üledékanyagok jellegétől függ."
+    ],
+    [
+      ""
+    ],
+    [
+      "Mélységi szűrőlapról készült pásztázó elektronmikroszkópos felvétel"
+    ],
+    [],
+    [
+      "A 16.",
+      " sz. ábrán egy mélységi szűrőlap pásztázó elektron",
+      "mikroszkópos felvétele látható."
+    ],
+    [
+      "A kerek/tányérszerű részecskék diatómák (kovaföld), a hosszú rostok cellulózrostok."
+    ],
+    [
+      "A szűrőlapok választéka hatalmas. A forgalmazók különböző szűrőanyagokkal a teljes palettát lefedik a durva szűréstől a steril szűrésig. A leválasztási hatásfok fordítottan arányos a teljesítménnyel. Néhány új innovatív technológiát érdemes megismerni:"
+    ],
+    [
+      "Fibrillált cellulóz szűrőközeg"
+    ],
+    [
+      "Egy új fejlesztés kimondottan a fibrillált cellulózon alapul, amely felváltja az ásványi szűrőanyagot. A kovaföld vagy perlit nélküli lapok ",
+      "előnye a jobb visszamoshatóság",
+      ", a legalább hasonló, ",
+      "gyakran nagyobb teljesítmény",
+      ", a ",
+      "kisebb cseppveszteség",
+      ", a ",
+      "szinte teljes biológiai lebonthatóság",
+      " és a ",
+      "nagyobb nyomástűrő képesség",
+      "."
+    ],
+    [
+      "Idegen szagok eltávolítására szolgáló szűrőlapok"
+    ],
+    [
+      "2007 óta kaphatók olyan szűrőlapok, amelyek speciális alumínium-szilikát ",
+      "adszorbenst",
+      " tartalmaznak a bor dohos szagának eltávolításához. A penészes dugóra, szőlőre, tartályra vagy csomagolóanyagra emlékeztető szagot korábban gyakorlatilag nem lehetett megszüntetni. A ",
+      "dugóíz esetében ez a 2,4,6-triklór-anizol (TCA), a penészíz esetében a ",
+      "geosmin",
+      ". 20 ",
+      "ng",
+      "/l hozzáadásával 1 ",
+      "ng",
+      "/l, vagyis az ízlelési küszöb alá lehetett csökkenteni."
+    ],
+    [],
+    [
+      "Szűrőgyertyák"
+    ],
+    [
+      "A mélységi szűrőgyertyák többnyire különböző polipropilén- vagy cellulóz-acetát rostokból készülnek. A csak néhány ",
+      "μm",
+      " vastag rostokat háromdimenziós „nemszőtt szövetként” egy mag ",
+      "köré hurkolják. A nemszőtt szövet mátrixában lévő üregeknél nagyobb részecskék a szűrő mélységében elakadnak. A nemszőtt szövet készülhet egyféle anyagból, amelyet ",
+      "harmonikaszerűen",
+      " összehajtogatnak (redőznek), hogy ezzel megnöveljék a felületét. Az anyagvastagság kívülről befelé csökken, a szűrés hatásfoka ennek ",
+      "megfelelően kívülről befelé nő."
+    ],
+    [
+      "A mélységi szűrőgyertyákat többnyire a ráiszapoló szűrés után, illetve a finomszűrés után használják, hogy az üledékanyagokkal alig terhelhető, statikus membránszűrőt védjék az eltömődéssel szemben. A membránszűrő „őrfunkciót”, a mélységi szűrőgyertya az előszűrő funkcióját tölti be. Jó visszamoshatóságuknak köszönhetően mindkettő hosszú élettartamú és ezáltal gazdaságos."
+    ],
+    [
+      "Az adszorpciós tulajdonságokkal és/vagy mélységi hatással rendelkező szűrőanyagok alapvetően bizonyos adszorpciós sz",
+      "íncsökkentő hatást mutathatnak."
+    ],
+    [],
+    [
+      "Statikus membránszűrés (",
+      "dead",
+      " end szűrés)"
+    ],
+    [
+      "A membránszűrők a múlt század hetvenes éveinek végétől fokozatosan kiszorítják a lapszűrőket a steril szűrésből. A membránszűréshez hajtogatott membránokat használnak, amelyeket gyertya alakban zárt rozsdamentes acélházakba csavaroznak. A membrán vastagsága ",
+      "kevesebb",
+      " mint 200 ",
+      "μm",
+      ", azaz nagyon csekély, csakúgy, mint a felvevőképessége. Használatának előfeltétele a nagy hatásfokú előszűrés: ",
+      "erre a célra megfelelő visszatartási hatásfokú lapszűrők vagy lapszűrő modulok alkalmasak",
+      "."
+    ],
+    [
+      "A membránszűrők csak biztonsági szűrőként, szórványos részecskék kiszűrésére szolgálnak. A felületen főként üledékanyagok maradnak vissza, a baktériumok vagy kolloidok gyakran bejuthatnak a borba. A membránszűrés ezeknél egyfajta mélységi szűrő szerepét is betölti. A baktériumoknak ahhoz, hogy átjuthassanak a tiszta oldalra, sejtátmérőjük mintegy 400×-",
+      "osának",
+      " megfelelő utat kell megtenniük. A biztosan élesztőmentes szűréshez 0,65 ",
+      "μm",
+      " pórusméretű szűrőanyagot kell használni. A 0,45 ",
+      "μm",
+      "-es baktériumok ennél is kisebb porozitást (pórusméretet) igényelnek. A 21. sz. ábrán három steril szűrésre használt gyertyaszűrő látható."
+    ],
+    [
+      ""
+    ],
+    [
+      "Gyertyaszűrő"
+    ],
+    [],
+    [
+      "A felvevőképesség lapszűréssel szembeni hiányát jelentős előnyök ellensúlyozzák:"
+    ],
+    [
+      "a mikrobiológiai biztonság,"
+    ],
+    [
+      "a termékbiztonság,"
+    ],
+    [
+      "a gazdaságosság,"
+    ],
+    [
+      "a rendszer sértetlenségének vizsgálata (integritásvizsgálat)."
+    ],
+    [
+      "A steril szűrésnél a mikrobiológiai biztonság előfeltétele, hogy maga a szűrőrendszer is sterilizálható legyen. A zárt modulok erre jóval inkább alkalmasak, mint a lapszűrők, és az anyagi ráfordítás is kisebb. A döntő előny azonban az integritásvizsgálat lehetősége, ",
+      "amellyel",
+      " nagy biztonsággal megállapítható a rendszer rendeltetésszerű állapota. A membránok sértetlenségét minden szűrés előtt meg kell vizsgálni. A gyakorlatban kétféle vizsgálatot használnak:"
+    ],
+    [
+      "A ",
+      "bubble",
+      " ",
+      "point",
+      " test",
+      " (buborékpont-meghatározás) a membrán pórusaiban lévő víz eltávolításához szükséges ",
+      "levegőnyomást méri",
+      ". A víz átmérőtől függően különböző tartóerővel tapad a membrán pórusaiban. Minél kisebb egy pórus, annál nagyobb a kapilláris erő. A például anyagtörés folytán létrejövő, nagy pórusok kapilláris ereje sokkal kisebb. Ez a vizsgálat a pórusméret mértéke, a kapilláris erő alapján ellenőrzi a membránok épségét, és összehasonlítja a mért értéket a gyártó adataival."
+    ],
+    [
+      "A ",
+      "nyomástartási próba",
+      " a nedves membrán ",
+      "szűretlen",
+      " oldalát meghatározott levegőnyomás alá helyezve létrejövő ",
+      "nyomásesést méri",
+      ". A nyomás a buborékpont-meghatározásnál alkalmazott nyomás mintegy 70–80%-a. A levegő nyomást fejt ki a vízzel telt pórusokra, és a kapilláris erő megakadályozza a víz távozását. A membrán nyomóoldalán idővel bekövetkező nyomásesés",
+      " a membrán épségének a mércéje."
+    ],
+    [
+      "Steril szűrést végezni csak alapos előtisztítás és a mikrobiológiai csíraszám (esetlegesen jelenlévő szaporodásra még képes élesztők) jelentős csökkenté",
+      "se után célszerű."
+    ],
+    [
+      "A membránszűrőket a palackozás előtti steril szűréskor legtöbbször elő- és kiegészítő szűrőkkel kombináltan használják. Ez biztosítja az",
+      "t, hogy a szűrő ne ",
+      "tömődjön",
+      " el."
+    ],
+    [
+      "Dinamikus membránszűrés (",
+      "cross",
+      "-flow, avagy keresztáramú szűrés)"
+    ],
+    [
+      "A ",
+      "dinamikus membránszűrés ",
+      "eljárástechnikailag",
+      " az anyagok szétválasztására használt membránfolyamatok nagy csoportjának részét képezi. A „keresztáramú (",
+      "cross",
+      "-flow) szűrés” elnevezés a membránfelülettel párhuzamos áramlásból ered. A dinamikus szűrések mind ezen az úgynevezett ",
+      "kénysze",
+      "ráramoltatásos",
+      " elven alapulnak."
+    ],
+    [
+      "A borkezelésben ",
+      "cross",
+      "-flow ",
+      "mikroszűrés",
+      " (CMF) megnevezéssel többnyire 0,2 ",
+      "μm",
+      "-es vagy 0,45 ",
+      "μm",
+      "-es porozitású membránokat használnak. A bor makromolekuláit ezek gyakorlatilag nem tartják vissza, az élesztőket, a baktériumokat és a nagyobb üledékkolloidokat viszont igen. A keresztáramú szűrők olyan membránszűrők, amelyeknél a vékony membrán hosszú kerámia- vagy polimercsövek belsejében található."
+    ],
+    [
+      "Az ",
+      "ultraszűrés",
+      " (UF) már eredeti polimer összetevőket is képes leválasztani a borból. Emiatt a borkezelésben csak speciális eljárásoknál (intenzív színű fehérborok kezelése, vörösborok színtelenítése), és kizárólag az USA-ban engedélyezett."
+    ],
+    [
+      "A szintén nyomáselven működő ",
+      "nanoszűrés",
+      " (NF) a felső leválasztási tartományban még ",
+      "alapulhat porozitáson, míg a szűkebb tartományban az anyagok szétválasztásának alapja az ",
+      "oldódásos",
+      " diffúzió. A folyadék fokozatosan feloldja a kisebb molekulákat a membránon és a membránban, amelyen ezután átdiffundálnak."
+    ],
+    [
+      "Végezetül ",
+      "fordított",
+      " (",
+      "reverz",
+      ") ",
+      "ozmózissal",
+      " (RO) a tengervíz is ",
+      "sótalanítható",
+      ". A vízen kívül gyakorlatilag minden molekulát visszatart. A fordított ozmózisnál a molekuláris szétválasztás egy félig áteresztő membránon keresztül, kizárólag az ",
+      "oldódásos",
+      " diffúzió elve szerint működik."
+    ],
+    [
+      "A ",
+      "reverz",
+      " ozmózisnál (RO) is szükség van keresztáramoltatásra. A fordított ozmózis membránjának kimenetén egy nagynyomású szelep található. A szelep zárásakor a folyadék nyomása megnő. ",
+      "Amint a folyadéknyomás meghaladja a must vagy bor ozmózisnyomását, ",
+      "permeátum",
+      " keletkezik, vagyis a víz átnyomódik a membránon. A száraz borban lévő víz leválasztásához 20–30 bar körüli nyomás szükséges. A nagy cukorkoncentrációjú, sokkal nagyobb ozmotikus potenciálú mustok 70–80 bar nagyságú nyomást igényelnek."
+    ],
+    [
+      "A fordított ozmózis a borkezelésben különböző feladatokra használható önmagában vagy más rendszerekkel kombinálva:"
+    ],
+    [
+      "must töménységének részleges vízelvonással történő növeléséhez; "
+    ],
+    [
+      "a mustban lévő cukor leválasztásához, a potenciális alkohol csökkentése céljából; "
+    ],
+    [
+      "a nem kívánt összetevők szelektív eltávolításához; "
+    ],
+    [
+      "a bor alkoholtartalmának csökkentéséhez."
+    ],
+    [
+      "A dinamikus szűrési technikák membránjainak felépítése elvileg megegyezik a ",
+      "dead",
+      " end szűrésnél használtakkal. A vékony, tulajdonképpeni elválasztó membrán támasztó és stabilizáló szövetekre támaszkodik, amelyeken keresztül a szűrlet kifolyik. A döntő különbség a statikus szűréshez képest az ",
+      "áramlás vezetésében rejlik. A 18",
+      ". ábra összehasonlítja a két módszer működési elvét."
+    ],
+    [
+      ""
+    ],
+    [
+      "A statikus és a dinamikus szűrés összehasonlítása."
+    ],
+    [],
+    [
+      "A mikro-, ultra- és ",
+      "nanoszűrésnél",
+      " történő, dinamikus szűrésnél a statikus szűréshez képest jóval lassabban alakul ki a felületi réteg, mert a keringtetett áramlás magával sodorja a már levált részecskéket. A ",
+      "permeátum",
+      " áram a kezdetben nagy l/m",
+      "2",
+      " szűrőfelület és óra (fluxus l/m",
+      "2",
+      "/ó) értékek először erőteljesen, majd egyfajta egyensúlyi állapot létrejötte után már csak fokozatosan csökkenek tovább. Ha a fluxus gazdaságtalanná válik, akkor kémiai tisztítást kell végezni. A szűrő oldalról, szűrlettel vagy vízzel történő időnkénti visszamosással az érték kissé újra megnövelhető (például 40-ről 70 l/m",
+      "2",
+      "/órára)."
+    ],
+    [],
+    [
+      "3.1.4.1 Membrán"
+    ],
+    [
+      "A dinamikus szűrés legfontosabb része a membrán. A bor szűrésekor kétféle anyagot használnak: szerves anyagból (polimerekből) és szervetlen anyagokból (kerámiából) készült membránokat. ",
+      "A 23. ábrán egy kerámiamembrán látható számos csatornával és egy üreges szálas („makaróni”) membránnal, egy struktúra, alak és anyag szerinti felosztásban. Minden műszaki membrán a biológiai membránok példáján alapul, amelyek nélkül egyetlen élő sejt sem létezhetne."
+    ],
+    [
+      ""
+    ],
+    [
+      "Membránszűrés szűrőelemei"
+    ],
+    [],
+    [
+      "Fent polimer-, lent kerámiamembránok felvételei láthatók; mellettük a membránok rendszerezése."
+    ],
+    [
+      ""
+    ],
+    [
+      "Kerámiaelem hét membráncsatornával"
+    ],
+    [],
+    [
+      "A szuszpenzió hosszirányban folyik a vékony csatornákban, a csatornák belső falán áthatol a membrán oldalán, ahonn",
+      "an a gyűjtőtartályba kerül. A 20",
+      ". ábrán az áramlás menete látható egy hét membráncsatornás kerámiaelem példáján és az elem hatására létrejövő áramlási helyzettel. Az üzemi gyakorlatban sok különálló polimermembránt, illetve sok kerámiaelemet kötegbe fognak össze."
+    ],
+    [
+      "A szuszpenzió a membráncsatornában a keringtető szivattyú beállításától és a termék követelményeitől függően 500 és 5000 mm/s közötti sebességgel áramlik. Minél nagyobb az áramlási sebesség, annál nagyobb a fluxus, minél nagyobb a turbulencia, anná",
+      "l jobb a felülettisztító hatás."
+    ],
+    [
+      "A 21",
+      ". ábrán egy 0,2 ",
+      "μm",
+      "-es kerámiamembrán elektronmikroszkópos képe látható. Jól látható az egyenetlenség és a különböző pórusméretek. A névlegesnél nagyobb részecskék egy része is csak a tér mélységében akad fenn. Legtöbbször 0,2 ",
+      "μm",
+      "-es membránokat használnak. A molekulaméretre vonatkoztatva ez a porozitás a borban nem kívánatos kolloid-, illetve molekulaméreteknek felel meg. A membránon keresztül történő tényleges szűrés nem hat a bor",
+      "ok érzékszervi tulajdonságaira."
+    ],
+    [
+      ""
+    ],
+    [
+      "Egy kerámiamembrán felületének elektronmikroszkópos képe; különböző porozitási, illetve részecske-visszatartási méretadatok összevetése (a jobb oldalon)."
+    ],
+    [],
+    [
+      "A ",
+      "kerámiaelemek masszívabbak. A nagy ellenálló képesség hatékonyabb tisztítást tesz lehetővé, és hosszabb élettartamot eredményez. A polimermembránok egy ponton visszafordíthatatlanná váló eltömődése a múltban jelentős költségtényező volt. A jelenlegi műszaki színvonalat nemcsak a nagyüzemekben, hanem a közepes, sőt kisebb üzemekben is a ",
+      "mikro",
+      "szűrés",
+      " képviseli.  Alkalmazása ",
+      "gyorsan terjed a kedvező adottságai miatt. ",
+      "A bornál alkalmazott CMF bevezetése utáni",
+      " első években ",
+      "gyakoriak voltak a minőségromlás miatti panaszok."
+    ],
+    [
+      "Modulok",
+      " (házban elhelyezett membránok)"
+    ],
+    [
+      "A kerámiaelemeket, illetve üreges szálakat modulokká fogják össze. A 21. sz. ábrán rozsdamentes acélból készült, kerámiaelemekkel ellátott modulok, valamint egy ürege",
+      "s szálas műanyag modul látható."
+    ],
+    [
+      ""
+    ],
+    [
+      "Kerámia- (",
+      "bal oldal",
+      ") és polimermembrán- modulok (a jobb oldalon)"
+    ],
+    [],
+    [
+      "A modulok és membránelemek paraméterei a hosszúság és az átmérő. Ez a két adat határozza meg a szűrőfelületet a modulban, amely végeredményben az időegység alatt elérhető teljes szűrési teljesítmény mutatója."
+    ],
+    [],
+    [
+      "Membránszűrő berendezések"
+    ],
+    [
+      "A szűrés végrehajtásához a modulokat be kell építeni egy szűrőberendezésbe. Ennek legalább egy üzemi tartállyal (puffer tartály) kell rendelkeznie, amelyből a modulok feltölthetők, egy keringtető szivattyúból, egy keretből a modulok rögzítéséhez, valamint a szükséges csövekből és műszerekből. A ",
+      "retentátum",
+      " (",
+      "zavarosító",
+      " anyagokkal telített folyadék) nyitott körben visszafolyik az üzemi tartályba, amely a szűrlet levezetéséből adódóan egyre inkább megtelik üledékkel. ",
+      "A nyitott rendszernek több hátránya is van, így leginkább az egyszerű és különösen az olcsó berendezéseknél jöhet szóba:"
+    ],
+    [
+      "a keringtető szivattyú által bevitt energia felmelegíti a bort,"
+    ],
+    [
+      "a felmelegedés hatására CO",
+      "2",
+      " és illékony aromák szabadulnak fel,"
+    ],
+    [
+      "a nyitott rendszer oxigénfelvétele nagy SO",
+      "2",
+      "-szükséglethez vezet,"
+    ],
+    [
+      "az egyre nagyobb koncentrációjú üledékanyag a szűrés időtartamára nagy ",
+      "nyíróerőknek",
+      " van kitéve, amelyek fokozott mértékben hoznak létre kolloidokat."
+    ],
+    [
+      ""
+    ],
+    [
+      "Tangenciális szűrőmembrán működése"
+    ],
+    [
+      "Forrás: Harasztiné Lajtár Klára: Borászati technológiák eszközei I. Eger, 2012, A borkultúra központ kiadványai 143. oldal"
+    ],
+    [],
+    [
+      "A rendszereket gyakran visszamosó berendezéssel szerelik fel. A tiszta oldal felől gázt (CO",
+      "2",
+      ", levegő, nitrogén) vagy szűrletet lehet átpréselni a membránon, és le lehet választani a felületi réteg egy részét."
+    ],
+    [],
+    [
+      "3.1.4.3 Vákuumdobszűrés"
+    ],
+    [
+      "A vákuumdobszűrők nagyobb mennyiségű, nehezen szűrhető, magas ",
+      "szedimenttartalmú",
+      " szuszpenziók (gyümölcslé, híg seprő, derítési alj, aljbor) folyamatos s",
+      "zűrésére alkalmas berendezések."
+    ],
+    [
+      "A jó és eredményes szűrés elérése a szűrőfelület kialakításán múlik. /Ezt a szűrőanyag megfelelő kiválasztásával, jó előkészítésével és lassú adagolással érhetjük el/. A szűrő nagy ",
+      "felületű (1-60 m",
+      "2",
+      ") vízszintes helyzetű, forgatható szűrődobbal rendelkezik, amelynek a palástja acél fémszövet. A forgódobban létrehozott vákuum a feliszapolt szűrőrétegen és az acélszövet paláston keresztül szűri meg a szűrendő anyagot. A forgódobra tapadt ",
+      "szedimentet",
+      " és az elhasznált szűrőanyagot egy folyamatosan előre haladó késes kaparó szerkezet filmszerű rétegben távolítja el a szűrődobról. Ezáltal egy teljesen új szűrőréteget biztosít a következő forgási művelethez, amikor is a szűrendő bort tartó vályúba belemerülve a vákuum felszívja a szűrőfelületre a bort, és mire az újra a kaparószerkezethez ér, addigra meg is szűri azt. A szűrt bor a dobból távozva kerül a szűrletgyűjtőbe. És a folyamat egészen addig tart, míg a szűrődobon található megfelelő szűrőfelület."
+    ],
+    [
+      ""
+    ],
+    [
+      "Vákuum dobszűrő felépítése"
+    ],
+    [
+      "Forrás: ",
+      "Bacskay",
+      " Csaba: Borászati és üdítőitalipari gépek I. ",
+      "Budapest, 1999, ",
+      "Agrárszakoktatási Intézet, 272. o",
+      "ldal"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Vákuum dobszűrő működési sémája"
+    ],
+    [
+      "Forrás: ",
+      "Bacskay",
+      " Csaba: Borászati és üdítőitalipari gépek I. Budapest, 1999, Agrárszakoktatási Intézet, 273. oldal"
+    ],
+    [],
+    [
+      "A bor tisztításának összefüggései"
+    ],
+    [
+      "Az előző fejezetekben bemutattuk a must vagy a bor pincészetekben történő tisztítására szolgáló technikák széles körét. Az üzemnek a bor tisztításakor is ismernie kell, hogy saját egyedi körülményei között milyen módszerek kombinációja a leghatékonyabb és legeredményesebb."
+    ],
+    [
+      "A megfelelő kezelések kiválasztásánál az alábbiakat kell figyelembe venni:"
+    ],
+    [
+      "A nagy átmérőjű részecskéknek a térfogata is megfelelően nagy. Kis részecskék előfordulhatnak nagy mennyiségben, de a térfogatuk összességében kicsi."
+    ],
+    [
+      "Az ülepítés szempontjából kedvezőbb a nagy mennyiségű durva üledék, mint a sok apró részecske. Az ülepítés tisztító hatása 1 ",
+      "μm-nél",
+      " véget ér; az élesztők ülepedne",
+      "k, a baktériumok általában nem."
+    ],
+    [
+      "A többi tisztítási (szűrési) technika annál hatékonyabb, minél kevesebb üledék található a beömlő folyadékban. Ez különösen érvényes a kovaföldszűrésre, a mélységi",
+      " szűrésre és a membránszűrésre."
+    ],
+    [
+      "Végezetül a 30. ábra összefoglalóan mutatja a különböző szűrési technikákkal kiszűrhető anyagokat, mikroorganizmusokat:"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Szűrési diagram"
+    ],
+    [
+      "Forrás: Harasztiné Lajtár Klára: Borászati technológiák eszközei I. Eger, 2012, A borkultúra központ kiadványai 145. oldal"
+    ],
+    [],
+    [
+      "Továbbra is viták folynak arról, hogy melyik szűrőrendszer kínál több előnyt: a CMF vagy a kovaföldszűrés. Megfelelő beállításnál mindkét rendszer képes egy lépésben palackozható terméket előállítani. A kitűzött cél a meghatározó. Ha nagy mennyiséget kell rövid idő alatt szűrni, akkor a kovaföldszűrő rendelkezik a megfelelő előnyökkel. Ha a magas pH-értékű és alacsony ",
+      "savtartalmú",
+      " boroknál a biológiai biztonság a legfontosabb, akkor a CMF-módszer a helyes választás. (Ha egy üzem automatikus folyamatokat alkalmaz, és elutasítja a kovaföldet vagy egyéb segédeszközöket, akkor nem kerülheti meg a CMF-et.)"
+    ],
+    [
+      "A bor tulajdonképpeni tisztítását összefüggéseiben kell tekinteni. A seprőn történő tárolás, a lefejtés időpontja, a szellőztetési, derítési és stabilizációs intézkedések vagy az alkalmazott tisztítási technológia mind kihat a bor tulajdonságaira, azaz a minőségére",
+      "."
+    ],
+    [
+      "A seprőről történő korai leválasztás is negatív hatással van a minőségre, és növeli az ",
+      "atipikus öregedés (UTA) kialakulására való hajlamot."
+    ],
+    [
+      "Fő megállapításként leszögezhető, hogy a bor modern eszközökkel és a jelenlegi műszaki színvonalon végzett tisztításával a különböző rendszerek alig vezetnek analitikai vagy érzékszervi különbségekhez. Ugyanerre a felismerésre jutottak a must tisztítása vagy a",
+      " ",
+      "préseléssel történő fázisszétválasztás során is. A bor minőségét meghatározhatja az intézkedés, ",
+      "az alkalmazott technika azonban sokkal kevésbé játszik szerepet. Kiválasztásukat számos paraméter határozza meg, amelyek között azonban nem a minőség befolyásolása a legfontosabb."
+    ],
+    [
+      "A ",
+      "Darcy",
+      "-féle áteresztőképesség (",
+      "Darcy",
+      "-féle vízérték) a szűrési tulajdonságok alapján besoroláshoz nemzetközileg használt leggyakoribb eljárás. Az értékek a szemcseméret-eloszlással korrelálnak. 1 ",
+      "darcy",
+      " ",
+      "permeabilitású",
+      " az 1 cm hosszú és 1 cm2 keresztmetszetű kőzetdarab, amely egy 1 ",
+      "cp",
+      " viszkozitású folyadékot a be- és a kilépés helye közötti 1 bar nyomáskülönbség mellett 0 °C hőmérsékleten és 760 Hgmm légköri nyomáson 1 s alatt 1cm3/ cm2 intenzitással enged keresztül."
+    ],
+    [
+      ""
+    ],
+    [
+      "Ábrajegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "Táblajegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "Felhasznált irodalo",
+      "m"
+    ],
+    [
+      "Kazai",
+      ", Jánosné: ",
+      "Borászati és üdítőital-ipari technológia gyakorlat.",
+      " Budapest, 1999,",
+      " FVM Képzési és Szaktanácsadási Intézet."
+    ],
+    [
+      "Mátyus Imre, Nyitrai",
+      "né Dr. ",
+      "Sárdy",
+      " Diána, Török Zita: Borkészítés technológiája.",
+      " ",
+      "Budapest, 2022, ",
+      "Herman Ottó Intézet Nonprofit Kft. ",
+      "http://www.hermanottointezet.hu/sites/default/files/tankonyvek2022/Borkeszites_technologiaja_(oktatasi_segedanyag)",
+      ".pdf",
+      "."
+    ],
+    [
+      "Tatayné",
+      " Baksa Erzsébet: ",
+      "Borkészítés.",
+      " Budapest, 2010, FVM Vidékfejlesztési, Képzési ",
+      "és Szaktanácsadási Intézet."
+    ],
+    [
+      "Bacskay",
+      " Csaba: ",
+      "Borászati és üdítőitalipari gépek I. ",
+      "Budapest, ",
+      "1999",
+      ", ",
+      "Agrárszakoktatási Intézet"
+    ],
+    [
+      "Eperjesi Imr",
+      "e: Borászat. ",
+      "Budapest, 1998",
+      ", ",
+      "Mezőgazda Kiadó"
+    ],
+    [
+      "Harasztiné Lajtár Klára: Borászati technológiák eszközei I. Eger, 2012, A borkultúra központ kiadványai "
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Mátyus Imre"
+      ],
+      [
+        "Szakmai lektor:",
+        "Lefler Péter"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Élelmiszeripar"
+      ],
+      [
+        "Szakma:",
+        "Szőlész-borász"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Borászati technológia"
+      ],
+      [
+        "Tantárgy:",
+        "A bor kezelése és palackozása"
+      ],
+      [
+        "Évfolyam:",
+        "10, 11. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "10 óra"
+      ]
+    ],
+    [
+      [
+        "Megnevezés",
+        "Adagolás",
+        "Felhasználás",
+        "Hatás"
+      ],
+      [
+        "Aktív szén\nDekolor\nAntiodor",
+        "\n20-200 g/hl\n50-300 g/hl",
+        "A borban elkeverik, néhány napig a borban hagyják, majd derítéssel leülepítik.",
+        "A szín-, illat- és ízanyagot adszorbeálja\nSzíntelenít\nSzagtalanít"
+      ],
+      [
+        "Bentonit ",
+        "20-200 g/hl \n(termékfüggő!)",
+        "Tíz – tizenötszörös mennyiségű vízben 12 – 24 órán át duzzasztják (termékfüggő!)",
+        "Fehérjestabilizáló. Tisztító hatással is rendelkezik."
+      ],
+      [
+        "Csersav (tannin)",
+        "2-10 g/hl",
+        "Kevés borral elkeverik, csűrölik. A zselatin előtt adják a borhoz.",
+        "Negatív töltésű anyag, a zselatinnal csapadékot képez. Nyúlós borokhoz önállóan is használható."
+      ],
+      [
+        "Kazein",
+        "5-40 g/hl",
+        "A kazein csak lúgos oldószerben oldódik. A kálium-kazeinát vízben is oldható (10x mennyiségű vízben).",
+        "Derít, színtelenít, a fenolos anyagokat eltávolítja."
+      ],
+      [
+        "Kovasav",
+        "30-100 cm3/hl ",
+        "1 g zselatinhoz 10cm3 15%-os kovasavoldat szükséges. Kevés vízzel hígítva a zselatin előtt adják a borhoz.",
+        "Negatív elektromos töltésű. A zselatinnal csapadékot képez. Nehezen kezelhető újborok tisztítására alkalmas."
+      ],
+      [
+        "Tej (fölözött)",
+        "0,5-1 l/hl",
+        "Kevés borban eloszlatják, majd a borhoz keverik.",
+        "Hibás, főleg olajszagú borok szagtalanítására."
+      ],
+      [
+        "Tojásfehérje",
+        "2-3 fehérje/hl",
+        "A fehérjét finom szitán átnyomják, habosra verik, így adják a borhoz. (kevés konyhasóval hatásosabb).",
+        "Vörösborok derítésére használják."
+      ],
+      [
+        "Vizahólyag",
+        "1-3 g/hl",
+        "Különösen minőségi fehérborokhoz. Hidegen borban oldják, 1%-os oldatot készítenek.",
+        "Csersavval csapadékot ad. Zavaros borokat csersavadagolás nélkül is derít."
+      ],
+      [
+        "Zselatin",
+        "4-16 g/hl",
+        "A kristályos zselatint duzzasztják, melegen oldják, (5-10%-os oldat). Csersavval vagy kovasavval kombinálják.",
+        "Derít, tisztít, a bor ízét javítja."
+      ],
+      [
+        "Sárgavérlúgsó",
+        "3-15 g/hl\n(1 g/hl sárgavérlúgsó -1,3-1,8 mg/l vas)",
+        "Porrá törve vizes oldatot készítenek belőle. Csersav- zselatinnal vagy bentonittal kombinálva használják.",
+        "A nehézfémekkel oldhatatlan csapadékot képez."
+      ]
+    ],
+    [
+      [
+        "Mérettartomány /μm/",
+        "Kiszűrt anyagok",
+        "Alkalmazás és az elválasztás elve"
+      ],
+      [
+        "40 – 10",
+        "durva zavarosító anyagok, látható szennyeződések",
+        "Durva szűrés: első fejtés után (szitahatás és mélységi hatás)"
+      ],
+      [
+        "1 – 10",
+        "kisebb zavarosító anyagok, egyes élesztő fajták",
+        "Finomszűrés: előülepítés, derítés után (makroszűrés; – szitahatás és mélységi hatás)"
+      ],
+      [
+        "1,0 – 0,1",
+        "baktériumok, élesztők, keményítő, pigmentek",
+        "Csírátlanító szűrés (mikroszűrés – szitahatás)"
+      ],
+      [
+        "0,1 – 0,01",
+        "makromolekulák, vírusok, kolloidok, fehérjék, polifenolok",
+        "Ultraszűrés (szitahatás)"
+      ],
+      [
+        "0,01 – 0,001",
+        "kolloidok (300-500 Da molekulatömeg); szervetlen sók és kis molekulatömegű szerves anyagok; cukrok ",
+        "Nanoszűrés (szitahatás)\n! Borászatban önállóan nem jellemző!"
+      ],
+      [
+        "0,001 – 0,0001",
+        "savak, alkoholok, egyértékű ionok",
+        "Fordított ozmózis (oldódás és diffúzió)"
+      ]
+    ],
+    [
+      [
+        "Szűrés módja",
+        "D érték"
+      ],
+      [
+        "Igen durva",
+        "1200-1600"
+      ],
+      [
+        "Durva",
+        "350-600"
+      ],
+      [
+        "Finom",
+        "50-200"
+      ],
+      [
+        "Igen finom",
+        "25-40"
+      ],
+      [
+        "Steril",
+        "6-20"
+      ]
+    ],
+    [
+      [
+        "Szűrés módja",
+        "D érték"
+      ],
+      [
+        "Egyszerű szűrés",
+        "150-300"
+      ],
+      [
+        "Melegsteril töltés előtt",
+        "50-80"
+      ],
+      [
+        "Hidegsteril töltés előtt",
+        "6-30"
+      ]
+    ],
+    [
+      [
+        "Szűrési minőség",
+        "Szemcseméret (μm)"
+      ],
+      [
+        "durva",
+        ">20"
+      ],
+      [
+        "közepesen durva",
+        ">5"
+      ],
+      [
+        "közepes",
+        ">2"
+      ],
+      [
+        "finom",
+        ">1,2"
+      ],
+      [
+        "steril",
+        ">0,4"
+      ],
+      [
+        "szuper steril",
+        ">0,1"
+      ]
+    ]
+  ],
+  "headers": [
+    ""
+  ],
+  "footers": [
+    ""
+  ],
+  "footnotes": [
+    "",
+    ""
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image19.png",
+      "path": null,
+      "bytes": 67581
+    },
+    {
+      "name": "image20.png",
+      "path": null,
+      "bytes": 21028
+    },
+    {
+      "name": "image21.png",
+      "path": null,
+      "bytes": 131846
+    },
+    {
+      "name": "image17.png",
+      "path": null,
+      "bytes": 152801
+    },
+    {
+      "name": "image18.png",
+      "path": null,
+      "bytes": 40770
+    },
+    {
+      "name": "image26.png",
+      "path": null,
+      "bytes": 82918
+    },
+    {
+      "name": "image23.png",
+      "path": null,
+      "bytes": 412810
+    },
+    {
+      "name": "image28.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image27.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image16.png",
+      "path": null,
+      "bytes": 101800
+    },
+    {
+      "name": "image25.png",
+      "path": null,
+      "bytes": 195278
+    },
+    {
+      "name": "image24.png",
+      "path": null,
+      "bytes": 82254
+    },
+    {
+      "name": "image22.png",
+      "path": null,
+      "bytes": 62920
+    },
+    {
+      "name": "image13.png",
+      "path": null,
+      "bytes": 122102
+    },
+    {
+      "name": "image14.png",
+      "path": null,
+      "bytes": 93298
+    },
+    {
+      "name": "image3.png",
+      "path": null,
+      "bytes": 32627
+    },
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 41769
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 63161
+    },
+    {
+      "name": "image15.png",
+      "path": null,
+      "bytes": 64655
+    },
+    {
+      "name": "image4.png",
+      "path": null,
+      "bytes": 385272
+    },
+    {
+      "name": "image6.png",
+      "path": null,
+      "bytes": 94066
+    },
+    {
+      "name": "image12.png",
+      "path": null,
+      "bytes": 120417
+    },
+    {
+      "name": "image11.png",
+      "path": null,
+      "bytes": 428492
+    },
+    {
+      "name": "image5.png",
+      "path": null,
+      "bytes": 74389
+    },
+    {
+      "name": "image10.png",
+      "path": null,
+      "bytes": 396635
+    },
+    {
+      "name": "image8.png",
+      "path": null,
+      "bytes": 20061
+    },
+    {
+      "name": "image7.png",
+      "path": null,
+      "bytes": 55807
+    },
+    {
+      "name": "image9.png",
+      "path": null,
+      "bytes": 363274
+    },
+    {
+      "name": "image4.emf",
+      "path": null,
+      "bytes": 552
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "Címsor 4 Char",
+    "Címsor 5 Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "Normal (Web)",
+    "annotation text",
+    "Jegyzetszöveg Char",
+    "Title",
+    "Cím Char",
+    "Subtitle",
+    "Alcím Char",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "Hyperlink",
+    "Feloldatlan megemlítés1",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Table Grid",
+    "11",
+    "9",
+    "Placeholder Text",
+    "Caption",
+    "bajusz_téglalap",
+    "bajusz_téglalap Char",
+    "ism_kérdések",
+    "ism_kérdések Char",
+    "Képaláírás Char",
+    "kérdés_számozva",
+    "kérdés_számozva Char",
+    "bajusz_pötty",
+    "bajusz_pötty Char",
+    "szituáció",
+    "fontos",
+    "fontos Char",
+    "toc 4",
+    "bajusz_kötőjel",
+    "betűkiemelés",
+    "List Paragraph",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "példa",
+    "példa Char",
+    "toc 5",
+    "toc 6",
+    "toc 7",
+    "toc 8",
+    "toc 9",
+    "[Nincs bekezdésstílus]",
+    "Revision",
+    "annotation reference",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "Symbol",
+    "Feloldatlan megemlítés2",
+    "FollowedHyperlink",
+    "table of figures",
+    "Unresolved Mention",
+    "SZK ábrajegyzék",
+    "SZK táblajegyzék",
+    "[Alapbekezdés]",
+    "cf01",
+    "ELMS",
+    "Grid Table 5 Dark Accent 1",
+    "elms_ContentText",
+    "elms_Egyszeres",
+    "elms_Fogalom",
+    "elms_Fogalom:invalid",
+    "elms_Fontos",
+    "elms_HelyesValasz",
+    "elms_HibasValasz",
+    "elms_JogiSzoveg",
+    "elms_Opcionalis",
+    "elms_Media",
+    "elms_Tobbszoros",
+    "elms_Parosito",
+    "elms_Sorbarendezo",
+    "elms_Legordulo",
+    "elms_Kitolto",
+    "elms_FogdEsVidd",
+    "elms_Kijelolo",
+    "elms_Gyakorlo",
+    "elms_numeric",
+    "toa heading",
+    "table of authorities",
+    "footnote text",
+    "Lábjegyzetszöveg Char",
+    "footnote reference",
+    "Bibliography",
+    "Címsor 1 (helyőrző)",
+    "elms_TartalomCimsor",
+    "elms_cim_1_tananyag",
+    "elms_cim_2_egyseg",
+    "elms_cim_3_fejezet",
+    "elms_cim_4_lecke",
+    "elms_tananyag",
+    "elms_egyseg",
+    "msonormal",
+    "icon",
+    "docon",
+    "bookmark-status",
+    "is-visually-hidden-touch",
+    "visually-hidden",
+    "has-text-white-static",
+    "HTML Top of Form",
+    "z-A kérdőív teteje Char",
+    "has-text-primary",
+    "HTML Bottom of Form",
+    "z-A kérdőív alja Char",
+    "tree-expander",
+    "tree-expander-indicator",
+    "Emphasis",
+    "HTML Code",
+    "Strong",
+    "68831B013408452FBD29B6FDEC9893802",
+    "6FD96C86FC10454FA6AE06C5190120182",
+    "Outline List 2",
+    "Outline List 1",
+    "Signature",
+    "Aláírás Char",
+    "Closing",
+    "Befejezés Char",
+    "envelope address",
+    "Outline List 3",
+    "Plain Text",
+    "Csak szöveg Char",
+    "Date",
+    "Dátum Char",
+    "Document Map",
+    "Dokumentumtérkép Char",
+    "Table Simple 1",
+    "Table Simple 2",
+    "Table Simple 3",
+    "Table Elegant",
+    "E-mail Signature",
+    "E-mail aláírása Char",
+    "Intense Reference",
+    "Intense Emphasis",
+    "envelope return",
+    "List Bullet",
+    "List Bullet 2",
+    "List Bullet 3",
+    "List Bullet 4",
+    "List Bullet 5",
+    "Subtle Reference",
+    "Subtle Emphasis",
+    "Table Subtle 1",
+    "Table Subtle 2",
+    "HTML Keyboard",
+    "HTML Address",
+    "HTML-cím Char",
+    "HTML Definition",
+    "HTML Cite",
+    "HTML Typewriter",
+    "HTML Preformatted",
+    "HTML-ként formázott Char",
+    "HTML Sample",
+    "HTML Acronym",
+    "HTML Variable",
+    "Quote",
+    "Idézet Char",
+    "Intense Quote",
+    "Kiemelt idézet Char",
+    "Table Classic 1",
+    "Table Classic 2",
+    "Table Classic 3",
+    "Table Classic 4",
+    "Book Title",
+    "Medium Shading 1",
+    "Medium Shading 1 Accent 1",
+    "Medium Shading 1 Accent 2",
+    "Medium Shading 1 Accent 3",
+    "Medium Shading 1 Accent 4",
+    "Medium Shading 1 Accent 5",
+    "Medium Shading 1 Accent 6",
+    "Medium Shading 2",
+    "Medium Shading 2 Accent 1",
+    "Medium Shading 2 Accent 2",
+    "Medium Shading 2 Accent 3",
+    "Medium Shading 2 Accent 4",
+    "Medium Shading 2 Accent 5",
+    "Medium Shading 2 Accent 6",
+    "Medium List 1",
+    "Medium List 1 Accent 1",
+    "Medium List 1 Accent 2",
+    "Medium List 1 Accent 3",
+    "Medium List 1 Accent 4",
+    "Medium List 1 Accent 5",
+    "Medium List 1 Accent 6",
+    "Medium List 2",
+    "Medium List 2 Accent 1",
+    "Medium List 2 Accent 2",
+    "Medium List 2 Accent 3",
+    "Medium List 2 Accent 4",
+    "Medium List 2 Accent 5",
+    "Medium List 2 Accent 6",
+    "Medium Grid 1",
+    "Medium Grid 1 Accent 1",
+    "Medium Grid 1 Accent 2",
+    "Medium Grid 1 Accent 3",
+    "Medium Grid 1 Accent 4",
+    "Medium Grid 1 Accent 5",
+    "Medium Grid 1 Accent 6",
+    "Medium Grid 2",
+    "Medium Grid 2 Accent 1",
+    "Medium Grid 2 Accent 2",
+    "Medium Grid 2 Accent 3",
+    "Medium Grid 2 Accent 4",
+    "Medium Grid 2 Accent 5",
+    "Medium Grid 2 Accent 6",
+    "Medium Grid 3",
+    "Medium Grid 3 Accent 1",
+    "Medium Grid 3 Accent 2",
+    "Medium Grid 3 Accent 3",
+    "Medium Grid 3 Accent 4",
+    "Medium Grid 3 Accent 5",
+    "Medium Grid 3 Accent 6",
+    "List",
+    "List 2",
+    "List 3",
+    "List 4",
+    "List 5",
+    "List Continue",
+    "List Continue 2",
+    "List Continue 3",
+    "List Continue 4",
+    "List Continue 5",
+    "Table List 1",
+    "List Table 1 Light",
+    "List Table 1 Light Accent 1",
+    "List Table 1 Light Accent 2",
+    "List Table 1 Light Accent 3",
+    "List Table 1 Light Accent 4",
+    "List Table 1 Light Accent 5",
+    "List Table 1 Light Accent 6",
+    "Table List 2",
+    "List Table 2 Accent 1",
+    "List Table 2 Accent 2",
+    "List Table 2 Accent 3",
+    "List Table 2 Accent 4",
+    "List Table 2 Accent 5",
+    "List Table 2 Accent 6",
+    "Table List 3",
+    "List Table 3 Accent 1",
+    "List Table 3 Accent 2",
+    "List Table 3 Accent 3",
+    "List Table 3 Accent 4",
+    "List Table 3 Accent 5",
+    "List Table 3 Accent 6",
+    "Table List 4",
+    "List Table 4 Accent 1",
+    "List Table 4 Accent 2",
+    "List Table 4 Accent 3",
+    "List Table 4 Accent 4",
+    "List Table 4 Accent 5",
+    "List Table 4 Accent 6",
+    "Table List 5",
+    "List Table 5 Dark",
+    "List Table 5 Dark Accent 1",
+    "List Table 5 Dark Accent 2",
+    "List Table 5 Dark Accent 3",
+    "List Table 5 Dark Accent 4",
+    "List Table 5 Dark Accent 5",
+    "List Table 5 Dark Accent 6",
+    "Table List 6",
+    "List Table 6 Colorful",
+    "List Table 6 Colorful Accent 1",
+    "List Table 6 Colorful Accent 2",
+    "List Table 6 Colorful Accent 3",
+    "List Table 6 Colorful Accent 4",
+    "List Table 6 Colorful Accent 5",
+    "List Table 6 Colorful Accent 6",
+    "Table List 7",
+    "List Table 7 Colorful",
+    "List Table 7 Colorful Accent 1",
+    "List Table 7 Colorful Accent 2",
+    "List Table 7 Colorful Accent 3",
+    "List Table 7 Colorful Accent 4",
+    "List Table 7 Colorful Accent 5",
+    "List Table 7 Colorful Accent 6",
+    "Table List 8",
+    "List Table 2",
+    "List Table 3",
+    "List Table 4",
+    "macro",
+    "Makró szövege Char",
+    "Note Heading",
+    "Megjegyzésfej Char",
+    "Salutation",
+    "Megszólítás Char",
+    "Table Contemporary",
+    "No Spacing",
+    "Normal Indent",
+    "page number",
+    "Table Columns 1",
+    "Table Columns 2",
+    "Table Columns 3",
+    "Table Columns 4",
+    "Table Columns 5",
+    "Table Professional",
+    "Table Grid 1",
+    "Table Grid 2",
+    "Table Grid 3",
+    "Table Grid 4",
+    "Table Grid 5",
+    "Table Grid 6",
+    "Table Grid 7",
+    "Table Grid 8",
+    "line number",
+    "Dark List",
+    "Dark List Accent 1",
+    "Dark List Accent 2",
+    "Dark List Accent 3",
+    "Dark List Accent 4",
+    "Dark List Accent 5",
+    "Dark List Accent 6",
+    "List Number",
+    "List Number 2",
+    "List Number 3",
+    "List Number 4",
+    "List Number 5",
+    "Colorful Shading",
+    "Colorful Shading Accent 1",
+    "Colorful Shading Accent 2",
+    "Colorful Shading Accent 3",
+    "Colorful Shading Accent 4",
+    "Colorful Shading Accent 5",
+    "Colorful Shading Accent 6",
+    "Colorful List",
+    "Colorful List Accent 1",
+    "Colorful List Accent 2",
+    "Colorful List Accent 3",
+    "Colorful List Accent 4",
+    "Colorful List Accent 5",
+    "Colorful List Accent 6",
+    "Colorful Grid",
+    "Colorful Grid Accent 1",
+    "Colorful Grid Accent 2",
+    "Colorful Grid Accent 3",
+    "Colorful Grid Accent 4",
+    "Colorful Grid Accent 5",
+    "Colorful Grid Accent 6",
+    "Block Text",
+    "Body Text",
+    "Szövegtörzs Char",
+    "Body Text 2",
+    "Szövegtörzs 2 Char",
+    "Body Text 3",
+    "Szövegtörzs 3 Char",
+    "Body Text Indent",
+    "Szövegtörzs behúzással Char",
+    "Body Text Indent 2",
+    "Szövegtörzs behúzással 2 Char",
+    "Body Text Indent 3",
+    "Szövegtörzs behúzással 3 Char",
+    "Body Text First Indent",
+    "Szövegtörzs első sora Char",
+    "Body Text First Indent 2",
+    "Szövegtörzs első sora 2 Char",
+    "Plain Table 1",
+    "Plain Table 2",
+    "Plain Table 3",
+    "Plain Table 4",
+    "Plain Table 5",
+    "Grid Table Light",
+    "Grid Table 1 Light",
+    "Grid Table 1 Light Accent 1",
+    "Grid Table 1 Light Accent 2",
+    "Grid Table 1 Light Accent 3",
+    "Grid Table 1 Light Accent 4",
+    "Grid Table 1 Light Accent 5",
+    "Grid Table 1 Light Accent 6",
+    "Grid Table 2",
+    "Grid Table 2 Accent 1",
+    "Grid Table 2 Accent 2",
+    "Grid Table 2 Accent 3",
+    "Grid Table 2 Accent 4",
+    "Grid Table 2 Accent 5",
+    "Grid Table 2 Accent 6",
+    "Grid Table 3",
+    "Grid Table 3 Accent 1",
+    "Grid Table 3 Accent 2",
+    "Grid Table 3 Accent 3",
+    "Grid Table 3 Accent 4",
+    "Grid Table 3 Accent 5",
+    "Grid Table 3 Accent 6",
+    "Grid Table 4",
+    "Grid Table 4 Accent 1",
+    "Grid Table 4 Accent 2",
+    "Grid Table 4 Accent 3",
+    "Grid Table 4 Accent 4",
+    "Grid Table 4 Accent 5",
+    "Grid Table 4 Accent 6",
+    "Grid Table 5 Dark",
+    "Grid Table 5 Dark Accent 2",
+    "Grid Table 5 Dark Accent 3",
+    "Grid Table 5 Dark Accent 4",
+    "Grid Table 5 Dark Accent 5",
+    "Grid Table 5 Dark Accent 6",
+    "Grid Table 6 Colorful",
+    "Grid Table 6 Colorful Accent 1",
+    "Grid Table 6 Colorful Accent 2",
+    "Grid Table 6 Colorful Accent 3",
+    "Grid Table 6 Colorful Accent 4",
+    "Grid Table 6 Colorful Accent 5",
+    "Grid Table 6 Colorful Accent 6",
+    "Grid Table 7 Colorful",
+    "Grid Table 7 Colorful Accent 1",
+    "Grid Table 7 Colorful Accent 2",
+    "Grid Table 7 Colorful Accent 3",
+    "Grid Table 7 Colorful Accent 4",
+    "Grid Table 7 Colorful Accent 5",
+    "Grid Table 7 Colorful Accent 6",
+    "index 1",
+    "index 2",
+    "index 3",
+    "index 4",
+    "index 5",
+    "index 6",
+    "index 7",
+    "index 8",
+    "index 9",
+    "index heading",
+    "Table Colorful 1",
+    "Table Colorful 2",
+    "Table Colorful 3",
+    "Table Theme",
+    "Table 3D effects 1",
+    "Table 3D effects 2",
+    "Table 3D effects 3",
+    "Message Header",
+    "Üzenetfej Char",
+    "endnote text",
+    "Végjegyzet szövege Char",
+    "endnote reference",
+    "Light Shading Accent 1",
+    "Light Shading Accent 2",
+    "Light Shading Accent 3",
+    "Light Shading Accent 4",
+    "Light Shading Accent 5",
+    "Light Shading Accent 6",
+    "Light List",
+    "Light List Accent 1",
+    "Light List Accent 2",
+    "Light List Accent 3",
+    "Light List Accent 4",
+    "Light List Accent 5",
+    "Light List Accent 6",
+    "Light Grid",
+    "Light Grid Accent 1",
+    "Light Grid Accent 2",
+    "Light Grid Accent 3",
+    "Light Grid Accent 4",
+    "Light Grid Accent 5",
+    "Light Grid Accent 6",
+    "Light Shading",
+    "Table Web 1",
+    "Table Web 2",
+    "Table Web 3",
+    "Ábrajegyzék Char",
+    "Táblajegyzék",
+    "Table Normal",
+    "Nem lista1",
+    "pf0",
+    "cf21",
+    "Default",
+    "Table Paragraph",
+    "felsorolás 1",
+    "Szöveg!",
+    "cf11",
+    "SK tábla",
+    "SK ábra"
+  ]
+}

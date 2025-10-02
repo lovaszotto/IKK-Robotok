@@ -1,0 +1,3032 @@
+{
+  "core_properties": {
+    "creator": "Dénes Lilla (ELMS)",
+    "lastModifiedBy": "Soós Gabriella Brigitta (ELMS)",
+    "revision": "2",
+    "created": "2024-09-24T15:41:00Z",
+    "modified": "2024-09-24T15:41:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal",
+    "TotalTime": "0",
+    "Pages": "52",
+    "Words": "8319",
+    "Characters": "57405",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "478",
+    "Paragraphs": "131",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "65593",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.5.4  ",
+    "",
+    "Natúr és ízesített termékek gyártása",
+    "Témák kézirata",
+    "Forrás: Milchkunde und Milchhygiene, Der Verlag Eugen Ulmer KG,  2016. ISBN 978-3-8252-8664-4\nAz eredeti könyv szerzői: Erwin Märtlbauer, Heinz Becker",
+    "",
+    "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak.",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "TartalomJEGYZÉK",
+    "",
+    "Általános előírások, jogi szabályozások",
+    "Általános jogi vonatkozások",
+    "Országos szinten a tej kitermelésére, kezelésére és feldolgozására, ezen élelmiszerek kereskedelmére és a tejpiac szervezésére vonatkozó legfontosabb jogszabályi rendelkezések a következők:",
+    "Az élelmiszer-előállítás, forgalmazás és a hatósági ellenőrzés legfőbb szabályai",
+    "Az Európai Parlament és a Tanács 178/2002/EK RENDELETE az élelmiszerjog általános elveiről és követelményeiről, az Európai Élelmiszerbiztonsági Hatóság létrehozásáról és az élelmiszerbiztonságra vonatkozó eljárások megállapításáról. (forrás: https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=celex:32002R0178, utolsó megtekintés: 2024. 07. 03.)",
+    "A BIZOTTSÁG 931/2011/EU VÉGREHAJTÁSI RENDELETE (2011. szeptember 19.) a 178/2002/EK európai parlamenti és tanácsi rendeletnek az állati eredetű élelmiszerek nyomonkövethetőségével kapcsolatban megállapított követelményeiről. (forrás: https://eur-lex.europa.eu/legal-content/HU/TXT/?qid=1401468788499&uri=CELEX:32011R0931, utolsó megtekintés: 2024. 07. 03.)",
+    "Élelmiszer-előállításra, élelmiszerbiztonságra vonatkozó általános követelmények",
+    "Az Európai Parlament és a Tanács 852/2004/EK RENDELETE az élelmiszerhigiéniáról. (forrás: https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=celex:32004R0852, utolsó megtekintés: 2024. 07. 03.)",
+    "Az Európai Parlament és a Tanács 853/2004/EK RENDELETE az állati eredetű élelmiszerek különleges higiéniai szabályainak megállapításáról. (forrás: https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=celex:32004R0853, utolsó megtekintés: 2024. 07. 03.)",
+    "Az Európai Parlament és a Tanács 178/2002/EK rendelete az élelmiszerjog általános elveiről és követelményeiről, az Európai Élelmiszerbiztonsági Hatóság létrehozásáról és az élelmiszerbiztonságra vonatkozó eljárások megállapításáról. (forrás: https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=CELEX%3A02002R0178-20220701, utolsó megtekintés: 2024. 07. 03.)",
+    "A Bizottság 2074/2005/EK RENDELETE a 852/2004/EK, 853/2004/EK, európai parlamenti és tanácsi rendelettől való eltérésről, azok módosításáról. (forrás: https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=celex:32005R2074, utolsó megtekintés: 2024. 07. 03.)",
+    "Az élelmiszer-jelöléssel kapcsolatos alapjogszabályok, tápértékjelölés",
+    "AZ EURÓPAI PARLAMENT ÉS A TANÁCS 1169/2011/EU RENDELETE a fogyasztók élelmiszerekkel kapcsolatos tájékoztatásáról. (forrás: https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=celex:32011R1169, utolsó megtekintés: 2024. 07. 03.)",
+    "13/2008. (VIII. 8.) NFGM–FVM együttes rendelet az előre csomagolt termékek névleges mennyiségére vonatkozó szabályok megállapításáról és azok ellenőrzési módszereiről. (Nettó mennyiségre és betűméretre vonatkozó előírásokat is tartalmaz!) (forrás: https://net.jogtar.hu/jogszabaly?docid=A0800013.NFG, utolsó megtekintés: 2024. 07. 03.)",
+    "Mikrobiológiai kritériumokra vonatkozó ajánlások és előírások",
+    "A BIZOTTSÁG 2073/2005/EK RENDELETE az élelmiszerek mikrobiológiai kritériumairól. (forrás: https://eur-lex.europa.eu/eli/reg/2005/2073/oj/hun, utolsó megtekintés: 2024. 07. 03.)",
+    "4/1998. (XI. 11.) EüM rendelet az élelmiszerekben előforduló mikrobiológiai szennyeződések megengedhető mértékéről. (forrás: https://net.jogtar.hu/jogszabaly?docid=99800004.eum, utolsó megtekintés: 2024. 07. 03.)",
+    "Tej és tejtermékekre vonatkozó specifikus szabályok",
+    "A 152/2009. (XI.12.) FVM rendelete 37. mellékletében megjelent Magyar Élelmiszerkönyv 3-1-92/608 számú előírása a közvetlen emberi fogyasztásra szánt hőkezelt tej mintavételi és vizsgálati módszereiről. (forrás: https://net.jogtar.hu/jogszabaly?docid=A0900152.FVM&celpara, utolsó megtekintés: 2024. 07. 03.",
+    "A Magyar Élelmiszerkönyv 1-3/19-1 számú előírása a tejtermékekről. Kötelezően alkalmazandó: 2022. október 31-től. (forrás: https://elelmiszerlanc.kormany.hu/download/d/b6/d2000/vegleges_el%C5%91%C3%ADr%C3%A1s_jogt%C3%A1rb%C3%B3l.pdf, utolsó megtekintés: 2024. 07. 03.)",
+    "Magyar Élelmiszerkönyv 2-104 számú irányelv Megkülönböztető minőségi jelöléssel ellátott tejtermékek. (forrás: https://elelmiszerlanc.kormany.hu/download/5/3b/a2000/2-104.pdf, utolsó megtekintés: 2024. 07. 03.)",
+    "MAGYAR ÉLELMISZERKÖNYV 2-105 számú irányelve a megkülönböztető minőségi jelöléssel ellátott kézműves tejtermékekről. (forrás: https://elelmiszerlanc.kormany.hu/download/6/3b/a2000/2-105.pdf, utolsó megtekintés: 2024. 07. 03.)",
+    "MAGYAR ÉLELMISZERKÖNYV 2-109 számú irányelve a kézműves/kézmíves élelmiszerek általános jellemzőiről. (forrás: https://elelmiszerlanc.kormany.hu/download/a/3b/a2000/2-109_2016-12-21.pdf, utolsó megtekintés: 2024. 07. 03.",
+    "A fent említett jogszabályi rendelkezésekre, valamint egyéb, alapvetően a piacok közös szervezésével és a fent említett rendeletek módosításával, kiegészítésével foglalkozó közösségi szabályozás részleteiről tájékozódhatunk a rendszeresen frissített Élelmiszer-jogszabályok jegyzékében. (forrás: https://portal.nebih.gov.hu/-/elelmiszer-jogszabalyok-jegyzeke, utolsó megtekintés: 2024. 07. 03.)",
+    "",
+    "1. ábra: Laboratóriumi minőségellenőrzés (illusztráció)",
+    "(https://mtki.hu/wp-content/uploads/2022/01/rajzok04b.png, utolsó megtekintés: 2024. 07. 03.)",
+    "",
+    "Követelmények az alapanyaggal szemben",
+    "A natúr, az ízesített tej és a tejszínkészítmények előállításának kiindulási anyaga a nyerstej. Fogalmát a 853/2004/EK rendelet I. mellékletének 4. fejezet 4.1 bekezdése határozza meg. E szerint a nyerstej a haszonállatok módosítatlan teje, amelyet nem melegítettek 40 °C fölé és nem vetették alá semmilyen hasonló hatású kezelésnek.",
+    "A nyerstejre vonatkozó részletes követelményeket a Tejipari technológia I.: A tej összetevői, technológiai szerepük, tejátvétel, tejkezelés című tananyag A tej mennyiségi és minőségi átvétele című fejezete tartalmazza:",
+    "3. A tej mennyiségi és minőségi átvétele",
+    "3.1.\tÁltalános tudnivalók",
+    "3.2.\tA tej mennyiségi átvétele",
+    "3.3.\tA tej minőségi átvétele",
+    "3.4.\tA tej minőségének értékelése\t",
+    "3.4.1.\tKözegészségügyi értékelés",
+    "3.4.2.\tA tej minőségére vonatkozó rendelet szerinti értékelés",
+    "A feldolgozó üzemben történt átvétel után biztosítani kell, hogy a tejet gyorsan 6 °C alá hűtsék, és a feldolgozásig ezen a hőmérsékleten kell tartani.",
+    "Követelmények az adalék-, és járulékos anyagokkal szemben",
+    "ÉLELMISZER-ADALÉKANYAG bármely olyan anyag, amelyet nem használnak élelmiszerek jellemző összetevőjeként. Élelmiszerként önmagában nem fogyasztják, általában tápértékkel nem rendelkezik. Az élelmiszerhez technológiai célból adják és az alkalmazott technológiai művelet során válik a késztermék összetevőjévé. Technológiai vagy érzékszervi tulajdonságok javításának céljából szándékosan adják az élelmiszerekhez. Felhasználható mennyiségét szigorúan szabályozzák.",
+    "",
+    "2. ábra: Az adalékanyagok /DTSZ: 'Na, most akkor mit együnk?' 3. rész: E-számok",
+    "(videó: https://www.youtube.com/watch?v=-YnqId9AHGc, utolsó megtekintés: 2024. 07. 03.)",
+    "Az élelmiszer-feldolgozás során felhasznált anyagokra vonatkozó szabályozások:",
+    "1331/2008/EK RENDELET az élelmiszer-adalékanyagok, az élelmiszerenzimek és az élelmiszer-aromák egységes engedélyezési eljárásának létrehozásáról",
+    "1332/2008/EK RENDELET az élelmiszerenzimekről",
+    "1333/2008/EK RENDELET az élelmiszeradalékanyagokról",
+    "1334/2008/EK RENDELET az élelmiszerekben és azok felületén használható aromákról és egyes, aroma tulajdonságokkal rendelkező élelmiszer-összetevőkről",
+    "A 1333/2008/EK rendelet az élelmiszerekben felhasznált élelmiszer-adalékanyagokra vonatkozó szabályokat állapít meg a belső piac eredményes működésére tekintettel, ugyanakkor biztosítja az emberi egészség védelme és a fogyasztóvédelem magas szintjét, ideértve a fogyasztók érdekeinek védelmét és az élelmiszer-kereskedelem tisztességes gyakorlatát is, miközben szükség szerint figyelembe veszi a környezet védelmét.",
+    "Ennek érdekében ez a rendelet az alábbiakról rendelkezik:",
+    "Az élelmiszer-adalékanyagokkal kapcsolatos alapvető szabályokról, fogalmakról, jelölésekről, elvekről.",
+    "I-es mellékletében az élelmiszer-adalékanyagok funkcionális csoportjairól.",
+    "II-es mellékletében találhatóak a kizárólagosan forgalomba hozható és használható élelmiszer-adalékanyagok az ott meghatározott felhasználási feltételekkel.",
+    "III-as mellékletében található az élelmiszer-adalékanyagokban, élelmiszerenzimekben és élelmiszer-aromaanyagokban használható élelmiszer-adalékanyagok listája és felhasználási feltételei.",
+    "Egy adalékanyag jelen lehet az élelmiszerben, mert \n1) egy kívánt cél elérése érdekében szándékosan adagolták hozzá, vagy \n2) egy összetevőből az átvitel eredményeként került bele (a carry over vagy átvitel elvnek megfelelően). Pl. ha lekvárral ízesített terméket készítünk, az alaptermékünkhöz nem használunk adalékanyagot, de a felhasznált lekvár tartalmaz adalékanyagot, akkor így az adalékanyag nem közvetlenül kerül a termékbe, hanem a hozzáadott lekvár tartalmazza.",
+    "Az élelmiszer-adalékanyagok felhasználási szintjei:\n1.) Felső határérték (mg/kg, ml/l): A kívánt hatás eléréséhez szükséges legkisebb mértékben állapítják meg.\n2.) Quantum satis: Adott esetben nem kell számszerűen előírni az élelmiszer-adalékanyag maximális felhasználási szintjét. Ebben az esetben az élelmiszer-adalékanyagot a quantum satis elvnek megfelelően kell alkalmazni.",
+    "„QUANTUM SATIS” (QS): azt jelenti, hogy nem írják elő számszerűen az élelmiszer-adalékanyag maximális számszerű szintjét, az anyagokat a jó gyártási gyakorlatnak megfelelően, legfeljebb a kívánt hatás eléréséhez feltétlenül szükséges mennyiségben kell alkalmazni, feltéve, hogy használata nem vezeti félre a fogyasztót. A QS-elv szerint ilyen esetekben az adalékanyag-felhasználás ún. önkorlátozó, az előállító maga határozza meg a felhasznált adalékanyag mennyiségét.",
+    "A különböző zsírtartalmú fogyasztói tejek gyártása",
+    "Előírások, követelmények",
+    "A következő termékeket kell fogyasztói tejnek tekinteni az Európai Parlament és a Tanács 1308/2013/EU rendelete alapján:",
+    "Nyers tej: olyan tej, amelyet nem melegítettek 40 °C fölé vagy nem tettek ki hasonló eredménnyel járó kezelésnek;",
+    "Teljes tej: hőkezelt tej, amely a zsírtartalom vonatkozásában megfelel a következő követelmények egyikének:",
+    "standardizált teljes tej: legalább 3,50% (m/m) zsírtartalmú tej. A tagállamok azonban további kategóriát is megállapíthatnak a 4,00% (m/m) vagy azt meghaladó zsírtartalmú teljes tejre;",
+    "nem standardizált teljes tej: olyan tej, amelynek zsírtartalmát a fejési fázis óta nem változtatták meg, sem tejzsírok hozzáadásával vagy kivonásával, sem olyan tejjel való elegyítésével, amelynek természetes zsírtartalmát megváltoztatták. Tejzsírtartalma azonban nem lehet 3,50%-nál (m/m) kevesebb.",
+    "Zsírszegény tej: olyan hőkezelt tej, amelynek zsírtartalmát legalább 1,50%-ra (m/m) és legfeljebb 1,80%-ra (m/m) csökkentették.",
+    "Sovány tej: olyan hőkezelt tej, amelynek zsírtartalmát nem több mint 0,50%-ra (m/m) csökkentették.",
+    "Félzsíros tej: olyan hőkezelt tej, amelynek zsírtartalma 2,8% (m/m).",
+    "Fogyasztói tejnek tekinthető továbbá az olyan hőkezelt tej, amelynek zsírtartalmát világosan és könnyen olvasható formában, egy tizedesjegy pontossággal feltüntetik a csomagoláson „… % zsírtartalom” formában. Az ilyen típusú tej azonban nem nevezhető teljes tejnek, zsírszegény tejnek, félzsíros tejnek vagy sovány (fölözött) tejnek.",
+    "A fogyasztói tejek jelölésén feltüntetett zsírtartalom érték és az ellenőrzések során mért érték különbsége a mérési bizonytalanságot is beleértve +/− 0,15% lehet, azonban a termék mért zsírtartalma az 1308/2013/EU európai parlamenti és tanácsi rendeletben meghatározott kategóriákhoz tartozó zsírtartalmak minimum és maximum értékeit nem lépheti át.",
+    "Fogyasztói tejben csak a következő módosítások engedhetők meg:",
+    "a fogyasztói tejre meghatározott zsírtartalom teljesítése érdekében a természetes zsírtartalom módosítása tejszín hozzáadásával vagy kivonásával, vagy teljes tej, zsírszegény tej, illetve sovány (fölözött) tej hozzáadásával;",
+    "a tej dúsítása tejfehérjékkel, ásványi sókkal vagy vitaminokkal az 1925/2006/EK európai parlamenti és tanácsi rendelettel összhangban;",
+    "a laktóztartalom csökkentése glükózra vagy galaktózra történő átalakítás révén.",
+    "A tej összetételének említett módosításai csak akkor engedélyezhetőek, ha ezt a termék csomagolásán kitörölhetetlenül feltüntetik úgy, hogy az könnyen látható és olvasható legyen. E jelölések feltüntetése azonban nem mentesít a 1169/2011/EU rendeletben meghatározott tápérték-jelölési kötelezettség alól. Amennyiben fehérjék hozzáadására került sor, a dúsított tej fehérjetartalma legalább 3,8% (m/m).",
+    "Gyártástechnológia",
+    "A beszállított tejnek fogyasztási tejjé történő átalakítása lényegében a következő fázisokból áll: tisztítás, szeparálás, zsírtartalom-beállítás, homogénezés, hőkezelés, hűtés, kiszerelés.",
+    "A következő folyamatábra a fogyasztói tejfélék ideális gyártását szemlélteti, amely során a fölözőn automatikus zsírbeállítás és a hőkezelés után az utótárolás nélküli, azonnali csomagolás történik.",
+    "1. táblázat: Fogyasztói tejfélék gyártási folyamata",
+    "Tisztítás és szeparálás",
+    "Részletes leírását a Tejipari technológia I. A tej összetevői, technológiai szerepük, tejátvétel, tejkezelés - Tisztítás-Szeparálás fejezete tartalmazza",
+    "Zsírtartalom-beállítás",
+    "Részletes leírását a Tejipari technológia I. A tej összetevői, technológiai szerepük, tejátvétel, tejkezelés - Zsírtartalom beállítás fejezete tartalmazza",
+    "Homogénezés",
+    "Részletes leírását a Tejipari technológia I. A tej összetevői, technológiai szerepük, tejátvétel, tejkezelés - Homogénezés fejezete tartalmazza",
+    "Hőkezelés",
+    "Részletes leírását a Tejipari technológia I. A tej összetevői, technológiai szerepük, tejátvétel, tejkezelés - Hőkezelés fejezete tartalmazza.",
+    "Hűtés",
+    "Részletes leírását a Tejipari technológia I. A tej összetevői, technológiai szerepük, tejátvétel, tejkezelés - Hűtés fejezete tartalmazza.",
+    "Töltés-csomagolás",
+    "A tej csomagolásának valamennyi műveletét formázó, töltő- és zárógépek végzik (->Tejipari gépek I.), poharas csomagoláskor a poharak nemcsak helyileg, hanem központilag is készülnek. Világviszonylatban ma a tej csomagolásában a nagyobb hányadot az alaktartó változatok képezik, mint például a dobozos (2.2 kép) vagy palackos (2.3 kép) tej, zacskós (2.4 kép) kiszereléssel már nem igazán találkozhatunk a boltok polcain.",
+    "",
+    "3. ábra: Dobozos kiszerelés",
+    "(https://st3.depositphotos.com/í5737658/12483/v/450/depositphotos_124836990-stock-illustration-milk-water-or-juice-paper.jpg, utolsó megtekintés: 2024. 07. 03.)",
+    "",
+    "4. ábra: Palackos kiszerelés",
+    "(https://static3.depositphotos.com/1005618/204/i/450/depositphotos_2043065-stock-photo-dairy-plant.jpg, utolsó megtekintés: 2024. 07. 03.)",
+    "",
+    "5. ábra: Zacskós kiszerelés",
+    "(https://preview.redd.it/p1hci5eixao31.jpg?auto=webp&s=732ef10010985e19c033a087087b8455b8f2d100, utolsó megtekintés: 2024. 07. 03.)",
+    "A régebben leggyakoribb üvegbe (2.5 kép) csomagolás (Anglia, Hollandia és Belgium kivételével) az elmúlt évtizedekben teljesen visszaszorult és egyidejűleg átadta helyét a laminált kartondobozos (pl. tetra-pak, tetra-brik, pure-pack és zupack), a műanyagflakonos és a tasakos megoldásnak.",
+    "",
+    "6. ábra: Régi tejesüveg Egyesült Tejkereskedelmi RT. Budapest felirattal",
+    "(forrás: https://www.antikregiseg.hu/piacter/kepek/mini/uveg_kristaly_tejesuveg_1l_62343_1.jpg?1449153359, utolsó megtekintés: 2024. 07. 03.)",
+    "Poharas csomagoláskor (polisztirol, PVC) az első, ami szembetűnik, a pohár alakja. Két alapvető forma alakult ki: a kör (7. ábra) és a négyszög (8. ábra) alak. Az utóbbi négyzet alapú hasáb vagy téglatest formában egyaránt megtalálható. Ma már hazánkban is a kör alakú az uralkodó, annak ellenére, hogy készítéséhez mintegy 10-15%-kal több alapanyagra van szükség és a fajlagos tárolótér-igénye is nagyobb.",
+    "",
+    "7. ábra: Kör alakú poharas kiszerelés",
+    "(forrás: https://semmelweis.hu/pak/files/2018/06/Iskolatej-02-%C3%BAj_3D-911x1024.jpg, utolsó megtekintés: 2024. 07. 03.)",
+    "",
+    "8. ábra: Négyszög alakú poharas kiszerelés",
+    "(forrás: https://cdn.hvgblog.hu/ezegychopper/uploads/2022/01/iskola.jpg, utolsó megtekintés: 2024. 07. 03.)",
+    "Ennek oka nemcsak az, hogy a fogyasztók praktikusabbnak és esztétikusabbnak tartják a kör alakú poharakat. Ismert, hogy a poharak oldalfala általában színnyomásos, grafikázott. Márpedig a drága nyomtatógépek 3-4-szer nagyobb teljesítménnyel dolgoznak a kör alakú poharak, mint a négyszögűek használatakor, és e teljesítménykülönbség haszna nagyobb, mint az alapanyag és a tárolótér költségtöbblete.",
+    "A poharak zárására főleg hőre hegedő alumíniumfóliát, kisebb részben a pohár anyagával azonos (pattintott vagy hegesztett) fedelet használnak.",
+    "",
+    "A késztermékek minősítésének előírásai",
+    "Érzékszervi",
+    "Az MSZT (Magyar Szabványügyi Testület) 2019. március 1-jén az Agrárminisztérium támogatásával és az illetékes nemzeti szabványosító műszaki bizottság szakértőinek aktív közreműködésével megjelent az MSZ ISO 22935 Tej és tejtermékek. Érzékszervi vizsgálat szabványsorozat három része:",
+    "1. rész: Általános útmutató a bírálók toborzásához, kiválasztásához, képzéséhez és folyamatos ellenőrzéséhez;",
+    "2. rész: Érzékszervi vizsgálathoz ajánlott módszerek (amely már 2017. április 1-jén megjelent);",
+    "3. rész: Útmutató a termékleírásban szereplő érzékszervi tulajdonságoknak való megfelelés pontozásos értékelési módszerére.",
+    "Az érzékszervi vizsgálatok tekintetében a hazai gyakorlatban a legelterjedtebb a pontozásos vizsgálat. A pontozás önmagában elsősorban minőségellenőrzési célokra alkalmas, amely alapján egy tétel megfelelősége megállapítható.",
+    "Ezt a nemzetközi gyakorlatban in-out tesztnek nevezik (ha a termék elér egy bizonyos pontszámvesztést, akkor a termék nem adható ki a vevőnek, „out”-nak tekinthető).",
+    "A pontozás történhet 100 pontos pontlevonásos skálán, amikor egy lista tartalmazza a hibákért levonható pontok mennyiségét, illetve 5 pontos súlyozófaktoros pontozással, amely során a négy vizsgált tulajdonságra (külső, szag, íz, állomány) maximum 5 pont adható. Majd a tulajdonságra adott pontokat beszorozzák a hozzá tartozó, előre meghatározott, fontosságot jelölő úgynevezett súlyozófaktorral (összegük 4; például külső: 0,8, szag: 0,6, íz: 1,6, állomány: 1,0) és összeadják a pontokat. Így az adott termék maximálisan 20 pontot kaphat.",
+    "A tejiparban minőségileg megfelelő még a termék, ha érzékszervi minősítésre legalább 14 pontot kapott.",
+    "",
+    "Hőkezelt fogyasztói tejek érzékszervi követelményei:",
+    "Külső: Egyenletes, csontfehér vagy kissé sárgás színű a zsírtartalomtól és a hőkezelés módjától függően.",
+    "Állomány: Egynemű, pelyhesedéstől és üledéktől, valamint felfölöződéstől mentes, kivételt képez a homogénezetlen pasztőrözött és a magas hőmérsékleten hőkezelt tej, amelyek esetében megengedhető a felfölöződés, ha a zsírréteg keveréssel könnyen eloszlatható.",
+    "Szag: Jellegzetes, enyhén főtt, tiszta.",
+    "Íz: Jellegzetes, édeskés, enyhén vagy kissé főtt, tiszta a zsírtartalomtól és a hőkezelés módjától függően.",
+    "Beltartalmi",
+    "A hőkezelt fogyasztói tejeknek kémiai jellemzők tekintetében a 1308/2013/EU európai parlamenti és tanácsi rendeletben, valamint a Magyar Élelmiszerkönyvben megadott paramétereknek kell megfelelni a zsírtartalom függvényében.",
+    "2. táblázat: Hőkezelt fogyasztói tejek kémiai követelményei",
+    "Mikróbiológiai jellemzők tekintetében a 2073/2005/EK bizottsági rendeletének és a 4/1998. (XI. 11.) EüM rendeletben meghatározott, az élelmiszerekben előforduló mikrobiológiai szennyeződések megengedhető mértékének kell megfelelnie. (laboratóriumi vizsgálatok gyakorlaton részletes értelmezés)",
+    "3. táblázat: Hőkezelt fogyasztói tejek mikrobiológiai követelményei: zsírtartalomtól függetlenül",
+    "Jelölés, csomagolás",
+    "Jelölés, csomagolás tekintetében a 1169/2011/EU rendeletben és a 13/2008. (VIII. 8.) NFGM–FVM együttes rendeletben meghatározott tájékoztatási kötelezettségnek és névleges mennyiségeknek kell megfelelni.",
+    "Hőkezelt fogyasztói tejek jelölései, csomagolási követelményei:",
+    "Kereskedelmi megnevezés pl. Magyar Tej 2,8%",
+    "Azonosító jelölés (2.8 kép), melynek tartalmaznia kell: \naz előállítás szerinti ország ISO szabvány szerinti kódját (Magyarország esetében: HU),",
+    "a létesítmény engedélyezési számát, valamint",
+    "a Közösségre utaló rövidítést (Magyarországon: EK).",
+    "",
+    "9. ábra: Azonosító jelölés",
+    "(forrás: saját készítésű ábra)",
+    "Zsírtartalom pl. 2,8%",
+    "Hőkezelési eljárások jelölése pl. Magas Hőmérsékleten Hőkezelt Tej",
+    "Átlagos tápérték meghatározása 100 g-ra vonatkoztatva, beltartalmi paraméterek alapján pl.",
+    "",
+    "4. táblázat: Átlagos tápérték 100 g termékben",
+    "Fogyaszthatósági határidő meghatározása eltarthatósági próbák alapján pl. Fogyaszthatósági határidő, csomagolás alapján: Pohárban 8 nap, Palackban 11 nap, Kancsóban 12 nap, Dobozban 10 nap, Kannában 9 nap",
+    "Kiszerelési mennyiség csomagolás alapján pl. 5. táblázat",
+    "5. táblázat: Kiszerelési mennyiség csomagolás alapján",
+    "Szállítási, tárolási hőmérséklet pl. 0-6 °C között",
+    "A késztermékek csomagolása, tárolása",
+    "Késztermékek csomagolása",
+    "A 853/2004/EK rendelet (a 1662/2006/EK rendelet megfogalmazásában) III. mellékletének IX. szakasz III. fejezete értelmében, a késztermék csomagolásának lezárását a töltés után közvetlenül az üzemben kell elvégezni az utolsó hőkezelés után. A lezárásnak biztosítani kell, hogy a termék utószennyeződését megakadályozza, valamint a zárórendszert úgy kell kialakítani, hogy egyértelműen észlelhető legyen, ha kinyitották, és kinyitás ténye könnyen ellenőrizhető legyen.",
+    "Rendeltetés szerint a csomagolások háromfélék: nagyfogyasztói, (kis)fogyasztói és gyűjtőcsomagolások, amelyek megnevezései egyben funkcióikat és megoldási formáikat is valószínűsítik.",
+    "A nagyfogyasztói csomagolások nagyobb egységek a nagyfogyasztók (pl. éttermek, iskolák, óvodák, honvédség, sütödék) számára.",
+    "A (kis)fogyasztói csomagolások kisebb egységűek, egy személynek vagy családnak megfelelő nagyságúak, és bolthálózaton keresztül jutnak el a fogyasztókhoz.",
+    "A gyűjtőcsomagolások a kisfogyasztói csomagok összefogására minden esetben, a nagyfogyasztói csomagoknál esetenként szükségesek.",
+    "Késztermékek tárolása",
+    "A hűtést igénylő termékek tárolása, szállítása során az előírt hőmérsékletet biztosítani kell, ennek megfelelőségét folyamatosan ellenőrizni és dokumentálni szükséges. Gondoskodni kell arról, hogy a szállítás és a tárolás során a termékek ne szennyeződjenek. Nedvesítéssel vagy más módon meg kell akadályozni a porképződést.",
+    "A nem megfelelő termékeket (visszáru, selejt) és a visszatérő göngyölegeket elkülönítetten, jelölt módon kell tárolni, lehetőség szerint külön helyiségben. Ilyen lehetőség hiányában a raktárnak olyan részét kell e célra kijelölni, ahol ezek a visszáruk v. selejtes áruk a megfelelő minőségű termék be- és kitárolásának útvonalát nem keresztezik. Elszállításukról minél előbb gondoskodni kell.",
+    "Ízesített tejkészítmények (soványtejes-kakaó, karamellás tej, csokoládés tej) gyártása",
+    "Előírások, követelmények",
+    "Ízesített termék esetén az ízesítőanyag mennyiségének – ahol nincs erre vonatkozó előírás – a termék jellegzetességét biztosító arányúnak kell lennie.",
+    "Az ízesített tejkészítmény a tejből ízesítőanyagok, továbbá színezékek és egyéb élelmiszer-adalékanyagok hozzáadásával előállított termék. A késztermékben a tejhányad legalább 70% (m/m).",
+    "A termék előállításához – beleértve az ízesítőanyag, az adalékanyag és a technológiai segédanyag oldását is – nem használható fel hozzáadott víz és olyan egyéb összetevő, amely a tej komponenseinek helyettesítésére szolgál.",
+    "Felhasználható összetevők: tej, tejsűrítmény, tejpor, író vagy ezek keveréke, tejfehérje-koncentrátum, savófehérje-koncentrátum, ízesítőanyag, laktózbontó enzim, víz.",
+    "Gyártástechnológia",
+    "2 A különböző zsírtartalmú fogyasztói tejek gyártása c. fejezet 2.1.1. Gyártástechnológia fejezete",
+    "Eltérések: 6. táblázat",
+    "6. táblázat: Gyártástechnológia",
+    "A kakaóporban, továbbá a csokoládés tejben a stabilizálószer cukorral való száraz előkeverése könnyebbé teszi a termék alapanyagában az adalékanyagok oldását, diszpergálását, és csökkenti veszteségüket. A felhasznált ízesítő-, segéd- és adalékanyagok az ízesített termékekben üledéket képeznek. Az üledékképző anyagok nagyobb aránya miatt nem ajánlott a bekevert massza vagy a kakaós tej homogénezése, hanem csak a tejet homogénezik. A nagy mennyiségű üledék a homogénezőfej funkcionális alkatrészeinek fokozott kopását okozná, viszont a termék minősége (íz teltsége, üledék mennyisége) nem javulna. Megfelelő kakaópor és stabilizálószer alkalmazásával ma már megoldható az üledékmentes csokoládés és kakaós tej gyártása. A csokoládés és a sovány kakaós tej hőntartása a kakaópor jobb feltáródását, illetve a benne levő csírák fokozott elpusztítását segíti elő. A hőntartás következtében teltebb ízű és eltarthatóbb terméket kapunk. A kakaópor zsírtartalmát minden esetben figyelembe kell venni, mivel ez nagyban befolyásolja a késztermék zsírtartalmát a gyártás során. A csokoládés tej jellegzetes ízének kialakítása céljából használt aromát azért kell hidegen adni a termékhez, mert hőérzékeny alkotórészeket tartalmaz.",
+    "A késztermékek minősítésének előírásai",
+    "Érzékszervi követelmények",
+    "Külső: Egyenletes, az alapanyagra jellemző színű, ízesített termék esetén az ízesítő-, illetve a színezőanyagra jellemző.",
+    "Állomány: Egynemű, kiválástól, pelyhes kicsapódástól, felfölöződéstől és üledéktől mentes.",
+    "Szag: Az ízesítésre jellemző, kellemesen aromás, tiszta.",
+    "Íz: Az ízesítőanyagra vagy az aromára jellemző, jellegzetesen zamatos, tiszta.",
+    "Beltartalmi előírások",
+    "Zsírtartalmi követelmények: A jelölésen feltüntetett zsírtartalomérték és az ellenőrzések során mért érték különbsége a mérési bizonytalanságot is beleértve +/− 0,15% lehet, azonban a termék zsírtartalma a zsírfokozatnak megfelelő minimum és maximum értékeket nem lépheti át.",
+    "7. táblázat: A termék zsírtartalma a zsírfokozatnak megfelelően",
+    "Fehérjetartalom",
+    "Fehérjetartalom ízesítéstől és zsírtartalomtól függetlenül legalább 2,1% (m/m).",
+    "Mikróbiológiai jellemzők tekintetében a 2073/2005/EK bizottsági rendeletének és a 4/1998. (XI. 11.) EüM rendeletben meghatározott, az élelmiszerekben előforduló mikrobiológiai szennyeződések megengedhető mértékének kell megfelelnie. (->Fogyasztói tejek)",
+    "Jelölés, csomagolás",
+    "Megnevezés: A termék megnevezésében fel kell tüntetni a hőkezelésre utaló kifejezéseket.\nA megnevezés részeként vagy ahhoz kapcsolódóan feltüntethető a termék zsírtartalma tömegszázalékban, például „Kakaós tej 0,7%”, „Kakaós tej 0,7% zsírtartalommal”.\nHa a tej összetételében módosítás történt, azt a megnevezéshez kapcsolt szóval vagy szavakkal kell jelezni, például „laktózmentes” vagy „csökkentett tejcukortartalmú”. Az ízesített tejkészítmények megnevezése tartalmazhatja a „tej” szót, például „karamellás tej”, „gyümölcsös tejkészítmény”. A termék zsírfokozatát fel kell tüntetni. Homogénezés esetén utalni kell a műveletre.",
+    "",
+    "10. ábra: Kakaós tejtermék régen",
+    "(forrás: https://i.pinimg.com/originals/35/8f/f5/358ff5a34ad690f43b4efe9e1662e142.jpg, utolsó megtekintés: 2024.07.03.)\n",
+    "11. ábra: Kakaós tejtermékek napjainkban",
+    "(forrás: https://cdn.penzcentrum.hu/upload/cimlapimg/C/cimlap_borito-20150903.jpg, utolsó megtekintés: 2024.07.03.)",
+    "További előírások",
+    "2.2 A késztermékek minősítésének előírásai - 2.2.3 Jelölés, csomagolás fejezete",
+    "A késztermékek csomagolása, tárolása",
+    "2.3 A késztermékek csomagolása, tárolása – 2.3.1 Késztermékek csomagolása és 2.3.2 Késztermékek tárolása c. fejezetek",
+    "Tejszínkészítmények (tejszínek, ízesített tejszínkészítmények, aeroszolos tejszínek és tejszínkészítmények) gyártástechnológiája",
+    "Előírások, követelmények",
+    "A tejszínkészítmények az 1333/2008/EK európai parlamenti és tanácsi rendelete szerinti élelmiszer-kategória.\nA termékcsoportba a tejből fölözéssel nyert, zsírban dúsított, továbbá szükség szerinti mennyiségben az engedélyezett összetevőkből vagy azok egy részéből készült, megfelelően hőkezelt és hűtött, szükség esetén homogénezett, legalább 10% (m/m) zsírtartalmú, „zsír a vízben” emulzió típusú tejtermékek tartoznak.",
+    "A termékcsoportba tartozó termék lehet tejszín, továbbá ennek felhasználásával és ízesítőanyagok hozzáadásával előállított ízesített tejszínkészítmény.",
+    "Tejszínek: \nA tejszínek csoportba a különböző zsírtartalommal gyártott, hőkezelt és hűtött, szükség esetén homogénezett zsírdús termékek tartoznak, mint a félzsíros tejszín, a tejszín, a zsírdús tejszín, a habtejszín, a tejszínhab, a zsírdús habtejszín és a zsírdús tejszínhab.",
+    "Ízesített tejszínkészítmények: \nÍzesített tejszínkészítmények a tejszín csoportba tartozó termékekből a felsorolt összetevők szükség szerinti hozzáadásával, hőkezeléssel és hűtéssel előállított termékek, amelyeket folyékony vagy habosított formában hoznak forgalomba. Az ízesített késztermékben az ízesítés előtti tejszínhányad legalább 58% (m/m). Ha az ízesítésre gyümölcsöt használnak, annak hányada (az erős ízű, savas gyümölcsök kivételével) a végtermékben legalább 4% (m/m).",
+    "Aeroszolos tejszínek és ízesített tejszínkészítmények: \nAeroszolos tejszín és ízesített tejszínkészítmény a csomagolásból azonnal felhasználható habosított formában nyerhető ki. Az aeroszolos készítmények nyomásálló csomagolásban kerülnek kereskedelmi forgalomba. A csomagolásba a tejszínhez hajtógázt adnak, így a szelep kinyitásával habosított formában nyerhető ki a tejszín. Hajtógázként inert gázokat (kémiai reakcióba nem lépő elemek, mint például a nemesgázok vagy más gáz halmazállapotú vegyületek, melyek kémiailag közömbösek pl. N2 (Nitrogén), CO2 (Szén-dioxid)) alkalmaznak. ",
+    "Felhasználható összetevők:\ntej, tejsűrítmény, tejpor, tejfehérje-koncentrátum, savófehérje-koncentrátum, étkezési kazeinátok.\nÍzesítőanyag, levegő, illetve inert gáz kizárólag az ízesített tejszínkészítmények és aeroszolos tejszínek és ízesített tejszínkészítmények szerinti termékekhez használható fel.",
+    "Gyártástechnológia",
+    "2 A különböző zsírtartalmú fogyasztói tejek gyártása c. fejezet 2.1.1. Gyártástechnológia fejezete",
+    "Eltérések:",
+    "A kávétejszín (4.9 kép) előállítása során a tejet előbb szeparálják, azaz sovány tejre és 30–40% zsírtartalmú tejszínre választják szét, majd a tejszínben beállítják a kívánt zsírtartalmat sovány tej hozzáadásával, homogenizálják, 85–90 °C, esetleg magasabb hőmérsékleten pasztőrözik, végül lehűtik és kiszerelik. A kávétejszínt kávé, tea, egyéb italok és élelmiszerek ízesítésére használják.",
+    "",
+    "12. ábra: Kávétejszín",
+    "(forrás: https://static.groby.hu/media/8b4/f8b/conv/37503_se2_1d630_back-full.png utolsó megtekintés: 2024.07.03)\n",
+    "13. ábra: Kávétejszín II.",
+    "(forrás: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGMYpSwGasJCbOWzRvD9Ysj2hn7GMtosF6hRJHzoliETxhWx_r21pH6JkmlPulGr5-wYQ&usqp=CAU utolsó megtekintés: 2024.07.03)\n",
+    "14. ábra: Kávétejszín III.",
+    "(forrás: https://www.cheeseland.hu/images/phocagallery/Termekek/Tejszinek/thumbs/phoca_thumb_l_Milkland_kavetejszin_10x7,5g.png, utolsó megtekintés: 2024.07.03..)\nA habtejszín zsírtartalmát magasabb értékre állítják be, majd a tejszínt pasztőrözik, hűtik és az érlelőtartályban kiszerelésig hűtve tárolják. A hűtés következtében a tejzsír megszilárdul, kristályosodik, ez a hazai tejzsíroknál télen 20 °C, nyáron 11 °C és az átmeneti időben 15 °C. A kristályosodási folyamat hatására a tejzsír stabilizálódik.",
+    "Tejszínhab gyártásánál a homogenizálást nem alkalmazzák, mert kedvezőtlenül hat a felverhetőségre.\nA habtejszín (4.10 kép) gyakran szolgál cukrászati termékek és fagylaltok összetevőjeként, valamint általában élelmiszerek ízesítőjeként.",
+    "",
+    "15. ábra: Habtejszín",
+    "(forrás: https://image-api.nosalty.hu/nosalty/images/articles/ZY/RS/QtDLNEIMtNnIncjhIBASTojeO2SrHJvMUz2fRESS.jpeg?w=640&h=640&fit=crop&s=10f08acfbff9a60f5b9158f437e0060a, utolsó megtekintés: 2024. 07. 03.)",
+    "Magas zsírtartalmú tejtermékek lévén a habok és habtejszínek gyártására az ennek megfelelő előkészítő műveleteket kell végrehajtani. Mivel a termékcsoportnál a habszerkezet jelenti a végső állományt, a kívánatos habtérfogat, a habszilárdság és a habstabilitás elérése céljából a termékek alapanyagát megfelelően elő kell készíteni.",
+    "Valamennyi gyártmánynál követelmény a 4-5 °C-ra hűtés. Emellett a habtejszínnél elengedhetetlen még az érlelés, amelyet a hűtési hőmérsékleten 10-12 óráig, a felfölöződés gátlása miatt rendszerint tankokban végeznek. A hidegen érlelés hatására megduzzadt fehérjék elősegítik a habképződést, a megdermedt zsírgolyócskák pedig növelik a hab szilárdságát és tartósságát, ezért hidegen érlelés nélkül nem lehet jó tejszínhabot készíteni. A habverés folyamán felrepedt zsírgolyócskákból kifolyó vajolaj a megduzzadt zsírgolyócskák összekapcsolásával szintén részt vesz a hab szilárd vázának kialakításában.",
+    "A tejszínhabok szilárdságát, eltarthatóságát az érlelésen túl szintén tovább növelhetjük stabilizátorok (pl. alginátok, karragének) felhasználásával.",
+    "Nemcsak az érlelést, hanem a habosítást is 4-5 °C-on kell végezni; ez egyébként valamennyi habosításra szánt terméknél követelmény.",
+    "A levegő, illetve a semleges gáz a folyamat során kezdetben gömb alakú buborékok formájában ágyazódik be, majd a további gázfelvétel és főleg a keverés hatására a buborékok elaprózódnak és egyre közelebb kerülve egymáshoz, poliéderes alakot vesznek fel. A légbuborékok hab fala elvékonyodik, az alkotórészek összetömörülnek, amelyek a hab vázát is alkotják így nő a habszilárdság. Az első szakaszban erőteljesen nő a habtérfogat, majd a csúcsponton túli csökkenő szakasz időszakában a habszilárdság rohamosan nő és gyorsulásának maximumánál ér véget elméletileg a habverés, illetve ekkor kell befejezni a műveletet. Ha a folyamat egyes időszakaiban (pl. percenként) a képződött hab léeresztését megvizsgáljuk, kitűnik, hogy a léeresztés és a lé zsírtartalma kifejezett csökkenést mutat.",
+    "A stabilizált habtejszín rendszerint gyorsabban verődik, ugyanakkor a csúcsponton túl a habtérfogat csökkenésének mértéke kisebb. Utóbbi miatt a szakszerű habverés időtartománya, következésképpen a gyártás biztonsága nagyobb, mint a nem stabilizált habtejszínnél. A tejszínhab optimális minőségi jellemzőinek elérése szempontjából elméletileg mindegy, hogy a habosítást szakaszosan, vagy folytonosan működő gépekkel végzik. A lényeg, hogy a gép műszaki jellemzői (hűthetőség, keverő kiképzése és fordulatszáma) elégítsék ki a habverés követelményeit (pl. Schröder-típus->Tejipari gépek I).",
+    "Valamivel egyszerűbb a helyzet a habtejszín gyártásakor, hiszen e termék nem hab, hanem folyékony formában jut el a fogyasztóhoz. A hab elkészítését ebben az esetben rábízzák a remélhetőleg elégséges konyhatechnikai ismeretekkel bíró vásárlóra.",
+    "A gyakorlatban alkalmazott technológiai lépések: 8. táblázat",
+    "8. táblázat: A gyakorlatban alkalmazott technológiai lépések",
+    "A késztermékek minősítésének előírásai",
+    "Érzékszervi követelmények",
+    "9. táblázat: Érzékszervi követelmények",
+    "Beltartalmi követelmények",
+    "Zsírfokozat: az ellenőrzés során mért érték különbsége a mérési bizonytalanságot is beleértve +/−1,5% lehet, azonban a termék zsírtartalma a zsírfokozatnak megfelelő minimum és maximum értékeket nem lépheti át.",
+    "Félzsíros tejszín legalább 10% (m/m) és kevesebb mint 18% (m/m)",
+    "Tejszín legalább 18% (m/m) kevesebb mint 45% (m/m)",
+    "Zsírdús tejszín legalább 45% (m/m)",
+    "Habtejszín és tejszínhab legalább 28% (m/m) kevesebb mint 35% (m/m)",
+    "Zsírdús habtejszín és zsírdús tejszínhab legalább 35% (m/m) zsírtartalommal rendelkezik.",
+    "Mikrobiológiai jellemzők tekintetében a 2073/2005/EK bizottsági rendeletének és a 4/1998. (XI. 11.) EüM rendeletben meghatározott, az élelmiszerekben előforduló mikrobiológiai szennyeződések megengedhető mértékének kell megfelelnie.",
+    "Jelölés, csomagolás",
+    "Megnevezés: \nA megnevezés: „tejszín”, „habtejszín”, „tejszínhab”. A megnevezéshez kapcsolódóan fel kell tüntetni a hőkezelés módját és a termék zsírtartalmát tömegszázalékban. Habosított termékek esetén a csomagoláson feltüntetett zsírtartalom értékek a habosítás előtti termék zsírtartalmára, illetve aeroszolos tejszínkészítmény esetén értelemszerűen a tejszínhabra vonatkoznak.\nA megnevezéshez kapcsolódóan fel lehet tüntetni a termék zsírfokozatát, ha az félzsíros vagy zsírdús, valamint a felhasználás célját (például kávétejszín, főzőtejszín).",
+    "Egyéb jelölés:\nFel kell tüntetni az esetleges homogénezést, illetve aeroszolos termék esetén annak tényét is.\nA habtejszín feliratán jelezni kell, hogy a habbá verhetőség érdekében a tejszínt a habbá verés előtt legalább 12 órán keresztül 1-5 °C-on kell tartani.\nAeroszolos termékek esetében a termék biztonságos felhasználására vonatkozó jogszabályok jelölési előírásait is be kell tartani.",
+    "További előírások",
+    "2.2 A késztermékek minősítésének előírásai - 2.2.3. Jelölés, csomagolás fejezete",
+    "A késztermékek csomagolása, tárolása",
+    "2.3 A késztermékek csomagolása, tárolása – 2.3.1 Késztermékek csomagolása és 2.3.2 Késztermékek tárolása c. fejezetek",
+    "Különleges tejkészítmények gyártástechnológiája",
+    "A tejcukor-, illetve laktózintoleranciában vagy -érzékenységben, más néven hypolactasiában szenvedő betegek szervezetében nem termelődik annyi laktáz enzim, amennyi az elfogyasztott tejcukor lebontásához elegendő lenne. A lebontatlanul maradó tejcukor erjedése miatt keletkező anyagcseretermékek és gázok kellemetlen tüneteket okoznak. A csecsemőkor után a világ népességének több mint felénél a laktáz enzim aktivitása csökken. A Föld népességének több mint 60 százaléka laktózintoleráns, ezért szükségessé vált a tejtermékekben a laktóztartalom csökkentése.",
+    "Előírások, követelmények",
+    "2 A különböző zsírtartalmú fogyasztói tejek gyártása – 2.1 Előírások, követelmények c. fejezete",
+    "Az élelmiszerek laktóztartalmával, a laktóz jelenlétével, annak élettani hatásával kapcsolatban csak részszabályozási területek vannak.",
+    "Ezek a következők:",
+    "Uniós szintű szabályozások",
+    "Tápanyag-összetételre és egészségre vonatkozó állítások",
+    "A tápanyag-összetételre és egészségre vonatkozó állításokról szóló 1924/2006/EK rendelet értelmében csak engedélyezett állítások alkalmazhatók. A tápanyag-összetételre vonatkozó állítás bármely olyan állítás, amely kijelenti, sugallja vagy sejteti, hogy az élelmiszer bizonyos, a táplálkozásra nézve különös, kedvező tulajdonsággal rendelkezik. Az engedélyezett tápanyag-összetételre vonatkozó állítások a rendelet mellékletében találhatók. Ezek közül a laktóz esetében az alábbi tápanyag-összetételre vonatkozó állítás alkalmazható:",
+    "CSÖKKENTETT TÁPANYAG NEVE: laktóztartalom",
+    "Az állítás, amely szerint egy vagy több tápanyag mennyiségét az élelmiszerben csökkentették, valamint a fogyasztó számára vélhetően ugyanezzel a jelentéssel bíró bármely állítás csak akkor alkalmazható, ha a mennyiség csökkentése a hasonló termékekéhez képest legalább 30 százalék. A rendelet 9. cikke értelmében az összehasonlítást az azonos termékcsoportba tartozó élelmiszerek széles körének figyelembevételével kell elvégezni – beleértve más márkákat is. A jelölésen fel kell tüntetni a csökkentés mértékét is, például: 42 százalékkal csökkentett laktóz tartalom.",
+    "Nemzeti szintű szabályozások",
+    "Mivel az Európai Élelmiszerbiztonsági Hatóság (European Food Safety Authority, EFSA) a rendelkezésre álló tudományos adatok alapján nem tudott egyetlen, minden intoleráns személy számára alkalmas laktóz küszöbértéket meghatározni a normál közfogyasztásra szánt élelmiszerek esetén, uniós szinten eddig nem született szabályozás a laktózmentes/laktózszegény kifejezések alkalmazására. Egységes uniós szabályozás hiányában a tagállamoknak jogában áll nemzeti szabályozást fenntartani, létrehozni.",
+    "Az értékek egyes tagállamokban jogszabályban rögzítettek, míg máshol csak útmutatóként szolgálnak, illetve olyan ország is van, ahol jelenleg semmilyen érvényes írásos szabályozás nem létezik, de a korábbi, már nem hatályos jogszabály által rögzített küszöbérték a gyakorlati életben most is alkalmazott és elfogadott. Ez a helyzet Magyarországon is, ahol korábban, a már hatályon kívül helyezett az 1995. évi XC. tv. végrehajtásáról szóló, 1/1996. (I.9.) FM-NM-IKM együttes rendelet és annak módosításai, a 43/2002. (V. 14.) FVM—EüM—GM együttes rendeletben leírt módosítások határozták meg a laktózmentes kifejezés kritériumait. Magyarországon jelenleg nincs hatályos jogszabály a laktózmentes és minden ezzel azonos értelmű kifejezés alkalmazásával kapcsolatban.",
+    "Gyártástechnológia",
+    "2 A különböző zsírtartalmú fogyasztói tejek gyártása – 2.1.1 Gyártástechológia c. fejezet",
+    "A gyártástechnológia során a laktózt enzimatikus úton lebontják.",
+    "A folyamat történhet a hőkezelés előtt vagy után baktériumokból, élesztőkből kinyert, szűrt laktázenzim készítményekkel.",
+    "A hőkezelés előtt történő laktózbontás, a relatíve magas, 32-38°C-os hőmérsékleten történő több órás művelet miatt potenciális mikrobiológiai veszélyt hordozhat, ha a higiéniai körülmények (tej és műszaki) nem megfelelőek. Magasabb enzimkoncentrációt igényel ez az eljárás, mint a hőkezelés utáni laktózbontási technológiával készült termékek előállítása. Továbbá a laktózbontott tej sokkal sebezhetőbb a Maillard-reakció szempontjából a hőkezelés során, mint a hagyományos tej, mivel a lebontott laktózból keletkező glükóz és galaktóz reakcióképesebb, mint a laktóz önmagában.",
+    "A hőkezelés után történő laktózbontás részben kiküszöböli az előbbiekben ismertetett technológia hibáit. A technológia során a már hőkezelt tejbe, utólag (in line adagoló rendszerrel -> Szakmai gépek I.) juttatják be a steril enzimet, ami a kötelező karanténban töltött idő alatt egyrészt garantáltan lebontja a tejcukrot, a laktózmentes termékek kritériumaként megjelölt 0,1-0,01 százalék alá. Ezzel elkerülhető a glükóz, valamint a galaktóz, azaz a monoszacharidok és a fehérjék kölcsönhatásának tulajdonítható, nem kívánatos Maillard-reakció. További előnye, hogy hosszú távon költséghatékonyabb, mivel kevesebb enzimkészítményt igényel.",
+    "Mára a költséghatékonyabb és elenyésző beruházást igénylő enzimatikus laktózhidrolízis terjedt el a hazai tejiparban. A béta-galaktozidázt izolálták állati és növényi szövetekből, baktériumokból, élesztőgombákból (pl. Kluyveromyces lactis, K. fragilis) és penészgombákból (pl. Aspergillus niger, A. oryzae). A biotechnológia, a géntechnika és a génmanipulációs módszerek rohamos fejlődésének köszönhetően az enzimek ma már számos előállító cégtől beszerezhetők. Az enzimforgalmazók rendszerint kész technológiákat adnak készítményeik mellé (adagolási mennyiség, hőmérséklet, idő), illetve segítséget nyújtanak speciális termék esetén az enzim adagolási mennyiségének meghatározásában is.",
+    "Az elmúlt 20 esztendőben sokat változott az enzimek előállítási folyamata, ennek köszönhetően a laktáz enzimek második generációja is munkába állt, bővítve a gyártók technológiai lehetőségeit, miközben a beszerzési ár is csökkent. Az első nemzedék az ún. semleges pH-értéken működő laktáz enzimek csoportja, melyek semleges pH, vagy ahhoz közeli értéken fejtik ki laktózbontó képességüket, majd pH 5 érték környékén fokozatosan inaktívvá válnak. Ennek a tulajdonságnak köszönhetően elsősorban semleges pH-értékű termékek (laktózmentes tej, ízesített tejkészítmények, desszertek) előállításához használják ma is ezeket az enzimeket. A laktózmentes tejtermékek gyártásának kezdetén a savanyított termékek gyártástechnológiáját a savanyítási folyamat közben bekövetkező inaktivitás miatt két lépcsőben hajtották végre: 1. az alapanyag tej, tejszín teljes vagy részleges laktózmentesítése; 2. a laktózmentesített alapanyag kultúrázása a megszokott tejipari kultúrákkal, majd adagolás és érlelés a gyártó üzemben alkalmazott szokásos módszerekkel. A második generációs laktáz enzimek már jól tűrik a savanyú pH-értéket is, így az aktív laktózbontás folyamata 4,3 vagy akár alacsonyabb pH-értékig is folytatódik a laktáz enzim inaktiválódása nélkül. A savanyított termékek gyártásánál azt a tényt is érdemes kihasználni, hogy a tejipari kultúrák szaporodásukhoz tejcukrot használnak fel, így is csökkentve a lebontandó tejcukrot. Ezeknél a termékeknél a tejsavbaktériumok által indukált laktózbontás eléri a termékben található összes tejcukor 60 százalékát. Az arány jelentős enzimmegtakarítást, így költségcsökkentést eredményez. A gyártási folyamat lerövidül, hiszen az enzim beadagolását követően, szinte azonnal bekultúrázható tejsavbaktérium-színtenyészettel a savanyított tejtermék (tejföl, kefir, joghurt, túró).",
+    "A késztermékek minősítésének előírásai",
+    "2 A különböző zsírtartalmú fogyasztói tejek gyártása – 2.2 A késztermékek minősítésének előírásai c. fejezet",
+    "Az egyik legfontosabb kritikus határérték természetesen a késztermék laktóztartalma. Laktózmentes vagy tejcukormentes az a tejtermék amelynek laktóztartalma a fogyasztásra kész állapotban kevesebb, mint 0,1 g/100 g, vagy 100 ml és az azzal összehasonlítható hagyományos élelmiszer, jelentős mennyiségű laktózt tartalmaz.",
+    "A termelés minden fázisában biztosítani kell az alapanyagok és a késztermék laktózmentességét, ahogy a nyomonkövethetőséget is. Megfelelő vizsgálattal, iratokkal bizonyítani kell a termékek laktózmentességét. Tejtermékek esetében a fent említett jó gyártási gyakorlatnak megfelelően akkreditált laboratóriumi vizsgálatokkal kell igazolni, ami jelentős költséggel jár. A vizsgálati tervben ki kell térni a mintavétel és a vizsgálatok gyakoriságára, a határértékekre, a nem megfelelőség esetén végrehajtandó tevékenységekre. Vagyis olyan monitoring rendszert kell felállítani, amely lehetővé teszi a laktózmentességet veszélyeztető lépések idejében történő felismerését, a kockázat minimalizálását.",
+    "A késztermékek csomagolása, tárolása",
+    "2.3 A késztermékek csomagolása, tárolása – 2.3.1 Késztermékek csomagolása és 2.3.2 Késztermékek tárolása c. fejezetek",
+    "Üzemi számítások",
+    "Mielőtt elkezded a feladatok megoldását:",
+    "Értsd meg a feladatot! Olvasd el figyelmesen a feladat szövegét, gondold végig mit olvastál, majd próbáld meg elmondani a saját szavaiddal a feladat lényegét.",
+    "Határozd meg, mit keresünk? Milyen adatokat ismerünk? Milyen kikötések vannak a feladatban? Rendszerezd az információkat aszerint, hogy mit ismerünk, és mit kell kiszámolni!",
+    "Keress összefüggést az ismert adatok és az ismeretlen között!",
+    "A megoldásról készíts magadnak tervet! A megoldást lépésről lépésre végezd el!",
+    "Ellenőrizd a kapott eredményt, vizsgáld meg a megoldás helyességét! Gondold át, hogy a kapott eredmény értéke reális-e?",
+    "Szakmai számításokhoz szükséges matematikai alapok: alapműveletek (összeadás, kivonás, szorzás, osztás), százalékszámítás, aránypárok alkalmazása",
+    "Fölözési értékek meghatározása",
+    "Számold ki, mennyi a fölözési százalék, a fölözési arány és a fölözés foka?",
+    "3500 liter 3,4%-os zsírtartalmú tejet fölöztek le. 510 liter (506,5 kg) 23,0%-os tejszínt, valamint 2955 liter sovány tejet nyertek.",
+    "A feladat megoldása:",
+    "fölözési százalék számítása",
+    "",
+    "A fölözési százalék 14,6, tehát az adott paraméterekkel 100 liter tejből 14,6 liter tejszínt tudunk lefölözni.",
+    "fölözési arány számítása",
+    "",
+    "A fölözési aránya, vagyis a fölözés után kapott tejszín és soványtej aránya 1:5,8-hoz.",
+    "fölözési fok számítása",
+    "teljes tejben levő zsírmennyiség:",
+    "tejszínben levő zsírmennyiség:",
+    "a fölözési fok:",
+    "A fölözés foka 97,89%, vagyis a fölözésre került tej zsírjának 97,89%-a került át a tejszínbe.",
+    "A feladatból meg tudjuk határozni a fölözés élességét is.",
+    "A fölözés élessége a soványtejben a fölözés után visszamaradt zsír mennyisége.",
+    "A feladatban, a 119 kg zsírból 116,495 kg a tejszínbe került így 119-116,495=2,505 kg maradt a soványtejben. A 2955 liter soványtejben 2,505 kg zsír maradt.",
+    "Százalékban meghatározva 2,505x100/2955=0,084% a fölözés élessége.",
+    "Teljesítmény, kapacitási feladatok",
+    "Mennyi ideig tart tej fölözése?",
+    "Fölöznünk kell 20250 liter tejet a fölözőgép tényleges fölözési kapacitása 4500 liter/óra. ",
+    "1 óra alatt tudunk lefölözni 4 500 l tejet ",
+    "? óra alatt tudunk lefölözni 20 250 l tejet",
+    "     1 x 20 250 = ? x 4 500 ",
+    "           20 250 = 4 500 x ? ",
+    "20 250/4 500 = ?                4,5  = ? óra",
+    "4,5 óráig tart a tej fölözése.",
+    "Keverési feladatok",
+    "Készítendő 3800 liter 2,8%-os zsírtartalmú tej.",
+    "A rendelkezésre álló alapanyagból hány liter 3,8%-os zsírtartalmú teljes tejet",
+    "                                                         és hány liter 0,1 %-os zsírtartalmú fölözött tejet kell felhasználni a zsírbeállításhoz?",
+    "A megoldáshoz a keverési képlet szükséges. Rendelkezésünkre áll X liter 3,8%-os teljes tej. (3800-X) liter 0,1%-os zsírtartalmú fölözött tej. Így keletkezik belőle X+(3800-X) vagyis 3800 liter 2,8%-os tej.",
+    "",
+    "Anyagnorma számítások",
+    "Mennyi anyag szükséges a leírt termékek előállításához? (sovány tej, kakaópor, cukor)",
+    "Egy tejüzemnek a gyártási programja 22000 db pohár 0,2 l-es,",
+    "                                                                   13500 tasak 0,5 l-es és",
+    "                                                                     4300 db literes kakaós tej készítését írja elő.",
+    "Anyagnorma-előírás 100 liter kakaós tej gyártásához: 94,5 liter sovány tej,",
+    "                                                                                                 7,55 kg cukor,",
+    "                                                                                                 2,52 kg kakaópor",
+    "",
+    "",
+    "Ábrajegyzék",
+    "1. ábra: Laboratóriumi minőségellenőrzés (illusztráció)\t3",
+    "2. ábra: Az adalékanyagok /DTSZ: 'Na, most akkor mit együnk?' 3. rész: E-számok\t5",
+    "3. ábra: Dobozos kiszerelés\t10",
+    "4. ábra: Palackos kiszerelés\t10",
+    "5. ábra: Zacskós kiszerelés\t10",
+    "6. ábra: Régi tejesüveg Egyesült Tejkereskedelmi RT. Budapest felirattal\t10",
+    "7. ábra: Kör alakú poharas kiszerelés\t11",
+    "8. ábra: Négyszög alakú poharas kiszerelés\t11",
+    "9. ábra: Azonosító jelölés\t14",
+    "10. ábra: Kakaós tejtermék régen\t20",
+    "11. ábra: Kakaós tejtermékek napjainkban\t20",
+    "12. ábra: Kávétejszín\t22",
+    "13. ábra: Kávétejszín II.\t22",
+    "14. ábra: Kávétejszín III.\t23",
+    "15. ábra: Habtejszín\t23",
+    "",
+    "Táblázatjegyzék",
+    "1. táblázat: Fogyasztói tejfélék gyártási folyamata\t9",
+    "2. táblázat: Hőkezelt fogyasztói tejek kémiai követelményei\t13",
+    "3. táblázat: Hőkezelt fogyasztói tejek mikrobiológiai követelményei: zsírtartalomtól függetlenül\t14",
+    "4. táblázat: Átlagos tápérték 100 g termékben\t15",
+    "5. táblázat: Kiszerelési mennyiség csomagolás alapján\t15",
+    "6. táblázat: Gyártástechnológia\t18",
+    "7. táblázat: A termék zsírtartalma a zsírfokozatnak megfelelően\t19",
+    "8. táblázat: A gyakorlatban alkalmazott technológiai lépések\t25",
+    "9. táblázat: Érzékszervi követelmények\t26",
+    "Irodalomjegyzék",
+    "Tej és tejhigiénia Élelmiszeripar Témakör: 7. Fogyasztási tej \nForrás: \"L:\\PROJEKTEK\\3-SZK\\Német kiadói források\\_Ulmer\\8252-8664-4\\8252-8664-4_MAGYAR\\8252-8664-4_Magyar fordítások\\PDF\\8252-8664-4_07_Fogyasztási tej.pdf\" Kézirat: 8252-8664-4 - Milchkunde und Milchhygiene",
+    "Tej és tejhigiénia Élelmiszeripar Témakör: 8. Tejtermékek\nForrás: \"L:\\PROJEKTEK\\3-SZK\\Német kiadói források\\_Ulmer\\8252-8664-4\\8252-8664-4_MAGYAR\\8252-8664-4_Magyar fordítások\\PDF\\8252-8664-4_08_Tejtermékek.pdf\" Kézirat: 8252-8664-4_05_Tejnyerés.pdf\"",
+    "AZ EURÓPAI PARLAMENT ÉS A TANÁCS 1308/2013/EU RENDELETE VII melléklet IV. RÉSZ A 0401 KN-kód alá tartozó, emberi fogyasztásra szánt tej III. Fogyasztói tej \nhttps://eur-lex.europa.eu/legal-content/HU/TXT/HTML/?uri=CELEX:32013R1308&from=HU, utolsó megtekintés: 2024. 07. 03.",
+    "A Magyar Élelmiszerkönyv 1-3/19-1 számú előírása a tejtermékekről A rész ÁLTALÁNOS RENDELKEZÉSEK https://elelmiszerlanc.kormany.hu/download/d/b6/d2000/vegleges_el%C5%91%C3%ADr%C3%A1s_jogt%C3%A1rb%C3%B3l.pdf, utolsó megtekintés: 2024. 07. 03.",
+    "ÉLELMISZEREKRE VONATKOZÓ JOGSZABÁLYOK JEGYZÉKE Jogszabálygyűjtemény 107. kiadás Nemzeti Élelmiszerlánc-biztonsági Hivatal Élelmiszer- és Takarmánybiztonsági Igazgatóság https://portal.nebih.gov.hu/documents/10182/765581/107.+kiad%C3%A1s+%C3%89LELMISZER+jogszab%C3%A1lygy%C5%B1jtem%C3%A9ny.pdf, utolsó megtekintés: 2024. 07. 03.",
+    "AZ EURÓPAI PARLAMENT ÉS A TANÁCS 1333/2008/EK RENDELETE az élelmiszer-adalékanyagokról\nhttps://eur-lex.europa.eu/legal-content/HU/TXT/?uri=celex%3A32008R1333, utolsó megtekintés: 2024. 07. 03.",
+    "Érzékszervi bírálatok szabványai az élelmiszerkönyv szolgálatában https://www.nak.hu/tajekoztatasi-szolgaltatas/elelmiszer-feldolgozas/97287-erzekszervi-biralatok-szabvanyai-az-elelmiszerkonyv-szolgalataban, utolsó megtekintés: 2024. 07. 02.",
+    "Az Európai Parlament és a Tanács 178/2002/EK rendelete az élelmiszerjog általános elveiről és követelményeiről, az Európai Élelmiszerbiztonsági Hatóság létrehozásáról és az élelmiszerbiztonságra vonatkozó eljárások megállapításáról. Az Európai Unió Hivatalos Lapja, L31, utolsó megtekintés: 2024.06.28.",
+    "2008. évi XLVI. törvény az élelmiszerláncról és hatósági felügyeletéről. Magyar Közlöny, 95, utolsó megtekintés: 2024.06.28.",
+    "43/2002. (V. 14.) FVM—EüM—GM együttes rendelete az élelmiszerekről szóló 1995. évi XC. törvény végrehajtásáról szóló 1/1996. (I. 9.) FM—NM—IKM együttes rendelet módosításáról Magyar Közlöny 2002/64. szám I. kötet"
+  ],
+  "runs": [
+    [],
+    [
+      "Egyedi megrendelés azonosítója:",
+      " ",
+      "EM-2.5.4  "
+    ],
+    [],
+    [
+      "Nat",
+      "úr ",
+      "és ízesített termékek gyártása"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [
+      "Forrás",
+      ": ",
+      "Milchkunde",
+      " und ",
+      "Milchhygiene",
+      ", Der ",
+      "Verlag",
+      " ",
+      "Eugen",
+      " ",
+      "Ulmer",
+      " KG",
+      ",  2016.",
+      " ISBN 978-3-8252-8664-4",
+      "\nAz eredeti könyv szerzői: Erwin ",
+      "Märtlbauer",
+      ", Heinz Becker"
+    ],
+    [],
+    [
+      "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak."
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "TartalomJEGYZÉK"
+    ],
+    [],
+    [
+      "Általános előírások, jogi szabályozások"
+    ],
+    [
+      "Általános",
+      " jogi vonatkozások"
+    ],
+    [
+      "Országos szinten",
+      " ",
+      "a tej kitermelésére, kezelésére és feldolgozására, ezen élelmiszerek kereskedelmére és a tejpiac szervezésére vonatkozó legfontosabb jogszabályi rendelkezések a következők:"
+    ],
+    [
+      "Az élelmiszer-előállítás, forgalmazás és a hatósági ellenőrzés legfőbb szabályai"
+    ],
+    [
+      "Az Európai Parlament és a Tanács 178/2002/EK RENDELETE az élelmiszerjog általános elveiről és követelményeiről, az Európai Élelmiszerbiztonsági Hatóság létrehozásáról és az ",
+      "élelmiszerbiztonságra vonatkozó eljárások megállapításáról",
+      ". (forrás: ",
+      "https://eur-lex.europa.eu/legal-content/HU/TX",
+      ", utolsó megtekintés:",
+      " ",
+      "2024",
+      ". 07. 03.",
+      ")"
+    ],
+    [
+      "A BIZOTTSÁG 931/2011/EU VÉGREHAJTÁSI RENDELETE (2011. szeptember 19.) a 178/2002/EK európai parlamenti és tanácsi rendeletnek az állati eredetű élelmiszerek ",
+      "nyomonkövethetőségével",
+      " kapcsolatban megállapított követelményeiről",
+      ". (forrás: ",
+      "https://eur-lex.europa.eu/legal-content/HU/TXT/?qid=1401468788499&",
+      ", utolsó megtekintés:",
+      " ",
+      "2024",
+      ". 07. 03.",
+      ")"
+    ],
+    [
+      "Élelmiszer-előállításra, élelmiszerbiztonságra vonatkozó általános követelmények"
+    ],
+    [
+      "Az Európai Parlament és a Tanács 852/2004/EK RENDELETE az élelmiszerhigiéniáról",
+      ".",
+      " ",
+      "(forrás: ",
+      "https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=celex:32004R0852",
+      ", utolsó megtekintés: ",
+      "2024",
+      ". 07. 03.",
+      ")"
+    ],
+    [
+      "Az Európai Parlament és a Tanács 853/2004/EK RENDELETE az állati eredetű élelmiszerek különleges higiéniai szabályainak megállapításáról",
+      ". (forrás: ",
+      "https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=celex:32004R0853",
+      ", utolsó megtekintés: ",
+      "2024",
+      ". 07. 03.",
+      ")"
+    ],
+    [
+      "Az Európai Parlament és ",
+      "a",
+      " Tanács 178/2002/EK rendelete az élelmiszerjog általános elveiről és követelményeiről, az Európai Élelmiszerbiztonsági Hatóság létrehozásáról és az élelmiszerbiztonságra vonatkozó eljárások megállapításáról",
+      ". (forrás: ",
+      "https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=CELEX%3A02002R0178-20220701",
+      ", utolsó megtekintés: ",
+      "2024",
+      ". ",
+      "07",
+      ". ",
+      "03",
+      ".",
+      ")"
+    ],
+    [
+      "A Bizottság 2074/2005/EK RENDELETE a 852/2004/EK, 853/2004/EK, európai parlamenti és tanácsi rendelettől való eltérésről, azok módosításáról",
+      ". (forrás: ",
+      "https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=celex:32005R2074, utol",
+      "só megtekintés: ",
+      "2024",
+      ". 07. 03.",
+      ")"
+    ],
+    [
+      "Az élelmiszer-jelöléssel kapcsolatos alapjogszabályok, tápértékjelölés"
+    ],
+    [
+      "AZ EURÓPAI PARLAMENT ÉS A TANÁCS 1169/2011/EU RENDELETE a fogyasztók élelmiszerekkel kapcsolatos tájékoztatásáról",
+      ". (",
+      "forrás: https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=celex:32011R1169",
+      ", utolsó megtekintés:",
+      " ",
+      "2024",
+      ". 07. 03.",
+      ")"
+    ],
+    [
+      "13/2008. (VIII. 8.) NFGM–FVM együttes rendelet az előre csomagolt termékek névleges mennyiségére vonatkozó szabályok megállapításáról és azok ellenőrzési módszereiről",
+      ". ",
+      "(Nettó ",
+      "mennyiségre és betűméretre vonatkozó előírásokat is tartalmaz!)",
+      " (forrás: https://net.jogtar.hu/jogszabaly?docid",
+      ", utolsó megtekintés:",
+      " ",
+      "2024",
+      ". 07. 03.",
+      ")"
+    ],
+    [
+      "Mikrobiológiai kritériumokra vonatkozó ajánlások és előírások"
+    ],
+    [
+      "A BIZOTTSÁG 2073/2005/EK RENDELETE az élelmiszerek mikrobiológiai kritériumairól",
+      ". (",
+      "forrás: https://eur-lex.europa.eu/eli/reg/2005/2073/oj/hun, utolsó megtekintés",
+      ":",
+      " ",
+      "2024",
+      ". 07. 03.",
+      ")"
+    ],
+    [
+      "4/1998. (XI. 11.) EüM rendelet az élelmiszerekben előforduló mikrobiológiai szennyeződések megengedhető mértékéről",
+      ". (forrás: ",
+      "https://net.jogtar.hu/jogszabaly?docid=99800004.eum",
+      ", utolsó megtekintés: ",
+      "2024",
+      ". 07. 03.",
+      ")"
+    ],
+    [
+      "Tej és tejtermékekre vonatkozó specifikus szabályok"
+    ],
+    [
+      "A 152/2009. (XI.12.) FVM rendelete 37. mellékletében megjelent Magyar Élelmiszerkönyv 3-1-92/608 számú előírása a közvetlen emberi fogyasztásra szánt hőkezelt tej mintavételi és vizsgálati módszereiről",
+      ". (forrás: ",
+      "https://net.jogtar.hu/jogszabaly?docid=A0900152.FVM&celpara, utolsó megtekintés:",
+      " ",
+      "2024",
+      ". 07. 03."
+    ],
+    [
+      "A Magyar Élelmiszerkönyv 1-3/19-1 számú előírása a tejtermékekről",
+      ". ",
+      "Kötelezően alkalmazandó: 2022. október 31-től.",
+      " (forrás: ",
+      "https://elelmiszerlanc.kormany.hu/download/d/b6/d2000/vegleges_el%C5%91%C3%ADr%C3%A1s_jogt%C3%A1rb%C3%B3l.pdf, ",
+      "utolsó megtekintés:",
+      " ",
+      "2024",
+      ". 07. 03.",
+      ")"
+    ],
+    [
+      "Magyar Élelmiszerkönyv 2-104 számú irányelv Megkülönböztető minőségi jelöléssel ellátott tejtermékek",
+      ". (forrás: ",
+      "https://elelmiszerlanc.kormany.hu/download/5/3b/a2000/2-104.pdf",
+      ", utolsó megtekintés: ",
+      "2024",
+      ". 07. 03.",
+      ")"
+    ],
+    [
+      "MAGYAR ÉLELMISZERKÖNYV 2-105 számú irányelve a megkülönböztető minőségi jelöléssel ellátott kézműves tejtermékekről",
+      ". (forrás: ",
+      "https://elelmiszerlanc.kormany.hu/download/6/3b/a2000/2-105.pdf",
+      ", utolsó megtekintés: ",
+      "2024",
+      ". 07. 03.",
+      ")"
+    ],
+    [
+      "MAGYAR ÉLELMISZERKÖNYV 2-109 számú irányelve a kézműves/kézmíves élelmiszerek általános jellemzőiről",
+      ". (forrás",
+      ": ",
+      ", utolsó megtekintés:",
+      " ",
+      "2024",
+      ". 07. 03."
+    ],
+    [
+      "A fent említett jogszabályi rendelkezésekre, valamint egyéb, alapvetően a piacok közös szervezésével és a fent említett rendeletek módosításával, kiegészítésével foglalkozó közösségi szabályozás részleteiről tájékozódhatunk a rendszeresen frissített Élelmiszer-jogszabályok jegyzékében",
+      ".",
+      " (",
+      "forrás: ",
+      "https://portal.nebih.gov.hu/-/elelmiszer-jogszabal",
+      "yok-jegyz",
+      ". 07. 03.)"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". ábra:",
+      " ",
+      "Laboratóriumi minőségellenőrzés (illusztráció)"
+    ],
+    [
+      "(",
+      "https://mtki.hu/wp-content/uploads/2022/01/rajzok04b.png, utolsó megtekintés:",
+      " ",
+      "2024",
+      ". ",
+      "07",
+      ". ",
+      "03",
+      ".",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "Követelmények",
+      " az alapanyaggal szemben"
+    ],
+    [
+      "A natúr, az ízesített tej és a tejszínkészítmények előállításának kiindulási anyaga a ",
+      "nyerstej. ",
+      "Fogalmát a 853/2004/EK rendelet I. mellékletének 4. fejezet 4.1 bekezdése határozza meg. E szerint a nyerstej a haszonállatok ",
+      "módosítatlan",
+      " teje, amelyet nem melegítettek 40 °C fölé és nem vetették alá semmilyen hasonló hatású kezelésnek."
+    ],
+    [
+      "A nyerstejre vonatkozó részletes követelményeket a Tejipari technológia I.: A tej összetevői, technológiai szerepük, tejátvétel, tejkezelés című tananyag A tej mennyiségi és minőségi átvétele című fejezete tartalmazza:"
+    ],
+    [
+      "3",
+      ". ",
+      "A tej mennyiségi és minőségi átvétele"
+    ],
+    [
+      "3.1.",
+      "\tÁltalános tudnivalók"
+    ],
+    [
+      "3.2.",
+      "\tA tej mennyiségi átvétele"
+    ],
+    [
+      "3.3.",
+      "\tA tej minőségi átvétele"
+    ],
+    [
+      "3.4.",
+      "\tA tej minőségének értékelése",
+      "\t"
+    ],
+    [
+      "3.4.1.",
+      "\tKözegészségügyi értékelés"
+    ],
+    [
+      "3.4.2.",
+      "\tA tej minőségére vonatkozó rendelet szerinti értékelés"
+    ],
+    [
+      "A feldolgozó üzemben történt átvétel után biztosítani kell, hogy a tejet gyorsan 6 °C alá hűtsék, és a feldolgozásig ezen a hőmérsékleten kell tartani."
+    ],
+    [
+      "Követelmények az adalék-, és járulékos anyagokkal szemben"
+    ],
+    [
+      "ÉLELMISZER-ADALÉKANYAG",
+      " bármely olyan anyag, amelyet nem használnak élelmiszerek jellemző összetevőjeként. Élelmiszerként önmagában nem fogyasztják, általában tápértékkel nem rendelkezik. Az élelmiszerhez technológiai célból adják és az alkalmazott technológiai művelet során válik a késztermék összetevőjévé. Technológiai vagy érzékszervi tulajdonságok javításának céljából szándékosan adják az élelmiszerekhez. Felhasználható mennyiségét szigorúan szabályozzák."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "2",
+      "",
+      ". ábra:",
+      " Az adalékanyagok /DTSZ: 'Na, most akkor mit együnk?' 3. rész: E-számok"
+    ],
+    [
+      "(videó: ",
+      "https://www.youtube.com/watch?v=-YnqId9AHGc",
+      ",",
+      " utolsó megtekintés:",
+      " ",
+      "2024",
+      ". ",
+      "07",
+      ". ",
+      "03",
+      ".",
+      ")"
+    ],
+    [
+      "Az élelmiszer-feldolgozás során felhasznált anyagokra vonatkozó szabályozások:"
+    ],
+    [
+      "1331/2008/EK RENDELET az élelmiszer-adalékanyagok, az élelmiszerenzimek és az élelmiszer-aromák egységes engedélyezési eljárásának létrehozásáról"
+    ],
+    [
+      "1332/2008/EK RENDELET az élelmiszerenzimekről"
+    ],
+    [
+      "1333/2008/EK RENDELET az élelmiszeradalékanyagokról"
+    ],
+    [
+      "1334/2008/EK RENDELET az élelmiszerekben és azok felületén használható aromákról és egyes, aroma tulajdonságokkal rendelkező élelmiszer-összetevőkről"
+    ],
+    [
+      "A 1333/2008/EK rendelet az élelmiszerekben felhasznált élelmiszer-adalékanyagokra vonatkozó szabályokat állapít meg a belső piac eredményes működésére tekintettel, ugyanakkor biztosítja az emberi egészség védelme és a fogyasztóvédelem magas szintjét, ideértve a fogyasztók érdekeinek védelmét és az élelmiszer-kereskedelem tisztességes gyakorlatát is, miközben szükség szerint figyelembe veszi a környezet védelmét."
+    ],
+    [
+      "Ennek érdekében ez a rendelet az alábbiakról rendelkezik:"
+    ],
+    [
+      "Az élelmiszer-adalékanyagokkal kapcsolatos alapvető szabályokról, fogalmakról, jelölésekről, elvekről."
+    ],
+    [
+      "I-es mellékletében az élelmiszer-adalékanyagok funkcionális csoportjairól."
+    ],
+    [
+      "II-es mellékletében találhatóak a kizárólagosan forgalomba hozható és használható élelmiszer-adalékanyagok az ott meghatározott felhasználási feltételekkel."
+    ],
+    [
+      "III-",
+      "as",
+      " mellékletében található az élelmiszer-adalékanyagokban, élelmiszerenzimekben és élelmiszer-aromaanyagokban használható élelmiszer-adalékanyagok listája és felhasználási feltételei."
+    ],
+    [
+      "Egy adalékanyag jelen lehet az élelmiszerben, mert ",
+      "\n",
+      "1) egy kívánt cél elérése érdekében szándékosan adagolták hozzá, vagy ",
+      "\n2) egy összetevőből az átvitel eredményeként került bele (a ",
+      "carry",
+      " over",
+      " vagy ",
+      "átvitel elvnek",
+      " megfelelően). Pl. ha lekvárral ízesített terméket készítünk, az alaptermékünkhöz nem használunk adalékanyagot, de a felhasznált lekvár tartalmaz adalékanyagot, akkor így az adalékanyag nem közvetlenül kerül a termékbe, hanem a hozzáadott lekvár tartalmazza."
+    ],
+    [
+      "Az élelmiszer-adalékanyagok felhasználási szintjei:",
+      "\n1.) ",
+      "Felső határérték",
+      " (mg/kg, ml/l): A kívánt hatás eléréséhez szükséges legkisebb mértékben állapítják meg.",
+      "\n2.) ",
+      "Quantum",
+      " ",
+      "satis",
+      ":",
+      " Adott esetben nem kell számszerűen előírni az élelmiszer-adalékanyag maximális felhasználási szintjét. Ebben az esetben az élelmiszer-adalékanyagot a ",
+      "quantum",
+      " ",
+      "satis",
+      " elvnek megfelelően kell alkalmazni."
+    ],
+    [
+      "„QUANTUM SATIS” (QS): azt jelenti, hogy nem írják elő számszerűen az élelmiszer-adalékanyag maximális számszerű szintjét, az anyagokat a jó gyártási gyakorlatnak megfelelően, legfeljebb a kívánt hatás eléréséhez feltétlenül szükséges mennyiségben kell alkalmazni, feltéve, hogy használata nem vezeti félre a fogyasztót. A ",
+      "QS-elv",
+      " szerint ilyen esetekben az adalékanyag-",
+      "felhasználás",
+      " ún. ",
+      "önkorlátozó,",
+      " az előállító maga határozza meg a felhasznált adalékanyag mennyiségét."
+    ],
+    [
+      "A különböző ",
+      "zsírtartalmú",
+      " fogyasztói tejek gyártása"
+    ],
+    [
+      "Előírások, követelmények"
+    ],
+    [
+      "A következő termékeket kell ",
+      "fogyasztói tejnek",
+      " tekinteni az Európai Parlament és a Tanács 1308/2013/EU rendelete alapján:"
+    ],
+    [
+      "Nyers tej",
+      ": olyan tej, amelyet nem melegítettek 40 °C fölé vagy nem tettek ki hasonló eredménnyel járó kezelésnek;"
+    ],
+    [
+      "Teljes tej",
+      ": hőkezelt tej, amely a zsírtartalom vonatkozásában megfelel a következő követelmények egyikének:"
+    ],
+    [
+      "standardizált teljes tej: legalább 3,50% (m/m) zsírtartalmú tej. A tagállamok azonban további kategóriát is megállapíthatnak a 4,00% (m/m) vagy azt meghaladó zsírtartalmú teljes tejre;"
+    ],
+    [
+      "nem standardizált teljes tej: olyan tej, amelynek zsírtartalmát a fejési fázis óta nem változtatták meg, sem tejzsírok hozzáadásával vagy kivonásával, sem olyan tejjel való elegyítésével, amelynek természetes zsírtartalmát megváltoztatták. Tejzsírtartalma azonban nem lehet 3,50%-",
+      "nál",
+      " (m/m) kevesebb."
+    ],
+    [
+      "Zsírszegény tej",
+      ": olyan hőkezelt tej, amelynek zsírtartalmát legalább 1,50%-",
+      "ra",
+      " (m/m) és legfeljebb 1,80%-",
+      "ra",
+      " (m/m) csökkentették."
+    ],
+    [
+      "Sovány",
+      " ",
+      "tej",
+      ": olyan hőkezelt tej, amelynek zsírtartalmát nem több mint 0,50%-",
+      "ra",
+      " (m/m) csökkentették."
+    ],
+    [
+      "Félzsíros tej",
+      ": olyan hőkezelt tej, amelynek zsírtartalma 2,8% (m/m)."
+    ],
+    [
+      "Fogyasztói tejnek tekinthető továbbá az olyan hőkezelt tej, amelynek zsírtartalmát világosan és könnyen olvasható formában, egy tizedesjegy pontossággal feltüntetik a csomagoláson „… % zsírtartalom” formában. Az ilyen típusú tej azonban nem nevezhető teljes tejnek, zsírszegény tejnek, félzsíros tejnek vagy sovány (fölözött) tejnek."
+    ],
+    [
+      "A fogyasztói tejek jelölésén feltüntetett zsírtartalom érték és az ellenőrzések során mért érték különbsége a mérési bizonytalanságot is beleértve +/− 0,15% lehet, azonban a termék mért zsírtartalma az 1308/2013/EU európai parlamenti és tanácsi rendeletben meghatározott kategóriákhoz tartozó zsírtartalmak minimum és maximum értékeit nem lépheti át."
+    ],
+    [
+      "Fogyasztói tejben csak a következő módosítások engedhetők meg:"
+    ],
+    [
+      "a fogyasztói tejre meghatározott zsírtartalom teljesítése érdekében a természetes zsírtartalom módosítása tejszín hozzáadásával vagy kivonásával, vagy teljes tej, zsírszegény tej, illetve sovány (fölözött) tej hozzáadásával;"
+    ],
+    [
+      "a tej dúsítása tejfehérjékkel, ásványi sókkal vagy vitaminokkal az 1925/2006/EK európai parlamenti és tanácsi rendelettel összhangban;"
+    ],
+    [
+      "a laktóztartalom csökkentése glükózra vagy ",
+      "galaktózra",
+      " történő átalakítás révén."
+    ],
+    [
+      "A tej összetételének említett módosításai csak akkor ",
+      "engedélyezhetőek",
+      ", ha ezt a termék csomagolásán kitörölhetetlenül feltüntetik úgy, hogy az könnyen látható és olvasható legyen. E jelölések feltüntetése azonban nem mentesít a 1169/2011/EU rendeletben meghatározott tápérték-jelölési kötelezettség alól. Amennyiben fehérjék hozzáadására került sor, a dúsított tej fehérjetartalma legalább 3,8% (m/m)."
+    ],
+    [
+      "Gyártástechnológia"
+    ],
+    [
+      "A beszállított tejnek fogyasztási tejjé történő átalakítása lényegében a következő fázisokból áll: tisztítás, szeparálás, zsírtartalom-beállítás, ",
+      "homogénezés",
+      ", hőkezelés, hűtés, kiszerelés."
+    ],
+    [
+      "A következő folyamatábra a fogyasztói tejfélék ideális gyártását szemlélteti, amely során a fölözőn automatikus zsírbeállítás és a hőkezelés után az utótárolás nélküli, azonnali csomagolás történik."
+    ],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". táblázat:",
+      " ",
+      "Fogyasztói tejfélék gyártási folyamata"
+    ],
+    [
+      "Tisztítás és szeparálás"
+    ],
+    [
+      "Részletes leírását a Tejipari technológia I. A tej összetevői, technológiai szerepük, tejátvétel, tejkezelés - Tisztítás-Szeparálás fejezete tartalmazza"
+    ],
+    [
+      "Zsírtartalom-beállítás"
+    ],
+    [
+      "Részletes leírását a Tejipari technológia I. A tej összetevői, technológiai szerepük, tejátvétel, tejkezelés - Zsírtartalom beállítás fejezete tartalmazza"
+    ],
+    [
+      "Homogénezés"
+    ],
+    [
+      "Részletes leírását a Tejipari technológia I. A tej összetevői, technológiai szerepük, tejátvétel, tejkezelés - ",
+      "Homogénezés",
+      " fejezete tartalmazza"
+    ],
+    [
+      "Hőkezelés"
+    ],
+    [
+      "Részletes leírását a Tejipari technológia I. A tej összetevői, technológiai szerepük, tejátvétel, tejkezelés - Hőkezelés fejezete tartalmazza."
+    ],
+    [
+      "Hűtés"
+    ],
+    [
+      "Részletes leírását a Tejipari technológia I. A tej összetevői, technológiai szerepük, tejátvétel, tejkezelés - Hűtés fejezete tartalmazza."
+    ],
+    [
+      "Töltés-csomagolás"
+    ],
+    [
+      "A tej csomagolásának valamennyi műveletét formázó, töltő- és zárógépek végzik (->Tejipari gépek I.), poharas csomagoláskor a poharak nemcsak helyileg, hanem központilag is készülnek. Világviszonylatban ma a tej csomagolásában a nagyobb hányadot az ",
+      "alaktartó",
+      " ",
+      "változatok",
+      " ",
+      "képezik, mint például a dobozos (2.2 kép) vagy palackos (2.3 kép) tej, zacskós (2.4 kép) kiszereléssel már nem igazán találkozhatunk a boltok polcain."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "3",
+      "",
+      ". ábra:",
+      " ",
+      "Dobozos kiszerelés"
+    ],
+    [
+      "(https://st3.depositphotos.com/í5737658/12483/v/450/depositphotos_",
+      ", utolsó megtekintés: ",
+      "2024",
+      ". ",
+      "07",
+      ". ",
+      "03",
+      ".)"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "4",
+      "",
+      ". ábra:",
+      " ",
+      "Palackos kiszerelés"
+    ],
+    [
+      "(https://static3.depositphotos.com/1005618/204/i/450/depositphotos_2043065-stock-photo-dairy-plant.jpg, utolsó megtekintés: ",
+      "2024",
+      ". ",
+      "07",
+      ". ",
+      "03",
+      ".",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "5",
+      "",
+      ". ábra:",
+      " ",
+      "Zacskós kiszerelés"
+    ],
+    [
+      "(",
+      ", utolsó megtekintés: ",
+      "2024",
+      ". ",
+      "07",
+      ". ",
+      "03",
+      ".",
+      ")"
+    ],
+    [
+      "A régebben leggyakoribb üvegbe (2.5 kép) csomagolás (Anglia, Hollandia és Belgium kivételével) az elmúlt évtizedekben teljesen visszaszorult és egyidejűleg átadta helyét a laminált kartondobozos (pl. ",
+      "tetra-pak",
+      ", ",
+      "tetra-brik",
+      ", ",
+      "pure-pack",
+      " és ",
+      "zupack",
+      "), a műanyagflakonos és a tasakos megoldásnak."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "6",
+      "",
+      ". ábra:",
+      " ",
+      "Régi tejesüveg Egyesült Tejkereskedelmi RT. Budapest felirattal"
+    ],
+    [
+      "(forrás: ",
+      ", utolsó megtekintés: ",
+      "2024",
+      ". ",
+      "07",
+      ". ",
+      "03",
+      ".",
+      ")"
+    ],
+    [
+      "Poharas csomagoláskor (polisztirol, PVC) az első, ami szembetűnik, a pohár alakja. Két alapvető forma alakult ki: a kör (",
+      "7. ábra)",
+      " és a négyszög (",
+      "8. ábra",
+      ") alak. Az utóbbi négyzet alapú hasáb vagy téglatest formában egyaránt megtalálható. Ma már hazánkban is a kör alakú az uralkodó, annak ellenére, hogy készítéséhez mintegy 10-15%-kal több alapanyagra van szükség és a fajlagos tárolótér-igénye is nagyobb."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "7",
+      "",
+      ". ábra:",
+      " ",
+      "Kör alakú poharas kiszerelés"
+    ],
+    [
+      "(forrás: ",
+      ", utolsó megtekintés: ",
+      "2024",
+      ". ",
+      "07",
+      ". ",
+      "03",
+      ".",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "8",
+      "",
+      ". ábra:",
+      " ",
+      "Négyszög alakú poharas kiszerelés"
+    ],
+    [
+      "(forrás: ",
+      "https://cdn.hvgblog.hu/ezegychopper/uploads/2022/01/iskola.jpg",
+      ", utolsó megtekintés: ",
+      "2024",
+      ". ",
+      "07",
+      ". ",
+      "03",
+      ".",
+      ")"
+    ],
+    [
+      "Ennek oka nemcsak az, hogy a fogyasztók praktikusabbnak és esztétikusabbnak tartják a kör alakú poharakat. Ismert, hogy a poharak oldalfala általában színnyomásos, ",
+      "grafikázott",
+      ".",
+      " ",
+      "Márpedig a drága nyomtatógépek 3-4-szer nagyobb teljesítménnyel dolgoznak a kör alakú poharak, mint a négyszögűek használatakor, és e teljesítménykülönbség haszna nagyobb, mint az alapanyag és a tárolótér költségtöbblete."
+    ],
+    [
+      "A poharak zárására főleg hőre hegedő alumíniumfóliát, kisebb részben a pohár anyagával azonos (pattintott vagy hegesztett) fedelet használnak."
+    ],
+    [
+      ""
+    ],
+    [
+      "A ",
+      "késztermékek",
+      " minősítésének előírásai"
+    ],
+    [
+      "Érzékszervi"
+    ],
+    [
+      "Az MSZT (Magyar Szabványügyi Testület) 2019. március 1-jén az Agrárminisztérium támogatásával és az illetékes nemzeti szabványosító műszaki bizottság szakértőinek aktív közreműködésével megjelent az MSZ ISO 22935 Tej és tejtermékek. Érzékszervi vizsgálat szabványsorozat három része:"
+    ],
+    [
+      "1. rész: Általános útmutató a bírálók toborzásához, kiválasztásához, képzéséhez és folyamatos ellenőrzéséhez;"
+    ],
+    [
+      "2. rész: Érzékszervi vizsgálathoz ajánlott módszerek (amely már 2017. április 1-jén megjelent);"
+    ],
+    [
+      "3. rész: Útmutató a termékleírásban szereplő érzékszervi tulajdonságoknak való megfelelés ",
+      "pontozásos",
+      " értékelési módszerére."
+    ],
+    [
+      "Az érzékszervi vizsgálatok tekintetében a hazai gyakorlatban a legelterjedtebb a ",
+      "pontozásos",
+      " vizsgálat.",
+      " A pontozás önmagában elsősorban minőségellenőrzési célokra alkalmas, amely alapján egy tétel megfelelősége megállapítható."
+    ],
+    [
+      "Ezt a nemzetközi gyakorlatban ",
+      "in-out tesztnek",
+      " nevezik (ha a termék elér egy bizonyos pontszámvesztést, akkor a termék nem adható ki a vevőnek, „out”-",
+      "nak",
+      " tekinthető)."
+    ],
+    [
+      "A pontozás történhet 100 pontos pontlevonásos skálán, amikor egy lista tartalmazza a hibákért levonható pontok mennyiségét, illetve 5 pontos súlyozófaktoros pontozással, amely során a négy vizsgált tulajdonságra (külső, szag, íz, állomány) maximum 5 pont adható. Majd a tulajdonságra adott pontokat beszorozzák a hozzá tartozó, előre meghatározott, fontosságot jelölő úgynevezett súlyozófaktorral (összegük 4; például külső: 0,8, szag: 0,6, íz: 1,6, állomány: 1,0) és összeadják a pontokat. Így az adott termék maximálisan 20 pontot kaphat."
+    ],
+    [
+      "A tejiparban minőségileg megfelelő még a termék, ha érzékszervi minősítésre legalább 14 pontot kapott."
+    ],
+    [
+      ""
+    ],
+    [
+      "Hőkezelt fogyasztói tejek érzékszervi követelményei:"
+    ],
+    [
+      "Külső",
+      ": Egyenletes, csontfehér vagy kissé sárgás színű a zsírtartalomtól és a hőkezelés módjától függően."
+    ],
+    [
+      "Állomány",
+      ": Egynemű, ",
+      "pelyhesedéstől",
+      " és üledéktől, valamint ",
+      "felfölöződéstől",
+      " mentes, kivételt képez a ",
+      "homogénezetlen",
+      " pasztőrözött és a magas hőmérsékleten hőkezelt tej, amelyek esetében megengedhető a ",
+      "felfölöződés",
+      ", ha a zsírréteg keveréssel könnyen eloszlatható."
+    ],
+    [
+      "Szag",
+      ": Jellegzetes, enyhén főtt, tiszta."
+    ],
+    [
+      "Íz",
+      ": Jellegzetes, édeskés, enyhén vagy kissé főtt, tiszta a zsírtartalomtól és a hőkezelés módjától függően."
+    ],
+    [
+      "Beltartalmi"
+    ],
+    [
+      "A hőkezelt fogyasztói tejeknek kémiai jellemzők tekintetében",
+      " a 1308/2013/EU európai parlamenti és tanácsi rendeletben, valamint a Magyar Élelmiszerkönyvben megadott paramétereknek kell megfelelni a zsírtartalom függvényében."
+    ],
+    [
+      "",
+      "",
+      "",
+      "2",
+      "",
+      ". táblázat:",
+      " ",
+      "Hőkezelt fogyasztói tejek kémiai követelményei"
+    ],
+    [
+      "Mikróbiológiai jellemzők tekintetében",
+      " a 2073/2005/EK bizottsági rendeletének és a 4/1998. (XI. 11.) EüM rendeletben meghatározott, az élelmiszerekben előforduló mikrobiológiai ",
+      "szennyeződések megengedhető mértékének kell megfelelnie. (laboratóriumi vizsgálatok gyakorlaton részletes értelmezés)"
+    ],
+    [
+      "",
+      "",
+      "",
+      "3",
+      "",
+      ". táblázat:",
+      " ",
+      "Hőkezelt fogyasztói tejek mikrobiológiai követelményei: zsírtartalomtól függetlenül"
+    ],
+    [
+      "Jelölés, csomagolás"
+    ],
+    [
+      "Jelölés, csomagolás tekintetében",
+      " a 1169/2011/EU rendeletben és a 13/2008. (VIII. 8.) NFGM–FVM együttes rendeletben meghatározott tájékoztatási kötelezettségnek és névleges mennyiségeknek kell megfelelni."
+    ],
+    [
+      "Hőkezelt fogyasztói tejek jelölései, csomagolási követelményei:"
+    ],
+    [
+      "Kereskedelmi megnevezés pl. Magyar Tej 2,8%"
+    ],
+    [
+      "Azonosító jelölés (2.8 kép), melynek tartalmaznia kell: ",
+      "\naz előállítás szerinti ország ISO szabvány szerinti kódját (Magyarország esetében: HU),"
+    ],
+    [
+      "a létesítmény engedélyezési számát, valamint"
+    ],
+    [
+      "a Közösségre utaló rövidítést (Magyarországon: EK)."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "9",
+      "",
+      ". ábra:",
+      " ",
+      "Azonosító jelölés"
+    ],
+    [
+      "(forrás: saját készítésű ábra)"
+    ],
+    [
+      "Zsírtartalom pl. 2,8%"
+    ],
+    [
+      "Hőkezelési eljárások jelölése pl. Magas Hőmérsékleten Hőkezelt Tej"
+    ],
+    [
+      "Átlagos tápérték meghatározása 100 g-ra vonatkoztatva, ",
+      "beltartalmi",
+      " paraméterek alapján pl."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "4",
+      "",
+      ". táblázat:",
+      " ",
+      "Átlagos tápérték 100 g termékben"
+    ],
+    [
+      "Fogyaszthatósági határidő meghatározása eltarthatósági próbák alapján pl. Fogyaszthatósági határidő, csomagolás alapján: Pohárban 8 nap, Palackban 11 nap, Kancsóban 12 nap, Dobozban 10 nap, Kannában 9 nap"
+    ],
+    [
+      "Kiszerelési mennyiség csomagolás alapján pl. 5. táblázat"
+    ],
+    [
+      "",
+      "",
+      "",
+      "5",
+      "",
+      ". táblázat:",
+      " ",
+      "Kiszerelési mennyiség csomagolás alapján"
+    ],
+    [
+      "Szállítási, tárolási hőmérséklet pl. 0-6 °C között"
+    ],
+    [
+      "A késztermékek csomagolása, tárolása"
+    ],
+    [
+      "Késztermékek csomagolása"
+    ],
+    [
+      "A 853/2004/EK rendelet (a 1662/2006/EK rendelet megfogalmazásában) III. mellékletének IX. szakasz III. fejezete értelmében, a késztermék csomagolásának lezárását a töltés után közvetlenül az üzemben kell elvégezni az utolsó hőkezelés után. A lezárásnak biztosítani kell, hogy a termék utószennyeződését megakadályozza, valamint a zárórendszert úgy kell kialakítani, hogy egyértelműen észlelhető legyen, ha kinyitották, és kinyitás ténye könnyen ellenőrizhető legyen."
+    ],
+    [
+      "Rendeltetés szerint a csomagolások",
+      " ",
+      "háromfélék: ",
+      "nagyfogyasztói, (kis)fogyasztói és gyűjtőcsomagolások, ",
+      "amelyek megnevezései egyben funkcióikat és megoldási formáikat is valószínűsítik."
+    ],
+    [
+      "A nagyfogyasztói csomagolások nagyobb egységek a nagyfogyasztók (pl. éttermek, iskolák, óvodák, honvédség, sütödék) számára."
+    ],
+    [
+      "A (kis)fogyasztói csomagolások kisebb egységűek, egy személynek vagy családnak megfelelő nagyságúak, és bolthálózaton keresztül jutnak el a fogyasztókhoz."
+    ],
+    [
+      "A gyűjtőcsomagolások a kisfogyasztói csomagok összefogására minden esetben, a nagyfogyasztói csomagoknál esetenként szükségesek."
+    ],
+    [
+      "Késztermékek tárolása"
+    ],
+    [
+      "A hűtést igénylő termékek tárolása, szállítása során az előírt hőmérsékletet biztosítani kell, ennek megfelelőségét folyamatosan ellenőrizni és dokumentálni szükséges. Gondoskodni kell arról, hogy a szállítás és a tárolás során a termékek ne szennyeződjenek. Nedvesítéssel vagy más módon meg kell akadályozni a porképződést."
+    ],
+    [
+      "A nem megfelelő termékeket ",
+      "(visszáru, selejt)",
+      " és a visszatérő göngyölegeket elkülönítetten, jelölt módon kell tárolni, lehetőség szerint külön helyiségben. Ilyen lehetőség hiányában a raktárnak olyan részét kell e célra kijelölni, ahol ezek a visszáruk v. selejtes áruk a megfelelő ",
+      "minőségű termék be- és kitárolásának útvonalát nem keresztezik. Elszállításukról minél előbb gondoskodni kell."
+    ],
+    [
+      "Ízesített tejkészítmények (soványtejes-kakaó, karamellás tej, csokoládés tej) gyártása"
+    ],
+    [
+      "Előírások, követelmények"
+    ],
+    [
+      "Ízesített termék esetén az ízesítőanyag mennyiségének – ahol nincs erre vonatkozó előírás – a termék jellegzetességét biztosító arányúnak kell lennie."
+    ],
+    [
+      "Az ",
+      "ízesített tejkészítmény",
+      " a tejből ízesítőanyagok, továbbá színezékek és egyéb élelmiszer-adalékanyagok hozzáadásával előállított termék. A késztermékben a tejhányad legalább 70% (m/m)."
+    ],
+    [
+      "A termék előállításához – beleértve az ízesítőanyag, az adalékanyag és a technológiai segédanyag oldását is – nem használható fel hozzáadott víz és olyan egyéb összetevő, amely a tej komponenseinek helyettesítésére szolgál."
+    ],
+    [
+      "Felhasználható összetevők: tej, tejsűrítmény, tejpor, író vagy ezek keveréke, tejfehérje-koncentrátum, savófehérje-koncentrátum, ízesítőanyag, laktózbontó enzim, víz."
+    ],
+    [
+      "Gyártástechnológia"
+    ],
+    [
+      "2 A különböző zsírtartalmú fogyasztói tejek gyártása c. fejezet 2.1.1. Gyártástechnológia fejezete"
+    ],
+    [
+      "Eltérések: 6. táblázat"
+    ],
+    [
+      "",
+      "",
+      "",
+      "6",
+      "",
+      ". táblázat:",
+      " ",
+      "Gyártástechnológia"
+    ],
+    [
+      "A kakaóporban, továbbá a csokoládés tejben a stabilizálószer cukorral való száraz előkeverése könnyebbé teszi a termék alapanyagában az adalékanyagok oldását, diszpergálását, és csökkenti veszteségüket. A felhasznált ízesítő-, segéd- és adalékanyagok az ízesített termékekben üledéket képeznek. Az",
+      " üledékképző anyagok",
+      " nagyobb aránya miatt nem ajánlott a bekevert massza vagy a kakaós tej ",
+      "homogénezése",
+      ", hanem csak a tejet homogénezik. A nagy mennyiségű üledék a ",
+      "homogénezőfej",
+      " funkcionális alkatrészeinek fokozott kopását okozná, viszont a termék minősége (íz teltsége, üledék mennyisége) nem javulna. Megfelelő kakaópor és stabilizálószer alkalmazásával ma már megoldható az üledékmentes csokoládés és kakaós tej gyártása. A csokoládés és a sovány kakaós tej ",
+      "hőntartása",
+      " a kakaópor jobb feltáródását, illetve a benne levő csírák fokozott elpusztítását segíti elő. A ",
+      "hőntartás",
+      " következtében teltebb ízű és eltarthatóbb terméket kapunk. A kakaópor zsírtartalmát minden esetben figyelembe kell venni, mivel ez nagyban befolyásolja a késztermék zsírtartalmát a gyártás során. A csokoládés tej jellegzetes ízének kialakítása céljából használt aromát azért kell hidegen adni a termékhez, mert hőérzékeny alkotórészeket tartalmaz."
+    ],
+    [
+      "A késztermékek minősítésének előírásai"
+    ],
+    [
+      "Érzékszervi követelmények"
+    ],
+    [
+      "Külső",
+      ": Egyenletes, az alapanyagra jellemző színű, ízesített termék esetén az ízesítő-, illetve a színezőanyagra jellemző."
+    ],
+    [
+      "Állomány",
+      ": Egynemű, kiválástól, pelyhes kicsapódástól, ",
+      "felfölöződéstől",
+      " és üledéktől mentes."
+    ],
+    [
+      "Szag",
+      ": Az ízesítésre jellemző, kellemesen aromás, tiszta."
+    ],
+    [
+      "Íz",
+      ": Az ízesítőanyagra vagy az aromára jellemző, jellegzetesen zamatos, tiszta."
+    ],
+    [
+      "Beltartalmi",
+      " előírások"
+    ],
+    [
+      "Zsírtartalmi követelmények: ",
+      "A jelölésen feltüntetett zsírtartalomérték és az ellenőrzések során mért érték különbsége a mérési bizonytalanságot is beleértve +/− 0,15% lehet, azonban a termék zsírtartalma a zsírfokozatnak megfelelő minimum és maximum értékeket nem lépheti át."
+    ],
+    [
+      "",
+      "",
+      "",
+      "7",
+      "",
+      ". táblázat:",
+      " ",
+      "A termék zsírtartalma a zsírfokozatnak megfelelően"
+    ],
+    [
+      "Fehérjetartalom"
+    ],
+    [
+      "Fehérjetartalom ízesítéstől és zsírtartalomtól függetlenül legalább 2,1% (m/m)."
+    ],
+    [
+      "Mikróbiológiai jellemzők tekintetében",
+      " a 2073/2005/EK bizottsági rendeletének és a 4/1998. (XI. 11.) EüM rendeletben meghatározott, az élelmiszerekben előforduló mikrobiológiai szennyeződések megengedhető mértékének kell megfelelnie. (->Fogyasztói tejek)"
+    ],
+    [
+      "Jelölés, csomagolás"
+    ],
+    [
+      "Megnevezés",
+      ": A termék megnevezésében fel kell tüntetni a hőkezelésre utaló kifejezéseket.",
+      "\nA megnevezés részeként vagy ahhoz kapcsolódóan feltüntethető a termék zsírtartalma tömegszázalékban, például „Kakaós tej 0,7%”, „Kakaós tej 0,7% zsírtartalommal”.",
+      "\nHa a tej összetételében módosítás történt, azt a megnevezéshez kapcsolt szóval vagy szavakkal kell jelezni, például „",
+      "laktózmentes",
+      "” vagy „csökkentett ",
+      "tejcukortartalmú",
+      "”",
+      ". ",
+      "Az ízesített tejkészítmények megnevezése tartalmazhatja a „tej” szót, például „karamellás tej”, „gyümölcsös tejkészítmény”. A termék zsírfokozatát fel kell tüntetni. ",
+      "Homogénezés",
+      " esetén utalni kell a műveletre."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "10",
+      "",
+      ". ábra:",
+      " ",
+      "Kakaós tejtermék régen"
+    ],
+    [
+      "(forrás: ",
+      ", utolsó megtekintés: ",
+      "2024",
+      ".",
+      "07",
+      ".",
+      "03",
+      ".)",
+      "\n",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "11",
+      "",
+      ". ábra:",
+      " Kakaós tejtermékek",
+      " napjainkban"
+    ],
+    [
+      "(forrás: ",
+      ", utolsó megtekintés: ",
+      "2024",
+      ".",
+      "07",
+      ".",
+      "03",
+      ".)"
+    ],
+    [
+      "További előírások"
+    ],
+    [
+      "2.2 A késztermékek minősítésének előírásai - 2.2.3",
+      " ",
+      "Jelölés, csomagolás fejezete"
+    ],
+    [
+      "A késztermékek csomagolása, tárolása"
+    ],
+    [
+      "2.3 A késztermékek csomagolása, tárolása – 2.3.1",
+      " ",
+      "Késztermékek csomagolása és 2.3.2 Késztermékek tárolása c. fejezetek"
+    ],
+    [
+      "Tejszínkészítmények (tejszínek, ízesített tejszínkészítmények, aeroszolos tejszínek és tejszínkészítmények) gyártástechnológiája"
+    ],
+    [
+      "Előírások, követelmények"
+    ],
+    [
+      "A tejszínkészítmények az 1333/2008/EK európai parlamenti és tanácsi rendelete szerinti élelmiszer-kategória.",
+      "\nA termékcsoportba a tejből fölözéssel nyert, zsírban dúsított, továbbá szükség szerinti mennyiségben az engedélyezett összetevőkből vagy azok egy részéből készült, megfelelően hőkezelt és hűtött, szükség esetén homogénezett, legalább 10% (m/m) zsírtartalmú, „zsír a vízben” emulzió típusú tejtermékek tartoznak."
+    ],
+    [
+      "A termékcsoportba tartozó termék lehet ",
+      "tejszín,",
+      " továbbá ennek felhasználásával és ízesítőanyagok hozzáadásával előállított ",
+      "ízesített tejszínkészítmény."
+    ],
+    [
+      "Tejszínek:",
+      " ",
+      "\nA tejszínek csoportba a különböző zsírtartalommal gyártott, hőkezelt és hűtött, szükség esetén homogénezett zsírdús termékek tartoznak, mint a félzsíros tejszín, a tejszín, a zsírdús tejszín, a habtejszín, a tejszínhab, a zsírdús habtejszín és a zsírdús tejszínhab."
+    ],
+    [
+      "Ízesített tejszínkészítmények:",
+      " ",
+      "\nÍzesített tejszínkészítmények a tejszín csoportba tartozó termékekből a felsorolt összetevők szükség szerinti hozzáadásával, hőkezeléssel és hűtéssel előállított termékek, amelyeket folyékony vagy habosított formában hoznak forgalomba. Az ízesített késztermékben az ízesítés előtti tejszínhányad legalább 58% (m/m). Ha az ízesítésre gyümölcsöt használnak, annak hányada (az erős ízű, savas gyümölcsök kivételével) a végtermékben legalább 4% (m/m)."
+    ],
+    [
+      "Aeroszolos tejszínek és ízesített tejszínkészítmények:",
+      " ",
+      "\nAeroszolos tejszín és ízesített tejszínkészítmény a csomagolásból azonnal felhasználható ",
+      "habosított formában nyerhető ki. Az aeroszolos készítmények nyomásálló csomagolásban kerülnek kereskedelmi forgalomba. A csomagolásba a tejszínhez hajtógázt adnak, így a szelep kinyitásával habosított formában nyerhető ki a tejszín. Hajtógázként ",
+      "inert",
+      " ",
+      "gázokat",
+      " (kémiai reakcióba nem lépő elemek, mint például a nemesgázok vagy más gáz halmazállapotú vegyületek, melyek kémiailag közömbösek pl. N",
+      "2",
+      " (Nitrogén), CO",
+      "2",
+      " (Szén-dioxid)) alkalmaznak.",
+      " "
+    ],
+    [
+      "Felhasználható összetevők:",
+      "\ntej, tejsűrítmény, tejpor, tejfehérje-koncentrátum, savófehérje-koncentrátum, étkezési kazeinátok.",
+      "\nÍzesítőanyag, levegő, illetve inert gáz kizárólag az ízesített tejszínkészítmények és aeroszolos tejszínek és ízesített tejszínkészítmények szerinti termékekhez használható fel."
+    ],
+    [
+      "Gyártástechnológia"
+    ],
+    [
+      "2 A különböző zsírtartalmú fogyasztói tejek gyártása c. fejezet 2.1.1. G",
+      "yártás",
+      "technológia fejezete"
+    ],
+    [
+      "Eltérések:"
+    ],
+    [
+      "A kávétejszín (4.9 kép) előállítása során a tejet előbb szeparálják, azaz sovány tejre és 30–40% zsírtartalmú tejszínre választják szét, majd a tejszínben beállítják a kívánt zsírtartalmat sovány tej hozzáadásával, homogenizálják, 85–90 °C, esetleg magasabb hőmérsékleten pasztőrözik, végül lehűtik és kiszerelik. A kávétejszínt kávé, tea, egyéb italok és élelmiszerek ízesítésére használják."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "12",
+      "",
+      ". ábra:",
+      " ",
+      "Kávétejszín"
+    ],
+    [
+      "(forrás: https://static.groby.hu/media/8b4/f8b/conv/37503_se2_1d630_back-f",
+      " ",
+      "utolsó megtekintés: ",
+      "2024",
+      ".",
+      "07",
+      ".",
+      "03",
+      ")",
+      "\n",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "13",
+      "",
+      ". ábra:",
+      " Kávétejszín II."
+    ],
+    [
+      "(forrás: ",
+      " ",
+      "utolsó megtekintés: ",
+      "2024",
+      ".",
+      "07",
+      ".",
+      "03",
+      ")",
+      "\n",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "14",
+      "",
+      ". ábra:",
+      " ",
+      "Kávétejszín III."
+    ],
+    [
+      "(forrás: ",
+      ", utolsó megtekintés: ",
+      "2024",
+      ".",
+      "07",
+      ".",
+      "03.",
+      ".)",
+      "\n",
+      "A habtejszín zsírtartalmát magasabb értékre állítják be, majd a tejszínt pasztőrözik, hűtik és az érlelőtartályban kiszerelésig hűtve tárolják. A hűtés következtében a tejzsír megszilárdul, kristályosodik, ez a hazai tejzsíroknál télen 20 °C, nyáron 11 °C",
+      " ",
+      "és az átmeneti időben 15 °C. A kristályosodási folyamat hatására a tejzsír stabilizálódik."
+    ],
+    [
+      "Tejszínhab gyártásánál a homogenizálást nem alkalmazzák, mert kedvezőtlenül hat a ",
+      "felverhetőségre",
+      ".",
+      "\nA habtejszín (4.10 kép) gyakran szolgál cukrászati termékek és fagylaltok összetevőjeként, valamint általában élelmiszerek ízesítőjeként."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "15",
+      "",
+      ". ábra:",
+      " ",
+      "Habtejszín"
+    ],
+    [
+      "(forrás: ",
+      "https://image-api.nosalty.hu/nosalty/images/articles/ZY/RS/QtDLNEIMtNnIncjhIBASTojeO2SrHJvMUz2fRESS.jpeg?w=640&h=640&fit=crop&s=10f08acfbff9a60f5b9158f437e0060a",
+      ", utolsó megtekintés: ",
+      "2024",
+      ". ",
+      "07",
+      ". ",
+      "03",
+      ".",
+      ")"
+    ],
+    [
+      "Magas zsírtartalmú tejtermékek lévén a habok és habtejszínek gyártására az ennek megfelelő előkészítő műveleteket kell végrehajtani. Mivel a termékcsoportnál a ",
+      "habszerkezet",
+      " jelenti a végső állományt, a kívánatos habtérfogat, a habszilárdság és a habstabilitás elérése céljából a termékek alapanyagát megfelelően elő kell készíteni."
+    ],
+    [
+      "Valamennyi gyártmánynál követelmény a 4-5 °C-ra hűtés. Emellett a habtejszínnél elengedhetetlen még az érlelés, amelyet a hűtési hőmérsékleten 10-12 óráig, a ",
+      "felfölöződés",
+      " gátlása miatt rendszerint tankokban végeznek. A hidegen érlelés hatására megduzzadt fehérjék elősegítik a habképződést, a megdermedt zsírgolyócskák pedig növelik a hab szilárdságát és tartósságát, ezért hidegen érlelés nélkül nem lehet jó tejszínhabot készíteni. A habverés folyamán felrepedt zsírgolyócskákból kifolyó vajolaj a megduzzadt zsírgolyócskák összekapcsolásával szintén részt vesz a hab szilárd vázának kialakításában."
+    ],
+    [
+      "A tejszínhabok szilárdságát, eltarthatóságát az érlelésen túl szintén tovább növelhetjük ",
+      "stabilizátorok ",
+      "(pl. ",
+      "alginátok",
+      ", karragének) felhasználásával."
+    ],
+    [
+      "Nemcsak az érlelést, hanem a ",
+      "habosítást",
+      " is 4-5 °C-",
+      "on",
+      " kell végezni; ez egyébként valamennyi ",
+      "habosításra",
+      " szánt terméknél követelmény."
+    ],
+    [
+      "A levegő, illetve a semleges gáz a folyamat során kezdetben gömb alakú buborékok formájában ",
+      "ágyazódik",
+      " be, majd a további gázfelvétel és főleg a keverés hatására a buborékok elaprózódnak és egyre közelebb kerülve egymáshoz, ",
+      "poliéderes alakot",
+      " vesznek fel. A légbuborékok hab fala elvékonyodik, az alkotórészek összetömörülnek, amelyek a hab vázát is alkotják így nő a habszilárdság. Az első szakaszban erőteljesen nő a habtérfogat, majd a csúcsponton túli csökkenő szakasz időszakában a habszilárdság rohamosan nő és gyorsulásának maximumánál ér véget elméletileg a habverés, illetve ekkor kell befejezni a műveletet. Ha a folyamat egyes időszakaiban (pl. percenként) a képződött hab ",
+      "léeresztését",
+      " ",
+      "megvizsgáljuk, kitűnik, hogy a ",
+      "léeresztés",
+      " és a lé zsírtartalma kifejezett csökkenést mutat."
+    ],
+    [
+      "A stabilizált habtejszín rendszerint gyorsabban verődik, ugyanakkor a csúcsponton túl a habtérfogat csökkenésének mértéke kisebb. Utóbbi miatt a szakszerű habverés időtartománya, következésképpen a gyártás biztonsága nagyobb, mint a nem stabilizált habtejszínnél. A tejszínhab optimális minőségi jellemzőinek elérése szempontjából elméletileg mindegy, hogy a ",
+      "habosítást",
+      " szakaszosan, vagy folytonosan működő gépekkel végzik. A lényeg, hogy a gép műszaki jellemzői (hűthetőség, keverő kiképzése és fordulatszáma) elégítsék ki a habverés követelményeit (pl. Schröder-típus->Tejipari gépek I)."
+    ],
+    [
+      "Valamivel egyszerűbb a helyzet a habtejszín gyártásakor, hiszen e termék nem hab, hanem folyékony formában jut el a fogyasztóhoz. A hab elkészítését ebben az esetben rábízzák a remélhetőleg elégséges konyhatechnikai ismeretekkel bíró vásárlóra."
+    ],
+    [
+      "A gyakorlatban alkalmazott technológiai lépések: 8. táblázat"
+    ],
+    [
+      "",
+      "",
+      "",
+      "8",
+      "",
+      ". táblázat:",
+      " A gyakorlatban alkalmazott technológiai lépések"
+    ],
+    [
+      "A késztermékek minősítésének előírásai"
+    ],
+    [
+      "É",
+      "rzékszervi követelmények"
+    ],
+    [
+      "",
+      "",
+      "",
+      "9",
+      "",
+      ". táblázat:",
+      " ",
+      "Érzékszervi követelmények"
+    ],
+    [
+      "Beltartalmi",
+      " követelmények"
+    ],
+    [
+      "Zsírfokozat: ",
+      "az ellenőrzés",
+      " ",
+      "során mért érték különbsége a mérési bizonytalanságot is beleértve +/−1,5% lehet, azonban a termék zsírtartalma a zsírfokozatnak megfelelő minimum és maximum értékeket nem lépheti át."
+    ],
+    [
+      "Félzsíros tejszín legalább 10% (m/m) és kevesebb mint 18% (m/m)"
+    ],
+    [
+      "Tejszín legalább 18% (m/m) kevesebb mint 45% (m/m)"
+    ],
+    [
+      "Zsírdús tejszín legalább 45% (m/m)"
+    ],
+    [
+      "Habtejszín és tejszínhab legalább 28% (m/m) kevesebb mint 35% (m/m)"
+    ],
+    [
+      "Zsírdús habtejszín és zsírdús tejszínhab legalább 35% (m/m) zsírtartalommal rendelkezik."
+    ],
+    [
+      "Mikrobiológiai jellemzők tekintetében",
+      " a 2073/2005/EK bizottsági rendeletének és a 4/1998. (XI. 11.) EüM rendeletben meghatározott, az élelmiszerekben előforduló mikrobiológiai szennyeződések megengedhető mértékének kell megfelelnie."
+    ],
+    [
+      "Jelölés, csomagolás"
+    ],
+    [
+      "Megnevezés: ",
+      "\nA megnevezés: „tejszín”, „habtejszín”, „tejszínhab”. A megnevezéshez kapcsolódóan fel kell tüntetni a hőkezelés módját és a termék zsírtartalmát tömegszázalékban. Habosított termékek esetén a csomagoláson feltüntetett zsírtartalom értékek a ",
+      "habosítás",
+      " előtti termék zsírtartalmára, illetve aeroszolos tejszínkészítmény esetén értelemszerűen a tejszínhabra vonatkoznak.",
+      "\nA megnevezéshez kapcsolódóan fel lehet tüntetni a termék zsírfokozatát, ha az félzsíros vagy zsírdús, valamint a felhasználás célját (például kávétejszín, főzőtejszín)."
+    ],
+    [
+      "Egyéb jelölés:",
+      "\nFel kell tüntetni az esetleges ",
+      "homogénezést",
+      ", illetve aeroszolos termék esetén annak tényét ",
+      "is.",
+      "\nA habtejszín feliratán jelezni kell, hogy a habbá ",
+      "verhetőség",
+      " érdekében a tejszínt a habbá verés előtt legalább 12 órán keresztül 1-5 °C-",
+      "on",
+      " kell tartani.",
+      "\nAeroszolos termékek esetében a termék biztonságos felhasználására vonatkozó jogszabályok jelölési előírásait is be kell tartani."
+    ],
+    [
+      "További előírások"
+    ],
+    [
+      "2.2 A késztermékek minősítésének előírásai -",
+      " 2.",
+      "2",
+      ".3. Jelölés, csomagolás fejezete"
+    ],
+    [
+      "A késztermékek csomagolása, tárolása"
+    ],
+    [
+      "2.3 A késztermékek csomagolása, tárolása – 2.3.1 Késztermékek csomagolása és 2.3.2 Késztermékek tárolása c. fejezetek"
+    ],
+    [
+      "Különleges tejkészítmények gyártástechnológiája"
+    ],
+    [
+      "A tejcukor-, illetve laktózintoleranciában vagy -érzékenységben, más néven ",
+      "hypolactasiában",
+      " ",
+      "szenvedő betegek szervezetében nem termelődik annyi ",
+      "laktáz",
+      " enzim, amennyi az elfogyasztott tejcukor lebontásához elegendő lenne. A ",
+      "lebontatlanul",
+      " maradó tejcukor erjedése miatt keletkező anyagcseretermékek és gázok kellemetlen tüneteket okoznak. A csecsemőkor után a világ népességének több mint felénél a ",
+      "laktáz",
+      " enzim aktivitása csökken. A Föld népességének több mint 60 százaléka laktózintoleráns, ezért szükségessé vált a tejtermékekben a laktóztartalom csökkentése."
+    ],
+    [
+      "Előírások, követelmények"
+    ],
+    [
+      "2 A különböző zsírtartalmú fogyasztói tejek gyártása – 2.1 Előírások, követelmények c. fejezete"
+    ],
+    [
+      "Az élelmiszerek laktóztartalmával, a laktóz jelenlétével, annak élettani hatásával kapcsolatban csak részszabályozási területek vannak."
+    ],
+    [
+      "Ezek a következők:"
+    ],
+    [
+      "Uniós szintű szabályozások"
+    ],
+    [
+      "Tápanyag-összetételre és egészségre vonatkozó állítások"
+    ],
+    [
+      "A tápanyag-összetételre és egészségre vonatkozó állításokról szóló 1924/2006/EK rendelet értelmében csak engedélyezett állítások alkalmazhatók. A ",
+      "tápanyag-összetételre vonatkozó állítás",
+      " bármely olyan állítás, amely kijelenti, sugallja vagy sejteti, hogy az élelmiszer bizonyos, a táplálkozásra nézve különös, kedvező tulajdonsággal rendelkezik. Az engedélyezett tápanyag-összetételre vonatkozó állítások a rendelet mellékletében találhatók. Ezek közül a laktóz esetében az alábbi tápanyag-összetételre vonatkozó állítás alkalmazható:"
+    ],
+    [
+      "CSÖKKENTETT TÁPANYAG NEVE: laktóztartalom"
+    ],
+    [
+      "Az állítás, amely szerint egy vagy több tápanyag mennyiségét az élelmiszerben csökkentették, valamint a fogyasztó számára vélhetően ugyanezzel a jelentéssel bíró bármely állítás csak akkor alkalmazható, ha a mennyiség csökkentése a hasonló termékekéhez képest legalább 30 százalék. A rendelet 9. cikke értelmében az összehasonlítást az azonos termékcsoportba tartozó élelmiszerek széles körének figyelembevételével kell elvégezni – beleértve más márkákat is. A jelölésen fel kell tüntetni a csökkentés mértékét is, például: 42 százalékkal csökkentett laktóz tartalom."
+    ],
+    [
+      "Nemzeti szintű szabályozások"
+    ],
+    [
+      "Mivel az ",
+      "Európai Élelmiszerbiztonsági Hatóság ",
+      "(European ",
+      "Food",
+      " ",
+      "Safety",
+      " ",
+      "Authority",
+      ", EFSA) a rendelkezésre álló tudományos adatok alapján nem tudott egyetlen, minden intoleráns személy számára alkalmas laktóz küszöbértéket meghatározni a normál közfogyasztásra szánt élelmiszerek esetén, uniós szinten eddig nem született szabályozás a laktózmentes/laktózszegény kifejezések alkalmazására. Egységes uniós szabályozás hiányában a tagállamoknak jogában áll nemzeti szabályozást fenntartani, létrehozni."
+    ],
+    [
+      "Az értékek egyes tagállamokban jogszabályban rögzítettek, míg máshol csak útmutatóként szolgálnak, illetve olyan ország is van, ahol jelenleg semmilyen érvényes írásos szabályozás nem létezik, de a korábbi, már nem hatályos jogszabály által rögzített küszöbérték a gyakorlati életben most is alkalmazott és elfogadott. Ez a helyzet Magyarországon is, ahol korábban, a már hatályon kívül helyezett az 1995. évi XC. tv. végrehajtásáról szóló, 1/1996. (I.9.) FM-NM-IKM együttes rendelet és annak módosításai, a 43/2002. (V. 14.) FVM—EüM—GM együttes rendeletben leírt módosítások határozták meg a laktózmentes kifejezés kritériumait. Magyarországon jelenleg nincs hatályos jogszabály a laktózmentes és minden ezzel azonos értelmű kifejezés alkalmazásával kapcsolatban."
+    ],
+    [
+      "Gyártástechnológia"
+    ],
+    [
+      "2 A különböző zsírtartalmú fogyasztói tejek gyártása",
+      " ",
+      "– 2.1.1 ",
+      "Gyártástechológia",
+      " c. fejezet"
+    ],
+    [
+      "A gyártástechnológia során a ",
+      "laktózt",
+      " ",
+      "enzimatikus",
+      " úton lebontják."
+    ],
+    [
+      "A folyamat történhet a hőkezelés előtt vagy után baktériumokból, élesztőkből kinyert, szűrt ",
+      "laktázenzim",
+      " készítményekkel."
+    ],
+    [
+      "A hőkezelés előtt történő laktózbontás, a relatíve magas, 32-38°C-os hőmérsékleten történő több órás művelet miatt potenciális mikrobiológiai veszélyt hordozhat, ha a higiéniai körülmények (tej és műszaki) nem megfelelőek. Magasabb enzimkoncentrációt igényel ez az eljárás, mint a hőkezelés utáni laktózbontási technológiával készült termékek előállítása. Továbbá a laktózbontott tej sokkal sebezhetőbb a ",
+      "Maillard",
+      "-reakció szempontjából a hőkezelés során, mint a hagyományos tej, mivel a lebontott laktózból keletkező glükóz és ",
+      "galaktóz",
+      " reakcióképesebb, mint a laktóz önmagában."
+    ],
+    [
+      "A hőkezelés után történő laktózbontás részben kiküszöböli az előbbiekben ismertetett technológia hibáit. A technológia során a már hőkezelt tejbe, utólag (in line adagoló rendszerrel -> Szakmai gépek I.) juttatják be a steril enzimet, ami a kötelező karanténban töltött idő alatt egyrészt garantáltan lebontja a tejcukrot, a laktózmentes termékek kritériumaként megjelölt 0,1-0,01 százalék alá. Ezzel elkerülhető a glükóz, valamint a ",
+      "galaktóz",
+      ", azaz a ",
+      "monoszacharidok",
+      " és a fehérjék kölcsönhatásának tulajdonítható, nem kívánatos ",
+      "Maillard",
+      "-reakció. További előnye, hogy hosszú távon költséghatékonyabb, mivel kevesebb enzimkészítményt igényel."
+    ],
+    [
+      "Mára a költséghatékonyabb és elenyésző beruházást igénylő ",
+      "enzimatikus",
+      " ",
+      "laktózhidrolízis",
+      " ",
+      "terjedt el a hazai tejiparban. A béta-",
+      "galaktozidázt",
+      " izolálták állati és növényi szövetekből, baktériumokból, élesztőgombákból (pl. ",
+      "Kluyveromyces",
+      " ",
+      "lactis",
+      ", K. fragilis",
+      ") és penészgombákból (pl. ",
+      "Aspergillus",
+      " ",
+      "niger",
+      ", A. ",
+      "oryzae",
+      "). A biotechnológia, a géntechnika és a génmanipulációs módszerek rohamos fejlődésének köszönhetően az enzimek ma már számos előállító cégtől beszerezhetők. Az enzimforgalmazók rendszerint kész technológiákat adnak készítményeik mellé (adagolási mennyiség, hőmérséklet, idő), illetve segítséget nyújtanak speciális termék esetén az enzim adagolási mennyiségének meghatározásában is."
+    ],
+    [
+      "Az elmúlt 20 esztendőben sokat változott az enzimek előállítási folyamata, ennek köszönhetően a ",
+      "laktáz",
+      " enzimek második generációja is munkába állt, bővítve a gyártók technológiai lehetőségeit, miközben a beszerzési ár is csökkent. Az első nemzedék az ún. semleges pH-értéken működő ",
+      "laktáz",
+      " enzimek csoportja, melyek semleges pH, vagy ahhoz közeli értéken fejtik ki laktózbontó képességüket, majd pH 5 érték környékén fokozatosan inaktívvá válnak. Ennek a tulajdonságnak köszönhetően elsősorban semleges pH-értékű termékek (laktózmentes tej, ízesített tejkészítmények, desszertek) előállításához használják ma is ezeket az enzimeket. A laktózmentes tejtermékek gyártásának kezdetén a savanyított termékek gyártástechnológiáját a savanyítási folyamat közben bekövetkező inaktivitás miatt két lépcsőben hajtották végre: 1. az alapanyag tej, tejszín teljes vagy részleges laktózmentesítése; 2. a ",
+      "laktózmentesített",
+      " alapanyag ",
+      "kultúrázása",
+      " a megszokott tejipari kultúrákkal, majd adagolás és érlelés a gyártó üzemben alkalmazott szokásos módszerekkel. A második generációs ",
+      "laktáz",
+      " enzimek már jól tűrik a savanyú pH-értéket is, így az aktív laktózbontás folyamata 4,3 vagy akár alacsonyabb pH-értékig is folytatódik a ",
+      "laktáz",
+      " enzim inaktiválódása nélkül. A savanyított termékek gyártásánál azt a tényt is érdemes kihasználni, hogy a tejipari kultúrák szaporodásukhoz tejcukrot használnak fel, így is csökkentve a lebontandó tejcukrot. Ezeknél a termékeknél a tejsavbaktériumok által indukált laktózbontás eléri a termékben található összes tejcukor 60 százalékát. Az arány jelentős enzimmegtakarítást, így költségcsökkentést eredményez. A gyártási folyamat lerövidül, hiszen az enzim beadagolását követően, szinte azonnal ",
+      "bekultúrázható",
+      " tejsavbaktérium-színtenyészettel a savanyított tejtermék (tejföl, kefir, joghurt, túró)."
+    ],
+    [
+      "A késztermékek minősítésének előírásai"
+    ],
+    [
+      "2 A különböző zsírtartalmú fogyasztói tejek gyártása – 2.2 A késztermékek minősítésének előírásai c. fejezet"
+    ],
+    [
+      "Az egyik legfontosabb kritikus határérték természetesen a késztermék laktóztartalma. Laktózmentes vagy tejcukormentes az a tejtermék amelynek laktóztartalma a fogyasztásra ",
+      "kész állapotban kevesebb, mint 0,1 g/100 g, vagy 100 ml és az azzal összehasonlítható hagyományos élelmiszer, jelentős mennyiségű ",
+      "laktózt",
+      " tartalmaz."
+    ],
+    [
+      "A termelés minden fázisában biztosítani kell az alapanyagok és a késztermék ",
+      "laktózmentességét",
+      ", ahogy a ",
+      "nyomonkövethetőséget",
+      " is. Megfelelő vizsgálattal, iratokkal bizonyítani kell a termékek laktózmentességét. Tejtermékek esetében a fent említett jó gyártási gyakorlatnak megfelelően akkreditált laboratóriumi vizsgálatokkal kell igazolni, ami jelentős költséggel jár. A vizsgálati tervben ki kell térni a mintavétel és a vizsgálatok gyakoriságára, a határértékekre, a nem megfelelőség esetén végrehajtandó tevékenységekre. Vagyis olyan monitoring rendszert kell felállítani, amely lehetővé teszi a laktózmentességet veszélyeztető lépések idejében történő felismerését, a kockázat minimalizálását."
+    ],
+    [
+      "A késztermékek csomagolása, tárolása"
+    ],
+    [
+      "2.3 A késztermékek csomagolása, tárolása – 2.3.1 Késztermékek csomagolása és 2.3.2 Késztermékek tárolása c. fejezetek"
+    ],
+    [
+      "Üzemi számítások"
+    ],
+    [
+      "Mielőtt elkezded a feladatok megoldását:"
+    ],
+    [
+      "Értsd meg a feladatot! Olvasd el figyelmesen a feladat szövegét, gondold végig mit olvastál, majd próbáld meg elmondani a saját ",
+      "szavaiddal",
+      " a feladat lényegét."
+    ],
+    [
+      "Határozd meg, mit keresünk? Milyen adatokat ismerünk? Milyen kikötések vannak a feladatban? Rendszerezd az információkat aszerint, hogy mit ismerünk, és mit kell kiszámolni!"
+    ],
+    [
+      "Keress összefüggést az ismert adatok és az ismeretlen között!"
+    ],
+    [
+      "A megoldásról készíts magadnak tervet! A megoldást lépésről lépésre végezd el!"
+    ],
+    [
+      "Ellenőrizd a kapott eredményt, vizsgáld meg a megoldás helyességét! Gondold át, hogy a kapott eredmény értéke reális-e?"
+    ],
+    [
+      "Szakmai számításokhoz szükséges matematikai alapok: alapműveletek (összeadás, kivonás, szorzás, osztás), százalékszámítás, aránypárok alkalmazása"
+    ],
+    [
+      "Fölözési értékek meghatározása"
+    ],
+    [
+      "Számold ki, mennyi a fölözési százalék, a fölözési arány és a fölözés foka?"
+    ],
+    [
+      "3500 liter 3,4%-os zsírtartalmú tejet fölöztek le. 510 liter (506,5 kg) 23,0%-os tejszínt, valamint 2955 liter sovány tejet nyertek."
+    ],
+    [
+      "A feladat megoldása:"
+    ],
+    [
+      "fölözési százalék számítása"
+    ],
+    [
+      ""
+    ],
+    [
+      "A fölözési százalék 14,6, tehát az adott paraméterekkel 100 liter tejből 14,6 liter tejszínt tudunk lefölözni."
+    ],
+    [
+      "fölözési arány számítása"
+    ],
+    [
+      ""
+    ],
+    [
+      "A ",
+      "fölözési aránya",
+      ", vagyis a fölözés után kapott tejszín és soványtej aránya 1:5,8-hoz."
+    ],
+    [
+      "fölözési fok számítása"
+    ],
+    [
+      "teljes tejben levő zsírmennyiség:",
+      ""
+    ],
+    [
+      "tejszínben levő zsírmennyiség:",
+      ""
+    ],
+    [
+      "a fölözési fok:",
+      ""
+    ],
+    [
+      "A fölözés foka 97,89%, vagyis a fölözésre került tej zsírjának 97,89%-a került át a tejszínbe."
+    ],
+    [
+      "A feladatból meg",
+      " ",
+      "tudjuk határozni a fölözés élességét is."
+    ],
+    [
+      "A ",
+      "fölözés élessége",
+      " a soványtejben a fölözés után visszamaradt zsír mennyisége."
+    ],
+    [
+      "A feladatban, a 119 kg zsírból 116,495 kg a tejszínbe került így 119-116,495=2,505 kg maradt a soványtejben. A 2955 liter soványtejben 2,505 kg zsír maradt."
+    ],
+    [
+      "Százalékban meghatározva 2,505x100/2955=0,084% a fölözés élessége."
+    ],
+    [
+      "Teljesítmény, kapacitási feladatok"
+    ],
+    [
+      "Mennyi ideig tart tej fölözése?"
+    ],
+    [
+      "Fölöznünk kell 20250 liter tejet a fölözőgép tényleges fölözési kapacitása 4500 liter/óra. "
+    ],
+    [
+      "1 óra alatt tudunk lefölözni 4 500 l tejet "
+    ],
+    [
+      "? óra alatt tudunk lefölözni 20 250 l tejet"
+    ],
+    [
+      "     1 x 20 ",
+      "250 = ?",
+      " x 4 500 "
+    ],
+    [
+      "           20 250 = 4 500 ",
+      "x ?",
+      " "
+    ],
+    [
+      "20 250/4 ",
+      "500 = ?",
+      "                4,",
+      "5  = ?",
+      " óra"
+    ],
+    [
+      "4,5 óráig tart a tej fölözése."
+    ],
+    [
+      "Keverési feladatok"
+    ],
+    [
+      "Készítendő 3800 liter 2,8%-os zsírtartalmú tej."
+    ],
+    [
+      "A rendelkezésre álló alapanyagból hány liter 3,8%-os zsírtartalmú teljes tejet"
+    ],
+    [
+      "                                                         és hány liter 0,1 %-os zsírtartalmú fölözött tejet kell felhasználni a zsírbeállításhoz?"
+    ],
+    [
+      "A megoldáshoz a keverési képlet szükséges. Rendelkezésünkre áll X liter 3,8%-os teljes tej. (3800-X) liter 0,1%-os zsírtartalmú fölözött tej. Így keletkezik belőle X+(3800-X) vagyis 3800 liter 2,8%-os tej."
+    ],
+    [
+      ""
+    ],
+    [
+      "Anyagnorma számítások"
+    ],
+    [
+      "Mennyi anyag szükséges a leírt termékek előállításához?",
+      " (sovány tej, kakaópor, cukor)"
+    ],
+    [
+      "Egy tejüzemnek a gyártási programja 22000 db pohár 0,2 l-es,"
+    ],
+    [
+      "                                                                   13500 tasak 0,5 l-es és"
+    ],
+    [
+      "                                                                     4300 db literes kakaós tej készítését írja elő."
+    ],
+    [
+      "Anyagnorma-előírás 100 liter kakaós tej gyártásához: 94,5 liter sovány tej,"
+    ],
+    [
+      "                                                                                                 7,55 kg cukor,"
+    ],
+    [
+      "                                                                                                 2,52 kg kakaópor"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "Ábrajegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "Táblázatjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      "Irodalomjegyzék"
+    ],
+    [
+      "Tej és tejhigiénia Élelmiszeripar Témakör: 7. Fogyasztási tej ",
+      "\nForrás: \"L:\\PROJEKTEK\\3-SZK\\Német kiadói források\\_Ulmer\\8252-8664-4\\8252-8664-4_MAGYAR\\8252-8664-4_Magyar fordítások\\PDF\\8252-8664-4_07_Fogyasztási tej.pdf\" Kézirat: 8252-8664-4 - ",
+      "Milchkunde",
+      " und ",
+      "Milchhygiene"
+    ],
+    [
+      "Tej és tejhigiénia Élelmiszeripar Témakör: 8. Tejtermékek",
+      "\nForrás: \"L:\\PROJEKTEK\\3-SZK\\Német kiadói források\\_Ulmer\\8252-8664-4\\8252-8664-4_MAGYAR\\8252-8664-4_Magyar fordítások\\PDF\\8252-8664-4_08_Tejtermékek.pdf\" Kézirat: 8252-8664-4_05_Tejnyerés.pdf\""
+    ],
+    [
+      "AZ EURÓPAI PARLAMENT ÉS A TANÁCS 1308/2013/EU RENDELETE VII melléklet IV. RÉSZ A 0401 KN-kód alá tartozó, emberi fogyasztásra szánt tej III. Fogyasztói tej ",
+      "\n",
+      "https://eur-lex.europa.eu/legal-content/HU/TXT/HTML/?uri=CELEX:32013R1308&from=HU",
+      ", utolsó megtekintés: ",
+      "2024",
+      ". 07. 03."
+    ],
+    [
+      "A Magyar Élelmiszerkönyv 1-3/19-1 számú előírása a tejtermékekről A rész ÁLTALÁNOS RENDELKEZÉSEK ",
+      "https://elelmiszerlanc.kormany.hu/download/d/b6/d2000/vegleges_el%C5%91%C3%ADr%C3%A1s_jogt%C3%A1rb%C3%B3l.pdf",
+      ", utolsó megtekintés: ",
+      "2024",
+      ". 07. 03."
+    ],
+    [
+      "ÉLELMISZEREKRE VONATKOZÓ JOGSZABÁLYOK JEGYZÉKE Jogszabálygyűjtemény 107. kiadás Nemzeti Élelmiszerlánc-biztonsági Hivatal Élelmiszer- és Takarmánybiztonsági Igazgatóság ",
+      "https://portal.nebih.gov.hu/documents/10182/765581/107.+kiad%C3%A1s+%C3%89LELMISZER+jogszab%C3%A1lygy%C5%B1jtem%C3%A9ny.pdf",
+      ", utolsó megtekintés: ",
+      "2024",
+      ". 07. 03."
+    ],
+    [
+      "AZ EURÓPAI PARLAMENT ÉS A TANÁCS 1333/2008/EK RENDELETE az élelmiszer-adalékanyagokról",
+      "\n",
+      "https://eur-lex.europa.eu/legal-content/HU/TXT/?uri=cele",
+      ", utolsó megtekintés: ",
+      "2024",
+      ". ",
+      "07",
+      ". 03."
+    ],
+    [
+      "Érzékszervi bírálatok szabványai az élelmiszerkönyv szolgálatában ",
+      "https://www.nak.hu/tajekoztatasi-szolgaltatas/elelmiszer-feldolgozas/97287-erzekszervi-biralatok-szabvanyai-az-elelmiszerkonyv-szolgalataban",
+      ", utolsó megtekintés: ",
+      "2024",
+      ". ",
+      "07",
+      ". 02."
+    ],
+    [
+      "Az Európai Parlament és a Tanács 178/2002/EK rendelete az élelmiszerjog általános elveiről és követelményeiről, az Európai Élelmiszerbiztonsági Hatóság létrehozásáról és az élelmiszerbiztonságra vonatkozó eljárások megállapításáról. Az Európai Unió Hivatalos Lapja, L31, ",
+      "utolsó megtekintés: ",
+      "2024.06.28."
+    ],
+    [
+      "2008. évi XLVI. törvény az élelmiszerláncról és hatósági felügyeletéről. Magyar Közlöny, 95, ",
+      "utolsó megtekintés: ",
+      "2024.06.28."
+    ],
+    [
+      "43/2002. (V. 14.) FVM—EüM—GM együttes rendelete az élelmiszerekről szóló 1995. évi XC. törvény végrehajtásáról szóló 1/1996. (I. 9.) FM—NM—IKM együttes rendelet módosításáról Magyar Közlöny 2002/64. szám I. kötet"
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Pákozdi Enikő"
+      ],
+      [
+        "Szakmai lektor:",
+        "Zakariásné Kiskó Bernadett"
+      ],
+      [
+        "Évfolyam:",
+        "11. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "30 óra"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Élelmiszeripar"
+      ],
+      [
+        "Szakma:",
+        "Tejipari technikus"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Tejtermékgyártás"
+      ],
+      [
+        "Tantárgy:",
+        "Tejipari technológia I."
+      ]
+    ],
+    [
+      [
+        "Felhasznált segéd-, adalék- és alapanyagok",
+        "Gyártástechnológiai műveletek",
+        "Technológiai paraméterek"
+      ],
+      [
+        "Nyerstej",
+        "Előmelegítés",
+        "40-45 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Tisztítás, szeparálás",
+        ""
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Zsírbeállítás",
+        ""
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Homogénezés",
+        "60 °C, 200 bar"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hőkezelés",
+        "76 °C, 40 sec."
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hűtés",
+        "<5 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Töltés-csomagolás",
+        ""
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hűtőtárolás",
+        "<5 °C"
+      ]
+    ],
+    [
+      [
+        "Paraméter",
+        "Mennyiségi egység",
+        "Tip\n%",
+        "Minimum",
+        "Standard",
+        "Maximum"
+      ],
+      [
+        "zsír",
+        "g/100 g\ng/100 g\ng/100 g",
+        "1,5\n2,8\n3,5",
+        "1,50\n2,70\n3,50",
+        "1,50\n2.80\n3,50\n",
+        "1.60\n2.90\n3,60\n"
+      ],
+      [
+        "Fehérje\n",
+        "g/100g",
+        "",
+        "2.90",
+        "3.10",
+        ""
+      ],
+      [
+        "Zsírmentes szárazanyag\n",
+        "g/100g",
+        "",
+        "8,30",
+        "8,40",
+        ""
+      ],
+      [
+        "pH\n",
+        "",
+        "",
+        "6.50",
+        "6.70",
+        "6.80"
+      ]
+    ],
+    [
+      [
+        "Paraméter",
+        "Mennyiségi egység",
+        "Standard",
+        "Maximum"
+      ],
+      [
+        "Coliform",
+        "tel/ml",
+        "0",
+        "10"
+      ],
+      [
+        "Enterobactericeae",
+        "tel/ml",
+        "0",
+        "10"
+      ],
+      [
+        "Összcsíra",
+        "tel/ml",
+        "< 5.000",
+        "10.000"
+      ]
+    ],
+    [
+      [
+        "ÁTLAGOS TÁPÉRTÉK",
+        "100 g TERMÉKBEN"
+      ],
+      [
+        "ENERGIA",
+        "229 kJ/55 kcal"
+      ],
+      [
+        "ZSÍR \nAMELYBŐL TELÍTETT ZSÍRSAVAK",
+        "2,8 g\n\n1,9 g"
+      ],
+      [
+        "SZÉNHIDRÁT\nAMELYBŐL CUKROK",
+        "4,5 g\n4,5 g"
+      ],
+      [
+        "FEHÉRJE",
+        "2,9 g"
+      ],
+      [
+        "SÓ",
+        "0,10 g"
+      ]
+    ],
+    [
+      [
+        "Kiszerelés",
+        "Típus",
+        "Gyűjtőcsomagolás",
+        "Kiszállítás"
+      ],
+      [
+        "2750 ml",
+        "Kanna",
+        "papírkarton",
+        "raklapon"
+      ],
+      [
+        "1000 ml\n",
+        "Kancsó, palack, doboz",
+        "Papírkarton, zsugorfólia",
+        "raklapon"
+      ],
+      [
+        "200 ml\n",
+        "pohár\n",
+        "papírkarton\n",
+        "raklapon\n"
+      ]
+    ],
+    [
+      [
+        "Felhasznált segéd-, adalék- és alapanyagok",
+        "Gyártástechnológiai műveletek",
+        "Technológiai paraméterek"
+      ],
+      [
+        "Száraz összetevők (pl. kakaópor, cukor, stabilizátor)",
+        "Száraz előkeverés",
+        ""
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "Sovány homogénezett pasztőrtej\nEgyéb összetevők (pl. csokoládé)",
+        "Nedves előkeverés",
+        "30-40 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "Bekevert massza",
+        "Előfőzés",
+        "90-95 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "Sovány homogénezett pasztőrtej",
+        "Bekeverés",
+        ""
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hőntartás, pasztőrözés",
+        "80-85 °C, 10-20 perc"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hűtés",
+        "<5 °C"
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Csokis tej             Kakaós tej",
+        ""
+      ],
+      [
+        "Aroma anyagok",
+        "Aromásítás                 ↓",
+        ""
+      ],
+      [
+        "",
+        "↓                        ↓",
+        ""
+      ],
+      [
+        "",
+        "Töltés-csomagolás",
+        ""
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hűtőtárolás",
+        "<5 °C"
+      ]
+    ],
+    [
+      [
+        "Zsírfokozat",
+        "Zsírtartalom, % (m/m)",
+        "Zsírtartalom, % (m/m)"
+      ],
+      [
+        "Sovány",
+        "legfeljebb",
+        "0,5"
+      ],
+      [
+        "Zsírszegény",
+        "legalább",
+        "0,6"
+      ],
+      [
+        "Zsírszegény",
+        "legfeljebb",
+        "1,8"
+      ],
+      [
+        "Félzsíros",
+        "legalább",
+        "1,9"
+      ],
+      [
+        "Félzsíros",
+        "legfeljebb",
+        "3,4"
+      ],
+      [
+        "Zsíros",
+        "legalább",
+        "3,5"
+      ]
+    ],
+    [
+      [
+        "Felhasznált segéd-, adalék- és alapanyagok",
+        "Gyártástechnológiai műveletek",
+        "Technológiai paraméterek"
+      ],
+      [
+        "Beállított zsírtartalmú tejszín \n(pl. 30%-os)",
+        "Hőkezelés",
+        "95 °C, 2-5 sec."
+      ],
+      [
+        "",
+        "↓",
+        ""
+      ],
+      [
+        "",
+        "Hűtés",
+        "3-5 °C"
+      ],
+      [
+        "",
+        "↓                               ↓",
+        ""
+      ],
+      [
+        "",
+        "       Érlelés                          ↓",
+        "12-24 óra"
+      ],
+      [
+        "",
+        "↓                              ↓",
+        ""
+      ],
+      [
+        "Stabilizálószer, cukor",
+        "Száraz előkeverés             ↓",
+        ""
+      ],
+      [
+        "",
+        "↓                              ↓",
+        ""
+      ],
+      [
+        "",
+        "     Bekeverés                     ↓",
+        ""
+      ],
+      [
+        "",
+        "↓                              ↓",
+        ""
+      ],
+      [
+        "",
+        "     Ízesítés                          ↓",
+        ""
+      ],
+      [
+        "",
+        "↓                              ↓",
+        ""
+      ],
+      [
+        "N2 ",
+        "     Habosítás                      ↓",
+        "80-120 % térfogatnövekedés"
+      ],
+      [
+        "",
+        "↓                              ↓",
+        ""
+      ],
+      [
+        "",
+        "Töltés – csomagolás",
+        ""
+      ],
+      [
+        "",
+        "↓                              ↓",
+        ""
+      ],
+      [
+        "",
+        "Állományszilárdítás          ↓",
+        "<5°C, 3 óra"
+      ],
+      [
+        "",
+        "↓                              ↓",
+        ""
+      ],
+      [
+        "",
+        "            ↓                          Érlelés",
+        "10-20 óra"
+      ],
+      [
+        "",
+        "↓                              ↓",
+        ""
+      ],
+      [
+        "",
+        "Hűtőraktározás",
+        "<5 °C"
+      ]
+    ],
+    [
+      [
+        "",
+        "Tejszín",
+        "Ízesített és aeroszolos tejszínkészítmény"
+      ],
+      [
+        "Külső",
+        "Egyenletesen csontfehér színű, felfölöződéstől mentes, vagy legfeljebb kismértékben felfölöződött, de a tejszínréteg keveréssel könnyen eloszlatható.",
+        "Felfölöződéstől mentes, az ízesítőanyagra jellemző színű, darabos ízesítőanyag használatakor a darabok láthatók."
+      ],
+      [
+        "Állomány",
+        "Sima, egynemű, a zsírtartalomnak megfelelően sűrűbben folyó, habbá verve a hab kemény, léeresztéstől mentes.",
+        "Sima, az ízesítőanyag eloszlása egyenletes, darabos ízesítőanyag használatakor a darabok érzékelhetők."
+      ],
+      [
+        "Szag",
+        "Tiszta, kellemes, enyhén főtt szagú.",
+        "Kellemes, az ízesítőanyagra vagy az aromára jellemző."
+      ],
+      [
+        "Íz",
+        "Enyhén édeskés, telt, tiszta, kellemesen főtt ízű.",
+        "Kellemesen édes, az ízesítőanyagra vagy az aromára jellemző."
+      ]
+    ]
+  ],
+  "headers": [
+    "",
+    ""
+  ],
+  "footers": [
+    "\n",
+    ""
+  ],
+  "footnotes": [
+    "",
+    ""
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image19.png",
+      "path": null,
+      "bytes": 44321
+    },
+    {
+      "name": "image16.png",
+      "path": null,
+      "bytes": 127226
+    },
+    {
+      "name": "image17.jpg",
+      "path": null,
+      "bytes": 12682
+    },
+    {
+      "name": "image18.png",
+      "path": null,
+      "bytes": 33272
+    },
+    {
+      "name": "image24.png",
+      "path": null,
+      "bytes": 303727
+    },
+    {
+      "name": "image21.png",
+      "path": null,
+      "bytes": 30322
+    },
+    {
+      "name": "image15.jpg",
+      "path": null,
+      "bytes": 3769
+    },
+    {
+      "name": "image23.png",
+      "path": null,
+      "bytes": 100738
+    },
+    {
+      "name": "image22.png",
+      "path": null,
+      "bytes": 49817
+    },
+    {
+      "name": "image20.png",
+      "path": null,
+      "bytes": 27018
+    },
+    {
+      "name": "image11.png",
+      "path": null,
+      "bytes": 6271
+    },
+    {
+      "name": "image13.jpg",
+      "path": null,
+      "bytes": 4898
+    },
+    {
+      "name": "image4.png",
+      "path": null,
+      "bytes": 17120
+    },
+    {
+      "name": "image3.png",
+      "path": null,
+      "bytes": 44236
+    },
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image14.png",
+      "path": null,
+      "bytes": 20068
+    },
+    {
+      "name": "image5.png",
+      "path": null,
+      "bytes": 40543
+    },
+    {
+      "name": "image7.jpg",
+      "path": null,
+      "bytes": 6917
+    },
+    {
+      "name": "image12.jpg",
+      "path": null,
+      "bytes": 6909
+    },
+    {
+      "name": "image6.jpg",
+      "path": null,
+      "bytes": 11724
+    },
+    {
+      "name": "image10.jpg",
+      "path": null,
+      "bytes": 12559
+    },
+    {
+      "name": "image8.jpg",
+      "path": null,
+      "bytes": 3082
+    },
+    {
+      "name": "image9.jpg",
+      "path": null,
+      "bytes": 5289
+    },
+    {
+      "name": "image220.png",
+      "path": null,
+      "bytes": 70
+    },
+    {
+      "name": "image230.png",
+      "path": null,
+      "bytes": 70
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Table Normal",
+    "Title",
+    "Subtitle",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "annotation text",
+    "Jegyzetszöveg Char",
+    "annotation reference",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "Hyperlink",
+    "ELMS 1",
+    "ELMS 2",
+    "Címsor 1 Char",
+    "ELMS 1 Char",
+    "Feloldatlan megemlítés1",
+    "Címsor 2 Char",
+    "ELMS 2 Char",
+    "Caption",
+    "ELMS 3",
+    "table of figures",
+    "Címsor 3 Char",
+    "ELMS 3 Char",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "FollowedHyperlink",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "Table Grid",
+    "[Alapbekezdés]",
+    "No Spacing",
+    "TOC Heading",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "Strong"
+  ]
+}

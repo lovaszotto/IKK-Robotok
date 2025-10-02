@@ -1,26 +1,26 @@
 {
   "core_properties": {
     "creator": "Portik Izabella (ELMS)",
-    "lastModifiedBy": "Lovász Ottó",
-    "revision": "26",
+    "lastModifiedBy": "Pálvölgyi Rita (ELMS)",
+    "revision": "25",
     "created": "2023-03-21T10:59:00Z",
-    "modified": "2025-10-02T04:46:00Z"
+    "modified": "2024-08-05T12:16:00Z"
   },
   "app_properties": {
     "Template": "Normal.dotm",
     "TotalTime": "189",
     "Pages": "38",
-    "Words": "5940",
-    "Characters": "40988",
+    "Words": "5986",
+    "Characters": "41310",
     "Application": "Microsoft Office Word",
     "DocSecurity": "0",
-    "Lines": "341",
-    "Paragraphs": "93",
+    "Lines": "344",
+    "Paragraphs": "94",
     "ScaleCrop": "false",
     "lpstr": "Cím",
     "i4": "1",
     "LinksUpToDate": "false",
-    "CharactersWithSpaces": "46835",
+    "CharactersWithSpaces": "47202",
     "SharedDoc": "false",
     "HyperlinksChanged": "false",
     "AppVersion": "16.0000"
@@ -276,9 +276,9 @@
       "  "
     ],
     [
-      "Szőlészeti szakmai gépek III. - Zöldmunkák, metszés és betakarítás ",
-      "gépei",
-      ", a dróntechnika alkalmazása a szőlőtermesztésben"
+      "Szőlészeti szakmai gépek III. - Zöldmunkák, metszés és betakarítás gépei, a ",
+      "dróntechnika",
+      " alkalmazása a szőlőtermesztésben"
     ],
     [
       "Téma k",
@@ -288,17 +288,13 @@
     [
       "Forrás",
       ": ",
-      "Az eredeti könyv címe: ",
-      "Der",
-      " ",
+      "Az eredeti könyv címe: Der ",
       "Winzer",
       " 1. ",
       "Weinbau",
       ", 4. ",
       "Auflage",
-      " 2019, ",
-      "Der",
-      " ",
+      " 2019, Der ",
       "Verlag",
       " ",
       "Eugen",
@@ -1904,8 +1900,7 @@
       "L",
       " ",
       "alakú",
-      "(",
-      "4)",
+      "(4)",
       ",",
       " ",
       "U",
@@ -1916,8 +1911,7 @@
       " ",
       "kialakításúak",
       " ",
-      "(",
-      "5)",
+      "(5)",
       "lehetnek",
       " ",
       "(",
@@ -4328,7 +4322,8 @@
       " ",
       "gyakorisága,",
       " ",
-      "reakcióideje,",
+      "reakcióideje",
+      ",",
       " ",
       "amennyiben",
       " ",
@@ -4455,7 +4450,8 @@
       " ",
       "3–6",
       " ",
-      "kW-os",
+      "kW-",
+      "os",
       " ",
       "négyütemű",
       " ",
@@ -6397,7 +6393,8 @@
       " ",
       "óránként",
       " ",
-      "0,6–0,7",
+      "0,6–0,",
+      "7",
       " ",
       "ha",
       " ",
@@ -6727,7 +6724,8 @@
       " ",
       "gyümölcskocsány",
       " ",
-      "kötőerejét.",
+      "kötőerejét",
+      ".",
       " ",
       "Leválasztó",
       " ",
@@ -8763,7 +8761,8 @@
       " ",
       "felhasznált",
       " ",
-      "drónok,",
+      "drónok",
+      ",",
       " ",
       "valamint"
     ],
@@ -8774,7 +8773,8 @@
       " ",
       "végző",
       " ",
-      "drónok."
+      "drónok",
+      "."
     ],
     [
       "Monitoring",
@@ -8843,7 +8843,8 @@
       " ",
       "alkalmazásával",
       " ",
-      "(lézerszkennelés",
+      "(",
+      "lézerszkennelés",
       " ",
       "elvégzése",
       " ",
@@ -9268,7 +9269,8 @@
       " ",
       "akár",
       " ",
-      "80-90%-os",
+      "80-90%-",
+      "os",
       " ",
       "hordozóanyag-megtakarítást",
       " ",
@@ -9276,7 +9278,8 @@
       " ",
       "és",
       " ",
-      "50%-os",
+      "50%-",
+      "os",
       " ",
       "növényvédőszer-hatóanyag",
       " ",
@@ -9440,7 +9443,8 @@
       " ",
       "„növényvédelmi",
       " ",
-      "drónpilóták”",
+      "drónpilóták",
+      "”",
       " ",
       "számára",
       " ",
@@ -9673,6 +9677,48 @@
   "tables": [
     [
       [
+        "Kéziratíró:",
+        "Lefler Péter"
+      ],
+      [
+        "Szakmai lektor:",
+        "Mátyus Imre"
+      ],
+      [
+        "Iskolai felhasználási cél:",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Élelmiszeripar"
+      ],
+      [
+        "Szakma:",
+        "\tBor- és pezsgőgyártó technikus "
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Szőlészeti és borászati ismeretek"
+      ],
+      [
+        "Tantárgy:",
+        "Szőlészeti és borászati szakmai gépek"
+      ],
+      [
+        "Évfolyam:",
+        "11, 12, 13. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "8 óra"
+      ]
+    ],
+    [
+      [
         "Előnyök",
         "Hátrányok"
       ],
@@ -9698,34 +9744,9 @@
   ],
   "images": [
     {
-      "name": "image11.png",
+      "name": "image18.png",
       "path": null,
-      "bytes": 490435
-    },
-    {
-      "name": "image1.png",
-      "path": null,
-      "bytes": 465234
-    },
-    {
-      "name": "image2.png",
-      "path": null,
-      "bytes": 520665
-    },
-    {
-      "name": "image3.jpg",
-      "path": null,
-      "bytes": 34493
-    },
-    {
-      "name": "image4.jpg",
-      "path": null,
-      "bytes": 90214
-    },
-    {
-      "name": "image5.png",
-      "path": null,
-      "bytes": 14626
+      "bytes": 480260
     },
     {
       "name": "image21.png",
@@ -9733,99 +9754,9 @@
       "bytes": 58728
     },
     {
-      "name": "image6.png",
+      "name": "image20.png",
       "path": null,
-      "bytes": 349771
-    },
-    {
-      "name": "image7.png",
-      "path": null,
-      "bytes": 14030
-    },
-    {
-      "name": "image8.png",
-      "path": null,
-      "bytes": 472240
-    },
-    {
-      "name": "image9.png",
-      "path": null,
-      "bytes": 395432
-    },
-    {
-      "name": "image10.png",
-      "path": null,
-      "bytes": 29678
-    },
-    {
-      "name": "image22.png",
-      "path": null,
-      "bytes": 145402
-    },
-    {
-      "name": "image23.png",
-      "path": null,
-      "bytes": 474130
-    },
-    {
-      "name": "image24.png",
-      "path": null,
-      "bytes": 410730
-    },
-    {
-      "name": "image25.jpg",
-      "path": null,
-      "bytes": 26583
-    },
-    {
-      "name": "image26.jpg",
-      "path": null,
-      "bytes": 67969
-    },
-    {
-      "name": "image16.png",
-      "path": null,
-      "bytes": 403529
-    },
-    {
-      "name": "image27.png",
-      "path": null,
-      "bytes": 29054
-    },
-    {
-      "name": "image17.png",
-      "path": null,
-      "bytes": 23318
-    },
-    {
-      "name": "image28.png",
-      "path": null,
-      "bytes": 56449
-    },
-    {
-      "name": "image14.png",
-      "path": null,
-      "bytes": 456254
-    },
-    {
-      "name": "image13.png",
-      "path": null,
-      "bytes": 217967
-    },
-    {
-      "name": "image12.png",
-      "path": null,
-      "bytes": 16879
-    },
-    {
-      "name": "image15.png",
-      "path": null,
-      "bytes": 263003
-    },
-    {
-      "name": "image18.png",
-      "path": null,
-      "bytes": 480260
+      "bytes": 396830
     },
     {
       "name": "image19.png",
@@ -9833,9 +9764,124 @@
       "bytes": 149142
     },
     {
-      "name": "image20.png",
+      "name": "image17.png",
       "path": null,
-      "bytes": 396830
+      "bytes": 23318
+    },
+    {
+      "name": "image22.png",
+      "path": null,
+      "bytes": 145402
+    },
+    {
+      "name": "image26.jpg",
+      "path": null,
+      "bytes": 67969
+    },
+    {
+      "name": "image24.png",
+      "path": null,
+      "bytes": 410730
+    },
+    {
+      "name": "image28.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image27.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image16.png",
+      "path": null,
+      "bytes": 403529
+    },
+    {
+      "name": "image25.jpg",
+      "path": null,
+      "bytes": 26583
+    },
+    {
+      "name": "image23.png",
+      "path": null,
+      "bytes": 474130
+    },
+    {
+      "name": "image13.png",
+      "path": null,
+      "bytes": 217967
+    },
+    {
+      "name": "image14.png",
+      "path": null,
+      "bytes": 456254
+    },
+    {
+      "name": "image5.png",
+      "path": null,
+      "bytes": 14626
+    },
+    {
+      "name": "image4.jpg",
+      "path": null,
+      "bytes": 90214
+    },
+    {
+      "name": "image3.jpg",
+      "path": null,
+      "bytes": 34493
+    },
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 520665
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 465234
+    },
+    {
+      "name": "image15.png",
+      "path": null,
+      "bytes": 263003
+    },
+    {
+      "name": "image6.png",
+      "path": null,
+      "bytes": 349771
+    },
+    {
+      "name": "image8.png",
+      "path": null,
+      "bytes": 472240
+    },
+    {
+      "name": "image7.png",
+      "path": null,
+      "bytes": 14030
+    },
+    {
+      "name": "image12.png",
+      "path": null,
+      "bytes": 16879
+    },
+    {
+      "name": "image10.png",
+      "path": null,
+      "bytes": 29678
+    },
+    {
+      "name": "image11.png",
+      "path": null,
+      "bytes": 490435
+    },
+    {
+      "name": "image9.png",
+      "path": null,
+      "bytes": 395432
     }
   ],
   "styles": [

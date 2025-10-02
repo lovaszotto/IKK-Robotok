@@ -1,0 +1,2614 @@
+{
+  "core_properties": {
+    "creator": "Mérai Orsolya (ELMS)",
+    "lastModifiedBy": "Pálvölgyi Rita (ELMS)",
+    "revision": "2",
+    "created": "2024-08-08T07:36:00Z",
+    "modified": "2024-08-08T07:36:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal.dotm",
+    "TotalTime": "0",
+    "Pages": "44",
+    "Words": "4983",
+    "Characters": "34383",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "286",
+    "Paragraphs": "78",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "39288",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "Egyedi megrendelés azonosítója: EM-2.2.3  ",
+    "Hús összetétele, vágás utáni elváltozásai",
+    "Témák kézirata",
+    "",
+    "",
+    "",
+    "TARTALOMJEGYZÉK",
+    "1\tA Hús\t3",
+    "1.1\tA hús Kémiai összetevői\t4",
+    "1.1.1\tVíz\t5",
+    "1.1.2\tFehérje\t7",
+    "1.1.3\tZsír\t9",
+    "1.1.4\tSzénhidrát\t11",
+    "1.1.5\tVitaminok\t12",
+    "1.1.6\tÁsványi anyagok, nyomelemek\t14",
+    "1.1.7\tEgyéb anyagok\t15",
+    "1.2\tA hús táplálkozás-élettani jelentősége\t16",
+    "1.2.1\tA hús, mint fehérjeforrás\t17",
+    "1.2.2\tA zsírtartalom jelentősége a hús táplálkozásbiológiai értékében\t20",
+    "1.2.3\tA húsban lévő szénhidrátok jelentősége\t20",
+    "1.2.4\tA húsban található védő tápanyagok táplálkozás-élettani jelentősége\t20",
+    "1.2.4.1\tVitaminok\t21",
+    "1.2.4.2\tÁsványi anyagok, nyomelemek\t21",
+    "1.3\tA hús szövettani összetevői, érzékszervi tulajdonságai\t22",
+    "1.3.1\tHús állománya\t22",
+    "1.3.2\tA hús színe\t23",
+    "1.4\tVágás után végbemenő folyamatok a húsban\t26",
+    "1.4.1\tAz állati izomzat működése\t26",
+    "1.4.2\tA vágás után a húsban bekövetkező változások\t27",
+    "1.4.2.1\tA vágás utáni, hullamerevség előtti állapot\t27",
+    "1.4.2.2\tHullamerevség (rigor mortis)\t29",
+    "1.4.2.3\tHullameverség megszűnése (post rigor szakasz)\t30",
+    "1.4.3\tA hús víztartó képessége\t30",
+    "1.4.4\tNormál és rendellenes húsérési folyamatok\t33",
+    "1.4.4.1\tPSE hús (pale, soft, exudative)\t35",
+    "1.4.4.2\tDFD hús (dark, firm, dry)\t36",
+    "1.4.5\tA hidegrövidülés jelensége\t39",
+    "1.5\tA hús érése, a hús porhanyósságát kialakító tényezők\t39",
+    "ÁBRAJEGYZÉK\t42",
+    "IRODALOMJEGYZÉK\t43",
+    "",
+    "A Hús",
+    "",
+    "Húsnak nevezzük az Európai Unióban, így Magyarországon hatályos jogszabályok által meghatározott emlősállatokból és madárfajokból (vágóállatok) kitermelt húst. A hús a vágóállatok harántcsíkolt izomszövetből felépülő vázizomzata, amely szerkezetéből adódóan tartalmazhat némi kötőszövetet, vérereket és idegszövetet. ",
+    "A hús az emberi szervezet számára fontos tápanyagok és egyéb anyagok forrása. A vágóállatok húsának összetételét, az egyes tápanyagok és összetevők egymáshoz viszonyított arányát sok tényező befolyásolja:",
+    "A hús főbb összetevőinek mennyiségét és arányát befolyásolja ",
+    "-\taz állat faja, fajtája",
+    "-\taz állat kora és ivara",
+    "-\ta húsrész szervezeten belüli elhelyezkedése",
+    "-\ta húsrész szöveti összetétele",
+    "-\taz állat takarmányozása",
+    "",
+    "A hús Kémiai összetevői",
+    "",
+    "A hús a többi állati és növényi eredetű élelmiszeripari alapanyaghoz hasonlóan a természetben előforduló és az élet kialakulásához nélkülözhetetlenül szükséges kémiai eredetű elemek, vegyületek, molekulák sokaságából épül fel. Ezek a kémia egységek eltérő mértékben és mennyiségben játszanak szerepet a hús felépítésében és jellemző tulajdonságainak kialakításában.  ",
+    "A húst felépítő legfontosabb kémiai összetevők:",
+    "víz",
+    "fehérjék",
+    "zsírok",
+    "szénhidrátok",
+    "vitaminok",
+    "ásványi anyagok",
+    "nyomelemek",
+    "Víz",
+    "",
+    "A húsban a legnagyobb mennyiségben jelen lévő alkotóelem a víz. A hús víztartalma 60-75% (m/m). Értéke viszonylag tág határok között mozog. A hús víztartalmát több tényező befolyásolhatja.",
+    "Az állat faja egyértelműen hatással van rá. A vágóállatok közül a halak és a csirke húsának a legmagasabb a víztartalma, emiatt hűtött körülmények között is rövidebb ideig tartható el, mint az alacsonyabb víztartalmú marhahús. Az egyes fajon belül a különböző fajtájú egyedek húsa között is megfigyelhetők a víztartalom-különbségek. Például a mangalica sertés húsának víztartalma alacsonyabb, mint a pitrain sertésé.",
+    "A hús víztartalmának szempontjából fontos tényező az állat kora. A fiatalabb állatok húsának magasabb a víztartalma, mint az idősebb egyedeké. Emiatt például az idősebb állatok húsa a szalámigyártás fő alapanyagaként jobban hasznosítható, mivel a szalámi gyártásának technológiája során az egyik fő cél a termék vízaktivitásának lecsökkentése, amelyet a hús víztartalmának részleges eltávolításával érnek el. ",
+    "Egy vágóállaton belül az egyes testtájak húsrészei között is nagyok lehetnek a különbségek. Azt alacsonyabb zsírtartalmú húsrészeknek, mint a comb, vagy a hátizomzat magasabb a víztartalma, mint a zsírszövettel átszőtt nyak, vagy oldalas részeknek. ",
+    "",
+    "Fehérje",
+    "",
+    "A hús fehérjetartalmát a víztartalomhoz hasonlóan több tényező befolyásolja. Ilyen tényező lehet a vágóállat faján kívül az adott húsrész zsír- és víztartalma, illetve a testen belüli elhelyezkedése.",
+    "Alacsony zsír- és magas víztartalmú, száraz hús fehérjetartalma: 22-23% (m/m)",
+    "Magas zsír- és alacsonyabb víztartalmú, zsíros hús fehérjetartalma: 12-16% (m/m)",
+    "A húsban lévő fehérjetartalom meghatározása során figyelembe kell venni a fehérje típusát is. A húsban lévő fehérjék esetében megkülönböztetünk:",
+    "-\tizomfehérjéket (miozin, aktin)",
+    "-\tkötőszöveti fehérjéket (kollagén, elasztin, keratin)",
+    "",
+    "",
+    "Zsír",
+    "",
+    "A hús zsírtartalma szintén függ az állat fajától, fajtájától, korától, ivarától, a hús testen belüli elhelyezkedéstől, illetve a húsrész víz és fehérje tartalmától.",
+    "A magas fehérje- és magas víztartalmú, száraz hús zsírtartalma 3 – 10% (m/m) között, az alacsony fehérje és alacsony víztartalmú hús zsírtartalma 10 – 37% (m/m) között változhat",
+    "A hús zsírtartalma a tápértéken kívül fontos biológiai értéket is képvisel, mert a zsírt alkotó zsírsavak azáltal, hogy elraktározzák a hús ízéért felelős vegyületeket, fontos szerepet töltenek be a hús ízének, illatának, zamatának kialakításában, illetve a zsírban oldódó vitaminok D, E, K, A) raktározásában. Az izomrostok közé beépült zsír nagy mennyiségben láthatóvá válik és márványozottság (intramuszkuláris zsír) formájában figyelhető meg. ",
+    "",
+    "",
+    "Szénhidrát",
+    "",
+    "A szénhidrát viszonylag kis mennyiségben, 0,1-1% (m/m)-ban van jelen a húsban. A szénhidrát a glükóz poliszacharidjaként, glikogénként raktározódik el a májban és az izomban. Mozgás közben az izom a glikogén lebontásával jut energiához. A szénhidráttartalom elsősorban a húsban a vágás után lezajló folyamatokat befolyásolja. Fontos szerepe van a hús érésében, porhanyósságának kialakulásában. ",
+    "",
+    "",
+    "Vitaminok",
+    "",
+    "A húsban lévő vitaminok aránya kb. 1% (m/m). Jelentős mennyiségben fordulnak elő a vízben oldódó B vitamincsoport tagjai (B1, B2, B3, B6, B12, niacin), illetve a zsírban oldódó A és D vitaminok. A hús vitamintartalma és azon belül a vitamintípusok aránya a vágóállat fajok esetében eltérő lehet. A sertéshús például a legjelentősebb B1 vitaminforrás, míg a marhahúsnak a B12 vitamin-, a baromfihúsnak a B3 vitamintartalma jelentős.",
+    "",
+    "",
+    "Ásványi anyagok, nyomelemek",
+    "",
+    "Természetes módon a méretükből adódóan, kisebb mennyiségben, kb. 1-2% (m/m)-ban fordulnak elő a húsban, ennek ellenére a hús ásványianyag-és nyomelem tartalma jelentős. A hús kisebb-nagyobb mennyiségben szinte minden ásványi anyagot és nyomelemet tartalmaz. Főbb ásványi anyagok és nyomelemek: kálcium, jód, vas, magnézium, foszfor, cink, kálium, nátrium.",
+    "",
+    "",
+    "Egyéb anyagok",
+    "",
+    "Nagyon kis mennyiségben a hús íz- és zamatanyagokat, illetve foszfortartalmú vegyületeket is tartalmaz, amely elsősorban a hús ízének kialakításáért felelősek. ",
+    "",
+    "A hús táplálkozás-élettani jelentősége",
+    "",
+    "A hús megfelelő mennyiségben fontos szerepet játszik az egészséges és kiegyensúlyozott táplálkozásban. Nagy mennyiségben tartalmaz olyan alaptápanyagokat, amelyek nélkülözhetetlenek az emberi szervezet felépítése és működtetése szempontjából. Ilyen alaptápanyagoknak tekinthetők a fehérjék, zsírok és a szénhidrátok.",
+    "",
+    "",
+    "A hús, mint fehérjeforrás",
+    "",
+    "A fehérjéknek fontos élettani, sejtalkotó és sejtfelépítő szerepük van. A fehérjék nélkülözhetetlenek az emberi izomzat, illetve az egész szervezet felépítésében. Jelentős feladatot töltenek be a víz megkötésében, a szervezet védekező képességének megtartásában, illetve az izomműködés biztosításában. ",
+    "",
+    "A fehérjék élettani jelentősége",
+    "",
+    "A fehérjék az állati és növényi eredetű élelmiszerek fogyasztása során jutnak a szervezetbe. A szervezet a táplálékban található formában nem tudja hasznosítani a fehérjéket. Ezeket a fehérjéket az emésztés során aminosavakra bontja, és ezekből az aminosavakból építi fel saját fehérjéit. A fehérjék alapvetően nitrogéntartalmú szerves vegyületek, amelyek szénből, hidrogénből, oxigénből, nitrogénből és kénből épülnek fel, de tartalmazhatnak más elemeket is, mint például foszfor, vas és magnézium. Ezekből az elemekből épülnek fel a fehérjét felépítő aminosavak. Az emberi táplálkozásban nagyjából húsz aminosavnak van jelentősége. Az aminosavak többségét az emberi szervezet az elfogyasztott tápanyagot felhasználva önmaga is elő tudja állítani, de kilenc, nélkülözhetetlen aminosavat viszont nem képes szintetizálni, ezért ezeket az úgynevezett esszenciális aminosavakat a táplálék útján kell a szervezetbe juttatni. Ha ezek az aminosavak hiányoznak, az ember nem tudja saját fehérjéit felépíteni. ",
+    "",
+    "Esszenciális aminosavak:",
+    "•\tfenilalanin,",
+    "•\thisztidin,",
+    "•\tizoleucin,",
+    "•\tleucin,",
+    "•\tlizin,",
+    "•\tmetionin,",
+    "•\ttreonin,",
+    "•\ttriptofán,",
+    "•\tvalin.",
+    "",
+    "Élettani jelentőségük alapján megkülönböztetünk teljes értékű és nem teljes értékű fehérjéket. A teljes értékű fehérjék az izomfehérjékben találhatók és tartalmazzák mind a kilenc esszenciális aminosavat. A nem teljes értékű fehérjék, mint a kötőszöveti fehérjék csak részben tartalmazzák az esszenciális aminosavakat. ",
+    "",
+    "",
+    "A zsírtartalom jelentősége a hús táplálkozásbiológiai értékében",
+    "",
+    "A hús zsírtartalmának az elsődleges funkciója az emberi szervezet számára az energia szolgáltatása. A szervezet működése szempontjából az energia szolgáltatásán kívül azért is fontosak, mert létfontosságú zsírsavakat tartalmaznak és a zsírban oldódó vitaminok is a zsírszövetben raktározódnak el. A zsírok a szervezet számára védő funkciót is betöltenek, mivel védik a belső szerveket és hőszabályozó, hőszigetelő funkciót is ellátnak.",
+    "",
+    "A húsban lévő szénhidrátok jelentősége",
+    "",
+    "A hús szénhidráttartalma a növényi élelmiszerekhez képest kisebb, emiatt a szervezet működéséhez szükséges szénhidrátmennyiséget a hús kevésbé tudja biztosítani.  A húsban lévő szénhidrát elsősorban glikogén formájában van jelen, ami az állat halála után lebomlik és végül tejsavvá alakul át. A keletkezett tejsav csökkenti a hús pH értékét ezáltal befolyásolja a hús érési folyamatait. ",
+    "",
+    "A húsban található védő tápanyagok táplálkozás-élettani jelentősége",
+    "",
+    "A védő tápanyagok nélkülözhetetlenek a szervezet egészséges működésének biztosításához, az anyagcsere folyamatok szabályozásához, zavartalan lefutásához. A húsban található védő tápanyagokat két nagyobb csoportba sorolhatjuk:",
+    "vitaminok",
+    "ásványi anyagok és nyomelemek",
+    "",
+    "Vitaminok",
+    "",
+    "A vitaminok az emberi szervezet anyag és energiaforgalmának biztosításában nélkülözhetetlen szerves vegyületek. A vitaminok fontos szerepet játszanak az anyagcsere folyamatokban, a szervezet ellenálló képességének fokozásában, az idegrendszer kiegyensúlyozott működésében, a növekedés elősegítésében. Egyoldalú, vitaminszegény táplálkozás esetén a szervezet nem jut megfelelő mennyiségben az egészséges működéséhez szükséges vitaminokhoz, ami egyes esetekben úgynevezett hiánybetegségek kialakulását idézheti elő. Ilyen hiánybetegség például a C-vitamin hiány okozta skorbut, vagy az A-vitamin hiány esetén fellépő farkasvakság.  A húsban nagyrészt olyan vitaminok találhatók, amelyek a természetben elsősorban az állati eredetű élelmiszerekben fordulnak elő. Ilyen vitamin az A és a D vitamin, valamint a B vitamincsoport vitaminjai. ",
+    "",
+    "Ásványi anyagok, nyomelemek",
+    "",
+    "Az ásványi anyagok a természetben így az állati szervezetben is megtalálható szervetlen elemek. Fontos szerepet töltenek be az anyagcsere és idegrendszeri folyamatok normál működésének biztosításában. Az emberi szervezet számára szükséges a napi mennyiség, az állati és növényi élelmiszerek fogyasztásával fedezhető.",
+    "Azokat az elemeket, amelyeket grammnyi mennyiségben igényel a szervezet makroelemeknek,  amelyeket pedig milligramm vagy ennél kisebb mennyiségben igényel, mikroelemeknek vagy nyomelemeknek nevezzük. ",
+    "Makroelemek közé tartoznak: nátrium, kálium, kalcium, magnézium, foszfor, klór.",
+    "Mikroelemek közé tartoznak: vas, réz, cink, mangán, fluor, jód.",
+    "",
+    "A hús szövettani összetevői, érzékszervi tulajdonságai",
+    "",
+    "Húsipari szempontból a húsnak a vágóállatokból kitermelt vázizomzatát nevezzük, amelynek a fő tömegét a harántcsíkolt izomszövet teszi ki. A hús összetételét tekintve összetett rendszer, mert a harántcsíkolt izomszöveten kívül eltérő mértékben tartalmazhat kötőszöveti elemeket, zsírszövetet, ereket, idegeket. A hús szöveti összetételét nagymértékben befolyásolja a vágóállat faja és fajtája. Az egyes vágóállatok húsában (pl. sertés, szarvasmarha, csirke) eltérő mértékben van jelen az izomrostok között lerakódott zsír, illetve különbség mutatható ki a kötőszöveti fehérjék mennyiségében is. ",
+    "",
+    "Hús állománya",
+    "",
+    "A hús 0-5 °C közötti hűtött állapotban jól aprítható és szeletelhető. Állománya a szöveti felépítéséből adódóan kemény, rugalmas, korlátozottan összenyomható, azonban a különböző vágóállat fajokból, fajtákból és eltérő testtájakból származó hús nem minden esetben rendelkezik ugyanolyan tulajdonságokkal. A hús állományát víztartalom és szöveti összetétel nagymértékben befolyásolja. A magasabb víz és alacsonyabb kötőszöveti tartalmú húsrészek, mint például a sertés karaj és a comb egyes részei keményebb és rugalmasabb tulajdonságot mutatnak a magasabb zsírtartalmú húsrészeknél. A hús felépítésében döntő szerepet játszó izomkötegek egymáshoz kapcsolódása, összehúzódott és elernyedt állapota is befolyással van a hús keménységére. A hullamerevség során összehúzódott izomkötegek miatt alakul ki a hús kemény állománya. Az érési folyamatok eredményeként a fehérjebontó enzimek lebontják az izomkötegek összehúzódását előidéző izomfehérjék keresztkötéseit, ezáltal a hús állománya lényegesen puhább, porhanyósabb lesz. Az izomkötegek között kialakult zsír azáltal, hogy egy puhább állományú réteget képez az izomkötegek között, ami csökkenti a hús keménységét. Emiatt a magasabb zsírtartalmú hús állománya puhább az alacsony zsírtartalmú húsrészekhez képest. ",
+    "",
+    "",
+    "A hús színe",
+    "",
+    "A hús piros-rózsaszín színét a nagyrészt hús szöveteiben jelen lévő húspigment, más néven a mioglobin mennyisége határozza meg. A mioglobin egy oxigént megkötő fehérje, amely az izmok oxigénnel való ellátásában játszik szerepet. A mioglobin az oxigén mellett képes a húsban lévő vas ionokat is megkötni, oxomioglobin vegyület jön létre. A keletkezett vegyület fogja kialakítani a hús élénk piros színét.  A mioglobin mennyisége a húsban függ az állat korától, ivarától, fajától, fajtájától. A hús szövetekben minél nagyobb a mioglobin és minél több a megköthető vas mennyisége, a hús annál sötétebb vörös színű lesz. Az idősebb állatok húsa több mioglobint és a takarmányozás miatt több vasat tartalmaz, emiatt a húsuk is sötétebb színű. A baromfi húsban a mioglobin mennyisége sokkal kisebb, mint a szarvasmarha húsban, emiatt a baromfihús halványabb rózsaszínű, a marhahús sötét vörös színű lesz. Az állat különböző testtájaiban elhelyezkedő húsrészek piros színe is eltérő élénkségű lehet annak függvényében, hogy az állat mozgásában az adott húsrész milyen szerepet tölt be. A több mozgást végző, a testtartásért és a mozgásért felelős, jobban igény bevett izomszövetnek nagyobb az oxigén igénye, emiatt az adott húsrészben nagyobb lesz a mioglobin koncentráció, így az állati testben a nagy erőkifejtést, sok mozgást végrehajtó húsrészek sötétebb vörös színűek, a kevesebb mozgást végző húsrészeknél. A mioglobin környezeti hatásokra, mint például a pH csökkenés, vagy a környezeti hőmérséklet emelkedése könnyen oxidálódhat. Az oxidálódott mioglobin elveszti oxigénkötő tulajdonságát, oxomioglobin helyett metmioglobin keletkezik, így a vas ionok hatására a hús nem élénk vörös, hanem szürkés, vagy barnás színű lesz. Emiatt van az, hogy a főtt, illetve a sült húsok színe szürkés, vagy barnás színű.  ",
+    "",
+    "Vágás után végbemenő folyamatok a húsban",
+    "",
+    "Az állati izomzat működése",
+    "",
+    "Az állati izomzat működéséhez szükséges kémiai energiát a táplálékkal a szervezetbe kerülő szénhidrát biztosítja. A táplálék emésztése során a szénhidrát glikogénné alakul át, amely bekerül a véráramba, majd onnan a májba. Az állat nyugodt állapotában a glikogén a májban raktározódik el. Az állat mozgása során a májban elraktározott glikogén felszabadul és a véráram segítségével eljut a munkát végző izomszövetekhez. Az izom a működése (összehúzódás-elernyedés) során a glikogén oxigén jelenlétében nagy energiájú foszfát vegyületté, ATP-vé (adenozin-trifoszfát) bomlik le, majd a keletkezett ATP további lebomlásával energia szabadul fel. Ezt a felszabadult energiát az izomzat a működése (elernyedése-összehúzódása) során felhasználja. Minél erőteljesebb az izommunka, az izmoknak annál több ATP-re és oxigénre van szüksége. A lebomlott glikogén és ATP oxigén jelenlétében energia felszabadulása mellett, nagyrészt vízzé és széndioxiddá, kisebb részben tejsavvá alakul. A folyamat során a vér a keletkezett tejsavat a májba szállítja, ahol megtörténik a visszaalakulás glikogénné, ami a májban újra elraktározódik. A keletkezett széndioxidot szintér a vér szállítja el a tüdőhöz, ami a légzés során kiürül a szervezetből. A jelenség során nagy mennyiségű hő termelődik, amely az állat normál testhőmérsékletét biztosítja.",
+    "",
+    "A vágás után a húsban bekövetkező változások",
+    "",
+    "A vágás utáni, hullamerevség előtti állapot ",
+    "",
+    "Az állat halála után megszűnik az izomzat oxigén ellátása (megszűnik a légzése). Oxigén hiányában a glikogén és az ATP lebomlása során nem víz, hanem nagy mennyiségű tejsav képződik. A keringés megszűnésével a vér már nem tudja az izmokból elszállítani a nagy mennyiségben keletkezett tejsavat, elindul a hús pH értékének csökkenése. A glikogén és a lebomlásával keletkező ATP mennyisége a húsban a folyamat során nagymértékben lecsökken, hiszen az állat halála után megszűnik a táplálék útján bevitt szénhidrát utánpótlás. Az ilyen hús élénkvörös színű, rugalmas állományú, jól megmunkálható. ",
+    "",
+    "",
+    "Hullamerevség (rigor mortis)",
+    "",
+    "A glikogén és ATP hiányában a húsban lévő kalcium hatására a különálló aktin és miozin izomfehérjék összekapcsolódnak, az izomzat összehúzódik és a halál után pár órával beáll a hullamerevség állapota. A hullamerev hús fénytelen, matt színű, az összekapcsolódott aktin és miozin fehérjék által létrehozott aktomiozin komplex miatt merev, görcsös állapotú, emiatt nehezen megmunkálható.",
+    "",
+    "Hullameverség megszűnése (post rigor szakasz)",
+    "",
+    "A hullamerevség megszűnését fehérjebontó enzimek idézik elő. Az enzimek lebontják a hullamerevség során képződő aktomiozin komplex keresztkötéseit, így az aktin és a miozin izomfehérjék eltávolodnak egymástól. Az aktomiozin komplex lebontását a kalpain nevű enzimfehérje végzi. A kalpain enzim működéséhez nagy mennyiségű kalcium szükséges. A szükséges kalciumforrást a húsban lévő kalcium mennyiség biztosítja. A folyamat során a hús folyamatosan puhul (a fehérjebontó enzimek működésének következménye). Íz- és érzékszervi javulást okozó változások következnek be.",
+    "",
+    "A hús víztartó képessége",
+    "",
+    "Az izomrostot (miofibrillumot) alkotó aktin és miozin fehérjeszálak közötti térben nagy mennyiségű víz halmozódik fel. A hullamerevség miatt fellépő összehúzódás, aktomiozin komplex kialakulása és a pH-csökkenés miatt az aktin és a miozin fehérjeláncok közötti a taszítóerő csökken, így a fehérjeszálak között a tér kisebb lesz. Az ott tárolódott víz kiszorul a sejtközötti térbe és csepegési veszteségként jelentkezik. A pH-csökkenés miatt a miozin felületén lévő negatív töltésmennyiség folyamatosan csökken, így az azonos töltésű fehérjeláncok közötti elektrosztatikus taszítóerő kisebb lesz, a fehérjeláncok közötti tér összezsugorodik. A pH csökkenése során az izomfehérje eléri az izoelektromos pontot (5,4-es pH), ahol a pozitív és a negatív töltésszám egyenlő, a fehérjeszálak közötti taszítóerő és a távolság minimális. A térben jelen lévő, fehérjéket és egyéb értékes anyagokat tartalmazó víz a szűkülő tér miatt kipréselődik az izomrostok közül és csepegési veszteségként jelentkezik.",
+    "",
+    "",
+    "Normál és rendellenes húsérési folyamatok",
+    "",
+    "A glikogénbomlás teljes lezajlása nagyjából 24 óráig tart. Ez idő alatt a hús pH-értéke a 7,2-es kezdeti értékről 5,6-5,8-ra esik vissza. Ilyen pH-csökkenés esetében normál húsérési folyamatról beszélünk. A normál állapotú hús állománya rugalmas, jól megmunkálható, szeletelhető, mérsékelten léeresztő. Színe halványabb a friss vágásmeleg húsnál. ",
+    "",
+    "",
+    "",
+    "PSE hús (pale, soft, exudative)",
+    "",
+    "Rendellenes húsérési folyamat eredményeként kialakult halvány rózsaszín színű = (pale), puha állományú = (soft), vizenyős, léeresztő = (exudative) hús. Kialakulását a gyors és a normál húsnál nagyobb mértékű pH-csökkenés okozza.  A vágás után a hús pH értéke gyors ütemben csökken, majd a normál húsnál alacsonyabb, 5,2-5,3-as pH értékre esik le. A hús vízkötő víztartó képessége rendkívül rossz, mivel alacsonyabb pH értéken a hús fehérjék a hozzájuk kötött vizet elengedik, ami csepegési veszteségként jelentkezik. Elsősorban sertéseknél fordul elő. A PSE hús kialakulását a vágás előtti stresszes állapot, a pihentetés hatékonysága is befolyásolja. Egyes sertésfajták fokozottan érzékenyek a stresszhatásokra, (pl. Pietrain) így esetükben a PSE hús kialakulásárának kockázata nagyobb, mint a stressztűrő (pl. Duroc) fajták esetében.",
+    "",
+    "DFD hús (dark, firm, dry)",
+    "",
+    "Elsősorban marhahúsokra jellemző, de sertéshúsnál is előforduló rendellenes húsérési folyamat. A pH változása kismértékű, a kezdeti 7,2-es értékről a hús pH-értéke a normál húsnál jóval magasabb, 6,7-6,8 pH-értékig csökken le. A kismértékű pH-csökkenés oka, hogy az izmokban kevés szénhidrát halmozódik fel, így a lebomlási folyamat során kevés tejsav képződik. A hús sötét színű = (dark), ragadós, kemény állományú = (firm). Csepegési vesztesége, léeresztése minimális = (dry). A DFD hús vízkötő képessége rendkívül jó, mivel a 7 körüli pH-értéken a húsfehérjék nagy mennyiségű idegen vizet tudnak magukhoz kötni, de a magas pH miatt romlékony.",
+    "",
+    "",
+    "",
+    "A hidegrövidülés jelensége",
+    "",
+    "Elsősorban alacsony glikogén tartalmú, lassú pH-csökkenéssel jellemezhető húsok, például a szarvasmarha testek vágás utáni, 10 °C alatti hűtésénél fellépő jelenség, a hidegrövidülés negatívan befolyásolja a húsminőséget. A folyamat során az izomrostok összehúzódnak, a hús léeresztő és rágós lesz. A hűtés hatására a hullamerevséget, és a rágós hús kialakulását okozó aktomiozin komplex lebontásáért felelős fehérjebontó enzimek működése lelassul. Az enzimek lassuló tevékenységük miatt nem képesek a hús kalcium tartalmát felhasználni, amely felelős az izom összehúzódás kialakulásáért. A jelenség során fellépő rágósság, húskeménység a hullamerev állapot megszűnése után is fennmarad.",
+    "",
+    "A hús érése, a hús porhanyósságát kialakító tényezők",
+    "",
+    "A hús érése során lezajló folyamatok közül a legfontosabb a porhanyósság, amely döntően befolyásolja a hús élvezeti értékét, érzékszervi tulajdonságait. A porhanyósság a hús rágása során keletkezett érzékszervi benyomás, vagy érzet, amely a hús keménységével, mechanikai tulajdonságaival van összefüggésben. Minél kevésbé rágós és lédús a hús, annál kedvezőbb az élvezeti értéke. A kedvező porhanyósság kialakulását a hús szöveti összetétele, tulajdonsága és a vágás után a húsban lezajló több folyamat is befolyásolhatja. ",
+    "A hús élvezeti értékét befolyásoló tényezők:",
+    "-\taz állat faja, fajtája, kora, ivara",
+    "-\ta hús kötőszöveti tartalma, kötőszöveti fehérjék mennyisége",
+    "-\taz izomrostok és izomkötegek között lerakódott zsírszövet (intramuszkuláris zsír) mennyisége és eloszlása",
+    "-\ta hús víztartó képessége ",
+    "-\ta hús szénhidráttartalma",
+    "-\taz állat halála után az izomfehérjék összekapcsolódásának, összehúzódásának mértéke",
+    "-\taz összekapcsolódott izomfehérjéket lebontó fehérjék aktivitása ",
+    "-\ta hús pH-értékének változása ",
+    "-\ta hús hűtésének hőmérséklete, a hűtési idő",
+    "A húsok érése és a megfelelő porhanyós állomány kialakulása hosszabb folyamat. ",
+    "A megfelelő porhanyósság kialakulásában fontos szerepet játszik a húsban a vágás után végbemenő pH-csökkenés sebessége. Alacsony szénhidráttartalmú húsban a végső pH-érték kismértékű glikogén bomlás miatt a vágás után csak minimális értékben csökken. A fehérjebontó enzimek magas pH-értéken aktívabbak, gyorsabb ütemben képesek lebontani, szétválasztani az összekapcsolódott aktin és miozin izomfehérjéket és az összekapcsolódást segítő vázfehérjéket (Z és M vonal), amely a hús kemény, rágós állományát okozzák. A magas pH-érték és a gyors aktomiozin komplex lebontás ellenére a hús érésében, porhanyós állomány kialakulásában nem minden esetben előnyös, mert a magas, 6,2-es végső pH-érték feletti húsban nagy a hidegrövidülés kialakulásának kockázata. Ilyen esetben az összehúzódott izom az lebontó enzimek jelenléte ellenére sem ernyed el. A porhanyósodás nem tud végbe menni és a hús rágós marad. ",
+    "A pH csökkenésével a fehérjebontó enzimek aktivitása is csökken, az alacsony pH-értékű húsban a megfelelő porhanyós állomány kialakulása tovább tart. A hosszabb érlelési idő a hús élvezeti értékének növelése szempontjából előnyösebb, mert a lebontó enzimek tevékenységének lassulása mellet, más fontos élvezeti értéket befolyásoló folyamatok is végbe mennek. Ilyen kedvező folyamat az aromaanyagok kialakulása, vagy a zsírok, kötőszöveti fehérjék enzimes lebomlása. ",
+    "A hőmérséklet is lényegesen befolyásolja a hús porhanyósodásának lefutási sebességét. A fehérjebontó enzimek aktivitása 10 °C-alatti hűtött körülmények között nagymértékben lelassul, ezáltal a porhanyósodás hosszabb ideig tart. 10 °C felett a porhanyósodás ideje jelentősen megrövidül, de a magas hőmérsékleten történő hús érlelése az élelmiszerbiztonsági kockázatok miatt nem megvalósítható.",
+    "A hús izomnyalábjai és izomkötegei között jelenlévő márványos (intramuszkuláris) zsír és kötőszöveti fehérje javítja a hús porhanyós állományát, mivel csökkentik a lékiválást, ezáltal javítják a hús lédús érzetét. A húsban lévő kötőszöveti fehérjék hőkezelés (sütés, főzés) hatására a hús víztartalmával oldatot képez, amely „szaftos” érzetet keltve javítja a hús élvezeti értékét. ",
+    "Az állatok faja, fajtája, kora is befolyásolhatja a hús porhanyósságának kialakulását. Fontos, a porhanyósságot befolyásoló tulajdonság, hogy az egyes fajok esetében milyen gyorsan alakul ki a hullamerevség állapota. A baromfi esetében rövid idő, akár 2 óra alatt, a szarvasmarha esetében kb. 18-24 óra alatt alakul ki a hullamerevség. A hullamerevség során kialakult görcsös állapot, aktomiozin komplex felbomlását előidéző enzimtevékenység a baromfi esetében gyorsan beindul, így a csirke húsban viszonylag gyorsan kialakul a porhanyós állomány, míg a marhahús porhanyós állományának kialakulásához sokkal több idő szükséges. Az egyes fajok húsának eltérő kötőszöveti összetétele, márványozottsága is befolyásolja a hús érését, élvezeti értékét. ",
+    "",
+    "ÁBRAJEGYZÉK",
+    "1. ábra: A hús szemléltető fotója\t5",
+    "2. ábra: Hús víztartalma\t7",
+    "3. ábra: Izomfehérjék felépítése\t9",
+    "4. ábra: Márványozott hús\t10",
+    "5. ábra: Glikogén molekula felépítése\t12",
+    "6. ábra: Hús vitamintartalmát szemléltető fotó\t13",
+    "7. ábra: Ásványi anyagok, nyomelemek szemléltető fotó\t14",
+    "8. ábra: A hús táplálkozásban betöltött szerepe\t16",
+    "9. ábra: A húsfehérjék szerepe a táplálkozásban\t18",
+    "10. ábra: Hús kemény, rugalmas állománya\t22",
+    "11. ábra: Sertés, marha és baromfi húsok színkülönbsége\t24",
+    "12. ábra: Az izomban mozgás során végbemenő szénhidrát lebontási folyamatok\t26",
+    "13. ábra: A húsban a vágás után lezajló szénhidrát lebontási folyamatok\t27",
+    "14. ábra: A hús víztartó képességének változása a pH csökkenés és a hullamerevség hatására\t30",
+    "15. ábra: Normál állapotú hús\t32",
+    "16. ábra: : Rendellenes húsérési folyamatok pH változása\t33",
+    "17. ábra: Normál és rendellenes érésű húsok közötti különbség\t35",
+    "18. ábra: : A normál és rendellenes érésű húsok víztartó képességének szemléltetése\t36",
+    "",
+    "",
+    "IRODALOMJEGYZÉK",
+    "Mária, V. D. (1996.). Húsipari továbbképző napok, A nyers hús. OHKI.",
+    "Péter, N. (2017.). Hentes és mészáros mester jegyzet . NAK. .",
+    "Zs., V. T. ( 2010.). Húsipari termékgyártás. VKSZI.",
+    ""
+  ],
+  "runs": [
+    [
+      "Egyedi megrendelés azonosítója:",
+      " ",
+      "EM-2.2.3  "
+    ],
+    [
+      "Hús összetétele, vágás utáni elváltozásai"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [],
+    [],
+    [],
+    [
+      "TARTALOMJEGYZÉK"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "A Hús"
+    ],
+    [],
+    [
+      "Húsnak nevezzük az Európai Unióban, így Magyarországon hatályos jogszabályok által meghatározott emlősállatokból és madárfajokból (vágóállatok) kitermelt húst. A hús a vágóállatok harántcsíkolt izomszövetből felépülő vázizomzata, amely szerkezetéből adódóan tartalmazhat némi kötőszövetet, ",
+      "vérereket",
+      " és idegszövetet. "
+    ],
+    [
+      "A hús az emberi szervezet számára fontos tápanyagok és egyéb anyagok forrása. A vágóállatok húsának összetételét, az egyes tápanyagok és összetevők egymáshoz viszonyított arányát sok tényező befolyásolja:"
+    ],
+    [
+      "A hús főbb összetevőinek mennyiségét és arányát befolyásolja "
+    ],
+    [
+      "-",
+      "\taz állat faja, fajtája"
+    ],
+    [
+      "-",
+      "\taz állat kora és ",
+      "ivara"
+    ],
+    [
+      "-",
+      "\ta húsrész szervezeten belüli elhelyezkedése"
+    ],
+    [
+      "-",
+      "\ta húsrész szöveti összetétele"
+    ],
+    [
+      "-",
+      "\taz állat takarmányozása"
+    ],
+    [],
+    [
+      "A hús Kémiai összetevői"
+    ],
+    [],
+    [
+      "A hús a többi állati és növényi eredetű élelmiszeripari alapanyaghoz hasonlóan a természetben előforduló és az élet kialakulásához nélkülözhetetlenül szükséges kémiai eredetű elemek, vegyületek, molekulák sokaságából épül fel. Ezek a kémia egységek eltérő mértékben és ",
+      "mennyiségben játszanak szerepet a hús felépítésében és jellemző tulajdonságainak kialakításában.  "
+    ],
+    [
+      "A húst felépítő legfontosabb kémiai összetevők:"
+    ],
+    [
+      "víz"
+    ],
+    [
+      "fehérjék"
+    ],
+    [
+      "zsírok"
+    ],
+    [
+      "szénhidrátok"
+    ],
+    [
+      "vitaminok"
+    ],
+    [
+      "ásványi anyagok"
+    ],
+    [
+      "nyomelemek"
+    ],
+    [
+      "Víz"
+    ],
+    [],
+    [
+      "A ",
+      "húsban",
+      " a legnagyobb mennyiségben jelen lévő alkotóelem a víz. A hús víztartalma ",
+      "60-75% (m/m). ",
+      "Értéke viszonylag tág határok között mozog. A hús víztartalmát több tényező befolyásolhatja."
+    ],
+    [
+      "Az állat faja egyértelműen hatással van rá. A vágóállatok közül a halak és a csirke húsának a legmagasabb a víztartalma, emiatt hűtött körülmények között is rövidebb ideig tartható el, mint az alacsonyabb ",
+      "víztartalmú",
+      " marhahús. Az egyes fajon belül a különböző fajtájú egyedek húsa között is megfigyelhetők a víztartalom-különbségek. Például a mangalica sertés húsának víztartalma alacsonyabb, mint a ",
+      "pitrain",
+      " sertésé."
+    ],
+    [
+      "A hús víztartalmának szempontjából fontos tényező az állat kora. A fiatalabb állatok húsának magasabb a víztartalma, mint az idősebb ",
+      "egyedeké",
+      ". Emiatt például az idősebb állatok húsa a szalámigyártás fő alapanyagaként jobban hasznosítható, mivel a szalámi gyártásának technológiája során az egyik fő cél a termék vízaktivitásának lecsökkentése, amelyet a hús víztartalmának részleges eltávolításával érnek el. "
+    ],
+    [
+      "Egy vágóállaton belül az egyes testtájak húsrészei között is nagyok lehetnek a különbségek. Azt alacsonyabb ",
+      "zsírtartalmú",
+      " húsrészeknek, mint a comb, vagy a hátizomzat magasabb a víztartalma, mint a zsírszövettel átszőtt nyak, vagy oldalas részeknek. "
+    ],
+    [],
+    [
+      "Fehérje"
+    ],
+    [],
+    [
+      "A hús fehérjetartalmát a víztartalomhoz hasonlóan több tényező befolyásolja. Ilyen tényező lehet a vágóállat faján kívül az adott húsrész zsír- és víztartalma, illetve a testen belüli elhelyezkedése."
+    ],
+    [
+      "Alacsony zsír- és magas ",
+      "víztartalmú",
+      ", száraz hús fehérjetartalma: ",
+      "22-23% (m/m)"
+    ],
+    [
+      "Magas zsír- és alacsonyabb ",
+      "víztartalmú",
+      ", zsíros hús fehérjetartalma: ",
+      "12-16% (m/m)"
+    ],
+    [
+      "A húsban lévő fehérjetartalom meghatározása során figyelembe kell venni a fehérje típusát is. A húsban lévő fehérjék esetében megkülönböztetünk:"
+    ],
+    [
+      "-",
+      "\tizomfehérjéket (",
+      "miozin",
+      ", aktin)"
+    ],
+    [
+      "-",
+      "\tkötőszöveti fehérjéket (kollagén, ",
+      "elasztin",
+      ", keratin)"
+    ],
+    [],
+    [],
+    [
+      "Zsír"
+    ],
+    [],
+    [
+      "A hús zsírtartalma szintén függ az állat fajától, fajtájától, korától, ",
+      "ivarától",
+      ", a hús testen belüli elhelyezkedéstől, illetve a húsrész víz és fehérje tartalmától."
+    ],
+    [
+      "A magas fehérje- és magas ",
+      "víztartalmú",
+      ", száraz hús zsírtartalma ",
+      "3 – 10% (m/m) ",
+      "között, az alacsony fehérje és alacsony ",
+      "víztartalmú",
+      " hús zsírtartalma ",
+      "10 – 37% (m/m) ",
+      "között változhat"
+    ],
+    [
+      "A hús zsírtartalma a tápértéken kívül fontos biológiai értéket is képvisel, mert a zsírt alkotó ",
+      "zsírsavak",
+      " azáltal, hogy elraktározzák a hús ízéért felelős vegyületeket, fontos szerepet töltenek be a hús ízének, illatának, ",
+      "zamatának",
+      " kialakításában, illetve a zsírban oldódó ",
+      "vitaminok",
+      " ",
+      "D, E, K, A) raktározásában. Az izomrostok közé beépült zsír nagy mennyiségben láthatóvá válik és ",
+      "márványozottság",
+      " (intramuszkuláris zsír) formájában figyelhető meg. "
+    ],
+    [],
+    [],
+    [
+      "Szénhidrát"
+    ],
+    [],
+    [
+      "A szénhidrát viszonylag kis mennyiségben, ",
+      "0,1-1% (m/m)",
+      "-",
+      "ban",
+      " van jelen a húsban. A szénhidrát a glükóz ",
+      "poliszacharidjaként",
+      ", glikogénként ",
+      "raktározódik",
+      " el a májban és az izomban. Mozgás közben az izom a glikogén lebontásával jut energiához. A szénhidráttartalom elsősorban a húsban a vágás után lezajló folyamatokat befolyásolja. Fontos szerepe van a hús érésében, porhanyósságának kialakulásában. "
+    ],
+    [],
+    [],
+    [
+      "Vitaminok"
+    ],
+    [],
+    [
+      "A húsban lévő vitaminok aránya kb. ",
+      "1% (m/m). ",
+      "Jelentős mennyiségben fordulnak elő a vízben oldódó B vitamincsoport tagjai (B1, B2, B3, B6, B12, ",
+      "niacin",
+      "), illetve a zsírban oldódó A és D vitaminok. A hús vitamintartalma és azon belül a vitamintípusok aránya a vágóállat fajok esetében eltérő lehet. A sertéshús például a legjelentősebb B1 vitaminforrás, míg a marhahúsnak a B12 vitamin-, a baromfihúsnak a B3 vitamintartalma jelentős."
+    ],
+    [],
+    [],
+    [
+      "Ásványi anyagok, nyomelemek"
+    ],
+    [],
+    [
+      "Természetes módon a méretükből adódóan, kisebb mennyiségben, kb. ",
+      "1-2% (m/m)",
+      "-",
+      "ban",
+      " fordulnak elő a húsban, ennek ellenére a hús ",
+      "ásványianyag-",
+      "és ",
+      "nyomelem",
+      " ",
+      "tartalma jelentős. A hús kisebb-nagyobb mennyiségben szinte minden ásványi anyagot és nyomelemet tartalmaz. ",
+      "Főbb ásványi anyagok és nyomelemek: ",
+      "kálcium",
+      ", jód, vas, magnézium, foszfor, cink, kálium, nátrium."
+    ],
+    [],
+    [],
+    [
+      "Egyéb anyagok"
+    ],
+    [],
+    [
+      "Nagyon kis mennyiségben a hús íz- és zamatanyagokat, illetve ",
+      "foszfortartalmú",
+      " vegyületeket is tartalmaz, amely elsősorban a hús ízének kialakításáért felelősek. "
+    ],
+    [],
+    [
+      "A hús táplálkozás-élettani jelentősége"
+    ],
+    [],
+    [
+      "A hús megfelelő mennyiségben fontos szerepet játszik az egészséges és kiegyensúlyozott táplálkozásban. Nagy mennyiségben tartalmaz olyan ",
+      "alaptápanyagokat",
+      ", amelyek nélkülözhetetlenek az emberi szervezet felépítése és működtetése szempontjából. Ilyen alaptápanyagoknak tekinthetők a fehérjék, zsírok és a szénhidrátok."
+    ],
+    [],
+    [],
+    [
+      "A hús, mint fehérjeforrás"
+    ],
+    [],
+    [
+      "A fehérjéknek fontos élettani, sejtalkotó és sejtfelépítő szerepük van. A fehérjék nélkülözhetetlenek az emberi izomzat, illetve az egész szervezet felépítésében. Jelentős feladatot töltenek be a víz megkötésében, a szervezet védekező képességének megtartásában, illetve az izomműködés biztosításában. "
+    ],
+    [],
+    [
+      "A fehérjék élettani jelentősége"
+    ],
+    [],
+    [
+      "A fehérjék az állati és növényi eredetű élelmiszerek fogyasztása során jutnak a szervezetbe. A szervezet a táplálékban található formában nem tudja hasznosítani a fehérjéket. Ezeket a fehérjéket az emésztés során ",
+      "aminosavakra ",
+      "bontja, és ezekből az aminosavakból építi fel saját fehérjéit. A fehérjék alapvetően ",
+      "nitrogéntartalmú",
+      " szerves vegyületek, amelyek szénből, hidrogénből, oxigénből, nitrogénből és kénből épülnek fel, de tartalmazhatnak más elemeket is, mint például foszfor, vas és magnézium. Ezekből az elemekből épülnek fel a fehérjét felépítő aminosavak. Az emberi táplálkozásban nagyjából húsz aminosavnak van jelentősége. Az aminosavak többségét az emberi szervezet az elfogyasztott tápanyagot felhasználva önmaga is elő tudja állítani, de kilenc, nélkülözhetetlen aminosavat viszont nem képes szintetizálni, ezért ezeket az úgynevezett ",
+      "esszenciális aminosavakat",
+      " ",
+      "a táplálék útján kell a szervezetbe juttatni. Ha ezek az aminosavak hiányoznak, az ember nem tudja saját fehérjéit felépíteni. "
+    ],
+    [],
+    [
+      "Esszenciális aminosavak:"
+    ],
+    [
+      "•",
+      "\t",
+      "fenilalanin",
+      ","
+    ],
+    [
+      "•",
+      "\thisztidin,"
+    ],
+    [
+      "•",
+      "\t",
+      "izoleucin",
+      ","
+    ],
+    [
+      "•",
+      "\t",
+      "leucin",
+      ","
+    ],
+    [
+      "•",
+      "\t",
+      "lizin",
+      ","
+    ],
+    [
+      "•",
+      "\t",
+      "metionin",
+      ","
+    ],
+    [
+      "•",
+      "\t",
+      "treonin",
+      ","
+    ],
+    [
+      "•",
+      "\t",
+      "triptofán",
+      ","
+    ],
+    [
+      "•",
+      "\t",
+      "valin",
+      "."
+    ],
+    [],
+    [
+      "Élettani jelentőségük alapján megkülönböztetünk teljes értékű és nem teljes értékű fehérjéket. A teljes értékű fehérjék az izomfehérjékben találhatók és tartalmazzák mind a kilenc esszenciális aminosavat. A nem teljes értékű fehérjék, mint a kötőszöveti fehérjék csak részben tartalmazzák az esszenciális aminosavakat. "
+    ],
+    [],
+    [],
+    [
+      "A zsírtartalom jelentősége a hús táplálkozásbiológiai értékében"
+    ],
+    [],
+    [
+      "A hús zsírtartalmának az elsődleges funkciója az emberi szervezet számára az energia szolgáltatása. A szervezet működése szempontjából az energia szolgáltatásán kívül azért is fontosak, mert létfontosságú zsírsavakat tartalmaznak és a zsírban oldódó vitaminok is a zsírszövetben raktározódnak el. A zsírok a szervezet számára védő funkciót is betöltenek, mivel védik a belső szerveket és hőszabályozó, hőszigetelő funkciót is ",
+      "ellátnak",
+      "."
+    ],
+    [],
+    [
+      "A húsban lévő szénhidrátok jelentősége"
+    ],
+    [],
+    [
+      "A hús szénhidráttartalma a növényi élelmiszerekhez képest kisebb, emiatt a szervezet működéséhez szükséges szénhidrátmennyiséget a hús kevésbé tudja biztosítani.  A húsban lévő szénhidrát elsősorban glikogén formájában van jelen, ami az állat halála után lebomlik és végül tejsavvá alakul át. A keletkezett tejsav ",
+      "csökkenti",
+      " a hús pH értékét ezáltal befolyásolja a hús érési folyamatait. "
+    ],
+    [],
+    [
+      "A húsban található védő tápanyagok táplálkozás-élettani jelentősége"
+    ],
+    [],
+    [
+      "A védő tápanyagok nélkülözhetetlenek a szervezet egészséges működésének biztosításához, az anyagcsere folyamatok szabályozásához, zavartalan lefutásához. A húsban található védő tápanyagokat két nagyobb csoportba sorolhatjuk:"
+    ],
+    [
+      "vitaminok"
+    ],
+    [
+      "ásványi anyagok és nyomelemek"
+    ],
+    [],
+    [
+      "Vitaminok"
+    ],
+    [],
+    [
+      "A vitaminok az emberi szervezet anyag és energiaforgalmának biztosításában nélkülözhetetlen szerves vegyületek. A vitaminok fontos szerepet játszanak az anyagcsere folyamatokban, a szervezet ellenálló képességének fokozásában, az idegrendszer kiegyensúlyozott működésében, a növekedés elősegítésében. Egyoldalú, vitaminszegény táplálkozás esetén a szervezet nem jut megfelelő mennyiségben az egészséges működéséhez szükséges vitaminokhoz, ami egyes esetekben úgynevezett hiánybetegségek kialakulását idézheti elő. Ilyen hiánybetegség például a C-vitamin hiány okozta skorbut, vagy az A-vitamin hiány esetén fellépő farkasvakság.  A húsban nagyrészt olyan vitaminok találhatók, amelyek a természetben elsősorban az állati eredetű élelmiszerekben fordulnak elő. Ilyen vitamin az A és a D vitamin, valamint a B vitamincsoport vitaminjai. "
+    ],
+    [],
+    [
+      "Ásványi anyagok, nyomelemek"
+    ],
+    [],
+    [
+      "Az ásványi anyagok a természetben így az állati szervezetben is megtalálható szervetlen elemek. Fontos szerepet töltenek be az anyagcsere és idegrendszeri folyamatok normál működésének biztosításában. Az emberi szervezet számára szükséges a napi mennyiség, az állati és növényi élelmiszerek fogyasztásával fedezhető."
+    ],
+    [
+      "Azokat az elemeket, amelyeket grammnyi mennyiségben igényel a szervezet ",
+      "makroelemeknek",
+      ",",
+      " ",
+      " amelyeket",
+      " pedig milligramm vagy ennél kisebb mennyiségben igényel, ",
+      "mikroelemeknek",
+      " vagy nyomelemeknek nevezzük. "
+    ],
+    [
+      "Makroelemek",
+      " közé tartoznak: ",
+      "nátrium, kálium, kalcium, magnézium, foszfor, klór."
+    ],
+    [
+      "Mikroelemek közé tartoznak: ",
+      "vas, réz, cink, mangán, fluor, jód."
+    ],
+    [],
+    [
+      "A hús szövettani összetevői, érzékszervi tulajdonságai"
+    ],
+    [],
+    [
+      "Húsipari szempontból a húsnak a vágóállatokból kitermelt vázizomzatát nevezzük, amelynek a fő tömegét a harántcsíkolt izomszövet teszi ki. A hús összetételét tekintve összetett rendszer, mert a harántcsíkolt izomszöveten kívül eltérő mértékben tartalmazhat kötőszöveti elemeket, zsírszövetet, ",
+      "ereket",
+      ", idegeket. A hús szöveti összetételét nagymértékben befolyásolja a vágóállat faja és fajtája. Az egyes vágóállatok húsában (pl. sertés, szarvasmarha, csirke) eltérő mértékben van jelen az izomrostok között lerakódott zsír, illetve különbség mutatható ki a kötőszöveti fehérjék mennyiségében is. "
+    ],
+    [],
+    [
+      "Hús állománya"
+    ],
+    [],
+    [
+      "A hús 0-5 °C közötti hűtött állapotban jól aprítható és szeletelhető. Állománya a szöveti felépítéséből adódóan kemény, rugalmas, korlátozottan összenyomható, azonban a különböző vágóállat fajokból, fajtákból és eltérő testtájakból származó hús nem minden esetben rendelkezik ugyanolyan tulajdonságokkal. A hús állományát víztartalom és szöveti összetétel nagymértékben befolyásolja. A magasabb víz és alacsonyabb kötőszöveti tartalmú húsrészek, mint például a sertés karaj és a comb egyes részei keményebb és rugalmasabb tulajdonságot mutatnak a magasabb ",
+      "zsírtartalmú",
+      " húsrészeknél. A hús felépítésében döntő szerepet játszó izomkötegek egymáshoz kapcsolódása, összehúzódott és elernyedt állapota is befolyással van a hús keménységére. A hullamerevség során összehúzódott izomkötegek miatt alakul ki a hús kemény állománya. Az érési folyamatok eredményeként a fehérjebontó enzimek lebontják az izomkötegek összehúzódását előidéző izomfehérjék keresztkötéseit, ezáltal a hús állománya lényegesen puhább, porhanyósabb lesz. Az izomkötegek között kialakult zsír azáltal, hogy egy puhább állományú réteget képez az izomkötegek között, ami csökkenti a hús keménységét. ",
+      "Emiatt a magasabb ",
+      "zsírtartalmú",
+      " hús állománya puhább az alacsony ",
+      "zsírtartalmú",
+      " húsrészekhez képest. "
+    ],
+    [],
+    [],
+    [
+      "A hús színe"
+    ],
+    [],
+    [
+      "A hús piros-rózsaszín színét a nagyrészt hús ",
+      "szöveteiben",
+      " jelen lévő húspigment, más néven a ",
+      "mioglobin",
+      " mennyisége határozza meg. A ",
+      "mioglobin",
+      " egy oxigént megkötő fehérje, amely az izmok oxigénnel való ellátásában játszik szerepet. A ",
+      "mioglobin",
+      " az oxigén mellett képes a húsban lévő vas ionokat is megkötni, ",
+      "oxomioglobin",
+      " vegyület jön létre.",
+      " A keletkezett vegyület fogja kialakítani a hús élénk piros színét.  A ",
+      "mioglobin",
+      " mennyisége a húsban függ az állat korától, ",
+      "ivarától",
+      ", fajától, fajtájától. A hús szövetekben minél nagyobb a ",
+      "mioglobin",
+      " és minél több a megköthető vas mennyisége, a hús annál sötétebb vörös színű lesz. Az idősebb állatok húsa több ",
+      "mioglobint",
+      " és a takarmányozás miatt több vasat tartalmaz, emiatt a húsuk is sötétebb színű. A baromfi húsban a ",
+      "mioglobin",
+      " mennyisége sokkal kisebb, mint a szarvasmarha húsban, emiatt a baromfihús halványabb rózsaszínű, a marhahús sötét vörös színű lesz. Az állat különböző testtájaiban elhelyezkedő húsrészek piros színe is eltérő élénkségű lehet annak függvényében, hogy az állat mozgásában az adott húsrész milyen szerepet tölt be. A több mozgást végző, a testtartásért és a mozgásért felelős, jobban igény bevett izomszövetnek nagyobb az oxigén igénye, emiatt az adott húsrészben nagyobb lesz a ",
+      "mioglobin",
+      " koncentráció, így az állati testben a nagy erőkifejtést, sok mozgást végrehajtó húsrészek sötétebb vörös színűek, a kevesebb mozgást végző húsrészeknél. A ",
+      "mioglobin",
+      " környezeti hatásokra, mint például a pH csökkenés, vagy a környezeti hőmérséklet emelkedése könnyen oxidálódhat. Az oxidálódott ",
+      "mioglobin",
+      " elveszti oxigénkötő tulajdonságát, ",
+      "oxomioglobin",
+      " helyett ",
+      "metmioglobin",
+      " keletkezik,",
+      " így a vas ionok hatására a hús nem élénk vörös, hanem szürkés, vagy barnás színű lesz. Emiatt van az, hogy a főtt, illetve a sült húsok színe szürkés, vagy barnás színű.  "
+    ],
+    [],
+    [
+      "Vágás után végbemenő folyamatok a húsban"
+    ],
+    [],
+    [
+      "Az állati izomzat működése"
+    ],
+    [],
+    [
+      "Az állati izomzat működéséhez szükséges kémiai energiát a táplálékkal a szervezetbe kerülő szénhidrát biztosítja. A táplálék emésztése során a szénhidrát glikogénné alakul át, amely bekerül a véráramba, majd onnan a májba. Az állat nyugodt állapotában a glikogén a májban ",
+      "raktározódik",
+      " el. Az állat mozgása során a májban elraktározott glikogén felszabadul és a véráram segítségével eljut a munkát végző izomszövetekhez. Az izom a működése (összehúzódás-elernyedés) során a glikogén oxigén jelenlétében nagy energiájú foszfát vegyületté, ATP-vé (",
+      "adenozin-trifoszfát",
+      ") bomlik le, majd a keletkezett ATP további lebomlásával energia szabadul fel. Ezt a felszabadult energiát az izomzat a működése (elernyedése-összehúzódása) során felhasználja. Minél erőteljesebb az izommunka, az izmoknak annál több ATP-re és oxigénre van szüksége. A lebomlott glikogén és ATP oxigén jelenlétében energia felszabadulása mellett, nagyrészt vízzé és széndioxiddá, kisebb részben tejsavvá alakul. A folyamat során a vér a keletkezett tejsavat a májba szállítja, ahol megtörténik a visszaalakulás glikogénné, ami a májban újra ",
+      "elraktározódik",
+      ". A keletkezett széndioxidot szintér a vér szállítja el a tüdőhöz, ami a légzés során kiürül a szervezetből. A jelenség során nagy mennyiségű hő termelődik, amely az állat normál testhőmérsékletét biztosítja."
+    ],
+    [],
+    [
+      "A vágás után a húsban bekövetkező változások"
+    ],
+    [],
+    [
+      "A vágás utáni, hullamerevség előtti állapot",
+      " "
+    ],
+    [],
+    [
+      "Az állat halála után megszűnik az izomzat oxigén ellátása (megszűnik a légzése). Oxigén hiányában a glikogén és az ATP lebomlása során nem víz, hanem nagy mennyiségű tejsav képződik. A keringés megszűnésével a vér már nem tudja az izmokból elszállítani a nagy mennyiségben keletkezett tejsavat, elindul a hús pH értékének csökkenése. A glikogén és a lebomlásával keletkező ATP mennyisége a húsban a folyamat során nagymértékben lecsökken, hiszen az állat halála után megszűnik a táplálék útján bevitt szénhidrát utánpótlás. Az ilyen hús élénkvörös színű, rugalmas állományú, jól megmunkálható. "
+    ],
+    [],
+    [],
+    [
+      "Hullamerevség (",
+      "rigor",
+      " ",
+      "mortis",
+      ")"
+    ],
+    [],
+    [
+      "A glikogén és ATP hiányában a húsban lévő kalcium hatására a különálló aktin és ",
+      "miozin",
+      " izomfehérjék összekapcsolódnak, az izomzat összehúzódik és a halál után pár órával beáll a hullamerevség állapota. A hullamerev hús fénytelen, matt színű, ",
+      "az összekapcsolódott aktin és ",
+      "miozin",
+      " fehérjék által létrehozott ",
+      "aktomiozin",
+      " komplex",
+      " ",
+      "miatt ",
+      "merev, görcsös állapotú, emiatt nehezen megmunkálható."
+    ],
+    [],
+    [
+      "Hullameverség",
+      " megszűnése (post ",
+      "rigor",
+      " szakasz)"
+    ],
+    [],
+    [
+      "A hullamerevség megszűnését fehérjebontó enzimek idézik elő. ",
+      "Az enzimek lebontják a hullamerevség során képződő ",
+      "aktomiozin",
+      " komplex keresztkötéseit, így az aktin és a ",
+      "miozin",
+      " izomfehérjék eltávolodnak egymástól. Az ",
+      "aktomiozin",
+      " komplex lebontását a ",
+      "kalpain",
+      " nevű enzimfehérje végzi. A ",
+      "kalpain",
+      " enzim működéséhez nagy mennyiségű kalcium szükséges. A szükséges kalciumforrást a húsban lévő kalcium mennyiség biztosítja.",
+      " A folyamat során a hús folyamatosan puhul (a fehérjebontó enzimek működésének következménye). Íz- és érzékszervi javulást okozó változások következnek be."
+    ],
+    [],
+    [
+      "A hús víztartó képessége"
+    ],
+    [],
+    [
+      "Az izomrostot (",
+      "miofibrillumot",
+      ") alkotó aktin és ",
+      "miozin",
+      " fehérjeszálak közötti térben nagy mennyiségű víz halmozódik fel. A hullamerevség miatt fellépő összehúzódás, ",
+      "aktomiozin",
+      " komplex kialakulása",
+      " és a pH-csökkenés miatt az aktin és a ",
+      "miozin",
+      " fehérjeláncok közötti a taszítóerő csökken, így a fehérjeszálak között a tér kisebb lesz. Az ott tárolódott víz kiszorul a sejtközötti térbe és csepegési veszteségként jelentkezik. A pH-csökkenés miatt a ",
+      "miozin",
+      " felületén lévő negatív töltésmennyiség folyamatosan csökken, így az azonos töltésű fehérjeláncok közötti elektrosztatikus taszítóerő kisebb lesz, a fehérjeláncok közötti tér összezsugorodik. A pH csökkenése során az izomfehérje eléri az izoelektromos pontot (5,4-es pH), ahol a pozitív és a negatív töltésszám egyenlő, a fehérjeszálak közötti taszítóerő és a távolság minimális. A térben jelen lévő, fehérjéket és egyéb értékes anyagokat tartalmazó víz a szűkülő tér miatt ",
+      "kipréselődik",
+      " az izomrostok közül és csepegési veszteségként jelentkezik."
+    ],
+    [],
+    [],
+    [
+      "Normál és rendellenes húsérési folyamatok"
+    ],
+    [],
+    [
+      "A glikogénbomlás teljes lezajlása nagyjából 24 óráig tart. Ez idő alatt a hús pH-értéke a ",
+      "7,2-es ",
+      "kezdeti értékről ",
+      "5,6-5,8-ra ",
+      "esik vissza. Ilyen pH-csökkenés esetében normál húsérési folyamatról beszélünk. A ",
+      "normál állapotú",
+      " hús állománya rugalmas, jól megmunkálható, szeletelhető, mérsékelten ",
+      "léeresztő",
+      ". Színe halványabb a friss vágásmeleg húsnál. "
+    ],
+    [],
+    [],
+    [],
+    [
+      "PSE hús (",
+      "pale",
+      ", ",
+      "soft",
+      ", ",
+      "exudative",
+      ")"
+    ],
+    [],
+    [
+      "Rendellenes húsérési folyamat eredményeként kialakult halvány rózsaszín színű = (",
+      "pale",
+      "), puha állományú = (",
+      "soft",
+      "), vizenyős, ",
+      "léeresztő",
+      " = (",
+      "exudative",
+      ") hús. Kialakulását a gyors és a normál húsnál nagyobb mértékű pH-csökkenés okozza.  A vágás után a hús pH értéke gyors ütemben csökken, majd a normál húsnál alacsonyabb, ",
+      "5,2-5,3-as pH ",
+      "értékre esik le. A hús vízkötő víztartó képessége rendkívül rossz, mivel alacsonyabb pH értéken a hús fehérjék a hozzájuk kötött vizet elengedik, ami csepegési veszteségként jelentkezik. Elsősorban sertéseknél fordul elő. A PSE hús kialakulását a vágás előtti stresszes állapot, a pihentetés hatékonysága is befolyásolja. Egyes sertésfajták fokozottan érzékenyek a stresszhatásokra, (pl. ",
+      "Pietrain",
+      ") így esetükben a PSE hús ",
+      "kialakulásárának",
+      " kockázata nagyobb, mint a stressztűrő (pl. ",
+      "Duroc",
+      ") fajták esetében."
+    ],
+    [],
+    [
+      "DFD hús (",
+      "dark",
+      ", ",
+      "firm",
+      ", ",
+      "dry",
+      ")"
+    ],
+    [],
+    [
+      "Elsősorban marhahúsokra jellemző, de sertéshúsnál is előforduló rendellenes húsérési folyamat. A pH változása kismértékű, a kezdeti ",
+      "7,2-es ",
+      "értékről a hús pH-értéke a normál húsnál jóval magasabb, ",
+      "6,7-6,8 pH-",
+      "értékig csökken le. A kismértékű pH-csökkenés oka, hogy az izmokban kevés szénhidrát halmozódik fel, így a lebomlási folyamat során kevés tejsav képződik. A hús sötét színű = (",
+      "dark",
+      "), ragadós, kemény állományú = (",
+      "firm",
+      "). Csepegési vesztesége, ",
+      "léeresztése",
+      " minimális = (",
+      "dry",
+      "). A DFD hús vízkötő képessége rendkívül jó, mivel a 7 körüli pH-értéken a húsfehérjék nagy mennyiségű idegen vizet tudnak magukhoz kötni, de a magas pH miatt romlékony."
+    ],
+    [],
+    [],
+    [],
+    [
+      "A hidegrövidülés jelensége"
+    ],
+    [],
+    [
+      "Elsősorban alacsony glikogén tartalmú, lassú pH-csökkenéssel jellemezhető húsok, például a szarvasmarha testek vágás utáni, 10 °C alatti hűtésénél fellépő jelenség, a hidegrövidülés negatívan befolyásolja a húsminőséget. A folyamat során az izomrostok összehúzódnak, a hús ",
+      "léeresztő",
+      " és rágós lesz. ",
+      "A hűtés hatására a hullamerevséget, és a rágós hús kialakulását okozó ",
+      "aktomiozin",
+      " komplex lebontásáért felelős fehérjebontó enzimek működése lelassul. Az enzimek lassuló tevékenységük miatt nem képesek a hús kalcium tartalmát felhasználni, amely felelős az izom összehúzódás kialakulásáért.",
+      " A jelenség során fellépő ",
+      "rágósság",
+      ", húskeménység a hullamerev állapot megszűnése után is fennmarad."
+    ],
+    [],
+    [
+      "A hús érése, a hús porhanyósságát kialakító tényezők"
+    ],
+    [],
+    [
+      "A hús érése során lezajló folyamatok közül a legfontosabb a porhanyósság, amely döntően befolyásolja a hús élvezeti értékét, érzékszervi tulajdonságait. A porhanyósság a hús rágása során keletkezett érzékszervi benyomás, vagy érzet, amely a hús keménységével, mechanikai tulajdonságaival van összefüggésben. Minél kevésbé rágós és lédús a hús, annál kedvezőbb az élvezeti értéke. A kedvező porhanyósság kialakulását a hús szöveti összetétele, tulajdonsága és a vágás után a húsban lezajló több folyamat is befolyásolhatja. "
+    ],
+    [
+      "A hús élvezeti értékét befolyásoló tényezők:"
+    ],
+    [
+      "-",
+      "\taz állat faja, fajtája, kora, ",
+      "ivara"
+    ],
+    [
+      "-",
+      "\ta hús kötőszöveti tartalma, kötőszöveti fehérjék mennyisége"
+    ],
+    [
+      "-",
+      "\taz izomrostok és izomkötegek között lerakódott zsírszövet (intramuszkuláris zsír) mennyisége és eloszlása"
+    ],
+    [
+      "-",
+      "\ta hús víztartó képessége "
+    ],
+    [
+      "-",
+      "\ta hús szénhidráttartalma"
+    ],
+    [
+      "-",
+      "\taz állat halála után az izomfehérjék összekapcsolódásának, összehúzódásának mértéke"
+    ],
+    [
+      "-",
+      "\taz összekapcsolódott izomfehérjéket lebontó fehérjék aktivitása "
+    ],
+    [
+      "-",
+      "\ta hús pH-értékének változása "
+    ],
+    [
+      "-",
+      "\ta hús hűtésének hőmérséklete, a hűtési idő"
+    ],
+    [
+      "A húsok érése és a megfelelő porhanyós állomány kialakulása hosszabb folyamat. "
+    ],
+    [
+      "A megfelelő porhanyósság kialakulásában fontos szerepet játszik a húsban a vágás után végbemenő pH-csökkenés sebessége. Alacsony ",
+      "szénhidráttartalmú",
+      " húsban a végső pH-érték kismértékű glikogén bomlás miatt a vágás után csak minimális értékben csökken. A fehérjebontó enzimek magas pH-értéken aktívabbak, gyorsabb ütemben képesek lebontani, szétválasztani az összekapcsolódott aktin és ",
+      "miozin",
+      " izomfehérjéket és az összekapcsolódást segítő vázfehérjéket (Z és M vonal), amely a hús kemény, rágós állományát okozzák. A magas pH-érték és a gyors ",
+      "aktomiozin",
+      " komplex lebontás ellenére a hús érésében, porhanyós állomány kialakulásában nem minden esetben előnyös, mert a magas, 6,2-es ",
+      "végső pH-",
+      "érték feletti húsban nagy a hidegrövidülés kialakulásának kockázata. Ilyen esetben az összehúzódott izom az lebontó enzimek jelenléte ellenére sem ernyed el. A ",
+      "porhanyósodás",
+      " nem tud végbe menni és a hús rágós marad. "
+    ],
+    [
+      "A pH csökkenésével a fehérjebontó enzimek aktivitása is csökken, az alacsony pH-értékű húsban a megfelelő porhanyós állomány kialakulása tovább tart. A hosszabb érlelési idő a hús élvezeti értékének növelése szempontjából előnyösebb, mert a lebontó enzimek tevékenységének lassulása mellet, más fontos élvezeti értéket befolyásoló folyamatok is végbe mennek. Ilyen kedvező folyamat az aromaanyagok kialakulása, vagy a zsírok, kötőszöveti fehérjék enzimes lebomlása. "
+    ],
+    [
+      "A hőmérséklet is lényegesen befolyásolja a hús ",
+      "porhanyósodásának",
+      " lefutási sebességét. A fehérjebontó enzimek aktivitása 10 °C-alatti hűtött körülmények között nagymértékben lelassul, ezáltal a ",
+      "porhanyósodás",
+      " hosszabb ideig tart. 10 °C felett a ",
+      "porhanyósodás",
+      " ideje jelentősen ",
+      "megrövidül, de a magas hőmérsékleten történő hús érlelése az élelmiszerbiztonsági kockázatok miatt nem megvalósítható."
+    ],
+    [
+      "A hús izomnyalábjai és izomkötegei között jelenlévő márványos (intramuszkuláris) zsír és kötőszöveti fehérje javítja a hús porhanyós állományát, mivel csökkentik a lékiválást, ezáltal javítják a hús lédús érzetét. A húsban lévő kötőszöveti fehérjék hőkezelés (sütés, főzés) hatására a hús víztartalmával oldatot képez, amely „szaftos” érzetet keltve javítja a hús élvezeti értékét. "
+    ],
+    [
+      "Az állatok faja, fajtája, kora is befolyásolhatja a hús porhanyósságának kialakulását. Fontos, a ",
+      "porhanyósságot",
+      " befolyásoló tulajdonság, hogy az egyes fajok esetében milyen gyorsan alakul ki a hullamerevség állapota. A baromfi esetében rövid idő, akár 2 óra alatt, a szarvasmarha esetében kb. 18-24 óra alatt alakul ki a hullamerevség. A hullamerevség során kialakult görcsös állapot, ",
+      "aktomiozin",
+      " komplex felbomlását előidéző enzimtevékenység a baromfi esetében gyorsan beindul, így a csirke húsban viszonylag gyorsan kialakul a porhanyós állomány, míg a marhahús porhanyós állományának kialakulásához sokkal több idő szükséges. Az egyes fajok húsának eltérő kötőszöveti összetétele, ",
+      "márványozottsága",
+      " is befolyásolja a hús érését, élvezeti értékét. "
+    ],
+    [
+      ""
+    ],
+    [
+      "ÁBRAJEGYZÉK"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "IRODALOMJEGYZÉK"
+    ],
+    [
+      "",
+      "",
+      "",
+      "Mária, V. D. (1996.). ",
+      "Húsipari továbbképző napok, A nyers hús.",
+      " OHKI."
+    ],
+    [
+      "Péter, N. (2017.). ",
+      "Hentes és mészáros mester jegyzet .",
+      " NAK. ."
+    ],
+    [
+      "Zs., V. T. ( 2010.). ",
+      "Húsipari termékgyártás.",
+      " VKSZI."
+    ],
+    [
+      ""
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Nágl Péter"
+      ],
+      [
+        "Szakmai lektor:",
+        "Kosztolányi Attila"
+      ],
+      [
+        "Évfolyam:",
+        "11. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "6 óra"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Élelmiszeripar"
+      ],
+      [
+        "Szakma:",
+        "Húsipari technikus"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Húsipari alapműveletek"
+      ],
+      [
+        "Tantárgy:",
+        "Gyártástechnológiai alapműveletek és gépei"
+      ]
+    ],
+    [
+      [
+        "MÉDIAELEM",
+        "ÁLTALÁNOS"
+      ],
+      [
+        "Nézőkép:",
+        "\n1. ábraforrás https://hu.depositphotos.com/15605637/stock-photo-raw-meat-in-hypermarket.html (2024.06.21.)"
+      ],
+      [
+        "Gyártó:",
+        "\n1. ábraforrás https://hu.depositphotos.com/15605637/stock-photo-raw-meat-in-hypermarket.html (2024.06.21.)"
+      ],
+      [
+        "Átvett",
+        "\n1. ábraforrás https://hu.depositphotos.com/15605637/stock-photo-raw-meat-in-hypermarket.html (2024.06.21.)"
+      ],
+      [
+        "Típus:",
+        "\n1. ábraforrás https://hu.depositphotos.com/15605637/stock-photo-raw-meat-in-hypermarket.html (2024.06.21.)"
+      ],
+      [
+        "Illusztráció",
+        "\n1. ábraforrás https://hu.depositphotos.com/15605637/stock-photo-raw-meat-in-hypermarket.html (2024.06.21.)"
+      ],
+      [
+        "Cím:",
+        "1. ábra: A hús szemléltető fotója"
+      ],
+      [
+        "Elkészítéshez szükséges információ:",
+        "-"
+      ],
+      [
+        "Tartalom leírása:",
+        "A kép a szövegrészt kísérő, szemléltető funkciót lát el."
+      ],
+      [
+        "Saját alternatívák:",
+        "-"
+      ],
+      [
+        "Internetes alternatívák:",
+        "-"
+      ]
+    ],
+    [
+      [
+        "MÉDIAELEM",
+        "ÁLTALÁNOS"
+      ],
+      [
+        "Nézőkép:",
+        "\n2. ábraforrás https://www.meatinstitute.org/index.php?ht=a/GetDocumentAction/i/82711 (2024.06.21.)"
+      ],
+      [
+        "Gyártó:",
+        "\n2. ábraforrás https://www.meatinstitute.org/index.php?ht=a/GetDocumentAction/i/82711 (2024.06.21.)"
+      ],
+      [
+        "Átvett",
+        "\n2. ábraforrás https://www.meatinstitute.org/index.php?ht=a/GetDocumentAction/i/82711 (2024.06.21.)"
+      ],
+      [
+        "Típus:",
+        "\n2. ábraforrás https://www.meatinstitute.org/index.php?ht=a/GetDocumentAction/i/82711 (2024.06.21.)"
+      ],
+      [
+        "Illusztráció",
+        "\n2. ábraforrás https://www.meatinstitute.org/index.php?ht=a/GetDocumentAction/i/82711 (2024.06.21.)"
+      ],
+      [
+        "Cím:",
+        "2. ábra: Hús víztartalma"
+      ],
+      [
+        "Elkészítéshez szükséges információ:",
+        "Ehhez a médiaelemhez lehet saját készítést is betenni. A szemléltető képhez hasonlóan egy szelet hús és mellette egy pohárban húslé."
+      ],
+      [
+        "Tartalom leírása:",
+        "Hús víztartalma szemléltető fotó"
+      ],
+      [
+        "Saját alternatívák:",
+        ""
+      ],
+      [
+        "Internetes alternatívák:",
+        ""
+      ]
+    ],
+    [
+      [
+        "MÉDIAELEM",
+        "ÁLTALÁNOS"
+      ],
+      [
+        "Nézőkép:",
+        "\n3. ábraforrás https://www.crossfitinvictus.com/blog/muscle-contraction-really-cool-protein-called-myosin/ (2024.06.21.)"
+      ],
+      [
+        "Gyártó:",
+        "\n3. ábraforrás https://www.crossfitinvictus.com/blog/muscle-contraction-really-cool-protein-called-myosin/ (2024.06.21.)"
+      ],
+      [
+        "Átvett",
+        "\n3. ábraforrás https://www.crossfitinvictus.com/blog/muscle-contraction-really-cool-protein-called-myosin/ (2024.06.21.)"
+      ],
+      [
+        "Típus:",
+        "\n3. ábraforrás https://www.crossfitinvictus.com/blog/muscle-contraction-really-cool-protein-called-myosin/ (2024.06.21.)"
+      ],
+      [
+        "Kép",
+        "\n3. ábraforrás https://www.crossfitinvictus.com/blog/muscle-contraction-really-cool-protein-called-myosin/ (2024.06.21.)"
+      ],
+      [
+        "Cím:",
+        "3. ábra: Izomfehérjék felépítése"
+      ],
+      [
+        "Elkészítéshez szükséges információ:",
+        ""
+      ],
+      [
+        "Tartalom leírása:",
+        "Az izomfehérjék szerkezetének szemléltetése"
+      ],
+      [
+        "Saját alternatívák:",
+        ""
+      ],
+      [
+        "Internetes alternatívák:",
+        "https://hu.depositphotos.com/237727316/stock-photo-healthy-food-high-in-protein.html (2024.06.21.)"
+      ]
+    ],
+    [
+      [
+        "MÉDIAELEM",
+        "ÁLTALÁNOS"
+      ],
+      [
+        "Nézőkép:",
+        "\n4. ábraforrás depositphotos_128999104-stock-photo-fresh-delicious-raw-beef. (2024.06.21.)"
+      ],
+      [
+        "Gyártó:",
+        "\n4. ábraforrás depositphotos_128999104-stock-photo-fresh-delicious-raw-beef. (2024.06.21.)"
+      ],
+      [
+        "Átvett",
+        "\n4. ábraforrás depositphotos_128999104-stock-photo-fresh-delicious-raw-beef. (2024.06.21.)"
+      ],
+      [
+        "Típus:",
+        "\n4. ábraforrás depositphotos_128999104-stock-photo-fresh-delicious-raw-beef. (2024.06.21.)"
+      ],
+      [
+        "Fotó",
+        "\n4. ábraforrás depositphotos_128999104-stock-photo-fresh-delicious-raw-beef. (2024.06.21.)"
+      ],
+      [
+        "Cím:",
+        "4. ábra: Márványozott hús"
+      ],
+      [
+        "Elkészítéshez szükséges információ:",
+        "."
+      ],
+      [
+        "Tartalom leírása:",
+        "A hús márványozottságának szemléltetése"
+      ],
+      [
+        "Saját alternatívák:",
+        ""
+      ],
+      [
+        "Internetes alternatívák:",
+        ""
+      ]
+    ],
+    [
+      [
+        "MÉDIAELEM",
+        "ÁLTALÁNOS"
+      ],
+      [
+        "Nézőkép:",
+        "\n5. ábraforrás https://stock.adobe.com/search?k=glycogen&asset_id=306994909 (2024.06.21.)"
+      ],
+      [
+        "Gyártó:",
+        "\n5. ábraforrás https://stock.adobe.com/search?k=glycogen&asset_id=306994909 (2024.06.21.)"
+      ],
+      [
+        "Átvett",
+        "\n5. ábraforrás https://stock.adobe.com/search?k=glycogen&asset_id=306994909 (2024.06.21.)"
+      ],
+      [
+        "Típus:",
+        "\n5. ábraforrás https://stock.adobe.com/search?k=glycogen&asset_id=306994909 (2024.06.21.)"
+      ],
+      [
+        "Illusztráció",
+        "\n5. ábraforrás https://stock.adobe.com/search?k=glycogen&asset_id=306994909 (2024.06.21.)"
+      ],
+      [
+        "Cím:",
+        "5. ábra: Glikogén molekula felépítése"
+      ],
+      [
+        "Elkészítéshez szükséges információ:",
+        "."
+      ],
+      [
+        "Tartalom leírása:",
+        "A glikogén molekula szerkezetének a szemléltetése"
+      ],
+      [
+        "Saját alternatívák:",
+        ""
+      ],
+      [
+        "Internetes alternatívák:",
+        ""
+      ]
+    ],
+    [
+      [
+        "MÉDIAELEM",
+        "ÁLTALÁNOS"
+      ],
+      [
+        "Nézőkép:",
+        "\n6. ábraforrás https://hu.depositphotos.com/504698748/stock-photo-natural-sources-vitamin-b12-cobalamin.html (2024.06.21.)"
+      ],
+      [
+        "Gyártó:",
+        "\n6. ábraforrás https://hu.depositphotos.com/504698748/stock-photo-natural-sources-vitamin-b12-cobalamin.html (2024.06.21.)"
+      ],
+      [
+        "Átvett",
+        "\n6. ábraforrás https://hu.depositphotos.com/504698748/stock-photo-natural-sources-vitamin-b12-cobalamin.html (2024.06.21.)"
+      ],
+      [
+        "Típus:",
+        "\n6. ábraforrás https://hu.depositphotos.com/504698748/stock-photo-natural-sources-vitamin-b12-cobalamin.html (2024.06.21.)"
+      ],
+      [
+        "Illusztráció",
+        "\n6. ábraforrás https://hu.depositphotos.com/504698748/stock-photo-natural-sources-vitamin-b12-cobalamin.html (2024.06.21.)"
+      ],
+      [
+        "Cím:",
+        "6. ábra: Hús vitamintartalmát szemléltető fotó"
+      ],
+      [
+        "Elkészítéshez szükséges információ:",
+        "."
+      ],
+      [
+        "Tartalom leírása:",
+        "A hús vitaminjainak szemléltetése"
+      ],
+      [
+        "Saját alternatívák:",
+        ""
+      ],
+      [
+        "Internetes alternatívák:",
+        ""
+      ]
+    ],
+    [
+      [
+        "MÉDIAELEM",
+        "ÁLTALÁNOS"
+      ],
+      [
+        "Nézőkép:",
+        "\n7. ábraforrás https://hu.depositphotos.com/5518777/stock-photo-healthy-life-concept.html (2024.06.21.)"
+      ],
+      [
+        "Gyártó:",
+        "\n7. ábraforrás https://hu.depositphotos.com/5518777/stock-photo-healthy-life-concept.html (2024.06.21.)"
+      ],
+      [
+        "Átvett",
+        "\n7. ábraforrás https://hu.depositphotos.com/5518777/stock-photo-healthy-life-concept.html (2024.06.21.)"
+      ],
+      [
+        "Típus:",
+        "\n7. ábraforrás https://hu.depositphotos.com/5518777/stock-photo-healthy-life-concept.html (2024.06.21.)"
+      ],
+      [
+        "Illusztráció",
+        "\n7. ábraforrás https://hu.depositphotos.com/5518777/stock-photo-healthy-life-concept.html (2024.06.21.)"
+      ],
+      [
+        "Cím:",
+        "7. ábra: Ásványi anyagok, nyomelemek szemléltető fotó"
+      ],
+      [
+        "Elkészítéshez szükséges információ:",
+        "."
+      ],
+      [
+        "Tartalom leírása:",
+        "A hús ásványi anyagainak szemléltetése"
+      ],
+      [
+        "Saját alternatívák:",
+        ""
+      ],
+      [
+        "Internetes alternatívák:",
+        ""
+      ]
+    ],
+    [
+      [
+        "MÉDIAELEM",
+        "ÁLTALÁNOS"
+      ],
+      [
+        "Nézőkép:",
+        "\n8. ábraforrás depositphotos_8840959-stock-photo-products-for-a-balanced-diet (2024.06.21.)"
+      ],
+      [
+        "Gyártó:",
+        "\n8. ábraforrás depositphotos_8840959-stock-photo-products-for-a-balanced-diet (2024.06.21.)"
+      ],
+      [
+        "Átvett",
+        "\n8. ábraforrás depositphotos_8840959-stock-photo-products-for-a-balanced-diet (2024.06.21.)"
+      ],
+      [
+        "Típus:",
+        "\n8. ábraforrás depositphotos_8840959-stock-photo-products-for-a-balanced-diet (2024.06.21.)"
+      ],
+      [
+        "Illusztráció",
+        "\n8. ábraforrás depositphotos_8840959-stock-photo-products-for-a-balanced-diet (2024.06.21.)"
+      ],
+      [
+        "Cím:",
+        "8. ábra: A hús táplálkozásban betöltött szerepe"
+      ],
+      [
+        "Elkészítéshez szükséges információ:",
+        "."
+      ],
+      [
+        "Tartalom leírása:",
+        "A húsnak a táplálkozásban betöltött szerepének szemléltetése"
+      ],
+      [
+        "Saját alternatívák:",
+        ""
+      ],
+      [
+        "Internetes alternatívák:",
+        ""
+      ]
+    ],
+    [
+      [
+        "MÉDIAELEM",
+        "ÁLTALÁNOS"
+      ],
+      [
+        "Nézőkép:",
+        "\n9. ábraforrás https://www.ditchthecarbs.com/meat-protein/ (2024.06.21.)"
+      ],
+      [
+        "Gyártó:",
+        "\n9. ábraforrás https://www.ditchthecarbs.com/meat-protein/ (2024.06.21.)"
+      ],
+      [
+        "Átvett",
+        "\n9. ábraforrás https://www.ditchthecarbs.com/meat-protein/ (2024.06.21.)"
+      ],
+      [
+        "Típus:",
+        "\n9. ábraforrás https://www.ditchthecarbs.com/meat-protein/ (2024.06.21.)"
+      ],
+      [
+        "Illusztráció",
+        "\n9. ábraforrás https://www.ditchthecarbs.com/meat-protein/ (2024.06.21.)"
+      ],
+      [
+        "Cím:",
+        "9. ábra: A húsfehérjék szerepe a táplálkozásban"
+      ],
+      [
+        "Elkészítéshez szükséges információ:",
+        "."
+      ],
+      [
+        "Tartalom leírása:",
+        "Húsfehérjék a táplálkozásban betöltött szerepének szemléltetése"
+      ],
+      [
+        "Saját alternatívák:",
+        ""
+      ],
+      [
+        "Internetes alternatívák:",
+        ""
+      ]
+    ],
+    [
+      [
+        "MÉDIAELEM",
+        "ÁLTALÁNOS"
+      ],
+      [
+        "Nézőkép:",
+        "\n10. ábraforrás https://hu.depositphotos.com/15791497/stock-photo-meat.html (2024.06.21.)"
+      ],
+      [
+        "Gyártó:",
+        "\n10. ábraforrás https://hu.depositphotos.com/15791497/stock-photo-meat.html (2024.06.21.)"
+      ],
+      [
+        "Átvett",
+        "\n10. ábraforrás https://hu.depositphotos.com/15791497/stock-photo-meat.html (2024.06.21.)"
+      ],
+      [
+        "Típus:",
+        "\n10. ábraforrás https://hu.depositphotos.com/15791497/stock-photo-meat.html (2024.06.21.)"
+      ],
+      [
+        "Illusztráció",
+        "\n10. ábraforrás https://hu.depositphotos.com/15791497/stock-photo-meat.html (2024.06.21.)"
+      ],
+      [
+        "Cím:",
+        "10. ábra: Hús kemény, rugalmas állománya"
+      ],
+      [
+        "Elkészítéshez szükséges információ:",
+        "."
+      ],
+      [
+        "Tartalom leírása:",
+        "A hús állományának szemléltetése"
+      ],
+      [
+        "Saját alternatívák:",
+        ""
+      ],
+      [
+        "Internetes alternatívák:",
+        ""
+      ]
+    ],
+    [
+      [
+        "MÉDIAELEM",
+        "ÁLTALÁNOS"
+      ],
+      [
+        "Nézőkép:",
+        "\n11. ábraforrás https://hu.depositphotos.com/498561708/stock-photo-assortment-raw-meat-chicken-beef.html (2024.06.21.)"
+      ],
+      [
+        "Gyártó:",
+        "\n11. ábraforrás https://hu.depositphotos.com/498561708/stock-photo-assortment-raw-meat-chicken-beef.html (2024.06.21.)"
+      ],
+      [
+        "Átvett",
+        "\n11. ábraforrás https://hu.depositphotos.com/498561708/stock-photo-assortment-raw-meat-chicken-beef.html (2024.06.21.)"
+      ],
+      [
+        "Típus:",
+        "\n11. ábraforrás https://hu.depositphotos.com/498561708/stock-photo-assortment-raw-meat-chicken-beef.html (2024.06.21.)"
+      ],
+      [
+        "Illusztráció",
+        "\n11. ábraforrás https://hu.depositphotos.com/498561708/stock-photo-assortment-raw-meat-chicken-beef.html (2024.06.21.)"
+      ],
+      [
+        "Cím:",
+        "11. ábra: Sertés, marha és baromfi húsok színkülönbsége"
+      ],
+      [
+        "Elkészítéshez szükséges információ:",
+        "Az első vágódeszkán a csirke húsok, a második vágódeszkán a legsötétebb húsok a marhahúsok, a harmadik vágódeszkán sertéshúsok láthatók. A sertéshúsoknál testtájakat színük szerint is meg lehet különböztetni. Felül a karaj, alul a tarja. "
+      ],
+      [
+        "Tartalom leírása:",
+        "Sertés, marha és baromfi hús színkülönbségének szemléltetése"
+      ],
+      [
+        "Saját alternatívák:",
+        ""
+      ],
+      [
+        "Internetes alternatívák:",
+        ""
+      ]
+    ],
+    [
+      [
+        "MÉDIAELEM",
+        "ÁLTALÁNOS"
+      ],
+      [
+        "Nézőkép:",
+        "\n12. ábraforrás Saját készítés"
+      ],
+      [
+        "Gyártó:",
+        "\n12. ábraforrás Saját készítés"
+      ],
+      [
+        "Saját készítés",
+        "\n12. ábraforrás Saját készítés"
+      ],
+      [
+        "Típus:",
+        "\n12. ábraforrás Saját készítés"
+      ],
+      [
+        "folyamatábra",
+        "\n12. ábraforrás Saját készítés"
+      ],
+      [
+        "Cím:",
+        "12. ábra: Az izomban mozgás során végbemenő szénhidrát lebontási folyamatok"
+      ],
+      [
+        "Elkészítéshez szükséges információ:",
+        "A folyamatábra egyes lépései animációban, időrendben egymás után jelenjenek meg"
+      ],
+      [
+        "Tartalom leírása:",
+        "Az izomban mozgás során végbemenő szénhidrát lebontási folyamatok szemléltetése"
+      ],
+      [
+        "Saját alternatívák:",
+        ""
+      ],
+      [
+        "Internetes alternatívák:",
+        ""
+      ]
+    ],
+    [
+      [
+        "MÉDIAELEM",
+        "ÁLTALÁNOS"
+      ],
+      [
+        "Nézőkép:",
+        "\n13. ábraforrás saját készítés"
+      ],
+      [
+        "Gyártó:",
+        "\n13. ábraforrás saját készítés"
+      ],
+      [
+        "Saját készítés",
+        "\n13. ábraforrás saját készítés"
+      ],
+      [
+        "Típus:",
+        "\n13. ábraforrás saját készítés"
+      ],
+      [
+        "folyamatábra",
+        "\n13. ábraforrás saját készítés"
+      ],
+      [
+        "Cím:",
+        "13. ábra: A húsban a vágás után lezajló szénhidrát lebontási folyamatok"
+      ],
+      [
+        "Elkészítéshez szükséges információ:",
+        "A folyamatábra egyes lépései animációban, időrendben egymás után jelenjenek meg"
+      ],
+      [
+        "Tartalom leírása:",
+        "A húsban a vágás után lezajló szénhidrát lebontási folyamatok szemléltetése"
+      ],
+      [
+        "Saját alternatívák:",
+        ""
+      ],
+      [
+        "Internetes alternatívák:",
+        ""
+      ]
+    ],
+    [
+      [
+        "MÉDIAELEM",
+        "ÁLTALÁNOS"
+      ],
+      [
+        "Nézőkép:",
+        "\n14. ábraforrás saját készítés"
+      ],
+      [
+        "Gyártó:",
+        "\n14. ábraforrás saját készítés"
+      ],
+      [
+        "Saját készítés",
+        "\n14. ábraforrás saját készítés"
+      ],
+      [
+        "Típus:",
+        "\n14. ábraforrás saját készítés"
+      ],
+      [
+        "Animáció",
+        "\n14. ábraforrás saját készítés"
+      ],
+      [
+        "Cím:",
+        "14. ábra: A hús víztartó képességének változása a pH csökkenés és a hullamerevség hatására"
+      ],
+      [
+        "Elkészítéshez szükséges információ:",
+        "Az 1. pont az izomzat kiindulási állapota, melyben az azonos töltésű fehérje szálak az azonos töltés miatti taszító erő hatására távol vannak egymástól. A pH-csökkenést ábrázolva a kép átvált a 2. pontra, ahol a fehérjeszálak közelebb húzódnak egymáshoz. az izom összehúzódik. A töltések egy része megváltozik. A fehérjék közötti víz egy része kipréselődik az izomból. "
+      ],
+      [
+        "Tartalom leírása:",
+        "A hús víztartó képesség változásának szemléltetése"
+      ],
+      [
+        "Saját alternatívák:",
+        ""
+      ],
+      [
+        "Internetes alternatívák:",
+        ""
+      ]
+    ],
+    [
+      [
+        "MÉDIAELEM",
+        "ÁLTALÁNOS"
+      ],
+      [
+        "Nézőkép:",
+        "\n15 ábraforrás https://hu.depositphotos.com/15605637/stock-photo-raw-meat-in-hypermarket.html (2024.06.21.)"
+      ],
+      [
+        "Gyártó:",
+        "\n15 ábraforrás https://hu.depositphotos.com/15605637/stock-photo-raw-meat-in-hypermarket.html (2024.06.21.)"
+      ],
+      [
+        "Átvett",
+        "\n15 ábraforrás https://hu.depositphotos.com/15605637/stock-photo-raw-meat-in-hypermarket.html (2024.06.21.)"
+      ],
+      [
+        "Típus:",
+        "\n15 ábraforrás https://hu.depositphotos.com/15605637/stock-photo-raw-meat-in-hypermarket.html (2024.06.21.)"
+      ],
+      [
+        "Illusztráció",
+        "\n15 ábraforrás https://hu.depositphotos.com/15605637/stock-photo-raw-meat-in-hypermarket.html (2024.06.21.)"
+      ],
+      [
+        "Cím:",
+        "15. ábra: Normál állapotú hús"
+      ],
+      [
+        "Elkészítéshez szükséges információ:",
+        "."
+      ],
+      [
+        "Tartalom leírása:",
+        "A normál állapotú hús szemléltetése"
+      ],
+      [
+        "Saját alternatívák:",
+        ""
+      ],
+      [
+        "Internetes alternatívák:",
+        ""
+      ]
+    ],
+    [
+      [
+        "MÉDIAELEM",
+        "ÁLTALÁNOS"
+      ],
+      [
+        "Nézőkép:",
+        "\n16. ábraforrás saját készítés"
+      ],
+      [
+        "Gyártó:",
+        "\n16. ábraforrás saját készítés"
+      ],
+      [
+        "Saját készítés",
+        "\n16. ábraforrás saját készítés"
+      ],
+      [
+        "Típus:",
+        "\n16. ábraforrás saját készítés"
+      ],
+      [
+        "Grafikon",
+        "\n16. ábraforrás saját készítés"
+      ],
+      [
+        "Cím:",
+        "16. ábra: : Rendellenes húsérési folyamatok pH változása"
+      ],
+      [
+        "Elkészítéshez szükséges információ:",
+        "A görbék színét kérem szépen megváltoztatni valamilyen élénkebb színre."
+      ],
+      [
+        "Tartalom leírása:",
+        "Rendellenes húsérési folyamatok pH változásának ábrázolása"
+      ],
+      [
+        "Saját alternatívák:",
+        ""
+      ],
+      [
+        "Internetes alternatívák:",
+        ""
+      ]
+    ],
+    [
+      [
+        "MÉDIAELEM",
+        "ÁLTALÁNOS"
+      ],
+      [
+        "Nézőkép:",
+        "\n17. ábraforrás https://sesc.cat/en/febrile-carcasses-in-pig-slaughterhouses/ (2024.06.21.)"
+      ],
+      [
+        "Gyártó:",
+        "\n17. ábraforrás https://sesc.cat/en/febrile-carcasses-in-pig-slaughterhouses/ (2024.06.21.)"
+      ],
+      [
+        "Átvett",
+        "\n17. ábraforrás https://sesc.cat/en/febrile-carcasses-in-pig-slaughterhouses/ (2024.06.21.)"
+      ],
+      [
+        "Típus:",
+        "\n17. ábraforrás https://sesc.cat/en/febrile-carcasses-in-pig-slaughterhouses/ (2024.06.21.)"
+      ],
+      [
+        "Illusztráció",
+        "\n17. ábraforrás https://sesc.cat/en/febrile-carcasses-in-pig-slaughterhouses/ (2024.06.21.)"
+      ],
+      [
+        "Cím:",
+        "17. ábra: Normál és rendellenes érésű húsok közötti különbség"
+      ],
+      [
+        "Elkészítéshez szükséges információ:",
+        "."
+      ],
+      [
+        "Tartalom leírása:",
+        "Normál és rendellenes érésű húsok közötti különbségének ábrázolása"
+      ],
+      [
+        "Saját alternatívák:",
+        ""
+      ],
+      [
+        "Internetes alternatívák:",
+        ""
+      ]
+    ],
+    [
+      [
+        "MÉDIAELEM",
+        "ÁLTALÁNOS"
+      ],
+      [
+        "Nézőkép:",
+        "\n18. ábraforrás https://www.meatinstitute.org/index.php?ht=a/GetDocumentAction/i/82711 (2024.06.21.)"
+      ],
+      [
+        "Gyártó:",
+        "\n18. ábraforrás https://www.meatinstitute.org/index.php?ht=a/GetDocumentAction/i/82711 (2024.06.21.)"
+      ],
+      [
+        "Átvett",
+        "\n18. ábraforrás https://www.meatinstitute.org/index.php?ht=a/GetDocumentAction/i/82711 (2024.06.21.)"
+      ],
+      [
+        "Típus:",
+        "\n18. ábraforrás https://www.meatinstitute.org/index.php?ht=a/GetDocumentAction/i/82711 (2024.06.21.)"
+      ],
+      [
+        "Illusztráció",
+        "\n18. ábraforrás https://www.meatinstitute.org/index.php?ht=a/GetDocumentAction/i/82711 (2024.06.21.)"
+      ],
+      [
+        "Cím:",
+        "18. ábra: : A normál és rendellenes érésű húsok víztartó képességének szemléltetése"
+      ],
+      [
+        "Elkészítéshez szükséges információ:",
+        "."
+      ],
+      [
+        "Tartalom leírása:",
+        "A normál és rendellenes érésű húsok víztartó képességének szemléltetése"
+      ],
+      [
+        "Saját alternatívák:",
+        ""
+      ],
+      [
+        "Internetes alternatívák:",
+        ""
+      ]
+    ]
+  ],
+  "headers": [
+    "",
+    ""
+  ],
+  "footers": [
+    "",
+    ""
+  ],
+  "footnotes": [
+    "",
+    ""
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image16.jpg",
+      "path": null,
+      "bytes": 65428
+    },
+    {
+      "name": "image14.jpg",
+      "path": null,
+      "bytes": 15823
+    },
+    {
+      "name": "image15.jpg",
+      "path": null,
+      "bytes": 17566
+    },
+    {
+      "name": "image13.jpg",
+      "path": null,
+      "bytes": 30145
+    },
+    {
+      "name": "image17.png",
+      "path": null,
+      "bytes": 516516
+    },
+    {
+      "name": "image18.jpg",
+      "path": null,
+      "bytes": 17994
+    },
+    {
+      "name": "image19.jpg",
+      "path": null,
+      "bytes": 26287
+    },
+    {
+      "name": "image20.jpg",
+      "path": null,
+      "bytes": 18162
+    },
+    {
+      "name": "image12.png",
+      "path": null,
+      "bytes": 596044
+    },
+    {
+      "name": "image6.png",
+      "path": null,
+      "bytes": 565381
+    },
+    {
+      "name": "image10.png",
+      "path": null,
+      "bytes": 474497
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image3.png",
+      "path": null,
+      "bytes": 505966
+    },
+    {
+      "name": "image11.jpg",
+      "path": null,
+      "bytes": 30585
+    },
+    {
+      "name": "image4.jpg",
+      "path": null,
+      "bytes": 14378
+    },
+    {
+      "name": "image5.jpg",
+      "path": null,
+      "bytes": 37532
+    },
+    {
+      "name": "image9.png",
+      "path": null,
+      "bytes": 205042
+    },
+    {
+      "name": "image7.jpg",
+      "path": null,
+      "bytes": 5314
+    },
+    {
+      "name": "image8.png",
+      "path": null,
+      "bytes": 512300
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Table Normal",
+    "Title",
+    "Címsor 1 Char",
+    "Cím Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "Címsor 4 Char",
+    "Címsor 5 Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "ELMS",
+    "Grid Table 5 Dark Accent 1",
+    "elms_ContentText",
+    "elms_Egyszeres",
+    "elms_Fogalom",
+    "elms_Fogalom:invalid",
+    "elms_Fontos",
+    "elms_HelyesValasz",
+    "elms_HibasValasz",
+    "elms_JogiSzoveg",
+    "elms_Opcionalis",
+    "annotation reference",
+    "annotation text",
+    "Jegyzetszöveg Char",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Placeholder Text",
+    "Table Grid",
+    "Hyperlink",
+    "elms_Media",
+    "table of figures",
+    "List Paragraph",
+    "elms_Tobbszoros",
+    "elms_Parosito",
+    "elms_Sorbarendezo",
+    "elms_Legordulo",
+    "elms_Kitolto",
+    "elms_FogdEsVidd",
+    "elms_Kijelolo",
+    "elms_Gyakorlo",
+    "elms_numeric",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "toa heading",
+    "table of authorities",
+    "footnote text",
+    "Lábjegyzetszöveg Char",
+    "footnote reference",
+    "Bibliography",
+    "Címsor 1 (helyőrző)",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "elms_TartalomCimsor",
+    "toc 4",
+    "elms_cim_1_tananyag",
+    "elms_cim_2_egyseg",
+    "elms_cim_3_fejezet",
+    "elms_cim_4_lecke",
+    "elms_tananyag",
+    "elms_egyseg",
+    "Revision",
+    "Caption",
+    "Nem lista1",
+    "msonormal",
+    "FollowedHyperlink",
+    "icon",
+    "docon",
+    "bookmark-status",
+    "is-visually-hidden-touch",
+    "visually-hidden",
+    "has-text-white-static",
+    "HTML Top of Form",
+    "z-A kérdőív teteje Char",
+    "has-text-primary",
+    "HTML Bottom of Form",
+    "z-A kérdőív alja Char",
+    "tree-expander",
+    "tree-expander-indicator",
+    "Normal (Web)",
+    "Emphasis",
+    "HTML Code",
+    "Strong",
+    "68831B013408452FBD29B6FDEC9893802",
+    "6FD96C86FC10454FA6AE06C5190120182",
+    "Outline List 2",
+    "Outline List 1",
+    "Signature",
+    "Aláírás Char",
+    "Subtitle",
+    "Alcím Char",
+    "Closing",
+    "Befejezés Char",
+    "envelope address",
+    "Outline List 3",
+    "Plain Text",
+    "Csak szöveg Char",
+    "Date",
+    "Dátum Char",
+    "Document Map",
+    "Dokumentumtérkép Char",
+    "Table Simple 1",
+    "Table Simple 2",
+    "Table Simple 3",
+    "Table Elegant",
+    "E-mail Signature",
+    "E-mail aláírása Char",
+    "Intense Reference",
+    "Intense Emphasis",
+    "envelope return",
+    "List Bullet",
+    "List Bullet 2",
+    "List Bullet 3",
+    "List Bullet 4",
+    "List Bullet 5",
+    "Subtle Reference",
+    "Subtle Emphasis",
+    "Table Subtle 1",
+    "Table Subtle 2",
+    "HTML Keyboard",
+    "HTML Address",
+    "HTML-cím Char",
+    "HTML Definition",
+    "HTML Cite",
+    "HTML Typewriter",
+    "HTML Preformatted",
+    "HTML-ként formázott Char",
+    "HTML Sample",
+    "HTML Acronym",
+    "HTML Variable",
+    "Quote",
+    "Idézet Char",
+    "Intense Quote",
+    "Kiemelt idézet Char",
+    "Table Classic 1",
+    "Table Classic 2",
+    "Table Classic 3",
+    "Table Classic 4",
+    "Book Title",
+    "Medium Shading 1",
+    "Medium Shading 1 Accent 1",
+    "Medium Shading 1 Accent 2",
+    "Medium Shading 1 Accent 3",
+    "Medium Shading 1 Accent 4",
+    "Medium Shading 1 Accent 5",
+    "Medium Shading 1 Accent 6",
+    "Medium Shading 2",
+    "Medium Shading 2 Accent 1",
+    "Medium Shading 2 Accent 2",
+    "Medium Shading 2 Accent 3",
+    "Medium Shading 2 Accent 4",
+    "Medium Shading 2 Accent 5",
+    "Medium Shading 2 Accent 6",
+    "Medium List 1",
+    "Medium List 1 Accent 1",
+    "Medium List 1 Accent 2",
+    "Medium List 1 Accent 3",
+    "Medium List 1 Accent 4",
+    "Medium List 1 Accent 5",
+    "Medium List 1 Accent 6",
+    "Medium List 2",
+    "Medium List 2 Accent 1",
+    "Medium List 2 Accent 2",
+    "Medium List 2 Accent 3",
+    "Medium List 2 Accent 4",
+    "Medium List 2 Accent 5",
+    "Medium List 2 Accent 6",
+    "Medium Grid 1",
+    "Medium Grid 1 Accent 1",
+    "Medium Grid 1 Accent 2",
+    "Medium Grid 1 Accent 3",
+    "Medium Grid 1 Accent 4",
+    "Medium Grid 1 Accent 5",
+    "Medium Grid 1 Accent 6",
+    "Medium Grid 2",
+    "Medium Grid 2 Accent 1",
+    "Medium Grid 2 Accent 2",
+    "Medium Grid 2 Accent 3",
+    "Medium Grid 2 Accent 4",
+    "Medium Grid 2 Accent 5",
+    "Medium Grid 2 Accent 6",
+    "Medium Grid 3",
+    "Medium Grid 3 Accent 1",
+    "Medium Grid 3 Accent 2",
+    "Medium Grid 3 Accent 3",
+    "Medium Grid 3 Accent 4",
+    "Medium Grid 3 Accent 5",
+    "Medium Grid 3 Accent 6",
+    "List",
+    "List 2",
+    "List 3",
+    "List 4",
+    "List 5",
+    "List Continue",
+    "List Continue 2",
+    "List Continue 3",
+    "List Continue 4",
+    "List Continue 5",
+    "Table List 1",
+    "List Table 1 Light",
+    "List Table 1 Light Accent 1",
+    "List Table 1 Light Accent 2",
+    "List Table 1 Light Accent 3",
+    "List Table 1 Light Accent 4",
+    "List Table 1 Light Accent 5",
+    "List Table 1 Light Accent 6",
+    "Table List 2",
+    "List Table 2 Accent 1",
+    "List Table 2 Accent 2",
+    "List Table 2 Accent 3",
+    "List Table 2 Accent 4",
+    "List Table 2 Accent 5",
+    "List Table 2 Accent 6",
+    "Table List 3",
+    "List Table 3 Accent 1",
+    "List Table 3 Accent 2",
+    "List Table 3 Accent 3",
+    "List Table 3 Accent 4",
+    "List Table 3 Accent 5",
+    "List Table 3 Accent 6",
+    "Table List 4",
+    "List Table 4 Accent 1",
+    "List Table 4 Accent 2",
+    "List Table 4 Accent 3",
+    "List Table 4 Accent 4",
+    "List Table 4 Accent 5",
+    "List Table 4 Accent 6",
+    "Table List 5",
+    "List Table 5 Dark",
+    "List Table 5 Dark Accent 1",
+    "List Table 5 Dark Accent 2",
+    "List Table 5 Dark Accent 3",
+    "List Table 5 Dark Accent 4",
+    "List Table 5 Dark Accent 5",
+    "List Table 5 Dark Accent 6",
+    "Table List 6",
+    "List Table 6 Colorful",
+    "List Table 6 Colorful Accent 1",
+    "List Table 6 Colorful Accent 2",
+    "List Table 6 Colorful Accent 3",
+    "List Table 6 Colorful Accent 4",
+    "List Table 6 Colorful Accent 5",
+    "List Table 6 Colorful Accent 6",
+    "Table List 7",
+    "List Table 7 Colorful",
+    "List Table 7 Colorful Accent 1",
+    "List Table 7 Colorful Accent 2",
+    "List Table 7 Colorful Accent 3",
+    "List Table 7 Colorful Accent 4",
+    "List Table 7 Colorful Accent 5",
+    "List Table 7 Colorful Accent 6",
+    "Table List 8",
+    "List Table 2",
+    "List Table 3",
+    "List Table 4",
+    "macro",
+    "Makró szövege Char",
+    "Note Heading",
+    "Megjegyzésfej Char",
+    "Salutation",
+    "Megszólítás Char",
+    "Table Contemporary",
+    "No Spacing",
+    "Normal Indent",
+    "page number",
+    "Table Columns 1",
+    "Table Columns 2",
+    "Table Columns 3",
+    "Table Columns 4",
+    "Table Columns 5",
+    "Table Professional",
+    "Table Grid 1",
+    "Table Grid 2",
+    "Table Grid 3",
+    "Table Grid 4",
+    "Table Grid 5",
+    "Table Grid 6",
+    "Table Grid 7",
+    "Table Grid 8",
+    "line number",
+    "Dark List",
+    "Dark List Accent 1",
+    "Dark List Accent 2",
+    "Dark List Accent 3",
+    "Dark List Accent 4",
+    "Dark List Accent 5",
+    "Dark List Accent 6",
+    "List Number",
+    "List Number 2",
+    "List Number 3",
+    "List Number 4",
+    "List Number 5",
+    "Colorful Shading",
+    "Colorful Shading Accent 1",
+    "Colorful Shading Accent 2",
+    "Colorful Shading Accent 3",
+    "Colorful Shading Accent 4",
+    "Colorful Shading Accent 5",
+    "Colorful Shading Accent 6",
+    "Colorful List",
+    "Colorful List Accent 1",
+    "Colorful List Accent 2",
+    "Colorful List Accent 3",
+    "Colorful List Accent 4",
+    "Colorful List Accent 5",
+    "Colorful List Accent 6",
+    "Colorful Grid",
+    "Colorful Grid Accent 1",
+    "Colorful Grid Accent 2",
+    "Colorful Grid Accent 3",
+    "Colorful Grid Accent 4",
+    "Colorful Grid Accent 5",
+    "Colorful Grid Accent 6",
+    "Block Text",
+    "Body Text",
+    "Szövegtörzs Char",
+    "Body Text 2",
+    "Szövegtörzs 2 Char",
+    "Body Text 3",
+    "Szövegtörzs 3 Char",
+    "Body Text Indent",
+    "Szövegtörzs behúzással Char",
+    "Body Text Indent 2",
+    "Szövegtörzs behúzással 2 Char",
+    "Body Text Indent 3",
+    "Szövegtörzs behúzással 3 Char",
+    "Body Text First Indent",
+    "Szövegtörzs első sora Char",
+    "Body Text First Indent 2",
+    "Szövegtörzs első sora 2 Char",
+    "Plain Table 1",
+    "Plain Table 2",
+    "Plain Table 3",
+    "Plain Table 4",
+    "Plain Table 5",
+    "Grid Table Light",
+    "Grid Table 1 Light",
+    "Grid Table 1 Light Accent 1",
+    "Grid Table 1 Light Accent 2",
+    "Grid Table 1 Light Accent 3",
+    "Grid Table 1 Light Accent 4",
+    "Grid Table 1 Light Accent 5",
+    "Grid Table 1 Light Accent 6",
+    "Grid Table 2",
+    "Grid Table 2 Accent 1",
+    "Grid Table 2 Accent 2",
+    "Grid Table 2 Accent 3",
+    "Grid Table 2 Accent 4",
+    "Grid Table 2 Accent 5",
+    "Grid Table 2 Accent 6",
+    "Grid Table 3",
+    "Grid Table 3 Accent 1",
+    "Grid Table 3 Accent 2",
+    "Grid Table 3 Accent 3",
+    "Grid Table 3 Accent 4",
+    "Grid Table 3 Accent 5",
+    "Grid Table 3 Accent 6",
+    "Grid Table 4",
+    "Grid Table 4 Accent 1",
+    "Grid Table 4 Accent 2",
+    "Grid Table 4 Accent 3",
+    "Grid Table 4 Accent 4",
+    "Grid Table 4 Accent 5",
+    "Grid Table 4 Accent 6",
+    "Grid Table 5 Dark",
+    "Grid Table 5 Dark Accent 2",
+    "Grid Table 5 Dark Accent 3",
+    "Grid Table 5 Dark Accent 4",
+    "Grid Table 5 Dark Accent 5",
+    "Grid Table 5 Dark Accent 6",
+    "Grid Table 6 Colorful",
+    "Grid Table 6 Colorful Accent 1",
+    "Grid Table 6 Colorful Accent 2",
+    "Grid Table 6 Colorful Accent 3",
+    "Grid Table 6 Colorful Accent 4",
+    "Grid Table 6 Colorful Accent 5",
+    "Grid Table 6 Colorful Accent 6",
+    "Grid Table 7 Colorful",
+    "Grid Table 7 Colorful Accent 1",
+    "Grid Table 7 Colorful Accent 2",
+    "Grid Table 7 Colorful Accent 3",
+    "Grid Table 7 Colorful Accent 4",
+    "Grid Table 7 Colorful Accent 5",
+    "Grid Table 7 Colorful Accent 6",
+    "index 1",
+    "index 2",
+    "index 3",
+    "index 4",
+    "index 5",
+    "index 6",
+    "index 7",
+    "index 8",
+    "index 9",
+    "index heading",
+    "Table Colorful 1",
+    "Table Colorful 2",
+    "Table Colorful 3",
+    "Table Theme",
+    "Table 3D effects 1",
+    "Table 3D effects 2",
+    "Table 3D effects 3",
+    "toc 5",
+    "toc 6",
+    "toc 7",
+    "toc 8",
+    "toc 9",
+    "Message Header",
+    "Üzenetfej Char",
+    "endnote text",
+    "Végjegyzet szövege Char",
+    "endnote reference",
+    "Light Shading Accent 1",
+    "Light Shading Accent 2",
+    "Light Shading Accent 3",
+    "Light Shading Accent 4",
+    "Light Shading Accent 5",
+    "Light Shading Accent 6",
+    "Light List",
+    "Light List Accent 1",
+    "Light List Accent 2",
+    "Light List Accent 3",
+    "Light List Accent 4",
+    "Light List Accent 5",
+    "Light List Accent 6",
+    "Light Grid",
+    "Light Grid Accent 1",
+    "Light Grid Accent 2",
+    "Light Grid Accent 3",
+    "Light Grid Accent 4",
+    "Light Grid Accent 5",
+    "Light Grid Accent 6",
+    "Light Shading",
+    "Table Web 1",
+    "Table Web 2",
+    "Table Web 3",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ]
+}

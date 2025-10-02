@@ -1,0 +1,2405 @@
+{
+  "core_properties": {
+    "creator": "Jánosi Henrietta",
+    "lastModifiedBy": "Soós Gabriella Brigitta (ELMS)",
+    "revision": "2",
+    "created": "2024-09-24T14:54:00Z",
+    "modified": "2024-09-24T14:54:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal",
+    "TotalTime": "0",
+    "Pages": "48",
+    "Words": "8973",
+    "Characters": "61915",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "515",
+    "Paragraphs": "141",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "70747",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.7.1  ",
+    "Élelmiszeripari technológiai alapok I. – Műveletek és folyamatok",
+    "Témák kézirata",
+    "Forrás: Lebensmitteltechnologie, Der Verlag Eugen Ulmer KG,  2021. ISBN 978-3-8252-5505-3\nAz eredeti könyv szerzői: Jochen Hamatschek",
+    "",
+    "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak.",
+    "",
+    "",
+    "",
+    "",
+    "Tartalomjegyzék",
+    "Bevezetés: az élelmiszer-technológia társadalmi és történelmi kontextusába",
+    "Az élelmiszer-technológia alapelvei, alapműveletei",
+    "Az élelmiszer-technológia olyan alkalmazott tudomány, amely számos más tudományágat használ fel és egyben integrál: történelmileg ezek kizárólag a mérnöktudományok és a természettudományok voltak, számos szakterületükkel. Az utóbbi években jelentősen megnőttek az élelmiszer-technológusokkal szemben támasztott követelmények. A kiélezett verseny, az élelmiszerek biztonságosságával és változatosságával kapcsolatos egyre növekvő fogyasztói elvárások, az áruforgalom nemzetközivé válása és a szigorúbb joggyakorlat miatt a technikai kérdések mellett teret nyernek a menedzsment-szempontok is. Az élelmiszertechnológia tehát egy kifejezetten interdiszciplináris tudomány (1. ábra).",
+    "",
+    "1. ábra: Az élelmiszertechnológia mint alkalmazott, integráló, interdiszciplináris tudományág",
+    "Az élelmiszer-technológia az élelmiszerek előállítása főként mezőgazdasági alapanyagokból tudományos alapelvek alapján történik.",
+    "A folyamat három modulból áll: az alapanyag, a technológia és a végtermék. Az élelmiszer-technológusnak pontosan ismernie kell az általa felhasznált alap-, adalék- és segédanyagok, valamint a végtermék specifikációit, amiben elsősorban a természettudományok alapelveire támaszkodik. Minden termék leírható kémiai, biológiai vagy fizikai tulajdonságai alapján. A technológia végső soron az alapanyagtól a végtermékig terjedő értékláncon végighúzódó teljes folyamat, ami különböző alapműveletekből áll, és a megvalósításához testreszabott berendezésekre gépekre, valamint érzékelés- és méréstechnikára van szükség.",
+    "",
+    "2. ábra: Az élelmiszertechnológiai eljárás alapelve",
+    "A technológia kifejezés a termékek vagy folyamatok alapjául szolgáló megoldási elveket írja le: ilyen például a gravitáció vagy a spektroszkópia elve. A technológia alapját általánosan elfogadott tudományos elvek és elméletek alkotják. A tudományban az elmélet a tudás legmagasabb szintje. Rendszerint korábban hipotézis, azaz megalapozott feltételezés vagy posztulátum formájában fogalmazták meg, a későbbiekben aztán bizonyítást nyert és elméletté alakult.",
+    "A technika valamely problémamegoldás lehetséges konkrét megvalósítására utal. Ilyenek például a különböző kialakítású szűrőrendszerek vagy prések, amelyek mindegyike végső soron a kívánt eredményhez vezethet.",
+    "Minden technika egy vagy több alapművelet végrehajtására szolgál, amelyek összeadódva a kívánt végterméket adják. Számos alapművelet a mikrobiológia, kémia vagy eljárástechnika valamely területéről származik. Az 2. ábra összefüggéseiben magyarázza a fogalommeghatározásokat. Az 1. táblázat a különböző élelmiszerek előállításának legfontosabb alapműveleteit és azok változatait mutatja be.",
+    "Az élelmiszer-feldolgozás csak egy része a „gazdaságtól a villáig” („szántóföldtől az asztalig”) tartó teljes útnak, amely a szakirodalomban élelmiszeripari értéklánc vagy agráripar néven szerepel és hét szakaszból áll (Strecker és munkatársai, 2010). Az első három szakasz a mezőgazdaság termelési területeire (pl. szántóföldi növénytermesztés, szőlőtermesztés, állattenyésztés, akvakultúra), valamint a mezőgazdasági technológia, a vetőmag-, takarmány- és trágya-előállítás láncban előtte szereplő (upstream) területeire, illetve a begyűjtési és nagykereskedelmi szakasz láncban utána álló (downstream) területeire vonatkozik. A negyedik és ötödik szakasz az élelmiszer-előállítás folyamatait foglalja magába. A hatodik szakasz az élelmiszer-kereskedelmi ágazatokat tartalmazza, vagyis az élelmiszer-kiskereskedelmet, a helyhez kötött élelmiszer-nagykereskedelmet, az élelmiszer-kiszállítással foglalkozó nagykereskedelmet, az exportőröket és az importőröket. A hetedik szakasz a nagyfogyasztók általi élelmiszer-előállítás ágazataira terjed ki: vendéglátóipar, étteremláncok és szállodák, közétkeztetés (vállalatok, kórházak, iskolák stb.), szolgáltatóvállalatok (pl. catering).",
+    "A negyedik és az ötödik szakasz az élelmiszer-feldolgozásnak az a két szintje, amelyekkel ez a tantárgy foglalkozik. Ez az út vezet az alapanyagtól a készáruig, amely általában a konyhai előkészítés után fogyasztható. A modern élelmiszer-technológiában a szétválasztás nem mindig egyértelmű; sok esetben a két szakasz átfedi egymást. Ehhez a két szakaszhoz tartozik:",
+    "Az 1. feldolgozási szakasz ágazatai (nyers mezőgazdasági termékek feldolgozása): gabonamalmok és őrlőüzemek, hántolóüzemek, olajsajtoló üzemek, vágóhidak és darabolóüzemek, keményítőfeldolgozás, borászatok, gyümölcs- és zöldségfeldolgozás, tojástermékek, halfeldolgozás, cukorgyárak, malátagyárak, fűszerüzemek.",
+    "A 2. feldolgozási szakasz ágazatai (nyers termékek finomítása): kenyér és pékáru, sütőipari termékek, tápszerek és tészták, húskészítmények, hentesáruk, cukrászáruk, ecet, tejtermékek, alkoholmentes italok, alkoholos italok, egyéb feldolgozott termékek és készételek különböző előállítási és megjelenési formákban.",
+    "1. táblázat: Az élelmiszer-technológiában fontos alapműveletek és folyamatváltozatok összeállítása",
+    "",
+    "2. táblázat: Az élelmiszer-technológiában fontos alapműveletek és folyamatváltozatok összeállítása II.",
+    "",
+    "3. táblázat: Az élelmiszer-technológiában fontos alapműveletek és folyamatváltozatok összeállítása III.",
+    "A földi élet a Nap sugárzási energiájától függ, ami lehetővé teszi a növények számára, hogy a fotoszintézis révén a CO2-t C6-szerkezetű glükózzá, és végül a növényi biomassza felépítéséhez szükséges összes szerkezeti és funkcionális molekulává alakítsák. Ez a biomassza energiaforrásként szolgál az állatok és a mikroorganizmusok számára. A növényevők a maguk részéről a húsevők táplálékbázisát képezik. A Homo sapiens mindenevőként állati és növényi forrásokból táplálkozik, és már évezredekkel ezelőtt is hasznosítani tudta a mikroorganizmusok anyagcseréjét. A 3. ábra ezeket az összefüggéseket mutatja be az elsődleges mezőgazdasági termelés és az elkészített végtermék között.",
+    "",
+    "3. ábra: Az elsődleges mezőgazdasági termeléstől az ehető élelmiszerekig",
+    "A fogyasztóig tartó értéklánc jellemzője a feldolgozási és forgalmazási folyamat során növekvő fokozódó értéknövekedés. Az alapvető tudományos és műszaki műveletektől függetlenül az értékteremtés folyamata termékorientáltan is ábrázolható (4. ábra).",
+    "Csak néhány élelmiszer – pl. gyümölcs vagy zöldség – fogyasztható közvetlenül. A legtöbb esetben az értékes összetevőket először hozzáférhetővé, illetve fogyaszthatóvá kell tenni. Ide tartozik például a gabonafélék, a burgonya vagy a rizs szénhidráttartalma, de a szőlő vagy a sárgarépa leve is. A színhús a kicsontozás után ugyan hozzáférhető, de gyakorlatilag nem ehető. Az élelmiszerek könnyű megromlása teszi szükségessé a tartósítást, ami olykor kiegészül a stabilizációval, a tej esetében a felfölöződés gátlás a bor esetében a zavarosodás megelőzése érdekében.",
+    "A modern élelmiszeripar tovább növeli a korábban kinyert termékek értékét az elkészíteni szándékozott élelmiszerek finomítása által, amelyek aztán csomagolt áruként találhatók meg a kiskereskedelmi üzletekben, és lehetővé teszik a gyors és általában egyszerű ételkészítést bármilyen típusú konyhában. Ez figyelembe veszi sok fogyasztó „kényelmi” igényeit és a részben összetett logisztikát maga után vonó városias életformát.",
+    "Az élelmiszerelőállító üzemek lehetnek kézműves vállalkozások vagy ipari üzemek. Míg a hentesek, pékek vagy cukrászok személyes kapcsolatot tartanak a vásárlókkal, addig az ipar az értékesítést a kiskereskedőkön, vagy más nagyobb vásárlókon keresztül végzi, a végfelhasználókkal való közvetlen kapcsolat nélkül. Az ipar és a kézművesség közötti választóvonal elmosódik. A kézműves és ipari vállalkozások között nem annyira a termelési folyamatok, mint inkább a foglalkoztatottak száma alapján tesznek különbséget.",
+    "",
+    "4. ábra: Az ipari értéklánc az ipar előtti értéklánccal összehasonlítva",
+    "A kézműves vállalkozások általában kisvállalkozások, de ugyanazokkal az alapvető műveletekkel dolgoznak, mint az iparban. Számos ipari vállalkozás is inkább a kisvállalkozások közé sorolható. Az alapvető különbségek a nagyüzemekhez képest az áteresztőképességben és a géptechnológiában rejlenek. Míg a nagyvállalatok csúcstechnológiás („high-tech”) gépekkel dolgoznak, amelyek magas beruházási költségeket és szakemberek általi üzemeltetést igényelnek, addig a kisebb vállalatok sokkal körülményesebben, de a megfelelő technológiával („right tech”) dolgoznak, és gépkezelőként nem szakszemélyzetet alkalmaznak. De még ezek esetében is kötelező a jogi követelményeknek (HACCP, higiénia, élelmiszerbiztonság) való megfelelés.  Az 1.2. táblázat összehasonlítja a kétféle üzemszerkezet helyzetét. Az ipari méretű vállalatok ahhoz is jobb helyzetben vannak, hogy kihasználják a globalizáció kínálta lehetőségeket. Ez az áruk exportjára, de mindenekelőtt az alapanyagok és adalékanyagok beszerzésére vonatkozik. Ebben az élelmiszerláncban meg kell őrizni az összes anyag biztonságát, hozzáférhetőségét és hatékonyságát. Vegyünk példának egy fagyasztott pizzákat előállító céget, amelynek napi termelése 2,5 millió csomag különböző pizzából áll. Összességében az ellátási lánc 350 különböző összetevőt tartalmaz, amelyeket a világ minden részéről 150 beszállítótól szereztek be (2014 nyarán). A 2020-as koronavírus-világjárvány sok vállalatot megtanított arra, hogy ne csak egy beszállítóra támaszkodjon a beszerzésben, és hogy vonjon be helyi beszállítókat is.",
+    "4. táblázat: Technológiai különbségek a nagy- és kisüzemek között.",
+    "Az emberek élelmiszerrel való ellátása, mint az élelmiszertechnológia fő feladata",
+    "Az iparosodott országokban az életkörülmények megváltozása a fizikai aktivitás erőteljes csökkenéséhez vezetett, gyakran anélkül, hogy az étrendet az ebből eredően csökkent energiaigényhez igazították volna. Az életmód és a munka világában bekövetkezett változásokkal párhuzamosan alapvető változás következett be az étkezési szokásokban és a táplálkozáskultúrában. Ezek a változások nagyon gyorsan, mindössze néhány generáción belül következtek be. Ugyanakkor óriási választék van bármikor elérhető, viszonylag olcsó és ízletes élelmiszerekből. Az elhízás mára vezető betegséggé vált, aminek közvetlen következménye számos szív- és érrendszeri betegség vagy a cukorbetegség (összefoglalóan: metabolikus szindróma). A számok a folyamatos elhízás drámai képét mutatják. A közkedvelt BMI-mérés szerint a férfiak kétharmada túlsúlyos, egynegyedük pedig elhízott, 30 feletti értékkel. A nők 53%-a túlsúlyos és 20%-a elhízott. Ezek az értékek alacsonyabbak, mint a férfiaké, de még mindig túl magasak. Világszerte egymilliárd ember számít elhízottnak.",
+    "Ázsia vagy Afrika számos elmaradott országában teljesen más a kép. Világszerte mintegy 800 millió ember szenved alultápláltságtól, és további 2 milliárd ember az egyoldalú táplálkozás miatt. A 2050-re prognosztizált 10 milliárd ember táplálása az egész társadalom számára kihívást jelent, amelyben az élelmiszer-technológiának fontos szerepet kell játszania.",
+    "A táplálkozás 3.0 és az ipari forradalom",
+    "Az ember a 2,4 millió éve tartó evolúciójának több mint 96%-át vadászó – gyűjtögető életmódban töltötte, míg körülbelül 10 000 évvel ezelőtt a neolitikus forradalom során át nem állt a mezőgazdaságra. A múlt század közepén kezdett kialakulni az emberi táplálkozás harmadik és egyelőre utolsó forradalma. Abban az időben az ipari forradalom már javában zajlott, és a mezőgazdaság jelentősége egyre csökkent. A világ népessége lassan a második milliárd felé haladt, a városok robbanásszerűen nőttek. A munkát egyre inkább az otthonon kívül végezték, és az önellátás az élelmiszerek terén visszaszorult.",
+    "Megjelentek a piacon az első ipari élelmiszergyártó üzemek, olyan cégek kezdték el sikertörténetüket, mint a Maggi és a Dr. Oetker. A tömegtársadalmak kialakulása olyan iparágat kényszerített ki, amely képes volt nagy mennyiségben élelmiszereket előállítani, és kifinomult, széles körű logisztikával rendelkezett. A globalizáció az élelmiszerek esetében azt jelenti, hogy a világon bárhol előállított valamennyi élelmiszer vagy alapanyag gyakorlatilag a betakarítással egyidőben, szinte korlátlanul rendelkezésre áll. Az ezzel egyidőben párhuzamosan zajló további iparosodás megteremtette a feltételeket ahhoz, hogy még intenzívebb tömegtermeléssel és az összes rendelkezésre álló alapanyag felhasználásával az olcsó és tartós élelmiszerek szinte már áttekinthetetlenül nagy választékát állítsák elő. A modern szupermarketek akár 60 000 különböző terméket is kínálnak.",
+    "Jelenleg az emberek mintegy 50%-a él városokban, 2050-ben pedig a kutatások szerint már akár a 80%-uk is.",
+    "A városok határain belül alig zajlik mezőgazdasági termelés, az élelmiszereket teljes egészében a környező vidékről kell beszerezni, és minél tovább tarthatók el költséges hűtőlánc nélkül, annál egyszerűbbé válik a logisztika. A friss, közelben megtermelt élelmiszerek kínálata a nagy számok miatt kezd a határaihoz érni. Az emberek rá vannak utalva a hatékony élelmiszeriparra és a globális ellátásra.",
+    "Energianyerés a táplálékból ",
+    "Mint minden technikai rendszernek, amely munkát végez, az embernek is üzemanyagot kell felvennie, azonban őt az különbözteti meg a hatékony gépektől, hogy még készenléti üzemmódban is nagy mennyiségű energiát igényel. Önmagában rengeteg üzemanyagot fogyaszt a testi funkciók – például a légzés, a szívverés vagy az anyagcsere – fenntartásához, még teljes nyugalomban is. Az ehhez szükséges energiaszükséglet megnevezése alapanyagcsere, ami egy számos paramétertől függő, egyedi változó. Ha további munkát végzünk – például kerékpározás, futás, általában izommunka vagy szellemi tevékenység révén – akkor az alapanyagcserét meghaladó energiára van szükség: ez a teljesítménynövekedés, amelynek mértéke az elvégzett munka függvénye. Míg egy átlagos embernek napi 800 kilokalóriával többre van szüksége, addig a Tour de France versenyzőknek akár 7 000, a maratoni futóknak pedig mintegy 3 000 kilokalóriával is többre van szükségük.",
+    "Az embernek az alapanyagcseréből és teljesítménynövekedésből álló rendszeréhez számos makro- és mikrotápanyagra van szüksége, amelyeket az étellel kell bevinnie. Jelentősebb mennyiségben szükségesek a táplálkozás alapvető építőkövei, az alaptápanyagok: a szénhidrátok (kb. 4,3 kcal energiatartalom/g), fehérjék (kb. 4,3 kcal/g) és zsírok (kb. 9,3 kcal/g). A szervezet a hús, kolbász, sajt, zöldség vagy gyümölcs formájában elfogyasztott zsírok, fehérjék és szénhidrátok energiatartalmára támaszkodik, ezeket azonban a szervezet által felhasználható formában kell bevinnie, vagy saját magának át kell őket ilyenné alakítania.",
+    "Az emésztés végső soron az összetett élelmiszerek lebontása alapvető kémiai építőelemeikre. A szénhidrátok esetében az egyszerű cukrok – a glükóz, a fruktóz vagy a galaktóz – poliszacharidokból – például pektinből vagy keményítőből – képződnek.",
+    "A fehérjék 20 különböző aminosavból állnak, és a szervezetben összetett szerkezeti formákban, vázfehérjeként vagy funkcionális fehérjékként vannak jelen. A csavaros és gyakran más vegyületekkel összefonódott kvaterner szerkezetet végső soron több lépésben le kell bontani az egyes aminosavak szintjéig.",
+    "A zsírok egyenként három zsírsavval rendelkező glicerinből állnak, amelyeket viszont alkotóelemeikre kell hidrolizálni. Csak a monomereket, azaz a viszonylag kis molekulákat tudja a szervezet hasznosítani, és az emésztőszervekből a vérbe, majd a véráram útján az azokat igénylő szervekbe szállítani.",
+    "A ballasztanyagok – mint például a nem darált lenmag vagy az egész napraforgómag – nagyrészt emészthetetlenek, és szinte változatlanul hagyják el a bélrendszert. A fehérjéket az izmok elsősorban izomrostok formájában, de aminosavakként is tárolják. A zsírsavak nagy mennyiségben találhatók a zsírszövetben, de a sejtfalak felépítéséhez csak viszonylag kis mennyiségre van szükség belőlük. A maradék a szervezetben marad, mint teljesítménytartalék, és a bőr alatti zsírszövetként szigeteli a testet, vagy védi a szerveket az ütésekkel szemben. A vékony emberek zsírtartalma kevesebb mint 10%, a súlyosan túlsúlyos embereké viszont jóval több mint 50%.",
+    "Az 5. táblázat az élelmiszerek hatékonyságát hasonlítja össze, fizikai-kémiai állapotuk függvényében. A nyers élelmiszerek – amennyiben egyáltalán felhasználhatók az ember számára – sok erőfeszítést igényelnek az emésztéshez, és viszonylag alacsony az energiakihozataluk. A feldolgozás által jelentősen növekszik az emészthetőség, javul az energiakihozatal. Sok iparilag kezelt élelmiszer esetében a hatékonyság még magasabb. Az emberi emésztés első lépései már az előállítás során megtörténnek, az összetevők gyakran a vékonybél első szakaszában közvetlenül a véráramba jutnak, a szervezet további munkája nélkül. A gyorséttermi ételek többnyire rostmentesek és már „félig megemésztettek”. A könnyen emészthető, gyakran igen magas energiatartalmú, iparilag előállított élelmiszerek fokozott fogyasztása bizonyára nem elhanyagolható szerepet játszik sok ember súlygyarapodásában. Ugyanez vonatkozik az édességek fogyasztására is, amelyek az egyszerű cukrok magas aránya miatt kiemelt és nagyon könnyen emészthető energiaforrást jelentenek.",
+    "5. táblázat: Az élelmiszerek energiahatékonysága a fizikai-kémiai állapotuk függvényében.",
+    "Az alaptápanyagokon kívül számos más létfontosságú anyagot is biztosítani kell a szervezet számára, amelyekből grammnyi vagy milligrammnyi elegendő, mivel az emberi szervezet nem képes ezeket vízből, szénhidrátokból, zsírokból vagy aminosavakból saját maga szintetizálni. Ezek közé tartozik néhány zsírsav, ásványi anyag, vitamin és a 20 aminosav közül 10, amelyek a sok száz különböző fehérje építőkövei. Összességében az emberi szervezet 47 anyagtól függ, amelyekhez feltétlenül a táplálékkal kell hozzájutnia. További 13 esszenciális vegyület különleges esetet képvisel, illetve még mindig vitatott a jelentőségük az emberek számára. A 6. táblázat az ember számára nélkülözhetetlen tápanyagokat sorolja fel.",
+    "Az aminosavak közül kettő csak a gyermekek számára esszenciális: a niacin (B3 vitamin) és a kalcitrol (átalakított D-vitamin) vitaminok a szervezetben szintetizálódhatnak a napsütéstől függően, vagy ha elegendő mennyiségű triptofán aminosav áll rendelkezésre. A szükséges napi bevitel a fogyasztástól függ, és egyénenként eltérő. Beviteli ajánlásokat ad például az Európai Élelmiszerbiztonsági Hatóság (EFSA) vagy az Egészségügyi Világszervezet (WHO).",
+    "Az egyes vegyületek hiánya a test károsodásához vezet, és hosszú távon súlyos problémákat, akár halált is okozhat. A legismertebb hiánybetegség valószínűleg a skorbut (C-vitamin-hiány) és a D-vitamin hiány okozta angolkór. Szerencsére az emberi szervezet gyakorlatilag minden létfontosságú építőelem számára rendelkezik raktározási rendszerrel, és így egy bizonyos ideig képes áthidalni a táplálékhiányt. Ez a pufferhatás végső soron az oka annak, hogy normál körülmények között a vegyes táplálék elegendő, és az étrendkiegészítők feleslegesek. Más a helyzet a növekedésben lévő gyermekek, a versenysportolók vagy a várandós nők esetében, akiknek fokozott igényeik vannak, de a vegetáriánusok esetében is. Esetükben az alapvető tápanyagok állapotát rendszeresen vérvizsgálattal kell ellenőrizni. A vérkép azt is figyelembe veszi, hogy a gyomorban vagy a bélben végbemenő felszívódás személyenként és életkoronként változik, és hogy az egyes anyagok akadályozhatják egymást a vérbe való felszívódásban.",
+    "6. táblázat: Esszenciális ásványi anyagok, aminosavak, zsírsavak és vitaminok, valamint ezek funkciója a szervezetben.",
+    "",
+    "Innovációk: az üzleti tervtől a piacig",
+    "Eddig az élelmiszerágazatban működő értéklánc folyamán a „szántóföldtől az asztalig” vezető vertikális utat vettük végig, és ennek során az alapanyag különböző változásait. Az értéklánc azonban horizontálisan is ábrázolható: az ötlettől a piacképes termékig. Gyakorlatilag az összes jelenleg kapható élelmiszer egykoron innováció (latin eredetű szó, jelentése: valami újonnan létrehozott dolog) volt, amelynek gyakran erőteljes ellenállásokkal szemben kellett győzedelmeskednie. Az ötletből termék lett, a kereskedelmi hasznosítása pedig sikerrel járt. Ideális esetben a termék egy ötlet szisztematikus tervezésének, megvalósításának, ellenőrzésének és hasznosításának eredménye egy társadalmi szervezeten belül – azaz az innovációmenedzsment sikere. A teljes értéklánc mentén öt innovációs lépés követi egymást:",
+    "kezdeti ötletelés és mérlegelés",
+    "az elképzelés technikai és tudományos alapjainak megvizsgálása",
+    "piacképes termékké történő fejlesztés",
+    "gyártás, kiszerelés és piacra dobás",
+    "termékgondozás az életciklus meghosszabbítása érdekében",
+    "Az első két lépés általában az íróasztalnál és a laboratóriumban megy végbe, ahol a legtöbb ötlet számos okból már a kezdetekben megbukik. Gyakran előfordul, hogy úgy vélik: a fejlesztés túl sokáig tart vagy túl költségigényes, vagy az értékesítési részleg a piaci helyzetre való tekintettel nem lát értékesítési sikereket. Csak kevés termék jut el a fejlesztési folyamatig, ahol kezdettől fogva a vállalat számos részlegének együttműködésére van szükség. Már az első fejlesztési fázisban konkrét elképzeléseket kell kidolgozni a későbbi marketingre vonatkozóan, általában üzleti terv formájában, amely végső soron a további fejlesztésről szóló döntés alapját képezi. Gyakran egy egyetemi szakdolgozat kidolgozottsági szintjén az innovációtól elvárt teljes üzleti modellt leírják, amelynek során a technológiai és a vállalatirányítási szempontokat össze kell kapcsolni. Végül az üzleti tervnek be kell mutatnia, hogy az új termék hogyan fogja támogatni a vállalat elvárt nyereséges növekedését.",
+    "Ha a laboratóriumi vagy kis konyhai tesztek sikeresek, a projekt a következő, nagyobb szakaszba lép, ami a próbaüzemi gyártás. Ellenkező esetben közbelép az első megszakítási kritérium. A próbaüzemben a termék elvárt érzékszervi és technológiai tulajdonságait kell megerősíteni egy kisszériás gyártás során, és meg kell határozni a kísérleti gyártás folyamatparamétereit. A legrosszabb esetben a projektet ezen a ponton elvetik. A következő lépés egy kísérleti gyártás, esetleg már kis tételben a tényleges gyártóüzemben. A nagyvállalatok megengedhetik maguknak, hogy saját, rugalmas, kis gyártóüzemeket hozzanak létre erre a célra.",
+    "Pozitív esetben meghatározható ekkor az összes termelési paraméter, a méréstechnika és a HACCP-kritériumok rendszere. Mindenekelőtt a gazdasági feltételezéseket kell megerősíteni. Az előállított mennyiség többnyire arra szolgál, hogy ki lehessen szállítani a termékből a tesztpiacokra, amelyek reakciója lehet a következő megszakítási kritérium, és oda vezethet, hogy még a piaci bevezetés előtt elvetik az innovációt. Az 5. ábra összefoglalja a legfontosabb kritériumokat egy új termék kifejlesztése során, egészen a piaci bevezetésig. Az értékesíthető termékig vezető következő két lépést intenzíven kell kísérnie a minőségirányításnak. A szervezeten belül ennek a személyzeti egységnek kell gondoskodnia a szükséges tanúsítványokról és az élelmiszerbiztonság kérdésének előtérbe helyezéséről. Ez magában foglal többek között egy átfogó kockázatértékelést és a káresemény bekövetkezése esetén alkalmazandó válaszintézkedések bevezetését. A termelésirányítók a maguk részéről lassú ütemben növelik a termelést, és fokozatosan optimalizálják az üzem paramétereit.",
+    "",
+    "5. ábra: Tevékenységek az ötlettől a piacképes termékig vezető úton",
+    "A folyamatok és stílusok, típusok versenye az élelmiszer-technológiában",
+    "Ha valamely termék specifikációja elkészült és a kereskedelmi belistázása megtörtént, akkor a specifikációt a későbbi szállításoknál pontosan be kell tartani. Az analitikai úton kimutatható vagy érezhető ízeltéréseket sem a kereskedelem, sem a fogyasztó nem fogadja el. Az évjáratok közötti változatok a bor esetében még bizonyos mértékben érthetők, hiszen az egyéniségének részei, azonban a sör, a gyümölcslevek vagy más élelmiszerek esetében már nem. A Coca-Colának mindig ugyanolyan ízűnek kell lennie, függetlenül attól, hogy melyik országban ki palackozta. A legtöbb esetben azonban a feldolgozandó termékek olyan mezőgazdasági alapanyagok, amelyek – mivel biológiai folyamatok eredményei – bizonyos eltéréseknek vannak kitéve. Az élelmiszer-előállításnak ezért azzal a kihívással kell szembenéznie, hogy technológiai megoldásokat és/vagy a célzott alapanyagválasztást, illetve keverést úgy használja fel, hogy mindig egy meghatározott végterméket állítson elő. Ebben az összefüggésben nyilvánvalóvá válik, mekkora jelentőséggel bír az alapanyagbeszerzés, de az egyes elemzési paraméterek pontos ismerete és befolyásolhatósága is. A 6. ábra grafikusan mutatja be a termelésnek ezeket a korlátait.",
+    "A friss sajt esetében az olyan biológiai folyamatok, mint az alkoholos erjedés vagy a törések képződése mindig tartalmazzák a selejtképződés kockázatát. Hibás erjedések bármikor előfordulhatnak. Ugyanez vonatkozik a kémiai átalakulásokra is, amelyeknél szintén előfordulhatnak hibák. Még a szűrés vagy szárítás gépi technológiája is eltérő eredményekhez vezethet. A termelésnek ezért nemcsak az összes folyamatparaméter (hőmérséklet, nyomás, koncentrációs görbe stb.) betartását kell folyamatosan ellenőriznie, hanem a rendszeres termékellenőrzésnek azonnal fel kell ismernie, és haladéktalanul korrigálnia kell az összes zavaró változót.",
+    "",
+    "6. ábra: A célok elérése a biológiai és technikai folyamatok eltérései ellenére",
+    "A terméket érintő ezen kényszerítő körülmények ellenére a cél különböző eljárástechnikákkal elérhető. Az üzemeltetési gyakorlatban szinte minden esetben egyenesen verseny van a folyamattechnológia keretében. Az nem elképzelhető, hogy egyes folyamatok másolatai egymásnak. Még olyan nagyvállalatoknál is, amelyek több, elvileg azonos technológiai gyártósorral rendelkeznek, eltérések mutathatók ki a gyártósorok eltérő időpontokban telepítése miatt. A különböző eljárástechnikák általában különböznek egymástól gazdaságosságuk tekintetében. A gazdasági korlátok folyamatosan arra kényszerítik a vállalatokat, hogy felülvizsgálják a választott eljárásaikat, és gazdaságosabb eljárásokba fektessenek be. Végső soron a döntő tényező a megtérülési idő. A szükséges előfeltétel azonban mindig az, hogy az élelmiszer specifikációja pontosan teljesüljön.",
+    "Másrészt egy adott alapanyagból kiindulva, meghatározott folyamattechnikai intézkedésekkel nagyon különböző élelmiszerek állíthatók elő. Ezek a különbségek lehetnek inkább stilisztikai jellegűek, ahogyan az rendszeresen történik, amikor egy homogén tétel vörös szőlőből különböző fogyasztási alkalmakra szánt, illetve eltérő árfekvésű vörösborokat állítanak elő. Az előállítás variálásával vörösborok, lazacszínű rozéborok vagy gyakorlatilag színtelen Blanc de Noirs („feketéből fehér”) borok nyerhetők ki. Végső soron a piac dönti el, hogy az alapanyagból milyen típus készüljön. Az aludttejből készülő túró előállítása során a technológiák között is lehet verseny, de ennek egy szerkezetileg és érzékszervileg meghatározott végtermékhez kell vezetnie. A 7. ábra mindkét termékcsoport esetében példaként mutatja be a technológiai lehetőségeket.",
+    "",
+    "7. ábra: A termékstílusok és a gazdasági hatékonyság mint a technológiák hajtóereje (a túrókészítésre vonatkozó részleteket illetően lásd a 1.4. fejezetet)",
+    "",
+    "Élelmiszertechnológia közel 10 milliárd ember számára múlt – jelen – jövő",
+    "Az élelmiszeripar és a táplálkozási rendszerek",
+    "Az élelmiszerek előállítása egyre inkább tudásalapon működik: a természettudományok – a kémia, a biológia és a fizika – olyan analitikai csodamódszereket bocsátottak rendelkezésre, amelyek segítségével minden ehető legkisebb molekulákra bontható. Így lehetővé vált a természetes összetevők megállapítása és az egyáltalán nem ritka hamisítványok objektív módon történő bizonyítása. Lehetővé vált továbbá az egyes elemek igény szerinti újbóli összeállítása is. Az élelmiszerekről való tudás egyre inkább anyagismeretté vált. A húsra fehérjék (aminosavak), ásványi anyagok és zsírok összeségeként, a teljes kiőrlésű kenyérre szénhidrátok és élelmi rostok összességeként tekintünk, a tej pedig elsősorban zsírból, fehérjéből, laktózból és néhány fontos ásványi anyagból áll. Ez a táplálékokról kialakult, kémiailag meghatározott tudás tette lehetővé az előállítási folyamatok pontos irányítását és hatékonyságának jelentős növelését. A varázskonyhákban ettől fogva szüntelenül új, biztonságos, eltartható és olcsó élelmiszerek készültek különböző kémiai vegyületekből. Először frakcionálással (részekre bontással), majd kreatív újrakeveréssel. Évente több mint 15 ezer élelmiszer kerül a piacra és a polcokra. Több mint 90%-uk elbukik a fogyasztóknál, és egy év múlva el is tűnik.",
+    "Az élelmiszeripar az eltartható élelmiszerek óriási választékát hozta létre viszonylag kevés alapanyagból. A vállalatoknak ehhez meg kellett tanulniuk az alapanyag egyes összetevőit izolálni, módosítani, majd újra összerakni. Búzából készül a kenyér, a sütemény, az aprósütemény, a tészta, a keksz, a nudli, a gombóc, a kréker, a gabonapehely, némely sör és a panírmorzsa is. És ez a lista korántsem teljes, a búza az élelmiszerek közel 30%-ában előfordul. A sokrétűség mögött általában élelmiszer-technológiailag nagyon összetett és gyakran időigényes feldolgozási módszerek állnak. Előfeltételük az alapos anyagismeret. A mai élelmiszerek túlnyomó része a feldolgozás második szakaszába tartozik. Csak a technikailag nem módosított élelmiszerek, amelyek lényegében véve eredeti állapotukban találhatók, azok tartoznak az első szakaszhoz. Ide tartoznak akkor is, ha kikerülnek rendes közegükből. Ilyenek például a hasított testről levágott húsdarabok, a lefejt tej, a kipréselt szőlőlé, az őrölt búza, a burgonya, a méz, a saláta és a cukor. Ide tartozik a tojás is, de az omlett már nem, a gyümölcs igen, de a lekvár nem, a zöldségfélék igen, de a savanyúság már nem. A kenyér, a kolbász, a sajt vagy a joghurt mind a második szakaszhoz tartozó élelmiszerek, akárcsak a csokoládé, a chips, a kóla, az édességek, a kenyér és a zsömle, a hamburger, a mélyhűtött pizza, a konzervleves, a leveskocka, minden konzerv, krém és természetesen a bor és a sör is.",
+    "A nyugati világban a többszörösen nem természetes, többé-kevésbé jelentősen feldolgozott élelmiszerek dominálják a piacot. Spiekermann ezeket a tervezett élelmiszereket „mesterséges ételnek” nevezi. Az új, a 19. század közepétől induló, anyagában meghatározott élelmiszerekkel történő táplálkozás 3.0 lényegesen eltér az azt megelőző táplálkozás 2.0 rendszerétől. A 8. ábrán az emberiség három táplálkozási rendszerének alapelveit mutatja be. A táplálkozás 3.0 a feldolgozott élelmiszerek, különösen a kényelmi termékek, vagy a még rosszabb megítélésű változataik, a gyorsételek (fast food) fogyasztását jelenti. Kedvelőik és ellenzőik az alábbi fogalmakat is használják leírására: „kényelmi termékek”, „instant ételek”, „ready meal” vagy „készételek”. Piaci részesedésük évről évre nő, az egyik legnagyobb trendnek számítanak. A gyors-/kényelmi ételek jelentik annak a táplálkozási stílusnak a kiteljesedését, amelynek gyökerei több mint 150 évre nyúlnak vissza. Ami Maggi, Knorr és Nestlé urak idejében szerényen kezdődött, az ma uralja az emberi táplálkozást. Az ipari forradalom során bekövetkezett társadalmi változások az embereket fogékonnyá tették a késztermékekre, a tartós, sokáig elálló és tápláló élelmiszerekre, amelyek könnyen elkészíthetők otthon. A táplálkozás 3.0 részét képező élelmiszerek nagy energiatartalmú és gyakran könnyen emészthető kalóriabombák. Minden összetevőjük különösebb emésztési feladat nélkül a vérbe kerül. A táplálkozás 3.0 ellenmozgalma az egyéni vagy személyre szabott táplálkozás, amely közelít az első rendszerhez, és a táplálkozás 4.0 elnevezést kapta).",
+    "",
+    "8. ábra: A három táplálkozási rendszer az emberré válás kezdete óta (323. oldal)",
+    "Az élelmiszeripar az I. világháborúig az egyik legfontosabb iparág volt. Az élelmiszeripari üzemek közel 50%-a már 1895-ben több mint 200 munkatársat foglalkoztatott. 1930-ban a tejipar erősebb volt, mint az acélipari és a bányászati ágazat. A kohók, vasutak, aknatornyok árnyékában az „ipari forradalom” korában élők rövid idő alatt megszokták és „mindennaposnak” tekintették az élelmiszergyártás iparosodását. Az emberek hamar hozzászoktak a jó minőségű répacukorhoz, a gépekkel előállított és zacskókba csomagolt liszthez, a zöldség- és gyümölcskonzervekhez, a zacskós levesekhez, a fűszerekhez, a húskivonatokhoz, a cikóriakávéhoz, a palackozott sörhöz, a borhoz és az ásványvízhez. Mindezeket az első ipari gyártással, modern technikák segítségével működő vállalatok állították elő. A fellendülés politikai feltétele az volt, hogy a 18. század végén megszűnjenek a gazdasági monopóliumok és privilégiumok, és érvényesülni tudjon a verseny és gazdasági tevékenység szabadsága.",
+    "Az iparosodás éllovasa a répacukorgyártás volt a 19. század elején, azt követte a malomipar és növényi olajok feldolgozása. A gabonafeldolgozás terén 1825-től kezdtek hatékonyabb őrlési eljárásokat és alkalmasabb gabonafajtákat alkalmazni. A hengerek hajtását egyre inkább a gőzgépek vették át a szél- és vízierő helyett. A malomipar hihetetlen koncentrációs folyamaton ment át, különösen 1950-től. Körülbelül 1870-től más ágazatokban is meghonosodott az iparosodás, sorra alakultak a konzerv-, az ásványvíz-, a csokoládé- és a lekvárüzemek. Az ásványvízgyártás számára nagy hasznot jelentett, hogy sikerült a vizet szénsavval dúsítani.",
+    "A végfogyasztási termékeket (sört vagy csokoládét) előállító ipari ágazatok mellett a 19. század második felében létrejöttek a köztes termékek gyártására specializálódott vállalatok is. Példa erre a mezőgazdasági alapanyagból (pl. burgonyából vagy búzából) előállított keményítő gyártása. Ez a keményítő volt a pékáruk, a fűszerek és később a puding alapanyaga. Hamar felvetődött a kérdés, hogy az állatok takarmányozásán kívül mire lehetne használni a pelyvát, a fehérjét és a csírákat. A technológiai szakemberek egymás után fejlesztették ki az eljárásokat és alkalmazási területeket a nyersanyagok teljes körű felhasználásához.",
+    "A vállalatok rendkívül tőkeigényes villamosítása 1895-től kezdődött, és felgyorsította az élelmiszeripar további központosítását. Vállalatok egyesülésével olyan nagyvállalatok jöttek létre, amelyek milliárdos forgalmukkal részben még ma is nehézsúlyú piaci résztvevők. A nagyvállalatok – mint a Nestlé, az Unilever, a Danone – mellett a helyi kézműves termelők hosszú ideig küzdöttek a túlélésért. A kisebb vállalatokat szinte minden ágazatban egyre jobban kiszorították.",
+    "Az élelmiszeripar 1950 óta high-tech iparággá vált, amely napjainkban a legmodernebb gépekkel és nagy sebességgel dolgozik. Az ökológiai szükségszerűségek és a költségcsökkentés kényszere minimális energiafelhasználáshoz, csökkentett vízfelhasználáshoz vezetett, a hűtővíz keringetéses rendszerben mozgott, és a nyersanyagokat a lehető legnagyobb mértékben felhasználták. A higiénikus gyártási folyamat, a steril csomagolás és a hűtési lánc lehetővé tette a hosszan eltartható, kémiailag megbízható és mikrobiológiailag biztonságos élelmiszerek gyártását.",
+    "10 milliárd ember táplálása",
+    "Az élelmiszeripari termékek emberi fogyasztásra készülnek. Minden embernek joga van az élelemhez, ez áll az ENSZ 1948. évi általános Emberi Jogok Egyetemes Nyilatkozatában. Minden embernek megbízható hozzáférést kell biztosítani nemcsak a kiegyensúlyozott, hanem – a kultúrájának és természetes életkörülményeinek – megfelelő élelemhez. Az ember élelemhez való joga megköveteli, hogy senki ne legyen alul- vagy rosszul táplált. Az ember élelemhez való joga a létfenntartási jog része. Minden embernek rendelkeznie kell azokkal az erőforrásokkal, amelyekre a folyamatos túléléshez van szüksége. A mezőgazdasági világjelentés (IAASTD 2009) szembe helyezi egymással az igényt és valóságot: eszerint akkor közel 1 milliárd ember volt alultáplált a kalóriabevitel szempontjából, és közel 2 milliárd ember strukturálisan. A számok bizonyos ingadozásokkal, de lényegében véve ma is érvényesek.",
+    "Mindezek ellenére az emberiségnek soha nem volt jobb dolga, mint ma: 2015-ben az emberek 11%-a éhezett, míg 1970-ben még 28%-uk. Ennek fő okát a korszakalkotó zöld forradalom jelentette: míg a mezőgazdaság 1960-ban világszinten fejenként 200 kg gabonát termelt, addig ez az érték mára kétszeresése, 400 kg-ra nőtt. Mindez annak ellenére megtörténhetett, hogy az élelmiszerfogyasztók száma 45 év alatt 3-ról 7 milliárdra nőtt. 30 éven belül közel 10 milliárdra fog nőni a Föld lakosainak száma, és ők igényt fognak tartani legalább az elismert emberi jogaikra. Az ENSZ Élelmezésügyi és Mezőgazdasági Szervezete (FAO) szerint rendelkezésre álló megmunkálható területeken addigra mintegy 50%-kal több élelmiszert kell majd előállítani, mint napjainkban. Az éhség végleges legyőzése komoly feladatot jelent az élelmiszer-technológia, a mezőgazdaság és a politika számára. Az emberek biztonságos táplálékhoz jutásához számos lehetőség és kockázat is kapcsolódik. Nagy innovációs képességének köszönhetően az élelmiszer-technológia sokat képes csökkenteni az alábbi kockázatok közül.",
+    "Vízhiány: 2050-ig a világ lakosságának egynegyede valószínűleg állandó vagy rendszeres édesvízhiányban fog szenvedni. A világ lakosságnak szinte egynegyede már most olyan országokban él, ahol szélsőségesen magas a szárazság kockázata. Ugyanakkor regionálisan is csökkennek a globális víztartalékok. Ennek egyik oka a klímaváltozás, amelynek következtében a nedves területek nedvesebbé, a szárazak még szárazabbá válnak. Másik oka a vízszennyezés és a szikesedés. Meg kell említeni továbbá a talajvíz túlzott műtrágya- vagy növényvédőszer-használat okozta terhelését is (UNESCO 2019). A helyzet javításának egyik módszere lehet a tengervíz membránrendszerrel történő sótalanítása és az erőforrásokat kímélő gyártás, valamint a körforgás, a tisztítás és az újrahasznosítás.",
+    "Veszteség és pocsékolás: Sajnálatos tény, hogy a mezők termése nem mind az emberek gyomrában végzi. A rágcsálók, rovarok és gombák is igény tartanak a saját részükre a neolitikus forradalom első napjától kezdve. Emellett a kevésbé hatékony betakarítási, szállítási, tárolási és nemesítési technikák is felelősek a veszteségekért. Hiányállapot esetén a hatékonysági fok bármilyen szintű gyengülése fatális eredménnyel járhat. Veszteségek nélkül az emberiség elvben tökéletesen ellátható lenne. A 21. század küszöbén a gazdálkodók éves szinten egy főre eső 4600 kcal mezőgazdasági terméket állítottak elő világszerte, ami elméletileg elegendő lenne 14 milliárd ember jóllakatásához. Sajnos azonban a veszteségek és pocsékolás is előfordul a teljes értékteremtési láncban: betakarítási veszteségek és túltermelés a mezőkön, rossz tervezésből vagy műszaki hibákból eredő gyártási veszteségek, a hűtési lánc megszakítása, rossz beszerzés és korlátozott eltarthatóság, valamint disztribúciós veszteségek a kereskedelem terén, továbbá nagy átalakítási veszteségek az állati kalóriák előállítása során. Ezek mind-mind azt eredményezik, hogy csupán 2000 kcal kerül a háztartásokba, ami csak 43 százalékot jelent. A tudósok azt feltételezik, hogy a veszteségek fele elkerülhető. A 9. ábrán látható, milyen szerepet tölt be a húsfogyasztás. Az állati takarmány 1700 kcal-t nyel el az eredeti 4600-ból, ebből a hús, tojás vagy tejtermékek csak 500 kcal-t adnak vissza. A növényi biomassza állativá történő átalakulása többé-kevésbé hatástalan (UNEP 2009).",
+    "",
+    "",
+    "9. ábra: Élelmiszer-veszteség az értékteremtési lánc folyamán (termőföldtől az asztalig) (327. oldal)",
+    "Rengeteg élelmiszer kerül a háztartási hulladékba. Ennek egyharmada gyümölcs, egyhatoda készétel. Az okok a túl nagy kiszerelésben, az átgondolatlan vásárlásban, a lejárati idő ismeretének hiányában és a rossz tárolásban keresendők. Az elmúlt 10 évben összességében javult egy kicsit a helyzet. Az élelmiszeripar és a nagyfelhasználók jelentős mértékben, 17%-ban részesei a veszteségeknek. Az élelmiszeripar külön figyelmet fordít arra, hogy a nyersanyagokat veszteségmentesen tudja feldolgozni. A kereskedelemből kikerülő élelmiszerhulladékok – a többi vizsgált csoporttal összevetve – csak csekély mennyiséget tesznek ki.",
+    "Túlzott húsfogyasztás: A húsnak státuszszimbólum jellege van, a jólét mutatójaként működik. Aki megengedheti magának, annak jól megy. De természetesen a fogyasztással járó élvezet sem utolsó szempont. A táplálkozástudomány is felhívja a figyelmet, hogy esszenciális aminosavakat, B-vitaminokat, főként B12-vitamint és számos ásványi anyagot is tartalmaz. A hús fogyasztása jó a szervezetnek. Hiszen az ember több mint 3 millió éves evolúciója, amelyet a hús katalizált. A szociológusok előszeretettel emelik ki a közös vadászat és a tábortűz mellett elfogyasztott étel közösségformáló jellegét, mint az emberi kultúra fontos elemét.",
+    "A húsfogyasztást azonban elutasítás éri az etika, az ökológia, az állattenyésztés, az állattartás, a jog, az orvostudomány és a teológia, valamint a táplálkozásgyógyászat irányából. Ez utóbbi amellett érvel, hogy a jelenlegi fogyasztást egészségügyi okokból felezni kellene évente 30 kg/fő mennyiségre. Az összes mezőgazdasági termék előállításához 3,34 milliárd hektár zöldterület és legelő (a Föld lakható felületének 26%-a), valamint 1,6 milliárd hektár szántóföld (12%) áll rendelkezésre. A szántóföldek egyharmadát kizárólag állati takarmány előállításához használják, további részét az üzemanyagok (pl. biodízel vagy bioetanol) előállítására. A világ teljes gabonagyártásának kevesebb mint a fele kerül ténylegesen a háztartások asztalára. A húsfogyasztással járó ökológiai lábnyom további kritikus pont. A magas vízigény (a jelentések szerint egy kilogramm marhahúshoz 15 ezer liter víz szükséges) és a sok üvegházhatású gáz (15%-ban az emberi táplálkozás, majdnem fele a hús előállításának eredménye) szólhat a kevesebb hús fogyasztása mellett.",
+    "Milyen szerepet játszik a modern élelmiszer-technológia a megfelelő mennyiségű táplálékért folytatott harcban? Legfőbb kompetenciáik közé tartozik az élelmiszerek leghosszabb eltarthatósága érdekében történő kíméletes tartósítás, a minimális veszteséggel történő gyártás, az elsődleges termelésből származó alapanyagok optimális kihasználása, a maximális maradékfelhasználás és az új élelmiszerek fejlesztése meglévő vagy új alapanyagokból. Az algák, medúzák, új egzotikus gyümölcsök vagy a megváltoztatott termesztésű gabonafélék megváltozott tulajdonságai új technológiákat, vagy a meglévők módosítását tehetik szükségessé.",
+    "10. ábra: A társadalmi trendek élelmiszeriparra gyakorolt hatása (328. oldal)",
+    "Társadalmi változás",
+    "Az emberi társadalmak folyamatos – hol gyorsabb, hol lassabb – változáson mennek át. A változás az élet minden területére kihat, az élelmiszergyártást és a kereskedelmet is alkalmazkodásra kényszeríti. A kihívásokat jelenleg az alábbi, változó hozzáállások és magatartási formák okozzák:",
+    "A táplálék korrektsége, a természetvédelem etikája, valamint a morál és az egészség mint új életstílus. Az élelmiszeripar etikai szempontjait a 2.4. fejezet mutatja be részletesebben.",
+    "A fogyasztóról kialakult kép is változik. A politika és a törvényhozás egyre inkább fikciónak tekinti a döntésképes fogyasztókat, és inkább kiskorúként kezeli őket, mint akiket óvni kell az élet viszontagságaival szemben. Ennek megfelelően változnak a címkéken feltüntetendő információkkal kapcsolatos, valamint az élelmiszerbiztonsággal és fogyasztóvédelemmel szemben támasztott követelmények. A magánjogi megállapodások, mint pl. az IFS ((International Food Standard-Nemzetközi Élelmiszer Szabvány) vagy a BRC (British Retail Consortium- Globális Élelmiszerbiztonsági Szabvány) további bővítik a vállalati minőségirányítás követelményrendszerét.",
+    "Városiasodás: Napjainkban a lakosság mintegy 50%-a nagyvárosokban él, az előrejelzések szerint 2050-ben ez a szám 70–80% lesz. Miután a fogyasztók egyre kevésbé vesznek részt az élelmiszerelőállítási folyamatokban, így egyre nő a tartós és iparilag előállított élelmiszerek iránti kereslet. A nagy mobilitású és állandó időhiányban szenvedő társadalomnak standardizált és otthoni munkát nem igénylő kényelmi termékekre van szüksége.",
+    "Az értékesítés és a beszerzés terén a globalizáció egzotikusabb összetevőket és élelmiszereket biztosít, ugyanakkor nőnek az árubeszerzési és főként az áruellenőrzési ráfordítások. A tökéletes visszakövethetőség biztosítása nagy kihívást jelent.",
+    "Ugyanakkor olyan személyre szabott, gyakran érzelmi töltöttségű táplálkozási igényeknek kell megfelelni, amelyek a gyorsan változó trendeket követik. Vegán, mentes, clean labeling, ethic food, ethnic food, minimally processed food, natural food,( tiszta címkézés, etikus élelmiszer, etnikai élelmiszer, minimálisan feldolgozott élelmiszer vagy természetes élelmiszer),hogy csak néhányat említsünk az aktuális kulcsszavak közül. Az ilyen élelmiszerek a múltban a nagy darabszám elvét követő nagyvállalatok számára érdektelen réstermékek voltak. A digitális ipari forradalom – amelynek része a „w –világháló-internet- a szélsőséges tárolási kapacitások, az intelligens és villámgyors szenzoros méréstechnika, a RFID (automatikus azonosításhoz és adatközléshez használt technológia) és a „felhő” – a nagyvállalatok számára is lehetővé teszi, hogy tömeggyártásra készült gyártósorokon személyre szabott termékeket állítsanak elő (ipar 4.0).",
+    "A munkahely és lakhely közötti (többnyire) nagy távolság miatt egyre nagyobb az igény a házon kívüli táplálkozásra. A piac erre a szegmensre specializálódott része (vendéglátás, kifőzdék, catering) 2018-ban rengeteg pénzt termelt, és évente jelentős mértékű növekedést mutatott.",
+    "Egyre több idős embernek van szüksége speciális táplálékra, ami kisebb csomagolási egységeket és intenzívebb ízesítést jelent (demográfiai változás).",
+    "Az élelmiszeripart egyre többször teszik felelőssé a járványszerű elhízásért. Elvárásként jelentkezik a cukor, a só, a zsiradékok csökkentése és a táplálkozás egészségi szempontokkal történő erőteljesebb összekapcsolása, akárcsak az összetevők és az energiatartalom átláthatósága (nutri score rendszer), valamint a folyamatok állandó ökológiai és gazdasági optimalizálása a kínálat egyre esztétikusabb megjelenítése mellett.",
+    "Az internetes értékesítés terén az élelmiszerek napjainkban csak a forgalom egy kis részét teszik ki, de a tendencia növekedést mutat. Friss termékek esetében, ha hűtési lánc betartására van szükség, nehézséget jelent az eltarthatóság. Az előrejelzések szerint a piac gyors növekedésen fog átesni, és az élelmiszergyártóknak ezzel párhuzamosan ki kell alakítaniuk ezt az alternatívát is a hagyományos értékesítési forma mellett. A koronavírus okozta leállás (lockdown) újabb löketet jelentett ebben az irányban.",
+    "A technológusoknak egyre inkább menedzserekké kell válniuk, hogy az egyre összetettebbé váló világban meg tudjanak felelni a törvényi és társadalmi elvárásoknak. Összeségében megállapítható, hogy az élelmiszerek világa egyre sokrétűbb és egyedibb, a gyártók vevőkkel folytatott kommunikációja egyre nyitottabb, a biztonsággal és fogyasztóvédelemmel kapcsolatos követelmények egyre szigorúbbak, és az értékesítési csatornák az internetes kereskedelemnek köszönhetően egyre átfogóbbak és kivívásokkal telibbek.",
+    "Etika az élelmiszeriparban",
+    "Az utóbbi években jelentős mértékben megszaporodtak az élelmiszeriparral szembeni etikai szempontok alapján megfogalmazott elvárások, a táplálékoknak egyre nagyobb fokú korrektséget kell felmutatniuk. Az etika fogalmát Arisztotelész vezette be egy filozófiai alapelv megnevezéseként: ő a szokások és hagyományok (etosz) tudományos vizsgálatát értette alatta. Etika alatt ma a filozófia egyik központi részét értjük, amely megpróbálja megválaszolni azt a kérdést, hogy az embereknek mely értékekhez, normákhoz és célokhoz kell igazítaniuk cselekedeteiket. Az etika célja annak vizsgálata, mennyire megalapozott az adott morál érvényesülési igénye, célja továbbá olyan legfőbb, észszerűen megalapozott elvet találni, amely alapján az értékek, normák és célok rangsorolhatók és esetlegesen újak hozhatók létre, hogy ezzel hozzájárulnak az emberi együttélés javulásához. Leegyszerűsítve az etika a morál tana. Az etikai kérdésfelvetések esetében döntő az a cselekvési alternatíva, amely mérlegelést és megalapozott döntéshozást tesz lehetővé.",
+    "A 11. ábra a fogyasztók és az élelmiszeripar közötti etikai alapú konfliktusforrásokat foglalja össze az élelmiszergyártás és az értékesítés számos területéről. A konfliktusforrásokat külön kell kezelni az élelmiszerhamisítástól (food fraud), amelynek körébe a jogilag egyértelmű tényállások esnek, pl. hamisan bejelentett összetevők, alacsonyabb mennyiségek, a maximális károsanyag-mennyiségek túllépése vagy a nem megengedett alapanyagok használata. Az etikai szempontból kétséges élelmiszerek esetében a meghatározó konfliktus abban áll, hogy noha az élelmiszereket szigorúan a törvényi előírások szerint állítják elő, morális szempontból mégis támadhatók és elutasíthatók. Az élelmiszeripar kénytelen volt megtanulni, hogy az élelmiszereknek is van morálja. A civil szervezetek és a fogyasztóvédelmi egyesületek rendszeresen felhívják a figyelmet a tényleges és vélt visszásságokra. Az élelmiszeripart alapvetően az a vád éri, hogy felelős a járványszerű elhízáséért, különösen azáltal, hogy reklámjaival édes és zsíros termékek fogyasztására csábítja a gyerekeket. Egyre erőteljesebbek azok a vádak is, hogy egyre több adalékanyagot használ a „clean label” gyakorlása helyett. A közelmúltban pedig az állatokkal való kétes bánásmód miatt érték támadások. A 11. ábrán a négy dőlt betűvel szedett pont mutat rá ezekre. Az élelmiszer-technológia az őt érő vádak szerint nem végzi humánusan az állatok vágását, illetve a tejtől megfosztja a borjút azzal, hogy idő előtt elválasztja az anyjától. Az élelmiszeripar a nagy tőkeerőt mozgósító és ezáltal sikeres lobbitevékenységének köszönheti, hogy a törvényhozás nem tiltja e cselekményeket. Sikerült például megakadályozni, hogy a címkéken az egészségügyi szempontból fontos tulajdonságokat a közlekedési lámpának megfelelő színek jelezzék.",
+    "",
+    "11. ábra: Az élelmiszeripart etikai szempontból érő támadások (331. oldal)",
+    "Az élelmiszer-technológia különböző okokból előnyben részesíti a pálmaolajat, amelynek viszonylag alacsony az ára, jó a rendelkezésre állása és célzottan átalakítható a speciális felhasználáshoz. Az olajpálmákból hektáronként átlagosan 3,3 tonna olaj nyerhető, a repce, a kókusz és a napraforgó esetében ez az érték éppen csak 0,7 tonna, a szója esetében pedig 0,4 tonna. Az utóbbi években azonban előtérbe került annak problematikája, hogy a pálmaolaj iránti kereslet megnövekedése miatt irtani kezdték a trópusi fákat. A fogyasztók nyomására az ipar és a kereskedelem részben úgy reagál, hogy tanúsított és nem önkényesen irtott területekről szerzi be a pálmaolajat.",
+    "Az állatok jóléte, állatetika: az állatok morális kezelésének kérdésköre ma már nemcsak az etika egy érdekes mellékága, hanem központi témának számít. Az állatok kezelésével kapcsolatosan két különböző világnézet küzd egymással a dominancia megszerzéséért: az egyik az antropocentrikus (emberközpontú), a másik a racionális, tudományos világkép. Az első szerint az ember a „teremtés koronája” és a „Föld ura”. A racionális megközelítés abból indul ki, hogy az állatok is képesek érezni, és aki képes érezni, az képes szenvedni is. A biológia ma már nem vonja kétségbe ezt az érzőképességet. A filozófia ezért minimum erőteljes állatvédelmet, egyes képviselői pedig állati jogokat követelnek. Az állatvédelem számukra nem lehet elég széleskörű, és szerintük megelégszik a „kizsákmányolás humanizálásával”. Az állatjogi mozgalmak a „kizsákmányolás befejezését” követelik. Véleményük szerint az állatok vágásának humanizálását követelni ugyanannyira értelmetlen, mint a rabszolgatartás humanizálása vagy a „nők gyengéd megerőszakolásának” engedélyezése.",
+    "Az uniós állatvédelmi jogszabályok középponti fogalma az állatok érzőképessége. Tudományosan – pl. az állatok egészségi állapotával vagy a stresszhormonok vérben kimutatott hiányával – kell tudni igazolni, hogy az állatok nem szenvednek. Számos törvény és rendelet határozza meg az állatok kezelése során alkalmazandó, megfelelő szakmai gyakorlatot az állatok jóléte érdekében (pl. EFSA - Európai Élelmiszerbiztonsági Hatóság 2012). Magyarországon állatvédelem törvényi szabályozása: 1998. évi XXVIII. törvény az állatok védelméről és kíméletéről.",
+    "Az állattenyésztés intenzív növekedésének gazdasági okai voltak. A szupermarketek olcsó húsárait nagyüzemi állattartással, hatékony felneveléssel, túltenyésztett fajták alkalmazásával és nem utolsósorban ipari vágással és feldolgozással kompenzálták. Az állatok jóléte és az annak megfelelő tartás minimális megvalósítása nem került be a vállalati célok közé. Ennek eredményeként a feltételes engedélyt egyre több ember tartja aránytalannak. A haszonállatok napjainkban túlnyomórészt egyhasznú állatok, csak egy versenyágban lehetnek bajnokok. A szarvasmarha 100 évvel ezelőtt még hármas hasznú állat volt: munkaállat, húsállat és tejtermelő. Az állattenyésztés egyre inkább a kínzással járó tenyésztés irányába mozdult el az állatok jólétének megfelelő szabályozások ellenére is. A fokozott tenyésztésben élő állatoknak speciális táplálékra van szükségük, amely többnyire takarmánykoncentrátum formájában, többnyire importált szója segítségével készül. Az EU szójabehozatalának közel 20%-a – a korábban e célból kivágott – esőerdőkből vagy a szavannákról érkezik. A tejelő teheneket tejtermelés céljából különválasztották, izomzatuk állapota nem játszik szerepet. „A tőgy maga a tehén” – állította lekezelően egy reklám. Ugyanez vonatkozik a tyúkokra is: vagy hízóállat, amelynek feladata, hogy négy héten belül nulláról 100%-ra zabálja magát, vagy tojásgyártó, amely évente 300 tojást rak. Mi lesz azokkal a tyúkokkal, amelyek nem képesek tojást rakni, de hizlalásra sem alkalmasak? Ledarálják vagy elgázosítják őket. Az állatok nemének korai meghatározása tömeges mennyiségben még nem alkalmazható.",
+    "A húst helyettesítő élelmiszerek egyre nagyobb szerephez jutnak. Mindemellett ökológiai szempontok is előtérbe kerülnek, ilyenek a nagy ökológiai lábnyom, a talajvízben túl gyakran megtalálható trágyalé vagy a takarmány előállításához szükséges óriási területek. Másrészt azonban több millió hektárnyi legelő és füves terület van, amelyet a klíma vagy a kevésbé termékeny talaj miatt csak állattartásra lehet használni. Súlyos felelőtlenség lenne lemondani ezekről a kalóriákról. Sok ilyen sztyeppe, hegyoldal, töltés és száraz vagy nedves terület található világszerte. Ezeken a helyeken az istállókban uralkodó „laboratóriumi körülményekhez” képest kétszer annyi ideig tart, amíg a juhok, kecskék vagy szarvasmarhák elérik a vágósúlyt, hiszen a nyers takarmány tápértéke lényegesen alacsonyabb, mint a takarmány-koncentrátumoké. Az ökológia körforgásos gazdálkodásban az állatok ürüléke trágyázza a növényeket, amelyek később az ember táplálékává válnak. Azt is meg lehet érteni, ha valaki nem akar lemondani a húsról. A mennyiség a döntő.",
+    "",
+    "Irodalomjegyzék",
+    "Ábrajegyzék",
+    "1. ábra: Az élelmiszertechnológia mint alkalmazott, integráló, interdiszciplináris tudományág\t2",
+    "2. ábra: Az élelmiszertechnológiai eljárás alapelve\t3",
+    "3. ábra: Az elsődleges mezőgazdasági termeléstől az ehető élelmiszerekig\t12",
+    "4. ábra: Az ipari értéklánc az ipar előtti értéklánccal összehasonlítva\t13",
+    "5. ábra: Tevékenységek az ötlettől a piacképes termékig vezető úton\t25",
+    "6. ábra: A célok elérése a biológiai és technikai folyamatok eltérései ellenére\t27",
+    "7. ábra: A termékstílusok és a gazdasági hatékonyság mint a technológiák hajtóereje (a túrókészítésre vonatkozó részleteket illetően lásd a 1.4. fejezetet)\t28",
+    "8. ábra: A három táplálkozási rendszer az emberré válás kezdete óta (323. oldal)\t31",
+    "9. ábra: Élelmiszer-veszteség az értékteremtési lánc folyamán (termőföldtől az asztalig) (327. oldal)\t35",
+    "10. ábra: A társadalmi trendek élelmiszeriparra gyakorolt hatása (328. oldal)\t38",
+    "11. ábra: Az élelmiszeripart etikai szempontból érő támadások (331. oldal)\t42",
+    "",
+    "",
+    "Táblázatjegyzék",
+    "1. táblázat: Az élelmiszer-technológiában fontos alapműveletek és folyamatváltozatok összeállítása\t5",
+    "2. táblázat: Az élelmiszer-technológiában fontos alapműveletek és folyamatváltozatok összeállítása II.\t7",
+    "3. táblázat: Az élelmiszer-technológiában fontos alapműveletek és folyamatváltozatok összeállítása III.\t9",
+    "4. táblázat: Technológiai különbségek a nagy- és kisüzemek között.\t14",
+    "5. táblázat: Az élelmiszerek energiahatékonysága a fizikai-kémiai állapotuk függvényében.\t19",
+    "6. táblázat: Esszenciális ásványi anyagok, aminosavak, zsírsavak és vitaminok, valamint ezek funkciója a szervezetben.\t21",
+    ""
+  ],
+  "runs": [
+    [],
+    [],
+    [
+      "Egyedi megrendelés azonosítója: EM-",
+      "2.7",
+      ".1  "
+    ],
+    [
+      "Élelmiszeripari technológiai alapok I. – Műveletek és folyamatok"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [
+      "Forrás",
+      ": ",
+      "Lebensmitteltechnologie",
+      ", Der ",
+      "Verlag",
+      " ",
+      "Eugen",
+      " ",
+      "Ulmer",
+      " ",
+      "KG",
+      ",  2021.",
+      " ISBN 978-3-8252-5505-3",
+      "\nAz eredeti könyv szerzői: ",
+      "Jochen",
+      " ",
+      "Hamatschek"
+    ],
+    [],
+    [
+      "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak."
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "Tartalom",
+      "jegyzék"
+    ],
+    [
+      "Bevezetés",
+      ": az élelmiszer-technológia társadalmi és történelmi kontextus",
+      "ába"
+    ],
+    [
+      "Az élelmiszer-",
+      "technológia",
+      " alapelvei",
+      ", alapműveletei"
+    ],
+    [
+      "Az ",
+      "élelmiszer-technológia",
+      " olyan alkalmazott tudomány, amely számos más tudományágat használ fel és egyben integrál: ",
+      "t",
+      "örténelmileg ezek kizárólag a ",
+      "mérnöktudomány",
+      "ok",
+      " és a ",
+      "természettudomány",
+      "ok",
+      " voltak, számos szakterületükkel. Az utóbbi években jelentősen megnőttek az élelmiszer-technológusokkal szemben támasztott követelmények. A kiélezett verseny, az élelmiszerek biztonságosságával és változatosságával kapcsolatos egyre növekvő fogyasztói elvárások, az áruforgalom nemzetközivé válása és a szigorúbb joggyakorlat miatt a ",
+      "technika",
+      "i kérdések mellett teret nyernek a ",
+      "menedzsment",
+      "-szempontok ",
+      "is. Az élelmiszertechnológia tehát egy kifejezetten ",
+      "interdiszciplináris",
+      " tudomány (1. ábra)."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". ábra:",
+      " Az élelmiszertechnológia mint alkalmazott, integráló, interdiszciplináris tudományág"
+    ],
+    [
+      "Az élelmiszer-technológia az élelmiszerek előállítása főként mezőgazdasági alapanyagokból tudományos alapelvek alapján",
+      " történik."
+    ],
+    [
+      "A folyamat három modulból áll: az ",
+      "alapanyag",
+      ",",
+      " a ",
+      "technológia",
+      " és a ",
+      "végtermék",
+      ".",
+      " Az élelmiszer-technológusnak pontosan ismernie kell az általa felhasznált alap-, adalék- és segédanyagok, valamint a végtermék ",
+      "specifikáció",
+      "it, amiben elsősorban a természettudományok alapelveire támaszkodik. Minden termék leírható kémiai, biológiai vagy fizikai tulajdonságai alapján. A technológia végső soron az alapanyagtól a végtermékig terjedő ",
+      "értéklánc",
+      "on",
+      " ",
+      "végighúzódó",
+      " teljes folyamat, ami különböző alapműveletekből áll, és a megvalósításához testreszabott ",
+      "berendezésekre ",
+      "gépekre, valamint érzékelés- és méréstechnikára van szükség."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "2",
+      "",
+      ". ábra:",
+      " Az élelmiszertechnológiai eljárás alapelve"
+    ],
+    [
+      "A ",
+      "technológia",
+      " kifejezés a termékek vagy folyamatok alapjául szolgáló megoldási elveket írja le: ilyen például a gravitáció vagy a ",
+      "spektroszkópia",
+      " elve. A technológia alapját általánosan elfogadott tudományos elvek és ",
+      "elmélet",
+      "ek",
+      " alkotják. A tudományban az elmélet a tudás legmagasabb szintje. Rendszerint korábban ",
+      "hipotézis",
+      ",",
+      " azaz megalapozott feltételezés vagy ",
+      "posztulátum formájában fogalmazták meg, a későbbiekben aztán bizonyítást nyert és elméletté ",
+      "alakult",
+      "."
+    ],
+    [
+      "A ",
+      "technika",
+      " ",
+      "valamely problémamegoldás lehetséges konkrét megvalósítására utal. Ilyenek például a különböző kialakítású szűrőrendszerek vagy prések, amelyek mindegyike végső soron a kívánt eredményhez vezethet."
+    ],
+    [
+      "Minden technika egy vagy több ",
+      "alapművelet ",
+      "végrehajtására szolgál, amelyek összeadódva a kívánt végterméket adják. Számos alapművelet a mikrobiológia, kémia vagy eljárástechnika valamely területéről származik.",
+      " ",
+      "Az 2. ábra összefüggéseiben magyarázza a fogalommeghatározásokat. Az 1. táblázat a különböző élelmiszerek előállításának legfontosabb alapműveleteit és azok változatait mutatja be."
+    ],
+    [
+      "Az élelmiszer-feldolgozás csak egy része a „gazdaságtól a villáig”",
+      " ",
+      "(„szánt",
+      "ó",
+      "földtől az asztalig”)",
+      " tartó teljes útnak, amely a szakirodalomban élelmiszeripari értéklánc vagy ",
+      "agráripar",
+      " néven szerepel és hét szakaszból áll (",
+      "Strecker",
+      " és m",
+      "unka",
+      "t",
+      "ár",
+      "sai, 2010). Az első három szakasz a mezőgazdaság ",
+      "termelés",
+      "i területeire (pl. szántóföldi növénytermesztés, szőlőtermesztés, állattenyésztés, ",
+      "akvakultúra",
+      "), valamint a mezőgazdasági technológia, a vetőmag-, takarmány- és trágya",
+      "-",
+      "előállítás láncban előtte szereplő (",
+      "upstream",
+      ") területeire, illetve a begyűjtési és nagykereskedelmi szakasz láncban utána álló (",
+      "downstream",
+      ") területeire vonatkozik. ",
+      "A negyedik és ötödik szakasz az élelmiszer-előállítás folyamatait foglalja magába",
+      ". ",
+      "A hatodik szakasz az élelmiszer-kereskedelmi ágazatokat tartalmazza, vagyis az élelmiszer-kiskereskedelmet, a helyhez kötött élelmiszer-nagykereskedelmet, az élelmiszer-kiszállítással foglalkozó nagykereskedelmet, az exportőröket és az importőröket. A hetedik szakasz a nagyfogyasztók általi élelmiszer-előállítás ágazataira terjed ki: vendéglátóipar, étteremláncok és szállodák, közétkeztetés (vállalatok, kórházak, iskolák stb.), szolgáltatóvállalatok (pl. ",
+      "catering",
+      ")."
+    ],
+    [
+      "A ",
+      "negyedik ",
+      "és az ",
+      "ötödik ",
+      "sz",
+      "akasz",
+      " az élelmiszer-feldolgozásnak az a két szintje, amelyekkel ",
+      "ez a tantárgy",
+      " foglalkozik. Ez az út vezet az ",
+      "alapanyagtól ",
+      "a ",
+      "készáru",
+      "ig",
+      ",",
+      " amely általában a konyhai ",
+      "előkészítés után fogyasztható. A modern élelmiszer-technológiában a szétválasztás nem mindig egyértelmű; sok esetben a két szakasz átfedi egymást. Ehhez a két szakaszhoz tartozik:"
+    ],
+    [
+      "Az 1. feldolgozási szakasz ágazatai (nyers mezőgazdasági termékek feldolgozása): gabonamalmok és őrlőüzemek, hántolóüzemek, olajsajtoló üzemek, vágóhidak és darabolóüzemek, keményítőfeldolgozás, borászatok, gyümölcs- és zöldségfeldolgozás, tojástermékek, halfeldolgozás, cukorgyárak, malátagyárak, fűszerüzemek."
+    ],
+    [
+      "A 2. feldolgozási szakasz ágazatai (nyers termékek finomítása): kenyér és pékáru, sütőipari termékek, tápszerek és tészták, húskészítmények, hentesáruk, cukrászáruk, ecet, tejtermékek, alkoholmentes italok, alkoholos italok, egyéb feldolgozott termékek és készételek különböző előállítási és megjelenési formákban."
+    ],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". táblázat:",
+      " Az élelmiszer-technológiában fontos alapműveletek és folyamatváltozatok összeállítása"
+    ],
+    [],
+    [
+      "",
+      "",
+      "",
+      "2",
+      "",
+      ". táblázat:",
+      " Az élelmiszer-technológiában fontos alapműveletek és folyamatváltozatok összeállítása II."
+    ],
+    [],
+    [
+      "",
+      "",
+      "",
+      "3",
+      "",
+      ". táblázat",
+      ":",
+      " Az élelmiszer-technológiában fontos alapműveletek és folyamatváltozatok összeállítása III."
+    ],
+    [
+      "A földi élet a Nap sugárzási energiájától függ, ami lehetővé teszi a növények számára, hogy a ",
+      "fotoszintézis",
+      " révén a CO",
+      "2",
+      "-t C",
+      "6",
+      "-szerkezetű glükózzá, és végül a növényi biomassza felépítéséhez szükséges összes szerkezeti és funkcionális molekulává alakítsák. Ez a biomassza energiaforrásként szolgál az állatok és a mikroorganizmusok számára. A növényevők a maguk részéről a húsevők táplálékbázisát képezik. A Homo sapiens mindenevőként állati és növényi forrásokból táplálkozik, és már évezredekkel ezelőtt is hasznosítani tudta a mikroorganizmusok anyagcseréjét. A 3. ábra ezeket az összefüggéseket mutatja be az ",
+      "elsődleges mezőgazdasági termelés",
+      " és az elkészített végtermék között."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "3",
+      "",
+      ". ábra:",
+      " Az elsődleges mezőgazdasági termeléstől az ehető élelmiszerekig"
+    ],
+    [
+      "A fogyasztóig tartó ",
+      "értéklánc",
+      " jellemzője a feldolgozási és forgalmazási folyamat során növekvő fokozódó értéknövekedés. Az alapvető tudományos és műszaki műveletektől függetlenül az értékteremtés folyamata termékorientáltan is ábrázolható (4. ábra)."
+    ],
+    [
+      "Csak néhány élelmiszer – pl. gyümölcs vagy zöldség – fogyasztható közvetlenül. A legtöbb esetben az értékes összetevőket először hozzáférhetővé, illetve fogyaszthatóvá kell tenni. Ide tartozik például a gabonafélék, a burgonya vagy a rizs ",
+      "szénhidrát",
+      "tartalma, de a szőlő vagy a sárgarépa leve is. A színhús a kicsontozás után ugyan hozzáférhető, de gyakorlatilag nem ehető. Az élelmiszerek könnyű megromlása teszi szükségessé a ",
+      "tartósítást",
+      ", ami olykor kiegészül a ",
+      "stabilizáció",
+      "val",
+      ", ",
+      "a tej esetében a ",
+      "felfölöződés",
+      " gátlás",
+      " a bor esetében a zavarosodás megelőzése érdekében."
+    ],
+    [
+      "A modern élelmiszeripar tovább növeli a korábban kinyert termékek értékét az elkészíteni szándékozott élelmiszerek finomítása által, amelyek aztán csomagolt áruként találhatók meg a kiskereskedelmi üzletekben, és lehetővé teszik a gyors és általában egyszerű ételkészítést ",
+      "bármilyen típusú konyhában. Ez figyelembe veszi sok fogyasztó „kényelmi” igényeit és a részben összetett logisztikát maga után vonó városias életformát",
+      "."
+    ],
+    [
+      "Az élelmiszerelőállító üzemek lehetnek ",
+      "kézműves vállalkozások",
+      " vagy ",
+      "ipari üzemek",
+      ".",
+      " Míg a hentesek, pékek vagy cukrászok személyes kapcsolatot tartanak a vásárlókkal, addig az ipar az értékesítést a kiskereskedőkön",
+      ",",
+      " vagy más nagyobb vásárlókon keresztül végzi, a végfelhasználókkal való közvetlen kapcsolat nélkül. Az ipar és a kézművesség közötti választóvonal elmosódik. A kézműves és ipari vállalkozások között nem annyira a termelési folyamatok, mint inkább a foglalkoztatottak száma alapján tesznek különbséget."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "4",
+      "",
+      ". ábra:",
+      " Az ipari értéklánc az ipar előtti értéklánccal összehasonlítva"
+    ],
+    [
+      "A kézműves vállalkozások általában kisvállalkozások, de ugyanazokkal az alapvető műveletekkel dolgoznak, mint az iparban. Számos ipari vállalkozás is inkább a kisvállalkozások közé sorolható. Az alapvető különbségek a ",
+      "nagyüzem",
+      "ekhez képest az áteresztőképességben és a géptechnológiában rejlenek. Míg a nagyvállalatok csúcstechnológiás („",
+      "high",
+      "-",
+      "tech",
+      "”) gépekkel dolgoznak, amelyek magas beruházási költségeket és szakemberek általi üzemeltetést igényelnek, addig a kisebb vállalatok sokkal körülményesebben, de a megfelelő technológiával („",
+      "right",
+      " ",
+      "tech",
+      "”) dolgoznak, és gépkezelőként nem szakszemélyzetet alkalmaznak. ",
+      "De még ezek esetében is kötelező a jogi követelményeknek (HACCP, higiénia, élelmiszerbiztonság) való megfelelés",
+      ". ",
+      " Az 1.2. táblázat összehasonlítja a kétféle üzemszerkezet helyzetét. Az ipari méretű vállalatok ahhoz is jobb helyzetben vannak, hogy kihasználják a ",
+      "globalizáció",
+      " kínálta lehetőségeket. Ez az áruk exportjára, de mindenekelőtt az alapanyagok és adalékanyagok beszerzésére vonatkozik. Ebben az ",
+      "élelmiszerlánc",
+      "ban",
+      " meg kell őrizni az összes anyag biztonságát, hozzáférhetőségét és hatékonyságát. Vegyünk példának egy fagyasztott pizzákat előállító céget, amelynek napi termelése 2,5 millió csomag különböző pizzából áll. Összességében az ",
+      "ellátási lánc",
+      " 350 különböző összetevőt tartalmaz, amelyeket a világ minden részéről 150 beszállítótól szereztek be (2014 nyarán). A 2020-as koronavírus-világjárvány sok vállalatot megtanított arra, hogy ne csak egy beszállítóra támaszkodjon a beszerzésben, és hogy vonjon be helyi beszállítókat is."
+    ],
+    [
+      "",
+      "",
+      "",
+      "4",
+      "",
+      ". táblázat:",
+      " Technológiai különbségek a nagy- és ",
+      "kisüzem",
+      "ek között."
+    ],
+    [
+      "Az emberek élelmiszerrel való ellátása, mint az élelmiszertechnológia fő feladata"
+    ],
+    [
+      "Az iparosodott országokban az életkörülmények megváltozása a fizikai aktivitás erőteljes csökkenéséhez vezetett, gyakran anélkül, hogy az étrendet az ebből eredően csökkent energiaigényhez igazították volna. Az életmód és a munka világában bekövetkezett változásokkal párhuzamosan alapvető változás következett be az étkezési szokásokban és a táplálkozáskultúrában. Ezek a változások nagyon gyorsan, mindössze néhány generáción belül következtek be. Ugyanakkor óriási választék van bármikor elérhető, viszonylag olcsó és ízletes élelmiszerekből. Az ",
+      "elhízás",
+      " mára vezető betegséggé vált, aminek közvetlen következménye számos szív- és érrendszeri betegség vagy a cukorbetegség (összefoglalóan: metabolikus szindróma). A számok a folyamatos elhízás drámai képét mutatják. A közkedvelt ",
+      "BMI-mérés",
+      " szerint a férfiak kétharmada túlsúlyos, egynegyedük pedig elhízott, 30 feletti értékkel. A nők ",
+      "53%-a túlsúlyos és 20%-a elhízott. Ezek az értékek alacsonyabbak, mint a férfiaké, de még mindig túl magasak. Világszerte egymilliárd ember számít elhízottnak."
+    ],
+    [
+      "Ázsia vagy Afrika számos elmaradott országában teljesen más a kép. Világszerte mintegy 800 millió ember szenved alultápláltságtól, és további ",
+      "2 ",
+      "milliárd ember az egyoldalú táplálkozás miatt. A 2050-re prognosztizált 10 milliárd ember táplálása az egész társadalom számára kihívást jelent, amelyben az élelmiszer-technológiának fontos szerepet kell játszania."
+    ],
+    [
+      "A ",
+      "táplálkozás",
+      " 3.0 és az ipari forradalom"
+    ],
+    [
+      "Az ember a 2,4 millió éve tartó evolúciójának több mint 96%-át vadászó",
+      " – ",
+      "gyűjtögető életmódban töltötte, míg körülbelül 10 000 évvel ezelőtt a ",
+      "neolitikus forradalom",
+      " során át nem állt a mezőgazdaságra. A múlt század közepén kezdett kialakulni az emberi táplálkozás harmadik és egyelőre utolsó forradalma. Abban az időben az ipari forradalom már javában zajlott, és a mezőgazdaság jelentősége egyre csökkent. A világ népessége lassan a második milliárd felé haladt, a városok robbanásszerűen nőttek. A munkát egyre inkább az otthonon kívül végezték, és az önellátás az élelmiszerek terén visszaszorult."
+    ],
+    [
+      "Megjelentek a piacon az első ipari élelmiszergyártó üzemek, olyan cégek kezdték el sikertörténetüket, mint a ",
+      "Maggi",
+      " és a Dr. ",
+      "Oetker",
+      ". A ",
+      "tömegtársadalmak kialakulása",
+      " olyan iparágat kényszerített ki, amely képes volt nagy mennyiségben élelmiszereket előállítani, és kifinomult, széles körű logisztikával rendelkezett. A ",
+      "globalizáció ",
+      "az élelmiszerek esetében azt jelenti, hogy a világon bárhol előállított valamennyi élelmiszer vagy alapanyag gyakorlatilag a betakarítással egyidőben, szinte korlátlanul rendelkezésre áll. Az ezzel ",
+      "egy",
+      "időben párhuzamosan zajló további ",
+      "iparosodás",
+      " megteremtette a feltételeket ahhoz, hogy még intenzívebb tömegtermeléssel és az összes rendelkezésre álló alapanyag felhasználásával az olcsó és tartós élelmiszerek szinte már áttekinthetetlenül nagy választékát állítsák elő. A modern szupermarketek akár 60 000 különböző terméket is kínálnak."
+    ],
+    [
+      "Jelenleg az emberek mintegy 50%-a él városokban, 2050-ben pedig a kutatások szerint már akár a 80%-",
+      "uk",
+      " is."
+    ],
+    [
+      "A városok határain belül alig zajlik mezőgazdasági termelés, az élelmiszereket teljes egészében a környező vidékről kell beszerezni, és minél tovább tarthatók el költséges hűtőlánc nélkül, annál egyszerűbbé válik a logisztika. A friss, közelben megtermelt élelmiszerek kínálata a nagy számok miatt kezd a határaihoz érni. Az emberek rá vannak utalva a hatékony élelmiszeriparra és a globális ellátásra."
+    ],
+    [
+      "Energianyerés",
+      " a táplálékból",
+      " "
+    ],
+    [
+      "Mint minden technikai rendszernek, amely munkát végez, az embernek is üzemanyagot kell felvennie, azonban őt az különbözteti meg a hatékony gépektől, hogy még készenléti üzemmódban is nagy mennyiségű energiát igényel. Önmagában rengeteg üzemanyagot fogyaszt a testi funkciók – például a légzés, a szívverés vagy az anyagcsere – fenntartásához, még teljes nyugalomban is. Az ehhez szükséges energiaszükséglet megnevezése ",
+      "alapanyagcsere",
+      ",",
+      " ami egy számos paramétertől függő, egyedi változó. Ha további munkát végzünk – például kerékpározás, futás, általában izommunka vagy szellemi tevékenység révén – akkor az alapanyagcserét meghaladó energiára van szükség: ez a ",
+      "teljesítménynövekedés",
+      ",",
+      " amelynek mértéke az elvégzett munka függvénye. Míg egy átlagos embernek napi 800 kilokalóriával többre van szüksége, addig a Tour de France versenyzőknek akár 7 000, a maratoni futóknak pedig mintegy 3 000 kilokalóriával is többre van szükségük."
+    ],
+    [
+      "Az embernek az alapanyagcseréből és teljesítménynövekedésből álló rendszeréhez számos ",
+      "makro- és ",
+      "mikrotápanyagra",
+      " van szüksége, amelyeket az étellel kell bevinnie.",
+      " ",
+      "Jelentősebb mennyiségben szükségesek a táplálkozás alapvető építőkövei, az alaptápanyagok: a szénhidrátok (kb. 4,3 kcal energiatartalom/g), fehérjék (kb. 4,3 kcal/g) és ",
+      "zsírok",
+      " (kb. 9,3 kcal/g).",
+      " ",
+      "A szervezet a hús, kolbász, sajt, zöldség vagy gyümölcs formájában elfogyasztott zsírok, fehérjék és szénhidrátok energiatartalmára támaszkodik, ezeket azonban a szervezet által felhasználható formában kell bevinnie, vagy saját magának át kell őket ilyenné alakítania."
+    ],
+    [
+      "Az ",
+      "emésztés",
+      " végső soron az összetett élelmiszerek lebontása alapvető kémiai építőelemeikre. A ",
+      "szénhidrátok",
+      " esetében az egyszerű cukrok – a glükóz, a fruktóz vagy a ",
+      "galaktóz",
+      " – ",
+      "poliszacharidokból",
+      " – például pektinből vagy keményítőből – képződnek."
+    ],
+    [
+      "A ",
+      "fehérjék",
+      " 20 különböző aminosavból állnak, és a szervezetben összetett szerkezeti formákban, vázfehérjeként vagy funkcionális fehérjékként vannak jelen. A csavaros és gyakran más vegyületekkel összefonódott ",
+      "kvaterner",
+      " szerkezetet végső soron több lépésben le kell bontani az egyes aminosavak szintjéig."
+    ],
+    [
+      "A ",
+      "zsírok",
+      " egyenként három zsírsavval rendelkező glicerinből állnak, amelyeket viszont alkotóelemeikre kell ",
+      "hidrolizálni",
+      ". Csak a monomereket, azaz a viszonylag kis molekulákat tudja a szervezet hasznosítani, és az emésztőszervekből a vérbe, majd a véráram útján az azokat igénylő szervekbe szállítani."
+    ],
+    [
+      "A ",
+      "ballasztanyagok",
+      " – mint például a nem darált lenmag vagy az egész napraforgómag – nagyrészt emészthetetlenek, és szinte változatlanul hagyják el a bélrendszert. A fehérjéket az izmok elsősorban izomrostok formájában, de aminosavakként is tárolják. A zsírsavak nagy mennyiségben találhatók a zsírszövetben, de a sejtfalak felépítéséhez csak viszonylag kis mennyiségre van szükség belőlük. A maradék a szervezetben marad",
+      ",",
+      " mint teljesítménytartalék, és a bőr alatti zsírszövetként szigeteli a testet, vagy védi a szerveket az ütésekkel szemben. A vékony emberek zsírtartalma kevesebb mint 10%, a súlyosan túlsúlyos embereké viszont jóval több mint 50%."
+    ],
+    [
+      "Az ",
+      "5",
+      ". táblázat az élelmiszerek hatékonyságát hasonlítja össze, fizikai-kémiai állapotuk függvényében. A nyers élelmiszerek – amennyiben egyáltalán felhasználhatók az ember számára – sok erőfeszítést igényelnek az emésztéshez, és viszonylag alacsony az energiakihozataluk. A feldolgozás által jelentősen növekszik az ",
+      "emészthetőség",
+      ",",
+      " javul az energiakihozatal. Sok iparilag kezelt élelmiszer esetében a hatékonyság még magasabb. Az emberi emésztés első lépései már az előállítás során megtörténnek, az összetevők gyakran a vékonybél első szakaszában közvetlenül a véráramba jutnak, a szervezet további munkája nélkül. A gyorséttermi ételek többnyire rostmentesek és már „félig megemésztettek”. A könnyen emészthető, gyakran igen magas ",
+      "energiatartalmú",
+      ", iparilag előállított élelmiszerek fokozott fogyasztása bizonyára nem elhanyagolható szerepet játszik sok ember ",
+      "súlygyarapodásában. Ugyanez vonatkozik az édességek fogyasztására is, amelyek az egyszerű cukrok magas aránya miatt kiemelt és nagyon könnyen emészthető energiaforrást jelentenek."
+    ],
+    [
+      "",
+      "",
+      "",
+      "5",
+      "",
+      ". táblázat:",
+      " Az élelmiszerek energiahatékonysága a fizikai-kémiai állapotuk függvényében."
+    ],
+    [
+      "Az alaptápanyagokon kívül számos más létfontosságú anyagot is biztosítani kell a szervezet számára, amelyekből grammnyi vagy milligrammnyi elegendő,",
+      " ",
+      "mivel az emberi szervezet nem képes ezeket vízből, szénhidrátokból, zsírokból vagy aminosavakból saját maga szintetizálni. Ezek közé tartozik néhány zsírsav, ásványi anyag, vitamin és a 20 aminosav közül ",
+      "10",
+      ", amelyek a sok száz különböző ",
+      "fehérje",
+      " építőkövei. Összességében az emberi szervezet 47 anyagtól függ, amelyekhez feltétlenül a táplálékkal kell hozzájutnia. További 13 ",
+      "esszenciális vegyület",
+      " különleges esetet képvisel, illetve még mindig vitatott a jelentőségük az emberek számára. A ",
+      "6",
+      ". táblázat az ember számára nélkülözhetetlen tápanyagokat sorolja fel."
+    ],
+    [
+      "Az aminosavak közül kettő csak a gyermekek számára esszenciális: a ",
+      "niacin",
+      " (B3 vitamin)",
+      " és a ",
+      "kalcitrol",
+      " (átala",
+      "k",
+      "ított ",
+      "D-vitamin",
+      ")",
+      " ",
+      "vitaminok",
+      " a szervezetben ",
+      "szintetizálódhatnak",
+      " a napsütéstől függően, vagy ha elegendő mennyiségű ",
+      "triptofán",
+      " aminosav áll rendelkezésre. A szükséges napi bevitel a fogyasztástól függ, és egyénenként eltérő. Beviteli ajánlásokat ad például az Európai Élelmiszerbiztonsági Hatóság (EFSA) vagy a",
+      "z",
+      " Egészségügyi Világszervezet (WHO)."
+    ],
+    [
+      "Az egyes vegyületek hiánya a test",
+      " ",
+      "károsodás",
+      "á",
+      "hoz vezet, és hosszú távon súlyos problémákat, akár halált is okozhat. A legismertebb hiánybetegség valószínűleg a skorbut (",
+      "C-vitamin",
+      "-hiány",
+      ") és a ",
+      "D-vitamin hiány",
+      " okozta angolkór. Szerencsére az emberi szervezet gyakorlatilag minden létfontosságú építőelem számára rendelkezik raktározási rendszerrel, és így egy bizonyos ideig képes áthidalni a táplálékhiányt. Ez a pufferhatás végső soron az oka annak, hogy normál körülmények között a vegyes táplálék elegendő, és az étrendkiegészítők feleslegesek. Más a helyzet a növekedésben lévő gyermekek, a versenysportolók vagy a ",
+      "várandós ",
+      "nők esetében, akiknek fokozott igényeik vannak, de a vegetáriánusok esetében is. Esetükben az alapvető tápanyagok állapotát rendszeresen vérvizsgálattal kell ellenőrizni. A vérkép azt is figyelembe veszi, hogy a gyomorban vagy a bélben végbemenő ",
+      "felszívódás",
+      " személyenként és életkoronként változik, és hogy az egyes anyagok akadályozhatják egymást a vérbe való felszívódásban."
+    ],
+    [
+      "",
+      "",
+      "",
+      "6",
+      "",
+      ". táblázat",
+      ": Esszenciális ásványi anyagok, aminosavak, zsírsavak és vitaminok, valamint ezek funkciója a szervezetben."
+    ],
+    [],
+    [
+      "Innovációk: az üzleti tervtől a piacig"
+    ],
+    [
+      "Eddig az élelmiszerágazatban működő értéklánc folyamán a „szántóföldtől az asztalig” vezető vertikális utat vettük végig, és ennek során az alapanyag különböző változásait. Az értéklánc azonban horizontálisan is ábrázolható: az ötlettől a piacképes termékig. Gyakorlatilag az összes jelenleg kapható élelmiszer egykoron ",
+      "innováció",
+      " (lat",
+      "in eredetű szó, jelentése:",
+      " valami újonnan létrehozott dolog) volt, amelynek gyakran erőteljes ellenállásokkal szemben kellett győzedelmeskednie. Az ötletből termék lett, a kereskedelmi hasznosítása pedig sikerrel járt. Ideális esetben a termék egy ötlet szisztematikus tervezésének, megvalósításának, ",
+      "ellenőrzésének és hasznosításának eredménye egy társadalmi szervezeten belül – azaz a",
+      "z",
+      " innovációmenedzsment sikere. A teljes értéklánc mentén öt innovációs lépés követi egymást:"
+    ],
+    [
+      "kezdeti ötletelés és mérlegelés"
+    ],
+    [
+      "az elképzelés technikai és tudományos alapjainak megvizsgálása"
+    ],
+    [
+      "piacképes termékké történő fejlesztés"
+    ],
+    [
+      "gyártás, kiszerelés és piacra dobás"
+    ],
+    [
+      "termékgondozás az életciklus meghosszabbítása érdekében"
+    ],
+    [
+      "Az első két lépés általában az íróasztalnál és a laboratóriumban megy végbe, ahol a legtöbb ötlet számos okból már a kezdetekben megbukik. Gyakran előfordul, hogy úgy vélik: a fejlesztés túl sokáig tart vagy túl költségigényes, vagy az értékesítési részleg a piaci helyzetre való tekintettel nem lát értékesítési sikereket. Csak kevés termék jut el ",
+      "a",
+      " ",
+      "fejlesztési folyamat",
+      "ig",
+      ",",
+      " ahol kezdettől fogva a vállalat számos részlegének együttműködésére van szükség. Már az első fejlesztési fázisban konkrét elképzeléseket kell kidolgozni a későbbi marketingre vonatkozóan, általában ",
+      "üzleti terv",
+      " formájában",
+      ", amely végső soron a további fejlesztésről szóló döntés alapját képezi. Gyakran egy egyetemi szakdolgozat kidolgozottsági szintjén az innovációtól elvárt teljes üzleti modellt leírják, amelynek során a technológiai és a vállalatirányítási szempontokat össze kell kapcsolni. Végül az üzleti tervnek be kell mutatnia, hogy az új termék hogyan fogja támogatni a vállalat elvárt nyereséges növekedését."
+    ],
+    [
+      "Ha a laboratóriumi vagy kis konyhai tesztek sikeresek, a projekt a következő, nagyobb szakaszba lép, ami a ",
+      "próbaüzemi gyártás",
+      ".",
+      " Ellenkező esetben közbelép az első ",
+      "megszakítási kritérium",
+      ".",
+      " A próbaüzemben a termék elvárt érzékszervi és technológiai tulajdonságait kell megerősíteni egy kisszériás gyártás során, és meg kell határozni a kísérleti gyártás folyamatparamétereit. A legrosszabb esetben a projektet ezen a ponton elvetik. A következő lépés egy kísérleti gyártás, esetleg már kis tételben a tényleges gyártóüzemben. A nagyvállalatok megengedhetik maguknak, hogy saját, rugalmas, kis gyártóüzemeket hozzanak létre erre a célra."
+    ],
+    [
+      "Pozitív esetben meghatározható ekkor az összes termelési paraméter, a méréstechnika és a HACCP-kritériumok rendszere. Mindenekelőtt a gazdasági feltételezéseket kell megerősíteni. Az előállított mennyiség többnyire arra szolgál, hogy ki lehessen szállítani a termékből a ",
+      "tesztpiac",
+      "okra",
+      ",",
+      " amelyek reakciója lehet a következő megszakítási kritérium, és oda vezethet, hogy még a piaci bevezetés előtt elvetik az innovációt. Az ",
+      "5",
+      ". ábra összefoglalja a legfontosabb kritériumokat egy új termék kifejlesztése során, egészen a ",
+      "piaci bevezetésig",
+      ". Az értékesíthető termékig vezető következő két lépést intenzíven kell kísérnie a ",
+      "minőségirányítás",
+      "nak",
+      ".",
+      " A szervezeten belül ennek a személyzeti egységnek kell gondoskodnia a szükséges ",
+      "tanúsítványokról",
+      " és az élelmiszerbiztonság kérdésének előtérbe helyezéséről. Ez magában foglal többek között egy átfogó ",
+      "kockázatértékelés",
+      "t",
+      " és a káresemény bekövetkezése esetén alkalmazandó válaszintézkedések bevezetését. A termelésirányítók a maguk részéről lassú ütemben növelik a termelést, és fokozatosan optimalizálják az üzem paramétereit."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "5",
+      "",
+      ". ábra:",
+      " Tevékenységek az ötlettől a piacképes termékig vezető úton"
+    ],
+    [
+      "A folyamatok és stílusok",
+      ", típusok",
+      " versenye az élelmiszer-technológiában"
+    ],
+    [
+      "Ha valamely termék specifikációja elkészült és a kereskedelmi belistázása megtörtént, akkor a ",
+      "specifikációt",
+      " a későbbi szállításoknál pontosan be kell tartani. Az analitikai úton kimutatható vagy érezhető ízeltéréseket sem a kereskedelem, sem a fogyasztó nem fogadja el. Az évjáratok közötti változatok a bor esetében még bizonyos mértékben érthetők, hiszen az egyéniségének részei, azonban a sör, a gyümölcslevek vagy más ",
+      "élelmiszerek",
+      " esetében már nem. A Coca-Colának mindig ugyanolyan ízűnek kell lennie, függetlenül attól, hogy melyik országban ki palackozta. A legtöbb esetben azonban a feldolgozandó termékek olyan mezőgazdasági alapanyagok, amelyek – mivel biológiai folyamatok eredményei – bizonyos eltéréseknek vannak kitéve. Az élelmiszer-előállításnak ezért azzal a kihívással kell szembenéznie, hogy technológiai megoldásokat és/vagy a célzott alapanyagválasztást, illetve keverést úgy használja fel, hogy mindig egy meghatározott végterméket állítson elő. Ebben az összefüggésben nyilvánvalóvá válik, mekkora jelentőséggel bír az alapanyagbeszerzés, de az egyes elemzési paraméterek pontos ismerete és befolyásolhatósága is. A ",
+      "6",
+      ". ábra grafikusan mutatja be a termelésnek ezeket a korlátait."
+    ],
+    [
+      "A friss sajt esetében az olyan biológiai folyamatok, mint az alkoholos erjedés vagy a törések képződése mindig tartalmazzák a selejtképződés kockázatát. Hibás erjedések bármikor előfordulhatnak. Ugyanez vonatkozik a kémiai átalakulásokra is, amelyeknél szintén előfordulhatnak hibák. Még a szűrés vagy szárítás gépi technológiája is eltérő eredményekhez vezethet. A termelésnek ezért nemcsak az összes folyamatparaméter (hőmérséklet, nyomás, koncentrációs görbe stb.) betartását kell folyamatosan ellenőriznie, hanem a rendszeres termékellenőrzésnek azonnal fel kell ismernie",
+      ",",
+      " és haladéktalanul korrigálnia kell az összes zavaró változót."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "6",
+      "",
+      ". ábra:",
+      " A célok elérése a biológiai és technikai folyamatok eltérései ellenére"
+    ],
+    [
+      "A terméket érintő ezen kényszerítő körülmények ellenére a cél különböző eljárástechnikákkal elérhető. Az üzemeltetési gyakorlatban szinte minden esetben egyenesen verseny van a folyamattechnológia keretében. Az nem elképzelhető, hogy egyes folyamatok másolatai egymásnak. Még olyan nagyvállalatoknál is, amelyek több, elvileg azonos technológiai gyártósorral rendelkeznek",
+      ",",
+      " eltérések mutathatók ki a gyártósorok eltérő időpontokban telepít",
+      "ése miatt",
+      ". A különböző eljárástechnikák általában különböznek egymástól gazdaságosságuk tekintetében. A gazdasági korlátok folyamatosan arra kényszerítik a vállalatokat, hogy felülvizsgálják a választott eljárásaikat, és gazdaságosabb eljárásokba fektessenek be. Végső soron a döntő tényező a megtérülési idő. A szükséges előfeltétel azonban mindig az, hogy az élelmiszer specifikációja pontosan teljesüljön."
+    ],
+    [
+      "Másrészt egy adott alapanyagból kiindulva, meghatározott folyamattechnikai intézkedésekkel nagyon különböző élelmiszerek állíthatók elő. Ezek a különbségek lehetnek inkább stilisztikai jellegűek, ahogyan az rendszeresen történik, amikor egy homogén tétel vörös szőlőből ",
+      "különböző fogyasztási alkalmakra szánt, illetve eltérő ",
+      "árfekvésű",
+      " vörösborokat állítanak elő. Az előállítás variálásával vörösborok, lazacszínű rozéborok vagy gyakorlatilag színtelen Blanc de ",
+      "Noirs",
+      " („feketéből fehér”) borok nyerhetők ki. Végső soron a piac dönti el, hogy az alapanyagból milyen ",
+      "típus",
+      " készüljön. Az aludttejből készülő túró előállítása során a technológiák között is lehet verseny, de ennek egy szerkezetileg és érzékszervileg meghatározott végtermékhez kell vezetnie. A ",
+      "7",
+      ". ábra mindkét termékcsoport esetében példaként mutatja be a technológiai lehetőségeket."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "7",
+      "",
+      ". ábra:",
+      " A termékstílusok és a gazdasági ",
+      "hatékonyság",
+      " mint a technológiák hajtóereje (a túrókészítésre vonatkozó részleteket illetően lásd a 1.4. fejezetet)"
+    ],
+    [
+      ""
+    ],
+    [
+      "É",
+      "lelmiszertechnológia",
+      " ",
+      "közel",
+      " 10 ",
+      "milliárd",
+      " ",
+      "ember",
+      " ",
+      "számára",
+      " ",
+      "múlt",
+      " – ",
+      "jelen",
+      " – ",
+      "jövő"
+    ],
+    [
+      "Az ",
+      "élelmiszeripar",
+      " és a táplálkozási rendszerek"
+    ],
+    [
+      "Az élelmiszerek előállítása egyre inkább tudásalapon működik: a természettudományok – a kémia, a biológia és a fizika – olyan analitikai csodamódszereket bocsátottak rendelkezésre, amelyek segítségével minden ehető legkisebb molekulákra bontható. Így lehetővé vált a természetes összetevők megállapítása és az egyáltalán nem ritka hamisítványok objektív módon történő bizonyítása. Lehetővé vált továbbá az egyes elemek igény szerinti újbóli összeállítása is. Az élelmiszerekről való tudás egyre inkább anyagismeretté vált. A húsra fehérjék (aminosavak), ásványi anyagok és zsírok összeségeként, a teljes kiőrlésű kenyérre szénhidrátok és élelmi rostok összességeként tekintünk, a tej pedig elsősorban zsírból, fehérjéből, laktózból és néhány fontos ásványi anyagból áll. Ez a táplálékokról kialakult, kémiailag meghatározott tudás tette lehetővé az előállítási folyamatok pontos irányítását és hatékonyságának jelentős növelését. A varázskonyhákban ettől fogva szüntelenül új, biztonságos, eltartható és olcsó élelmiszerek készültek különböző kémiai vegyületekből. Először frakcionálással",
+      " (részekre bontással)",
+      ", majd kreatív ",
+      "újrakeveréssel",
+      ". Évente több mint 15 ezer élelmiszer kerül a piacra és a polcokra. Több mint 90",
+      "%-",
+      "uk",
+      " elbukik a fogyasztóknál, és egy év múlva el is tűnik."
+    ],
+    [
+      "Az élelmiszeripar az eltartható élelmiszerek óriási választékát hozta létre viszonylag kevés alapanyagból. A vállalatoknak ehhez meg kellett tanulniuk az alapanyag egyes összetevőit izolálni, módosítani, majd újra összerakni. Búzából készül a kenyér, a sütemény, az aprósütemény, a tészta, a keksz, a nudli, a gombóc, a ",
+      "kréker",
+      ", a gabonapehely, ",
+      "némely",
+      " sör és a panírmorzsa is. És ez a lista korántsem teljes, a búza az élelmiszerek közel 30",
+      "%-",
+      "ában",
+      " előfordul. A sokrétűség mögött általában élelmiszer-technológiailag nagyon összetett és gyakran időigényes feldolgozási módszerek állnak. Előfeltételük az alapos anyagismeret. A mai élelmiszerek túlnyomó része a feldolgozás második szakaszába tartozik. Csak a technikailag nem módosított élelmiszerek, amelyek lényegében véve eredeti állapotukban találhatók, azok ",
+      "tartoznak az első szakaszhoz. Ide tartoznak akkor is, ha kikerülnek rendes közegükből. Ilyenek például a ",
+      "hasított",
+      " testről levágott húsdarabok, a lefejt tej, a kipréselt szőlőlé, az őrölt búza, a burgonya, a méz, a saláta és a cukor. Ide tartozik a tojás is, de az omlett már nem, a gyümölcs igen, de a lekvár nem, a zöldségfélék igen, de a savanyúság már nem. A kenyér, a kolbász, a sajt vagy a joghurt mind a második szakaszhoz tartozó élelmiszerek, akárcsak a csokoládé, a chips, a kóla, az édességek, a kenyér és a zsömle, a hamburger, a mélyhűtött pizza, a konzervleves, a leveskocka, minden konzerv, krém és természetesen a bor és a sör is."
+    ],
+    [
+      "A nyugati világban a többszörösen nem természetes, többé-kevésbé jelentősen feldolgozott élelmiszerek dominálják a piacot. ",
+      "Spiekermann",
+      " ",
+      "ezeket a tervezett élelmiszereket ",
+      "„mesterséges ételnek”",
+      " nevezi. Az új, a 19. század közepétől induló, anyagában meghatározott élelmiszerekkel történő ",
+      "táplálkozás 3.0",
+      " lényegesen eltér az azt megelőző táplálkozás 2.0 rendszerétől. A 8. ábrán az emberiség három táplálkozási rendszerének alapelveit mutatja be. A táplálkozás 3.0 a feldolgozott élelmiszerek, különösen a ",
+      "kényelmi termékek,",
+      " vagy a még rosszabb megítélésű változataik, a gyorsételek (",
+      "fast",
+      " ",
+      "food",
+      ") fogyasztását jelenti. Kedvelőik és ellenzőik az alábbi fogalmakat is használják leírására: „kényelmi termékek”, „instant ételek”, „",
+      "ready",
+      " ",
+      "meal",
+      "” vagy „készételek”. Piaci részesedésük évről évre nő, az egyik legnagyobb trendnek számítanak. A gyors-/kényelmi ételek jelentik annak a táplálkozási stílusnak a kiteljesedését, amelynek gyökerei több mint 150 évre nyúlnak vissza. Ami ",
+      "Maggi",
+      ", Knorr és Nestlé urak idejében szerényen kezdődött, az ma uralja az emberi táplálkozást. Az ipari forradalom során bekövetkezett társadalmi változások az embereket fogékonnyá tették a késztermékekre, a tartós, sokáig elálló és tápláló élelmiszerekre, amelyek könnyen elkészíthetők otthon. A táplálkozás 3.0 részét képező élelmiszerek nagy ",
+      "energiatartalmú",
+      " és gyakran könnyen emészthető kalóriabombák. Minden összetevőjük különösebb emésztési feladat nélkül a vérbe kerül. A táplálkozás 3.0 ellenmozgalma az egyéni vagy személyre szabott táplálkozás, amely közelít az első rendszerhez, és a ",
+      "táplálkozás 4.0",
+      " elnevezést kapta)."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "8",
+      "",
+      ". ábra:",
+      " A három táplálkozási rendszer az emberré válás kezdete óta (323. oldal)"
+    ],
+    [
+      "Az élelmiszeripar az I. világháborúig az egyik legfontosabb iparág volt. Az élelmiszeripari üzemek közel 50%-a már 1895-ben több mint 200 munkatársat foglalkoztatott. 1930-ban a tejipar erősebb volt, mint az acélipari és a bányászati ágazat. A kohók, vasutak, aknatornyok árnyékában az „ipari forradalom” korában élők rövid idő alatt megszokták és „mindennaposnak” tekintették az élelmiszergyártás iparosodását. Az emberek hamar hozzászoktak a jó minőségű répacukorhoz, a gépekkel előállított és zacskókba csomagolt liszthez, a zöldség- és gyümölcskonzervekhez, a zacskós levesekhez, a fűszerekhez, a húskivonatokhoz, a cikóriakávéhoz, a palackozott sörhöz, a borhoz és az ásványvízhez. Mindezeket az első ipari gyártással, modern technikák segítségével működő vállalatok állították elő. A fellendülés politikai feltétele az volt, hogy a 18. század végén megszűnjenek a ",
+      "gazdasági monopóliumok és privilégiumok, és érvényesülni tudjon a verseny és gazdasági tevékenység szabadsága."
+    ],
+    [
+      "Az iparosodás éllovasa a ",
+      "répacukorgyártás",
+      " volt a 19. század elején, azt követte a ",
+      "malomipar",
+      " és növényi olajok feldolgozása. A gabonafeldolgozás terén 1825-től kezdtek hatékonyabb őrlési eljárásokat és alkalmasabb gabonafajtákat alkalmazni. A hengerek hajtását egyre inkább a gőzgépek vették át a szél- és vízierő helyett. A malomipar hihetetlen koncentrációs folyamaton ment át, különösen 1950-től. Körülbelül 1870-től más ágazatokban is meghonosodott az iparosodás, sorra alakultak a konzerv-, az ásványvíz-, a csokoládé- és a lekvárüzemek. Az ásványvízgyártás számára nagy hasznot jelentett, hogy sikerült a vizet szénsavval dúsítani."
+    ],
+    [
+      "A végfogyasztási termékeket (sört vagy csokoládét) előállító ipari ágazatok mellett a 19. század második felében létrejöttek a köztes termékek gyártására specializálódott vállalatok is. Példa erre a mezőgazdasági alapanyagból (pl. burgonyából vagy búzából) előállított keményítő gyártása. Ez a keményítő volt a pékáruk, a fűszerek és később a puding alapanyaga. Hamar felvetődött a kérdés, hogy az állatok takarmányozásán kívül mire lehetne használni a pelyvát, a fehérjét és a csírákat. A technológiai szakemberek egymás után fejlesztették ki az eljárásokat és alkalmazási területeket a nyersanyagok teljes körű felhasználásához."
+    ],
+    [
+      "A vállalatok rendkívül tőkeigényes villamosítása 1895-től kezdődött, és felgyorsította az élelmiszeripar további központosítását. Vállalatok egyesülésével olyan nagyvállalatok jöttek létre, amelyek milliárdos forgalmukkal részben még ma is nehézsúlyú piaci résztvevők. A nagyvállalatok – mint a Nestlé, az Unilever, a Danone – mellett a helyi kézműves termelők hosszú ideig küzdöttek a túlélésért. A kisebb vállalatokat szinte minden ágazatban egyre jobban kiszorították."
+    ],
+    [
+      "Az élelmiszeripar 1950 óta ",
+      "high-tech",
+      " iparággá vált, amely napjainkban a legmodernebb gépekkel és nagy sebességgel dolgozik. Az ökológiai szükségszerűségek és a költségcsökkentés kényszere minimális energiafelhasználáshoz, csökkentett vízfelhasználáshoz vezetett, a hűtővíz ",
+      "keringetéses",
+      " rendszerben mozgott, és a nyersanyagokat a lehető legnagyobb ",
+      "mértékben felhasználták. A higiénikus gyártási folyamat, a steril csomagolás és a hűtési lánc lehetővé tette a hosszan eltartható, kémiailag megbízható és ",
+      "mikrobiológiailag",
+      " biztonságos élelmiszerek gyártását."
+    ],
+    [
+      "10 milliárd ember táplálása"
+    ],
+    [
+      "Az élelmiszeripari termékek emberi fogyasztásra készülnek. Minden embernek ",
+      "joga van az élelemhez",
+      ", ez áll az ENSZ 1948. évi általános Emberi Jogok Egyetemes Nyilatkozatában. Minden embernek megbízható hozzáférést kell biztosítani nemcsak a kiegyensúlyozott, hanem – a kultúrájának és természetes életkörülményeinek – megfelelő élelemhez. Az ember élelemhez való joga megköveteli, hogy senki ne legyen alul- vagy rosszul táplált. Az ember élelemhez való joga a létfenntartási jog része. Minden embernek rendelkeznie kell azokkal az erőforrásokkal, amelyekre a folyamatos túléléshez van szüksége. A mezőgazdasági világjelentés (IAASTD 2009) szembe helyezi egymással az igényt és valóságot: eszerint akkor közel ",
+      "1",
+      " milliárd ember volt alultáplált a kalóriabevitel szempontjából, és közel 2 milliárd ember strukturálisan. A számok bizonyos ingadozásokkal, de lényegében véve ma is érvényesek."
+    ],
+    [
+      "Mindezek ellenére az emberiségnek soha nem volt jobb dolga, mint ma: 2015-ben az emberek 11",
+      "%-a ",
+      "éhezett, míg 1970-ben még 28",
+      "%-",
+      "uk",
+      ". Ennek fő okát a korszakalkotó ",
+      "zöld forradalom",
+      " jelentette: míg a mezőgazdaság 1960-ban világszinten fejenként 200 kg gabonát termelt, addig ez az érték mára kétszeresése, 400 kg-ra nőtt. Mindez annak ellenére megtörténhetett, hogy az élelmiszerfogyasztók száma 45 év alatt 3-ról 7 milliárdra nőtt. 30 éven belül közel 10 milliárdra fog nőni a Föld lakosainak száma, és ők igényt fognak tartani legalább az elismert emberi jogaikra. Az ENSZ Élelmezésügyi és Mezőgazdasági Szervezete (FAO) szerint rendelkezésre álló megmunkálható területeken addigra mintegy 50%-kal több élelmiszert kell majd előállítani, mint napjainkban. Az éhség végleges legyőzése komoly feladatot jelent az élelmiszer-technológia, a mezőgazdaság és a politika számára. Az emberek biztonságos táplálékhoz jutásához számos lehetőség és kockázat is kapcsolódik. Nagy innovációs képességének köszönhetően az élelmiszer-technológia sokat képes csökkenteni az alábbi kockázatok közül."
+    ],
+    [
+      "Vízhiány",
+      ": 2050-ig a világ lakosságának egynegyede valószínűleg állandó vagy rendszeres édesvízhiányban fog szenvedni. A világ lakosságnak szinte egynegyede már most olyan országokban él, ahol szélsőségesen magas a szárazság kockázata. Ugyanakkor regionálisan is csökkennek a globális víztartalékok. Ennek egyik oka a klímaváltozás, amelynek következtében a nedves területek nedvesebbé, a ",
+      "szárazak",
+      " még szárazabbá válnak. Másik oka a vízszennyezés és a szikesedés. Meg kell említeni továbbá a talajvíz túlzott műtrágya- vagy növényvédőszer-használat okozta terhelését is (UNESCO 2019). A helyzet javításának egyik módszere lehet a tengervíz membránrendszerrel történő sótalanítása és az erőforrásokat kímélő gyártás, valamint a körforgás, a tisztítás és az újrahasznosítás."
+    ],
+    [
+      "Veszteség és pocsékolás",
+      ": Sajnálatos tény, hogy a mezők termése nem mind az emberek gyomrában végzi. A rágcsálók, rovarok és gombák is igény tartanak a saját részükre a neolitikus forradalom első napjától kezdve. Emellett a kevésbé hatékony betakarítási, szállítási, tárolási és nemesítési technikák is felelősek a veszteségekért. Hiányállapot esetén a hatékonysági fok bármilyen szintű gyengülése fatális eredménnyel járhat. Veszteségek nélkül az emberiség elvben tökéletesen ellátható lenne. A 21. század küszöbén a gazdálkodók éves szinten egy főre eső 4600 kcal mezőgazdasági terméket állítottak elő vi",
+      "lágszerte, ami elméletileg elegendő lenne 14 milliárd ember ",
+      "jóllakatásához",
+      ". Sajnos azonban a veszteségek és pocsékolás is előfordul a teljes értékterem",
+      "tési láncban: betakarítási veszteségek és túltermelés a mezőkön, rossz terve",
+      "zésből vagy műszaki hibákból eredő gyártási veszteségek, a hűtési lánc meg",
+      "szakítása, rossz beszerzés és korlátozott eltarthatóság, valamint disztribúciós veszteségek a kereskedelem terén, továbbá nagy átalakítási veszteségek az állati kalóriák előállítása során. Ezek mind-mind azt eredményezik, hogy csu",
+      "pán 2000 kcal kerül a háztartásokba, ami csak 43 százalékot jelent. A tudósok azt feltételezik, hogy a veszteségek fele elkerülhető. A ",
+      "9",
+      ". ábrán látható, mi",
+      "lyen szerepet tölt be a húsfogyasztás. Az állati takarmány 1700 kcal-t nyel el az eredeti 4600-ból, ebből a hús, tojás vagy tejtermékek csak 500 kcal-t adnak vissza. A növényi biomassza állativá történő átalakulása többé-kevésbé hatás",
+      "talan (UNEP 2009)."
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "9",
+      "",
+      ". ábra:",
+      " Élelmiszer-veszteség az értékteremtési lánc folyamán (termőföldtől az asztalig) (327. oldal)"
+    ],
+    [
+      "Rengeteg élelmiszer kerül a háztartási hulladékba. Ennek egyharmada gyümölcs, ",
+      "egyhatoda",
+      " készétel. Az okok a túl nagy kiszerelésben, az átgondolatlan vásárlásban, a lejárati idő ismeretének hiányában és a rossz tárolásban keresendők. Az elmúlt 10 évben összességében javult egy kicsit a helyzet. Az élelmiszeripar és a nagyfelhasználók jelentős mértékben, 17",
+      "%-ban",
+      " részesei a veszteségeknek. Az élelmiszeripar külön figyelmet fordít arra, hogy a nyersanyagokat veszteségmentesen tudja feldolgozni. A kereskedelemből kikerülő élelmiszerhulladékok – a többi vizsgált csoporttal összevetve – csak csekély mennyiséget tesznek ki."
+    ],
+    [
+      "Túlzott ",
+      "húsfogyasztás",
+      ": A húsnak státuszszimbólum jellege van, a jólét mutatójaként működik. Aki megengedheti magának, annak jól megy. De természetesen a fogyasztással járó élvezet sem utolsó szempont. A táplálkozástudomány is felhívja a figyelmet, hogy esszenciális aminosavakat, B-vitaminokat, főként B12-vitamint és számos ásványi anyagot is tartalmaz. A hús fogyasztása jó a szervezetnek. Hiszen az ember több mint ",
+      "3 ",
+      "millió éves evolúciója, amelyet a hús katalizált. A szociológusok előszeretettel emelik ki a közös vadászat és a tábortűz mellett elfogyasztott étel közösségformáló jellegét, mint az emberi kultúra fontos elemét."
+    ],
+    [
+      "A húsfogyasztást azonban elutasítás éri az etika, az ökológia, az állattenyésztés, az állattartás, a jog, az orvostudomány és a teológia, valamint a táplálkozásgyógyászat irányából. Ez utóbbi amellett érvel, hogy a jelenlegi fogyasztást egészségügyi okokból felezni kellene évente 30 kg/fő mennyiségre. Az összes mezőgazdasági termék előállításához 3,34 milliárd hektár zöldterület és legelő (a Föld lakható felületének 26",
+      "%-a",
+      "), valamint 1,6 milliárd hektár szántóföld (12",
+      "%",
+      ") áll rendelkezésre. A szántóföldek egyharmadát kizárólag állati takarmány előállításához használják, további részét az üzemanyagok (pl. biodízel vagy ",
+      "bioetanol",
+      ") előállítására. A világ teljes gabonagyártásának kevesebb mint a fele kerül ténylegesen a háztartások asztalára. A húsfogyasztással járó ökológiai lábnyom további kritikus pont. A magas vízigény (a jelentések szerint egy kilogramm marhahúshoz 15 ezer liter víz szükséges) és a sok üvegházhatású gáz (15",
+      "%-ban",
+      " az emberi táplálkozás, majdnem fele a hús előállításának eredménye) szólhat a kevesebb hús fogyasztása mellett."
+    ],
+    [
+      "Milyen szerepet játszik a modern élelmiszer-technológia a megfelelő mennyiségű táplálékért folytatott harcban? Legfőbb kompetenciáik közé tartozik az élelmiszerek leghosszabb eltarthatósága érdekében történő kíméletes tartósítás, a minimális veszteséggel történő gyártás, az elsődleges termelésből származó alapanyagok optimális kihasználása, a maximális maradékfelhasználás és az új élelmiszerek fejlesztése meglévő vagy új alapanyagokból. Az algák, medúzák, új egzotikus gyümölcsök vagy a megváltoztatott termesztésű gabonafélék megváltozott tulajdonságai új technológiákat, vagy a meglévők módosítását tehetik szükségessé."
+    ],
+    [
+      "",
+      "",
+      "",
+      "10",
+      "",
+      ". ábra:",
+      " A társadalmi trendek élelmiszeriparra gyakorolt hatása (328. oldal)"
+    ],
+    [
+      "Társadalmi változás"
+    ],
+    [
+      "Az emberi társadalmak folyamatos – hol gyorsabb, hol lassabb – változáson mennek át. A változás az élet minden területére kihat, az élelmiszergyártást és a kereskedelmet is alkalmazkodásra kényszeríti. A kihívásokat jelenleg az alábbi, változó hozzáállások és magatartási formák okozzák:"
+    ],
+    [
+      "A táplálék ",
+      "korrektsége",
+      ", a ter",
+      "mészet",
+      "védelem etikája, valamint a morál és az ",
+      "egészség",
+      " mint új életstílus. Az élelmiszeripar etikai szempontjait a ",
+      "2",
+      ".4. fejezet mutatja be részletesebben."
+    ],
+    [
+      "A ",
+      "fogyasztóról kialakult kép",
+      " is változik. A politika és a törvényhozás egyre inkább fikciónak tekinti a döntésképes fogyasztókat, és inkább kiskorúként kezeli őket, mint akiket óvni kell az élet viszontagságaival szemben. Ennek megfelelően változnak a címkéken feltüntetendő információkkal kapcsolatos, valamint az élelmiszerbiztonsággal és fogyasztóvédelemmel szemben támasztott követelmények. A magánjogi megállapodások, mint pl. az IFS (",
+      "(International ",
+      "Food",
+      " Standard-Nemzetközi Élelmiszer Szabvány",
+      ") vagy a BRC",
+      " (British ",
+      "Retail",
+      " ",
+      "Consortium",
+      "-",
+      " ",
+      "Globális Élelmiszerbiztonsági Szabvány",
+      ")",
+      " ",
+      "további bővítik a vállalati minőségirányítás követelményrendszerét."
+    ],
+    [
+      "Városiasodás",
+      ": Napjainkban a lakosság mintegy 50",
+      "%-a",
+      " nagyvárosokban él, az előrejelzések szerint 2050-ben ez a szám 70–80",
+      "% ",
+      "lesz. Miután a fogyasztók egyre kevésbé vesznek részt az élelmiszerelőállítási folyamatokban, így egyre nő a tartós és iparilag előállított élelmiszerek iránti kereslet. A nagy mobilitású és állandó időhiányban szenvedő társadalomnak standardizált és otthoni munkát nem igénylő kényelmi termékekre van szüksége."
+    ],
+    [
+      "Az értékesítés és a beszerzés terén a ",
+      "globalizáció",
+      " egzotikusabb összetevőket és élelmiszereket biztosít, ugyanakkor nőnek az árubeszerzési és főként az áruellenőrzési ráfordítások. A tökéletes visszakövethetőség biztosítása nagy kihívást jelent."
+    ],
+    [
+      "Ugyanakkor olyan személyre szabott, gyakran érzelmi töltöttségű táplálkozási igényeknek kell megfelelni, amelyek ",
+      "a ",
+      "gyorsan változó trendeket követik. Vegán, mentes, ",
+      "clean",
+      " ",
+      "labeling",
+      ", ",
+      "ethic",
+      " ",
+      "food",
+      ", ",
+      "ethnic",
+      " ",
+      "food",
+      ", ",
+      "minimally",
+      " ",
+      "processed",
+      " ",
+      "food",
+      ", ",
+      "natural",
+      " ",
+      "food",
+      ",",
+      "(",
+      " ",
+      "tiszta",
+      " címkézés, etikus élelmiszer, etnikai élelmiszer, minimálisan feldolgozott élelmiszer vagy természetes élelmiszer),",
+      "hogy csak néhányat említsünk az aktuális kulcsszavak közül. Az ilyen élelmiszerek a múltban a nagy darabszám elvét követő nagyvállalatok számára érdektelen réstermékek voltak. A digitális ipari forradalom – amelynek része a „w",
+      " –világháló-internet-",
+      " a szélsőséges tárolási kapacitások, az intelligens és villámgyors szenzoros méréstechnika, a RFID",
+      " (",
+      "automatikus azonosításhoz és adatközléshez használt technológia)",
+      " és a „felhő” – a nagyvállalatok számára is lehetővé teszi, hogy tömeggyártásra készült gyártósorokon személyre szabott termékeket állítsanak elő (ipar 4.0)."
+    ],
+    [
+      "A munkahely és lakhely közötti (többnyire) nagy távolság miatt egyre nagyobb az igény a ",
+      "házon kívüli táplálkozásra",
+      ". A piac erre a szegmensre specializálódott része (vendéglátás, kifőzdék, ",
+      "catering",
+      ") 2018-ban rengeteg pénzt termelt, és évente jelentős mértékű növekedést mutatott."
+    ],
+    [
+      "Egyre több idős embernek van szüksége speciális táplálékra, ami kisebb csomagolási egységeket és intenzívebb ízesítést jelent ",
+      "(demográfiai változás)",
+      "."
+    ],
+    [
+      "Az élelmiszeripart egyre többször teszik felelőssé a ",
+      "járványszerű elhízásért",
+      ".",
+      " Elvárásként jelentkezik a cukor, a só, a zsiradékok csökkentése és a táplálkozás egészségi szempontokkal történő erőteljesebb összekapcsolása, akárcsak az összetevők és az energiatartalom átláthatósága (",
+      "nutri",
+      " ",
+      "score",
+      " rendszer),",
+      " v",
+      "alamint a folyamatok állandó ",
+      "ökológiai és gazdasági optimalizálása",
+      " a kínálat egyre esztétikusabb megjelenítése mellett."
+    ],
+    [
+      "Az ",
+      "internetes értékesítés",
+      " terén az élelmiszerek napjainkban csak a forgalom egy kis részét teszik ki, de a tendencia növekedést mutat. Friss termékek esetében, ha hűtési lánc betartására van szükség, nehézséget jelent az eltarthatóság. Az előrejelzések szerint a piac gyors növekedésen fog átesni, és az élelmiszergyártóknak ezzel párhuzamosan ki kell alakítaniuk ezt az alternatívát is a hagyományos értékesítési forma mellett. A koronavírus okozta leállás (",
+      "lockdown",
+      ") újabb löketet jelentett ebben az irányban."
+    ],
+    [
+      "A technológusoknak egyre inkább menedzserekké kell válniuk, hogy az egyre összetettebbé váló világban meg tudjanak felelni a törvényi és társadalmi elvárásoknak. Összeségében megállapítható, hogy az élelmiszerek világa egyre sokrétűbb és egyedibb, a gyártók vevőkkel folytatott kommunikációja egyre nyitottabb, a biztonsággal és fogyasztóvédelemmel kapcsolatos követelmények egyre szigorúbbak, és az értékesítési csatornák az internetes kereskedelemnek köszönhetően egyre átfogóbbak és kivívásokkal telibbek."
+    ],
+    [
+      "Etika ",
+      "az",
+      " ",
+      "élelmiszeriparban"
+    ],
+    [
+      "Az utóbbi években jelentős mértékben megszaporodtak az élelmiszeriparral szembeni etikai szempontok alapján megfogalmazott elvárások, a táplálékoknak egyre nagyobb fokú ",
+      "korrektséget",
+      " kell felmutatniuk. Az ",
+      "etika",
+      " fogalmát Arisztotelész vezette be egy filozófiai alapelv megnevezéseként: ő a szokások és hagyományok (",
+      "etosz",
+      ") tudományos vizsgálatát értette alatta. Etika alatt ma a filozófia egyik központi részét értjük, amely megpróbálja megválaszolni azt a kérdést, hogy az embereknek mely értékekhez, normákhoz és célokhoz kell igazítaniuk cselekedeteiket. Az etika célja annak vizsgálata, mennyire megalapozott az adott morál érvényesülési igénye, célja továbbá olyan legfőbb, észszerűen megalapozott elvet találni, amely alapján az értékek, normák és célok rangsorolhatók és esetlegesen újak hozhatók létre, hogy ezzel hozzájárulnak az emberi együttélés javulásához. Leegyszerűsítve az etika a morál tana. Az etikai kérdésfelvetések esetében döntő az a cselekvési alternatíva, amely mérlegelést és megalapozott döntéshozást tesz lehetővé."
+    ],
+    [
+      "A ",
+      "11",
+      ". ábra a fogyasztók és az élelmiszeripar közötti etikai alapú konfliktusforrásokat foglalja össze az élelmiszergyártás és az értékesítés számos területéről. A konfliktusforrásokat külön ",
+      "kell kezelni az élelmiszerhamisítástól (",
+      "food",
+      " ",
+      "fraud",
+      "), amelynek körébe a jogilag egyértelmű tényállások esnek, pl. hamisan bejelentett összetevők, alacsonyabb mennyiségek, a maximális károsanyag-mennyiségek túllépése vagy a nem megengedett alapanyagok használata. Az etikai szempontból kétséges élelmiszerek esetében a meghatározó konfliktus abban áll, hogy noha az élelmiszereket szigorúan a törvényi előírások szerint állítják elő, morális szempontból mégis támadhatók és elutasíthatók. Az élelmiszeripar kénytelen volt megtanulni, hogy az élelmiszereknek is van morálja. A civil szervezetek és a fogyasztóvédelmi egyesületek rendszeresen felhívják a figyelmet a tényleges és vélt visszásságokra. Az élelmiszeripart alapvetően az a vád éri, hogy felelős a járványszerű elhízáséért, különösen azáltal, hogy reklámjaival édes és zsíros termékek fogyasztására csábítja a gyerekeket. Egyre erőteljesebbek azok a vádak is, hogy egyre több adalékanyagot használ a „",
+      "clean",
+      " ",
+      "label",
+      "” gyakorlása helyett. A közelmúltban pedig az állatokkal való kétes bánásmód miatt érték támadások. A ",
+      "11",
+      ". ábrán a négy dőlt betűvel szedett pont mutat rá ezekre. Az élelmiszer-technológia az őt érő vádak szerint nem végzi humánusan az állatok vágását, illetve a tejtől megfosztja a borjút azzal, hogy idő előtt elválasztja az anyjától. Az élelmiszeripar a nagy tőkeerőt mozgósító és ezáltal sikeres lobbitevékenységének köszönheti, hogy a törvényhozás nem tiltja e cselekményeket. Sikerült például megakadályozni, hogy a címkéken az egészségügyi szempontból fontos tulajdonságokat a közlekedési lámpának megfelelő színek jelezzék."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "11",
+      "",
+      ". ábra:",
+      " Az élelmiszeripart etikai szempontból érő támadások (331. oldal)"
+    ],
+    [
+      "Az élelmiszer-technológia különböző okokból előnyben részesíti a pálmaolajat, amelynek viszonylag alacsony az ára, jó a rendelkezésre állása és célzottan átalakítható a speciális felhasználáshoz. Az olajpálmákból hektáronként átlagosan 3,3 tonna olaj nyerhető, a repce, a kókusz és a napraforgó esetében ez az érték éppen csak 0,7 tonna, a szója esetében pedig 0,4 tonna. Az utóbbi években azonban előtérbe került annak problematikája, hogy a pálmaolaj iránti kereslet megnövekedése miatt irtani kezdték a trópusi fákat. A fogyasztók nyomására az ",
+      "ipar és a kereskedelem részben úgy reagál, hogy tanúsított és nem önkényesen irtott területekről szerzi be a pálmaolajat."
+    ],
+    [
+      "Az állatok jóléte, állatetika",
+      ":",
+      " az állatok morális kezelésének kérdésköre ma már nemcsak az etika egy érdekes mellékága, hanem központi témának számít. Az állatok kezelésével kapcsolatosan két különböző világnézet küzd egymással a dominancia megszerzéséért: az egyik az antropocentrikus (emberközpontú), a másik a racionális, tudományos világkép. Az első szerint az ember a „teremtés koronája” és a „Föld ura”. A racionális megközelítés abból indul ki, hogy az állatok is képesek érezni, és aki képes érezni, az képes szenvedni is. A biológia ma már nem vonja kétségbe ezt az érzőképességet. A filozófia ezért minimum erőteljes állatvédelmet, egyes képviselői pedig állati jogokat követelnek. Az állatvédelem számukra nem lehet elég széleskörű, és szerintük megelégszik a „kizsákmányolás humanizálásával”. Az állatjogi mozgalmak a „kizsákmányolás befejezését” követelik. Véleményük szerint az állatok vágásának humanizálását követelni ugyanannyira értelmetlen, mint a rabszolgatartás humanizálása vagy a „nők gyengéd megerőszakolásának” engedélyezése."
+    ],
+    [
+      "Az uniós állatvédelmi jogszabályok középponti fogalma az állatok érzőképessége. Tudományosan – pl. az állatok egészségi állapotával vagy a stresszhormonok vérben kimutatott hiányával – kell tudni igazolni, hogy az állatok nem szenvednek",
+      ". ",
+      "Számos törvény és rendelet határozza meg az állatok kezelése során alkalmazandó, megfelelő szakmai gyakorlatot az állatok jóléte érdekében (pl. EFSA ",
+      "-",
+      " Európai Élelmiszerbiztonsági Hatóság",
+      " ",
+      "2012).",
+      " Magyarországon ",
+      "állatvédelem törvényi szabályozása: 1998. évi XXVIII. törvény az állatok védelméről és kíméletéről."
+    ],
+    [
+      "Az állattenyésztés intenzív növekedésének gazdasági okai voltak. A szupermarketek olcsó húsárait nagyüzemi állattartással, hatékony felneveléssel, túltenyésztett fajták alkalmazásával és nem utolsósorban ipari vágással és feldolgozással kompenzálták. Az állatok jóléte és az annak megfelelő tartás minimális megvalósítása nem került be a vállalati célok közé. Ennek eredményeként a feltételes engedélyt egyre több ember tartja aránytalannak. A haszonállatok napjainkban túlnyomórészt ",
+      "egyhasznú",
+      " állatok",
+      ", ",
+      "csak egy versenyágban lehetnek bajnokok. A szarvasmarha 100 évvel ezelőtt még hármas ",
+      "hasznú",
+      " állat volt: munkaállat, húsállat és tejtermelő. Az állattenyésztés egyre inkább a kínzással járó tenyésztés irányába mozdult el az ",
+      "állatok jólétének megfelelő szabályozások ellenére is. A fokozott tenyésztésben élő állatoknak speciális táplálékra van szükségük, amely többnyire takarmánykoncentrátum formájában, többnyire importált szója segítségével készül. Az EU ",
+      "szójabehozatalának közel 20%-a ",
+      "– a korábban e célból kivágott – esőerdőkből vagy a szavannákról érkezik. A tejelő teheneket tejtermelés céljából különválasztották, izomzatuk állapota nem játszik szerepet. „A tőgy maga a tehén” – állította lekezelően egy reklám. Ugyanez vonatkozik a tyúkokra is: vagy hízóállat, amelynek feladata, hogy négy héten belül nulláról ",
+      "100%-",
+      "ra",
+      " zabálja magát, vagy tojásgyártó, amely évente 300 tojást rak. Mi lesz azokkal a tyúkokkal, amelyek nem képesek tojást rakni, de hizlalásra sem alkalmasak? Ledarálják vagy elgázosítják őket. Az állatok nemének korai meghatározása tömeges mennyiségben még nem alkalmazható."
+    ],
+    [
+      "A húst helyettesítő élelmiszerek egyre nagyobb szerephez jutnak. Mindemellett ökológiai szempontok is előtérbe kerülnek, ilyenek a nagy ökológiai lábnyom, a talajvízben túl gyakran megtalálható trágyalé vagy a takarmány előállításához szükséges óriási területek. Másrészt azonban több millió hektárnyi legelő és füves terület van, amelyet a klíma vagy a kevésbé termékeny talaj miatt csak állattartásra lehet használni. Súlyos felelőtlenség lenne lemondani ezekről a kalóriákról. Sok ilyen sztyeppe, hegyoldal, töltés és száraz vagy nedves terület található világszerte. Ezeken a helyeken az istállókban uralkodó „laboratóriumi körülményekhez” képest kétszer annyi ideig tart, amíg a juhok, kecskék vagy szarvasmarhák elérik a vágósúlyt, hiszen a nyers takarmány tápértéke lényegesen alacsonyabb, mint a takarmány",
+      "-",
+      "koncentrátumoké. Az ökológia körforgásos gazdálkodásban az állatok ürüléke trágyázza a növényeket, amelyek később az ember táplálékává válnak. Azt is meg lehet érteni, ha valaki nem akar lemondani a húsról. A mennyiség a döntő."
+    ],
+    [
+      ""
+    ],
+    [
+      "Irodalomjegyzék"
+    ],
+    [
+      "Ábrajegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "Táblázatjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Járóné Kőházi-Kis Andrea"
+      ],
+      [
+        "Szakmai lektor:",
+        "Zakariásné Kiskó Bernadett"
+      ],
+      [
+        "Évfolyam:",
+        "9. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "7 óra"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Élelmiszeripar"
+      ],
+      [
+        "Szakma:",
+        "Pék"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Élelmiszeripari alapismeretek"
+      ],
+      [
+        "Tantárgy:",
+        "Élelmiszerismeret"
+      ]
+    ],
+    [
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "folyamatlépés, mint alapművelet",
+        "folyamatváltozat",
+        "példák az élelmiszer-termelésből"
+      ],
+      [
+        "mechanikus szétválasztás szilárd-folyékony, folyékony-folyékony",
+        "\nülepítés \n",
+        "\nbor, sör, gyümölcslé, cukoroldat"
+      ],
+      [
+        "",
+        "flotálás (úsztatás)",
+        "gyümölcslé, szennyvíz"
+      ],
+      [
+        "",
+        "centrifugálás, szilárd-folyékony",
+        "élesztő, keményítő, gyümölcslé, bor, sör, savó,"
+      ],
+      [
+        "",
+        "centrifugálás, folyékony-folyékony",
+        "tej, savó, étolajok"
+      ],
+      [
+        "",
+        "hidrociklon",
+        "gyümölcslé, keményítő"
+      ],
+      [
+        "",
+        "derítés",
+        "sörlé, bor, cukoroldat"
+      ],
+      [
+        "",
+        "előszűrés",
+        "gyümölcslé, sör, bor, cukor, étolajok"
+      ],
+      [
+        "",
+        "szűrőprések",
+        "gyümölcslé, cukor, étolajok"
+      ],
+      [
+        "",
+        "rétegszűrés",
+        "gyümölcslé, bor, sör"
+      ],
+      [
+        "",
+        "mélységi modulszűrés",
+        "bor, sör"
+      ],
+      [
+        "",
+        "membránszűrés, statikus",
+        "bor, sör"
+      ],
+      [
+        "",
+        "membránszűrés, dinamikus ",
+        "gyümölcslé, bor, sör, krémsajt, tejsavó, tej"
+      ],
+      [
+        "",
+        "diffúziós szűrés (NF nanoszűrés, RO-reverz szűrés RO, pervaporáció-membránszűrés)",
+        "bor, sör, víz"
+      ],
+      [
+        "",
+        "(dialízis, elektrodialízis)",
+        "bor, víz"
+      ],
+      [
+        "",
+        "mosás",
+        "gyümölcs, burgonya, cékla, gyökérzöldségek"
+      ],
+      [
+        "",
+        "passzírozás",
+        "gyümölcs"
+      ],
+      [
+        "mechanikus szétválasztás\nszilárd-szilárd",
+        "",
+        ""
+      ],
+      [
+        "",
+        "magozás, szártépés s",
+        "gyümölcs (cseresznye, szőlő, szilva)"
+      ],
+      [
+        "",
+        "hámozás",
+        "burgonya, sárgarépa"
+      ],
+      [
+        "",
+        "bőrfejtés s",
+        "haszonállatok"
+      ],
+      [
+        "",
+        "csontozás",
+        "haszonállatok"
+      ],
+      [
+        "",
+        "tollazat/szőrzet eltávolítása",
+        "szárnyasok, emlősök"
+      ],
+      [
+        "",
+        "szétválogatás (fizikai tulajdonságok szerint)",
+        ""
+      ],
+      [
+        "",
+        "osztályozás (szemcseméret szerint)",
+        "gabona"
+      ],
+      [
+        "",
+        "mechanikus vagy mágneses úton történő kiemelés",
+        "gabona, zöldség, gyümölcs, gomba"
+      ],
+      [
+        "",
+        "szelelő rostálás",
+        "gabona"
+      ],
+      [
+        "mechanikus szétválasztás\nszilárd-légnemű",
+        "",
+        ""
+      ],
+      [
+        "",
+        "porleválasztás",
+        "gabona, sörmaláta"
+      ],
+      [
+        "",
+        "habtalanítás, habzásgátlás",
+        "bor, élesztőtermelés"
+      ]
+    ],
+    [
+      [
+        "folyamatlépés, mint alapművelet",
+        "folyamatváltozat",
+        "példák az élelmiszer-termelésből"
+      ],
+      [
+        "aprítás, zúzás\nmechanikus",
+        "",
+        ""
+      ],
+      [
+        "",
+        "őrlés",
+        "gabona, gyümölcs"
+      ],
+      [
+        "",
+        "homogenizálás/ultrahomogenizálás",
+        "tej, turmixok"
+      ],
+      [
+        "",
+        "ultrahangos vágás",
+        "zöldség"
+      ],
+      [
+        "",
+        "vízsugaras vágás",
+        ""
+      ],
+      [
+        "",
+        "vágás, darálás",
+        "hús, kolbász"
+      ],
+      [
+        "enzimes",
+        "ipari enzimek",
+        "gyümölcsök"
+      ],
+      [
+        "anyagok összedolgozása, adagolás",
+        "anyagok összedolgozása, adagolás",
+        "anyagok összedolgozása, adagolás"
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "folyékony-folyékony,\nfolyékony-szilárd,szilárd-szilárd,",
+        "folyadékok keverése",
+        "italok"
+      ],
+      [
+        "folyékony-légnemű",
+        "gyúrás",
+        "tészta"
+      ],
+      [
+        "",
+        "szilárd anyagok keverése",
+        "liszt, diófélék keverékei"
+      ],
+      [
+        "",
+        "emulgeálás (folyadék eloszlatása folyadékban)",
+        "cukrászati töltelékek, étolajemulziók"
+      ],
+      [
+        "",
+        "agglomerálás (brikettálás, tablettázás)",
+        "kész levesek, fűszerek"
+      ],
+      [
+        "",
+        "szuszpendálás (szilárd anyagok eloszlatása folyadékban)",
+        ""
+      ],
+      [
+        "",
+        "habzás (folyadék-légnemű)",
+        "tejszín, tészta, habmassza, karamell"
+      ],
+      [
+        "termikus elválasztási eljárások",
+        "termikus elválasztási eljárások",
+        "termikus elválasztási eljárások"
+      ],
+      [
+        "szilárd-folyékony",
+        "lepárlás",
+        ""
+      ],
+      [
+        "",
+        "víztelenítés",
+        "gabona"
+      ],
+      [
+        "",
+        "kristályosítás",
+        ""
+      ],
+      [
+        "",
+        "fagyasztva szárítás (liofilezés/liofilizálás)",
+        "mikroorganizmusok, gyümölcsök"
+      ],
+      [
+        "folyékony-folyékony",
+        "desztilláció",
+        "szeszes italok"
+      ],
+      [
+        "",
+        "rektifikálás (folyamatos lepárlás)",
+        ""
+      ],
+      [
+        "",
+        "kristályosítás",
+        "cukor"
+      ],
+      [
+        "kémiai anyagátalakítások",
+        "kémiai anyagátalakítások",
+        "kémiai anyagátalakítások"
+      ],
+      [
+        "",
+        "pelyhesítés",
+        "italok"
+      ],
+      [
+        "",
+        "kicsapatás",
+        "cukor, só"
+      ],
+      [
+        "",
+        "kisózás",
+        ""
+      ],
+      [
+        "",
+        "fermentálás, mikrobiális",
+        "ecet, alkoholtartalmú italok, sajt"
+      ],
+      [
+        "",
+        "fermentálás, enzimes",
+        "italok, friss sajt"
+      ],
+      [
+        "",
+        "adszorpció",
+        ""
+      ],
+      [
+        "",
+        "kristályosítás, átkristályosítás",
+        "cukor, só"
+      ],
+      [
+        "",
+        "adszorpció",
+        ""
+      ],
+      [
+        "",
+        "kristályosítás, átkristályosítás",
+        "cukor, só"
+      ],
+      [
+        "",
+        "ioncsere",
+        "cukor"
+      ],
+      [
+        "",
+        "kivonat készítése, vizes vagy oldószeres",
+        "tojásfehérje, cukor, étolaj"
+      ],
+      [
+        "",
+        "pörkölés",
+        "kávébab, kakaóbab"
+      ]
+    ],
+    [
+      [
+        "folyamatlépés, mint alapművelet tartósítás",
+        "folyamatváltozat\n\n",
+        "példák az élelmiszer-termelésből\n"
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "termikus",
+        "pasztőrözés:100 Celsius fok alatt",
+        "gyümölcslé, bor, sör, tej"
+      ],
+      [
+        "",
+        "sterilizálás 100Celsius fok felett\nultra magas hőmérsékleten",
+        "zöldség, hús-konzerv\ntej"
+      ],
+      [
+        "",
+        "szárítás/\nfagyasztva szárítás=liofilizálás",
+        "gyümölcsök"
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "hűtés, hűtési lánc",
+        "tejtermékek, hústermékek, friss termékek"
+      ],
+      [
+        "",
+        "blansírozás-előfőzés",
+        "zöldség"
+      ],
+      [
+        "",
+        "főzés\nfüstölés",
+        "tojás\nhúsipari termékek, hal"
+      ],
+      [
+        "fizikai",
+        "pulzáló elektromos mezők",
+        ""
+      ],
+      [
+        "",
+        "hidrosztatikus nagynyomás",
+        ""
+      ],
+      [
+        "",
+        "steril szűrés",
+        "italok, víz"
+      ],
+      [
+        "",
+        "oxigénkivonás",
+        ""
+      ],
+      [
+        "",
+        "szén-dioxid",
+        "szőlőlé (Süßreserve – cukortartalék)"
+      ],
+      [
+        "",
+        "besugárzás",
+        "fűszerek"
+      ],
+      [
+        "",
+        "mikrohullámú szárítás",
+        ""
+      ],
+      [
+        "",
+        "ozmotikus H2O-kivonás",
+        ""
+      ],
+      [
+        "",
+        "savanyítás",
+        "savanyú káposzta, ecet"
+      ],
+      [
+        "",
+        "CA (szabályozott légterű) tárolás",
+        "gyümölcs"
+      ],
+      [
+        "",
+        "fázisváltás",
+        "vaj"
+      ],
+      [
+        "",
+        "inert gázos védőatmoszféra",
+        "csomagolt friss termékek"
+      ],
+      [
+        "",
+        "sűrítés (zselésítőszer)",
+        "lekvár, zselé"
+      ],
+      [
+        "",
+        "kivéreztetés",
+        "hús"
+      ],
+      [
+        "kémiai",
+        "tartósítószerek (SO2, szorbinsav, alkohol, füstölés, pácolás)",
+        "füstölés, pácolás) italok, szeszes italok hús, kolbász"
+      ],
+      [
+        "mikrobiológiai",
+        "mikrobiális anyagátalakítás, fajdominancia",
+        "alkoholtartalmú italok, savanyú káposzta, ecet"
+      ],
+      [
+        "",
+        "oxidázok a csomagolásban",
+        "O2-érzékeny termékek"
+      ],
+      [
+        "különleges eljárások",
+        "különleges eljárások",
+        "különleges eljárások"
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "instantizálás",
+        "teapor, kávépor"
+      ],
+      [
+        "",
+        "konsírozás-kenőgyúrás",
+        "csokoládé"
+      ],
+      [
+        "",
+        "granulálás, pelletálás",
+        ""
+      ],
+      [
+        "",
+        "kapszulázás/mikrokapszulázás",
+        ""
+      ],
+      [
+        "",
+        "extrudálás",
+        "pékáru"
+      ],
+      [
+        "",
+        "olajban sütés",
+        "hasábburgonya"
+      ],
+      [
+        "",
+        "impregnálás\n(átitatással történő védelem)",
+        ""
+      ],
+      [
+        "",
+        "megalvasztás",
+        ""
+      ],
+      [
+        "",
+        "olvasztás",
+        "ömlesztett sajt"
+      ],
+      [
+        "",
+        "karbonizálás\nbevonatolás\npirítás",
+        "italok\nfahordók"
+      ]
+    ],
+    [
+      [
+        "nagyüzem",
+        "kisüzem"
+      ],
+      [
+        "nagy kapacitások, magas órakihozatal",
+        "alacsony teljesítményszint"
+      ],
+      [
+        "a költségellenőrzés elsődlegessége,\n„méretgazdaságosság”, alacsony fajlagos költségek",
+        "a munka irányításának elsődlegessége, magas fajlagos költségek"
+      ],
+      [
+        "energia- és erőforrás felhasználás magas, de fajlagosan alacsony",
+        "energia- és erőforrás felhasználás alacsony, de fajlagosan magas"
+      ],
+      [
+        "ágazati szakemberek általi üzemeltetés",
+        "nem ágazati szakemberek általi üzemeltetés"
+      ],
+      [
+        "beruházásigény: magas, de fajlagosan alacsony",
+        "beruházásigény: alacsony, de fajlagosan magas"
+      ],
+      [
+        "szolgáltatási ráfordítások: magas",
+        "szolgáltatási ráfordítások: alacsony, kíméletes technológia"
+      ],
+      [
+        "több folyamatszakaszból álló lánc, automatizálás",
+        "több folyamatszakaszból álló lánc, automatizálás"
+      ],
+      [
+        "magas gépkihasználtság",
+        "alacsony gépkihasználtság"
+      ],
+      [
+        "helyhez kötött, központosított berendezések",
+        "mobil berendezések"
+      ],
+      [
+        "high-tech/folyamatoptimalizálás/részlegek",
+        "right tech/egyedi lépések"
+      ],
+      [
+        "ISO-IFS stb. tanúsítványok kötelezőek",
+        "a tanúsítás önkéntes"
+      ],
+      [
+        "vezetői gondolkodásmód kötelező",
+        "vezetői gondolkodásmód lehetséges"
+      ]
+    ],
+    [
+      [
+        "",
+        "eredeti, nyers, energiaszegény",
+        "eredeti, átalakított",
+        "finomított, feldolgozott, m nagy energiasűrűség (kalória osztva az élelmiszer tömegével)"
+      ],
+      [
+        "emészthetőség",
+        "+",
+        "++",
+        "+++"
+      ],
+      [
+        "nettó kalóriaérték",
+        "alacsony",
+        "közepes",
+        "magas"
+      ],
+      [
+        "emésztési erőfeszítés",
+        "+++",
+        "++",
+        "+"
+      ],
+      [
+        "hatásfok",
+        "+",
+        "++",
+        "+++"
+      ],
+      [
+        "példák:",
+        "példák:",
+        "példák:",
+        "példák:"
+      ],
+      [
+        "liszt",
+        "emészthetetlen",
+        "teljes kiőrlésű gabona,\n70% bevitel",
+        "őrölt, 100% bevitel"
+      ],
+      [
+        "hús",
+        "emészthetetlen",
+        "sült",
+        "sülthús"
+      ],
+      [
+        "gyümölcs, zöldség",
+        "nyers",
+        "püré",
+        "gyümölcs-/zöldséglé"
+      ],
+      [
+        "burgonya/rizs",
+        "emészthetetlen",
+        "főtt",
+        "szirup"
+      ],
+      [
+        "cukornád",
+        "emészthetetlen",
+        "főtt",
+        "szirup"
+      ],
+      [
+        "gyorséttermi étel",
+        "-",
+        "-",
+        "pl. hamburger"
+      ],
+      [
+        "édességek",
+        "-",
+        "-",
+        "pl. pralinék"
+      ]
+    ],
+    [
+      [
+        "ásványi anyagok és nyomelemek (22)",
+        "zsírsavak (2)",
+        "vitaminok (13)",
+        "aminosavak (10)"
+      ],
+      [
+        "kalcium: a csontok és fogak növekedése és újraképződése",
+        "EPA és DHA (Omega3): sejtmembránok építése, hírvivő anyagok prekurzora (előanyaga), hormonépítés, gyulladáscsökkentő",
+        "A-vitamin: szem, nyálkahártya, bőr",
+        "arginin: fontos a vérnyomás, a zsírégetés és a teljesítmény fokozása"
+      ],
+      [
+        "vas: oxigénszállítás, energiatermelés",
+        "",
+        "B1-vitamin: idegrendszer, szénhidrátanyagcsere",
+        "izoleucin: izomfehérje a jobb állóképességért, új szintézisért"
+      ],
+      [
+        "kálium: elektromos impulzusok továbbítása az idegekhez és az izomsejtekhez",
+        "",
+        "B2-vitamin: bőr, nyálkahártya, zsír-, fehérje- és szénhidrátanyagcsere",
+        "leucin: zsírégetés és fehérjeépítés az izomban"
+      ],
+      [
+        "magnézium: gyulladáscsökkentő, görcsoldó, stresszoldó",
+        "",
+        "B3-vitamin: szív, idegrendszer, szénhidrát- és zsíranyagcsere",
+        "valin: idegpályák felépítése és megerősítése"
+      ],
+      [
+        "nátrium: elektromos sejtpotenciál az idegvezetéshez, szívritmushoz",
+        "",
+        "B5-vitamin: bőr, nyálkahártya, védekezés, hajnövekedés",
+        "lizin: vírusok, különösen herpesz elleni védelem"
+      ],
+      [
+        "réz: védelmi rendszer, sebgyógyulás, csontszerkezet, bőr, haj",
+        "",
+        "B6-vitamin: idegrendszer, fehérjeanyagcsere",
+        "metionin: gátolja a karcinogenezist"
+      ],
+      [
+        "klorid: gyomorsav, ozmotikus nyomás",
+        "",
+        "B7-vitamin: zsír- és szénhidrátanyagcsere, bőr, haj, köröm",
+        "fenilalanin: dopamin és noradrenalin"
+      ],
+      [
+        "króm: erős oxidálószer, hatásos megemelkedett vércukorszint esetén",
+        "",
+        "B9-vitamin: vérképzés, növekedés, erek",
+        "treonin: segít a fáradtság ellen, építi a kollagént"
+      ],
+      [
+        "jód: fontos a pajzsmirigyhormonok és az anyagcsere szempontjából",
+        "",
+        "B12-vitamin: vérképzés, táplálékfelvétel",
+        ""
+      ],
+      [
+        "mangán: fontos a test minden sejtje számára",
+        "",
+        "C-vitamin: immunrendszer, kötőszövet, csontok",
+        ""
+      ],
+      [
+        "molibdén: fontos a vas-, enzim- és karbamid-anyagcseréhez",
+        "",
+        "D-vitamin: csontok, fogak, kalcium- és foszfátanyagcsere",
+        ""
+      ],
+      [
+        "szelén: sok szempontból szükséges, például a pajzsmirigy számára",
+        "",
+        "E-vitamin: bőr, sejtek védelme a környezeti toxinoktól, UV sugárzástól",
+        ""
+      ],
+      [
+        "cink: fontos a bőr, az immunrendszer, a fehérje-anyagcsere és az enzimek szempontjából",
+        "",
+        "K-vitamin: véralvadás, bizonyos fehérjék termelése",
+        ""
+      ],
+      [
+        "nikkel: hatással van a jó közérzet kialakításában",
+        "",
+        "",
+        ""
+      ],
+      [
+        "lítium: a fehérjék építőköve, és a vas felszívódásához nélkülözhetetlen",
+        "",
+        "",
+        ""
+      ],
+      [
+        "kobalt: agyi anyagcsere, hangulat",
+        "",
+        "",
+        ""
+      ],
+      [
+        "fluorid: a B12 és B9 összetevője",
+        "",
+        "",
+        ""
+      ],
+      [
+        "szilícium: fontos az anyagcseréhez",
+        "",
+        "",
+        ""
+      ],
+      [
+        "rubídium: regenerálja a csontszövetet, a bőrt és a hajat ",
+        "",
+        "",
+        ""
+      ],
+      [
+        "vanádium: fontos a várandósság alatt és a központi idegrendszerben",
+        "",
+        "",
+        ""
+      ],
+      [
+        "foszfor: a csontok ásványi anyagcseréjéhez, szabályozza a cukoranyagcserét",
+        "",
+        "",
+        ""
+      ],
+      [
+        "kén: a sejtfalak felépítése, valamint felel az örökítőanyagért is a köröm, a haj és a bőr felépítése, méregtelenítés",
+        "",
+        "",
+        ""
+      ]
+    ],
+    [
+      [
+        "Trend",
+        "Élelmiszeriparra gyakorolt hatás"
+      ],
+      [
+        "népességnövekedés",
+        "növekvő kereslet, egyre több kész élelmiszer\negyre több nyersanyag értékesítése, régióspecifikus gyártásra van szükség"
+      ],
+      [
+        "városiasodás",
+        "magasabb követelmények a logisztika és az eltarthatóság tekintetében, növekvő házon kívüli fogyasztás"
+      ],
+      [
+        "globalizáció",
+        "minőség- és kockázatkezelést igényel, nő a beszerzési lehetőségek sokszínűsége,\negzotikus receptúrák lehetségesek"
+      ],
+      [
+        "demográfiai változás",
+        "kiszerelések méretének és árak kialakításának a kisebb vásárlóerőhöz történő igazítása, erősebb aromatizálás, egyszerűbb csomagolások"
+      ],
+      [
+        "nagyobb élelmiszerbiztonság",
+        "minőség- és kockázatkezelést igényel, tisztatér technológia különböző standardok szerinti tanúsítás"
+      ],
+      [
+        "fogyasztói kép",
+        "a cselekvés nagyobb átláthatósága, jobb kommunikáció, címkekialakítás"
+      ],
+      [
+        "etnofood",
+        "sertésfeldolgozás erősen érintett, további tanúsítványok szükségesek, izraelita előírások szerinti állatvágás, a normál gyártástól való szigorú elválasztás"
+      ],
+      [
+        "etikus kezelés",
+        "a kényelmi termékkínálat bővítése, céges kultúra hozzáigazítása, erősebb kommunikáció a vevőkkel, átláthatóság\nállattartás és -vágás különösen érintett"
+      ],
+      [
+        "táplálkozási formák",
+        "a húsiparra negatív hatással van a vegetarianizmus és pozitív hatással\na paleolit táplálkozás, a vegán termékek technológiailag ráfordításigényesek, ha hússtandardot kell elérni"
+      ],
+      [
+        "elhízás és alultápláltság",
+        "kalóriacsökkentett élelmiszerek és italok, hozzáadott cukor vevők felvilágosítása, adalékanyagok alultápláltság ellen"
+      ],
+      [
+        "internetes értékesítés",
+        "logisztikai kihívás, hűtési lánc nehézséget okoz, rugalmas előállításra van szükség (lásd ipar 4.0)"
+      ],
+      [
+        "ipar 4.0",
+        "a gyártás és beszerzés minden résztvevőjének hálózatba kapcsolása egyénileg tervezett élelmiszerek, internetes értékesítés segítséget jelent, személyre szabott tömegtermelés"
+      ]
+    ]
+  ],
+  "headers": [
+    "",
+    ""
+  ],
+  "footers": [
+    "",
+    ""
+  ],
+  "footnotes": [
+    "",
+    ""
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image12.png",
+      "path": null,
+      "bytes": 316148
+    },
+    {
+      "name": "image8.jpg",
+      "path": null,
+      "bytes": 27749
+    },
+    {
+      "name": "image9.jpg",
+      "path": null,
+      "bytes": 45921
+    },
+    {
+      "name": "image10.png",
+      "path": null,
+      "bytes": 249863
+    },
+    {
+      "name": "image7.jpg",
+      "path": null,
+      "bytes": 51043
+    },
+    {
+      "name": "image11.png",
+      "path": null,
+      "bytes": 55798
+    },
+    {
+      "name": "image3.jpg",
+      "path": null,
+      "bytes": 44731
+    },
+    {
+      "name": "image5.jpg",
+      "path": null,
+      "bytes": 58514
+    },
+    {
+      "name": "image6.jpg",
+      "path": null,
+      "bytes": 57078
+    },
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image4.jpg",
+      "path": null,
+      "bytes": 49423
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Table Normal",
+    "Title",
+    "Normal (Web)",
+    "annotation text",
+    "Cím Char",
+    "Subtitle",
+    "Alcím Char",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "Hyperlink",
+    "Feloldatlan megemlítés1",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Table Grid",
+    "Jegyzetszöveg Char",
+    "11",
+    "9",
+    "Placeholder Text",
+    "Címsor 4 Char",
+    "Caption",
+    "bajusz_téglalap",
+    "bajusz_téglalap Char",
+    "Címsor 5 Char",
+    "ism_kérdések",
+    "ism_kérdések Char",
+    "Képaláírás Char",
+    "kérdés_számozva",
+    "kérdés_számozva Char",
+    "bajusz_pötty",
+    "bajusz_pötty Char",
+    "szituáció",
+    "fontos",
+    "fontos Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "toc 4",
+    "bajusz_kötőjel",
+    "betűkiemelés",
+    "List Paragraph",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "példa",
+    "példa Char",
+    "Default",
+    "List Table 1 Light Accent 5",
+    "List Table 2 Accent 1",
+    "List Table 3 Accent 1",
+    "List Table 4 Accent 1",
+    "List Table 4 Accent 5",
+    "List Table 6 Colorful Accent 1",
+    "List Table 1 Light Accent 1",
+    "Nem lista1",
+    "table of figures",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Revision",
+    "annotation reference",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "[Alapbekezdés]"
+  ]
+}

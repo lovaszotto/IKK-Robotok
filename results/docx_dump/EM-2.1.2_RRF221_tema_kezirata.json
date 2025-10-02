@@ -1,0 +1,2589 @@
+{
+  "core_properties": {
+    "creator": "Dorián Horváth",
+    "lastModifiedBy": "Gyimesi Csilla (ELMS)",
+    "revision": "5",
+    "created": "2024-07-10T10:37:00Z",
+    "modified": "2024-07-10T11:28:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal.dotm",
+    "TotalTime": "49",
+    "Pages": "41",
+    "Words": "6393",
+    "Characters": "44114",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "367",
+    "Paragraphs": "100",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "50407",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "",
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.1.2  ",
+    "A mikroorganizmusok szaporodása és pusztulása",
+    "Témák kézirata",
+    "Forrás: Mikroorganismen in Lebensmitteln, Verlag Europa-Lehrmittel, 2019. ISBN 978-3-8057-0783-1\n\nAz eredeti könyv szerzői: Johann Hamdorf, Heribert Keweloh, Maria Revermann",
+    "",
+    "Fordította: Intercontact Budapest Fordítóiroda és Tolmácsiroda",
+    "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak.",
+    "",
+    "",
+    "",
+    "Tartalomjegyzék",
+    "1\tA mikroorganizmusok szaporodása\t2",
+    "1.1\tA baktériumok szaporodása\t2",
+    "1.1.1\tA baktériumok ivartalan szaporodása\t3",
+    "1.1.2\tSzakaszos szaporodási görbe\t6",
+    "1.2\tA Szaporodást befolyásoló tényezők\t10",
+    "1.2.1\tA baktériumok generációs (duplázódási) ideje\t10",
+    "1.2.2\tA kezdeti csíraszám jelentősége\t11",
+    "1.2.3\tKörnyezeti tényezők\t12",
+    "1.3\tFonalas mikroorganizmusok szaporodása\t14",
+    "1.4\tA mikroorganizmusok pusztulása\t27",
+    "1.4.1\tA pusztulást befolyásoló tényezők\t27",
+    "1.5\tA mikroorganizmusok rezisztenciája\t31",
+    "1.5.1\tStresszválaszok\t31",
+    "2\tÖsszegzés\t38",
+    "2.1\tBaktériumok szaporodása – a legfontosabb tények röviden\t38",
+    "2.2\tA penészgombák jellemző szaporodásai\t38",
+    "2.3\tGombák szaporodása– a legfontosabb tények röviden\t38",
+    "Ábrajegyzék\t39",
+    "Irodalomjegyzék\t41",
+    "",
+    "A mikroorganizmusok szaporodása",
+    "Az egysejtű mikroorganizmusok ivartalan szaporodása kedvező körülmények között minden más élőlénynél gyorsabb. Élelmiszeripari szempontból fontos megismerni a hasznos mikroorganizmusok és a nem kívánatos mikroszervezetek szaporodásának törvényszerűségeit.",
+    "A baktériumok szaporodása gyors, leginkább folyékony táptalajon való tenyésztés esetén tanulmányozható. Ilyenkor az élő sejtek számának megváltozását vizsgáljuk bizonyos időközönként és a kapott értékeket ábrázoljuk.",
+    "",
+    "A baktériumok szaporodása",
+    "Minden baktériumsejt képes szaporodni és reagálni a környezeti változásokra.",
+    "A baktériumokban a növekedés és a szaporodás párhuzamos, egymáshoz kapcsolódó folyamat.",
+    "Ha a növekedés valamennyi előfeltétele adott, az egyes sejtek nagyobbak és hosszabbak lesznek, és megnövekszik a sejttömegük (biomasszájuk). A sejtek anyagcseréjében enzimek által katalizált kémiai átalakulások zajlanak, amelyek a tápanyagok ellenőrzött lebontását/átalakítását eredményezik. Ezeknek a lebontási reakcióknak a célja, hogy a tápanyagot felhasználják, és új sejtalkotórészek építésére fordítsák.",
+    "Egy kritikus méretnél a sejt térfogata és felülete közötti arány megváltozik, a baktérium keresztirányú osztódással felére csökkenti a sejttérfogatát. Az anyasejtből két egyforma utódsejt, úgynevezett leánysejt jön létre. Ez a baktériumok jellemző ivartalan szaporodási módja. A leánysejtek növekednek, megnövelik a térfogatukat, és újból osztódnak. Az 1. ábrán jól követhetjük a folyamatot.",
+    "",
+    "1. ábra: Baktériumok szaporodása osztódással",
+    "1 ábra feliratok módosítása 1. biomassza helyett sejtszám vagy sejttömeg növekedés, DNS szintézis helyett örökítő anyag szintézise, válaszfal képződése és befűződése felirat a két sejthez",
+    "Növekedés: A sejtszám/sejttömeg (biomassza) mennyiségének a megnövekedése. A baktériumokban a növekedés és a szaporodás egymáshoz kapcsolódik, és egymástól elválaszthatatlan. A növekedés mindig a sejtek számának növekedéséhez vezet.",
+    "",
+    "A baktériumok ivartalan szaporodása",
+    "Minden újonnan keletkező sejtnek az örökítőanyag teljes készletével rendelkeznie kell ahhoz, hogy életképes legyen.",
+    "A baktériumok keresztirányú osztódását, azaz ivartalan szaporodását a bakteriális gének megkettőződése és szétválása előzi meg.",
+    "1. A DNS-ről másolatok készülnek, hogy minden leánysejt teljes genetikai információt megkapjon.",
+    "2. Ezután behúzódik a sejtbe egy új keresztirányú fal (a 2. ábra a kokkoid baktériumok keresztirányú osztódását mutatja).",
+    "3. Ezután mindegyik utódsejt új növekedési,",
+    "4. majd osztódási ciklust kezd.",
+    "",
+    "2. ábra: A kokkoid baktériumok keresztirányú osztódása",
+    "A bacillusok a végükön osztódnak. Megnyúlik a sejt, amikor elér egy bizonyos hosszt, akkor a benne lévő DNS állomány megkettőződik. A két DNS széthúzódik a sejt két végébe (3. ábra piros színű állomány), a sejtfal befűződik, és így lesz belőle két hosszúkás, pálcika alakú sejt.",
+    "",
+    "3. ábra: Osztódó bacillus",
+    "Forrás: https://docplayer.hu/105858880-2-a-mikrobak-es-szaporitasuk-az-ipari-jelentosegu-mikroorganizmusok-tipusai-bakteriumok-morfologiaja-pecs-miklos-vebi-biomernoki-muveletek.html. Utolsó megtekintés: 2024.06.28",
+    "Az 4. ábrán a baktériumsejtek számának növekedését tanulmányozhatjuk. Egy sejtből 2 lesz, amelyből 4, majd 8, 16, 32 (exponenciális sorozat) és így tovább: ez az exponenciális növekedés szakasza. Egy adott idő alatt tehát nem állandó (konstans) mennyiségű új sejt képződik, hanem a már meglévő sejtszám/sejttömeg ugyanakkora idő alatt megduplázódik.",
+    "",
+    "4. ábra: Baktériumok exponenciális növekedése",
+    "Azt az időtartamot, amely alatt egy adott baktériumfaj megkétszerezi a sejtszámát, generációs időnek vagy duplázódási vagy kétszereződési időnek nevezzük. Ha a sejtek száma jelentősen megnő, a baktériumok már szabad szemmel is jól láthatók. Például tápanyagban gazdag folyadékokban, mint a húslevesek vagy akár a szennyezett víz, a baktériumok elszaporodása zavarossághoz vezet (az egy milliliterben jelen lévő milliónyi sejt olyan erősen szórja a fénysugarakat, hogy a folyadék már nem lesz átlátszó). Laboratóriumban a baktériumokat úgynevezett Petri-csészékben (5. a) ábra) tenyésztik szilárd agar táptalajon. Ott több milliószor szaporodnak és látható kolóniákat/telepeket képeznek (5. b) ábra).",
+    "",
+    "5. ábra: a) Petri-csésze b) Staphylococcus aureus kolóniák/telepek vér hozzáadásával készült agar táptalajon",
+    "Forrás: http://www.pouringindia.com/mueller-hinton-agar-plates.htm Utolsó megtekintés: 2024.06.28.",
+    "Agar táptalaj: az agar nevű zselésítőanyag segítségével megszilárdított táptalaj, amelynek a felületére felvitt mikrobák szemmel látható sejtcsoportokat, úgynevezett telepeket (kolóniákat) képeznek.",
+    "",
+    "Szakaszos szaporodási görbe",
+    "",
+    "A szaporodás fázisai",
+    "Ha a baktérium új, számára kedvező környezetbe kerül, akkor nyomon követhetjük egy növekvő baktériumtenyészet-szaporodásnak különböző fázisait (6. ábra).",
+    "",
+    "6. ábra: A baktériumok növekedési fázisai vagy szaporodási görbe",
+    "A szaporodási görbén négy jellegzetes szakaszt különböztetünk meg.",
+    "a Lag (adaptációs) fázis vagy lappangási szakasz",
+    "köztes fázis gyorsuló szaporodás szakasza ",
+    "Log vagy Exponenciális fázis",
+    "köztes fázis lassuló szaporodás szakasza",
+    "Stacioner fázis",
+    "elhalási fázis",
+    "Lag vagy (adaptációs) fázis vagy lappangási szakasz",
+    "A baktériumsejtnek az új környezethez való alkalmazkodásának a szakasza: itt még nincs sejtosztódás, a sejtek száma változatlan (vízszintes vonal az 6. ábrán). A számukra most rendelkezésre álló tápanyagokhoz először elő kell állítaniuk az azokra specifikus enzimeket. Minden olyan anyagot, amely már jelen van a táplálékban, és amelyet fel tudnak használni, felvesznek; így gyorsabban tudnak növekedni és szaporodni. A baktériumok sejtmérete növekszik, főként tápanyag-beépítést, raktározást folytatnak a sejtek!",
+    "Ezen szakasz időtartama a mikrobák életképességétől és a környezeti feltételektől függ, általában 30 perctől két óráig tarthat.",
+    "Köztes fázis: a lappangási szakasz és a logaritmikus fázis között - már van sejtszaporodás, a sejttömeg vagy sejtszám növekedése már mérhető. A szaporodás gyorsuló, amíg eléri a maximális sebességet: ez a görbe exponenciális vagy logaritmikus szakasza.",
+    "Logaritmikus(log) vagy exponenciális fázis",
+    "Egy átmeneti vagy köztes szakasz után a szaporodás felgyorsul, a sejtszám exponenciálisan megnő – a mikroorganizmusok száma mértani sor szerint nő (1—2—4—8—16…)",
+    "Ezt a szakaszt intenzív sejtosztódás jellemzi, a generációs idő lerövidül (6. ábra: minél meredekebb a log szakasz egyenese az ábrán, annál rövidebb a generációs idő). A baktériumok a fajra jellemző kétszereződési idővel szaporodnak. A baktériumtenyészet generációs ideje ebben a szakaszban folyamatosan állandó marad (időegységenként ugyanakkora érték: például fajra jellemző kb. 20 perc ebben a fázisban)",
+    "Ilyenkor jellegzetesek a baktériumok tulajdonságai, a legnagyobb a mikrobák életereje vagy vitalitása, átoltás esetén (új tápközegbe való bejuttatás) új tápközegben is azonnal gyors szaporodásba kezdenek. (A kórokozó baktériumok fertőzőképessége is ebben a szakaszban a legnagyobb.) A logaritmikus szakasz időtartama 6-12 óráig tarthat.",
+    "A növekedés sebessége az exponenciális növekedési fázisban elér egy maximális értéket. E növekedési fázis eredményeként több mint egymilliárd sejt halmozódhat fel egy milliliter tápfolyadékban (109/ml = 1012/l).",
+    "Az exponenciális szakasz megnyújtható, hogyha folyamatosan pótoljuk a tápanyagot.",
+    "köztes fázis: a 6. ábrán a log és stacioner fázis között az exponenciális szakasz vége felé már csökken a tápanyagok mennyisége, és megnő a toxikus (a baktériumok számára) anyagcseretermékek mennyisége (például szerves savak, amelyek a pH-t kedvezőtlen irányba változtatják a baktériumok számára). A szaporodás sebessége lecsökken (kevesebb új sejt képződik), a generációs idő növekszik.",
+    "Stacioner vagy állandósult szakasz",
+    "Az élő csíraszám állandósul, ugyanannyi utódsejt képződik, mint amennyi elpusztul. A mikrobák életkörülményei fokozatosan romlanak (mivel a tápanyag fogy) a folyamatosan növekvő számú baktériumsejt anyagcsere-folyamatai miatt. A képződött anyagcseretermékek gátló hatásúak a baktériumok élettevékenységére, szaporodására. Ez a maximális sejtkoncentráció fázisa – az élősejtszám ebben a fázisban már nem emelkedik. Egyes fajoknál ekkor kezdődik a spóraképzés.",
+    "A generációs idő a stacioner növekedési fázisban hosszabbá válik. Időtartama a környezeti feltételektől függ, eltarthat több hétig is, a tápanyag-mennyiség függvényében. Egy idő múlva a növekedés egészen leáll. Ebben a fázisban már sok sejt elpusztul.",
+    "Hanyatlási vagy elhalási szakasz",
+    "A hanyatlási szakaszban az élő sejtek száma drasztikusan csökken, az elhalt sejtek száma nagyobb, mint a keletkező sejtszám. A baktériumok elpusztulnak. Fokozatosan kipusztul a tenyészet, a sejtek tulajdonságai megváltoznak. A hanyatlási szakasz végén sem pusztul el valamennyi mikrobasejt, de élettevékenységük, szaporodásuk leáll. A deklinációs szakasz (elhalási vagy pusztulási) megnyújtható, ha a termosztátból a hűtőszekrénybe rakjuk a tenyészetet.",
+    "Egyes baktériumok ebben a fázisban endospórákat vagy más kitartó képleteket képeznek, ami lehetővé teszi számukra, hogy túléljék a kedvezőtlen körülményeket, vagy amíg új tápanyagok nem jelennek meg a környezetükben, illetve amíg a környezeti feltételek nem változnak számukra kedvezőre. Ez megy végbe a borok utóerjedése alatt, ha az alkohol eltávozik, az élesztősejtek újból szaporodnak; az alkohol gátolja az élesztő szaporodását.",
+    "Az elhalási fázis időtartalma fajfüggő, eltarthat néhány naptól akár évekig is.",
+    "A fázisok nem csak laboratóriumi színtenyészetekben (egy sejt leoltva táptalajra és annak utódai) figyelhetők meg. A csíraszaporodás az élelmiszerekben, pl. a frissen főtt levesben ugyanígy zajlik.",
+    "Lappangási fázis, lag fázis: A friss tápközeg hozzáadását követő időszak, még nem optimális növekedéssel.",
+    "Stacioner növekedési fázis: Az exponenciális növekedési fázist követő időszak csökkent növekedési sebességgel.",
+    "",
+    "A Szaporodást befolyásoló tényezők",
+    "",
+    "A baktériumok generációs (duplázódási) ideje",
+    "Sok baktérium esetében nem szokatlan a 10–20 perc közötti generációs idő. A 7. ábra a baktériumok generációs idejét mutatja azonos hőmérsékleten, de különböző táptalajokra leoltva. A Lactobacillus acidophilus és az E. coli generációs idejét hasonlítjuk össze azonos táptalajt használva, majd az E.coli szaporodási idejét vizsgáljuk komplex és minimál tápközegben.",
+    "",
+    "7. ábra: Baktériumok generációs ideje 37 °C-n",
+    "Az E. coli, amely kórokozóként is viselkedhet, körülbelül 60 perc alatt kétszerezi meg a sejttömegét, ha olyan minimál tápközegen tenyésztik, amely ásványi sókat és szénforrásként szőlőcukrot tartalmaz.",
+    "Ha csíramentes tejet oltunk be E. colival, a generációs idő még tovább csökken 11 percre. A tej egy komplex tápközeg, amelyben szerves anyagok és ásványi sók vannak, azaz optimális a tápanyagellátás.",
+    "A generációs időt nagyban befolyásolja a mikroba anyagcseréje: például a Lactobacillus acidophilus, – amely a savanyított tejtermékekhez szolgáló starterkultúrákban található meg – a tejben sokkal lassabban növekszik, mint az E. coli. A generációs ideje kb. 76 perc. Oka a tejsavbaktériumok fermentációs anyagcseréje (a fermentációs anyagcsere folyamatában lényegesen kevesebb energia szabadul fel, amit a sejt az élettevékenységéhez tud hasznosítani, így hosszabb idő alatt képes felépíteni egy új sejtet, hosszabb idő alatt képes utódsejtet létrehozni).",
+    "Minimál tápközeg: kémiailag meghatározott tápközeg, amely ásványi sókból és szénforrásból áll, és csak a növekedéshez szükséges összetevőket tartalmazza.",
+    "Komplex tápközeg: amelyben szerves anyagok és ásványi sók vannak, optimális a tápanyag ellátás.",
+    "",
+    "A kezdeti csíraszám jelentősége",
+    "Kevés baktériumsejtnek – még ideális körülmények között is – több órára van szüksége ahhoz, hogy több millió vagy milliárd új sejtet képezzen. Ha már nagy sejtszám van jelen, akkor néhány perc alatt rendkívül nagy mértékben megnövekedhet az új sejtek száma (lásd 3. ábra).",
+    "Mivel a baktériumok exponenciális szaporodásra képesek, a csírákkal szennyezett élelmiszerek kezdeti csíraszáma nagy jelentőséggel bír.",
+    "Az élelmiszereken nem egyetlen mikrobafaj, egy színtenyészet, hanem vegyes populációk telepednek meg. Az élelmiszeren megtelepülő fajok egy adott időpontban általában különböző növekedési fázisban vannak. Az élelmiszerek, például a hús, változó tulajdonságú élőhelyet jelentenek a mikrobák számára.",
+    "Az élelmiszerben bekövetkező miliőváltozások (a miliő környezetet jelent, ebben az esetben az élelmiszeren megtelepedett mikroba faj anyagcseretermékei gátolják más mikrobák megtelepedését, anyagcseréjét, tehát megváltoztatják az eredeti környezetet) bizonyos mikrobafajokat a növekedés leállítására kényszerítenek. Ezt kihasználják a növekedésükhöz azok a fajok, amelyek a megváltozott környezethez jobban alkalmazkodtak; ezek gyakran ismert sorrendben váltják fel a korábban aktív fajokat (szukcessziók = szukcessziónak nevezzük azt, ha egy adott faj megváltoztatja a környezetet úgy, hogy az más fajoknak lesz kedvező, így ezek az új fajok szaporodnak el: a fajok egymásutániságában bizonyos törvényszerűségek ismerhetők fel).",
+    "",
+    "Környezeti tényezők",
+    "A mikrobáknak a szaporodásukhoz szükségük van energia-, szén- és nitrogénforrásként szolgáló tápanyagokra, továbbá vitaminokra és ásványi sókra. Az élelmiszerek általában tartalmazzák ezeket a tápanyagokat, összetételük azonban nagyon különböző.",
+    "Szénforrás: sok baktérium ként (S) és szerves szenet (C) igényel az anyagcseréjéhez. Ezt részben környezetéből oldott állapotban tudja felvenni, vagy a megfelelő enzimek segítségével átalakítással nyeri. A szerves szénforrások igen széles körét hasznosítják a mikrobák, mint a szénhidrátokat, alkoholokat, zsírsavakat, aromás vegyületeket, aminosavakat, szerves savakat.",
+    "Nitrogén forrás: A mikroorganizmusok a fehérjék és a nukleinsavak szintéziséhez igénylik. Többnyire a bőséges nitrogénforrás hatására nő az anyagcsere sebessége is.",
+    "makroelemek például vas, kalcium, kálium, magnézium",
+    "Nyomelemek: A Mn (Mangán), Co (Cobalt), Cu (Cuprum azaz réz), Mo (Molibdén), Zn (Zink), Ni (Nikkel), V (Vanádium), Cl (Clor), Na (Natrium), B (Bor) és a Si (Silicium). Ezeket a mesterséges táptalajokba adagolják, míg a természetes tápanyagok tartalmazzák.",
+    "Hőmérséklet: A mikrobák optimális szaporodási hőmérséklete egy intervallum, ami körülbelül 20 ℃. A hőmérséklet változása befolyásolja a szaporodási sebességet, az elérhető sejtszámot, a sejt kémiai összetételét. A maximális szaporodási hőmérséklet felett a mikroorganizmusok elpusztulnak. A minimális hőmérséklet alatt túlélhetnek, de szaporodásuk megáll. Például egyes Bacillus fajok 20-40 ℃ között jól szaporodnak. ",
+    "pH: A táptalaj savassága vagy lúgossága vagy a 7-s körüli semleges érték alapvetően meghatározza a tápanyagon vagy élelmiszeren megtelepedő mikrobák fajtáját. A baktériumok a semleges vagy ahhoz közeli pH-t kedvelik 6-8 pH - ebben a tartományban szaporodnak a legjobban. A rothasztó, kórokozó fajok anyagcseréje és szaporodó képessége a közömbös kémhatás körül a legaktívabb, a termék pH értékének csökkentésével ezeknek a fajoknak a megtelepedése és kártétele csökkenthető. Vannak olyan baktérium fajok (savtermelő baktériumfajok) amelyeknek a 3-s pH körüli érték az optimális.",
+    "Az élesztőgombák pH tartománya 5-6, a gyengén savas közeget kedvelik.",
+    "A penészgombák szélesebb pH (2-4) tartományban képesek anyagcserét folytatni és szaporodni. Például aludt tej ~pH 4,4, meggy pH 3,8.",
+    "Víztartalom: A táptalaj – élelmiszer is lehet – magas víztartalma kedvező a mikrobák elszaporodásához. A szabad víztartalom (fizikailag, kémiailag nem kötött) a fontos, mert a mikroorganizmusok sejtjeinek 72-85 % -a víz. A számukra felvehető tápanyag vízben oldott állapotban van. A magas szabad víztartalmú élelmiszerek kedveznek a mikroorganizmusok szaporodásának, így élelmiszeripari szempontból fontos a víztartalom csökkentése. Az élelmiszerek szabad víztartalma csökkenthető például szárítással, vagy a vizet megkötő anyagok adagolásával például a só, cukor.",
+    "Színtenyészet (tisztatenyészet): Ugyanazon fajhoz vagy törzshöz tartozó mikroorganizmusok, a gyakorlatban általában egyetlen sejt laboratóriumban tenyésztett utódai.",
+    "Tápközeg: A mikroorganizmusok növekedéséhez szükséges összes tápanyagot oldott formában tartalmazzák, lehetnek folyékonyak, ekkor táplevesnek vagy tápoldatoknak hívják őket, vagy szilárd táptalajok.",
+    "",
+    "Fonalas mikroorganizmusok szaporodása",
+    "A mikroorganizmusok szaporodását és az azt befolyásoló tényezők hatását az egysejtű, kettéosztódással szaporodó baktériumokon vizsgálták, és így állapítottak meg törvényszerűségeket. Ezek az összefüggések érvényesek a sarjadzással szaporodó élesztőgombákra, amelyek szaporodása a sejtszám növekedésében tapasztalható meg.",
+    "Sarjadzás vagy bimbózás: az anyasejtről lefűződik a nála jóval kisebb leánysejt (más néven sarjsejt), az anyasejt hamar újabb sarjadzásba kezdhet, a sarjsejtnek növekednie kell, az anyasejt öregedését ún. sarjadzási hegek jelzik, élesztőgombák jellegzetes osztódási módja.",
+    "A fonalas mikroorganizmusok (a penészgombák és bizonyos baktériumok) szaporodása eltérő, mert nem jár a sejtszám vagy a telepképző egységek számának növekedésével, hanem a spórák vagy konídiumok kicsírázása után a gombafonál növekszik, ami a hifafonal csúcsán folyik, vagy elágazásokkal gyarapodik.",
+    "A gombák szaporodása mind ivaros, mind ivartalan módon megvalósul. Ivartalan szaporodás történhet fragmentálódással (széttöredeződés), bimbózással vagy sarjadzással vagy aszexuális spóraképzéssel.",
+    "Az élesztőgombák ivartalan szaporodása a sarjadzás. Az egysejtű, gömb alakú vagy ovális élesztőgombák teljesen másképp fejlődnek és szaporodnak, mint a hifás gombák.",
+    "A legtöbb élesztőgomba, mint a Saccharomyces cerevisiae sütőélesztő is, sarjadzással vagy bimbózással szaporodik (8. ábra).",
+    "",
+    "8. ábra: Élesztőgombák szaporodása sarjadzással",
+    "A sejtszervekkel együtt egy újonnan képződött sejtmag is a sarjba vándorol, így a leánysejt a teljes örökítő anyaggal rendelkezik. Ehhez az anyasejtben a DNS-ről egy megegyező másolatot kell készíteni, miközben a kromoszómák megduplázódnak.",
+    "Ezután a sejtmag két megegyező sejtmagra tud oszlani. Amikor a sarj egy növekedési időszak után megközelítőleg eléri az anyasejt méretét, leválik/hat és önálló életet kezd. Az anyasejten a sarj leválási helyén egy heg marad vissza. Az anyasejt ezután a felszín egy másik pontján újabb sarjat képez/het. Ha a teljes felületük elhegesedik, az élesztősejtek elvesztik osztódási képességüket. Az élesztősejtek elöregednek és elpusztulnak. A szilárd táptalaj felületén nem fejlesztenek micéliumot, csak úgynevezett pszeudomicéliumot (álmicélium) képeznek, ami a sarjadzás után az anyasejttel együtt maradt leánysejtek által létrehozott láncszerű képlet.",
+    "Az élesztőgombák szaporodása/szaporítása a során baktériumok szaporodásánál megismert szakaszos szaporodási görbe (6. ábra) mentén változik a sejtszám.",
+    "A fermentáló élesztősejtek nagyon lassan szaporodnak. Ha fenn akarjuk tartani a növekedést, a fermentáló élesztőgombákat nagyobb mértékben kell ellátni tápanyagokkal, mint amire oxigén jelenlétében szükség lenne – megfelelően kell a tápanyagot-adagolni vagy más kifejezéssel rátáplálni (gyakorlatban használt kifejezés) (9. ábra).",
+    "9. ábra: az élesztő fejlődési ciklusai",
+    "Forrás: http://web.unideb.hu/~szentirmai/GOMBAK.pdf. Utolsó megtekintés: 2024.06.28.",
+    "Az élesztőgombáknál is előfordulnak ivaros folyamatok a különböző párosodási típusok közötti sejt- és sejtmagfúzióval, majd az ezt követő ivaros spóraképződéssel (10. ábra). Számos élesztőgombánál hasonló ivaros fejlődési formákat figyeltek meg, valamint spórák képződését a tömlőszerű sejteken belül.",
+    "",
+    "10. ábra: Élesztőgombák szaporodása keresztirányú osztódással",
+    "Egyes élesztők, pl. a Schizosaccharomyces pombe faj egyedei a baktériumokhoz hasonlóan a sejt közepén keresztirányú osztódással szaporodnak: ezek a hasadó élesztők (10. ábra).",
+    "A Candida albicans élesztőgomba egysejtűként és micéliumszerűen is képes növekedni. A sarjadzás által képződött hosszúkás élesztősejtek ezután láncszerűen együtt maradnak. Ezeket a láncokat pszeudohifáknak (álhifák) nevezzük, mert nagyon hasonlítanak a hifafonalakra.",
+    "A fonalas gombák hosszú fonalas sejtek (hifák), amelyek számos fajban elágazhatnak. A hifák nagy távolságokra nőnek a talajban vagy a fertőzött táplálékban. A gombafonalak szinte kizárólag a csúcsukon nőnek, közvetlenül a táplálékforrások felé. Egyes gombafajoknál a hifák a micéliumon belül összeolvadnak egymással. A gombafajok több mint 99%-a hifás gomba. Fontos, hogy a gombafonal növekszik és nem jár sejtszámnövekedéssel.",
+    "A hifák széttöredezésével egyedi sejtek jönnek létre, amelyeket nagyon vastag sejtfal vesz körül, a folyamatot fragmentációnak nevezzük. A micélium töredékeiből új növekedési testek fejlődhetnek ki. Az elpusztult micélium minden egyes darabja életképes marad, és önálló gombává fejlődhet. A hifák fragmentálódásának (széttöredeződésnek) egyes gombafajoknál fontos szerepe van a szaporodás folyamatában (11. ábra: szaporodás fragmentálódással).",
+    "A hifás gombák szaporodása és terjedése szempontjából a spóraképződés a jelentősebb.",
+    "",
+    "11. ábra: A léghifák fragmentálódása a hifás gombákban",
+    "A hifás gombák, akárcsak a penészgombák, helyhez kötött szervezetek, amelyek növekedése szerves anyagoktól függ. Amikor a táplálékforrásaik kimerülnek, új élőhelyen kell megtelepedni, amit a spóraképződés tesz lehetővé. A gombaspórák olyan kitartó képletek vagy nyugalmi stádiumok, amelyek évekig vagy évtizedekig képesek túlélni, még rendkívül meleg vagy hideg éghajlaton is.",
+    "A gombaspórák nagyon ellenállóak a szárazsággal szemben, de nem rendelkeznek a baktériumspórák magas hőállóságával.",
+    "A penészgombák többnyire ivartalan vagy aszexuális úton képeznek spórákat (12. ábra).",
+    "",
+    "12. ábra: Aszexuális spóraképzés penészgombákban",
+    "Ha a gombák hifái átszőtték a talaj felszínét vagy a fertőzött élelmiszereket, speciális spóraképző szervekkel (konídiumtartók) rendelkező léghifák képződnek. Az olyan tömlősgombák, mint az Aspergillus és a Penicillium, konídiumokat termelnek rajtuk egy olyan folyamat során, amely a penészgombákban körülbelül 20 óra elteltével fejeződik be. A konídiumtartók, a légmicélium speciális sejtjei, folyamatosan spórákat fűznek le kifelé, amelyek gyöngyszerű láncok formájában a levegőbe nyúlnak. A gombamicéliummal ellentétben a spóraképző szervek és a spórák penészként teljes egészében láthatóak.",
+    "Az aszexuális spóraképzésen kívül az olyan penészgombák, mint az Aspergillus kannapenész, ivaros úton is képesek spórákat képezni (13. ábra). Ez a fejlődés akkor indul be, amikor hiányos a táplálékforrás. A folyamat két gomba hifáinak összeolvadásával vagy akár ugyanazon a micéliumon belüli önmegtermékenyítéssel kezdődik. (A sejtmagok a kis, szemmel általában láthatatlan termőtestek belsejében egy diploid sejtmaggá olvadnak össze, amit redukciós – számfelező (13. ábra és 14. ábra) osztódás követ.)",
+    "A tömlősgombákra jellemző tömlősejtekben képződnek az ivaros spórák, amelyek később felszabadulnak. Az ivarosan képződött spórák is új micéliummá tudnak kicsírázni.",
+    "",
+    "13. ábra: A spórák ivaros képződése az Aspergillus penészgomba példáján keresztül",
+    "14. ábra: A kenyérpenész szaporodása ivaros módon",
+    "Forrás: https://www.mrcbiology.com/314_Fungi_A1_Poster.pdf. Utolsó megtekintés: 2024.06.28.",
+    "Szexuális szaporodás",
+    "• Az ivaros szaporodás Rhizopusban csak egy plusz és egy mínusz törzs között fordulhat elő. • Amikor az ellentétes törzsek hifái egymáshoz közel nőnek, mindkét törzsön duzzanat nő, és az ellentétes ivari jellegű hifavégek összeérnek ((strain + és -)",
+    "• Mindkét hifából a sejtmagok bejutnak ezekbe a duzzadásokba, amelyeket ma progametangiának neveznek",
+    "• Keresztfalak képződnek (gametangia) előállításához",
+    "• A gametangia falai feloldódnak, a sejtmagok egyesülnek és diploid zigóta (2n) sejtmagok képződnek (fertilisation megtermékenyítés)",
+    "• A sejtmagokból zigospóra képződik ",
+    "• érési és nyugalmi szakasz után a zigospóra redukciós (meosis) vagy számfelező osztódással csírázik ",
+    "• A zigospórából hifa nő ki és spóratokot (sporangiumot) hoz létre a csúcson ",
+    "• A sporangium megnyílik, és sok haploid spórát szabadít fel, amelyek új egyedekké nőnek (zigospore germination= zigospóra csírázása)",
+    "Sok gombaspóra a levegőbe kerül, majd a szél magával ragadja és elterjeszti őket. Ezek a spórák szárazak. Más gombafajok spóráit nyálkás réteg veszi körül, nem képesek elsodródni a légáramlatokkal, de az állatok el tudják szállítani őket. Az olyan gombák, mint a bűzös szömörcsög, átható szagukkal odavonzzák a rovarokat, amelyek terjesztik a spórákat. A szarvasgomba illatával vonzza az egereket és más rágcsálókat, amelyek megeszik a gombát. A spórák később az állatok ürülékével épségben ürülnek ki, és kicsírázhatnak.",
+    "A gombák szaporodása megvalósulhat ivaros úton is. A gombáknál nincsenek hím- és nőnemű egyedek, itt két különböző gombaegyedről van szó. Az ivaros szaporodáshoz sok gomba a hifák segítségével speciális szerveket, úgynevezett termőtesteket épít fel.",
+    "Az ivaros szaporodás a gombák hifáinak összeolvadásával kezdődik (15. ábra).",
+    "",
+    "15. ábra: Ivaros szaporodás 1. lépése „Rhizoids”",
+    "Forrás: https://www.carlsonstockart.com/photo/bread-mold-fungus-life-cycle-structure-illustration/. Utolsó megtekintés: 2024.06.28.",
+    "A sejtmagok nem olvadnak össze, hanem különállóak maradnak, kétsejtmagvas (dikariotikus) hifákat fejlesztenek.",
+    "Sok hifás gomba és élesztőgomba sejtmagja egyszeres vagy haploid kromoszómakészlettel rendelkezik (16. ábra). A két párosodó „egyed” sejtjeinek az összeolvadása először a citoplazma egyesülését jelenti. Sejtmagjainak az egyesülése gyakran csak hosszú idővel később történik meg az akkor kialakuló termőtestekben.",
+    "16. ábra: Kromoszómakészletek a gombák sejtmagjában",
+    "Ennek során kettős vagy diploid kromoszómakészlettel (zigóta) rendelkező sejtek keletkeznek. A sejtmagok összeolvadását egy érési fázis, majd redukciós osztódás követi. E folyamat során keletkeznek az ivaros spórák, amelyek ismét egyszeres kromoszómakészlettel rendelkeznek. Redukciós osztódásban a kétszeres kromoszóma készlettel rendelkező sejtek – úgynevezett zigóták; diploid kromoszómakészlet – kromoszóma száma megfeleződik (17. ábra).",
+    "",
+    "17. ábra: Redukciós sejtosztódás",
+    "Járomspórás gombáknál az ivaros szaporodás során két különböző ivarjellegű hifa egymás felé nő, majd egyesülnek, és leválnak az ivarszervek. Az ivarszervek összeolvadnak – a citoplazma, a kromoszómák nem – létrejön a zigospóra. Az örökítőanyag a zigospórában egyesül, amit számfelező osztódás követ. A zigospóra kicsírázik, és kifejlődik a sporangium, benne a spórákkal (14. ábra.)",
+    "A szaporodás azonban túlnyomórészt aszexuálisan képződő spórákkal történik, amelyek a hosszú, elágazás nélküli léghifák végén, a spóratartók belsejében képződnek (18. ábra).",
+    " \t",
+    "18. ábra: A Mucor járomspórás gomba (fejespenész) szaporodása ivartalan (aszexuális) és ivaros módon (szexuális)",
+    "Forrás: https://www.carlsonstockart.com/photo/bread-mold-fungus-life-cycle-structure-illustration/. Utolsó megtekintés: 2024.06.28.",
+    "Az 18. ábra angolnyelvű kifejezéseinek fordítása",
+    "",
+    "A bazídiumos gombák általában ivaros úton szaporodnak, és ehhez az általunk „gombaként” ismert látható termőtesteket alkotják (19. ábra). Ezek közé tartoznak a kalapos gombák is a kalapszerű termőtestükkel.",
+    "",
+    "19. ábra: Bazidiumos gombák szaporodása",
+    "Forrás: https://flw-hu.imadeself.com/33/griby/razmnozenie-gribov-kak-razmnozautsa-griby. Utolsó megtekintés: 2024.06.28.",
+    "Náluk az ivaros spórák a bunkó alakú bazídium végén kifelé fűződnek le (20. ábra).",
+    "",
+    "20. ábra: Ivaros spóraképződés folyamata",
+    "Forrás: http://web.unideb.hu/~szentirmai/GOMBAK.pdf. Utolsó megtekintés: 2024.06.28.",
+    "",
+    "A mikroorganizmusok pusztulása",
+    "",
+    "A pusztulást befolyásoló tényezők",
+    "A mikroorganizmusok – többek között a baktériumok – növekedése az élelmiszereken előbb-utóbb megáll. Ennek különböző okai lehetnek (21. ábra), amelyek külön-külön vagy együttesen is felléphetnek:",
+    "",
+    "21. ábra: A növekedés korlátozása a baktériumok tevékenysége révén",
+    "1. A tápanyagok kimerülése: az élelmiszerben lévő tápanyagok (szubsztrát), például cukrok és aminosavak, amelyek egy bizonyos baktériumtípus számára hasznosíthatók, elfogynak. Számukra a tápanyagok kimerülnek.",
+    "Az aerob csírák esetében gyakran az oxigénhiány az oka annak, hogy leáll a szaporodás, például a megromlott levesben lévő több milliónyi csíra elhasználja az ott rendelkezésre álló oxigént. Az oxigén hiánya a vákuumcsomagolásban szintén ahhoz vezet, hogy az aerob romlást okozó baktériumok növekedése csak korlátozottan következik be.",
+    "2. Az egyéb mikrobák által támasztott konkurencia: az élelmiszereken élő vegyes populációk egymásra vannak utalva, például amikor az egyik csíra felveszi és hasznosítja a másik csíra által kiválasztott végtermékeket. A mikrobák számára a tápanyagok az élelmiszerekben korlátozottan állnak rendelkezésre, erős verseny alakul ki az azonos anyagokat lebontó fajok között. Egyes csírák jobban alkalmazkodnak a körülményekhez, mint mások. Ezek gyorsabban növekednek, és elveszik a tápanyagokat a többiektől. Például a nyers darált húsban gyakran kis mennyiségben Staphylococcusok találhatók, de ezek szinte soha nem vezetnek ételmérgezéshez. Nyilvánvaló, hogy más csírák, például a Pseudomonasok jobban alkalmazkodtak a miliőhöz, és megakadályozzák a Staphylococcusok tömeges elszaporodását.",
+    "3. A mikrobák által kiválasztott végtermékek: a húsleves a tejhez hasonlóan megsavanyodhat. Minden aktív anyagcserével rendelkező baktérium az élelmiszeren való megtelepedése és szaporodása során folyamatosan végtermékeket választ ki. Ha ezek nagy mennyiségben halmozódnak fel, megakadályozzák a további szaporodást. Így az aerob csírák kis mennyiségben, a fermentáló szervezetek pedig nagy mennyiségben szerves savakat képeznek. A legtöbb baktérium esetében a 4 alatti pH-értékek gátolják a növekedést [számos baktérium által termelt szén-dioxid (CO2) savassá teszi a közeget]. A védőgázként is használt CO2 ezenkívül kiszorítja az oxigént, és különleges gátló hatással van az aerob csírákra. A fehérjebontó csírák ammóniát (NH3) és aminokat (szerves nitrogénvegyületek) szabadíthatnak fel. Ezek a nitrogénvegyületek a környezetet lúgossá teszik, és rontják valamennyi mikroba életfeltételeit. Az alkohol is olyan végtermék, amely csökkenti a mikroorganizmusok anyagcsere-tevékenységét. A magas alkoholkoncentráció megzavarja a sejtmembrán működését, és a sejtek enzimjeinek a megalvadását idézi elő (22. ábra).",
+    "A növekedés gátlása mikrobiális végtermékekkel",
+    "",
+    "22. ábra: A növekedés gátlása mikrobiális végtermékekkel",
+    "4. Gátlóanyagok képzése",
+    "Az erőforrások szűkössége miatt a vegyes populációkban lévő csírák harcolnak egymás ellen. Olyan gátlóanyagokat választanak ki, amelyek más mikrobafajok ellen irányulnak, de amelyekkel szemben a saját sejtjeik védve vannak (23. ábra). Ilyen gátlóanyagok az antibiotikumok, amelyeket a mikrobák a természetes élőhelyeiken és az élelmiszerekben is termelnek. Ezenkívül sok baktérium bakteriocinnek nevezett fehérjéket termel, amelyek mérgező hatással vannak a közeli rokonságban lévő baktériumokra. Például a tejsavbaktériumok által termelt nizin gátolja a Gram-pozitív baktériumokat, például a listeriákat.",
+    "",
+    "23. ábra: A növekedés gátlása mikrobiális végtermékekkel",
+    "Az aerob baktériumok, például a zsírbontó baktériumok hidrogén-peroxidot termelnek, amely károsítja a sejteket és a mikroorganizmusokat. Sok mikroba méregtelenítő mechanizmusokkal, például kataláz enzimmel rendelkezik, amely ártalmatlanná teszi ezt a vegyületet. Az anaerob baktériumok nem rendelkeznek ilyen védőenzimekkel, és gyorsan elpusztulnak.",
+    "5. Az élelmiszernek magának bizonyos tényezői, mint a pH-érték vagy a vízaktivitás, szintén megakadályozhatják vagy korlátozhatják a mikrobák növekedését. Így ezeket a tulajdonságokat felhasználják a tartósító eljárások és a körülmények megválasztásakor. Például alacsonyabb pH értékű alapanyag feldolgozásakor mint a meggy kíméletes hőkezelést lehet alkalmazni – alacsonyabb hőfok 100 ⁰C, a hőérzékeny összetevők kevésbé károsodnak.",
+    "Vízaktivitás: A mikrobák számára elérhető szabad víz mennyiségének mérőszáma egy termékben.",
+    "",
+    "A mikroorganizmusok rezisztenciája",
+    "A mikroorganizmusok életkörülményei mind természetes élőhelyeiken, mind élelmiszerekben gyakran változnak. Válaszreakcióik, amelyekkel a körülményekhez igyekeznek alkalmazkodni, genetikai és biokémiai folyamatokat indítanak el. A mikroorganizmusokat érő kedvezőtlen környezeti tényezőket stresszhatásoknak nevezzük. Következményük lehet, hogy visszaszorul vagy megáll a populáció szaporodása, de akár végzetes is lehet, mert a sejtek pusztulását okozza (hőkezelés, fagyasztás, szárítás, mérgező vegyi anyagok stb.). A stresszhatás kivédésére a mikroorganizmusok csak bizonyos határok közt képesek, azokon túl a sejtek sérülnek, károsodnak. A túlélő sejtek a hatás elmúltával, kedvező körülmények között képesek lehetnek a sérülés kijavítására, helyrehozatalára, de lehetséges az is, hogy bár életben maradnak, szaporodni már nem tudnak.",
+    "Ez az élő, de nem szaporodó állapot (rövidítése VBNC, azaz Viable but non-culturable) különösen fontos az élelmiszer-mikrobiológiában a kórokozó mikroorganizmusok megítélése szempontjából.",
+    "",
+    "Stresszválaszok",
+    "A mikroorganizmusok a környezeti paraméterek megváltozására különböző „túlélési technikák”-kal reagálnak. Stresszhatás lehet a hőmérséklet hirtelen megváltozása, pH, sókoncentráció, alacsony tápanyagkoncentráció, stb. A stresszre adott válasz lehet például néhány baktériumfaj rezisztens endospóra képzése.",
+    "",
+    "Baktériumspórák és egyéb kitartó képletek képzése",
+    "A baktériumok számára nem mindig állnak rendelkezésre kedvező életfeltételek. Egy növekedési időszak után a felhasználható tápanyagok kimerülnek. Ebben a helyzetben a baktériumok bizonyos csoportjai képesek sejtjeiket többnyire vastag falú kitartó sejtekké alakítani, hogy túléljék a kedvezőtlen körülményeket. Ha a környezeti feltételek kedvezőek lesznek, a kitartó sejtek újra kicsíráznak, és vegetatív baktériumsejtekké alakulnak. A túlélő formákat spóráknak nevezik (24. ábra).",
+    "",
+    "24. ábra: A baktériumok kitartó képletei",
+    "A talajbaktériumok kedvezőtlen körülmények között az egész sejtjüket cisztává alakítják át, ami túlélheti a kiszáradást, de a magas hőmérséklet elpusztítja. Az Actinomycetes-fajok, spórákat, úgynevezett konídiumokat (spórák) hoznak létre. A baktériumok hosszú, gyakran elágazó, levegőbe nyúló hifái szabályos távolságokban válaszfalak behúzásával exospórává alakulnak át (25. ábra).",
+    "25. ábra: Actinomycetes-fajok, spóraképzése",
+    "",
+    "26. ábra: a) Actinomycetes-fajok a légmicéliumokon a spóraképződés folyamata, úgynevezett konídiumokat képeznek b) mikroszkópos kép",
+    "Bár nem rendelkeznek különösen vastag sejtburokkal, mégis úgy alakulnak ki, hogy jó védelmet biztosítanak a kiszáradással és a vegyi anyagokkal szemben (26. ábra).",
+    "Számos Gram-negatív baktérium, mint a szalmonellák, kedvezőtlen környezeti feltételek mellett korlátozott anyagcserével rendelkező kitartó képleteket képeznek. Ebben a fázisban a szaporodási képességük is megszűnik. Laboratóriumban nem lehet őket agar táptalajon tenyészteni. Ezért VBNC-alakoknak (angol: viable but non-culturable = életképes, de nem tenyészthető) nevezzük őket (24. ábra). Bizonyosnak tekinthető, hogy a kórokozók ilyen formában is képesek behatolni egy gazdaszervezetbe, például az emberbe. Azután visszaalakulhatnak szaporodásra képes mikrobákká, és betegséget válthatnak ki.",
+    "",
+    "27. ábra: A Bacillus cereus vegetatív sejtjei és endospórái (nyíl)",
+    "Az endospórák olyan kitartó képletek (24. ábra), amelyek a sejt belsejében képződnek (görög endo = belül) (27. ábra). Az 26. ábra azt mutatja, hogy a tápanyagszubsztrátok hiánya esetén a sejt egy kis része lefűződik.",
+    "",
+    "28. ábra: Endospórák képződése a környezeti feltételek megváltozásának hatására",
+    "",
+    "29. ábra:  Endospórák képződése és csírázás folyamata",
+    "Forrás: https://www.eltereader.hu/media/2014/04/Bevezetes_a_prokariotak_vilagaba.pdf. Utolsó megtekintés: 2024.06.28.",
+    "A sejt belsejében a sejtnek egy része vastag burokkal (28. és 29. ábra) rendelkező kitartó képletté alakul át (29. ábra IV. szakasz). Két baktériumnemzetség, a Bacillusok és a Clostridiumok képesek arra, hogy endospórákat képezzenek. Az endospóra alakja és elhelyezkedése a sejtben belül különböző lehet (30. ábra).",
+    "",
+    "30. ábra: Az endospórák alakja és elhelyezkedése a sejten belül",
+    "Forrás: https://ttk.elte.hu/dstore/document/854/book.pdf. Utolsó megtekintés: 2024.06.28.",
+    "Az endospórát képző baktériumok morfológiai (alaktani) jellegzetessége a spóra mérete, elhelyezkedése a sejten belül. A képen látható vázlat a jellegzetes endospóra alakokat mutatja: (30. ábra)",
+    "1. Középen elhelyezkedő endospóra a pálca alakú sejtben C és F\n2. Terminális (sejt egyik végében) spóra, A, B, D és E\n3. Terminális spóra: a tojás alakú spóra szélesebb, mint a vegetatív sejt, ezért a spóra deformálja a sejtet, kitüremkedést okoz, mikroszkópos vizsgálatkor dobverőhöz hasonló sejtalakot mutat D, E",
+    "Az endospórák képződése nem szolgálja a szaporodásukat: minden sejtből egy endospóra keletkezhet. ",
+    "Arra szolgál, hogy túléljék az élet és a növekedés számára kedvezőtlen körülményeket. Ha kedvezővé válnak az életkörülmények, az endospórák kicsíráznak. Visszaalakulnak aktív anyagcserével rendelkező sejtekké.",
+    "Az endospórák hőállósága meghatározó az élelmiszer tartósítása és a higiénia szempontjából. Ahhoz ugyanis, hogy a hőkezeléssel (sterilizálás) minden jelenlévő mikroorganizmust elpusztítsunk, a biztonság érdekében magas hőmérsékletet kell alkalmazni. A baktériumok élelmiszerben előforduló vegetatív sejtjei már 50–60 °C-on elpusztíthatók. Az endospórák esetében azonban 100 °C feletti hőmérsékletet kell alkalmazni. A hőállóság mellett az endospórák ellenállnak a kiszáradásnak, a savaknak és más vegyi anyagoknak, valamint a csíraölő sugárzásnak is. E tulajdonságaik miatt az endospórák gyakran rendkívül hosszú ideig képesek életben maradni.",
+    "Egy több mint 300 éves herbáriumban olyan Bacillus-spórákat találtak, amelyek még mindig képesek voltak csírázni. Arról is beszámoltak, hogy csíraképes endospórákat találtak egy olyan méhben, amely egy 25–40 millió éves borostyánba volt zárva.",
+    "A mikroorganizmusok a kedvezőtlen külső hatások okozta sérüléseket, ha a sejt életben maradt, kedvező környezeti feltételek esetén képes lehet kijavítani. Az életfunkciók visszaállítása függ a sérülés mértékétől.",
+    "",
+    "31. ábra: a stresszhatás és a rezisztencia (ellenállás) összefüggése",
+    "A sejtek javítási funkciója jelentős. A patogén (fertőző, betegséget okozó) mikrobák sérült sejtjei visszanyerhetik életképességüket és szaporodóképességüket, ezért kimutatásuk nagyon fontos (31. ábra, reverzibilis sérülés). Az élelmiszer tartósítására kevésbé drasztikus eljárást is választhatnak: ha a tárolásnál olyan körülményeket biztosítanak, ami a mikrobasejtek sérülésének kijavítását és életképességük visszaállítását gátolja.",
+    "",
+    "Összegzés",
+    "",
+    "Baktériumok szaporodása – a legfontosabb tények röviden",
+    "a baktériumok szaporodhatnak ivartalanul és ivarosan is",
+    "A baktériumok keresztirányú osztódással szaporodnak. ",
+    "Az exponenciális növekedés robbanásszerű szaporodáshoz vezethet.",
+    "Oxigén jelenlétében az aerob, lélegző baktériumok optimálisan ki tudják használni a rendelkezésre álló tápanyagokat és gyorsan szaporodnak.",
+    "Az anaerob baktériumok oxigén hiányában képesek élni. Különböző lehetőségeik vannak arra, hogy fermentációt végezzenek vagy az anaerob légzés különböző módjait gyakorolják.",
+    "Az endospórák a bacillusok és a clostridiumok kitartó képletei, amelyek rendkívül magas hőállósággal rendelkeznek, amely gyakran meghaladja a 100 °C-t.",
+    "",
+    "A penészgombák jellemző szaporodásai",
+    "Elsősorban ivartalanul, spórák (konídiumok) képződésével szaporodnak. Nagy tömegben „penészként” láthatók, amelyet a penészgombafajok jellegzetes módon képeznek.",
+    "Néhány faj képes ivarszerveket képezni, akkor azok nagyon kicsik és szemmel nem láthatók.",
+    "",
+    "Gombák szaporodása– a legfontosabb tények röviden",
+    "Az élesztőgombák sarjadzással, egyesek keresztirányú osztódással szaporodnak. Gyors növekedés és oxigén hiányában intenzív fermentációs tevékenység jellemzi őket.",
+    "A hifás gombák kiterjedt micéliumokat képeznek szilárd szubsztrátokban, például a talajban és az élelmiszerekben. Hatékonyan szaporodnak gombaspórák képződésével, amelyek hőállósága alacsonyabb, mint a bakteriális endospóráké.",
+    "",
+    "Ábrajegyzék",
+    "1. ábra: Baktériumok szaporodása osztódással\t3",
+    "2. ábra: A kokkoid baktériumok keresztirányú osztódása\t4",
+    "3. ábra: Osztódó bacillus\t4",
+    "4. ábra: Baktériumok exponenciális növekedése\t5",
+    "5. ábra: a) Petri-csésze b) Staphylococcus aureus kolóniák/telepek vér hozzáadásával készült agar táptalajon\t6",
+    "6. ábra: A baktériumok növekedési fázisai vagy szaporodási görbe\t7",
+    "7. ábra: Baktériumok generációs ideje 37 °C-n\t10",
+    "8. ábra: Élesztőgombák szaporodása sarjadzással\t14",
+    "9. ábra: az élesztő fejlődési ciklusai\t16",
+    "10. ábra: Élesztőgombák szaporodása keresztirányú osztódással\t17",
+    "11. ábra: A léghifák fragmentálódása a hifás gombákban\t18",
+    "12. ábra: Aszexuális spóraképzés penészgombákban\t19",
+    "13. ábra: A spórák ivaros képződése az Aspergillus penészgomba példáján keresztül\t20",
+    "14. ábra: A kenyérpenész szaporodása ivaros módon\t21",
+    "15. ábra: Ivaros szaporodás 1. lépése „Rhizoids”\t23",
+    "16. ábra: Kromoszómakészletek a gombák sejtmagjában\t23",
+    "17. ábra: Redukciós sejtosztódás\t24",
+    "18. ábra: A Mucor járomspórás gomba (fejespenész) szaporodása ivartalan (aszexuális) és ivaros módon (szexuális)\t25",
+    "19. ábra: Bazidiumos gombák szaporodása\t26",
+    "20. ábra: Ivaros spóraképződés folyamata\t27",
+    "21. ábra: A növekedés korlátozása a baktériumok tevékenysége révén\t28",
+    "22. ábra: A növekedés gátlása mikrobiális végtermékekkel\t29",
+    "23. ábra: A növekedés gátlása mikrobiális végtermékekkel\t30",
+    "24. ábra: A baktériumok kitartó képletei\t32",
+    "25. ábra: Actinomycetes-fajok, spóraképzése\t32",
+    "26. ábra: a) Actinomycetes-fajok a légmicéliumokon a spóraképződés folyamata, úgynevezett konídiumokat képeznek b) mikroszkópos kép\t33",
+    "27. ábra: A Bacillus cereus vegetatív sejtjei és endospórái (nyíl)\t33",
+    "28. ábra: Endospórák képződése a környezeti feltételek megváltozásának hatására\t34",
+    "29. ábra:  Endospórák képződése és csírázás folyamata\t34",
+    "30. ábra: Az endospórák alakja és elhelyezkedése a sejten belül\t35",
+    "31. ábra: a stresszhatás és a rezisztencia (ellenállás) összefüggése\t36",
+    "",
+    "Irodalomjegyzék",
+    "(2019). Forrás: Vegyipari és biomérmöki műveletek II. Biomérnöki műveletek: http://oktatas.ch.bme.hu/oktatas/konyvek/mezgaz/BIM_mtanar/VEBIBiom%C3%A9rn%C3%B6ki.pdf",
+    "Balázs, B. A. (2013.). Bevezetés a prokarióták világába. Budapest: Eötvös Loránd Tudományegyetem.",
+    "Deák Tibor, K. G. (dátum nélk.). docplayer. Forrás: https://docplayer.hu/3748205-Elelmiszer-mikrobiologia-deak-tibor-kisko-gabriella-maraz-anna-mohacsine-farkas-csilla.html ",
+    "docplayer. (2024). Forrás: https://docplayer.hu/17256074-A-bakteriumok-szaporodasa.html",
+    "dr. Deák Tibor, d. F. (1980). Konzerv-, hús és hűtőipari mikrobiológia. Budapest : Mezőgazdasági Kiadó.",
+    "dr. Gyimesi János, d. S. (1979). Élesztő és szeszipari kézikönyv. Budapest: Mezőgazdasági Könyvkiadó.",
+    "Éva, G. (2021). Általános mikrobiológia. Kolozsvár: Scientia Kiadó.",
+    ""
+  ],
+  "runs": [
+    [],
+    [],
+    [],
+    [
+      "Egyedi megrendelés azonosítója: EM-2.1.2  "
+    ],
+    [
+      "A mikroorganizmusok szaporodása és pusztulása"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [
+      "Forrás",
+      ": Mikroorganismen in Lebensmitteln, Verlag Europa-Lehrmittel, 2019. ISBN 978-3-8057-0783-1",
+      "\n",
+      "\nAz eredeti könyv szerzői: Johann Hamdorf, Heribert Keweloh, Maria Revermann"
+    ],
+    [],
+    [
+      "Fordította",
+      ":",
+      " ",
+      "Intercontact Budapest Fordítóiroda és Tolmácsiroda"
+    ],
+    [
+      "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak."
+    ],
+    [],
+    [],
+    [],
+    [
+      "Tartalomjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "A mikroorganizmusok szaporodása"
+    ],
+    [
+      "Az egysejtű mikroorganizmusok ivartalan szaporodása kedvező körülmények között minden más élőlénynél gyorsabb. Élelmiszeripari szempontból fontos megismerni a hasznos mikroorganizmusok és a nem kívánatos mikroszervezetek szaporodásának törvényszerűségeit."
+    ],
+    [
+      "A baktériumok szaporodása gyors, leginkább folyékony táptalajon való tenyésztés esetén tanulmányozható. Ilyenkor az élő sejtek számának megváltozását vizsgáljuk bizonyos időközönként és a kapott értékeket ábrázoljuk."
+    ],
+    [],
+    [
+      "A ",
+      "baktériumok",
+      " szaporodása"
+    ],
+    [
+      "Minden baktériumsejt képes szaporodni és reagálni a környezeti változásokra."
+    ],
+    [
+      "A baktériumokban a növekedés és a szaporodás párhuzamos, egymáshoz kapcsolódó folyamat."
+    ],
+    [
+      "Ha a növekedés valamennyi előfeltétele adott, az egyes sejtek nagyobbak és hosszabbak lesznek, és megnövekszik a ",
+      "sejttömegük (biomasszájuk",
+      ")",
+      ". ",
+      "A sejtek anyagcseréjében enzimek által katalizált kémiai átalakulások zajlanak, amelyek a tápanyagok ellenőrzött lebontását/átalakítását eredményezik. Ezeknek a lebontási reakcióknak a célja, hogy a tápanyagot felhasználják, és ",
+      "új sejtalkotórészek",
+      " építésére fordítsák."
+    ],
+    [
+      "Egy kritikus méretnél a sejt térfogata és felülete közötti arány megváltozik, a baktérium ",
+      "keresztirányú",
+      " ",
+      "osztódással",
+      " ",
+      "felére csökkenti a sejttérfogatát. Az anyasejtből két egyforma utódsejt, úgynevezett",
+      " ",
+      "leánysejt",
+      " ",
+      "jön létre. Ez a baktériumok jellemző ",
+      "ivartalan szaporodási",
+      " módja. A leánysejtek növekednek, megnövelik a térfogatukat, és újból osztódnak. Az 1. ábrán jól követhetjük a folyamatot."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". ábra",
+      ":",
+      " Baktériumok szaporodása osztódással"
+    ],
+    [
+      "1 ábra feliratok módosítása",
+      " 1. biomassza helyett sejtszám vagy sejttömeg növekedés, DNS szintézis helyett örökítő anyag szintézise, válaszfal képződése és befűződése felirat a két sejthez"
+    ],
+    [
+      "Növekedés: ",
+      "A sejtszám/sejttömeg (biomassza) mennyiségének a megnövekedése.",
+      " A baktériumokban a növekedés és a szaporodás egymáshoz kapcsolódik, és egymástól elválaszthatatlan. A növekedés mindig a sejtek számának növekedéséhez vezet."
+    ],
+    [],
+    [
+      "A baktériumok ivartalan szaporodása"
+    ],
+    [
+      "Minden újonnan keletkező sejtnek az örökítőanyag teljes készletével rendelkeznie kell ahhoz, hogy életképes legyen."
+    ],
+    [
+      "A baktériumok keresztirányú osztódását, azaz ivartalan szaporodását a bakteriális gének megkettőződése és szétválása előzi meg."
+    ],
+    [
+      "1. A DNS-ről másolatok készülnek, hogy minden leánysejt teljes genetikai információt megkapjon."
+    ],
+    [
+      "2. Ezután behúzódik a sejtbe egy új keresztirányú fal (a 2. ábra a kokkoid baktériumok keresztirányú osztódását mutatja)."
+    ],
+    [
+      "3. Ezután mindegyik utódsejt új növekedési,"
+    ],
+    [
+      "4. majd osztódási ciklust kezd."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "2",
+      "",
+      ". ábra",
+      ": A kokkoid baktériumok keresztirányú osztódása"
+    ],
+    [
+      "A bacillusok a végükön osztódnak. Megnyúlik a sejt, amikor elér egy bizonyos hosszt, akkor a benne lévő DNS állomány megkettőződik. A két DNS széthúzódik a sejt két végébe (",
+      "3. ábra",
+      " piros színű állomány), a sejtfal befűződik, és így lesz belőle két hosszúkás, pálcika alakú sejt."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "3",
+      "",
+      ". ábra: Osztódó bacillus"
+    ],
+    [
+      "F",
+      "orrás: https://docplayer.hu/105858880-2-a-mikrobak-es-szaporitasuk-az-ipari-jelentosegu-mikroorganizmusok-tipusai-bakteriumok-morfologiaja-pecs-miklos-vebi-biomernoki-muveletek.html. ",
+      "Utolsó megtekintés",
+      ":",
+      " ",
+      "2024.06.28"
+    ],
+    [
+      "Az ",
+      "4. ábrán",
+      " a baktériumsejtek számának növekedését tanulmányozhatjuk. Egy sejtből 2 lesz, amelyből 4, majd 8, 16, 32 (exponenciális sorozat) és így tovább: ez az ",
+      "exponenciális ",
+      "növekedés",
+      " szakasza",
+      ". Egy adott idő alatt tehát nem állandó (konstans) mennyiségű ",
+      "új",
+      " sejt képződik, hanem a már meglévő sejtszám/sejttömeg ugyanakkora idő alatt megduplázódik."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "4",
+      "",
+      ". ábra:",
+      " Baktériumok exponenciális növekedése"
+    ],
+    [
+      "Azt az időtartamot, amely alatt egy adott baktériumfaj megkétszerezi a sejtszámát, generációs időnek vagy duplázódási vagy kétszereződési időnek nevezzük.",
+      " ",
+      "Ha a sejtek száma jelentősen megnő, a baktériumok már szabad szemmel is jól láthatók. Például tápanyagban gazdag folyadékokban, mint a húslevesek vagy akár a szennyezett víz, a baktériumok elszaporodása",
+      " ",
+      "zavarossághoz",
+      " vezet (az egy milliliterben jelen lévő milliónyi sejt olyan erősen szórja a fénysugarakat, hogy a folyadék már nem lesz átlátszó).",
+      " ",
+      "Laboratóriumban",
+      " a baktériumokat úgynevezett ",
+      "Petri-csészékben",
+      " ",
+      "(5. a) ábra",
+      ")",
+      " tenyésztik szilárd ",
+      "agar táptalajon",
+      ".",
+      " Ott több milliószor szaporodnak és látható ",
+      "kolóniákat/telepeket",
+      " képeznek ",
+      "(5. b) ábra)."
+    ],
+    [
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "5",
+      "",
+      ". ábr",
+      "a",
+      ":",
+      " a) Petri-csésze b) Staphylococcus aureus kolóniák/telepek vér hozzáadásával készült agar táptalajon"
+    ],
+    [
+      "F",
+      "orrás: http://www.pouringindia.com/mueller-hinton-agar-plates.",
+      "htm",
+      " ",
+      "Utolsó m",
+      "egtekintés:",
+      " ",
+      "2024.06.28",
+      "."
+    ],
+    [
+      "Agar táptalaj:",
+      " az agar nevű zselésítőanyag segítségével megszilárdított táptalaj, amelynek a felületére felvitt mikrobák szemmel látható sejtcsoportokat, úgynevezett telepeket (kolóniákat) képeznek."
+    ],
+    [],
+    [
+      "Szakaszos szaporodási görbe"
+    ],
+    [],
+    [
+      "A szaporodás fázisai"
+    ],
+    [
+      "Ha a baktérium új, számára kedvező környezetbe kerül, akkor nyomon követhetjük egy növekvő baktériumtenyészet-szaporodásnak különböző fázisait ",
+      "(",
+      "6. ábra",
+      ")",
+      "."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "6",
+      "",
+      ". ábra:",
+      " A baktériumok növekedési fázisai vagy szaporodási görbe"
+    ],
+    [
+      "A szaporodási görbén négy jellegzetes szakaszt különböztetünk meg."
+    ],
+    [
+      "a Lag (adaptációs) fázis vagy lappangási szakasz"
+    ],
+    [
+      "köztes fázis gyorsuló szaporodás szakasza "
+    ],
+    [
+      "Log vagy Exponenciális fázis"
+    ],
+    [
+      "köztes fázis lassuló szaporodás szakasza"
+    ],
+    [
+      "Stacioner fázis"
+    ],
+    [
+      "elhalási fázis"
+    ],
+    [
+      "Lag vagy (adaptációs) fázis vagy lappangási szakasz"
+    ],
+    [
+      "A baktériumsejtnek az új környezethez való alkalmazkodásának a szakasza: itt még",
+      " ",
+      "nincs sejtosztódás, a sejtek száma változatlan (vízszintes vonal az 6. ábrán). A számukra most rendelkezésre álló tápanyagokhoz először elő kell állítaniuk az azokra specifikus enzimeket. Minden olyan anyagot, amely már jelen van a táplálékban, és amelyet fel tudnak használni, ",
+      "felvesznek; így gyorsabban tudnak növekedni és szaporodni. A baktériumok sejtmérete növekszik, főként tápanyag-beépítést, raktározást folytatnak a sejtek!"
+    ],
+    [
+      "Ezen szakasz időtartama a mikrobák életképességétől és a környezeti feltételektől függ, általában 30 perctől két óráig tarthat."
+    ],
+    [
+      "Köztes fázis",
+      ": a lappangási szakasz és a logaritmikus fázis között - már van sejtszaporodás, a sejttömeg vagy sejtszám növekedése már mérhető. A szaporodás gyorsuló, amíg eléri a maximális sebességet: ez a görbe exponenciális vagy logaritmikus szakasza."
+    ],
+    [
+      "Logaritmikus(log) vagy exponenciális fázis"
+    ],
+    [
+      "Egy átmeneti vagy köztes szakasz után a szaporodás felgyorsul, a sejtszám exponenciálisan megnő – a mikroorganizmusok száma mértani sor szerint nő (1—2—4—8—16…)"
+    ],
+    [
+      "Ezt a szakaszt intenzív sejtosztódás jellemzi, a ",
+      "generációs idő",
+      " lerövidül (6. ábra: minél meredekebb a log szakasz egyenese az ábrán, annál rövidebb a generációs idő). A baktériumok a fajra jellemző ",
+      "kétszereződési idővel",
+      " szaporodnak. A baktériumtenyészet generációs ideje ebben a szakaszban folyamatosan állandó marad (időegységenként ugyanakkora érték: például fajra jellemző kb. 20 perc ebben a fázisban)"
+    ],
+    [
+      "Ilyenkor jellegzetesek a baktériumok tulajdonságai, a legnagyobb a mikrobák életereje vagy vitalitása, ",
+      "átoltás ",
+      "esetén (új tápközegbe való bejuttatás) új tápközegben is azonnal gyors szaporodásba kezdenek. (A kórokozó baktériumok fertőzőképessége is ebben a szakaszban a legnagyobb.) A logaritmikus szakasz időtartama 6-12 óráig tarthat."
+    ],
+    [
+      "A növekedés sebessége az exponenciális növekedési fázisban elér egy maximális értéket",
+      ". E növekedési fázis eredményeként több mint egymilliárd sejt halmozódhat fel egy milliliter tápfolyadékban (10",
+      "9",
+      "/ml = 10",
+      "12",
+      "/l)."
+    ],
+    [
+      "Az exponenciális szakasz megnyújtható, hogyha folyamatosan pótoljuk a tápanyagot."
+    ],
+    [
+      "köztes fázis: ",
+      "a 6. ábrán a log és stacioner fázis között az exponenciális szakasz vége felé már csökken a tápanyagok mennyisége, és megnő a toxikus (a baktériumok számára) anyagcseretermékek mennyisége (például szerves savak, amelyek a pH-t kedvezőtlen ",
+      "irányba változtatják a baktériumok számára). A szaporodás sebessége lecsökken (kevesebb új sejt képződik), a generációs idő növekszik."
+    ],
+    [
+      "Stacioner vagy állandósult szakasz"
+    ],
+    [
+      "Az élő csíraszám állandósul, ugyanannyi utódsejt képződik, mint amennyi elpusztul. A mikrobák életkörülményei fokozatosan romlanak (mivel a tápanyag fogy) a folyamatosan növekvő számú baktériumsejt anyagcsere-folyamatai miatt. A képződött anyagcseretermékek gátló hatásúak a baktériumok élettevékenységére, szaporodására. Ez a ",
+      "maximális sejtkoncentráció fázisa – ",
+      "az élősejtszám ebben a fázisban már nem emelkedik",
+      ".",
+      " Egyes fajoknál ekkor kezdődik a spóraképzés."
+    ],
+    [
+      "A generációs idő a ",
+      "stacioner növekedési fázisban",
+      " hosszabbá válik. Időtartama a környezeti feltételektől függ, eltarthat több hétig is, a tápanyag-mennyiség függvényében. Egy idő múlva a ",
+      "növekedés",
+      " egészen leáll. Ebben a fázisban már sok sejt elpusztul."
+    ],
+    [
+      "Hanyatlási vagy elhalási szakasz"
+    ],
+    [
+      "A hanyatlási szakaszban az élő sejtek száma drasztikusan csökken, az elhalt sejtek száma nagyobb, mint a keletkező sejtszám. A baktériumok elpusztulnak. Fokozatosan kipusztul a tenyészet, a sejtek tulajdonságai megváltoznak. A hanyatlási szakasz végén sem pusztul el valamennyi mikrobasejt, de élettevékenységük, szaporodásuk leáll. A ",
+      "deklinációs szakasz (elhalási vagy pusztulási)",
+      " megnyújtható, ha a termosztátból a hűtőszekrénybe rakjuk a tenyészetet."
+    ],
+    [
+      "Egyes baktériumok ebben a fázisban ",
+      "endospórákat ",
+      "vagy más ",
+      "kitartó képleteket ",
+      "képeznek, ami lehetővé teszi számukra, hogy túléljék a kedvezőtlen körülményeket, vagy amíg új tápanyagok nem jelennek meg a környezetükben, illetve amíg a környezeti feltételek nem változnak számukra kedvezőre. Ez megy végbe a borok utóerjedése alatt, ha az alkohol eltávozik, az élesztősejtek újból szaporodnak; az alkohol gátolja az élesztő szaporodását."
+    ],
+    [
+      "Az elhalási fázis időtartalma fajfüggő, eltarthat néhány naptól akár évekig is."
+    ],
+    [
+      "A fázisok nem csak laboratóriumi ",
+      "színtenyészetekben",
+      " (egy sejt leoltva táptalajra és annak utódai) figyelhetők meg. A csíraszaporodás az élelmiszerekben, pl. a frissen főtt levesben ugyanígy zajlik."
+    ],
+    [
+      "Lappangási fázis, lag fázis: A friss tápközeg hozzáadását követő időszak, még nem optimális növekedéssel."
+    ],
+    [
+      "Stacioner növekedési fázis: Az exponenciális növekedési fázist követő időszak csökkent növekedési sebességgel."
+    ],
+    [],
+    [
+      "A Szaporodást befolyásoló tényezők"
+    ],
+    [],
+    [
+      "A ",
+      "baktériumok",
+      " generációs (duplázódási) ideje"
+    ],
+    [
+      "Sok baktérium esetében nem szokatlan a ",
+      "10–20 perc közötti generációs idő",
+      ". A ",
+      "7. ábra",
+      " a baktériumok ",
+      "generációs",
+      " idejét mutatja azonos hőmérsékleten, de különböző táptalajokra leoltva. A ",
+      "Lactobacillus acidophilus",
+      " és az ",
+      "E. coli",
+      " generációs idejét hasonlítjuk össze azonos táptalajt használva, majd az ",
+      "E.coli",
+      " szaporodási idejét vizsgáljuk komplex és minimál tápközegben."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "7",
+      "",
+      ". ábra:",
+      " Baktériumok generációs ideje 37 °C-n"
+    ],
+    [
+      "Az ",
+      "E. coli",
+      ", amely kórokozóként is viselkedhet, körülbelül 60 perc alatt kétszerezi meg a sejttömegét, ha olyan ",
+      "minimál",
+      " ",
+      "tápközegen",
+      " tenyésztik, amely ásványi sókat és szénforrásként szőlőcukrot tartalmaz."
+    ],
+    [
+      "Ha csíramentes tejet oltunk be ",
+      "E. coli",
+      "val, a ",
+      "generációs",
+      " idő még tovább csökken 11 percre. A tej egy ",
+      "komplex",
+      " ",
+      "tápközeg",
+      ", amelyben szerves anyagok és ásványi sók vannak, azaz optimális a tápanyagellátás."
+    ],
+    [
+      "A generációs időt nagyban befolyásolja a mikroba anyagcseréje: például a ",
+      "Lactobacillus acidophilus",
+      ", – amely a savanyított tejtermékekhez szolgáló starterkultúrákban található meg – a tejben sokkal lassabban növekszik, mint az ",
+      "E. coli.",
+      " A generációs ideje kb. 76 perc. Oka a tejsavbaktériumok fermentációs anyagcseréje (a fermentációs anyagcsere folyamatában lényegesen kevesebb energia szabadul fel, amit a sejt az élettevékenységéhez tud hasznosítani, így hosszabb idő alatt képes felépíteni egy új sejtet, hosszabb idő alatt képes utódsejtet létrehozni)."
+    ],
+    [
+      "Minimál tápközeg:",
+      " kémiailag meghatározott tápközeg, amely ásványi sókból és szénforrásból áll, és csak a növekedéshez szükséges összetevőket tartalmazza."
+    ],
+    [
+      "Komplex tápközeg:",
+      " amelyben szerves anyagok és ásványi sók vannak, optimális a tápanyag ellátás."
+    ],
+    [],
+    [
+      "A kezdeti csíraszám jelentősége"
+    ],
+    [
+      "Kevés baktériumsejtnek – még ideális körülmények között is – több órára van szüksége ahhoz, hogy több millió vagy milliárd új sejtet képezzen. Ha már nagy sejtszám van jelen, akkor néhány perc alatt rendkívül nagy mértékben megnövekedhet az új sejtek száma ",
+      "(lásd 3. ábra)",
+      "."
+    ],
+    [
+      "Mivel a baktériumok exponenciális szaporodásra képesek, a csírákkal szennyezett élelmiszerek ",
+      "kezdeti",
+      " ",
+      "csíraszáma",
+      " nagy jelentőséggel bír."
+    ],
+    [
+      "Az élelmiszereken nem egyetlen mikrobafaj, egy színtenyészet, hanem ",
+      "vegyes populációk",
+      " telepednek meg. Az élelmiszeren megtelepülő fajok egy adott időpontban általában ",
+      "különböző növekedési fázisban",
+      " vannak. Az élelmiszerek, például a hús, változó tulajdonságú élőhelyet jelentenek a mikrobák számára."
+    ],
+    [
+      "Az élelmiszerben bekövetkező miliőváltozások (a miliő környezetet jelent, ebben az esetben az élelmiszeren megtelepedett mikroba faj anyagcseretermékei gátolják más mikrobák megtelepedését, anyagcseréjét, tehát megváltoztatják az eredeti környezetet) bizonyos mikrobafajokat a növekedés leállítására kényszerítenek. Ezt kihasználják a növekedésükhöz azok a fajok, amelyek a megváltozott környezethez jobban alkalmazkodtak; ezek gyakran ismert sorrendben váltják fel a korábban aktív fajokat ",
+      "(szukcessziók =",
+      " szukcessziónak nevezzük azt, ha egy adott faj megváltoztatja a környezetet úgy, hogy az más fajoknak lesz kedvező, így ezek az új fajok szaporodnak el: a fajok egymásutániságában bizonyos törvényszerűségek ismerhetők fel",
+      ")."
+    ],
+    [],
+    [
+      "Környezeti tényezők"
+    ],
+    [
+      "A mikrobáknak a szaporodásukhoz szükségük van energia-, szén- és nitrogénforrásként szolgáló tápanyagokra, továbbá vitaminokra és ásványi sókra. Az élelmiszerek általában tartalmazzák ezeket a tápanyagokat, összetételük azonban nagyon különböző."
+    ],
+    [
+      "S",
+      "zénforrás:",
+      " sok baktérium ként (S) és szerves szenet (C) igényel az anyagcseréjéhez. Ezt részben környezetéből oldott állapotban tudja felvenni, vagy a megfelelő enzimek segítségével átalakítással nyeri. A szerves szénforrások igen széles körét hasznosítják a mikrobák, mint a szénhidrátokat, alkoholokat, zsírsavakat, aromás vegyületeket, aminosavakat, szerves savakat."
+    ],
+    [
+      "N",
+      "itrogén forrás:",
+      " ",
+      "A",
+      " mikroorganizmusok a fehérjék és a nukleinsavak szintéziséhez igénylik. Többnyire a bőséges nitrogénforrás hatására nő az anyagcsere sebessége is."
+    ],
+    [
+      "makroelemek ",
+      "például vas, kalcium, kálium, magnézium"
+    ],
+    [
+      "N",
+      "yomelemek",
+      ":",
+      " ",
+      "A",
+      " Mn (Mangán), Co (Cobalt), Cu (Cuprum azaz réz), Mo (Molibdén), Zn (Zink), Ni (Nikkel), V (Vanádium), Cl (Clor), Na (Natrium), B (Bor) és a Si (Silicium). Ezeket a mesterséges táptalajokba adagolják, míg a természetes tápanyagok tartalmazzák."
+    ],
+    [
+      "Hőmérséklet:",
+      " ",
+      "A",
+      " mikrobák optimális szaporodási hőmérséklete egy intervallum, ami körülbelül 20 ",
+      "℃",
+      ". A hőmérséklet változása befolyásolja a szaporodási sebességet, az elérhető ",
+      "sejtszámot, a sejt kémiai összetételét. A maximális szaporodási hőmérséklet felett a mikroorganizmusok elpusztulnak. A minimális hőmérséklet alatt túlélhetnek, de szaporodásuk megáll. Például egyes Bacillus fajok 20-40 ",
+      "℃",
+      " k",
+      "ö",
+      "z",
+      "ö",
+      "tt j",
+      "ó",
+      "l szaporodnak.",
+      "",
+      " "
+    ],
+    [
+      "pH",
+      ":",
+      " ",
+      "A ",
+      "táptalaj savassága vagy lúgossága vagy a 7-s körüli semleges érték alapvetően meghatározza a tápanyagon vagy élelmiszeren megtelepedő mikrobák fajtáját. A baktériumok a semleges vagy ahhoz közeli pH-t kedvelik 6-8 pH - ebben a tartományban szaporodnak a legjobban. A rothasztó, kórokozó fajok anyagcseréje és szaporodó képessége a közömbös kémhatás körül a legaktívabb, a termék pH értékének csökkentésével ezeknek a fajoknak a megtelepedése és kártétele csökkenthető. Vannak olyan baktérium fajok (savtermelő baktériumfajok) amelyeknek a 3-s pH körüli érték az optimális."
+    ],
+    [
+      "Az élesztőgombák pH tartománya 5-6, a gyengén savas közeget kedvelik."
+    ],
+    [
+      "A penészgombák szélesebb pH (2-4) tartományban képesek anyagcserét folytatni és szaporodni. Például aludt tej ~pH 4,4, meggy pH 3,8."
+    ],
+    [
+      "V",
+      "íztartalom",
+      ":",
+      " ",
+      "A",
+      " táptalaj – élelmiszer is lehet – magas víztartalma kedvező a mikrobák elszaporodásához. A szabad víztartalom (fizikailag, kémiailag nem kötött) a fontos, mert a mikroorganizmusok sejtjeinek 72-85 % -a víz. A számukra felvehető tápanyag vízben oldott állapotban van. A",
+      " magas szabad víztartalmú élelmiszerek kedveznek a mikroorganizmusok szaporodásának, így élelmiszeripari szempontból fontos a víztartalom csökkentése. Az élelmiszerek szabad víztartalma csökkenthető például szárítással, vagy a vizet megkötő anyagok adagolásával például a só, cukor."
+    ],
+    [
+      "Színtenyészet (tisztatenyészet):",
+      " Ugyanazon fajhoz vagy törzshöz tartozó mikroorganizmusok, a gyakorlatban általában egyetlen sejt laboratóriumban tenyésztett utódai."
+    ],
+    [
+      "Tápközeg:",
+      " ",
+      "A",
+      " mikroorganizmusok növekedéséhez szükséges összes tápanyagot oldott formában tartalmazzák, lehetnek folyékonyak, ekkor táplevesnek vagy tápoldatoknak hívják őket, vagy szilárd táptalajok."
+    ],
+    [],
+    [
+      "Fonalas mikroorganizmusok szaporodása"
+    ],
+    [
+      "A mikroorganizmusok szaporodását és az azt befolyásoló tényezők hatását az egysejtű, kettéosztódással szaporodó baktériumokon vizsgálták, és így állapítottak meg törvényszerűségeket. Ezek az összefüggések érvényesek a ",
+      "sarjadzással ",
+      "szaporodó élesztőgombákra, amelyek szaporodása a sejtszám növekedésében tapasztalható meg."
+    ],
+    [
+      "Sarjadzás vagy bimbózás: az anyasejtről lefűződik a nála jóval kisebb leánysejt (más néven sarjsejt), az anyasejt hamar újabb sarjadzásba kezdhet, a sarjsejtnek növekednie kell, az anyasejt öregedését ún. sarjadzási hegek jelzik, élesztőgombák jellegzetes osztódási módja."
+    ],
+    [
+      "A fonalas mikroorganizmusok (a penészgombák és bizonyos baktériumok) szaporodása eltérő, mert nem jár a sejtszám vagy a telepképző egységek számának növekedésével, hanem a spórák vagy konídiumok kicsírázása után a gombafonál növekszik, ami a hifafonal csúcsán folyik, vagy elágazásokkal gyarapodik."
+    ],
+    [
+      "A gombák szaporodása mind ",
+      "ivaros",
+      ", mind ",
+      "ivartalan módon",
+      " megvalósul. Ivartalan szaporodás történhet fragmentálódással (széttöredeződés), ",
+      "bimbózással ",
+      "vagy ",
+      "sarjadzással",
+      " vagy aszexuális spóraképzéssel."
+    ],
+    [
+      "Az élesztőgombák ivartalan szaporodása a sarjadzás. Az egysejtű, gömb alakú vagy ovális ",
+      "élesztőgombák",
+      " teljesen másképp fejlődnek és szaporodnak, mint a hifás gombák."
+    ],
+    [
+      "A legtöbb élesztőgomba, mint a ",
+      "Saccharomyces cerevisiae",
+      " sütőélesztő is, ",
+      "sarjadzással",
+      " vagy ",
+      "bimbózással",
+      " szaporodik (",
+      "8. ábra",
+      ")."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "8",
+      "",
+      ". ábra:",
+      " Élesztőgombák szaporodása sarjadzással"
+    ],
+    [
+      "A sejtszervekkel együtt egy újonnan képződött sejtmag is a sarjba vándorol, így a leánysejt a teljes örökítő anyaggal rendelkezik. Ehhez az anyasejtben a DNS-ről egy megegyező másolatot kell készíteni, miközben a kromoszómák megduplázódnak."
+    ],
+    [
+      "Ezután a sejtmag két megegyező sejtmagra tud oszlani. Amikor a sarj egy növekedési időszak után megközelítőleg eléri az anyasejt méretét, leválik/hat és önálló életet kezd. Az anyasejten a sarj leválási helyén egy heg marad vissza. Az anyasejt ezután a felszín egy másik pontján újabb sarjat képez/het. Ha a teljes felületük elhegesedik, az élesztősejtek elvesztik osztódási képességüket. Az élesztősejtek elöregednek és elpusztulnak. A szilárd táptalaj felületén nem fejlesztenek micéliumot, csak úgynevezett ",
+      "pszeudomicéliumot (álmicélium)",
+      " képeznek, ami a sarjadzás után az anyasejttel együtt maradt leánysejtek által létrehozott láncszerű képlet."
+    ],
+    [
+      "Az élesztőgombák szaporodása/szaporítása a során baktériumok szaporodásánál megismert szakaszos szaporodási görbe (",
+      "6. ábra",
+      ") mentén változik a sejtszám."
+    ],
+    [
+      "A fermentáló élesztősejtek nagyon lassan szaporodnak. Ha fenn akarjuk tartani a ",
+      "növekedést",
+      ", a fermentáló élesztőgombákat nagyobb mértékben kell ellátni tápanyagokkal, mint amire oxigén jelenlétében szükség lenne – megfelelően kell a tápanyagot-adagolni vagy más kifejezéssel rátáplálni (gyakorlatban használt kifejezés) (",
+      "9. ábra",
+      ")",
+      "."
+    ],
+    [
+      "",
+      "",
+      "",
+      "9",
+      "",
+      ". ábra:",
+      " az élesztő fejlődési ciklusai"
+    ],
+    [
+      "Forrás: http://web.unideb.hu/~szentirmai/GOMBAK.pdf. ",
+      "Utolsó megtekintés:",
+      " ",
+      "2024.06.28."
+    ],
+    [
+      "Az élesztőgombáknál is előfordulnak ivaros folyamatok a különböző párosodási típusok közötti sejt- és sejtmagfúzióval, majd az ezt követő ivaros spóraképződéssel (",
+      "10. ábra",
+      "). ",
+      "Számos élesztőgombánál hasonló ivaros fejlődési formákat figyeltek meg, valamint ",
+      "spórák",
+      " ",
+      "képződését a tömlőszerű sejteken belül",
+      "."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "10",
+      "",
+      ". ábra:",
+      " Élesztőgombák szaporodása keresztirányú osztódással"
+    ],
+    [
+      "Egyes élesztők, pl. a ",
+      "Schizosaccharomyces pombe",
+      " faj egyedei a baktériumokhoz hasonlóan a sejt közepén keresztirányú osztódással szaporodnak: ezek a ",
+      "hasadó",
+      " ",
+      "élesztők",
+      " ",
+      "(",
+      "10. ábra",
+      ")."
+    ],
+    [
+      "A ",
+      "Candida albicans",
+      " élesztőgomba egysejtűként és micéliumszerűen is képes növekedni. A sarjadzás által képződött hosszúkás élesztősejtek ezután láncszerűen együtt maradnak. Ezeket a láncokat",
+      " ",
+      "pszeudohifáknak",
+      " (álhifák) nevezzük, mert nagyon hasonlítanak a hifafonalakra."
+    ],
+    [
+      "A ",
+      "fonalas gombák",
+      " hosszú fonalas sejtek (hifák), amelyek számos fajban elágazhatnak. A hifák nagy távolságokra nőnek a talajban vagy a fertőzött táplálékban. A gombafonalak szinte kizárólag a csúcsukon nőnek, közvetlenül a táplálékforrások felé. Egyes gombafajoknál a ",
+      "hifák a micéliumon belül",
+      " ",
+      "összeolvadnak",
+      " egymással. A gombafajok több mint 99%-a hifás gomba. Fontos, hogy a ",
+      "gombafonal növekszik",
+      " és ",
+      "nem jár",
+      " sejtszámnövekedéssel."
+    ],
+    [
+      "A hifák széttöredezésével egyedi sejtek jönnek létre, amelyeket nagyon vastag sejtfal vesz körül, a folyamatot ",
+      "fragmentációnak",
+      " ",
+      "nevezzük. A micélium töredékeiből új növekedési testek fejlődhetnek ki. Az elpusztult micélium minden egyes darabja életképes marad, és önálló gombává fejlődhet. A hifák fragmentálódásának (széttöredeződésnek) egyes ",
+      "gombafajoknál fontos szerepe van a szaporodás folyamatában (",
+      "11. ábra",
+      ": szaporodás fragmentálódással)."
+    ],
+    [
+      "A hifás gombák szaporodása és terjedése szempontjából a ",
+      "spóraképződés",
+      " a jelentősebb."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "11",
+      "",
+      ". ábra:",
+      " A léghifák fragmentálódása a hifás gombákban"
+    ],
+    [
+      "A hifás gombák, akárcsak a penészgombák, helyhez kötött szervezetek, amelyek növekedése szerves anyagoktól függ. Amikor a táplálékforrásaik kimerülnek, új élőhelyen kell megtelepedni, amit a ",
+      "spóraképződés ",
+      "tesz lehetővé. A gombaspórák olyan kitartó képletek vagy nyugalmi stádiumok, amelyek évekig vagy évtizedekig képesek túlélni, még rendkívül meleg vagy hideg éghajlaton is."
+    ],
+    [
+      "A gombaspórák nagyon ",
+      "ellenállóak a szárazsággal szemben",
+      ", de nem rendelkeznek a baktériumspórák magas hőállóságával."
+    ],
+    [
+      "A penészgombák többnyire ivartalan vagy ",
+      "aszexuális úton",
+      " képeznek spórákat (",
+      "12. ábra",
+      ")."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "12",
+      "",
+      ". ábra:",
+      " Aszexuális spóraképzés penészgombákban"
+    ],
+    [
+      "Ha a gombák hifái átszőtték a talaj felszínét vagy a fertőzött élelmiszereket, speciális spóraképző szervekkel (",
+      "konídiumtartók)",
+      " rendelkező léghifák képződnek. Az olyan tömlősgombák, mint az ",
+      "Aspergillus ",
+      "és a ",
+      "Penicillium",
+      ", ",
+      "konídiumokat",
+      " termelnek rajtuk egy olyan folyamat során, amely a penészgombákban körülbelül 20 óra elteltével fejeződik be. A konídiumtartók, a légmicélium speciális sejtjei, folyamatosan spórákat fűznek le kifelé, amelyek gyöngyszerű láncok formájában a levegőbe nyúlnak. A gombamicéliummal ellentétben a spóraképző szervek és a spórák ",
+      "penészként",
+      " teljes egészében láthatóak."
+    ],
+    [
+      "Az aszexuális spóraképzésen kívül az olyan penészgombák, mint az ",
+      "Aspergillus",
+      " kannapenész, ",
+      "ivaros úton",
+      " is képesek spórákat képezni (",
+      "13. ábra",
+      "). Ez a fejlődés akkor indul be, amikor hiányos a táplálékforrás. A folyamat két gomba hifáinak összeolvadásával vagy akár ugyanazon a micéliumon belüli önmegtermékenyítéssel kezdődik. (A sejtmagok a kis, szemmel általában láthatatlan termőtestek belsejében egy ",
+      "diploid",
+      " sejtmaggá olvadnak össze, amit ",
+      "redukciós",
+      " – számfelező (",
+      "13. ábra és 14. ábra",
+      ") osztódás követ.)"
+    ],
+    [
+      "A tömlősgombákra jellemző tömlősejtekben képződnek az ivaros spórák, amelyek később felszabadulnak. Az ivarosan képződött spórák is új micéliummá tudnak kicsírázni."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "13",
+      "",
+      ". ábra:",
+      " A spórák ivaros képződése az Aspergillus penészgomba példáján keresztül"
+    ],
+    [
+      "",
+      "",
+      "",
+      "14",
+      "",
+      ". ábra:",
+      " A kenyérpenész szaporodása ivaros módon"
+    ],
+    [
+      "Forrás: https://www.mrcbiology.com/314_Fungi_A1_Poster.pdf. ",
+      "Utolsó megtekintés:",
+      " ",
+      "2024.06.28."
+    ],
+    [
+      "Szexuális szaporodás"
+    ],
+    [
+      "• Az ivaros szaporodás Rhizopusban csak egy plusz és egy mínusz törzs között fordulhat elő. • Amikor az ellentétes törzsek hifái egymáshoz közel nőnek, mindkét törzsön duzzanat nő, és az ellentétes ivari jellegű hifavégek összeérnek ((strain + és -)"
+    ],
+    [
+      "• Mindkét hifából a sejtmagok bejutnak ezekbe a duzzadásokba, amelyeket ma progametangiának neveznek"
+    ],
+    [
+      "• Keresztfalak képződnek (gametangia) előállításához"
+    ],
+    [
+      "• A gametangia falai feloldódnak, a sejtmagok egyesülnek és diploid zigóta (2n) sejtmagok képződnek (fertilisation megtermékenyítés)"
+    ],
+    [
+      "• A sejtmagokból zigospóra képződik "
+    ],
+    [
+      "• érési és nyugalmi szakasz után a zigospóra redukciós (meosis) vagy számfelező osztódással csírázik "
+    ],
+    [
+      "• A zigospórából hifa nő ki és spóratokot (sporangiumot) hoz létre a csúcson "
+    ],
+    [
+      "• A sporangium megnyílik, és sok haploid spórát szabadít fel, amelyek új egyedekké nőnek (zigospore germination= zigospóra csírázása)"
+    ],
+    [
+      "Sok gombaspóra a ",
+      "levegőbe kerül",
+      ", majd a szél magával ragadja és elterjeszti őket. Ezek a spórák szárazak. Más gombafajok spóráit nyálkás réteg veszi körül, nem képesek elsodródni a légáramlatokkal, de az állatok ",
+      "el tudják szállítani",
+      " őket. Az olyan gombák, mint a bűzös szömörcsög, átható szagukkal odavonzzák a rovarokat, amelyek terjesztik a spórákat. A szarvasgomba illatával vonzza az egereket és más rágcsálókat, amelyek megeszik a gombát. A spórák később az állatok ürülékével épségben ürülnek ki, és kicsírázhatnak."
+    ],
+    [
+      "A gombák ",
+      "szaporodása ",
+      "megvalósulhat",
+      " ivaros",
+      " úton is. A gombáknál nincsenek hím- és nőnemű egyedek, itt két különböző gombaegyedről van szó. Az ivaros szaporodáshoz sok gomba a hifák segítségével speciális szerveket, úgynevezett ",
+      "termőtesteket",
+      " épít fel."
+    ],
+    [
+      "Az ivaros szaporodás a gombák hifáinak összeolvadásával kezdődik (",
+      "15. ábra",
+      ")."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "15",
+      "",
+      ". ábra:",
+      " Ivaros szaporodás 1. lépése „Rhizoids”"
+    ],
+    [
+      "Forrás: https://www.carlsonstockart.com/photo/bread-mold-fungus-life-cycle-structure-illustration/. ",
+      "Utolsó megtekintés:",
+      " ",
+      "2024.06.28."
+    ],
+    [
+      "A sejtmagok nem olvadnak össze, hanem különállóak maradnak, ",
+      "kétsejtmagvas (dikariotikus) hifákat",
+      " fejlesztenek."
+    ],
+    [
+      "Sok hifás gomba és élesztőgomba sejtmagja egyszeres vagy ",
+      "haploid",
+      " ",
+      "kromoszómakészlettel",
+      " rendelkezik (16. ábra). A két párosodó „egyed” sejtjeinek az összeolvadása először a citoplazma egyesülését jelenti. Sejtmagjainak az egyesülése",
+      " ",
+      "gyakran csak hosszú idővel később történik meg az akkor kialakuló termőtestekben."
+    ],
+    [
+      "",
+      "",
+      "",
+      "16",
+      "",
+      ". ábra",
+      ":",
+      " ",
+      "Kromoszómakészletek a gombák sejtmagjában"
+    ],
+    [
+      "Ennek során kettős vagy ",
+      "diploid",
+      " ",
+      "kromoszómakészlettel",
+      " (zigóta) rendelkező sejtek keletkeznek. A sejtmagok összeolvadását egy ",
+      "érési fázis, majd redukciós osztódás",
+      " követi. E folyamat során keletkeznek az ivaros spórák, amelyek ismét egyszeres kromoszómakészlettel rendelkeznek. ",
+      "Redukciós osztódás",
+      "ban a kétszeres kromoszóma készlettel rendelkező sejtek – úgynevezett ",
+      "zigótá",
+      "k; diploid kromoszómakészlet – kromoszóma száma megfeleződik (",
+      "17. ábra",
+      ")."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "17",
+      "",
+      ". ábra",
+      ":",
+      " ",
+      "Redukciós sejtosztódás"
+    ],
+    [
+      "Járomspórás gombáknál ",
+      "az ivaros szaporodás során két különböző ivarjellegű hifa egymás felé nő, majd egyesülnek, és leválnak az ivarszervek. Az ivarszervek összeolvadnak – a citoplazma, a kromoszómák nem – létrejön a ",
+      "zigospóra.",
+      " Az örökítőanyag a zigospórában egyesül, amit számfelező osztódás követ. A zigospóra kicsírázik, és kifejlődik a ",
+      "sporangium,",
+      " benne a spórákkal ",
+      "(",
+      "14. ábra",
+      ".",
+      ")"
+    ],
+    [
+      "A szaporodás azonban túlnyomórészt aszexuálisan képződő spórákkal történik, amelyek a hosszú, elágazás nélküli léghifák végén, a spóratartók belsejében képződnek (",
+      "18. ábra",
+      ")."
+    ],
+    [
+      " ",
+      "\t",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "18",
+      "",
+      ". ábra:",
+      " A Mucor járomspórás gomba (fejespenész) szaporodása ivartalan (aszexuális) és ivaros módon (szexuális)"
+    ],
+    [
+      "Forrás: https://www.carlsonstockart.com/photo/bread-mold-fungus-life-cycle-structure-illustration/. ",
+      "Utolsó megtekintés:",
+      " ",
+      "2024.06.28."
+    ],
+    [
+      "Az 18. ábra angolnyelvű kifejezéseinek fordítása"
+    ],
+    [],
+    [
+      "A bazídiumos gombák ",
+      "általában ivaros úton szaporodnak, és ehhez az általunk „gombaként” ismert látható ",
+      "termőtesteket",
+      " alkotják (",
+      "19. ábra",
+      "). Ezek közé tartoznak a kalapos gombák is a kalapszerű termőtestükkel."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "19",
+      "",
+      ". ábra",
+      ": Bazidiumos gombák szaporodása"
+    ],
+    [
+      "Forrás: https://flw-hu.imadeself.com/33/griby/razmnozenie-gribov-kak-razmnozautsa-griby. ",
+      "Utolsó megtekintés:",
+      " ",
+      "2024.06.28."
+    ],
+    [
+      "Náluk az ivaros spórák a bunkó alakú bazídium végén kifelé fűződnek le (20. ábra)."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "20",
+      "",
+      ". ábra",
+      ": Ivaros spóraképződés folyamata"
+    ],
+    [
+      "Forrás: http://web.unideb.hu/~szentirmai/GOMBAK.pdf. ",
+      "Utolsó megtekintés:",
+      " ",
+      "2024.06.28."
+    ],
+    [],
+    [
+      "A mikroorganizmusok pusztulása"
+    ],
+    [],
+    [
+      "A ",
+      "pusztulást",
+      " befolyásoló tényezők"
+    ],
+    [
+      "A mikroorganizmusok – többek között a baktériumok – növekedése az élelmiszereken előbb-utóbb megáll. Ennek különböző okai lehetnek ",
+      "(",
+      "21. ábra",
+      ")",
+      ", amelyek külön-külön vagy együttesen is felléphetnek:"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "21",
+      "",
+      ". ábra: ",
+      "A növekedés korlátozása a baktériumok tevékenysége révén"
+    ],
+    [
+      "1. A tápanyagok kimerülése: ",
+      "az élelmiszerben lévő ",
+      "tápanyagok (szubsztrát)",
+      ",",
+      " például cukrok és aminosavak, amelyek egy bizonyos baktériumtípus számára hasznosíthatók, elfogynak. Számukra a ",
+      "tápanyagok kimerülnek."
+    ],
+    [
+      "Az aerob csírák esetében gyakran az ",
+      "oxigénhiány",
+      " az oka annak, hogy leáll a szaporodás, például a megromlott levesben lévő több milliónyi csíra elhasználja az ott rendelkezésre álló oxigént. Az oxigén hiánya a vákuumcsomagolásban szintén ahhoz vezet, hogy az aerob romlást okozó baktériumok növekedése csak korlátozottan következik be."
+    ],
+    [
+      "2. Az egyéb mikrobák által támasztott konkurencia: ",
+      "az élelmiszereken élő vegyes populációk egymásra vannak utalva, például amikor az egyik csíra felveszi és hasznosítja a másik csíra által kiválasztott végtermékeket. A mikrobák számára a tápanyagok az élelmiszerekben korlátozottan állnak rendelkezésre, erős verseny alakul ki az azonos anyagokat lebontó fajok között. Egyes ",
+      "csírák jobban alkalmazkodnak",
+      " a körülményekhez, mint mások. Ezek gyorsabban növekednek, és elveszik a tápanyagokat a többiektől. Például a nyers darált húsban gyakran kis mennyiségben ",
+      "Staphylococcus",
+      "ok találhatók, de ezek szinte soha nem vezetnek ételmérgezéshez. Nyilvánvaló, hogy más csírák, például a ",
+      "Pseudomonas",
+      "ok jobban alkalmazkodtak a ",
+      "miliőhöz",
+      ", és megakadályozzák a ",
+      "Staphylococcus",
+      "ok tömeges elszaporodását."
+    ],
+    [
+      "3. A mikrobák által kiválasztott végtermékek: ",
+      "a húsleves a tejhez hasonlóan megsavanyodhat. Minden aktív anyagcserével rendelkező baktérium az élelmiszeren való megtelepedése és szaporodása során folyamatosan végtermékeket választ ki. Ha ezek nagy mennyiségben halmozódnak fel, ",
+      "megakadályozzák a további szaporodást.",
+      " Így az aerob csírák kis mennyiségben, a fermentáló szervezetek pedig nagy mennyiségben ",
+      "szerves savakat",
+      " képeznek. A legtöbb baktérium esetében a 4 alatti ",
+      "pH-értékek",
+      " gátolják a növekedést [számos baktérium által termelt ",
+      "szén-dioxid",
+      " (CO",
+      "2",
+      ") savassá teszi a közeget]. A ",
+      "védőgázként",
+      " is használt CO",
+      "2",
+      " ezenkívül kiszorítja az oxigént, és különleges gátló hatással van az aerob csírákra. A fehérjebontó csírák ",
+      "ammóniát",
+      " (NH",
+      "3",
+      ") és ",
+      "aminokat",
+      " (szerves nitrogénvegyületek) szabadíthatnak fel. Ezek a nitrogénvegyületek a környezetet ",
+      "lúgossá",
+      " teszik, és rontják valamennyi mikroba életfeltételeit. Az ",
+      "alkohol",
+      " is olyan végtermék, amely csökkenti a mikroorganizmusok anyagcsere-tevékenységét. A magas alkoholkoncentráció megzavarja a sejtmembrán működését, és a sejtek enzimjeinek a megalvadását idézi elő (22. ábra)."
+    ],
+    [
+      "A növekedés gátlása mikrobiális végtermékekkel"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "22",
+      "",
+      ". ábra:",
+      " A növekedés gátlása mikrobiális végtermékekkel"
+    ],
+    [
+      "4. Gátlóanyagok képzése"
+    ],
+    [
+      "Az erőforrások szűkössége miatt a vegyes populációkban lévő csírák harcolnak egymás ellen. Olyan ",
+      "gátlóanyagokat",
+      " ",
+      "választanak ki, amelyek más mikrobafajok ellen irányulnak, de amelyekkel szemben a saját sejtjeik védve vannak (",
+      "23. ábra",
+      "). Ilyen gátlóanyagok az ",
+      "antibiotikumok",
+      ", amelyeket a mikrobák a természetes élőhelyeiken és az élelmiszerekben is termelnek. Ezenkívül sok baktérium ",
+      "bakteriocinnek",
+      " ",
+      "nevezett fehérjéket termel, amelyek mérgező hatással vannak a közeli rokonságban lévő baktériumokra. Például a tejsavbaktériumok által termelt",
+      " nizin",
+      " gátolja a Gram-pozitív baktériumokat, például a listeriákat."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "23",
+      "",
+      ". ábra",
+      ":",
+      " A növekedés gátlása mikrobiális végtermékekkel"
+    ],
+    [
+      "Az aerob baktériumok, például a zsírbontó baktériumok ",
+      "hidrogén-peroxidot",
+      " termelnek, amely károsítja a sejteket és a mikroorganizmusokat. Sok mikroba méregtelenítő mechanizmusokkal, például ",
+      "kataláz enzimmel",
+      " rendelkezik, amely ártalmatlanná teszi ezt a vegyületet. Az anaerob baktériumok nem rendelkeznek ilyen védőenzimekkel, és gyorsan elpusztulnak."
+    ],
+    [
+      "5. Az élelmiszernek magának ",
+      "bizonyos tényezői, mint a pH-érték vagy a ",
+      "vízaktivitás",
+      ",",
+      " szintén megakadályozhatják vagy korlátozhatják a mikrobák növekedését. Így ezeket a tulajdonságokat felhasználják a tartósító eljárások és a körülmények megválasztásakor. Például alacsonyabb pH értékű alapanyag feldolgozásakor mint a meggy kíméletes hőkezelést lehet alkalmazni – alacsonyabb hőfok 100 ⁰C, a hőérzékeny összetevők kevésbé károsodnak."
+    ],
+    [
+      "Vízaktivitás:",
+      " A mikrobák számára elérhető szabad víz mennyiségének mérőszáma egy termékben."
+    ],
+    [],
+    [
+      "A mikroorganizmusok rezisztenciája"
+    ],
+    [
+      "A mikroorganizmusok életkörülményei mind természetes élőhelyeiken, mind élelmiszerekben gyakran változnak. Válaszreakcióik, amelyekkel a körülményekhez igyekeznek alkalmazkodni, genetikai és biokémiai folyamatokat indítanak el. A mikroorganizmusokat érő kedvezőtlen környezeti tényezőke",
+      "t ",
+      "stresszhatásoknak",
+      " ",
+      "nevezzük. Következményük lehet, hogy visszaszorul vagy megáll a populáció szaporodása, de akár végzetes is lehet, mert a sejtek pusztulását okozza (hőkezelés, fagyasztás, szárítás, mérgező vegyi anyagok stb.). A stresszhatás kivédésére a mikroorganizmusok csak bizonyos határok közt képesek, azokon túl a sejtek sérülnek, károsodnak. A túlélő sejtek a hatás elmúltával, kedvező körülmények között képesek lehetnek a sérülés kijavítására, helyrehozatalára, de lehetséges az is, hogy bár életben maradnak, szaporodni már nem tudnak."
+    ],
+    [
+      "Ez az ",
+      "élő, de nem szaporodó állapot (rövidítése VBNC",
+      ", azaz ",
+      "V",
+      "iable ",
+      "b",
+      "ut ",
+      "non",
+      "-",
+      "c",
+      "ulturable",
+      ")",
+      " különösen fontos az élelmiszer-mikrobiológiában a kórokozó mikroorganizmusok megítélése szempontjából."
+    ],
+    [],
+    [
+      "Stresszválaszok"
+    ],
+    [
+      "A mikroorganizmusok a környezeti paraméterek megváltozására különböző „túlélési technikák”-kal reagálnak. Stresszhatás lehet a hőmérséklet hirtelen megváltozása, pH, sókoncentráció, alacsony tápanyagkoncentráció, stb. A stresszre adott válasz lehet például néhány baktériumfaj rezisztens ",
+      "endospóra",
+      " képzése."
+    ],
+    [],
+    [
+      "Baktériumspórák",
+      " és egyéb kitartó képletek képzése"
+    ],
+    [
+      "A baktériumok számára nem mindig állnak rendelkezésre kedvező életfeltételek. Egy növekedési időszak után a ",
+      "felhasználható tápanyagok kimerülnek",
+      ". Ebben a helyzetben a baktériumok bizonyos csoportjai képesek sejtjeiket többnyire vastag falú ",
+      "kitartó sejtekké ",
+      "alakítani, hogy túléljék a kedvezőtlen körülményeket. Ha a környezeti feltételek kedvezőek lesznek, a kitartó sejtek újra kicsíráznak, és ",
+      "vegetatív baktériumsejtekké",
+      " ",
+      "alakulnak. A túlélő formákat ",
+      "spóráknak",
+      " nevezik ",
+      "(",
+      "24. ábra",
+      ")",
+      "."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "24",
+      "",
+      ". ábra:",
+      " A baktériumok kitartó képletei"
+    ],
+    [
+      "A talajbaktériumok kedvezőtlen körülmények között az egész sejtjüket ",
+      "cisztává",
+      " alakítják át, ami túlélheti a kiszáradást, de a magas hőmérséklet elpusztítja. Az ",
+      "Actinomycetes",
+      "-fajok, spórákat, úgynevezett ",
+      "konídiumokat",
+      " (spórák) hoznak létre. A baktériumok hosszú, gyakran elágazó, levegőbe nyúló hifái szabályos távolságokban válaszfalak behúzásával ",
+      "exospórává ",
+      "alakulnak át (",
+      "25. ábra",
+      ")."
+    ],
+    [
+      "",
+      "",
+      "",
+      "25",
+      "",
+      ". ábra:",
+      " Actinomycetes-fajok, spóraképzése"
+    ],
+    [
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "26",
+      "",
+      ". ábra: ",
+      "a) Actinomycetes-fajok a légmicéliumokon a spóraképződés folyamata, úgynevezett konídiumokat képeznek b) mikroszkópos kép"
+    ],
+    [
+      "Bár nem rendelkeznek különösen vastag sejtburokkal, mégis úgy alakulnak ki, hogy jó védelmet biztosítanak a kiszáradással és a vegyi anyagokkal szemben (",
+      "26. ábra",
+      ")."
+    ],
+    [
+      "Számos Gram-negatív baktérium, mint a szalmonellák, kedvezőtlen környezeti feltételek mellett korlátozott anyagcserével rendelkező kitartó képleteket képeznek. Ebben a fázisban a szaporodási képességük is megszűnik. Laboratóriumban nem lehet őket agar táptalajon tenyészteni. Ezért ",
+      "VBNC-alakoknak",
+      " (angol: viable but non-culturable = életképes, de nem tenyészthető) nevezzük őket ",
+      "(",
+      "24. ábra",
+      ").",
+      " Bizonyosnak tekinthető, hogy a kórokozók ilyen formában is képesek behatolni egy gazdaszervezetbe, például az emberbe. Azután visszaalakulhatnak szaporodásra képes mikrobákká, és betegséget válthatnak ki."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "27",
+      "",
+      ". ábra:",
+      " A Bacillus cereus vegetatív sejtjei és endospórái (nyíl)"
+    ],
+    [
+      "Az endospórák ",
+      "olyan kitartó képletek (24. ábra), amelyek a sejt ",
+      "belsejében",
+      " képződnek (görög endo = belül) (27. ábra). Az ",
+      "26. ábra",
+      " azt mutatja, hogy a tápanyagszubsztrátok hiánya esetén a sejt egy kis része lefűződik."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "28",
+      "",
+      ". ábra:",
+      " ",
+      "Endospórák képződése a környezeti feltételek megváltozásának hatására"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "29",
+      "",
+      ". ábra:",
+      " ",
+      " Endospórák képződése és csírázás folyamata"
+    ],
+    [
+      "Forrás: https://www.eltereader.hu/media/2014/04/Bevezetes_a_prokariotak_vilagaba.pdf. ",
+      "Utolsó megtekintés",
+      ":",
+      " 2024.06.28."
+    ],
+    [
+      "A sejt belsejében a sejtnek egy ré",
+      "sze vastag burokkal (",
+      "28. és 29.",
+      " ",
+      "ábra",
+      ") rendelkező",
+      " kitartó képletté alakul át (",
+      "29.",
+      " ábra IV. szakasz",
+      "). Két baktériumnemzetség, a ",
+      "Bacillusok ",
+      "és a",
+      " ",
+      "Clostridiumok",
+      " képesek arra, hogy endospórákat képezzenek. Az endospóra alakja és elhelyezkedése a sejtben belül különböző lehet (",
+      "30",
+      ". ábra",
+      ")."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "30",
+      "",
+      ". ábra:",
+      " Az endospórák alakja és elhelyezkedése a sejten belül"
+    ],
+    [
+      "Forrás: https://ttk.elte.hu/dstore/document/854/book.pdf. ",
+      "Utolsó megtekintés:",
+      " ",
+      "2024.06.28."
+    ],
+    [
+      "Az endospórát képző baktériumok morfológiai (alaktani) jellegzetessége a spóra mérete, elhelyezkedése a sejten belül. A képen látható vázlat a jellegzetes endospóra alakokat mutatja: ",
+      "(",
+      "30",
+      ". ábra",
+      ")"
+    ],
+    [
+      "1. Középen elhelyezkedő endospóra a pálca alakú sejtben C és F",
+      "\n2. Terminális (sejt egyik végében) spóra, A, B, D és E",
+      "\n3. Terminális spóra: a tojás alakú spóra szélesebb, mint a vegetatív sejt, ezért a spóra deformálja a sejtet, kitüremkedést okoz, mikroszkópos vizsgálatkor dobverőhöz hasonló sejtalakot mutat D, E"
+    ],
+    [
+      "Az endospórák képződése nem szolgálja a szaporodásukat: minden sejtből egy endospóra keletkezhet. "
+    ],
+    [
+      "Arra szolgál, hogy túléljék az élet és a növekedés számára kedvezőtlen körülményeket. Ha kedvezővé válnak az életkörülmények, az endospórák kicsíráznak. Visszaalakulnak aktív anyagcserével rendelkező sejtekké."
+    ],
+    [
+      "Az endospórák hőállósága ",
+      "meghatározó az élelmiszer tartósítása és a higiénia szempontjából. Ahhoz ugyanis, hogy a ",
+      "hőkezeléssel (sterilizálás)",
+      " minden jelenlévő ",
+      "mikroorganizmust elpusztítsunk, a biztonság érdekében magas hőmérsékletet kell alkalmazni. A baktériumok élelmiszerben előforduló vegetatív sejtjei már 50–60 °C-on elpusztíthatók. Az endospórák esetében azonban ",
+      "100 °C feletti hőmérsékletet",
+      " kell alkalmazni. A hőállóság mellett az endospórák ellenállnak a kiszáradásnak, a savaknak és más vegyi anyagoknak, valamint a csíraölő sugárzásnak is. E tulajdonságaik miatt az endospórák gyakran rendkívül hosszú ideig képesek életben maradni."
+    ],
+    [
+      "Egy több mint 300 éves herbáriumban olyan ",
+      "Bacillus",
+      "-spórákat találtak, amelyek még mindig képesek voltak csírázni. Arról is beszámoltak, hogy csíraképes endospórákat találtak egy olyan méhben, amely egy 25–40 millió éves borostyánba volt zárva."
+    ],
+    [
+      "A mikroorganizmusok",
+      " ",
+      "a kedvezőtlen külső hatások okozta sérüléseket, ha a sejt életben maradt, kedvező környezeti feltételek esetén képes lehet kijavítani. Az életfunkciók visszaállítása függ a sérülés mértékétől."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "31",
+      "",
+      ". ábra:",
+      " a stresszhatás és a rezisztencia (ellenállás) összefüggése"
+    ],
+    [
+      "A sejtek javítási funkciója jelentős. A patogén (fertőző, betegséget okozó) mikrobák sérült sejtjei visszanyerhetik életképességüket és szaporodóképességüket, ezé",
+      "rt kimutatásuk nagyon fontos (",
+      "31",
+      ". ábra",
+      ",",
+      " reverzibilis sérülés",
+      "). Az élelmiszer tartósítására kevésbé drasztikus ",
+      "eljárást is választhatnak: ha a tárolásnál olyan körülményeket biztosítanak, ami a mikrobasejtek sérülésének kijavítását és életképességük visszaállítását gátolja."
+    ],
+    [],
+    [
+      "Összegzés"
+    ],
+    [],
+    [
+      "Baktériumok",
+      " szaporodása – a legfontosabb tények röviden"
+    ],
+    [
+      "a baktériumok szaporodhatnak ivartalanul és ivarosan is"
+    ],
+    [
+      "A baktériumok keresztirányú osztódással szaporodnak. "
+    ],
+    [
+      "Az exponenciális növekedés robbanásszerű szaporodáshoz vezethet."
+    ],
+    [
+      "Oxigén jelenlétében az aerob, lélegző baktériumok optimálisan ki tudják használni a rendelkezésre álló tápanyagokat és gyorsan szaporodnak."
+    ],
+    [
+      "Az anaerob baktériumok oxigén hiányában képesek élni. Különböző lehetőségeik vannak arra, hogy fermentációt végezzenek vagy az anaerob légzés különböző módjait gyakorolják."
+    ],
+    [
+      "Az endospórák a bacillusok és a clostridiumok kitartó képletei, amelyek rendkívül magas hőállósággal rendelkeznek, amely gyakran meghaladja a 100 °C-t."
+    ],
+    [],
+    [
+      "A penészgombák jellemző szaporodásai"
+    ],
+    [
+      "Elsősorban ivartalanul, spórák (konídiumok) képződésével szaporodnak. Nagy tömegben „penészként” láthatók, amelyet a penészgombafajok jellegzetes módon képeznek."
+    ],
+    [
+      "Néhány faj képes ivarszerveket képezni, akkor azok nagyon kicsik és szemmel nem láthatók."
+    ],
+    [],
+    [
+      "Gombák",
+      " ",
+      "szaporodása",
+      "– a legfontosabb tények röviden"
+    ],
+    [
+      "Az élesztőgombák sarjadzással, egyesek keresztirányú osztódással szaporodnak. Gyors növekedés és oxigén hiányában intenzív fermentációs tevékenység jellemzi őket."
+    ],
+    [
+      "A hifás gombák kiterjedt micéliumokat képeznek szilárd szubsztrátokban, például a talajban és az élelmiszerekben. Hatékonyan szaporodnak gombaspórák képződésével, amelyek hőállósága alacsonyabb, mint a bakteriális endospóráké."
+    ],
+    [
+      ""
+    ],
+    [
+      "Ábrajegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "Irodalomjegyzék"
+    ],
+    [
+      "",
+      "",
+      "",
+      "(2019). Forrás: Vegyipari és biomérmöki műveletek II. Biomérnöki műveletek: http://oktatas.ch.bme.hu/oktatas/konyvek/mezgaz/BIM_mtanar/VEBIBiom%C3%A9rn%C3%B6ki.pdf"
+    ],
+    [
+      "Balázs, B. A. (2013.). ",
+      "Bevezetés a prokarióták világába.",
+      " Budapest: Eötvös Loránd Tudományegyetem."
+    ],
+    [
+      "Deák Tibor, K. G. (dátum nélk.). ",
+      "docplayer",
+      ". Forrás: https://docplayer.hu/3748205-Elelmiszer-mikrobiologia-deak-tibor-kisko-gabriella-maraz-anna-mohacsine-farkas-csilla.html "
+    ],
+    [
+      "docplayer",
+      ". (2024). Forrás: https://docplayer.hu/17256074-A-bakteriumok-szaporodasa.html"
+    ],
+    [
+      "dr. Deák Tibor, d. F. (1980). ",
+      "Konzerv-, hús és hűtőipari mikrobiológia.",
+      " Budapest : Mezőgazdasági Kiadó."
+    ],
+    [
+      "dr. Gyimesi János, d. S. (1979). ",
+      "Élesztő és szeszipari kézikönyv.",
+      " Budapest: Mezőgazdasági Könyvkiadó."
+    ],
+    [
+      "Éva, G. (2021). ",
+      "Általános mikrobiológia.",
+      " Kolozsvár: Scientia Kiadó."
+    ],
+    [
+      ""
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Balogh Mária"
+      ],
+      [
+        "Szakmai lektor:",
+        "Zakariásné Kiskó Bernadett"
+      ],
+      [
+        "Évfolyam:",
+        "11. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "18 óra"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Élelmiszeripar"
+      ],
+      [
+        "Szakma:",
+        "Élelmiszer-ellenőrzési technikus"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Élelmiszer-ellenőrzés"
+      ],
+      [
+        "Tantárgy:",
+        "Élelmiszer-mikrobiológia"
+      ],
+      [
+        "",
+        ""
+      ],
+      [
+        "",
+        ""
+      ]
+    ],
+    [
+      [
+        "",
+        "Ivaros spóraképzés\nfogalmak jelentése\ndiploid kétszeres vagy dupla kromoszóma készlet ivaros szaporodásnál keletkezik\npszeudo-hifa ál hifa az osztódás után együtt maradnak a sejtek"
+      ],
+      [
+        "",
+        "Ivartalan spóraképzés\naszkusz spóratartó 4 db egyszeres kromoszóma készlettel rendelkező spórával\nsporuláció spóraképződés szakaszai ivaros és ivartalan"
+      ],
+      [
+        "",
+        "sarjadzás\nhaploid egyszeres kromoszóma készlet"
+      ]
+    ],
+    [
+      [
+        "diploid",
+        "kétszeres vagy dupla kromoszómakészlet ivaros szaporodásnál keletkezik"
+      ],
+      [
+        "haploid",
+        "egyszeres kromoszómakészlet"
+      ],
+      [
+        "aszkusz",
+        "spóratartó"
+      ],
+      [
+        "pszeudo-hifa",
+        "álhifa; az osztódás után együtt maradnak a sejtek"
+      ],
+      [
+        "sporuláció",
+        "spóraképződés szakaszai ivaros és ivartalan"
+      ]
+    ],
+    [
+      [
+        "Mindkét hifából a sejtmagok bejutnak ezekbe a duzzadásokba, amelyeket progametangiumnak neveznek ivarsejtek (n)",
+        "",
+        "A gametangium falai feloldódnak, a sejtmagok egyesülnek és diploid zigóta (2n) sejtmagok képződnek (fertilisation megtermékenyítés)"
+      ],
+      [
+        "Keresztfalak képződnek (gametangium) előállításához",
+        "",
+        "A sejtmagokból zigospóra képződik"
+      ],
+      [
+        "Amikor az ellentétes törzsek hifái egymáshoz közel nőnek, mindkét törzsön duzzanat nő, és összeérnek ((strain + és -)",
+        "",
+        "érési és nyugalmi szakasz után a zigospóra redukciós vagy számfelező osztódással (meózissal) csírázik"
+      ],
+      [
+        "Az ivaros szaporodás Rhizopusban csak egy plusz és egy mínusz törzs között fordulhat elő",
+        "",
+        "A zigospórából hifa nő ki és spóratokot (sporangiumot) hoz létre a csúcson \n"
+      ],
+      [
+        "",
+        "",
+        "A sporangium megnyílik, és sok haploid spórát szabadít fel, amelyek új egyedekké nőnek (zigospore germination= zigospóra csírázása"
+      ]
+    ],
+    [
+      [
+        "",
+        "a hifa sejtek haploid kromoszómakészlettel"
+      ],
+      [
+        "",
+        "zigóta diploid kromoszóma készlettel"
+      ],
+      [
+        "",
+        "utódsejtek haploid kromoszóma készlettel"
+      ]
+    ],
+    [
+      [
+        "Asexual reproduction",
+        "aszexuális vagy ivartalan szaporodás"
+      ],
+      [
+        "opposite mating type connect",
+        "ellentétes ivari jellegű hifavégek összekapcsolódnak"
+      ],
+      [
+        "Matura sporangia",
+        "érett spóra"
+      ],
+      [
+        "Mature zygospore",
+        "érett zigospóra"
+      ],
+      [
+        "Sporangium",
+        "spóratartó"
+      ],
+      [
+        "Meosis",
+        "redukciós vagy számfelező osztódás"
+      ],
+      [
+        "immature sporangia",
+        "éretlen sporangiumok"
+      ],
+      [
+        "zygote",
+        "zigóta"
+      ],
+      [
+        "germinating zigospora",
+        "csírázó zigospóra"
+      ]
+    ],
+    [
+      [
+        "",
+        "képfelirat fordítása"
+      ],
+      [
+        "",
+        "kolónia(telep) centruma"
+      ],
+      [
+        "",
+        "spórák"
+      ],
+      [
+        "",
+        "telep széle"
+      ],
+      [
+        "",
+        "légmicélium"
+      ],
+      [
+        "",
+        "szubsztrát micélium-tápanyagot átszövő micéliumok"
+      ]
+    ]
+  ],
+  "headers": [
+    "",
+    ""
+  ],
+  "footers": [
+    "",
+    ""
+  ],
+  "footnotes": [
+    "",
+    "",
+    " https://tudasbazis.sulinet.hu/hu/0d0cc85d-f7b5-41fb-aec0-d1b8362c7ebf_e90c4562-46d5-4b3a-a5ed-d640f67b512a_1ba1b4f5-ec42-4484-96b3-a3d524cb67dc_a871b321-46cf-4955-865d-72af342d047e_e99697a7-50dc-494c-b9f1-13dd916ac6ce_8a428d92-f65f-4222-96f7-56411ef81eae_03ee9943-8c8e-43dd-be47-e7a1be97d46d_203d67ab-399c-40e1-b452-a77e80c2e434_bd570a57-f4ab-42b3-82ad-dc05a1a088d5 (2024.06.28.)"
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image27.png",
+      "path": null,
+      "bytes": 15237
+    },
+    {
+      "name": "image24.png",
+      "path": null,
+      "bytes": 25716
+    },
+    {
+      "name": "image26.png",
+      "path": null,
+      "bytes": 10478
+    },
+    {
+      "name": "image25.png",
+      "path": null,
+      "bytes": 11078
+    },
+    {
+      "name": "image22.png",
+      "path": null,
+      "bytes": 308568
+    },
+    {
+      "name": "image21.jpeg",
+      "path": null,
+      "bytes": 148204
+    },
+    {
+      "name": "image20.png",
+      "path": null,
+      "bytes": 31553
+    },
+    {
+      "name": "image23.png",
+      "path": null,
+      "bytes": 63890
+    },
+    {
+      "name": "image33.png",
+      "path": null,
+      "bytes": 133969
+    },
+    {
+      "name": "image29.png",
+      "path": null,
+      "bytes": 243361
+    },
+    {
+      "name": "image35.png",
+      "path": null,
+      "bytes": 17500
+    },
+    {
+      "name": "image34.png",
+      "path": null,
+      "bytes": 31790
+    },
+    {
+      "name": "image19.png",
+      "path": null,
+      "bytes": 80150
+    },
+    {
+      "name": "image32.png",
+      "path": null,
+      "bytes": 32326
+    },
+    {
+      "name": "image31.png",
+      "path": null,
+      "bytes": 164780
+    },
+    {
+      "name": "image30.jpeg",
+      "path": null,
+      "bytes": 11325
+    },
+    {
+      "name": "image28.png",
+      "path": null,
+      "bytes": 310038
+    },
+    {
+      "name": "image15.png",
+      "path": null,
+      "bytes": 33839
+    },
+    {
+      "name": "image17.png",
+      "path": null,
+      "bytes": 234611
+    },
+    {
+      "name": "image7.png",
+      "path": null,
+      "bytes": 346236
+    },
+    {
+      "name": "image6.png",
+      "path": null,
+      "bytes": 35816
+    },
+    {
+      "name": "image5.png",
+      "path": null,
+      "bytes": 211029
+    },
+    {
+      "name": "image4.png",
+      "path": null,
+      "bytes": 25968
+    },
+    {
+      "name": "image3.png",
+      "path": null,
+      "bytes": 23797
+    },
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image18.png",
+      "path": null,
+      "bytes": 73352
+    },
+    {
+      "name": "image8.png",
+      "path": null,
+      "bytes": 59885
+    },
+    {
+      "name": "image10.png",
+      "path": null,
+      "bytes": 15261
+    },
+    {
+      "name": "image16.png",
+      "path": null,
+      "bytes": 33222
+    },
+    {
+      "name": "image9.png",
+      "path": null,
+      "bytes": 54468
+    },
+    {
+      "name": "image14.png",
+      "path": null,
+      "bytes": 15406
+    },
+    {
+      "name": "image12.png",
+      "path": null,
+      "bytes": 34298
+    },
+    {
+      "name": "image11.png",
+      "path": null,
+      "bytes": 15746
+    },
+    {
+      "name": "image13.png",
+      "path": null,
+      "bytes": 14441
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Table Normal",
+    "Title",
+    "Table Normal",
+    "Normal (Web)",
+    "annotation text",
+    "Cím Char",
+    "Subtitle",
+    "Alcím Char",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "Hyperlink",
+    "Feloldatlan megemlítés1",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Table Grid",
+    "Jegyzetszöveg Char",
+    "11",
+    "9",
+    "Placeholder Text",
+    "Címsor 4 Char",
+    "Caption",
+    "bajusz_téglalap",
+    "bajusz_téglalap Char",
+    "Címsor 5 Char",
+    "ism_kérdések",
+    "ism_kérdések Char",
+    "Képaláírás Char",
+    "kérdés_számozva",
+    "kérdés_számozva Char",
+    "bajusz_pötty",
+    "bajusz_pötty Char",
+    "szituáció",
+    "fontos",
+    "fontos Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "toc 4",
+    "bajusz_kötőjel",
+    "betűkiemelés",
+    "List Paragraph",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "példa",
+    "példa Char",
+    "képlethez",
+    "nyelv",
+    "mellékjegyzet",
+    "table of figures",
+    "Revision",
+    "annotation reference",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "Feloldatlan megemlítés2",
+    "fcabze",
+    "aml7pd",
+    "FollowedHyperlink",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "No Spacing",
+    "Nincs térköz Char",
+    "ábra",
+    "táblázat",
+    "ábra Char",
+    "táblázat Char",
+    "[Alapbekezdés]",
+    "Default",
+    "footnote text",
+    "Lábjegyzetszöveg Char",
+    "footnote reference",
+    "m_-1593681220123118980p1",
+    "Feloldatlan megemlítés3",
+    "Feloldatlan megemlítés4",
+    "6",
+    "5",
+    "4",
+    "3",
+    "2",
+    "1",
+    "Feloldatlan megemlítés5",
+    "Unresolved Mention",
+    "Bibliography"
+  ]
+}

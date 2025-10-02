@@ -1,0 +1,4210 @@
+{
+  "core_properties": {
+    "creator": "Török Aliz (ELMS)",
+    "lastModifiedBy": "Soós Gabriella Brigitta (ELMS)",
+    "revision": "2",
+    "created": "2024-09-24T13:56:00Z",
+    "modified": "2024-09-24T13:56:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal",
+    "TotalTime": "0",
+    "Pages": "52",
+    "Words": "6641",
+    "Characters": "45830",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "381",
+    "Paragraphs": "104",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "52367",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.9.1",
+    "Agrárműszaki erőforrások hidraulikus teljesítményátvitele I.",
+    "Témák kézirata",
+    "",
+    "",
+    "Tartalomjegyzék",
+    "1. Hidraulikus energiaátvitel I.\t3",
+    "1.1.\tA hidraulika alapjai és összefüggései\t3",
+    "1.1.1.\tHidraulikus rendszerek munkafolyadékai (hidraulikaolajok)\t3",
+    "1.1.1.1.\tViszkozitás\t4",
+    "1.1.1.2.\tLobbanáspont\t5",
+    "1.1.1.3.\tGyulladáspont\t5",
+    "1.1.1.4.\tAlkatrészek kenése\t5",
+    "1.1.1.5.\tAlkatrészek hűtése\t5",
+    "1.1.1.6.\tSzerkezeti elemek tisztítása\t6",
+    "1.1.1.7.\tKeverhetőség\t6",
+    "1.1.1.8.\tKorrózióvédelem\t6",
+    "1.1.1.9.\tKörnyezetvédelem\t6",
+    "1.1.1.10.\tLégelnyelési hajlam\t7",
+    "1.1.1.11.\tA munkafolyadékok fontosabb csoportjai és jelölésük\t7",
+    "1.1.2.\tHidromechanika\t7",
+    "1.1.2.1.\tHidrosztatika (nyugvó folyadékok mechanikája)\t8",
+    "1.1.2.2.\tHidrodinamika (áramló folyadékok mechanikája)\t8",
+    "1.1.2.3.\tHidrosztatikus nyomás\t9",
+    "1.1.2.4.\tA nyomás terjedése zárt térben (Pascal törvénye)\t10",
+    "1.1.2.5.\tArkhimédész törvénye\t17",
+    "1.1.2.6.\tÁramlás a csővezetékekben\t23",
+    "1.2.\tA hidraulikus rendszer általános felépítése és működési elvei\t27",
+    "1.2.1.\tFelépítése\t27",
+    "1.2.2.\tA hidraulikus rendszer működése\t28",
+    "1.2.2.1.\tEnergiaátalakítók\t29",
+    "1.2.2.2.\tIrányítóegységek\t31",
+    "1.2.2.3.\tHidraulikus kapcsolási rajz olvasása\t34",
+    "1.2.2.4.\tA hidraulikus rendszer működése\t42",
+    "1.2.2.5.\tSzivattyúk és hidromotorok fontosabb jellemzői\t45",
+    "Ábrajegyzék\t50",
+    "Táblázatjegyzék\t51",
+    "",
+    "1. Hidraulikus energiaátvitel I.",
+    "1.1.\tA hidraulika alapjai és összefüggései",
+    "Az erő- és munkagépeken széles körben használnak hidraulikus berendezéseket, pl. a meg-hajtásnál, függesztőszerkezetnél, kormányzási rendszernél.",
+    "",
+    "A hidraulika szó a hydor (víz) és aulos (cső) görög szavakból alakult ki. A hidraulikus rendszerek esetében a víz helyett a munkafolyadék kifejezés használatos, mert a munkavégzésre használt folyadék lehet víz (öntözés), ásványi olaj (függesztőszerkezet) vagy növényi olajok (fékberendezés), az olajokat nevezhetik hidraulika olajoknak.",
+    "1.1.1.\tHidraulikus rendszerek munkafolyadékai (hidraulikaolajok)",
+    "A hidraulikus rendszerek működésének alapelve, hogy a folyadékok a teret kitöltik (nincs önálló alakjuk), és alacsony nyomás (kb. 30 MPa alatt) hatására nem változtatják meg a térfogatukat.",
+    "",
+    "A hidraulikaolajok főbb jellemzői:",
+    "viszkozitás (folyadékrészecskék egymáson való elmozdulásának ellenállása az áramlás során),",
+    "lobbanáspont,",
+    "gyulladáspont,",
+    "alkatrészek kenésére,",
+    "alkatrészek hűtésére,",
+    "szerkezeti elemek tisztítására való,",
+    "keverhetőség,",
+    "korrózióvédelemre alkalmas,",
+    "környezetvédelmi szempontból nem káros,",
+    "légelnyelési hajlam.",
+    "1.1.1.1.\tViszkozitás",
+    "A viszkozitás az egymás melletti folyadékrétegek elmozdításához szükséges ellenállást, vagyis folyadékrétegek egymáshoz való súrlódását jelenti. A viszkozitás az a belső ellenállás, amely megmutatja, hogy mekkora erő (F) kell ahhoz, hogy a folyadékrészecskék elmozduljanak egymástól.",
+    "",
+    "ahol:",
+    "η: a folyadék belső súrlódása (dinamikai viszkozitás) [Pas],",
+    "Δv: a folyadékrétegek egymáshoz viszonyított sebessége [m/s], ",
+    "Δx: a folyadékrétegek egymásól való távolsága [m],",
+    "A: súrlódó felület nagysága [m²].",
+    "",
+    "A dinamikai viszkozitás (ƞ) a folyadékra jellemző belső súrlódási együttható, amely a részecskék elmozdításához szükséges ellenállástól függ.",
+    "A munkafolyadékokra jellemző még a kinematikai viszkozitás (ν). A folyadékok kinematikai viszkozitását a dinamikai viszkozitás és a sűrűség hányadosa adja meg.",
+    "",
+    "ahol:",
+    "ρ: folyadék sűrűsége ",
+    "",
+    "A viszkozitás a munkafolyadékok nagyon jelentős tulajdonsága, mert nagymértékben befolyásolja a hidraulikus rendszer működését és üzemeltetési jellemzőit.",
+    "",
+    "Alacsony viszkozitású munkafolyadékok esetén megnőhetnek a résveszteségek. További hátrányuk, hogy az egymáson elmozduló alkatrészeken a kenőanyag vékonyabb rétegű, ezért a felületről könnyebben leválik, ezáltal nő az alkatrészek kopása.",
+    "Az alacsony viszkozitású munkafolyadékok előnyei:",
+    "az alkatrészek között és a folyadékban kisebb a súrlódás,",
+    "csökken a nyomás- és a teljesítményveszteség.",
+    "",
+    "Nagy viszkozitású munkafolyadékok esetén megnő a folyadék belső súrlódása. Ez nagymértékű hőfejlődést okozhat, ami miatt a rendszerben melegedés és nyomáscsökkenés következik be. Továbbá a rendszer hidegindításakor megnő a kavitáció veszélye.",
+    "",
+    "A munkafolyadékokra jellemző viszonyszám a viszkozitási index, amely megmutatja, hogy a kiválasztott munkafolyadék viszkozitása milyen a parafinos olajok (100) és a nafténes olajok (0) keverékéhez viszonyítva.",
+    "1.1.1.2.\tLobbanáspont",
+    "A munkafolyadéknak az a hőmérséklete, ahol a keletkező gázok nyílt láng hatására ellobbannak.",
+    "1.1.1.3.\tGyulladáspont",
+    "A munkafolyadéknak az a hőmérséklete, amelyen a munkafolyadék már önmagától meggyullad.",
+    "1.1.1.4.\tAlkatrészek kenése",
+    "A hidraulikus rendszerben számos egymáson elmozduló alkatrész van, amelyek között súrlódás lép fel, ami jelentős hőfejlődéssel és kopással járhat. A súrlódás- és kopáscsökkentés érdekében az alkatrészek kenést igényelnek. Ezt a munkafolyadékoknak kell biztosítani.",
+    "1.1.1.5.\tAlkatrészek hűtése",
+    "A hidraulikus rendszerben a működés során hő fejlődik. A keletkezett hőt a rendszerből el kell távolítani, és a környezetnek át kell adni. Ezeket a feladatokat a rendszer üzemeltetése során a munkafolyadék végzi el.",
+    "1.1.1.6.\tSzerkezeti elemek tisztítása",
+    "A hidraulikus rendszer egységeiben számos olyan szerkezeti egység van, ahol az alkatrészek egymáshoz képest elmozdulnak. Az üzemeltetés során az elmozdulás következtében a felületekről apró fémrészek és egyéb anyagok válhatnak le. A leváló részeket a rendszerből a munkafolyadék szállítja el, és nagy részüket a szűrő választja le. A szállítás során a levált részecskék az olaj belsejében haladnak tovább optimális esetben.",
+    "1.1.1.7.\tKeverhetőség",
+    "A munkafolyadékokat szükség esetén pótolni kell, pl. meghibásodás miatt a folyadék egy része elfolyhat, valamint időközönként a rendszerből a munkafolyadékot cserélni kell. Fontos, hogy a más gyártótól származó munkafolyadékok egymással keverhetők legyenek, vagy bizonyos gyártmányok keverhetők legyenek egymással.",
+    "1.1.1.8.\tKorrózióvédelem",
+    "A hidraulikus rendszerben használt anyagokat, alkatrészeket a munkafolyadékoknak meg kell védeni a korróziótól. Továbbá fontos, hogy a munkafolyadékok a korrózióra nem hajlamos anyagokat ne támadják meg.",
+    "1.1.1.9.\tKörnyezetvédelem",
+    "A hidraulikus rendszer meghibásodása vagy tömítetlensége miatt a környezetbe jutó munka-folyadék nem káros az élővilágra.",
+    "",
+    "Környezetvédelmi szempontból a munkafolyadékokkal szemben támasztott fontosabb követelmények:",
+    "jó biológiai lebonthatóság,",
+    "ne veszélyeztesse a vizeket és a benne élő állatokat,",
+    "ne veszélyeztesse az élelmiszereket,",
+    "az emberi szervezetre ne legyen irritáló hatással, és ne okozzon fiziológiai elváltozásokat.",
+    "1.1.1.10.\tLégelnyelési hajlam",
+    "A hidraulikus rendszer üzemeltetése során a munkafolyadék a levegővel kapcsolatba kerülhet, pl. a tartályba áramlás során az olajban légbuborékok keletkezhetnek, ami az olaj habzását okozhatja. A légbuborékok a rendszer működésére káros hatással vannak, jelentősen csökkentik a hatásfokot és az alkatrészek élettartalmát. A munkafolyadékokat adalékanyagokkal látják el az elnyelt levegő mennyiségének csökkentése céljából. A légelnyelési hajlam megmutatja, hogy mennyi levegőt képes a munkafolyadék magában tartani.",
+    "1.1.1.11.\tA munkafolyadékok fontosabb csoportjai és jelölésük",
+    "A munkafolyadékok egymással való megfeleltetése érdekében fontos a jellemzők és jelölések szabványosítása. A mezőgazdasági gépészetben alkalmazott munkafolyadékok jellemző csoportjai és jelölésük:",
+    "",
+    "1. Táblázat: A mezőgazdasági gépészetben alkalmazott munkafolyadékok jellemző csoportjai és jelölésük",
+    "1.1.2.\tHidromechanika",
+    "A hidromechanika a folyadékok egyensúlyának és mozgásának vizsgálatával foglalkozik.",
+    "A hidromechanika két nagy területre bontható: hidrosztatika és hidrodinamika – ezek a hidraulikus teljesítményátvitel alapelvei.",
+    "1.1.2.1.\tHidrosztatika (nyugvó folyadékok mechanikája)",
+    "A hidrosztatika a folyadékban lévő nyomásváltozás és kis sebességgel áramló munkafolyadék esetén vizsgálja az egyensúlyi helyzeteket (1. ábra).",
+    "",
+    "",
+    "1. ábra: A hidrosztatikus rendszer elve",
+    "Forrás: Mezei Tibor – Kocsis István – Dr. Varga Vilmos: Mezőgazdasági erőgépek I. 395. o.",
+    "",
+    "A rendszerben munkavégzésre használt erő nagysága (F):",
+    "",
+    "ahol:",
+    "p: nyomás [Pa],",
+    "A: felület nagysága [m²]",
+    "",
+    "A hidrosztatikus rendszerek esetében a kis (v = 10 m/s alatti) munkafolyadék-sebesség és a rendszerben uralkodó nagy nyomás határozza meg a rendszer jellemzőit.",
+    "1.1.2.2.\tHidrodinamika (áramló folyadékok mechanikája)",
+    "A hidrodinamika az áramló folyadék sebességének változása során bekövetkező egyensúlyi helyzetek vizsgálatával foglalkozik (2. ábra).",
+    "",
+    "",
+    "2. ábra: A hidrodinamikus rendszer elve",
+    "Forrás: Mezei Tibor – Kocsis István – Dr. Varga Vilmos: Mezőgazdasági erőgépek I. 395. o.",
+    "",
+    "A rendszer által kifejtett erő meghatározása (F):",
+    "",
+    "ahol:",
+    "m: áramló közeg tömege [kg],",
+    "a: áramló közeg gyorsulása ",
+    "",
+    "A hidrodinamikus rendszerek esetében nagy (v=10 m/s feletti) munkafolyadék-sebesség esetén a rendszerben áramló közeg tömegének és sebességének gyorsulása határozza meg a rendszer jellemzőit.",
+    "1.1.2.3.\tHidrosztatikus nyomás",
+    "A hidrosztatikus nyomás (p) a hidrosztatikus folyadékoszlopban létrejövő nyomás, melynek nagysága a folyadékoszlop magasságától és a folyadék sűrűségétől függ.",
+    "",
+    "ahol:",
+    "ρ: folyadék sűrűsége ",
+    "g: gravitációs gyorsulás ",
+    "h: folyadékoszlop magassága [m]",
+    "",
+    "A hidrosztatikus nyomás nagysága független az edény alakjától (3. ábra).",
+    "",
+    "",
+    "3. ábra: A hidrosztatikus nyomás nagysága",
+    "Forrás: https://docplayer.hu/9418306-Tartalomjegyzek-tartalomjegyzek-5.html 11. o. (Megnyitva: 2024.07.01.)",
+    "1.1.2.4.\tA nyomás terjedése zárt térben (Pascal törvénye)",
+    "Amennyiben egy zárt edényben lévő folyadék valamelyik felületére (pl. dugattyúra) erő hat (4. ábra), az erő gyengítetlenül terjed tovább az edény minden pontjának irányában.",
+    "",
+    "",
+    "4. ábra: Nyomás terjedése zárt edényben",
+    "Forrás: Mezei Tibor – Kocsis István – Dr. Varga Vilmos: Mezőgazdasági erőgépek I. 398. o.",
+    "",
+    "A zárt edényben kialakuló nyomás (p) a tér minden pontján egyforma, viszont a kifejthető erő a felület nagyságától függően változik.",
+    "",
+    "ahol:",
+    "F: felületre ható erő nagysága [N]",
+    "A: a felület nagysága ",
+    "",
+    "Ezt a hatást használják ki az erők átadására. Az erők átadása során két eltérő átmérőjű munkahenger esetében három gyakorlati jellemzővel fogsz ismerkedni:",
+    "hidraulikus áttétel,",
+    "elmozdulás nagysága,",
+    "nyomásfokozás.",
+    "",
+    "Hidraulikus áttétel",
+    "Két eltérő átmérőjű munkahenger esetében abból kell kiindulni, hogy a zárt edényben a nyomás mindenhol egyforma.",
+    "",
+    "5. ábra: A hidraulikus áttétel elve",
+    "Forrás: Kocsis István – Nagy László: Szakmai számítások 83. o.",
+    "",
+    "A dugattyúkon ébredő erők nagyságát a következő módon lehet meghatározni:",
+    "a rendszerben a nyomás mindkét munkahengerben egyforma:",
+    "",
+    "az átmérők és az erők viszonyának egyensúlyi egyenlete:",
+    "",
+    "ahol:",
+    "F1: kis dugattyúra ható erő [N]",
+    "A1: kis dugattyú felülete [m²]",
+    "F2: nagy dugattyúra ható erő [N]",
+    "A2: nagy dugattyú felülete [m²]",
+    "a felületek és az erők aránya:",
+    "",
+    "a dugattyúfelületek képletét behelyettesítve:",
+    "",
+    "Az egyenlet rendezése után látható, hogy a dugattyúkra ható erők viszonya a dugattyúk át-mérőjének viszonya szerint változik:",
+    "",
+    "Feladat:",
+    "Egy hidraulikus olajemelő kisebbik dugattyújának az átmérője 9 mm, a nagyobbik dugattyú átmérője 80 mm. A kis munkahenger dugattyújára 600 N erő hat.",
+    "Határozd meg, hogy mekkora erő ébred a nagyobb munkahenger dugattyúján [N]!",
+    "",
+    "Megoldás:",
+    "d1 = 9 mm",
+    "d2 = 80 mm",
+    "F₁ = 600 N",
+    "F₂ = ? N",
+    "",
+    "A nagyobb dugattyún ébredő erő nagysága:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "A nagyobb munkahenger dugattyújára 47 407,4 N erő hat.",
+    "Dugattyúk elmozdulásának nagysága",
+    "A két hidraulikus munkahenger dugattyúinak az elmozdulási arányának elemzésekor alapvető szempont, hogy a két hengerbe egyforma mennyiségű munkafolyadék jut (6. ábra).",
+    "",
+    "6. ábra: Dugattyúk elmozdulási hossza",
+    "Forrás: Kocsis István – Nagy László: Szakmai számítások 85. o.",
+    "",
+    "Az elmozdulásokat tekintve látszik, hogy a kisebbik átmérőjű munkahenger dugattyúja nagyobb utat tesz meg, mint a nagyobb munkahenger dugattyúja. Az elmozdulást a dugattyúk által szállított munkafolyadék-mennyiség okozza (ami a két munkahengerben azonos), ebből következik az elmozdulás egyensúlyi egyenlete:",
+    "",
+    "ahol:",
+    "V1: kis dugattyú elmozdulásából szállított munkafolyadék mennyisége [mm³]",
+    "V2: nagy dugattyú elmozdulásából szállított munkafolyadék mennyisége [mm³]",
+    "",
+    "Az elmozdulások és a dugattyúfelületek aránya:",
+    "",
+    "ahol:",
+    "s1: kis dugattyú elmozdulása [mm]",
+    "s2: nagy dugattyú elmozdulása [mm]",
+    "A1: kis dugattyú felülete [mm²]",
+    "A2: nagy dugattyú felülete [mm²].",
+    "",
+    "A dugattyúfelületek képletének behelyettesítése után az elmozdulások aránya:",
+    "",
+    "",
+    "ahol:",
+    "d1: kis dugattyú átmérője [mm],",
+    "d2: nagy dugattyú átmérője [mm].",
+    "",
+    "Feladat",
+    "Egy hidraulikus emelő kis dugattyújának az átmérője 9 mm, és az elmozdulásának hossza 35 mm. A nagy munkahenger dugattyújának az átmérője 80 mm.",
+    "Határozd meg a nagy munkahenger dugattyújának elmozdulását egy emelés esetén [mm]!",
+    "",
+    "Megoldás:",
+    "d₁ = 9 mm",
+    "d₂ = 80 mm",
+    "s₁ = 35 mm",
+    "s₂ = ? mm",
+    "",
+    "Nagy munkahenger dugattyújának elmozdulása:",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "A nagyobb munkahenger dugattyúja a kisebb munkahenger dugattyújának egy elmozdulására 0,44 millimétert mozdul el.",
+    "",
+    "Nyomásfokozás a hidraulikus rendszerben",
+    "A nyomásfokozás elemzése során egy rúdra szerelt, két eltérő átmérőjű munkahengerrel rendelkező rendszer tereiben uralkodó nyomást vizsgálják. Alapvető szempont, hogy az eltérő átmérővel rendelkező munkahengerek dugattyúin ébredő erők egyformák (7. ábra).",
+    "",
+    "",
+    "7. ábra: A nyomás változása egyforma erők esetén",
+    "Forrás: Kocsis István – Nagy László: Szakmai számítások 87. o.",
+    "",
+    "A hidraulikus munkahenger dugattyúit egyforma erő terheli, ebből következik az elmozdulás egyensúlyi egyenlete:",
+    "",
+    "ahol:",
+    "F₁: nagyobb dugattyúra ható erő [N]",
+    "F₂: kisebb dugattyúra ható erő [N]",
+    "A₁: kis dugattyú felülete [mm²]",
+    "A₂: nagy dugattyú felülete [mm²]",
+    "p₁: nagyobb átmérőjű dugattyú terében lévő nyomás [N]",
+    "p₂: kisebb átmérőjű dugattyú terében lévő nyomás [N]",
+    "A nyomások és a munkahenger dugattyúátmérőjének aránya:",
+    "",
+    "",
+    "ahol:",
+    "d₁: kis dugattyú átmérője [mm]",
+    "d₂: nagy dugattyú átmérője [mm]",
+    "p₁: kis munkahengerben lévő nyomás [Pa]",
+    "p₂: nagy munkahengerben lévő nyomás [Pa]",
+    "",
+    "Feladat",
+    "Egy erőgép hidraulikus rendszerében nyomásfokozó egységet alakítottak ki, amelyben a kis munkahenger dugattyújának átmérője 45 mm, és ebben a térben 6,2 MPa nyomás van. A nagy munkahenger dugattyújának átmérője 65 mm.",
+    "Határozd meg a nagy munkahengerben lévő nyomás nagyságát [MPa]!",
+    "",
+    "Megoldás:",
+    "d₁ = 45 mm",
+    "d₂ = 65 mm",
+    "p₁ = 6,2 MPa = 6,2·10⁶ Pa",
+    "p₂ = ? Pa",
+    "",
+    "A nyomás nagysága:",
+    "",
+    "",
+    "",
+    "",
+    "A nagy munkahenger terében lévő nyomás: 2,9716·106 Pa.",
+    "1.1.2.5.\tArkhimédész törvénye",
+    "Minden folyadékba merülő testre felhajtóerő hat, amelynek nagysága függ a folyadék sűrűségétől és a folyadékba merülő test által kiszorított folyadék térfogatától.",
+    "",
+    "A folyadékba merülő test különböző módon viselkedik a folyadék sűrűségétől függően:",
+    "úszik (a tárgy a folyadék felszínén marad),",
+    "lebeg (a tárgy a folyadék belsejében van),",
+    "elmerül (a tárgy a folyadék aljára merül).",
+    "",
+    "Az úszás feltétele",
+    "A folyadékba merülő testre két erő hat, az egyik a test tömegéből adódik, a másik a kiszorított folyadék tömegéből adódik.",
+    "",
+    "",
+    "8. ábra: Az úszás feltétele",
+    "Forrás: https://nat2012.nkp.hu/tankonyv/fizika_10/lecke_01_002 (Megnyitva: 2024.07.01.)",
+    "",
+    "A tömegből származó erő nagysága (G):",
+    "",
+    "ahol:",
+    "m: testtömeg [kg]",
+    "g: gravitációs gyorsulás ",
+    "",
+    "A felhajtóerő nagysága:",
+    "",
+    "ahol:",
+    "V: folyadékba merülő test térfogata [dm³]",
+    "ρ: folyadék sűrűsége ",
+    "g: gravitációs gyorsulás ",
+    "",
+    "Az úszás akkor következik be, ha a felhajtóerő nagyobb, mint a test tömegéből származó erő, G > (8. ábra).",
+    "",
+    "Feladat",
+    "Egy hidraulikus rendszerben lévő munkafolyadékba 1 mm³ nagyságú parafa tömítésdarab került. A parafa sűrűsége 0,17 , a hidraulikus rendszerben a munkafolyadék sűrűsége 0,88 .",
+    "Határozd meg a tömítésdarabra ható erők nagyságát [N]!",
+    "",
+    "Megoldás:",
+    "",
+    "",
+    "V = 1 mm³",
+    "G = ? [N]",
+    " = ? [N]",
+    "",
+    "Tömegből ható erő nagysága:",
+    "",
+    "",
+    "",
+    "",
+    "Felhajtóerő nagysága:",
+    "",
+    "",
+    "",
+    "A felhajtóerő nagyobb, mint fa tömegből eredő erő nagysága, ezért a parafadarab a munkafolyadék tetejére úszik fel.",
+    "",
+    "A lebegés feltétele",
+    "A folyadékba merülő testre két erő hat, az egyik a test tömegéből adódik, a másik a kiszorított folyadék tömegéből adódik.",
+    "",
+    "",
+    "9. ábra: A lebegés feltétele",
+    "Forrás: https://nat2012.nkp.hu/tankonyv/fizika_10/lecke_01_002 (Megnyitva: 2024.07.01.)",
+    "",
+    "A kiszámítás menete megegyezik az úszásnál megismertekkel. A lebegés akkor következik be, ha a felhajtóerő nagysága egyenlő a test tömegéből származó erő nagyságával, G =  (9. ábra).",
+    "",
+    "Feladat",
+    "Egy hidraulikus rendszerben lévő munkafolyadékban 1 mm³ nagyságú gumi tömítésdarab került. A gumi sűrűsége 0,88 , a hidraulikus rendszerben a munkafolyadék sűrűsége 0,88 .",
+    "Határozd meg a gumi tömítésdarabra ható erők nagyságát [N]!",
+    "",
+    "Megoldás:",
+    "",
+    "",
+    "V = 1 mm³",
+    "G = ? [N]",
+    " = ? [N]",
+    "",
+    "Tömegből ható erő nagysága:",
+    "",
+    "",
+    "",
+    "",
+    "Felhajtóerő nagysága:",
+    "",
+    "",
+    "",
+    "",
+    "A felhajtóerő nagysága egyenlő a tömegből eredő erő nagyságával, ezért a gumidarab a munkafolyadékban lebeg.",
+    "",
+    "Az elmerülés feltétele",
+    "A folyadékba merülő testre két erő hat, az egyik a test tömegéből adódik, a másik a kiszorított folyadék tömegéből adódik.",
+    "",
+    "",
+    "10. ábra: Az elmerülés feltétele",
+    "Forrás: https://nat2012.nkp.hu/tankonyv/fizika_10/lecke_01_002 (Megnyitva: 2024.07.01.)",
+    "",
+    "A kiszámítás elve és menete megegyezik az úszásnál megismertekkel. Az elmerülés akkor következik be, ha a felhajtóerő nagysága kisebb a test tömegéből származó erő nagyságánál, G <  (10. ábra).",
+    "",
+    "Feladat",
+    "Egy hidraulikus rendszerben lévő munkafolyadékban 1 mm³ nagyságú acéldarab került. Az acéldarab sűrűsége 0,79 , a hidraulikus rendszerben a munkafolyadék sűrűsége 0,88 .",
+    "Határozd meg az acéldarabra ható erők nagyságát [N]!",
+    "",
+    "Megoldás:",
+    "",
+    "",
+    "V = 1 mm³",
+    "G = ? [N]",
+    " = ? [N]",
+    "",
+    "Tömegből ható erő nagysága:",
+    "",
+    "",
+    "",
+    "",
+    "Felhajtóerő nagysága:",
+    "",
+    "",
+    "",
+    "",
+    "A felhajtóerő nagysága kisebb a tömegből eredő erő nagyságánál, ezért az acéldarab a munkafolyadékban elsüllyed.",
+    "1.1.2.6.\tÁramlás a csővezetékekben",
+    "A munkafolyadékokat általában csővezetékek továbbítják. Most a folyadékok áramlására vonatkozó két jellemzővel ismerkedhetsz:",
+    "áramlás folytonosságának (kontinuitás) elve,",
+    "áramlási viszonyok a csővezetékben.",
+    "Áramlás folytonossága (kontinuitás)",
+    "A folyadékok összenyomhatatlanok, ebből következik, hogy a különböző keresztmetszetű cső-vezetékben áramló folyadék mennyisége minden ponton azonos.",
+    "",
+    "11. ábra: Áramlás folytonossága különböző keresztmetszetű csőben",
+    "Forrás: Mezei Tibor – Kocsis István – Dr. Varga Vilmos: Mezőgazdasági erőgépek I. 396. o.",
+    "",
+    "A különböző átmérőjű csővezetéken átáramló folyadék mennyisége mindenhol azonos, ami akkor lehetséges, ha a folyadék sebessége a különböző keresztmetszetekben eltérő (11. ábra). A folyamatos áramlás egyenlete:",
+    "",
+    "ahol:",
+    "Q: csővezetékben időegység alatt átáramló munkafolyadék mennyisége [mm³]",
+    "A₁, A₂, A₃: csővezeték keresztmetszetei [mm²]",
+    "v₁, v₂, v₃: az egyes keresztmetszetekben az áramló folyadék sebessége [mm/s]",
+    "",
+    "A felületek és az áramló folyadék sebességek arányát elemezve:",
+    "",
+    "",
+    "",
+    "Az áramlás folytonossága miatt (a csővezeték minden keresztmetszetében az átáramlott folyadék mennyiséges egyforma) a szűkebb keresztmetszetben az áramló folyadék sebessége nagyobb lesz, amelynek következtében a nyomás csökkeni fog.",
+    "",
+    "Bernoulli-egyenlet",
+    "A Bernoulli-egyenlet az összenyomhatatlan és összenyomható áramló közegek energiaviszonyait vizsgálja. A hidraulikában a folyadékot összenyomhatatlannak tekintik, erre alapul a Bernoulli-egyenlet.",
+    "",
+    "Az egyenlet vizsgálja az áramló közeg mozgási, helyzeti és belső energiája közötti összefüggéseket. A mozgási energiából származó nyomás, azaz a dinamikus vagy áramlási nyomás (), meghatározása:",
+    "",
+    "ahol:",
+    "ρ: a folyadék sűrűsége [kg/m³]",
+    "v: a folyadék áramlási sebessége [m/s]",
+    "",
+    "A helyzeti energiából származó nyomás, vagy más néven a statikusnyomás (), meghatározása:",
+    "",
+    "ahol:",
+    "ρ: a folyadék sűrűsége [kg/m³]",
+    "g: gravitációs gyorsulás ",
+    "h: a folyadékoszlop magassága [m]",
+    "",
+    "A belső energiából származó nyomás nagysága: p.",
+    "A Bernoulli-törvény szerint az áramló közegben a különböző energia-összetevők összege állandó.",
+    "A Bernoulli-egyenlet:",
+    "",
+    "",
+    "Áramlási viszonyok a csővezetékben",
+    "A folyadékrészecskék áramlása a csővezetékben alapvetően kétfajta lehet:",
+    "lamináris (lemezes),",
+    "turbulens (rendezetlen) (12. ábra).",
+    "",
+    "",
+    "12. ábra: Folyadékáramlási módok",
+    "Forrás: Mezei Tibor – Kocsis István – Dr. Varga Vilmos: Mezőgazdasági erőgépek I. 397. o.",
+    "",
+    "Lamináris (lemezes): Az áramlás során a folyadék belső súrlódása kisebb, mint a folyadék és a csőfal közötti súrlódás. A csővezeték közepén lesz a legkisebb a súrlódás, ezért az áramlás sebessége ott a legnagyobb. A mezőgazdasági gépek hidraulikus rendszerében legtöbbször ez az áramlási mód a legjobb.",
+    "Turbulens (rendezetlen): Az áramló közeg – a csővezeték bizonyos keresztmetszeteiben – nagy sebességű áramlása miatt a folyadékrészecskék nem meghatározható rendezettséggel haladnak tovább.",
+    "",
+    "Több tényező határozza meg az áramlási mód kialakulását, melyet a Reynolds-szám jellemez.",
+    "",
+    "ahol:",
+    "v: munkafolyadék sebessége [m/s]",
+    "d: csővezeték átmérője [m]",
+    "ν: folyadék viszkozitása [m²/s]",
+    "",
+    "Amikor a Reynolds-szám",
+    "2300 alatti, akkor az áramlás lamináris,",
+    "2300 feletti, akkor az áramlás turbulens.",
+    "",
+    "A hidraulikus rendszerekben az áramlás során kialakulhat a kavitáció, amely a hidraulikus rendszerre káros hatással van. A kavitáció kialakulásának feltétele a csővezeték keresztmet-szetének és az áramlás sebességének olyan mértékű megváltozása, hogy az áramlás turbu-lenssé válik (13. ábra).",
+    "",
+    "",
+    "13. ábra: A kavitáció kialakulásának elve",
+    "Forrás: Mezei Tibor – Kocsis István – Dr. Varga Vilmos: Mezőgazdasági erőgépek I. 397. o.",
+    "",
+    "A leszűkült keresztmetszetben az áramlási sebesség növekedése miatt a nyomás csökken, ami gőzbuborékok kialakulását eredményezheti. Az újbóli keresztmetszet-változás miatt – amikor tehát a keresztmetszet-változás átmenete nem megfelelő (lásd 13. ábra) – az áramlás turbulenssé alakul. A gőzbuborékokban a nyomás jelentősen megnő, és a kis gőzbuborékok felrobban-hatnak, ami a rendszerben nagy nyomáshullámot indíthat el. A gőzbuborék átalakulása során a közelében lévő alkatrészekből apró részeket szakíthat le, ezáltal nő a kopás a rendszerben, és az áramlási veszteségek is jelentősen megnőnek.",
+    "1.2.\tA hidraulikus rendszer általános felépítése és működési elvei",
+    "1.2.1.\tFelépítése",
+    "",
+    "14. ábra: Az egyszerű hidraulikus rendszer egységei",
+    "Forrás: https://www.istockphoto.com/hu/vektor/a-traktor-hidraulikus-felvon%C3%B3j%C3%A1nak-rendszere-az-alapvet%C5%91-hidraulikus-felvon%C3%B3-gm963076136-263045654?phrase=hydraulic%20piston (Megnyitva: 2024.07.01.)",
+    "",
+    "A mezőgazdasági erőgépek egyszerű hidraulikus rendszere a következő szerkezeti egységekből épül fel (14. ábra):",
+    "Tartály: a rendszer működéséhez szükséges munkafolyadék (hidraulikaolaj) tárolását, hűtését biztosítja.",
+    "Előszűrő: a szivattyú által beszívott munkafolyadék előszűrését végzi.",
+    "Olajszivattyú: a rendszer működéséhez szükséges mennyiségű és nyomású munkafolyadék szállítása a feladata.",
+    "Biztonsági szelep: a rendszerben lévő maximális nyomást határolja.",
+    "Útváltó: a munkafolyadékot a kézi kapcsoló által meghatározott egységek felé irányítja.",
+    "Nyomáshatároló szelep: az útváltó utáni hidraulikus körben szabályozza a nyomást, nagyobb nyomás esetén a munkafolyadékot visszavezeti a tartályba.",
+    "Kézi kapcsoló: az útváltó helyzetét változtatja, pl. a munkahenger merre mozduljon el.",
+    "Határoló kar: a munkavégző egység elmozdulási útját szabályozza.",
+    "Hidraulikus munkahenger: a nyomási energiát alakítja át mechanikai munkává, azaz biztosítja a közvetlen munkavégzést.",
+    "Függesztőszerkezet: a munkaeszközök csatlakozását és mozgatását biztosítja a hidraulikus munkahenger által.",
+    "Csatlakozó a másik oldali munkahengerhez: amennyiben a függesztőszerkezetet két hidraulikus munkahenger működteti, akkor továbbítja a szükséges munkafolyadékot a munkahengernek.",
+    "Visszatérő ág: a munkavégzés során a rendszerben nem szükséges munkafolyadék tartályba való visszavezetésére szolgál.",
+    "1.2.2.\tA hidraulikus rendszer működése",
+    "Az olajszivattyú (amelyet az erőgép motorja hajt meg) az előszűrőn keresztül tiszta munkafolyadékot szív, majd a nyomóoldalán megfelelő mennyiségben és nyomással továbbítja az útváltó felé. A szivattyú és az útváltó között lévő biztonsági szelep megakadályozza a rend-szerben a maximális nyomás túllépését. Annyi munkafolyadékot vezet vissza a tartályba, hogy a rendszerben a maximális nyomást ne lépje túl. Az útváltó általában három irányba továbbíthatja az olajat az adott helyzetnek megfelelően:",
+    "üres helyzetben: amikor nem működik a hidraulikus munkahenger, akkor a szivattyú által szállított olajat a tartályba irányítja;",
+    "emelési helyzetben: a hidraulikus munkahenger jobb oldali terébe vezeti az olajat, a munkahenger bal oldalra mozdul, közben a munkahenger bal oldali részében lévő olaj áramlását lehetővé teszi a tartály felé;",
+    "süllyesztési helyzetben: a munkahenger bal oldali terébe jut az olaj, és a jobb oldali teréből jut vissza az olaj a tartályba, miközben a munkahenger jobbra mozdul el.",
+    "",
+    "A legtöbb hidraulikus rendszerben a hidraulikus munkahenger szélső helyzetei határolókar beállításával változtathatók.",
+    "",
+    "A hidraulikus rendszerben alkalmazott egységek:",
+    "energiaátalakítók: pl. hidraulikus szivattyú, hidromotor, hidraulikus munkahenger;",
+    "irányítóegységek: pl. út-, nyomás- és áramirányítók;",
+    "kiegészítő egységek: pl. csővezeték, csőszerelvények, hidroakkumulátor.",
+    "",
+    "A hidraulikus berendezéseket egyszerűsítve, jelrendszer segítségével ábrázolják, ami megkönnyíti a kapcsolások és a működés szemléltetését és megértését. A következőkben az alkalmazott jeleket és kerül bemutatja be a tananyag.",
+    "1.2.2.1.\tEnergiaátalakítók",
+    "Az enegiaátalakítók alapvetően két nagy csoportba tartoznak:",
+    "forgómozgású energiaátalakítók,",
+    "alternáló (egyenesvonalú) mozgást végző energiaátalakítók.",
+    "",
+    "Az energiaátalakítók (szivattyúk és hidromotorok) jellemzőinek és feladatainak részletes leírását lásd az 1.2.2.5 fejezetben.",
+    "",
+    "Forgómozgású energiaátalakítók\nAlapjele a kör, és a kialakításoktól függően a jelölések lehetnek különfélék.",
+    "Hidraulikus szivattyúk (15. ábra)",
+    "",
+    "15. ábra: Hidraulikus szivattyúk",
+    "Forrás: saját készítés",
+    "",
+    "Hidromotorok (16. ábra)",
+    "",
+    "16. ábra: Hidromotorok",
+    "Forrás: saját készítés",
+    "",
+    "Alternáló mozgású energiaátalakítók",
+    "Alapjele téglalap, és a kialakításoktól függően a jelölések lehetnek különfélék.",
+    "Hidraulikus munkahengerek (egyoldali, kétoldali, teleszkópos és véghelyzet-csillapítású hidraulikus munkahengerek; 17. ábra)",
+    "",
+    "",
+    "17. ábra: Hidraulikus munkahengerek",
+    "Forrás: saját készítés",
+    "",
+    "1.2.2.2.\tIrányítóegységek",
+    "Irányítóegységek végzik a hidraulikus rendszer működése során a munkafolyadék áramlásának az irányítását. Az irányítóegységek lehetnek:",
+    "útváltók,",
+    "áramlás- és nyomásirányítók.",
+    "",
+    "Az irányítóegységet a hidraulikus rendszerbe az egységek megfelelő működése érdekében építik be, ami a munkafolyadék mennyisége, illetve nyomása alapján biztosítja a hidraulikus rendszer üzemeltetését.",
+    "Alapjele a négyzet, és a kialakításoktól függően a jelölések lehetnek különfélék. További jelölések utalnak a működési módra és a kapcsolás lehetőségeire.\n",
+    "Útváltók",
+    "Az útváltók (útirányítók) esetében az egymás mellé rajzolt nagy négyzetek száma jelzi, hogy hány kapcsolási állás van. A csővezetékek száma az áramlási utakat mutatja (pl. 18. ábra).",
+    "",
+    "",
+    "18. ábra: 4/3-os útváltó jelképes ábrázolása",
+    "Forrás: saját szerkesztés",
+    "",
+    "A kapcsolási módra az ábra szélein lévő jelkép utal (lásd 19. ábra).",
+    "",
+    "19. ábra: 4/3-os, kétoldali mágneskapcsolóval működtetett útváltó jelképes ábrázolása",
+    "Forrás: saját szerkesztés",
+    "",
+    "Útváltók és kapcsolási módjuk (20. ábra)",
+    "",
+    "",
+    "20. ábra: Útváltók",
+    "Forrás: saját készítés",
+    "",
+    "Áramlás- és nyomásirányítók (szelepek)",
+    "Az áramlás- és nyomásirányítók jelképes ábrázolásai egy négyzet alapjelből és a kiegészítő részeket ábrázoló jelképekből állnak (21. ábra).",
+    "",
+    "21. ábra: Áramlásirányítók jelképes ábrázolása",
+    "Forrás: saját szerkesztés",
+    "",
+    "A leggyakrabban alkalmazott áramlásirányítók jelképes ábrázolása (22. ábra):",
+    "",
+    "",
+    "22. ábra: A leggyakrabban alkalmazott áramlásirányítók jelképes ábrázolása",
+    "Forrás: saját szerkesztés",
+    "",
+    "Hidraulikus rendszerek kiegészítő egységeinek jelképes ábrázolása (23. ábra):",
+    "",
+    "23. ábra: Hidraulikus rendszerek kiegészítő egységeinek jelképes ábrázolása",
+    "Forrás: saját szerkesztés",
+    "1.2.2.3.\tHidraulikus kapcsolási rajz olvasása",
+    "A 24. ábrán egy munkahenger működtetésére alkalmas kapcsolási rajz látható.",
+    "",
+    "",
+    "24. ábra: Hidraulikus munkahenger működtetésének kapcsolási rajza",
+    "Forrás: saját szerkesztés",
+    "",
+    "A kapcsolás öt nagyobb egységből áll:",
+    "olajellátó egység,",
+    "útváltó,",
+    "áramlásirányító egység,",
+    "munkavégző egység (hidraulikus munkahenger),",
+    "visszavezető egység.",
+    "",
+    "Olajellátó egység",
+    "Az olajellátó egység biztosítja a rendszer számára a szükséges mennyiségű és nyomású olajat.",
+    "",
+    "Felépítése (25. ábra):",
+    "",
+    "25. ábra: Olajellátó rendszer kapcsolási rajza",
+    "Forrás: saját szerkesztés",
+    "",
+    "Működése:",
+    "A motorról meghajtott olajszivattyú a tartályból felszívja az olajat, és a visszacsapó szelepen keresztül továbbítja azt. Az olaj két irányban haladhat tovább: az egyik az útváltó felé, a másik irány a nyomáshatároló szelep felé vezet. A nyomáshatároló feladata, hogy az előtte lévő rendszerben zárja az olaj útját a tartály felé, amíg a beállított nyomást el nem érte. A beállított nyomás elérésekor nyit, és az olaj egy részét visszaengedi a tartályba. Annyit enged mindig vissza, hogy az útváltó felé megmaradjon a szükséges nyomás. A tartályba visszaengedett olaj nyomása a veszteségek csökkentése érdekében lényegesen alacsonyabb, mint az útváltó felé haladó olaj nyomása.",
+    "",
+    "Útváltó",
+    "Az útváltó általában a kezelő által működtetni kívánt egység felé továbbítja az olajat, illetve vezeti vissza. Az alábbi ábrákon látható útváltó négy olajcsatornával és három állással rendelkezik (4/3). A kapcsolást elektromágnes végzi, az útváltó alaphelyzetbe állítását rugó biztosítja.",
+    "",
+    "Az útváltó állásai:",
+    "semleges helyzet,",
+    "párhuzamos olajáramlás,",
+    "keresztirányú olajáramlás.",
+    "",
+    "Semleges helyzet",
+    "Semleges helyzetben az olaj nem megy tovább semerre, az egységet a két oldalt elhelyezett rugó tartja középhelyzetben (26. ábra).",
+    "",
+    "",
+    "26. ábra: Útváltó semleges helyzetben",
+    "Forrás: saját szerkesztés",
+    "",
+    "Párhuzamos olajáramlás",
+    "Ebben a helyzetben a bal oldali elektromágnes a rugó ellenében elmozdítja a tolattyút. Ebben a helyzetben a tolattyú szabaddá teszi az olaj útját a P csatlakozótól az A csatlakozó felé, valamint a B csatlakozótól a T csatlakozó felé (27. ábra).",
+    "",
+    "27. ábra: Útváltó párhuzamos áramlási helyzetben",
+    "Forrás: saját szerkesztés",
+    "",
+    "Amikor az elektromágnes nem tartja már a tolattyút eltolt helyzetben, akkor a rugó alap-helyzetbe nyomja vissza azt, ezzel minden irányban zárva az olaj útját.",
+    "",
+    "Keresztirányú olajáramlás",
+    "A jobb oldali elektromágnes a tolattyút a rugó ellenében jobbra mozdítja, ezáltal a csatlakozókat keresztirányba nyitja. Az olaj a P csatlakozóból a B csatlakozóba, valamint az A csatlakozóból a T csatlakozóba áramlik (28. ábra).",
+    "",
+    "",
+    "28. ábra: Útváltó keresztirányú áramlási helyzetben",
+    "Forrás: saját szerkesztés",
+    "Ha az elektromágnes nem tartja már a tolattyút eltolt helyzetben, akkor a rugó ebben az állásban is alaphelyzetbe nyomja vissza azt, ezzel zárva minden irányba az olaj útját.",
+    "",
+    "Áramlásirányító egység",
+    "A rendszerbe egymással párhuzamosan két áramlásirányító egység van beépítve (29. ábra). Az egyik a szivattyú által a munkavégző részhez szállítja az olajat, a másik pedig a munkavégző egységből visszavezeti az olajat.",
+    "",
+    "Egy áramlásirányító egység két másik egységből áll:",
+    "állítható fojtó,",
+    "rugós visszacsapó szelep.",
+    "",
+    "",
+    "29. ábra: Az áramlásirányító bal oldali egységén keresztül áramlik az olaj",
+    "Forrás: saját szerkesztés",
+    "",
+    "",
+    "A működés során a bal oldali egységben az olaj a rugós visszacsapó szelepen áramlik. A jobb oldali egységben a munkavégző egységből visszaérkező olaj a rugós visszacsapó szelep zárása miatt a szabályozható fojtón keresztül áramlik vissza. A fojtó biztosítja a munkavégző egységből visszaérkező olaj mennyiségét, amely meghatározza a munkavégző egység működési gyorsaságát.",
+    "A munkavégző egységnek az előzőhöz képest ellentétes mozgásakor a jobb oldali egység szállítja a nagy nyomású olajat. Az olajat a munkavégző egységtől a bal oldali egység vezeti vissza a fojtón keresztül, mert a rugós visszacsapó szelep ebből az irányból nem engedi át az olajat (30. ábra).",
+    "",
+    "30. ábra: Az áramlásirányító jobb oldali egységén keresztül áramlik az olaj",
+    "Forrás: saját szerkesztés",
+    "",
+    "Munkavégző egység",
+    "A munkavégző egység hasznosítja a hidraulikus energiát, pl. mechanikai munkává alakítja. A 31. ábrán látható hidraulikus munkahenger egyoldali, kettős működésű. A jobb oldali mozgás akkor következik, be, ha az olajat a bal oldali térbe vezetik be, viszont a mozgás csak akkor indul meg, ha a jobb oldali térből az olajat elvezetik.",
+    "",
+    "",
+    "31. ábra: Hidraulikus munkahenger elmozdulása jobbra",
+    "Forrás: saját szerkesztés",
+    "A bal oldali mozgás során az olajat a jobb oldali térbe vezetik be, a bal oldali térből pedig elvezetik (32. ábra).",
+    "",
+    "",
+    "32. ábra: Hidraulikus munkahenger elmozdulása balra",
+    "Forrás: saját szerkesztés",
+    "",
+    "Visszavezető egység",
+    "A visszavezető egység az útváltóból a tartályba továbbítja a munkavégző egységtől érkező olajat.",
+    "",
+    "",
+    "33. ábra: Visszavezető egység kapcsolási rajza",
+    "Forrás: saját szerkesztés",
+    "",
+    "Az útváltóból vissza kell vezetni a végrehajtó egységből érkező olajat a tartályba, mert ez biztosítja a rendszer folyamatos működéséhez szükséges munkafolyadékot. A visszavezető egység a tartályba olajszűrőn keresztül vezeti vissza az olajat, ahol az olajban lévő szennyeződések kiválnak (33. ábra). Az olajszűrő egy ideig képes a szennyeződéseket az olaj áramlása mellett magában tartani, de egy bizonyos mennyiség elérésekor eltömődik, és megszűnik az olaj visszavezetése. Az olajszűrő eltömődése esetére van beépítve egy rugós visszacsapó szelep, amely egy beállított nyomás elérésekor nyitja az olaj útját a tartály felé (34. ábra).",
+    "",
+    "",
+    "34. ábra: Olaj áramlása eltömődött szűrő esetén",
+    "Forrás: saját szerkesztés",
+    "1.2.2.4.\tA hidraulikus rendszer működése",
+    "A hidraulikus rendszer működését az útváltó három helyzetében mutatja be a tananyag:",
+    "semleges helyzetben,",
+    "párhuzamos olajáramlás és",
+    "keresztirányú olajáramlás helyzetében.",
+    "",
+    "Útváltó semleges helyzetben\nSemleges helyzetben az útváltó középállásban van, és az olaj nem áramlik a munkavégző egységek felé (35. ábra).",
+    "",
+    "",
+    "35. ábra: Olaj áramlási útja semleges helyzetben (zárt útváltó esetén)",
+    "Forrás: saját szerkesztés",
+    "",
+    "Az olaj útja részletesen:",
+    "",
+    "A meghajtott olajszivattyú a tartályból felszívja az olajat, és szállítja tovább a rugós visszacsapó szelepen keresztül az útváltó felé. Az útváltó semleges helyzete miatt az olaj nem tud tovább menni, és a nyomóoldalon megnő a nyomás. A nyomóágban egy nyomáshatároló szelep van bekötve, ami beállított nyomás esetén kinyílik, és továbbítja az olajat vissza a tartályba. Ebben az esetben az olajszivattyú által szállított összes olaj visszaáramlik a tartályba a nyomáshatároló szelepen keresztül.",
+    "",
+    "Útváltó párhuzamos olajáramlás helyzetében",
+    "Az útváltót balra tolják el, ekkor a be- és kivezetésre kialakított olajcsatornák párhuzamos helyzetbe kerülnek, és az olaj így áramlik tovább (36. ábra).",
+    "",
+    "Az olaj útja részletesen:",
+    "",
+    "",
+    "36. ábra: Olaj áramlási útja párhuzamos útváltóállás esetén",
+    "Forrás: saját szerkesztés",
+    "",
+    "A meghajtott olajszivattyú a tartályból felszívja az olajat, és szállítja tovább a rugós visszacsapó szelepen keresztül az útváltó felé. Az útváltó balra eltolt helyzete miatt az olaj a bal oldali szelepekhez jut, ahol a rugós visszacsapó szelepen keresztül a hidraulikus munkahenger bal oldalára kerül. A munkahenger mindkét oldala munkafolyadékkal (olajjal) teljesen feltöltött állapotban van. A bal oldalra érkező nyomás csak akkor tudja a munkahenger dugattyúját elmozdítani, ha a jobb oldali térből a munkafolyadék útja szabaddá válik. Ezt az áramlást teszi lehetővé az útváltó jobb oldali csatornákat összekötő helyzete. Ekkor az olaj a munkahenger jobb oldali teréből a jobb oldali szelephez kerül, és a munkahenger dugattyúja jobbra elmozdul.",
+    "A 36. ábrán látható, hogy a munkafolyadék a szabályozható fojtón keresztül áramlik az útváltó felé. A szabályozható fojtón átáramlott olaj mennyiségének változtatása biztosítja a hidraulikus munkahenger dugattyúja elmozdulási sebességének a változtatását. Így beállítható, hogy a munkahenger dugattyújának milyen gyorsan mozduljon el.",
+    "",
+    "Az útváltóból a munkafolyadék egy szűrőegységen keresztül jut vissza a tartályba. A szűrő-egység egy szűrőből és egy rugós visszacsapó szelepből ál. Amikor a szűrő normálisan működik, pl. nincs eltömődve, akkor az összes olaj rajta keresztül áramlik vissza a tartályba. Amennyiben a szűrőben a nyomás emelkedik (pl. a sok kiválasztott szennyeződéstől nem tud a teljes olajmennyiség átáramolni rajta), a rugó ellenében kinyílik a szelep, és az olaj szűretlenül áramlik a tartályba. A korszerű hidraulikus rendszereknél a rugós szelep elmozdulásának figyelésére érzékelőt szerelnek be, ami a kezelő számára a műszerfalon jelzi, hogy a szűrő eltömődött.",
+    "",
+    "Útváltó keresztirányú olajáramlás helyzetében",
+    "Az útváltót jobbra tolják el, a be- és kivezetésre kialakított olajcsatornák helyzete keresztirányú lesz. Ebben az állásban az olaj a csővezetékekben keresztirányban áramlik (37. ábra).",
+    "",
+    "",
+    "37. ábra: Olaj áramlási útja keresztirányú útváltóállás esetén",
+    "Forrás: saját szerkesztés",
+    "",
+    "A meghajtott olajszivattyú a tartályból felszívja az olajat, és szállítja tovább a rugós visszacsapó szelepen keresztül az útváltó felé. Az útváltó keresztirányú áramlási helyzete miatt az olaj a jobb oldali szelepekhez jut, ahol a rugós visszacsapó szelepen át jut a hidraulikus munkahenger jobb oldali terébe. A hidraulikus munkahenger dugattyúja csak abban az esetben tud balra elmozdulni, ha a hidraulikus munkahenger bal oldali teréből szabaddá válik az olaj áramlása. A visszaáramlást a bal oldali szelep állítható fojtója biztosítja. A fojtó állításával lehet szabályozni a munkahenger elmozdulási sebességét. Az olaj a fojtóból az útváltón és a szűrőegységen keresztül kerül vissza a tartályba.",
+    "A szűrőegységben az olaj a szűrőn keresztül áramlik, viszont a szűrő eltömődése esetén a rugós visszacsapó szelep nyit, és az olaj szűretlenül kerül vissza a tartályba.",
+    "1.2.2.5.\tSzivattyúk és hidromotorok fontosabb jellemzői",
+    "Szivattyúk",
+    "A mezőgazdasági gépeken általában a térfogatkiszorítás elvén működő szivattyúkat alkalmaznak. A térfogatkiszorítás elvén működő szivattyúkban a meghajtott egységek működése közben a munkatérfogat változik (növekszik-csökken). A munkatérfogat növekedése esetén a térben nyomáscsökkenés lép fel, és ebbe a térbe munkafolyadék áramlik be, ez a szívás szakasza. A munkatérfogat csökkenésekor a nyomás növekszik, és ebből a térből munkatérfolyadék áramlik ki, ez a szivattyú nyomási vagy szállítási szakasza.",
+    "",
+    "A szivattyúk általános jellemzői:",
+    "fajlagos szállítás: a hajtó tengely egy fordulata alatt szállított munkafolyadék mennyisége [cm³/fordulat],",
+    "a szivattyú maximális üzemi nyomása [MPa],",
+    "a szivattyú üzemi fordulatszáma [1/min; 1/s].",
+    "",
+    "Hidromotorok",
+    "A mezőgazdasági gépekben alkalmazott szivattyúk többsége alkalmas hidromotorként való működésre, egyes esetekben átalakítással oldható meg a motorként való üzemeltetés. A hidromotorok működése során a munkafolyadékot nyomással juttatják a munkatérbe, ahol az a mechanikus egységet elmozdítja, amelynek a tengelye így alkalmassá válik gépszerkezetek meghajtására.",
+    "",
+    "A hidromotorok egyik nagy előnye a belső égésű motorokkal szemben, hogy az indulás pilla-natában maximális nyomatékot képes leadni, ami megkönnyíti a meghajtott gépszerkezetek indítási folyamatát.",
+    "",
+    "A hidromotorok általános jellemzői:",
+    "fajlagos nyelés: a tengely egy fordulata alatt elnyelt munkafolyadék mennyisége [cm³/fordulat],",
+    "a hidromotor maximális üzemi nyomása [MPa],",
+    "a hidromotor üzemi fordulatszám-tartománya [1/min; 1/s].",
+    "",
+    "A hidraulikus rendszerben átvihető teljesítmény nagysága",
+    "A hidraulikus teljesítmény (P):",
+    "",
+    "ahol:",
+    "p: a hidraulikus rendszer nyomása [Pa],",
+    "Q: térfogatáram (időegység alatt átáramló munkafolyadék mennyisége [m³/s].",
+    "",
+    "Feladat",
+    "Egy hidraulikus rendszerben uralkodó nyomás 12 MPa, és a rendszeren percenként 130 liter munkafolyadék áramlik át.",
+    "Határozd meg a hidraulikus rendszer teljesítményének a nagyságát [W]!",
+    "",
+    "Megoldás",
+    "p = 12 MPa = 1,2·107 Pa",
+    "Q = 130 l/min = 2,16 dm³/s = 2,16·10-3 m3/s",
+    "P = ? [W]",
+    "",
+    "A hidraulikus rendszer teljesítménye:",
+    "",
+    "",
+    "",
+    "",
+    "Hidraulikus rendszerben keletkező veszteségek",
+    "A teljesítményátadás során a rendszerben különböző hidraulikus veszteségek keletkeznek, melyek lehetnek:",
+    "résveszteségek (volumetrikus),",
+    "nyomásveszteségek (áramlástechnikai),",
+    "mechanikai veszteségek.",
+    "",
+    "A résveszteségek",
+    "A résveszteségek általában az energiaátalakítók (pl. szivattyú, hidromotor, hidraulikus munkahenger) egymáson elmozduló alkatrészei között lépnek fel. A munkafolyadék nem a kívánt helyre áramlik, hanem egy része az alkatrészek között, pl. a hidraulikus munkahenger dugattyúja mellett az egyik térből átáramlik az másikba.",
+    "",
+    "A résveszteség mértékéből határozható meg a volumetrikus hatásfok (), amit az energiaátalakítóba be- és kiáramlott munkafolyadék arányából lehet meghatározni.",
+    "",
+    "ahol:",
+    ": energiaátalakítóból kiáramló munkafolyadék mennyisége [dm³/s]",
+    ": energiaátalakítóba beáramló munkafolyadék mennyisége [dm³/s]",
+    "",
+    "Nyomásveszteség",
+    "A nyomásveszteség az egyes hidraulikus elemek áramlási ellenállásából adódik, ami a rendszerben áramló munkafolyadék nyomásának csökkenését okozza. A nyomásveszteségből, azaz a be- és kiáramló munkafolyadék nyomásának arányából lehet meghatározni a hidraulikus hatásfokot ().",
+    "",
+    "ahol:",
+    ": hidraulikus elembe beáramló munkafolyadék nyomása [MPa]",
+    ": hidraulikus elemből kiáramló munkafolyadék nyomása [MPa]",
+    "",
+    "Mechanikai veszteség",
+    "A mechanikai veszteség az egymáson elmozduló alkatrészek súrlódásából keletkező veszteség, ami a rendszerben leggyakrabban hővé alakul. A mechanikai veszteségekből meghatározható a mechanikai hatásfok ().",
+    "",
+    "ahol:",
+    ": hidraulikus elemből levehető teljesítmény [W]",
+    ": hidraulikus elembe bevitt teljesítmény [W]",
+    "",
+    "A mechanikai hatásfokot általában a nyomásveszteséggel együtt határozzák meg, mert a mechanikai veszteség is nyomásveszteséggel jár, ami könnyebben mérhető.",
+    "",
+    "A hidraulikus rendszer összhatásfoka",
+    "A hidraulikus rendszer összhatásfoka () a részhatásfokok szorzatából határozható meg.",
+    "",
+    "",
+    "Ábrajegyzék",
+    "1. ábra: A hidrosztatikus rendszer elve\t8",
+    "2. ábra: A hidrodinamikus rendszer elve\t9",
+    "3. ábra: A hidrosztatikus nyomás nagysága\t10",
+    "4. ábra: Nyomás terjedése zárt edényben\t11",
+    "5. ábra: A hidraulikus áttétel elve\t11",
+    "6. ábra: Dugattyúk elmozdulási hossza\t13",
+    "7. ábra: A nyomás változása egyforma erők esetén\t16",
+    "8. ábra: Az úszás feltétele\t18",
+    "9. ábra: A lebegés feltétele\t20",
+    "10. ábra: Az elmerülés feltétele\t22",
+    "11. ábra: Áramlás folytonossága különböző keresztmetszetű csőben\t23",
+    "12. ábra: Folyadékáramlási módok\t26",
+    "13. ábra: A kavitáció kialakulásának elve\t27",
+    "14. ábra: Az egyszerű hidraulikus rendszer egységei\t28",
+    "15. ábra: Hidraulikus szivattyúk\t30",
+    "16. ábra: Hidromotorok\t30",
+    "17. ábra: Hidraulikus munkahengerek\t31",
+    "18. ábra: 4/3-os útváltó jelképes ábrázolása\t32",
+    "19. ábra: 4/3-os, kétoldali mágneskapcsolóval működtetett útváltó jelképes ábrázolása\t32",
+    "20. ábra: Útváltók\t33",
+    "21. ábra: Áramlásirányítók jelképes ábrázolása\t33",
+    "22. ábra: A leggyakrabban alkalmazott áramlásirányítók jelképes ábrázolása\t34",
+    "23. ábra: Hidraulikus rendszerek kiegészítő egységeinek jelképes ábrázolása\t34",
+    "24. ábra: Hidraulikus munkahenger működtetésének kapcsolási rajza\t35",
+    "25. ábra: Olajellátó rendszer kapcsolási rajza\t36",
+    "26. ábra: Útváltó semleges helyzetben\t37",
+    "27. ábra: Útváltó párhuzamos áramlási helyzetben\t37",
+    "28. ábra: Útváltó keresztirányú áramlási helyzetben\t38",
+    "29. ábra: Az áramlásirányító bal oldali egységén keresztül áramlik az olaj\t39",
+    "30. ábra: Az áramlásirányító jobb oldali egységén keresztül áramlik az olaj\t39",
+    "31. ábra: Hidraulikus munkahenger elmozdulása jobbra\t40",
+    "32. ábra: Hidraulikus munkahenger elmozdulása balra\t40",
+    "33. ábra: Visszavezető egység kapcsolási rajza\t41",
+    "34. ábra: Olaj áramlása eltömődött szűrő esetén\t42",
+    "35. ábra: Olaj áramlási útja semleges helyzetben (zárt útváltó esetén)\t42",
+    "36. ábra: Olaj áramlási útja párhuzamos útváltóállás esetén\t43",
+    "37. ábra: Olaj áramlási útja keresztirányú útváltóállás esetén\t45",
+    "",
+    "",
+    "Táblázatjegyzék",
+    "1. Táblázat: A mezőgazdasági gépészetben alkalmazott munkafolyadékok jellemző csoportjai és jelölésük\t7",
+    ""
+  ],
+  "runs": [
+    [],
+    [],
+    [
+      "Egyedi megrendelés azonosítója:",
+      " EM-2.9.1"
+    ],
+    [
+      "A",
+      "grárműszaki erőforrások hidraulikus teljesítményátvitele ",
+      "I",
+      "."
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Tartalomjegyzék",
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "1. ",
+      "Hidraulikus energiaátvitel",
+      " I."
+    ],
+    [
+      "1.1.",
+      "\t",
+      "A ",
+      "hidraulika alapjai és összefüggései"
+    ],
+    [
+      "Az erő- és munkagépeken széles körben használnak hidraulikus berendezéseket, pl. a meg-hajtásnál, függesztőszerkezetnél, kormányzási rendszernél."
+    ],
+    [],
+    [
+      "A ",
+      "hidraulika",
+      " szó a ",
+      "hydor",
+      " (víz) és ",
+      "aulos",
+      " (cső) görög szavakból alakult ki. A hidraulikus rendszerek esetében a víz helyett a munkafolyadék kifejezés használatos, mert a munkavégzésre használt folyadék lehet víz (öntözés), ásványi olaj (függesztőszerkezet) vagy növényi olajok (fékberendezés), az olajokat nevezhetik hidraulika olajoknak."
+    ],
+    [
+      "1.1.1.",
+      "\t",
+      "Hidraulikus rendszerek ",
+      "munkafolyadékai",
+      " (hidraulikaolajok)"
+    ],
+    [
+      "A hidraulikus rendszerek működésének alapelve, hogy a folyadékok a teret kitöltik (nincs önálló alakjuk), és alacsony nyomás (kb. 30 ",
+      "MPa",
+      " alatt) hatására nem változtatják meg a térfogatukat."
+    ],
+    [],
+    [
+      "A hidraulikaolajok főbb jellemzői:"
+    ],
+    [
+      "viszkozitás (folyadékrészecskék egymáson való elmozdulásának ellenállása az áramlás során),"
+    ],
+    [
+      "lobbanáspont",
+      ","
+    ],
+    [
+      "gyulladáspont",
+      ","
+    ],
+    [
+      "alkatrészek kenésére,"
+    ],
+    [
+      "alkatrészek hűtésére,"
+    ],
+    [
+      "szerkezeti elemek tisztítására való",
+      ","
+    ],
+    [
+      "keverhetőség",
+      ","
+    ],
+    [
+      "korrózióvédelemre alkalmas",
+      ","
+    ],
+    [
+      "környezetvédelmi szempontból nem káros",
+      ","
+    ],
+    [
+      "légelnyelési hajlam."
+    ],
+    [
+      "1.1.1.1",
+      ".",
+      "\t",
+      "Viszkozitás"
+    ],
+    [
+      "A ",
+      "viszkozitás",
+      " az egymás melletti folyadékrétegek elmozdításához szükséges ellenállást, vagyis folyadékrétegek egymáshoz való súrlódását jelenti. A viszkozitás az a belső ellenállás, amely megmutatja, hogy mekkora erő (F) kell ahhoz, hogy a folyadékrészecskék elmozduljanak egymástól."
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "η: a folyadék belső súrlódása (dinamikai viszkozitás) [",
+      "Pas",
+      "],"
+    ],
+    [
+      "Δv",
+      ": a folyadékrétegek egymáshoz viszonyított sebessége [m/s], "
+    ],
+    [
+      "Δx",
+      ": a folyadékrétegek egymásól való távolsága [m],"
+    ],
+    [
+      "A: súrlódó felület nagysága [m²]."
+    ],
+    [],
+    [
+      "A ",
+      "dinamikai viszkozitás (",
+      "ƞ) a folyadékra jellemző belső súrlódási együttható, amely a részecskék elmozdításához szükséges ellenállástól függ."
+    ],
+    [
+      "A munkafolyadékokra jellemző még a ",
+      "kinematikai viszkozitás",
+      " (ν). A folyadékok ",
+      "kinematikai viszkozitását",
+      " a dinamikai viszkozitás és a sűrűség hányadosa adja meg."
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "ρ: folyadék sűrűsége "
+    ],
+    [],
+    [
+      "A viszkozitás a munkafolyadékok nagyon jelentős tulajdonsága, mert nagymértékben befolyásolja a hidraulikus rendszer működését és üzemeltetési jellemzőit."
+    ],
+    [],
+    [
+      "Alacsony viszkozitású munkafolyadékok esetén",
+      " megnőhetnek a résveszteségek. További hátrányuk, hogy az egymáson elmozduló alkatrészeken a kenőanyag vékonyabb rétegű, ezért a felületről könnyebben leválik, ezáltal nő az alkatrészek kopása."
+    ],
+    [
+      "Az alacsony viszkozitású munkafolyadékok előnyei:"
+    ],
+    [
+      "az alkatrészek között és a folyadékban kisebb a súrlódás,"
+    ],
+    [
+      "csökken a nyomás- és a teljesítményveszteség."
+    ],
+    [],
+    [
+      "Nagy viszkozitású munkafolyadékok esetén ",
+      "megnő a folyadék belső súrlódása. Ez nagymértékű hőfejlődést okozhat, ami miatt a rendszerben melegedés és nyomáscsökkenés következik be. Továbbá a rendszer hidegindításakor megnő a ",
+      "kavitáció",
+      " veszélye."
+    ],
+    [],
+    [
+      "A munkafolyadékokra jellemző viszonyszám a ",
+      "viszkozitási index",
+      ", amely megmutatja, hogy a kiválasztott munkafolyadék viszkozitása milyen a parafinos olajok (100) és a ",
+      "nafténes",
+      " olajok (0) keverékéhez viszonyítva."
+    ],
+    [
+      "1.1.1.2.",
+      "\t",
+      "Lobbanáspont"
+    ],
+    [
+      "A munkafolyadéknak az a hőmérséklete, ahol a keletkező gázok nyílt láng hatására ellobbannak."
+    ],
+    [
+      "1.1.1.3.",
+      "\t",
+      "Gyulladáspont"
+    ],
+    [
+      "A munkafolyadéknak az a hőmérséklete, amelyen a munkafolyadék már önmagától meggyullad."
+    ],
+    [
+      "1.1.1.4.",
+      "\t",
+      "Alkatrészek kenése"
+    ],
+    [
+      "A hidraulikus rendszerben számos egymáson elmozduló alkatrész van, amelyek között súrlódás lép fel, ami jelentős hőfejlődéssel és kopással járhat. A súrlódás- és kopáscsökkentés érdekében az alkatrészek kenést igényelnek. Ezt a munkafolyadékoknak kell biztosítani."
+    ],
+    [
+      "1.1.1.5.",
+      "\t",
+      "Alkatrészek hűtése"
+    ],
+    [
+      "A hidraulikus rendszerben a működés során hő fejlődik. A keletkezett hőt a rendszerből el kell távolítani, és a környezetnek át kell adni. Ezeket a feladatokat a rendszer üzemeltetése során a munkafolyadék végzi el."
+    ],
+    [
+      "1.1.1.6.",
+      "\t",
+      "Szerkezeti elemek tisztítása"
+    ],
+    [
+      "A hidraulikus rendszer egységeiben számos olyan szerkezeti egység van, ahol az alkatrészek egymáshoz képest elmozdulnak. Az üzemeltetés során az elmozdulás következtében a felületekről apró fémrészek és egyéb anyagok válhatnak le. A leváló részeket a rendszerből a munkafolyadék szállítja el, és nagy részüket a szűrő választja le. A szállítás során a levált részecskék az olaj belsejében haladnak tovább optimális esetben."
+    ],
+    [
+      "1.1.1.7.",
+      "\t",
+      "Keverhetőség"
+    ],
+    [
+      "A munkafolyadékokat szükség esetén pótolni kell, pl. meghibásodás miatt a folyadék egy része elfolyhat, valamint időközönként a rendszerből a munkafolyadékot cserélni kell. Fontos, hogy a más gyártótól származó munkafolyadékok egymással keverhetők legyenek, vagy bizonyos gyártmányok keverhetők legyenek egymással."
+    ],
+    [
+      "1.1.1.8.",
+      "\t",
+      "Korrózióvédelem"
+    ],
+    [
+      "A hidraulikus rendszerben használt anyagokat, alkatrészeket a munkafolyadékoknak meg kell védeni a korróziótól. Továbbá fontos, hogy a munkafolyadékok a korrózióra nem hajlamos anyagokat ne támadják meg."
+    ],
+    [
+      "1.1.1.9.",
+      "\t",
+      "Környezetvédelem"
+    ],
+    [
+      "A hidraulikus rendszer meghibásodása vagy tömítetlensége miatt a környezetbe jutó munka-folyadék nem káros az élővilágra."
+    ],
+    [],
+    [
+      "Környezetvédelmi szempontból a munkafolyadékokkal szemben támasztott fontosabb követelmények:"
+    ],
+    [
+      "jó biológiai lebonthatóság,"
+    ],
+    [
+      "ne veszélyeztesse a vizeket és a benne élő állatokat,"
+    ],
+    [
+      "ne veszélyeztesse az élelmiszereket,"
+    ],
+    [
+      "az emberi szervezetre ne legyen irritáló hatással, és ne okozzon fiziológiai elváltozásokat."
+    ],
+    [
+      "1.1.1.10.",
+      "\t",
+      "Légelnyelési hajlam"
+    ],
+    [
+      "A hidraulikus rendszer üzemeltetése során a munkafolyadék a levegővel kapcsolatba kerülhet, pl. a tartályba áramlás során az olajban légbuborékok keletkezhetnek, ami az olaj habzását okozhatja. A légbuborékok a rendszer működésére káros hatással vannak, jelentősen csökkentik a hatásfokot és az alkatrészek élettartalmát. A munkafolyadékokat adalékanyagokkal látják el az elnyelt levegő mennyiségének csökkentése céljából. A légelnyelési hajlam megmutatja, hogy mennyi levegőt képes a munkafolyadék magában tartani."
+    ],
+    [
+      "1.1.1.11.",
+      "\t",
+      "A munkafolyadékok fontosabb csoportjai és jelölésük"
+    ],
+    [
+      "A munkafolyadékok egymással való megfeleltetése érdekében fontos a jellemzők és jelölések szabványosítása. A mezőgazdasági gépészetben alkalmazott munkafolyadékok jellemző csoportjai és jelölésük:"
+    ],
+    [],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". Táblázat:",
+      " A mezőgazdasági gépészetben alkalmazott munkafolyadékok jellemző csoportjai és jelölésük"
+    ],
+    [
+      "1.1.2.",
+      "\t",
+      "Hidromechanika"
+    ],
+    [
+      "A hidromechanika a folyadékok egyensúlyának és mozgásának vizsgálatával foglalkozik."
+    ],
+    [
+      "A hidromechanika két nagy területre bontható: ",
+      "hidrosztatika",
+      " és ",
+      "hidrodinamika",
+      " – ezek a hidraulikus teljesítményátvitel alapelvei."
+    ],
+    [
+      "1.1.2.1.",
+      "\t",
+      "Hidrosztatika (nyugvó folyadékok mechanikája)"
+    ],
+    [
+      "A ",
+      "hidrosztatika",
+      " a folyadékban lévő nyomásváltozás és kis sebességgel áramló munkafolyadék esetén vizsgálja az egyensúlyi helyzeteket ",
+      "(1. ábra)",
+      "."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". ábra: ",
+      "A hidrosztatikus rendszer elve"
+    ],
+    [
+      "F",
+      "orrás: Mezei Tibor – Kocsis István – Dr. Varga Vilmos: Mezőgazdasági erőgépek I. 395. o."
+    ],
+    [],
+    [
+      "A rendszerben munkavégzésre használt erő nagysága (F):"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "p: nyomás [Pa],"
+    ],
+    [
+      "A: felület nagysága [m²]"
+    ],
+    [],
+    [
+      "A hidrosztatikus rendszerek esetében a kis (v = 10 m/s alatti) munkafolyadék-sebesség és a rendszerben uralkodó nagy nyomás határozza meg a rendszer jellemzőit."
+    ],
+    [
+      "1.1.2.2.",
+      "\t",
+      "Hidrodinamika (áramló folyadékok mechanikája)"
+    ],
+    [
+      "A ",
+      "hidrodinamika",
+      " az áramló folyadék sebességének változása során bekövetkező egyensúlyi helyzetek vizsgálatával foglalkozik ",
+      "(2. ábra)",
+      "."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "2",
+      "",
+      ". ábra: ",
+      "A hidrodinamikus rendszer elve"
+    ],
+    [
+      "F",
+      "orrás: Mezei Tibor – Kocsis István – Dr. Varga Vilmos: Mezőgazdasági erőgépek I. 395. o."
+    ],
+    [],
+    [
+      "A rendszer által kifejtett erő meghatározása (F):"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "m: áramló közeg tömege [kg],"
+    ],
+    [
+      "a: áramló közeg gyorsulása "
+    ],
+    [],
+    [
+      "A hidrodinamikus rendszerek esetében nagy (v=10 m/s feletti) munkafolyadék-sebesség esetén a rendszerben áramló közeg tömegének és sebességének gyorsulása határozza meg a rendszer jellemzőit."
+    ],
+    [
+      "1.1.2.3.",
+      "\t",
+      "Hidrosztatikus nyomás"
+    ],
+    [
+      "A ",
+      "hidrosztatikus nyomás (p) a hidrosztatikus folyadékoszlopban létrejövő nyomás",
+      ", melynek nagysága a folyadékoszlop magasságától és a folyadék sűrűségétől függ."
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "ρ: folyadék sűrűsége "
+    ],
+    [
+      "g: gravitációs gyorsulás "
+    ],
+    [
+      "h: folyadékoszlop magassága [m]"
+    ],
+    [],
+    [
+      "A hidrosztatikus nyomás nagysága független az edény alakjától ",
+      "(3. ábra)",
+      "."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "3",
+      "",
+      ". ábra: ",
+      "A hidrosztatikus nyomás nagysága"
+    ],
+    [
+      "F",
+      "orrás: https://docplayer.hu/9418306-Tartalomjegyzek-tartalomjegyzek-5.html 11. o. ",
+      "(Megnyitva: ",
+      "202",
+      "4",
+      ".0",
+      "7",
+      ".0",
+      "1",
+      ".",
+      ")"
+    ],
+    [
+      "1.1.2.4.",
+      "\t",
+      "A nyomás terjedése zárt térben (Pascal törvénye)"
+    ],
+    [
+      "Amennyiben egy zárt edényben lévő folyadék valamelyik felületére (pl. dugattyúra) erő hat ",
+      "(4. ábra)",
+      ", az erő ",
+      "gyengítetlenül",
+      " terjed tovább az edény minden pontjának irányában."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "4",
+      "",
+      ". ábra: ",
+      "Nyomás terjedése zárt edényben"
+    ],
+    [
+      "F",
+      "orrás: Mezei Tibor – Kocsis István – Dr. Varga Vilmos: Mezőgazdasági erőgépek I. 398. o."
+    ],
+    [],
+    [
+      "A zárt edényben kialakuló nyomás (p) a tér minden pontján egyforma",
+      ", viszont a kifejthető erő a felület nagyságától függően változik."
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "F: felületre ható erő nagysága [N]"
+    ],
+    [
+      "A: a felület nagysága "
+    ],
+    [],
+    [
+      "Ezt a hatást használják ki az erők átadására. Az erők átadása során két eltérő átmérőjű munkahenger esetében három gyakorlati jellemzővel fogsz ismerkedni:"
+    ],
+    [
+      "hidraulikus áttétel,"
+    ],
+    [
+      "elmozdulás nagysága,"
+    ],
+    [
+      "nyomásfokozás."
+    ],
+    [],
+    [
+      "Hidraulikus áttétel"
+    ],
+    [
+      "Két eltérő átmérőjű munkahenger esetében abból kell kiindulni, hogy a zárt edényben a nyomás mindenhol egyforma."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "5",
+      "",
+      ". ábra: ",
+      "A hidraulikus áttétel elve"
+    ],
+    [
+      "F",
+      "orrás: Kocsis István – Nagy László: Szakmai számítások 83. o."
+    ],
+    [],
+    [
+      "A dugattyúkon ébredő erők nagyságát a következő módon lehet meghatározni:"
+    ],
+    [
+      "a rendszerben a nyomás mindkét munkahengerben egyforma:"
+    ],
+    [],
+    [
+      "az átmérők és az erők viszonyának egyensúlyi egyenlete:"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "F1: kis dugattyúra ható erő [N]"
+    ],
+    [
+      "A1: kis dugattyú felülete [m²]"
+    ],
+    [
+      "F2: nagy dugattyúra ható erő [N]"
+    ],
+    [
+      "A2: nagy dugattyú felülete [m²]"
+    ],
+    [
+      "a felületek és az erők aránya:"
+    ],
+    [],
+    [
+      "a dugattyúfelületek képletét behelyettesítve:"
+    ],
+    [],
+    [
+      "Az egyenlet rendezése után látható, hogy a dugattyúkra ható erők viszonya a dugattyúk át-mérőjének viszonya szerint változik:"
+    ],
+    [],
+    [
+      "Feladat:"
+    ],
+    [
+      "Egy hidraulikus olajemelő kisebbik dugattyújának az átmérője 9 mm, a nagyobbik dugattyú átmérője 80 mm. A kis munkahenger dugattyújára 600 N erő hat."
+    ],
+    [
+      "Határozd meg, hogy mekkora erő ébred a nagyobb munkahenger dugattyúján [N]!"
+    ],
+    [],
+    [
+      "Megoldás:"
+    ],
+    [
+      "d1 = 9 mm"
+    ],
+    [
+      "d2 = 80 mm"
+    ],
+    [
+      "F₁ = 600 N"
+    ],
+    [
+      "F₂ = ?",
+      " N"
+    ],
+    [],
+    [
+      "A nagyobb dugattyún ébredő erő nagysága:"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "A nagyobb munkahenger dugattyújára 47 407,4 N erő hat."
+    ],
+    [
+      "Dugattyúk elmozdulásának nagysága"
+    ],
+    [
+      "A két hidraulikus munkahenger dugattyúinak az elmozdulási arányának elemzésekor alapvető szempont, hogy a két hengerbe egyforma mennyiségű munkafolyadék jut ",
+      "(6. ábra)",
+      "."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "6",
+      "",
+      ". ábra: ",
+      "Dugattyúk elmozdulási hossza"
+    ],
+    [
+      "F",
+      "orrás: Kocsis István – Nagy László: Szakmai számítások 85. o."
+    ],
+    [],
+    [
+      "Az elmozdulásokat tekintve látszik, hogy a kisebbik átmérőjű munkahenger dugattyúja nagyobb utat tesz meg, mint a nagyobb munkahenger dugattyúja. Az elmozdulást a dugattyúk által szállított munkafolyadék-mennyiség okozza (ami a két munkahengerben azonos), ebből következik az elmozdulás egyensúlyi egyenlete:"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "V1: kis dugattyú elmozdulásából szállított munkafolyadék mennyisége [mm³]"
+    ],
+    [
+      "V2: nagy dugattyú elmozdulásából szállított munkafolyadék mennyisége [mm³]"
+    ],
+    [],
+    [
+      "Az elmozdulások és a dugattyúfelületek aránya:"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "s1: kis dugattyú elmozdulása [mm]"
+    ],
+    [
+      "s2: nagy dugattyú elmozdulása [mm]"
+    ],
+    [
+      "A1: kis dugattyú felülete [mm²]"
+    ],
+    [
+      "A2: nagy dugattyú felülete [mm²]."
+    ],
+    [],
+    [
+      "A dugattyúfelületek képletének behelyettesítése után az elmozdulások aránya:"
+    ],
+    [],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "d1: kis dugattyú átmérője [mm],"
+    ],
+    [
+      "d2: nagy dugattyú átmérője [mm]."
+    ],
+    [],
+    [
+      "Feladat"
+    ],
+    [
+      "Egy hidraulikus emelő kis dugattyújának az átmérője 9 mm, és az elmozdulásának hossza 35 mm. A nagy munkahenger dugattyújának az átmérője 80 mm."
+    ],
+    [
+      "Határozd meg a nagy munkahenger dugattyújának elmozdulását egy emelés esetén [mm]!"
+    ],
+    [],
+    [
+      "Megoldás:"
+    ],
+    [
+      "d₁ = 9 mm"
+    ],
+    [
+      "d₂ = 80 mm"
+    ],
+    [
+      "s₁ = 35 mm"
+    ],
+    [
+      "s",
+      "₂ = ? mm"
+    ],
+    [],
+    [
+      "Nagy munkahenger dugattyújának elmozdulása:"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "A nagyobb munkahenger dugattyúja a kisebb munkahenger dugattyújának egy elmozdulására 0,44 millimétert mozdul el."
+    ],
+    [],
+    [
+      "Nyomásfokozás a hidraulikus rendszerben"
+    ],
+    [
+      "A nyomásfokozás elemzése során egy rúdra szerelt, két eltérő átmérőjű munkahengerrel rendelkező rendszer tereiben uralkodó nyomást vizsgálják. Alapvető szempont, hogy az eltérő átmérővel rendelkező munkahengerek dugattyúin ébredő erők egyformák (",
+      "7. ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "7",
+      "",
+      ". ábra: ",
+      "A nyomás változása egyforma erők esetén"
+    ],
+    [
+      "F",
+      "orrás: Kocsis István – Nagy László: Szakmai számítások 87. o."
+    ],
+    [],
+    [
+      "A hidraulikus munkahenger dugattyúit egyforma erő terheli, ebből következik az elmozdulás egyensúlyi egyenlete:"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "F₁: nagyobb dugattyúra ható erő [N]"
+    ],
+    [
+      "F₂: kisebb dugattyúra ható erő [N]"
+    ],
+    [
+      "A₁: kis dugattyú felülete [mm²]"
+    ],
+    [
+      "A₂: nagy dugattyú felülete [mm²]"
+    ],
+    [
+      "p₁: nagyobb átmérőjű dugattyú terében lévő nyomás [N]"
+    ],
+    [
+      "p₂: kisebb átmérőjű dugattyú terében lévő nyomás [N]"
+    ],
+    [
+      "A nyomások és a munkahenger dugattyúátmérőjének aránya:"
+    ],
+    [],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "d₁: kis dugattyú átmérője [mm]"
+    ],
+    [
+      "d₂: nagy dugattyú átmérője [mm]"
+    ],
+    [
+      "p₁: kis munkahengerben lévő nyomás [Pa]"
+    ],
+    [
+      "p₂: nagy munkahengerben lévő nyomás [Pa]"
+    ],
+    [],
+    [
+      "Feladat"
+    ],
+    [
+      "Egy erőgép hidraulikus rendszerében nyomásfokozó egységet alakítottak ki, amelyben a kis munkahenger dugattyújának átmérője 45 mm, és ebben a térben 6,2 ",
+      "MPa",
+      " nyomás van. A nagy munkahenger dugattyújának átmérője 65 mm."
+    ],
+    [
+      "Határozd meg a nagy munkahengerben lévő nyomás nagyságát [",
+      "MPa",
+      "]!"
+    ],
+    [],
+    [
+      "Megoldás:"
+    ],
+    [
+      "d₁ = 45 mm"
+    ],
+    [
+      "d₂ = 65 mm"
+    ],
+    [
+      "p₁ = 6,2 ",
+      "MPa",
+      " = 6,2·10⁶ Pa"
+    ],
+    [
+      "p₂ = ?",
+      " Pa"
+    ],
+    [],
+    [
+      "A nyomás nagysága:"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "A nagy munkahenger terében lévő nyomás: 2,9716·106 Pa."
+    ],
+    [
+      "1.1.2.5.",
+      "\tArkhimédész törvénye"
+    ],
+    [
+      "Minden folyadékba merülő testre felhajtóerő hat, amelynek nagysága függ a folyadék sűrűségétől és a folyadékba merülő test által kiszorított folyadék térfogatától."
+    ],
+    [],
+    [
+      "A folyadékba merülő test különböző módon viselkedik a folyadék sűrűségétől függően:"
+    ],
+    [
+      "úszik (a tárgy a folyadék felszínén marad),"
+    ],
+    [
+      "lebeg (a tárgy a folyadék belsejében van),"
+    ],
+    [
+      "elmerül (a tárgy a folyadék aljára merül)."
+    ],
+    [],
+    [
+      "Az úszás feltétele"
+    ],
+    [
+      "A folyadékba merülő testre két erő hat, az egyik a test tömegéből adódik, a másik a kiszorított folyadék tömegéből adódik."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "8",
+      "",
+      ". ábra: ",
+      "Az úszás feltétele"
+    ],
+    [
+      "F",
+      "orrás: https://nat2012.nkp.hu/tankonyv/fizika_10/lecke_01_002",
+      " (Megnyitva: 2024.07.01.)"
+    ],
+    [],
+    [
+      "A tömegből származó erő nagysága (G):"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "m: testtömeg [kg]"
+    ],
+    [
+      "g: gravitációs gyorsulás "
+    ],
+    [],
+    [
+      "A felhajtóerő nagysága:"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "V: folyadékba merülő test térfogata [dm³]"
+    ],
+    [
+      "ρ: folyadék sűrűsége "
+    ],
+    [
+      "g: gravitációs gyorsulás "
+    ],
+    [],
+    [
+      "Az ",
+      "úszás",
+      " akkor következik be, ha a ",
+      "felhajtóerő nagyobb, mint a test tömegéből származó erő, G > ",
+      "(8. ábra)."
+    ],
+    [],
+    [
+      "Feladat"
+    ],
+    [
+      "Egy hidraulikus rendszerben lévő munkafolyadékba 1 mm³ nagyságú parafa tömítésdarab került. A parafa sűrűsége 0,17 ",
+      ", a hidraulikus rendszerben a munkafolyadék sűrűsége 0,88 ",
+      "."
+    ],
+    [
+      "Határozd meg a tömítésdarabra ható erők nagyságát [N]!"
+    ],
+    [],
+    [
+      "Megoldás:"
+    ],
+    [],
+    [],
+    [
+      "V = 1 mm³"
+    ],
+    [
+      "G = ?",
+      " [N]"
+    ],
+    [
+      " = ? [N]"
+    ],
+    [],
+    [
+      "Tömegből ható erő nagysága:"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "Felhajtóerő nagysága:"
+    ],
+    [],
+    [],
+    [],
+    [
+      "A felhajtóerő nagyobb, mint fa tömegből eredő erő nagysága, ezért a parafadarab a munkafolyadék tetejére úszik fel."
+    ],
+    [],
+    [
+      "A lebegés feltétele"
+    ],
+    [
+      "A folyadékba merülő testre két erő hat, az egyik a test tömegéből adódik, a másik a kiszorított folyadék tömegéből adódik."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "9",
+      "",
+      ". ábra: ",
+      "A lebegés feltétele"
+    ],
+    [
+      "F",
+      "orrás: https://nat2012.nkp.hu/tankonyv/fizika_10/lecke_01_002",
+      " (Megnyitva: 2024.07.01.)"
+    ],
+    [],
+    [
+      "A kiszámítás menete megegyezik az úszásnál megismertekkel. A ",
+      "lebegés",
+      " akkor következik be, ",
+      "ha a felhajtóerő nagysága egyenlő a test tömegéből származó erő nagyságával, G = ",
+      " (9. ábra)."
+    ],
+    [],
+    [
+      "Feladat"
+    ],
+    [
+      "Egy hidraulikus rendszerben lévő munkafolyadékban 1 mm³ nagyságú gumi tömítésdarab került. A gumi sűrűsége 0,88 ",
+      ", a hidraulikus rendszerben a munkafolyadék sűrűsége 0,88 ",
+      "."
+    ],
+    [
+      "Határozd meg a gumi tömítésdarabra ható erők nagyságát [N]!"
+    ],
+    [],
+    [
+      "Megoldás:"
+    ],
+    [],
+    [],
+    [
+      "V = 1 mm³"
+    ],
+    [
+      "G = ?",
+      " [N]"
+    ],
+    [
+      " = ? [N]"
+    ],
+    [],
+    [
+      "Tömegből ható erő nagysága:"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "Felhajtóerő nagysága:"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "A felhajtóerő nagysága egyenlő a tömegből eredő erő nagyságával, ezért a gumidarab a munkafolyadékban lebeg."
+    ],
+    [],
+    [
+      "Az elmerülés feltétele"
+    ],
+    [
+      "A folyadékba merülő testre két erő hat, az egyik a test tömegéből adódik, a másik a kiszorított folyadék tömegéből adódik."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "10",
+      "",
+      ". ábra: ",
+      "Az elmerülés feltétele"
+    ],
+    [
+      "F",
+      "orrás: https://nat2012.nkp.hu/tankonyv/fizika_10/lecke_01_002",
+      " (Megnyitva: 2024.07.01.)"
+    ],
+    [],
+    [
+      "A kiszámítás elve és menete megegyezik az úszásnál megismertekkel. ",
+      "Az elmerülés akkor következik be, ha a felhajtóerő nagysága kisebb a test tömegéből származó erő nagyságánál, G < ",
+      " (10. ábra)."
+    ],
+    [],
+    [
+      "Feladat"
+    ],
+    [
+      "Egy hidraulikus rendszerben lévő munkafolyadékban 1 mm³ nagyságú acéldarab került. Az acéldarab sűrűsége 0,79 ",
+      ", a hidraulikus rendszerben a munkafolyadék sűrűsége 0,88 ",
+      "."
+    ],
+    [
+      "Határozd meg az acéldarabra ható erők nagyságát [N]!"
+    ],
+    [],
+    [
+      "Megoldás:"
+    ],
+    [],
+    [],
+    [
+      "V = 1 mm³"
+    ],
+    [
+      "G = ?",
+      " [N]"
+    ],
+    [
+      " = ? [N]"
+    ],
+    [],
+    [
+      "Tömegből ható erő nagysága:"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "Felhajtóerő nagysága:"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "A felhajtóerő nagysága kisebb a tömegből eredő erő nagyságánál, ezért az acéldarab a munkafolyadékban elsüllyed."
+    ],
+    [
+      "1.1.2.6.",
+      "\t",
+      "Áramlás a csővezetékekben"
+    ],
+    [
+      "A munkafolyadékokat általában csővezetékek továbbítják. Most a folyadékok áramlására vonatkozó két jellemzővel ismerkedhetsz:"
+    ],
+    [
+      "áramlás folytonosságának (kontinuitás) elve,"
+    ],
+    [
+      "áramlási viszonyok a csővezetékben."
+    ],
+    [
+      "Áramlás folytonossága (kontinuitás)"
+    ],
+    [
+      "A folyadékok összenyomhatatlanok, ebből következik, hogy a különböző keresztmetszetű cső-vezetékben áramló folyadék mennyisége minden ponton azonos."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "11",
+      "",
+      ". ábra: ",
+      "Áramlás folytonossága különböző keresztmetszetű csőben"
+    ],
+    [
+      "F",
+      "orrás: Mezei Tibor – Kocsis István – Dr. Varga Vilmos: Mezőgazdasági erőgépek I. 396. o."
+    ],
+    [],
+    [
+      "A különböző átmérőjű csővezetéken átáramló folyadék mennyisége mindenhol azonos, ami akkor lehetséges, ha a folyadék sebessége a különböző keresztmetszetekben eltérő ",
+      "(11. ábra)",
+      ". A folyamatos áramlás egyenlete:"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "Q: csővezetékben időegység alatt átáramló munkafolyadék mennyisége [mm³]"
+    ],
+    [
+      "A₁, A₂, A₃: csővezeték keresztmetszetei [mm²]"
+    ],
+    [
+      "v₁, v₂, v₃: az egyes keresztmetszetekben az áramló folyadék sebessége [mm/s]"
+    ],
+    [],
+    [
+      "A felületek és az áramló folyadék sebességek arányát elemezve:"
+    ],
+    [],
+    [],
+    [],
+    [
+      "Az áramlás folytonossága miatt (a csővezeték minden keresztmetszetében az átáramlott folyadék mennyiséges egyforma) a szűkebb keresztmetszetben az áramló folyadék sebessége nagyobb lesz, amelynek következtében a nyomás csökkeni fog."
+    ],
+    [],
+    [
+      "Bernoulli-egyenlet"
+    ],
+    [
+      "A Bernoulli-egyenlet az összenyomhatatlan és összenyomható áramló közegek energiaviszonyait vizsgálja. A hidraulikában a folyadékot összenyomhatatlannak tekintik, erre alapul a Bernoulli-egyenlet."
+    ],
+    [],
+    [
+      "Az egyenlet vizsgálja az áramló közeg mozgási, helyzeti és belső energiája közötti összefüggéseket. A mozgási energiából származó nyomás, azaz a dinamikus vagy áramlási nyomás (",
+      "), meghatározása:"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "ρ: a folyadék sűrűsége [kg/m³]"
+    ],
+    [
+      "v: a folyadék áramlási sebessége [m/s]"
+    ],
+    [],
+    [
+      "A helyzeti energiából származó nyomás, vagy más néven a ",
+      "statikusnyomás ",
+      "(",
+      "), meghatározása:"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "ρ: a folyadék sűrűsége [kg/m³]"
+    ],
+    [
+      "g: gravitációs gyorsulás "
+    ],
+    [
+      "h: a folyadékoszlop magassága [m]"
+    ],
+    [],
+    [
+      "A belső energiából származó nyomás nagysága: p."
+    ],
+    [
+      "A Bernoulli-törvény szerint az áramló közegben a különböző energia-összetevők összege állandó."
+    ],
+    [
+      "A Bernoulli-egyenlet:"
+    ],
+    [],
+    [],
+    [
+      "Áramlási viszonyok a csővezetékben"
+    ],
+    [
+      "A folyadékrészecskék áramlása a csővezetékben alapvetően kétfajta lehet:"
+    ],
+    [
+      "lamináris ",
+      "(lemezes),"
+    ],
+    [
+      "turbulens",
+      " (rendezetlen) ",
+      "(12. ábra)",
+      "."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "12",
+      "",
+      ". ábra: ",
+      "Folyadékáramlási módok"
+    ],
+    [
+      "F",
+      "orrás: Mezei Tibor – Kocsis István – Dr. Varga Vilmos: Mezőgazdasági erőgépek I. 397. o."
+    ],
+    [],
+    [
+      "Lamináris (lemezes)",
+      ": Az áramlás során a folyadék belső súrlódása",
+      " ",
+      "kisebb, mint a folyadék és a csőfal közötti súrlódás. A csővezeték közepén lesz a legkisebb a súrlódás, ezért az áramlás sebessége ott a legnagyobb. A mezőgazdasági gépek hidraulikus rendszerében legtöbbször ez az áramlási mód a legjobb."
+    ],
+    [
+      "Turbulens (rendezetlen)",
+      ": Az áramló közeg – a csővezeték bizonyos keresztmetszeteiben – nagy sebességű áramlása miatt a folyadékrészecskék nem meghatározható rendezettséggel haladnak tovább."
+    ],
+    [],
+    [
+      "Több tényező határozza meg az áramlási mód kialakulását, melyet a Reynolds-szám jellemez."
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "v: munkafolyadék sebessége [m/s]"
+    ],
+    [
+      "d: csővezeték átmérője [m]"
+    ],
+    [
+      "ν: folyadék viszkozitása [m²/s]"
+    ],
+    [],
+    [
+      "Amikor a Reynolds-szám"
+    ],
+    [
+      "2300 alatti, akkor az áramlás lamináris,"
+    ],
+    [
+      "2300 feletti, akkor az áramlás turbulens."
+    ],
+    [],
+    [
+      "A hidraulikus rendszerekben az áramlás során kialakulhat a ",
+      "kavitáció",
+      ", amely a hidraulikus rendszerre káros hatással van. A ",
+      "kavitáció",
+      " kialakulásának feltétele a csővezeték ",
+      "keresztmet-szetének",
+      " és az áramlás sebességének olyan mértékű megváltozása, hogy az áramlás ",
+      "turbu-lenssé",
+      " válik ",
+      "(13. ábra)",
+      "."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "13",
+      "",
+      ". ábra: ",
+      "A ",
+      "kavitáció",
+      " kialakulásának elve"
+    ],
+    [
+      "F",
+      "orrás: Mezei Tibor – Kocsis István – Dr. Varga Vilmos: Mezőgazdasági erőgépek I. 397. o."
+    ],
+    [],
+    [
+      "A leszűkült keresztmetszetben az áramlási sebesség növekedése miatt a nyomás csökken, ami gőzbuborékok kialakulását eredményezheti. Az újbóli keresztmetszet-változás miatt – amikor tehát a keresztmetszet-változás átmenete nem megfelelő (lásd ",
+      "13. ábra",
+      ") – az áramlás turbulenssé alakul. A gőzbuborékokban a nyomás jelentősen megnő, és a kis gőzbuborékok felrobban-hatnak, ami a rendszerben nagy nyomáshullámot indíthat el. A gőzbuborék átalakulása során a közelében lévő alkatrészekből apró részeket szakíthat le, ezáltal nő a kopás a rendszerben, és az áramlási veszteségek is jelentősen megnőnek."
+    ],
+    [
+      "1.2.",
+      "\t",
+      "A ",
+      "hidraulikus rendszer általános felépítése és működési elvei"
+    ],
+    [
+      "1.2.1.",
+      "\t",
+      "Felépítése"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "14",
+      "",
+      ". ábra: ",
+      "Az egyszerű hidraulikus rendszer egységei"
+    ],
+    [
+      "F",
+      "orrás: https://www.istockphoto.com/hu/vektor/a-traktor-hidraulikus-felvon%C3%B3j%C3%A1nak-rendszere-az-alapvet%C5%91-hidraulikus-felvon%C3%B3-gm963076136-263045654?phrase=hydraulic%20piston ",
+      "(Megnyitva: ",
+      "2024.07.0",
+      "1",
+      ".",
+      ")"
+    ],
+    [],
+    [
+      "A mezőgazdasági erőgépek egyszerű hidraulikus rendszere a következő szerkezeti egységekből épül fel ",
+      "(14. ábra)",
+      ":"
+    ],
+    [
+      "Tartály:",
+      " a rendszer működéséhez szükséges munkafolyadék (hidraulikaolaj) tárolását, hűtését biztosítja."
+    ],
+    [
+      "Előszűrő:",
+      " a szivattyú által beszívott munkafolyadék előszűrését végzi."
+    ],
+    [
+      "Olajszivattyú:",
+      " a rendszer működéséhez szükséges mennyiségű és nyomású munkafolyadék szállítása a feladata."
+    ],
+    [
+      "Biztonsági szelep:",
+      " a rendszerben lévő maximális nyomást határolja."
+    ],
+    [
+      "Útváltó:",
+      " a munkafolyadékot a kézi kapcsoló által meghatározott egységek felé irányítja."
+    ],
+    [
+      "Nyomáshatároló szelep:",
+      " az útváltó utáni hidraulikus körben szabályozza a nyomást, nagyobb nyomás esetén a munkafolyadékot visszavezeti a tartályba."
+    ],
+    [
+      "Kézi kapcsoló:",
+      " az útváltó helyzetét változtatja, pl. a munkahenger merre mozduljon el."
+    ],
+    [
+      "Határoló kar:",
+      " a munkavégző egység elmozdulási útját szabályozza."
+    ],
+    [
+      "Hidraulikus munkahenger",
+      ":",
+      " a nyomási energiát alakítja át mechanikai munkává, azaz biztosítja a közvetlen munkavégzést."
+    ],
+    [
+      "Függesztőszerkezet:",
+      " a munkaeszközök csatlakozását és mozgatását biztosítja a hidraulikus munkahenger által."
+    ],
+    [
+      "Csatlakozó a másik oldali munkahengerhez:",
+      " amennyiben a függesztőszerkezetet két hidraulikus munkahenger működteti, akkor továbbítja a szükséges munkafolyadékot a munkahengernek."
+    ],
+    [
+      "Visszatérő ág:",
+      " a munkavégzés során a rendszerben nem szükséges munkafolyadék tartályba való visszavezetésére szolgál."
+    ],
+    [
+      "1.2.2.",
+      "\t",
+      "A hidraulikus rendszer működése"
+    ],
+    [
+      "Az ",
+      "olajszivattyú",
+      " (amelyet az erőgép motorja hajt meg) az ",
+      "előszűrőn",
+      " keresztül tiszta munkafolyadékot szív, majd a nyomóoldalán megfelelő mennyiségben és nyomással továbbítja az ",
+      "útváltó",
+      " felé. A szivattyú és az útváltó között lévő ",
+      "biztonsági szelep",
+      " megakadályozza a rend-szerben a maximális nyomás túllépését. Annyi munkafolyadékot vezet vissza a tartályba, hogy a rendszerben a maximális nyomást ne lépje túl. Az útváltó általában három irányba továbbíthatja az olajat az adott helyzetnek megfelelően:"
+    ],
+    [
+      "üres helyzetben:",
+      " amikor nem működik a hidraulikus munkahenger, akkor a szivattyú által szállított olajat a tartályba irányítja;"
+    ],
+    [
+      "emelési helyzetben:",
+      " a hidraulikus munkahenger jobb oldali terébe vezeti az olajat, a munkahenger bal oldalra mozdul, közben a munkahenger bal oldali részében lévő olaj áramlását lehetővé teszi a tartály felé;"
+    ],
+    [
+      "süllyesztési helyzetben:",
+      " a munkahenger bal oldali terébe jut az olaj, és a jobb oldali teréből jut vissza az olaj a tartályba, miközben a munkahenger jobbra mozdul el."
+    ],
+    [],
+    [
+      "A legtöbb hidraulikus rendszerben a hidraulikus munkahenger szélső helyzetei határolókar beállításával változtathatók."
+    ],
+    [],
+    [
+      "A hidraulikus rendszerben alkalmazott egységek:"
+    ],
+    [
+      "energiaátalakítók:",
+      " pl. hidraulikus szivattyú, ",
+      "hidromotor",
+      ", hidraulikus munkahenger;"
+    ],
+    [
+      "irányítóegységek:",
+      " pl. út-, nyomás- és áramirányítók;"
+    ],
+    [
+      "kiegészítő egységek:",
+      " pl. csővezeték, csőszerelvények, ",
+      "hidroakkumulátor",
+      "."
+    ],
+    [],
+    [
+      "A hidraulikus berendezéseket egyszerűsítve, jelrendszer segítségével ábrázolják, ami megkönnyíti a kapcsolások és a működés szemléltetését és megértését. A következőkben az alkalmazott jeleket és kerül bemutatja be a tananyag."
+    ],
+    [
+      "1.2.2.1.",
+      "\t",
+      "Energiaátalakítók"
+    ],
+    [
+      "Az ",
+      "enegiaátalakítók",
+      " alapvetően két nagy csoportba tartoznak:"
+    ],
+    [
+      "forgómozgású energiaátalakítók,"
+    ],
+    [
+      "alternáló (egyenesvonalú) mozgást végző energiaátalakítók."
+    ],
+    [],
+    [
+      "Az energiaátalakítók (szivattyúk és ",
+      "hidromotorok",
+      ") jellemzőinek és feladatainak részletes leírását lásd az 1.2.2.5 fejezetben."
+    ],
+    [],
+    [
+      "Forgómozgású energiaátalakítók",
+      "\n",
+      "Alapjele a kör, és a kialakításoktól függően a jelölések lehetnek különfélék."
+    ],
+    [
+      "Hidraulikus szivattyúk ",
+      "(15. ábra)"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "15",
+      "",
+      ". ábra: ",
+      "Hidraulikus szivattyúk"
+    ],
+    [
+      "F",
+      "orrás: saját készítés"
+    ],
+    [],
+    [
+      "Hidromotorok",
+      " ",
+      "(16. ábra)"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "16",
+      "",
+      ". ábra:",
+      " ",
+      "Hidromotorok"
+    ],
+    [
+      "Forrás: saját készítés"
+    ],
+    [],
+    [
+      "Alternáló mozgású energiaátalakítók"
+    ],
+    [
+      "Alapjele téglalap, és a kialakításoktól függően a jelölések lehetnek különfélék."
+    ],
+    [
+      "Hidraulikus munkahengerek (egyoldali, kétoldali, teleszkópos és véghelyzet-",
+      "csillapítású",
+      " hidraulikus munkahengerek; ",
+      "17. ábra",
+      ")"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "17",
+      "",
+      ". ábra: ",
+      "Hidraulikus munkahengerek"
+    ],
+    [
+      "Forrás: saját készítés"
+    ],
+    [],
+    [
+      "1.2.2.2.",
+      "\t",
+      "Irányítóegységek"
+    ],
+    [
+      "Irányítóegységek végzik a hidraulikus rendszer működése során a munkafolyadék áramlásának az irányítását. Az irányítóegységek lehetnek:"
+    ],
+    [
+      "útváltók,"
+    ],
+    [
+      "áramlás- és nyomásirányítók."
+    ],
+    [],
+    [
+      "Az irányítóegységet a hidraulikus rendszerbe az egységek megfelelő működése érdekében építik be, ami a munkafolyadék mennyisége, illetve nyomása alapján biztosítja a hidraulikus rendszer üzemeltetését."
+    ],
+    [
+      "Alapjele a négyzet, és a kialakításoktól függően a jelölések lehetnek különfélék. További jelölések utalnak a működési módra és a kapcsolás lehetőségeire.",
+      "\n"
+    ],
+    [
+      "Útváltók"
+    ],
+    [
+      "Az útváltók (útirányítók) esetében az egymás mellé rajzolt nagy négyzetek száma jelzi, hogy hány kapcsolási állás van. A csővezetékek száma az áramlási utakat mutatja (pl. ",
+      "18. ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "18",
+      "",
+      ". ábra: ",
+      "4/3-os útváltó jelképes ábrázolása"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "A kapcsolási módra az ábra szélein lévő jelkép utal (lásd ",
+      "19. ábra",
+      ")."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "19",
+      "",
+      ". ábra: ",
+      "4/3-os, kétoldali mágneskapcsolóval működtetett útváltó jelképes ábrázolása"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "Útváltók és kapcsolási módjuk ",
+      "(20. ábra)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "20",
+      "",
+      ". ábra: ",
+      "Útváltók"
+    ],
+    [
+      "Forrás: saját készítés"
+    ],
+    [],
+    [
+      "Áramlás- és nyomásirányítók (szelepek)"
+    ],
+    [
+      "Az ",
+      "áramlás- és nyomásirányítók",
+      " jelképes ábrázolásai egy négyzet alapjelből és a kiegészítő részeket ábrázoló jelképekből állnak ",
+      "(",
+      "21",
+      ". ábra)",
+      "."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "21",
+      "",
+      ". ábra: ",
+      "Áramlásirányítók jelképes ábrázolása"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "A leggyakrabban alkalmazott ",
+      "áramlásirányítók",
+      " jelképes ábrázolása ",
+      "(22. ábra)",
+      ":"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "22",
+      "",
+      ". ábra: ",
+      "A leggyakrabban alkalmazott áramlásirányítók jelképes ábrázolása"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "Hidraulikus rendszerek ",
+      "kiegészítő egységei",
+      "nek jelképes ábrázolása ",
+      "(23. ábra)",
+      ":"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "23",
+      "",
+      ". ábra: ",
+      "Hidraulikus rendszerek kiegészítő egységeinek jelképes ábrázolása"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [
+      "1.2.2.3.",
+      "\t",
+      "Hidraulikus kapcsolási rajz olvasása"
+    ],
+    [
+      "A ",
+      "24. ábrán",
+      " egy munkahenger működtetésére alkalmas kapcsolási rajz látható."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "24",
+      "",
+      ". ábra: ",
+      "Hidraulikus munkahenger működtetésének kapcsolási rajza"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "A kapcsolás öt nagyobb egységből áll:"
+    ],
+    [
+      "olajellátó egység,"
+    ],
+    [
+      "útváltó,"
+    ],
+    [
+      "áramlásirányító egység,"
+    ],
+    [
+      "munkavégző egység (hidraulikus munkahenger),"
+    ],
+    [
+      "visszavezető egység."
+    ],
+    [],
+    [
+      "Olajellátó egység"
+    ],
+    [
+      "Az olajellátó egység biztosítja a rendszer számára a szükséges mennyiségű és nyomású olajat."
+    ],
+    [],
+    [
+      "Felépítése (25. ábra):"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "25",
+      "",
+      ". ábra: ",
+      "Olajellátó rendszer kapcsolási rajza"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "Működése:"
+    ],
+    [
+      "A motorról meghajtott olajszivattyú a tartályból felszívja az olajat, és a visszacsapó szelepen keresztül továbbítja azt. Az olaj két irányban haladhat tovább: az egyik az útváltó felé, a másik irány a nyomáshatároló szelep felé vezet. A nyomáshatároló feladata, hogy az előtte lévő rendszerben zárja az olaj útját a tartály felé, amíg a beállított nyomást el nem érte. A beállított nyomás elérésekor nyit, és az olaj egy részét visszaengedi a tartályba. Annyit enged mindig vissza, hogy az útváltó felé megmaradjon a szükséges nyomás. A tartályba visszaengedett olaj nyomása a veszteségek csökkentése érdekében lényegesen alacsonyabb, mint az útváltó felé haladó olaj nyomása."
+    ],
+    [],
+    [
+      "Útváltó"
+    ],
+    [
+      "Az útváltó általában a kezelő által működtetni kívánt egység felé továbbítja az olajat, illetve vezeti vissza. Az alábbi ábrákon látható útváltó négy olajcsatornával és három állással rendelkezik (4/3). A kapcsolást elektromágnes végzi, az útváltó alaphelyzetbe állítását rugó biztosítja."
+    ],
+    [],
+    [
+      "Az útváltó állásai:"
+    ],
+    [
+      "semleges helyzet,"
+    ],
+    [
+      "párhuzamos olajáramlás,"
+    ],
+    [
+      "keresztirányú olajáramlás."
+    ],
+    [],
+    [
+      "Semleges helyzet"
+    ],
+    [
+      "Semleges helyzetben az olaj nem megy tovább semerre, az egységet a két oldalt elhelyezett rugó tartja középhelyzetben (",
+      "26. ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "26",
+      "",
+      ". ábra: ",
+      "Útváltó semleges helyzetben"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "Párhuzamos olajáramlás"
+    ],
+    [
+      "Ebben a helyzetben a bal oldali elektromágnes a rugó ellenében elmozdítja a ",
+      "tolattyú",
+      "t. Ebben a helyzetben a tolattyú szabaddá teszi az olaj útját a P csatlakozótól az A csatlakozó felé, valamint a B csatlakozótól a T csatlakozó felé (",
+      "27. ábra",
+      ")."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "27",
+      "",
+      ". ábra: ",
+      "Útváltó párhuzamos áramlási helyzetben"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "Amikor az elektromágnes nem tartja már a tolattyút eltolt helyzetben, akkor a rugó alap-helyzetbe nyomja vissza azt, ezzel minden irányban zárva az olaj útját."
+    ],
+    [],
+    [
+      "Keresztirányú olajáramlás"
+    ],
+    [
+      "A jobb oldali elektromágnes a tolattyút a rugó ellenében jobbra mozdítja, ezáltal a csatlakozókat keresztirányba nyitja. Az olaj a P csatlakozóból a B csatlakozóba, valamint az A csatlakozóból a T csatlakozóba áramlik (",
+      "28. ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "28",
+      "",
+      ". ábra: ",
+      "Útváltó keresztirányú áramlási helyzetben"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [
+      "Ha az elektromágnes nem tartja már a tolattyút eltolt helyzetben, akkor a rugó ebben az állásban is alaphelyzetbe nyomja vissza azt, ezzel zárva minden irányba az olaj útját."
+    ],
+    [],
+    [
+      "Áramlásirányító egység"
+    ],
+    [
+      "A rendszerbe egymással párhuzamosan két áramlásirányító egység van beépítve (",
+      "29. ábra",
+      "). Az egyik a szivattyú által a munkavégző részhez szállítja az olajat, a másik pedig a munkavégző egységből visszavezeti az olajat."
+    ],
+    [],
+    [
+      "Egy áramlásirányító egység két másik egységből áll:"
+    ],
+    [
+      "állítható fojtó,"
+    ],
+    [
+      "rugós visszacsapó szelep."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "29",
+      "",
+      ". ábra: ",
+      "Az áramlásirányító bal oldali egységén keresztül áramlik az olaj"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [],
+    [
+      "A működés során a bal oldali egységben az olaj a rugós visszacsapó szelepen áramlik. A jobb oldali egységben a munkavégző egységből visszaérkező olaj a rugós visszacsapó szelep zárása miatt a szabályozható fojtón keresztül áramlik vissza. A fojtó biztosítja a munkavégző egységből visszaérkező olaj mennyiségét, amely meghatározza a munkavégző egység működési gyorsaságát."
+    ],
+    [
+      "A munkavégző egységnek az előzőhöz képest ellentétes mozgásakor a jobb oldali egység szállítja a nagy nyomású olajat. Az olajat a munkavégző egységtől a bal oldali egység vezeti vissza a fojtón keresztül, mert a rugós visszacsapó szelep ebből az irányból nem engedi át az olajat ",
+      "(30. ábra)",
+      "."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "30",
+      "",
+      ". ábra: ",
+      "Az áramlásirányító jobb oldali egységén keresztül áramlik az olaj"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "Munkavégző egység"
+    ],
+    [
+      "A ",
+      "munkavégző egység ",
+      "hasznosítja a hidraulikus energiát, pl. mechanikai munkává alakítja. A ",
+      "31. ábrán",
+      " látható hidraulikus munkahenger ",
+      "egyoldali",
+      ", kettős működésű. A jobb oldali mozgás akkor következik, be, ha az olajat a bal oldali térbe vezetik be, viszont a mozgás csak akkor indul meg, ha a jobb oldali térből az olajat elvezetik."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "31",
+      "",
+      ". ábra: ",
+      "Hidraulikus munkahenger elmozdulása jobbra"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [
+      "A bal oldali mozgás során az olajat a jobb oldali térbe vezetik be, a bal oldali térből pedig elvezetik ",
+      "(32. ábra)",
+      "."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "32",
+      "",
+      ". ábra: ",
+      "Hidraulikus munkahenger elmozdulása balra"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "Visszavezető egység"
+    ],
+    [
+      "A visszavezető egység az útváltóból a tartályba továbbítja a munkavégző egységtől érkező olajat."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "33",
+      "",
+      ". ábra: ",
+      "Visszavezető egység kapcsolási rajza"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "Az útváltóból vissza kell vezetni a végrehajtó egységből érkező olajat a tartályba, mert ez biztosítja a rendszer folyamatos működéséhez szükséges munkafolyadékot. A visszavezető egység a tartályba olajszűrőn keresztül vezeti vissza az olajat, ahol az olajban lévő szennyeződések kiválnak ",
+      "(33. ábra)",
+      ". Az olajszűrő egy ideig képes a szennyeződéseket az olaj áramlása mellett magában tartani, de egy bizonyos mennyiség elérésekor eltömődik, és megszűnik az olaj visszavezetése. Az olajszűrő eltömődése esetére van beépítve egy rugós visszacsapó szelep, amely egy beállított nyomás elérésekor nyitja az olaj útját a tartály felé ",
+      "(34. ábra)",
+      "."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "34",
+      "",
+      ". ábra: ",
+      "Olaj áramlása eltömődött szűrő esetén"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [
+      "1.2.2.4.",
+      "\t",
+      "A hidraulikus rendszer működése"
+    ],
+    [
+      "A hidraulikus rendszer működését az útváltó három helyzetében mutatja be a tananyag:"
+    ],
+    [
+      "semleges helyzetben,"
+    ],
+    [
+      "párhuzamos olajáramlás és"
+    ],
+    [
+      "keresztirányú olajáramlás helyzetében."
+    ],
+    [],
+    [
+      "Útváltó semleges helyzetben",
+      "\n",
+      "Semleges helyzetben az útváltó középállásban van, és az olaj nem áramlik a munkavégző egységek felé ",
+      "(35. ábra)",
+      "."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "35",
+      "",
+      ". ábra: ",
+      "Olaj áramlási útja semleges helyzetben (zárt útváltó esetén)"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "Az olaj útja részletesen:"
+    ],
+    [],
+    [
+      "A meghajtott olajszivattyú a tartályból felszívja az olajat, és szállítja tovább a rugós visszacsapó szelepen keresztül az útváltó felé. Az útváltó semleges helyzete miatt az olaj nem tud ",
+      "tovább menni",
+      ", és a nyomóoldalon megnő a nyomás. A nyomóágban egy nyomáshatároló szelep van bekötve, ami beállított nyomás esetén kinyílik, és továbbítja az olajat vissza a tartályba. Ebben az esetben az olajszivattyú által szállított összes olaj visszaáramlik a tartályba a nyomáshatároló szelepen keresztül."
+    ],
+    [],
+    [
+      "Útváltó párhuzamos olajáramlás helyzetében"
+    ],
+    [
+      "Az útváltót balra tolják el, ekkor a be- és kivezetésre kialakított olajcsatornák párhuzamos helyzetbe kerülnek, és az olaj így áramlik tovább ",
+      "(36. ábra)",
+      "."
+    ],
+    [],
+    [
+      "Az olaj útja részletesen:"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "36",
+      "",
+      ". ábra: ",
+      "Olaj áramlási útja párhuzamos útváltóállás esetén"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "A meghajtott olajszivattyú a tartályból felszívja az olajat, és szállítja tovább a rugós visszacsapó szelepen keresztül az útváltó felé. Az útváltó balra eltolt helyzete miatt az olaj a bal oldali szelepekhez jut, ahol a rugós visszacsapó szelepen keresztül a hidraulikus munkahenger bal oldalára kerül. A munkahenger mindkét oldala munkafolyadékkal (olajjal) teljesen feltöltött állapotban van. A bal oldalra érkező nyomás csak akkor tudja a munkahenger dugattyúját elmozdítani, ha a jobb oldali térből a munkafolyadék útja szabaddá válik. Ezt az áramlást teszi lehetővé az útváltó jobb oldali csatornákat összekötő helyzete. Ekkor az olaj a munkahenger jobb oldali teréből a jobb oldali szelephez kerül, és a munkahenger dugattyúja jobbra elmozdul."
+    ],
+    [
+      "A ",
+      "36. ábrán",
+      " látható, hogy a munkafolyadék a szabályozható ",
+      "fojtón",
+      " keresztül áramlik az útváltó felé. A szabályozható fojtón átáramlott olaj mennyiségének változtatása biztosítja a hidraulikus munkahenger dugattyúja elmozdulási sebességének a változtatását. Így beállítható, hogy a munkahenger dugattyújának milyen gyorsan mozduljon el."
+    ],
+    [],
+    [
+      "Az útváltóból a munkafolyadék egy szűrőegységen keresztül jut vissza a tartályba. A szűrő-egység egy szűrőből és egy rugós visszacsapó szelepből ál. Amikor a szűrő normálisan működik, pl. nincs eltömődve, akkor az összes olaj rajta keresztül áramlik vissza a tartályba. Amennyiben a szűrőben a nyomás emelkedik (pl. a sok kiválasztott szennyeződéstől nem tud a teljes olajmennyiség átáramolni rajta), a rugó ellenében kinyílik a szelep, és az olaj ",
+      "szűretlenül",
+      " áramlik a tartályba. A korszerű hidraulikus rendszereknél a rugós szelep elmozdulásának figyelésére érzékelőt szerelnek be, ami a kezelő számára a műszerfalon jelzi, hogy a szűrő eltömődött."
+    ],
+    [],
+    [
+      "Útváltó keresztirányú olajáramlás helyzetében"
+    ],
+    [
+      "Az útváltót jobbra tolják el, a be- és kivezetésre kialakított olajcsatornák helyzete keresztirányú lesz. Ebben az állásban az olaj a csővezetékekben keresztirányban áramlik ",
+      "(37. ábra)",
+      "."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "37",
+      "",
+      ". ábra: ",
+      "Olaj áramlási útja keresztirányú útváltóállás esetén"
+    ],
+    [
+      "Forrás: saját szerkesztés"
+    ],
+    [],
+    [
+      "A meghajtott olajszivattyú a tartályból felszívja az olajat, és szállítja tovább a rugós visszacsapó szelepen keresztül az útváltó felé. Az útváltó keresztirányú áramlási helyzete miatt az olaj a jobb oldali szelepekhez jut, ahol a rugós visszacsapó szelepen át jut a hidraulikus munkahenger jobb oldali terébe. A hidraulikus munkahenger dugattyúja csak abban az esetben tud balra elmozdulni, ha a hidraulikus munkahenger bal oldali teréből szabaddá válik az olaj áramlása. A visszaáramlást a bal oldali szelep állítható fojtója biztosítja. A fojtó állításával lehet szabályozni a munkahenger elmozdulási sebességét. Az olaj a fojtóból az útváltón és a szűrőegységen keresztül kerül vissza a tartályba."
+    ],
+    [
+      "A szűrőegységben az olaj a szűrőn keresztül áramlik, viszont a szűrő eltömődése esetén a rugós visszacsapó szelep nyit, és az olaj ",
+      "szűretlenül",
+      " kerül vissza a tartályba."
+    ],
+    [
+      "1.2.2.5.",
+      "\t",
+      "Szivattyúk és ",
+      "hidromotorok",
+      " fontosabb jellemzői"
+    ],
+    [
+      "Szivattyúk"
+    ],
+    [
+      "A mezőgazdasági gépeken általában a térfogatkiszorítás elvén működő szivattyúkat alkalmaznak. A térfogatkiszorítás elvén működő szivattyúkban a meghajtott egységek működése közben a munkatérfogat változik (növekszik-csökken). A munkatérfogat növekedése esetén a térben nyomáscsökkenés lép fel, és ebbe a térbe munkafolyadék áramlik be, ez ",
+      "a szívás ",
+      "szakasza",
+      ". A munkatérfogat csökkenésekor a nyomás növekszik, és ebből a térből munkatérfolyadék áramlik ki, ez ",
+      "a szivattyú nyomási vagy szállítási szakasza",
+      "."
+    ],
+    [],
+    [
+      "A szivattyúk általános jellemzői:"
+    ],
+    [
+      "fajlagos szállítás: a hajtó tengely egy fordulata alatt szállított munkafolyadék mennyisége [cm³/fordulat],"
+    ],
+    [
+      "a szivattyú maximális üzemi nyomása [",
+      "MPa",
+      "],"
+    ],
+    [
+      "a szivattyú üzemi fordulatszáma [1/min; 1/s]."
+    ],
+    [],
+    [
+      "Hidromotorok"
+    ],
+    [
+      "A mezőgazdasági gépekben alkalmazott szivattyúk többsége alkalmas ",
+      "hidromotorként",
+      " való működésre, egyes esetekben átalakítással oldható meg a motorként való üzemeltetés. A ",
+      "hidromotorok",
+      " működése során a munkafolyadékot nyomással juttatják a munkatérbe, ahol az a mechanikus egységet elmozdítja, amelynek a tengelye így alkalmassá válik gépszerkezetek meghajtására."
+    ],
+    [],
+    [
+      "A ",
+      "hidromotorok",
+      " egyik nagy előnye a belső égésű motorokkal szemben, hogy az indulás pilla-",
+      "natában",
+      " maximális nyomatékot képes leadni, ami megkönnyíti a meghajtott gépszerkezetek indítási folyamatát."
+    ],
+    [],
+    [
+      "A ",
+      "hidromotorok",
+      " általános jellemzői:"
+    ],
+    [
+      "fajlagos nyelés: a tengely egy fordulata alatt elnyelt munkafolyadék mennyisége [cm³/fordulat],"
+    ],
+    [
+      "a ",
+      "hidromotor",
+      " maximális üzemi nyomása [",
+      "MPa",
+      "],"
+    ],
+    [
+      "a ",
+      "hidromotor",
+      " üzemi fordulatszám-tartománya [1/min; 1/s]."
+    ],
+    [],
+    [
+      "A hidraulikus rendszerben átvihető teljesítmény nagysága"
+    ],
+    [
+      "A hidraulikus teljesítmény (P):"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "p: a hidraulikus rendszer nyomása [Pa],"
+    ],
+    [
+      "Q: térfogatáram (időegység alatt átáramló munkafolyadék mennyisége [m³/s]."
+    ],
+    [],
+    [
+      "Feladat"
+    ],
+    [
+      "Egy hidraulikus rendszerben uralkodó nyomás 12 ",
+      "MPa",
+      ", és a rendszeren percenként 130 liter munkafolyadék áramlik át."
+    ],
+    [
+      "Határozd meg a hidraulikus rendszer teljesítményének a nagyságát [W]!"
+    ],
+    [],
+    [
+      "Megoldás"
+    ],
+    [
+      "p = 12 ",
+      "MPa",
+      " = 1,2·107 Pa"
+    ],
+    [
+      "Q = 130 l/min = 2,16 dm³/s = 2,16·10-3 m3/s"
+    ],
+    [
+      "P = ?",
+      " [W]"
+    ],
+    [],
+    [
+      "A hidraulikus rendszer teljesítménye:"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "Hidraulikus rendszerben keletkező veszteségek"
+    ],
+    [
+      "A teljesítményátadás során a rendszerben ",
+      "különböző hidraulikus veszteségek keletkeznek",
+      ", melyek lehetnek:"
+    ],
+    [
+      "résveszteségek (",
+      "volumetrikus",
+      "),"
+    ],
+    [
+      "nyomásveszteségek (áramlástechnikai),"
+    ],
+    [
+      "mechanikai veszteségek."
+    ],
+    [],
+    [
+      "A résveszteségek"
+    ],
+    [
+      "A ",
+      "résveszteségek",
+      " általában az energiaátalakítók (pl. szivattyú, ",
+      "hidromotor",
+      ", hidraulikus munkahenger) egymáson elmozduló alkatrészei között lépnek fel. A munkafolyadék nem a kívánt helyre áramlik, hanem egy része az alkatrészek között, pl. a hidraulikus munkahenger dugattyúja mellett az egyik térből átáramlik az másikba."
+    ],
+    [],
+    [
+      "A résveszteség mértékéből határozható meg a ",
+      "volumetrikus",
+      " hatásfok",
+      " (",
+      "), amit az energiaátalakítóba be- és kiáramlott munkafolyadék arányából lehet meghatározni."
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      ": energiaátalakítóból kiáramló munkafolyadék mennyisége [dm³/s]"
+    ],
+    [
+      ": energiaátalakítóba beáramló munkafolyadék mennyisége [dm³/s]"
+    ],
+    [],
+    [
+      "Nyomásveszteség"
+    ],
+    [
+      "A ",
+      "nyomásveszteség",
+      " az egyes hidraulikus elemek áramlási ellenállásából adódik, ami a rendszerben áramló munkafolyadék nyomásának csökkenését okozza. A nyomásveszteségből, azaz a be- és kiáramló munkafolyadék nyomásának arányából lehet meghatározni a hidraulikus hatásfokot (",
+      ")."
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      ": hidraulikus elembe beáramló munkafolyadék nyomása [MPa]"
+    ],
+    [
+      ": hidraulikus elemből kiáramló munkafolyadék nyomása [MPa]"
+    ],
+    [],
+    [
+      "Mechanikai veszteség"
+    ],
+    [
+      "A ",
+      "mechanikai veszteség",
+      " az egymáson elmozduló alkatrészek súrlódásából keletkező veszteség, ami a rendszerben leggyakrabban hővé alakul. A mechanikai veszteségekből meghatározható a mechanikai hatásfok (",
+      ")."
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      ": hidraulikus elemből levehető teljesítmény [W]"
+    ],
+    [
+      ": hidraulikus elembe bevitt teljesítmény [W]"
+    ],
+    [],
+    [
+      "A mechanikai hatásfokot általában a nyomásveszteséggel együtt határozzák meg, mert a mechanikai veszteség is nyomásveszteséggel jár, ami könnyebben mérhető."
+    ],
+    [],
+    [
+      "A hidraulikus rendszer összhatásfoka"
+    ],
+    [
+      "A hidraulikus rendszer összhatásfoka (",
+      ") a részhatásfokok szorzatából határozható meg."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Á",
+      "bra",
+      "jegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "T",
+      "áblázat",
+      "jegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [
+      ""
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kompetencia tesztek szerzője:",
+        "Kocsis István"
+      ],
+      [
+        "Kompetencia tesztek szakmai lektora:",
+        "Orosz György Gyula"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Mezőgazdaság és erdészet"
+      ],
+      [
+        "Szakma:",
+        "Mezőgazdasági gépésztechnikus "
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Mezőgazdasági gépek"
+      ],
+      [
+        "Tantárgy:",
+        "Agrárműszaki erőgépek"
+      ],
+      [
+        "Évfolyam:",
+        "12. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "15 óra"
+      ]
+    ],
+    [
+      [
+        "Jelölés",
+        "Összetétel"
+      ],
+      [
+        "HH (H)",
+        "Adalékolatlan ásványolaj"
+      ],
+      [
+        "HL (HL)",
+        "Ásványolaj-finomítvány oxidáció- és korróziógátló adalékkal"
+      ],
+      [
+        "HM (HLP)",
+        "Ásványolaj-finomítvány oxidáció-, korróziógátló és kopáscsökkentő adalékkal"
+      ],
+      [
+        "HV",
+        "HM olaj magas viszkozitási indexszel"
+      ]
+    ]
+  ],
+  "headers": [
+    ""
+  ],
+  "footers": [
+    ""
+  ],
+  "footnotes": [
+    "",
+    ""
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image26.jpg",
+      "path": null,
+      "bytes": 8388
+    },
+    {
+      "name": "image27.jpg",
+      "path": null,
+      "bytes": 9296
+    },
+    {
+      "name": "image28.jpg",
+      "path": null,
+      "bytes": 9918
+    },
+    {
+      "name": "image29.jpg",
+      "path": null,
+      "bytes": 13648
+    },
+    {
+      "name": "image23.jpg",
+      "path": null,
+      "bytes": 28604
+    },
+    {
+      "name": "image24.jpg",
+      "path": null,
+      "bytes": 16949
+    },
+    {
+      "name": "image30.jpg",
+      "path": null,
+      "bytes": 8851
+    },
+    {
+      "name": "image22.jpg",
+      "path": null,
+      "bytes": 35145
+    },
+    {
+      "name": "image25.jpg",
+      "path": null,
+      "bytes": 17691
+    },
+    {
+      "name": "image34.jpg",
+      "path": null,
+      "bytes": 10945
+    },
+    {
+      "name": "image32.jpg",
+      "path": null,
+      "bytes": 3917
+    },
+    {
+      "name": "image39.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image38.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image37.jpg",
+      "path": null,
+      "bytes": 20532
+    },
+    {
+      "name": "image36.jpg",
+      "path": null,
+      "bytes": 20663
+    },
+    {
+      "name": "image35.jpg",
+      "path": null,
+      "bytes": 17509
+    },
+    {
+      "name": "image21.png",
+      "path": null,
+      "bytes": 12479
+    },
+    {
+      "name": "image33.jpg",
+      "path": null,
+      "bytes": 10740
+    },
+    {
+      "name": "image31.jpg",
+      "path": null,
+      "bytes": 8625
+    },
+    {
+      "name": "image19.jpg",
+      "path": null,
+      "bytes": 11509
+    },
+    {
+      "name": "image20.jpg",
+      "path": null,
+      "bytes": 44457
+    },
+    {
+      "name": "image7.jpg",
+      "path": null,
+      "bytes": 15214
+    },
+    {
+      "name": "image6.jpg",
+      "path": null,
+      "bytes": 19914
+    },
+    {
+      "name": "image5.jpg",
+      "path": null,
+      "bytes": 27061
+    },
+    {
+      "name": "image4.jpg",
+      "path": null,
+      "bytes": 21229
+    },
+    {
+      "name": "image3.jpg",
+      "path": null,
+      "bytes": 11838
+    },
+    {
+      "name": "image2.jpg",
+      "path": null,
+      "bytes": 6706
+    },
+    {
+      "name": "image1.jpg",
+      "path": null,
+      "bytes": 6731
+    },
+    {
+      "name": "image9.jpg",
+      "path": null,
+      "bytes": 5445
+    },
+    {
+      "name": "image8.jpg",
+      "path": null,
+      "bytes": 5297
+    },
+    {
+      "name": "image11.jpg",
+      "path": null,
+      "bytes": 5855
+    },
+    {
+      "name": "image18.jpg",
+      "path": null,
+      "bytes": 14522
+    },
+    {
+      "name": "image17.jpg",
+      "path": null,
+      "bytes": 54702
+    },
+    {
+      "name": "image10.jpg",
+      "path": null,
+      "bytes": 5954
+    },
+    {
+      "name": "image16.jpg",
+      "path": null,
+      "bytes": 52772
+    },
+    {
+      "name": "image14.jpg",
+      "path": null,
+      "bytes": 61223
+    },
+    {
+      "name": "image12.jpg",
+      "path": null,
+      "bytes": 20950
+    },
+    {
+      "name": "image15.jpg",
+      "path": null,
+      "bytes": 37158
+    },
+    {
+      "name": "image13.jpg",
+      "path": null,
+      "bytes": 25300
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Table Normal",
+    "Title",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "Címsor 4 Char",
+    "Címsor 5 Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "ELMS",
+    "Grid Table 5 Dark Accent 1",
+    "elms_ContentText",
+    "elms_Egyszeres",
+    "elms_Fogalom",
+    "elms_Fogalom:invalid",
+    "elms_Fontos",
+    "elms_HelyesValasz",
+    "elms_HibasValasz",
+    "elms_JogiSzoveg",
+    "elms_Opcionalis",
+    "annotation reference",
+    "annotation text",
+    "Jegyzetszöveg Char",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Placeholder Text",
+    "Table Grid",
+    "Hyperlink",
+    "elms_Media",
+    "table of figures",
+    "List Paragraph",
+    "elms_Tobbszoros",
+    "elms_Parosito",
+    "elms_Sorbarendezo",
+    "elms_Legordulo",
+    "elms_Kitolto",
+    "elms_FogdEsVidd",
+    "elms_Kijelolo",
+    "elms_Gyakorlo",
+    "elms_numeric",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "toa heading",
+    "table of authorities",
+    "footnote text",
+    "Lábjegyzetszöveg Char",
+    "footnote reference",
+    "Bibliography",
+    "Címsor 1 (helyőrző)",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "elms_TartalomCimsor",
+    "toc 4",
+    "elms_cim_1_tananyag",
+    "elms_cim_2_egyseg",
+    "elms_cim_3_fejezet",
+    "elms_cim_4_lecke",
+    "elms_tananyag",
+    "elms_egyseg",
+    "Revision",
+    "Caption",
+    "Nem lista1",
+    "msonormal",
+    "FollowedHyperlink",
+    "icon",
+    "docon",
+    "bookmark-status",
+    "is-visually-hidden-touch",
+    "visually-hidden",
+    "has-text-white-static",
+    "HTML Top of Form",
+    "z-A kérdőív teteje Char",
+    "has-text-primary",
+    "HTML Bottom of Form",
+    "z-A kérdőív alja Char",
+    "tree-expander",
+    "tree-expander-indicator",
+    "Normal (Web)",
+    "Emphasis",
+    "HTML Code",
+    "Strong",
+    "68831B013408452FBD29B6FDEC9893802",
+    "6FD96C86FC10454FA6AE06C5190120182",
+    "Outline List 2",
+    "Outline List 1",
+    "Signature",
+    "Aláírás Char",
+    "Subtitle",
+    "Alcím Char",
+    "Closing",
+    "Befejezés Char",
+    "envelope address",
+    "Outline List 3",
+    "Cím Char",
+    "Plain Text",
+    "Csak szöveg Char",
+    "Date",
+    "Dátum Char",
+    "Document Map",
+    "Dokumentumtérkép Char",
+    "Table Simple 1",
+    "Table Simple 2",
+    "Table Simple 3",
+    "Table Elegant",
+    "E-mail Signature",
+    "E-mail aláírása Char",
+    "Intense Reference",
+    "Intense Emphasis",
+    "envelope return",
+    "List Bullet",
+    "List Bullet 2",
+    "List Bullet 3",
+    "List Bullet 4",
+    "List Bullet 5",
+    "Subtle Reference",
+    "Subtle Emphasis",
+    "Table Subtle 1",
+    "Table Subtle 2",
+    "HTML Keyboard",
+    "HTML Address",
+    "HTML-cím Char",
+    "HTML Definition",
+    "HTML Cite",
+    "HTML Typewriter",
+    "HTML Preformatted",
+    "HTML-ként formázott Char",
+    "HTML Sample",
+    "HTML Acronym",
+    "HTML Variable",
+    "Quote",
+    "Idézet Char",
+    "Intense Quote",
+    "Kiemelt idézet Char",
+    "Table Classic 1",
+    "Table Classic 2",
+    "Table Classic 3",
+    "Table Classic 4",
+    "Book Title",
+    "Medium Shading 1",
+    "Medium Shading 1 Accent 1",
+    "Medium Shading 1 Accent 2",
+    "Medium Shading 1 Accent 3",
+    "Medium Shading 1 Accent 4",
+    "Medium Shading 1 Accent 5",
+    "Medium Shading 1 Accent 6",
+    "Medium Shading 2",
+    "Medium Shading 2 Accent 1",
+    "Medium Shading 2 Accent 2",
+    "Medium Shading 2 Accent 3",
+    "Medium Shading 2 Accent 4",
+    "Medium Shading 2 Accent 5",
+    "Medium Shading 2 Accent 6",
+    "Medium List 1",
+    "Medium List 1 Accent 1",
+    "Medium List 1 Accent 2",
+    "Medium List 1 Accent 3",
+    "Medium List 1 Accent 4",
+    "Medium List 1 Accent 5",
+    "Medium List 1 Accent 6",
+    "Medium List 2",
+    "Medium List 2 Accent 1",
+    "Medium List 2 Accent 2",
+    "Medium List 2 Accent 3",
+    "Medium List 2 Accent 4",
+    "Medium List 2 Accent 5",
+    "Medium List 2 Accent 6",
+    "Medium Grid 1",
+    "Medium Grid 1 Accent 1",
+    "Medium Grid 1 Accent 2",
+    "Medium Grid 1 Accent 3",
+    "Medium Grid 1 Accent 4",
+    "Medium Grid 1 Accent 5",
+    "Medium Grid 1 Accent 6",
+    "Medium Grid 2",
+    "Medium Grid 2 Accent 1",
+    "Medium Grid 2 Accent 2",
+    "Medium Grid 2 Accent 3",
+    "Medium Grid 2 Accent 4",
+    "Medium Grid 2 Accent 5",
+    "Medium Grid 2 Accent 6",
+    "Medium Grid 3",
+    "Medium Grid 3 Accent 1",
+    "Medium Grid 3 Accent 2",
+    "Medium Grid 3 Accent 3",
+    "Medium Grid 3 Accent 4",
+    "Medium Grid 3 Accent 5",
+    "Medium Grid 3 Accent 6",
+    "List",
+    "List 2",
+    "List 3",
+    "List 4",
+    "List 5",
+    "List Continue",
+    "List Continue 2",
+    "List Continue 3",
+    "List Continue 4",
+    "List Continue 5",
+    "Table List 1",
+    "List Table 1 Light",
+    "List Table 1 Light Accent 1",
+    "List Table 1 Light Accent 2",
+    "List Table 1 Light Accent 3",
+    "List Table 1 Light Accent 4",
+    "List Table 1 Light Accent 5",
+    "List Table 1 Light Accent 6",
+    "Table List 2",
+    "List Table 2 Accent 1",
+    "List Table 2 Accent 2",
+    "List Table 2 Accent 3",
+    "List Table 2 Accent 4",
+    "List Table 2 Accent 5",
+    "List Table 2 Accent 6",
+    "Table List 3",
+    "List Table 3 Accent 1",
+    "List Table 3 Accent 2",
+    "List Table 3 Accent 3",
+    "List Table 3 Accent 4",
+    "List Table 3 Accent 5",
+    "List Table 3 Accent 6",
+    "Table List 4",
+    "List Table 4 Accent 1",
+    "List Table 4 Accent 2",
+    "List Table 4 Accent 3",
+    "List Table 4 Accent 4",
+    "List Table 4 Accent 5",
+    "List Table 4 Accent 6",
+    "Table List 5",
+    "List Table 5 Dark",
+    "List Table 5 Dark Accent 1",
+    "List Table 5 Dark Accent 2",
+    "List Table 5 Dark Accent 3",
+    "List Table 5 Dark Accent 4",
+    "List Table 5 Dark Accent 5",
+    "List Table 5 Dark Accent 6",
+    "Table List 6",
+    "List Table 6 Colorful",
+    "List Table 6 Colorful Accent 1",
+    "List Table 6 Colorful Accent 2",
+    "List Table 6 Colorful Accent 3",
+    "List Table 6 Colorful Accent 4",
+    "List Table 6 Colorful Accent 5",
+    "List Table 6 Colorful Accent 6",
+    "Table List 7",
+    "List Table 7 Colorful",
+    "List Table 7 Colorful Accent 1",
+    "List Table 7 Colorful Accent 2",
+    "List Table 7 Colorful Accent 3",
+    "List Table 7 Colorful Accent 4",
+    "List Table 7 Colorful Accent 5",
+    "List Table 7 Colorful Accent 6",
+    "Table List 8",
+    "List Table 2",
+    "List Table 3",
+    "List Table 4",
+    "macro",
+    "Makró szövege Char",
+    "Note Heading",
+    "Megjegyzésfej Char",
+    "Salutation",
+    "Megszólítás Char",
+    "Table Contemporary",
+    "No Spacing",
+    "Normal Indent",
+    "page number",
+    "Table Columns 1",
+    "Table Columns 2",
+    "Table Columns 3",
+    "Table Columns 4",
+    "Table Columns 5",
+    "Table Professional",
+    "Table Grid 1",
+    "Table Grid 2",
+    "Table Grid 3",
+    "Table Grid 4",
+    "Table Grid 5",
+    "Table Grid 6",
+    "Table Grid 7",
+    "Table Grid 8",
+    "line number",
+    "Dark List",
+    "Dark List Accent 1",
+    "Dark List Accent 2",
+    "Dark List Accent 3",
+    "Dark List Accent 4",
+    "Dark List Accent 5",
+    "Dark List Accent 6",
+    "List Number",
+    "List Number 2",
+    "List Number 3",
+    "List Number 4",
+    "List Number 5",
+    "Colorful Shading",
+    "Colorful Shading Accent 1",
+    "Colorful Shading Accent 2",
+    "Colorful Shading Accent 3",
+    "Colorful Shading Accent 4",
+    "Colorful Shading Accent 5",
+    "Colorful Shading Accent 6",
+    "Colorful List",
+    "Colorful List Accent 1",
+    "Colorful List Accent 2",
+    "Colorful List Accent 3",
+    "Colorful List Accent 4",
+    "Colorful List Accent 5",
+    "Colorful List Accent 6",
+    "Colorful Grid",
+    "Colorful Grid Accent 1",
+    "Colorful Grid Accent 2",
+    "Colorful Grid Accent 3",
+    "Colorful Grid Accent 4",
+    "Colorful Grid Accent 5",
+    "Colorful Grid Accent 6",
+    "Block Text",
+    "Body Text",
+    "Szövegtörzs Char",
+    "Body Text 2",
+    "Szövegtörzs 2 Char",
+    "Body Text 3",
+    "Szövegtörzs 3 Char",
+    "Body Text Indent",
+    "Szövegtörzs behúzással Char",
+    "Body Text Indent 2",
+    "Szövegtörzs behúzással 2 Char",
+    "Body Text Indent 3",
+    "Szövegtörzs behúzással 3 Char",
+    "Body Text First Indent",
+    "Szövegtörzs első sora Char",
+    "Body Text First Indent 2",
+    "Szövegtörzs első sora 2 Char",
+    "Plain Table 1",
+    "Plain Table 2",
+    "Plain Table 3",
+    "Plain Table 4",
+    "Plain Table 5",
+    "Grid Table Light",
+    "Grid Table 1 Light",
+    "Grid Table 1 Light Accent 1",
+    "Grid Table 1 Light Accent 2",
+    "Grid Table 1 Light Accent 3",
+    "Grid Table 1 Light Accent 4",
+    "Grid Table 1 Light Accent 5",
+    "Grid Table 1 Light Accent 6",
+    "Grid Table 2",
+    "Grid Table 2 Accent 1",
+    "Grid Table 2 Accent 2",
+    "Grid Table 2 Accent 3",
+    "Grid Table 2 Accent 4",
+    "Grid Table 2 Accent 5",
+    "Grid Table 2 Accent 6",
+    "Grid Table 3",
+    "Grid Table 3 Accent 1",
+    "Grid Table 3 Accent 2",
+    "Grid Table 3 Accent 3",
+    "Grid Table 3 Accent 4",
+    "Grid Table 3 Accent 5",
+    "Grid Table 3 Accent 6",
+    "Grid Table 4",
+    "Grid Table 4 Accent 1",
+    "Grid Table 4 Accent 2",
+    "Grid Table 4 Accent 3",
+    "Grid Table 4 Accent 4",
+    "Grid Table 4 Accent 5",
+    "Grid Table 4 Accent 6",
+    "Grid Table 5 Dark",
+    "Grid Table 5 Dark Accent 2",
+    "Grid Table 5 Dark Accent 3",
+    "Grid Table 5 Dark Accent 4",
+    "Grid Table 5 Dark Accent 5",
+    "Grid Table 5 Dark Accent 6",
+    "Grid Table 6 Colorful",
+    "Grid Table 6 Colorful Accent 1",
+    "Grid Table 6 Colorful Accent 2",
+    "Grid Table 6 Colorful Accent 3",
+    "Grid Table 6 Colorful Accent 4",
+    "Grid Table 6 Colorful Accent 5",
+    "Grid Table 6 Colorful Accent 6",
+    "Grid Table 7 Colorful",
+    "Grid Table 7 Colorful Accent 1",
+    "Grid Table 7 Colorful Accent 2",
+    "Grid Table 7 Colorful Accent 3",
+    "Grid Table 7 Colorful Accent 4",
+    "Grid Table 7 Colorful Accent 5",
+    "Grid Table 7 Colorful Accent 6",
+    "index 1",
+    "index 2",
+    "index 3",
+    "index 4",
+    "index 5",
+    "index 6",
+    "index 7",
+    "index 8",
+    "index 9",
+    "index heading",
+    "Table Colorful 1",
+    "Table Colorful 2",
+    "Table Colorful 3",
+    "Table Theme",
+    "Table 3D effects 1",
+    "Table 3D effects 2",
+    "Table 3D effects 3",
+    "toc 5",
+    "toc 6",
+    "toc 7",
+    "toc 8",
+    "toc 9",
+    "Message Header",
+    "Üzenetfej Char",
+    "endnote text",
+    "Végjegyzet szövege Char",
+    "endnote reference",
+    "Light Shading Accent 1",
+    "Light Shading Accent 2",
+    "Light Shading Accent 3",
+    "Light Shading Accent 4",
+    "Light Shading Accent 5",
+    "Light Shading Accent 6",
+    "Light List",
+    "Light List Accent 1",
+    "Light List Accent 2",
+    "Light List Accent 3",
+    "Light List Accent 4",
+    "Light List Accent 5",
+    "Light List Accent 6",
+    "Light Grid",
+    "Light Grid Accent 1",
+    "Light Grid Accent 2",
+    "Light Grid Accent 3",
+    "Light Grid Accent 4",
+    "Light Grid Accent 5",
+    "Light Grid Accent 6",
+    "Light Shading",
+    "Table Web 1",
+    "Table Web 2",
+    "Table Web 3",
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    "Feloldatlan megemlítés1",
+    "[Alapbekezdés]",
+    "Unresolved Mention"
+  ]
+}

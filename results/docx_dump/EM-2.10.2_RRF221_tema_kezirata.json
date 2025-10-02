@@ -1,0 +1,2030 @@
+{
+  "core_properties": {
+    "creator": "Pintér Andrea (ELMS)",
+    "lastModifiedBy": "Soós Gabriella Brigitta (ELMS)",
+    "revision": "3",
+    "created": "2024-09-24T12:04:00Z",
+    "modified": "2024-09-24T12:04:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal",
+    "TotalTime": "0",
+    "Pages": "32",
+    "Words": "6104",
+    "Characters": "42125",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "351",
+    "Paragraphs": "96",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "48133",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.10.2  ",
+    "Az erjedés kémiai alapjai, a bor kémiai összetétele",
+    "Témák kézirata",
+    "Forrás: Az eredeti könyv címe: Mikrobiologie des Weines, 4. Auflage 2011, Der Verlag Eugen Ulmer KG,\nISBN 978-3-8001-6989-4, Az eredeti könyv szerzői: Helmut Hans Dittrich, Manfred Großmann",
+    "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak.",
+    "",
+    "",
+    "Tartalomjegyzék",
+    "1 Az erjedés (fermentáció)\t3",
+    "1.1 Az alkoholos erjedés kémiai alapjai\t3",
+    "1.2 Az alkoholos erjedés legfontosabb anyagcseretermékei\t4",
+    "1.2.1 Etil-alkohol\t4",
+    "1.2.2 Szén-dioxid\t5",
+    "1.3 Az alkoholos erjedés biokémiája\t6",
+    "1.3.1 Az erjedés biokémiai folyamatai\t6",
+    "2 A must anyagainak változása erjedés közben\t9",
+    "2.1 Savtartalom-változás\t9",
+    "2.2 A nitrogéntartalmú anyagok lebontása erjedés során\t10",
+    "3 A bor kémiai összetétele\t11",
+    "3.1 Alkoholok\t12",
+    "3.1.1 Metil-alkohol\t12",
+    "3.1.2 Etil-alkohol\t13",
+    "3.1.2.1 Glicerin\t14",
+    "3.1.4 Mannit\t14",
+    "3.2 Szénhidrátok\t14",
+    "3.3 Szerves savak\t16",
+    "3.3.1 Borkősav\t16",
+    "3.3.2 Almasav\t17",
+    "3.3.3 Citromsav\t17",
+    "3.3.4 Borostyánkősav\t18",
+    "3.3.5 Tejsav\t18",
+    "3.3.5 Ecetsav\t19",
+    "3.3.6 Egyéb szerves savak\t20",
+    "3.4 Színanyagok\t20",
+    "3.4.1 Antocianinok\t20",
+    "3.5 Nitrogéntartalmú anyagok\t21",
+    "3.5.1 Ammónium kation\t21",
+    "3.5.2 Biogén aminok\t21",
+    "3.5.3 Fehérjék\t21",
+    "3.6 Aromaanyagok\t22",
+    "3.6.1 Aldehidek\t22",
+    "3.6.2 Észterek\t23",
+    "3.6.3 Terpénalkoholok\t24",
+    "3.6.4 Kénhidrogén és egyéb szerves kénvegyületek\t24",
+    "3.6.4.1 Kén-hidrogén\t24",
+    "3.6.4.2 Szerves kénvegyületek\t25",
+    "3.7 Ásványi anyagok\t26",
+    "3.7.1 Kationok\t27",
+    "3.7.2 Anionok\t28",
+    "3.8 Vitaminok\t28",
+    "Ábrajegyzék\t29",
+    "Táblajegyzék\t30",
+    "Felhasznált irodalom\t31",
+    "",
+    "",
+    "Az erjedés (fermentáció) ",
+    "Az erjedés a természetben nagyon fontos lebontó folyamat, melyet minden esetben mikroorganizmusok végeznek. Élesztőgombák, tejsavbaktériumok, ecetsav-baktériumok, hogy a fontosabbakat említsük. Az ember régóta tudatosan használja ezeket a folyamatokat. Gondoljunk csak a kenyérre, a savanyított zöldségek, a különféle gyümölcsök, illetve a nehezen emészthető magvak, termések erjesztésére. ",
+    "Attól függően, hogy melyik mikroorganizmus játszik főszerepet a folyamatban, milyen tápanyagok és környezeti feltételek állnak rendelkezésre, különböző erjedésfajtákról beszélhetünk. Az erjedést mindig a keletkezett végtermékről nevezzük el. Ezek a vegyületek még tartalmaznak energiát, ezért nem teljes lebontásról beszélünk. Az alkoholos erjedés során akár a bor, akár a sör esetén glükózból levegőtől elzárt közegben az élesztőgomba (Saccharomyces) etil-alkoholt és szén-dioxidot állít elő. A bor érése közben megfigyelhetünk még egy fontos erjedési folyamatot, amely az almasavbomlás. Ezt a folyamatot tejsavbaktériumok végzik; a borban lévő almasavtartalom alakul át tejsavvá és szén-dioxiddá. Ezt idegen szóval malolaktikus fermentációnak nevezi a szakma. Az élelmiszeripar más területein és a hétköznapi életünkben is fontos és gyakori erjedési folyamat a tejsavas erjedés. Ekkor a tejsavbaktériumok szőlőcukrot vagy tejcukrot alakítanak át tejsavvá. Ez a folyamat játszódik le kovászos uborka készítése közben is, illetve a tej megsavanyodása is ennek következménye. Ismerjük még az ecetsavas erjedést is, mely során etil-alkoholból ecetsav keletkezik. Ezekben a folyamatokban az a közös pont, hogy mindegyik lebontó folyamat, és mikroorganizmusok nélkül nem mennének végbe.",
+    " Az alkoholos erjedés kémiai alapjai",
+    "A glükóz és a fruktóz alkohollá és szén-dioxiddá történő lebontását a mennyiségileg legnagyobb és legjelentősebb végtermék után alkoholos erjedésnek nevezik. ",
+    "Rendkívül összetett és bonyolult biokémiai folyamatok összessége játszódik le ekkor. Bőven vannak még feltáratlan reakciók és összefüggések. Most megpróbáljuk a lehető legegyszerűbben áttekinteni a borkészítéshez fontos témákat az erjedés kapcsán. ",
+    "Elsőként 1810-ben a francia kémikus, Gay-Lussac írta le először az alkoholos erjedés összefoglaló kémiai egyenletét. ",
+    "Ennek alapján a glükózból etil-alkohol és szén-dioxid keletkezik:",
+    "C6H12O6 → 2 C2H5OH + 2 CO2+energia (20 kJ/mól)",
+    "Ezt az egyszerű egyenletet nevezzük az erjedés alapegyenletének, melyből elsőként az látható, hogy 1 molekula glükózból 2 molekula etil-alkohol és 2 molekula szén-dioxid keletkezik. Vagyis 1 mól, azaz 180 g glükózból 2 mól, vagyis kétszer 46 g, azaz 92 g etil-alkohol képződik. Emelett kétszer 44 g, tehát 88 g szén-dioxid is keletkezik, és kb. 20 kJ/mól energia szabadul fel a reakció során. Fontos hangsúlyozni, hogy a folyamat levegőtől elzárt közegben megy végbe ebben a formában. Ha a levegő, vagyis az oxigén biztosított az élesztő számára, akkor nem alkoholos erjedést végez, hanem biológiai oxidációt, így teljes légzéssel a glükózt szén-dioxiddá és vízre bontja kb. 500 kJ/mól energia felszabadítása mellett a következő reakcióegyenlet szerint.",
+    "C6H12O6 →6 CO2+6 H2O+energia (500 kJ/mól) ",
+    "Kimondható a fentiek alapján, hogy az alkoholos erjedés energiatermelése kifejezetten alacsony.",
+    "Az alkoholos erjedés legfontosabb anyagcseretermékei",
+    "Az erjedés kiindulási és végtermékeinek megközelítő mennyiségi arányai a következőek:",
+    "C6H12O6 → 2 C2H5OH + 2 CO2\n1 mol → 2 mol + 2 mol\n180,15 g → 2 × 46,05 g + 2 × 44 g\nElméleti alkoholhozam: 51,1% alk.\t+ 48,9% szén-dioxid",
+    "Etil-alkohol",
+    "A gyakorlati alkoholhozam 46 és 48% között ingadozhat. Többnyire 47,5%-os átlaghozam várható.",
+    "Az alkoholhozam ingadozása elsősorban az erjesztési körülményeknek tudható be, nagyban függ az élesztőtörzs minőségétől. Szintén fontos tényező az erjesztéshez használt tartály mérete: a legkisebb alkoholveszteség kis tartályokban fordul elő. Magasabb erjedési hőmérsékleten is több alkohol illan el az erjedés közben.",
+    "144 g/l-nél, vagyis kb. 18,2 térfogatszázaléknál több etil-alkohol borban erjedéssel aligha keletkezhet. Az ilyen magas alkoholkoncentrációk negatívan befolyásolják az élesztő anyagcseréjét. Az alkohol jó oldószer, amely károsítja a lipideket tartalmazó sejtmembránt, így a sejt anyagfelvétele és -leadása zavart szenved. Ezenkívül az alkohol fokozódó mértékben denaturálja (kicsapja) a fehérjéket. Tönkreteszi a fehérjék térbeli szerkezetét, így a fehérje nem tudja betölteni biológiai szerepét. Ez az enzimaktivitás csökkenését és a sejt pusztulását eredményezi.",
+    "Az alkohol emberre gyakorolt hatásai rendkívül összetettek. ",
+    "Az alkohol növeli a rák kockázatát. Például a mellrák kockázata 10%-kal nő minden napi 10 g alkohol (kb. 125 ml borban) után. Minden tizedik európai ember az alkoholfogyasztás következtében hal meg. Az alkohol oxidációjából acetaldehid keletkezik, amelyet a véráram eloszlat a szervezetben. Az acetaldeid sejtméreg, a fehérjéket denaturálja.",
+    "Az orvosilag igazolt ajánlások a nőknek újabban csak napi 10 g-ot (∼ fél pohár bor), a férfiaknak pedig csak 20 g-ot tartanak egészségesnek.",
+    "Az alkohol mérgező hatása főként az acetaldehid bomlástermékből származik. Nagyfokú reakcióképessége miatt az emberi szervezetben lévő számos anyaggal reakcióba lép. Függőséget okozó ópiátok is szintetizálódnak belőle.",
+    "Az orvosi tényeken és megfontolásokon túl azonban nem szabad lebecsülnünk Szent Benedek humánus bölcsességét, aki a borban az életminőséget is meglátta: „A bor megörvendezteti az ember szívét [...] és csak a mértéktelenség árt neki.” A számára elviselhető mérték az ókori hemina volt, amely körülbelül negyed liter. Az emberi szervezetben az etil-alkohol lebontásának mintegy 90%-a a májban történik az alkohol-dehidrogenáz enzim segítségével.",
+    " Szén-dioxid",
+    "A másik legfontosabb erjedési anyagcseretermék a CO2, mely az erjedés során keletkező hő mintegy 20%-át elvezeti. A CO2 gátolja az élesztők szaporodását a borban és a pezsgőben, de a tejsavbaktériumokét nem. A keletkező CO2 mennyisége a must tömegétől függően 40–50-szer nagyobb, mint az erjedő musté. A borászok mustgáznak is nevezik. A CO2 nagy sűrűsége miatt lesüllyed a pincehelyiségek legmélyebb részeire, ahonnan kiszorítja a levegőt, és így a benne lévő oxigént is. Már 3–4 V/V % CO2-tartalomnál légzési nehézségek, 10 V/V %-nál súlyos légszomj, 15 V/V % esetén rövid ideig tartó eszméletvesztés lép fel, végül fulladásos halál következik be. A maximális munkahelyi koncentráció 0,5 V/V %. A meggyújtott gyertya a levegő kb. 10 V/V % CO2-tartalmánál kialszik, így alkalmas arra, hogy a pince légterében felhalmozódott CO2 gázt idejében kimutassa. Régi és jól bevett szokás, hogy a gazdák az erjedés idején égő gyertyával mennek le a pincébe. A nagyüzemekben a keletkező CO2-ot gyakorlatilag a zárt erjesztőtartályokból nem engedik elillanni. Fontos balesetmegelőzési szempont, hogy az erjesztők, pincék szellőzését hatékonyan meg tudják oldani a borászatok. Ennek ellenére sajnos minden évben történnek tragédiák a mustgáz miatt.",
+    "Az úgynevezett erjedési alapegyenlet a kémiai definíció értelmében nem képlet. Nem tesz sem minőségi, sem mennyiségi megállapítást. A felsorolt termékeken kívül az erjedés során más termékek is keletkeznek. Egyesek mennyiségi szempontból jelentősek, mások illatuk és/vagy ízük miatt fontosak. ",
+    "Az alkoholos erjedés biokémiája",
+    "Optimális körülmények között az élesztő óránként a saját tömegének megfelelő mennyiségű cukrot képes átalakítani, azaz minden egyes sejt egy másodperc alatt körülbelül 200 millió cukormolekulát képes megerjeszteni.",
+    "Az erjedés biokémiai folyamatai",
+    "Az alkoholos erjedés színtere a citoplazma. Elsőként a külső környezetből, vagyis a mustból a sejthártyán keresztül be kell jutniuk a cukormolekuláknak az élesztősejt citoplazmájába. ",
+    "Cukorfelvétel a sejtbe: Mielőtt a cukrok átalakulása megkezdődne, el kell jutniuk az átalakulás helyszínére. Az erjedés az élesztősejt citoplazmájában történik, vagyis át kell jutniuk a sejtfalon. A sejtfal csak a makromolekulákat tartja vissza, de a kismolekulákat és ionokat beengedi. A sejt tényleges határrétege, amely korlátozza az anyagok sejtbe való bejutását, a citoplazmamembrán.",
+    "A mustból felvételre kerülő glükózt és fruktózt carrierek vagy transzporterek viszik be a sejt belsejébe. Ezek olyan fehérjék, amelyek átnyúlnak a membránon. A Saccharomyces cerevisiae legalább 18 ilyen hexóztranszporter molekulával rendelkezik. A transzportfehérje megköti a cukrot a membrán külső oldalán, majd átemeli a citoplazmába, és az ott megerjed. ",
+    "Ez az élesztő legfontosabb cukorfelvételi mechanizmusa, melynek sebessége az erjedés sebességét is meghatározza. A magas külső cukorkoncentráció és az alkohol gátolja a cukor felvételét. Az olyan környezeti körülmények, mint a tápanyaghiány, a szélsőséges hőmérséklet és pH-érték, a sejttoxinok, mint az alkohol, a SO2 és az acetaldehid, stresszelik az élesztőt, és korlátozzák a cukorfelvételt. Ilyenkor gyakran előfordul, hogy az erjedés idő előtt leáll.",
+    "A lebontó folyamat első lépésben a hat szénatomos cukor molekula két glicerinaldehid-3-foszfáttá (GAP) hasítódik, majd a glükóz molekula glikolízise történik meg, vagyis 1 mól glükózból 2 mól piroszőlősav és 2 mól ATP molekula keletkezik. A következő lépésben a piroszőlősav dekarboxileződik, vagyis elveszít a molekulából egy szénatomot és két oxigénatomot. Ez a CO2-kibocsátás teszi az erjedést, annak kezdetét és végét, könnyen kimutathatóvá, mivel látható és mérhető.",
+    "Így acetaldehidet kapunk. Az élesztő alkohol-dehidrogenáz enzimje pedig az acetaldehidet etil-alkohollá redukálja. Az 1-3. ábrák szemléltetik a lejátszódó folyamatokat.",
+    "",
+    "A glikolízis és az alkoholos erjedés egyszerű folyamatárbrája",
+    "glucose-glükóz",
+    "Glycolysis-glikolízis",
+    "pyruvate-piroszőlősav",
+    "Respiration-légzés, a szaggatott nyíl és a Respiration kifejezés eltávolítandó az ábráról",
+    "PDC-dekarboxiláz enzim",
+    "acetaldehyde-acetaldehid",
+    "Alcoholic fermentation-alkoholos erjedés",
+    "ADH-aldehid-dehidrogenáz enzim",
+    "ethanol-etil-alkohol",
+    "",
+    "Az ATP-ADP átalakulása",
+    "Forrás: Saját kép",
+    "NAD+ (nikotinamid-adenin-dinukletoid), NADH+H+ az ADP-ATP átalakuláshoz szükséges elektrontranszportban tölt be nélkülözhetetlen szerepet, a redoxi folyamatokban vesznek részt.",
+    "",
+    "A NAD+ oxidációja és redukciója (felső nyíl felett oxidáció, az alsó alatt redukció)",
+    "A must anyagainak változása erjedés közben",
+    "A bor készítése során a must átalakulása az egyik legizgalmasabb és legmélyrehatóbb változás. A kellemesen édes szőlőléből élesztőgombák segítségével bor születik, ez az átalakulás ősidők óta foglalkoztatja az emberiséget. ",
+    "A must kierjedése a borkészítés folyamatában a legmeghatározóbb folyamat. Számos olyan tényezőt kell figyelmbe vennie a borásznak, melyek hatással vannak az épp erjedésben lévő tételre. Sok körülmény van, amit a szakember előre tud szervezni és kontroll alatt tud tartani, de ennek ellenére az erjedés menetét fokozott figyelmemmel kell végig kísérnie, hogy ha szükséges, azonnal be tudjon avatkozni, megelőzze a káros, nem kívánatos folyamatokat.",
+    "A legfontosabb változás a cukor csökkenése és az etil-alkohol növekedése, valamint a szén-dioxid gáz keletkezése az erjedő borban. Ezt akár erőteljes habképzés is követheti, mely nem feltétlenül kívánatos. Az erjedő bor felszíne mozgásban van a kiáramló szén-dioxid miatt. A kezdetben tiszta és édes must zavaros lesz, egyre inkább csípőssé válik. Ezt az állapotot murcinak vagy majomtejnek hívjuk. ",
+    "A must anyagai közül nemcsak a cukrok alakulnak át, hanem még egy sor más összetevő is. Egyeseket az élesztő felhasznál az életfolyamataihoz és a szaporodásához. Másokat szintén átformál, kialakítva a bor egyedi jellegét. Néhány vegyületcsoport az erjedés után is ugyanolyan állapotban marad, mint ahogy a mustban találtuk.",
+    "Savtartalom-változás",
+    "A must savtartalma is jelentősen átalakul erjedés közben. Általában csökken, a borkősav borkő formájában kiválik az egyre növekvő alkoholtartalom miatt, de nem ritka az sem, hogy az összes savtartalom mennyisége növekszik. A borkőkiválás ebben az esetben is megtörténik, de több sav keletkezik az erjedés során, mint amennyi borkő kiválik. A kezdeti borkősav-almasav és kevés citromsav hármast kiegészíti az erjedés közben keletkező borostyánkősav, a tejsav és az ecetsav. Nemcsak a savak minősége és mennyisége változik meg az erjedés során, hanem a bor savérzete is. A must cukortartalma miatti édes ízérzet a must savasságát elfedi. Az újborban nincs, vagy alig van cukor általános esetben, így a kierjedt bor savérzete sokkal inkább felerősödik. ",
+    "A nitrogéntartalmú anyagok lebontása erjedés során",
+    "Az élesztők legfőbb tápanyagának, a glükóznak a hasznosítását és etil-alkohollá való lebontását a fenti részben tárgyaltuk. Ahhoz, hogy az élesztősejtek egészségesen tudjanak anyagcserét folytatni és a szaporodásuk is megefelelő legyen, óriási szükségük van könnyen elérhető formában jelen lévő nitrogénforrásra. Ebből a forrásból merítve tudnak olyan számukra létfontosságű vegyületeket szintetizálni, mint a sejtet alkotó fehérjék, enzimek, de a reprodukciójuk számára fontos DNS szintéziséhez is szükség van a nitrogénforrásra, illetve a sejtmembrán felépítésében is fontos feladat jut a nitrogént tartalmazó vegyületeknek. A mustban lévő ammónium iont, polipeptideket és aminosavakat tudja elsősorban felhasználni az élesztő nitrogénforrásként. ",
+    "Ha nem áll rendelkezésre megfelelő nitrogénforrás erjedés közben, akkor az élesztők szaporodása, élettevékenysége nem biztosított. Emiatt erjedési problémák léphetnek fel. Mind a spontán, mind az irányított erjesztésben fontos a tápanyag utánpótlása, ha ez tényleg indokolt. A tápanygok túlzott adagolása később problémákhoz vezet, nem beszélve arról, hogy felesleges költséget generálunk. Az élesztő számára felvehető nitrogéntartalmú anyagokat számszerűsíteni is szokták. Az egyik ilyen fontos mutatószám a YAN-érték, mely egy angol kifejezés rövidítése (Yeast Assimilable Nitrogen). Magyarul az élesztők számára felhasználható nitrogént jelenti és mg/l értékben adjuk meg. A mustmérések fejezetben esik több szó erről. ",
+    "Nemcsak a cukor átalakulása okoz illat- és ízváltozást az erjedés során, hanem a szőlőből származó elsődleges illat- és zamatanyagok átalakulása is. A borok kémiai összetétele című fejezetben lesz erről szó bővebben.",
+    "A bor kémiai összetétele",
+    "Az erjedési folyamatok áttekintése után foglaljuk rendszerbe az erjedés során keletkező vegyületeket.",
+    "A bor mindig változó összetételű ital, hiszen közvetlenül a kierjedés után egy instabil rendszernek tekinthető, melyben fizikai, kémiai és biokémiai, esetenként mikrobiológiai folyamatok zajlanak. Még a sterilre szűrt, a technológiai kezeléseken átesett bor sem tekinthető állandó összetételű folyadéknak. A borászati analitika feljődésével egyre jobban megismerhették a szakemberek a bor kémiai összetételét.",
+    "A bor egy bonyolult összetételű vizes oldat, mely szerves és szervetlen alkotórészeket egyaránt tartalmaz. A borban jelenlévő legtöbb molekula valódi oldatként viselkedik. Ilyen például az etil-alkohol, a glükóz, a fruktóz, a szerves savak, az illat- és aromaanyagok. Vannak azonban kolloid oldat formájában található molekulák is a borban, mint például a polifenolok, a színanyagok és a fehérjék. Szemmel látható zavarosító anyagok lehetnek a kivált borkő- vagy kalcium-tartarát kristályok, az élesztőgombák és ezek maradványai, újbor esetén a szőlőbogyó héjának foszlányai is. (4. ábra)",
+    "",
+    "",
+    "",
+    "A borban jelen lévő molekulák rendszerezése méretnagyságuk szerint",
+    "",
+    "Alkoholok",
+    "Metil-alkohol",
+    "Az alkoholos erjedés során mindig keletkezik metil-alkohol (5. ábra), mely erősen mérgező vegyület. A szőlőbogyóban található pektinek lebomlása során keletkezik. A direkttermő szőlők héja vastagabb, pektiben gazdagabb. Ebből kifolyólag a direkttermő szőlőkből készült borok magasabb metil-alkohol tartalommal rendelkeznek. A vörösborkészítési technológiából adódóan (hosszú kontaktidő az erjedő bor és a szőlőbogyók héj részéi között) a vörösborok mindig több metil-alkoholt tartalmaznak, mint a fehérborok. Egy kifejezetten magas metil-alkohol tartalommal bíró bor sem tartalmaz 300 mg/l mennyiségnél többet. Irodalmi adatok alapján 8-10 g metil-alkohol elfogyasztása esetén tapasztalható a látási zavar, 30-40 g pedig halálos. Hacsak direkt nem tesznek a borba metil-alkoholt, akkor látható az adatokból, hogy borból komoly mennyiség elfogyasztása szükséges ahhoz, hogy metil-alkohol mérgezést szenvedjen valaki. ",
+    "",
+    "A metil-alkohol képlete",
+    "",
+    "Etil-alkohol",
+    "Forráspontja 78˚C, jellegzetes szagú és ízű folyadék, mely vízben nagyon jól oldódik. (6. ábra). A borok alkoholtartalma tág határok között mozoghat: 7-18 V/V %. Az alkoholtartalom a borok érése közben folyamatosan csökken, különösen igaz ez a fahordóban érlelődő borok esetén. Nem ritka az, hogy évente akár 1,5-2 V/V %-kal is csökkenhet. Nagyon fontos a bor érzékszervi tulajdonságainak kialakításában végzett szerepe is, ugyanis számos szerves savval és aldehiddel kellemes ízű és illatú vegyületet képez. Nagy szerepe van továbbá abban is, hogy a későbbi mikrobiológiai fertőzésektől megóvja a bort. Az esetleges maradék cukrot tartalmazó borok esetén előfordulhat utóerjedés, mely a cukortartalom csökkenéséhez és az alkoholtartalom további növekedéséhez vezet.",
+    "A tényleges és a potenciális alkoholtartalom két fontos fogalom a borászati analitikában. A tényleges alkoholtartalom a borban pillanatnyilag mérhető alkoholtartalmat jelenti, míg a potenciális alkoholtartalom egy számított adat, mely megmutatja, hogy a borban lévő maradék cukortartalom kierjedése után mennyi lenne a bor alkoholtartalma. ",
+    "",
+    "Az etil-alkohol képlete",
+    "",
+    "Az erjedés során melléktermékként magasabb rendű alkoholok (olyan alkoholok, melyekben kettőnél több szénatom található) is keletkeznek, ezek főképp a jellegzetes boríz kialakításában játszanak szerepet.",
+    "Glicerin",
+    "Édes ízű, sűrűn folyó folyadék, vízben és alkoholban nagyon jól oldódik (7. ábra). Az alkoholos erjedés legfontosabb mellékterméke, legalábbis a mennyiségét illetően. Ha a szőlő nemesrothadáson esik át, akkor már a bogyóban megjelenik ez a vegyület. A borok extrakttartalmának nagy részét alkotja. A kortyot selymessé, bársonyossá teszi. Alátámasztja és lekerekíti a savérzetet édes ízénél fogva. A magyar borokban általában 4-10 g/l mennyiségben van jelen, aszúsodott szőlőből készült borokban ennél jóval több is lehet. Jelenléte jól megfigyelhető már a bor kóstolása során is, ugyanis feltapad a pohár falára és létrehozza az úgynevezett gliceringyűrűt.",
+    "",
+    "A glicerin képlete",
+    "",
+    "Mannit",
+    "Hat értékű, hat szén atomból álló alkohol, melyet a tejsavbaktériumok magas hőmérsékleten, 35˚C felett fruktózból képeznek. Édes ízűvegyület, jelenléte borbetegségre utal (8. ábra).",
+    "",
+    "A mannit képlete",
+    "",
+    "Szénhidrátok",
+    "A szőlőmustban az uralkodó szénhidrátok a monoszacharidok, a glükóz és a fruktóz. Kémiailag mindkettő hexóz, hiszen 6 db C atomot tartalmaznak. Ezek, azaz a glükóz és a fruktóz körülbelül 1:1 arányban vannak jelen a mustokban. A gyakran jelentős mennyiségű cukor normál körülmények között teljesen kierjed. Ám teljesen általános, ha néhány g/l maradék cukortartalom visszamarad az újborban. Ez nemcsak ki nem erjedt glükózt vagy fruktózt tartalmaz, hanem jellemzően 5 szénatomot tartalmazó szénhidrátokat is, mint például az arabinózt és a ramnózt. Ezeket az 5 szénatomot tartalmazó szénhidrátokat, a glükózzal és fruktózzal ellentétben, az élesztőgomba nem tudja erjeszteni.",
+    "A diszacharidok közül a bor szempontjából a szacharóz (répacukor) (9. ábra) fontos, amelyet alacsony cukortartalmú mustok cukortartalmának emelésére használnak. A mustban is kimutatható, de csak igen kis mennyiségben. Az élesztő szacharáz enzimjének segítségével glükózzá és fruktózzá bontja. Az apikulátusz (vadélesztő) élesztőkből hiányzik ez az enzim, ezért nem képesek a szacharóz erjesztésére.",
+    "",
+    "A szacharóz (répacukor) képlete",
+    "",
+    "A mustban lévő glükózt és fruktózt a borélesztő jól és egyidejűleg erjeszti. A glükóz azonban valamivel gyorsabban átalakul, mint a fruktóz (10. ábra). A Saccharomyces cerevisiae ugyanis glükofil (glükózt kedvelő), vagyis a glükózt könnyebben és szívesebben erjeszti, mint a fruktózt. Ezért az újbor maradék cukortartalma általában több fruktózt tartalmaz, kevesebb glükóz mellett. A fruktóz kétszer olyan édes ízérzetet biztosít, mint a glükóz, ezért a maradék cukrot tartalmazó borokat általában jobbnak, teltebbnek, harmonikusabbnak ítélik. ",
+    "",
+    "A glükóz és fruktóz csökkenése a szőlőmust Saccharomyces cerevisiae általi erjesztése során",
+    "",
+    "Szerves savak",
+    "A borok gerincét alkotják, nagyon fontos vegyületek a mustban és a borban egyaránt. A mustok és a borok savtartalma eltér egymástól. A mustokban a legfontosabb három szerves sav – ahogy a mustok kémiai összetétele című fejezetben is olvasható – a borkősav, az almasav és a citromsav. E három sav a borokban is jelen van és kiegészül olyan szerves savakkal, melyek jellemzően az erjedésben keletkeznek. Ilyen savak a tejsav, a borostyánkősav és az ecetsav.",
+    "Borkősav",
+    "Fehér színű, vízben jól, alkoholban kevésbé jól oldódik (11. ábra). A borkősav sóit tartarátoknak nevezzük. A szőlő jellegzetes sava más gyümölcsben ilyen mennyiségben nem fordul elő. A bor legerősebb és legfontosabb savaként tartjuk nyilván. Erős, markáns savérzetet biztosít. Mennyisége függ a szőlőfajtától, a talaj összetételétől, a szőlő metszésmódjától, művelésmódjától, az évjárattól, az erjedés körülményeitől, a bor alkoholtartalmától, csak hogy a legfontosabb tényezőket említsük. A bor érése folyamán csökkenhet a mennyisége egészen a must erjedésétől kezdve. A borban lévő káliumionnal reakcióba lépve kálium-hidrogén-tartarát vegyületként (borkősav kálim savanyú sója) kikristályosodhat. Ez a folyamat a borkőkiválás. A borok érése témakör bővebb információt tartalmaz erről a kérdésről.",
+    "",
+    "A borkősav képlete",
+    "",
+    "Almasav",
+    "Fehér színű, kristályos anyag, vízben és alkoholban jól oldódik. (12. ábra) Az almasav sóit malátoknak nevezzük. A bor második legfontosabb sava a borkősav után. A szőlőből származik, mennyisége nagyon sok tényezőtől függ. Egyrészt vannak kifejezetten almasavgyűjtő fajták, ilyen például az Ezerjó, másrészt az évjárati hatás is nagyban meghatározza a szőlő almasavtartalmát. Például az esős, hűvös években az almasavtartalom magas, míg a meleg, napsütötte években alacsonyabb. Az aszályos évjáratokban, amikor a szőlő kényszerérik, szintén magas almasavszinteket mérhetünk a mustokban. ",
+    "A borok almasavtartalma nagyon tág határok között mozoghat. Pezsgőalapborok esetén nem ritka a 7-8 g/l, míg a hosszan érlelt fehér- vagy vörösborok már egyáltalán nem tartalmaznak almasavat. Erjedés közben is csökkenhet a mennyisége, mert az élesztők tápanyagként felhasználhatják, de a tipikus csökkenés az almasavbontás hatására következik be, amikor a tejsavbaktériumok lebontják.",
+    "",
+    "Az almasav képlete",
+    "",
+    "Citromsav",
+    "Fehér színű, kristályos anyag, vízben és alkoholban is jól oldódik. (13. ábra) A citromsav sóit citrátoknak nevezzük. A mustok és a borok 1 g/l alatti citromsavat tartalmaznak. A bor érése során a bakteriális tényezők miatt általában csökken a mennyisége. Jelentősége abban áll, hogy nehézfém ionokkal, mint a Fe3+ és a Cu2+ komplex vegyületet képez, így képes ezeket az egyébként töréseket okozó ionokat oldatban tartani. A nemesrothadáson átesett szőlőkből készült borok több citromsavat is tartalmazhatnak, hiszen a nemesrothadás során a beltartalmi értékek koncentrálódnak.",
+    "",
+    "A citromsav képlete",
+    "",
+    "Borostyánkősav",
+    "Fehér színű kristályos anyag, mely alkoholban és vízben is jól oldódik (14. ábra). A borostyánkősav sóit szukcinátoknak nevezzük. Markáns, nem jó ízű sav, de a boríz kialakításában nagy szerepe van. Minden alkoholos erjedésben jelen lévő melléktermék. A borostyánkősav főként a zajos erjedés fázisában képződik kb. 0,5-1,5 g/l mennyiségben, mely a borban tartósan meg is marad. ",
+    "",
+    "A borostyánkősav képlete",
+    "Forrás: Saját kép",
+    "",
+    "3.3.5 Tejsav",
+    "Színtelen, sűrűn folyó, kellemesen savanyú ízű folyadék. Vízben és alkoholban jól oldódik. (15. ábra) A tejsav sóit laktátoknak nevezzük. Az élesztő tevékenysége során cukrokból képződik minden alkoholos erjedéskor, mint erjedési melléktermék. Mennyisége a bor érése folyamán csak növekedhet az almasavbontás vagy egyéb más baktériumos tevékenység által. Számos komoly borbetegség létezik, melynek során nagyobb mennyiségű tejsav keletkezik egyéb más anyagcseretermékekkel együtt. A Saccharomyces cerevisiae tejsavképzése az erjedés során kb. 100–300 mg/l.",
+    "",
+    "A tejsav képlete",
+    "",
+    "Ecetsav",
+    "Szúrós szagú, jellegzetes ízű folyadék. Forráspontja 118 ˚C. Vízben és alkoholban jól oldódik. (16. ábra) Az ecetsav sóit acetátoknak nevezzük. A borok illósavtartalmát az egyértékű, alifás sorba tartozó szerves savak alkotják. Az ecetsav az illósavak kb. 95%-át teszi ki. ",
+    "Penészes szőlő esetén már előfordul, hogy a bogyóhús is tartalmaz ecetsavat, ami átkerülhet a mustba és a borba is. ",
+    "A Saccharomyces cerevisiae kb. 0,2–0,4 g/l ecetsavat képez a borkészítés során. Néhány vadélesztőgomba 1 g/l-nél többet is termelhet, pl. a Hanseniaspora uvarum, a Pichia és a Candida-fajok. A normál minőségű borokban a 0,5 g/l-nél nagyobb illósavtartalom a káros mikrobiológiai folyamatok következménye.",
+    "Az ecetsav élesztők általi képzése alapvetően az acetaldehid enzimatikus oxidációjával történik. A Saccharomyces cerevisiae három ilyen enzimet is tartalmaz. ",
+    "A must erjedése során az ecetsav növekedése kölcsönös viszonyban van a cukorfogyasztással. Ahogy a must cukortartalma növekszik, úgy növekszik az élesztő általi ecetsavképzés is. Vagyis a magasabb cukortartalmú mustokból készült borok, mint például a kései szüretelésű borok, asz aszúborok, a szamorodnik, a jégborok mindig magasabb illósavtartalommal bírnak.",
+    " ",
+    "Az ecetsav képlete",
+    "Forrás: Saját kép",
+    "",
+    "Egyéb szerves savak",
+    "Számos más szerves sav is megtalálható a borokban csekély mennyiségben, melyek borászati szerepe elhanyagolható.",
+    "Azonban fontos megemlíteni a glükonsavat, mely a glükóz enzimes oxidációjából származik. A nemesrothadás során a Botrytis cinerea termeli és az aszúsodott szőlőbogyókban keletkezik. Nem tudja erjeszteni ezt a vegyületet az élesztőgomba, így a borba is átkerül és jól felismerhető lenyomatot hagy a bor kóstolásakor.",
+    "Színanyagok",
+    "Antocianinok",
+    "A kékszőlő színanyagait alkotják ezek a vegyületek. Többnyire a bogyóhéj bőrszövete alatt, a 3-4. sejtsorban találhatóak, az úgynevezett színanyagtasakokban. Kivételt képeznek a festőlevű fajták, mint például a Kármin, a Bíbor Kadarka és a Turán. A nevükhöz híven, a festékanyagok a bogyóhúsban is megtalálhatóak.",
+    "Ilyen vegyületek például a delfinidin, a petunidin, a cianidin és a malvidin. Az európai és a direkttermő szőlőfajták színanyagai jól elválaszthatóak egymástól, így egy esetleges hamisítás egyszerűen kimutatható.",
+    "A közeg pH-jának változása hatással van az antocianinok színére. Erősen savas közegben (pH 2) piros színűek, kevésbé savas közegben (pH 3-4) vörös, bordó színűek, semleges közegben kék színűek, lúgos közegben pedig zöld színűek. A borok kénezése után megfigyelhető, hogy a rozé és a vörösborok színe halványodik. Ez egy reverzibilis folyamat következménye, mert a kénessav molekula időlegesen színtelen vegyület alkot az antocianinokkal. Néhány nap múlva a bor színe normalizálódik.",
+    "A vörösbor színanyagai az erjesztés során veszteséget szenvednek. A veszteség az erjedés elején a legerősebb, az erjedés közepéig tovább növekszik, utána azonban már csak csekély mértékben folytatódik. A színveszteség akár 70% is lehet. A színcsökkenés oka az antocianinok kicsapódása. ",
+    "A színvesztés pH-függő, a pH emelkedésével nő. A hosszabb ideig erjedő mustok több színt veszítenek.",
+    "A cianidin mutatja a legerősebb csökkenést (∼ 95%). A peonidin, a delfinidin, a petunidin és a malvidin lebomlása alacsonyabb mértékű. ",
+    "A borok érlelése közben is megfigyelhető az antocianinok koncentrációjának csökkenése. ",
+    "Nitrogéntartalmú anyagok",
+    "A mustban több nitrogéntartalmú anyagot találunk, mint a borban. Ennek az az egyszerű magyarázata, hogy az erjedés alatt az élesztőgombák ezeket az anyagokat felhasználják. A borok nitrogéntartalma az érlelés során még tovább csökken a kezelések hatására. ",
+    "Ammónium kation",
+    "A szőlőből származik, a borban már csak nagyon kevés található, hiszen az élesztők felhasználják.",
+    "Biogén aminok",
+    "Olyan nitrogéntartalmú szerves vegyületek, melyek leginkább mikroorganizmusok élettevékenysége során, aminosavak bomlástermékeként kerülnek a borba. Legismertebb képviselője a hisztamin. Az arra érzékeny embereknél komoly allergiás reakciót válthat ki.",
+    "Fehérjék",
+    "Aminosavakból felépülő, nagy molekulasúlyú vegyületek. A méretükből adódóan a borokban kolloid oldatban vannak jelen és kémiai, fizikai behatásra kicsapódhatnak és zavarosságot okozhatnak. Ezek a fehérjék a szőlőből kerülnek a borba, mennyiségük nagyban függ az évjárati hatásoktól. Az extrém száraz, aszályos, illetve a csapadékos évjáratokban a szőlőből több fehérje kerül a mustba, így ezek a borok nehezebben tisztíthatóak és stabilizálhatóak.",
+    "A palackos borok esetén manapság alapvető elvárás a fehérjestabilitás. Ez azt jelenti, hogy palackozás után sem a tárolás, sem a szállítás során nem válhat ki a borból fehérje eredetű kiválás. Ennek megelőzésére ásványi alapú derítőszereket szokás használni, melyek részletes technológiáját a derítés témakörében tárgyaljuk részletesebben.",
+    "",
+    "Aromaanyagok",
+    "A borok illat- és aromanyagait megkülönböztetjük aszerint, hogy honnan és milyen módon kerülnek a borba.",
+    "Az elsődleges vagy primer aromák a szőlőből, az ún prefermentatítv aromák pedig a szőlőfeldolgozás során kerülnek a mutba. Az erjedés során sikerül megőrizni ezeket a vegyületeket. ",
+    "A következő csoport a másodlagos vagy fermentatív vegyületek csoportja, melyek az erjedés során keletkeznek, ezek tulajdonságait és a borra gyakorolt hatásait ismertetjük ebben a fejezetben. Az acetaldeid tartozik ide, melyről több szó esik később és a benzaldehid is, mely keserűmandulára emlékeztető illatú és az Olasz rizling egyik meghatározó vegyülete. ",
+    "Megemlítjük még a harmadlagos vagy érlelési (tercier) aromákat, melyeket bonyolult egyensúlyi biokémiai reakciók hoznak létre a borban. Ezek létrejöhetnek a fahordós érlelés során, amikor a fa anyagaiból kioldott vegyületek játszanak szerepet az érzékszervi jellemzők kialakításában. Ilyen vegyület például a vanillin. A bor a palackozás után sem marad állandó, még így is tud fejlődni, érlelődni. Az így keletkező egyedi karaktert palackbukénak nevezzük.",
+    "A mustoknál ismertettük az elsődleges illat- és zamatanyagokat, itt az erjedési és érlelései illatokkal és zamatokkal foglalkozunk, az érlelés során keletkező aromákat pedig a borok érése fejezetben tárgyaljuk.",
+    "Aldehidek",
+    "A borok legfontosabb aldehidje az acetaldehid, mely az erjedés folyamán keletkezik, és a későbbi oxidációs folyamatok miatt egyre nő a mennyisége (18. ábra). Azonnal kiérződik a jelenléte, mert jellegzetes illatot és ízt kölcsönöz a boroknak. Először fáradt óízt (levegő- vagy darabízt) érezhetünk, vagyis a bor kezdi elveszíteni frissességét. Nagyobb mennyiségben vágott almára, égett kenyérhéjra emlékeztető jelleg alakul ki mind illatban, mind ízben. Fontos megemlíteni, hogy a borok kénezésével ez a vegyület kémiailag leköthető, a kénezés egyik hatása éppen az, hogy a kén-dioxid reakcióba lép az acetaldehiddel, és a fáradt, oxidált jelleget segít eltüntetni a borból. Más aldehidek csak nagyon kis mennyiségben fordulnak elő.",
+    "",
+    "Az acetaldehid képlete – Levegőíz, darabíz, óíz",
+    "",
+    "Észterek",
+    "Az észterek intenzív illatú vegyületek, ezért fokozott jelentőséggel bírnak a bor érzékszervi tulajdonságait illetően. Észterek keletkeznek alkoholok és szerves savak reakciójából. A legfontosabb alkoholos összetevő érthető módon az etil-alkohol, valamint a magasabb rendű alkoholok is észtereződnek. Az észtereződésre elsősorban az élesztő által legnagyobb mennyiségben képzett ecetsav esetében kerül sor. Az ecetsav etil-alkohollal alkotott észtere az etil-acetát minden esetben megtalálható a borokban, a normál minőségű borok 30–80 mg/l-t is tartalmazhatnak ebből a vegyületből. Ebben a mennyiségben hozzájárul az illatkomplexitás kialakításához, de kb. 100 mg/l érték felett szúrós, oldószer- és technocolszagúvá teszi a bort. ",
+    "Azokat az észter típusú vegyületeket, melyek főként kellemes illatukkal és ízükkel segítenek kialakítani a borok érzékszervi tulajdonságait, összefoglaló néven gyümölcsésztereknek nevezzük.",
+    "Az 1. táblázatban megtalálhatóak a fontosabb magasabb rendű alkoholok és gyümölcsészterek az ízküszöbértékük és az illatjegyeik felsorolásával.",
+    "",
+    "Magasabb rendű alkoholok és észterek a borokban (mg/l), illatküszöbértékük a borban (mg/l), illatértékük és illatuk",
+    "",
+    "Több észter keletkezik a tisztított mustokból erjesztett borok esetén és az alacsony erjedési hőmérsékleten. Ha az erjedés heves, az észterek egy része a CO2-dal együtt távozik az erjedő borból, ezáltal csökkentve az illatokat.",
+    "Terpénalkoholok",
+    "Az ilyen jellegű vegyületek alakítják sok gyümölcs, fűszer, virág és egyéb növényi rész illatát és ízét. A borok terpénvegyületei a szőlőből származnak, a borok tulajdonképpeni illat- vagy aromaanyagai. A muskotályos szőlőfajták például jól felismerhető vegyületeket tartalmaznak. Ezen fajták héjában találhatóak a következő vegyületek: linaool, citronellol, nerol, geraniol, melyeket a cefre áztatásával intenzívebben ki tudunk oldani a mustba. Hamar oxidálódnak, nehéz eredeti formában megőrizni őket.",
+    "Kénhidrogén és egyéb szerves kénvegyületek",
+    "Kén-hidrogén",
+    "Erősen mérgező gáz, a fehérjék bomlásterméke, záptojásra, gyógyvízre emlékeztető szagú. Nagyon kis mennyiségben megérezzük a jelenlétét. Erjedés közben keletkezik, ízküszöbértéke rendkívül alacsony. Az élesztők termelik elemi kénből, mely a szőlőről kerülhet a mustba a helytelen növényvédelmi munka következtében. Ha a szőlőt szüret előtt kéntartalmú permetezőszererrel kezelik, és nem várják ki a megfelelő várakozási időket, akkor jelenthet problémát. Abban az esetben is keletkezhet érezhető mennyiségben, ha az élesztők számára nem biztosítunk megfelelő nitrogéntartalmú tápanyagot. Gyakran nevezik ezt az elváltozást Böckser-íznek, más néven bakszagnak, mely elég gyakori, de szerencsére könnyen orvosolható. Borok harmonizálása során réz-szulfát vagy réz-citrát tartalmú szerekkel megszüntethető. Mindig próba harmonizálás végzendő a kezelőanyag gyártójának utasítása és a törvényi keretek betartása mellett!",
+    "Szerves kénvegyületek",
+    "Az etil-merkaptán hagymára, városi gázra, esetleg égett gumira, a metil-merkaptán pedig fokhagymára emlékeztető illat- és ízhibát okozó vegyület. ",
+    "Sok szőlőfajta, mint pl. a Sauvignon blanc, a Cabernet sauvignon fajtajellégének kialakításában is kéntartalmú vegyületek játszanak szerepet. ",
+    "Az újborban lévő, érzékszervi hatású anyagok összessége az egyes élesztőkre jellemző aromaprofilt (19. ábra) eredményez. Ezek a törzsspecifikus különbségek azonban már egy évvel az erjesztés után nagyrészt kiegyenlítődnek.",
+    "",
+    "",
+    "Három, fehérbor előállítására alkalmas, kereskedelmi forgalomban kapható élesztő aromaprofiljának érzékszervi elemzése  ",
+    "",
+    "Az ember akár 10 000 szagot is képes megkülönböztetni. Az emberi orrban körülbelül 1000 különböző szaglóreceptor található erre a célra. Ezek szagmegkötő fehérjék. Amint a receptorhoz való kötődés megtörtént, a kapcsolódó idegsejt elektromos jelet küld az agyba. Egy olyan összetett keverékben, mint a bor – amelyben eddig mintegy 1000 anyagot azonosítottak – nehéz konkrét illatanyagokat meghatározni, többek között azért, mert különböző szerkezetű anyagok is azonos illatúak lehetnek, valamint az agyban az illatérzékelés nagyon bonyolult mechanizmusok alapján megy végbe.",
+    "",
+    "Ásványi anyagok ",
+    "A borok ásványianyag-tartalma főképp a szőlőből származik. A szőlő az őt nevelő talajból oldja ki ezeket az ionokat, vagyis alapvetően határozza meg a talaj minősége a bor ásványianyag-tartalmát. Kiváló (pl. vulkanikus alapkőzettel rendelkező területek, magas mésztartalmú talajok, löszös talajok stb.) területekről származó borok egészen egyedi, ásványos karakterrel rendelkeznek, mely a minőség szempontjából lehet meghatározó.",
+    "Kationok",
+    "Kálium -K+ ion: a legfontosabb kation, egyrészt azért, mert ezt tartalmazza a bor a legnagyobb mennyiségben, másrészt a borkőkiválás miatt van gyakorlati jelentősége. A borkő a borkősav savanyú kálium sója, kémiai nevén kálium-hidrogén-tartarát. A borkőstabilitás szempontjából tehát fontos a borban lévő káliumion mennyisége. A káliumion nagy része a szőlőből kerül át a borba, technológiai úton a borok kénezése esetén növekedhet a mennyisége, ha a kénezéshez a kálium-piroszulfit anyagot használja a borász. Magyarországon a borkő megjelenése komoly hibának számít a palackos borok esetén annak ellenére, hogy egy természetes és ártalmatlan, a bor minőségét hátrányosan nem befolyásoló kiválásról van szó. A borkőstabilizálási lehetőségekről a borkezelések fejezetben lesz szó bővebben. ",
+    "Kalcium -Ca2+ ion: borkősavval alkotott sója rosszul oldódik a borban, ezért a kiváló kalcium-tartarát bosszúságot okozhat a palackozott borokban. A kalciumion a szőlőből kerül a borba, erjedés során csökken a mennyisége az előbb említett Ca-tartarát esetleges kiválása miatt. Különféle kezelőanyagokkal azonban mennyiségét lehet növelni is. Gondoljunk csak a savcsökkentésre használt adalékanyagra, melynek alapja a CaCO3. ",
+    "Vas-Fe3+ ion: egy része a szőlőből kerül a borba, de technológiai úton is szennyeződhet a must és a bor. A bor készítése során számos olyan eszközzel, berendezéssel találkozhat, melyből oldhat ki vasionokat (pl. rozsda). Ezért a borok vastartalma nagyon tág határok között változhat. Komoly gondot tud okozni a vasion (Fe3+ion) jelenléte, mert fémes eredetű kiválásokat generálhat. Ilyen kiválás lehet a feketetörés és a fehértörés. Az előbbi tanninnal alkotott fekete színű ferri-tannát kiválást eredményez, az utóbbit pedig a fehér színű ferri-foszfát okozza, mely a vasion és a foszfátionok kölcsönhatásából ered. Már kevés vasion jelenlétében is fémes íz érezhető, valamint egyes boroknál az egérízt is képes felerősíteni. Már említettük, hogy a citromsav képes a vasionok egy részét komplex vegyületformában oldatban tartani, tehát a kiválásoknak és a fémes íznek is elejét veheti, de súlyosabb esetben szükség lehet az un. kékderítésre, melyet kizárólag a hatóság felügyelete mellett lehet elvégezni. A kékderítés során sárgavérlúgsót (kálim-hexacianoferrát) adunk a borhoz, gondos próbaderítést követően. A folyamat során a vas és a réz ionok oldhatatlan csapadék formájában kiválnak a borból. Visszaellenőrzés, derítés és szűrés után a bor felhasználható. Fontos megjegyezni azonban, hogy ez a módszer rendkívül környezetszennyező, hiszen a keletkező derítési alj veszélyes hulladékként kezelendő, mivel hidrogén-cianid szabadulhat fel a derítési aljbólMagát a derítést, annak előkészületeit és visszaellenőrzését is kizárólag hatósági vizsgával rendelkező személy végezheti. Manapság csak elvétve használják, a régi, nagyüzemi berendezések rozsdás alkatrészei kiveszőben vannak a magyar borászati eszközparkból.",
+    "Réz-Cu2+ ion: A mustok természetes rézion tartalma csak néhány tized mg/l, de akár a szőlőben helytelenül végzett növényvédelmi munkákkal, akár a szőlőfeldolgozás, a mustkezelés és a borkezelések közben is növelhető a mennyisége. A rézion az élesztők tevékénységét gátolhatja is, tehát erjedési problémákhoz is vezethet. Ha erjedés után kerül a borba, akkor rezes töréseket okozhat. A citromsav ebben az esetben is segíthet a probléma megoldásában.",
+    "Ólom-Pb2+ ion: mérgező az emberi szervezet számára, ezért a borok ólomtartalmát maximálja a hatályos bortörvény. ",
+    "Anionok",
+    "Szulfát-SO42- ion: a borok szulfátion-tartalmának egy része a szőlőből származik, másik része pedig a kénezési technológia következménye. Minél több kénezőanyag kerül a borba, annál több lesz a szulfátion-tartalom, hiszen a kénessav a borban kénsavvá oxidálódik el. A kénsav a borban kizárólag kötött formában van jelen. Az 500 mg/l feletti szulfátion-tartalom sok kénezőszer használatára utal.",
+    "Foszfát-PO43- ion: az imént említett fehértörés egyik okozója lehet, a mustok nagyobb mennyiségben tartalmaznak foszfátiont, mert az élesztők elhasználják egy részét. A foszfáttartalom a szőlőből kerül a mustba, illetve az élesztőknek szánt tápanyagokban is megtalálható.",
+    "Vitaminok",
+    "A borokban nincsen számottevő vitamin. Zsírban oldható (F,E,D,A,K) egyáltalán, C is csak nyomokban. A must B-vitamintartalmának nagy részét az élesztők felhasználják az erjedés közben, igaz, az élesztők is képesek vitaminokat szintetizálni, de ezek mennyisége és jelentősége elhanyagolható borászati szempontból.",
+    "",
+    "Ábrajegyzék",
+    "1. ábra:\tA glikolízis és az alkoholos erjedés egyszerű folyamatárbrája\t7",
+    "2. ábra:\tAz ATP-ADP átalakulása\t7",
+    "3. ábra:\tA NAD+ oxidációja és redukciója (felső nyíl felett oxidáció, az alsó alatt redukció)\t8",
+    "4. ábra:\tA borban jelen lévő molekulák rendszerezése méretnagyságuk szerint\t12",
+    "5. ábra:\tA metil-alkohol képlete\t13",
+    "6. ábra:\tAz etil-alkohol képlete\t13",
+    "7. ábra:\tA glicerin képlete\t14",
+    "8. ábra:\tA mannit képlete\t14",
+    "9. ábra:\tA szacharóz (répacukor) képlete\t15",
+    "10. ábra:\tA glükóz és fruktóz csökkenése a szőlőmust Saccharomyces cerevisiae általi erjesztése során\t16",
+    "11. ábra:\tA borkősav képlete\t17",
+    "12. ábra:\tAz almasav képlete\t17",
+    "13. ábra:\tA citromsav képlete\t18",
+    "14. ábra:\tA borostyánkősav képlete\t18",
+    "15. ábra:\tA tejsav képlete\t19",
+    "16. ábra:\tAz ecetsav képlete\t20",
+    "17. ábra:\tAz acetaldehid képlete – Levegőíz, darabíz, óíz\t23",
+    "18. ábra:\tHárom, fehérbor előállítására alkalmas, kereskedelmi forgalomban kapható élesztő aromaprofiljának érzékszervi elemzése\t26",
+    "",
+    "",
+    "Táblajegyzék",
+    "1. táblázat:\tMagasabb rendű alkoholok és észterek a borokban (mg/l), illatküszöbértékük a borban (mg/l), illatértékük és illatuk\t24",
+    "",
+    "",
+    "Felhasznált irodalom",
+    "Kállay Miklós: Borászati kémia. Budapest, 2010, Mezőgazda Kiadó."
+  ],
+  "runs": [
+    [],
+    [
+      "Egyedi megrendelés azonosítója: EM-2.10.2  "
+    ],
+    [
+      "Az erjedés kémiai alapjai, a bor kémiai összetétele"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [
+      "Forrás",
+      ": ",
+      "Az eredeti könyv címe: ",
+      "Mikrobiologie",
+      " des ",
+      "Weines",
+      ", 4. ",
+      "Auflage",
+      " 2011, Der ",
+      "Verlag",
+      " ",
+      "Eugen",
+      " ",
+      "Ulmer",
+      " KG,",
+      "\nISBN 978-3-8001-6989-4, Az eredeti könyv szerzői: Helmut Hans ",
+      "Dittrich",
+      ", ",
+      "Manfred",
+      " ",
+      "Großmann"
+    ],
+    [
+      "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Tartalomjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "Az e",
+      "rjedés (fermentáció)",
+      " "
+    ],
+    [
+      "Az erjedés a természetben nagyon fontos lebontó folyamat, melyet minden esetben mikroorganizmusok végeznek. Élesztőgombák, tejsavbaktériumok, ecetsav-baktériumok, hogy a fontosabbakat említsük. Az ember régóta tudatosan használja ezeket a folyamatokat. Gondoljunk csak a kenyérre, a savanyított zöldségek, a különféle gyümölcsök, illetve a nehezen emészthető magvak, termések erjesztésére. "
+    ],
+    [
+      "Attól függően, hogy melyik mikroorganizmus játszik főszerepet a folyamatban, milyen tápanyagok és környezeti feltételek állnak rendelkezésre, különböző erjedésfajtákról beszélhetünk. Az erjedést mindig a keletkezett végtermékről nevezzük el. Ezek a vegyületek még tartalmaznak energiát, ezért nem teljes lebontásról beszélünk. ",
+      "A",
+      "z ",
+      "alkoholos erjedés",
+      " során akár a bor, akár a sör esetén glükózból levegőtől elzárt közegben az élesztőgomba ",
+      "(",
+      "Saccharomyces",
+      ")",
+      " etil-alkoholt és szén-dioxidot állít elő. A bor érése közben megfigyelhetünk még egy fontos erjedési folyamatot, amely az ",
+      "almasavbomlás.",
+      " Ezt a folyamatot tejsavbaktériumok végzik; a borban lévő almasavtartalom alakul át tejsavvá és szén-dioxiddá. Ezt idegen szóval ",
+      "malolaktikus",
+      " fermentációnak",
+      " nevezi a szakma. Az élelmiszeripar más területein és a hétköznapi életünkben is fontos és gyakori erjedési folyamat a ",
+      "tejsavas erjedés",
+      ".",
+      " Ekkor a tejsavbaktériumok szőlőcukrot vagy tejcukrot alakítanak át tejsavvá. Ez a folyamat játszódik le kovászos uborka készítése közben is, illetve a tej megsavanyodása is ennek következménye. Ismerjük még az ",
+      "ecetsavas erjedést",
+      " is, mely során etil-alkoholból ecetsav keletkezik. Ezekben a folyamatokban az a közös pont, hogy mindegyik lebontó folyamat, és mikroorganizmusok nélkül nem mennének végbe."
+    ],
+    [
+      " ",
+      "Az alkoholos erjedés kémiai alapjai"
+    ],
+    [
+      "A glükóz és a fruktóz alkohollá és szén-dioxiddá történő lebontását a mennyiségileg legnagyobb és legjelentősebb végtermék után alkoholos erjedésnek nevezik. "
+    ],
+    [
+      "Rendkívül összetett és bonyolult biokémiai folyamatok összessége játszódik le ekkor. Bőven vannak még feltáratlan reakciók és összefüggések. Most megpróbáljuk a lehető legegyszerűbben áttekinteni a borkészítéshez fontos témákat az erjedés kapcsán. "
+    ],
+    [
+      "Elsőként 1810-ben a francia kémikus, ",
+      "Gay-",
+      "Lussac",
+      " írta le először az alkoholos erjedés összefoglaló kémiai egyenletét. "
+    ],
+    [
+      "Ennek alapján a glükózból etil-alkohol és szén-dioxid keletkezik:"
+    ],
+    [
+      "C",
+      "6",
+      "H",
+      "12",
+      "O",
+      "6",
+      " → 2 C",
+      "2",
+      "H",
+      "5",
+      "OH + 2 CO",
+      "2",
+      "+energia (20 kJ/mól)"
+    ],
+    [
+      "Ezt az egyszerű egyenletet nevezzük az erjedés alapegyenletének, melyből elsőként az látható, hogy 1 molekula glükózból 2 molekula etil-alkohol és 2 molekula szén-dioxid keletkezik. Vagyis 1 mól, azaz 180 g glükózból 2 mól, vagyis kétszer 46 g, azaz 92 g etil-alkohol képződik. ",
+      "Emelett",
+      " kétszer 44 g, tehát 88 g szén-dioxid is keletkezik, és kb. 20 kJ/mól energia szabadul fel a reakció során. Fontos hangsúlyozni, hogy a folyamat levegőtől elzárt közegben megy végbe ebben a formában. Ha a levegő, vagyis az oxigén biztosított az élesztő számára, akkor nem alkoholos erjedést végez, hanem biológiai oxidációt, így teljes légzéssel a glükózt szén-dioxiddá és vízre bontja kb. 500 kJ/mól energia felszabadítása mellett a következő reakcióegyenlet szerint."
+    ],
+    [
+      "C",
+      "6",
+      "H",
+      "12",
+      "O",
+      "6 ",
+      "→6 CO",
+      "2",
+      "+6 H",
+      "2",
+      "O+energia (500 kJ/mól) "
+    ],
+    [
+      "Kimondható a fentiek alapján, hogy az alkoholos erjedés energiatermelése kifejezetten alacsony."
+    ],
+    [
+      "Az alkoholos erjedés legfontosabb anyagcseretermékei"
+    ],
+    [
+      "Az erjedés kiindulási és végtermékeinek megközelítő mennyiségi arányai a ",
+      "következőek",
+      ":"
+    ],
+    [
+      "C",
+      "6",
+      "H",
+      "12",
+      "O",
+      "6",
+      " → 2 C",
+      "2",
+      "H",
+      "5",
+      "OH + 2 CO",
+      "2",
+      "\n1 mol → 2 mol + 2 mol",
+      "\n180,15 g → 2 × 46,05 g + 2 × 44 g",
+      "\n",
+      "Elméleti alkoholhozam:",
+      " 51,1% ",
+      "alk",
+      ".",
+      "\t+ 48,9% szén-dioxid"
+    ],
+    [
+      "Etil-alkohol"
+    ],
+    [
+      "A ",
+      "gyakorlati alkoholhozam",
+      " 46 és 48% között ingadozhat. Többnyire 47,5%-",
+      "os",
+      " átlaghozam várható."
+    ],
+    [
+      "Az alkoholhozam ingadozása elsősorban az erjesztési körülményeknek tudható be, nagyban függ az élesztőtörzs minőségétől. Szintén fontos tényező az erjesztéshez használt tartály mérete: a legkisebb alkoholveszteség kis tartályokban fordul elő. Magasabb erjedési hőmérsékleten is több alkohol illan el az erjedés közben."
+    ],
+    [
+      "144 g/l-",
+      "nél",
+      ", vagyis kb. 18,2 térfogatszázaléknál több etil-alkohol borban erjedéssel aligha keletkezhet. Az ilyen magas alkoholkoncentrációk negatívan befolyásolják az élesztő anyagcseréjét. Az alkohol jó oldószer, amely károsítja a ",
+      "lipideket",
+      " tartalmazó sejtmembránt, ",
+      "így a sejt anyagfelvétele és -leadása zavart szenved. Ezenkívül az alkohol fokozódó mértékben ",
+      "denaturálja",
+      " (kicsapja) a fehérjéket. Tönkreteszi a fehérjék térbeli szerkezetét, így a fehérje nem tudja betölteni biológiai szerepét. Ez az enzimaktivitás csökkenését és a sejt pusztulását eredményezi."
+    ],
+    [
+      "Az alkohol emberre gyakorolt hatásai rendkívül összetettek. "
+    ],
+    [
+      "Az alkohol növeli a rák kockázatát. Például a mellrák kockázata 10%-",
+      "kal",
+      " nő minden napi 10 g alkohol (kb. 125 ml borban) után. Minden tizedik európai ember az alkoholfogyasztás következtében hal meg. Az alkohol oxidációjából acetaldehid keletkezik, amelyet a véráram eloszlat a szervezetben. Az ",
+      "acetaldeid",
+      " sejtméreg, a fehérjéket denaturálja."
+    ],
+    [
+      "Az orvosilag igazolt ajánlások a nőknek újabban csak napi 10 g-",
+      "ot",
+      " (",
+      "∼",
+      " fél pohár bor), a férfiaknak pedig csak 20 g-",
+      "ot",
+      " tartanak egészségesnek."
+    ],
+    [
+      "Az alkohol mérgező hatása főként az acetaldehid bomlástermékből származik. Nagyfokú reakcióképessége miatt az emberi szervezetben lévő számos anyaggal reakcióba lép. Függőséget okozó ",
+      "ópiátok",
+      " is szintetizálódnak belőle."
+    ],
+    [
+      "Az orvosi tényeken és megfontolásokon túl azonban nem szabad lebecsülnünk Szent Benedek humánus bölcsességét, aki a borban az életminőséget is meglátta: „A bor megörvendezteti az ember szívét ",
+      "[",
+      "...",
+      "]",
+      " és csak a mértéktelenség árt neki.” A számára elviselhető mérték az ókori ",
+      "hemina",
+      " volt, amely körülbelül negyed liter. Az emberi szervezetben az etil-alkohol lebontásának mintegy 90%-",
+      "a",
+      " ",
+      "a",
+      " májban történik az ",
+      "alkohol-",
+      "dehidrogenáz",
+      " enzim",
+      " segítségével."
+    ],
+    [
+      " ",
+      "Szén-dioxid"
+    ],
+    [
+      "A másik legfontosabb erjedési anyagcseretermék a CO",
+      "2",
+      ", mely az erjedés során keletkező hő mintegy 20%-át elvezeti. A CO",
+      "2",
+      " gátolja az élesztők szaporodását a borban és a pezsgőben, de a tejsavbaktériumokét nem. A keletkező CO",
+      "2",
+      " mennyisége a must tömegétől függően 40–50-szer nagyobb, mint az erjedő musté. A borászok ",
+      "mustgáz",
+      "nak is nevezik. A CO",
+      "2",
+      " nagy sűrűsége miatt lesüllyed a pincehelyiségek legmélyebb részeire, ahonnan kiszorítja a levegőt, és így a benne lévő oxigént is. Már 3–4 V/V % CO",
+      "2",
+      "-tartalomnál légzési nehézségek, 10 V/V %-",
+      "nál",
+      " súlyos légszomj, 15 V/V % esetén rövid ideig tartó eszméletvesztés lép fel, végül ",
+      "fulladásos",
+      " halál következik be. A maximális munkahelyi koncentráció 0,5 V/V %. A meggyújtott gyertya a levegő kb. 10 V/V % CO",
+      "2",
+      "-tartalmánál kialszik, így alkalmas arra, hogy a pince légterében felhalmozódott CO",
+      "2 ",
+      "gázt idejében kimutassa. Régi és jól bevett szokás, hogy a ",
+      "gazdák az erjedés idején égő gyertyával mennek le a pincébe. A nagyüzemekben a keletkező CO",
+      "2",
+      "-ot gyakorlatilag a zárt erjesztőtartályokból nem engedik elillanni. Fontos balesetmegelőzési szempont, hogy az erjesztők, pincék szellőzését hatékonyan meg tudják oldani a borászatok. Ennek ellenére sajnos minden évben történnek tragédiák a mustgáz miatt."
+    ],
+    [
+      "Az úgynevezett erjedési alapegyenlet a kémiai definíció értelmében nem képlet. Nem tesz sem minőségi, sem mennyiségi megállapítást. A felsorolt termékeken kívül az erjedés során más termékek is keletkeznek. Egyesek mennyiségi szempontból jelentősek, mások ",
+      "illatuk",
+      " és/vagy ízük miatt fontosak. "
+    ],
+    [
+      "Az alkoholos erjedés biokémiája"
+    ],
+    [
+      "Optimális körülmények között az élesztő óránként a saját tömegének megfelelő mennyiségű cukrot képes átalakítani, azaz minden egyes sejt egy másodperc alatt körülbelül 200 millió cukormolekulát képes megerjeszteni."
+    ],
+    [
+      "Az erjedés biokémiai folyamatai"
+    ],
+    [
+      "Az alkoholos erjedés színtere a ",
+      "citoplazma",
+      ". Elsőként a külső környezetből, vagyis a mustból a sejthártyán keresztül be kell jutniuk a cukormolekuláknak az élesztősejt citoplazmájába. "
+    ],
+    [
+      "Cukorfelvétel a sejtbe: Mielőtt a cukrok átalakulása megkezdődne, el kell jutniuk az átalakulás helyszínére. Az erjedés az élesztősejt citoplazmájában történik, vagyis át kell jutniuk a sejtfalon. A sejtfal csak a makromolekulákat tartja vissza, de a kismolekulákat és ionokat beengedi. A sejt tényleges ",
+      "határrétege",
+      ", amely korlátozza az anyagok sejtbe való bejutását, a ",
+      "citoplazmamembrán",
+      "."
+    ],
+    [
+      "A mustból felvételre kerülő glükózt és fruktózt ",
+      "carrierek",
+      " vagy transzporterek ",
+      "viszik be a sejt belsejébe. Ezek olyan fehérjék, amelyek átnyúlnak a membránon. A",
+      " ",
+      "Saccharomyces",
+      " ",
+      "cerevisiae",
+      " legalább 18 ilyen ",
+      "hexóztranszporter",
+      " molekulával",
+      " rendelkezik. A transzportfehérje megköti a cukrot a membrán külső oldalán, majd átemeli a citoplazmába, és az ott megerjed. "
+    ],
+    [
+      "Ez az élesztő legfontosabb cukorfelvételi mechanizmusa, melynek sebessége az erjedés sebességét is meghatározza. A magas külső cukorkoncentráció és az alkohol gátolja a cukor felvételét. Az olyan környezeti körülmények, mint a tápanyaghiány, a szélsőséges hőmérséklet és pH-érték, a sejttoxinok, mint az alkohol, a SO",
+      "2",
+      " és az acetaldehid, ",
+      "stresszelik",
+      " az élesztőt, és korlátozzák a cukorfelvételt. Ilyenkor gyakran előfordul, hogy az erjedés idő előtt leáll."
+    ],
+    [
+      "A lebontó folyamat első lépésben a hat szénatomos cukor molekula két ",
+      "glicerinaldehid-3-foszfáttá",
+      " ",
+      "(GAP)",
+      " ",
+      "hasítódik",
+      ", majd a glükóz molekula ",
+      "glikolízise",
+      " történik meg, vagyis 1 mól glükózból 2 mól ",
+      "piroszőlősav",
+      " és 2 mól ",
+      "ATP",
+      " molekula keletkezik. A következő lépésben a ",
+      "piroszőlősav",
+      " ",
+      "dekarboxileződik",
+      ", vagyis elveszít a molekulából egy szénatomot és két oxigénatomot. Ez a CO",
+      "2",
+      "-kibocsátás teszi az erjedést, annak kezdetét és végét, könnyen kimutathatóvá, mivel látható és mérhető."
+    ],
+    [
+      "Így ",
+      "acetaldehid",
+      "et",
+      " kapunk. Az élesztő ",
+      "alkohol-",
+      "dehidrogenáz",
+      " enzimje",
+      " pedig az acetaldehidet etil-alkohollá redukálja. Az 1-3. ábrák szemléltetik a lejátszódó folyamatokat."
+    ],
+    [
+      ""
+    ],
+    [
+      "A ",
+      "glikolízis",
+      " és az alkoholos erjedés egyszerű ",
+      "folyamatárbrája"
+    ],
+    [
+      "glucose",
+      "-glükóz"
+    ],
+    [
+      "Glycolysis-glikolízis"
+    ],
+    [
+      "pyruvate-piroszőlősav"
+    ],
+    [
+      "Respiration",
+      "-légzés, a szaggatott nyíl és a ",
+      "Respiration",
+      " kifejezés eltávolítandó az ábráról"
+    ],
+    [
+      "PDC-",
+      "dekarboxiláz",
+      " enzim"
+    ],
+    [
+      "acetaldehyde",
+      "-acetaldehid"
+    ],
+    [
+      "Alcoholic",
+      " ",
+      "fermentation",
+      "-alkoholos erjedés"
+    ],
+    [
+      "ADH-aldehid-",
+      "dehidrogenáz",
+      " enzim"
+    ],
+    [
+      "ethanol",
+      "-etil-alkohol",
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "Az ATP-ADP átalakulása"
+    ],
+    [
+      "Forrás: Saját kép"
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "NAD",
+      "+",
+      " (nikotinamid-",
+      "adenin",
+      "-",
+      "dinukletoid",
+      "), ",
+      "NADH+H",
+      "+",
+      " ",
+      "az ",
+      "ADP",
+      "-ATP",
+      " átalakuláshoz szükséges elektrontranszportban tölt be nélkülözhetetlen szerepet, a ",
+      "redoxi",
+      " folyamatokban",
+      " vesznek részt."
+    ],
+    [
+      ""
+    ],
+    [
+      "A NAD+ oxidációja és redukciója (felső nyíl felett oxidáció, az alsó alatt redukció)"
+    ],
+    [
+      "A must anyagainak változása erjedés közben"
+    ],
+    [
+      "A bor készítése során a must átalakulása az egyik legizgalmasabb és legmélyrehatóbb változás. A kellemesen édes szőlőléből élesztőgombák segítségével bor születik, ez az átalakulás ősidők óta foglalkoztatja az emberiséget. "
+    ],
+    [
+      "A must kierjedése a borkészítés folyamatában a legmeghatározóbb folyamat. Számos olyan tényezőt kell ",
+      "figyelmbe",
+      " vennie a borásznak, melyek hatással vannak az épp erjedésben lévő tételre. Sok körülmény van, amit a szakember előre tud szervezni és kontroll alatt tud tartani, de ennek ellenére az erjedés menetét fokozott figyelmemmel kell végig kísérnie, hogy ha szükséges, azonnal be tudjon avatkozni, megelőzze a káros, nem kívánatos folyamatokat."
+    ],
+    [
+      "A legfontosabb változás a cukor csökkenése és az etil-alkohol növekedése, valamint a szén-dioxid gáz keletkezése az erjedő borban. Ezt akár erőteljes habképzés is követheti, mely nem feltétlenül kívánatos. Az erjedő bor felszíne mozgásban van a kiáramló szén-dioxid miatt. A kezdetben tiszta és édes must zavaros lesz, egyre inkább csípőssé válik. Ezt az állapotot ",
+      "murcinak vagy majomtejnek",
+      " hívjuk. "
+    ],
+    [
+      "A must anyagai közül nemcsak a cukrok alakulnak át, hanem még egy sor más összetevő is. Egyeseket az élesztő felhasznál az életfolyamataihoz és a szaporodásához. Másokat szintén átformál, kialakítva a bor egyedi jellegét. Néhány vegyületcsoport az erjedés után is ugyanolyan állapotban marad, mint ahogy a mustban találtuk."
+    ],
+    [
+      "Savtartalom-változás"
+    ],
+    [
+      "A must savtartalma is jelentősen átalakul erjedés közben. Általában csökken, a borkősav borkő formájában kiválik az egyre növekvő alkoholtartalom miatt, de nem ritka az sem, hogy az összes savtartalom mennyisége növekszik. A borkőkiválás ebben az esetben is megtörténik, de több sav keletkezik az erjedés során, mint amennyi borkő kiválik. A kezdeti borkősav-almasav és kevés citromsav hármast kiegészíti az erjedés közben keletkező ",
+      "borostyánkősav,",
+      " a ",
+      "tejsav",
+      " és az ",
+      "ecetsav.",
+      " Nemcsak a savak minősége és mennyisége változik meg az erjedés során, hanem a bor savérzete is. A must cukortartalma miatti édes ízérzet a must savasságát elfedi. Az újborban nincs, vagy alig van cukor általános esetben, így a kierjedt bor savérzete sokkal inkább felerősödik. "
+    ],
+    [
+      "A nitrogéntartalmú anyagok lebontása erjedés során"
+    ],
+    [
+      "Az élesztők legfőbb tápanyagának, a glükóznak a hasznosítását és etil-alkohollá való lebontását a fenti részben tárgyaltuk. Ahhoz, hogy az élesztősejtek egészségesen tudjanak anyagcserét folytatni és a szaporodásuk is ",
+      "megefelelő",
+      " legyen, óriási szükségük van könnyen elérhető formában jelen lévő nitrogénforrásra. Ebből a forrásból merítve tudnak olyan számukra ",
+      "létfontosságű",
+      " vegyületeket szintetizálni, mint a sejtet alkotó fehérjék, enzimek, de a reprodukciójuk számára fontos DNS szintéziséhez is szükség van a nitrogénforrásra, illetve a sejtmembrán felépítésében is fontos feladat jut a nitrogént tartalmazó vegyületeknek. A mustban lévő ",
+      "ammónium iont, ",
+      "polipeptideket",
+      " és aminosavakat tudja elsősorban felhasználni az élesztő nitrogénforrásként. "
+    ],
+    [
+      "Ha nem áll rendelkezésre megfelelő nitrogénforrás erjedés közben, akkor az élesztők szaporodása, élettevékenysége nem biztosított. Emiatt erjedési problémák léphetnek fel. Mind a spontán, mind az irányított erjesztésben fontos a tápanyag utánpótlása, ha ez tényleg indokolt. A ",
+      "tápanygok",
+      " túlzott adagolása később problémákhoz vezet, nem beszélve arról, hogy felesleges költséget generálunk. Az élesztő számára felvehető ",
+      "nitrogéntartalmú",
+      " anyagokat ",
+      "számszerűsíteni",
+      " is szokták. Az egyik ilyen fontos mutatószám a ",
+      "YAN-érték",
+      ", mely egy angol kifejezés rövidítése (",
+      "Yeast",
+      " ",
+      "Assimilable",
+      " ",
+      "Nitrogen",
+      "). Magyarul az élesztők számára felhasználható nitrogént jelenti és mg/l értékben adjuk meg. A mustmérések fejezetben esik több szó erről. "
+    ],
+    [
+      "Nemcsak a cukor átalakulása okoz illat- és ízváltozást az erjedés során, hanem a szőlőből származó elsődleges illat- és zamatanyagok átalakulása is. A borok kémiai összetétele című fejezetben lesz erről szó bővebben."
+    ],
+    [
+      "A bor kémiai összetétele"
+    ],
+    [
+      "Az erjedési folyamatok áttekintése után foglaljuk rendszerbe az erjedés során keletkező vegyületeket."
+    ],
+    [
+      "A bor mindig változó összetételű ital, hiszen közvetlenül a kierjedés után egy instabil rendszernek tekinthető, melyben fizikai, kémiai és biokémiai, esetenként mikrobiológiai folyamatok zajlanak. Még a sterilre szűrt, a technológiai kezeléseken átesett bor sem tekinthető állandó összetételű folyadéknak. A borászati analitika ",
+      "feljődésével",
+      " egyre jobban megismerhették a szakemberek a bor kémiai összetételét."
+    ],
+    [
+      "A bor egy bonyolult összetételű vizes oldat, mely szerves és szervetlen alkotórészeket egyaránt tartalmaz. A borban jelenlévő legtöbb molekula valódi oldatként viselkedik. Ilyen például az etil-alkohol, a glükóz, a fruktóz, a szerves savak, az illat- és aromaanyagok. Vannak azonban kolloid oldat formájában található molekulák is a borban, mint például a ",
+      "polifenolok",
+      ", a színanyagok és a fehérjék. Szemmel látható ",
+      "zavarosító",
+      " anyagok lehetnek a kivált borkő- vagy kalcium-tartarát kristályok, az élesztőgombák és ezek maradványai, újbor esetén a szőlőbogyó héjának foszlányai is. (4. ábra)"
+    ],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      "A borban jelen lévő molekulák rendszerezése méretnagyságuk szerint"
+    ],
+    [],
+    [
+      "Alkoholok"
+    ],
+    [
+      "Metil-alkohol"
+    ],
+    [
+      "Az alkoholos erjedés során mindig keletkezik ",
+      "metil-alkohol",
+      " (5. ábra), mely erősen mérgező vegyület. A szőlőbogyóban található ",
+      "pektin",
+      "ek lebomlása során keletkezik. A direkttermő szőlők héja vastagabb, ",
+      "pektiben",
+      " gazdagabb. Ebből kifolyólag a direkttermő szőlőkből készült borok magasabb metil-alkohol tartalommal rendelkeznek. A vörösborkészítési technológiából adódóan (hosszú kontaktidő az erjedő bor és a szőlőbogyók héj részéi között) a vörösborok mindig több metil-alkoholt tartalmaznak, mint a fehérborok. Egy kifejezetten magas metil-alkohol tartalommal bíró bor sem tartalmaz 300 mg/l mennyiségnél többet. Irodalmi adatok alapján 8-10 g metil-alkohol elfogyasztása esetén tapasztalható a látási zavar, 30-40 g pedig halálos. Hacsak direkt nem tesznek a borba metil-alkoholt, akkor látható az adatokból, hogy ",
+      "borból komoly mennyiség elfogyasztása szükséges ahhoz, hogy metil-alkohol mérgezést szenvedjen valaki. "
+    ],
+    [
+      ""
+    ],
+    [
+      "A metil-alkohol képlete"
+    ],
+    [],
+    [
+      "Etil-alkohol"
+    ],
+    [
+      "Forráspontja 78˚C, jellegzetes szagú és ízű folyadék, mely vízben nagyon jól oldódik. (6. ábra). A borok alkoholtartalma tág határok között mozoghat: 7-18 V/V %. Az alkoholtartalom a borok érése közben folyamatosan csökken, különösen igaz ez a fahordóban érlelődő borok esetén. Nem ritka az, hogy évente akár 1,5-2 V/V %-",
+      "kal",
+      " is csökkenhet. Nagyon fontos a bor érzékszervi tulajdonságainak kialakításában végzett szerepe is, ugyanis számos szerves savval és aldehiddel kellemes ízű és illatú vegyületet képez. Nagy szerepe van továbbá abban is, hogy a későbbi mikrobiológiai fertőzésektől megóvja a bort. Az esetleges maradék cukrot tartalmazó borok esetén előfordulhat ",
+      "utóerjedés",
+      ",",
+      " mely a cukortartalom csökkenéséhez és az alkoholtartalom további növekedéséhez vezet."
+    ],
+    [
+      "A",
+      " tényleges és a potenciális alkohol",
+      "tartalom",
+      " két fontos fogalom a borászati analitikában. A tényleges alkoholtartalom a borban pillanatnyilag mérhető alkoholtartalmat jelenti, míg a potenciális alkoholtartalom egy számított adat, mely megmutatja, hogy a borban lévő maradék cukortartalom kierjedése után mennyi lenne a bor alkoholtartalma. "
+    ],
+    [
+      ""
+    ],
+    [
+      "Az etil-alkohol képlete"
+    ],
+    [],
+    [
+      "Az erjedés során melléktermékként ",
+      "magasabb rendű alkoholok",
+      " (olyan alkoholok, melyekben kettőnél több szénatom található) is keletkeznek, ezek főképp a jellegzetes ",
+      "boríz",
+      " kialakításában játszanak szerepet."
+    ],
+    [
+      "Glicerin"
+    ],
+    [
+      "Édes ízű, sűrűn folyó folyadék, vízben és alkoholban nagyon jól oldódik (7. ábra). Az alkoholos erjedés legfontosabb mellékterméke, legalábbis a mennyiségét illetően. Ha a szőlő nemesrothadáson esik át, akkor már a bogyóban megjelenik ez a vegyület. A borok ",
+      "extrakttartalmának",
+      " nagy részét alkotja. A kortyot selymessé, bársonyossá teszi. Alátámasztja és lekerekíti a savérzetet édes ízénél fogva. A magyar borokban általában 4-10 g/l mennyiségben van jelen, aszúsodott szőlőből készült borokban ennél jóval több is lehet. Jelenléte jól megfigyelhető már a bor kóstolása során is, ugyanis feltapad a pohár falára és létrehozza az úgynevezett ",
+      "gliceringyűrűt."
+    ],
+    [
+      ""
+    ],
+    [
+      "A glicerin képlete"
+    ],
+    [],
+    [
+      "Mannit"
+    ],
+    [
+      "Hat értékű, hat szén atomból álló alkohol, melyet a tejsavbaktériumok magas hőmérsékleten, 35˚C felett fruktózból képeznek. Édes ízűvegyület, jelenléte borbetegségre utal (8. ábra)."
+    ],
+    [
+      ""
+    ],
+    [
+      "A mannit képlete"
+    ],
+    [],
+    [
+      "Szénhidrátok"
+    ],
+    [
+      "A szőlőmustban az uralkodó szénhidrátok a ",
+      "monoszacharidok",
+      ", a glükóz és a fruktóz. Kémiailag mindkettő ",
+      "hexóz",
+      ", hiszen 6 db C atomot tartalmaznak. Ezek, azaz a glükóz és a fruktóz körülbelül 1:1 arányban vannak jelen a mustokban. A gyakran jelentős mennyiségű cukor normál körülmények között teljesen kierjed. Ám teljesen általános, ha néhány g/l ",
+      "maradék cukortartalom visszamarad az újborban. Ez nemcsak ki nem erjedt glükózt vagy fruktózt tartalmaz, hanem jellemzően 5 szénatomot tartalmazó szénhidrátokat is, mint például az ",
+      "arabinózt",
+      " ",
+      "és a",
+      " ",
+      "ramnózt",
+      ". Ezeket az 5 szénatomot tartalmazó szénhidrátokat, a glükózzal és fruktózzal ellentétben, az élesztőgomba nem tudja erjeszteni."
+    ],
+    [
+      "A ",
+      "diszacharidok",
+      " közül a bor szempontjából a ",
+      "szacharóz",
+      " (répacukor) (9. ábra) fontos, amelyet alacsony ",
+      "cukortartalmú",
+      " mustok cukortartalmának emelésére használnak. A mustban is kimutatható, de csak igen kis mennyiségben. Az élesztő ",
+      "szacharáz",
+      " enzimjének",
+      " segítségével glükózzá és fruktózzá bontja. Az ",
+      "apikulátusz",
+      " (vadélesztő) élesztőkből hiányzik ez az enzim, ezért nem képesek a szacharóz erjesztésére."
+    ],
+    [
+      ""
+    ],
+    [
+      "A szacharóz (répacukor) képlete"
+    ],
+    [],
+    [
+      "A mustban lévő glükózt és fruktózt a borélesztő jól és egyidejűleg erjeszti. A glükóz azonban valamivel gyorsabban átalakul, mint a fruktóz (10. ábra). A ",
+      "Saccharomyces",
+      " ",
+      "cerevisiae",
+      " ugyanis ",
+      "glükofil",
+      " (glükózt kedvelő), vagyis a glükózt könnyebben és szívesebben erjeszti, mint a fruktózt. Ezért az újbor maradék cukortartalma általában több fruktózt tartalmaz, kevesebb glükóz mellett. A fruktóz kétszer olyan édes ízérzetet biztosít, mint a glükóz, ezért a maradék cukrot tartalmazó borokat általában jobbnak, teltebbnek, harmonikusabbnak ítélik. "
+    ],
+    [
+      ""
+    ],
+    [
+      "A glükóz és fruktóz csökkenése a szőlőmust ",
+      "Saccharomyces",
+      " ",
+      "cerevisiae",
+      " általi erjesztése során"
+    ],
+    [],
+    [
+      "Szerves savak"
+    ],
+    [
+      "A borok gerincét alkotják, nagyon fontos vegyületek a mustban és a borban egyaránt. A mustok és a borok savtartalma eltér egymástól. A mustokban a legfontosabb három szerves sav – ahogy a mustok kémiai összetétele című fejezetben is olvasható – a borkősav, az ",
+      "almasav",
+      " és a ",
+      "citromsav",
+      ". E három sav a borokban is jelen van és kiegészül olyan szerves savakkal, melyek jellemzően az erjedésben keletkeznek. Ilyen savak a tejsav, a borostyánkősav és az ecetsav."
+    ],
+    [
+      "Borkősav"
+    ],
+    [
+      "Fehér színű, vízben jól, alkoholban kevésbé jól oldódik (11. ábra). A borkősav sóit ",
+      "tartarát",
+      "oknak",
+      " nevezzük. A szőlő jellegzetes ",
+      "sava",
+      " más gyümölcsben ilyen mennyiségben nem fordul elő. A bor legerősebb és legfontosabb ",
+      "savaként",
+      " tartjuk nyilván. Erős, markáns savérzetet biztosít. Mennyisége függ a szőlőfajtától, a talaj összetételétől, a szőlő metszésmódjától, művelésmódjától, az évjárattól, az erjedés körülményeitől, a bor alkoholtartalmától, csak hogy a legfontosabb tényezőket említsük. A bor érése folyamán csökkenhet a mennyisége egészen a must erjedésétől kezdve. A borban lévő káliumionnal reakcióba lépve kálium-hidrogén-tartarát vegyületként (borkősav kálim savanyú sója) kikristályosodhat. Ez a folyamat a borkőkiválás. A borok érése témakör bővebb információt tartalmaz erről a kérdésről."
+    ],
+    [
+      ""
+    ],
+    [
+      "A borkősav képlete"
+    ],
+    [],
+    [
+      "Almasav"
+    ],
+    [
+      "Fehér színű, kristályos anyag, vízben és alkoholban jól oldódik",
+      ". (12. ábra) Az almasav sóit ",
+      "malát",
+      "oknak",
+      " nevezzük. A bor második legfontosabb ",
+      "sava",
+      " a borkősav után. A szőlőből származik, mennyisége nagyon sok tényezőtől függ. Egyrészt vannak kifejezetten almasavgyűjtő fajták, ilyen például az Ezerjó, másrészt az évjárati hatás is nagyban meghatározza a szőlő almasavtartalmát. Például az esős, hűvös években az almasavtartalom magas, míg a meleg, napsütötte években alacsonyabb. Az aszályos évjáratokban, amikor a szőlő kényszerérik, szintén magas almasavszinteket mérhetünk a mustokban. "
+    ],
+    [
+      "A borok almasavtartalma nagyon tág határok között mozoghat. Pezsgőalapborok esetén nem ritka a 7-8 g/l, míg a hosszan érlelt fehér- vagy vörösborok már egyáltalán nem tartalmaznak almasavat. Erjedés közben is csökkenhet a mennyisége, mert az élesztők tápanyagként felhasználhatják, de a tipikus csökkenés az almasavbontás hatására következik be, amikor a tejsavbaktériumok lebontják."
+    ],
+    [
+      ""
+    ],
+    [
+      "Az almasav képlete"
+    ],
+    [],
+    [
+      "Citromsav"
+    ],
+    [
+      "Fehér színű, kristályos anyag, vízben és alkoholban is jól oldódik. (13. ábra) A citromsav sóit ",
+      "citrát",
+      "oknak",
+      " nevezzük. A mustok és a borok 1 g/l alatti citromsavat tartalmaznak. A bor érése során a bakteriális tényezők miatt általában csökken a mennyisége. Jelentősége abban áll, hogy nehézfém ionokkal, mint a Fe",
+      "3+",
+      " és a Cu",
+      "2+ ",
+      "komplex vegyületet képez, így képes ezeket az egyébként töréseket okozó ionokat oldatban tartani. A nemesrothadáson átesett szőlőkből ",
+      "készült borok több citromsavat is tartalmazhatnak, hiszen a nemesrothadás során a ",
+      "beltartalmi",
+      " értékek koncentrálódnak."
+    ],
+    [
+      ""
+    ],
+    [
+      "A citromsav képlete"
+    ],
+    [],
+    [
+      "Borostyánkősav"
+    ],
+    [
+      "Fehér színű kristályos anyag, mely alkoholban és vízben is jól oldódik (14. ábra). A borostyánkősav sóit ",
+      "szukcinát",
+      "oknak",
+      " nevezzük. Markáns, nem jó ízű sav, de a ",
+      "boríz",
+      " kialakításában nagy szerepe van. Minden alkoholos erjedésben jelen lévő melléktermék. A borostyánkősav főként a ",
+      "zajos erjedés",
+      " fázisában képződik kb. 0,5-1,5 g/l mennyiségben, mely a borban tartósan meg is marad. "
+    ],
+    [
+      ""
+    ],
+    [
+      "A borostyánkősav képlete"
+    ],
+    [
+      "Forrás: Saját kép"
+    ],
+    [],
+    [
+      "3.3.5 Tejsav"
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Színtelen, sűrűn folyó, kellemesen savanyú ízű folyadék. Vízben és alkoholban jól oldódik. (15. ábra) A tejsav sóit ",
+      "laktát",
+      "oknak",
+      " nevezzük. Az élesztő tevékenysége során cukrokból képződik minden alkoholos erjedéskor, mint erjedési melléktermék. Mennyisége a bor érése folyamán csak növekedhet az almasavbontás vagy egyéb más baktériumos tevékenység által. Számos komoly borbetegség létezik, melynek során nagyobb mennyiségű tejsav keletkezik ",
+      "egyéb más anyagcseretermékekkel együtt. A ",
+      "Saccharomyces",
+      " ",
+      "cerevisiae",
+      " tejsavképzése az erjedés során kb. 100–300 mg/l."
+    ],
+    [
+      ""
+    ],
+    [
+      "A tejsav képlete"
+    ],
+    [],
+    [
+      "Ecetsav"
+    ],
+    [
+      "Szúrós szagú, jellegzetes ízű folyadék. Forráspontja 118 ˚C. Vízben és alkoholban jól oldódik. (16. ábra) Az ecetsav sóit ",
+      "acetát",
+      "oknak",
+      " nevezzük. A borok illósavtartalmát az egyértékű, alifás sorba tartozó szerves savak alkotják. Az ecetsav az illósavak kb. 95%-át teszi ki. "
+    ],
+    [
+      "Penészes szőlő esetén már előfordul, hogy a bogyóhús is tartalmaz ecetsavat, ami átkerülhet a mustba és a borba is. "
+    ],
+    [
+      "A ",
+      "Saccharomyces",
+      " ",
+      "cerevisiae",
+      " kb. 0,2–0,4 g/l ecetsavat képez a borkészítés során. Néhány vadélesztőgomba 1 g/l-",
+      "nél",
+      " többet is termelhet, pl. a ",
+      "Hanseniaspora",
+      " ",
+      "uvarum",
+      ",",
+      " a ",
+      "Pichia",
+      " és a ",
+      "Candida",
+      "-fajok. A normál minőségű borokban a 0,5 g/l-",
+      "nél",
+      " nagyobb ",
+      "illósavtartalom",
+      " a káros mikrobiológiai folyamatok következménye."
+    ],
+    [
+      "Az ecetsav élesztők általi képzése alapvetően az acetaldehid ",
+      "enzimatikus",
+      " oxidációjával történik. A ",
+      "Saccharomyces",
+      " ",
+      "cerevisiae",
+      " három ilyen enzimet is tartalmaz. "
+    ],
+    [
+      "A must erjedése során az ecetsav növekedése kölcsönös viszonyban van a cukorfogyasztással. Ahogy a must cukortartalma növekszik, úgy növekszik az élesztő általi ecetsavképzés is. Vagyis a magasabb ",
+      "cukortartalmú",
+      " mustokból készült borok, mint például a kései ",
+      "szüretelésű",
+      " borok, asz aszúborok, a szamorodnik, a jégborok mindig magasabb illósavtartalommal bírnak."
+    ],
+    [
+      "",
+      " "
+    ],
+    [
+      "Az ecetsav képlete"
+    ],
+    [
+      "Forrás: Saját kép"
+    ],
+    [],
+    [
+      "Egyéb szerves savak"
+    ],
+    [
+      "Számos más szerves sav is megtalálható a ",
+      "borokban",
+      " csekély mennyiségben, melyek borászati szerepe elhanyagolható."
+    ],
+    [
+      "Azonban fontos megemlíteni a ",
+      "glükonsavat",
+      ", mely a glükóz enzimes oxidációjából származik. A nemesrothadás során a ",
+      "Botrytis",
+      " ",
+      "cinerea",
+      " termeli és az aszúsodott szőlőbogyókban keletkezik. Nem tudja erjeszteni ezt a vegyületet az élesztőgomba, így a borba is átkerül és jól felismerhető lenyomatot hagy a bor kóstolásakor."
+    ],
+    [
+      "Színanyagok"
+    ],
+    [
+      "Antocianinok"
+    ],
+    [
+      "A kékszőlő ",
+      "színanyagait",
+      " alkotják ezek a vegyületek. Többnyire a bogyóhéj ",
+      "bőrszövete",
+      " alatt, a 3-4. sejtsorban találhatóak, az úgynevezett színanyagtasakokban. Kivételt képeznek a ",
+      "festőlevű",
+      " fajták, mint például a Kármin, a Bíbor Kadarka és a Turán. A ",
+      "nevükhöz",
+      " híven, a festékanyagok a bogyóhúsban is megtalálhatóak."
+    ],
+    [
+      "Ilyen vegyületek például a delfinidin, a ",
+      "petunidin",
+      ", a cianidin és a ",
+      "malvidin",
+      ". Az európai és a direkttermő szőlőfajták ",
+      "színanyagai",
+      " jól ",
+      "elválaszthatóak",
+      " egymástól, így egy esetleges hamisítás egyszerűen kimutatható."
+    ],
+    [
+      "A közeg pH-",
+      "jának",
+      " változása hatással van az ",
+      "antocianinok",
+      " színére. Erősen savas közegben (pH 2) piros színűek, kevésbé savas közegben (pH 3-4) vörös, bordó színűek, semleges közegben kék színűek, lúgos közegben pedig zöld színűek. A borok kénezése után megfigyelhető, hogy a rozé és a vörösborok színe halványodik. Ez egy reverzibilis folyamat következménye, mert ",
+      "a kénessav molekula időlegesen színtelen vegyület alkot az ",
+      "antocianinokkal",
+      ". Néhány nap múlva a bor színe normalizálódik."
+    ],
+    [
+      "A vörösbor ",
+      "színanyagai",
+      " az erjesztés során veszteséget szenvednek. A veszteség az erjedés elején a legerősebb, az erjedés közepéig tovább növekszik, utána azonban már csak csekély mértékben folytatódik. A színveszteség akár 70% is lehet. A színcsökkenés oka az ",
+      "antocianinok",
+      " kicsapódása. "
+    ],
+    [
+      "A színvesztés pH-függő, a pH emelkedésével nő. A hosszabb ideig erjedő mustok több színt veszítenek."
+    ],
+    [
+      "A cianidin mutatja a legerősebb csökkenést (",
+      "∼",
+      " 95%). A ",
+      "peonidin",
+      ", a delfinidin, a ",
+      "petunidin",
+      " és a ",
+      "malvidin",
+      " lebomlása alacsonyabb mértékű. "
+    ],
+    [
+      "A borok érlelése közben is megfigyelhető az ",
+      "antocianinok",
+      " koncentrációjának csökkenése. "
+    ],
+    [
+      "Nitrogéntartalmú anyagok"
+    ],
+    [
+      "A mustban több ",
+      "nitrogéntartalmú",
+      " anyagot találunk, mint a borban. Ennek az az egyszerű magyarázata, hogy az erjedés alatt az élesztőgombák ezeket az anyagokat felhasználják. A borok nitrogéntartalma az érlelés során még tovább csökken a kezelések hatására. "
+    ],
+    [
+      "Ammónium kation"
+    ],
+    [
+      "A szőlőből származik, a borban már csak nagyon kevés található, hiszen az élesztők felhasználják."
+    ],
+    [
+      "",
+      "Biogén",
+      " ",
+      "aminok"
+    ],
+    [
+      "",
+      "",
+      "",
+      "Olyan ",
+      "nitrogéntartalmú",
+      " szerves vegyületek, melyek leginkább mikroorganizmusok élettevékenysége során, aminosavak bomlástermékeként kerülnek a borba. Legismertebb képviselője a hisztamin. Az arra érzékeny embereknél komoly allergiás reakciót válthat ki."
+    ],
+    [
+      "Fehérjék"
+    ],
+    [
+      "Aminosavakból felépülő, nagy molekulasúlyú vegyületek. A méretükből adódóan a borokban ",
+      "kolloid oldatban",
+      " vannak jelen és kémiai, fizikai behatásra kicsapódhatnak és zavarosságot okozhatnak. Ezek a fehérjék a szőlőből kerülnek a borba, mennyiségük nagyban függ az évjárati hatásoktól. Az extrém száraz, aszályos, illetve a csapadékos évjáratokban a szőlőből több fehérje kerül a mustba, így ezek a borok nehezebben ",
+      "tisztíthatóak",
+      " és ",
+      "stabilizálhatóak",
+      "."
+    ],
+    [
+      "A palackos borok esetén manapság alapvető elvárás a ",
+      "fehérjestabilitás.",
+      " Ez azt jelenti, hogy palackozás után sem a tárolás, sem a szállítás során nem válhat ki a borból fehérje eredetű ",
+      "kiválás. Ennek megelőzésére ásványi alapú derítőszereket szokás használni, melyek részletes technológiáját a derítés témakörében tárgyaljuk részletesebben."
+    ],
+    [],
+    [
+      "Aromaanyagok"
+    ],
+    [
+      "A borok illat- és ",
+      "aromanyagait",
+      " megkülönböztetjük aszerint, hogy honnan és milyen módon kerülnek a borba."
+    ],
+    [
+      "Az ",
+      "elsődleges vagy primer aromák",
+      " a szőlőből, az ",
+      "ún",
+      " ",
+      "prefermentatítv",
+      " aromák",
+      " pedig a szőlőfeldolgozás során kerülnek a ",
+      "mutba",
+      ". Az erjedés során sikerül megőrizni ezeket a vegyületeket. "
+    ],
+    [
+      "A következő csoport a ",
+      "másodlagos vagy ",
+      "fermentatív",
+      " ",
+      "vegyületek ",
+      "csoportja, melyek az erjedés során keletkeznek, ezek tulajdonságait és a borra gyakorolt hatásait ismertetjük ebben a fejezetben. Az ",
+      "acetaldeid",
+      " tartozik ide, melyről több szó esik később és a benzaldehid is, mely keserűmandulára emlékeztető illatú és az Olasz rizling egyik meghatározó vegyülete. "
+    ],
+    [
+      "Megemlítjük még a ",
+      "harmadlagos vagy érlelési (tercier) aromákat",
+      ", melyeket bonyolult egyensúlyi biokémiai reakciók hoznak létre a borban. Ezek létrejöhetnek a fahordós érlelés során, amikor a fa ",
+      "anyagaiból",
+      " kioldott vegyületek játszanak szerepet az érzékszervi jellemzők kialakításában. Ilyen vegyület például a vanillin. A bor a palackozás után sem marad állandó, még így is tud fejlődni, érlelődni. Az így keletkező egyedi karaktert ",
+      "palackbuké",
+      "nak nevezzük."
+    ],
+    [
+      "A mustoknál ismertettük az elsődleges illat- és zamatanyagokat, itt az erjedési és érlelései illatokkal és zamatokkal foglalkozunk, az érlelés során keletkező aromákat pedig a borok érése fejezetben tárgyaljuk."
+    ],
+    [
+      "Aldehidek"
+    ],
+    [
+      "A borok legfontosabb aldehidje az acetaldehid, mely az erjedés folyamán keletkezik, és a későbbi oxidációs folyamatok miatt egyre nő a mennyisége (18. ábra). Azonnal kiérződik a jelenléte, mert jellegzetes illatot és ízt kölcsönöz a boroknak. Először fáradt ",
+      "óízt",
+      " (levegő- vagy darabízt) érezhetünk, vagyis a bor kezdi elveszíteni frissességét. Nagyobb mennyiségben vágott almára, égett kenyérhéjra emlékeztető jelleg alakul ki mind illatban, mind ízben. Fontos megemlíteni, hogy a borok kénezésével ez a vegyület kémiailag leköthető, a kénezés ",
+      "egyik hatása éppen az, hogy a kén-dioxid reakcióba lép az acetaldehiddel, és a fáradt, oxidált jelleget segít eltüntetni a borból. Más aldehidek csak nagyon kis mennyiségben fordulnak elő."
+    ],
+    [
+      ""
+    ],
+    [
+      "Az acetaldehid képlete – Levegőíz, darabíz, ",
+      "óíz"
+    ],
+    [],
+    [
+      "Észterek"
+    ],
+    [
+      "Az észterek intenzív illatú vegyületek, ezért fokozott jelentőséggel bírnak a bor érzékszervi tulajdonságait illetően. Észterek keletkeznek alkoholok és szerves savak reakciójából. A legfontosabb alkoholos összetevő érthető módon az etil-alkohol, valamint a magasabb rendű alkoholok is észtereződnek. Az ",
+      "észtereződésre",
+      " elsősorban az élesztő által legnagyobb mennyiségben képzett ecetsav esetében kerül sor. Az ecetsav etil-alkohollal alkotott észtere az etil-acetát minden esetben megtalálható a borokban, a normál minőségű borok 30–80 mg/l-t is tartalmazhatnak ebből a vegyületből. Ebben a mennyiségben hozzájárul az illatkomplexitás kialakításához, de kb. 100 mg/l érték felett szúrós, oldószer- és technocolszagúvá teszi a bort. "
+    ],
+    [
+      "Azokat az észter típusú vegyületeket, melyek főként kellemes ",
+      "illatukkal",
+      " és ízükkel segítenek kialakítani a borok érzékszervi tulajdonságait, összefoglaló néven ",
+      "gyümölcsésztereknek ",
+      "nevezzük."
+    ],
+    [
+      "Az 1. táblázatban megtalálhatóak a fontosabb magasabb rendű alkoholok és gyümölcsészterek az ízküszöbértékük és az illatjegyeik felsorolásával."
+    ],
+    [],
+    [
+      "Magasabb rendű alkoholok és észterek a borokban (mg/l), illatküszöbértékük a borban (mg/l), illatértékük és ",
+      "illatuk"
+    ],
+    [],
+    [
+      "Több észter keletkezik a tisztított mustokból erjesztett borok esetén és az alacsony erjedési hőmérsékleten. Ha az erjedés heves, az észterek egy része a CO",
+      "2",
+      "-dal együtt távozik az erjedő borból, ezáltal csökkentve az illatokat."
+    ],
+    [
+      "Terpénalkoholok"
+    ],
+    [
+      "Az ilyen jellegű vegyületek alakítják sok gyümölcs, fűszer, virág és egyéb növényi rész illatát és ízét. A borok terpénvegyületei a szőlőből származnak, a borok tulajdonképpeni illat- vagy ",
+      "aromaanyagai",
+      ". A muskotályos szőlőfajták például jól felismerhető vegyületeket tartalmaznak. Ezen fajták héjában találhatóak a következő vegyületek: ",
+      "linaool",
+      ", ",
+      "citronellol",
+      ", ",
+      "nerol",
+      ", ",
+      "geraniol",
+      ", melyeket a cefre áztatásával intenzívebben ki tudunk oldani a mustba. Hamar oxidálódnak, nehéz eredeti formában megőrizni őket."
+    ],
+    [
+      "Kénhidrogén és egyéb szerves kénvegyületek"
+    ],
+    [
+      "Kén-hidrogén"
+    ],
+    [
+      "Erősen mérgező gáz, a fehérjék bomlásterméke, záptojásra, gyógyvízre emlékeztető szagú. Nagyon kis mennyiségben megérezzük a jelenlétét. Erjedés közben keletkezik, ízküszöbértéke ",
+      "rendkívül alacsony. Az élesztők termelik elemi kénből, mely a szőlőről kerülhet a mustba a helytelen növényvédelmi munka következtében. Ha a szőlőt szüret előtt ",
+      "kéntartalmú",
+      " ",
+      "permetezőszererrel",
+      " kezelik, és nem várják ki a megfelelő várakozási időket, akkor jelenthet problémát. Abban az esetben is keletkezhet érezhető mennyiségben, ha az élesztők számára nem biztosítunk megfelelő ",
+      "nitrogéntartalmú",
+      " tápanyagot. Gyakran nevezik ezt az elváltozást ",
+      "Böckser",
+      "-íznek",
+      ",",
+      " más néven bakszagnak, mely elég gyakori, de szerencsére könnyen orvosolható. Borok harmonizálása során réz-szulfát vagy réz-",
+      "citrát",
+      " tartalmú szerekkel megszüntethető. Mindig próba harmonizálás végzendő a kezelőanyag gyártójának utasítása és a törvényi keretek betartása mellett!"
+    ],
+    [
+      "Szerves kénvegyületek"
+    ],
+    [
+      "Az etil-",
+      "merkaptán",
+      " hagymára, városi gázra, esetleg égett gumira, a metil-",
+      "merkaptán",
+      " pedig fokhagymára emlékeztető illat- és ízhibát okozó vegyület. "
+    ],
+    [
+      "Sok szőlőfajta, mint pl. a ",
+      "Sauvignon",
+      " ",
+      "blanc",
+      ", a Cabernet ",
+      "sauvignon",
+      " fajtajellégének kialakításában is ",
+      "kéntartalmú",
+      " vegyületek játszanak szerepet. "
+    ],
+    [
+      "Az újborban lévő, érzékszervi hatású anyagok összessége az egyes élesztőkre jellemző ",
+      "aromaprofilt",
+      " (19. ábra) eredményez. Ezek a törzsspecifikus különbségek azonban már egy évvel az erjesztés után nagyrészt kiegyenlítődnek."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Három, fehérbor előállítására alkalmas, kereskedelmi forgalomban kapható élesztő aromaprofiljának érzékszervi elemzése",
+      "  "
+    ],
+    [],
+    [
+      "Az ember akár 10 000 szagot is képes megkülönböztetni. Az emberi orrban körülbelül 1000 különböző szaglóreceptor található erre a célra. Ezek szagmegkötő fehérjék. Amint a receptorhoz való kötődés megtörtént, a kapcsolódó idegsejt elektromos jelet küld az agyba. Egy olyan összetett keverékben, mint a bor – amelyben eddig mintegy 1000 anyagot azonosítottak – nehéz konkrét illatanyagokat meghatározni, többek között azért, mert különböző szerkezetű anyagok is azonos illatúak lehetnek, valamint az agyban az illatérzékelés nagyon bonyolult mechanizmusok alapján megy végbe."
+    ],
+    [],
+    [
+      "Ásványi anyagok",
+      " "
+    ],
+    [
+      "A borok ásványianyag-tartalma főképp a szőlőből származik. A szőlő az őt nevelő talajból oldja ki ezeket az ionokat, vagyis alapvetően határozza meg a talaj minősége a bor ásványianyag-tartalmát. Kiváló (pl. vulkanikus alapkőzettel rendelkező területek, magas ",
+      "mésztartalmú",
+      " talajok, löszös talajok stb.) területekről származó borok egészen egyedi, ásványos karakterrel rendelkeznek, mely a minőség szempontjából lehet meghatározó."
+    ],
+    [
+      "Kationok"
+    ],
+    [
+      "Kálium -K",
+      "+",
+      " ion: a legfontosabb kation, egyrészt azért, mert ezt tartalmazza a bor a legnagyobb mennyiségben, másrészt a ",
+      "borkő",
+      "kiválás",
+      " miatt van gyakorlati jelentősége. A ",
+      "borkő",
+      " a borkősav savanyú kálium sója, kémiai nevén kálium-hidrogén-tartarát. A borkőstabilitás szempontjából tehát fontos a borban lévő káliumion mennyisége. A káliumion nagy része a szőlőből kerül át a borba, technológiai úton a borok kénezése esetén növekedhet a mennyisége, ha a kénezéshez a kálium-",
+      "piroszulfit",
+      " anyagot használja a borász. Magyarországon a borkő megjelenése komoly hibának számít a palackos borok esetén annak ellenére, hogy egy természetes és ártalmatlan, a bor minőségét hátrányosan nem befolyásoló kiválásról van szó. A borkőstabilizálási lehetőségekről a borkezelések fejezetben lesz szó bővebben. "
+    ],
+    [
+      "Kalcium -Ca",
+      "2+ ",
+      "ion: borkősavval alkotott sója rosszul oldódik a borban, ezért a kiváló kalcium-tartarát bosszúságot okozhat a palackozott borokban. A kalciumion a szőlőből kerül a borba, erjedés során csökken a mennyisége az előbb említett ",
+      "Ca",
+      "-tartarát",
+      " esetleges kiválása miatt. Különféle kezelőanyagokkal azonban mennyiségét lehet növelni is. Gondoljunk csak a savcsökkentésre használt adalékanyagra, melynek alapja a CaCO",
+      "3",
+      ". "
+    ],
+    [
+      "Vas-Fe",
+      "3+",
+      " ion: egy része a szőlőből kerül a borba, de technológiai úton is szennyeződhet a must és a bor. A bor készítése során számos olyan eszközzel, berendezéssel találkozhat, melyből oldhat ki vasionokat (pl. rozsda). Ezért a borok vastartalma nagyon tág határok között változhat. Komoly gondot tud okozni a vasion (Fe",
+      "3+",
+      "ion) jelenléte, mert fémes eredetű kiválásokat generálhat. Ilyen kiválás lehet a ",
+      "feketetörés és a fehértörés.",
+      " Az előbbi tanninnal alkotott fekete színű ",
+      "ferri-tannát",
+      " kiválást eredményez, az utóbbit pedig a fehér színű ",
+      "ferri",
+      "-foszfát okozza, mely a vasion és a foszfátionok kölcsönhatásából ered. Már kevés vasion jelenlétében is fémes íz érezhető, valamint egyes boroknál az egérízt is képes felerősíteni. Már említettük, hogy a citromsav képes a vasionok egy részét komplex vegyületformában oldatban tartani, tehát a kiválásoknak és a fémes íznek is elejét veheti, de súlyosabb esetben szükség ",
+      "lehet",
+      " az un.",
+      " kékderítésre",
+      ", melyet kizárólag a hatóság felügyelete mellett lehet elvégezni. A kékderítés során sárgavérlúgsót (kálim-",
+      "hexacianoferrát",
+      ") adunk a borhoz, gondos próbaderítést követően. A folyamat során a vas és a réz ionok oldhatatlan csapadék formájában kiválnak a borból. Visszaellenőrzés, derítés és szűrés után a bor felhasználható. Fontos megjegyezni ",
+      "azonban, hogy ez a módszer rendkívül környezetszennyező, hiszen a keletkező derítési alj veszélyes hulladékként kezelendő, mivel hidrogén-cianid szabadulhat fel a derítési ",
+      "aljbólMagát",
+      " a derítést, annak előkészületeit és visszaellenőrzését is kizárólag hatósági vizsgával rendelkező személy végezheti. Manapság csak elvétve használják, a régi, nagyüzemi berendezések rozsdás alkatrészei kiveszőben vannak a magyar borászati eszközparkból."
+    ],
+    [
+      "Réz-Cu",
+      "2+",
+      " ion: A mustok természetes rézion tartalma csak néhány tized mg/l, de akár a szőlőben helytelenül végzett növényvédelmi munkákkal, akár a szőlőfeldolgozás, a mustkezelés és a borkezelések közben is növelhető a mennyisége. A rézion az élesztők ",
+      "tevékénységét",
+      " gátolhatja is, tehát erjedési problémákhoz is vezethet. Ha erjedés után kerül a borba, akkor ",
+      "rezes töréseket",
+      " okozhat. A citromsav ebben az esetben is segíthet a probléma megoldásában."
+    ],
+    [
+      "Ólom-Pb",
+      "2+ ",
+      "ion: mérgező az emberi szervezet számára, ezért a borok ólomtartalmát maximálja a hatályos bortörvény. "
+    ],
+    [
+      "Anionok"
+    ],
+    [
+      "Szulfát-SO",
+      "4",
+      "2- ",
+      "ion: a borok szulfátion-tartalmának egy része a szőlőből származik, másik része pedig a kénezési technológia következménye. Minél több kénezőanyag kerül a borba, annál több lesz a szulfátion-tartalom, hiszen a kénessav a borban kénsavvá oxidálódik el. A kénsav a borban kizárólag kötött formában van jelen. Az 500 mg/l feletti szulfátion-tartalom sok kénezőszer használatára utal."
+    ],
+    [
+      "Foszfát-PO",
+      "4",
+      "3- ",
+      "ion: az imént említett fehértörés egyik okozója lehet, a mustok nagyobb mennyiségben tartalmaznak foszfátiont, mert az élesztők elhasználják egy részét. A foszfáttartalom a szőlőből kerül a mustba, illetve az élesztőknek szánt tápanyagokban is megtalálható."
+    ],
+    [
+      "Vitaminok"
+    ],
+    [
+      "A borokban nincsen számottevő vitamin. Zsírban oldható (F",
+      ",E",
+      ",D,A,K) egyáltalán, C is csak nyomokban. A must B-vitamintartalmának nagy részét az élesztők felhasználják az erjedés közben, igaz, az élesztők is képesek vitaminokat szintetizálni, de ezek mennyisége és jelentősége elhanyagolható borászati szempontból."
+    ],
+    [
+      ""
+    ],
+    [
+      "Ábrajegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "Táblajegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "Felhasznált irodalom"
+    ],
+    [
+      "Kállay Miklós: Borászati kémia.",
+      " Budapest, 2010,",
+      " Mezőgazda Kiadó",
+      "."
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Takács Edina"
+      ],
+      [
+        "Szakmai lektor:",
+        "Török Zita"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Élelmiszeripar"
+      ],
+      [
+        "Szakma:",
+        "Szőlész-borász"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Borászati technológia"
+      ],
+      [
+        "Tantárgy:",
+        "Erjesztés"
+      ],
+      [
+        "Évfolyam:",
+        "10. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "3 óra"
+      ]
+    ],
+    [
+      [
+        "",
+        "Koncentráció a borban ",
+        "Illatküszöb-érték borban",
+        "Illatérték \n(= koncentráció : szagküszöbérték)",
+        "Illat"
+      ],
+      [
+        "Metil-alkohol",
+        "13–269",
+        "500",
+        "0,03–0,54",
+        "Alkoholos"
+      ],
+      [
+        "1-propanol",
+        "11–72",
+        "500",
+        "0,02–0,14",
+        "Bódító"
+      ],
+      [
+        "2-metilpropanol (izobutanol)",
+        "15–174",
+        "500",
+        "0,03–0,35",
+        "Alkoholos"
+      ],
+      [
+        "1-butanol",
+        " 0–5",
+        "150",
+        "  0–0,03",
+        "Cefreszag"
+      ],
+      [
+        "3-metil-butanol",
+        "55–420",
+        "300",
+        "0,18–1,40",
+        "Marcipán"
+      ],
+      [
+        "Etil-acetát",
+        "11–343",
+        "150",
+        "0,07–2,20",
+        "Lakk, körömlakk"
+      ],
+      [
+        "Etil-hexanoát",
+        "0,1–1,0",
+        "  0,5",
+        " 0,2–2,0",
+        "Alma, banán"
+      ],
+      [
+        "Etil-oktaonát",
+        "0,1–1,6",
+        "  1,0",
+        " 0,1–1,6",
+        "Ananász, körte"
+      ],
+      [
+        "Etil-dekanoát",
+        " 0–0,6",
+        "  2,0",
+        "  0–0,3",
+        "Virágos"
+      ],
+      [
+        "Izoamil-acetát",
+        " 0,1–3,8",
+        "  1,0",
+        " 0,1–3,8",
+        "Banán, körte"
+      ],
+      [
+        "Fenil-acetát",
+        " 0–1,1",
+        "  3,0",
+        "  0–0,3",
+        "Rózsa, méz \nvirágos, gyümölcsös"
+      ]
+    ]
+  ],
+  "headers": [
+    ""
+  ],
+  "footers": [
+    ""
+  ],
+  "footnotes": [
+    "",
+    ""
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image15.jpeg",
+      "path": null,
+      "bytes": 7195
+    },
+    {
+      "name": "image16.PNG",
+      "path": null,
+      "bytes": 28367
+    },
+    {
+      "name": "image20.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image19.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image18.png",
+      "path": null,
+      "bytes": 41500
+    },
+    {
+      "name": "image17.png",
+      "path": null,
+      "bytes": 7510
+    },
+    {
+      "name": "image14.png",
+      "path": null,
+      "bytes": 6453
+    },
+    {
+      "name": "image3.jpg",
+      "path": null,
+      "bytes": 5806
+    },
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 27252
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 8664
+    },
+    {
+      "name": "image4.png",
+      "path": null,
+      "bytes": 36049
+    },
+    {
+      "name": "image6.png",
+      "path": null,
+      "bytes": 4273
+    },
+    {
+      "name": "image13.png",
+      "path": null,
+      "bytes": 547
+    },
+    {
+      "name": "image12.png",
+      "path": null,
+      "bytes": 3387
+    },
+    {
+      "name": "image5.jpeg",
+      "path": null,
+      "bytes": 5639
+    },
+    {
+      "name": "image11.png",
+      "path": null,
+      "bytes": 447
+    },
+    {
+      "name": "image9.jpeg",
+      "path": null,
+      "bytes": 19275
+    },
+    {
+      "name": "image10.png",
+      "path": null,
+      "bytes": 14025
+    },
+    {
+      "name": "image7.gif",
+      "path": null,
+      "bytes": 1765
+    },
+    {
+      "name": "image8.png",
+      "path": null,
+      "bytes": 11886
+    },
+    {
+      "name": "image18.emf",
+      "path": null,
+      "bytes": 1428
+    },
+    {
+      "name": "image2.emf",
+      "path": null,
+      "bytes": 196
+    },
+    {
+      "name": "image16.emf",
+      "path": null,
+      "bytes": 812
+    },
+    {
+      "name": "image23.emf",
+      "path": null,
+      "bytes": 1120
+    },
+    {
+      "name": "image20.emf",
+      "path": null,
+      "bytes": 2660
+    },
+    {
+      "name": "image19.emf",
+      "path": null,
+      "bytes": 2248
+    },
+    {
+      "name": "image17.emf",
+      "path": null,
+      "bytes": 504
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "Címsor 4 Char",
+    "Címsor 5 Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "Normal (Web)",
+    "annotation text",
+    "Jegyzetszöveg Char",
+    "Title",
+    "Cím Char",
+    "Subtitle",
+    "Alcím Char",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "Hyperlink",
+    "Feloldatlan megemlítés1",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Table Grid",
+    "11",
+    "9",
+    "Placeholder Text",
+    "Caption",
+    "bajusz_téglalap",
+    "bajusz_téglalap Char",
+    "ism_kérdések",
+    "ism_kérdések Char",
+    "Képaláírás Char",
+    "kérdés_számozva",
+    "kérdés_számozva Char",
+    "bajusz_pötty",
+    "bajusz_pötty Char",
+    "szituáció",
+    "fontos",
+    "fontos Char",
+    "toc 4",
+    "bajusz_kötőjel",
+    "betűkiemelés",
+    "List Paragraph",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "példa",
+    "példa Char",
+    "toc 5",
+    "toc 6",
+    "toc 7",
+    "toc 8",
+    "toc 9",
+    "[Nincs bekezdésstílus]",
+    "Revision",
+    "annotation reference",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "Symbol",
+    "Feloldatlan megemlítés2",
+    "FollowedHyperlink",
+    "table of figures",
+    "Unresolved Mention",
+    "SZK ábrajegyzék",
+    "SZK táblajegyzék",
+    "[Alapbekezdés]"
+  ]
+}

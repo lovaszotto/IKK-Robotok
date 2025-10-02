@@ -1,0 +1,2422 @@
+{
+  "core_properties": {
+    "creator": "Járóné  Kőházi-Kis Andrea",
+    "lastModifiedBy": "Soós Gabriella Brigitta (ELMS)",
+    "revision": "2",
+    "created": "2024-09-24T15:08:00Z",
+    "modified": "2024-09-24T15:08:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal",
+    "TotalTime": "1",
+    "Pages": "52",
+    "Words": "8944",
+    "Characters": "61718",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "514",
+    "Paragraphs": "141",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "70521",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.7.5  ",
+    "Élelmiszeripari technológiai alapok V. – Szűrés, préselés, robotok",
+    "Témák kézirata",
+    "Forrás: Lebensmitteltechnologie, Der Verlag Eugen Ulmer KG,  2021. ISBN 978-3-8252-5505-3\nAz eredeti könyv szerzői: Jochen Hamatschek",
+    "",
+    "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak.",
+    "",
+    "",
+    "",
+    "Anyagátalakulások extrakciós anyagok hozzáadása után",
+    "Az 1. táblázatban felsorolt nyersanyagok nagyon eltérő mennyiségben tartalmaznak fehérjéket, olajokat, szénhidrátokat és – különösen a gyümölcsök és zöldségek esetében – gyümölcs- vagy zöldséglé formájában kinyert antociánokot. Ez a lé az értékes cukrokat, sókat, savakat és aromaanyagokat oldott formában koncentrálja, és a dezintegráció-széteseés- után el kell választani a szilárd fázistól. Tényleges értelemben vett extrakció csak kis mértékben megy végbe e folyamat során, amikor a két fázis intenzív érintkezése révén molekulák szabadulnak fel a sejtszövetekből. Ennek a hatásnak különösen a színes levek vagy vörösborok esetében van szerepe, ahol a bogyós gyümölcsök héjában található antociánokat vagy a sárgarépában, sütőtökben található –ezekben van a legtöbb-karotint jelentős értékkel bíró összetevőként ki kell vonni.",
+    "A gabonanövények fő összetevőként fehérjéket és szénhidrátokat tartalmaznak, amelyek a héj és a csíra leválasztása után lisztként jelennek meg. Ha a fehérjét külön kell kivonni, ezt vizes extrakcióval (szilárd-folyadék extrakció) lehet elvégezni. Ugyanez vonatkozik a borsóból vagy hasonló nyersanyagokból történő fehérjekinyerésre is. A fehérjék vízben oldódnak, a végtermékhez kíméletes szárítási folyamat vezet. A szilárd-folyadék extrakciót többek között a kávébab-darálás és pörkölés utáni extrahálására, szárított tealevelek, komló, cukorrépaszelet, hús vagy csontok kioldására is használják.",
+    "Az alacsony víztartalmú olajnövényekből az olajtartalom első lépésben szelektíven, préseléssel vonható ki (mechanikus szilárd-folyadék szétválasztás). Ha a terméktől függően túl sok olaj marad a préspogácsában, az tovább extrahálható (kémiai szilárd-folyadék extrakció). Az étolajokat olajos magvakból, például repcéből vagy szójababból préseléssel és ezt követő oldószeres (hexán) extrakcióval nyerik ki. A technológia során nagy számban alkalmaznak szétválasztó műveleteket. Az étolajat az olaj és az oldószer keverékéből (a miszcellából) az oldószer lepárlásával nyerik ki.",
+    "A szuperkritikus oldószerekkel történő extrakció azt a tényt használja ki, hogy a gázok és folyadékok nagy nyomáson és hőmérsékleten olyan fizikai tulajdonságokat vesznek fel, amelyek nem felelnek meg sem a gáz, sem a folyadék tulajdonságainak. A szuperkritikus CO2-t élelmiszerekből származó kivonatok, pl. aromák, színezékek vagy összetevők fűszerekből, fűszernövényekből és természetes anyagokból való kinyerésére használják. Hasonlóképpen, egyedi tulajdonságaik alapján a nemkívánatos anyagok szelektíven kivonhatók és így eltávolíthatók az élelmiszerekből: pl. a koffein a kávébabból, a komlógyanta a komlóból, a nikotin a dohányból.",
+    "Egy extrahálandó anyag extrahálásában három anyag vesz részt: az extraktum (az extrahálható rész), a hordozóanyag és az oldószer. Például a kávé elkészítése, a kávébabból a forró víz extrahálja az ízeket, aromákat, koffeint.",
+    "Extraktum: a kávébabban lévő koffein, aroma, íz",
+    "Oldószer: víz",
+    "Hordozó anyag: kávébab, őrlés utáni pogácsa, esetleg kávézacc",
+    "Az alapelv egy kétfázisú rendszer összekeveréséből és szétválasztásából áll, azaz",
+    "az elválasztandó keverék összekeveréséből az extrahálószerrel, és minél nagyobb felület létrehozásából (pl. finom őrléssel),",
+    "intenzív anyagcseréből (pl. összekeverés révén) és",
+    "a keverék termikus vagy mechanikus fázisszétválasztásából extraktumra és raffinátumra, valamint az oldószermaradványoknak a szilárd anyagból történő visszanyeréséből.",
+    "Ha az extrahálószert és az extrahálandó anyagot összekeverik, akkor egy idő után koncentrációs egyensúly áll be az extrahálandó anyagban lévő extraktum és az extrahálószerben lévő extraktum között. Ez az egyensúly az egyes keverékekre jellemző mennyiség a megoszlási együtthatónak megfelelően:",
+    " = k",
+    "(c1 = az extraktum koncentrációja az extrahálószerben, c2 = az extraktum koncentrációja az extrahálandó anyagban, k = megoszlási együttható)",
+    "A megoszlási együttható az összes oldószer tulajdonságaitól függően várható arányt jelzi (pl. 75%-os extraktum 25%-os veszteséget jelent). A veszteséget a telített oldószer elválasztása után egy második és szükség esetén további extrakciós lépéssel lehet csökkenteni, minden esetben azonos arányban. Az extrakció minden lépésnél a csökkenő koncentrációgradiens irányában történő anyagátvitel. Az egyensúlynak a K együttható szerinti beállása egy időtényező, amelynek időtartama a termék és a folyamat paramétereitől függ. A legfontosabb folyamatparaméterek az őrlési fok az érintkezési felület mértékeként, valamint a folyamat hőmérséklete. A kioldódás végső soron egy anyag diffúziós folyamata a szilárd fázisból a folyékony fázisba. Az M tömegáram az alapegyenletből adódik:",
+    "",
+    "ahol β a fajlagos anyagátadási együttható, Δc pedig a folyadék telítettségi koncentrációja és a t idő után meglévő koncentráció közötti különbség. A β anyagátadási együtthatót általában kísérleti úton határozzák meg.",
+    "A szilárd-folyadék extrakciókon kívül alkalmaznak folyadék-folyadék extrakciókat is, amikor egy oldott anyagot egy folyékony extrahálószerrel vonnak ki annak oldószeréből, és az oldott anyag az extrahálószerbe kerül át. Ilyen például az aromaanyagok kivonása szerves oldószerekkel vagy cseppfolyósított CO2 -vel vizes oldatból. Ennek előfeltétele, hogy az extraktum oldhatósági szorzata a két oldószerben nagyon eltérő legyen, és így megfelelő oldódási egyensúly álljon be. A megoszlási törvény szerinti egyensúlyi viszonyok mellett a kivonás hozamának növelése érdekében a folyadék-folyadék extrakciók általában többlépcsős folyamatok, amelyek lehetnek ellenáramúak vagy egyenáramúak. Az oldószernek és az extrahálószernek a lehető legnagyobb mértékben különbözniük kell polaritásukban és sűrűségükben, hogy megkönnyítsék a fázisszétválasztást, és egymásban nem oldódhatnak.",
+    " Mechanikai SZÉTválasztási technikák a hasznos anyagok kinyerésére",
+    "A hasznos anyagok kinyerése során a fázisszétválasztás többnyire a mechanikai szétválasztási technikákra korlátozódik.",
+    "A folyamatok osztályozása az elválasztandó fázisok halmazállapota alapján történik, és azok fizikai-kémiai szerkezete szerint osztják tovább őket:",
+    "Elválasztás különböző halmazállapotok alapján",
+    "Szilárd-szilárd elválasztások, pl. gabonanövények vagy hús esetében (kézi csontozás, zsír levágása, szélszitálás, frakcionálás, héjazás és a héjak elkülönítése).",
+    "Szilárd-folyadék szétválasztások, pl. gyümölcslégyártás vagy tejtisztítás (szűrés, centrifugálás, préselés, ülepítés).",
+    "Folyadék-folyadék elválasztások, pl. az olajok extrakció utáni derítése (ülepítés, centrifugálás, membrántechnikák).",
+    "Szilárd-folyadék-folyadék elválasztások, pl. olívaolaj-kivonás vagy a nyers tej lefölözése és egyidejű tisztítása (centrifugálás, több technikából álló hibrid eljárás).",
+    "Elválasztás az anyagok fizikai-kémiai tulajdonságai alapján",
+    "Fázisszétválasztás különböző részecskeméretek alapján (szűrőrendszerek, beleértve a préseket is).",
+    "Fázisszétválasztás különböző sűrűségek alapján (gravitációs rendszerek, például ülepítés, ciklonos elválasztás vagy centrifugálás).",
+    "Fázisszétválasztás a töltéskülönbségek vagy az oldat eltérő viselkedése alapján (olyan membránfolyamatoknál, mint a nanoszűrés, a pervaporáció vagy a fordított ozmózis (reverz ozmózis).",
+    "Fázisszétválasztás a részecskék eltérő felületi nedvesíthetősége alapján (flotálás). Ez a gázbuborékok azon tulajdonságát használja ki, hogy könnyen megtapadnak a hidrofób felületeken, azaz a vízzel nehezen nedvesíthető felületeken, és a részecskéknek felhajtóerőt kölcsönöznek.",
+    "1. táblázat: Folyadékok, mint diszpergált rendszerek.",
+    "Az 1. táblázat a folyadékokat diszperz rendszerként írja le, és a diszperz fázisban oldott részecskéket részecskeméretüktől függően jellemzi.",
+    "A durva diszperz rendszerekben szétoszlatott részecskék általában határozott részecskeszerkezettel rendelkeznek, nem nagyon deformálhatók, viszonylag nehezek és nagyok. A legegyszerűbb esetben a kellő ülepedési idő elegendő az elválasztásukhoz. A centrifugálás vagy szűrés felgyorsíthatja a folyamatot, de nem feltétlenül ad jobb eredményt. A valódi oldatok oldott anyagainak viszont – jellemző vagy értékmeghatározó anyagként – túlnyomórészt a folyadékban (gyümölcslé, bor, sör) kell maradniuk. Ezek közé tartoznak az aromaanyagok, cukrok, savak, fenolok, nitrogénvegyületek, fehérjék, poliszacharidok, etanol, emulgeálószerek stb.",
+    "A kolloidok részecskemérete egy nanométer és egy mikrométer között van. A nagy spektrum miatt megkülönböztetnek nagymolekuláris és kismolekuláris diszperziót. Az átmenet mind a durván diszpergált részecskék, mind az ionok formájában az oldott anyagok irányában folytonos. A derítés fő hatása a kolloidok területén jelentkezik. Itt találhatók a körülbelül 0,5 µm (mikrométer a milliméter ezred része) nagyságú tejsavbaktériumok, a növényi szövetekből vagy penészgombákból származó makromolekulák, de számos átalakulási reakció polimerjei is.",
+    "",
+    "1. ábra: A mechanikus elválasztási technika alkalmazási területei (NF = nanoszűrés; UF = ultraszűrés; RO = fordított ozmózis; REM = pásztázó elektronmikroszkóp; szilika szol = szilícium-dioxid tartalmú folyadék)",
+    "A diszperz fázissal szembeni sűrűségkülönbség hiányában a kolloidok nem ülepednek le, hanem a Brown-féle molekuláris mozgás lebegésben tartja őket. Még a centrifugák sem képesek elválasztani őket, a szűrők hajlamosak gyorsan eltömődni. Az 1. ábra áttekintést ad a szilárd-folyadék szétválasztás során elválasztandó részecskék méretéről, és megnevezi az alkalmazható technikákat. Az 1 µm-nél nagyobb részecskék elválasztására számos technika áll rendelkezésre. A baktériumok megbízható elválasztásához membrán- vagy lapszűrők alkalmazására van szükség. Elvileg minden technika képes a kristályok elválasztására, de az általuk okozott erózió kritikus lehet. A kolloidok biztonságos dúsítására a mikroszűrés és az ultraszűrés a legalkalmasabb módszerek. Az 1-es ábrában felsorolt szétválasztó berendezések közül csak a szeparátor és a dekanter működik folyamatosan. Az olaj és víz folyadék-folyadék elválasztásakor az olajcseppek mérete és a vízhez viszonyított sűrűségkülönbségük döntő szerepet játszik az elválasztási folyamatban.",
+    "Szűrőrendszerek és prések szilárd-folyadék szétválasztásához",
+    "A szűrés a szuszpenziók (olyan kolloid oldat, amelyben szilárd anyagot oszlatnak szét folyékony oldószerben) mechanikus elválasztása egy szűrőközeg (áteresztő réteg) segítségével. A szilárd anyagtól megszabadított folyadékot szűrletnek nevezik, a szűrőközegen visszamaradó szilárd anyag pedig szűrőpogácsát képez annak tetején. Az élelmiszer-előállításhoz használt szűrőrendszerek rendkívül változatosak. A derítő szűrések alapvetően három működési elv alapján különböztethetők meg:",
+    "felületi vagy szitaszűrés statikus vagy dinamikus kivitelben (membránszűrő vagy „cross flow” szűrő)",
+    "mélyágyas szűrés, pl. rétegszűrőkön keresztül",
+    "pogácsaszűrés (ráiszapoló szűrés) állandó, csökkenő vagy növekvő rétegű változatban",
+    "Felületi vagy szitaszűrés",
+    "A felületi vagy szitaszűrésnél a seprőrészecskéket egy olyan gát tartja vissza, amelynek pórusai kisebbek, mint a részecskék átmérője. A membrán, mint tulajdonképpeni gát általában nagyon vékony, anyagtól és gyártótól függően 50–200 µm vastagságú. Alatta egy többszintes, durva pórusú, saját szűrőhatás nélküli tartószövet található. A membránok polimerekből (műanyag membránok) vagy szilícium- vagy titán-oxidokból (kerámia membránok) készült többrétegű szövetből állnak, a felületükön repedezettek, és inkább hasonlítanak egy háromdimenziós, szivacsszerkezetű „mélyszövetre”, mint egy sima, meghatározott pórusokkal rendelkező felületre.  A 0,45 µm-es membránnak biztosítania kell, hogy minden nagyobb részecske visszamaradjon, tehát a 0,45 mikrométernél nagyobb részecskék elzárják a pórusokat, ezért a kisebb részecskék sem jutnak át, fennakadnak. A szűrési idő alatt felhalmozódó szűrőpogácsa növeli az áramlási ellenállást és csökkenti a szűrletáramlást (fluxus l/m2h-ban). Ha a membránfelület és a szűrési irány merőleges egymásra, akkor statikus vagy „dead end”szűrésről beszélünk.",
+    "A „cross flow” szűrők olyan membránszűrők, ahol a vékony membrán hosszú kerámia- vagy polimercsövek („spagettik vagy makarónik”) belső falán található. A szuszpenziót nagy áramlási sebességgel, a membrán felületével párhuzamosan vezetik át ezeken a csöveken. A rendszer minden irányban ható nyomása miatt egy részmennyiség szűrletként (permeátumként) áthalad a membránon. A fő áramlás, a retentátum (koncentrátum vagy sűrítmény) körforgásban van vezetve („cross flow”). A szűrőfelülettel párhuzamos áramlású szűrést dinamikus szűrésnek nevezik. A seprőanyagok kezdetben lerakódnak a membrán felületén, a statikus szűrés analógiájára (ahhoz hasonlóan).",
+    "A nagy dinamikus beáramlás turbulens (gomolygó, örvénylő) áramlást hoz létre. Ez folyamatosan eltávolítja a szűrőpogácsát, és annak tartalmát visszavezeti a retentátumba. Tehát a sűrítmény fokozatosan dúsul a seprőanyagokkal, ami csökkenti a szűrletáramlást. A szűrőpogácsa növekedésével a szűréshez szükséges nyomás növekszik, ha a permeátumáramlás állandó marad. Alternatív (választható) megoldásként a permeátumáramlás állandó bemeneti nyomás mellett csökken. A 2. ábra a statikus és a dinamikus szűrést hasonlítja össze.",
+    "",
+    "2. ábra: A statikus és dinamikus szűrés összehasonlítása",
+    "A 3. ábra a szitaszűrési gyakorlatban használt különböző elemeket mutatja.",
+    "",
+    "3. ábra: Felület (1), elemek (2), modulok (3) és berendezés (4) mint a membránszűrés részei",
+    "„Dead end” membránszűrő: A 3. ábra jobb felső részén három, összehajtogatott (pliszírozott) polimer membránból készült szűrőgyertya látható, amelyeket a „dead end” steril szűréshez zárt házakba helyeznek. A membránvastagságuk nagyon alacsony, < 200 µm, akárcsak a seprőfelvevő kapacitásuk. Használatuk előfeltétele az éles előszűrés. A membránszűrők csak a szétszórt részecskék biztonsági szűrőjeként működhetnek. A seprőanyagok főként a felszínen maradnak vissza, a baktériumok vagy kolloidok gyakran behatolnak. A biztosan élesztőmentes szűréshez 0,65 µm pórusméretű szűrőanyagokat kell használni. Az élelmiszeriparban gyakran előforduló baktériumok még kisebb, 0,45 µm-es porozitást igényelnek. Ha a vírusokat is vissza kell tartani, < 0,1 µm-re van szükség.",
+    "A steril szűrőnek szánt rendszer hatékonyságának és eredményességének minőségi mérőszáma a csírák visszatartása, LRV-ben („Logarithmic Bacteria Retention Value”) kifejezve. A steril szűrésnél hetes redukciós értéket írnak elő, azaz a csíraszám hét tízes hatvánnyal való csökkentését. A 108 csíra/ml bemeneti értéket 101-re kell csökkenteni.",
+    "„Cross flow” rendszerek: A kerámia membrán felülnézetéből a 4. ábrán (1.balra fent) látható, hogy a pórusok különböző méretűek, és csak a mélyben biztosítják a meghatározott részecskeméretek visszatartását. Ha a hatékony membrán vastagsága 50 µm, akkor a pl. 0,5 µm átmérőjű baktériumoknak egy olyan úton kell átáramolniuk, amely átmérőjük 100-szorosának felel meg. A 4. ábra alapján érthető, hogy a membránszűrők bizonyos mértékig mélyszűrők is. Ezt a hatást felerősíti a fedőréteg.",
+    "A kerámia vagy polimer membránokat (4. ábra, balra lent, a kerámia példáján) házakban kombinálják, hogy olyan modulokat alkossanak, amelyeken az áramlás hosszirányban halad át. A bal alsó ábra (4. ábra) az arányokat egy kerámiaelem példáján mutatja be. A nyomásveszteség, azaz a membrán előtti keringési nyomás és a szűrlet gáton való áthaladás utáni nyomása közötti különbség a transzmembránnyomás (TMP). Minél alacsonyabb, annál kedvezőbb a szűrés. A TMP-t a szűrőréteg vastagsága, de annak tulajdonságai is meghatározzák. A nyálkás anyagok hajlamosak tömörödni, a felső réteg ilyenkor szinte áthatolhatatlan. A nagy nyomás további szivattyúenergiát igényel a felhordáshoz, és megvastagítja a fedőréteget. A gyakorlatban a szűrés 2 bar feletti TMP-nél leáll. A jobb alsó képen (4.ábra) egy hat modulból, egy nagy keringető szivattyúból és egy csatlakoztatott hűtőből álló rendszer látható, amelynek el kell vezetnie a hővé alakított energiát. A kis tápszivattyú pótolja a munkatartályból a kiürült permeátummennyiséget.",
+    "A membránok pórusméretei (4. ábra, középen felül) különböző dinamikus szűrőrendszereket határoznak meg: megkülönböztethető mikro-, ultra- és nanoszűrés, valamint fordított ozmózis (reverz ozmiózis). A membrán elválasztási vagy kizárási határát („cut off”) „Nominal Molecular Weight Cut off” -ként (NMWC; mértékegysége: dalton) adják meg. Egy dalton körülbelül a hidrogén tömegének felel meg. A 100 000 Dalton NMWC-vel rendelkező ultraszűrőmembrán tehát visszatartja a 100 000-nél nagyobb molekulatömegű anyagokat. A durva pórusú mikroszűrés és ultraszűrés a részecskéket egy gát segítségével blokkolja, míg a nanoszűrés és a fordított ozmózis az elválasztandó részecskéknek a membránon keresztül történő oldatdiffúziója révén „szűr”. A molekulákat a membránon és a membránban lévő folyadék feloldja, és átdiffundálnak rajta. A 6.6. ábra az említett rendszerek folyamatparamétereit mutatja.",
+    "A fordított ozmózis („reverse osmosis”, RO) többek között tengervíz sótalanítására használható. A víz kivételével gyakorlatilag minden molekula visszamarad. A fordított ozmózis a biológiában széles körben alkalmazott ozmózis elvét használja, de nagy nyomás alkalmazásával megfordítja az irányt. A biológiai sejtekben a víz a sejtmembránon keresztül egy alacsony koncentrációjú oldatból egy magasabb koncentrációjúba áramlik át. A cél a koncentráció kiegyenlítése. Az eredetileg magasabb koncentrációjú területen ekkor több folyadék lesz, a nyomása megnő. A növekedés az ozmotikus nyomás. A műszaki területen a magasabb koncentrációjú oldatot pl. a tengervizet, nagy nyomás alá helyezik. Ekkor tiszta, sótalanított víz áramlik át a félig áteresztő RO-membránon. A retentátum tovább koncentrálódik, amíg az ekkor szükséges, még magasabb üzemi nyomás le nem állítja a folyamatot. Az RO esetében is szükség van „cross flow”-ra. Ha a fordított ozmózis membrán kimeneténél lezárják a nagynyomású szelepet, a folyadékban lévő nyomás megnő. Amint a folyadék nyomása nagyobb, mint a szűrendő termék ozmotikus nyomása, a víz átjut a membránon.",
+    "",
+    "4. ábra: A mikro-, ultra- és nanoszűrés, valamint a fordított ozmózis folyamatparaméterei",
+    "A membráneljárások közé tartoznak más rendszerek is, amelyeket diffúziós elválasztási eljárásoknak is neveznek: dialízis, elektrodialízis(vízben oldott ionok szétválasztására használt eljárás elektromos mező segítségével) és pervaporáció. A dialízis egy koncentrációvezérelt membránfolyamat, amely segít eltávolítani az ionokat vagy kis molekulákat, például sókat vagy cukrokat az oldatokból, miközben a nagy molekulákat (fehérjéket vagy szénhidrátokat) visszatartja. A hajtóerő a koncentrációkülönbség, amely biztosítja a diffúziót egy féligáteresztő membránon keresztül. A membrán egyik oldalán a tiszta oldószer, a másikon az oldat van. Csak az kis molekulájú komponensek diffundálnak át a membránon az oldószerbe Ez az eljárás például a kálium és a borkősav borból történő elválasztására használható, stabilizálva azt a borkő palackban történő kicsapódása ellen.",
+    "A pervaporációhoz megfelelő, nagyon sűrű membránra van szükség, amelyen keresztül az elválasztandó anyag fizikai-kémiai tulajdonságai miatt sokkal jobban tud diffundálni, mint az oldószer. A bor alkoholmentesítése során a víz az oldószer, az etanol pedig az elválasztandó anyag, amelynek át kell diffundálnia a membránon, és a membránon áthatolva annak hátoldalán el kell párolognia. Az alkoholgőzt ezután permeátumként leszívják és külső helyen kondenzálják. A membrán belső oldalán visszamarad az alkoholszegény bor. Az etanol jobban behatol a membránba, és a membrán belső felületén adszorbeálódik, vagy a membrán teljes anyagában feloldódik. A membrán külső oldala felé haladva az alkohol koncentrációja csökken, mivel a membrán felületén elpárolog, és folyamatosan elszívódik a szállító gáz (pl. nitrogén) segítségével. Az etanol membránon keresztüli diffúziójának hajtóereje a membrán keresztmetszetén áthaladó koncentrációgradiens.",
+    "",
+    "5. ábra: Koncentrációs polarizáció (szétválasztás) a membrán felszínén",
+    "„Membranfouling” (fedőréteg kialakulása): A „cross flow” membráneljárások fedőréteg-orientált eljárások.A membránokon kialakuló lerakódások, szennyeződéseket jelenti a fedőréteg, ami csökkenti a membrán hatékonyságát. Ez a fedőréteg kialakulása a membrán mikropórusaiban vagy felszínén történhet.",
+    "Az 5. ábra bemutatja a helyzetet egy membrán felületén. A membrán egyik oldalán nő a koncentráció, mivel a szűrt anyag felhalmozódik a membrán felületén. Ez csökkenti a membrán átesztőképességét és hatékonyságát. Csökken az áthaladás a membránon, és a hetékonyság is. Permeátum fluxus, az az anyag vagy folyadék, amely egy membránon kersztül átjut egy adott területen időegység alatt. Minél nagyobb a permeátum fluxus, annál gyorsabban áramlik át az anyag a membránon.",
+    "Mélyágyas szűrés",
+    "Mélyágyas szűrés olyan szűrési eljárás, amely mélyebb rétegeket is átfog a szűrőanyagban. pl. légszűrésnél használják.",
+    "A mélyágyas szűrőrendszerekre példák a rétegszűrők és a mélyágyas hatású szűrőmodulok. Mindkét esetben a gát, amely a seprőanyagokat hivatott visszatartani, egy több milliméter vastag, labirintusszerűen felépülő, sűrű, háromdimenziós szövet, amelynek pórusai a tér mélyére hatolva egyre szűkülnek. Üregtérfogatuk 70–80%-os is lehet, ami által nagy seprőtároló kapacitással rendelkeznek. A részecskék visszatartásának különböző módjait a 6. ábra a-d. illusztrációi mutatják. A gyakorlatban az összes mechanizmus általában egyszerre, különböző arányban fordul elő.",
+    "A megfelelő méretű, nem összenyomható, stabil alakú részecskék már a felületen lerakódnak, és szűrőpogácsát alkotnak (6. a. ábra). Ez fokozatosan csökkenti a szűrő teljesítményét, míg végül az ellenállása eléri a bemeneti nyomás mértékét, és a szűrés legkésőbb ekkor leáll. Ilyen körülmények uralkodnak homok, por vagy élesztősejtek szűrése során.",
+    "A hidrokolloidok elválasztását a 6. b. ábra mutatja. Ezek a részecskék összenyomhatóak, deformálhatóak, és képesek részben behatolni a pórusokba, és azokat parafadugóhoz hasonlóan lezárni. A megfelelő koncentráció esetén a szűrő nagyon gyorsan megtelik, megnehezíti a szűrést.",
+    "",
+    "6. ábra: Részecskevisszatartás mélyágyas szűrők segítségével",
+    "A 6. c. ábra azt a helyzetet tükrözi, amikor a kis részecskék megrekednek a szűkülő pórusokban. A kisebb mikroorganizmusokat gyakran választják el ilyen módon, de a kolloidokat is.",
+    "Eddig az elválasztás mechanikusan történik. A 6. d. ábra a részecskék abszorpciós lerakódását mutatja a szűrőelemeken elektrokinetikus erők (elektromos töltések mozgására ható erők) segítségével.",
+    "Szűrési egyenlet: A szuszpenziók szűrésének kezdeti lefolyását kellő pontossággal írja le a szűrési egyenlet. Az r x w szorzat jellemzi a seprőanyag mennyiségét és a belőle képződött szűrőpogácsa tulajdonságait. Ez a szűrőpogácsa megnehezíti a szűrést, és a szűrő rétegvastagsága megnő. A gyakorlatban a szűrések során a megfelelő jelleggörbékkel rendelkező szivattyúk hosszú ideig állandó értéken tartják az áramlást, de a p szűrési nyomás a szűrő telítettségének növekedésével nő. A szűrés élességének mértékétől függően a maximálisan megengedett szűrési nyomás a korlátozó tényező. Ha viszont a p nyomást állandó értéken tartják, az áramlás a szűrőpogácsa növekedésével csökken.",
+    "",
+    "Szűrési egyenlet; A = szűrőfelület, Éta (η) = a szuszpenzió viszkozitása, r = a seprőanyag specifikus tulajdonsága, w = a seprőanyag mennyisége, p = szűrési nyomás, q = átáramlás (fluxus), dt/dq = reciprok szűrletáramlás (fluxus egységnyi idő alatt), Rm = a szűrőréteg specifikus tulajdonsága.",
+    "Változatlan viszkozitás, adott A szűrőfelület és a seprőanyag állandó tulajdonságai mellett a szűrési egyenlet a következőkre egyszerűsödik:",
+    "",
+    "Szűrési egyenlet állandó körülmények mellett; a = a szűrési egyenes meredeksége, b = a szűrési egyenes metszéspontja az ordinátán.",
+    "A gyakorlatban két különböző rendszert használnak:",
+    "mélyágyas szűrőrétegekkel rendelkező szűrő nyitott rendszerben",
+    "moduláris kialakítású mélyágyas szűrőrétegekkel rendelkező szűrő zárt rendszerben.",
+    "A nyitott rendszerekben a szűrőlemezeket kézzel behelyezik egy keretbe. A szuszpenzió egyenletesen eloszlik az üreges szűrőlemezekben, átfolyik a szűrőelemeken, és szűrletként középen összegyűlik. A modulszűrők korongokkal vagy gyertyákkal szerelhetők fel. Ezekben a rendszerekben a szűrés általában kívülről befelé halad. A szűrlet elvezetése központilag történik. A mélyágyas szűrőrétegekkel ellátott modulszűrők úgy működnek, mint a nyitott szűrőrétegek. Két egymás fölött elhelyezett kerek szűrőkorong egy-egy közbülső vízelvezető és tartólemezzel összekötve moduláris szűrőcellát alkot, amely a külső szélén körbefutó fröccsöntéssel van lezárva. Több ilyen szűrőcella – távtartókkal kissé elválasztva és kompakt módon egymásra helyezve – be van építve egy hermetikusan lezárt házba. A szűrő cseppmentes, viszonylag kis keveredési zónával rendelkezik, és a nyitott rendszerekhez képest sokkal higiénikusabb. A 7. ábra bemutatja a különböző rendszereket és a hozzájuk tartozó szűrőelemeket.",
+    "",
+    "7. ábra: Lapszűrők (bal oldal-fent) és moduláris mélyágyas(jobbra) szűrők a megfelelő szűrőházakkal",
+    "Mint minden mélyágyas szűrő, a modulok is viszonylag nagy seprőfelvételi kapacitással rendelkeznek. A visszaöblítés a kimenettől a bemenet felé vízzel történik. A modulok függőlegesen egymásra építhetők, és a nyitott lapszűrőkhöz képest kis helyet igényelnek. A gyártó utasításainak megfelelő használat, visszamosás és sterilizálás után bármikor használatra készek. A nyitott szűrőtartozékokat viszont higiéniai okokból legalább hetente ki kell dobni.",
+    "Ráiszapoló szűrés",
+    "Ráiszapoló szűrés esetén a derítés – szűrőközegként kovaföldet, perlitet vagy cellulózt alkalmazva – olyan szűrőelemekben történik, amelyekre a szűrőközeget és a derítendő szuszpenziót együttesen viszik fel.",
+    "Ezt a szűrési technikát a folyamatosan növekvő szűrőréteg jellemzi. Ezzel szemben a forgó vákuumszűrővel történő szűrés során ez csökken. A réteg állandó marad, pl. kamrás szűrőkben, ha nincs további szűrőközeg adagolás. Az ilyen szűrőrendszereket ma is használják az italgyártásban, de a folyékony közeggel extrahált termékek (zselatin, pektin, fehérje stb.) szűrésére is. Tekintettel a szakaszos üzemmódra és a szűrőközeg ökológiai problémájára, alternatívaként egyre gyakrabban alkalmaznak „cross flow” szűrőket vagy centrifugákat. A 8. ábra a ráiszapolás elvén alapuló szűrőrendszerek különböző működési típusait mutatja be.",
+    "",
+    "8. ábra: A legfontosabb ráiszapoló szűrők elvi funkciója az élelmiszer-technológiában; \n1 = forgó vákuumszűrő; \n2 = kamrás szűrő;\n3 = diatómaföld (üledékes kőzet) szűrők derítőelemei; \n4 = egy vízszintesen szűrő diatómaföld szűrő alsó elemei.",
+    "A préselés speciális esete",
+    "A szuszpenziók kipréselése, a szűréshez hasonlóan, szilárd-folyadék szétválasztás. Az erre a célra használt berendezéseket ezért a folyamattechnikában általában szűrőpréseknek nevezik. A hajtóerő a szuszpenzió és a távozó folyadék nyomása közötti különbség. A 9. ábra a szuszpenzió kipréselésének elvét mutatja be. A szilárd anyagok szűrőpogácsát képeznek, a szabad folyadék pedig utat keres a szövet kapillárisain keresztül, és szitalemezeken vagy más porózus szerkezeteken keresztül távozik a présből.",
+    "",
+    "9. ábra: Szituáció statikus léelvezetés és nyomással történő kipréselés esetén (sötét színű: szabad folyadék a részben kiürült sejtek között).",
+    "A szakaszosan működő prések a nyomást pneumatikusan gázzal (tartályos prések, csőprések), hidraulikusan folyadékkal (orsós prések) vagy mechanikusan egy mozgatható alapra nyomó csavarral (kosaras prések, csigás prések) fejtik ki.",
+    "A 10. ábra három, az élelmiszer-technológiában gyakran használt préselési rendszert mutat be. Egy negyedik változat lehet a kamrás szűrőprés.pl. borászat",
+    "A durva szilárd anyagok (sörlé, szőlőtörköly, a bor- vagy gyümölcslé-ágazatban feldolgozott seprő) esetében szűrőközeg nélkül is lehet dolgozni. A tankprések a legkorszerűbbek a bogyós gyümölcsök lepréseléséhez, a csigás prések pedig a magvak (repce, szója stb.) feldolgozásához. A szalagprések nagy teljesítmény esetén előnyösek és akkor, ha gyakori tételcserékre van szükség.",
+    "",
+    "10. ábra: 1 = tankprés; 2 = impulzusos csigaprés; 3 = szalagprés",
+    "Szuszpenziók és emulziók szétválasztására szolgáló gravitációs rendszerek",
+    "Ha a nyomáskülönbséget használják a fázisszétválasztás hajtóerejeként, csak kétfázisú szilárd-folyadék rendszerek deríthetők. A gravitáció, mint hajtóerő szintén képes az emulziók szétválasztására – beleértve a további szilárd tartalmat is. Az emulziók két nem keverhető folyadékból állnak, amelyek közül az egyik cseppek formájában finoman eloszlott. A legjobb példák a nyers tej vagy a savó, amelyek domináns vízfázist, kevesebb mint 4% zsírt és nyomokban durván diszpergált szilárd anyagokat tartalmaznak. Erre példa még: majonéz, vaj.Ezzel szemben a sajtolással nyert étolajok főként olajfázisból állnak, amely szilárd fázisként víz és növényi szövetdarabokat tartalmaz. A gravitációs elválasztás előfeltétele a két vagy három fázis közötti sűrűségkülönbség és a 0,5–1 µm feletti részecskeméret. Az élelmiszer-technológiában a következő gravitációs rendszereket használják:",
+    "ülepítés a gravitáció hatására",
+    "centrifugálás ülepítő centrifugákkal, amelyekben a forgó rendszerek a gravitációs erő többszörösét hozzák létre",
+    "hidrociklonok, mint egyfajta centrifugák forgó folyadékkal és rögzített házzal (csak szilárd-folyadék szétválasztásra alkalmasak)",
+    "flotálás, mint speciális eljárás, amely a részecskék eltérő nedvesíthetőségét használja ki, és a gravitáció ellenében egy húzógáz segítségével felfelé szállítja a seprőanyagokat",
+    "A 11. ábra összehasonlítja az ülepítés és a centrifugálás folyamatait. A felhajtóerő és a gravitációs erő ellentétes irányban hat a részecskékre az ülepítés során, és mindkettőt a folyadék viszkozitása (belső súrlódása), a sűrűségkülönbség és a részecskeméret határozza meg. Az alacsony hőmérséklet növeli a folyadék viszkozitását és az ülepedés ellen hat. Ugyanez vonatkozik a magas tartályok hosszú ülepedési távolságaira is. A seprőanyagoknak több időre van szükségük ahhoz, hogy elérjék a tartály alját. A tartályban koncentrációgradiens jön létre, az aktuális derítési fok (derítés hatékonyságát-eredményét adja meg) meghatározásához különböző magasságokból kell mintákat venni és átlagolni kell őket. Végül az alsó részen a seprőanyag lassan tömör seprővé sűrűsödik.",
+    "",
+    "11. ábra: A szilárd-folyadék szétválasztás elvei ülepítéssel vagy centrifugálással",
+    "A centrifugában a Föld gravitációs mezejét megtöbbszörözi a forgó test (a centrifuga dobjának) centrifugális ereje. Az, hogy ez a Föld gravitációs terének hányszorosa, a dob r sugarától és szögsebességétől függ. A nagy centrifugák – pl. a tej fölözésére vagy étolaj finomítására szolgáló centrifugák – több mint egy méteres dobátmérővel és 200 m/s-nál nagyobb kerületi sebességgel működnek.",
+    "Az élelmiszer-technológiában a nagyszámú centrifuga közül főként kétféle centrifugát használnak: a dekantereket és a szeparátorokat. A 12. ábra ezen eszközök keresztmetszeti nézeteit mutatja.",
+    "Szeparátor: A derítendő szuszpenzió egy bemeneti csövön keresztül jut be a forgó dobba.",
+    "Ott a lehető legkíméletesebben felgyorsítják a forgási sebességre, kifelé irányítják a dob perifériája felé, és a szeparátor tányérok között kialakuló egyedi szeparáló terekben vékony rétegekre osztják. A tányérok összessége alkotja a tányérköteget.",
+    "A részecskék a rájuk ható centrifugális erő miatt sugárirányban kifelé lökődnek, miközben a kisebb sűrűségű folyadék tovább áramlik a dob közepe felé.",
+    "A szeparátor felső részén található két tányéron keresztül távoznak a szétválasztott frakciók.",
+    "A szuszpenzió teljes tartózkodási ideje a dobban kevesebb, mint fél perc, és így csak töredéke az átfolyó ülepítő medencében töltött időnek. A nagy sűrűségű részecskék gyorsan elválasztódnak, a kis, könnyű részecskék esetleg egyáltalán nem. Ezek a medencét vagy a tányérrést a „tiszta fázissal” együtt hagyják el.",
+    "A tányérrésben a mozgásuk a radiális (sugár irányú) centrifugális gyorsulás és a folyadékáramlás húzó mozgásának eredménye. Minél keskenyebb az egyedi szeparáló tér, annál rövidebb az ülepedési távolság és annál hatékonyabb az elválasztás. A modern szeparátorok több mint 200 tányért tartalmazó tányérköteggel és 0,5 mm-es vagy annál kisebb tányértávolsággal rendelkeznek.",
+    "",
+    "12. ábra: Egy szeparátor és egy dekanter, valamint egy dob metszeti nézete",
+    "A legnagyobb sűrűségű szilárd anyag összefüggő rétegben, a szilárdanyag-térben összegyűlik, és onnan időszakosan kiürül. A szeparátorok ezért a szilárd fázis tekintetében szakaszosan működnek, de a folyadék tekintetében folytonosak. A centrifuga méretétől függően a seprőfelvevő kapacitás 2 és 45 liter között van. Az ürítéshez a forgó dob falának peremén lévő lyukakat – a dob hidraulikája által vezérelve – a másodperc tört részére meg kell nyitni, hogy a szilárd anyagok robbanásszerűen kilőhessenek rajtuk keresztül. A szükséges nagy nyomást a centrifugális erő biztosítja. Mielőtt a folyadék is távozhatna, a dobot újra le kell zárni. Minél gyorsabban és egyenletesebben fut le az egész folyamat, annál nagyobb lesz a szilárd anyag szárazanyag-tartalma.",
+    "",
+    "13. ábra: A tányérrésben zajló folyamatok összehasonlítása az átáramoltatott ülepítőtartállyal (Q=időegységenkénti átfolyás; Vfl=a folyadék sebessége; Wf=a centrifugális erő hatásiránya).",
+    "A szeparátoroknak több tucat változata létezik, szerkezetileg az adott feladathoz igazítva. Gyakorlatilag mindenütt két- vagy háromfázisú rendszerként működnek, ahol folyadékokat vagy szuszpenziókat kell deríteni vagy elválasztani. Ilyen például a seprő elválasztása a préselés után, vagy citrusfélék esetében a kivonás után, az alkoholos erjedést követő élesztőmentesítés, a növényi olajok nyálkátlanítása, a tej és a savó derítése vagy lefölözése háromfázisú centrifugákkal, a friss sajt előállítása, a pékélesztő vagy más starterkultúrák kivonása, illetve a keményítő vagy fehérje kivonása.",
+    "A dekanterek (csigás centrifugák) egy gyorsan forgó hengeres-kúpos dobbal rendelkeznek, amelybe a szuszpenziót egy messze behúzódó bemeneti csövön keresztül vezetik be. A folyadékot azonnal nagy centrifugális erő éri, és a másodperc tört része alatt felgyorsul a forgási sebességre. A nehezebb szilárd anyag a dob falának csapódik, a kifejezetten könnyebb folyadékfázis pedig folyadékgyűrűként fölötte helyezkedik el. A csiga valamivel nagyobb peremsebességgel fut, mint a dob, és így a szilárd anyagokat a dob kúpos részén keresztül a kidobóba szállítja. A lé a csigaspirálok között a dob másik végébe áramlik, ahol a nyomás hatására elhagyja a gépet. A dekanter mindkét fázis tekintetében folyamatosan működik, és így nagyobb mennyiségű szilárd anyagot is képes feldolgozni. A fordulatszám és a g-érték (nehézségi gyorsulás) alacsonyabb, mint a szeparátor esetében, és a közvetlen összehasonlításban ennek megfelelően a derítési fok is alacsonyabb. A dekanter alkalmazási területei például a gyümölcspépek (gyümölcsök, zöldségek) lémentesítése, a laktózkristályok elválasztása a koncentrált savóból, a keményítő kivonása a burgonyából, a seprő sűrítése a borászatokban vagy a gyümölcslé üzemekben, illetve a sörlé feldolgozása a sörfőzdékben. A dekanterek háromfázisú elválasztásra is használhatók, például az olajbogyópaszta olajmentesítésére.",
+    "A hidrociklonok olyan centrifugális leválasztók, amelyekben a folyadék egy helyhez kötött házban forog. A forgó áramlás a szuszpenziónak a rozsdamentes acélból vagy műanyagból készült hengeres házba nagy nyomás alatt történő tangenciális (érintőleges) beáramoltatásával jön létre. A fajlagosan nehezebb szilárd részecskéket a centrifugális erő a falhoz löki, és spirális mozgást végezve a kúpos alsó részen át a kimeneti fúvóka felé mozognak. A derített folyadék egy elsődleges örvényben szintén lefelé áramlik, ahol visszafordítják, és egy merülőcsövön keresztül távozik a házból. A 14. ábra egy hidrociklont mutat be, amelyet például kristály- vagy homokleválasztásra használnak. Ha kisebb és könnyebb szilárd anyagokat kell elválasztani, akkor a ház átmérőjét csökkenteni kell, és növelni kell a nyomásesést. Ha nagyobb áteresztőképességre van szükség, több ciklont egy egységgé kombinálnak.",
+    "Részei közé tartozik a gritpot-az üledéktartály, az apex fúvóka-ami egy kifolyó, a kifolyó a hidrocikolonból kilépő anyagot továbbítja.A tiszta fázis kifolyó a tisztább anyagok kimeneti ponja, míg a befolyó a hidrociklonba bekerülő anyag bevezetését jelenti. Itt centrifugális erő segíti szétválasztani a különböző sűrűségű részecskéket.",
+    "Az elválasztási szemcseméret (vagy határszemcseméret) nem abszolút előírásként értendő. A gyakorlatban az elválasztandó kristályok fele átjuthat a folyékony fázisba. A nagyobb elválasztási hatásfok olyan ciklonokat igényel, amelyeket többszörösen kisebb szemcsékre terveztek. Ugyanez a probléma a centrifugák esetében is fennáll. Azok elválasztási szemcsemérete is csak egy bizonyos százalékig érhető el a gyakorlatban. E gépek esetén az elválasztási hatékonyság javításának döntő változója az átbocsátott mennyiség. Minél nagyobb, annál kisebb a derítési fok. A centrifugált (és szűrt) folyadékok mindig rendelkeznek egy maradék zavarossággal, amely a magukkal vitt, határrészecskeméret feletti részecskékből és az az alatti méretű, elméletileg bármilyen részecskékből származik.",
+    "",
+    "14. ábra: Egy hidrociklon sematikus ábrázolása;",
+    "A ciklonok, a centrifugák és a szűrők végső soron csak az egyik fázisból a másikba történő átmenet csökkentésre szolgáló eszközök. Gyakran a gyakorlati célokra elegendő az eredmény, de sok esetben a derítési rendszerek kombinációjából álló hibrid eljárásokra van szükség. Erre példa a sör derítése, ahol a centrifugák az élesztőgombákat 99%-os arányban képesek elválasztani. Ezzel a mikrobasejtszám csökken. Az utána következő steril szűrésnek meg kell teremtenie a biológiai biztonságot, és a megmaradt csírákat is le kell választania.",
+    "Oldott levegős flotálás a részecskék nedvesítésével",
+    "A flotálás egy olyan eljárás, amelyet az érckitermelésben már több mint 100 éve, a szennyvíztechnológiában pedig körülbelül 40 éve alkalmaznak. A világ szulfidos réz-, ólom- és cinkérctermelésének több mint 90%-át flotálással nyerik ki, és a szenet is így választják el a kőzetből. Általánosságban a flotálás a szuszpenzióban lévő finom szemcséjű részecskéknek a vízhez képest eltérő nedvesíthetőségük alapján, gázbuborékok segítségével történő szétválogatását jelenti. Azok, akik a rosttartalmú gyümölcsleveket szénsavas vízzel keverik, azt tapasztalják, hogy CO2 szabadul fel, amely gyorsan felviszi a seprőrészecskéket az ital tetejére. A múlt század kilencvenes éveitől kezdve széles körben elterjedt a gyümölcslevek derítése flotálással. Az eljárás a gázok azon tulajdonságát használja ki, hogy nyomás alatt erősebben oldódnak az üledékes lében, de a nyomás környezeti nyomásra történő csökkentésekor azonnal újra gázzá alakulnak.",
+    "",
+    "15. ábra: Folyamatos oldott levegős flotációs folyamat",
+    "A 15. ábra a folyamatos flotálás folyamatát mutatja be, ahogyan az nagyobb gyümölcslé üzemekben a frissen préselt lé derítésére alkalmazható. A hatékony flotáláshoz a kolloid seprőanyagot pektolitikus (pektinbontó) enzimekkel destabilizálni kell. Az adagolóállomásra elsősorban a magas Bloom-számmal (gélkeménység értékszáma) rendelkező zselatin opcionális hozzáadásához van szükség, amely tömörebbé teszi a seprőt, és javítja a derítőhatást. Szükség esetén bentonit és/vagy aktív szén is használható. A flotációs reaktorban a gáz és a must egy hármas diszperziós rendszerré (gáz, folyadék, szilárd anyag) keveredik össze. A gáztalanítás és a flotálás a flotációs tartályban történik. A flotált iszapot egy lassan forgó kaparó folyamatosan egy vályúba szállítja, és ott lefelé elfolyik. A tiszta fázis – szintén folyamatosan – a tartály legalsó pontjáról távolítható el. A folyamatos eljárások különösen alkalmasak nagyüzemi műveletek és/vagy nagyon nagy tételek esetén. A flotációs tartály körülbelül félórányi teljesítményt képes befogadni, és a must tartózkodási ideje körülbelül 30 perc.",
+    "Az általában sok kisebb tétellel dolgozó pincészetekben a félfolyamatos berendezések váltak be. Mindössze egy seprőtartályra, egy szivattyúra a megfelelő nyomás- és adagolóberendezésekkel, valamint egy derítőtartályra van szükség, amelyben a flotálás zajlik. Körülbelül egy óra tartózkodási idő után a seprő alatti tiszta fázist lefejtik.",
+    "Kitérő: műszaki trendek – Robotok",
+    "Az élelmiszer-technológia gyakran használ olyan hagyományos eljárásokat, amelyeket a modern technológia segítségével teljesen automatizáltak és hatékonyabbá tettek, és amelyek higiéniailag tökéletes, jó ár-érték arányú és biztonságos élelmiszereket eredményeznek, óriási óránkénti termeléssel. A mindenkori korszerű technológia számos köztes lépésben kísérte el az élelmiszer-termelést a kézművességtől az iparig. E lépések mögött az innovációk szinte végtelen bősége húzódik meg, amelyek hamarosan a legmodernebb technikává váltak, és amelyek életciklusának a következő innováció vetett véget. Az innováció a technikai területen azonban csak akkor volt észszerű és elfogadható, ha a vele előállított élelmiszer gazdaságosabb és/vagy jobb minőségű volt, mint azelőtt. Az innovációk soha nem öncélúak voltak, hanem egy cél felé irányultak. Gyakran egyértelműen meghatározott piaci igények motiválták őket, de legalább ilyen gyakran a beszállítóipar fejlesztései voltak. Az élelmiszer-előállítók és a beruházási javak gyártói közötti kölcsönhatás végső soron az élelmiszeripar valamennyi „stake holder”-ének javát szolgálta.",
+    "Robotok",
+    "A következőkben néhány újabb fejlemény vagy tendencia bemutatása következik, amelyektől a közeljövőben több várható, mint a gyártási folyamatok fokozatos javulása. Élelmiszeripar robotizásása elterjedőben van.",
+    "A robotok programozható, többcélú kezelőberendezések anyagok, munkadarabok, szerszámok vagy speciális termékek mozgatására. A múltban az élelmiszeripar elsősorban a nagyüzemi műveletekben használta őket olyan feladatokra, mint a raklapozás, a csomagolás vagy átcsomagolás, illetve a komissiózás (áruk összeválogatása igények szerint) (DLG Trendmonitor, 2014). A nagyméretű ipari robotok ideális eszközök a monoton és nehéz munkák elvégzésére. Két, egyenként hét szabadságfokkal rendelkező karral felszerelve olyan munkahelyeken is használhatók, amelyek korábban nagy fizikai megterhelést igényeltek az emberektől. Használatuk további okai a magas fokú automatizálás, a hatékonyság általános javulása, a munkahelyek humanizálása és az üzem higiéniai helyzetének javítása. A kisüzemek kivételével a robotok ma már szinte minden üzemméretben megtalálhatók, és egyre gyakrabban alkalmazzák őket közvetlenül a termelésben is. A hangsúly a tejüzemeken van, de az ital-, a hús-, a kolbász- vagy a pékáruágazat trendjei is egyértelműen ebbe az irányba mutatnak. A robotika témája az élelmiszeriparban az elmúlt 5 évben kinőtte a gyerekcipőt.",
+    "A robotika világa mára olyan kisméretű, könnyű, kedvező árú és rugalmas eszközöket fejlesztett ki, amelyek közvetlenül az emberrel együtt tudnak dolgozni, elválasztó védőzóna nélkül (ember-gép együttműködés; kobotok). Különösen a precizitást és gyorsaságot igénylő munkáknál (úgynevezett pick and place alkalmazások) a robotok egyértelműen jobbak az embernél. A robotok élelmiszeripari alkalmazása a következő elemek kölcsönhatását igényli:",
+    "robotok",
+    "megfogók",
+    "érzékelő technológia és rendszerirányítás",
+    "képfeldolgozás",
+    "A robotok rövid ciklusidőt tesznek lehetővé változó termékek esetén, például különböző élelmiszerek csomagolásakor. A központi alkotóelem egy megfelelő fogókar, amely vákuumos vagy csipeszes fogást használ a kolbászszeletek összeillesztésére, a pizzafeltét egyenletes elkészítésére vagy a különböző pralinék előírás szerinti elhelyezésére a dobozban. A teljes rendszer digitalizálása és automatizálása további lépéseket jelent az Ipar 4.0 felé vezető úton. A higiénikus kialakítás alapvető követelmény a robotok használatához. Így kiváltható az emberek által jelentett higiéniai gyenge pont, különösen az érzékeny területeken. További fejlesztések folynak a sertéshús robotok általi finomdarabolására, amelyet megterhelő körülmények között, nagyszámú dolgozónak kell végeznie. Ez a folyamat kifinomult érzékelési-mérési technológiát és megfelelő algoritmusokat igényel a robot mozgatásához, hogy lehetővé tegye az automatikus vágásvezetést.",
+    "A folyamatvonalakon belül több folyamatlépést is elvégezhetnek a robotok. Egymás után képesek a kolbászdarabokat felvágni, kiválogatni, elsődlegesen csomagolni, átcsomagolni és raklapra helyezni.",
+    "Ultrahangos alkalmazások",
+    "Az ultrahangos alkalmazások már régóta ismertek a technológiában. Az élelmiszer-technológiában is egyre nagyobb sikerrel alkalmazzák már évek óta. Az ultrahang az ember számára nem hallható, 20 kHz és 1,6 GHz közötti frekvenciatartományba eső, 10–1000 W/cm2 energiájú rezgések leírására használt kifejezés. Amikor az ultrahang terjedése során akadályba ütközik, a hanghullámok attól függően, hogy milyen anyaggal találkoznak, visszaverődnek, elnyelődnek, szóródnak vagy akadálytalanul áthaladnak. A folyamat során az érintett termékeket többek között rezgésbe hozhatják vagy felmelegíthetik, és radikális reakciók is lejátszódnak. A folyadékokban nagy kavitációs buborékok keletkeznek, amelyek szétesésükkor rendkívüli nyíróerőket okoznak. A 6.18. ábra az ultrahang eljárástechnikai és folyamatokat kísérő alkalmazási lehetőségeit mutatja be összefüggéseikben. Az ultrahangos kezelés nem termikus kezelés, csak mechanikus erő kerül bevitelre. pl. gáztalanítás, húspuhítás Ez egy kíméletes eljárás, amely nagymértékben megőrzi az élelmiszer bioaktív tulajdonságait. Az ultrahangos kezelés folyamatos működésre is alkalmas olyan átfolyócellák segítségével, amelyekben a közeg ultrahangos kezelésre kerül. Ezek a tulajdonságok egyaránt felhasználhatók az analitikában és a folyamattechnikában, például:",
+    "érintésmentes szintmérések, áramlásmérések, sűrűségmérések (analitika/folyamatfelügyelet)",
+    "ultrahangos vágás, homogenizálás, sejtszövetek és sejtek aprítása, enzimek vagy mikroorganizmusok inaktiválása, beleértve a spórákat is, folyadékok gáztalanítása, habok megsemmisítése, hús puhítása, emulgeálás, csomagolás lezárása, vízmegkötő képesség és viszkozitás növelése",
+    "Az ultrahangos vágás alternatívaként jelenik meg olyan alkalmazásokban, ahol a vágószerszámok gyorsan szennyeződnek, és a megtapadt részecskék szennyeződésként visszahullhatnak a termékbe, amikor a kemény felületeken meg kell akadályozni a repedések kialakulását (pl. kemény csokoládébevonatok), vagy az édesipari és sütőipari termékek esetében, amelyek puhák és ragadósak. Az ultrahangot a szonotródáknak nevezett vágószerszámok rezgésbe hozására használják. Az alkalmazott frekvenciától függően másodpercenként akár 35 000 mozgást is végezhetnek. A tortákat, süteményeket, sajtokat stb. pontosan elhelyezik egy szállítószalagon, és áthaladás közben súlyuk vagy méretük szerint felvágják őket. Az ultrahangos vágószerszámok tulajdonságai lehetővé teszik még a közvetlenül a sütőből kijövő forró pékáru vágását is, ami a hagyományos technikákkal nehezen megoldható. Ugyanakkor a magas hőmérséklet megakadályozza a szennyeződést és javítja az eltarthatóságot.",
+    "",
+    "16. ábra: Az ultrahang lehetséges alkalmazásai",
+    "Az ultrahangos hegesztés során hőre lágyuló műanyagokat hegesztenek, és az azokban lévő élelmiszert lezárják. Az olvadási hő nem kívülről érkezik, mint a hővel történő lezárásnál, hanem azt közvetlenül a zárórétegben, mechanikus rezgésekkel hozzák létre. A műanyagmolekulák mozgása a megfelelő ponton súrlódási hőt termel, ami a műanyagot ezen a helyen megolvasztja. Az olvadási folyamat mindössze 100–200 milliszekundumot vesz igénybe, és a szonotróda és az alapként használt üllő a folyamat során hideg marad.",
+    "A helyi melegítés lehetőségét speciális folyékony élelmiszerek tartósítása esetén is ki lehet használni. Hasonlóképpen, a nagy rezgések képesek a sejtek szövetét átjárhatóvá tenni, és javítani a vakuólumfolyadék (sejtnedv üreg folyadék) vagy más specifikus értékes anyagok felszabadítását. A kavitációk és a nagy nyíróerők hatására a sejtstruktúrák felszakadnak, a sejtfalak pórusai pedig kitágulnak. Az ultrahang mechanikai erői támogatják a szöveti folyadék eloszlását és a sejtanyagba való behatolást. Az eredmény a megnövekedett extrakció.",
+    "Mikrokapszulázási eljárás",
+    "A mikrokapszulázás egy olyan körülzáró immobilizációs (rögzítéses) eljárás, amelynek során szilárd, folyékony vagy gáznemű hatóanyagokat nagyon kis adagokban burkolóanyaggal vesznek körül, és így immobilizálják azokat. A mikrokapszula falának tulajdonságai (vastagság, anyag, áteresztőképesség stb.) meghatározzák a mikrokapszula fizikai és kémiai tulajdonságait, valamint szabályozzák a felszabadulást. Mikrokapszulázásról akkor beszélünk, ha a részecskék a mikro- vagy akár nanométeres tartományban találhatók. A kapszulák ezért általában nem tapinthatóak vagy érzékelhetőek az élelmiszerben. Ha a kapszulák milliméteres nagyságrendűek, akkor makrokapszuláknak nevezik őket. A mikrokapszulázást többek között arra használják, hogy",
+    "a folyékony anyagokat porrá alakítsák,",
+    "nagymértékben illékony anyagokat kapszulázzanak,",
+    "elfedjék a szagot és az ízt,",
+    "a hatóanyagok szabályozott módon szabaduljanak fel,",
+    "megvédjék az anyagokat a fizikai, kémiai vagy mechanikai hatásoktól (pl. az omega-3 zsírsavakat az oxidációtól),",
+    "optimalizálják a porszerű anyagok (pl. tejpor) folyékonyságát és adagolását, és",
+    "csökkentsék a higroszkóposságot (levegő nedvességtartalmát megkötő).",
+    "A feladattól függően a porokat agglomerálják, bevonják vagy porlasztják, és így személyre szabott profilt kapnak. A 17. ábra vázlatosan mutatja a lezajló folyamatokat. A folyamatok fluidágyas szárítókban zajlanak, amelyekben a folyadékot és a szilárd anyagot összevezetik, és a struktúrákat célzott légáramlás hozza létre. A szilárd anyagot oldott, emulgeált vagy szuszpendált formában tartalmazó folyadékot kb. 20–50 µm átmérőjű cseppek formájában permetezik be a meleg/forró légáramba. A cseppek nagy fajlagos felületének köszönhetően a cseppek közvetlen és intenzív hőcsere révén azonnal megszáradnak. Ennek során először, akárcsak a tiszta porlasztva szárításban, kvázi kristályosodási magokként száraz mikroszemcsék keletkeznek, amelyeket a fluidágyban szuszpendált állapotban tartanak (fluidizáció). A részecskék felületének nedvesítésével és egyidejű szárításával a porszemcsék jól szóródó agglomerátumokká tapadnak össze. Ez többek között befolyásolja a por instant tulajdonságait. A fluidágyas porlasztott granulálás (szemcsehalmaz kialakítása kisebb szemcsékből) során a szárítás a diszkrét szemcseméret célzott beállításával párosul. A fluidágyas szárításból származó szemcsésre formázott por sokkal könnyebben oldódik és diszpergálódik folyadékokban anélkül, hogy maradványokat hagyna, mint a porlasztva szárításból származó finom por. Nem csomósodik vagy szegregálódik, a szájban kialakuló érzete kellemes, a termék kezelése könnyű. Fehérjeturmixok, vitaminozott forró italok vagy cukorpótlók, vitaminkészítmények, kapszulás és párnás rendszerek, csokoládé- vagy kávépor, probiotikus joghurt, amelynek csak a bélben kell kifejtenie a hatását, és még sok más termék készül ma már így.",
+    "",
+    "17. ábra: Folyamatok az agglomerálás, a filmbevonatolás és a porlasztott granulálás során a fluidágyas szárítóban; fluidágyas szárító; agglomerálás/bevonatolás/granulálás",
+    "Ha folyadékokat kell porrá alakítani, akkor kapszulázást, porlasztásos granulálást vagy többrétegű bevonatot alkalmaznak. A kapszulázandó kiindulási anyagokat vagy vizes oldatban emulgeálják (olajok), vagy szuszpendálják (por), vagy a kapszulázó közeg olvadékában diszpergálják (por), majd permetezik és szárítják vagy megszilárdítják. Ennek eredményeként 20–5000 µm közötti, rugalmasan beállítható szemcsemérettel rendelkező porok és granulátumok állíthatók elő a külső vizes fázis szárításával a feloldott mátrixanyaggal vizes emulzió/szuszpenzió esetén, vagy az olvadékemulzió/-szuszpenzió megszilárdításával. A granulátumokba zárt lipofil (zsiradékokban jól oldódó) folyadékcseppek, mint például a narancs-, menta- vagy bergamottolaj, általában 1 µm körüli átmérőjűek, és folyadéktartalmuk akár 50% is lehet. Az ilyen illékony anyagok kapszulázására a fluidágyas szárítás alternatívája a permetezéses granulálás a permetezőágyas készülékben. Alacsony tartózkodási idő és alacsony termékhőmérséklet jellemzi, és nagy hozamot tesz lehetővé. A fluidágytól eltérően a permetezőágyas rendszerekben a technológiai gáz nem a technológiai kamra teljes keresztmetszetén, hanem csak két résen keresztül jut be. A technológiai kamra közepén egy technológiai gázsugár jön létre.",
+    "A mikrokapszulázás egy folyamattechnikai lehetőség a homogén keverékek előállítására. A 18. ábra bemutatja az olyan technológiai eljárásoktól való megkülönböztetésüket, mint a keverés, agglomerálás vagy aprítás.",
+    "",
+    "18. ábra: A részecskék egyesítése homogén végtermékké",
+    "Nagynyomású homogenizálás",
+    "A homogenizálás úgy éri el a szuszpenzióban a részecskék egyenletes méreteloszlását, hogy a szuszpenziót nagy nyomás alatt egy speciális dezintegráló szelepen keresztül préseli át. A hagyományos homogenizálást akár 60 MPa nyomáson alkalmazzák a részecskék felaprítására, az emulziók stabilizálására, valamint a textúra (anyagszerkezet), az íz és az eltarthatóság javítására. A tej, a joghurt, a krémsajt, a fagylalt vagy a majonéz voltak a szokásos alkalmazási területek, és jelenleg is azok. Az új szelepkialakítások és a berendezéstechnikai fejlesztések a nagynyomású homogenizátorok új generációját eredményezték, amelyek az élelmiszer- és gyógyszeriparban a mikro- vagy nanoemulziók előállításában és az anyagmódosításban is alkalmazhatók. Ezeknek a homogenizátoroknak a nyomása 400 MPa-ig terjed. Nagyobb nyomáson nemcsak a nyomás, hanem a nyírófeszültség, a kavitáció, a turbulencia, az ütközés és a hőmérséklet-emelkedés is hatással lehet az élelmiszer-összetevőkre és a mikroorganizmusokra (19. ábra).",
+    "",
+    "19. ábra: A nagy nyomással történő homogenizálás hatásai",
+    "Ezek a tényezők lehetővé teszik a sejtek felbontását és a biopolimerek (élőlényekben megtalálható óriásmolekulák, mint például a fehérjék) módosítását. A sejtfelbontás alkalmas az értékkel bíró sejt- vagy szövetkomponensek kivonásának támogatására, de a mikroorganizmusok inaktiválására is. Az inaktiválás a sejtfal vastagságának függvénye. A vékony falak könnyebben szenvednek visszafordíthatatlan károsodást, míg a spórák csak sokkal nagyobb nyomáson károsodnak.",
+    "Emulgeálószer-technológia",
+    "Számos élelmiszerben kell kémiailag és fizikailag összeférhetetlen fázisokat homogén és hosszú távon stabil emulziókká kombinálni. Az EU-ban az emulgeálószerek széles skáláját engedélyezték az élelmiszer-előállítás szinte minden területén, és azokat a termékeken kémiai névvel vagy E-számmal kell feltüntetni. Ha nem keveredő folyadékok érintkeznek egymással, a fázisok határfelületén határfelületi feszültség (folyadékfelületre gyakorolt összehúzó erő) alakul ki, és a fázisok többé-kevésbé gyorsan szétválnak. Az emulgeálószerek képesek csökkenteni a feszültséget és így stabilizálni a rendszert. Ezeket homogenizálással, hirtelen nyomáscsökkentéssel vagy kavitációval lehet segíteni, olyan folyamatokkal, amelyek kisebb részecskéket és szűkebb méreteloszlást eredményeznek különböző energiabevitel mellett. Bipoláris (hidrofil és hidrofób véggel rendelkező molekulák) jellegüknek köszönhetően az emulgeálószerek technológiai-funkcionális hatással rendelkeznek, és a feladattól függően lehetővé teszik az emulzió stabilitását, a habképző képességet vagy a habstabilitást. A folyamat alapvető paraméterei az emulgeálószerek vagy keverékeik kiválasztása, a koncentráció, az ionerősség, a pH-érték, a részecskeméret és a folyamat hőmérséklete. Új feladatok esetén ezeket előzetesen meg kell határozni.",
+    "Az emulziós technológiák fejlődését számos trend mozgatja. Ilyen a clean label vita és a cél, hogy E-számok helyett a természetes összetevőket tüntessük fel. Ezért egyre gyakrabban fejlesztenek ki természetes stabilizátorokat, például citrusrostokat vagy napraforgó lecitint (pl. a tojásban is megtalálható természetes emulgeálószer). Hidrokolloidként a rostokat nagyfokú vízmegkötő képesség is jellemzi, ami ugyanakkor lehetővé teszi a csökkentett zsírtartalmú élelmiszerek előállítását, ami szintén fontos szempont. Ennek hátterében a kalóriacsökkentett élelmiszerek iránti vágy áll, hogy ellensúlyozni tudják az elhízást. Például a margarin 80 százalékos zsírtartalom helyett csak 30 százalékkal készülhet.",
+    "Különleges kihívást jelent a többszörös emulziók kérdése. Az ilyen diszperz többfázisú rendszerek anyagi és energetikai kölcsönhatásaik miatt rendkívül összetettek. Az olaj/víz emulziók olajfázisának „hígításával” lehetővé kell tenni a tápanyagok, bioaktív anyagok, mikroorganizmusok vagy ízanyagok bevitelét, és szükség esetén azok célzott módon történő felszabadítását.",
+    "Intelligens csomagolás és gátak",
+    "A csomagolás sokáig csak kommunikációra és védelemre szolgáló passzív burkolatot jelentett. A modern élelmiszer-technológia a passzív csomagolást aktív csomagolássá alakította át, és fontos szerepet szánt neki a tartalom eltarthatóságának javításában. Az élelmiszer-technológia területén még gyerekcipőben jár az intelligens csomagolás. Az Európai Élelmiszerbiztonsági Hatóság (EFSA) meghatározása szerint az intelligens csomagolóanyagok „olyan anyagok és tárgyak, amelyek figyelemmel kísérik a csomagolt élelmiszer vagy az azt körülvevő környezet állapotát”. Az intelligens csomagolás a modern szenzortechnika lehetőségeit új, digitális információs lehetőségekkel kombinálva használja ki. pl. mérik a termék hőfokát. Az adatok tárolására és továbbítására adathordozókat, a külső környezet megfigyelésére kijelzőket és érzékelőket alkalmaznak. A csomagolás QR- vagy vonalkódok segítségével univerzális információhordozóvá válik. Az érdeklődő ügyfél megtudhatja, honnan származik az állat, hol vágták le és hol dolgozták fel sonkává. Természetesen a jogszabályban előírt olyan tájékoztatási követelményeken túlmenően, mint például az energiatartalom, a fehérje-, só-, zsír- vagy cukortartalom.",
+    "Az intelligens csomagolás színreakcióval jelzi a tartalom frissességének fokát, dokumentálja a hűtési lánc betartását, igazolja, hogy az eredeti lezárást nem manipulálták, vagy hogy az szivárgásmentes, és információt nyújt a tartalom minőségéről. A romlás során felszabaduló gázok, mint például az etilén az almában vagy a körtében, zöldről pirosra változtatják a színcímkéket, vagy egy fekete kereszt jelenik meg egy átlátszó felületen, amikor az élelmiszer már nem ehető. Erre a célra bioérzékelőket és frissességérzékelőket/-jelzőket használnak. Ezeket az elemeket általában a csomagolásban helyezik el. Az intelligens csomagolás egy példa arra, hogy a digitalizáció milyen lehetőségeket kínál az Ipar 4.0-tól a Táplálkozás 4.0-hoz vezető úton.",
+    "A modern csomagolás minden előnye ellenére nem szabad figyelmen kívül hagyni az összetevőknek az élelmiszerbe való esetleges migrációját. Ez vonatkozik a papírból, kartonból és műanyagból készült csomagolásokra is. Különösen az ásványiolaj-komponensek, telített és telítetlen szénhidrogének migrálhatnak ki az újrahasznosított anyagokból. A jogalkotó olyan határértékeket határozott meg, amelyek gyakran belső gátakat tesznek szükségessé. A poliolefinekből vagy papírból, de inkább alumíniumból, PET-ből vagy poliamidból készült belső bevonatok megfelelő migrációs gátaknak minősülnek, de megnehezítik a csomagolás újrahasznosítását.",
+    "A PET tereftálsavból (kétértékű szervessav) és etilén-glikolból (egy dialkohol) készül. Mindkét anyag hosszú polimerláncokat alkot. A műanyagot elsősorban italok tárolására használják, és más polimerekhez képest különösen inert tulajdonságokkal rendelkezik. Ez azt jelenti, hogy a csomagolásból csak nagyon kis mennyiségű anyag kerül az italba, annál kevesebb, minél rövidebb a tárolási idő és minél alacsonyabb a hőmérséklet. A felhasznált nyersanyagokra, de a katalizátor antimon-trioxidra is vonatkoznak határértékek. Ugyanez vonatkozik az antranilamidra is, amelyet a PET-palackok adalékanyagaként engedélyeztek. Időközben olyan bevonatokat is kínálnak a PET-tartályokhoz, amelyeknek szinte teljes mértékben meg kell akadályozniuk a migrációt.",
+    "Ipar 4.0",
+    "Az Ipar 4.0 jelenleg az egyik megatrend az ipar minden releváns területén. A víz- és gőzenergiát használó mechanikus termelőüzemek (1. ipari forradalom), az elektromos energiát használó, munkamegosztáson alapuló tömegtermelés (2. forradalom), az informatika és az elektronika révén történő automatizálás (3. forradalom) után a 2011-es Hannoveri Vásáron a 4. ipari forradalomra az Ipar 4.0 kifejezést vezették be. Az alapot a kiber-fizikai rendszerek („cyberphysical systems”) képezik, amelyek minden valamilyen módon releváns információt összegyűjtenek és felhasználnak a szabályozáshoz. A beágyazott szoftverrel ellátott termékek, termelőberendezések, emberek és tárgyak intelligens és elosztott rendszerré olvadnak össze, új szintre emelve a teljes értéklánc szervezését és irányítását. Például a megrendelések önállóbbá válnak az értékláncban, és megszervezik a szükséges anyagokat, valamint a megrendelőhöz való szállítást. Alapkövetelmény, hogy az értéklánc mentén a szükséges információkat valós időben kell biztosítani ahhoz, hogy az optimális értékteremtő áramlás bármikor levezethető legyen. Az ebből fakadó jövőkép dinamikus, valós időben optimalizált és önszerveződő, vállalatokon átívelő értékteremtő hálózatokról szól. A hálózatba kapcsolt munkahelyek olyan érzékelőkkel felszerelt munkahelyek, amelyek minden felmerülő adatot rögzítenek. Ezek feldolgozásra, továbbításra kerülnek, és így lehetővé teszik a termelésben részt vevő objektumok közötti információcserét, és ezáltal a rendszerek, valamint a folyamat- és termelési adatok folyamatos hálózatba kapcsolását. Az ilyen hálózatkialakítást például a hibakezelés során használják, amikor a gépek meghibásodásai azonnal jelentésre kerülnek a gyártásirányító rendszer felé. Az adatokból nyert információk szolgáltatása érdekében az adatcserének horizontálisan a folyamatlánc mentén, vertikálisan a vállalaton belül, valamint kétirányúan a rendszer és a felhasználó között is meg kell történnie.",
+    "Az Ipar 4.0 új megoldásokat tesz lehetővé, amelyekkel a mai termelés még jövedelmezőbbé tehető. A kis- és középvállalkozások azonban gyakran nem rendelkeznek megfelelő módszerekkel az Ipar 4.0 sikeres bevezetéséhez. De nekik is foglalkozniuk kell a lehetőségekkel. Az intelligens csomagolást, a modern szabályozási köröket, a robotizált rendszereket már sok esetben alkalmazzák. Ez az első lépés a fejlettebb technikák alkalmazása felé. „Nem kell várnunk az Ipar 4.0-ra. Már benne vagyunk.”",
+    "",
+    "Irodalomjegyzék",
+    "",
+    "Ábrajegyzék",
+    "1. ábra: A mechanikus elválasztási technika alkalmazási területei (NF = nanoszűrés; UF = ultraszűrés; RO = fordított ozmózis; REM = pásztázó elektronmikroszkóp; szilika szol = szilícium-dioxid tartalmú folyadék)\t8",
+    "2. ábra: A statikus és dinamikus szűrés összehasonlítása\t11",
+    "3. ábra: Felület (1), elemek (2), modulok (3) és berendezés (4) mint a membránszűrés részei\t12",
+    "4. ábra: A mikro-, ultra- és nanoszűrés, valamint a fordított ozmózis folyamatparaméterei\t15",
+    "5. ábra: Koncentrációs polarizáció (szétválasztás) a membrán felszínén\t16",
+    "6. ábra: Részecskevisszatartás mélyágyas szűrők segítségével\t18",
+    "7. ábra: Lapszűrők (bal oldal-fent) és moduláris mélyágyas(jobbra) szűrők a megfelelő szűrőházakkal\t20",
+    "8. ábra: A legfontosabb ráiszapoló szűrők elvi funkciója az élelmiszer-technológiában;  1 = forgó vákuumszűrő;  2 = kamrás szűrő; 3 = diatómaföld (üledékes kőzet) szűrők derítőelemei;  4 = egy vízszintesen szűrő diatómaföld szűrő alsó elemei.\t22",
+    "9. ábra: Szituáció statikus léelvezetés és nyomással történő kipréselés esetén (sötét színű: szabad folyadék a részben kiürült sejtek között).\t23",
+    "10. ábra: 1 = tankprés; 2 = impulzusos csigaprés; 3 = szalagprés\t24",
+    "11. ábra: A szilárd-folyadék szétválasztás elvei ülepítéssel vagy centrifugálással\t26",
+    "12. ábra: Egy szeparátor és egy dekanter, valamint egy dob metszeti nézete\t28",
+    "13. ábra: A tányérrésben zajló folyamatok összehasonlítása az átáramoltatott ülepítőtartállyal (Q=időegységenkénti átfolyás; Vfl=a folyadék sebessége; Wf=a centrifugális erő hatásiránya).\t29",
+    "14. ábra: Egy hidrociklon sematikus ábrázolása;\t31",
+    "15. ábra: Folyamatos oldott levegős flotációs folyamat\t33",
+    "16. ábra: Az ultrahang lehetséges alkalmazásai\t37",
+    "17. ábra: Folyamatok az agglomerálás, a filmbevonatolás és a porlasztott granulálás során a fluidágyas szárítóban; fluidágyas szárító; agglomerálás/bevonatolás/granulálás\t40",
+    "18. ábra: A részecskék egyesítése homogén végtermékké\t42",
+    "19. ábra: A nagy nyomással történő homogenizálás hatásai\t43",
+    "",
+    "Táblázatjegyzék",
+    "1. táblázat: Folyadékok, mint diszpergált rendszerek.\t6",
+    ""
+  ],
+  "runs": [
+    [],
+    [
+      "Egyedi ",
+      "megrendelés azonosítója: EM-2.7",
+      ".5  "
+    ],
+    [
+      "Élelmiszeripari technológiai alapok V. – Szűrés, préselés, robotok"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [
+      "Forrás",
+      ": ",
+      "Lebensmitteltechnologie",
+      ", Der ",
+      "Verlag",
+      " ",
+      "Eugen",
+      " ",
+      "Ulmer",
+      " KG",
+      ",  2021.",
+      " ISBN 978-3-8252-5505-3",
+      "\n",
+      "Az eredeti könyv szerzői: ",
+      "Jochen",
+      " ",
+      "Hamatschek"
+    ],
+    [],
+    [
+      "A kéziratban található, külön forrásmegjelölést nem tartalmazó képek és ábrák az eredeti forrásanyagból származnak."
+    ],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      "Anyagátalakulások extrakciós anyagok hozzáadása után"
+    ],
+    [
+      "A",
+      "z ",
+      "1",
+      ". táblázatban felsorolt nyersanyagok nagyon eltérő mennyiségben tartalmaznak fehérjéket, olajokat, szénhidrátokat és – különösen a gyümölcsök és zöldségek esetében – gyümölcs- vagy zöldséglé formájában kinyert ",
+      "antociánokot",
+      ". Ez a lé az értékes cukrokat, sókat, savakat és aromaanyagokat oldott formában koncentrálja, és a dezintegráció",
+      "-",
+      "széteseés",
+      "-",
+      " után el kell választani a szilárd fázistól. Tényleges értelemben vett ",
+      "extrakció",
+      " csak kis mértékben megy végbe e folyamat során, amikor a két fázis intenzív érintkezése révén molekulák szabadulnak fel a sejtszövetekből. Ennek a hatásnak különösen a színes levek vagy vörösborok esetében van szerepe, ahol a ",
+      "bogyós gyümölcsök héjában található ",
+      "antociánokat",
+      " vagy a sárgarépában",
+      ", sütőtökben",
+      " található ",
+      "–ezekben van a legtöbb-",
+      "karotin",
+      "t ",
+      "jelentős értékkel bíró összetevőként ki kell vonni."
+    ],
+    [
+      "A gabonanövények fő összetevőként fehérjéket és szénhidrátokat tartalmaznak, amelyek a héj és a csíra leválasztása után lisztként jelennek meg. Ha a fehérjét külön kell kivonni, ezt vizes ",
+      "extrakcióval",
+      " ",
+      "(szilárd-folyadék ",
+      "extrakció",
+      ") ",
+      "lehet elvégezni. Ugyanez vonatkozik a borsóból vagy hasonló nyersanyagokból történő fehérjekinyerésre is. A fehérjék vízben oldódnak, a végtermékhez kíméletes szárítási folyamat vezet. A szilárd-folyadék ",
+      "extrakciót",
+      " többek között a kávébab-darálás és pörkölés utáni extrahálására, szárított tealevelek, komló, cukorrépaszelet, hús vagy csontok kioldására is használják."
+    ],
+    [
+      "Az alacsony ",
+      "víztartalmú",
+      " olajnövényekből az ",
+      "olajtartalom ",
+      "első lépésben szelektíven, ",
+      "préseléssel",
+      " vonható ki (mechanikus szilárd-folyadék ",
+      "szét",
+      "választás). Ha a terméktől függően túl sok olaj marad a préspogácsában, az ",
+      "tovább extrahálható",
+      " (kémiai szilárd-folyadék ",
+      "extrakció",
+      "). Az étolajok",
+      "at",
+      " ",
+      "olajos magvakból, például repcéből vagy szójababból préseléssel és ezt követő oldószeres (hexán) ",
+      "extrakcióval",
+      " nyerik ki. A technológia során nagy számban alkalmaznak szétválasztó műveleteket.",
+      " Az étolajat az olaj és az oldószer",
+      " keverékéből",
+      " (a ",
+      "miszcell",
+      "ából",
+      ") ",
+      "a",
+      "z oldószer lepárlásával nyerik ki."
+    ],
+    [
+      "A ",
+      "szuperkritikus oldószerekkel",
+      " történő ",
+      "extrakció",
+      " azt a tényt használja ki, hogy a gázok és folyadékok nagy nyomáson és hőmérsékleten olyan fizikai tulajdonságokat vesznek fel, amelyek nem felelnek meg sem a gáz, sem a folyadék tulajdonságainak. A szuperkritikus CO",
+      "2",
+      "-t élelmiszerekből származó kivonatok, pl. aromák, színezékek vagy összetevők fűszerekből, fűszernövényekből és természetes anyagokból való kinyerésére használják. Hasonlóképpen, egyedi tulajdonságaik alapján a nemkívánatos anyagok szelektíven kivonhatók és így eltávolíthatók az élelmiszerekből: pl. a koffein a kávébabból, a komlógyanta a komlóból, a nikotin a dohányból."
+    ],
+    [
+      "Egy extrahálandó anyag extrahálásában három anyag vesz részt: az ",
+      "extraktum",
+      " (az extrahálható rész), a ",
+      "hordozóanyag",
+      " és az ",
+      "oldószer",
+      ". ",
+      "Például a kávé elkészítése, a kávébabból a forró víz extrahálja az ízeket, aromákat, koffeint."
+    ],
+    [
+      "Extraktum: a kávébabban lévő koffein, aroma, íz"
+    ],
+    [
+      "Oldószer: víz"
+    ],
+    [
+      "Hordozó anyag: kávébab",
+      ", őrlés utáni ",
+      "pogácsa, ",
+      "esetleg ",
+      "kávézacc"
+    ],
+    [
+      "Az alapelv egy kétfázisú rendszer összekeveréséből és szétválasztásából áll, azaz"
+    ],
+    [
+      "az elválasztandó keverék összekeveréséből az extrahálószerrel, és minél nagyobb felület létrehozásából (pl. finom őrléssel),"
+    ],
+    [
+      "intenzív anyagcseréből (pl. összekeverés révén) és"
+    ],
+    [
+      "a keverék termikus vagy mechanikus fázisszétválasztásából extraktumra és ",
+      "raffinátumra",
+      ", valamint az oldószermaradványoknak a szilárd anyagból történő visszanyeréséből."
+    ],
+    [
+      "Ha az extrahálószert és az extrahálandó anyagot összekever",
+      "i",
+      "k, akkor egy idő után ",
+      "koncentrációs egyensúly",
+      " áll be az extrahálandó anyagban lévő extraktum és az ",
+      "extrahálószerben lévő extraktum között. Ez az egyensúly az egyes keverékekre jellemző mennyiség a ",
+      "megoszlási együtthatónak",
+      " megfelelően:"
+    ],
+    [
+      " = k"
+    ],
+    [
+      "(c1 = az extraktum koncentrációja az extrahálószerben, c2 = az extraktum koncentrációja az extrahálandó anyagban, k = megoszlási együttható)"
+    ],
+    [
+      "A megoszlási együttható az összes ",
+      "oldósz",
+      "er tulajdonságaitól függően várható arányt jelzi (pl. 75%-os extraktum",
+      " ",
+      "25%-os veszteséget jelent). A veszteséget a telített oldószer elválasztása után egy második és szükség esetén további ",
+      "extrakciós",
+      " lépéssel lehet csökkenteni, minden esetben azonos arányban. Az ",
+      "extrakció",
+      " minden lépésnél a csökkenő ",
+      "koncentrációgradiens",
+      " irányában történő ",
+      "anyagátvitel",
+      ". Az ",
+      "egyensúlynak",
+      " a",
+      " K",
+      " együttható szerinti beállása egy idő",
+      "tényező",
+      ", amelynek időtartama a termék és a folyamat paramétereitől függ. A legfontosabb folyamatparaméterek az őrlési fok az érintkezési felület mértékeként, valamint a folyamat hőmérséklete. A kioldódás végső soron egy anyag diffúziós folyamata a szilárd fázisból a folyékony fázisba. Az M tömegáram az alapegyenletből adódik:"
+    ],
+    [],
+    [
+      "ahol β a fajlagos anyagátadási együttható, ",
+      "Δc",
+      " pedig a folyadék telítettségi koncentrációja és a t idő után meglévő koncentráció közötti különbség. A β anyagátadási együtthatót általában kísérleti úton határozzák meg."
+    ],
+    [
+      "A szilárd-folyadék ",
+      "extrakciókon",
+      " kívül alkalmaznak ",
+      "folyadék-folyadék ",
+      "extrakciókat",
+      " is, amikor egy oldott anyagot egy folyékony extrahálószerrel vonnak ki a",
+      "nnak",
+      " oldószeréből, és az oldott anyag az extrahálószerbe kerül át. Ilyen például az aromaanyagok kivonása szerves oldószerekkel vagy cseppfolyósított CO",
+      "2 ",
+      "-vel vizes oldatból. Ennek előfeltétele, hogy az extraktum oldhatósági szorzata a két oldószerben nagyon eltérő legyen, és így megfelelő oldódási egyensúly álljon be. A megoszlási törvény szerinti egyensúlyi viszonyok mellett a kivonás hozamának növelése érdekében a folyadék-folyadék ",
+      "extrakciók",
+      " általában ",
+      "többlépcsős folyamatok, amelyek lehetnek ellenáramúak vagy egyenáramúak. Az oldószernek és az extrahálószernek a lehető legnagyobb mértékben különbözniük kell polaritásukban és ",
+      "sűrűségükben",
+      ", hogy megkönnyítsék a fázisszétválasztást, és egymásban nem oldódhatnak."
+    ],
+    [
+      " ",
+      "Mechanikai ",
+      "SZÉT",
+      "választási",
+      " technikák a hasznos anyagok kinyerésére"
+    ],
+    [
+      "A hasznos anyagok kinyerése során a fázisszétválasztás többnyire a mechanikai ",
+      "szét",
+      "választási technikákra korlátozódik."
+    ],
+    [
+      "A folyamatok osztályozása az elválasztandó fázisok halmazállapota alapján történik, és azok fizikai-kémiai szerkezet",
+      "e",
+      " szerint osztj",
+      "á",
+      "k tovább őket:"
+    ],
+    [
+      "Elválasztás különböző halmazállapotok alapján"
+    ],
+    [
+      "Szilárd-szilárd elválasztások,",
+      " pl. gabonanövények vagy hús esetében (kézi csontozás, zsír levágása, szélszitálás, frakcionálás, héjazás és a héjak elkülönítése)."
+    ],
+    [
+      "Szilárd-folyadék ",
+      "szét",
+      "választások,",
+      " pl. gyümölcslégyártás vagy tejtisztítás (szűrés, centrifugálás, préselés, ",
+      "ülepítés",
+      ")."
+    ],
+    [
+      "Folyadék-folyadék elválasztások,",
+      " pl. az olajok ",
+      "extrakció",
+      " utáni derítése (ülepítés, centrifugálás, membrántechnikák)."
+    ],
+    [
+      "Szilárd-folyadék-folyadék elválasztások,",
+      " pl. olívaolaj-kivonás vagy a nyers tej lefölözése és egyidejű tisztítása (centrifugálás, több technikából álló hibrid eljárás)."
+    ],
+    [
+      "Elválasztás az anyagok fizikai-kémiai tulajdonságai alapján"
+    ],
+    [
+      "Fázisszétválasztás különböző ",
+      "részecskeméretek",
+      " alapján (szűrőrendszerek, beleértve a préseket is)."
+    ],
+    [
+      "Fázisszétválasztás különböző ",
+      "sűrűségek",
+      " alapján (gravitációs rendszerek, például ülepítés, ciklonos elválasztás vagy centrifugálás)."
+    ],
+    [
+      "Fázisszétválasztás a ",
+      "töltéskülönbségek",
+      " vagy az ",
+      "oldat eltérő viselkedése",
+      " alapján (olyan membránfolyamatoknál, mint a ",
+      "nanoszűrés",
+      ", a ",
+      "pervaporáció",
+      " vagy a fordított ",
+      "ozmózis",
+      " (",
+      "reverz",
+      " ozmózis",
+      ")."
+    ],
+    [
+      "Fázisszétválasztás a ",
+      "részecskék",
+      " eltérő ",
+      "felületi nedvesíthetősége",
+      " alapján (",
+      "flotálás",
+      "). Ez a gázbuborékok azon tulajdonságát használja ki, hogy könnyen megtapadnak a hidrofób felületeken, azaz a vízzel nehezen nedvesíthető felületeken, és a részecskéknek felhajtóerőt kölcsönöznek."
+    ],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". táblázat:",
+      " Folyadékok, mint ",
+      "diszpergált",
+      " rendszerek."
+    ],
+    [
+      "A",
+      "z 1. ",
+      "táblázat a folyadékokat diszperz rendszerként írja le, és a diszperz fázisban oldott részecskéket részecskeméretüktől függően jellemzi."
+    ],
+    [
+      "A durv",
+      "a",
+      " diszper",
+      "z",
+      " r",
+      "endszerekben szétoszlatott részecskék",
+      " általában határozott részecskeszerkezettel rendelkeznek, nem nagyon deformálhatók, viszonylag nehezek és nagyok. A legegyszerűbb esetben a kellő ülepedési idő elegendő az elválasztásukhoz. A centrifugálás vagy szűrés felgyorsíthatja a folyamatot, de nem feltétlenül ad jobb eredményt. A való",
+      "di oldatok",
+      " oldott anyag",
+      "ai",
+      "nak viszont – jellemző vagy értékmeghatározó anyagként – túlnyomórészt a folyadékban (gyümölcslé, bor, sör) kell maradniuk. Ezek közé tartoznak az aromaanyagok, cukrok, savak, fenolok, nitrogénvegyületek, fehérjék, ",
+      "poliszacharidok",
+      ", etanol, ",
+      "emulgeálószerek",
+      " stb."
+    ],
+    [
+      "A kolloidok részecskemérete egy nanométer és egy mikrométer között van. A nagy spektrum miatt megkülönböztetn",
+      "e",
+      "k nagymolekuláris és kismolekuláris ",
+      "diszperziót",
+      ". Az átmenet mind a durván ",
+      "diszpergált",
+      " részecskék, mind az ion",
+      "ok formájában az",
+      " oldott anyagok irányában folytonos. A derítés fő ",
+      "hatása",
+      " a kolloidok területé",
+      "n",
+      " ",
+      "jelentkezik",
+      ". Itt találhatók a körülbelül 0,5 µm ",
+      "(mikrométer a milliméter ezred része) ",
+      "nagyságú tejsavbaktériumok, a növényi szövetekből vagy penészgombákból származó makromolekulák, de számos átalakulási reakció polimerjei is."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". ábra:",
+      " ",
+      "A mechanikus elválasztási technika alkalmazási területei ",
+      "(NF = ",
+      "nanoszűrés",
+      "; UF = ultraszűrés; RO = fordított ozmózis; REM = pásztázó elektronmikroszkóp",
+      "; ",
+      "szilika",
+      " szol = szilícium-dioxid tartalmú folyadék",
+      ")"
+    ],
+    [
+      "A diszperz fázissal szembeni sűrűségkülönbség hiányában a kolloidok nem ülepednek le, hanem a Brown-féle molekuláris mozgás lebegésben tartja őket. Még a centrifugák sem képesek elválasztani őket, a ",
+      "szűrők",
+      " hajlamosak gyorsan eltömődni. A",
+      "z 1",
+      ". ábra áttekintést ad a szilárd-folyadék ",
+      "szét",
+      "választás során elválasztandó részecskék méretéről, és megnevezi az alkalmazható technikákat. Az 1 µm-nél nagyobb részecskék elválasztására számos technika áll rendelkezésre. A baktériumok megbízható elválasztásához membrán- vagy lapszűrők alkalmazására van szükség. Elvileg minden technika képes a kristályok elválasztására, de az általuk okozott ",
+      "erózió",
+      " kritikus lehet. A kolloidok biztonságos dúsítására a ",
+      "mikroszűrés",
+      " és az ultraszűrés a legalkalmasabb módszerek. ",
+      "A",
+      "z 1-e",
+      "s ábrában felsorolt szétválasztó ",
+      "berendezések közül csak a ",
+      "szeparátor",
+      " és a ",
+      "dekanter",
+      " működik folyamatosan. Az",
+      " olaj és víz folyadék-folyadék elválasztásakor az olajcseppek mérete és a vízhez viszonyított sűrűségkülönbségük döntő szerepet játszik az elválasztási folyamatban."
+    ],
+    [
+      "Szűrőrendszerek ",
+      "és",
+      " prések szilárd-folyadék ",
+      "szét",
+      "választás",
+      "á",
+      "hoz"
+    ],
+    [
+      "A szűrés a ",
+      "szuszpenziók",
+      " (",
+      "olyan kolloid oldat, amelyben ",
+      "szilárd anyago",
+      "t oszlatn",
+      "a",
+      "k szét folyékony oldószerben",
+      ") mechanikus elválasztása egy ",
+      "szűrőközeg",
+      " (áteresztő réteg) segítségével. A szilárd anyagtól megszabadított folyadékot szűrletnek nevez",
+      "i",
+      "k, a szűrőközegen visszamaradó szilárd anyag pedig szűrőpogácsát képez annak tetején. Az élelmiszer-előállításhoz használt szűrőrendszerek rendkívül változatosak. A derítő szűrések alapvetően három működési elv alapján ",
+      "különböztethetők",
+      " meg:"
+    ],
+    [
+      "felületi vagy szitaszűrés",
+      " ",
+      "statikus vagy dinamikus ",
+      "kivitelben (membránszűrő vagy ",
+      "„",
+      "cross",
+      " flow” szűrő",
+      ")"
+    ],
+    [
+      "mélyágyas szűrés",
+      ", pl. rétegszűrőkön keresztül"
+    ],
+    [
+      "pogácsaszűrés",
+      " (ráiszapoló szűrés) állandó, csökkenő vagy növekvő rétegű változatban"
+    ],
+    [
+      "Felületi vagy szitaszűrés"
+    ],
+    [
+      "A felületi vagy szitaszűrésnél a seprőrészecskéket egy olyan gát tartja vissza, amelynek pórusai kisebbek, mint a részecskék átmérője. A ",
+      "membrán",
+      ", mint tulajdonképpeni gát általában nagyon vékony, anyagtól és gyártótól függően 50–200 µm vastagságú. Alatta egy többszintes, durva pórusú, saját szűrőhatás nélküli tartószövet található. A membránok polimerekből ",
+      "(műanyag membránok)",
+      " vagy szilícium- vagy titán-oxidokból ",
+      "(kerámia membránok)",
+      " készült többrétegű szövetből állnak, a felületükön repedezettek, és inkább hasonlítanak egy háromdimenziós, szivacsszerkezetű „mélyszövetre”, mint egy sima, meghatározott pórusokkal rendelkező felületre.  A 0,45 µm-es membránnak biztosítania kell, hogy minden nagyobb részecske visszamaradjon",
+      ", tehát ",
+      "a ",
+      "0,45 mikrométernél nagyobb részecskék elzárják a pórusokat, ezért a kisebb részecskék ",
+      "s",
+      "em jutnak át",
+      ", ",
+      "fennakadnak. A szűrési idő alatt felhalmozódó szűrőpogácsa növeli az áramlási ellenállást és csökkenti a ",
+      "szűrletáramlást ",
+      "(fluxus l/m",
+      "2",
+      "h-ban)",
+      ". Ha a membránfelület és a szűrési irány merőleges egymásra, akkor ",
+      "statikus",
+      " vagy ",
+      "„",
+      "dead",
+      " ",
+      "end”szűrésről",
+      " beszélünk."
+    ],
+    [
+      "A ",
+      "„",
+      "cross",
+      " flow” szűrők",
+      " olyan membránszűrők, ahol a vékony membrán hosszú kerámia- vagy polimercsövek („spagettik vagy makarónik”) belső falán található. A szuszpenziót nagy áramlási sebességgel, a membrán felületével párhuzamosan vezetik át ezeken a csöveken. A rendszer minden irányban ható nyomása miatt egy részmennyiség szűrletként ",
+      "(",
+      "permeátumként",
+      ")",
+      " áthalad a membránon. A fő áramlás, a ",
+      "retentátum",
+      " ",
+      "(koncentrátum vagy sűrítmény)",
+      " körforgásban van vezetve („",
+      "cross",
+      " flow”). A szűrőfelülettel párhuzamos áramlású szűrést ",
+      "dinamikus szűrésnek",
+      " nevez",
+      "i",
+      "k. A seprőanyagok kezdetben lerakódnak a membrán felületén, a statikus szűrés analógiájára",
+      " (ahhoz hasonlóan)",
+      "."
+    ],
+    [
+      "A nagy dinamikus beáramlás turbulens (gomolygó, örvénylő) áramlást hoz létre. Ez folyamatosan eltávolítja a szűrőpogácsát, és annak tartalmát visszavezeti a ",
+      "retentátumba",
+      ". ",
+      "Tehát a sűrítmény fokozatosan dúsul a seprőanyagokkal, ami csökkenti a szűrletáramlást. A szűrőpogácsa növekedésével a szűréshez szükséges nyomás növekszik, ha a ",
+      "permeátumáramlás",
+      " állandó marad. Alternatív (választható) megoldásként a ",
+      "permeátumáramlás",
+      " állandó bemeneti nyomás mellett ",
+      "csökken. A",
+      " 2",
+      ". ábra a statikus és a dinamikus szűrést hasonlítja össze."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "2",
+      "",
+      ". ábra:",
+      " A statikus és dinamikus szűrés összehasonlítása"
+    ],
+    [
+      "A",
+      " 3",
+      ". ábra a szitaszűrési gyakorlatban használt különböző elemeket mutatja."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "3",
+      "",
+      ". ábra:",
+      " Felület (1), elemek (2), modulok (3) és berendezés (4) mint a membránszűrés részei"
+    ],
+    [
+      "„",
+      "Dead",
+      " end” membránszűrő:",
+      " A",
+      " 3",
+      ". ábra jobb felső részén három, ",
+      "összehajtogatott",
+      " (pliszírozott) polimer membránból készült ",
+      "szűrőgyertya ",
+      "látható, am",
+      "e",
+      "lyeket a „",
+      "dead",
+      " end” steril szűréshez zárt házakba helyeznek. A membránvastagságuk nagyon alacsony, ",
+      "< 200",
+      " µm, akárcsak a seprőfelvevő kapacitásuk. Használatuk előfeltétele az éles előszűrés. A membránszűrők csak a szétszórt részecskék biztonsági szűrőjeként működhetnek. A seprőanyagok főként a felszínen maradnak vissza, a baktériumok vagy kolloidok gyakran behatolnak. A biztosan élesztőmentes szűréshez 0,65 µm pórusméretű szűrőanyagokat kell használni. Az élelmiszeriparban gyakran előforduló baktériumok még kisebb, 0,45 µm-es porozitást igényelnek. Ha a vírusokat is vissza kell tartani, ",
+      "< 0",
+      ",1 µm-re van szükség."
+    ],
+    [
+      "A steril szűrőnek szánt rendszer hatékonyságának és eredményességének minőségi mérőszáma a csírák visszatartása, LRV-",
+      "ben",
+      " ",
+      "(„",
+      "Logarithmic",
+      " ",
+      "Bacteria",
+      " ",
+      "Retention",
+      " ",
+      "Value",
+      "”)",
+      " kifejezve. A steril szűrésnél hetes redukciós értéket írnak elő, azaz a csíraszám hét tízes hatvánnyal való csökkentését. A 10",
+      "8",
+      " csíra/ml bemeneti értéket 10",
+      "1",
+      "-re kell csökkenteni."
+    ],
+    [
+      "„",
+      "Cross",
+      " flow” rendszerek:",
+      " A kerámia membrán felülnézetéből",
+      " a",
+      " ",
+      "4.",
+      " ábrán ",
+      "(",
+      "1.",
+      "balra fent) látható, hogy a pórusok különböző méretűek, és csak a mélyben biztosítják a meghatározott részecskeméretek visszatartását. Ha a hatékony membrán vastagsága 50 µm, akkor a pl. 0,5 µm átmérőjű baktériumoknak egy olyan úton kell átáramolniuk, amely átmérőjük 100-szorosának felel meg. A",
+      " 4. ábra",
+      " alapján érthető, hogy a membránszűrők bizonyos mértékig mélyszűrők is. Ezt a hatást felerősíti a fedőréteg."
+    ],
+    [
+      "A kerámia vagy polimer membránokat (",
+      "4",
+      ". ábra, balra lent, a kerámia példáján) házakban kombinálják, hogy olyan ",
+      "modulokat",
+      " alkossanak, amelyeken az áramlás hosszirányban halad át. A bal alsó ábra",
+      " (",
+      "4",
+      ". ábra)",
+      " az arányokat egy kerámiaelem példáján mutatja be. A nyomásveszteség, azaz a membrán előtti keringési nyomás és a szűrlet gáton való áthaladás utáni nyomása közötti különbség a ",
+      "transzmembránnyomás",
+      " (TMP)",
+      ". Minél alacsonyabb, annál kedvezőbb a szűrés. A TMP-t a szűrőréteg vastagsága, de annak tulajdonságai is meghatározzák. A nyálkás anyagok hajlamosak tömörödni, a felső réteg ilyenkor szinte áthatolhatatlan. A nagy nyomás további szivattyúenergiát igényel a ",
+      "felhordáshoz, és megvastagítja a fedőréteget. A gyakorlatban a szűrés 2 bar feletti TMP-nél leáll. A jobb alsó képen",
+      " (",
+      "4",
+      ".ábra)",
+      " egy hat modulból, egy nagy ",
+      "keringető",
+      " szivattyúból és egy csatlakoztatott hűtőből álló rendszer látható, amelynek el kell vezetnie a hővé alakított energiát. A kis tápszivattyú pótolja a munkatartályból a kiürült ",
+      "permeátummennyiséget",
+      "."
+    ],
+    [
+      "A membránok pórusméretei (",
+      "4",
+      ". ábra, középen felül) különböző dinamikus szűrőrendszereket határoznak meg: ",
+      "m",
+      "egkülönböztet",
+      "hető",
+      " ",
+      "mikro-, ultra- és ",
+      "nanoszűrés",
+      ", valamint fordított ozmózis",
+      " ",
+      "(",
+      "reverz",
+      " ",
+      "ozmiózis",
+      ").",
+      " A membrán ",
+      "elválasztási vagy kizárási határát („",
+      "cut",
+      " ",
+      "off",
+      "”)",
+      " ",
+      "„",
+      "Nominal",
+      " ",
+      "Molecular",
+      " ",
+      "Weight",
+      " ",
+      "Cut",
+      " ",
+      "off",
+      "” ",
+      "-ként (",
+      "NMWC",
+      "; mértékegység",
+      "e",
+      ": ",
+      "dalton",
+      ") adják meg. Egy ",
+      "dalton",
+      " körülbelül a hidrogén tömegének felel meg. A 100 000 Dalton NMWC-vel rendelkező ultraszűrőmembrán tehát visszatartja a 100 000-nél nagyobb molekulatömegű anyagokat. A durva pórusú ",
+      "mikroszűrés",
+      " és ultraszűrés a részecskéket egy gát segítségével blokkolja, míg a ",
+      "nanoszűrés",
+      " és a fordított ozmózis az elválasztandó részecskéknek a membránon keresztül történő ",
+      "oldatdiffúziója",
+      " révén „szűr”. A molekulákat a membránon és a membránban lévő folyadék feloldja, és átdiffundálnak rajta. A 6.6. ábra az említett rendszerek folyamatparamétereit mutatja."
+    ],
+    [
+      "A fordított ozmózis („",
+      "reverse",
+      " ",
+      "osmosis",
+      "”, RO) többek között tengervíz sótalanítására használható. A víz kivételével gyakorlatilag minden molekula visszamarad. A fordított ozmózis a biológiában széles körben alkalmazott ",
+      "ozmózis elvét használja",
+      ", de nagy nyomás alkalmazásával megfordítja az irányt. ",
+      "A biológiai sejtekben a víz a sejtmembránon keresztül egy alacsony koncentrációjú oldatból egy magasabb koncentrációjúba áramlik át",
+      ". A cél a koncentráció kiegyenlítése. Az eredetileg magasabb koncentrációjú területen ekkor több folyadék lesz, a nyomása megnő. A növekedés az ozmotikus nyomás. A műszaki területen a magasabb koncentrációjú olda",
+      "tot",
+      " pl. a tengervizet, nagy nyomás alá helyezik. Ekkor tiszta, ",
+      "sótalanított",
+      " víz áramlik át a félig áteresztő RO-membránon. A ",
+      "retentátum",
+      " tovább koncentrálódik, amíg az ekkor szükséges, még magasabb üzemi nyomás le nem állítja a folyamatot. Az RO esetében is szükség van „",
+      "cross",
+      " flow”-",
+      "ra",
+      ". Ha a fordított ozmózis membrán kimeneténél lezárj",
+      "á",
+      "k a nagynyomású szelepet, a folyadékban lévő nyomás megnő. Amint a ",
+      "folyadék nyomása nagyobb, mint a szűrendő termék ozmotikus nyomása, a víz átjut a membránon."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "4",
+      "",
+      ". ábra:",
+      " A mikro-, ultra- és ",
+      "nanoszűrés",
+      ", valamint a fordított ozmózis folyamatparaméterei"
+    ],
+    [
+      "A membráneljárások közé tartoznak más rendszerek is, amelyeket diffúziós elválasztási eljárásoknak is nevezn",
+      "e",
+      "k: ",
+      "d",
+      "ialízis",
+      ", ",
+      "elektrodialízis",
+      "(",
+      "vízben oldott ionok szétválasztására használt eljárás elektromos mező segítségével)",
+      " és ",
+      "pervaporáció",
+      ".",
+      " A dialízis egy ",
+      "koncentrációvezérelt",
+      " membránfolyamat, amely segít eltávolítani az ionokat vagy kis molekulákat, például sókat vagy cukrokat az oldatokból, miközben a nagy molekulákat (fehérjéket vagy szénhidrátokat) visszatartja. A hajtóerő a koncentrációkülönbség, amely biztosítja a ",
+      "diffúziót",
+      " egy féligáteresztő membránon keresztül. A membrán egyik oldalán a tiszta oldószer, a másikon az oldat van. Csak az ",
+      "kis",
+      " molekulájú komponensek diffundálnak át a membránon az oldószerbe Ez az eljárás például a kálium és a borkősav borból történő elválasztására használható, stabilizálva azt a borkő palackban történő kicsapódása ellen."
+    ],
+    [
+      "A ",
+      "pervaporációhoz",
+      " megfelelő, nagyon sűrű membránra van szükség, amelyen keresztül az elválasztandó anyag fizikai-kémiai tulajdonságai miatt sokkal jobban tud diffundálni, mint az oldószer. A bor alkoholmentesítése során a víz az oldószer, az etanol pedig az elválasztandó anyag, amelynek át kell diffundálnia a membránon, és a membránon áthatolva annak hátoldalán el kell párolognia. Az alkoholgőzt ezután ",
+      "permeátumként",
+      " leszívják és külső helyen kondenzálják. A membrán belső oldalán visszamarad az alkoholszegény bor. Az etanol jobban behatol a membránba, és a membrán belső felületén ",
+      "adszorbeálódik",
+      ", vagy a membrán teljes anyagában feloldódik. A membrán külső oldala felé haladva az alkohol koncentrációja csökken, mivel a membrán felületén elpárolog, és folyamatosan elszívódik a ",
+      "szállító gáz",
+      " (pl. nitrogén) segítségével. Az etanol membránon keresztüli diffúziójának hajtóereje a membrán keresztmetszetén áthaladó koncentrációgradiens."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "5",
+      "",
+      ". ábra:",
+      " Koncentrációs polarizáció (szétválasztás) a membrán felszínén"
+    ],
+    [
+      "„",
+      "Membranfouling",
+      "” (fedőréteg kialakulása):",
+      " A „",
+      "cross",
+      " flow” membráneljárások fedőréteg-orientált ",
+      "eljárások",
+      ".",
+      "A",
+      " membránokon kialakuló lerakódások, szennyeződéseket jelenti a ",
+      "fedőréteg, ami csökkenti a membrán hatékonyságát. Ez a fedőréteg kialakulása a membrán mikropórusaiban vagy felszínén történhet."
+    ],
+    [
+      "Az 5",
+      ". ábra bemutatja a helyzetet egy membrán felületén.",
+      " A membrán egyik oldalán nő a koncentráció, mivel a szűrt anyag felhalmozódik a membrán felületén. Ez csökkenti a membrán ",
+      "átesztőképességét",
+      " és hatékonyságát. Csökken az áthaladás a membránon, és a ",
+      "hetékonyság",
+      " is. ",
+      "Permeátum",
+      " fluxus, az az anyag vagy folyadék, amely egy membránon ",
+      "kersztül",
+      " átjut egy adott területen időegység alatt. Minél nagyobb a ",
+      "permeátum",
+      " fluxus, annál gyorsabban áramlik át az anyag a membránon."
+    ],
+    [
+      "Mélyágyas szűrés"
+    ],
+    [
+      "Mélyágyas szűrés olyan szűrési eljárás, amely mélyebb rétegeket is átfog a szűrőanyagban",
+      ". pl. légszűrésnél használják."
+    ],
+    [
+      "A mélyágyas szűrőrendszerekre példák a ",
+      "rétegszűrők",
+      " és a ",
+      "mélyágyas hatású szűrőmodulok",
+      ". Mindkét esetben a gát, amely a seprőanyagokat hivatott visszatartani, egy több milliméter vastag, ",
+      "labirintusszerűen",
+      " felépülő, sűrű, háromdimenziós szövet, amelynek pórusai a tér mélyére hatolva egyre szűkülnek. Üregtérfogatuk 70–80%-os is lehet, ami által nagy seprőtároló kapacitással rendelkeznek. A részecskék visszatartásának különböző módjait a 6. ábra a-d. illusztrációi mutatják. A gyakorlatban az összes mechanizmus általában egyszerre, különböző arányban fordul elő."
+    ],
+    [
+      "A megfelelő méretű, nem összenyomható, stabil alakú részecskék",
+      " már a felületen lerakódnak, és szűrőpogácsát alkotnak (",
+      "6. ",
+      "a. ábra). Ez fokozatosan csökkenti a szűrő teljesítményét, míg végül az ellenállása eléri a bemeneti nyomás mértékét, és a szűrés legkésőbb ekkor leáll. Ilyen körülmények uralkodnak homok, por vagy élesztősejtek szűrése során."
+    ],
+    [
+      "A ",
+      "hidrokolloidok",
+      " elválasztását a ",
+      "6. ",
+      "b. ábra mutatja. Ezek a részecskék ",
+      "összenyomhatóak",
+      ", ",
+      "deformálhatóak",
+      ", és képesek részben behatolni a pórusokba, és azokat parafadugóhoz ",
+      "hasonlóan lezárni. A megfelelő koncentráció esetén a szűrő nagyon gyorsan megtelik, megnehezíti a szűrést."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "6",
+      "",
+      ". ábra:",
+      " Részecskevisszatartás mélyágyas szűrők segítségével"
+    ],
+    [
+      "A",
+      " 6. ",
+      "c. ábra azt a helyzetet tükrözi, amikor ",
+      "a kis részecskék megrekednek a szűkülő pórusokban",
+      ". A kisebb mikroorganizmusokat gyakran választják el ilyen módon, de a kolloidokat is."
+    ],
+    [
+      "Eddig az elválasztás mechanikusan történik. A",
+      " 6. ",
+      "d. ábra a részecskék ",
+      "a",
+      "b",
+      "szorpciós ",
+      "lerakódását",
+      " mutatja a szűrőelemeken elektrokinetikus erők",
+      " ",
+      "(elektromos töltések mozgására ható erők)",
+      " segítségével."
+    ],
+    [
+      "Szűrési egyenlet",
+      ":",
+      " A szuszpenziók szűrésének kezdeti lefolyását kellő pontossággal írja le a szűrési egyenlet. Az r x w szorzat jellemzi a seprőanyag mennyiségét és a belőle képződött szűrőpogácsa tulajdonságait. Ez a szűrőpogácsa megnehezíti a szűrést, és a szűrő rétegvastagsága megnő. A gyakorlatban a szűrések során a megfelelő jelleggörbékkel rendelkező szivattyúk hosszú ideig állandó értéken tartják az áramlást, de a p szűrési nyomás a szűrő telítettségének növekedésével nő. A szűrés élességének mértékétől függően a ",
+      "maximálisan megengedett szűrési nyomás a korlátozó tényező. Ha viszont a p nyomást állandó értéken tartj",
+      "á",
+      "k, az áramlás a szűrőpogácsa növekedésével csökken."
+    ],
+    [],
+    [
+      "Szűrési egyenlet; A = szűrőfelület, Éta (η) = a szuszpenzió viszkozitása, r = a seprőanyag specifikus tulajdonsága, w = a seprőanyag mennyisége, p = szűrési nyomás, q = átáramlás (fluxus), ",
+      "dt",
+      "/",
+      "dq",
+      " = reciprok szűrletáramlás (fluxus egységnyi idő alatt), ",
+      "R",
+      "m",
+      " = a szűrőréteg specifikus tulajdonsága."
+    ],
+    [
+      "Változatlan viszkozitás, adott A szűrőfelület és a seprőanyag állandó tulajdonságai mellett a szűrési egyenlet a következőkre egyszerűsödik:"
+    ],
+    [],
+    [
+      "Szűrési egyenlet állandó körülmények mellett; a = a szűrési egyenes meredeksége, b = a szűrési egyenes metszéspontja az ordinátán."
+    ],
+    [
+      "A gyakorlatban két különböző rendszert használn",
+      "a",
+      "k:"
+    ],
+    [
+      "mélyágyas szűrőrétegekkel rendelkező szűrő ",
+      "nyitott rendszerben"
+    ],
+    [
+      "moduláris kialakítású mélyágyas szűrőrétegekkel rendelkező szűrő ",
+      "zárt rendszerben",
+      "."
+    ],
+    [
+      "A nyitott rendszerekben a szűrőlemezeket kézzel behelyezik egy keretbe. A szuszpenzió egyenletesen eloszlik az üreges szűrőlemezekben, átfolyik a szűrőelemeken, és szűrletként középen összegyűlik. A modulszűrők korongokkal vagy gyertyákkal szerelhetők fel. Ezekben a rendszerekben a szűrés általában kívülről befelé halad. A szűrlet elvezetése központilag történik. A mélyágyas szűrőrétegekkel ellátott modulszűrők úgy működnek, mint a nyitott szűrőrétegek. Két egymás fölött elhelyezett kerek szűrőkorong egy-egy közbülső vízelvezető és tartólemezzel összekötve moduláris szűrőcellát alkot, amely a külső szélén körbefutó fröccsöntéssel van lezárva. Több ilyen szűrőcella – távtartókkal kissé elválasztva és kompakt módon egymásra helyezve – be van építve egy hermetikusan lezárt házba. A szűrő ",
+      "cseppmentes, viszonylag kis keveredési zónával rendelkezik, és a nyitott rendszerekhez képest sokkal higiénikusabb. A",
+      " 7",
+      ". ábra bemutatja a különböző rendszereket és a hozzájuk tartozó szűrőelemeket."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "7",
+      "",
+      ". ábra:",
+      " Lapszűrők (bal oldal-fent) és moduláris mélyágyas(jobbra) szűrők a megfelelő szűrőházakkal"
+    ],
+    [
+      "Mint minden mélyágyas szűrő, a modulok is viszonylag nagy seprőfelvételi kapacitással rendelkeznek. A visszaöblítés a kimenettől a bemenet felé vízzel történik. A modulok függőlegesen egymásra építhetők, és a nyitott lapszűrőkhöz képest kis helyet igényelnek. A gyártó utasításainak megfelelő használat, visszamosás és sterilizálás után bármikor ",
+      "használatra készek. A nyitott szűrőtartozékokat viszont higiéniai okokból legalább hetente ki kell dobni."
+    ],
+    [
+      "Ráiszapoló szűrés"
+    ],
+    [
+      "Ráiszapoló szűrés esetén a derítés – szűrőközegként ",
+      "kovaföldet",
+      ", ",
+      "perlitet",
+      " vagy cellulózt",
+      " alkalmazva – olyan szűrőelemekben történik, amelyekre a szűrőközeget és a derítendő szuszpenziót együttesen visz",
+      "i",
+      "k fel."
+    ],
+    [
+      "Ezt a szűrési technikát a folyamatosan növekvő szűrőréteg jellemzi. Ezzel szemben a forgó vákuumszűrővel történő szűrés során ez csökken. A réteg állandó marad, pl. ",
+      "kamrás szűrőkben",
+      ", ha nincs további szűrőközeg adagolás. Az ilyen szűrőrendszereket ma is használják az italgyártásban, de a folyékony közeggel extrahált termékek (zselatin, pektin, fehérje stb.) szűrésére is. Tekintettel a szakaszos üzemmódra és a szűrőközeg ökológiai problémájára, alternatívaként egyre gyakrabban alkalmaznak „",
+      "cross",
+      " flow” szűrőket vagy centrifugákat. A",
+      " 8",
+      ". ábra a ráiszapolás elvén alapuló szűrőrendszerek különböző ",
+      "működési típusait ",
+      "mutatja be."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "8",
+      "",
+      ". ábra:",
+      " A legfontosabb ráiszapoló szűrők elvi funkciója az élelmiszer-technológiában; ",
+      "\n",
+      "1 = forgó vákuumszűrő; ",
+      "\n2 = kamrás szűrő",
+      ";",
+      "\n3 = ",
+      "diatómaföld",
+      " (üledékes kőzet) szűrők derítőelemei; ",
+      "\n4 = egy vízszintesen szűrő ",
+      "diatómaföld",
+      " szűrő alsó elemei."
+    ],
+    [
+      "A préselés speciális esete"
+    ],
+    [
+      "A szuszpenziók kipréselése, a szűréshez hasonlóan, szilárd-folyadék ",
+      "szét",
+      "választás. Az erre a célra használt ",
+      "berendezés",
+      "eket ezért a folyamattechnikában általában szűrőpréseknek nevezik. A hajtóerő a szuszpenzió és a ",
+      "távoz",
+      "ó folyadék nyomása közötti különbség. A",
+      " 9",
+      ". ábra a szuszpenzió kipréselésének elvét mutatja be. A szilárd anyagok szűrőpogácsát képeznek, a ",
+      "szabad folyadék pedig utat keres a szövet kapillárisain keresztül, és szitalemezeken vagy más porózus szerkezeteken keresztül távozik a présből."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "9",
+      "",
+      ". ábra:",
+      " Szituáció statikus ",
+      "léelvezetés",
+      " és nyomással történő kipréselés esetén (sötét színű: szabad folyadék a részben kiürült sejtek között)."
+    ],
+    [
+      "A ",
+      "szakasz",
+      "osan működő prések a nyomást pneumatikusan gázzal (tartályos prések, csőprések), hidraulikusan folyadékkal (orsós prések) vagy mechanikusan egy mozgatható alapra nyomó csavarral (kosaras prések, csigás prések) fe",
+      "jtik ki",
+      "."
+    ],
+    [
+      "A",
+      " 10",
+      ". ábra három, az élelmiszer-technológiában gyakran használt préselési rendszert mutat be. Egy negyedik változat lehet a kamrás szűrőprés.",
+      "pl. borászat"
+    ],
+    [
+      "A durva szilárd anyagok (",
+      "sörlé",
+      ", szőlőtörköly, a bor- vagy gyümölcslé-ágazatban feldolgozott seprő) esetében szűrőközeg nélkül is lehet dolgozni. A ta",
+      "nkp",
+      "rések a legkorszerűbbek a bogyós gyümölcsök lepréseléséhez, a csigás prések pedig a magvak (repce, szója stb.) feldolgozásához. A szalagprések nagy teljesítmény esetén előnyösek és akkor, ha gyakori tételcserékre van szükség."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "10",
+      "",
+      ". ábra:",
+      " 1 = tankprés; 2 = impulzusos csigaprés; ",
+      "3 = szalagprés"
+    ],
+    [
+      "Szuszpenziók és ",
+      "emulziók",
+      " ",
+      "szét",
+      "választására szolgáló gravitációs rendszerek"
+    ],
+    [
+      "Ha a ",
+      "nyomáskülönbséget",
+      " használják a fázisszétválasztás hajtóerejeként, csak kétfázisú szilárd-folyadék rendszerek deríthetők. A ",
+      "gravitáció",
+      ",",
+      " mint hajtóerő szintén képes az ",
+      "emulziók",
+      " szétválasztására – beleértve a további szilárd tartalmat is",
+      ". Az emulziók két nem keverhető folyadékból állnak, amelyek közül az egyik cseppek formájában finoman eloszlott. A legjobb példák a nyers tej vagy a savó, amelyek domináns vízfázist, kevesebb mint 4% zsírt és nyomokban durván ",
+      "diszpergált",
+      " szilárd anyagokat tartalmaznak.",
+      " ",
+      "Erre példa még: majonéz, ",
+      "vaj",
+      ".",
+      "Ezzel",
+      " szemben a sajtolással nyert étolajok főként olajfázisból állnak, amely szilárd fázisként víz és növényi szövetdarabokat tartalmaz. A gravitációs elválasztás előfeltétele a két vagy három fázis közötti ",
+      "sűrűségkülönbség",
+      " és a 0,5–1 µm feletti részecskeméret. Az élelmiszer-technológiában a következő gravitációs rendszereket használják:"
+    ],
+    [
+      "ülepítés",
+      " a gravitáció hatására"
+    ],
+    [
+      "centrifugálás ",
+      "ülepítő centrifugákkal, amelyekben a forgó rendszerek a gravitációs erő többszörösét hozzák létre"
+    ],
+    [
+      "hidrociklonok",
+      ", ",
+      "mint egyfajta centrifugák forgó folyadékkal és rögzített házzal (csak szilárd-folyadék ",
+      "szét",
+      "választásra alkalmasak)"
+    ],
+    [
+      "flotálás",
+      ",",
+      " mint speciális eljárás, amely a részecskék eltérő nedvesíthetőségét használja ki, és a gravitáció ellenében egy húzógáz segítségével felfelé szállítja a seprőanyagokat"
+    ],
+    [
+      "A",
+      " ",
+      "1",
+      "1",
+      ". ábra összehasonlítja az ülepítés és a centrifugálás folyamatait. A felhajtóerő és a gravitációs erő ellentétes irányban hat a részecskékre az ülepítés során, és mindkettőt a folyadék ",
+      "viszkozitása",
+      " (belső súrlódása)",
+      ", a ",
+      "sűrűségkülönbség ",
+      "és a ",
+      "részecskeméret",
+      " határozza meg. Az alacsony hőmérséklet növeli a folyadék viszkozitását és az ülepedés ellen hat. Ugyanez vonatkozik a magas tartályok hosszú ülepedési távolságaira is. A seprőanyagoknak több időre van szükségük ahhoz, hogy elérjék a tartály alját. A tartályban koncentrációgradiens jön létre, az aktuális derítési fok",
+      " ",
+      "(derítés hatékonyságát-eredményét ",
+      "adja meg)",
+      " meghatározásához különböző magasságokból kell mintákat venni és átlagolni kell őket. Végül az alsó részen a seprőanyag lassan tömör seprővé sűrűsödik."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "11",
+      "",
+      ". ábra:",
+      " A szilárd-folyadék szétválasztás elvei ülepítéssel vagy centrifugálással"
+    ],
+    [
+      "A centrifugában a ",
+      "Föld gravitációs",
+      " ",
+      "mezejét",
+      " megtöbbszörözi a forgó test (a ",
+      "centrifuga",
+      " dobjának) ",
+      "centrifugális ereje",
+      ". Az, hogy ez a Föld gravitációs terének hányszorosa, a dob r sugarától és szögsebességétől függ. A nagy centrifugák – pl. a tej fölözésére vagy étolaj finomítására szolgáló centrifugák – több mint egy méteres dobátmérővel és 200 m/s-",
+      "nál",
+      " nagyobb kerületi sebességgel működnek."
+    ],
+    [
+      "Az élelmiszer-technológiában a nagyszámú centrifuga közül főként kétféle centrifugát használnak: a ",
+      "dekantereket",
+      " és a szeparátorokat",
+      ". A",
+      " 12",
+      ". ábra ezen eszközök keresztmetszeti nézeteit mutatja."
+    ],
+    [
+      "Szeparátor:",
+      " A derítendő szuszpenzió egy bemeneti csövön keresztül jut be a forgó dobba."
+    ],
+    [
+      "Ott a lehető legkíméletesebben felgyorsítják a forgási sebességre, kifelé irányítják a dob perifériája felé, és a szeparátor tányérok között kialakuló egyedi szeparáló terekben vékony rétegekre osztják. A tányérok összessége alkotja a tányérköteget."
+    ],
+    [
+      "A részecskék a rájuk ható centrifugális erő miatt sugárirányban kifelé lökődnek, miközben a kisebb sűrűségű folyadék tovább áramlik a dob közepe felé."
+    ],
+    [
+      "A szeparátor felső részén található két tányéron keresztül távoznak a szétválasztott frakciók."
+    ],
+    [
+      "A szuszpenzió teljes tartózkodási ideje a dobban kevesebb, mint fél perc, és így csak töredéke az átfolyó ülepítő medencében töltött időnek. A nagy sűrűségű részecskék gyorsan elválasztódnak, a kis, könnyű részecskék esetleg egyáltalán nem. Ezek a medencét vagy a tányérrést a „tiszta fázissal” együtt hagyják el."
+    ],
+    [
+      "A",
+      " tányérrésben a mozgásuk a ",
+      "radiális ",
+      "(sugár irányú) ",
+      "centrifugális gyorsulás és a folyadékáramlás húzó mozgásának eredménye.",
+      " Minél ",
+      "keskenye",
+      "bb az egyedi szeparáló tér, annál rövidebb az ülepedési távolság és annál hatékonyabb az elválasztás. A modern szeparátorok több mint 200 tányért tartalmazó tányérköteggel és 0,5 mm-es vagy annál kisebb tányértávolsággal rendelkeznek."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "12",
+      "",
+      ". ábra:",
+      " Egy szeparátor és egy ",
+      "dekanter",
+      ", valamint egy dob metszeti nézete"
+    ],
+    [
+      "A",
+      " legnagyobb sűrűségű",
+      " szilárd anyag összefüggő rétegben",
+      ", a szilárdanyag-térben összegyűlik, és onnan időszakosan ",
+      "kiürül. A szeparátorok ezért a szilárd fázis tekintetében ",
+      "szakaszosan működne",
+      "k, de a folyadék tekintetében folytonosak. A centrifuga méretétől függően a seprőfelvevő kapacitás ",
+      "2",
+      " és 45 liter között van. Az ürítéshez a forgó dob falának peremén lévő lyukakat – a ",
+      "dob hidraulikája",
+      " által vezérelve – a másodperc tört részére meg kell nyitni, ",
+      "hogy a szilárd anyagok robbanásszerűen kilőhessenek rajtuk keresztül. A szükséges nagy nyomást a centrifugális erő biztosítja. Mielőtt a folyadék is távozhatna, a dobot újra le kell zárni. Minél gyorsabban és egyenletesebben fut le az egész folyamat, annál nagyobb lesz a szilárd anyag szárazanyag-tartalma."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "13",
+      "",
+      ". ábra:",
+      " A tányérrésben zajló folyamatok összehasonlítása az átáramoltatott ülepítőtartállyal (Q=",
+      "időegységenkénti",
+      " átfolyás; ",
+      "Vfl",
+      "=a folyadék sebessége; ",
+      "Wf",
+      "=a centrifugális erő hatásiránya)."
+    ],
+    [
+      "A szeparátoroknak több tucat változata létezik, szerkezetileg az adott feladathoz igazítva. Gyakorlatilag mindenütt ",
+      "két- vagy háromfázisú rendszerként",
+      " működnek, ahol folyadékokat vagy szuszpenziókat kell deríteni vagy elválasztani. Ilyen például a seprő elválasztása a préselés után, vagy citrusfélék esetében a kivonás után, az alkoholos erjedést követő élesztőmentesítés, a növényi olajok ",
+      "nyálkátlanítása",
+      ", a tej és a savó derítése vagy lefölözése háromfázisú centrifugákkal, a friss sajt előállítása, a pékélesztő vagy más starterkultúrák kivonása, illetve a keményítő vagy fehérje kivonása."
+    ],
+    [
+      "A ",
+      "dekanterek",
+      " (csigás centrifugák) ",
+      "egy gyorsan forgó hengeres-kúpos dobbal rendelkeznek, amelybe a szuszpenziót egy messze behúzódó bemeneti csövön keresztül vezetik be. A folyadékot azonnal nagy centrifugális erő éri, és a másodperc tört része alatt felgyorsul a forgási sebességre. A nehezebb szilárd anyag a dob falának csapódik, a kifejezetten könnyebb folyadékfázis pedig folyadékgyűrűként fölötte ",
+      "helyezkedik e",
+      "l. A ",
+      "csiga",
+      " valamivel nagyobb peremsebességgel fut, mint a dob, és így a szilárd anyagokat a dob kúpos részén ",
+      "keresztül a kidobóba szállítja. A lé a csigaspirálok között a dob másik végébe áramlik, ahol a nyomás hatására elhagyja a gépet. A ",
+      "dekanter",
+      " mindkét fázis tekintetében folyamatosan működik, és így nagyobb mennyiségű szilárd anyagot is képes feldolgozni. A fordulatszám és a g-érték",
+      " ",
+      "(",
+      "nehézségi gyorsulás",
+      ")",
+      " alacsonyabb, mint a szeparátor esetében, és a közvetlen összehasonlításban ennek megfelelően a derítési fok is alacsonyabb. A ",
+      "dekanter",
+      " alkalmazási területei például a gyümölcspépek (gyümölcsök, zöldségek) ",
+      "lémentesítése",
+      ", a ",
+      "laktózkristályok",
+      " elválasztása a koncentrált savóból, a keményítő kivonása a burgonyából, a seprő sűrítése a borászatokban vagy a gyümölcslé",
+      " ",
+      "üzemekben, illetve a ",
+      "sörlé",
+      " feldolgozása a sörfőzdékben. A ",
+      "dekanterek",
+      " háromfázisú elválasztásra is használhatók, például az olajbogyópaszta olajmentesítésére",
+      "."
+    ],
+    [
+      "A ",
+      "hidrociklonok",
+      " olyan centrifugális leválasztók, amelyekben a folyadék egy ",
+      "helyhez kötött házban ",
+      "forog. A forgó áramlás a szuszpenziónak a rozsdamentes acélból vagy műanyagból készült hengeres házba nagy nyomás alatt történő tangenciális",
+      " (érintőleges) ",
+      "beáramoltatásával jön létre. A fajlagosan nehezebb szilárd részecskéket a centrifugális erő a falhoz löki, és spirális mozgást végezve a kúpos alsó részen át a kimeneti fúvóka felé mozognak. A derített folyadék egy elsődleges örvényben szintén lefelé áramlik, ahol visszafordítják, és egy merülőcsövön keresztül távozik a házból. A",
+      " 14",
+      ". ábra egy hidrociklont mutat be, amelyet például kristály- vagy homokleválasztásra használnak. Ha kisebb és könnyebb szilárd anyagokat kell elválasztani, akkor a ",
+      "ház átmérőjét",
+      " csökkenteni kell, és növelni kell a ",
+      "nyomásesést",
+      ". Ha nagyobb áteresztőképességre van szükség, több ciklont egy egységgé kombinálnak."
+    ],
+    [
+      "Részei közé tartozik a ",
+      "gritpot",
+      "-az üledéktartály, az ",
+      "apex",
+      " fúvóka-ami egy kifolyó, a kifolyó a ",
+      "hidrocikolonból",
+      " kilépő anyagot ",
+      "továbbítja",
+      ".A",
+      " tiszta fázis kifolyó a tisztább anyagok kimeneti ",
+      "ponja",
+      ", míg a befolyó a hidrociklonba bekerülő anyag bevezetését jelenti. Itt centrifugális erő segíti szétválasztani a különböző sűrűségű részecskéket."
+    ],
+    [
+      "Az ",
+      "elválasztási szemcseméret",
+      " (vagy határszemcseméret) nem abszolút előírásként értendő. A gyakorlatban az elválasztandó kristályok fele átjuthat a folyékony fázisba. A nagyobb elválasztási hatásfok olyan ciklonokat igényel, amelyeket többszörösen kisebb szemcsékre terveztek. Ugyanez a probléma a centrifugák esetében is fennáll. Azok elválasztási szemcsemérete is csak egy bizonyos százalékig érhető el a gyakorlatban. E gépek esetén az elválasztási hatékonyság javításának döntő változója az ",
+      "átbocsátott mennyiség",
+      ". Minél nagyobb, annál kisebb a derítési fok. A centrifugált (és szűrt) folyadékok mindig rendelkeznek egy maradék zavarossággal, amely a magukkal vitt, határrészecskeméret feletti részecskékből és az az alatti méretű, elméletileg bármilyen részecskékből származik."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "14",
+      "",
+      ". ábra:",
+      " Egy hidrociklon sematikus ábrázolása;"
+    ],
+    [
+      "A ciklonok, a centrifugák és a szűrők végső soron csak az egyik fázisból a másikba történő ",
+      "átmenet ",
+      "csökkentésre",
+      " szolgáló eszközök. Gyakran a gyakorlati célokra elegendő az eredmény, de sok esetben a derítési rendszerek kombinációjából álló ",
+      "hibrid eljárásokra",
+      " van szükség. Erre példa a sör derítése, ahol a centrifugák az élesztőgombákat 99%-os arányban képesek elválasztani. Ezzel ",
+      "a ",
+      "mikr",
+      "oba",
+      "sejtszám csökken. Az utána következő steril szűrésnek meg kell teremtenie a biológiai biztonságot, és a megmaradt csírákat is le kell választani",
+      "a",
+      "."
+    ],
+    [
+      "Oldott levegős flotálás a részecskék nedvesítésével"
+    ],
+    [
+      "A ",
+      "flotálás",
+      " egy olyan eljárás, amelyet az érckitermelésben már több mint 100 éve, a szennyvíztechnológiában pedig körülbelül 40 éve alkalmaznak. A világ szulfidos réz-, ólom- és cinkérctermelésének több mint 90%-át flotálással nyerik ki, és a szenet is így választják el a kőzetből. Általánosságban a flotálás a szuszpenzióban lévő finom szemcséjű részecskéknek a vízhez képest eltérő nedvesíthetőségük alapján, gázbuborékok segítségével történő szétválogatását jelenti. Azok, akik a ",
+      "rosttartalmú",
+      " ",
+      "gyümölcsleveket",
+      " szénsavas vízzel keverik, azt tapasztalják, hogy CO",
+      "2",
+      " szabadul fel, amely gyorsan felviszi a seprőrészecskéket a",
+      "z ital",
+      " tetejére. A múlt század kilencvenes éveitől kezdve széles körben elterjedt a gyümölcslevek derítése flotálással. Az eljárás a gázok azon tulajdonságát használja ki, hogy nyomás alatt erősebben oldódnak az üledékes lében, de a nyomás környezeti nyomásra történő csökkentésekor azonnal újra gázzá alakulnak."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "15",
+      "",
+      ". ábra:",
+      " Folyamatos oldott levegős flotációs folyamat"
+    ],
+    [
+      "A",
+      " 15",
+      ". ábra a folyamatos flotálás folyamatát mutatja be, ahogyan az nagyobb gyümölcslé",
+      " ",
+      "üzemekben a frissen préselt lé derítésére alkalmazható. A hatékony flotáláshoz a kolloid seprőanyagot ",
+      "pektolitikus",
+      " ",
+      "(pektinbontó) ",
+      "enzimekkel destabilizálni kell. Az adagolóállomásra elsősorban a magas Bloom-számmal",
+      " (gélkeménység értékszáma)",
+      " rendelkező zselatin opcionális hozzáadásához van szükség, amely tömörebbé teszi a seprőt, és javítja a derítőhatást. Szükség esetén bentonit és/vagy aktív szén is használható. A flotációs reaktorban a gáz és a ",
+      "must",
+      " egy ",
+      "hármas diszperziós rendszerré",
+      " (gáz, folyadék, szilárd anyag) keveredik össze. A ",
+      "gáztalanítás",
+      " és a flotálás a ",
+      "flotációs tartályban",
+      " történik. A ",
+      "flotált",
+      " iszapot",
+      " egy lassan forgó kaparó folyamatosan egy vályúba szállítja, és ",
+      "ott",
+      " lefelé elfolyik. A ",
+      "tiszta fázis",
+      " – szintén folyamatosan – a tartály legalsó pontjáról távolítható el. A folyamatos eljárások különösen alkalmasak nagyüzemi műveletek és/vagy nagyon nagy tételek esetén. A flotációs tartály körülbelül félórányi teljesítményt képes befogadni, és a must tartózkodási ideje körülbelül 30 perc."
+    ],
+    [
+      "Az általában sok kisebb tétellel dolgozó pincészetekben a ",
+      "félfolyamatos berendezések ",
+      "váltak be. Mindössze egy seprőtartályra, egy szivattyúra a megfelelő nyomás- és adagolóberendezésekkel, valamint egy derítőtartályra van szükség, amelyben a flotálás zajlik. Körülbelül egy óra tartózkodási idő után a seprő alatti tiszta fázist lefejtik."
+    ],
+    [
+      "Kitérő: műszaki trendek – Robotok"
+    ],
+    [
+      "Az élelmiszer-technológia gyakran használ olyan hagyományos eljárásokat, amelyeket a modern technológia segítségével teljesen automatizáltak és hatékonyabbá tettek, és amelyek ",
+      "higiéniailag",
+      " tökéletes, jó ár-érték arányú és biztonságos élelmiszereket eredményeznek, óriási óránkénti termeléssel. A mindenkori korszerű technológia számos köztes lépésben kísérte el az élelmiszer",
+      "-",
+      "termelést a kézművességtől az iparig. E lépések mögött az innovációk szinte végtelen bősége húzódik meg, amelyek hamarosan a legmodernebb technikává váltak, és amelyek életciklusának a következő innováció vetett véget. Az innováció a technikai területen azonban csak akkor volt észszerű és elfogadható, ha a vele előállított élelmiszer gazdaságosabb és/vagy jobb minőségű volt, mint azelőtt. Az innovációk soha nem öncélúak voltak, hanem egy cél felé irányultak. Gyakran egyértelműen meghatározott piaci igények motiválták őket, de legalább ilyen gyakran a beszállítóipar fejlesztései voltak. Az élelmiszer",
+      "-",
+      "előállítók és a beruházási javak gyártói közötti kölcsönhatás végső soron az élelmiszeripar valamennyi „",
+      "stake",
+      " ",
+      "holder",
+      "”-ének javát szolgálta."
+    ],
+    [
+      "Robotok"
+    ],
+    [
+      "A következőkben néhány újabb fejlemény vagy tendencia bemutatása következik, amelyektől a közeljövőben több várható, mint a gyártási folyamatok fokozatos javulása. Élelmiszeripar ",
+      "robotizásása",
+      " elterjedőben van."
+    ],
+    [
+      "A ",
+      "robotok",
+      " programozható, többcélú kezelőberendezések anyagok, munkadarabok, szerszámok vagy speciális termékek mozgatására. A múltban az élelmiszeripar elsősorban a nagyüzemi műveletekben használta őket olyan feladatokra, mint a ",
+      "raklapozás",
+      ", a csomagolás vagy átcsomagolás, illetve a komissiózás",
+      " (áruk összeválogatása igények szerint)",
+      " (DLG Trendmonitor, 2014). A nagyméretű ipari robotok ideális eszközök a monoton és nehéz munkák elvégzésére. Két, egyenként hét szabadságfokkal rendelkező karral felszerelve olyan munkahelyeken is használhatók, amelyek korábban nagy fizikai megterhelést igényeltek az emberektől. Használatuk további okai a magas fokú automatizálás, a hatékonyság általános javulása, a munkahelyek humanizálása és az üzem higiéniai helyzetének javítása. ",
+      "A kisüzemek kivételével a robotok ma már szinte minden üzemméretben megtalálhatók, és egyre gyakrabban alkalmazzák őket közvetlenül a termelésben is. A hangsúly a tejüzemeken van, de az ital-, a hús-, a kolbász- vagy a pékáruágazat trendjei is egyértelműen ebbe az irányba mutatnak. A ",
+      "robotika",
+      " témája az élelmiszeriparban az elmúlt 5 évben kinőtte a gyerekcipőt."
+    ],
+    [
+      "A robotika világa mára olyan kisméretű, könnyű, kedvező árú és rugalmas eszközöket fejlesztett ki, amelyek közvetlenül az emberrel együtt tudnak dolgozni, elválasztó védőzóna nélkül (ember-gép együttműködés; ",
+      "kobotok",
+      "). Különösen a precizitást és gyorsaságot igénylő munkáknál (úgynevezett ",
+      "pick",
+      " and ",
+      "place",
+      " alkalmazások) a robotok egyértelműen jobbak az embernél. A robotok élelmiszeripari alkalmazása a következő elemek kölcsönhatását igényli:"
+    ],
+    [
+      "robotok"
+    ],
+    [
+      "megfogók"
+    ],
+    [
+      "érzékelő technológia és rendszerirányítás"
+    ],
+    [
+      "képfeldolgozás"
+    ],
+    [
+      "A robotok rövid ciklusidőt tesznek lehetővé változó termékek esetén, például különböző élelmiszerek csomagolásakor. A központi alkotóelem egy megfelelő fogó",
+      "kar",
+      ", amely vákuumos vagy csipeszes fogást használ a ",
+      "k",
+      "olbászszeletek összeillesztésére, a pizzafeltét egyenletes elkészítésére vagy a különböző pralinék előírás szerinti elhelyezésére a dobozban. A teljes rendszer digitalizálása és automatizálása további lépéseket jelent az Ipar 4.0 felé vezető úton. A higiénikus kialakítás alapvető követelmény a robotok használatához. Így kiváltható az emberek által jelentett higiéniai gyenge pont, különösen az érzékeny területeken. További fejlesztések folynak a sertéshús robotok általi finomdarabolására, amelyet megterhelő körülmények között, nagyszámú dolgozónak kell végeznie. Ez a folyamat kifinomult érzékelési-mérési technológiát és megfelelő algoritmusokat igényel a robot mozgatásához, hogy lehetővé tegye az automatikus vágásvezetést."
+    ],
+    [
+      "A folyamatvonalakon belül több folyamatlépést is elvégezhetnek a robotok. Egymás után képesek a kolbászdarabokat felvágni, kiválogatni, elsődlegesen csomagolni, átcsomagolni és raklapra helyezni."
+    ],
+    [
+      "Ultrahangos alkalmazások"
+    ],
+    [
+      "Az ",
+      "ultrahangos alkalmazások ",
+      "már régóta ismertek a technológiában",
+      ".",
+      " Az élelmiszer-technológiában is egyre nagyobb sikerrel alkalmazzák már évek óta. Az ",
+      "ultrahang",
+      " az ember számára nem hallható, 20 kHz és 1,6 ",
+      "GHz",
+      " közötti frekvenciatartományba eső, 10–1000 W/cm",
+      "2",
+      " energiájú rezgések leírására használt kifejezés. Amikor az ultrahang terjedése során akadályba ütközik, a hanghullámok attól függően, hogy milyen anyaggal találkoznak, visszaverődnek, elnyelődnek, szóródnak vagy akadálytalanul áthaladnak. A folyamat során az érintett termékeket többek között rezgésbe hozhatják vagy felmelegíthetik, és radikális reakciók is lejátszódnak. A folyadékokban nagy ",
+      "kavitációs",
+      " buborékok",
+      " keletkeznek, amelyek szétesésükkor rendkívüli nyíróerőket okoznak. A 6.18. ábra az ultrahang eljárástechnikai és folyamatokat kísérő alkalmazási lehetőségeit mutatja be összefüggéseikben. Az ultrahangos kezelés nem termikus kezelés, csak mechanikus erő kerül bevitelre.",
+      " pl. ",
+      "gáztalanítás",
+      ", húspuhítás",
+      " Ez egy kíméletes eljárás, amely nagymértékben megőrzi az élelmiszer bioaktív tulajdonságait. Az ultrahangos kezelés folyamatos működésre is alkalmas olyan átfolyócellák segítségével, amelyekben a közeg ultrahangos kezelésre kerül. Ezek a tulajdonságok egyaránt felhasználhatók az analitikában és a folyamattechnikában, például:"
+    ],
+    [
+      "érintésmentes szintmérések, áramlásmérések, sűrűségmérések (analitika/folyamatfelügyelet)"
+    ],
+    [
+      "ultrahangos vágás, homogenizálás, sejtszövetek és sejtek ",
+      "aprítása, ",
+      "enzimek vagy mikroorganizmusok inaktiválása, beleértve a spórákat is, folyadékok ",
+      "gáztalanítása",
+      ", habok megsemmisítése, hús puhítása, emulgeálás, csomagolás lezárása, vízmegkötő képesség és viszkozitás növelése"
+    ],
+    [
+      "Az ",
+      "ultrahangos vágás",
+      " alternatívaként jelenik meg olyan alkalmazásokban, ahol a vágószerszámok gyorsan szennyeződnek, és a megtapadt részecskék szennyeződésként visszahullhatnak a termékbe, amikor a kemény felületeken meg kell akadályozni a repedések kialakulását (pl. kemény csokoládébevonatok), vagy az édesipari és sütőipari termékek esetében, amelyek puhák és ragadósak. Az ultrahangot a ",
+      "szonotródáknak",
+      " nevezett vágószerszámok rezgésbe hozására használják. Az alkalmazott frekvenciától függően másodpercenként akár 35 000 mozgást is végezhetnek. A tortákat, süteményeket, sajtokat stb. pontosan elhelyezik egy szállítószalagon, és áthaladás közben súlyuk vagy méretük szerint felvágják őket. Az ultrahangos vágószerszámok tulajdonságai lehetővé teszik még a közvetlenül a sütőből kijövő forró pékáru vágását is, ami a hagyományos technikákkal nehezen megoldható. Ugyanakkor a magas hőmérséklet megakadályozza a szennyeződést és javítja az ",
+      "eltarthatóságot",
+      "."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "16",
+      "",
+      ". ábra:",
+      " Az ultrahang lehetséges alkalmazásai"
+    ],
+    [
+      "Az ",
+      "ultrahangos hegesztés",
+      " során hőre lágyuló műanyagokat hegesztenek, és az azokban lévő élelmiszert lezárják. Az olvadási hő nem kívülről érkezik, mint a hővel történő lezárásnál, hanem azt közvetlenül a zárórétegben, mechanikus rezgésekkel hozzák létre. A műanyagmolekulák mozgása a megfelelő ponton súrlódási hőt termel, ami a műanyagot ",
+      "ezen a helyen megolvasztja. Az olvadási folyamat mindössze 100–200 milliszekundumot vesz igénybe, és a ",
+      "szonotróda",
+      " és az alapként használt üllő a folyamat során hideg marad."
+    ],
+    [
+      "A helyi melegítés lehetőségét speciális folyékony élelmiszerek ",
+      "tartósítása",
+      " esetén is ki lehet használni. Hasonlóképpen, a nagy rezgések képesek a ",
+      "sejtek szövetét átjárhatóvá",
+      " tenni, és javítani a ",
+      "vakuólumfolyadék",
+      " ",
+      "(sejtnedv üreg folyadék) ",
+      "vagy más specifikus értékes anyagok felszabadítását. A ",
+      "kavitációk",
+      " és a nagy nyíróerők hatására a sejtstruktúrák felszakadnak, a sejtfalak pórusai pedig kitágulnak. Az ultrahang mechanikai erői támogatják a szöveti folyadék eloszlását és a sejtanyagba való behatolást. Az eredmény a megnövekedett ",
+      "extrakció",
+      "."
+    ],
+    [
+      "Mikrokapszulázási",
+      " eljárás"
+    ],
+    [
+      "A ",
+      "mikrokapszulázás",
+      " egy olyan ",
+      "körülzáró",
+      " immobilizációs ",
+      "(",
+      "rögzítéses",
+      ") ",
+      "eljárás, amelynek során szilárd, folyékony vagy gáznemű ",
+      "hatóanyagokat",
+      " nagyon kis adagokban ",
+      "burkolóanyaggal",
+      " vesznek körül, és így ",
+      "immobilizálják",
+      " azokat. A ",
+      "mikrokapszula",
+      " falának tulajdonságai (vastagság, anyag, áteresztőképesség stb.) meghatározzák a ",
+      "mikrokapszula",
+      " fizikai és kémiai tulajdonságait, valamint szabályozzák a felszabadulást. ",
+      "Mikrokapszulázásról",
+      " akkor beszélünk, ha a részecskék a mikro- vagy akár nanométeres tartományban találhatók. A kapszulák ezért általában nem ",
+      "tapinthatóak",
+      " vagy ",
+      "érzékelhetőek",
+      " az élelmiszerben. Ha a kapszulák milliméteres nagyságrendűek, akkor ",
+      "makrokapszuláknak",
+      " nevez",
+      "i",
+      "k őket. A ",
+      "mikrokapszulázást",
+      " többek között arra használj",
+      "á",
+      "k, hogy"
+    ],
+    [
+      "a folyékony anyagokat porrá alakíts",
+      "á",
+      "k,"
+    ],
+    [
+      "nagymértékben illékony anyagokat ",
+      "kapszulázz",
+      "a",
+      "n",
+      "a",
+      "k",
+      ","
+    ],
+    [
+      "elfedj",
+      "é",
+      "k a szagot és az ízt,"
+    ],
+    [
+      "a hatóanyagok szabályozott módon szabaduljanak fel,"
+    ],
+    [
+      "megvédj",
+      "é",
+      "k az anyagokat a fizikai, kémiai vagy mechanikai hatásoktól (pl. az omega-3 zsírsavakat az oxidációtól),"
+    ],
+    [
+      "optimalizálj",
+      "á",
+      "k a porszerű anyagok (pl. tejpor) folyékonyságát és adagolását, és"
+    ],
+    [
+      "csökkents",
+      "é",
+      "k a ",
+      "higroszkóposságot",
+      " (levegő nedvességtartalmát megkötő)",
+      "."
+    ],
+    [
+      "A feladattól függően a porokat ",
+      "agglomerálj",
+      "á",
+      "k",
+      ", bevonj",
+      "á",
+      "k ",
+      "vagy ",
+      "porlasztj",
+      "á",
+      "k",
+      ", és így személyre szabott profilt kapn",
+      "a",
+      "k. A",
+      " 17",
+      ". ábra vázlatosan mutatja a lezajló folyamatokat. A folyamatok ",
+      "fluidágyas",
+      " szárítókban",
+      " zajlanak, amelyekben a folyadékot és a szilárd anyagot összevezetik, és a struktúrákat célzott légáramlás hozza létre. A szilárd anyagot oldott, emulgeált vagy szuszpendált formában tartalmazó folyadékot kb. 20–50 µm átmérőjű cseppek formájában permetezik be a meleg/forró légáramba. A cseppek nagy fajlagos felületének köszönhetően a cseppek közvetlen és intenzív hőcsere révén azonnal megszáradnak. Ennek során először, akárcsak a tiszta ",
+      "porlasztva szárításban",
+      ", kvázi kristályosodási magokként száraz ",
+      "mikroszemcsék",
+      " keletkeznek, amelyeket a fluidágyban szuszpendált állapotban tart",
+      "a",
+      "n",
+      "a",
+      "k ",
+      "(",
+      "fluidizáció",
+      ").",
+      " A részecskék felületének nedvesítésével és egyidejű szárításával a porszemcsék jól szóródó agglomerátumokká tapadnak össze. Ez többek között befolyásolja a por ",
+      "instant",
+      " tulajdonságait. A fluidágyas porlasztott granulálás ",
+      "(szemcsehalmaz kialakítása kisebb szemcsékből) ",
+      "során a szárítás a ",
+      "diszkrét szemcseméret",
+      " célzott beállításával párosul. A fluidágyas szárításból származó szemcsésre formázott por sokkal könnyebben oldódik és ",
+      "diszpergálódik",
+      " folyadékokban anélkül, hogy maradványokat hagyna, mint a porlasztva szárításból származó finom por. Nem csomósodik vagy ",
+      "szegregálódik",
+      ", a szájban kialakuló érzete kellemes, a termék kezelése könnyű. Fehérjeturmixok, vitaminozott forró italok vagy cukorpótlók, vitaminkészítmények, kapszulás és párnás rendszerek, csokoládé- vagy kávépor, ",
+      "probiotikus",
+      " joghurt, amelynek csak a bélben kell kifejtenie a hatását, és még sok más termék készül ma már így."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "17",
+      "",
+      ". ábra:",
+      " Folyamatok az ",
+      "agglomerálás",
+      ", a ",
+      "filmbevonatolás",
+      " és a porlasztott granulálás során a fluidágyas szárítóban;",
+      " fluidágyas szárító; ",
+      "agglomerálás",
+      "/",
+      "bevonatolás",
+      "/granulálás"
+    ],
+    [
+      "Ha folyadékokat kell porrá alakítani, akkor ",
+      "ka",
+      "pszulázást",
+      ", ",
+      "porlasztásos",
+      " granulálást",
+      " vagy ",
+      "többrétegű bevonatot",
+      " alkalmaznak. A ",
+      "kapszulázandó",
+      " kiindulási anyagokat vagy vizes oldatban emulgeálják (olajok), vagy szuszpendálják (por), vagy a ",
+      "kapszulázó",
+      " közeg olvadékában ",
+      "diszpergálják",
+      " (por), majd permetezik és szárítják vagy megszilárdítják. Ennek eredményeként 20–5000 µm közötti, rugalmasan beállítható szemcsemérettel rendelkező porok és granulátumok állíthatók elő a külső vizes fázis szárításával a feloldott mátrixanyaggal vizes emulzió/szuszpenzió esetén, vagy az olvadékemulzió/-szuszpenzió megszilárdításával. A granulátumokba zárt ",
+      "lipofil",
+      " ",
+      "(zsiradékokban jól oldódó) ",
+      "folyadékcseppek, mint például a narancs-, menta- vagy bergamottolaj, általában 1 µm körüli átmérőjűek, és folyadéktartalmuk akár 50% is lehet. Az ilyen illékony anyagok ",
+      "kapszulázására",
+      " a fluidágyas szárítás alternatívája a ",
+      "permetezéses",
+      " granulálás a ",
+      "permetezőágyas készülékben",
+      ". Alacsony tartózkodási idő és alacsony termékhőmérséklet jellemzi, és nagy hozamot tesz lehetővé. A fluidágytól eltérően a permetezőágyas rendszerekben a technológiai gáz nem a technológiai kamra teljes keresztmetszetén, hanem csak két résen keresztül jut be. A technológiai kamra közepén egy technológiai gázsugár jön létre."
+    ],
+    [
+      "A ",
+      "mikrokapszulázás",
+      " egy folyamattechnikai lehetőség a homogén keverékek előállítására. A",
+      " 18",
+      ". ábra bemutatja az olyan technológiai eljárásoktól való megkülönböztetésüket, mint a keverés, ",
+      "agglomerálás",
+      " vagy aprítás."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "18",
+      "",
+      ". ábra:",
+      " A részecskék egyesítése homogén végtermékk",
+      "é"
+    ],
+    [
+      "Nagynyomású homogenizálás"
+    ],
+    [
+      "A homogenizálás úgy éri el a szuszpenzióban a részecskék egyenletes méreteloszlását, hogy a szuszpenziót nagy nyomás alatt egy speciális ",
+      "dezintegráló",
+      " szelepen keresztül préseli át. A hagyományos homogenizálást akár 60 ",
+      "MPa",
+      " nyomáson alkalmazzák a részecskék felaprítására, az emulziók stabilizálására, valamint a textúra",
+      " (anyagszerkezet)",
+      ", az íz és az eltarthatóság javítására. A tej, a joghurt, a krémsajt, a fagylalt vagy a majonéz voltak a szokásos alkalmazási területek, és jelenleg is azok. Az új szelepkialakítások és a berendezéstechnikai fejlesztések a nagynyomású ",
+      "homogenizátorok",
+      " új generációját eredményezték, amelyek az élelmiszer- és gyógyszeriparban a mikro- vagy ",
+      "nanoemulziók",
+      " előállításában és az anyagmódosításban is alkalmazhatók. Ezeknek a ",
+      "homogenizátoroknak",
+      " a nyomása 400 ",
+      "MPa-ig",
+      " terjed. Nagyobb nyomáson nemcsak a nyomás, hanem a nyírófeszültség, a ",
+      "kavitáció",
+      ", a turbulencia, az ütközés és a hőmérséklet-emelkedés is hatással lehet az élelmiszer-összetevőkre és a mikroorganizmusokra (",
+      "19",
+      ". ábra)."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "19",
+      "",
+      ". ábra:",
+      " A nagy nyomással történő homogenizálás hatásai"
+    ],
+    [
+      "Ezek a tényezők lehetővé teszik a sejtek felbontását és a ",
+      "biopolimerek",
+      " ",
+      "(élőlényekben megtalálható óriásmolekulák, mint például a fehérjék) ",
+      "módosítását. A sejtfelbontás alkalmas az értékkel bíró sejt- vagy szövetkomponensek kivonásának támogatására, de a mikroorganizmusok inaktiválására is. Az inaktiválás a sejtfal vastagságának függvénye. A vékony falak könnyebben szenvednek visszafordíthatatlan károsodást, míg a spórák csak sokkal nagyobb nyomáson károsodnak."
+    ],
+    [
+      "Emulgeálószer-technológia"
+    ],
+    [
+      "Számos élelmiszerben kell kémiailag és fizikailag összeférhetetlen fázisokat homogén és hosszú távon stabil ",
+      "emulziókká",
+      " kombinálni. Az EU-ban az emulgeálószerek széles skáláját engedélyezték az élelmiszer-előállítás szinte minden területén, és azokat a termékeken kémiai névvel vagy E-számmal kell feltüntetni. Ha nem keveredő folyadékok érintkeznek egymással, a fázisok határfelületén határfelületi feszültség ",
+      "(folyadékfelületre gyakorolt összehúzó erő) ",
+      "alakul ki, és a fázisok többé-kevésbé gyorsan szétválnak. Az ",
+      "emulgeálószerek",
+      " képesek csökkenteni a feszültséget és így stabilizálni a rendszert. Ezeket homogenizálással, hirtelen nyomáscsökkentéssel vagy ",
+      "kavitációval",
+      " lehet segíteni, olyan folyamatokkal, amelyek kisebb részecskéket és szűkebb méreteloszlást eredményeznek különböző energiabevitel ",
+      "mellett. Bipoláris",
+      " (",
+      "hidrofil",
+      " és ",
+      "hidrofób",
+      " véggel rendelkező molekulák)",
+      " jellegüknek köszönhetően az emulgeálószerek technológiai-funkcionális hatással rendelkeznek, és a feladattól függően lehetővé teszik az emulzió stabilitását, a habképző képességet vagy a habstabilitást. A folyamat alapvető paraméterei az emulgeálószerek vagy keverékeik kiválasztása, a koncentráció, az ionerősség, a pH-érték, a részecskeméret és a folyamat hőmérséklete. Új feladatok esetén ezeket előzetesen meg kell határozni."
+    ],
+    [
+      "Az emulziós technológiák fejlődését számos trend mozgatja. Ilyen a ",
+      "clean",
+      " ",
+      "label",
+      " vita",
+      " és a ",
+      "cél",
+      ", hogy E",
+      "-",
+      "számok ",
+      "helyett a természetes összetevőket tüntessük fel.",
+      " E",
+      "zért",
+      " egyre gyakrabban fejlesztenek ki természetes stabilizátorokat, például ",
+      "citrusrostokat",
+      " vagy napraforgó ",
+      "lecitint",
+      " (pl. a tojásban is megtalálható természetes emulgeálószer)",
+      ". ",
+      "Hidrokolloidként",
+      " a rostokat nagyfokú vízmegkötő képesség is jellemzi, ami ugyanakkor lehetővé teszi a csökkentett zsírtartalmú élelmiszerek előállítását, ami szintén fontos szempont. Ennek hátterében a kalóriacsökkentett élelmiszerek iránti vágy áll, hogy ellensúlyo",
+      "zni tudják",
+      " az elhízást. Például a margarin 80 százalékos zsírtartalom helyett csak 30 százalékkal készülhet."
+    ],
+    [
+      "Különleges kihívást jelent a többszörös emulziók kérdése. Az ilyen diszperz többfázisú rendszerek anyagi és energetikai kölcsönhatásaik miatt rendkívül összetettek. Az olaj/víz emulziók olajfázisának „hígításával” lehetővé kell tenni a tápanyagok, bioaktív anyagok, mikroorganizmusok vagy ízanyagok bevitelét, és szükség esetén azok célzott módon történő felszabadítását."
+    ],
+    [
+      "Intelligens csomagolás és gátak"
+    ],
+    [
+      "A csomagolás sokáig csak kommunikációra és védelemre szolgáló passzív burkolatot jelentett. A modern élelmiszer-technológia a passzív csomagolást aktív csomagolássá alakította át, és fontos szerepet szánt neki a tartalom eltarthatóságának javításában.",
+      " ",
+      "Az élelmiszer-technológia területén még gyerekcipőben jár az ",
+      "intelligens csomagolás",
+      ". Az Európai Élelmiszerbiztonsági Hatóság (EFSA) meghatározása szerint az ",
+      "intelligens csomagolóanyagok",
+      " „olyan anyagok és tárgyak, amelyek figyelemmel kísérik a csomagolt ",
+      "élelmiszer vagy az azt körülvevő környezet állapotát”. Az intelligens csomagolás a modern szenzortechnika lehetőségeit új, digitális információs lehetőségekkel kombinálva használja ki. ",
+      "pl. mérik a termék hőfokát. ",
+      "Az adatok tárolására és továbbítására ",
+      "adathordozókat",
+      ", a külső környezet megfigyelésére ",
+      "kijelzőket és érzékelőket",
+      " alkalmaznak. A csomagolás QR- vagy vonalkódok segítségével univerzális információhordozóvá válik. Az érdeklődő ügyfél megtudhatja, honnan származik az állat, hol vágták le és hol dolgozták fel sonkává. Természetesen a jogszabályban előírt olyan tájékoztatási követelményeken túlmenően, mint például az energiatartalom, a fehérje-, só-, zsír- vagy cukortartalom."
+    ],
+    [
+      "Az intelligens csomagolás színreakcióval jelzi a tartalom frissességének fokát, dokumentálja a hűtési lánc betartását, igazolja, hogy az eredeti lezárást nem manipulálták, vagy hogy az szivárgásmentes, és információt nyújt a tartalom minőségéről. A romlás során felszabaduló gázok, mint például az etilén az almában vagy a körtében, zöldről pirosra változtatják a színcímkéket, vagy egy fekete kereszt jelenik meg egy átlátszó felületen, amikor az élelmiszer már nem ehető. Erre a célra ",
+      "bioérzékelőket",
+      " és ",
+      "frissességérzékelőket/-jelzőket",
+      " használnak. Ezeket az elemeket általában a csomagolásban helyezik el. Az intelligens csomagolás egy példa arra, hogy a digitalizáció milyen lehetőségeket kínál az Ipar 4.0-tól a Táplálkozás 4.0-hoz vezető úton."
+    ],
+    [
+      "A modern csomagolás minden előnye ellenére nem szabad figyelmen kívül hagyni az összetevőknek az élelmiszerbe való esetleges ",
+      "migrációját",
+      ". Ez vonatkozik a papírból, kartonból és műanyagból készült csomagolásokra is. Különösen az ásványiolaj-komponensek, telített és telítetlen szénhidrogének ",
+      "migrálhatnak",
+      " ki az újrahasznosított anyagokból. A jogalkotó olyan határértékeket határozott meg, amelyek gyakran belső gátakat tesznek szükségessé. A ",
+      "poliolefinekből",
+      " vagy papírból, de inkább alumíniumból, PET-",
+      "ből",
+      " vagy poliamidból készült belső bevonatok megfelelő migrációs gátaknak minősülnek, de megnehezítik a csomagolás ",
+      "újrahasznosítását",
+      "."
+    ],
+    [
+      "A PET ",
+      "tereftálsavból",
+      " (",
+      "kétértékű szerves",
+      "sav) és ",
+      "etilén-",
+      "glikolból",
+      " (egy ",
+      "dialkohol",
+      ") készül. Mindkét anyag hosszú polimerláncokat alkot. A műanyagot elsősorban italok tárolására használják, és más polimerekhez képest különösen inert tulajdonságokkal rendelkezik. Ez azt jelenti, hogy a csomagolásból csak nagyon kis mennyiségű anyag kerül az italba, annál kevesebb, minél rövidebb a tárolási idő és minél alacsonyabb a hőmérséklet. A felhasznált nyersanyagokra, de a katalizátor antimon-",
+      "trioxidra",
+      " is vonatkoznak határértékek. Ugyanez vonatkozik az ",
+      "antranilamidra",
+      " is, amelyet a PET-palackok ",
+      "adalékanyagaként",
+      " engedélyeztek. Időközben olyan bevonatokat is kínálnak a PET-tartályokhoz, amelyeknek szinte teljes mértékben meg kell akadályozniuk a migrációt."
+    ],
+    [
+      "Ipar 4.0"
+    ],
+    [
+      "Az Ipar 4.0 jelenleg az egyik ",
+      "megatrend",
+      " az ipar minden releváns területén. A víz- és gőzenergiát használó mechanikus termelőüzemek (1. ipari forradalom), az elektromos energiát használó, munkamegosztáson alapuló tömegtermelés (2. forradalom), az informatika és az elektronika révén történő automatizálás (3. forradalom) után a 2011-es Hannoveri Vásáron a 4. ipari forradalomra az Ipar 4.0 kifejezést vezették be. Az alapot a ",
+      "kiber",
+      "-fizikai rendszerek (",
+      "„",
+      "cyberphysical",
+      " ",
+      "systems",
+      "”",
+      ")",
+      " képezik, amelyek minden valamilyen módon releváns információt összegyűjtenek és felhasználnak a szabályozáshoz. A beágyazott szoftverrel ellátott termékek, termelőberendezések, emberek és tárgyak intelligens és elosztott rendszerré olvadnak össze, új szintre emelve a teljes értéklánc szervezését és irányítását. Például a megrendelések önállóbbá válnak az értékláncban, és megszervezik a szükséges anyagokat, valamint a megrendelőhöz való szállítást. Alapkövetelmény, hogy az értéklánc mentén a szükséges információkat valós időben kell biztosítani ahhoz, hogy az optimális értékteremtő áramlás bármikor levezethető legyen. Az ebből fakadó jövőkép dinamikus, valós időben optimalizált és önszerveződő, vállalatokon átívelő értékteremtő hálózatokról szól. A hálózatba kapcsolt munkahelyek olyan érzékelőkkel felszerelt munkahelyek, amelyek minden felmerülő adatot rögzítenek. Ezek feldolgozásra, továbbításra kerülnek, és így lehetővé teszik a termelésben részt vevő objektumok közötti ",
+      "információcserét, és ezáltal a rendszerek, valamint a folyamat- és termelési adatok folyamatos hálózatba kapcsolását. Az ilyen hálózatkialakítást például a hibakezelés során használják, amikor a gépek meghibásodásai azonnal jelentésre kerülnek a gyártásirányító rendszer felé. Az adatokból nyert információk szolgáltatása érdekében az adatcserének horizontálisan a folyamatlánc mentén, vertikálisan a vállalaton belül, valamint kétirányúan a rendszer és a felhasználó között is meg kell történnie."
+    ],
+    [
+      "Az Ipar 4.0 új megoldásokat tesz lehetővé, amelyekkel a mai termelés még jövedelmezőbbé tehető. A kis- és középvállalkozások azonban gyakran nem rendelkeznek megfelelő módszerekkel az Ipar 4.0 sikeres bevezetéséhez. De nekik is foglalkozniuk kell a lehetőségekkel. Az intelligens csomagolást, a modern szabályozási köröket, a ",
+      "robotizált",
+      " rendszereket már sok esetben alkalmazzák. Ez az első lépés a fejlettebb technikák alkalmazása felé. „Nem kell várnunk az Ipar 4.0-ra. Már benne vagyunk.”"
+    ],
+    [
+      ""
+    ],
+    [
+      "Irodalomjegyzék"
+    ],
+    [
+      ""
+    ],
+    [
+      "Ábrajegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "Táblázatjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [
+      ""
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Járóné Kőházi-Kis Andrea"
+      ],
+      [
+        "Szakmai lektor:",
+        "Zakariásné Kiskó Bernadett"
+      ],
+      [
+        "Évfolyam:",
+        "9. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "7 óra"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Élelmiszeripar"
+      ],
+      [
+        "Szakma:",
+        "Pék"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Élelmiszeripari alapismeretek"
+      ],
+      [
+        "Tantárgy:",
+        "Élelmiszerismeret"
+      ],
+      [
+        "",
+        ""
+      ],
+      [
+        "",
+        ""
+      ]
+    ],
+    [
+      [
+        "Fázisok és \nhatóerők",
+        "Részecskeméret",
+        "A részecskék természete és szerkezete",
+        "A részecskék tulajdonságai"
+      ],
+      [
+        "durván diszpergált fázis\n(gravitációs erő)",
+        "> 1 mikrométer\n(> 1000 nm)",
+        "szuszpenzió\nnagyméretű sejttörmelék, homok, mikroorganizmusok (élesztőgombák, baktériumok, penészgombák),\nkristályos anyagok (borkő),\namorf anyagok (szén)",
+        "sűrűségkülönbség a diszpergált fázishoz képest (önülepedés, egyszerű centrifugálás, könnyen elválasztható),\nszabad szemmel is látható zavarosságként"
+      ],
+      [
+        "kolloid-diszpergált fázis\n(Brown-molekula-\nmozgás [termikus \nmozgás], \nVan der Waals-erők, \nabszorpciós erők)",
+        "0,001–1 mikrométer\n(1–1000 nm)",
+        "kolloid oldat\nbaktériumok,\nseprőmicellák,\nhidrokolloidok (pektin, \ncellulózok, hemicellulózok, polimer fenolok, fehérjék),\namorf borkő",
+        "nincs sűrűségkülönbség a diszpergált fázishoz képest (nehezen szűrhető, nincs szedimentáció, \ncentrifugálás nem lehetséges), a részecskék ultramikroszkóp alatt láthatóak (diffrakciós képek), a Tyndal-jelenség (fényszóródás kolloidokban) során együttesen figyelhetők meg"
+      ],
+      [
+        "molekuláris diszpergált fázis (ionos erők, hidrogénhíd kötések)",
+        "< 0,001 mikrométer\n(< 1 nm)",
+        "valódi oldat\nvalamennyi feloldott összetevő (cukrok, sók, savak, fenolok stb.)",
+        "láthatatlan, valóban feloldódott, nincs szedimentáció, nincs lehetőség centrifugálásra"
+      ],
+      [
+        "diszperziós közeg",
+        "",
+        "az oldószer (víz, olaj)",
+        ""
+      ]
+    ]
+  ],
+  "headers": [
+    "",
+    ""
+  ],
+  "footers": [
+    "",
+    ""
+  ],
+  "footnotes": [
+    "",
+    ""
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image15.png",
+      "path": null,
+      "bytes": 15886
+    },
+    {
+      "name": "image16.png",
+      "path": null,
+      "bytes": 35701
+    },
+    {
+      "name": "image14.png",
+      "path": null,
+      "bytes": 352440
+    },
+    {
+      "name": "image21.png",
+      "path": null,
+      "bytes": 25912
+    },
+    {
+      "name": "image18.png",
+      "path": null,
+      "bytes": 27163
+    },
+    {
+      "name": "image19.png",
+      "path": null,
+      "bytes": 145348
+    },
+    {
+      "name": "image20.png",
+      "path": null,
+      "bytes": 38892
+    },
+    {
+      "name": "image13.png",
+      "path": null,
+      "bytes": 135708
+    },
+    {
+      "name": "image17.png",
+      "path": null,
+      "bytes": 42198
+    },
+    {
+      "name": "image10.png",
+      "path": null,
+      "bytes": 280945
+    },
+    {
+      "name": "image11.png",
+      "path": null,
+      "bytes": 48612
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image2.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image3.png",
+      "path": null,
+      "bytes": 48997
+    },
+    {
+      "name": "image12.png",
+      "path": null,
+      "bytes": 312702
+    },
+    {
+      "name": "image4.png",
+      "path": null,
+      "bytes": 52094
+    },
+    {
+      "name": "image6.png",
+      "path": null,
+      "bytes": 66440
+    },
+    {
+      "name": "image5.png",
+      "path": null,
+      "bytes": 361435
+    },
+    {
+      "name": "image9.png",
+      "path": null,
+      "bytes": 364606
+    },
+    {
+      "name": "image7.png",
+      "path": null,
+      "bytes": 16800
+    },
+    {
+      "name": "image8.png",
+      "path": null,
+      "bytes": 106569
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "Címsor 4 Char",
+    "Címsor 5 Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "Caption",
+    "Képaláírás Char",
+    "kérdés_számozva",
+    "kérdés_számozva Char",
+    "bajusz_pötty",
+    "bajusz_pötty Char",
+    "bajusz_kötőjel",
+    "Footer",
+    "Élőláb Char",
+    "[Nincs bekezdésstílus]",
+    "TABELLEN_HEAD",
+    "TABELLE",
+    "Title",
+    "Cím Char",
+    "Subtitle",
+    "Alcím Char",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "Hyperlink",
+    "toc 4",
+    "annotation reference",
+    "annotation text",
+    "Jegyzetszöveg Char",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "Revision",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "table of figures",
+    "No Spacing",
+    "List Paragraph",
+    "Header",
+    "Élőfej Char"
+  ]
+}

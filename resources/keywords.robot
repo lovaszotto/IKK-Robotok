@@ -12,7 +12,7 @@ Mark Test Status
             ${row_text}=    Set Variable    ${test_row}
         END    
         ${error_log_file}=    Replace String    ${excel_file}    .xlsx    (${sheet_name}_${row_text}) hiba.txt    
-        Log To Console    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}    
+        #Log To Console    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}    
         #hiba fájl írása
         Create File    ${error_log_file}    ${err_msg}
 

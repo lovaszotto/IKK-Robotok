@@ -1,0 +1,1104 @@
+{
+  "core_properties": {
+    "creator": "coollab",
+    "lastModifiedBy": "Soós Gabriella Brigitta (ELMS)",
+    "revision": "2",
+    "created": "2024-11-18T13:52:00Z",
+    "modified": "2024-11-18T13:52:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal.dotm",
+    "TotalTime": "1",
+    "Pages": "25",
+    "Words": "4331",
+    "Characters": "29018",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "1381",
+    "Paragraphs": "1111",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "32238",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.25.2  ",
+    "A bor érlelésének szabályozása",
+    "Témák kézirata",
+    "",
+    "",
+    "",
+    "",
+    "Tartalomjegyzék",
+    "1\tAlapfogalmak: reduktív, oxidatív érlelés\t3",
+    "1.1\tReduktív érlelés\t3",
+    "1.2\tOxidatív érlelés\t3",
+    "2\tKénezés\t4",
+    "2.1\tA Kén tulajdonságai\t4",
+    "2.2\tA kénessav reakciói\t5",
+    "2.3\tA Kénezés hatásai\t6",
+    "2.3.1\tAntiszeptikus hatás (mikróbagátló hatás)\t6",
+    "2.3.2\tRedukáló hatás (antioxidáló hatás)\t6",
+    "2.3.3\tÍz- és zamatmegőrző hatás\t6",
+    "2.3.4\tSzínstabilizáló hatás\t7",
+    "2.4\tKénező anyagok\t7",
+    "2.4.1\tCseppfolyós kén-dioxid\t7",
+    "2.4.2\tBorkén\t7",
+    "2.4.3\tKénessav törzsoldat\t8",
+    "2.4.4\tDarabos kén, kénlap\t8",
+    "2.5\tA kénessav mennyiség csökkentésének lehetőségei, alternatívái\t10",
+    "3\tA bor tárolása\t10",
+    "3.1\tFontosabb tárolóedények és hatásuk a bor minőségére\t11",
+    "3.1.1\tFahordók\t11",
+    "3.1.2\tVasbeton tartály\t11",
+    "3.1.3\tSaválló acél tartály\t12",
+    "3.1.4\tPermeábilis műanyag tárolók\t13",
+    "3.2\tKülönleges tárolóedények és hatásuk a bor minőségére\t14",
+    "3.2.1\tAmfóra\t14",
+    "4\tÉrlelési technológiák\t15",
+    "4.1\tFahordó és a barrique érlelési technika\t15",
+    "4.2\tFinomseprőn tartás (sur lie(s)) és a finomseprő felkeverése (battonage)\t17",
+    "4.3\tA mikrooxidáció hatása\t18",
+    "5\tA fehér-, rozé-, siller- és vörösbor érlelés jellemzői\t19",
+    "5.1\tA fehérbor érlelés jellemzői\t19",
+    "5.2\tA rozé-, a siller- és a vörösbor érlelés jellemzői\t20",
+    "5.3\tPalackos érlelés\t21",
+    "Ábrajegyzék\t22",
+    "Táblázatjegyzék\t23",
+    "Felhasznált irodalom\t24",
+    "",
+    "Alapfogalmak: reduktív, oxidatív érlelés",
+    "A borok fő érlelési lehetőségeinek és azok hatásainak ismertetése előtt fontos tisztázni a borban lejátszódó érés, fejlődés szakaszait. Az érési folyamat során három eltérő szakaszt kell megjegyezni. Az első a fejlődési szakasz, ami a borok jellege és összetétele szerint változhat (például a polifenolok, aromaanyagok mennyisége). A második szakasz a tetőfok, ahol már kialakult a fajtára és a bortípusra jellemző legmagasabb minőség, megjelentek a sajátos érési illatok és aromák. Ezután következik a hanyatlási, túlfejlődő szakasz, ahol már jócskán csökken a borok élvezeti értéke. Mindhárom szakaszt az illatanyagok változásával lehet a leginkább értékelni, nyomon követni. A borok illat- és aromaanyag gazdagságának változásában, fejlődésében az oxidációs-redukciós viszonyok játszanak döntő szerepet.",
+    "",
+    "Reduktív érlelés",
+    "A reduktív borkészítési technológiához hasonlóan, a reduktív érlelésnél is a legfontosabb a levegő teljes kizárása az érlelési folyamat során, hogy a fajtára jellemző elsődleges aromaanyagokat meg tudják őrizni.",
+    "Ide tartoznak azok a bortípusok, amelyek levegőtől elzárt környezetben, vagy palackban érik el a rájuk jellemző érzékszervi tulajdonságok maximumát. A reduktív érlelésre leginkább azok a borok alkalmasak, melyek nem rendelkeznek túl magas alkohol- és cukor-extrakttartalommal, valamint magas titrálható savtartalommal. Többnyire illatos fehér- és rozéborokra jellemző a reduktív technológia alkalmazása, így a reduktív érlelés ezek borok esetében alkalmazható leginkább. Azonban léteznek olyan vörösborok is, melyek már must korukban reduktív technológiával készültek, így érlelésük is a reduktív folyamatot igényli.",
+    "",
+    "Oxidatív érlelés",
+    "Az oxidatív érlelés során a borok erős oxidációs jellegű érési folyamatokon mennek keresztül, így jelenhet meg a rájuk jellemző különleges illat-és íz. Főleg hosszantartó, hordós tárolás esetében fordulhat ez elő, de más tárolóedényeknél is jelentkezhet. Ilyenkor a tárolóedényekben található bor számos kémiai és fizikai változáson megy keresztül. Nem minden bortípusnak felel meg ez az érlelési módszer, hiszen egyes borok esetében, már a borkészítés fázisában ártalmas lehet, ha levegővel érintkezik akár az erjedő must, ugyanis ez borhibának is minősülhet. Azonban a testesebb borok esetében a legoptimálisabb választásnak bizonyulhat az oxidatív érlelés. Ennek során változhat a borok aroma- és ízösszetétele, sötétebb színtónus érhető el, lágyabb savérzetet biztosíthat.",
+    "",
+    "Kénezés",
+    "A Kén tulajdonságai",
+    "A borászatban alkalmazott eljárások közül az egyik legfontosabb, és talán legrégebben használt technológiai lépés a kénezés. Nemcsak a borkészítésben és a borok kezelésében van kiemelt szerepe, hanem akár a tisztaság fenntartásában is. Sokak igencsak ördögtől valónak tartják a kénezés műveletét, azonban, ha megfelelő módon és megfelelő mennyiségben alkalmazzák, akár a borbetegségek kialakulása ellen is megvédhető a készülő bor. Nemcsak a bort, de a mustot is célszerű lehet kénezni. Például a mustok kénezésekor a „nemes élesztők” kerülhetnek előtérbe, míg a vadélesztők háttérbe szorulnak, vagy akár kénezéssel késleltethető vagy megállítható a mustok erjedése is. Nagy általánosságban a borokat a fejtéssel egyidejűleg kénezik csak, kivétel ez alól az az állapot, amikor a betegséget szeretnék javítani, vagy valamilyen különleges célt szolgál a művelet (például vörösborok színének “fehérítését”, vagy extra “tisztítást”. Utóbbi leginkább újboroknál lehet mérvadó). A kierjedt újborok tisztaságát, fejlődését kénezéssel is elő tudják segíteni.",
+    "A kénezéskor keletkező kén-dioxid az egészségre ártalmatlan, színtelen, szúrós szagú gáz, mely azonban túlzott alkalmazásakor, a bor fogyasztása után fejfájást is okozhat az arra érzékenyeknél.  Kénezésre a kénszeletet/kénlapot és a borként (kálium- diszulfit vagy kálium-piroszulfit), üzemekben a folyékony kénessavat használják. A kénszeletet és a kénlapot legtöbbször a hordók ápolására, és a pince higiéniájának fenntartására használják. Bármelyik formáját is alkalmazzák a kapható borkezelő anyagoknak, mindig a szabadkénessav jelenléte a mérvadó, mely meghozza az elvárt hatást. Ha elemi ként vagy szulfitokat adagolnak a borhoz, akkor a borban található savak fogják felszabadítani a kénessavat.",
+    "A szabadkénessav szintet a borok jellegétől és azok összetételétől függően állítják be. Jellemzően a magas savtartalmú borok és a magas alkoholtartalommal rendelkező száraz borok esetében a szintet alacsonyra állítják, a kis sav- és alkoholtartalmú édes borok esetén pedig magasabbra. A fehérborok esetében az ajánlott szabadkénessav szint az alábbiak szerint alakul.",
+    "",
+    "",
+    "Ajánlott szabadkénessav szint az egyes fehérbortípusoknál",
+    "Forrás: Eperjesi Imre: Borászati technológia, Budapest, 2014, Mezőgazda Kiadó. 198.o.",
+    "",
+    "A vörösborok kénezésekor általános cél a szabadkénessav szint alacsonyan való tartása. Ez hozzávetőlegesen 30 mg/l szabadkénessav szintet jelent.",
+    "",
+    "A kénessav reakciói",
+    "A kénessav (H2SO3) a kén-dioxid (SO2) hidrátja. Azon részeit a kénessavnak, melyek különböző vegyületekkel egyesülnek, kötött kénessavnak nevezik. A szabadon maradt, nem kötődött részeit pedig szabadkénessavnak. A kötött és a szabadkénessav együttesen adja meg az összes kénessavtartalmat. A kénessav a legstabilabban és legnagyobb részben az acetaldehidhez kötődik: ez az aldehid-kénessav és a szabadkénessav egyensúlyt alakít ki, amely igen stabilan megmarad.",
+    "H2SO3 + CH3-CHO --› CH3CHOH-SO3H\nkénessav + acetaldehid --› oxietil-szulfonsav",
+    "A kénezés során alkalmazott vagy felszabaduló kénessavnak négy kedvező tulajdonsága a következő:",
+    "antiszeptikus hatás",
+    "redukáló, vagy másnéven antioxidáns hatás",
+    "íz- és zamatmegörző hatás",
+    "színstabilizáló hatás",
+    "",
+    "A Kénezés hatásai",
+    "Antiszeptikus hatás (mikróbagátló hatás)",
+    "A kénnek fertőzést megelőző, kórokozók szaporodását és megjelenését gátló, vagyis antiszeptikus hatása is van. Erre épülhetnek a szőlő feldolgozásának és a palackozás tevékenységének egyes lépései, valamint nagymértékben az üzemi és a borászati higiénia kérdése is.",
+    "",
+    "Redukáló hatás (antioxidáló hatás)",
+    "Redukáló hatása révén a kénezés során keletkezett kénessav megvédi a bort az enzimatikus és nem enzimatikus oxidációtól egyaránt. Az enzimatikus oxidáció elleni védelem során a kénessav gátolja a polifenol-oxidáz enzim tevékenységét, így megóvja a kezelt bort a barnatörés kialakulásától. A nem enzimatikus oxidáció során azzal fejti ki védekezési módját, hogy a bor érzékeny illat- és zamatanyagai helyett lép reakcióba az oxigénnel, ezáltal elősegíti az oxidációra érzékeny vegyületek stabilitását.",
+    "",
+    "Íz- és zamatmegőrző hatás",
+    "Ma már köztudott tény, hogy a kénessav kedvező hatással van az íz- és zamatanyagok fejlődésére és azok megőrzésére. Illatos fajtáknál a szőlő feldolgozásakor adagolva több illat- és zamatanyag biztosítása érhető el. Ezen szerepe miatt válik nélkülözhetetlenné a kénessav a borászati eljárás során, mivel leköti a szabad acetaldehidet, ezáltal megelőzve az óiz kialakulását, valamint megakadályozva az elvénülést.",
+    "",
+    "Színstabilizáló hatás",
+    "Kapcsolódva a kénessav redukáló hatásához, úgynevezett fehérítő hatás is elérhető, mely során a vörösborban található antociánokat színteleníti, így világosabbá válhatnak a kezelt borok. Ezen hatás akár fehérborokban is megtörténhet. Színstabilizáló hatása azonban más jelenségben keresendő. Köztudott már ugyanis, hogy a kénessavnak védőhatása is van a vörösborokban található antociánokra nézve. Ugyanis a borok fejlődésének kezdetén alkalmazva, a kénessav az antocianinokat megköti, így azok védve lesznek az oxidációval szemben.",
+    "",
+    "Kénező anyagok",
+    "Cseppfolyós kén-dioxid",
+    "A cseppfolyós kén-dioxidot (ami tulajdonképpen egy oldat, többnyire 100% SO2 hatóanyag-tartalommal) leginkább nagyobb borászati üzemekben alkalmazzák. Használata viszonylag egyszerű, hiszen folyékony állapotában beszerezve könnyen kimérhető, ezáltal pontosan adagolhatóvá válik, jól keverhető a közeggel és könnyen eloszlik. Megbízható megoldást jelent, és alkalmazható cefre-, must-, valamint borkénezés során is.",
+    "",
+    "Borkén",
+    "Többnyire kálium-piroszulfitból (K2S2O5) készülő kezelő anyag, amely vegyület a kénessav káliumsója. Alkalmazásakor a borokban található savak hatására kénessav szabadul fel. Adagolása és tárolása viszonylag egyszerű, azonban hosszantartó tárolás során veszíthet hatékonyságából. További hátránya lehet, hogy a legtöbb kiszerelés 50%-ban káliumot is tartalmaz, mely borba kerülve a borkősavhoz fog kötődni, így a borkőstabilitást ronthatja.",
+    "",
+    "",
+    "Borkén kiszerelés",
+    "Forrás: https://www.borkeszites.hu/index.php/borkezeles/borken-1kg-detail (2024. 06. 26.)",
+    "",
+    "Kénessav törzsoldat",
+    "A kénessavas törzsoldat 1–2%-os vizes oldatával edényeket, tömlőket, palackokat lehet fertőtleníteni. Must, illetve bor kénezéséhez 1–5%-os törzsoldatot kell alkalmazni, olykor akár a gyakorlatban használhatnak 45–60%-os oldatot is.",
+    "",
+    "Darabos kén, kénlap",
+    "A kénlap kizárólag a pincék fertőtlenítésére, illetve üres fahordók kénezésére használható. Elégetéssel 0,5-1 g/m3, a hordók fertőtlenítésének pedig 0,5-2 g/hl az adagja.",
+    "",
+    "",
+    "Darabos kén",
+    "Forrás: https://floravita.superwebaruhaz.hu/ken-darabos-elemi-ken-granulalt-1kg-t149587 (2024. 06. 24.)",
+    "",
+    "",
+    "Kénlap",
+    "Forrás: https://pince.eu/olv/hordo (2024. 06. 24.)",
+    "",
+    "A kénessav mennyiség csökkentésének lehetőségei, alternatívái",
+    "A borban található kénessav csökkentésére többféle lehetőség is létezik. A kénessav csökkentésének az elsődleges célja általában az, hogy javítsák a bor ízét, illetve minimalizálják az esetleges negatív egészségügyi hatásokat. Az alábbi módszerek jöhetnek szóba:",
+    "Szellőztetés: ha szellőztetik a bort, akkor a levegőztetés során a kénessav egy része elillan, mivel illékony vegyület. Ez közvetlenül a bor fogyasztása előtt különösen jó módszer lehet. Ilyen például a borok dekantálása, ahol a fogyasztandó bort nem közvetlenül a palackból öntik a pohárba, hanem egy speciális edényből.",
+    "Mérsékeltebb kénezés: már a bor készítésekor, vagy a szőlőfeldolgozás során vagy a must erjesztésekor kevesebb ként adagolnak. Szerencsés alacsonyabb adagot alkalmazni akár a palackozás előtt is.",
+    "Kénessav (kén-dioxid) megkötése: néhány segédanyag, mint például az aszkorbinsav vagy a hidrogén-peroxid képesek a kén-dioxid megkötésére, így a kénessav szintje csökkenthető. Célszerű ezekkel óvatosan eljárni, mert könnyen a bor ízének romlásához vezethetnek, vagy akár a bor stabilitását is kockáztathatják.",
+    "Alternatív tartósítószerek alkalmazása: kén-dioxid használata helyett alkalmazható például lizozim, növényi kivonatok, vagy akár laktáz-enzim is.",
+    "Borászati technológia korszerűsítése: a modern szűrési vagy stabilizálási technikák alkalmazásával csökkenthető a szükséges kén-dioxid mennyisége.",
+    "",
+    "A bor tárolása",
+    "A bor tárolásakor fontos szempont a tárolóedények helyes megválasztása, hiszen az eltérő tárolásra alkalmas berendezések eltérő hatással lehetnek a borok érlelésére.",
+    "A legelterjedtebb tárolóedények közé tartoznak a különféle pórusos fahordók, amelyekben a tárolás során a bor mindvégig érintkezik oxigénnel. További népszerű megoldás a pórusmentes vasból vagy fémből készült tartályok használata, melyekben a borok egyáltalán nem, vagy csak bizonyos kezelések során nyelnek el oxigént. Ezeken kívül találhatók még példák különleges tárolóedényekre is, melyek többnyire egyes bortermelő országokra (a hagyományok alapján) jellemzők.",
+    "",
+    "Fontosabb tárolóedények és hatásuk a bor minőségére",
+    "Fahordók",
+    "A borok érlelésekor az érlelő pincében széleskörűen alkalmazott tárolóedények közé tartoznak a különböző fahordók. Sok esetben nemcsak az érlelés zajlik bennük, hanem kisebb üzemekben akár maga a borkezelés és az erjesztés is. Nagyobb üzemekben is gyakori tárolóedény, hiszen a borkülönlegességek és a vörösborok tárolására és érlelésére tökéletes választás lehet. A fahordókról későbbi fejezetben még többet megtudhatsz.",
+    "",
+    "",
+    "Fahordós pince",
+    "Forrás: https://www.bormesterek.hu/boraszat/pastor_pinceszet (2024. 06. 24.)",
+    "",
+    "Vasbeton tartály",
+    "A vasbeton tartályok a pórusmentes tárolóedények közé tartoznak, vasbetonból készültek. Belső borításuk többnyire üvegből vagy műanyagból készült. Számos hátrányuk miatt mára már gyakorlatilag egyik borászati üzemben sem jellemző a használatuk. A legkiemelkedőbb negatívumuk az igen rossz hőelvezetésük, ami mindenképpen hátrányt jelent az erjesztés és a borérlelés során egyaránt.",
+    "",
+    "Saválló acél tartály",
+    "A jelenlegi korszerű borkészítés legfontosabb tárolóeszköze a saválló acél tartály. Népszerűségének elsődleges oka, hogy használatával könnyedén automatizálható a borászati technológiában alkalmazott műveletek összessége. A fahordókkal szemben pórusmentes szerkezetről van szó, tehát a borászati terméket elzárja az oxigéntől. Ezáltal reduktív borok készítésére, vagy érlelésére tökéletesen alkalmas, friss, zamatos borok tárolására kiváló. Ezekben a tartályokban zajlik a mustok erjesztése jelenleg a legtöbb borászatban, vagy borászati üzemben, de a saválló acél tartályok alkalmasak a mustülepítésre, borkezelésre, és a kész borok tárolására is. Számos módon telepíthetők a pincében, vagy akár a szabadtéren egyaránt, illetve többféle űrtartalom és formai kialakítás közül lehet választani. Egymásra is helyezhetők az elemek, léteznek úszófedeles kialakítások, illetve hűtőköpennyel ellátott tartályok is.",
+    "",
+    "Saválló acél tartályok",
+    "Forrás: https://bi-bor.hu/termek-reszletek/tartaly-zottel-13-paraffinolajos-uszofedellel-300-liter-3-csap-936 (2024.06.24.)",
+    "https://bi-bor.hu/termek-reszletek/tartaly-zottel-63-erjeszto-uszofedeles-2600-liter-ketto-hutopalasttal-4593 (2024. 06. 27.)",
+    "",
+    "Permeábilis műanyag tárolók",
+    "A permeábilis műanyag tárolók főként kisebb pincékben fordulnak elő, kisebb tételek elkészítésekor használják őket. Előnyük lehet, hogy hosszú élettartalommal rendelkeznek, így hosszútávú befektetést jelenthetnek. Viszonylag olcsón beszerezhetők, és könnyen mozgathatók. Hátrányuk, hogy nehezen tisztíthatók, illetve az érlelés szempontjából nem rendelkeznek olyan tulajdonságokkal, mint például a fahordók, tehát különleges aromák beoldódása nem történik meg esetükben. Az erjedő must hűtése is problémába ütközhet, esetlegesen nagyobb anyagi ráfordítással valósítható csak meg. A borok technológiai mozgatása, átfejtése is nehézkesebb a műanyag tárolók használata esetében.",
+    "",
+    "Permeábilis műanyag tároló",
+    "Forrás: https://www.borostakft.hu/termek/muanyag-boros-tartalyok/8 (2024.07.01.)",
+    "",
+    "Különleges tárolóedények és hatásuk a bor minőségére",
+    "Amfóra",
+    "Az amfóra egy ókori görög, agyagból készült tárolóedény, melyet már hosszú évszázadok óta használnak főként bor, olaj, vagy gabona tárolására. Ezeket az edényeket a borkészítés során gyakran a földbe ássák, ezzel is biztosítva a megfelelő, hűvösebb hőmérsékletet. Grúziában a legelterjedtebb, de hazánkban is viszonylag sok helyen alkalmazzák. Az amfórák belseje általában egy speciális anyaggal van kifestve, ami megakadályozza a külső anyagok beoldódását. 6–7 hónapon át érlelhetők bennük a fehér és vörös borok egyaránt. Az amfórában a borokat többnyire segédanyagoktól mentesen készítik el, és jellemzően a héjonáztatás is az edényekben zajlik. Ezekben az agyagedényekben tárolt borok polifenolokban gazdagok, és számos egyéb, egészségre kedvező hatású vegyület halmozódhat fel bennük. Az amfórák használata további előnyökkel járhat, mint például felerősödhet a borokban az ásványos jelleg, folyamatosan biztosított a hőcsere, valamint lezajlódhat bennük a mikrooxidáció is.",
+    "",
+    "Amfórák",
+    "Forrás: Szerző saját fotója",
+    "",
+    "Érlelési technológiák",
+    "Fahordó és a barrique érlelési technika",
+    "Néhány fejezettel korábban már szó volt röviden a fahordókról, mint a borok tárolására legelterjedtebben alkalmas eszközökről. Ebben a fejezetben bővebben tanulhatsz róla.",
+    "A fahordók készítésekor a leggyakrabban és legoptimálisabban alkalmazható alapanyag a tölgyfa. Könnyű megmunkálhatósága, hajlékonysága és rugalmassága miatt többféle méretű hordó elkészítésére is kiválóan alkalmas fa. Hordókészítéskor kizárólag száraz fát használnak, amit akár 2 évnyi szárítás is megelőzhet. A kivágott fából donga készül, melyet hasítással vagy fűrészeléssel érnek el. A fahordók egyik előnye, hogy légáteresztő, azaz porózus, tehát a fa szövetein keresztül folyamatosan oxigénhez jut a bor, ami segíti érlelését, fejlődését. Ennek is van egy telítődési pontja, melyet optimális érettségnek hívnak. Az ezután felvett oxigén már a bor öregedését okozhatja. A hordók hátrányai közé tartozik, hogy tisztántartásuk és gondozásuk munkaigényes, valamint a tartályokkal ellentétben élettartamuk is rövidebb.",
+    "",
+    "A hordók típusai közül a legnépszerűbb a barrique hordó, mely speciálisan elkészített tölgyfahordó, használatához saját borkészítési technológiai irányzat (kíméletes oxidáción alapuló érlelés és borkezelés) társul. Ezek a hordók meghatározott űrtartalommal rendelkeznek, ami 225 litert jelent. Európában leginkább a Quercus petrea tölgyfából gyártják, de készülhetnek Quercus roburból vagy Quercus albából is.",
+    "Nem minden bor érlelhető sikeresen ezekben a hordókban, fontos a technológia megfelelő alkalmazásához a megfelelő alapbor kiválasztása.",
+    "A barrique hordók különlegessége abban is rejlik, hogy a hordógyártás során a dongák természetes szárításon mennek keresztül, illetve abban, hogy a már összeállított hordók belsejét égetik is. A barrique hordóban tárolt borok kioldják a fa anyagait, így ennek, valamint a folyamatos oxidációnak köszönhetően megváltozik finomszerkezetük. Ez leginkább a borok illatában és zamatában nyilvánul meg. A barrique hordókból egyrészről a fa aromája, és az úgynevezett égetési aroma oldható ki. Ennek mennyisége azonban a barrique hordók életkorával folyamatosan csökken, így a hordók egy bizonyos életkor után „kimerülnek”. \nA barrique érlelési technológia leginkább vörösborok esetében elterjedt. Nagy általánosságban, bortípustól függően, a borokat 9–24 hónapig tárolják ezekben a hordókban. Ezek a vörösborok általában héjon erjesztéssel készültek, és már átestek az almasavbontáson is. Fajtaborok és cuvéék esetében is gyakori technológiai választás. Az ezekben a hordókban tárolt vörösborok kíméletes és folyamatos oxidáción mennek keresztül, melynek eredményeképpen megnő a galluszsav mennyisége, ezáltal a stabil antocianin-tannin komplexek hozzájárulnak a hosszantartó, romlásnak ellenálló szín létrejöttéhez. Bársonyosabb, magasabb tannintartalmú vörösborok készülhetnek így el.",
+    "Készülhetnek fehérborok is barrique érleléssel. Általában Chardonnay vagy Sauvignon blanc szőlőfajtából készült mustokat erjesztenek ezekben a hordókban. Ha megtörtént az erjedés, a fehérborokat finomseprőn tartják (sur lie), majd időnként felkeverik (battonage). Szemben a vörösborok hosszantartó hordós érlelésével, a fehérborokat 3–6 hónapig tárolják barrique hordókban.",
+    "",
+    "",
+    "Vörös- és fehérborok barrique érlelésének időtartami lehetőségei",
+    "Forrás: Szerző saját képe",
+    "",
+    "",
+    "Barrique hordók",
+    "Forrás: Szerző saját fotója",
+    "",
+    "Finomseprőn tartás (sur lie(s)) és a finomseprő felkeverése (battonage) ",
+    "A „Sur Lie” (ejtsd: szürlí) kifejezés a bor érlelésére utal, ami lefordítva annyit tesz: „érlelés a borseprőn”. Ez az érlelési technológia mindig finom seprőn tartást jelent. Ez a folyamat a bor érlelését jelenti az erjedésből visszamaradt elhalt élesztőrészecskéken, ami a borok összetettségét és ízét növeli. Amikor az élesztősejtek az erjedés után elhalnak, és saját enzimjeik révén lebomlanak (autolízis) a sejtfalukból és citoplazmájukból különböző anyagok jutnak a borba: poliszacharidok (pl. mannoproteinek, amelyek az élesztők sejtfalának 35%-át teszik ki), aminosavak, peptidek, zsírsavak, nukleotidok szabadulnak fel. Ezek a vegyületek a bor struktúráját megváltoztatják. A fent említett mannoproteinek összekapcsolódnak a színanyagokkal (antocianinok) és az új fahordóból származó csersavakkal (tanninok), ezáltal a színstabilitás nő és csökken a bor húzóssága, fanyarsága. A borokat 6 hónapig kell érlelni ahhoz, hogy a „Sur Lie” minősítést megkapják. Ahogy az élesztőrészecskék a Sur Lie eljárás során lebomlanak, aminosavak és kis mennyiségű cukor (poliszacharidok) kerülnek a borba, ami hozzájárul a bor komplexitásához. A seprőn való érlelés a bortól függően 3 hónaptól több évig is eltarthat.",
+    "A Bâtonnage (vagy battonage, ejtsd: battonázs) technika a leülepedett seprő keverésére utal e folyamat során, ami növeli azt a felületet, amelyen az élesztőrészecskék a borral érintkeznek.",
+    "",
+    "",
+    "A finomseprőn tartás és a battonage ",
+    "Forrás: https://winefolly.com/deep-dive/what-are-wine-lees-sur-lie-explained/ (2024.06.24.)",
+    "",
+    "A mikrooxidáció hatása",
+    "Viszonylag újkeletű technológiai eljárás a borok úgynevezett mikrooxigénezése, mely során a borban mesterségesen idézik elő az oxidációs folyamatokat. A módszer lényege, hogy az oxigéngázt mikrobuborékok formájában juttatják be a borba, meghatározott időszakban, mennyiségben és időtartamban. Ez a technológia elsősorban olyan vörösborok esetében alkalmazott, melyeket pórusmentes tartályban tárolnak, és az érlelés során a fahordós érlelést ezzel a módszerrel szeretnék kiváltani. Gyakorlatilag ezzel a módszerrel hasonló vörösbor érhető el, mint a hordóban érlelt borok esetében. Vagyis: stabil antocianin-tannin komplexek, bársonyosabb bor, stabil szín.",
+    "",
+    "Mikrobuborékok",
+    "Forrás: https://pepita.hu/akvariumi-levegoztetok-c4283/nano-levegozteto-oxigen-pumpa-akvariumba-p3446771#ref (2024. 07. 24.)",
+    "",
+    "A fehér-, rozé-, siller- és vörösbor érlelés jellemzői ",
+    "A fehérbor érlelés jellemzői",
+    "A fehérborok érlelésekor sajátos aromák és illat-, ízanyagok alakulnak ki.",
+    "Az elsődleges és a másodlagos aromák mellett megjelenhetnek a harmadlagos aromák is, amelyek jellemzően az érlelés hatására alakulnak ki. Ezáltal egy igazán összetett, és kifinomult bor készíthető. A jelenlegi modern üzemi borkészítés során a fehérszőlő fajtákból készült borokat leginkább saválló acéltartályban tárolják vagy érlelik, így friss, gyümölcsös jegyekkel rendelkező borok születnek. A reduktív technológia szerves része, hogy az oxigént igyekeznek a lehető legnagyobb mértékben távoltartani a készülő, érlelődő boroktól. Erre például jó lehetőséget nyújt a különböző védőgázok alkalmazása. Ezek többnyire valamilyen inert gázok, jellemzően a nitrogén és az argon, melyek a bor alkotórészeivel nem lépnek reakcióba. Ezen technológiai eljárás során a borba nitrogént vezetnek, melynek célja, hogy az oldott oxigént el tudják távolítani a borból.",
+    "Természetesen a fehérborok érlelése történhet fahordókban is, különösen jellemző ez a késői szüretelésű borok esetében, vagy egyes borkülönlegességek (pl. Tokaji borok) készítésekor. De vannak olyan fehérszőlő fajták is, melyeknek kifejezetten jól áll a fahordós érlelés (például Chardonnay, Sauvignon blanc, Olasz rizling). Az, hogy milyen hosszú ideig tart az érlelés, elsősorban a szüretelt szőlőfajta, a szüret időpontja és a készítendő bortípus fogja meghatározni. Általában jóval rövidebb ideig tart a fehérborok érlelése, mint a vörösboroké, de természetesen ettől el lehet térni.",
+    "",
+    "A rozé-, a siller- és a vörösbor érlelés jellemzői",
+    "Ugyanabból a kékszőlőből a megfelelően megválasztott szőlőfeldolgozási és erjesztési technológiával készíthető akár fehér-, rozé-, siller és vörösbor is. Ezt természetesen fontos kiegészíteni a megfelelő tárolással és érleléssel. A rozéborokat általában a reduktív technológia jellemzi, tehát a későbbi érlelés is többnyire tartályokban zajlik. A fahordós érlelés kevés kivételtől eltekintve nem jellemző. Világszerte két technológiát alkalmaznak leginkább. Az egyik a gyors feldolgozás, a másik a rövid idejű héjon áztatás. Ebből adódóan érthető, hogy a legtöbb rozébor pórusmentes anyagú tárolóedényeket igényel a tárolásra.",
+    "A sillerborok érlelésének jellemzői nagyjából megegyeznek a rozéboroknál tárgyaltakkal, annyi különbséggel, hogy talán hosszabb ideig tárolhatók, mint a rozéborok. Viszont a siller esetében is vigyázni kell az oxidációval, nehogy a bor színe barnulni kezdjen az oxigén hatására.",
+    "Nagy általánosságban véve, a vörösborok készülhetnek héjon erjesztéssel, melegítéses eljárással, vagy akár szénsavatmoszférában is. Egyes bortípusoknak megfelelően, akár gyors feldolgozással készült vörösborok is előfordulhatnak. Ez alapján a vörösborok érlelésekor rengeteg opció szóba jöhet, attól függően, hogy milyen bortípust szeretnének elkészíteni. A rövid ideig tartó hordós érleléstől kezdve egészen az évekig tartó tárolás lehetősége is kihasználható. A vörösborok érlelésére használhatók különböző tartályok is, nem kell mindenáron a fahordót alkalmazni.",
+    "",
+    "Palackos érlelés",
+    "Mind a fehér-, mind a vörösborok egyaránt érlelhetők palackban. A borokban a palackbuké szépen lassan fejlődik ki, idővel finomodik, adott esetben van, hogy 3–4 év alatt éri el a fejlődés maximumát. Ha megfelelően tárolják palackban a bort, akkor csak igen kevés oxigén tud bejutni a borba. Azonban, ha valamilyen sérülés érte a dugót vagy a palackot, sajnos könnyedén oxidálódhat a bor, oxidált jellegűvé válik, ezáltal veszít eredeti minőségéből. A palackos érlelés során nagyon fontos a hűvös, sötét hely és a palackok fekvő helyzetben való tárolása. Az optimális hőmérséklet 12–13 fok, így tudnak a palackban érlelt borok idővel egyre szebbé és jobbá válni mind illatukban, mind ízükben.",
+    "",
+    "",
+    "Palackos érlelés",
+    "Forrás: Szerző saját fotója",
+    "",
+    "Ábrajegyzék",
+    "1. ábra: Borkén kiszerelés\t8",
+    "2. ábra: Darabos kén\t9",
+    "3. ábra: Kénlap\t9",
+    "4. ábra: Fahordós pince\t11",
+    "5. ábra: Saválló acél tartályok\t12",
+    "6. ábra: Permeábilis műanyag tároló\t13",
+    "7. ábra: Amfórák\t14",
+    "8. ábra: Vörös- és fehérborok barrique érlelésének időtartami lehetőségei\t16",
+    "9. ábra: Barrique hordók\t17",
+    "10. ábra: A finomseprőn tartás és a battonage\t18",
+    "11. ábra: Mikrobuborékok\t19",
+    "12. ábra: Palackos érlelés\t21",
+    "",
+    "",
+    "Táblázatjegyzék",
+    "1. táblázat: Ajánlott szabadkénessav szint az egyes fehérbortípusoknál\t5",
+    "",
+    "",
+    "Felhasznált irodalom",
+    "Eperjesi Imre: Borászati technológia. Budapest, 2010, Mezőgazda Kiadó.",
+    "Prohászka Ferenc: Szőlő és bor. Budapest, 1986, Mezőgazda Kiadó.",
+    "Ronald S. Jackson: Wine Science: Principles and applications. Amsterdam, Heidelberg, 2008, Elsevier",
+    "Kállay Miklós: Borászati kémia. Budapest, 2010, Mezőgazda Kiadó.",
+    "Bereczkiné Kardeván Kinga - Kovács Gáborné - Csatáriné Horváth Magdolna - Maráziné Király Ildikó - Tormáné Csizmadia Zsuzsanna - Virágné Széli Márta - Zakariásné Kiskó Bernadett: Általános élelmiszeripari technológiák II. Budapest, 2020, Herman Ottó Intézet.",
+    "",
+    ""
+  ],
+  "runs": [
+    [],
+    [
+      "Egyedi megrendelés azonosítója:",
+      " EM-2.25.2  "
+    ],
+    [
+      "A bor érlelésének szabályozása"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      "Tartalomjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "",
+      ""
+    ],
+    [
+      "Alapfogalmak: reduktív, oxidatív érlelés"
+    ],
+    [
+      "A borok fő érlelési lehetőségeinek és azok hatásainak ismertetése előtt fontos tisztázni a borban lejátszódó érés, fejlődés szakaszait. Az érési folyamat során három eltérő szakaszt kell megjegyezni. Az első a fejlődési szakasz, ami a borok jellege és összetétele szerint változhat (például a polifenolok, aromaanyagok mennyisége). A második szakasz a tetőfok, ahol már kialakult a fajtára és a bortípusra jellemző legmagasabb minőség, megjelentek a sajátos érési illatok és aromák. Ezután következik a hanyatlási, túlfejlődő szakasz, ahol már jócskán csökken a borok élvezeti értéke. Mindhárom szakaszt az illatanyagok változásával lehet a leginkább értékelni, nyomon követni. A borok illat- és aromaanyag gazdagságának változásában, fejlődésében az oxidációs-redukciós viszonyok játszanak döntő szerepet."
+    ],
+    [],
+    [
+      "Reduktív érlelés"
+    ],
+    [
+      "A reduktív borkészítési technológiához hasonlóan, a reduktív érlelésnél is a legfontosabb a levegő teljes kizárása az érlelési folyamat során, hogy a fajtára jellemző elsődleges aromaanyagokat meg tudják őrizni."
+    ],
+    [
+      "Ide tartoznak azok a bortípusok, amelyek levegőtől elzárt környezetben, vagy palackban érik el a rájuk jellemző érzékszervi tulajdonságok maximumát. A reduktív érlelésre leginkább azok a borok alkalmasak, melyek nem rendelkeznek túl magas alkohol- és cukor-extrakttartalommal, valamint magas titrálható savtartalommal. Többnyire illatos fehér- és rozéborokra jellemző a reduktív technológia alkalmazása, így a reduktív érlelés ezek borok esetében alkalmazható leginkább. Azonban léteznek olyan vörösborok is, melyek már must korukban reduktív technológiával készültek, így érlelésük is a reduktív folyamatot igényli."
+    ],
+    [],
+    [
+      "Oxidatív érlelés"
+    ],
+    [
+      "Az oxidatív érlelés során a borok erős oxidációs jellegű érési folyamatokon mennek keresztül, így jelenhet meg a rájuk jellemző különleges illat-és íz. Főleg hosszantartó, hordós tárolás esetében fordulhat ez elő, de más tárolóedényeknél is jelentkezhet. Ilyenkor a tárolóedényekben található bor számos kémiai és fizikai változáson megy keresztül. Nem minden bortípusnak felel meg ez az érlelési módszer, hiszen egyes borok esetében, már a borkészítés fázisában ",
+      "ártalmas lehet, ha levegővel érintkezik akár az erjedő must, ugyanis ez borhibának is minősülhet. Azonban a testesebb borok esetében a legoptimálisabb választásnak bizonyulhat az oxidatív érlelés. Ennek során változhat a borok aroma- és ízösszetétele, sötétebb színtónus érhető el, lágyabb savérzetet biztosíthat."
+    ],
+    [],
+    [
+      "Kénezés"
+    ],
+    [
+      "A Kén tulajdonságai"
+    ],
+    [
+      "A borászatban alkalmazott eljárások közül az egyik legfontosabb, és talán legrégebben használt technológiai lépés a kénezés. Nemcsak a borkészítésben és a borok kezelésében van kiemelt szerepe, hanem akár a tisztaság fenntartásában is.",
+      "",
+      " Sokak igencsak ördögtől valónak tartják a kénezés műveletét, azonban, ha megfelelő módon és megfelelő mennyiségben alkalmazzák, akár a borbetegségek kialakulása ellen is megvédhető a készülő bor. Nemcsak a bort, de a mustot is célszerű lehet kénezni. Például a mustok kénezésekor a „nemes élesztők” kerülhetnek előtérbe, míg a vadélesztők háttérbe szorulnak, vagy akár kénezéssel késleltethető vagy megállítható a mustok erjedése is. Nagy általánosságban a borokat a fejtéssel egyidejűleg kénezik csak, kivétel ez alól az az állapot, amikor a betegséget szeretnék javítani, vagy valamilyen különleges célt szolgál a művelet (például vörösborok színének “fehérítését”, vagy extra “tisztítást”. Utóbbi leginkább újboroknál lehet mérvadó). A kierjedt újborok tisztaságát, fejlődését kénezéssel is elő tudják segíteni."
+    ],
+    [
+      "A kénezéskor keletkező kén-dioxid az egészségre ártalmatlan, színtelen, szúrós szagú gáz, mely azonban túlzott alkalmazásakor, a bor fogyasztása után fejfájást is okozhat az arra érzékenyeknél.  Kénezésre a kénszeletet/kénlapot és a borként (kálium- diszulfit vagy kálium-piroszulfit), üzemekben a folyékony kénessavat használják. A kénszeletet és a kénlapot legtöbbször a hordók ápolására, és a pince higiéniájának fenntartására használják.",
+      "",
+      " Bármelyik formáját is alkalmazzák a kapható borkezelő anyagoknak, mindig a szabadkénessav jelenléte a ",
+      "mérvadó, mely meghozza az elvárt hatást. Ha elemi ként vagy szulfitokat adagolnak a borhoz, akkor a borban található savak fogják felszabadítani a kénessavat."
+    ],
+    [
+      "A szabadkénessav szintet a borok jellegétől és azok összetételétől függően állítják be. Jellemzően a magas savtartalmú borok és a magas alkoholtartalommal rendelkező száraz borok esetében a szintet alacsonyra állítják, a kis sav- és alkoholtartalmú édes borok esetén pedig magasabbra. A fehérborok esetében az ajánlott szabadkénessav szint az alábbiak szerint alakul."
+    ],
+    [],
+    [],
+    [
+      "Ajánlott szabadkénessav szint az egyes fehérbortípusoknál"
+    ],
+    [
+      "Forrás: Eperjesi Imre: Borászati technológia, Budapest, 2014, Mezőgazda Kiadó. 198.o."
+    ],
+    [],
+    [
+      "A vörösborok kénezésekor általános cél a szabadkénessav szint alacsonyan való tartása. Ez hozzávetőlegesen 30 mg/l szabadkénessav szintet jelent."
+    ],
+    [],
+    [
+      "A kénessav reakciói"
+    ],
+    [
+      "A kénessav (H2SO3) a kén-dioxid (SO2) hidrátja. Azon részeit a kénessavnak, melyek különböző vegyületekkel egyesülnek, kötött kénessavnak nevezik. A szabadon maradt, nem kötődött részeit pedig szabadkénessavnak. A kötött és a szabadkénessav együttesen adja meg az összes kénessavtartalmat. A kénessav a legstabilabban és legnagyobb részben az acetaldehidhez kötődik: ez az aldehid-kénessav és a szabadkénessav egyensúlyt alakít ki, amely igen stabilan megmarad."
+    ],
+    [
+      "H",
+      "2",
+      "SO",
+      "3",
+      " + CH",
+      "3",
+      "-CHO --› CH",
+      "3",
+      "CHOH-SO",
+      "3",
+      "H",
+      "\n",
+      "kénessav + acetaldehid --› oxietil-szulfonsav"
+    ],
+    [
+      "A kénezés során alkalmazott vagy felszabaduló kénessavnak négy kedvező tulajdonsága a következő:"
+    ],
+    [
+      "antiszeptikus hatás"
+    ],
+    [
+      "redukáló, vagy másnéven antioxidáns hatás"
+    ],
+    [
+      "íz- és zamatmegörző hatás"
+    ],
+    [
+      "színstabilizáló hatás"
+    ],
+    [],
+    [
+      "A Kénezés hatásai"
+    ],
+    [
+      "Antiszeptikus hatás",
+      " (mikróbagátló hatás)"
+    ],
+    [
+      "A kénnek fertőzést megelőző, kórokozók szaporodását és megjelenését gátló, vagyis antiszeptikus hatása is van. Erre épülhetnek a szőlő feldolgozásának és a palackozás tevékenységének egyes lépései, valamint nagymértékben az üzemi és a borászati higiénia kérdése is."
+    ],
+    [],
+    [
+      "Redukáló hatás",
+      " (antioxidáló hatás)"
+    ],
+    [
+      "Redukáló hatása révén a kénezés során keletkezett kénessav megvédi a bort az enzimatikus és nem enzimatikus oxidációtól egyaránt. Az enzimatikus oxidáció elleni védelem során a kénessav gátolja a polifenol-oxidáz enzim tevékenységét, így megóvja a kezelt bort a barnatörés kialakulásától. A nem enzimatikus oxidáció során azzal fejti ki védekezési módját, hogy a bor érzékeny illat- és zamatanyagai helyett lép reakcióba az oxigénnel, ezáltal elősegíti az oxidációra érzékeny vegyületek stabilitását."
+    ],
+    [],
+    [
+      "Íz- és zamatmegőrző hatás"
+    ],
+    [
+      "Ma már köztudott tény, hogy a kénessav kedvező hatással van az íz- és zamatanyagok fejlődésére és azok megőrzésére. Illatos fajtáknál a szőlő feldolgozásakor adagolva több illat- és zamatanyag biztosítása érhető el. Ezen szerepe miatt válik nélkülözhetetlenné a kénessav a borászati eljárás során, mivel leköti a szabad acetaldehidet, ezáltal megelőzve az óiz kialakulását, valamint megakadályozva az elvénülést."
+    ],
+    [],
+    [
+      "Színstabilizáló hatás"
+    ],
+    [
+      "Kapcsolódva a kénessav redukáló hatásához, úgynevezett fehérítő hatás is elérhető, mely során a vörösborban található antociánokat színteleníti, így világosabbá válhatnak a kezelt borok. Ezen hatás akár fehérborokban is megtörténhet. Színstabilizáló hatása azonban más jelenségben keresendő. Köztudott már ugyanis, hogy a kénessavnak védőhatása is van a vörösborokban található antociánokra nézve. Ugyanis a borok fejlődésének kezdetén alkalmazva, a kénessav az antocianinokat megköti, így azok védve lesznek az oxidációval szemben."
+    ],
+    [],
+    [
+      "Kénező anyagok"
+    ],
+    [
+      "Cseppfolyós kén-dioxid"
+    ],
+    [
+      "A cseppfolyós kén-dioxidot (ami tulajdonképpen egy oldat, többnyire 100% SO",
+      "2",
+      " hatóanyag-tartalommal) leginkább nagyobb borászati üzemekben alkalmazzák. Használata viszonylag egyszerű, hiszen folyékony állapotában beszerezve könnyen kimérhető, ezáltal pontosan adagolhatóvá válik, jól keverhető a közeggel és könnyen eloszlik. Megbízható megoldást jelent, és alkalmazható cefre-, must-, valamint borkénezés során is."
+    ],
+    [],
+    [
+      "Borkén"
+    ],
+    [
+      "Többnyire kálium-piroszulfitból (K",
+      "2",
+      "S",
+      "2",
+      "O",
+      "5",
+      ") készülő kezelő anyag, amely vegyület a kénessav káliumsója. Alkalmazásakor a borokban található savak hatására kénessav szabadul fel. Adagolása és tárolása viszonylag egyszerű, azonban hosszantartó tárolás során veszíthet hatékonyságából. További hátránya lehet, hogy a legtöbb kiszerelés 50%-ban káliumot is tartalmaz, mely borba kerülve a borkősavhoz fog kötődni, így a borkőstabilitást ronthatja."
+    ],
+    [],
+    [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Borkén kiszerelés"
+    ],
+    [
+      "Forrás: ",
+      " ",
+      "(2024. 06. 26.)"
+    ],
+    [],
+    [
+      "Kénessav törzsoldat"
+    ],
+    [
+      "A kénessavas törzsoldat 1–2%-os vizes oldatával edényeket, tömlőket, palackokat lehet fertőtleníteni. Must, illetve bor kénezéséhez 1–5%-os törzsoldatot kell alkalmazni, olykor akár a gyakorlatban használhatnak 45–60%-os oldatot is."
+    ],
+    [],
+    [
+      "Darabos kén, kénlap"
+    ],
+    [
+      "A kénlap kizárólag a pincék fertőtlenítésére, illetve üres fahordók kénezésére használható. Elégetéssel 0,5-1 g/m3, a hordók fertőtlenítésének pedig 0,5-2 g/hl az adagja."
+    ],
+    [],
+    [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Darabos kén"
+    ],
+    [
+      "Forrás: ",
+      " (2024. 06. 24.)"
+    ],
+    [],
+    [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Kénlap"
+    ],
+    [
+      "Forrás: ",
+      " (2024. 06. 24.)"
+    ],
+    [],
+    [
+      "A kénessav mennyiség csökkentésének lehetőségei, alternatívái"
+    ],
+    [
+      "A borban található kénessav csökkentésére többféle lehetőség is létezik. A kénessav csökkentésének az elsődleges célja általában az, hogy javítsák a bor ízét, illetve minimalizálják az esetleges negatív egészségügyi hatásokat. Az alábbi módszerek jöhetnek szóba:"
+    ],
+    [
+      "Szellőztetés: ha szellőztetik a bort, akkor a levegőztetés során a kénessav egy része elillan, mivel illékony vegyület. Ez közvetlenül a bor fogyasztása előtt különösen jó módszer lehet. Ilyen például a borok dekantálása, ahol a fogyasztandó bort nem közvetlenül a palackból öntik a pohárba, hanem egy speciális edényből."
+    ],
+    [
+      "Mérsékeltebb kénezés: már a bor készítésekor, vagy a szőlőfeldolgozás során vagy a must erjesztésekor kevesebb ként adagolnak. Szerencsés alacsonyabb adagot alkalmazni akár a palackozás előtt is."
+    ],
+    [
+      "Kénessav (kén-dioxid) megkötése: néhány segédanyag, mint például az aszkorbinsav vagy a hidrogén-peroxid képesek a kén-dioxid megkötésére, így a kénessav szintje csökkenthető. Célszerű ezekkel óvatosan eljárni, mert könnyen a bor ízének romlásához vezethetnek, vagy akár a bor stabilitását is kockáztathatják."
+    ],
+    [
+      "Alternatív tartósítószerek alkalmazása: kén-dioxid használata helyett alkalmazható például lizozim, növényi kivonatok, vagy akár laktáz-enzim is."
+    ],
+    [
+      "Borászati technológia korszerűsítése: a modern szűrési vagy stabilizálási technikák alkalmazásával csökkenthető a szükséges kén-dioxid mennyisége."
+    ],
+    [],
+    [
+      "A bor tárolása"
+    ],
+    [
+      "A bor tárolásakor fontos szempont a tárolóedények helyes megválasztása, hiszen az eltérő tárolásra alkalmas berendezések eltérő hatással lehetnek a borok érlelésére."
+    ],
+    [
+      "A legelterjedtebb tárolóedények közé tartoznak a különféle pórusos fahordók, amelyekben a tárolás során a bor mindvégig érintkezik oxigénnel. További népszerű megoldás a pórusmentes vasból vagy fémből készült tartályok használata, melyekben a borok egyáltalán nem, vagy csak bizonyos kezelések során nyelnek el oxigént. Ezeken kívül találhatók még példák különleges ",
+      "tárolóedényekre is, melyek többnyire egyes bortermelő országokra (a hagyományok alapján) jellemzők."
+    ],
+    [],
+    [
+      "Fontosabb tárolóedények és hatásuk a bor minőségére"
+    ],
+    [
+      "Fahordók"
+    ],
+    [
+      "A borok érlelésekor az érlelő pincében széleskörűen alkalmazott tárolóedények közé tartoznak a különböző ",
+      "fahordók",
+      ". Sok esetben nemcsak az érlelés zajlik bennük, hanem kisebb üzemekben akár maga a borkezelés és az erjesztés is. Nagyobb üzemekben is gyakori tárolóedény, hiszen a borkülönlegességek és a vörösborok tárolására és érlelésére tökéletes választás lehet. A fahordókról későbbi fejezetben még többet megtudhatsz."
+    ],
+    [],
+    [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Fahordós pince"
+    ],
+    [
+      "Forrás: ",
+      " (2024. 06. 24.)"
+    ],
+    [],
+    [
+      "Vasbeton tartály"
+    ],
+    [
+      "A vasbeton tartályok a pórusmentes tárolóedények közé tartoznak, vasbetonból készültek. Belső borításuk többnyire üvegből vagy műanyagból készült. Számos hátrányuk miatt mára ",
+      "már gyakorlatilag egyik borászati üzemben sem jellemző a használatuk. A legkiemelkedőbb negatívumuk az igen rossz hőelvezetésük, ami mindenképpen hátrányt jelent az erjesztés és a borérlelés során egyaránt."
+    ],
+    [],
+    [
+      "Saválló acél tartály"
+    ],
+    [
+      "A jelenlegi korszerű borkészítés legfontosabb tárolóeszköze a saválló acél tartály. Népszerűségének elsődleges oka, hogy használatával könnyedén automatizálható a borászati technológiában alkalmazott műveletek összessége. A fahordókkal szemben pórusmentes szerkezetről van szó, tehát a borászati terméket elzárja az oxigéntől. Ezáltal reduktív borok készítésére, vagy érlelésére tökéletesen alkalmas, friss, zamatos borok tárolására kiváló. Ezekben a tartályokban zajlik a mustok erjesztése jelenleg a legtöbb borászatban, vagy borászati üzemben, de a saválló acél tartályok alkalmasak a mustülepítésre, borkezelésre, és a kész borok tárolására is. Számos módon telepíthetők a pincében, vagy akár a szabadtéren egyaránt, illetve többféle űrtartalom és formai kialakítás közül lehet választani. Egymásra is helyezhetők az elemek, léteznek úszófedeles kialakítások, illetve ",
+      "hűtőköpennyel",
+      " ellátott tartályok is."
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Saválló acél tartályok"
+    ],
+    [
+      "Forrás: ",
+      " (2024.06.24.)"
+    ],
+    [
+      " (2024. 06. 27.)"
+    ],
+    [],
+    [
+      "Permeábilis műanyag tárolók"
+    ],
+    [
+      "A permeábilis műanyag tárolók főként kisebb pincékben fordulnak elő, kisebb tételek elkészítésekor használják őket. Előnyük lehet, hogy hosszú élettartalommal rendelkeznek, így hosszútávú befektetést jelenthetnek. Viszonylag olcsón beszerezhetők, és könnyen mozgathatók. Hátrányuk, hogy nehezen tisztíthatók, illetve az érlelés szempontjából nem rendelkeznek olyan tulajdonságokkal, mint például a fahordók, tehát különleges aromák beoldódása nem történik meg esetükben. Az erjedő must hűtése is problémába ütközhet, esetlegesen nagyobb anyagi ráfordítással valósítható csak meg. A borok technológiai mozgatása, átfejtése is nehézkesebb a műanyag tárolók használata esetében."
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Permeábilis műanyag tároló"
+    ],
+    [
+      "Forrás: ",
+      " (2024.07.01.)"
+    ],
+    [],
+    [
+      "Különleges tárolóedények és hatásuk a bor minőségére"
+    ],
+    [
+      "Amfóra"
+    ],
+    [
+      "Az amfóra egy ókori görög, agyagból készült tárolóedény, melyet már hosszú évszázadok óta használnak főként bor, olaj, vagy gabona tárolására. Ezeket az edényeket a borkészítés során gyakran a földbe ássák, ezzel is biztosítva a megfelelő, hűvösebb hőmérsékletet. Grúziában a legelterjedtebb, de hazánkban is viszonylag sok helyen alkalmazzák. Az amfórák belseje általában egy speciális anyaggal van kifestve, ami megakadályozza a külső anyagok beoldódását. 6–7 hónapon át érlelhetők bennük a fehér és vörös borok egyaránt. Az amfórában a borokat többnyire segédanyagoktól mentesen készítik el, és jellemzően a héjonáztatás is az edényekben zajlik. Ezekben az agyagedényekben tárolt borok polifenolokban gazdagok, és számos egyéb, egészségre kedvező hatású vegyület halmozódhat fel bennük. Az amfórák használata további előnyökkel járhat, mint például felerősödhet a borokban az ásványos jelleg, folyamatosan biztosított a hőcsere, valamint lezajlódhat bennük a mikrooxidáció is."
+    ],
+    [
+      ""
+    ],
+    [
+      "Amfórák"
+    ],
+    [
+      "Forrás: Szerző saját fotója"
+    ],
+    [],
+    [
+      "Érlelési technológiák"
+    ],
+    [
+      "Fahordó és a barrique érlelési technika"
+    ],
+    [
+      "Néhány fejezettel korábban már szó volt röviden a fahordókról, mint a borok tárolására legelterjedtebben alkalmas eszközökről. Ebben a fejezetben bővebben tanulhatsz róla."
+    ],
+    [
+      "A fahordók készítésekor a leggyakrabban és legoptimálisabban alkalmazható alapanyag a tölgyfa. Könnyű megmunkálhatósága, hajlékonysága és rugalmassága miatt többféle méretű hordó elkészítésére is kiválóan alkalmas fa. Hordókészítéskor kizárólag száraz fát használnak, amit akár 2 évnyi szárítás is megelőzhet. A kivágott fából donga készül, melyet hasítással vagy fűrészeléssel érnek el. A fahordók egyik előnye, hogy légáteresztő, azaz porózus, tehát a fa szövetein keresztül folyamatosan oxigénhez jut a bor, ami segíti érlelését, fejlődését. Ennek is van egy telítődési pontja, melyet optimális érettségnek hívnak. Az ezután felvett oxigén már a bor öregedését okozhatja. A hordók hátrányai közé tartozik, hogy tisztántartásuk és gondozásuk munkaigényes, valamint a tartályokkal ellentétben élettartamuk is rövidebb."
+    ],
+    [],
+    [
+      "A hordók típusai közül a legnépszerűbb a barrique hordó, mely speciálisan elkészített tölgyfahordó, használatához saját borkészítési technológiai irányzat (kíméletes oxidáción alapuló érlelés és borkezelés) társul. Ezek a hordók meghatározott űrtartalommal rendelkeznek, ami 225 litert jelent. Európában leginkább a Quercus petrea tölgyfából gyártják, de készülhetnek Quercus roburból vagy Quercus albából is."
+    ],
+    [
+      "Nem minden bor érlelhető sikeresen ezekben a hordókban, fontos a technológia megfelelő alkalmazásához a megfelelő alapbor kiválasztása."
+    ],
+    [
+      "A barrique hordók különlegessége abban is rejlik, hogy a hordógyártás során a dongák természetes szárításon mennek keresztül, illetve abban, hogy a már összeállított hordók belsejét égetik is. A barrique hordóban tárolt borok kioldják a fa anyagait, így ennek, valamint a folyamatos oxidációnak köszönhetően megváltozik finomszerkezetük. Ez leginkább a borok illatában és zamatában nyilvánul meg. A barrique hordókból egyrészről a fa aromája, és az úgynevezett égetési aroma oldható ki. Ennek mennyisége azonban a barrique hordók ",
+      "életkorával folyamatosan csökken, így a hordók egy bizonyos életkor után „kimerülnek”. ",
+      "\nA barrique érlelési technológia leginkább vörösborok esetében elterjedt. Nagy általánosságban, bortípustól függően, a borokat 9–24 hónapig tárolják ezekben a hordókban. Ezek a vörösborok általában héjon erjesztéssel készültek, és már átestek az almasavbontáson is. Fajtaborok és cuvéék esetében is gyakori technológiai választás. Az ezekben a hordókban tárolt vörösborok kíméletes és folyamatos oxidáción mennek keresztül, melynek eredményeképpen megnő a galluszsav mennyisége, ezáltal a stabil antocianin-tannin komplexek hozzájárulnak a hosszantartó, romlásnak ellenálló szín létrejöttéhez. Bársonyosabb, magasabb tannintartalmú vörösborok készülhetnek így el."
+    ],
+    [
+      "Készülhetnek fehérborok is barrique érleléssel. Általában Chardonnay vagy Sauvignon blanc szőlőfajtából készült mustokat erjesztenek ezekben a hordókban. Ha megtörtént az erjedés, a fehérborokat finomseprőn tartják (sur lie), majd időnként felkeverik (battonage). Szemben a vörösborok hosszantartó hordós érlelésével, a fehérborokat 3–6 hónapig tárolják barrique hordókban."
+    ],
+    [
+      "",
+      "",
+      "",
+      ""
+    ],
+    [],
+    [
+      "Vörös- és fehérborok barrique érlelésének időtartami lehetőségei"
+    ],
+    [
+      "Forrás: Szerző saját képe"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Barrique hordók"
+    ],
+    [
+      "Forrás: Szerző saját fotója"
+    ],
+    [],
+    [
+      "Finomseprőn tartás (sur lie(s)) és a finomseprő felkeverése (battonage)",
+      " "
+    ],
+    [
+      "A „Sur Lie” (ejtsd: szürlí) kifejezés a bor érlelésére utal, ami lefordítva annyit tesz: „érlelés a borseprőn”. Ez az érlelési technológia mindig finom seprőn tartást jelent. Ez a folyamat a bor érlelését jelenti az erjedésből visszamaradt elhalt élesztőrészecskéken, ami a borok összetettségét és ízét növeli. Amikor az élesztősejtek az erjedés után elhalnak, és saját enzimjeik révén lebomlanak (autolízis) a sejtfalukból és citoplazmájukból különböző anyagok jutnak a borba: poliszacharidok (pl. mannoproteinek, amelyek az élesztők sejtfalának 35%-át teszik ki), aminosavak, peptidek, zsírsavak, nukleotidok szabadulnak fel. Ezek a vegyületek a bor struktúráját megváltoztatják. A fent említett mannoproteinek összekapcsolódnak a színanyagokkal (antocianinok) és az új fahordóból származó csersavakkal (tanninok), ezáltal ",
+      "a színstabilitás nő és csökken a bor húzóssága, fanyarsága. A borokat 6 hónapig kell érlelni ahhoz, hogy a „Sur Lie” minősítést megkapják. Ahogy az élesztőrészecskék a Sur Lie eljárás során lebomlanak, aminosavak és kis mennyiségű cukor (poliszacharidok) kerülnek a borba, ami hozzájárul a bor komplexitásához. A seprőn való érlelés a bortól függően 3 hónaptól több évig is eltarthat."
+    ],
+    [
+      "A Bâtonnage (vagy battonage, ejtsd: battonázs) technika a leülepedett seprő keverésére utal e folyamat során, ami növeli azt a felületet, amelyen az élesztőrészecskék a borral érintkeznek."
+    ],
+    [],
+    [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "A finomseprőn tartás és a battonage",
+      " "
+    ],
+    [
+      "Forrás: ",
+      " (2024.06.24.)"
+    ],
+    [],
+    [
+      "A mikrooxidáció hatása"
+    ],
+    [
+      "Viszonylag újkeletű technológiai eljárás a borok úgynevezett mikrooxigénezése, mely során a borban mesterségesen idézik elő az oxidációs folyamatokat. A módszer lényege, hogy az oxigéngázt mikrobuborékok formájában juttatják be a borba, meghatározott időszakban, mennyiségben és időtartamban. Ez a technológia elsősorban olyan vörösborok esetében alkalmazott, melyeket pórusmentes tartályban tárolnak, és az érlelés során a fahordós érlelést ezzel a módszerrel szeretnék kiváltani. Gyakorlatilag ezzel a módszerrel hasonló vörösbor érhető el, mint a hordóban érlelt borok esetében. Vagyis: stabil antocianin-tannin komplexek, bársonyosabb bor, stabil szín."
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Mikrobuborékok"
+    ],
+    [
+      "Forrás: ",
+      " (2024. 07. 24.)"
+    ],
+    [],
+    [
+      "A fehér-, rozé-, siller- és vörösbor érlelés jellemzői",
+      " "
+    ],
+    [
+      "A fehérbor érlelés jellemzői"
+    ],
+    [
+      "A fehérborok érlelésekor sajátos aromák és illat-, ízanyagok alakulnak ki."
+    ],
+    [
+      "Az elsődleges és a másodlagos aromák mellett megjelenhetnek a harmadlagos aromák is, amelyek jellemzően az érlelés hatására alakulnak ki. Ezáltal egy igazán összetett, és kifinomult bor készíthető. A jelenlegi modern üzemi borkészítés során a fehérszőlő fajtákból készült borokat leginkább saválló acéltartályban tárolják vagy érlelik, így friss, gyümölcsös jegyekkel rendelkező borok születnek. A reduktív technológia szerves része, hogy az oxigént igyekeznek a lehető legnagyobb mértékben távoltartani a készülő, érlelődő boroktól. Erre például jó lehetőséget nyújt a különböző védőgázok alkalmazása. Ezek többnyire valamilyen inert gázok, jellemzően a nitrogén és az argon, melyek a bor alkotórészeivel nem lépnek reakcióba. Ezen",
+      " technológiai eljárás során a borba nitrogént vezetnek, melynek célja, hogy az oldott oxigént el tudják távolítani a borból."
+    ],
+    [
+      "Természetesen a fehérborok érlelése történhet fahordókban is, különösen jellemző ez a késői szüretelésű borok esetében, vagy egyes borkülönlegességek (pl. Tokaji borok) készítésekor. De vannak olyan fehérszőlő fajták is, melyeknek kifejezetten jól áll a fahordós érlelés (például Chardonnay, Sauvignon blanc, Olasz rizling). Az, hogy milyen hosszú ideig tart az érlelés, elsősorban a szüretelt szőlőfajta, a szüret időpontja és a készítendő bortípus fogja meghatározni. Általában jóval rövidebb ideig tart a fehérborok érlelése, mint a vörösboroké, de természetesen ettől el lehet térni."
+    ],
+    [],
+    [
+      "A rozé-, a siller- és a vörösbor érlelés jellemzői"
+    ],
+    [
+      "Ugyanabból a kékszőlőből a megfelelően megválasztott szőlőfeldolgozási és erjesztési technológiával készíthető akár fehér-, rozé-, siller és vörösbor is. Ezt természetesen fontos kiegészíteni a megfelelő tárolással és érleléssel. A rozéborokat általában a reduktív technológia jellemzi, tehát a későbbi érlelés is többnyire tartályokban zajlik. A fahordós érlelés kevés kivételtől eltekintve nem jellemző. Világszerte két technológiát alkalmaznak leginkább. Az egyik a gyors feldolgozás, a másik a rövid idejű héjon áztatás. Ebből adódóan érthető, hogy a legtöbb rozébor pórusmentes anyagú tárolóedényeket igényel a tárolásra."
+    ],
+    [
+      "A sillerborok érlelésének jellemzői nagyjából megegyeznek a rozéboroknál tárgyaltakkal, annyi különbséggel, hogy talán hosszabb ideig tárolhatók, mint a rozéborok. Viszont a siller esetében is vigyázni kell az oxidációval, nehogy a bor színe barnulni kezdjen az oxigén hatására."
+    ],
+    [
+      "Nagy általánosságban véve, a vörösborok készülhetnek héjon erjesztéssel, melegítéses eljárással, vagy akár szénsavatmoszférában is. Egyes bortípusoknak megfelelően, akár gyors feldolgozással készült vörösborok is előfordulhatnak. Ez alapján a vörösborok érlelésekor rengeteg opció szóba jöhet, attól függően, hogy milyen bortípust szeretnének elkészíteni. A rövid ideig tartó hordós érleléstől kezdve egészen az évekig tartó tárolás lehetősége is kihasználható. A vörösborok érlelésére használhatók különböző tartályok is, nem kell mindenáron a fahordót alkalmazni."
+    ],
+    [],
+    [
+      "Palackos érlelés"
+    ],
+    [
+      "Mind a fehér-, mind a vörösborok egyaránt érlelhetők palackban. A borokban a palackbuké szépen lassan fejlődik ki, idővel finomodik, adott esetben van, hogy 3–4 év alatt éri el a fejlődés maximumát. Ha megfelelően tárolják palackban a bort, akkor csak igen kevés oxigén tud bejutni a borba. Azonban, ha valamilyen sérülés érte a dugót vagy a palackot, sajnos könnyedén oxidálódhat a bor, oxidált jellegűvé válik, ezáltal veszít eredeti minőségéből. A palackos érlelés során nagyon fontos a hűvös, sötét hely és a palackok fekvő helyzetben való tárolása. Az optimális hőmérséklet 12–13 fok, így tudnak a palackban érlelt borok idővel egyre szebbé és jobbá válni mind illatukban, mind ízükben."
+    ],
+    [],
+    [
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Palackos érlelés"
+    ],
+    [
+      "Forrás: Szerző saját fotója"
+    ],
+    [
+      ""
+    ],
+    [
+      "Ábrajegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "Táblázatjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "Felhasznált irodalom"
+    ],
+    [
+      "Eperjesi Imre",
+      ": B",
+      "orászati technológia. Budapest, 2010, ",
+      "Mezőgazda Kiadó."
+    ],
+    [
+      "Prohászka Ferenc: Szőlő és bor. Budapest, 1986, ",
+      "Mezőgazda Kiadó."
+    ],
+    [
+      "Ronald S. Jackson: Wine Science: Principles and applications. Amsterdam, Heidelberg, 2008, Elsevier"
+    ],
+    [
+      "Kállay Miklós: Borászati kémia. Budapest, 2010, ",
+      "Mezőgazda Kiadó."
+    ],
+    [
+      "Bereczkiné Kardeván Kinga - Kovács Gáborné - Csatáriné Horváth Magdolna - Maráziné Király Ildikó - Tormáné Csizmadia Zsuzsanna - Virágné Széli Márta - Zak",
+      "ariásné Kiskó Bernadett: ",
+      "Általános élelmiszeri",
+      "pari technológiák II. Budapest, 2020, ",
+      "Herman Ottó Intézet."
+    ],
+    [],
+    []
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Taranyi Dóra Ágnes"
+      ],
+      [
+        "Szakmai lektor:",
+        "Mátyus Imre"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Élelmiszeripar"
+      ],
+      [
+        "Szakma:",
+        "Szőlész-borász"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Borászati technológia"
+      ],
+      [
+        "Tantárgy:",
+        "A bor kezelése és palackozása"
+      ],
+      [
+        "Évfolyam:",
+        "10, 11. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "4 óra"
+      ]
+    ],
+    [
+      [
+        "kemény, testes, száraz borok",
+        "15-20 mg/l szabadkénessav szint"
+      ],
+      [
+        "kemény, vékonyabb, száraz borok",
+        "20-25 mg/l szabadkénessav szint"
+      ],
+      [
+        "lágy, száraz borok",
+        "30-35 mg/l szabadkénessav szint"
+      ],
+      [
+        "kemény, édeskés vagy édes borok",
+        "35-40 mg/l szabadkénessav szint"
+      ],
+      [
+        "lágy, édeskés vagy édes borok",
+        "40-45 mg/l szabadkénessav szint"
+      ]
+    ]
+  ],
+  "headers": [
+    ""
+  ],
+  "footers": [
+    ""
+  ],
+  "footnotes": [
+    "",
+    "",
+    " Bereczkiné Kardeván Kinga - Kovács Gáborné - Csatáriné Horváth Magdolna - Maráziné Király Ildikó - Tormáné Csizmadia Zsuzsanna - Virágné Széli Márta - Zakariásné Kiskó Bernadett - Általános élelmiszeripari technológiák II., Budapest, 2020, Herman Ottó Intézet.",
+    " Prohászka Ferenc - Szőlő és bor, Budapest, 1986, Mezőgazda Kiadó."
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image11.jpeg",
+      "path": null,
+      "bytes": 234069
+    },
+    {
+      "name": "image13.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image10.jpeg",
+      "path": null,
+      "bytes": 56850
+    },
+    {
+      "name": "image12.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image7.jpeg",
+      "path": null,
+      "bytes": 186901
+    },
+    {
+      "name": "image8.jpeg",
+      "path": null,
+      "bytes": 550385
+    },
+    {
+      "name": "image1.png",
+      "path": null,
+      "bytes": 100437
+    },
+    {
+      "name": "image2.jpeg",
+      "path": null,
+      "bytes": 29141
+    },
+    {
+      "name": "image9.jpg",
+      "path": null,
+      "bytes": 45144
+    },
+    {
+      "name": "image3.jpeg",
+      "path": null,
+      "bytes": 118311
+    },
+    {
+      "name": "image5.png",
+      "path": null,
+      "bytes": 141669
+    },
+    {
+      "name": "image6.jpeg",
+      "path": null,
+      "bytes": 203321
+    },
+    {
+      "name": "image4.jpeg",
+      "path": null,
+      "bytes": 173898
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "Table Grid",
+    "[Alapbekezdés]",
+    "Hyperlink",
+    "Unresolved Mention",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "Címsor 4 Char",
+    "Címsor 5 Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "a_ELMS_felsorolás_pötty",
+    "List Paragraph",
+    "ábraszám",
+    "footnote text",
+    "Lábjegyzetszöveg Char",
+    "footnote reference",
+    "table of figures",
+    "Táblázataláírás",
+    "a_ELMS_fontos tartalom",
+    "a_ELMS_Címsor 1",
+    "a_ELMS_Címsor 2",
+    "a_ELMS_Címsor 2 Char",
+    "a_ELMS_Címsor 3",
+    "a_ELMS_Címsor 3 Char",
+    "a_ELMS_normál szöveg",
+    "a_ELMS_Ábraaláírás",
+    "a_ELMS_Táblázataláírás",
+    "a_ELMS_felsorolás_pötty Char",
+    "Caption"
+  ]
+}

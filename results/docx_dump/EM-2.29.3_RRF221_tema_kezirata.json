@@ -1,0 +1,1568 @@
+{
+  "core_properties": {
+    "creator": "coollab",
+    "lastModifiedBy": "Soós Gabriella Brigitta (ELMS)",
+    "revision": "2",
+    "created": "2024-11-19T12:45:00Z",
+    "modified": "2024-11-19T12:45:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal.dotm",
+    "TotalTime": "0",
+    "Pages": "30",
+    "Words": "4140",
+    "Characters": "29153",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "1325",
+    "Paragraphs": "979",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "32314",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.29.3  ",
+    "A borpalackozás technológiája",
+    "Témák kézirata",
+    "",
+    "",
+    "",
+    "",
+    "Tartalomjegyzék",
+    "1\tA palackozást közvetlenül megelőző műveletek\t2",
+    "2\tA palackozás technikái\t3",
+    "2.1\tHidegsteril palackozás\t4",
+    "2.1.1\tA hidegsteril palackozás lépései\t4",
+    "2.2\tMelegsteril palackozás\t5",
+    "2.2.1\tA melegsteril palackozás lépései\t6",
+    "2.3\tSzénsavas borok töltése\t7",
+    "2.3.1\tSzénsavas borok palackozásának lépései\t8",
+    "2.4\tBortechnológiai igények\t8",
+    "3\tA palackozáshoz szükséges anyagok\t9",
+    "3.1\tPalack\t9",
+    "3.1.1\tLeggyakoribb palackformák\t10",
+    "3.1.1.1\tBordói\t10",
+    "3.1.1.2\tBurgundi\t11",
+    "3.1.1.3\tRajnai\t11",
+    "3.1.1.4\tChampagne-i\t12",
+    "3.1.1.5\tTokaji\t13",
+    "3.1.1.6\tEgri\t13",
+    "3.1.1.7\tEgyedi\t14",
+    "3.1.2\tBorospalack méretek\t14",
+    "3.2\tZáróelem\t15",
+    "3.3\tCímke\t19",
+    "3.3.1\tBorok jelölése (jogszabályok és termékleírások alapján)\t19",
+    "4\tEgyéb csomagolási technikák\t20",
+    "4.1\tBag-in-box\t20",
+    "5\tA palackos borok csomagolása, tárolása, szállítása\t22",
+    "Ábrajegyzék\t27",
+    "Felhasznált irodalom\t28",
+    "",
+    "",
+    "",
+    "A palackozást közvetlenül megelőző műveletek",
+    "A palackozni kívánt bornak meg kell felelnie néhány elengedhetetlen kritériumnak. Mind ízében, mind illatában megfelelő élvezeti értéket kell, hogy képviseljen, borhibáktól, borbetegségektől mentesnek kell lennie. A bor kizárólag készre kezelt, stabil állapotban kerülhet töltésre, hogy problémamentesen el tudjon jutni a fogyasztóig. A palackozás emiatt kiemelt fontossággal bír, hiszen az addig megteremtett értéket kell megőrizni, biztosítani. A palackban történő kiválások és egyéb stabilitási problémák elkerülése érdekében a palackozás előtt ellenőrző próbák és vizsgálatok elvégzésével meg kell győződni a tétel hatályos jogszabályoknak való megfelelőségéről, illetve stabilitásáról. Előbbit a bor engedélyeztetése során a hatóság is vizsgálja, utóbbit azonban nem, ugyanakkor nem kevésbé fontos szempont, mivel a bor a szállítása, értékesítése során számos különböző környezeti behatásnak van kitéve. Ilyen például a rázkódás vagy a szállítást végző gépjárműben az extrém meleg vagy hideg hőmérséklet, ami a bort érheti.",
+    "",
+    "A forgalomba hozatali engedélyeztetés során a hatóság széleskörű analitikai vizsgálatokat végez, majd ezt követően érzékszervi bírálat útján bizonyosodnak meg a bor megfelelőségéről.",
+    "Az engedélyeztetés során a fő, kritikus vizsgált paraméterek az alábbiak:",
+    "alkoholtartalom",
+    "cukortartalom (glükóz, fruktóz, pezsgők esetében szacharóz is)",
+    "savtartalom",
+    "illósavtartalom",
+    "kén-dioxid-tartalom",
+    "szén-dioxid-túlnyomás (kizárólag szénsavas borok esetében)",
+    "",
+    "Az analitikai vizsgálat mellett a bornak érzékszervileg is meg kell felelnie a meghatározott paramétereknek, ezek a szempontok az alábbiak:",
+    "egészséges, az elnevezésnek, jelölésnek megfelelő szín, íz, zamat",
+    "tiszta, üledékmentes küllem",
+    "pezsgő esetében finom, tartós gyöngyözés",
+    "",
+    "Bár a palackállóságra kiterjedően korábban voltak hatósági vizsgálatok, jelenleg az engedélyeztetésnek nem képezi részét. Egyúttal ugyanannyira fontos, így célszerű a borásznak elvégezni a palackozást megelőzően. Ezek a palackállósági próbák és a célterületük az alábbiak:",
+    "hidegpróba (borkőstabilitás)",
+    "melegpróba (fehérjestabilitás)",
+    "levegőpróba (barnulási hajlam)",
+    "rázópróba (rázkódásra esetlegesen előjövő kiválások)",
+    "",
+    "A palackozás után tárolási próba keretén belül mikrobiológiai vizsgálatok által ellenőrizhető a bor mikrobiológiai stabilitása. A palackozás utáni élesztősejtszám ismeretében vizsgálható annak esetleges növekedése havi vagy évi viszonylatban.",
+    "A palackozás előtt álló bornak teljes mértékben zavarosságtól mentesnek, tükrösnek kell lennie. Tükrösnek nevezik azt a bort, ami teljes mértékben átlátszó, zavarosságtól tökéletesen mentes. A bor tükrösségéről szűréssel gondoskodnak.",
+    "A stabilizálószerek hozzáadása is közvetlenül a palackozást megelőzően történik. Ilyenkor a borkőstabilitás fenntartására, az utóerjedés megakadályozására, a kénessavszint végső beállítására kémiai szereket adnak a borhoz. Ugyanekkor a bor frissességének megőrzése céljából a csendes borhoz is némi szén-dioxid adható (20 Celsius fokon mérve 1 bar túlnyomásig). Ezzel a szűrések, fejtések, és a palackozás során elvesztett szén-dioxid mennyiség pótolható, a felvett oxigén mennyisége csökkenthető.",
+    "",
+    "A palackozás technikái",
+    "A palackozás a borászati technológia utolsó lépcsőjeként a bor stabilitásának szempontjából kulcsfontosságú. A zavarosodások egy kivételtől eltekintve a készre kezelés során megelőzhetőek, a kezelések sikeressége próbákkal visszaellenőrizhető. Ez alól képez kivételt az élesztőzavarosodás, az utóerjedés, mivel amíg a borban található maradék cukor, addig ez a veszély mindig fenn áll. A zavarosodás ezen formája nemcsak az édes borokban fordulhat elő, egy száraz bor is tartalmazhat néhány gramm maradék cukrot, mivel tökéletesen szárazra ritkán erjednek a borok, és ilyen mennyiségű cukor is lehetőséget biztosíthat az élesztő szaporodásának. Ennek a stabilitási veszélynek az elhárítására kémiai és fizikai módszerek használhatóak, a legbiztosabb eredmény azonban a kettő módszer kombinálásával kapható. Kémiailag kálium-szorbát hozzáadásával az élesztő szaporodását gátolni tudják, azonban kiemelendő, hogy mivel csak a szaporodás gátlásáról van szó, nagyobb fertőződés esetén ugyanúgy zavarosodás, utóerjedés léphet fel. Használható szer továbbá a dimetil-dikarbonát (DMDC), azonban gyakoribbnak mondható a kálium-szorbát alkalmazása. Fizikai módszerek esetében kettő megoldás választható, az egyik a hidegsteril, a másik a melegsteril palackozás technológiája. A továbbiakban ezekbe kapsz mélyebb betekintést, továbbá a szénsavas borok palackozásával is megismerkedhetsz.",
+    "",
+    "Hidegsteril palackozás",
+    "A hidegsteril palackozás célja leegyszerűsítve, a lépéseit tekintve, hogy a steril bort, steril körülmények között steril palackba helyezik, mindezt a bor hevítése nélkül. A bor csíramentesítése szűréssel biztosítható, a töltőgép és a palackzáró gépek (csavarzáró, dugózó) sterilizálására alacsony nyomású gőz használata a legcélravezetőbb. A palackok és a záróelemek (csavarzár, dugó) pedig gyárilag sterilen vannak már csomagolva. Amennyiben mosott, korábban már használt palackokba töltik a bort, a palack sterilizálására kénessavat vagy ózont használnak. A munkavégzés során fontos a tisztaság fenntartása, a visszafertőződés legjelentősebb indoka maga az ember, ezért különös figyelmet kell fordítani a személyes higiéniára, amibe beletartozik a kéz tisztatásága mellett a dolgozó ruházata is. A cél érdekében érdemes köpeny, gumikesztyű, hajháló használata is.",
+    "",
+    "A hidegsteril palackozás lépései",
+    "A készre kezelt bor hőmérsékletét, amennyiben szükséges, 20 °C-ra emelik (lásd 1. ábra), ezzel elkerülve, hogy a későbbiekben, melegebb környezetben a folyadék hőtágulása által kinyomódjon a palackból a dugó, illetve amennyiben egyből a bor címkézése is megtörténik a palackozáskor, úgy nem csapódik ki az üvegen a pára, ami a címke megtapadását akadályozni, rontani tudná. Ezt követően egy előtartályba (előtankba) kerül a bor, amelyről a töltőgép fog üzemelni. ",
+    "Ennek akkor van jelentősége, ha hordóból vagy egyéb tartályokból a palackozás alatt is fejtik a bort, ezzel biztosítható a palackozás folyamatossága.",
+    "Az előtartály méretét a gépsor teljesítményéhez igazítják. Itt történik a szén-dioxid hozzáadása a borhoz, és amennyiben kettős köpenyű tartályról van szó, úgy a bor korábban beállított palackozási hőmérséklete is fenntartható. Az előtartályból a bor az EK- (a német „Entkeimungsfilter” szóból, jelentése: csírátlanító, steril szűrés) szűrést követően 1 vagy akár két membránszűrőn keresztül halad a töltőgépbe. Az EK-szűrés utáni membránszűrés biztonsági szerepet tölt be, az esetlegesen átjutott baktériumokat, élesztőmaradványokat vagy a szűrőlapból levált darabokat, szálakat hivatott kiszűrni. A gépsorra helyezett palackokat attól függetlenül, hogy gyárilag sterilen érkeznek, kimossa, fertőtleníti a gép, mivel előfordulhat szennyeződés a palackokban, úgy, mint üvegszilánk, rovarok stb. Az üvegek UV-sterilizált szalagon haladnak a gépben. A mosást és kicsöpögtetést követően az üveget megtöltik, lezárják, dugós tétel esetében kapszulázzák (kupakolják), címkézik, majd csomagolják.",
+    "",
+    "",
+    "A hidegsteril palackozás munkafolyamata",
+    "Forrás: Eperjesi Imre: Borászati technológia. Budapest, 2014, Mezőgazda Lap- és Könyvkiadó. 103. ábra",
+    "",
+    "Melegsteril palackozás",
+    "A hidegsteril palackozással szemben a melegsteril palackozás nem szűrésekkel és kémiai szerek, illetve mosás által biztosítja a bor és a palack sterilitását, hanem a módszer alapját a hő és a borban lévő alkohol adja. Nincs szükség a töltőhelyiség, a gép, a palack, a záróelemek sterilitására, emiatt kevésbé igényel akkora technológiai fegyelmezettséget. Ugyanakkor van olyan bortípus, amelynél a melegítés problémát okozhat. Míg a vörösboroknál, oxidatív boroknál működhet, friss, reduktív borok esetében a melegítés oxidációt növelő hatása igen negatív hatással lehet a bor illatára és zamatára egyaránt. Nem véletlen tehát, hogy manapság ez a technológia nem igen használatos.",
+    "",
+    "A melegsteril palackozás lépései",
+    "A készre kezelt, melegpróba által is bizonyítottan stabil bort lapszűrőn keresztül az előtartályba (előtank) juttatják (lásd 2. ábra). Fontos különbség a két módszer között, hogy a lapszűrés itt az első lépés, illetve, hogy itt nem EK-szűrésről van szó. A szűrés célja kizárólag a tükrösség, a tisztaság elérése, a sterilitást a melegítés biztosítja. A bor az előtartályból lemezes hőcserélőn keresztül halad tovább a töltőgépbe, ezalatt a bor hőmérsékletét 50–55 °C körüli hőmérsékletre emelik. Kulcsfontosságú, hogy a bor az ezen a tartományon belüli hőmérsékletet kell felvegye és maradjon is azon 10–15 percig. Amennyiben a hőmérséklete alacsonyabb vagy rövidebb ideig marad azon, mint 10–15 perc, úgy a csírátlanító hatás nem biztosított. Ugyanakkor, ha magasabb hőmérsékletre hevítik a bort vagy hosszabb ideig tartják az adott hőmérsékleten, úgy ez a borban negatív elváltozásokat okozhat mind ízben, mind illatban. A rendszerben ezért egy hőfokszabályzó és egy szelep gondoskodik erről, amennyiben nem megfelelő a hőcserélőből kilépő bor hőmérséklete, a bort visszajuttatja az előtartályba. A palackok melegvizes öblítéssel egyúttal elő is melegítődnek, töltést követően lezárják, kapszulázzák (kupakolják), címkézik, majd csomagolják az üvegeket.",
+    "",
+    "",
+    " A melegsteril palackozás munkafolyamata",
+    "Forrás: Eperjesi Imre: Borászati technológia. Budapest, 2014, Mezőgazda Lap- és Könyvkiadó. 104. ábra",
+    "",
+    "Szénsavas borok töltése",
+    "A bor atmoszférikus nyomáson is el tud nyelni bizonyos mértékű szén-dioxidot, ennek mennyiségét a bor tulajdonságai határozzák meg.",
+    "A szén-dioxid elnyelését segítik:",
+    "alacsony hőmérséklet",
+    "magasabb alkoholtartalom",
+    "kolloidtartalom",
+    "",
+    "A cukortartalom azonban csökkenti a szén-dioxid oldhatóságát.",
+    "A bor frissességéért hozzáadott 1 g/l körüli szén-dioxid mennyiség egy normál palackozó üzem által is gond nélkül tölthető, atmoszférikus nyomáson 1 liter bor hozzávetőlegesen 2,5 g szén-dioxidot képes elnyelni. Ettől nagyobb mennyiségű CO2 oldódásához már túlnyomás, illetve speciális gépesítés szükséges. A szén-dioxid hozzáadásával készülő habzó-, illetve gyöngyözőborok esetében a szén-dioxid szaturálása (elnyeletése) és a nyomás fenntartása a palackozás alatt történik, azonban nem tradicionális pezsgők esetében a technológia során a kezelések alatt is szükséges a nyomás megtartása a szén-dioxid megőrzése érdekében.",
+    "",
+    "Szénsavas borok palackozásának lépései",
+    "A szénsavas borok palackozása kivétel nélkül hidegsteril technológiával történik, ennek oka a korábban már említett töltési hőmérséklet és a szén-dioxid oldódásának összefüggése. A klasszikus hidegsteril technológiától azonban némely tekintetben eltér. A palackozás során az ellennyomás folyamatosan biztosított, az ábrán látható módon a bor az első, úgynevezett nyomótartályból (nyomótankból) a szaturálóberendezésbe (szénsavazó berendezésbe) kerül (lásd 3. ábra), majd egy lemezes hőcserélőn keresztül lehűl 0–2 °C körüli hőmérsékletre. Ezt követően pedig egy hűtött puffertartályba (második nyomótankba) szűrik, ahonnan táplálják az ellennyomásos töltőgépet.",
+    "",
+    "",
+    "Szénsavazott bor hidegsteril palackozásának munkafolyamata",
+    "Forrás: Eperjesi Imre: Borászati technológia. Budapest, 2014, Mezőgazda Lap- és Könyvkiadó. 105. ábra",
+    "",
+    "Bortechnológiai igények",
+    "A bor palackozása során a technológiai fegyelmezettségnek kettő célja van:",
+    "a bor stabilitásának megőrzése, a bor eljuttatása a fogyasztóhoz negatív elváltozások nélkül",
+    "a bor addig kialakult értékeinek megőrzése mellett a bor palackba juttatása",
+    "Ehhez a palackozni kívánt bornak stabilnak, készre kezeltnek kell lennie, továbbá a borászati gyakorlatban a kezelések, a fejtések, és az egyéb pincemunkák során is ügyelni kell a higiéniára, a borral érintkező eszközök, berendezések tisztaságára, a személyi higiéniára, mivel leggyakrabban az érintkezés által történő fertőződés okozhat veszélyt. A borászatban, különösen a palackozó üzemben ezért kiemelt jelentőségű a higiénia folyamatos fenntartása, a fertőtlenítések rutinszerű elvégzése.",
+    "",
+    "A palackozáshoz szükséges anyagok",
+    "Palack",
+    "Bár a piacon jelen vannak egyéb tárolási formák is, mint például a PET-palack, a tetra pak, a bag in box, a fém doboz, mégis az uralkodó a klasszikus üvegpalack. A vásárlók szemében az üvegpalack a legelfogadottabb, az egyéb csomagolási formákkal kapcsolatban az emberek gyakran bizalmatlanok, rosszabb minőséget társítanak melléjük. Bár korábban választék hiánya miatt a borászok lehetőségei igencsak be voltak határolva, mára már nagy szabadságuk van a palack formájának, színének, űrtartalmának megválasztásában. A palackoknak ezektől függetlenül néhány technikai követelménynek meg kell felelniük:",
+    "a talpukon egyenesen álljanak",
+    "faluk mindenhol egyforma vastag legyen",
+    "faluk zárványoktól mentes legyen",
+    "szájuk, nyakuk formája a dugó hosszáig egyenletes henger legyen",
+    "nyakuk 1,5°-nál nem lehet ferdébb",
+    "",
+    "Amennyiben a palack fala vékonyabb részeket, esetlegesen zárványokat tartalmaz, úgy azok a palack szempontjából gyenge pontnak, hibának minősülnek. Különösen fontos szempont ez a pezsgős palackok és a túlnyomástűrő palackok esetében, mivel könnyebben széttörhetnek, szétrobbanhatnak, ami az anyagi kár mellett balesetveszélyt is jelent. A törés történhet akár hősokk, vagyis gyors és nagymértékű hőmérséklet-változás hatására is. Amennyiben az üveg szája, nyaka nem egyenletes henger alakú, a használt záróelem illeszkedése nem lesz tökéletes, a palack folyhat. Az automata töltőgépek kifejezetten érzékenyek a palackok nyakának ferdeségére, 1,5°-nál nagyobb dőlés esetében a palack nem tölthető automata géppel, ellenkező esetben a töltés során a gép eltörheti az üveget.",
+    "",
+    "A borhoz választott palack formája, színe legnagyobb részben marketing jelentőséggel bír. A színnek azonban technológiai szerepe is van, mivel a sötét színű üveg a bor számára káros fénytől védi a bort a tárolás, érlelés során. Ezért általánosságban elmondható, hogy a nagyobb érlelési potenciállal bíró borokat sötét (olívzöld, sötétzöld, barna), míg a frissebb, például rozé borokat jellemzően átlátszó fehér üvegbe töltik.",
+    "",
+    "Leggyakoribb palackformák",
+    "A palackok formái nem véletlenül borvidékek neveit viselik, ennek oka, hogy az adott palackformák ezeken a területeken alakultak ki és terjedtek tovább. Emiatt szinte hagyománnyá vált, hogy a palackba kerülő bor és a szőlőfajta – amiből a bor készült – határozza meg, hogy milyen palackot használnak. Természetesen a védett eredetű (pl. Tokaji aszú) boroktól eltekintve erre szabályozás nincsen, mégis megfigyelhető, hogy jellemzően például burgundi típusú palackba a Burgundiából származó szőlőfajták borait (például a Pinot noir-t vagy a Chardonnay-t) töltik. A továbbiakban a különböző borospalackformákkal ismerkedhetsz meg.",
+    "",
+    "Bordói",
+    "A legelterjedtebb palackforma, a franciaországi Bordeaux borvidékéről terjedt el. Fehér- és vörösbort egyaránt töltenek bele, egyenes, hengeres alak, magas váll jellemzi (lásd 4. ábra), praktikus, könnyen fektethető, tárolható. Egyszerű kialakítása miatt a legolcsóbb palackforma.",
+    "",
+    "",
+    "Bordói palack",
+    "Forrás: https://landmarktokaj.hu/palack.html (2024.08.04.)",
+    "",
+    "Burgundi",
+    "A franciaországi Burgundia területén kialakult forma. Gyümölcsös fehér, vörös, édes és száraz borokat egyaránt töltenek bele. Formája a bordóihoz képest szofisztikáltabb, válla lejtős, elegánsabb (lásd 5. ábra).",
+    "",
+    "",
+    "Burgundi palack",
+    "Forrás: https://landmarktokaj.hu/palack.html (2024.08.04.)",
+    "",
+    "Rajnai",
+    "A németországi Rajna-vidékről származó forma. Kizárólag fehérborokat töltenek bele, jellemzően száraz rizling típusú, vagy esetlegesen édes borokat. Alakja a burgundi típushoz hasonló, azonban annál hosszúkásabb, nyújtott (lásd 6. ábra).",
+    "",
+    "",
+    "Rajnai palack",
+    "Forrás: https://landmarktokaj.hu/palack.html (2024.08.04.)",
+    "",
+    "Champagne-i",
+    "A franciaországi Champagne vidékéről származó forma (lásd 7. ábra). Kizárólag pezsgőket, habzóbort, gyöngyözőbort töltenek bele. Alakja hasonlít a burgundi típusra, fala azonban vastagabb, szájkiképzése eltérő, két lekerített perem fut körbe rajta, a legfelső a koronazár, az alsó pedig a kosár rögzítésére szolgál. A sötét színűekbe a tradicionális irány érlelt pezsgőit töltik, színtelen fajtáiba pedig a gyümölcsös, friss fehér és rozé szénsavas borok kerülnek.",
+    "",
+    "",
+    "Champagne-i palack",
+    "Forrás: https://landmarktokaj.hu/palack.html (2024.08.04.)",
+    "",
+    "Tokaji",
+    "A Tokaji borvidéken létrehozott forma. Hosszú nyak, lejtős vállán Tokaj felirat, széles hengeres test jellemzi (lásd 8. ábra). Az eredetvédelmi szabályozások alapján kizárólag Tokaji bor tölthető ilyen palackba.",
+    "",
+    "",
+    "Tokaji palack",
+    "Forrás: http://www.interker-wein.hu/Palackoz%C3%A1ssalkapcsolatosterm%C3%A9kek/Palackok/Tokajipalackok/Tokaji806ospecs%C3%A9tespalack500mlfeh%C3%A9r/tabid/498/Default.aspx (2024.08.04.)",
+    "",
+    "Egri",
+    "Az Egri borvidéken létrehozott forma. A bordói palackhoz hasonló, azonban hosszabb nyak, bordóinál lejtősebb, de mégis erőteljes váll jellemzi (lásd 9. ábra). Az eredetvédelmi szabályozások alapján kizárólag egri bor tölthető ilyen palackba.",
+    "",
+    "",
+    "Egri palack",
+    "Forrás: https://www.gasztromagazin.hu/wp-content/uploads/2019/06/egri_palack_foto_Talaber_Geza2.jpg (2024.08.04.)",
+    "",
+    "Egyedi",
+    "A borászatoknak lehetőségük van egyedi üvegpalackokba való töltésre is. Leggyakrabban Magyarországon a Varga Pincészet egyedi betétdíjas palackjaival lehet találkozni, de jellegzetes példák a JP. Chenet borászat ferdenyakú palackjai is (lásd 10. ábra).",
+    "",
+    "",
+    "JP. Chenet egyedi palackja",
+    "Forrás: https://www.jpchenet.com/delicious-blanc/?lang=en (2024.08.04.)",
+    "",
+    "Borospalack méretek",
+    "Bár a legtöbbször a 0,75 literes standard palackokkal lehet találkozni, azonban használatosak más méretű palackok is, mely méreteknek kialakult az elnevezésük is. Ezek az alábbiak:",
+    "Split (0,375 liter = 0,5 palack)",
+    "Standard (0,75 liter = 1 palack)",
+    "Magnum (1,5 liter = 2 palack)",
+    "Dupla magnum (3 liter = 4 palack)",
+    "Jeroboám (4,5 liter = 6 palack)",
+    "Matuzsálem (6 liter = 8 palack)",
+    "Szalmanazár (9 liter = 12 palack)",
+    "Baltazár (12 liter = 16 palack)",
+    "Nabukodonozor (15 liter = 20 palack)",
+    "Melchior (18 liter = 24 palack)",
+    "",
+    "Záróelem",
+    "A palackok lezárásának hagyományos módja a parafadugó (lásd 11. ábra). Korábban minden bort így zártak, viszont manapság a használata a legolcsóbb (jelenleg ez az 1000 Ft alatti), illetve a drágább (jelenleg ez nagyjából a 4-5000 Ft feletti) borok esetében jellemző, a gyengébb minőségű parafadugók árban versenyképesek, a jobb minőségű dugó anyagköltségét azonban csak értékesebb borok bírják el. Költséghatékonysági, illetve technológiai, praktikussági okokból elterjedtek alternatív zárási módok is.  Az egyik fő ok a dugóíz elkerülése. Statisztikák szerint a dugók 2–5%-a fertőzött és okoz a későbbiekben dugóízt a borban. Sajnálatos módon ez a borászat által kivédhetetlen probléma, és csak a palack kinyitásakor, a legtöbb esetben a fogyasztónál derül fény rá. Ennek a kivédésére találták ki a műanyag dugókat (lásd 12. ábra), melyek teljesen TCA- (triklóranizol) mentesek és bármely (kézi vagy gépi) dugózóval használhatóak. Újabban megjelentek felsőbb kategóriás borok esetében az üvegdugók is, amelyekhez speciális szájkiképzésű palack szükséges. Csendes borok esetében napjainkban a legelterjedtebb a csavarzár vagy más néven Stelvin-zár (lásd 13. ábra). Praktikussága elvitathatatlan, bármikor visszazárható, dugóízt nem tud okozni, a lezárt bor minőségét kiválóan megőrzi. Az alumíniumból készült záróelem két részből áll, egy menetes kupakból és egy kapszulából. Mindkettő kiválóan használható marketingfelületet is biztosít, számtalan színben elérhető, és gyártáskor logózható. Emellett pezsgők esetében az erjesztéskor használnak koronazárat (lásd 14. ábra), illetve olcsóbb pezsgők esetében polietilén, műanyag dugókat (lásd 15. ábra). Részletesebben a záróelemekről a Borászati szakmai gépek tananyagrészben olvashatsz.",
+    "",
+    "",
+    "Különböző típusú parafadugók",
+    "Forrás: szerző saját képe",
+    "",
+    "",
+    "Újabb generációs, újrahasznosítható műanyagból készült dugó",
+    "Forrás: szerző saját képe",
+    "",
+    "",
+    " Stelvin-zár a lezárást követően és azt megelőzően",
+    "Forrás: szerző saját képe",
+    "",
+    "",
+    "Pezsgő koronazár",
+    "Forrás: https://www.hopline.hu/Koronazar-oxigen-elnyelos-arany-100db (2024.08.05.)",
+    "",
+    "",
+    " Műanyag pezsgősdugó ",
+    "Forrás: https://www.alpla.com/hu/termekek-es-innovaciok/innovaciok/ujrahasznosithato-pezsgosdugo (2024.08.05.)",
+    "",
+    "Címke",
+    "A boroscímkéknek kettő feladatuk van:",
+    "tájékoztatás",
+    "a vásárló figyelmének felkeltése",
+    "",
+    "A címke tartalmára szigorú, folyamatosan formálódó jogszabályok vonatkoznak, melyek be nem tartásának bírság vonzata is keletkezhet, ezért fontos, hogy mindig a hatályos jogszabályok szerint készüljön el (erről bővebben a Borok jelölése című fejezet tesz említést). Egyúttal a címke a bor fő marketing felülete, a hely, ahol egy jól elkészített arculattal megragadható a vásárlók figyelme. Gyakran két részből állnak, egy fő címkéből és egy hátsó címkéből. A fő címke főleg marketing célokat szolgál, a hátsó inkább csak tájékoztató jellegű, általában főként a kötelezően jelölendő információkat tartalmazza. Manapság azonban az egyszerűség miatt nem használnak hátsó címkét, hanem egy fő címkét alkalmaznak, amelyen megfigyelhetők a marketing és tájékoztató szekciók.",
+    "",
+    "Borok jelölése (jogszabályok és termékleírások alapján)",
+    "Ahogyan a korábbiakban szó volt róla, vannak bizonyos adatok, jelölések, melyeknek a hatályos jogszabályok alapján kötelező jelleggel, meghatározott betűméretben, azonos vagy nem feltétlenül azonos látómezőben meg kell jelleniük a címkén. Ezek az adatok az alábbiak:",
+    "termékkategória megjelölése (fehér, rozé, vörös stb.)",
+    "OFJ (Oltalom alatt álló földrajzi jelzésű) és OEM (Oltalom alatt álló eredetmegjelölésű) boroknál a minősítés szerinti kategória és az oltalom alatt álló név (pl. Dunántúli Kékfrankos, Egri Bikavér)",
+    "tényleges alkoholtartalom",
+    "űrtartalom",
+    "származási ország",
+    "termelő és a palackozó üzem megjelölése",
+    "cukortartalom (pezsgő, habzóbor esetében)",
+    "tételszám",
+    "forgalombahozatali azonosító (Nébih azonosító)",
+    "allergéntartalom (kén-dioxid)",
+    "import bor esetén az importőr megnevezése",
+    "",
+    "Ezek mellett a borászat feltüntethet egyéb (termékleírások által szabályozott és nem szabályozott) jelöléseket is, ezek az alábbiak:",
+    "évjárat",
+    "borszőlő fajta neve",
+    "cukortartalom",
+    "közösségi szimbólum",
+    "előállítási eljárásokra utaló kifejezések",
+    "palackozás helyének feltüntetése (pl. „termőhelyen palackozva”)",
+    "termőhelyre vonatkozó alacsonyabb földrajzi jelzés, például település vagy dűlő neve",
+    "",
+    "Egyéb csomagolási technikák",
+    "Bag-in-box",
+    "A bag-in-box (BIB) csomagolás (lásd 16. ábra) egyre népszerűbb a borászatok körében, mivel számos előnyt kínál mind a termelők, mind a fogyasztók számára. A BIB-csomagolás egy kis csappal rendelkező, általában 3–5 literes flexibilis műanyag zacskó egy merev kartondobozba helyezve. Ez a megoldás számos különleges tulajdonsággal rendelkezik, amelyek kifejezetten hasznosak a bor tárolásában és szállításában.",
+    "",
+    "",
+    "Bag-in-box csomagolás",
+    "Forrás: https://cartobol.es/en/3-advantages-of-bag-in-box/ (2024.08.05.)",
+    "",
+    "Előnyei",
+    "Hosszabb eltarthatóság. A legnagyobb előnye, hogy a bor a zacskó belsejében nem érintkezik levegővel, mivel a csap segítségével adagolt bor helyére nem kerül levegő. Ez jelentősen csökkenti az oxidáció esélyét, ami a bor minőségének romlásához vezethet. A bor akár több hétig is megőrizheti frissességét a felbontás után.",
+    "Könnyű kezelhetőség. A kartondoboz könnyen kezelhető, szállítható és tárolható. A csap használata egyszerűvé és kényelmessé teszi a bor adagolását, így nem szükséges külön dugóhúzót használni.",
+    "Költséghatékonyság. Olcsóbb lehet, mint az üvegpalackok és a parafadugók, különösen nagyobb mennyiségű bor esetén. Ez a csomagolási forma lehetővé teszi a borászatok számára, hogy csökkentsék a csomagolási költségeket és növeljék a profitot.",
+    "Környezetbarát. Kisebb ökológiai lábnyommal rendelkezik, mint a hagyományos üvegpalackok. A kartondoboz és a műanyag zacskó egy része újrahasznosítható, és a teljes csomagolás súlya lényegesen kisebb, ami csökkenti a szállítási költségeket és a kapcsolódó szén-dioxid-kibocsátást.",
+    "Biztonság. Kevésbé törékeny, mint az üveg, így biztonságosabb szállítást és kezelést tesz lehetővé. Ez különösen fontos nagyobb események, rendezvények alkalmával, ahol nagy mennyiségű bor fogyasztása várható.",
+    "",
+    "Hátrányai",
+    "Korlátozott elegancia. Nem olyan elegáns, mint a hagyományos üvegpalackok, ezért gyakran nem annyira kedvelt a prémium vagy az ünnepi borok esetében, ahol fontos a csomagolás esztétikai értéke.",
+    "Tartalom minősége. Bár segít megőrizni a bor frissességét a levegő hatása ellen, bizonyos borok esetében, különösen azoknál, amelyek érzékenyek az oxidációra, a csomagolás nem biztos, hogy megőrzi az íz és az aroma minőségét olyan hosszú időn keresztül, mint az üvegpalack.",
+    "Használati nehézségek. Használata során néha nehézkes lehet a folyadék teljes kihasználása, mivel a zacskó nem mindig ürül ki teljesen.",
+    "Hulladékkezelési problémák. Bár újrahasznosítható, problémát jelenthet, hogy a csomagolás keveréke (pl. műanyag zacskó és kartondoboz) bonyolítja a hulladékkezelést.",
+    "",
+    "A palackos borok csomagolása, tárolása, szállítása",
+    "A palackozott borokat, attól függően, hogy tovább érlelik vagy értékesítik őket, palacktároló konténerbe (lásd 17. ábra), egyéb palacktárolásra, érlelésre alkalmas helyre vagy kartondobozokba helyezik (lásd 18. ábra). A kartondoboz a szállítás során védi a borospalackokat az esetleges fizikai sérülésektől, valamint a fénytől. A dobozok általában 6 vagy 12 palackot képesek befogadni. A borospalackok csomagolást követően készáruraktárba kerülnek. A raktározás során a bor minőségének megőrzése érdekében néhány szempontot figyelembe kell venni, mind a termelőnél, mind a nagy- illetve a kiskereskedésnél, de ugyanúgy a fogyasztónál történő tárolásnál. Ezek az alábbiak:",
+    "Hőmérséklet és páratartalom. A bor optimális raktározási hőmérséklete 12–15°C között, az optimális raktározási páratartalom pedig 60–70% között van. A tárolóhelyiség hőmérséklete semmiképpen sem eshet 5°C alá és nem emelkedhet 25 °C fölé. A túl magas hőmérséklet felgyorsíthatja a bor öregedését, míg a túl alacsony páratartalom kiszáríthatja a parafadugókat. A túl alacsony hőmérséklet a bor megfagyásához vagy esetlegesen borkőkiváláshoz, a túl magas páratartalom a palackok, dobozok, címkék és a helyiség penészesedéséhez vezethet.",
+    "Fényvédelem. A borokat sötét helyen kell tárolni, mivel a fény oxidálhatja és tönkreteheti a bort. Az üveg színe és a tároló dobozok is segítenek a fényvédelemben.",
+    "Pozíció. A borosüvegeket vízszintesen kell tárolni, hogy a parafadugók ne száradjanak ki. A csavarzáras palackoknál ez kevésbé kritikus, de a vízszintes tárolás praktikussági szempontból továbbra is előnyös.",
+    "",
+    "",
+    "Borospalackok tárolása konténerben",
+    "Forrás: szerző saját képe",
+    "",
+    "",
+    "Borospalackok csomagolása kartondobozba",
+    "Forrás: szerző saját képe",
+    "",
+    "Szállítás",
+    "Hőmérséklet-szabályozás. A borok szállításakor (lásd 19. ábra) különösen fontos a hőmérséklet-szabályozás, mivel a hőmérsékleti ingadozások negatívan befolyásolhatják a bor minőségét, mind a fagyás szempontjából, mind a túl magas hőmérséklet tekintetében. Speciális hőszabályozott szállítóeszközök használata ajánlott.",
+    "Biztonság és védelem. A palackokat megfelelően kell rögzíteni és párnázni a szállítás során, hogy elkerüljék a törést és a sérülést.",
+    "Címkézés és dokumentáció. Minden szállítmányt megfelelően kell címkézni és dokumentálni, hogy biztosítsák a nyomon követhetőséget és megfeleljenek a jogi előírásoknak.",
+    "",
+    "Fontos szempontok a bor tárolása és szállítása során",
+    "Minőségmegőrzés. Minden folyamat célja, hogy megőrizze a bor eredeti minőségét a termeléstől a fogyasztásig.",
+    "Biztonság. Az üvegpalackok törékenysége miatt kiemelt figyelmet kell fordítani a biztonságos kezelési és szállítási eljárásokra.",
+    "Költséghatékonyság. A raktározási és szállítási megoldások költséghatékonysága fontos szempont a versenyképesség megőrzése érdekében.",
+    "",
+    "",
+    "Bor szállítása 6 db-os kartondobozokban",
+    "Forrás: szerző saját képe",
+    "",
+    "Ábrajegyzék",
+    "1. ábra: A hidegsteril palackozás munkafolyamata\t6",
+    "2. ábra: A melegsteril palackozás munkafolyamata\t7",
+    "3. ábra: Szénsavazott bor hidegsteril palackozásának munkafolyamata\t8",
+    "4. ábra: Bordói palack\t11",
+    "5. ábra: Burgundi palack\t11",
+    "6. ábra: Rajnai palack\t12",
+    "7. ábra: Champagne-i palack\t12",
+    "8. ábra: Tokaji palack\t13",
+    "9. ábra: Egri palack\t13",
+    "10. ábra: JP. Chenet egyedi palackja\t14",
+    "11. ábra: Különböző típusú parafadugók\t16",
+    "12. ábra: Újabb generációs, újrahasznosítható műanyagból készült dugó\t16",
+    "13. ábra: Stelvin-zár a lezárást követően és azt megelőzően\t17",
+    "14. ábra: Pezsgő koronazár\t18",
+    "15. ábra: Műanyag pezsgősdugó\t18",
+    "16. ábra: Bag-in-box csomagolás\t21",
+    "17. ábra: Borospalackok tárolása konténerben\t23",
+    "18. ábra: Borospalackok csomagolása kartondobozba\t24",
+    "19. ábra: Bor szállítása 6 db-os kartondobozokban\t25",
+    "",
+    "",
+    "Felhasznált irodalom",
+    "Eperjesi Imre \tBoraszati technológia\tBudapest, 2010, Mezőgazda Kiadó.",
+    "",
+    ""
+  ],
+  "runs": [
+    [],
+    [
+      "Egyedi megrendelés azonosítója:",
+      " EM-2.29.3  "
+    ],
+    [
+      "A borpalackozás technológiája"
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      "Tartalomjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "A palackozást közvetlenül megelőző műveletek"
+    ],
+    [
+      "A palackozni kívánt bornak meg kell felelnie néhány elengedhetetlen kritériumnak. Mind ízében, mind illatában megfelelő élvezeti értéket kell, hogy képviseljen, borhibáktól, borbetegségektől mentesnek kell lennie. A bor kizárólag készre kezelt, stabil állapotban kerülhet töltésre, hogy problémamentesen el tudjon jutni a fogyasztóig. A palackozás emiatt kiemelt fontossággal bír, hiszen az addig megteremtett értéket kell megőrizni, biztosítani. ",
+      "A palackban történő kiválások és egyéb stabilitási problémák elkerülése érdekében a palackozás előtt ellenőrző próbák és vizsgálatok elvégzésével meg kell győződni a tétel hatályos jogszabályoknak való megfelelőségéről, illetve stabilitásáról.",
+      " Előbbit a bor engedélyeztetése során a hatóság is vizsgálja, utóbbit azonban nem, ugyanakkor nem kevésbé fontos szempont, mivel a bor a szállítása, értékesítése során számos különböző környezeti behatásnak van kitéve. Ilyen például a rázkódás vagy a szállítást végző gépjárműben az extrém meleg vagy hideg hőmérséklet, ami a bort érheti."
+    ],
+    [],
+    [
+      "A forgalomba hozatali engedélyeztetés során a hatóság széleskörű analitikai vizsgálatokat végez, majd ezt követően érzékszervi bírálat útján bizonyosodnak meg a bor megfelelőségéről."
+    ],
+    [
+      "Az engedélyeztetés során a fő, kritikus vizsgált paraméterek az alábbiak:"
+    ],
+    [
+      "alkoholtartalom"
+    ],
+    [
+      "cukortartalom (glükóz, fruktóz, pezsgők esetében szacharóz is)"
+    ],
+    [
+      "savtartalom"
+    ],
+    [
+      "illósavtartalom"
+    ],
+    [
+      "kén-dioxid-tartalom"
+    ],
+    [
+      "szén-dioxid-túlnyomás (kizárólag szénsavas borok esetében)"
+    ],
+    [],
+    [
+      "Az analitikai vizsgálat mellett a bornak érzékszervileg is meg kell felelnie a meghatározott paramétereknek, ezek a szempontok az alábbiak:"
+    ],
+    [
+      "egészséges, az elnevezésnek, jelölésnek megfelelő szín, íz, zamat"
+    ],
+    [
+      "tiszta, üledékmentes küllem"
+    ],
+    [
+      "pezsgő esetében finom, tartós gyöngyözés"
+    ],
+    [],
+    [
+      "Bár a palackállóságra kiterjedően korábban voltak hatósági vizsgálatok, jelenleg az engedélyeztetésnek nem képezi részét. Egyúttal ugyanannyira fontos, így célszerű a borásznak elvégezni a palackozást megelőzően. Ezek a palackállósági próbák és a célterületük az alábbiak:"
+    ],
+    [
+      "hidegpróba (borkőstabilitás)"
+    ],
+    [
+      "melegpróba (fehérjestabilitás)"
+    ],
+    [
+      "levegőpróba (barnulási hajlam)"
+    ],
+    [
+      "rázópróba (rázkódásra esetlegesen előjövő kiválások)"
+    ],
+    [],
+    [
+      "A palackozás után tárolási próba keretén belül mikrobiológiai vizsgálatok által ellenőrizhető a bor mikrobiológiai stabilitása. A palackozás utáni élesztősejtszám ismeretében vizsgálható annak esetleges növekedése havi vagy évi viszonylatban."
+    ],
+    [
+      "A palackozás előtt álló bornak teljes mértékben zavarosságtól mentesnek, tükrösnek kell lennie. Tükrösnek nevezik azt a bort, ami teljes mértékben átlátszó, zavarosságtól tökéletesen mentes. A bor ",
+      "tükrösségéről",
+      " szűréssel gondoskodnak."
+    ],
+    [
+      "A stabilizálószerek hozzáadása is közvetlenül a palackozást megelőzően történik. Ilyenkor a borkőstabilitás fenntartására, az utóerjedés megakadályozására, a kénessavszint végső beállítására kémiai szereket adnak a borhoz. Ugyanekkor a bor frissességének megőrzése céljából a csendes borhoz is némi szén-dioxid adható (20 Celsius fokon mérve 1 bar túlnyomásig). Ezzel a szűrések, fejtések, és a palackozás során elvesztett szén-dioxid mennyiség pótolható, a felvett oxigén mennyisége csökkenthető."
+    ],
+    [],
+    [
+      "A palackozás technikái"
+    ],
+    [
+      "A palackozás a borászati technológia utolsó lépcsőjeként a bor stabilitásának szempontjából kulcsfontosságú. A zavarosodások egy kivételtől eltekintve a készre kezelés során ",
+      "megelőzhetőek",
+      ", a kezelések sikeressége próbákkal visszaellenőrizhető. Ez alól képez kivételt az ",
+      "élesztőzavarosodás",
+      ", az ",
+      "utóerjedés",
+      ", mivel amíg a borban található maradék cukor, addig ez a veszély mindig fenn áll. A zavarosodás ",
+      "ezen",
+      " formája nemcsak az édes borokban fordulhat elő, ",
+      "egy száraz bor is tartalmazhat néhány gramm maradék cukrot, mivel tökéletesen szárazra ritkán erjednek a borok, és ilyen mennyiségű cukor is lehetőséget biztosíthat az élesztő szaporodásának. Ennek a stabilitási veszélynek az elhárítására kémiai és fizikai módszerek használhatóak, a legbiztosabb eredmény azonban a kettő módszer kombinálásával kapható. Kémiailag ",
+      "kálium-",
+      "szorbát",
+      " hozzáadásával az élesztő szaporodását gátolni tudják, azonban kiemelendő, hogy mivel csak a szaporodás gátlásáról van szó, nagyobb fertőződés esetén ugyanúgy zavarosodás, utóerjedés léphet fel. Használható szer továbbá a ",
+      "dimetil-dikarbonát",
+      " (DMDC)",
+      ", azonban gyakoribbnak mondható a kálium-",
+      "szorbát",
+      " alkalmazása. Fizikai módszerek esetében kettő megoldás választható, az egyik a hidegsteril, a másik a melegsteril palackozás technológiája. A továbbiakban ezekbe kapsz mélyebb betekintést, továbbá a szénsavas borok palackozásával is megismerkedhetsz."
+    ],
+    [],
+    [
+      "Hidegsteril palackozás"
+    ],
+    [
+      "A hidegsteril palackozás célja leegyszerűsítve, a lépéseit tekintve, hogy a steril bort, steril körülmények között steril palackba helyezik, mindezt a bor hevítése nélkül.",
+      " A bor ",
+      "csíramentesítése",
+      " szűréssel biztosítható, a töltőgép és a palackzáró gépek (csavarzáró, ",
+      "dugózó",
+      ") sterilizálására alacsony nyomású gőz használata a legcélravezetőbb. A palackok és a záróelemek (csavarzár, dugó) pedig gyárilag sterilen vannak már csomagolva. Amennyiben mosott, korábban már használt palackokba töltik a bort, a palack sterilizálására kénessavat vagy ózont használnak. ",
+      "A munkavégzés során fontos a tisztaság fenntartása, a visszafertőződés legjelentősebb indoka maga az ember, ezért különös figyelmet kell fordítani a személyes higiéniára, amibe beletartozik a kéz tisztatásága mellett a dolgozó ruházata is. A cél érdekében érdemes köpeny, gumikesztyű, hajháló használata is."
+    ],
+    [],
+    [
+      "A hidegsteril palackozás lépései"
+    ],
+    [
+      "A készre kezelt bor hőmérsékletét, amennyiben szükséges, 20 °C-ra emelik (lásd 1. ábra), ezzel elkerülve, hogy a későbbiekben, melegebb környezetben a folyadék ",
+      "hőtágulás",
+      "a által kinyomódjon a palackból a dugó, illetve amennyiben egyből a bor címkézése is megtörténik a palackozáskor, úgy nem csapódik ki az üvegen a pára, ami a címke megtapadását akadályozni, rontani tudná. Ezt követően egy előtartályba (előtankba) kerül a bor, amelyről a töltőgép fog üzemelni. "
+    ],
+    [
+      "Ennek akkor van jelentősége, ha hordóból vagy egyéb tartályokból a palackozás alatt is fejtik a bort, ezzel biztosítható a palackozás folyamatossága."
+    ],
+    [
+      "Az előtartály méretét a gépsor teljesítményéhez igazítják. Itt történik a szén-dioxid hozzáadása a borhoz, és amennyiben kettős köpenyű tartályról van szó, úgy a bor korábban beállított palackozási hőmérséklete is fenntartható. Az előtartályból a bor az ",
+      "EK- (a német „",
+      "Entkeimungsfilter",
+      "” szóból, jelentése: csírátlanító, steril szűrés) szűrés",
+      "t követően 1 vagy akár két membránszűrőn keresztül halad a töltőgépbe. Az EK-szűrés utáni membránszűrés biztonsági szerepet tölt be, az esetlegesen átjutott baktériumokat, élesztőmaradványokat vagy a szűrőlapból levált darabokat, szálakat hivatott kiszűrni. A gépsorra helyezett palackokat attól függetlenül, hogy gyárilag sterilen érkeznek, kimossa, fertőtleníti a gép, mivel előfordulhat szennyeződés a palackokban, úgy, mint üvegszilánk, rovarok stb. Az üvegek UV-sterilizált szalagon haladnak a gépben. A mosást és kicsöpögtetést követően az üveget megtöltik, lezárják, dugós tétel esetében ",
+      "kapszulá",
+      "zzák",
+      " (",
+      "kupakolják",
+      "), címkézik, majd csomagolják."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "A hidegsteril palackozás munkafolyamata"
+    ],
+    [
+      "Forrás: Eperjesi Imre: Borászati technológia. Budapest, 2014, Mezőgazda Lap- és Könyvkiadó. 103. ábra"
+    ],
+    [],
+    [
+      "Melegsteril palackozás"
+    ],
+    [
+      "A hidegsteril palackozással szemben a melegsteril palackozás nem szűrésekkel és kémiai szerek, illetve mosás által biztosítja a bor és a palack sterilitását, hanem a módszer alapját a hő és a borban lévő alkohol adja.",
+      " Nincs szükség a töltőhelyiség, a gép, a palack, a záróelemek sterilitására, emiatt kevésbé igényel akkora technológiai fegyelmezettséget. Ugyanakkor van olyan bortípus, amelynél a melegítés problémát okozhat. Míg a vörösboroknál, oxidatív boroknál működhet, friss, reduktív borok esetében a melegítés oxidációt növelő hatása igen negatív hatással lehet a bor illatára és ",
+      "zamatára",
+      " egyaránt. Nem véletlen tehát, hogy manapság ez a technológia nem igen használatos."
+    ],
+    [],
+    [
+      "A melegsteril palackozás lépései"
+    ],
+    [
+      "A készre kezelt, melegpróba által is bizonyítottan stabil bort lapszűrőn keresztül az előtartályba (előtank) juttatják (lásd 2. ábra). Fontos különbség a két ",
+      "módszer között, hogy a",
+      " lapszűrés itt az első lépés, illetve, hogy itt nem EK-szűrésről van szó. A szűrés célja kizárólag a ",
+      "tükrösség",
+      ", a tisztaság elérése, a sterilitást a melegítés biztosítja. A bor az előtartályból ",
+      "lemezes hőcserélő",
+      "n keresztül halad tovább a töltőgépbe, ezalatt a bor hőmérsékletét 50–55 °C körüli hőmérsékletre emelik. ",
+      "Kulcsfontosságú, hogy a bor az ezen a tartományon belüli hőmérsékletet ",
+      "kell",
+      " felvegye és maradjon is azon 10–15 percig. Amennyiben a hőmérséklete alacsonyabb vagy rövidebb ideig marad azon, mint 10–15 perc, úgy a csírátlanító hatás nem biztosított. Ugyanakkor, ha magasabb hőmérsékletre hevítik a bort vagy hosszabb ideig tartják az adott hőmérsékleten, úgy ez a borban negatív elváltozásokat okozhat mind ízben, mind illatban. ",
+      "A rendszerben ezért egy hőfokszabályzó és egy szelep gondoskodik erről, amennyiben nem megfelelő a hőcserélőből kilépő bor hőmérséklete, a bort visszajuttatja az előtartályba. A palackok melegvizes öblítéssel egyúttal elő is melegítődnek, töltést követően lezárják, ",
+      "kapszulázzák",
+      " (",
+      "kupakolják",
+      "), címkézik, majd csomagolják az üvegeket."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      " ",
+      "A melegsteril palackozás munkafolyamata"
+    ],
+    [
+      "Forrás: Eperjesi Imre: Borászati technológia. Budapest, 2014, Mezőgazda Lap- és Könyvkiadó. 104. ábra"
+    ],
+    [],
+    [
+      "Szénsavas borok töltése"
+    ],
+    [
+      "A bor ",
+      "atmoszférikus nyomás",
+      "on is el tud nyelni bizonyos mértékű szén-dioxidot, ennek mennyiségét a bor tulajdonságai határozzák meg."
+    ],
+    [
+      "A szén-dioxid elnyelését segítik:"
+    ],
+    [
+      "alacsony hőmérséklet"
+    ],
+    [
+      "magasabb alkoholtartalom"
+    ],
+    [
+      "kolloidtartalom"
+    ],
+    [],
+    [
+      "A cukortartalom azonban csökkenti a szén-dioxid oldhatóságát."
+    ],
+    [
+      "A bor frissességéért hozzáadott 1 g/l körüli szén-dioxid mennyiség egy normál palackozó üzem által is gond nélkül tölthető, atmoszférikus nyomáson 1 liter bor hozzávetőlegesen 2,5 g szén-dioxidot képes elnyelni. Ettől nagyobb mennyiségű CO",
+      "2",
+      " oldódásához már ",
+      "túlnyomás",
+      ", illetve speciális gépesítés szükséges. A szén-dioxid hozzáadásával készülő habzó-, illetve ",
+      "gyöngyözőborok esetében a szén-dioxid ",
+      "szaturálása",
+      " (",
+      "elnyeletése",
+      ") és a nyomás fenntartása a palackozás alatt történik, azonban nem tradicionális pezsgők esetében a technológia során a kezelések alatt is szükséges a nyomás megtartása a szén-dioxid megőrzése érdekében."
+    ],
+    [],
+    [
+      "Szénsavas borok palackozásának lépései"
+    ],
+    [
+      "A szénsavas borok palackozása kivétel nélkül hidegsteril technológiával történik",
+      ", ennek oka a korábban már említett töltési hőmérséklet és a szén-dioxid oldódásának összefüggése. A klasszikus hidegsteril technológiától azonban némely tekintetben eltér. A palackozás során az ellennyomás folyamatosan biztosított, az ábrán látható módon a bor az első, úgynevezett nyomótartályból (nyomótankból) a szaturálóberendezésbe (",
+      "szénsavazó",
+      " berendezésbe) kerül (lásd 3. ábra), majd egy lemezes hőcserélőn keresztül ",
+      "lehűl",
+      " 0–2 °C körüli hőmérsékletre. Ezt követően pedig egy hűtött ",
+      "puffertartály",
+      "ba (második nyomótankba) szűrik, ahonnan táplálják az ",
+      "ellennyomásos",
+      " töltőgép",
+      "et."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Szénsavazott bor hidegsteril palackozásának munkafolyamata"
+    ],
+    [
+      "Forrás: Eperjesi Imre: Borászati technológia. Budapest, 2014, Mezőgazda Lap- és Könyvkiadó. 105. ábra"
+    ],
+    [],
+    [
+      "Bortechnológiai igények"
+    ],
+    [
+      "A bor palackozása során a technológiai fegyelmezettségnek kettő célja van:"
+    ],
+    [
+      "a bor stabilitásának megőrzése, a bor eljuttatása a fogyasztóhoz negatív elváltozások nélkül"
+    ],
+    [
+      "a bor addig kialakult értékeinek megőrzése mellett a bor palackba juttatása"
+    ],
+    [
+      "Ehhez a palackozni kívánt ",
+      "bornak",
+      " stabilnak, készre kezeltnek kell lennie, továbbá a borászati gyakorlatban a kezelések, a fejtések, és az egyéb pincemunkák során is ügyelni kell a higiéniára, a borral érintkező eszközök, berendezések tisztaságára, a ",
+      "személyi higiéniá",
+      "ra, mivel leggyakrabban az érintkezés által történő fertőződés okozhat veszélyt. A borászatban, különösen a palackozó üzemben ezért kiemelt jelentőségű a higiénia folyamatos fenntartása, a fertőtlenítések rutinszerű elvégzése."
+    ],
+    [],
+    [
+      "A palackozáshoz szükséges anyagok"
+    ],
+    [
+      "Palack"
+    ],
+    [
+      "Bár a piacon jelen vannak egyéb tárolási formák is, mint például a ",
+      "PET-palack",
+      ", a ",
+      "tetra",
+      " ",
+      "pak",
+      ", a ",
+      "bag",
+      " in ",
+      "box",
+      ", a fém doboz, mégis az uralkodó a klasszikus üvegpalack. A vásárlók szemében az üvegpalack a ",
+      "legelfogadottabb",
+      ", az egyéb csomagolási formákkal kapcsolatban az emberek gyakran bizalmatlanok, rosszabb minőséget társítanak melléjük. Bár korábban választék hiánya miatt a borászok lehetőségei igencsak be voltak határolva, mára már nagy szabadságuk van a palack formájának, színének, űrtartalmának megválasztásában. A palackoknak ezektől függetlenül néhány technikai követelménynek meg kell felelniük:"
+    ],
+    [
+      "a talpukon egyenesen álljanak"
+    ],
+    [
+      "faluk mindenhol egyforma vastag legyen"
+    ],
+    [
+      "faluk ",
+      "zárvány",
+      "októl mentes legyen"
+    ],
+    [
+      "szájuk, nyakuk formája a dugó hosszáig egyenletes henger legyen"
+    ],
+    [
+      "nyakuk 1,5°-",
+      "nál",
+      " nem lehet ferdébb"
+    ],
+    [],
+    [
+      "Amennyiben a palack fala vékonyabb részeket, esetlegesen zárványokat tartalmaz, úgy azok a palack szempontjából gyenge pontnak, hibának minősülnek.",
+      " Különösen fontos szempont ez a pezsgős palackok és a túlnyomástűrő palackok esetében, mivel könnyebben széttörhetnek, ",
+      "szétrobbanhatnak, ami az anyagi kár mellett balesetveszélyt is jelent. A törés történhet akár ",
+      "hősokk",
+      ", vagyis gyors és nagymértékű hőmérséklet-változás hatására is. Amennyiben az üveg szája, nyaka nem egyenletes henger alakú, a használt záróelem illeszkedése nem lesz tökéletes, a palack folyhat. Az automata töltőgépek kifejezetten érzékenyek a palackok nyakának ferdeségére, 1,5°-",
+      "nál",
+      " nagyobb dőlés esetében a palack nem tölthető automata géppel, ellenkező esetben a töltés során a gép eltörheti az üveget."
+    ],
+    [],
+    [
+      "A borhoz választott palack formája, színe legnagyobb részben marketing jelentőséggel bír. A színnek azonban technológiai szerepe is van, mivel ",
+      "a sötét színű üveg a bor számára káros fénytől védi a bort a tárolás, érlelés során",
+      ". Ezért általánosságban elmondható, hogy a nagyobb érlelési potenciállal bíró borokat sötét (olívzöld, sötétzöld, barna), míg a frissebb, például rozé borokat jellemzően átlátszó fehér üvegbe töltik."
+    ],
+    [],
+    [
+      "Leggyakoribb palackformák"
+    ],
+    [
+      "A palackok formái nem véletlenül borvidékek neveit viselik, ennek oka, hogy az adott palackformák ezeken a területeken alakultak ki és terjedtek tovább. Emiatt szinte hagyománnyá vált, hogy a palackba kerülő bor és a szőlőfajta – amiből a bor készült – határozza meg, hogy milyen palackot használnak. Természetesen a védett eredetű (pl. Tokaji aszú) boroktól eltekintve erre szabályozás nincsen, mégis megfigyelhető, hogy jellemzően például burgundi típusú palackba a Burgundiából származó szőlőfajták borait (például a ",
+      "Pinot",
+      " noir-t vagy a Chardonnay-t) töltik. A továbbiakban a különböző borospalackformákkal ismerkedhetsz meg."
+    ],
+    [],
+    [
+      "Bordói"
+    ],
+    [
+      "A legelterjedtebb palackforma, a franciaországi Bordeaux borvidékéről terjedt el. Fehér- és vörösbort egyaránt töltenek bele, egyenes, hengeres alak, magas váll ",
+      "jellemzi",
+      " (lásd 4. ábra), praktikus, könnyen fektethető, tárolható. Egyszerű kialakítása miatt a legolcsóbb palackforma."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Bordói palack"
+    ],
+    [
+      "Forrás: https://landmarktokaj.hu/palack.html (2024.08.04.)"
+    ],
+    [],
+    [
+      "Burgundi"
+    ],
+    [
+      "A franciaországi Burgundia területén kialakult forma. Gyümölcsös fehér, vörös, édes és száraz borokat egyaránt töltenek bele. Formája a bordóihoz képest szofisztikáltabb, válla lejtős, elegánsabb (lásd 5. ábra)."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Burgundi palack"
+    ],
+    [
+      "Forrás: https://landmarktokaj.hu/palack.html (2024.08.04.)"
+    ],
+    [],
+    [
+      "Rajnai"
+    ],
+    [
+      "A németországi Rajna-vidékről származó forma. Kizárólag fehérborokat töltenek bele, jellemzően száraz rizling típusú, vagy esetlegesen édes borokat. Alakja a burgundi típushoz hasonló, azonban annál hosszúkásabb, nyújtott (lásd 6. ábra)."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Rajnai palack"
+    ],
+    [
+      "Forrás: https://landmarktokaj.hu/palack.html (2024.08.04.)"
+    ],
+    [],
+    [
+      "Champagne-i"
+    ],
+    [
+      "A franciaországi Champagne vidékéről származó forma (lásd 7. ábra). Kizárólag pezsgőket, habzóbort, gyöngyözőbort töltenek bele. Alakja hasonlít a burgundi típusra, fala azonban vastagabb, szájkiképzése eltérő, két lekerített perem fut körbe rajta, a legfelső a koronazár, az alsó pedig a kosár rögzítésére szolgál. A sötét színűekbe a tradicionális irány érlelt pezsgőit töltik, színtelen fajtáiba pedig a gyümölcsös, friss fehér és rozé szénsavas borok kerülnek."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Champagne-i palack"
+    ],
+    [
+      "Forrás: https://landmarktokaj.hu/palack.html (2024.08.04.)"
+    ],
+    [],
+    [
+      "Tokaji"
+    ],
+    [
+      "A Tokaji borvidéken létrehozott forma. Hosszú nyak, lejtős vállán Tokaj felirat, széles hengeres test ",
+      "jellemzi",
+      " (lásd 8. ábra). Az eredetvédelmi szabályozások alapján kizárólag Tokaji bor tölthető ilyen palackba."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Tokaji palack"
+    ],
+    [
+      "Forrás: http://www.interker-wein.hu/Palackoz%C3%A1ssalkapcsolatosterm%C3%A9kek/Palackok/Tokajipalackok/Tokaji806ospecs%C3%A9tespalack500mlfeh%C3%A9r/tabid/498/Default.aspx (2024.08.04.)"
+    ],
+    [],
+    [
+      "Egri"
+    ],
+    [
+      "Az Egri borvidéken létrehozott forma. A bordói palackhoz hasonló, azonban hosszabb nyak, bordóinál lejtősebb, de mégis erőteljes váll ",
+      "jellemzi",
+      " (lásd 9. ábra). Az eredetvédelmi szabályozások alapján kizárólag egri bor tölthető ilyen palackba."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Egri palack"
+    ],
+    [
+      "Forrás: https://www.gasztromagazin.hu/wp-content/uploads/2019/06/egri_palack_foto_Talaber_Geza2.jpg (2024.08.04.)"
+    ],
+    [],
+    [
+      "Egyedi"
+    ],
+    [
+      "A borászatoknak lehetőségük van egyedi üvegpalackokba való töltésre is. Leggyakrabban Magyarországon a Varga Pincészet egyedi betétdíjas palackjaival lehet találkozni, de jellegzetes példák a JP. Chenet borászat ferdenyakú palackjai is (lásd 10. ábra)."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "JP. Chenet egyedi palackja"
+    ],
+    [
+      "Forrás: https://www.jpchenet.com/delicious-blanc/",
+      "?lang",
+      "=en (2024.08.04.)"
+    ],
+    [],
+    [
+      "Borospalack méretek"
+    ],
+    [
+      "Bár a legtöbbször a 0,75 literes standard palackokkal lehet találkozni, azonban használatosak más méretű palackok is, mely méreteknek kialakult az elnevezésük is. Ezek az alábbiak:"
+    ],
+    [
+      "Split (0,375 liter = 0,5 palack)"
+    ],
+    [
+      "Standard (0,75 liter = 1 palack)"
+    ],
+    [
+      "Magnum",
+      " (1,5 liter = 2 palack)"
+    ],
+    [
+      "Dupla ",
+      "magnum",
+      " (3 liter = 4 palack)"
+    ],
+    [
+      "Jeroboám",
+      " (4,5 liter = 6 palack)"
+    ],
+    [
+      "Matuzsálem (6 liter = 8 palack)"
+    ],
+    [
+      "Szalmanazár",
+      " (9 liter = 12 palack)"
+    ],
+    [
+      "Baltazár (12 liter = 16 palack)"
+    ],
+    [
+      "Nabukodonozor (15 liter = 20 palack)"
+    ],
+    [
+      "Melchior (18 liter = 24 palack)"
+    ],
+    [],
+    [
+      "Záróelem"
+    ],
+    [
+      "A palackok lezárásának hagyományos módja a parafadugó (lásd 11. ábra). Korábban minden bort így zártak, viszont manapság a használata a legolcsóbb (jelenleg ez az 1000 Ft alatti), illetve a drágább (jelenleg ez nagyjából a 4-5000 Ft feletti) borok esetében jellemző, a gyengébb minőségű parafadugók árban versenyképesek, a jobb minőségű dugó anyagköltségét azonban csak értékesebb borok bírják el. ",
+      "Költséghatékonysági, illetve technológiai, praktikussági okokból elterjedtek alternatív zárási módok is.  Az egyik fő ok a dugóíz elkerülése.",
+      " Statisztikák szerint a dugók 2–5%-a fertőzött és okoz a későbbiekben dugóízt a borban. Sajnálatos módon ez a borászat által kivédhetetlen probléma, és csak a palack kinyitásakor, a legtöbb esetben a fogyasztónál derül fény rá. Ennek a kivédésére találták ki ",
+      "a műanyag dugókat (lásd 12. ábra), melyek teljesen TCA- (",
+      "triklóranizol",
+      ") mentesek",
+      " és bármely (kézi vagy gépi) ",
+      "dugózóval",
+      " használhatóak. Újabban megjelentek felsőbb kategóriás borok esetében az üvegdugók is, amelyekhez speciális szájkiképzésű palack szükséges. Csendes borok esetében napjainkban a legelterjedtebb a csavarzár vagy más néven ",
+      "Stelvin",
+      "-zár (lásd 13. ábra). Praktikussága elvitathatatlan, ",
+      "bármikor visszazárható, dugóízt nem tud okozni, a lezárt bor minőségét kiválóan megőrzi",
+      ". Az alumíniumból készült záróelem két részből áll, egy menetes kupakból és egy kapszulából. Mindkettő kiválóan használható marketingfelületet is biztosít, számtalan színben elérhető, és gyártáskor ",
+      "logózható",
+      ". Emellett pezsgők esetében az erjesztéskor használnak ",
+      "koronazárat",
+      " (lásd 14. ábra), illetve olcsóbb pezsgők esetében polietilén, műanyag dugókat (lásd 15. ábra). Részletesebben a záróelemekről a Borászati szakmai gépek tananyagrészben olvashatsz."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Különböző típusú parafadugók"
+    ],
+    [
+      "Forrás: szerző saját képe"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Újabb generációs, ",
+      "újrahasznosítható",
+      " műanyagból készült dugó"
+    ],
+    [
+      "Forrás: szerző saját képe"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      " ",
+      "Stelvin",
+      "-zár a lezárást követően és azt megelőzően"
+    ],
+    [
+      "Forrás: szerző saját képe"
+    ],
+    [],
+    [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Pezsgő koronazár"
+    ],
+    [
+      "Forrás: ",
+      " (2024.08.05.)"
+    ],
+    [],
+    [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      " ",
+      "Műanyag pezsgősdugó",
+      " "
+    ],
+    [
+      "Forrás: https://www.alpla.com/hu/termekek-es-innovaciok/innovaciok/ujrahasznosithato-pezsgosdugo (2024.08.05.)"
+    ],
+    [],
+    [
+      "Címke"
+    ],
+    [
+      "A boroscímkéknek kettő feladatuk van:"
+    ],
+    [
+      "tájékoztatás"
+    ],
+    [
+      "a vásárló figyelmének felkeltése"
+    ],
+    [],
+    [
+      "A címke tartalmára szigorú, folyamatosan formálódó jogszabályok vonatkoznak, melyek be nem tartásának bírság vonzata is keletkezhet, ezért fontos, hogy mindig a hatályos jogszabályok szerint készüljön el (erről bővebben a Borok jelölése című fejezet tesz említést). Egyúttal a címke a bor fő marketing felülete, a hely, ahol egy jól elkészített arculattal megragadható a vásárlók figyelme. Gyakran két részből állnak, egy fő címkéből és egy hátsó címkéből. A fő címke főleg marketing célokat szolgál, a hátsó inkább csak tájékoztató jellegű, általában főként a kötelezően jelölendő információkat tartalmazza. Manapság azonban az egyszerűség miatt nem használnak hátsó címkét, hanem egy fő címkét alkalmaznak, amelyen megfigyelhetők a marketing és tájékoztató szekciók."
+    ],
+    [],
+    [
+      "Borok jelölése (jogszabályok és termékleírások alapján)"
+    ],
+    [
+      "Ahogyan a korábbiakban szó volt róla, vannak bizonyos adatok, jelölések, melyeknek a hatályos jogszabályok alapján kötelező jelleggel, meghatározott betűméretben, azonos vagy nem feltétlenül azonos látómezőben meg kell jelleniük a címkén. Ezek az adatok az alábbiak:"
+    ],
+    [
+      "termékkategória megjelölése (fehér, rozé, vörös stb.)"
+    ],
+    [
+      "OFJ (Oltalom alatt álló földrajzi jelzésű) és OEM (Oltalom alatt álló eredetmegjelölésű) boroknál a minősítés szerinti kategória és az oltalom alatt álló név (pl. Dunántúli Kékfrankos, Egri Bikavér)"
+    ],
+    [
+      "tényleges alkoholtartalom"
+    ],
+    [
+      "űrtartalom"
+    ],
+    [
+      "származási ország"
+    ],
+    [
+      "termelő és a palackozó üzem megjelölése"
+    ],
+    [
+      "cukortartalom (pezsgő, habzóbor esetében)"
+    ],
+    [
+      "tételszám"
+    ],
+    [
+      "forgalombahozatali",
+      " azonosító (",
+      "Nébih",
+      " azonosító)"
+    ],
+    [
+      "allergéntartalom (kén-dioxid)"
+    ],
+    [
+      "import bor esetén az importőr megnevezése"
+    ],
+    [],
+    [
+      "Ezek mellett a borászat feltüntethet egyéb (termékleírások által szabályozott és nem szabályozott) jelöléseket is, ezek az alábbiak:"
+    ],
+    [
+      "évjárat"
+    ],
+    [
+      "borszőlő fajta",
+      " neve"
+    ],
+    [
+      "cukortartalom"
+    ],
+    [
+      "közösségi szimbólum"
+    ],
+    [
+      "előállítási eljárásokra utaló kifejezések"
+    ],
+    [
+      "palackozás helyének feltüntetése (pl. „termőhelyen palackozva”)"
+    ],
+    [
+      "termőhelyre vonatkozó alacsonyabb földrajzi jelzés, például település vagy dűlő neve"
+    ],
+    [],
+    [
+      "Egyéb csomagolási technikák"
+    ],
+    [
+      "Bag-in-box"
+    ],
+    [
+      "A ",
+      "bag",
+      "-in-",
+      "box",
+      " (BIB) csomagolás (lásd 16. ábra) egyre népszerűbb a borászatok körében, mivel számos előnyt kínál mind a termelők, mind a fogyasztók számára. A BIB-csomagolás egy kis csappal rendelkező, általában 3–5 literes flexibilis műanyag zacskó egy merev kartondobozba helyezve. Ez a megoldás számos különleges tulajdonsággal rendelkezik, amelyek kifejezetten hasznosak a bor tárolásában és szállításában."
+    ],
+    [],
+    [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Bag-in-",
+      "box",
+      " csomagolás"
+    ],
+    [
+      "Forrás: https://cartobol.es/en/3-advantages-of-bag-in-box/ (2024.08.05.)"
+    ],
+    [],
+    [
+      "Előnyei"
+    ],
+    [
+      "Hosszabb eltarthatóság. A legnagyobb előnye, hogy a bor a zacskó belsejében nem érintkezik levegővel, mivel a csap segítségével adagolt bor helyére nem kerül levegő. Ez jelentősen csökkenti az oxidáció esélyét, ami a bor minőségének romlásához vezethet. A bor akár több hétig is megőrizheti frissességét a felbontás után."
+    ],
+    [
+      "Könnyű kezelhetőség. A kartondoboz könnyen kezelhető, szállítható és tárolható. A csap használata egyszerűvé és kényelmessé teszi a bor adagolását, így nem szükséges külön dugóhúzót használni."
+    ],
+    [
+      "Költséghatékonyság. Olcsóbb lehet, mint az üvegpalackok és a parafadugók, különösen nagyobb mennyiségű bor esetén. Ez a csomagolási forma lehetővé teszi a borászatok számára, hogy csökkentsék a csomagolási költségeket és növeljék a profitot."
+    ],
+    [
+      "Környezetbarát. Kisebb ökológiai lábnyommal rendelkezik, mint a hagyományos üvegpalackok. A kartondoboz és a műanyag zacskó egy része ",
+      "újrahasznosítható",
+      ", és a teljes csomagolás súlya lényegesen kisebb, ami csökkenti a szállítási költségeket és a kapcsolódó szén-dioxid-kibocsátást."
+    ],
+    [
+      "Biztonság. Kevésbé törékeny, mint az üveg, így biztonságosabb szállítást és kezelést tesz lehetővé. Ez különösen fontos nagyobb események, rendezvények alkalmával, ahol nagy mennyiségű bor fogyasztása várható."
+    ],
+    [],
+    [
+      "Hátrányai"
+    ],
+    [
+      "Korlátozott elegancia. Nem olyan elegáns, mint a hagyományos üvegpalackok, ezért gyakran nem annyira kedvelt a prémium vagy az ünnepi borok esetében, ahol fontos a csomagolás esztétikai értéke."
+    ],
+    [
+      "Tartalom minősége. Bár segít megőrizni a bor frissességét a levegő hatása ellen, bizonyos borok esetében, különösen azoknál, amelyek érzékenyek az oxidációra, a csomagolás nem biztos, hogy megőrzi az íz és az aroma minőségét olyan hosszú időn keresztül, mint az üvegpalack."
+    ],
+    [
+      "Használati nehézségek. Használata során néha nehézkes lehet a folyadék teljes kihasználása, mivel a zacskó nem mindig ürül ki teljesen."
+    ],
+    [
+      "Hulladékkezelési problémák. Bár ",
+      "újrahasznosítható",
+      ", problémát jelenthet, hogy a csomagolás keveréke (pl. műanyag zacskó és kartondoboz) bonyolítja a hulladékkezelést."
+    ],
+    [],
+    [
+      "A palackos borok csomagolása, tárolása, szállítása"
+    ],
+    [
+      "A palackozott borokat, attól függően, hogy tovább érlelik vagy értékesítik őket, palacktároló konténerbe (lásd 17. ábra), egyéb palacktárolásra, érlelésre alkalmas helyre vagy kartondobozokba helyezik (lásd 18. ábra). A kartondoboz a szállítás során védi a borospalackokat az esetleges fizikai sérülésektől, valamint a fénytől. A dobozok általában 6 vagy 12 palackot képesek befogadni. A borospalackok csomagolást követően készáruraktárba kerülnek. A raktározás során a bor minőségének megőrzése érdekében néhány szempontot ",
+      "figyelembe kell venni, mind a termelőnél, mind a nagy- illetve a kiskereskedésnél, de ugyanúgy a fogyasztónál történő tárolásnál. Ezek az alábbiak:"
+    ],
+    [
+      "Hőmérséklet és páratartalom. ",
+      "A bor optimális raktározási hőmérséklete 12–15°C között",
+      ", az optimális raktározási páratartalom pedig 60–70% között van. ",
+      "A tárolóhelyiség hőmérséklete semmiképpen sem eshet 5°C alá és nem emelkedhet 25 °C fölé.",
+      " A túl magas hőmérséklet felgyorsíthatja a bor öregedését, míg a túl alacsony páratartalom kiszáríthatja a parafadugókat. A túl alacsony hőmérséklet a bor megfagyásához vagy esetlegesen borkőkiváláshoz, a túl magas páratartalom a palackok, dobozok, címkék és a helyiség penészesedéséhez vezethet."
+    ],
+    [
+      "Fényvédelem. ",
+      "A borokat sötét helyen kell tárolni, mivel a fény oxidálhatja és ",
+      "tönkreteheti",
+      " a bort",
+      ". Az üveg színe és a tároló dobozok is segítenek a fényvédelemben."
+    ],
+    [
+      "Pozíció. ",
+      "A borosüvegeket vízszintesen kell tárolni, hogy a parafadugók ne száradjanak ki.",
+      " A ",
+      "csavarzáras",
+      " palackoknál ez kevésbé kritikus, de a vízszintes tárolás praktikussági szempontból továbbra is előnyös."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Borospalackok tárolása konténerben"
+    ],
+    [
+      "Forrás: szerző saját képe"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Borospalackok csomagolása kartondobozba"
+    ],
+    [
+      "Forrás: szerző saját képe"
+    ],
+    [],
+    [
+      "Szállítás"
+    ],
+    [
+      "Hőmérséklet-szabályozás. A borok szállításakor (lásd 19. ábra) különösen fontos a hőmérséklet-szabályozás, mivel a hőmérsékleti ingadozások negatívan befolyásolhatják a bor minőségét, mind a fagyás szempontjából, mind a túl magas hőmérséklet tekintetében. Speciális hőszabályozott szállítóeszközök használata ajánlott."
+    ],
+    [
+      "Biztonság és védelem. A palackokat megfelelően kell rögzíteni és párnázni a szállítás során, hogy elkerüljék a törést és a sérülést."
+    ],
+    [
+      "Címkézés és dokumentáció. Minden szállítmányt megfelelően kell címkézni és dokumentálni, hogy biztosítsák a nyomon követhetőséget és megfeleljenek a jogi előírásoknak."
+    ],
+    [],
+    [
+      "Fontos szempontok a bor tárolása és szállítása során"
+    ],
+    [
+      "Minőségmegőrzés. Minden folyamat célja, hogy megőrizze a bor eredeti minőségét a termeléstől a fogyasztásig."
+    ],
+    [
+      "Biztonság. Az üvegpalackok törékenysége miatt kiemelt figyelmet kell fordítani a biztonságos kezelési és szállítási eljárásokra."
+    ],
+    [
+      "Költséghatékonyság. A raktározási és szállítási megoldások költséghatékonysága fontos szempont a versenyképesség megőrzése érdekében."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "Bor szállítása 6 db-",
+      "os",
+      " kartondobozokban"
+    ],
+    [
+      "Forrás: szerző saját képe"
+    ],
+    [
+      ""
+    ],
+    [
+      "Ábrajegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "Felhasznált irodalom"
+    ],
+    [
+      "Eperjesi Imre ",
+      "\tBoraszati technológia",
+      "\tBudapest, 2010, Mezőgazda Kiadó."
+    ],
+    [
+      ""
+    ],
+    []
+  ],
+  "tables": [
+    [
+      [
+        "Kéziratíró:",
+        "Vértes Gábor Sándor"
+      ],
+      [
+        "Szakmai lektor:",
+        "Lefler Péter"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Élelmiszeripar"
+      ],
+      [
+        "Szakma:",
+        "Szőlész-borász"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Borászati technológia"
+      ],
+      [
+        "Tantárgy:",
+        "A bor kezelése és palackozása"
+      ],
+      [
+        "Évfolyam:",
+        "10, 11. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "4 óra"
+      ]
+    ]
+  ],
+  "headers": [
+    ""
+  ],
+  "footers": [
+    ""
+  ],
+  "footnotes": [
+    "",
+    ""
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image17.jpeg",
+      "path": null,
+      "bytes": 788797
+    },
+    {
+      "name": "image16.jpeg",
+      "path": null,
+      "bytes": 39013
+    },
+    {
+      "name": "image15.jpeg",
+      "path": null,
+      "bytes": 100181
+    },
+    {
+      "name": "image19.jpeg",
+      "path": null,
+      "bytes": 483562
+    },
+    {
+      "name": "image20.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image21.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image18.jpeg",
+      "path": null,
+      "bytes": 252139
+    },
+    {
+      "name": "image13.jpeg",
+      "path": null,
+      "bytes": 376801
+    },
+    {
+      "name": "image12.jpeg",
+      "path": null,
+      "bytes": 64806
+    },
+    {
+      "name": "image4.jpeg",
+      "path": null,
+      "bytes": 19881
+    },
+    {
+      "name": "image3.jpeg",
+      "path": null,
+      "bytes": 629882
+    },
+    {
+      "name": "image2.jpeg",
+      "path": null,
+      "bytes": 322733
+    },
+    {
+      "name": "image1.jpeg",
+      "path": null,
+      "bytes": 312794
+    },
+    {
+      "name": "image14.jpeg",
+      "path": null,
+      "bytes": 16050
+    },
+    {
+      "name": "image5.jpeg",
+      "path": null,
+      "bytes": 17699
+    },
+    {
+      "name": "image7.jpeg",
+      "path": null,
+      "bytes": 10176
+    },
+    {
+      "name": "image11.jpeg",
+      "path": null,
+      "bytes": 328751
+    },
+    {
+      "name": "image6.jpeg",
+      "path": null,
+      "bytes": 21297
+    },
+    {
+      "name": "image10.jpeg",
+      "path": null,
+      "bytes": 28718
+    },
+    {
+      "name": "image8.gif",
+      "path": null,
+      "bytes": 4025
+    },
+    {
+      "name": "image9.jpeg",
+      "path": null,
+      "bytes": 38465
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Heading 7",
+    "Heading 8",
+    "Heading 9",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "Table Grid",
+    "[Alapbekezdés]",
+    "Hyperlink",
+    "Unresolved Mention",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "Címsor 4 Char",
+    "Címsor 5 Char",
+    "Címsor 6 Char",
+    "Címsor 7 Char",
+    "Címsor 8 Char",
+    "Címsor 9 Char",
+    "Normal (Web)",
+    "annotation text",
+    "Jegyzetszöveg Char",
+    "Title",
+    "Cím Char",
+    "Subtitle",
+    "Alcím Char",
+    "TOC Heading",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "Feloldatlan megemlítés1",
+    "11",
+    "9",
+    "Placeholder Text",
+    "Caption",
+    "bajusz_téglalap",
+    "bajusz_téglalap Char",
+    "ism_kérdések",
+    "ism_kérdések Char",
+    "Képaláírás Char",
+    "kérdés_számozva",
+    "kérdés_számozva Char",
+    "a_ELMS_felsorolás_pötty",
+    "szituáció",
+    "fontos tartalom_bekezdés",
+    "fontos tartalom_bekezdés Char",
+    "toc 4",
+    "a_ELMS_felsorolás_kötőjel",
+    "betűkiemelés",
+    "List Paragraph",
+    "példa",
+    "példa Char",
+    "Default",
+    "ábraszám",
+    "footnote text",
+    "Lábjegyzetszöveg Char",
+    "footnote reference",
+    "a_ELMS_felsorolás_betűkkel",
+    "kiegészítő opcionális tartalom_bekezdés Char",
+    "a_ELMS_felsorolás_kötőjel_behúzással",
+    "kiegészítő opcionális tartalom_bekezdés",
+    "fogalmak",
+    "table of figures",
+    "Grid Table 4 Accent 1",
+    "Light List",
+    "Medium List 2 Accent 1",
+    "Light List Accent 3",
+    "Táblázataláírás",
+    "a_ELMS_felsorolás_számokkal",
+    "a_ELMS_kiegészítő tartalom",
+    "a_ELMS_fontos tartalom",
+    "a_ELMS_Címsor 1",
+    "a_ELMS_Címsor 2",
+    "a_ELMS_Címsor 2 Char",
+    "a_ELMS_Címsor 3",
+    "a_ELMS_Címsor 4",
+    "a_ELMS_Címsor 3 Char",
+    "a_ELMS_Címsor 5",
+    "a_ELMS_Címsor 4 Char",
+    "a_ELMS_normál szöveg",
+    "a_ELMS_Címsor 5 Char",
+    "a_ELMS_Ábraaláírás",
+    "a_ELMS_Táblázataláírás",
+    "toc 5",
+    "bajusz_pötty",
+    "bajusz_pötty Char",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "a_ELMS_fogalom",
+    "annotation reference",
+    "Feloldatlan megemlítés2",
+    "FollowedHyperlink",
+    "Revision"
+  ]
+}

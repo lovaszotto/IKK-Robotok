@@ -1,0 +1,2847 @@
+{
+  "core_properties": {
+    "creator": "Fodor Alexandra (ELMS)",
+    "lastModifiedBy": "Soós Gabriella Brigitta (ELMS)",
+    "revision": "2",
+    "created": "2024-09-24T14:00:00Z",
+    "modified": "2024-09-24T14:00:00Z"
+  },
+  "app_properties": {
+    "Template": "Normal",
+    "TotalTime": "0",
+    "Pages": "36",
+    "Words": "5283",
+    "Characters": "36453",
+    "Application": "Microsoft Office Word",
+    "DocSecurity": "0",
+    "Lines": "303",
+    "Paragraphs": "83",
+    "ScaleCrop": "false",
+    "lpstr": "Cím",
+    "i4": "1",
+    "LinksUpToDate": "false",
+    "CharactersWithSpaces": "41653",
+    "SharedDoc": "false",
+    "HyperlinksChanged": "false",
+    "AppVersion": "16.0000"
+  },
+  "paragraphs": [
+    "",
+    "",
+    "Egyedi megrendelés azonosítója: EM-2.9.3",
+    "Agrárműszaki erőforrások hidraulikus teljesítményátvitele III.",
+    "Témák kézirata",
+    "",
+    "",
+    "",
+    "Tartalomjegyzék",
+    "1.\tDugattyús energiaátalakítók\t2",
+    "1.1.\tEgyszeres működésű dugattyús szivattyúk elvi felépítése és működése\t2",
+    "1.2.\tKettős működésű dugattyús szivattyúk felépítése és működése\t5",
+    "1.3.\tAxiáldugattyús szivattyúk és hidromotorok felépítése és működése\t6",
+    "1.3.1.\tÁllandó szállítású ferdetárcsás axiáldugattyús szivattyúk\t7",
+    "1.3.2.\tFerdetengelyes axiáldugattyús szivattyúk és hidromotorok felépítése és működése\t\t\t16",
+    "1.4.\tRadiáldugattyús szivattyúk, hidromotorok felépítése és működése\t25",
+    "1.4.1.\tKülső vezérlésű, állandó szállítású radiáldugattyús szivattyú működési elve\t28",
+    "1.4.2.\tVáltoztatható szállítású, külső vezérlésű radiális dugattyús szivattyú\t30",
+    "Ábrajegyzék\t35",
+    "",
+    "",
+    "1.\tDugattyús energiaátalakítók",
+    "A hidraulikus rendszerben a dugattyús energiaátalakítók mechanikus energiából hidraulikus energiát állítanak elő, ezek a hidraulikus szivattyúk. A másik esetben hidraulikus energiából mechanikus energiát állítanak elő, ezek a hidromotorok, illetve hidraulikus munkahengerek.",
+    "",
+    "Dugattyús szivattyúk",
+    "A dugattyús szivattyúk általában a térfogat-kiszorítás elve alapján működnek. Ennek lényege, hogy egy zárt térben a szivattyú meghajtásakor dugattyút mozgatnak, és a mozgási iránytól függően változik a munkatér nagysága.",
+    "",
+    "A dugattyús szivattyúk csoportosítása:",
+    "működési mód szerint:",
+    "egyszeres működésű (a folyadékot a dugattyú egyik oldali teréből szállítja),",
+    "kettős működésű (a folyadékot a dugattyú mindkét oldaláról felváltva szállítja);",
+    "a dugattyúk száma szerint:",
+    "egyhengeres,",
+    "többhengeres;",
+    "a dugattyúk elrendezése szerint:",
+    "axiáldugattyús: a dugattyúk elrendezése a hajtótengellyel párhuzamos (axiális),",
+    "radiáldugattyús: a dugattyúk elrendezése hajtótengelyre merőleges (radiális).",
+    "1.1.\tEgyszeres működésű dugattyús szivattyúk elvi felépítése és működése",
+    "Az egyszeres működésű dugattyús szivattyúk egy munkatérfogattal rendelkeznek (1. ábra).",
+    "",
+    "",
+    "1. ábra: Egyszeres működésű dugattyús szivattyú szívási helyzetben",
+    "Forrás: https://www.michael-smith-engineers.co.uk/resources/useful-info/positive-displacement-pumps (Megnyitás: 2024.07.03.)",
+    "",
+    "",
+    "2. ábra: Állandó folyadéknyelésű, egy áramlási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "A hengerben helyezkedik el a dugattyú, melyet mozgás közben a henger vezet meg. A dugattyú feletti teret egy szelepház zárja le, melyben a szívó- és a nyomószelep helyezkedik el. A szelepek biztosítják a munkafolyadék be- és kiáramlását a munkatérben uralkodó nyomástól függően. A szivattyú munkaterét a henger és a szelepház határolja, illetve a működtetés során a dugattyú helyzetétől függően változtatja a munkatér nagyságát.",
+    "",
+    "A dugattyúrúdon keresztül a dugattyút balra mozgatják, a dugattyú feletti munkatérben a térfogat nő, ami nyomáscsökkenést okoz a hengerben. A nyomáscsökkenés hatására a szívószelep kinyílik, és a nyomószelep zárt helyzetben van, ekkor munkafolyadék áramlik a munkatérbe. A beáramlás addig tart, amíg a dugattyú balra mozog.",
+    "",
+    "A dugattyú holtponti helyzetében (amikor a dugattyú mozgásiránya megfordul) a térfogat nem nő, ezért a szívószelep bezár (3. ábra).",
+    "",
+    "",
+    "3. ábra: Egyszeres működésű dugattyús szivattyú szállítási helyzetben",
+    "Forrás: https://www.michael-smith-engineers.co.uk/resources/useful-info/positive-displacement-pumps (Megnyitás: 2024.07.03.)",
+    "",
+    "A dugattyú jobbra mozgása során a munkatér térfogatát csökkenti, aminek hatására a nyomás a térben nő, ezért a nyomószelep kinyit (a szívószelep zárt). A dugattyú mozgás közben a munkatérből a munkafolyadékot kinyomja, ez a folyamat addig tart, amíg a dugattyú jobbra mozog. A mozgásirányváltás után a folyamat újrakezdődik a szívási folyamattal.",
+    "",
+    "Az egyszeres működésű dugattyús szivattyúk szállítása szakaszos, ami a nyomóvezetékben lüktető nyomást eredményez. A szállítás egyenleteségének javítása érdekében többhengeres szivattyúkat készítenek.",
+    "1.2.\tKettős működésű dugattyús szivattyúk felépítése és működése",
+    "A kettős működésű dugattyús szivattyúk két munkatérrel rendelkeznek, ami egyenletesebb szállítást biztosít, mint az egyszeres működésű dugattyús szivattyúké. A munkaterek a dugattyú két oldalán helyezkednek el (4. ábra).",
+    "",
+    "",
+    "4. ábra: Kettős működésű dugattyús szivattyú működése a dugattyú balra mozdulásakor",
+    "Forrás: https://www.engineerlive.com/sites/engineerlive/files/BPrinciple%20of%20a%20double%20acting%20plunger%20pump%20head.png (Megnyitás: 2024 07.03.)",
+    "",
+    "A henger terét a dugattyú két részre választja el, jobbra van a V1, balra a V2 tér, melynek nagysága a dugattyú mozgása során folyamatosan változik. A szivattyú alsó részén két szívószelep, a felső részén két nyomószelep található.",
+    "",
+    "Az ábrán látható helyzetben a dugattyú balra mozdul. Az elmozdulás hatására a V1 tér nagysága nő, aminek hatására a nyomás csökken. A nyomáscsökkenés a jobb oldali szívószelepet nyitja (a nyomószelep zárt), és a térbe munkafolyadék áramlik be. A V2 tér nagysága csökken, ami a térben nyomásnövekedést okoz. A nyomásnövekedés nyitja a bal oldali nyomószelepet (amszívószelep zárt), melyen keresztül a munkafolyadék távozik a térből. A két térben a folyamat a dugattyú bal oldalra mozgásáig tart, utána a mozgásirány megfordul, és a dugattyú jobbra mozog.",
+    "",
+    "",
+    "5. ábra: Kettős működésű dugattyús szivattyú működése a dugattyú jobbra mozdulásakor",
+    "Forrás: https://www.engineerlive.com/sites/engineerlive/files/BPrinciple%20of%20a%20double%20acting%20plunger%20pump%20head.png (Megnyitás: 2024.07.03.)",
+    "",
+    "A dugattyú jobbra haladásakor (5. ábra) a V2 tér nagysága nő, a térben a nyomás csökken, ekkor kinyit a bal oldali szívószelep. A V1 tér nagysága csökken, a térben a nyomás megnő, ekkor nyílik ki a jobb oldali nyomószelep. A két térben lévő folyamat a dugattyú jobbra mozgásáig tart, utána az ellentétes mozgás a terekben megváltoztatja a munkafolyadék haladási irányát.",
+    "A kettős működésű szivattyúk egyenletesebb szállítást biztosítanak, mint az egyszeres működésűek, viszont a szerkezeti felépítésük bonyolultabb.",
+    "1.3.\tAxiáldugattyús szivattyúk és hidromotorok felépítése és működése",
+    "Axiáldugattyús szivattyúk esetében a dugattyúk mozgási iránya párhuzamos a szivattyú forgástengelyével. A szivattyúkat a szállított folyadékmennyiség alapján két nagy csoportba lehet sorolni:",
+    "állandó szállítású ferdetárcsás,",
+    "változtatható szállítású ferdetárcsás.",
+    "1.3.1.\tÁllandó szállítású ferdetárcsás axiáldugattyús szivattyúk",
+    "Az állandó szállítású szivattyúk esetében az egy szivattyútengely-fordulatra szállított folyadékmennyiség (fajlagos szállítása) állandó.",
+    "A szivattyú működési elve: a hengertömbben elhelyezett dugattyúk a tengelyre erősített ferde tárcsának támaszkodnak (6. ábra).",
+    "",
+    "",
+    "6. ábra: Ferdetárcsás szivattyú felépítése, működési elve",
+    "Forrás: https://docplayer.biz.tr/202891049-Hidrolik-devre-hidrolik-depo-tank-akis-kontrol-valfi-hidrolik-akumulator-hidrolik-pompa-hidrolik-boru-vebaglanti-elemanlari.html#google_vignette (átszerkesztve) (Megnyitás: 2024.07.01.)",
+    "",
+    "A hengertömbben körben helyezkednek el a dugattyúk, melyek bal oldali része gömbcsuklóval a ferdetárcsához kapcsolódik. A ferdetárcsa a tengelyre szöget bezárva helyezkedik el. A tengelyt meghajtva a hengertömb együtt forog a dugattyúkkal és a ferdetárcsával. A ferdetárcsa dőlésszöge miatt a dugattyúk a hengerben mozognak, miközben a felettük lévő térfogat forgás közben folyamatosan változik. A térfogatváltozás miatt a térben nyomásnövekedés (feltöltés), nyomáscsökkenés (szállítás) megy végbe.",
+    "",
+    "A szivattyú fajlagos munkafolyadék-szállítása",
+    "A szivattyú által egy tengelyfordulat alatt szállított munkafolyadék mennyiségét a szállításban részt vevő szerkezeti egységek mérete határozza meg (7. ábra).",
+    "",
+    "7. ábra: Ferdetárcsás szivattyú geometriai jellemzői",
+    "Forrás: https://docplayer.biz.tr/202891049-Hidrolik-devre-hidrolik-depo-tank-akis-kontrol-valfi-hidrolik-akumulator-hidrolik-pompa-hidrolik-boru-vebaglanti-elemanlari.html#google_vignette (átszerkesztve) (Megnyitás: 2024.07.01.)",
+    "",
+    "Fajlagos szállítás",
+    "",
+    "ahol:",
+    "A: dugattyú felülete [mm2],",
+    "l: dugattyúk elmozdulása (lökethossz) [mm],",
+    "z: hengerek száma.",
+    "",
+    "A dugattyú felületének nagysága:",
+    "",
+    "A lökethossz nagysága:",
+    "",
+    "",
+    "Visszahelyettesítve az eredeti képletbe:",
+    "",
+    "",
+    "A ferdetárcsás axiáldugattyús szivattyú térfogatáramának nagysága (Q)",
+    "",
+    "ahol:",
+    "q: fajlagos szállítás [mm3],",
+    "n: szivattyú tengelyének fordulatszáma [1/s].",
+    "",
+    "Feladat",
+    "Egy ferdetárcsás héthengeres szivattyú dugattyújának átmérője 12 mm. A ferdetárcsa a tengellyel 22 fokos szöget zár be A hengerek osztókörének átmérője 120 mm. A szivattyú tengelyének fordulatszáma: 1400 1/min.",
+    "Határozza meg a szivattyú:",
+    " elméleti fajlagos szállítási mennyiségét [cm3/fordulat],",
+    "térfogatáramának nagyságát [cm3/min]!",
+    "",
+    "Megoldás",
+    "z = 7 db",
+    "d = 12 mm = 1,2 cm",
+    "α = 22°",
+    "D = 120 mm = 12 cm",
+    "n = 1400 1/min",
+    "q = ? [cm3/fordulat]",
+    "Q = ? [cm3/min]",
+    "A fajlagos szállítás:",
+    "",
+    "",
+    "",
+    "A szivattyú fajlagos szállítása: 12,22 cm3/fordulat.",
+    "",
+    "A szivattyú térfogatáramának nagysága:",
+    "",
+    "",
+    "",
+    "A szivattyú térfogatáramának nagysága 17 108 cm3/min.",
+    "",
+    "A szivattyú főbb szerkezeti egységeit a 8. ábra szemlélteti.",
+    "",
+    "8. ábra: Állandó szállítású ferdetárcsás szivattyú",
+    "Forrás: https://www.youtube.com/watch?v=t16h3Z1F7mY&t=28s, 00:41., (Megnyitás: 2024.07.03.)",
+    "",
+    "9. ábra: Két szállítási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "Szivattyúház: a szivattyú alkatrészeit, egységeit foglalja magába, valamint a szivattyú rögzítését is biztosítja.",
+    "Tengely: a szivattyú meghajtását teszi lehetővé. A ferdetárcsa van rácsatlakoztatva, a másik hengeres vége a hengertömb közepén lévő furatban van, és a hengertömbnek támaszkodva biztosítja a hengertömb állandó helyzetét.",
+    "Hengertömb: a hengertömbben a dugattyúk számára kör alakban hengerek vannak kialakítva, amelyek a tengellyel együtt forognak.",
+    "Vezetőtárcsa: a dugattyúk mozgása során a hengerből kinyúló dugattyúkat tartja meg a hajtó oldalon.",
+    "Dugattyúk: a munkafolyadék szállítását biztosítják a hengerekben. A dugattyúk egyik oldalon a ferdetárcsával vannak kapcsolatban, ami lehet gömbcsuklós vagy lehet támasztólapos kialakítású. Ebben az esetben vezérlőtárcsán keresztül támaszkodnak a tengelyen lévő ferde tárcsához.",
+    "Ferdetárcsa: a tengellyel szöget bezárva helyezkedik el, és megtámasztja a dugattyúkat.",
+    "Csapágy: a tengelyforgás közbeni megtámasztását biztosítja az üzemeltetés során.",
+    "Tömítés: a kenőanyag kifolyását akadályozza meg a szivattyúból.",
+    "Csapágyház: a csapágyat tartja meg, és biztosítja a megfelelő rögzítését.",
+    "Zárófedél: a tengely felől zárja le a szivattyút.",
+    "Csatlakozófedél a vezérlőtárcsával: a hengertömbre fekszik fel, és az üzemeltetés során biztosítja a munkafolyadék elvezetését a megfelelő irányba, továbbá a hengertömb felőli tömítést.",
+    "",
+    "A szivattyú tengelyére van szerelve a hengertömb és a ferdetárcsa. A hengertömbben helyezkednek el a dugattyúk, melyek a vezérlőtárcsán keresztül a ferdetárcsának támaszkodnak. A hengertömb másik oldalát a csatlakozófedél zárja le, melyben a dugattyúk helyzetének megfelelően vannak kialakítva a munkafolyadék áramlását lehetővé tevő csatornák. A szivattyú tengelyét meghajtva a hengertömb és a dugattyú elfordul, mivel a dugattyúk a ferdetárcsának támaszkodnak. A tárcsa helyzete és a forgásirány határozza meg, hogy milyen ütem van a hengerben. Az axiáldugattyús szivattyúk hatékonyabb működése érdekében a munkafolyadékot legtöbbször a feltöltés ütemében egy másik szivattyú szállítja a munkatérbe.",
+    "",
+    "",
+    "10. ábra: Ferdetárcsás szivattyú működése",
+    "Forrás: https://docplayer.biz.tr/202891049-Hidrolik-devre-hidrolik-depo-tank-akis-kontrol-valfi-hidrolik-akumulator-hidrolik-pompa-hidrolik-boru-vebaglanti-elemanlari.html#google_vignette (átszerkesztve) (Megnyitás: 2024.07.01.)",
+    "",
+    "V1; V2: munkatérfogatok",
+    "A forgás következtében a dugattyúk mozognak. A 11. ábrán látható V2 munkatérben a dugattyú balra halad, a térfogat nő, és a feltöltőszivattyú munkafolyadékkal tölti meg a hengert. A dugattyú holtpontja után a dugattyú ellentétes irányban mozdul el. A munkatérfogat csökken (V1), és a munkafolyadék a csatlakozó fedélben lévő vezérlőtárcsán keresztül nagy nyomással kiáramlik a szivattyúból.",
+    "",
+    "Változtatható szállítású ferdetárcsás axiáldugattyús szivattyú (11. ábra)",
+    "",
+    "11. ábra: Ferdetárcsás változtatható szállítású szivattyú szerkezeti felépítése",
+    "Forrás: https://www.researchgate.net/figure/The-structure-of-axial-piston-pump_fig1_317816283 (Megnyitás: 2024.07.04.)",
+    "",
+    "",
+    "12. ábra: Két szállítási irányú, változtatható szállítású szivattyú",
+    "Forrás: saját készítésű",
+    "Szivattyúház: a szivattyú egységbe foglalása mellett biztosítja a meghajtóegységhez való rögzítést.",
+    "Tengely: a szivattyú meghajtása mellett a ferdetárcsát mozgató egységen keresztül lehetővé teszi a ferdetárcsa szögének változtatását.",
+    "Ferdetárcsa: a dugattyúk gömbcsuklókon keresztül kapcsolódnak hozzá, és forgás közben a dugattyúk megtámasztásával teszi lehetővé a dugattyúk mozgatását a hengertömbben.",
+    "Dugattyú: a hengertömbben kialakított hengereket bal oldalról lezárja, és forgás közben a hengerben a munkatér térfogatát változtatja.",
+    "Hengertömb: a dugattyúk számára hengereket alakítanak ki benne, valamint a munkateret kívülről zárja.",
+    "Vezérlőtárcsa: a munkaterekkel van kapcsolatban, és működés során az azonos ütemben lévő hengerek számára lehetővé teszi a munkafolyadék be- és kiáramlását.",
+    "Csapágy: a tengely radiális (sugárirányú) és axiális (tengelyirányú) megtámasztását biztosítja a szivattyú üzemeltetése során.",
+    "Működtető rúd: a ferdetárcsa szögének állításakor biztosítja a további szerkezetek működését.",
+    "Ferdetárcsát működtető egység: a ferdetárcsát ide kapcsolják, ami a munkafolyadék mennyiségének változtatása során közvetlenül változtatja a ferdetárcsa szögét a tengelyhez viszonyítva.",
+    "Szabályozó egység: üzemeltetés során szükséges mértékben, a működtető rúdon és a ferdetárcsát mozgató egységen keresztül változtatja a szivattyú által szállított munkafolyadék mennyiségét.",
+    "Rugó: a ferdetárcsát a működtető egységen keresztül igyekszik alaphelyzetbe tolni.",
+    "",
+    "A szivattyú meghajtásakor alaphelyzetben a ferdetárcsa a tengellyel a legnagyobb szöget zárja be, ami biztosítja a maximális mennyiségű munkafolyadék szállítását. A szabályozó egység működtetésekor a szállított folyadék mennyisége megváltozik.",
+    "",
+    "13. ábra: Ferdetárcsás változtatható szállítású szivattyú működése",
+    "Forrás: https://www.researchgate.net/figure/The-structure-of-axial-piston-pump_fig1_317816283 (Megnyitás: 2024.07.04.)",
+    "",
+    "A szabályozó szerkezet a II. helyzetben van (13. ábra), ekkor a munkafolyadék szállítása maximális. Amikor a szivattyú szabályzószerkezetét az I. helyzet felé tolják, akkor a folyadékszállítás mennyisége csökken. Az I. helyzetben a ferdetárcsa merőleges a szivattyú tengelyére, ekkor a dugattyúk nem mozdulnak el, nincs munkafolyadék-szállítás. Az I. helyzetből a III. helyzet felé mozdítva megváltozik a szivattyú szállítási iránya, ahol eddig a munkafolyadék beáramlott, ott kiáramlás kezdődik. A másik oldalon szintén megfordul az áramlás iránya. A III. helyzetben a munkafolyadék mennyiségének szállítása maximális, de a II. helyzethez viszonyítva ellentétes irányú a munkafolyadék áramlása.",
+    "",
+    "A változtatható szállítású szivattyú felépítését a 14. ábra szemlélteti.",
+    "",
+    "14. ábra: Ferdetárcsás változtatható szállítású szivattyú ábrája",
+    "Forrás: https://topkitparts.com/cat-hydraulic-pump-troubleshooting-guide/ (Megnyitás: 2024.07.04.)",
+    "",
+    "A ferdetárcsás szivattyúk általában átalakítás nélkül alkalmazhatók hidromotorként is. Ilyenkor a munkafolyadékot nyomással vezetik a hidromotorba, ahol az a dugattyúkra hatva elmozdítja a tengelyt. A tengely pedig meghatja a hozzá kapcsolt egységet.",
+    "1.3.2.\tFerdetengelyes axiáldugattyús szivattyúk és hidromotorok felépítése és működése",
+    "A ferdetengelyes axiáldugattyús szivattyúkban a dugattyúk mozgatását a hengerekhez viszonyított szögben álló tengely végzi.",
+    "",
+    "A ferdetengelyes axiáldugattyús szivattyúk a szállított munkafolyadék mennyisége szerint lehetnek: állandó és változtatható mennyiségű energiaátalakítók.",
+    "Állandó szállítású ferdetengelyes axiáldugattyús szivattyúk",
+    "A szivattyú szerkezeti felépítését a 15. és 16. ábra szemlélteti.",
+    "",
+    "15. ábra: Állandó szállítású ferdetengelyes szivattyú metszete",
+    "Forrás: https://fluidtechnology.it/wp-content/uploads/2019/03/comp1.jpg (Megnyitás: 2024.07.01.)",
+    "",
+    "16. ábra: Állandó szállítású ferdetengelyes szivattyú",
+    "Forrás: https://www.youtube.com/watch?v=t16h3Z1F7mY&t=28s (Megnyitás: 2024.07.04.)",
+    "",
+    "Szivattyúház: a szerkezeti egységeket foglalja magába, valamint a szivattyú rögzítését is biztosítja.",
+    "Tengely: a szivattyú meghajtását teszi lehetővé. Az egyik oldalán perem (támasztótárcsa vagy más néven menesztőtárcsa) van kialakítva, melyre a dugattyúk támaszkodnak, vagy egyes megoldások esetében gömbcsuklósan vannak a dugattyúk rögzítve.",
+    "Hengertömb: a hengertömbben a dugattyúk számára kör alakban hengerek vannak kialakítva, amelyek a tengellyel együtt forognak.",
+    "Vezetőtárcsa: a dugattyúk mozgása során a hengerből kinyúló dugattyúkat tartja meg a hajtó oldalon.",
+    "Támasztó tengely: a hengertömb közepén lévő furatban helyezkedik el, a másik vége a tengelyen lévő tárcsa közepének támaszkodik, így biztosítja a hengertömb állandó helyzetét.",
+    "Dugattyúk: a hengerekben a munkafolyadék szállítását biztosítják. A dugattyúk egyik oldalukon a ferdetengelyhez vannak kapcsolva, ami lehet gömbcsuklós megoldás is. Ebben az esetben a tengelyen lévő tárcsának támaszkodnak.",
+    "Vezérlőtárcsa: lehetővé teszi az azonos munkafolyamatot végző hengerek számára a munkafolyadék megfelelő irányú áramlását.",
+    "Csatlakozó fedél: a hengertömbre fekszik fel, és az üzemeltetés során biztosítja a munkafolyadék elvezetését megfelelő irányba, emellett a hengertömb felőli a tömítést.",
+    "Csapágy: a tengelyforgás közbeni megtámasztását biztosítja az üzemeltetés során.",
+    "Zárófedél a tömítésekkel: a tengely felől zárja le a szivattyút.",
+    "",
+    "A szivattyú tengelyére van szerelve a támasztótárcsa (menesztőtárcsa) és a hengertömb. A hengertömbben helyezkednek el a dugattyúk, melyek a vezérlőtárcsán keresztül a támasztótárcsának támaszkodnak. A hengertömb közepén lévő támasztó tengely állandó helyzetben tartja a hengertömböt, amely a vezérlőtárcsának támasztott. A hengertömböt másik oldalon a vezérlőtárcsa zárja le, melynek a csatlakozófedél támaszkodik. A vezérlőtárcsában és a csatlakozó fedélben a nyílások kialakítása olyan, hogy a dugattyúk helyzetének megfelelően a munkafolyadék áramlása biztosított legyen.",
+    "",
+    "A szivattyú tengelyét meghajtva a hengertömb és a dugattyúk elfordulnak. Mivel a dugattyúk a támasztótárcsának támaszkodnak, a támasztótárcsa helyzete és a forgásirány határozza meg, hogy hány ütemű a henger. Az axiáldugattyús szivattyúk hatékonyabb működése érdekében a munkafolyadékot legtöbbször a feltöltés ütemében egy másik szivattyú szállítja a munkatérbe.",
+    "",
+    "17. ábra: Állandó szállítású ferdetengelyes szivattyú működése",
+    "Forrás: https://www.ccefp.org/wp-content/uploads/2015/12/CCEFP2018-AC_Hydraulic_Pump_pdf.pdf (Megnyitás: 2024.07.04.)",
+    "",
+    "A tengelyen lévő támasztótárcsához gömbcsuklóval kapcsolódik a dugattyú, amely a hengertömbben kialakított hengerekben mozog a működés során. A támasztótengely a hengertömböt nekiszorítja a vezérlőtárcsának, amelyben az azonos ütemetű dugattyúk munkaterei vannak összekötve. A hengertömb és a hajtótengely középvonalai egymással szöget zárnak be. A tengely hajtáskor a tengely és a tömb között bezárt szög miatt mozognak a dugattyúk a hengerben. A vezérlőtárcsa felé mozgó dugattyúk feletti munkatér kisebb lesz, ekkor a munkafolyadék kiáramlik a munkatérből. A vezérlőtárcsától távolodó dugattyúk munkaterei nagyobbak lesznek, ezért itt a szívási ütem következik be. A jobb hatásfokú feltöltés miatt egy másik, kisebb nyomással működő feltöltő szivattyút is alkalmazhatnak.",
+    "",
+    "A szivattyú fajlagos munkafolyadék-szállítása",
+    "A szivattyú által egy tengelyfordulat alatt szállított munkafolyadék mennyiségét a szállításban részt vevő szerkezeti egységek mérete határozza meg (18. ábra).",
+    "",
+    "18. ábra: Állandó szállítású ferdetengelyes szivattyú geometriai méretei",
+    "Forrás: https://www.hydraulic-calculation.com/article.php?ID=43 (Megnyitás: 2024.07.04.)",
+    "",
+    "Fajlagos szállítás",
+    "",
+    "ahol:",
+    "A: dugattyú felülete [mm2],",
+    "l: dugattyúk elmozdulása (lökethossz) [mm],",
+    "z: hengerek száma.",
+    "",
+    "A dugattyú felületének nagysága:",
+    "",
+    "A lökethossz nagysága:",
+    "",
+    "",
+    "Visszahelyettesítve az eredeti képletbe:",
+    "",
+    "",
+    "A ferdetengelyes axiáldugattyús szivattyú térfogatáramának nagysága (Q)",
+    "",
+    "ahol:",
+    "q: fajlagos szállítás [mm3],",
+    "n: szivattyú tengelyének fordulatszáma [1/s].",
+    "",
+    "Feladat",
+    "Egy ferdetengelyes kilenchengeres szivattyú dugattyújának átmérője 11 mm. A ferdetengely 20 fokos szöget zár be a hajtó tengely középvonalával. A hengerek osztókörének átmérője 140 mm. A szivattyú percenként 1600-at fordul.",
+    "Határozza meg a szivattyú:",
+    "fajlagos szállítási mennyiségét [cm3/fordulat],",
+    "térfogatáramának nagyságát [cm3/min]!",
+    "",
+    "Megoldás",
+    "z = 9 db",
+    "d = 11 mm = 1,1 cm",
+    "α = 20°",
+    "D = 140 mm = 14 cm",
+    "n = 1600 1/min",
+    "q = ? [cm3/fordulat]",
+    "Q = ? [cm3/min]",
+    "",
+    "A fajlagos szállítás:",
+    "",
+    "",
+    "",
+    "A szivattyú fajlagos szállítása: 40,95 mm3/fordulat.",
+    "",
+    "Térfogatáram nagysága:",
+    "",
+    "",
+    "",
+    "A ferdetengelyes axiáldugattyús szivattyú térfogatárama: 65 520 [cm3/min]",
+    "",
+    "Változtatható szállítású axiáldugattyús szivattyú",
+    "A változtatható szállítású axiáldugattyús szivattyú esetében a munkafolyadék szállítása a tengely szögeltérések módosításával érhető el (19. ábra).",
+    "",
+    "",
+    "19. ábra: Változtatható szállítású ferdetengelyes szivattyú felépítése",
+    "Forrás: https://favpng.com/png_view/axial-piston-pump-hardware-pumps-plunger-pump-png/zWRrCirK (Megnyitás: 2024.07.02.)",
+    "",
+    "Szivattyúház: a szerkezeti egységeket foglalja magába, valamint a szivattyú rögzítését is biztosítja.",
+    "Tengely: a szivattyú meghajtását teszi lehetővé, az egyik oldalán támasztó tárcsa van kialakítva vagy rászerelve, melyre a dugattyúk támaszkodnak, vagy egyes megoldások esetében (mint az ábrán is látható) gömbcsuklóval kapcsolódnak a dugattyúk.",
+    "Hengertömb: a hengertömbben a dugattyúk számára kör alakban hengerek vannak kialakítva, amelyek a tengellyel együtt forognak.",
+    "Támasztótengely: a hengertömb közepén lévő furatban helyezkedik el, a másik vége a tengelyen lévő támasztótárcsa közepének támaszkodik, így biztosítja a hengertömb állandó helyzetét.",
+    "Dugattyúk: a hengerekben a munkafolyadék szállítását biztosítják. A dugattyúnak az egyik oldalon a ferdetengellyel van kapcsolata, ami lehet gömbcsuklós megoldás is (az ábrán ilyen megoldás látható).",
+    "Vezérlőtárcsa munkafolyadék-elvezető csatornákkal: lehetővé teszi az azonos munkafolyamatot végző hengerek számára a munkafolyadék megfelelő irányú áramlását. Továbbá a vezérlőtárcsa biztosítja a hengertömb mozgatásának lehetőséget is a szállítási mennyiség változtatása során.",
+    "Hengertömbmozgató egység: a vezérlőtárcsához kapcsolódik, és amikor a szabályozó egység működésbe lép, elmozdítja a vezérlőtárcsát.",
+    "Szabályozóegység: a hengertömb mozgató egységén keresztül biztosítja a hengertömb szöghelyzetének módosítását.",
+    "Szabályozóegység rugója: az egységbe két rugó van beépítve, ezek biztosítják a hengertömb alaphelyzetét.",
+    "Határoló csavar: határolja a hengertömb állításának szélső helyzeteit.",
+    "Csapágy: a tengelyforgás közbeni megtámasztását biztosítja az üzemeltetés során.",
+    "",
+    "A változtatható szállítású axiáldugattyús szivattyú működését a 20. ábra szemlélteti.",
+    "",
+    "20. ábra: Változtatható szállítású ferdetengelyes szivattyú működése",
+    "Forrás: https://favpng.com/png_view/axial-piston-pump-hardware-pumps-plunger-pump-png/zWRrCirK (Megnyitás: 2024.07.02.)",
+    "",
+    "Az ábrán látható helyzetben a szabályozó szerkezet a II. állásban van, ekkor a munkafolyadék szállítása maximális. Az „A” térbe munkafolyadékot nyomnak, és a „B” térből pedig elvezetik azt. Ekkor a hengertömb az I. helyzet felé mozdul, és a folyadék szállítása csökken. Az I. helyzetben a hengertömb középvonala egybeesik a hajtó tengely középvonalával, ekkor a dugattyúk nem mozdulnak el, nincs munkafolyadék-szállítás. A szabályozóegység rugói ebben a helyzetben vannak egyensúlyban, tehát amikor az „A” és „B” tér nyomása egyforma. Amikor a szabályozószerkezet az I. helyzetből a III. helyzet felé mozdítja a hengertömböt, megváltozik a szivattyú szállítási iránya, ahol eddig a munkafolyadék beáramlott, ott kiáramlás kezdődik. A másik oldalon szintén megfordul az áramlás iránya. A III. helyzetben a munkafolyadék szállítása maximális, de a II. helyzethez képest ellentétes irányú a munkafolyadék áramlása.",
+    "",
+    "A mezőgazdasági gépeken alkalmazott axiáldugattyús szivattyúk szállítási jellemzői:",
+    "Fajlagos munkafolyadék-szállítás: 10–2000 cm3/fordulat.",
+    "Maximális üzemi nyomás: 45 MPa.",
+    "Üzemeltetési fordulatszám tartománya: 750–3000 fordulat/min.",
+    "",
+    "Az axiáldugattyús szivattyúk többsége jelentősebb átalakítás nélkül alkalmazható hidromotorként. Hidromotorként való használat esetén a munkafolyadékot nyomással viszik be, így a tengelyről nyomatékot lehet levenni, azaz másik gépegységet meghajtani.",
+    "1.4.\tRadiáldugattyús szivattyúk, hidromotorok felépítése és működése",
+    "A radiáldugattyús szivattyúkban a dugattyúk a hajtótengelyre merőlegesen (radiálisan) helyezkednek el.",
+    "",
+    "A radiáldugattyús szivattyúk a következő szempontok szerint csoportosíthatóak:",
+    "Szállított folyadékmennyiség szerint:",
+    "állandó szállítású,",
+    "változtatható szállítású.",
+    "A dugattyúk működtetése szerint:",
+    "belső vezérlésű,",
+    "külső vezérlésű.",
+    "",
+    "Belsővezérlésű, állandó szállítású radiáldugattyús szivattyú működési elve (21. ábra)",
+    "",
+    "21. ábra: Belső vezérlésű, egy irányú, állandó szállítású radiáldugattyús szivattyú",
+    "Forrás: https://marineinbox.com/marine-exams/variable-delivery-pump/ (Megnyitás: 2024.07.04.)",
+    "Hengertömb: ebben vannak kialakítva a hengerek, melyeknek iránya az excenteres tengelyre merőleges (radiális).",
+    "Excenteres tengely: a dugattyúkat működtető hengeres felület középpontja az excenteres tengely középpontjától eltolva (excentrikusan) helyezkedik el, viszont a tengely a saját középpontja körül forog.",
+    "Központi forgáspont: a hajtótengely középtengelye, amely körül a tengely forog.",
+    "Dugattyú: a hengereket alulról lezárja, és mozgása közben változtatja a felette lévő munkatérfogatot.",
+    "",
+    "Az excenteres tengely meghajtásakor az excenteres felület helyzete a hengertömbhöz képest állandóan változik, ez a „felületvándorlás” végzi dugattyúk mozgatását. A dugattyúk feletti térfogat változása miatt a dugattyúk feletti térben térfogatnövekedés során feltöltés, térfogatcsökkenés esetén szállítás következik be. A jobb hatásfokú üzemeltetés érdekében a hengerek feltöltésére külön szivattyút is alkalmazhatnak. Az ábrázolt helyzetben két dugattyú feltöltési, két dugattyú pedig szállítási helyzetben van. Egy dugattyú mozgásirányt vált (holtponti helyzetben van), ez a szállítási szakasz vége, illetve feltöltési szakasz kezdete átmeneti állásban van.",
+    "A belső vezérlésű, egy irányú, állandó szállítású radiáldugattyús szivattyú felépítését a 22. ábra szemlélteti.",
+    "",
+    "22. ábra: Belső vezérlésű, egy irányú, állandó szállítású radiáldugattyús szivattyú felépítése",
+    "Forrás: https://www.globalspec.com/learnmore/flow_transfer_control/pumps/piston_plunger_pumps (Megnyitás: 2024.07.02.)",
+    "",
+    "Hengertömb: a hengertömbben vannak kialakítva a hengerek, melyeknek iránya az excenteres tengelyre merőleges (radiális).",
+    "Hajtásközvetítő betét: az excenteres tengely mozgását adja át a dugattyúknak. Kívülről síklapokkal határolt, amelyekre a dugattyúk fekszenek fel, üreges furatában az excenteres tengely helyezkedik el.",
+    "Excenteres tengely: a dugattyúkat működtető hengeres felület középpontja az excenteres tengely középpontjától eltolva (excentrikusan) helyezkedik el, viszont a tengely a saját középpontja körül forog.",
+    "Dugattyú: a hengereket alulról lezárja, és mozgása közben változtatja a felette lévő munkatérfogatot.",
+    "Szelepház: ebben a házban helyezkednek el a munkafolyadék áramlását lehetővé tevő szelepek. Általában egy hengerhez egy szívó- és egy nyomószelep tartozik.",
+    "Szívó- (feltöltő-) szelep: a munkafolyadék hengerbe áramlását biztosítja, amikor a dugattyú a szelepháztól távolodik.",
+    "Nyomószelep: a munkafolyadék kiáramlását teszi lehetővé, amikor a dugattyú a szelepház felé mozog.",
+    "",
+    "A szivattyú működése során a tengelyt meghajtják, ami a hajtásközvetítő betéten keresztül a dugattyút mozgatja. A szivattyúban végbemenő folyamatokat egy henger működése mutatja be. A dugattyú a szelepházhoz legközelebbi helyzetéből indul ki (felső holtpont), az excenteres tengely elfordul, és a rajta lévő hajtásközvetítő betétet lefelé mozdítja. Ebben a helyzetben a dugattyú lefelé mozdul, a hengerben nő a térfogat, a nyomás csökken, lehetővé válik a munkafolyadék hengerbe áramlása a nyitott szívó- (feltöltő-) szelepen keresztül. A jobb feltöltés érdekében általában külön feltöltő szivattyú juttatja be a munkafolyadékot a hengerbe. A folyamat a dugattyú szelepháztól viszonyított legtávolabbi pontjáig (alsó holtpont) tart, ekkor bezár a szívószelep. A feltöltés ideje alatt a nyomószelep szintén zárt. A tengelyen lévő excenteres felület ezután a hajtásközvetítő betéten keresztül a dugattyút a felső holtpont felé mozgatja. A henger feletti térfogat csökken, a nyomás nő és a munkafolyadék a nyomószelepet kinyitja, a munkafolyadék kiáramlik a hengerből. A nyomási (szállítási) szakasz a dugattyú felső holtpontig mozgásáig tart. A szállítási szakasz során a szívó- (feltöltő-) szelep zárt állapotban van. A szállítási szakasz után a folyamat kezdődik elölről. A szivattyú működését a következő 23. ábra (animáció) mutatja be:",
+    "",
+    "23. ábra: Belső vezérlésű, egy irányú, állandó szállítású radiáldugattyús szivattyú működése",
+    "Forrás: https://www.globalspec.com/learnmore/flow_transfer_control/pumps/piston_plunger_pumps (Megnyitás: 2024.07.02.)",
+    "1.4.1.\tKülső vezérlésű, állandó szállítású radiáldugattyús szivattyú működési elve",
+    "A külső vezérlésű, állandó szállítású radiáldugattyús szivattyú működési elvét a 24. ábra szemlélteti.",
+    "",
+    "24. ábra: Külső vezérlésű, egy irányú, állandó szállítású radiáldugattyús szivattyú",
+    "Forrás: https://marineinbox.com/marine-exams/variable-delivery-pump/ (Megnyitás: 2024.07.04.)",
+    "",
+    "Hengertömb: ebben vannak kialakítva a hengerek, melyeknek iránya az excentergyűrűre merőleges (radiális).",
+    "Excentergyűrű: a dugattyúkat működtető belső felület középpontja a hengertömb középpontjától eltolva (excentrikusan) helyezkedik el, viszont a hengertömb a saját középpontja körül forog.",
+    "Dugattyú: a hengereket felülről lezárja, és mozgása közben változtatja az alatta lévő munkatérfogatot.",
+    "Térelválasztó: A feltöltő- és a nyomóteret választja el egymástól.",
+    "Központi forgáspont: a hengertömb középtengelye, amely körül a hengertömb forog.",
+    "",
+    "A hengertömb közepében lévő részt a térelválasztó választja ketté, az egyik oldalon feltöltés zajlik, a másik oldalon szállítás. A feltöltést ebben az esetben külön feltöltőszivattyú biztosítja, ez szállítja a munkafolyadékot a hengerbe. A túlnyomással érkező munkafolyadék a dugattyút az excentergyűrűnek nyomja. Az excentergyűrű középvonala nem esik egybe a hengertömb középvonalával, ezért a dugattyú mozog a hengerben az egyes munkafolyamatok során. A szállítási szakaszban a dugattyú a hengertömbtől a legnagyobb távolságra van, a hengertömb forgása közben a dugattyúk a hengertömbben elmozdulnak. Az elmozdulás hatására a dugattyú előtti térben a térfogat csökken, a nyomás pedig nő, ezért a munkafolyadék távozik a hengerből.",
+    "1.4.2.\tVáltoztatható szállítású, külső vezérlésű radiális dugattyús szivattyú",
+    "A változtatható szállítási mennyiséget a dugattyúk löketének változtatásával valósítják meg (25. ábra).",
+    "",
+    "25. ábra: Külső vezérlésű, egy irányú, változtatható szállítású radiáldugattyús szivattyú",
+    "Forrás: https://www.youtube.com/watch?v=-tb63h3-jq4 (Megnyitás: 2024.07.05.)",
+    "",
+    "",
+    "26. ábra: Változtatható szállítású, egy áramlási irányú szivattyú",
+    "Forrás: saját készítésű",
+    "",
+    "Alapesetben az excentergyűrű középvonala nem esik egybe a hengertömb középvonalával, ezért működés közben a dugattyúk mozognak a hengertömbben. A dugattyú mozgásának mértéke azonos a tengelyeltolás nagyságával. A változtatható szállítású szivattyúk esetében egy állítószerkezet biztosítja, hogy az excentergyűrű elmozduljon a hengertömbhöz képest. Az ábrán egy csavarorsós állítószerkezet látható. Az állítószerkezet a csavarorsós támasztóbetéten keresztül tartja az excentergyűrűt a beállított helyzetben, mert a másik oldalon egy rugós feszítőszerkezet a támasztóbetéten keresztül nyomja az excentergyűrűt. Az ábrázolt helyzetben az állítószerkezet a tengelyeltolás mértékét csökkenti (engedi a rugós feszítőszerkezetnek az elmozdulást), ami kevesebb mennyiségű munkafolyadék szállítását eredményezi. Határesetben a két középvonal egybeesik, ekkor a munkafolyadék szállítása megszűnik.",
+    "",
+    "A változtatható szállítású radiáldugattyús szivattyú (27. ábra) szállítási mennyiségét a korszerű rendszereknél hidraulikusan változtatják.",
+    "",
+    "",
+    "27. ábra: Külső vezérlésű, egy irányú, változtatható szállítású radiáldugattyús szivattyú kialakítása",
+    "Forrás: https://www.machinedesign.com/news/whats-inside/article/21833905/a-hydraulic-pump-for-highpressure-applications (Megnyitás: 2024.07.05.)",
+    "",
+    "Hengertömb: a hengereket foglalja magába, melyeknek iránya az excentergyűrűre merőleges (radiális).",
+    "Excentergyűrű: a dugattyúkat működtető belső felület középpontja a hengertömb középpontjától eltolva (excentrikusan) helyezkedik el. Ebben az esetben az eltolás mértéke hidraulikusan állítható. Viszont a hengertömb a saját középpontja körül forog.",
+    "Dugattyú: a hengereket felülről lezárja, és mozgás közben változtatja az alatta lévő munkatérfogatot.",
+    "Hajtótengely: a szivattyú hajtását biztosítja.",
+    "Csapágy: a tengely megtámasztásában van szerepe.",
+    "Szabályozó szerkezet: az excentergyűrű eltolását végzi a szállítási igényeknek megfelelően.",
+    "Állító munkahenger: a szabályzó szerkezet működtető egysége.",
+    "Mozgató rúd: az állító munkahenger működteti és az excentergyűrűnek támaszkodik.",
+    "Szívó vagy nyomó csatlakozók: a munkafolyadék szivattyúba való beáramlását teszi lehetővé. A hajtó tengely forgása következtében a dugattyúk mozogva végzik a munkafolyadék szállítását. A szabályozó szerkezet működtetésekor az állító munkahenger a kívánt irányban (a másik oldalon lévő rugós támasztás ellenében) elmozdul, és a mozgató rúdon keresztül változtatja az excentricitást.",
+    "",
+    "A szivattyú fajlagos munkafolyadék-szállítása",
+    "A szivattyú által egy tengelyfordulat alatt szállított munkafolyadék mennyiségét a szállításban részt vevő szerkezeti egységek mérete határozza meg (28. ábra).",
+    "",
+    "28. ábra: Külső vezérlésű, egy irányú, állandó szállítású radiáldugattyús szivattyú geometriai méretei",
+    "Forrás: https://hydraulic-calculation.com/article.php?ID=42 (Megnyitás: 2024.07.05.)",
+    "",
+    "Fajlagos szállítás",
+    "",
+    "ahol:",
+    "d: hengerátmérő [mm],",
+    "e: excentricitás [mm],",
+    "z: hengerek száma [db].",
+    "",
+    "A rediáldugyattyús szivattyú térfogatáramának nagysága (Q)",
+    "",
+    "ahol:",
+    "q: fajlagos szállítás [mm3],",
+    "n: szivattyú tengelyének fordulatszáma [1/s].",
+    "Feladat",
+    "Egy radiáldugattyús öthengeres szivattyú dugattyújának átmérője 24 mm. A tengelyeltolás (excentricitás) 12 mm. A hajtó tengely fordulatszáma 900 1/min.",
+    "Határozd meg a szivattyú elméleti fajlagos szállítási mennyiségét [cm3/fordulat]!",
+    "Megoldás",
+    "z = 5 db",
+    "d = 24 mm = 2,4 cm",
+    "e = 2 mm = 2 cm",
+    "n = 900 1/min",
+    "q = ? [cm3/fordulat]",
+    "Q = ? [cm3/min]",
+    "",
+    "A fajlagos szállítás:",
+    "",
+    "",
+    "",
+    "A szivattyú fajlagos szállítása 45,216 cm3/fordulat.",
+    "",
+    "A térfogatáram nagysága:",
+    "",
+    "",
+    "",
+    "A mezőgazdasági gépekben alkalmazott radiáldugattyús szivattyúk szállítási jellemzői:",
+    "Fajlagos munkafolyadék-szállítás: 10–1000 cm3/fordulat.",
+    "Maximális üzemi nyomás: 50 MPa.",
+    "Üzemeltetési fordulatszám tartománya: 750–1500 fordulat/min.",
+    "",
+    "A radiáldugattyús szivattyúk átalakítás nélkül is alkalmazhatók hidromotorként, ahol nagy nyomatékra alacsony fordulatszámon van szükség.",
+    "",
+    "Ábrajegyzék",
+    "1. ábra: Egyszeres működésű dugattyús szivattyú szívási helyzetben\t3",
+    "2. ábra: Állandó folyadéknyelésű, egy áramlási irányú szivattyú\t3",
+    "3. ábra: Egyszeres működésű dugattyús szivattyú szállítási helyzetben\t4",
+    "4. ábra: Kettős működésű dugattyús szivattyú működése a dugattyú balra mozdulásakor\t5",
+    "5. ábra: Kettős működésű dugattyús szivattyú működése a dugattyú jobbra mozdulásakor\t6",
+    "6. ábra: Ferdetárcsás szivattyú felépítése, működési elve\t7",
+    "7. ábra: Ferdetárcsás szivattyú geometriai jellemzői\t8",
+    "8. ábra: Állandó szállítású ferdetárcsás szivattyú\t10",
+    "9. ábra: Két szállítási irányú szivattyú\t11",
+    "10. ábra: Ferdetárcsás szivattyú működése\t12",
+    "11. ábra: Ferdetárcsás változtatható szállítású szivattyú szerkezeti felépítése\t13",
+    "12. ábra: Két szállítási irányú, változtatható szállítású szivattyú\t13",
+    "13. ábra: Ferdetárcsás változtatható szállítású szivattyú működése\t15",
+    "14. ábra: Ferdetárcsás változtatható szállítású szivattyú ábrája\t16",
+    "15. ábra: Állandó szállítású ferdetengelyes szivattyú metszete\t17",
+    "16. ábra: Állandó szállítású ferdetengelyes szivattyú\t17",
+    "17. ábra: Állandó szállítású ferdetengelyes szivattyú működése\t19",
+    "18. ábra: Állandó szállítású ferdetengelyes szivattyú geometriai méretei\t20",
+    "19. ábra: Változtatható szállítású ferdetengelyes szivattyú felépítése\t22",
+    "20. ábra: Változtatható szállítású ferdetengelyes szivattyú működése\t24",
+    "21. ábra: Belső vezérlésű, egy irányú, állandó szállítású radiáldugattyús szivattyú\t25",
+    "22. ábra: Belső vezérlésű, egy irányú, állandó szállítású radiáldugattyús szivattyú felépítése\t26",
+    "23. ábra: Belső vezérlésű, egy irányú, állandó szállítású radiáldugattyús szivattyú működése\t28",
+    "24. ábra: Külső vezérlésű, egy irányú, állandó szállítású radiáldugattyús szivattyú\t29",
+    "25. ábra: Külső vezérlésű, egy irányú, változtatható szállítású radiáldugattyús szivattyú\t30",
+    "26. ábra: Változtatható szállítású, egy áramlási irányú szivattyú\t30",
+    "27. ábra: Külső vezérlésű, egy irányú, változtatható szállítású radiáldugattyús szivattyú kialakítása\t31",
+    "28. ábra: Külső vezérlésű, egy irányú, állandó szállítású radiáldugattyús szivattyú geometriai méretei\t33",
+    ""
+  ],
+  "runs": [
+    [],
+    [],
+    [
+      "Egyedi megrendelés azonosítója:",
+      " EM-2.9.3"
+    ],
+    [
+      "A",
+      "grárműszaki erőforrások hidraulikus teljesítményátvitele ",
+      "III."
+    ],
+    [
+      "Témák kézirata"
+    ],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      "Tartalomjegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ],
+    [
+      ""
+    ],
+    [
+      "1.",
+      "\t",
+      "Dugattyús energiaátalakítók"
+    ],
+    [
+      "A hidraulikus rendszerben a dugattyús energiaátalakítók mechan",
+      "ikus energiából hidraulikus energiát ",
+      "állítanak elő, ezek a hidraulikus szivattyúk. A másik esetben ",
+      "hidraulikus energiából mechanikus energiát",
+      " állítanak elő, ezek a ",
+      "hidromotorok",
+      ", illetve hidraulikus munkahengerek."
+    ],
+    [],
+    [
+      "Dugattyús szivattyúk"
+    ],
+    [
+      "A dugattyús szivattyúk általában a térfogat-kiszorítás elve alapján működnek. Ennek lényege, hogy egy zárt térben a szivattyú meghajtásakor dugattyút mozgatnak, és a mozgási iránytól függően változik a munkatér nagysága."
+    ],
+    [],
+    [
+      "A dugattyús szivattyúk csoportosítása:"
+    ],
+    [
+      "működési mód szerint:"
+    ],
+    [
+      "egyszeres működésű (a folyadékot a dugattyú egyik oldali teréből szállítja),"
+    ],
+    [
+      "kettős működésű (a folyadékot a dugattyú mindkét oldaláról felváltva szállítja);"
+    ],
+    [
+      "a dugattyúk száma szerint:"
+    ],
+    [
+      "egyhengeres,"
+    ],
+    [
+      "többhengeres;"
+    ],
+    [
+      "a dugattyúk elrendezése szerint:"
+    ],
+    [
+      "axiáldugattyús",
+      ": a dugattyúk elrendezése a hajtótengellyel párhuzamos (axiális),"
+    ],
+    [
+      "radiáldugattyús: a dugattyúk elrendezése hajtótengelyre merőleges (radiális)."
+    ],
+    [
+      "1.1.",
+      "\t",
+      "Egyszeres működésű dugattyús szivattyúk elvi felépítése és működése"
+    ],
+    [
+      "Az egyszeres működésű dugattyús szivattyúk egy munkatérfogattal rendelkeznek (",
+      "1",
+      ". ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "1",
+      "",
+      ". ábra: ",
+      "Egyszeres működésű dugattyús szivattyú szívási helyzetben"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.michael-smith-engineers.co.uk/resources/useful-info/positive-displacement-pumps (Megnyitás: 202",
+      "4",
+      ".07",
+      ".",
+      "03.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "2",
+      "",
+      ". ábra: ",
+      "Állandó folyadéknyelésű, egy áramlási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "A hengerben helyezkedik el a dugattyú, melyet mozgás közben a henger vezet meg. A dugattyú feletti teret egy szelepház zárja le, melyben a szívó- és a nyomószelep helyezkedik el. A szelepek biztosítják a munkafolyadék be- és kiáramlását a munkatérben uralkodó nyomástól függően. A szivattyú munkaterét a henger és a szelepház határolja, illetve a működtetés során a dugattyú helyzetétől függően változtatja a munkatér nagyságát."
+    ],
+    [],
+    [
+      "A dugattyúrúdon keresztül a dugattyút balra mozgatják, a dugattyú feletti munkatérben a térfogat nő, ami nyomáscsökkenést okoz a hengerben. A nyomáscsökkenés hatására a szívószelep kinyílik, és a nyomószelep zárt helyzetben van, ekkor munkafolyadék áramlik a munkatérbe. A beáramlás addig tart, amíg a dugattyú balra mozog."
+    ],
+    [],
+    [
+      "A dugattyú ",
+      "holtponti",
+      " helyzetében (amikor a dugattyú mozgásiránya megfordul) a térfogat nem nő, ezért a szívószelep bezár (",
+      "3",
+      ". ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "3",
+      "",
+      ". ábra: ",
+      "Egyszeres működésű dugattyús szivattyú szállítási helyzetben"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.michael-smith-engineers.co.uk/resources/useful-info/positive-displacement-pumps (Megnyitás: 202",
+      "4",
+      ".07.03.)"
+    ],
+    [],
+    [
+      "A dugattyú jobbra mozgása során a munkatér térfogatát csökkenti, aminek hatására a nyomás a térben nő, ezért a nyomószelep kinyit (a szívószelep zárt). A dugattyú mozgás közben a munkatérből a munkafolyadékot kinyomja, ez a folyamat addig tart, amíg a dugattyú jobbra mozog. A mozgásirányváltás után a folyamat ",
+      "újrakezdődik",
+      " a szívási folyamattal."
+    ],
+    [],
+    [
+      "Az egyszeres működésű dugattyús szivattyúk szállítása szakaszos, ami a nyomóvezetékben lüktető nyomást eredményez. A szállítás egyenleteségének javítása érdekében többhengeres szivattyúkat készítenek."
+    ],
+    [
+      "1.2.",
+      "\t",
+      "Kettős működésű dugattyús szivattyúk felépítése és működése"
+    ],
+    [
+      "A ",
+      "kettős működésű",
+      " dugattyús szivattyúk két munkatérrel rendelkeznek, ami egyenletesebb szállítást biztosít, mint az egyszeres működésű dugattyús szivattyúké. A munkaterek a dugattyú két oldalán helyezkednek el (",
+      "4",
+      ". ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "4",
+      "",
+      ". ábra: ",
+      "Kettős működésű dugattyús szivattyú működése a dugattyú balra mozdulásakor"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.engineerlive.com/sites/engineerlive/files/BPrinciple%20of%20a%20double%20acting%20plunger%20pump%20head.png (Megnyitás: 202",
+      "4",
+      " 07.03.)"
+    ],
+    [],
+    [
+      "A henger terét a dugattyú két részre választja el, jobbra van a V",
+      "1",
+      ", balra a V",
+      "2",
+      " tér, melynek nagysága a dugattyú mozgása során folyamatosan változik. A szivattyú alsó részén két szívószelep, a felső részén két nyomószelep található."
+    ],
+    [],
+    [
+      "Az ábrán látható helyzetben a dugattyú balra mozdul. Az elmozdulás hatására a V",
+      "1",
+      " tér nagysága nő, aminek hatására a nyomás csökken. A nyomáscsökkenés a jobb oldali szívószelepet nyitja (a nyomószelep zárt), és a térbe munkafolyadék áramlik be. A V",
+      "2",
+      " tér nagysága csökken, ami a térben nyomásnövekedést okoz. A nyomásnövekedés nyitja a bal oldali nyomószelepet (amszívószelep zárt), melyen keresztül a munkafolyadék távozik a térből. A két térben a ",
+      "folyamat a dugattyú bal oldalra mozgásáig tart, utána a mozgásirány megfordul, és a dugattyú jobbra mozog."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "5",
+      "",
+      ". ábra: ",
+      "Kettős működésű dugattyús szivattyú működése a dugattyú jobbra mozdulásakor"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.engineerlive.com/sites/engineerlive/files/BPrinciple%20of%20a%20double%20acting%20plunger%20pump%20head.png (Megnyitás: 20",
+      "24",
+      ".07.03.)"
+    ],
+    [],
+    [
+      "A dugattyú jobbra haladásakor (",
+      "5",
+      ". ábra",
+      ") a V",
+      "2",
+      " tér nagysága nő, a térben a nyomás csökken, ekkor kinyit a bal oldali szívószelep. A V",
+      "1",
+      " tér nagysága csökken, a térben a nyomás megnő, ekkor nyílik ki a jobb oldali nyomószelep. A két térben lévő folyamat a dugattyú jobbra mozgásáig tart, utána az ellentétes mozgás a terekben megváltoztatja a munkafolyadék haladási irányát",
+      "."
+    ],
+    [
+      "A kettős működésű szivattyúk egyenletesebb szállítást biztosítanak, mint az egyszeres működésűek, viszont a szerkezeti felépítésük bonyolultabb."
+    ],
+    [
+      "1.3.",
+      "\t",
+      "Axiáldugattyús szivattyúk és ",
+      "hidromotorok",
+      " felépítése és működése"
+    ],
+    [
+      "Axiáldugattyús szivattyúk",
+      " esetében a dugattyúk mozgási iránya párhuzamos a szivattyú forgástengelyével. A szivattyúkat a szállított folyadékmennyiség alapján két nagy csoportba lehet sorolni:"
+    ],
+    [
+      "állandó szállítású ferdetárcsás,"
+    ],
+    [
+      "változtatható szállítású ferdetárcsás."
+    ],
+    [
+      "1.3.1.",
+      "\t",
+      "Állandó szállítású ferdetárcsás ",
+      "axiáldugattyús",
+      " szivattyúk"
+    ],
+    [
+      "Az ",
+      "állandó szállítású",
+      " szivattyúk esetében az egy szivattyútengely-fordulatra szállított folyadékmennyiség (fajlagos szállítása) állandó."
+    ],
+    [
+      "A szivattyú működési elve: a hengertömbben elhelyezett dugattyúk a tengelyre erősített ferde tárcsának támaszkodnak (",
+      "6",
+      ". ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "6",
+      "",
+      ". ábra: ",
+      "Ferdetárcsás szivattyú felépítése, működési elve"
+    ],
+    [
+      "Forrás: https://docplayer.biz.tr/202891049-Hidrolik-devre-hidrolik-depo-tank-akis-kontrol-valfi-hidrolik-akumulator-hidrolik-pompa-hidrolik-boru-vebaglanti-elemanlari.html#google_vignette",
+      " (átszerkesztve) (Megnyitás: 2024.07.01.)"
+    ],
+    [],
+    [
+      "A hengertömbben körben helyezkednek el a dugattyúk, melyek bal oldali része gömbcsuklóval a ferdetárcsához kapcsolódik. A ferdetárcsa a tengelyre szöget bezárva helyezkedik el. A tengelyt meghajtva a hengertömb együtt forog a dugattyúkkal és a ferdetárcsával. A ferdetárcsa dőlésszöge miatt a dugattyúk a hengerben mozognak, miközben a felettük lévő térfogat forgás közben folyamatosan változik. A térfogatváltozás miatt a térben nyomásnövekedés (feltöltés), nyomáscsökkenés (szállítás) megy végbe."
+    ],
+    [],
+    [
+      "A szivattyú fajlagos munkafolyadék-szállítása"
+    ],
+    [
+      "A szivattyú által egy tengelyfordulat alatt szállított munkafolyadék mennyiségét a szállításban részt vevő szerkezeti egységek mérete határozza meg (",
+      "7",
+      ". ábra",
+      ")."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "7",
+      "",
+      ". ábra: ",
+      "Ferdetárcsás szivattyú geometriai jellemzői"
+    ],
+    [
+      "Forrás: https://docplayer.biz.tr/202891049-Hidrolik-devre-hidrolik-depo-tank-akis-kontrol-valfi-hidrolik-akumulator-hidrolik-pompa-hidrolik-boru-vebaglanti-elemanlari.html#google_vignette",
+      " (átszerkesztve) (Megnyitás: 2024.07.01.)"
+    ],
+    [],
+    [
+      "Fajlagos szállítás"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "A: dugattyú felülete [mm",
+      "2",
+      "],"
+    ],
+    [
+      "l: dugattyúk elmozdulása (lökethossz) [mm],"
+    ],
+    [
+      "z: hengerek száma."
+    ],
+    [],
+    [
+      "A dugattyú felületének nagysága:"
+    ],
+    [],
+    [
+      "A lökethossz nagysága:"
+    ],
+    [],
+    [],
+    [
+      "Visszahelyettesítve az eredeti képletbe:"
+    ],
+    [],
+    [],
+    [
+      "A ferdetárcsás ",
+      "axiáldugattyús",
+      " szivattyú térfogatáramának nagysága (Q)"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "q: fajlagos szállítás [mm",
+      "3",
+      "],"
+    ],
+    [
+      "n: szivattyú tengelyének fordulatszáma [1/s]."
+    ],
+    [],
+    [
+      "Feladat"
+    ],
+    [
+      "Egy ferdetárcsás héthengeres szivattyú dugattyújának átmérője 12 mm. A ferdetárcsa a tengellyel 22 fokos szöget zár be A hengerek osztókörének átmérője 120 mm. A szivattyú tengelyének fordulatszáma: 1400 1/min."
+    ],
+    [
+      "Határozza meg a szivattyú:"
+    ],
+    [
+      " elméleti fajlagos szállítási mennyiségét [cm",
+      "3",
+      "/fordulat],"
+    ],
+    [
+      "térfogatáramának nagyságát [cm",
+      "3",
+      "/min]!"
+    ],
+    [],
+    [
+      "Megoldás"
+    ],
+    [
+      "z = 7 db"
+    ],
+    [
+      "d = 12 mm = 1,2 cm"
+    ],
+    [
+      "α = 22°"
+    ],
+    [
+      "D = 120 mm = 12 cm"
+    ],
+    [
+      "n = 1400 1/min"
+    ],
+    [
+      "q = ?",
+      " [cm",
+      "3",
+      "/fordulat]"
+    ],
+    [
+      "Q = ?",
+      " [cm",
+      "3",
+      "/min]"
+    ],
+    [
+      "A fajlagos szállítás:"
+    ],
+    [],
+    [],
+    [],
+    [
+      "A szivattyú fajlagos szállítása: 12,22 cm",
+      "3",
+      "/fordulat."
+    ],
+    [],
+    [
+      "A szivattyú térfogatáramának nagysága:"
+    ],
+    [],
+    [],
+    [],
+    [
+      "A szivattyú térfogatáramának nagysága 17 108 cm",
+      "3",
+      "/min."
+    ],
+    [],
+    [
+      "A szivattyú főbb szerkezeti egységeit a ",
+      "8",
+      ". ábra",
+      " szemlélteti."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "8",
+      "",
+      ". ábra: ",
+      "Állandó szállítású ferdetárcsás szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.youtube.com/watch?v=t16h3Z1F7mY&t=28s, 00:41., (Megnyitás: 202",
+      "4",
+      ".07.03",
+      ".",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "9",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "Szivattyúház",
+      ": a szivattyú alkatrészeit, egységeit foglalja magába, valamint a szivattyú rögzítését is biztosítja."
+    ],
+    [
+      "Tengely",
+      ": a szivattyú meghajtását teszi lehetővé. A ferdetárcsa van rácsatlakoztatva, a másik hengeres vége a hengertömb közepén lévő furatban van, és a hengertömbnek támaszkodva biztosítja a hengertömb állandó helyzetét."
+    ],
+    [
+      "Hengertömb",
+      ": a hengertömbben a dugattyúk számára kör alakban hengerek vannak kialakítva, amelyek a tengellyel együtt forognak."
+    ],
+    [
+      "Vezetőtárcsa",
+      ": a dugattyúk mozgása során a hengerből kinyúló dugattyúkat tartja meg a hajtó oldalon."
+    ],
+    [
+      "Dugattyúk",
+      ": a munkafolyadék szállítását biztosítják a hengerekben. A dugattyúk egyik oldalon a ferdetárcsával vannak kapcsolatban, ami lehet gömbcsuklós vagy lehet támasztólapos kialakítású. Ebben az esetben vezérlőtárcsán keresztül támaszkodnak a tengelyen lévő ferde tárcsához."
+    ],
+    [
+      "Ferdetárcsa",
+      ": a tengellyel szöget bezárva helyezkedik el, és megtámasztja a dugattyúkat."
+    ],
+    [
+      "Csapágy",
+      ": a ",
+      "tengelyforgás",
+      " közbeni megtámasztását biztosítja az üzemeltetés során."
+    ],
+    [
+      "Tömítés",
+      ": a kenőanyag kifolyását akadályozza meg a szivattyúból."
+    ],
+    [
+      "Csapágyház",
+      ": a csapágyat tartja meg, és biztosítja a megfelelő rögzítését."
+    ],
+    [
+      "Zárófedél",
+      ": a tengely felől zárja le a szivattyút."
+    ],
+    [
+      "Csatlakozófedél a vezérlőtárcsával",
+      ": a hengertömbre fekszik fel, és az üzemeltetés során biztosítja a munkafolyadék elvezetését a megfelelő irányba, továbbá a hengertömb felőli tömítést."
+    ],
+    [],
+    [
+      "A szivattyú tengelyére van szerelve a hengertömb és a ferdetárcsa. A hengertömbben helyezkednek el a dugattyúk, melyek a vezérlőtárcsán keresztül a ferdetárcsának támaszkodnak. A hengertömb másik oldalát a csatlakozófedél zárja le, melyben a dugattyúk helyzetének megfelelően vannak kialakítva a munkafolyadék áramlását lehetővé tevő csatornák. A szivattyú tengelyét meghajtva a hengertömb és a dugattyú elfordul, mivel a dugattyúk a ferdetárcsának támaszkodnak. A tárcsa helyzete és a forgásirány határozza meg, hogy milyen ütem van a hengerben. Az ",
+      "axiáldugattyús",
+      " szivattyúk hatékonyabb működése érdekében a munkafolyadékot legtöbbször a feltöltés ütemében egy másik szivattyú szállítja a munkatérbe."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "10",
+      "",
+      ". ábra:",
+      " ",
+      "Ferdetárcsás szivattyú működése"
+    ],
+    [
+      "Forrás:",
+      " https://docplayer.biz.tr/202891049-Hidrolik-devre-hidrolik-depo-tank-akis-kontrol-valfi-hidrolik-akumulator-hidrolik-pompa-hidrolik-boru-vebaglanti-elemanlari.html#google_vignette ",
+      "(átszerkesztve)",
+      " ",
+      "(Megnyitás: 2024.07.01.)"
+    ],
+    [],
+    [
+      "V",
+      "1",
+      "; V",
+      "2",
+      ": munkatérfogatok"
+    ],
+    [
+      "A forgás következtében a dugattyúk mozognak. A ",
+      "11",
+      ".",
+      " ",
+      "ábrán",
+      " látható V",
+      "2",
+      " munkatérben a dugattyú balra halad, a térfogat nő, és a feltöltőszivattyú munkafolyadékkal tölti meg a hengert. A ",
+      "dugattyú holtpontja után a dugattyú ellentétes irányban mozdul el. A munkatérfogat csökken (V",
+      "1",
+      "), és a munkafolyadék a csatlakozó fedélben lévő vezérlőtárcsán keresztül nagy nyomással kiáramlik a szivattyúból."
+    ],
+    [],
+    [
+      "Változtatható szállítású ferdetárcsás ",
+      "axiáldugattyús",
+      " szivattyú ",
+      "(",
+      "1",
+      "1",
+      ". ábra)"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "11",
+      "",
+      ". ábra:",
+      " ",
+      "Ferdetárcsás változtatható szállítású szivattyú szerkezeti felépítése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.researchgate.net/figure/The-structure-of-axial-piston-pump_fig1_317816283 (Megnyitás: 202",
+      "4",
+      ".07.04",
+      ".",
+      ")"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "12",
+      "",
+      ". ábra: ",
+      "Két szállítási irányú, változtatható szállítású szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [
+      "Szivattyúház",
+      ": a szivattyú egységbe foglalása mellett biztosítja a meghajtóegységhez való rögzítést."
+    ],
+    [
+      "Tengely",
+      ": a szivattyú meghajtása mellett a ferdetárcsát mozgató egységen keresztül lehetővé teszi a ferdetárcsa szögének változtatását."
+    ],
+    [
+      "Ferdetárcsa",
+      ": a dugattyúk gömbcsuklókon keresztül kapcsolódnak hozzá, és forgás közben a dugattyúk megtámasztásával teszi lehetővé a dugattyúk mozgatását a hengertömbben."
+    ],
+    [
+      "Dugattyú",
+      ": a hengertömbben kialakított hengereket bal oldalról lezárja, és forgás közben a hengerben a munkatér térfogatát változtatja."
+    ],
+    [
+      "Hengertömb",
+      ": a dugattyúk számára hengereket alakítanak ki benne, valamint a munkateret kívülről zárja."
+    ],
+    [
+      "Vezérlőtárcsa",
+      ": a munkaterekkel van kapcsolatban, és működés során az azonos ütemben lévő hengerek számára lehetővé teszi a munkafolyadék be- és kiáramlását."
+    ],
+    [
+      "Csapágy",
+      ": a tengely radiális (sugárirányú) és axiális (tengelyirányú) megtámasztását biztosítja a szivattyú üzemeltetése során."
+    ],
+    [
+      "Működtető rúd",
+      ": a ferdetárcsa szögének állításakor biztosítja a további szerkezetek működését."
+    ],
+    [
+      "Ferdetárcsát működtető egység",
+      ": a ferdetárcsát ide kapcsolják, ami a munkafolyadék mennyiségének változtatása során közvetlenül változtatja a ferdetárcsa szögét a tengelyhez viszonyítva."
+    ],
+    [
+      "Szabályozó egység",
+      ": üzemeltetés során szükséges mértékben, a működtető rúdon és a ferdetárcsát mozgató egységen keresztül változtatja a szivattyú által szállított munkafolyadék mennyiségét."
+    ],
+    [
+      "Rugó",
+      ": a ferdetárcsát a működtető egységen keresztül igyekszik alaphelyzetbe tolni."
+    ],
+    [],
+    [
+      "A szivattyú meghajtásakor alaphelyzetben a ferdetárcsa a tengellyel a legnagyobb szöget zárja be, ami biztosítja a maximális mennyiségű munkafolyadék szállítását. A szabályozó egység működtetésekor a szállított folyadék mennyisége megváltozik."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "13",
+      "",
+      ". ábra: ",
+      "Ferdetárcsás változtatható szállítású szivattyú működése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.researchgate.net/figure/The-structure-of-axial-piston-pump_fig1_317816283 (Megnyitás: 202",
+      "4",
+      ".07.04",
+      ".",
+      ")"
+    ],
+    [],
+    [
+      "A ",
+      "szabályozó szerkezet a II. helyzetben",
+      " van (",
+      "1",
+      "3",
+      ". ábra",
+      "), ekkor a munkafolyadék szállítása maximális. Amikor a szivattyú szabályzószerkezetét az I. helyzet felé tolják, akkor a folyadékszállítás mennyisége csökken. Az I. helyzetben a ferdetárcsa merőleges a szivattyú tengelyére, ekkor a dugattyúk nem mozdulnak el, nincs munkafolyadék-szállítás. Az I. helyzetből a III. helyzet felé mozdítva megváltozik a szivattyú szállítási iránya, ahol eddig a munkafolyadék beáramlott, ott kiáramlás kezdődik. A másik oldalon szintén megfordul az áramlás iránya. A III. helyzetben a munkafolyadék mennyiségének szállítása maximális, de a II. helyzethez viszonyítva ellentétes irányú a munkafolyadék áramlása."
+    ],
+    [],
+    [
+      "A változtatható szállítású szivattyú felépítését a ",
+      "1",
+      "4",
+      ". ábra",
+      " szemlélteti."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "14",
+      "",
+      ". ábra: ",
+      "Ferdetárcsás változtatható szállítású szivattyú ábrája"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://topkitparts.com/cat-hydraulic-pump-troubleshooting-guide/ (Meg",
+      "nyi",
+      "tás: ",
+      "2",
+      "02",
+      "4",
+      ".07.04.)"
+    ],
+    [],
+    [
+      "A ferdetárcsás szivattyúk általában ",
+      "átalakítás nélkül",
+      " alkalmazhatók ",
+      "hidromotorként",
+      " is. Ilyenkor a munkafolyadékot nyomással vezetik a ",
+      "hidromotorba",
+      ", ahol az a dugattyúkra hatva elmozdítja a tengelyt. A tengely pedig meghatja a hozzá kapcsolt egységet."
+    ],
+    [
+      "1.3.2.",
+      "\t",
+      "Ferdetengelyes ",
+      "axiáldugattyús",
+      " szivattyúk és ",
+      "hidromotorok",
+      " felépítése és működése"
+    ],
+    [
+      "A ",
+      "ferdetengelyes ",
+      "axiáldugattyús",
+      " szivattyúkban a dugattyúk mozgatását a hengerekhez viszonyított szögben álló tengely végzi."
+    ],
+    [],
+    [
+      "A ferdetengelyes ",
+      "axiáldugattyús",
+      " szivattyúk a szállított munkafolyadék mennyisége szerint lehetnek: állandó és változtatható mennyiségű energiaátalakítók."
+    ],
+    [
+      "Állandó szállítású ferdetengelyes ",
+      "axiáldugattyús",
+      " szivattyúk"
+    ],
+    [
+      "A szivattyú szerkezeti felépítését a ",
+      "1",
+      "5",
+      ". és ",
+      "1",
+      "6",
+      ". ábra",
+      " szemlélteti."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "15",
+      "",
+      ". ábra:",
+      " ",
+      "Állandó szállítású ferdetengelyes szivattyú metszete"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://fluidtechnology.it/wp-content/uploads/2019/03/comp1.jpg (Megnyitás: 202",
+      "4",
+      ".0",
+      "7",
+      ".0",
+      "1",
+      ".)"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "16",
+      "",
+      ". ábra: ",
+      "Állandó szállítású ferdetengelyes szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.youtube.com/watch?v=t16h3Z1F7mY&t=28s (Megnyitás: 202",
+      "4",
+      ".07.04.)"
+    ],
+    [],
+    [
+      "Szivattyúház",
+      ": a szerkezeti egységeket foglalja magába, valamint a szivattyú rögzítését is biztosítja."
+    ],
+    [
+      "Tengely",
+      ": a szivattyú meghajtását teszi lehetővé. Az egyik oldalán perem (támasztótárcsa vagy más néven menesztőtárcsa) van kialakítva, melyre a dugattyúk támaszkodnak, vagy egyes megoldások esetében gömbcsuklósan vannak a dugattyúk rögzítve."
+    ],
+    [
+      "Hengertömb",
+      ": a hengertömbben a dugattyúk számára kör alakban hengerek vannak kialakítva, amelyek a tengellyel együtt forognak."
+    ],
+    [
+      "Vezetőtárcsa",
+      ": a dugattyúk mozgása során a hengerből kinyúló dugattyúkat tartja meg a hajtó oldalon."
+    ],
+    [
+      "Támasztó tengely",
+      ": a hengertömb közepén lévő furatban helyezkedik el, a másik vége a tengelyen lévő tárcsa közepének támaszkodik, így biztosítja a hengertömb állandó helyzetét."
+    ],
+    [
+      "Dugattyúk",
+      ": a hengerekben a munkafolyadék szállítását biztosítják. A dugattyúk egyik oldalukon a ferdetengelyhez vannak kapcsolva, ami lehet gömbcsuklós megoldás is. Ebben az esetben a tengelyen lévő tárcsának támaszkodnak."
+    ],
+    [
+      "Vezérlőtárcsa",
+      ": lehetővé teszi az azonos munkafolyamatot végző hengerek számára a munkafolyadék megfelelő irányú áramlását."
+    ],
+    [
+      "Csatlakozó fedél",
+      ": a hengertömbre fekszik fel, és az üzemeltetés során biztosítja a munkafolyadék elvezetését megfelelő irányba, emellett a hengertömb felőli a tömítést."
+    ],
+    [
+      "Csapágy",
+      ": a ",
+      "tengelyforgás",
+      " közbeni megtámasztását biztosítja az üzemeltetés során."
+    ],
+    [
+      "Zárófedél a tömítésekkel",
+      ": a tengely felől zárja le a szivattyút."
+    ],
+    [],
+    [
+      "A szivattyú tengelyére van szerelve a támasztótárcsa (menesztőtárcsa) és a hengertömb. A hengertömbben helyezkednek el a dugattyúk, melyek a vezérlőtárcsán keresztül a támasztótárcsának támaszkodnak. A hengertömb közepén lévő támasztó tengely állandó helyzetben tartja a hengertömböt, amely a vezérlőtárcsának támasztott. A hengertömböt másik oldalon a vezérlőtárcsa zárja le, melynek a csatlakozófedél támaszkodik. A vezérlőtárcsában és a csatlakozó fedélben a nyílások kialakítása olyan, hogy a dugattyúk helyzetének megfelelően a munkafolyadék áramlása biztosított legyen."
+    ],
+    [],
+    [
+      "A ",
+      "szivattyú tengelyét meghajtva",
+      " a hengertömb és a dugattyúk elfordulnak. Mivel a dugattyúk a támasztótárcsának támaszkodnak, a támasztótárcsa helyzete és a forgásirány határozza meg, hogy hány ütemű a henger. Az ",
+      "axiáldugattyús",
+      " szivattyúk hatékonyabb működése érdekében a munkafolyadékot legtöbbször a feltöltés ütemében egy másik szivattyú szállítja a munkatérbe."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "17",
+      "",
+      ". ábra: ",
+      "Állandó szállítású ferdetengelyes szivattyú működése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.ccefp.org/wp-content/uploads/2015/12/CCEFP2018-AC_Hydraulic_Pump_pdf.pdf (Megnyitás: 202",
+      "4",
+      ".07.04.)"
+    ],
+    [],
+    [
+      "A tengelyen lévő támasztótárcsához gömbcsuklóval kapcsolódik a dugattyú, amely a hengertömbben kialakított hengerekben mozog a működés során. A támasztótengely a hengertömböt nekiszorítja a vezérlőtárcsának, amelyben az azonos ",
+      "ütemetű",
+      " dugattyúk munkaterei vannak összekötve. A hengertömb és a hajtótengely középvonalai egymással szöget zárnak be. A tengely hajtáskor a tengely és a tömb között bezárt szög miatt mozognak a dugattyúk a hengerben. A vezérlőtárcsa felé mozgó dugattyúk feletti munkatér kisebb lesz, ekkor a munkafolyadék kiáramlik a munkatérből. A vezérlőtárcsától távolodó dugattyúk munkaterei nagyobbak lesznek, ezért itt a szívási ütem következik be. A jobb hatásfokú feltöltés miatt egy másik, kisebb nyomással működő feltöltő szivattyút is alkalmazhatnak."
+    ],
+    [],
+    [
+      "A szivattyú fajlagos munkafolyadék-szállítása"
+    ],
+    [
+      "A szivattyú által egy tengelyfordulat alatt szállított munkafolyadék mennyiségét a szállításban részt vevő szerkezeti egységek mérete határozza meg (",
+      "18",
+      ". ábra",
+      ")."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "18",
+      "",
+      ". ábra: ",
+      "Állandó szállítású ferdetengelyes szivattyú geometriai méretei"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.hydraulic-calculation.com/article.php?ID=43 (Megnyitás: 202",
+      "4",
+      ".07.04.)"
+    ],
+    [],
+    [
+      "Fajlagos szállítás"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "A: dugattyú felülete [mm",
+      "2",
+      "],"
+    ],
+    [
+      "l: dugattyúk elmozdulása (lökethossz) [mm],"
+    ],
+    [
+      "z: hengerek száma."
+    ],
+    [],
+    [
+      "A dugattyú felületének nagysága:"
+    ],
+    [],
+    [
+      "A lökethossz nagysága:"
+    ],
+    [],
+    [],
+    [
+      "Visszahelyettesítve az eredeti képletbe:"
+    ],
+    [],
+    [],
+    [
+      "A ferdetengelyes ",
+      "axiáldugattyús",
+      " szivattyú térfogatáramának nagysága (Q)"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "q: fajlagos szállítás [mm",
+      "3",
+      "],"
+    ],
+    [
+      "n: szivattyú tengelyének fordulatszáma [1/s]."
+    ],
+    [],
+    [
+      "Feladat"
+    ],
+    [
+      "Egy ferdetengelyes kilenchengeres szivattyú dugattyújának átmérője 11 mm. A ferdetengely 20 fokos szöget zár be a hajtó tengely középvonalával. A hengerek osztókörének átmérője 140 mm. A szivattyú percenként 1600-at fordul."
+    ],
+    [
+      "Határozza meg a szivattyú:"
+    ],
+    [
+      "fajlagos szállítási mennyiségét [cm",
+      "3",
+      "/fordulat],"
+    ],
+    [
+      "térfogatáramának nagyságát [cm3/min]!"
+    ],
+    [],
+    [
+      "Megoldás"
+    ],
+    [
+      "z = 9 db"
+    ],
+    [
+      "d = 11 mm = 1,1 cm"
+    ],
+    [
+      "α = 20°"
+    ],
+    [
+      "D = 140 mm = 14 cm"
+    ],
+    [
+      "n = 1600 1/min"
+    ],
+    [
+      "q = ?",
+      " [cm",
+      "3",
+      "/fordulat]"
+    ],
+    [
+      "Q = ?",
+      " [cm",
+      "3",
+      "/min]"
+    ],
+    [],
+    [
+      "A fajlagos szállítás:"
+    ],
+    [],
+    [],
+    [],
+    [
+      "A szivattyú fajlagos szállítása: 40,95 mm",
+      "3",
+      "/fordulat."
+    ],
+    [],
+    [
+      "Térfogatáram nagysága:"
+    ],
+    [],
+    [],
+    [],
+    [
+      "A ferdetengelyes ",
+      "axiáldugattyús",
+      " szivattyú térfogatárama: 65 520 [cm",
+      "3",
+      "/min]"
+    ],
+    [],
+    [
+      "Változtatható szállítású ",
+      "axiáldugattyús",
+      " szivattyú"
+    ],
+    [
+      "A ",
+      "változtatható szállítású ",
+      "axiáldugattyús",
+      " szivattyú esetében a munkafolyadék szállítása a tengely szögeltérések módosításával érhető el (",
+      "19",
+      ". ábra",
+      ")."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "19",
+      "",
+      ". ábra: ",
+      "Változtatható szállítású ferdetengelyes szivattyú felépítése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://favpng.com/png_view/axial-piston-pump-hardware-pumps-plunger-pump-png/zWRrCirK (Megnyitás: 202",
+      "4",
+      ".07.",
+      "0",
+      "2.)"
+    ],
+    [],
+    [
+      "Szivattyúház",
+      ": a szerkezeti egységeket foglalja magába, valamint a szivattyú rögzítését is biztosítja."
+    ],
+    [
+      "Tengely",
+      ": a szivattyú meghajtását teszi lehetővé, az egyik oldalán támasztó tárcsa van kialakítva vagy rászerelve, melyre a dugattyúk támaszkodnak, vagy egyes megoldások esetében (mint az ábrán is látható) gömbcsuklóval kapcsolódnak a dugattyúk."
+    ],
+    [
+      "Hengertömb",
+      ": a hengertömbben a dugattyúk számára kör alakban hengerek vannak kialakítva, amelyek a tengellyel együtt forognak."
+    ],
+    [
+      "Támasztótengely",
+      ": a hengertömb közepén lévő furatban helyezkedik el, a másik vége a tengelyen lévő támasztótárcsa közepének támaszkodik, így biztosítja a hengertömb állandó helyzetét."
+    ],
+    [
+      "Dugattyúk",
+      ": a hengerekben a munkafolyadék szállítását biztosítják. A dugattyúnak az egyik oldalon a ferdetengellyel van kapcsolata, ami lehet gömbcsuklós megoldás is (az ábrán ilyen megoldás látható)."
+    ],
+    [
+      "Vezérlőtárcsa munkafolyadék-elvezető csatornákkal",
+      ": lehetővé teszi az azonos munkafolyamatot végző hengerek számára a munkafolyadék megfelelő irányú áramlását. Továbbá a vezérlőtárcsa biztosítja a hengertömb mozgatásának lehetőséget is a szállítási mennyiség változtatása során."
+    ],
+    [
+      "Hengertömbmozgató egység",
+      ": a vezérlőtárcsához kapcsolódik, és amikor a szabályozó egység működésbe lép, elmozdítja a vezérlőtárcsát."
+    ],
+    [
+      "Szabályozóegység",
+      ": a hengertömb mozgató egységén keresztül biztosítja a hengertömb szöghelyzetének módosítását."
+    ],
+    [
+      "Szabályozóegység rugója",
+      ": az egységbe két rugó van beépítve, ezek biztosítják a hengertömb alaphelyzetét."
+    ],
+    [
+      "Határoló csavar",
+      ": határolja a hengertömb állításának szélső helyzeteit."
+    ],
+    [
+      "Csapágy",
+      ": a ",
+      "tengelyforgás",
+      " közbeni megtámasztását biztosítja az üzemeltetés során."
+    ],
+    [],
+    [
+      "A változtatható szállítású ",
+      "axiáldugattyús",
+      " szivattyú működését a ",
+      "2",
+      "0",
+      ". ábra ",
+      "szemlélteti."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "20",
+      "",
+      ". ábra: ",
+      "Változtatható szállítású ferdetengelyes szivattyú működése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://favpng.com/png_view/axial-piston-pump-hardware-pumps-plunger-pump-png/zWRrCirK (Megnyitás: 202",
+      "4",
+      ".07.",
+      "0",
+      "2.)"
+    ],
+    [],
+    [
+      "Az ábrán látható helyzetben a ",
+      "szabályozó szerkezet a II. állásban",
+      " van, ekkor a munkafolyadék szállítása maximális. Az „A” térbe munkafolyadékot nyomnak, és a „B” térből pedig elvezetik azt. Ekkor a hengertömb az I. helyzet felé mozdul, és a folyadék szállítása csökken. Az I. helyzetben a hengertömb középvonala egybeesik a hajtó tengely középvonalával, ekkor a dugattyúk nem mozdulnak el, nincs munkafolyadék-szállítás. A szabályozóegység rugói ebben a helyzetben vannak egyensúlyban, tehát amikor az „A” és „B” tér nyomása egyforma. Amikor a szabályozószerkezet az I. helyzetből a III. helyzet felé mozdítja a hengertömböt, megváltozik a szivattyú szállítási iránya, ahol eddig a munkafolyadék beáramlott, ott kiáramlás kezdődik. A másik oldalon szintén megfordul az áramlás iránya. A III. helyzetben a munkafolyadék szállítása maximális, de a II. helyzethez képest ellentétes irányú a munkafolyadék áramlása."
+    ],
+    [],
+    [
+      "A mezőgazdasági gépeken alkalmazott ",
+      "axiáldugattyús",
+      " szivattyúk szállítási jellemzői:"
+    ],
+    [
+      "Fajlagos munkafolyadék-szállítás: 10–2000 cm3/fordulat."
+    ],
+    [
+      "Maximális üzemi nyomás: 45 ",
+      "MPa",
+      "."
+    ],
+    [
+      "Üzemeltetési fordulatszám tartománya: 750–3000 fordulat/min."
+    ],
+    [],
+    [
+      "Az ",
+      "axiáldugattyús",
+      " szivattyúk többsége ",
+      "jelentősebb átalakítás nélkül",
+      " alkalmazható ",
+      "hidromotorként",
+      ". ",
+      "Hidromotorként",
+      " való használat esetén a munkafolyadékot nyomással viszik be, így a tengelyről nyomatékot lehet levenni, azaz másik gépegységet meghajtani."
+    ],
+    [
+      "1.4.",
+      "\t",
+      "Radiáldugattyús szivattyúk, ",
+      "hidromotorok",
+      " felépítése és működése"
+    ],
+    [
+      "A radiáldugattyús szivattyúkban a dugattyúk a hajtótengelyre merőlegesen (radiálisan) helyezkednek el."
+    ],
+    [],
+    [
+      "A ",
+      "radiáldugattyús szivattyúk",
+      " a következő szempontok szerint ",
+      "csoportosíthatóak",
+      ":"
+    ],
+    [
+      "Szállított folyadékmennyiség szerint:"
+    ],
+    [
+      "állandó szállítású,"
+    ],
+    [
+      "változtatható szállítású."
+    ],
+    [
+      "A dugattyúk működtetése szerint:"
+    ],
+    [
+      "belső vezérlésű,"
+    ],
+    [
+      "külső vezérlésű."
+    ],
+    [],
+    [
+      "Belsővezérlésű, állandó szállítású radiáldugattyús szivattyú működési elve (",
+      "2",
+      "1",
+      ". ábra",
+      ")"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "21",
+      "",
+      ". ábra:",
+      " ",
+      "Belső vezérlésű, egy irányú, állandó szállítású radiáldugattyús szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://marineinbox.com/marine-exams/variable-delivery-pump/ (Megnyitás: 202",
+      "4",
+      ".07.04.)"
+    ],
+    [
+      "Hengertömb",
+      ": ebben vannak kialakítva a hengerek, melyeknek iránya az excenteres tengelyre merőleges (radiális)."
+    ],
+    [
+      "Excenteres tengely",
+      ": a dugattyúkat működtető hengeres felület középpontja az excenteres tengely középpontjától eltolva (excentrikusan) helyezkedik el, viszont a tengely a saját középpontja körül forog."
+    ],
+    [
+      "Központi forgáspont",
+      ": a hajtótengely középtengelye, amely körül a tengely forog."
+    ],
+    [
+      "Dugattyú",
+      ": a hengereket alulról lezárja, és mozgása közben változtatja a felette lévő munkatérfogatot."
+    ],
+    [],
+    [
+      "Az ",
+      "excenteres tengely",
+      " ",
+      "meghajtásakor",
+      " az excenteres felület helyzete a hengertömbhöz képest állandóan változik, ez a „felületvándorlás” végzi dugattyúk mozgatását. A dugattyúk feletti térfogat változása miatt a dugattyúk feletti térben térfogatnövekedés során feltöltés, térfogatcsökkenés esetén szállítás következik be. A jobb hatásfokú üzemeltetés érdekében a hengerek feltöltésére külön szivattyút is alkalmazhatnak. Az ábrázolt helyzetben két dugattyú feltöltési, két dugattyú pedig szállítási helyzetben van. Egy dugattyú mozgásirányt vált (holtponti helyzetben van), ez a szállítási szakasz vége, illetve feltöltési szakasz kezdete átmeneti állásban van."
+    ],
+    [
+      "A ",
+      "belső vezérlésű, egy irányú, állandó szállítású radiáldugattyús szivattyú",
+      " felépítését a ",
+      "2",
+      "2",
+      ". ábra",
+      " szemlélteti."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "22",
+      "",
+      ". ábra: ",
+      "Belső vezérlésű, egy irányú, állandó szállítású radiáldugattyús szivattyú felépítése"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.globalspec.com/learnmore/flow_transfer_control/pumps/piston_plunger_pumps (Megnyitás: 202",
+      "4",
+      ".07.",
+      "0",
+      "2.)"
+    ],
+    [],
+    [
+      "Hengertömb",
+      ": a hengertömbben vannak kialakítva a hengerek, melyeknek iránya az excenteres tengelyre merőleges (radiális)."
+    ],
+    [
+      "Hajtásközvetítő betét",
+      ": az excenteres tengely mozgását adja át a dugattyúknak. Kívülről síklapokkal határolt, amelyekre a dugattyúk fekszenek fel, üreges furatában az excenteres tengely helyezkedik el."
+    ],
+    [
+      "Excenteres tengely",
+      ": a dugattyúkat működtető hengeres felület középpontja az excenteres tengely középpontjától eltolva (excentrikusan) helyezkedik el, viszont a tengely a saját középpontja körül forog."
+    ],
+    [
+      "Dugattyú",
+      ": a hengereket alulról lezárja, és mozgása közben változtatja a felette lévő munkatérfogatot."
+    ],
+    [
+      "Szelepház",
+      ": ebben a házban helyezkednek el a munkafolyadék áramlását lehetővé tevő szelepek. Általában egy hengerhez egy szívó- és egy nyomószelep tartozik."
+    ],
+    [
+      "Szívó- (feltöltő-) szelep",
+      ": a munkafolyadék hengerbe áramlását biztosítja, amikor a dugattyú a szelepháztól távolodik."
+    ],
+    [
+      "Nyomószelep",
+      ": a munkafolyadék kiáramlását teszi lehetővé, amikor a dugattyú a szelepház felé mozog."
+    ],
+    [],
+    [
+      "A szivattyú működése során a ",
+      "tengelyt meghajtják",
+      ", ami a hajtásközvetítő betéten keresztül a dugattyút mozgatja. A szivattyúban végbemenő folyamatokat egy henger működése mutatja be. A dugattyú a szelepházhoz legközelebbi helyzetéből indul ki (felső holtpont), az excenteres tengely elfordul, és a rajta lévő hajtásközvetítő betétet lefelé mozdítja. Ebben a helyzetben a dugattyú lefelé mozdul, a hengerben nő a térfogat, a nyomás csökken, lehetővé válik a munkafolyadék hengerbe áramlása a nyitott szívó- (feltöltő-) szelepen keresztül. A jobb feltöltés érdekében általában külön feltöltő szivattyú juttatja be a munkafolyadékot a hengerbe. A ",
+      "folyamat a dugattyú szelepháztól viszonyított legtávolabbi pontjáig (alsó holtpont) tart, ekkor bezár a szívószelep. A feltöltés ideje alatt a nyomószelep szintén zárt. A tengelyen lévő excenteres felület ezután a hajtásközvetítő betéten keresztül a dugattyút a felső holtpont felé mozgatja. A henger feletti térfogat csökken, a nyomás nő és a munkafolyadék a nyomószelepet kinyitja, a munkafolyadék kiáramlik a hengerből. A nyomási (szállítási) szakasz a dugattyú felső holtpontig mozgásáig tart. A szállítási szakasz során a szívó- (feltöltő-) szelep zárt állapotban van. A szállítási szakasz után a folyamat kezdődik elölről. A szivattyú működését a következő ",
+      "2",
+      "3",
+      ". ábra",
+      " (animáció) mutatja be:"
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "23",
+      "",
+      ". ábra: ",
+      "Belső vezérlésű, egy irányú, állandó szállítású radiáldugattyús szivattyú működése"
+    ],
+    [
+      "Forrás: ",
+      "https://www.globalspec.com/learnmore/flow_transfer_control/pumps/piston_plunger_pumps (Megnyitás: 202",
+      "4",
+      ".07.",
+      "0",
+      "2.)"
+    ],
+    [
+      "1.4.1.",
+      "\t",
+      "Külső vezérlésű, állandó szállítású radiáldugattyús szivattyú működési elve"
+    ],
+    [
+      "A ",
+      "külső vezérlésű, állandó szállítású radiáldugattyús szivattyú",
+      " működési elvét a ",
+      "2",
+      "4",
+      ". ábra",
+      " szemlélteti."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "24",
+      "",
+      ". ábra:",
+      " ",
+      "Külső vezérlésű, egy irányú, állandó szállítású radiáldugattyús szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://marineinbox.com/marine-exams/variable-delivery-pump/ (Megnyitás: 202",
+      "4",
+      ".07.04.)"
+    ],
+    [],
+    [
+      "Hengertömb",
+      ": ebben vannak kialakítva a hengerek, melyeknek iránya az excentergyűrűre merőleges (radiális)."
+    ],
+    [
+      "Excentergyűrű",
+      ": a dugattyúkat működtető belső felület középpontja a hengertömb középpontjától eltolva (excentrikusan) helyezkedik el, viszont a hengertömb a saját középpontja körül forog."
+    ],
+    [
+      "Dugattyú",
+      ": a hengereket felülről lezárja, és mozgása közben változtatja az alatta lévő munkatérfogatot."
+    ],
+    [
+      "Térelválasztó",
+      ": A feltöltő- és a nyomóteret választja el egymástól."
+    ],
+    [
+      "Központi forgáspont",
+      ": a hengertömb középtengelye, amely körül a hengertömb forog."
+    ],
+    [],
+    [
+      "A hengertömb közepében lévő részt a ",
+      "térelválasztó",
+      " választja ketté, az egyik oldalon feltöltés zajlik, a másik oldalon szállítás. A feltöltést ebben az esetben külön feltöltőszivattyú biztosítja, ez szállítja a munkafolyadékot a hengerbe. A túlnyomással érkező munkafolyadék a dugattyút az excentergyűrűnek nyomja. Az excentergyűrű középvonala nem esik egybe a hengertömb középvonalával, ezért a dugattyú mozog a hengerben az egyes munkafolyamatok során. A szállítási szakaszban a dugattyú a hengertömbtől a legnagyobb távolságra van, a hengertömb ",
+      "forgása közben a dugattyúk a hengertömbben elmozdulnak. Az elmozdulás hatására a dugattyú előtti térben a térfogat csökken, a nyomás pedig nő, ezért a munkafolyadék távozik a hengerből."
+    ],
+    [
+      "1.4.2.",
+      "\t",
+      "Változtatható szállítású, külső vezérlésű radiális dugattyús szivattyú"
+    ],
+    [
+      "A változtatható szállítási mennyiséget a dugattyúk löketének változtatásával valósítják meg (",
+      "2",
+      "5",
+      ". ábra",
+      ")."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "25",
+      "",
+      ". ábra: ",
+      "Külső vezérlésű, egy irányú, változtatható szállítású radiáldugattyús szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.youtube.com/watch?v=-tb63h3-jq4 (Megnyitás: 202",
+      "4",
+      ".07.05.)"
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "26",
+      "",
+      ". ábra:",
+      " ",
+      "Változtatható szállítású, egy áramlási irányú szivattyú"
+    ],
+    [
+      "F",
+      "orrás",
+      ": s",
+      "aját készítésű"
+    ],
+    [],
+    [
+      "Alapesetben",
+      " az excentergyűrű középvonala nem esik egybe a hengertömb középvonalával, ezért működés közben a dugattyúk mozognak a hengertömbben. A dugattyú mozgásának mértéke azonos a tengelyeltolás nagyságával. A változtatható szállítású szivattyúk esetében egy állítószerkezet biztosítja, hogy az excentergyűrű elmozduljon a hengertömbhöz képest. Az ábrán egy csavarorsós állítószerkezet látható. Az állítószerkezet a csavarorsós támasztóbetéten keresztül tartja az excentergyűrűt a beállított helyzetben, mert a másik oldalon egy rugós feszítőszerkezet a támasztóbetéten keresztül nyomja az excentergyűrűt. Az ábrázolt helyzetben az állítószerkezet a tengelyeltolás mértékét csökkenti (engedi a rugós feszítőszerkezetnek az elmozdulást), ami kevesebb mennyiségű munkafolyadék szállítását eredményezi. Határesetben a két középvonal egybeesik, ekkor a munkafolyadék szállítása megszűnik."
+    ],
+    [],
+    [
+      "A változtatható szállítású radiáldugattyús szivattyú (",
+      "2",
+      "7",
+      ". ábra",
+      ") szállítási mennyiségét a korszerű rendszereknél hidraulikusan változtatják."
+    ],
+    [],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "27",
+      "",
+      ". ábra:",
+      " ",
+      "Külső vezérlésű, egy irányú, változtatható szállítású radiáldugattyús szivattyú kialakítása"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://www.machinedesign.com/news/whats-inside/article/21833905/a-hydraulic-pump-for-highpressure-applications (Megnyitás: 202",
+      "4",
+      ".07.05.)"
+    ],
+    [],
+    [
+      "Hengertömb",
+      ": a hengereket foglalja magába, melyeknek iránya az excentergyűrűre merőleges (radiális)."
+    ],
+    [
+      "Excentergyűrű",
+      ": a dugattyúkat működtető belső felület középpontja a hengertömb középpontjától eltolva (excentrikusan) helyezkedik el. Ebben az esetben az eltolás mértéke hidraulikusan állítható. Viszont a hengertömb a saját középpontja körül forog."
+    ],
+    [
+      "Dugattyú",
+      ": a hengereket felülről lezárja, és mozgás közben változtatja az alatta lévő munkatérfogatot."
+    ],
+    [
+      "Hajtótengely",
+      ": a szivattyú hajtását biztosítja."
+    ],
+    [
+      "Csapágy",
+      ": a tengely megtámasztásában van szerepe."
+    ],
+    [
+      "Szabályozó szerkezet",
+      ": az excentergyűrű eltolását végzi a szállítási igényeknek megfelelően."
+    ],
+    [
+      "Állító munkahenger",
+      ": a szabályzó szerkezet működtető egysége."
+    ],
+    [
+      "Mozgató rúd",
+      ": az állító munkahenger működteti és az excentergyűrűnek támaszkodik."
+    ],
+    [
+      "Szívó vagy nyomó csatlakozók",
+      ": a munkafolyadék szivattyúba való beáramlását teszi lehetővé.",
+      " ",
+      "A hajtó tengely forgása következtében a dugattyúk mozogva végzik a munkafolyadék szállítását. A szabályozó szerkezet működtetésekor az állító munkahenger a kívánt irányban (a másik oldalon lévő rugós támasztás ellenében) elmozdul, és a mozgató rúdon keresztül változtatja az excentricitást."
+    ],
+    [],
+    [
+      "A szivattyú fajlagos munkafolyadék-szállítása"
+    ],
+    [
+      "A szivattyú által egy tengelyfordulat alatt szállított munkafolyadék mennyiségét a szállításban részt vevő szerkezeti egységek mérete határozza meg (",
+      "28",
+      ". ábra",
+      ")."
+    ],
+    [
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "28",
+      "",
+      ". ábra:",
+      " ",
+      "Külső vezérlésű, egy irányú, állandó szállítású radiáldugattyús szivattyú geometriai méretei"
+    ],
+    [
+      "F",
+      "orrás",
+      ":",
+      " https://hydraulic-calculation.com/article.php?ID=42 (Megnyitás: 202",
+      "4",
+      ".07.05.)"
+    ],
+    [],
+    [
+      "Fajlagos szállítás"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "d: hengerátmérő [mm],"
+    ],
+    [
+      "e: excentricitás [mm],"
+    ],
+    [
+      "z: hengerek száma [db]."
+    ],
+    [],
+    [
+      "A ",
+      "rediáldugyattyús",
+      " szivattyú térfogatáramának nagysága (Q)"
+    ],
+    [],
+    [
+      "ahol:"
+    ],
+    [
+      "q: fajlagos szállítás [mm",
+      "3",
+      "],"
+    ],
+    [
+      "n: szivattyú tengelyének fordulatszáma [1/s]."
+    ],
+    [
+      "Feladat"
+    ],
+    [
+      "Egy radiáldugattyús öthengeres szivattyú dugattyújának átmérője 24 mm. A tengelyeltolás (excentricitás) 12 mm. A hajtó tengely fordulatszáma 900 1/min."
+    ],
+    [
+      "Határozd meg a szivattyú elméleti fajlagos szállítási mennyiségét [cm",
+      "3",
+      "/fordulat]!"
+    ],
+    [
+      "Megoldás"
+    ],
+    [
+      "z = 5 db"
+    ],
+    [
+      "d = 24 mm = 2,4 cm"
+    ],
+    [
+      "e = 2 mm = 2 cm"
+    ],
+    [
+      "n = 900 1/min"
+    ],
+    [
+      "q = ?",
+      " [cm",
+      "3",
+      "/fordulat]"
+    ],
+    [
+      "Q = ?",
+      " [cm",
+      "3",
+      "/min]"
+    ],
+    [],
+    [
+      "A fajlagos szállítás:"
+    ],
+    [],
+    [],
+    [],
+    [
+      "A szivattyú fajlagos szállítása 45,216 cm",
+      "3",
+      "/fordulat."
+    ],
+    [],
+    [
+      "A térfogatáram nagysága:"
+    ],
+    [],
+    [],
+    [],
+    [
+      "A mezőgazdasági gépekben alkalmazott radiáldugattyús szivattyúk szállítási jellemzői:"
+    ],
+    [
+      "Fajlagos munkafolyadék-szállítás: 10–1000 cm3/fordulat."
+    ],
+    [
+      "Maximális üzemi nyomás: 50 ",
+      "MPa",
+      "."
+    ],
+    [
+      "Üzemeltetési fordulatszám tartománya: 750–1500 fordulat/min."
+    ],
+    [],
+    [
+      "A radiáldugattyús szivattyúk ",
+      "átalakítás nélkül",
+      " is alkalmazhatók ",
+      "hidromotorként",
+      ", ahol nagy nyomatékra alacsony fordulatszámon van szükség."
+    ],
+    [
+      ""
+    ],
+    [
+      "Á",
+      "bra",
+      "jegyzék"
+    ],
+    [
+      "",
+      "",
+      ""
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      ""
+    ]
+  ],
+  "tables": [
+    [
+      [
+        "Kompetencia tesztek szerzője:",
+        "Kocsis István"
+      ],
+      [
+        "Kompetencia tesztek szakmai lektora:",
+        "Orosz György Gyula"
+      ],
+      [
+        "Iskolai felhasználási cél",
+        ""
+      ],
+      [
+        "Ágazat:",
+        "Mezőgazdaság és erdészet"
+      ],
+      [
+        "Szakma:",
+        "Mezőgazdasági gépésztechnikus"
+      ],
+      [
+        "Szakmairány:",
+        "-"
+      ],
+      [
+        "Tanulási terület:",
+        "Mezőgazdasági gépek"
+      ],
+      [
+        "Tantárgy:",
+        "Agrárműszaki erőgépek"
+      ],
+      [
+        "Évfolyam:",
+        "12. évfolyam"
+      ],
+      [
+        "Óraszám:",
+        "13 óra"
+      ]
+    ]
+  ],
+  "headers": [
+    ""
+  ],
+  "footers": [
+    ""
+  ],
+  "footnotes": [
+    "",
+    ""
+  ],
+  "endnotes": [
+    "",
+    ""
+  ],
+  "images": [
+    {
+      "name": "image21.jpg",
+      "path": null,
+      "bytes": 20716
+    },
+    {
+      "name": "image22.jpg",
+      "path": null,
+      "bytes": 27192
+    },
+    {
+      "name": "image23.jpg",
+      "path": null,
+      "bytes": 28966
+    },
+    {
+      "name": "image19.jpg",
+      "path": null,
+      "bytes": 54657
+    },
+    {
+      "name": "image20.jpg",
+      "path": null,
+      "bytes": 48644
+    },
+    {
+      "name": "image28.jpg",
+      "path": null,
+      "bytes": 22391
+    },
+    {
+      "name": "image25.jpg",
+      "path": null,
+      "bytes": 51569
+    },
+    {
+      "name": "image30.png",
+      "path": null,
+      "bytes": 56449
+    },
+    {
+      "name": "image29.png",
+      "path": null,
+      "bytes": 29054
+    },
+    {
+      "name": "image18.jpg",
+      "path": null,
+      "bytes": 42701
+    },
+    {
+      "name": "image27.jpg",
+      "path": null,
+      "bytes": 43567
+    },
+    {
+      "name": "image26.jpg",
+      "path": null,
+      "bytes": 5392
+    },
+    {
+      "name": "image24.jpg",
+      "path": null,
+      "bytes": 17790
+    },
+    {
+      "name": "image16.jpg",
+      "path": null,
+      "bytes": 29680
+    },
+    {
+      "name": "image15.png",
+      "path": null,
+      "bytes": 209343
+    },
+    {
+      "name": "image6.jpg",
+      "path": null,
+      "bytes": 16049
+    },
+    {
+      "name": "image5.jpg",
+      "path": null,
+      "bytes": 30182
+    },
+    {
+      "name": "image4.jpg",
+      "path": null,
+      "bytes": 33822
+    },
+    {
+      "name": "image3.jpg",
+      "path": null,
+      "bytes": 6383
+    },
+    {
+      "name": "image2.jpg",
+      "path": null,
+      "bytes": 4189
+    },
+    {
+      "name": "image1.jpg",
+      "path": null,
+      "bytes": 10835
+    },
+    {
+      "name": "image17.jpg",
+      "path": null,
+      "bytes": 35919
+    },
+    {
+      "name": "image7.jpg",
+      "path": null,
+      "bytes": 17384
+    },
+    {
+      "name": "image9.jpg",
+      "path": null,
+      "bytes": 4721
+    },
+    {
+      "name": "image14.jpg",
+      "path": null,
+      "bytes": 36731
+    },
+    {
+      "name": "image8.jpg",
+      "path": null,
+      "bytes": 31238
+    },
+    {
+      "name": "image13.jpg",
+      "path": null,
+      "bytes": 46685
+    },
+    {
+      "name": "image11.jpg",
+      "path": null,
+      "bytes": 36492
+    },
+    {
+      "name": "image10.jpg",
+      "path": null,
+      "bytes": 16562
+    },
+    {
+      "name": "image12.jpg",
+      "path": null,
+      "bytes": 5774
+    }
+  ],
+  "styles": [
+    "Normal",
+    "Heading 1",
+    "Heading 2",
+    "Heading 3",
+    "Heading 4",
+    "Heading 5",
+    "Heading 6",
+    "Default Paragraph Font",
+    "Normal Table",
+    "No List",
+    "Címsor 1 Char",
+    "Címsor 2 Char",
+    "Címsor 3 Char",
+    "Címsor 4 Char",
+    "Címsor 5 Char",
+    "Címsor 6 Char",
+    "Table Normal",
+    "Title",
+    "Cím Char",
+    "Subtitle",
+    "Alcím Char",
+    "annotation text",
+    "Jegyzetszöveg Char",
+    "annotation reference",
+    "Balloon Text",
+    "Buborékszöveg Char",
+    "annotation subject",
+    "Megjegyzés tárgya Char",
+    "Table Simple 1",
+    "Table Simple 2",
+    "Table Simple 3",
+    "Table Elegant",
+    "Table Subtle 1",
+    "Table Subtle 2",
+    "Table Classic 1",
+    "Table Classic 2",
+    "Table Classic 3",
+    "Table Classic 4",
+    "Medium Shading 1",
+    "Medium Shading 1 Accent 1",
+    "Medium Shading 1 Accent 2",
+    "Medium Shading 1 Accent 3",
+    "Medium Shading 1 Accent 4",
+    "Medium Shading 1 Accent 5",
+    "Medium Shading 1 Accent 6",
+    "Medium Shading 2",
+    "Medium Shading 2 Accent 1",
+    "Medium Shading 2 Accent 2",
+    "Medium Shading 2 Accent 3",
+    "Medium Shading 2 Accent 4",
+    "Medium Shading 2 Accent 5",
+    "Medium Shading 2 Accent 6",
+    "Medium List 1",
+    "Medium List 1 Accent 1",
+    "Medium List 1 Accent 2",
+    "Medium List 1 Accent 3",
+    "Medium List 1 Accent 4",
+    "Medium List 1 Accent 5",
+    "Medium List 1 Accent 6",
+    "Medium List 2",
+    "Medium List 2 Accent 1",
+    "Medium List 2 Accent 2",
+    "Medium List 2 Accent 3",
+    "Medium List 2 Accent 4",
+    "Medium List 2 Accent 5",
+    "Medium List 2 Accent 6",
+    "Medium Grid 1",
+    "Medium Grid 1 Accent 1",
+    "Medium Grid 1 Accent 2",
+    "Medium Grid 1 Accent 3",
+    "Medium Grid 1 Accent 4",
+    "Medium Grid 1 Accent 5",
+    "Medium Grid 1 Accent 6",
+    "Medium Grid 2",
+    "Medium Grid 2 Accent 1",
+    "Medium Grid 2 Accent 2",
+    "Medium Grid 2 Accent 3",
+    "Medium Grid 2 Accent 4",
+    "Medium Grid 2 Accent 5",
+    "Medium Grid 2 Accent 6",
+    "Medium Grid 3",
+    "Medium Grid 3 Accent 1",
+    "Medium Grid 3 Accent 2",
+    "Medium Grid 3 Accent 3",
+    "Medium Grid 3 Accent 4",
+    "Medium Grid 3 Accent 5",
+    "Medium Grid 3 Accent 6",
+    "Table List 1",
+    "List Table 1 Light",
+    "List Table 1 Light Accent 1",
+    "List Table 1 Light Accent 2",
+    "List Table 1 Light Accent 3",
+    "List Table 1 Light Accent 4",
+    "List Table 1 Light Accent 5",
+    "List Table 1 Light Accent 6",
+    "Table List 2",
+    "List Table 2 Accent 1",
+    "List Table 2 Accent 2",
+    "List Table 2 Accent 3",
+    "List Table 2 Accent 4",
+    "List Table 2 Accent 5",
+    "List Table 2 Accent 6",
+    "Table List 3",
+    "List Table 3 Accent 1",
+    "List Table 3 Accent 2",
+    "List Table 3 Accent 3",
+    "List Table 3 Accent 4",
+    "List Table 3 Accent 5",
+    "List Table 3 Accent 6",
+    "Table List 4",
+    "List Table 4 Accent 1",
+    "List Table 4 Accent 2",
+    "List Table 4 Accent 3",
+    "List Table 4 Accent 4",
+    "List Table 4 Accent 5",
+    "List Table 4 Accent 6",
+    "Table List 5",
+    "List Table 5 Dark",
+    "List Table 5 Dark Accent 1",
+    "List Table 5 Dark Accent 2",
+    "List Table 5 Dark Accent 3",
+    "List Table 5 Dark Accent 4",
+    "List Table 5 Dark Accent 5",
+    "List Table 5 Dark Accent 6",
+    "Table List 6",
+    "List Table 6 Colorful",
+    "List Table 6 Colorful Accent 1",
+    "List Table 6 Colorful Accent 2",
+    "List Table 6 Colorful Accent 3",
+    "List Table 6 Colorful Accent 4",
+    "List Table 6 Colorful Accent 5",
+    "List Table 6 Colorful Accent 6",
+    "Table List 7",
+    "List Table 7 Colorful",
+    "List Table 7 Colorful Accent 1",
+    "List Table 7 Colorful Accent 2",
+    "List Table 7 Colorful Accent 3",
+    "List Table 7 Colorful Accent 4",
+    "List Table 7 Colorful Accent 5",
+    "List Table 7 Colorful Accent 6",
+    "Table List 8",
+    "List Table 2",
+    "List Table 3",
+    "List Table 4",
+    "Table Contemporary",
+    "Table Columns 1",
+    "Table Columns 2",
+    "Table Columns 3",
+    "Table Columns 4",
+    "Table Columns 5",
+    "Table Professional",
+    "Table Grid",
+    "Table Grid 1",
+    "Table Grid 2",
+    "Table Grid 3",
+    "Table Grid 4",
+    "Table Grid 5",
+    "Table Grid 6",
+    "Table Grid 7",
+    "Table Grid 8",
+    "Dark List",
+    "Dark List Accent 1",
+    "Dark List Accent 2",
+    "Dark List Accent 3",
+    "Dark List Accent 4",
+    "Dark List Accent 5",
+    "Dark List Accent 6",
+    "Colorful Shading",
+    "Colorful Shading Accent 1",
+    "Colorful Shading Accent 2",
+    "Colorful Shading Accent 3",
+    "Colorful Shading Accent 4",
+    "Colorful Shading Accent 5",
+    "Colorful Shading Accent 6",
+    "Colorful List",
+    "Colorful List Accent 1",
+    "Colorful List Accent 2",
+    "Colorful List Accent 3",
+    "Colorful List Accent 4",
+    "Colorful List Accent 5",
+    "Colorful List Accent 6",
+    "Colorful Grid",
+    "Colorful Grid Accent 1",
+    "Colorful Grid Accent 2",
+    "Colorful Grid Accent 3",
+    "Colorful Grid Accent 4",
+    "Colorful Grid Accent 5",
+    "Colorful Grid Accent 6",
+    "Plain Table 1",
+    "Plain Table 2",
+    "Plain Table 3",
+    "Plain Table 4",
+    "Plain Table 5",
+    "Grid Table Light",
+    "Grid Table 1 Light",
+    "Grid Table 1 Light Accent 1",
+    "Grid Table 1 Light Accent 2",
+    "Grid Table 1 Light Accent 3",
+    "Grid Table 1 Light Accent 4",
+    "Grid Table 1 Light Accent 5",
+    "Grid Table 1 Light Accent 6",
+    "Grid Table 2",
+    "Grid Table 2 Accent 1",
+    "Grid Table 2 Accent 2",
+    "Grid Table 2 Accent 3",
+    "Grid Table 2 Accent 4",
+    "Grid Table 2 Accent 5",
+    "Grid Table 2 Accent 6",
+    "Grid Table 3",
+    "Grid Table 3 Accent 1",
+    "Grid Table 3 Accent 2",
+    "Grid Table 3 Accent 3",
+    "Grid Table 3 Accent 4",
+    "Grid Table 3 Accent 5",
+    "Grid Table 3 Accent 6",
+    "Grid Table 4",
+    "Grid Table 4 Accent 1",
+    "Grid Table 4 Accent 2",
+    "Grid Table 4 Accent 3",
+    "Grid Table 4 Accent 4",
+    "Grid Table 4 Accent 5",
+    "Grid Table 4 Accent 6",
+    "Grid Table 5 Dark",
+    "Grid Table 5 Dark Accent 1",
+    "Grid Table 5 Dark Accent 2",
+    "Grid Table 5 Dark Accent 3",
+    "Grid Table 5 Dark Accent 4",
+    "Grid Table 5 Dark Accent 5",
+    "Grid Table 5 Dark Accent 6",
+    "Grid Table 6 Colorful",
+    "Grid Table 6 Colorful Accent 1",
+    "Grid Table 6 Colorful Accent 2",
+    "Grid Table 6 Colorful Accent 3",
+    "Grid Table 6 Colorful Accent 4",
+    "Grid Table 6 Colorful Accent 5",
+    "Grid Table 6 Colorful Accent 6",
+    "Grid Table 7 Colorful",
+    "Grid Table 7 Colorful Accent 1",
+    "Grid Table 7 Colorful Accent 2",
+    "Grid Table 7 Colorful Accent 3",
+    "Grid Table 7 Colorful Accent 4",
+    "Grid Table 7 Colorful Accent 5",
+    "Grid Table 7 Colorful Accent 6",
+    "Table Colorful 1",
+    "Table Colorful 2",
+    "Table Colorful 3",
+    "Table Theme",
+    "Table 3D effects 1",
+    "Table 3D effects 2",
+    "Table 3D effects 3",
+    "Light Shading Accent 1",
+    "Light Shading Accent 2",
+    "Light Shading Accent 3",
+    "Light Shading Accent 4",
+    "Light Shading Accent 5",
+    "Light Shading Accent 6",
+    "Light List",
+    "Light List Accent 1",
+    "Light List Accent 2",
+    "Light List Accent 3",
+    "Light List Accent 4",
+    "Light List Accent 5",
+    "Light List Accent 6",
+    "Light Grid",
+    "Light Grid Accent 1",
+    "Light Grid Accent 2",
+    "Light Grid Accent 3",
+    "Light Grid Accent 4",
+    "Light Grid Accent 5",
+    "Light Grid Accent 6",
+    "Light Shading",
+    "Table Web 1",
+    "Table Web 2",
+    "Table Web 3",
+    "List Paragraph",
+    "toc 1",
+    "toc 2",
+    "toc 3",
+    "toc 4",
+    "Hyperlink",
+    "Caption",
+    "Stílus1",
+    "table of figures",
+    "Unresolved Mention",
+    "Header",
+    "Élőfej Char",
+    "Footer",
+    "Élőláb Char",
+    "[Alapbekezdés]"
+  ]
+}
