@@ -6,7 +6,8 @@ Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 04 - Szerkesztoi Instrukciok Ellenorzese
     [Documentation]    04 - Szerkesztői instrukciók ellenőrzése
-    Log To Console    [04/23] Szerkesztői instrukciók ellenőrzése
+    Log To Console    [04/24] Szerkesztői instrukciók ellenőrzése
+
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
     ${testCase_row}=    Set Variable    6

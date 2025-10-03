@@ -77,10 +77,10 @@ Run Formai Ellenorzes For File
         
         IF    ${status}
             ${passed}=    Evaluate    ${passed} + 1
-            Log    [${test_num}/23] ${test_case_name} - PASSED    console=yes    level=INFO
+            Log    [${test_num}/24] ${test_case_name} - PASSED    console=yes    level=INFO
         ELSE
             ${failed}=    Evaluate    ${failed} + 1  
-            Log    [${test_num}/23] ${test_case_name} - FAILED    console=yes    level=WARN
+            Log    [${test_num}/24] ${test_case_name} - FAILED    console=yes    level=WARN
         END
         
         ${test_num}=    Evaluate    ${test_num} + 1

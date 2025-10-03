@@ -6,7 +6,8 @@ Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 05 - Internet Hivatkozasok Ellenorzese
     [Documentation]    05 - Internet hivatkozások ellenőrzése
-    Log To Console    [05/23] Internet hivatkozások ellenőrzése
+    Log To Console    [05/24] Internet hivatkozások ellenőrzése
+
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
     ${testCase_row}=    Set Variable    7

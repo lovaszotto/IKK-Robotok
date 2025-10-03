@@ -7,6 +7,7 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 21 - Szerkesztheto Docx Formatum Ellenorzese
     [Documentation]    21 - Szerkeszthető DOCX formátum. Ellenőrizendő, hogy a kézirat szerkeszthető DOCX formátumban van-e.
+     Log To Console    [21/24] Szerkesztheto Docx Formatum Ellenorzese
     #Formátum: tényleg .docx (nem .doc/.pdf).
     #Szerkezet: DOCX = ZIP + word/document.xml.
     #Védelem: nincs documentProtection a word/settings.xml-ben.
@@ -21,7 +22,7 @@ Test Case 21 - Szerkesztheto Docx Formatum Ellenorzese
     ${col_present}=    Set Variable    3
     ${col_missing}=    Set Variable    4
 
-    Log To Console    [21] Ellenőrzött DOCX: ${docx_file}
+  
     # Részletes ellenőrzések
     ${err_msg}=    Verify Editable Docx Test For Current File
   # Teszt státusz és Excel jelölés végrehajtása a megadott soron

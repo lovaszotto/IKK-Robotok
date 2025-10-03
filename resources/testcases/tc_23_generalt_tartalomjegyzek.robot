@@ -5,7 +5,8 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 23 - Generalt Tartalomjegyzek Ellenorzese
     [Documentation]    23 - Generált tartalomjegyzék
-    Log To Console    [24/24] Generált tartalomjegyzék
+    Log To Console    [23/24] Generált tartalomjegyzék
+    
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
     

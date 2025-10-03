@@ -646,6 +646,16 @@ Run All Format Checks Inline
         ${check_failed}=    Evaluate    ${check_failed} + 1
         Log String To Console    [HIBA] 23 - Generalt Tartalomjegyzek : ${msg}
     END
+    
+    ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 24 - Cimsorozassal Keszult Ellenorzese
+    ${check_total}=    Evaluate    ${check_total} + 1
+    IF    '${rc}' == 'PASS'
+        ${check_passed}=    Evaluate    ${check_passed} + 1
+    ELSE
+        ${check_failed}=    Evaluate    ${check_failed} + 1
+        Log String To Console    [HIBA] 24 - Cimsorozassal Keszult Ellenorzese : ${msg}
+    END
+
 
     # ha WAS_ERROR (bármelyik ellenőrzés hibás), Excel fájl átnevezése: K_ell -> _K_ell
     ${was_error}=    Evaluate    ${check_failed} > 0
@@ -1034,7 +1044,7 @@ Create_K_ell_Excel
     # Excel fájl létrehozása/ellenőrzése
     ${file_exists}=    Run Keyword And Return Status    File Should Exist    ${activeExcelFile}
     IF    ${file_exists}
-        Log To Console    [INFO] Excel fájl létezik: ${activeExcelFile}
+        Log To Console     ${activeExcelFile}
         
         # Sheet ellenőrzése és létrehozása szükség esetén
         ${sheet_exists}=    Check Excel Sheet Exists    ${activeExcelFile}    ${activeSheetName}
@@ -1043,6 +1053,8 @@ Create_K_ell_Excel
         ELSE
             Log To Console    [INFO] Sheet '${activeSheetName}' létrehozása sablon másolással...
             Copy Excel Sheet    ${activeExcelFile}    EM X.Y    ${activeSheetName}
+            # Az eredeti EM X.Y sheet elrejtése
+            Hide Excel Sheet    ${activeExcelFile}    EM X.Y
             Log To Console    [INFO] Sheet sablon másolva: 'EM X.Y' -> '${activeSheetName}'
         END
     ELSE
@@ -1060,6 +1072,7 @@ Create_K_ell_Excel
             IF    not ${sheet_exists}
                 Log To Console    [INFO] Sheet '${activeSheetName}' létrehozása az új Excel fájlban
                 Copy Excel Sheet    ${activeExcelFile}    EM X.Y    ${activeSheetName}
+                Hide Excel Sheet    ${activeExcelFile}    EM X.Y
                 Log To Console    [INFO] Sheet sablon másolva: 'EM X.Y' -> '${activeSheetName}'
             END
         ELSE
@@ -1073,7 +1086,16 @@ Create_K_ell_Excel
     END
     
     RETURN    ${activeExcelFile}    ${activeSheetName}    ${path_part}    ${filename_part}
-
+Hide Excel Sheet
+    [Documentation]    Elrejti a megadott sheet-et az Excel fájlban (openpyxl-lel)
+    [Arguments]    ${excel_file}    ${sheet_name}
+    ${python_code}=    Set Variable    import openpyxl; wb = openpyxl.load_workbook(r'${excel_file}'); ws = wb['${sheet_name}']; ws.sheet_state = 'hidden'; wb.save(r'${excel_file}')
+    ${result}=    Run Process    python    -c    ${python_code}    shell=True
+    Log    [DEBUG] Hide sheet result: ${result.stdout}
+    Log    [DEBUG] Hide sheet stderr: ${result.stderr}
+    Log    [DEBUG] Hide sheet return code: ${result.rc}
+    ${success}=    Run Keyword And Return Status    Should Be Equal As Integers    ${result.rc}    0
+    RETURN    ${success}
 Check Excel Sheet Exists
     [Documentation]    Ellenőrzi, hogy létezik-e a megadott sheet név az Excel fájlban
     [Arguments]    ${excel_file}    ${sheet_name}

@@ -3,6 +3,7 @@ Resource    resources/keywords.robot
 Resource    resources/variables.robot
 Resource    PLG-02-read_docx.robot   
 Resource    PLG-04-Formai_ellenor.robot
+Resource    ../resources/testcases/tc_24_cimsorozas.robot
 Library     DatabaseLibrary
 Library     String
 Library     BuiltIn
@@ -182,5 +183,6 @@ Process Single DOCX With All Checks
     Test Case 21 - Oldalszamozas Ellenorzese
     Test Case 22 - Fejlec Lablec Ellenorzese
     Test Case 23 - Helyesiras Ellenorzese
+    Test Case 24 - Cimsorozassal Keszult Ellenorzese
     
     Log String To Console    \n<<< BEFEJEZVE: ${docx_file}

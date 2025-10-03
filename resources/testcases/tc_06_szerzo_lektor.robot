@@ -7,7 +7,8 @@ Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 06 - Szerzo Lektor Ellenorzese
     [Documentation]    06 - Szerző-lektor ellenőrzése
-    Log To Console    [06/23] Szerző-lektor ellenőrzése
+    Log To Console    [06/24] Szerző-lektor ellenőrzése
+
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
     ${testCase_row}=    Set Variable    8

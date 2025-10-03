@@ -5,7 +5,7 @@ Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 01 - Arculati Elemek Ellenorzese
     [Documentation]    01 - Arculati elemek ellenőrzése
-    #Log To Console    [01/23] Arculati elemek ellenőrzése
+    #Log To Console    [01/24] Arculati elemek ellenőrzése
     ${testCase_row}=    Set Variable    3
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
