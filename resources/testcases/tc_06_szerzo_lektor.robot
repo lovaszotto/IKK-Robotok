@@ -41,8 +41,8 @@ Test Case 06 - Szerzo Lektor Ellenorzese
                 ${err_msg}=    Szerzo Lektor Ellenorzesek    ${clean}    ${CR}    ${err_msg}
             EXCEPT    AS    ${e}
                 ${first_table}=    Set Variable    ${EMPTY}
-                Log To Console    [ERROR] Hibás első tábla vagy mező: (${e})
-                ${err_msg}=    Set Variable    Hibás első tábla vagy mező: (${e})
+                Log To Console    [ERROR] Címtábla nem elérhető vagy hibás megnevezéseket tartalmaz!: (${e})
+                ${err_msg}=    Set Variable    Címtábla nem elérhető vagy hibás megnevezéseket tartalmaz, ezért a szerző-lektor ellenőrzés nem hajtható végre!
             END
         END
     END
