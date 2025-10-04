@@ -10,7 +10,7 @@ ${DOCX}    ${DOCX_FILE}
 Test Case 09 - Abrak Fotok Ellenorzese
     [Documentation]    09 - Ábrák/fotók ellenőrzése
     Log To Console    [09/24] Ábrák/fotók ellenőrzése 
-    ${testCase_row}=     Set Variable    26
+    ${testCase_row}=     Set Variable    11
     ${heading_count}=    Set Variable    0
     ${abra_utan}=        Set Variable    0
     ${has_forras}=       Set Variable    0
@@ -33,7 +33,14 @@ Test Case 09 - Abrak Fotok Ellenorzese
         #Log To Console    ${idx}: [${style}]
         #CONTINUE
 
-      IF    "${style}" == "SZK Ábrajegyzék"
+        #ha text üres vagy Téma jegyzék, akkor kihagyjuk
+        #IF    $text == "" or "Téma kézirata" in $text or "Egyedi megrendelés azonosítója:" in $text
+        #A címlapon lévőket kihagyjuk
+        IF    ${idx} < 5
+            Log To Console    ========KIHAGYVA:${idx}: "${text}"
+            CONTINUE
+        END
+        IF    "${style}" == "SZK Ábrajegyzék"
           #Log To Console    \n\n=========================== ÁBRA:${idx}: "${text}"
           #Log To Console    --------------------------- ÁBRA:${idx}: ${style}
           # Reset counter after a table of figures heading
