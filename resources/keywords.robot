@@ -228,7 +228,7 @@ Resource   testcases/tc_23_generalt_tartalomjegyzek.robot
 Resource   testcases/tc_24_cimsorozas.robot
 
 *** Variables ***
-${DOCX_DUMP_TO_FILE}    ${True}
+${DOCX_DUMP_TO_FILE}    ${False}
 ${DOCX_DUMP_DIR}        ${EXECDIR}${/}results${/}docx_dump
 
 *** Keywords ***
