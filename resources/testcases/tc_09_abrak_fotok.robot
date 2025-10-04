@@ -9,11 +9,12 @@ ${DOCX}    ${DOCX_FILE}
 *** Keywords ***
 Test Case 09 - Abrak Fotok Ellenorzese
     [Documentation]    09 - Ábrák/fotók ellenőrzése
-    Log To Console    [09/24] Ábrák/fotók ellenőrzése - not implemented
+    Log To Console    [09/24] Ábrák/fotók ellenőrzése 
     ${testCase_row}=     Set Variable    26
     ${heading_count}=    Set Variable    0
     ${abra_utan}=        Set Variable    0
-
+    ${has_forras}=       Set Variable    0
+    
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
     ${path_part}=       Get Variable Value    ${CURRENT_PATH_PART}    ${EMPTY}
@@ -30,20 +31,43 @@ Test Case 09 - Abrak Fotok Ellenorzese
         
         #Log To Console    ${idx}: "${text}"
         #Log To Console    ${idx}: [${style}]
+        #CONTINUE
 
-        IF    ${abra_utan} == 1
-            Log To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Ábra/fotó után normál szöveg: ${text}
-            ${abra_utan}=    Set Variable    ${abra_utan}    0
+      IF    "${style}" == "SZK Ábrajegyzék"
+          #Log To Console    \n\n=========================== ÁBRA:${idx}: "${text}"
+          #Log To Console    --------------------------- ÁBRA:${idx}: ${style}
+          # Reset counter after a table of figures heading
+          ${abra_utan}=    Set Variable    0
         END
 
-        IF    "${style}" == "table of figures"
-            Log To Console    ${idx}: "${text}"
-            Log To Console    ${idx}: [${style}]
-            ${abra_utan}=    Set Variable    ${abra_utan}    1
+        IF    ${abra_utan} < 5
+            #Log To Console    >>>>${abra_utan}>>> Ábra/fotó után: ${text}
+            #Log To Console    ${idx}: "${text}"
+            #Log To Console    ${idx}: ${style}
+           #Ha a text tartalmazza a "Forrás:" szót, akkor    
+           # FIX: 'contains' is not valid in Robot inline IF expression; use Python 'in'
+           # Robot Framework expression evaluation: use $text so expression is parsed before variable substitution
+           IF    "Forrás:" in $text
+               ${has_forras}=    Evaluate    ${has_forras} + 1
+           END
+            #növeljük egyel
+            ${abra_utan}=    Evaluate    ${abra_utan} + 1
+        ELSE
+            # Reached the limit -> reset counter back to 0
+            ${abra_utan}=    Set Variable    0
         END
-        Log To Console    ÁBRA UTÁN:${abra_utan}
-   
-         #minden paragraph és stílus kiiratása
+
+     
+         # ha a has_forrás 0, akkor hibaüzenet
+        IF    ${has_forras} == 0        
+            ${new_err}=    Set Variable    Ábra/fotó után nincs Forrás megjelölve! ${text}
+            IF    $err_msg == ''
+                ${err_msg}=    Set Variable    ${new_err}
+            ELSE
+                ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+            END
+            Log To Console    [ERROR] ${new_err}    
+       END
       
      
         
