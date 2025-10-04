@@ -81,4 +81,4 @@ Verify Editable Docx Test For Current File
             ${err_msg}=    Set Variable    A dokumentum nem szerkeszthető DOCX formátum!
         END
     END
-    [Return]    ${err_msg}
+    RETURN    ${err_msg}

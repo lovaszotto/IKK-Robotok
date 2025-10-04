@@ -26,5 +26,3 @@ Test Case 20 - Lapjai Szamozottak Ellenorzese
 
  
 
-
- 
