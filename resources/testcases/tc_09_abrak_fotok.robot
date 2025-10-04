@@ -14,7 +14,8 @@ Test Case 09 - Abrak Fotok Ellenorzese
     ${heading_count}=    Set Variable    0
     ${abra_utan}=        Set Variable    0
     ${has_forras}=       Set Variable    0
-    
+    ${sum_idx}=          Set Variable    0
+
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
     ${path_part}=       Get Variable Value    ${CURRENT_PATH_PART}    ${EMPTY}
@@ -24,20 +25,24 @@ Test Case 09 - Abrak Fotok Ellenorzese
   
     ${docx_path}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
     ${pars}=    Evaluate    [{'idx': i+1, 'text': p.text, 'style': (p.style.name if p.style else 'N/A')} for i,p in enumerate(__import__('docx').Document(r'''${docx_path}''').paragraphs)]
+    
     FOR    ${par}    IN    @{pars}
         ${idx}=    Get From Dictionary    ${par}    idx
         ${text}=    Get From Dictionary    ${par}    text
         ${style}=    Get From Dictionary    ${par}    style
+        ${sum_idx}=    Evaluate    ${sum_idx} + ${idx}
         
         #Log To Console    ${idx}: "${text}"
         #Log To Console    ${idx}: [${style}]
         #CONTINUE
 
         #ha text üres vagy Téma jegyzék, akkor kihagyjuk
-        #IF    $text == "" or "Téma kézirata" in $text or "Egyedi megrendelés azonosítója:" in $text
+        IF    $text == "" or "Téma kézirata" in $text or "Egyedi megrendelés azonosítója:" in $text
+            CONTINUE
+        END    
         #A címlapon lévőket kihagyjuk
-        IF    ${idx} < 5
-            Log To Console    ========KIHAGYVA:${idx}: "${text}"
+        IF    ${sum_idx} < 10
+            Log To Console    ========KIHAGYVA:${sum_idx}: "${text}"
             CONTINUE
         END
         IF    "${style}" == "SZK Ábrajegyzék"
@@ -67,7 +72,7 @@ Test Case 09 - Abrak Fotok Ellenorzese
      
          # ha a has_forrás 0, akkor hibaüzenet
         IF    ${has_forras} == 0        
-            ${new_err}=    Set Variable    Ábra/fotó után nincs Forrás megjelölve! ${text}
+            ${new_err}=    Set Variable    Ábra/fotó után nincs Forrás megjelölve! ${idx}.sor ${text}
             IF    $err_msg == ''
                 ${err_msg}=    Set Variable    ${new_err}
             ELSE
