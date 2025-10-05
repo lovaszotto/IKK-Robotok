@@ -6,7 +6,7 @@ Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 06 - Szerzo Lektor Ellenorzese
     [Documentation]    06 - Szerző-lektor ellenőrzése
-    Log To Console    [06/24] Szerző-lektor ellenőrzése
+    Log To Console     \n\[06/24] Szerző-lektor ellenőrzése
 
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
@@ -21,19 +21,19 @@ Test Case 06 - Szerzo Lektor Ellenorzese
     ${is_dict}=    Evaluate    isinstance(${docx_json}, dict)
     IF    not ${is_dict}
         ${err_msg}=    Set Variable    DOCX_JSON nem elérhető vagy nem megfelelő típus (${docx_json})
-        Log To Console    [ERROR] ${err_msg}
+        Log To Console     \n\[ERROR] ${err_msg}
     ELSE
         TRY
             ${tables}=    Get From Dictionary    ${docx_json}    tables
         EXCEPT    AS    ${e}
             ${tables}=    Set Variable    ${EMPTY}
             ${err_msg}=    Set Variable    DOCX_JSON['tables'] nem található (${e})
-            Log To Console    [ERROR] ${err_msg}
+            Log To Console     \n\[ERROR] ${err_msg}
         END
         ${is_tables_list}=    Evaluate    isinstance(${tables}, list)
         IF    not ${is_tables_list}
             ${err_msg}=    Set Variable    DOCX_JSON['tables'] nem lista vagy hiányzik (${tables})
-            Log To Console    [ERROR] ${err_msg}
+            Log To Console     \n\[ERROR] ${err_msg}
         ELSE
             TRY
                 ${first_table}=    Get From List    ${tables}    0
@@ -41,7 +41,7 @@ Test Case 06 - Szerzo Lektor Ellenorzese
                 ${err_msg}=    Szerzo Lektor Ellenorzesek    ${clean}    ${CR}    ${err_msg}
             EXCEPT    AS    ${e}
                 ${first_table}=    Set Variable    ${EMPTY}
-                Log To Console    [ERROR] Címtábla nem elérhető vagy hibás megnevezéseket tartalmaz!: (${e})
+                Log To Console     \n\[ERROR] Címtábla nem elérhető vagy hibás megnevezéseket tartalmaz!: (${e})
                 ${err_msg}=    Set Variable    Címtábla nem elérhető vagy hibás megnevezéseket tartalmaz, ezért a szerző-lektor ellenőrzés nem hajtható végre!
             END
         END
@@ -59,7 +59,7 @@ Szerzo Lektor Ellenorzesek
         ELSE
             ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
         END
-        Log To Console    [ERROR] ${new_err}
+        Log To Console     \n\[ERROR] ${new_err}
     END
     ${szakmai_lektor}=    Get From Dictionary    ${clean}    Szakmai lektor
     Log To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szakmai lektor: ${szakmai_lektor}
@@ -70,7 +70,7 @@ Szerzo Lektor Ellenorzesek
         ELSE
             ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
         END
-        Log To Console    [ERROR] ${new_err}
+        Log To Console     \n\[ERROR] ${new_err}
     END
     ${szerzo_list}=    Split String    ${szerzo}    ,
     ${szakmai_lektor_list}=    Split String    ${szakmai_lektor}    ,

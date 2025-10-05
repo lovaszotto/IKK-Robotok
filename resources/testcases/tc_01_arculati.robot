@@ -22,7 +22,7 @@ Get Next Non Empty Paragraph TC01
 
 Test Case 01 - Arculati Elemek Ellenorzese
     [Documentation]    01 - Arculati elemek ellenőrzése
-    Log To Console    [01/24] Arculati elemek ellenőrzése
+    Log To Console     \n\[01/24] Arculati elemek ellenőrzése
     ${testCase_row}=    Set Variable    3
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
@@ -39,7 +39,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
     ${read_status}    ${docx_json}=    Run Keyword And Ignore Error    DocxReader.Read Docx All    ${docx_file}
     IF    '$read_status' == 'FAIL'
         ${errors}=    Create List    Olvasási hiba a docx fájlban (${docx_json})
-        Log To Console    [ERROR] Olvasási hiba a docx fájlban (${docx_json})
+        Log To Console     \n\[ERROR] Olvasási hiba a docx fájlban (${docx_json})
         ${paragraphs}=    Create List
     ELSE
         Set Global Variable    ${DOCX_JSON}    ${docx_json}

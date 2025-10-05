@@ -6,7 +6,7 @@ Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 05 - Internet Hivatkozasok Ellenorzese
     [Documentation]    05 - Internet hivatkozások ellenőrzése
-    Log To Console    [05/24] Internet hivatkozások ellenőrzése
+    Log To Console     \n\[05/24] Internet hivatkozások ellenőrzése
 
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
@@ -22,7 +22,7 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
     #végignézzük a paragrafusokat, és keresünk benne hivatkozásokat  
     ${paragraphs}=    Get From Dictionary    ${docx_json}    paragraphs
     ${paragraphs_count}=    Get Length    ${paragraphs}
-    #Log To Console    [DEBUG] Paragraphs found: ${paragraphs_count}
+    #Log To Console     \n\[DEBUG] Paragraphs found: ${paragraphs_count}
     FOR    ${paragraph}    IN    @{paragraphs}
         ${paragraph_str}=    Convert To String    ${paragraph}
         # Replace all line breaks and tabs with spaces to join split URLs
@@ -43,7 +43,7 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
        #ellenőrizze, hogy van e benne (.*\s*dddd.dd.dd.)   
             #${match}=    Evaluate    re.search(r'\\d{4}\\.\\d{1,2}\\.\\d{1,2}', '''${url}''')    modules=re
             ${match}=    Evaluate    re.search(r'\\d{4}\\s*\\.\\s*\\d{1,2}\\s*\\.\\s*\\d{1,2}', '''${url}''')    modules=re
-            #Log To Console  [DEBUG] Match found: ${match}
+            #Log To Console     \n\[DEBUG] Match found: ${match}
             IF     ${match}
                 ${last_open_date}=    Set Variable    ${match.group(0)}
                 #Log To Console    MEGVAN : ${last_open_date}
@@ -56,7 +56,7 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
                     ELSE
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                     END
-                    Log To Console    [ERROR] ${new_err}
+                    Log To Console     \n\[ERROR] ${new_err}
                 END
                     
             ELSE
@@ -66,7 +66,7 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
                 ELSE
                     ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                 END
-                Log To Console    [ERROR] ${new_err}
+                Log To Console     \n\[ERROR] ${new_err}
         END
 
          END

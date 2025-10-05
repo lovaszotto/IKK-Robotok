@@ -7,7 +7,7 @@ Library     Collections
 
 *** Keywords ***
 DOCX Beolvasás Teszt
-    #Log To Console    [TRACE] DOCX Beolvasás Teszt elindult
+    #Log To Console     \n\[TRACE] DOCX Beolvasás Teszt elindult
     [Arguments]    ${file_path}    ${redundancia_id}
     # Redundancia ID beállítása globális változóként
     Set Global Variable    ${REDUNDANCIA_ID}    ${redundancia_id}

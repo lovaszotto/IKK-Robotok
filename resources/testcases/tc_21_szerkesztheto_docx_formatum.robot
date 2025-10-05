@@ -7,7 +7,7 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 21 - Szerkesztheto Docx Formatum Ellenorzese
     [Documentation]    21 - Szerkeszthető DOCX formátum. Ellenőrizendő, hogy a kézirat szerkeszthető DOCX formátumban van-e.
-     Log To Console    [21/24] Szerkesztheto Docx Formatum Ellenorzese
+     Log To Console     \n\[21/24] Szerkesztheto Docx Formatum Ellenorzese
     #Formátum: tényleg .docx (nem .doc/.pdf).
     #Szerkezet: DOCX = ZIP + word/document.xml.
     #Védelem: nincs documentProtection a word/settings.xml-ben.
@@ -29,29 +29,29 @@ Test Case 21 - Szerkesztheto Docx Formatum Ellenorzese
     Mark Test Status    ${excel_file}    ${sheet_name}    ${question_row}    ${err_msg}
 
     #${is_docx}=    Is Docx Extension    ${docx_file}
-    #Log To Console    [21] Formátum .docx: ${is_docx}
+    #Log To Console     \n\[21] Formátum .docx: ${is_docx}
     #${has_struct}=    Has Valid Docx Structure    ${docx_file}
-    #Log To Console    [21] Szerkezet (ZIP+word/document.xml): ${has_struct}
+    #Log To Console     \n\[21] Szerkezet (ZIP+word/document.xml): ${has_struct}
     #${no_protect}=    Has No Document Protection    ${docx_file}
-    #Log To Console    [21] Védelem (documentProtection nincs): ${no_protect}
+    #Log To Console     \n\[21] Védelem (documentProtection nincs): ${no_protect}
     #${can_open}=    Can Open With PythonDocx    ${docx_file}
-    #Log To Console    [21] Megnyithatóság (python-docx): ${can_open}
+    #Log To Console     \n\[21] Megnyithatóság (python-docx): ${can_open}
     #${writable}=    Is Writable File    ${docx_file}
-    #Log To Console    [21] Írhatóság (fájlrendszer): ${writable}
+    #Log To Console     \n\[21] Írhatóság (fájlrendszer): ${writable}
 
     #${editable}=    Is Editable Docx    ${docx_file}
-    #Log To Console    [21] Szerkeszthető DOCX (összesített): ${editable}
+    #Log To Console     \n\[21] Szerkeszthető DOCX (összesített): ${editable}
     #IF    ${editable}
-    #    Log To Console    [21] Szerkeszthető DOCX: Megtalálható
+    #    Log To Console     \n\[21] Szerkeszthető DOCX: Megtalálható
     #    Fill Excel Cell    ${excel_file}    ${sheet_name}    ${question_row}    ${col_present}    X
-    #    Log To Console    [21] Jelölés: X beírva a C${question_row} cellába
+    #    Log To Console     \n\[21] Jelölés: X beírva a C${question_row} cellába
     #ELSE
-    #    Log To Console    [21] Szerkeszthető DOCX: NINCS megadva
+    #    Log To Console     \n\[21] Szerkeszthető DOCX: NINCS megadva
     #    ${err_msg}=    Verify Editable Docx Test For Current File
     #    Run Keyword If    '${err_msg}' == ''    Set Variable    ${err_msg}    Ismeretlen hiba
-    #    Log To Console    [21] Hiba oka: ${err_msg}
+    #    Log To Console     \n\[21] Hiba oka: ${err_msg}
     #    Fill Excel Cell    ${excel_file}    ${sheet_name}    ${question_row}    ${col_missing}    X
-    #    Log To Console    [21] Jelölés: X beírva a D${question_row} cellába
+    #    Log To Console     \n\[21] Jelölés: X beírva a D${question_row} cellába
     #    Run Keyword And Continue On Failure    Fail    [21] Szerkeszthető DOCX: HIBA - ${err_msg} (X a D${question_row})
     #END
 

@@ -15,7 +15,7 @@ Fill Excel Cell
     #Log    Oszlop: ${col}    console=yes
     #Log    Érték: ${value}    console=yes
 
-    Log    >>>>>> Excel: ${excel_file_name}/${sheet_name}/${row}/${col}:(${value})    console=yes
+    #Log    >>>>>> Excel: ${excel_file_name}/${sheet_name}/${row}/${col}:(${value})    console=yes
 
     # Ellenőrizzük, hogy létezik-e az Excel fájl
     File Should Exist    ${excel_file_name}    msg=Excel fájl nem található: ${excel_file_name}

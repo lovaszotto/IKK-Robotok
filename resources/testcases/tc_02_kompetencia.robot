@@ -22,7 +22,7 @@ Get Next Non Empty Paragraph
 Test Case 02 - Kompetencia Teszt Ellenorzese
     # --- Refaktor: hibák gyűjtése listába ---
     [Documentation]    02 - Kompetencia teszt ellenőrzése
-    Log To Console    [02/24] Kompetencia teszt ellenőrzése 
+    Log To Console     \n\[02/24] Kompetencia teszt ellenőrzése 
    ${testCase_row}=    Set Variable    4
 
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
@@ -46,7 +46,7 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
     IF    '$read_status' == 'FAIL'
         ${new_err}=    Set Variable    Olvasási hiba (${docx_json})
         Append To List    ${errors}    ${new_err}
-        Log To Console    [ERROR] ${new_err}
+        Log To Console     \n\[ERROR] ${new_err}
         ${paragraphs}=    Create List
     ELSE
         Log To Console     Kompetencia fájl:${docx_file_kompetencia}   >>>BEOLVASVA ${docx_json}
@@ -60,21 +60,21 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
         IF    $second_paragraph == ''
             ${new_err}=    Set Variable    A második sor nem található!
             Append To List    ${errors}    ${new_err}
-            Log To Console    [ERROR] ${new_err}
+            Log To Console     \n\[ERROR] ${new_err}
         ELSE
             # Ha a prefix nem megfelelő
             ${pref_ok}=    Run Keyword And Return Status    Should Start With    ${second_paragraph}    Egyedi megrendelés azonosítója
             IF    '${pref_ok}' == 'False'
                 ${new_err}=    Set Variable    A második sor kezdete kötelezően: Egyedi megrendelés azonosítója...
                 Append To List    ${errors}    ${new_err}
-                Log To Console    [ERROR] ${new_err}
+                Log To Console     \n\[ERROR] ${new_err}
             END
             #összehasonlítás a globálisan elmentett azonosítóval
             ${global_azonosito}=    Get Variable Value    ${EGYEDI_AZONOSITO}    ${EMPTY}
             IF    "${second_paragraph}" != "${global_azonosito}"
                 ${new_err}=    Set Variable    Az egyedi megrendelés azonosító nem egyezik a Téma kéziratában megadottal!
                 Append To List    ${errors}    ${new_err}
-                Log To Console    [ERROR] ${new_err}
+                Log To Console     \n\[ERROR] ${new_err}
             END
         END
         
@@ -84,14 +84,14 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
         IF    $third_paragraph == ''
             ${new_err}=    Set Variable    A harmadik sor kötelezően nem lehet üres!
             Append To List    ${errors}    ${new_err}
-            Log To Console    [ERROR] ${new_err}
+            Log To Console     \n\[ERROR] ${new_err}
         END
         #összehasonlítás a globálisan elmentett címmel
         ${global_cim}=    Get Variable Value    ${DOKUMENTUM_CIMSOR}    ${EMPTY}
         IF    "${third_paragraph}" != "${global_cim}"    
             ${new_err}=    Set Variable    A cím nem egyezik a Téma kéziratában megadottal!
             Append To List    ${errors}    ${new_err}
-            Log To Console    [ERROR] ${new_err}
+            Log To Console     \n\[ERROR] ${new_err}
         END
         #------------------------------- negyedik sor Témák kézirata ellenőrzése --------------------
         ${fourth_paragraph}    ${act_line}=    Get Next Non Empty Paragraph    ${paragraphs}    ${act_line}
@@ -100,7 +100,7 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
         IF    $normalized_fourth != 'Kompetencia tesztek kézirata'
             ${new_err}=    Set Variable    A negyedik sor kötelezően: "Kompetencia tesztek kézirata" !
             Append To List    ${errors}    ${new_err}
-            Log To Console    [ERROR] ${new_err}
+            Log To Console     \n\[ERROR] ${new_err}
         END
 
     ${unique_errors}=    Remove Duplicates    ${errors}

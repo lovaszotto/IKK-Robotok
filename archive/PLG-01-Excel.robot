@@ -55,8 +55,8 @@ Create_K_ell_Excel
     
     # 4. Ellenőrzés: legalább 2 részre kell bomlania (utolsó 2 könyvtár)
     IF    ${parts_count} < 2
-        Log To Console    [HIBA] A relatív path nem tartalmaz legalább 2 könyvtárat! Talált részek: ${parts_count}
-        Log To Console    [HIBA] Minimum: 2 rész, kapott: ${parts_count}
+        Log To Console     \n\[HIBA] A relatív path nem tartalmaz legalább 2 könyvtárat! Talált részek: ${parts_count}
+        Log To Console     \n\[HIBA] Minimum: 2 rész, kapott: ${parts_count}
         Fail    A relatív path nem megfelelő szerkezetű - kevesebb mint 2 könyvtár
     END
     
@@ -98,7 +98,7 @@ Remove Input Folder From Path
     
     # Ha nincs input folder megadva, visszaadjuk az eredeti listát
     IF    '${input_folder}' == '${EMPTY}' or '${input_folder}' == ''
-        Log To Console    [INFO] Nincs input folder megadva, eredeti path használata
+        Log To Console     \n\[INFO] Nincs input folder megadva, eredeti path használata
         RETURN    ${path_parts}
     END
     
@@ -121,7 +121,7 @@ Remove Input Folder From Path
     # Ellenőrizzük, hogy a path elejei megegyeznek-e az input folder-rel
     ${matches}=    Set Variable    True
     IF    ${path_count} < ${input_count}
-        Log To Console    [FIGYELEM] Path rövidebb mint az input folder!
+        Log To Console     \n\[FIGYELEM] Path rövidebb mint az input folder!
         RETURN    ${path_parts}
     END
     
@@ -131,7 +131,7 @@ Remove Input Folder From Path
         ${are_equal}=     Run Keyword And Return Status    Should Be Equal    ${path_part}    ${input_part}
         IF    not ${are_equal}
             ${matches}=    Set Variable    False
-            Log To Console    [INFO] Eltérés a ${i}. pozícióban: '${path_part}' != '${input_part}'
+            Log To Console     \n\[INFO] Eltérés a ${i}. pozícióban: '${path_part}' != '${input_part}'
             BREAK
         END
     END
@@ -143,10 +143,10 @@ Remove Input Folder From Path
             ${part}=    Get From List    ${path_parts}    ${i}
             Append To List    ${relative_parts}    ${part}
         END
-        #Log To Console    [SUCCESS] Input folder eltávolítva. Relatív path: ${relative_parts}
+        #Log To Console     \n\[SUCCESS] Input folder eltávolítva. Relatív path: ${relative_parts}
         RETURN    ${relative_parts}
     ELSE
-        Log To Console    [INFO] Path nem kezdődik az input folder-rel, eredeti használata
+        Log To Console     \n\[INFO] Path nem kezdődik az input folder-rel, eredeti használata
         RETURN    ${path_parts}
     END
 
@@ -187,33 +187,33 @@ Check Excel File Exists
     ${file_exists}=    Run Keyword And Return Status    File Should Exist    ${excel_full_path}
     
     IF    ${file_exists}
-        Log To Console    [INFO] Excel fájl létezik: ${excel_full_path}
+        Log To Console     \n\[INFO] Excel fájl létezik: ${excel_full_path}
         # Ellenőrizzük, hogy van-e megfelelő sheet az Excel-ben
         ${sheet_name}=    Set Variable    ${child_path}
         ${sheet_exists}=    Check Excel Sheet Exists    ${excel_full_path}    ${sheet_name}
         IF    ${sheet_exists}
-            Log To Console    [INFO] Sheet '${sheet_name}' létezik az Excel fájlban
+            Log To Console     \n\[INFO] Sheet '${sheet_name}' létezik az Excel fájlban
         ELSE
-            Log To Console    [WARNING] Sheet '${sheet_name}' NEM létezik az Excel fájlban
+            Log To Console     \n\[WARNING] Sheet '${sheet_name}' NEM létezik az Excel fájlban
             # EM X.Y sablont másoljuk át EM + child_path névre
             Copy Excel Sheet    ${excel_full_path}    EM X.Y    ${sheet_name}
-            Log To Console    [INFO] Sheet sablon másolva: 'EM X.Y' -> '${sheet_name}'
+            Log To Console     \n\[INFO] Sheet sablon másolva: 'EM X.Y' -> '${sheet_name}'
         END
     ELSE
-        Log To Console    [WARNING] Excel fájl NEM létezik: ${excel_full_path}
+        Log To Console     \n\[WARNING] Excel fájl NEM létezik: ${excel_full_path}
         # Sablon fájl másolása
         ${template_path}=    Set Variable    ${CURDIR}/sablonok/K ell sablon_sulyszam_minbizt_2024_12_v_1_0.xlsx
         Copy File    ${template_path}    ${excel_full_path}
-        Log To Console    [INFO] Sablon fájl másolva: ${template_path} -> ${excel_full_path}
+        Log To Console     \n\[INFO] Sablon fájl másolva: ${template_path} -> ${excel_full_path}
         
         # Az új Excel fájlban is létre kell hozni a megfelelő sheet-et
         ${sheet_name}=    Set Variable    ${child_path}
         ${sheet_exists}=    Check Excel Sheet Exists    ${excel_full_path}    ${sheet_name}
         IF    not ${sheet_exists}
-            Log To Console    [INFO] Sheet '${sheet_name}' létrehozása az új Excel fájlban
+            Log To Console     \n\[INFO] Sheet '${sheet_name}' létrehozása az új Excel fájlban
             # EM X.Y sablont másoljuk át EM + child_path névre
             Copy Excel Sheet    ${excel_full_path}    EM X.Y    ${sheet_name}
-            Log To Console    [INFO] Sheet sablon másolva: 'EM X.Y' -> '${sheet_name}'
+            Log To Console     \n\[INFO] Sheet sablon másolva: 'EM X.Y' -> '${sheet_name}'
         END
     END
     

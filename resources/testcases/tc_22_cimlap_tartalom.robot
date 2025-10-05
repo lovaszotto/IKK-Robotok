@@ -5,7 +5,7 @@ Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 22 - Cimlap Tartalom Ellenorzese
     [Documentation]    22 - Címlap tartalom ellenőrzése
-    Log To Console    [22/24] Címlap tartalom ellenőrzése
+    Log To Console     \n\[22/24] Címlap tartalom ellenőrzése
 
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
@@ -26,7 +26,7 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
     ${is_dict}=    Evaluate    isinstance(${docx_json}, dict)
     IF    not ${is_dict}
         ${err_msg}=    Set Variable    DOCX_JSON nem elérhető vagy nem megfelelő típus (${docx_json})
-        Log To Console    [ERROR] ${err_msg}
+        Log To Console     \n\[ERROR] ${err_msg}
         # Hibás állapotban ne folytassuk a táblázat ellenőrzést
     ELSE
         # vedd ki az első docx tablest, ha van
@@ -36,12 +36,12 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
         EXCEPT    AS    ${e}
             ${tables}=    Set Variable    ${EMPTY}
             ${err_msg}=    Set Variable    DOCX_JSON['tables'] nem található (${e})
-            Log To Console    [ERROR] ${err_msg}
+            Log To Console     \n\[ERROR] ${err_msg}
         END
         ${is_tables_list}=    Evaluate    isinstance(${tables}, list)
         IF    not ${is_tables_list}
             ${err_msg}=    Set Variable    DOCX_JSON['tables'] nem lista vagy hiányzik (${tables})
-            Log To Console    [ERROR] ${err_msg}
+            Log To Console     \n\[ERROR] ${err_msg}
         ELSE
             #-----------------  első sor Üres ellenőrzése --------------------
             TRY
@@ -63,7 +63,7 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
                     ELSE
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                     END
-                    Log To Console    [ERROR] ${new_err}
+                    Log To Console     \n\[ERROR] ${new_err}
                 END
                 #a Szakmai lektor: szövegnek kötelezően szerepelnie kell a ${clean}-ben
                 IF    'Szakmai lektor' not in ${first_table}
@@ -73,7 +73,7 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
                     ELSE
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                     END
-                    Log To Console    [ERROR] ${new_err}
+                    Log To Console     \n\[ERROR] ${new_err}
                 END
                 
                 #a Ágazat: szövegnek kötelezően szerepelnie kell a ${clean}-ben
@@ -84,7 +84,7 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
                     ELSE
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                     END
-                    Log To Console    [ERROR] ${new_err}
+                    Log To Console     \n\[ERROR] ${new_err}
                 END
 
                 #a Szakma: szövegnek kötelezően szerepelnie kell a ${clean}-ben
@@ -95,7 +95,7 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
                     ELSE
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                     END
-                    Log To Console    [ERROR] ${new_err}
+                    Log To Console     \n\[ERROR] ${new_err}
                 END
                 #a Tanulási terület: szövegnek kötelezően szerepelnie kell a ${clean}-ben
                 IF    'Tanulási terület' not in ${first_table}
@@ -105,7 +105,7 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
                     ELSE
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                     END
-                    Log To Console    [ERROR] ${new_err}
+                    Log To Console     \n\[ERROR] ${new_err}
                 END
                 #a Tantárgy: szövegnek kötelezően szerepelnie kell a ${clean}-ben
                 IF    'Tantárgy' not in ${first_table}
@@ -115,7 +115,7 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
                     ELSE
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                     END
-                    Log To Console    [ERROR] ${new_err}
+                    Log To Console     \n\[ERROR] ${new_err}
                 END
 
                 #a Évfolyam: szövegnek kötelezően szerepelnie kell a ${clean}-ben
@@ -126,7 +126,7 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
                     ELSE
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                     END
-                    Log To Console    [ERROR] ${new_err}
+                    Log To Console     \n\[ERROR] ${new_err}
                 END
                 #a Óraszám: szövegnek kötelezően szerepelnie kell a ${clean}-ben
                 IF    'Óraszám' not in ${first_table}
@@ -136,7 +136,7 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
                     ELSE
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                     END
-                    Log To Console    [ERROR] ${new_err}
+                    Log To Console     \n\[ERROR] ${new_err}
                 END
 
 
@@ -151,7 +151,7 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
                     ELSE
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                     END
-                    Log To Console    [ERROR] ${new_err}
+                    Log To Console     \n\[ERROR] ${new_err}
                 END
                 # ----------------- Szakmai lektor mező ellenőrzése --------------------
                 ${szakmai_lektor}=    Get From Dictionary    ${clean}    Szakmai lektor
@@ -163,7 +163,7 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
                     ELSE
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                     END
-                    Log To Console    [ERROR] ${new_err}
+                    Log To Console     \n\[ERROR] ${new_err}
                 END
                 # ----------------- Ágazat mező ellenőrzése --------------------
                 ${agazat}=    Get From Dictionary    ${clean}    Ágazat
@@ -175,7 +175,7 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
                     ELSE
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                     END
-                    Log To Console    [ERROR] ${new_err}
+                    Log To Console     \n\[ERROR] ${new_err}
                 END
                 # ----------------- Tanulási terület megnevezése mező ellenőrzése --------------------
                 ${tanulasi_terulet}=    Get From Dictionary    ${clean}    Tanulási terület
@@ -187,7 +187,7 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
                     ELSE
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                     END
-                    Log To Console    [ERROR] ${new_err}
+                    Log To Console     \n\[ERROR] ${new_err}
                 END
                # ----------------- Tantárgy mező ellenőrzése --------------------
                 ${tantargy}=    Get From Dictionary    ${clean}    Tantárgy
@@ -199,7 +199,7 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
                     ELSE
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                     END
-                    Log To Console    [ERROR] ${new_err}
+                    Log To Console     \n\[ERROR] ${new_err}
                 END
                   # ----------------- Évfolyam mező ellenőrzése --------------------
                 ${evfolyam}=    Get From Dictionary    ${clean}    Évfolyam
@@ -211,7 +211,7 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
                     ELSE
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                     END
-                    Log To Console    [ERROR] ${new_err}
+                    Log To Console     \n\[ERROR] ${new_err}
                 END
              # ----------------- Óraszám mező ellenőrzése --------------------
                 ${oraszam}=    Get From Dictionary    ${clean}    Óraszám
@@ -223,11 +223,11 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
                     ELSE
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                     END
-                    Log To Console    [ERROR] ${new_err}
+                    Log To Console     \n\[ERROR] ${new_err}
                 END
             EXCEPT    AS    ${e}
                 ${first_table}=    Set Variable    ${EMPTY}
-                Log To Console    [ERROR] A címlap táblázat nem létezik! (${e})
+                Log To Console     \n\[ERROR] A címlap táblázat nem létezik! (${e})
                 ${new_err}=    Set Variable    A címlap táblázat hibás!
                 IF    $err_msg == ''
                     ${err_msg}=    Set Variable    ${new_err}
