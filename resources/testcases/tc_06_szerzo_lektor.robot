@@ -39,7 +39,7 @@ Test Case 06 - Szerzo Lektor Ellenorzese
             TRY
                 ${first_table}=    Get From List    ${tables}    0
                 ${clean}=    Evaluate    {k.rstrip(':').strip(): v.strip() for k, v in dict(${first_table}).items()}
-                Log To Console    >>>> ${clean}
+                #Log To Console    >>>> ${clean}
                 ${err_msg}=    Szerzo Lektor Ellenorzesek    ${clean}    ${CR}    ${err_msg}
             EXCEPT    AS    ${e}
                 ${first_table}=    Set Variable    ${EMPTY}

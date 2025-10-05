@@ -1,3 +1,6 @@
+*** Settings ***
+Library    String
+
 *** Keywords ***
 Mark Test Status
     [Documentation]    Általános jelölő: hibánál F{row} megjegyzés, D{row} "X" és FAIL; siker esetén C{row} "X".
@@ -268,13 +271,29 @@ Parse Cover Table
                     # Alap tisztítás (eredeti kulcsok megtartása)
                     ${clean}=    Evaluate    {k.rstrip(':').strip(): v.strip() for k, v in dict(${first_table}).items()}
                     # Kiterjesztett kulcs normalizáció: kisbetűs, ékezetmentes, többszörös space összevonás + space nélküli variánsok
-                    ${clean}=    Evaluate    __import__('unicodedata');import re;d=dict(${clean});items=list(d.items());\
-...    def norm(s):\
-...        s=s.lower().strip().replace('\xa0',' ');\
-...        s=''.join(c for c in __import__('unicodedata').normalize('NFD', s) if __import__('unicodedata').category(c)!='Mn');\
-...        s=re.sub(r'\s+',' ',s);\
-...        return s;\
-...    [ ( (lambda base,no_space: ( d.setdefault(base,v), d.setdefault(no_space,v) ) )(norm(k), norm(k).replace(' ','')) ) for k,v in items ];d
+                    ${orig_keys}=    Get Dictionary Keys    ${clean}
+                    FOR    ${__k}    IN    @{orig_keys}
+                        ${__v}=    Get From Dictionary    ${clean}    ${__k}
+                        ${norm}=    Set Variable    ${__k}
+                        ${norm}=    Convert To Lowercase    ${norm}
+                        ${norm}=    Replace String    ${norm}    \xa0    ${SPACE}
+                        ${norm}=    Replace String    ${norm}    á    a
+                        ${norm}=    Replace String    ${norm}    é    e
+                        ${norm}=    Replace String    ${norm}    í    i
+                        ${norm}=    Replace String    ${norm}    ó    o
+                        ${norm}=    Replace String    ${norm}    ö    o
+                        ${norm}=    Replace String    ${norm}    ő    o
+                        ${norm}=    Replace String    ${norm}    ú    u
+                        ${norm}=    Replace String    ${norm}    ü    u
+                        ${norm}=    Replace String    ${norm}    ű    u
+                        ${norm}=    Replace String Using Regexp    ${norm}    \s+    ${SPACE}
+                        ${norm}=    Strip String    ${norm}
+                        Set To Dictionary    ${clean}    ${norm}=${__v}
+                        ${no_space}=    Replace String    ${norm}    ${SPACE}    ${EMPTY}
+                        IF    '${no_space}' != '${norm}'
+                            Set To Dictionary    ${clean}    ${no_space}=${__v}
+                        END
+                    END
                     ${ok}=    Set Variable    ${True}
                 EXCEPT    AS    ${e}
                     ${err_msg}=    Set Variable    Címlap táblázat nem feldolgozható (${e})
