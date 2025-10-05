@@ -34,8 +34,8 @@ Test Case 09 - Abrak Fotok Ellenorzese
         ${sum_idx}=    Evaluate    ${sum_idx} + ${idx}
         
         #Log To Console    ${idx}: "${text}"
-        Log To Console    ${idx}: [${style}]
-        CONTINUE
+        #Log To Console    ${idx}: [${style}]
+        #CONTINUE
 
         #ha text üres vagy Téma jegyzék, akkor kihagyjuk
         IF    $text == "" or "Téma kézirata" in $text or "Egyedi megrendelés azonosítója:" in $text
