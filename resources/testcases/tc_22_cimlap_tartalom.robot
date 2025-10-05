@@ -15,8 +15,8 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
     IF    not ${ok}
         Append To List    ${err_list}    ${base_err}
     ELSE
-        # Alias mapping – alternatív elnevezések támogatása
-        ${aliases}=    Create Dictionary    Kéziratíró=Kéziratíró|Szerző|Kézirat író    Szakmai lektor=Szakmai lektor|Lektor    Ágazat=Ágazat|Ágazat megnevezése    Szakma=Szakma|Szakma megnevezése    Tanulási terület=Tanulási terület|Tanulasi terulet    Tantárgy=Tantárgy|Tantargy    Évfolyam=Évfolyam|Evfolyam    Óraszám=Óraszám|Óraszam
+        # Alias mapping – alternatív elnevezések támogatása (eredeti + normalizált + space nélküli variánsok)
+        ${aliases}=    Create Dictionary    Kéziratíró=Kéziratíró|Szerző|Kézirat író|keziratíró|keziratiro|szerzo    Szakmai lektor=Szakmai lektor|Lektor|szakmai lektor|szakmailektor|lektor    Ágazat=Ágazat|Ágazat megnevezése|agazat|agazatmegnevezese    Szakma=Szakma|Szakma megnevezése|szakma|szakmamegnevezese    Tanulási terület=Tanulási terület|Tanulasi terulet|tanulási terület|tanulasiterulet|tanulasiter    Tantárgy=Tantárgy|Tantargy|tantargy    Évfolyam=Évfolyam|Evfolyam|evfolyam    Óraszám=Óraszám|Óraszam|oraszam
         ${normalized}=    Create Dictionary
         FOR    ${main}    ${alts}    IN    &{aliases}
             ${found}=    Set Variable    ${EMPTY}
@@ -54,5 +54,5 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
         END
     END
     ${unique_errs}=    Remove Duplicates    ${err_list}
-    ${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique_errs}
+    ${err_msg}=    Catenate    SEPARATOR=\n    @{unique_errs}
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}

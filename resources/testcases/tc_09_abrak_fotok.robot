@@ -26,6 +26,19 @@ Test Case 09 - Abrak Fotok Ellenorzese
   
     ${docx_path}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
     ${pars}=    Evaluate    [{'idx': i+1, 'text': p.text, 'style': (p.style.name if p.style else 'N/A')} for i,p in enumerate(__import__('docx').Document(r'''${docx_path}''').paragraphs)]
+      #style begyűjtése egy uniq listába
+     #${styles}=    Create List  
+
+      #      FOR    ${par}    IN    @{pars}
+      #          ${style}=    Get From Dictionary    ${par}    style
+      #          ${already}=    Run Keyword And Return Status    List Should Contain Value    ${styles}    ${style}
+      #          IF    not ${already}
+      #                  Append To List    ${styles}    ${style}
+      #          END
+      #      END
+    #Log To Console   §§§§§§§§§§§§§§§§§§§§§§§§§ Stílusok a dokumentumban: ${styles}
+    #sTILUSOK FELÍRÁSA EXCELBE
+    #Fill Excel Cell    ${excel_file}    ${sheet_name}    27    2    ${styles}
     
     FOR    ${par}    IN    @{pars}
         ${idx}=    Get From Dictionary    ${par}    idx
@@ -78,7 +91,12 @@ Test Case 09 - Abrak Fotok Ellenorzese
             IF    $err_msg == ''
                 ${err_msg}=    Set Variable    ${new_err}
             ELSE
-                ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+                # err_msg max 500 karakter lehet (új hibával együtt)
+                ${current_len}=    Evaluate    len($err_msg)
+                ${new_len}=    Evaluate    ${current_len} + len($new_err) + 1
+                IF    ${new_len} < 500
+                    ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+                END
             END
             Log To Console     [ERROR] ${new_err}    
        END

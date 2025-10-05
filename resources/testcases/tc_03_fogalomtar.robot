@@ -30,7 +30,7 @@ Test Case 03 - Fogalomtar Ellenorzese
     ${filename_part}=   Get Variable Value    ${CURRENT_FILENAME_PART}    ${EMPTY}
   
     ${docx_file}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
-    ${docx_json}=    Get Variable Value    ${DOCX_JSON}    ${EMPTY}
+    #${docx_json_fog}=    Get Variable Value    ${docx_json_fog}    ${EMPTY}
 
     ${errors}=    Create List
     ${err_msg}=    Set Variable    ${EMPTY}
@@ -38,19 +38,19 @@ Test Case 03 - Fogalomtar Ellenorzese
     
     ${act_line}=    Set Variable    0
    # docx_file_kompetencia beállítása a docx_file ban csere _tema_kezirata szöveg with kompetencia_tesztek_kezirata            
-    ${docx_file_kompetencia}=    Replace String    ${docx_file}    _tema_kezirata    _fogalomtar_kezirata
+    ${docx_file_fog}=    Replace String    ${docx_file}    _tema_kezirata    _fogalomtar_kezirata
     # Biztonságos beolvasás (TRY/EXCEPT helyett Robot kulcsszintű hibakezelés)
-    Log To Console     Fogalomtár kézirata fájl:${docx_file_kompetencia}
-    ${read_status}    ${docx_json}=    Run Keyword And Ignore Error    DocxReader.Read Docx All    ${docx_file_kompetencia}
+    Log To Console     Fogalomtár kézirata fájl:${docx_file_fog}
+    ${read_status}    ${docx_json_fog}=    Run Keyword And Ignore Error    DocxReader.Read Docx All    ${docx_file_fog}
     IF    '$read_status' == 'FAIL'
-        ${new_err}=    Set Variable    Olvasási hiba (${docx_json})
+        ${new_err}=    Set Variable    Olvasási hiba (${docx_json_fog})
         Append To List    ${errors}    ${new_err}
         Log To Console     [ERROR] ${new_err}
         ${paragraphs}=    Create List
     ELSE
-        Log To Console     Kompetencia fájl:${docx_file_kompetencia}   >>>BEOLVASVA ${docx_json}
-        Set Global Variable    ${DOCX_JSON}    ${docx_json}
-        ${paragraphs}=    Get From Dictionary    ${docx_json}    paragraphs
+        Log To Console     Fogalomtár fájl:${docx_file_fog}   >>>BEOLVASVA ${docx_json_fog}
+        #Set Global Variable    ${docx_json_fog}    ${docx_json_fog}
+        ${paragraphs}=    Get From Dictionary    ${docx_json_fog}    paragraphs
     END
   
         #------------------------------- második sor Egyedi megrendelés azonosítója ellenőrzése --------------------

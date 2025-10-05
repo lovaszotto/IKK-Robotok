@@ -45,6 +45,25 @@ Test Case 01 - Arculati Elemek Ellenorzese
         Set Global Variable    ${DOCX_JSON}    ${docx_json}
         ${paragraphs}=    Get From Dictionary    ${docx_json}    paragraphs
     END
+    # Stílusok begyűjtése a dokumentumban
+    # (a docx modulból a Document osztályt használva, mert a DOCX_JSON nem tartalmazza a stílusokat)
+
+    ${docx_path}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
+    ${pars}=    Evaluate    [{'idx': i+1, 'text': p.text, 'style': (p.style.name if p.style else 'N/A')} for i,p in enumerate(__import__('docx').Document(r'''${docx_path}''').paragraphs)]
+      #style begyűjtése egy uniq listába
+     ${styles}=    Create List  
+
+            FOR    ${par}    IN    @{pars}
+                ${style}=    Get From Dictionary    ${par}    style
+                ${already}=    Run Keyword And Return Status    List Should Contain Value    ${styles}    ${style}
+                IF    not ${already}
+                        Append To List    ${styles}    ${style}
+                END
+            END
+    Log To Console   §§§§§§§§§§§§§§§§§§§§§§§§§ Stílusok a dokumentumban: ${styles}
+    #sTILUSOK FELÍRÁSA EXCELBE
+     Set Global Variable    ${STILUSOK}    ${styles}
+    Fill Excel Cell    ${excel_file}    ${sheet_name}    27    2    ${styles}
 
     # 2. sor – Egyedi megrendelés azonosítója
     ${second_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}

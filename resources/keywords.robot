@@ -265,7 +265,16 @@ Parse Cover Table
             ELSE
                 TRY
                     ${first_table}=    Get From List    ${tables}    0
+                    # Alap tisztítás (eredeti kulcsok megtartása)
                     ${clean}=    Evaluate    {k.rstrip(':').strip(): v.strip() for k, v in dict(${first_table}).items()}
+                    # Kiterjesztett kulcs normalizáció: kisbetűs, ékezetmentes, többszörös space összevonás + space nélküli variánsok
+                    ${clean}=    Evaluate    __import__('unicodedata');import re;d=dict(${clean});items=list(d.items());\
+...    def norm(s):\
+...        s=s.lower().strip().replace('\xa0',' ');\
+...        s=''.join(c for c in __import__('unicodedata').normalize('NFD', s) if __import__('unicodedata').category(c)!='Mn');\
+...        s=re.sub(r'\s+',' ',s);\
+...        return s;\
+...    [ ( (lambda base,no_space: ( d.setdefault(base,v), d.setdefault(no_space,v) ) )(norm(k), norm(k).replace(' ','')) ) for k,v in items ];d
                     ${ok}=    Set Variable    ${True}
                 EXCEPT    AS    ${e}
                     ${err_msg}=    Set Variable    Címlap táblázat nem feldolgozható (${e})
