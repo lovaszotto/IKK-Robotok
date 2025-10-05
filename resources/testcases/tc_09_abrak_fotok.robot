@@ -1,5 +1,6 @@
 *** Settings ***
 Library     Collections
+Library     String
 Resource    ${CURDIR}/../keywords.robot
 Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 
@@ -33,8 +34,8 @@ Test Case 09 - Abrak Fotok Ellenorzese
         ${sum_idx}=    Evaluate    ${sum_idx} + ${idx}
         
         #Log To Console    ${idx}: "${text}"
-        #Log To Console    ${idx}: [${style}]
-        #CONTINUE
+        Log To Console    ${idx}: [${style}]
+        CONTINUE
 
         #ha text üres vagy Téma jegyzék, akkor kihagyjuk
         IF    $text == "" or "Téma kézirata" in $text or "Egyedi megrendelés azonosítója:" in $text
@@ -42,7 +43,7 @@ Test Case 09 - Abrak Fotok Ellenorzese
         END    
         #A címlapon lévőket kihagyjuk
         IF    ${sum_idx} < 10
-            Log To Console    ========KIHAGYVA:${sum_idx}: "${text}"
+            #Log To Console    ========KIHAGYVA:${sum_idx}: "${text}"
             CONTINUE
         END
         IF    "${style}" == "SZK Ábrajegyzék"
@@ -72,16 +73,15 @@ Test Case 09 - Abrak Fotok Ellenorzese
      
          # ha a has_forrás 0, akkor hibaüzenet
         IF    ${has_forras} == 0        
+            ${text}=    Get Substring    ${text}    0    40
             ${new_err}=    Set Variable    Ábra/fotó után nincs Forrás megjelölve! ${idx}.sor ${text}
             IF    $err_msg == ''
                 ${err_msg}=    Set Variable    ${new_err}
             ELSE
                 ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
             END
-            Log To Console     \n\[ERROR] ${new_err}    
+            Log To Console     [ERROR] ${new_err}    
        END
-      
-     
         
     END
 

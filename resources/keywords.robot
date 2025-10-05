@@ -3,7 +3,8 @@ Mark Test Status
     [Documentation]    Általános jelölő: hibánál F{row} megjegyzés, D{row} "X" és FAIL; siker esetén C{row} "X".
     [Arguments]    ${excel_file}    ${sheet_name}    ${test_row}    ${err_msg}    ${mark}=X
     IF    $err_msg != ''
-        Log To Console    Mark Test Status ${test_row}-ba: ${err_msg}
+        #Log To Console    Mark Test Status ${test_row}-ba: ${err_msg}
+        Log To Console    Mark Test Status Failed
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    6    ${err_msg}
          
         IF     int(${test_row}) < 10
@@ -78,7 +79,7 @@ Update Global Check Counters
     Set Global Variable    ${CHECK_TOTAL}     ${gt}
     Set Global Variable    ${CHECK_PASSED}    ${gp}
     Set Global Variable    ${CHECK_FAILED}    ${gf}
-    Log String To Console    [TRACE] Globális ellenőrzés számlálók frissítve: total=${gt}, pass=${gp}, fail=${gf}
+    #Log String To Console    [TRACE] Globális ellenőrzés számlálók frissítve: total=${gt}, pass=${gp}, fail=${gf}
 
 Move Log File To Output Folder
     [Documentation]    Áthelyezi a log fájlt az output könyvtárba a konfiguráció betöltése után
@@ -150,7 +151,7 @@ Log String To Console
     END
 
 Process Config Line
-    Log String To Console    [TRACE] Process Config Line elindult
+    #Log String To Console    [TRACE] Process Config Line elindult
     [Arguments]    ${config_line}
     @{config_parts}=    Split String    ${config_line}    |
     ${parts_len}=    Get Length    ${config_parts}
@@ -235,14 +236,47 @@ ${DOCX_DUMP_DIR}        ${EXECDIR}${/}results${/}docx_dump
 *** Keywords ***
 
 Get Config Icon
-    Log String To Console    [TRACE] Get Config Icon elindult
+    #Log String To Console    [TRACE] Get Config Icon elindult
     [Documentation]    Ikonok tiltva: mindig üres string
     [Arguments]    ${icon_name}
     RETURN    ${EMPTY}
-    Log String To Console    [TRACE] Get Config Icon kilépett
+    #Log String To Console    [TRACE] Get Config Icon kilépett
+
+Parse Cover Table
+    [Documentation]    Kinyeri az első táblázatot a ${DOCX_JSON} struktúrából és normalizálja a kulcsokat (':' vágás, trim). Visszatér: ${ok} (bool), ${clean_dict} vagy ${EMPTY}, ${err_msg}.
+    ${docx_json}=    Get Variable Value    ${DOCX_JSON}    ${EMPTY}
+    ${err_msg}=    Set Variable    ${EMPTY}
+    ${clean}=    Set Variable    ${EMPTY}
+    ${ok}=    Set Variable    ${False}
+    ${is_dict}=    Evaluate    isinstance(${docx_json}, dict)
+    IF    not ${is_dict}
+        ${err_msg}=    Set Variable    DOCX_JSON nem elérhető vagy nem megfelelő típus (${docx_json})
+    ELSE
+        TRY
+            ${tables}=    Get From Dictionary    ${docx_json}    tables
+        EXCEPT    AS    ${e}
+            ${tables}=    Set Variable    ${EMPTY}
+            ${err_msg}=    Set Variable    DOCX_JSON['tables'] nem található (${e})
+        END
+        IF    '${err_msg}' == ''
+            ${is_list}=    Evaluate    isinstance(${tables}, list)
+            IF    not ${is_list}
+                ${err_msg}=    Set Variable    DOCX_JSON['tables'] nem lista (${tables})
+            ELSE
+                TRY
+                    ${first_table}=    Get From List    ${tables}    0
+                    ${clean}=    Evaluate    {k.rstrip(':').strip(): v.strip() for k, v in dict(${first_table}).items()}
+                    ${ok}=    Set Variable    ${True}
+                EXCEPT    AS    ${e}
+                    ${err_msg}=    Set Variable    Címlap táblázat nem feldolgozható (${e})
+                END
+            END
+        END
+    END
+    RETURN    ${ok}    ${clean}    ${err_msg}
 
 Konfiguráció Betöltése
-    Log String To Console    [TRACE] Konfiguráció Betöltése elindult
+    #Log String To Console    [TRACE] Konfiguráció Betöltése elindult
     [Documentation]    Plagium.config fajl betoltese es beallitasok alkalmazasa
     Silence Python SyntaxWarnings
     Log String To Console    \nKONFIGURACIO BETOLTESE...
@@ -321,7 +355,7 @@ DOCX Beolvasás Teszt
 
 
 DOCX fájlok olvasása és formálellenőrzés
-    Log String To Console    [TRACE] DOCX fájlok olvasása elindult
+    #Log String To Console    [TRACE] DOCX fájlok olvasása elindult
     [Documentation]    Batch feldolgozás összes DOCX fájlra a DOCUMENT_PATH útvonalon - minden DOCX-hez külön test case generálás
     
     # DOCX fájlok keresése a megadott útvonalon
@@ -1010,7 +1044,7 @@ Create_K_ell_Excel
     
     ${is_success}=    Run Keyword And Return Status    Should Not Be Empty    ${relative_parts}
     IF   not ${is_success}
-        Log To Console     \n\[ERROR] Input folder eltávolítása sikertelen!
+        Log To Console     [ERROR] Input folder eltávolítása sikertelen!
         ${relative_parts}=    Set Variable    ${filtered_path_parts}
     END
     

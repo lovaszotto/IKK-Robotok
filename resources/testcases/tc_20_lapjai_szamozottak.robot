@@ -16,7 +16,7 @@ Test Case 20 - Lapjai Szamozottak Ellenorzese
 
     ${err_msg}=    Has Page Numbers    ${docx_file}
     IF    '${err_msg}' != ''
-        Log To Console     \n\[ERROR] Oldalszámozás: HIBA - ${err_msg}
+        Log To Console     [ERROR] Oldalszámozás: HIBA - ${err_msg}
     #ELSE
     #    Log To Console     \n\[20] Oldalszámozás: Megtalálható
     END

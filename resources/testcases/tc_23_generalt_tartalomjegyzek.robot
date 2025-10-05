@@ -1,3 +1,24 @@
+
+#*** Settings ***
+#Library    OperatingSystem
+#Library    String
+#Library    Collections
+
+#*** Variables ***
+#${DOCX_PATH}    example.docx
+#${TMP_DIR}      ${OUTPUT DIR}${/}unzip
+
+#*** Test Cases ***
+#Tartalomjegyzek Ellenorzes DOCX-ben
+#    Remove Directory    ${TMP_DIR}    recursive=True
+#    Create Directory    ${TMP_DIR}
+#    Run Process    unzip    -qq    ${DOCX_PATH}    -d    ${TMP_DIR}
+#    ${xml}=    Get File    ${TMP_DIR}${/}word${/}document.xml
+#    ${van_toc}=    Run Keyword And Return Status    Should Contain    ${xml}    TOC
+#    Run Keyword If    ${van_toc}    Log    ✅ Van tartalomjegyzék mező a DOCX-ben.
+#    ...    ELSE    Log    ❌ Nincs TOC mező a DOCX-ben.
+
+
 *** Settings ***
 Resource   ${CURDIR}/../keywords.robot
 Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot

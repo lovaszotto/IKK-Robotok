@@ -43,7 +43,7 @@ Test Case 24 - Cimsorozassal Keszult Ellenorzese
         ELSE
             ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
         END
-        Log To Console     \n\[ERROR] ${new_err}
+        Log To Console     [ERROR] ${new_err}
     END
      # Teszt státusz és Excel jelölés végrehajtása a megadott soron
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}

@@ -6,91 +6,77 @@ Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 06 - Szerzo Lektor Ellenorzese
     [Documentation]    06 - Szerző-lektor ellenőrzése
-    Log To Console     \n\[06/24] Szerző-lektor ellenőrzése
-
+    Log To Console    [06/24] Szerző-lektor ellenőrzése
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
     ${testCase_row}=    Set Variable    8
-    ${path_part}=    Get Variable Value    ${CURRENT_PATH_PART}    ${EMPTY}
-    ${filename_part}=    Get Variable Value    ${CURRENT_FILENAME_PART}    ${EMPTY}
-    ${docx_file}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
-    ${docx_json}=    Get Variable Value    ${DOCX_JSON}    ${EMPTY}
-    ${err_msg}=    Set Variable    ${EMPTY}
     ${CR}=    Evaluate    chr(13)
-    # Ellenőrizd, hogy a docx_json tényleg dictionary, különben hibát jelezz
-    ${is_dict}=    Evaluate    isinstance(${docx_json}, dict)
-    IF    not ${is_dict}
-        ${err_msg}=    Set Variable    DOCX_JSON nem elérhető vagy nem megfelelő típus (${docx_json})
-        Log To Console     \n\[ERROR] ${err_msg}
+    ${err_list}=    Create List
+    ${ok}    ${cover}    ${base_err}=    Parse Cover Table
+    IF    not ${ok}
+        Append To List    ${err_list}    ${base_err}
     ELSE
-        TRY
-            ${tables}=    Get From Dictionary    ${docx_json}    tables
-        EXCEPT    AS    ${e}
-            ${tables}=    Set Variable    ${EMPTY}
-            ${err_msg}=    Set Variable    DOCX_JSON['tables'] nem található (${e})
-            Log To Console     \n\[ERROR] ${err_msg}
+        # Alias mapping: ha a dokumentumban alternatív kulcsnevek szerepelnek
+        ${aliases}=    Create Dictionary    Kéziratíró=Kéziratíró|Szerző|Kézirat író    Szakmai lektor=Szakmai lektor|Lektor
+        ${normalized}=    Create Dictionary
+        FOR    ${main}    ${alts}    IN    &{aliases}
+            ${found}=    Set Variable    ${EMPTY}
+            ${alt_list}=    Split String    ${alts}    |
+            FOR    ${candidate}    IN    @{alt_list}
+                ${has_key}=    Run Keyword And Return Status    Dictionary Should Contain Key    ${cover}    ${candidate}
+                IF    ${has_key}
+                    ${found}=    Get From Dictionary    ${cover}    ${candidate}
+                    Exit For Loop
+                END
+            END
+            IF    '${found}' != ''
+                Set To Dictionary    ${normalized}    ${main}=${found}
+            END
         END
-        ${is_tables_list}=    Evaluate    isinstance(${tables}, list)
-        IF    not ${is_tables_list}
-            ${err_msg}=    Set Variable    DOCX_JSON['tables'] nem lista vagy hiányzik (${tables})
-            Log To Console     \n\[ERROR] ${err_msg}
-        ELSE
-            TRY
-                ${first_table}=    Get From List    ${tables}    0
-                ${clean}=    Evaluate    {k.rstrip(':').strip(): v.strip() for k, v in dict(${first_table}).items()}
-                ${err_msg}=    Szerzo Lektor Ellenorzesek    ${clean}    ${CR}    ${err_msg}
-            EXCEPT    AS    ${e}
-                ${first_table}=    Set Variable    ${EMPTY}
-                Log To Console     \n\[ERROR] Címtábla nem elérhető vagy hibás megnevezéseket tartalmaz!: (${e})
-                ${err_msg}=    Set Variable    Címtábla nem elérhető vagy hibás megnevezéseket tartalmaz, ezért a szerző-lektor ellenőrzés nem hajtható végre!
+        # Eredeti + normalizált összeolvasztás – ne írjuk felül a létező main kulcsot ha már megvan
+        FOR    ${k}    ${v}    IN    &{normalized}
+            ${already}=    Run Keyword And Return Status    Dictionary Should Contain Key    ${cover}    ${k}
+            IF    not ${already}
+                Set To Dictionary    ${cover}    ${k}=${v}
+            END
+        END
+        # Két kulcs ellenőrzése: létezés + nem üres + nem egyezhetnek teljesen
+        @{fields}=    Create List    Kéziratíró    Szakmai lektor
+        FOR    ${f}    IN    @{fields}
+            ${present}=    Run Keyword And Return Status    Dictionary Should Contain Key    ${cover}    ${f}
+            IF    not ${present}
+                Append To List    ${err_list}    A ${f} mező nem létezik a címlapon!
+            ELSE
+                ${val}=    Get From Dictionary    ${cover}    ${f}
+                ${is_blank}=    Run Keyword And Return Status    Should Be True    '${val.strip()}' == '' or '${val.strip()}' == '#'
+                IF    ${is_blank}
+                    Append To List    ${err_list}    A ${f} mező üres!
+                END
+            END
+        END
+        # Csak akkor hasonlítunk, ha mindkettő kulcs létezik
+        ${both}=    Run Keyword And Return Status    Evaluate    'Kéziratíró' in ${cover} and 'Szakmai lektor' in ${cover}
+        IF    ${both}
+            ${writer}=    Get From Dictionary    ${cover}    Kéziratíró
+            ${lector}=    Get From Dictionary    ${cover}    Szakmai lektor
+            # Lista bontás vessző szerint
+            ${w_list}=    Split String    ${writer}    ,
+            ${l_list}=    Split String    ${lector}    ,
+            # Normalizált összehasonlítás: trim + case-sensitive maradhat
+            FOR    ${w}    IN    @{w_list}
+                ${w}=    Strip String    ${w}
+                FOR    ${l}    IN    @{l_list}
+                    ${l}=    Strip String    ${l}
+                    IF    '${w}' != '' and '${w}' == '${l}'
+                        Append To List    ${err_list}    A Kéziratíró és a Szakmai lektor nem lehet azonos! (${w})
+                        Exit For Loop
+                    END
+                END
             END
         END
     END
+    ${unique}=    Remove Duplicates    ${err_list}
+    ${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique}
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
 
-Szerzo Lektor Ellenorzesek
-    [Arguments]    ${clean}    ${CR}    ${err_msg}
-    ${szerzo}=    Get From Dictionary    ${clean}    Kéziratíró
-    Log To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szerző: ${szerzo}
-    IF    $szerzo == '' or $szerzo == '#'
-        ${new_err}=    Set Variable    A Kéziratíró mező nem létezik, vagy üres!
-        IF    $err_msg == ''
-            ${err_msg}=    Set Variable    ${new_err}
-        ELSE
-            ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
-        END
-        Log To Console     \n\[ERROR] ${new_err}
-    END
-    ${szakmai_lektor}=    Get From Dictionary    ${clean}    Szakmai lektor
-    Log To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szakmai lektor: ${szakmai_lektor}
-    IF    $szakmai_lektor == '' or $szakmai_lektor == '#'
-        ${new_err}=    Set Variable    A Szakmai lektor mező nem létezik, vagy üres!
-        IF    $err_msg == ''
-            ${err_msg}=    Set Variable    ${new_err}
-        ELSE
-            ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
-        END
-        Log To Console     \n\[ERROR] ${new_err}
-    END
-    ${szerzo_list}=    Split String    ${szerzo}    ,
-    ${szakmai_lektor_list}=    Split String    ${szakmai_lektor}    ,
-    Log To Console    Szerző lista: ${szerzo_list}
-    Log To Console    Lektor lista: ${szakmai_lektor_list}
-    FOR    ${szerzo_item}    IN    @{szerzo_list}
-        FOR    ${lektor_item}    IN    @{szakmai_lektor_list}
-            ${szerzo_item}=    Strip String    ${szerzo_item}
-            ${lektor_item}=    Strip String    ${lektor_item}
-            Log To Console    Compare:${szerzo_item} and ${lektor_item}
-            IF    '${szerzo_item}' == '${lektor_item}'
-                Log To Console    Megegyezik a szerző és a lektor: ${szerzo_item}
-                ${new_err}=    Set Variable    A Kéziratíró és a Szakmai lektor nem lehet azonos!
-                IF    $err_msg == ''
-                    ${err_msg}=    Set Variable    ${new_err}
-                ELSE
-                    ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
-                END
-                BREAK
-            END
-        END
-    END
-    RETURN    ${err_msg}
+# Eltávolítva: korábbi szerteágazó ellenőrző keyword (helyette egységes logika a fenti blokkban)

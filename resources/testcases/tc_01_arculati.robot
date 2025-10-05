@@ -39,7 +39,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
     ${read_status}    ${docx_json}=    Run Keyword And Ignore Error    DocxReader.Read Docx All    ${docx_file}
     IF    '$read_status' == 'FAIL'
         ${errors}=    Create List    Olvasási hiba a docx fájlban (${docx_json})
-        Log To Console     \n\[ERROR] Olvasási hiba a docx fájlban (${docx_json})
+        Log To Console     [ERROR] Olvasási hiba a docx fájlban (${docx_json})
         ${paragraphs}=    Create List
     ELSE
         Set Global Variable    ${DOCX_JSON}    ${docx_json}
@@ -50,6 +50,8 @@ Test Case 01 - Arculati Elemek Ellenorzese
     ${second_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
     Log To Console    Második sor: ${second_paragraph}
      Set Global Variable    ${EGYEDI_AZONOSITO}    ${second_paragraph}
+     Log To Console    EGYEDI AZONOSITO: ${EGYEDI_AZONOSITO}
+
     IF    $second_paragraph == ''
         Append To List    ${errors}    A második sor nem található!
     ELSE
@@ -62,15 +64,17 @@ Test Case 01 - Arculati Elemek Ellenorzese
     # 3. sor – Cím (nem lehet üres)
     ${third_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
     Log To Console    Harmadik sor: ${third_paragraph}
+
     IF    $third_paragraph == ''
         Append To List    ${errors}    A harmadik sor kötelezően nem lehet üres!
     END
+   Set Global Variable    ${DOKUMENTUM_CIMSOR}    ${third_paragraph}
+   Log To Console    DOKUMENTUM_CIMSOR: ${DOKUMENTUM_CIMSOR}
 
     # 4. sor – "Téma kézirata" vagy többes változat
     ${fourth_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
     Log To Console    Negyedik sor: ${fourth_paragraph}
-    Set Global Variable    ${DOKUMENTUM_CIMSOR}    ${fourth_paragraph}
-
+ 
     ${fourth_norm}=    Strip String    ${fourth_paragraph}
     ${accepted}=    Create List    Téma kézirata    Témák kézirata
     ${found}=    Run Keyword And Return Status    List Should Contain Value    ${accepted}    ${fourth_norm}
