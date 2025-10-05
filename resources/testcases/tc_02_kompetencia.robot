@@ -69,6 +69,13 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
                 Append To List    ${errors}    ${new_err}
                 Log To Console    [ERROR] ${new_err}
             END
+            #összehasonlítás a globálisan elmentett azonosítóval
+            ${global_azonosito}=    Get Variable Value    ${EGYEDI_AZONOSITO}    ${EMPTY}
+            IF    "${second_paragraph}" != "${global_azonosito}"
+                ${new_err}=    Set Variable    Az egyedi megrendelés azonosító nem egyezik a Téma kéziratában megadottal!
+                Append To List    ${errors}    ${new_err}
+                Log To Console    [ERROR] ${new_err}
+            END
         END
         
         #------------------------------- harmadik sor cím ellenőrzése --------------------
@@ -79,7 +86,13 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
             Append To List    ${errors}    ${new_err}
             Log To Console    [ERROR] ${new_err}
         END
-        
+        #összehasonlítás a globálisan elmentett címmel
+        ${global_cim}=    Get Variable Value    ${DOKUMENTUM_CIMSOR}    ${EMPTY}
+        IF    "${third_paragraph}" != "${global_cim}"    
+            ${new_err}=    Set Variable    A cím nem egyezik a Téma kéziratában megadottal!
+            Append To List    ${errors}    ${new_err}
+            Log To Console    [ERROR] ${new_err}
+        END
         #------------------------------- negyedik sor Témák kézirata ellenőrzése --------------------
         ${fourth_paragraph}    ${act_line}=    Get Next Non Empty Paragraph    ${paragraphs}    ${act_line}
         Log To Console    Negyedik sor: ${fourth_paragraph}
@@ -91,6 +104,7 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
         END
 
     ${unique_errors}=    Remove Duplicates    ${errors}
+
     ${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique_errors}
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
 

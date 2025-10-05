@@ -49,6 +49,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
     # 2. sor – Egyedi megrendelés azonosítója
     ${second_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
     Log To Console    Második sor: ${second_paragraph}
+     Set Global Variable    ${EGYEDI_AZONOSITO}    ${second_paragraph}
     IF    $second_paragraph == ''
         Append To List    ${errors}    A második sor nem található!
     ELSE
@@ -68,6 +69,8 @@ Test Case 01 - Arculati Elemek Ellenorzese
     # 4. sor – "Téma kézirata" vagy többes változat
     ${fourth_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
     Log To Console    Negyedik sor: ${fourth_paragraph}
+    Set Global Variable    ${DOKUMENTUM_CIMSOR}    ${fourth_paragraph}
+
     ${fourth_norm}=    Strip String    ${fourth_paragraph}
     ${accepted}=    Create List    Téma kézirata    Témák kézirata
     ${found}=    Run Keyword And Return Status    List Should Contain Value    ${accepted}    ${fourth_norm}
