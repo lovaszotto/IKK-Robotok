@@ -32,9 +32,19 @@ Test Case 24 - Cimsorozassal Keszult Ellenorzese
          #minden paragraph és stílus kiiratása
         #Log To Console    ${idx}: "${text}"
         #Log To Console    ${idx}: [${style}]
-        IF    "${style}" == "Heading 1" or "${style}" == "Heading 2" or "${style}" == "Heading 3" or "${style}" == "Heading 4" or "${style}" == "Heading 5" or "${style}" == "Heading 6"
+        ${is_match}=    Evaluate    any(re.search(r'(?i).*címsor.*', s) for s in ${stilusok})    re
+        IF    ${is_match}
             ${heading_count}=    Evaluate    ${heading_count} + 1
         END
+        ${is_match2}=    Evaluate    any(re.search(r'(?i).*heading.*', s) for s in ${stilusok})    re
+        IF   ${is_match2}
+            ${heading_count}=    Evaluate    ${heading_count} + 1
+        END
+        
+         #címsor stílusok számlálása
+        #IF    "${style}" == "Heading 1" or "${style}" == "Heading 2" or "${style}" == "Heading 3" or "${style}" == "Heading 4" or "${style}" == "Heading 5" or "${style}" == "Heading 6"
+        #    ${heading_count}=    Evaluate    ${heading_count} + 1
+        #END
     END
     IF    ${heading_count} < 5
         ${new_err}=    Set Variable    Nem használ címsorokat!
