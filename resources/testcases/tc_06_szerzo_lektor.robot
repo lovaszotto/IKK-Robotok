@@ -53,7 +53,7 @@ Test Case 06 - Szerzo Lektor Ellenorzese
 Szerzo Lektor Ellenorzesek
     [Arguments]    ${clean}    ${CR}    ${err_msg}
     ${szerzo}=    Get From Dictionary    ${clean}    Kéziratíró
-    Log To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szerző: ${szerzo}
+    #Log To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szerző: ${szerzo}
     IF    $szerzo == '' or $szerzo == '#'
         ${new_err}=    Set Variable    A Kéziratíró mező nem létezik, vagy üres!
         IF    $err_msg == ''
@@ -64,7 +64,7 @@ Szerzo Lektor Ellenorzesek
         Log To Console    [ERROR] ${new_err}
     END
     ${szakmai_lektor}=    Get From Dictionary    ${clean}    Szakmai lektor
-    Log To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szakmai lektor: ${szakmai_lektor}
+    #Log To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szakmai lektor: ${szakmai_lektor}
     IF    $szakmai_lektor == '' or $szakmai_lektor == '#'
         ${new_err}=    Set Variable    A Szakmai lektor mező nem létezik, vagy üres!
         IF    $err_msg == ''
@@ -79,15 +79,15 @@ Szerzo Lektor Ellenorzesek
     ${szakmai_lektor}=    Replace String    ${szakmai_lektor}    ;    ,
     ${szerzo_list}=    Split String    ${szerzo}    ,
     ${szakmai_lektor_list}=    Split String    ${szakmai_lektor}    ,
-    Log To Console    Szerző lista: ${szerzo_list}
-    Log To Console    Lektor lista: ${szakmai_lektor_list}
+    #Log To Console    Szerző lista: ${szerzo_list}
+    #Log To Console    Lektor lista: ${szakmai_lektor_list}
     FOR    ${szerzo_item}    IN    @{szerzo_list}
         FOR    ${lektor_item}    IN    @{szakmai_lektor_list}
             ${szerzo_item}=    Strip String    ${szerzo_item}
             ${lektor_item}=    Strip String    ${lektor_item}
-            Log To Console    Compare:${szerzo_item} and ${lektor_item}
+            #Log To Console    Compare:${szerzo_item} and ${lektor_item}
             IF    '${szerzo_item}' == '${lektor_item}'
-                Log To Console    Megegyezik a szerző és a lektor: ${szerzo_item}
+                #Log To Console    Megegyezik a szerző és a lektor: ${szerzo_item}
                 ${new_err}=    Set Variable    A Kéziratíró és a Szakmai lektor nem lehet azonos!
                 IF    $err_msg == ''
                     ${err_msg}=    Set Variable    ${new_err}

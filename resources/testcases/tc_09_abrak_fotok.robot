@@ -23,85 +23,82 @@ Test Case 09 - Abrak Fotok Ellenorzese
     ${filename_part}=   Get Variable Value    ${CURRENT_FILENAME_PART}    ${EMPTY}
     ${err_msg}=    Set Variable    ${EMPTY}
     ${CR}=    Evaluate    chr(13)
-  
+    ${is_abra}=    Set Variable    0
+    ${abra_text}=    Set Variable    ${EMPTY}
+
+ 
     ${docx_path}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
     ${pars}=    Evaluate    [{'idx': i+1, 'text': p.text, 'style': (p.style.name if p.style else 'N/A')} for i,p in enumerate(__import__('docx').Document(r'''${docx_path}''').paragraphs)]
-      #style begyűjtése egy uniq listába
-     #${styles}=    Create List  
-
-      #      FOR    ${par}    IN    @{pars}
-      #          ${style}=    Get From Dictionary    ${par}    style
-      #          ${already}=    Run Keyword And Return Status    List Should Contain Value    ${styles}    ${style}
-      #          IF    not ${already}
-      #                  Append To List    ${styles}    ${style}
-      #          END
-      #      END
-    #Log To Console   §§§§§§§§§§§§§§§§§§§§§§§§§ Stílusok a dokumentumban: ${styles}
-    #sTILUSOK FELÍRÁSA EXCELBE
-    #Fill Excel Cell    ${excel_file}    ${sheet_name}    27    2    ${styles}
     
     FOR    ${par}    IN    @{pars}
         ${idx}=    Get From Dictionary    ${par}    idx
         ${text}=    Get From Dictionary    ${par}    text
         ${style}=    Get From Dictionary    ${par}    style
-        ${sum_idx}=    Evaluate    ${sum_idx} + ${idx}
         
         #Log To Console    ${idx}: "${text}"
-        #Log To Console    ${idx}: [${style}]
+        #Log To Console    ${idx}: [${style}] "${text}"
         #CONTINUE
-
-        #ha text üres vagy Téma jegyzék, akkor kihagyjuk
-        IF    $text == "" or "Téma kézirata" in $text or "Egyedi megrendelés azonosítója:" in $text
+        
+        
+        #table of figures kihagyása
+         IF    $style == "table of figures" 
             CONTINUE
         END    
-        #A címlapon lévőket kihagyjuk
-        IF    ${sum_idx} < 10
-            #Log To Console    ========KIHAGYVA:${sum_idx}: "${text}"
+
+        #ha text üres vagy Téma jegyzék, akkor kihagyjuk
+        IF    $text == "" 
             CONTINUE
+        END    
+     
+        IF    "${style}" == "Caption"
+          #Log To Console    \n\n=========================== SZK Ábrajegyzék:${idx}: "${text}"        
+          #Log To Console    \n\n--------------------------- Caption:${idx}: ${style} ${text}
+
+          # Reset counter after a table of figures heading
+          ${abra_utan}=    Evaluate    ${idx} + 1
+          ${is_abra}=    Set Variable    1
+          ${abra_text}=    Set Variable    ${text}
+
         END
         IF    "${style}" == "SZK Ábrajegyzék"
-          #Log To Console    \n\n=========================== ÁBRA:${idx}: "${text}"
+          #Log To Console    \n\n=========================== SZK Ábrajegyzék:${idx}: "${text}"        
+          #Log To Console    --------------------------- SZK Ábrajegyzék:${idx}: ${style}
+          # Reset counter after a table of figures heading
+          ${abra_utan}=    Evaluate    ${idx} + 1
+          ${is_abra}=    Set Variable    1
+          ${abra_text}=    Set Variable    ${text}
+        END
+        IF    "${style}" == "a_ELMS_Ábraaláírás"
+          #Log To Console    \n\n=========================== a_ELMS_Ábraaláírás:${idx}: "${text}"
           #Log To Console    --------------------------- ÁBRA:${idx}: ${style}
           # Reset counter after a table of figures heading
-          ${abra_utan}=    Set Variable    0
+          ${abra_utan}=    Evaluate    ${idx} + 1
+         ${is_abra}=    Set Variable    1
+         ${abra_text}=    Set Variable    ${text}
         END
+        #ha az idx értéke  megegyezik az abra_utan értékével, akkor ez az ábra utáni sor
 
-        IF    ${abra_utan} < 5
-            #Log To Console    >>>>${abra_utan}>>> Ábra/fotó után: ${text}
-            #Log To Console    ${idx}: "${text}"
-            #Log To Console    ${idx}: ${style}
-           #Ha a text tartalmazza a "Forrás:" szót, akkor    
-           # FIX: 'contains' is not valid in Robot inline IF expression; use Python 'in'
-           # Robot Framework expression evaluation: use $text so expression is parsed before variable substitution
-           IF    "Forrás:" in $text
-               ${has_forras}=    Evaluate    ${has_forras} + 1
-           END
-            #növeljük egyel
-            ${abra_utan}=    Evaluate    ${abra_utan} + 1
-        ELSE
-            # Reached the limit -> reset counter back to 0
-            ${abra_utan}=    Set Variable    0
-        END
-
-     
-         # ha a has_forrás 0, akkor hibaüzenet
-        IF    ${has_forras} == 0        
-            ${text}=    Get Substring    ${text}    0    40
-            ${new_err}=    Set Variable    Ábra/fotó után nincs Forrás megjelölve! ${idx}.sor ${text}
-            IF    $err_msg == ''
-                ${err_msg}=    Set Variable    ${new_err}
-            ELSE
-                # err_msg max 500 karakter lehet (új hibával együtt)
-                ${current_len}=    Evaluate    len($err_msg)
-                ${new_len}=    Evaluate    ${current_len} + len($new_err) + 1
-                IF    ${new_len} < 500
-                    ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+        ${is_next_line}=    Evaluate    ${idx} == ${abra_utan}
+        IF    ${is_next_line}
+           #Log To Console    Next line: ${idx}: [${style}] "${text}"
+           #${abra_utan}=    Evaluate    ${abra_utan} + 1
+           IF   not "Forrás:" in $text
+                ${text}=    Get Substring    ${abra_text}    0    100
+                ${new_err}=    Set Variable    Ábra/fotó után nincs Forrás megjelölve! ${idx}.sor ${text}
+                IF    $err_msg == ''
+                    ${err_msg}=    Set Variable    ${new_err}
+                ELSE
+                    # err_msg max 500 karakter lehet (új hibával együtt)
+                    ${current_len}=    Evaluate    len($err_msg)
+                    ${new_len}=    Evaluate    ${current_len} + len($new_err) + 1
+                    IF    ${new_len} < 500
+                        ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+                    END
                 END
-            END
-            Log To Console     [ERROR] ${new_err}    
-       END
-        
+                Log To Console     [ERROR] ${new_err}    
+           END
+        END
+ 
     END
-
      # Teszt státusz és Excel jelölés végrehajtása a megadott soron
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}

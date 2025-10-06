@@ -735,7 +735,7 @@ Run All Format Checks Inline
     # Globális számlálók frissítése
     Update Global Check Counters    ${check_total}    ${check_passed}    ${check_failed}
     
-    Log String To Console    === Mind a 23 formálellenőrzés befejezve ===
+    Log String To Console    === Mind a 24 formálellenőrzés befejezve ===
 
 Rename Excel File Mark Error
     [Documentation]    Hibás ellenőrzés esetén az Excel fájl átnevezése: K_ell -> _K_ell a fájlnévben
