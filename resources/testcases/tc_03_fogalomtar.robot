@@ -40,13 +40,13 @@ Test Case 03 - Fogalomtar Ellenorzese
    # docx_file_kompetencia beállítása a docx_file ban csere _tema_kezirata szöveg with kompetencia_tesztek_kezirata            
     ${docx_file_fog}=    Replace String    ${docx_file}    _tema_kezirata    _fogalomtar_kezirata
     # Biztonságos beolvasás (TRY/EXCEPT helyett Robot kulcsszintű hibakezelés)
-    Log To Console     Fogalomtár kézirata fájl:${docx_file_fog}
+    #Log To Console     Fogalomtár kézirata fájl:${docx_file_fog}
     ${read_status}    ${docx_json_fog}=    Run Keyword And Ignore Error    DocxReader.Read Docx All    ${docx_file_fog}
-    IF    '$read_status' == 'FAIL'
-        ${new_err}=    Set Variable    Olvasási hiba (${docx_json_fog})
-        Append To List    ${errors}    ${new_err}
-        Log To Console     [ERROR] ${new_err}
-        ${paragraphs}=    Create List
+    IF    $read_status == 'FAIL'
+        ${err_msg}=    Set Variable    Olvasási hiba (${docx_json_fog})
+        Log To Console     [ERROR] ${err_msg}
+        Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
+         RETURN
     ELSE
         Log To Console     Fogalomtár fájl:${docx_file_fog}   >>>BEOLVASVA ${docx_json_fog}
         #Set Global Variable    ${docx_json_fog}    ${docx_json_fog}

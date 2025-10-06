@@ -1,5 +1,6 @@
 *** Settings ***
 Library     Collections
+Library    RPA.Robocorp.Process
 # RPA.Browser.Selenium eltávolítva – nem szükséges és hiányzó modul hibát okozott
 Resource    ${CURDIR}/../keywords.robot
 Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
@@ -43,11 +44,13 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
     # Biztonságos beolvasás (TRY/EXCEPT helyett Robot kulcsszintű hibakezelés)
     Log To Console     Kompetencia fájl:${docx_file_kompetencia}
     ${read_status}    ${docx_json_komp}=    Run Keyword And Ignore Error    DocxReader.Read Docx All    ${docx_file_kompetencia}
-    IF    '$read_status' == 'FAIL'
-        ${new_err}=    Set Variable    Olvasási hiba (${docx_json_komp})
-        Append To List    ${errors}    ${new_err}
-        Log To Console     [ERROR] ${new_err}
-        ${paragraphs}=    Create List
+    Log To Console   Status: ${read_status}
+    #Log To Console    JSON:${docx_json_komp}
+    IF    $read_status == 'FAIL'
+        ${err_msg}=    Set Variable    Olvasási hiba (${docx_json_komp})    
+        Log To Console     [ERROR] ${err_msg}
+         Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
+         RETURN
     ELSE
         Log To Console     Kompetencia fájl:${docx_file_kompetencia}   >>>BEOLVASVA ${docx_json_komp}
         #Set Global Variable    ${DOCX_JSON_KOMP}    ${docx_json_komp}

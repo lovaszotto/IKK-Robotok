@@ -1023,16 +1023,16 @@ Create_K_ell_Excel
     [Documentation]    DOCX fájl feldolgozás - Excel fájl és sheet meghatározása
     [Arguments]    ${docx_file}
     
-    #Log To Console    \n=== DOCX FÁJL ÚTVONAL FELDOLGOZÁSA ===
-    #Log To Console    Kapott paraméter: ${docx_file}
+    Log To Console    \n=== DOCX FÁJL ÚTVONAL FELDOLGOZÁSA ===
+    Log To Console    Kapott paraméter: ${docx_file}
     
     # Path és filename szétválasztása
     ${path_part}=    Evaluate    __import__('os').path.dirname(r'''${docx_file}''')    modules=os
     ${filename_part}=    Evaluate    __import__('os').path.basename(r'''${docx_file}''')    modules=os
     
-    #Log To Console    Path rész: ${path_part}
-    #Log To Console    Filename rész: ${filename_part}
-    #Log To Console    Input folder (globális): ${INPUT_FOLDER}
+    Log To Console    Path rész: ${path_part}
+    Log To Console    Filename rész: ${filename_part}
+    Log To Console    Input folder (globális): ${INPUT_FOLDER}
     
     Set Global Variable    ${FILENAME}    ${filename_part}
     
@@ -1077,8 +1077,8 @@ Create_K_ell_Excel
     END
     
     ${parts_count}=    Get Length    ${relative_parts}
-    #Log To Console    Path részek száma (input folder nélkül): ${parts_count}
-    #Log To Console    Relatív path részek: ${relative_parts}
+    Log To Console    Path részek száma (input folder nélkül): ${parts_count}
+    Log To Console    Relatív path részek: ${relative_parts}
     
     # Legalább 2 könyvtárra van szükség (parent és child)
     IF    ${parts_count} < 2
