@@ -9,7 +9,7 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
     ${testCase_row}=    Set Variable    24
-    ${CR}=    Evaluate    chr(13)
+    ${CR}=    Set Variable    ;
     ${err_list}=    Create List
     ${ok}    ${cover}    ${base_err}=    Parse Cover Table
     IF    not ${ok}

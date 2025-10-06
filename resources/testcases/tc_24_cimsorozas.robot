@@ -18,7 +18,7 @@ Test Case 24 - Cimsorozassal Keszult Ellenorzese
     ${path_part}=       Get Variable Value    ${CURRENT_PATH_PART}    ${EMPTY}
     ${filename_part}=   Get Variable Value    ${CURRENT_FILENAME_PART}    ${EMPTY}
     ${err_msg}=    Set Variable    ${EMPTY}
-    ${CR}=    Evaluate    chr(13)
+    ${CR}=    Set Variable    ;
   
     ${docx_path}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
     ${pars}=    Evaluate    [{'idx': i+1, 'text': p.text, 'style': (p.style.name if p.style else 'N/A')} for i,p in enumerate(__import__('docx').Document(r'''${docx_path}''').paragraphs)]

@@ -34,7 +34,7 @@ Test Case 03 - Fogalomtar Ellenorzese
 
     ${errors}=    Create List
     ${err_msg}=    Set Variable    ${EMPTY}
-    ${CR}=    Evaluate    chr(13)
+    ${CR}=    Set Variable    ;
     
     ${act_line}=    Set Variable    0
    # docx_file_kompetencia beállítása a docx_file ban csere _tema_kezirata szöveg with kompetencia_tesztek_kezirata            

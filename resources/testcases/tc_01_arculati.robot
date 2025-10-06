@@ -31,7 +31,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
   
     ${docx_file}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
     ${docx_json}=    Get Variable Value    ${DOCX_JSON}    ${EMPTY}
-    ${CR}=    Evaluate    chr(13)
+    ${CR}=    Set Variable    ;
     ${errors}=    Create List
     ${err_msg}=    Set Variable    ${EMPTY}
     ${act_line}=    Set Variable    0

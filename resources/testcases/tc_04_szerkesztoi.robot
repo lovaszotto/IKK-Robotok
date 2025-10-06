@@ -17,7 +17,7 @@ Test Case 04 - Szerkesztoi Instrukciok Ellenorzese
     ${docx_file}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
     ${docx_json}=    Get Variable Value    ${DOCX_JSON}    ${EMPTY}
     ${err_msg}=    Set Variable    ${EMPTY}
-    ${CR}=    Evaluate    chr(13)
+    ${CR}=    Set Variable    ;
 
     # Szerkesztői instrukciók, megjegyzések/korrektúrák ellenőrzése a DOCX_JSON alapján
     ${docx_json}=    Get Variable Value    ${DOCX_JSON}    ${EMPTY}

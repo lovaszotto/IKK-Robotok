@@ -22,7 +22,8 @@ Test Case 09 - Abrak Fotok Ellenorzese
     ${path_part}=       Get Variable Value    ${CURRENT_PATH_PART}    ${EMPTY}
     ${filename_part}=   Get Variable Value    ${CURRENT_FILENAME_PART}    ${EMPTY}
     ${err_msg}=    Set Variable    ${EMPTY}
-    ${CR}=    Evaluate    chr(13)
+     ${CR}=    Set Variable    ;
+    #${CR}=    Set Variable    ;
     ${is_abra}=    Set Variable    0
     ${abra_text}=    Set Variable    ${EMPTY}
 
@@ -91,9 +92,9 @@ Test Case 09 - Abrak Fotok Ellenorzese
                     # err_msg max 500 karakter lehet (új hibával együtt)
                     ${current_len}=    Evaluate    len($err_msg)
                     ${new_len}=    Evaluate    ${current_len} + len($new_err) + 1
-                    IF    ${new_len} < 500
+                    #IF    ${new_len} < 500
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
-                    END
+                    #END
                 END
                 Log To Console     [ERROR] ${new_err}    
            END

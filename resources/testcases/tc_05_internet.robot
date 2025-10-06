@@ -17,7 +17,7 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
     ${docx_file}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
     ${docx_json}=    Get Variable Value    ${DOCX_JSON}    ${EMPTY}
     ${err_msg}=    Set Variable    ${EMPTY}
-    ${CR}=    Evaluate    chr(13)
+    ${CR}=    Set Variable    ;
    
     #végignézzük a paragrafusokat, és keresünk benne hivatkozásokat  
     ${paragraphs}=    Get From Dictionary    ${docx_json}    paragraphs

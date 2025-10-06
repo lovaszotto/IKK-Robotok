@@ -17,7 +17,7 @@ Test Case 06 - Szerzo Lektor Ellenorzese
     ${docx_file}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
     ${docx_json}=    Get Variable Value    ${DOCX_JSON}    ${EMPTY}
     ${err_msg}=    Set Variable    ${EMPTY}
-    ${CR}=    Evaluate    chr(13)
+    ${CR}=    Set Variable    ;
     # Ellenőrizd, hogy a docx_json tényleg dictionary, különben hibát jelezz
     ${is_dict}=    Evaluate    isinstance(${docx_json}, dict)
     IF    not ${is_dict}

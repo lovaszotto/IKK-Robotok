@@ -22,7 +22,7 @@ Test Case 21 - Szerkesztheto Docx Formatum Ellenorzese
     ${col_present}=    Set Variable    3
     ${col_missing}=    Set Variable    4
     ${vedett}=    Set Variable    0
-    ${CR}=    Evaluate    chr(13)
+    ${CR}=    Set Variable    ;
     ${err_msg}=    Set Variable     ${EMPTY}
     
     # Részletes ellenőrzések
