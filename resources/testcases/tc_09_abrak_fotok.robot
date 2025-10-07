@@ -61,6 +61,16 @@ Test Case 09 - Abrak Fotok Ellenorzese
           ${abra_text}=    Set Variable    ${text}
 
         END
+
+        IF    "${style}" == "SK Képaláírás"
+          #Log To Console    \n\n=========================== SK Képaláírás:${idx}: "${text}"        
+          #Log To Console    --------------------------- SK Képaláírás:${idx}: ${style}
+          # Reset counter after a table of figures heading
+          ${abra_utan}=    Evaluate    ${idx} + 1
+          ${is_abra}=    Set Variable    1
+          ${abra_text}=    Set Variable    ${text}
+        END
+
         IF    "${style}" == "SZK Ábrajegyzék"
           #Log To Console    \n\n=========================== SZK Ábrajegyzék:${idx}: "${text}"        
           #Log To Console    --------------------------- SZK Ábrajegyzék:${idx}: ${style}

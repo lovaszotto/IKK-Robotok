@@ -1,11 +1,16 @@
 *** Settings ***
 Library     Collections
-Library    RPA.Robocorp.Process
+# RPA.Robocorp.Process eltávolítva – nem használt és hiányzó modul hibát okozott
 # RPA.Browser.Selenium eltávolítva – nem szükséges és hiányzó modul hibát okozott
 Resource    ${CURDIR}/../keywords.robot
 Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 
 *** Keywords ***
+Normalize Text For Title Compare
+    [Arguments]    ${text}
+    ${t}=    Convert To String    ${text}
+        # Normalizálás eltávolítva kérésre, visszaadjuk az eredeti szöveget
+    RETURN    ${t}
 Get Next Non Empty Paragraph
     [Arguments]    ${paragraphs}    ${start_index}
     ${total}=    Get Length    ${paragraphs}
@@ -14,7 +19,8 @@ Get Next Non Empty Paragraph
         ${p}=    Get From List    ${paragraphs}    ${idx}
         ${p}=    Strip String    ${p}
         IF    $p != ''
-            RETURN    ${p}    ${idx + 1}
+            ${next_idx}=    Evaluate    ${idx} + 1
+            RETURN    ${p}    ${next_idx}
         END
         ${idx}=    Evaluate    ${idx} + 1
     END
@@ -95,12 +101,14 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
         #trimmeljük mindkét oldalt
         ${third_paragraph}=    Strip String    ${third_paragraph}
         ${global_cim}=    Strip String    ${global_cim}
-        IF    "${third_paragraph}" != "${global_cim}"
+        ${n_third}=    Normalize Text For Title Compare    ${third_paragraph}
+        ${n_global}=   Normalize Text For Title Compare    ${global_cim}
+        IF    "${n_third}" != "${n_global}"
             ${new_err}=    Set Variable    A cím nem egyezik a Téma kéziratában megadottal!
             Append To List    ${errors}    ${new_err}
             Log To Console     [ERROR] ${new_err}
-            Log To Console     [TEMA] ${third_paragraph}
-            Log To Console     [KOMPETENCIA] ${global_cim}
+            Log To Console     [TEMA] ${third_paragraph} (norm: ${n_third})
+            Log To Console     [KOMPETENCIA] ${global_cim} (norm: ${n_global})
         END
         #------------------------------- negyedik sor Témák kézirata ellenőrzése --------------------
         ${fourth_paragraph}    ${act_line}=    Get Next Non Empty Paragraph    ${paragraphs}    ${act_line}

@@ -1,6 +1,6 @@
 *** Settings ***
 Library     Collections
-Library    RPA.RobotLogListener
+# RPA.RobotLogListener eltávolítva – nem használt és hiányzó modul hibát okozott
 Resource    ${CURDIR}/../keywords.robot
 Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 
@@ -98,4 +98,4 @@ Szerzo Lektor Ellenorzesek
             END
         END
     END
-    [Return]    ${err_msg}
+    RETURN    ${err_msg}

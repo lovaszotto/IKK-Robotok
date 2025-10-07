@@ -1,5 +1,6 @@
 *** Settings ***
 Library     Collections
+# RPA.JSON eltávolítva – nem használt és hiányzó modul hibát okozott
 Resource    ${CURDIR}/../keywords.robot
 Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
@@ -36,6 +37,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
     ${err_msg}=    Set Variable    ${EMPTY}
     ${act_line}=    Set Variable    0
     # DOCX beolvasás biztonságosan
+    Log To Console    docx_file fájl:${docx_file}
     ${read_status}    ${docx_json}=    Run Keyword And Ignore Error    DocxReader.Read Docx All    ${docx_file}
     IF    '$read_status' == 'FAIL'
         ${errors}=    Create List    Olvasási hiba a docx fájlban (${docx_json})
@@ -43,8 +45,34 @@ Test Case 01 - Arculati Elemek Ellenorzese
         ${paragraphs}=    Create List
     ELSE
         Set Global Variable    ${DOCX_JSON}    ${docx_json}
+        #Log To Console     ${docx_json}
         ${paragraphs}=    Get From Dictionary    ${docx_json}    paragraphs
+        ${tables}=    Get From Dictionary    ${docx_json}    tables
     END
+
+       # Paragrafusok száma
+       ${np}=      Evaluate    len(${paragraphs})
+       Log To Console    Összes paragrafus: ${np}
+   
+
+    # paragraph és stílus kiiratása debug
+    #Log To Console    ------------------- PARAGRAFUSOK A DOCX_JSON-BAN ------------------
+    ${pars}=    Evaluate    [{'idx': i+1, 'text': p.text, 'style': (p.style.name if p.style else 'N/A')} for i,p in enumerate(__import__('docx').Document(r'''${docx_file}''').paragraphs)]
+ 
+    FOR    ${par}    IN    @{pars}
+        ${idx}=    Get From Dictionary    ${par}    idx
+        ${text}=    Get From Dictionary    ${par}    text
+        ${style}=    Get From Dictionary    ${par}    style
+        #Log To Console    ${idx}: [${style}] "${text}"
+    END    
+     # Táblák száma
+       ${n}=      Evaluate    len(${tables})
+       Log To Console    Összes táblázat: ${n}
+    
+    #todo here
+  
+    
+
     # Stílusok begyűjtése a dokumentumban
     # (a docx modulból a Document osztályt használva, mert a DOCX_JSON nem tartalmazza a stílusokat)
 

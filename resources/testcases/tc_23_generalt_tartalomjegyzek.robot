@@ -1,25 +1,10 @@
 
-#*** Settings ***
-#Library    OperatingSystem
-#Library    String
-#Library    Collections
-
-#*** Variables ***
-#${DOCX_PATH}    example.docx
-#${TMP_DIR}      ${OUTPUT DIR}${/}unzip
-
-#*** Test Cases ***
-#Tartalomjegyzek Ellenorzes DOCX-ben
-#    Remove Directory    ${TMP_DIR}    recursive=True
-#    Create Directory    ${TMP_DIR}
-#    Run Process    unzip    -qq    ${DOCX_PATH}    -d    ${TMP_DIR}
-#    ${xml}=    Get File    ${TMP_DIR}${/}word${/}document.xml
-#    ${van_toc}=    Run Keyword And Return Status    Should Contain    ${xml}    TOC
-#    Run Keyword If    ${van_toc}    Log    ✅ Van tartalomjegyzék mező a DOCX-ben.
-#    ...    ELSE    Log    ❌ Nincs TOC mező a DOCX-ben.
-
 
 *** Settings ***
+Library    OperatingSystem
+Library    String
+Library    Collections
+Library    ../../libraries/DocxXmlExtractor.py
 Resource   ${CURDIR}/../keywords.robot
 Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 
@@ -35,38 +20,22 @@ Test Case 23 - Generalt Tartalomjegyzek Ellenorzese
     ${err_msg}=    Set Variable    ${EMPTY}
     #ellenőrizzük, hogy style-ban van-e toc
     ${stilusok}=  Get Variable Value    ${STILUSOK}
-    # a ${stilusok} -ban megtalálható a toc al kezdődő  stílus
-    #${has_toc_style}=    Run Keyword And Return Status    Should Match    ${stilusok}    *toc*       ignore_case=true
-    ${has_toc_style}=    Evaluate    any(re.search(r'(?i).*toc.*', s) for s in ${stilusok})    re
-
-    #Log to Console    Stílusok : ${stilusok}
-    #Log to Console    Stílusok között van-e toc: ${has_toc_style}
-    IF    not ${has_toc_style}
-        # ellenőrizzük, hogy van-e benne generált tartalomjegyzék
-        ${err_msg}=    Check Document Has Generated Table Of Contents
-   END
-    # Teszt státusz és Excel jelölés végrehajtása a megadott soron
+    
+    ${file_path}=   Get Variable Value    ${DOCX_FILE}    ${EMPTY}
+    #Log To Console    ++++++++++++++++++++++++++++ ${file_path}+++++++++++++++++++++++++++++++++++++++++
+    ${entries}=    Extract TOC Entries From Docx File    ${file_path}
+    ${filename_part}=   Get Variable Value    ${CURRENT_FILENAME_PART}    ${EMPTY}
+    ${toc_count}=    Get Length    ${entries}
+    Log To Console    Talált TOC sorok száma: ${toc_count}
+    #FOR    ${e}    IN    @{entries}
+    #    Log To Console    TOC: ${e}
+    #END
+    #ellenőrizzük, hogy van-e benne toc
+    ${toc_count}=    Get Length    ${entries}
+    IF    ${toc_count} == 0
+            ${err_msg}=    Set Variable    Nincs generált tartalomjegyzék a dokumentumban!
+    END
     Mark Test Status    ${excel_file}    ${sheet_name}    ${question_row}    ${err_msg}
 
-
-  
-
-Check Document Has Generated Table Of Contents
-    [Documentation]    Ellenőrzi, hogy a ${DOCX_FILE} dokumentumban Word-generált tartalomjegyzék (TOC mező) található-e.
-    ${docx_file}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
-    ${err_msg}=    Set Variable    ${EMPTY}
-    Run Keyword If    '${docx_file}' == ''    Set Test Variable    ${err_msg}    Üres DOCX fájlnév változó
-    ${status}    ${docxml}=    
-    ...    Run Keyword And Ignore Error    Evaluate    __import__('zipfile').ZipFile(path,'r').read('word/document.xml')    path=${docx_file}
-    IF    '${status}' != 'PASS'
-        ${has_toc}=    Set Variable    ${False}
-    ELSE
-        ${text}=    Evaluate    str(data,'utf-8','ignore').lower()    data=${docxml}
-        ${p1}=    Evaluate    'w:fldsimple' in t and 'w:instr="toc' in t    t=${text}
-        ${p2}=    Evaluate    'w:instrtext' in t and 'toc' in t    t=${text}
-        ${has_toc}=    Evaluate    bool(p1 or p2)    p1=${p1}    p2=${p2}
-    END
-    IF    not ${has_toc}
-        ${err_msg}=    Set Variable    Nincs generált tartalomjegyzék
-    END
-    RETURN    ${err_msg}
+    
+    # Nincs explicit RETURN: a kulcsszó csak státuszt jelöl

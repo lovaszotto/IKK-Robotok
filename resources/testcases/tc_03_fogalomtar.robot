@@ -13,7 +13,8 @@ Get Next Non Empty Paragraph
         ${p}=    Get From List    ${paragraphs}    ${idx}
         ${p}=    Strip String    ${p}
         IF    $p != ''
-            RETURN    ${p}    ${idx + 1}
+            ${next_idx}=    Evaluate    ${idx} + 1
+            RETURN    ${p}    ${next_idx}
         END
         ${idx}=    Evaluate    ${idx} + 1
     END
