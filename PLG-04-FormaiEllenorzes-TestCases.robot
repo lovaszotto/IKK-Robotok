@@ -48,7 +48,7 @@ Test Case 06 - Szerzo Lektor Ellenorzese
 Test Case 07 - Hosszu Idezetek Ellenorzese
     [Documentation]    Ellenőrzi a hosszú idézetek formázását
     [Tags]    formai    idezetek
-    Test Case 07 - Hosszu Idezetek Ellenorzese
+    Test Case 07 - Hosszu Idezetek Ellenorzese   
 
 Test Case 08 - Tordeles Ellenorzese
     [Documentation]    Ellenőrzi a tördelési szabályok betartását

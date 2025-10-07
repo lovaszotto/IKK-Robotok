@@ -557,7 +557,7 @@ Run All Format Checks Inline
         Log String To Console    [HIBA] 06 - Szerzo Lektor: ${msg}
     END
     
-    ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 07 - Hosszu Idezetek Ellenorzese
+    ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 07 - Hosszu Idezetek Ellenorzese  
     ${check_total}=    Evaluate    ${check_total} + 1
     IF    '${rc}' == 'PASS'
         ${check_passed}=    Evaluate    ${check_passed} + 1
