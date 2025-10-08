@@ -233,7 +233,7 @@ Arculati Elemek Ellenorzese
     [Documentation]    Ellenőrzi, hogy a dokumentum rendelkezik-e az előírt arculati elemekkel
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[1] Arculati elemek ellenőrzése...
+    Log String To Console     \n\[1] Arculati elemek ellenőrzése...
     
     # Itt implementálható a konkrét arculati elemek ellenőrzése
     # Például: logo, színek, betűtípusok, stb.
@@ -245,7 +245,7 @@ Kompetencia Teszt Ellenorzese
     [Documentation]    Ellenőrzi, hogy tartalmaz-e kompetencia tesztet/ellenőrző kérdéseket
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[2] Kompetencia teszt ellenőrzése...
+    Log String To Console     \n\[2] Kompetencia teszt ellenőrzése...
     
     # Szövegben keres kompetencia/teszt/kérdés kulcsszavakra
     ${szoveg}=    Get Variable Value    ${SZOVEG}    ${EMPTY}
@@ -259,7 +259,7 @@ Fogalomtar Ellenorzese
     [Documentation]    Ellenőrzi, hogy tartozik-e fogalomtár a kézirathoz
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[3] Fogalomtár ellenőrzése...
+    Log String To Console     \n\[3] Fogalomtár ellenőrzése...
     
     # Szövegben keres fogalomtár/glosszárium kulcsszavakra
     ${szoveg}=    Get Variable Value    ${SZOVEG}    ${EMPTY}
@@ -273,7 +273,7 @@ Szerkesztoi Instrukciok Ellenorzese
     [Documentation]    Ellenőrzi, hogy nincsenek szerkesztői instrukciók a törzsszövegben
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[4] Szerkesztői instrukciók ellenőrzése...
+    Log String To Console     \n\[4] Szerkesztői instrukciók ellenőrzése...
     
     # Szövegben keres szerkesztői instrukciókra utaló kifejezésekre
     ${szoveg}=    Get Variable Value    ${SZOVEG}    ${EMPTY}
@@ -288,7 +288,7 @@ Internet Hivatkozasok Ellenorzese
     [Documentation]    Ellenőrzi az internetes hivatkozások dátumait
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[5] Internet hivatkozások ellenőrzése...
+    Log String To Console     \n\[5] Internet hivatkozások ellenőrzése...
     
     # Szövegben keres URL-ekre és dátumokra
     ${szoveg}=    Get Variable Value    ${SZOVEG}    ${EMPTY}
@@ -302,7 +302,7 @@ Szerzo Lektor Ellenorzese
     [Documentation]    Ellenőrzi, hogy szerző és lektor nem azonos
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[6] Szerző-lektor ellenőrzése...
+    Log String To Console     \n\[6] Szerző-lektor ellenőrzése...
     
     # Itt implementálható a szerző és lektor nevek összehasonlítása
     ${eredmeny}=    Set Variable    PASS - Szerző-lektor ellenőrzése sikeres
@@ -313,7 +313,7 @@ Hosszu Idezetek Ellenorzese
     [Documentation]    Ellenőrzi a hosszú idézetek jelenlétét és formázását
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[7] Hosszú idézetek ellenőrzése...
+    Log String To Console     \n\[7] Hosszú idézetek ellenőrzése...
     
     # Szövegben keres idézőjelekre és hosszú bekezdésekre
     ${szoveg}=    Get Variable Value    ${SZOVEG}    ${EMPTY}
@@ -327,7 +327,7 @@ Tordeles Ellenorzese
     [Documentation]    Ellenőrzi a tördelés minőségét
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[8] Tördelés ellenőrzése...
+    Log String To Console     \n\[8] Tördelés ellenőrzése...
     
     # Itt implementálható a tördelési hibák keresése
     ${eredmeny}=    Set Variable    PASS - Tördelés ellenőrzése sikeres
@@ -338,7 +338,7 @@ Abrak Fotok Ellenorzese
     [Documentation]    Ellenőrzi az ábrák és fotók számozását, megnevezését és forrásmegjelölését
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[9] Ábrák/fotók ellenőrzése...
+    Log String To Console     \n\[9] Ábrák/fotók ellenőrzése...
     
     # Szövegben keres ábra/kép/fotó hivatkozásokra
     ${szoveg}=    Get Variable Value    ${SZOVEG}    ${EMPTY}
@@ -352,7 +352,7 @@ Felsorolas Ellenorzese
     [Documentation]    Ellenőrzi, hogy nincsenek tartalom nélküli felsorolások
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[10] Felsorolások ellenőrzése...
+    Log String To Console     \n\[10] Felsorolások ellenőrzése...
     
     # Szövegben keres felsorolási jelekre
     ${szoveg}=    Get Variable Value    ${SZOVEG}    ${EMPTY}
@@ -366,7 +366,7 @@ Ures Negyzetek Ellenorzese
     [Documentation]    Ellenőrzi, hogy nincsenek üres négyzetek szöveg helyett
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[11] Üres négyzetek ellenőrzése...
+    Log String To Console     \n\[11] Üres négyzetek ellenőrzése...
     
     # Szövegben keres speciális karakterekre
     ${szoveg}=    Get Variable Value    ${SZOVEG}    ${EMPTY}
@@ -382,7 +382,7 @@ Cimek Formatuma Ellenorzese
     [Documentation]    Ellenőrzi a címek formátumát és hierarchiáját
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[12] Címek formátuma ellenőrzése...
+    Log String To Console     \n\[12] Címek formátuma ellenőrzése...
     ${eredmeny}=    Set Variable    PASS - Címek formátuma ellenőrzése sikeres
     RETURN    ${eredmeny}
 
@@ -390,7 +390,7 @@ Oldalhatar Ellenorzese
     [Documentation]    Ellenőrzi az oldalhatárok beállítását
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[13] Oldalhatár ellenőrzése...
+    Log String To Console     \n\[13] Oldalhatár ellenőrzése...
     ${eredmeny}=    Set Variable    PASS - Oldalhatár ellenőrzése sikeres
     RETURN    ${eredmeny}
 
@@ -398,7 +398,7 @@ Betutipus Ellenorzese
     [Documentation]    Ellenőrzi a betűtípus konzisztenciáját
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[14] Betűtípus ellenőrzése...
+    Log String To Console     \n\[14] Betűtípus ellenőrzése...
     ${eredmeny}=    Set Variable    PASS - Betűtípus ellenőrzése sikeres
     RETURN    ${eredmeny}
 
@@ -406,7 +406,7 @@ Sorkoze Ellenorzese
     [Documentation]    Ellenőrzi a sorközök beállítását
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[15] Sorköze ellenőrzése...
+    Log String To Console     \n\[15] Sorköze ellenőrzése...
     ${eredmeny}=    Set Variable    PASS - Sorköze ellenőrzése sikeres
     RETURN    ${eredmeny}
 
@@ -414,7 +414,7 @@ Labjegyzetek Ellenorzese
     [Documentation]    Ellenőrzi a lábjegyzetek formázását
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[16] Lábjegyzetek ellenőrzése...
+    Log String To Console     \n\[16] Lábjegyzetek ellenőrzése...
     ${eredmeny}=    Set Variable    PASS - Lábjegyzetek ellenőrzése sikeres
     RETURN    ${eredmeny}
 
@@ -422,7 +422,7 @@ Tartalomjegyzek Ellenorzese
     [Documentation]    Ellenőrzi a tartalomjegyzék meglétét és formázását
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[17] Tartalomjegyzék ellenőrzése...
+    Log String To Console     \n\[17] Tartalomjegyzék ellenőrzése...
     ${eredmeny}=    Set Variable    PASS - Tartalomjegyzék ellenőrzése sikeres
     RETURN    ${eredmeny}
 
@@ -430,7 +430,7 @@ Irodalomjegyzek Ellenorzese
     [Documentation]    Ellenőrzi az irodalomjegyzék meglétét és formázását
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[18] Irodalomjegyzék ellenőrzése...
+    Log String To Console     \n\[18] Irodalomjegyzék ellenőrzése...
     ${eredmeny}=    Set Variable    PASS - Irodalomjegyzék ellenőrzése sikeres
     RETURN    ${eredmeny}
 
@@ -438,7 +438,7 @@ Tablazatok Ellenorzese
     [Documentation]    Ellenőrzi a táblázatok formázását és címzését
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[19] Táblázatok ellenőrzése...
+    Log String To Console     \n\[19] Táblázatok ellenőrzése...
     ${eredmeny}=    Set Variable    PASS - Táblázatok ellenőrzése sikeres
     RETURN    ${eredmeny}
 
@@ -446,7 +446,7 @@ Szoveg Igazitas Ellenorzese
     [Documentation]    Ellenőrzi a szöveg igazításának konzisztenciáját
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[20] Szöveg igazítás ellenőrzése...
+    Log String To Console     \n\[20] Szöveg igazítás ellenőrzése...
     ${eredmeny}=    Set Variable    PASS - Szöveg igazítás ellenőrzése sikeres
     RETURN    ${eredmeny}
 
@@ -454,7 +454,7 @@ Oldalszamozas Ellenorzese
     [Documentation]    Ellenőrzi az oldalszámozás meglétét és helyességét
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[21] Oldalszámozás ellenőrzése...
+    Log String To Console     \n\[21] Oldalszámozás ellenőrzése...
     ${eredmeny}=    Set Variable    PASS - Oldalszámozás ellenőrzése sikeres
     RETURN    ${eredmeny}
 
@@ -462,7 +462,7 @@ Fejlec_Lablec Ellenorzese
     [Documentation]    Ellenőrzi a fejléc és lábléc tartalmát
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[22] Fejléc/lábléc ellenőrzése...
+    Log String To Console     \n\[22] Fejléc/lábléc ellenőrzése...
     ${eredmeny}=    Set Variable    PASS - Fejléc/lábléc ellenőrzése sikeres
     RETURN    ${eredmeny}
 
@@ -470,6 +470,6 @@ Helyesiras Ellenorzese
     [Documentation]    Ellenőrzi a helyesírás minőségét
     [Arguments]    ${docx_file}
     
-    Log To Console     \n\[23] Helyesírás ellenőrzése...
+    Log String To Console     \n\[23] Helyesírás ellenőrzése...
     ${eredmeny}=    Set Variable    PASS - Helyesírás ellenőrzése sikeres
     RETURN    ${eredmeny}

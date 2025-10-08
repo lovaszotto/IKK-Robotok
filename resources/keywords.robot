@@ -6,8 +6,8 @@ Mark Test Status
     [Documentation]    Általános jelölő: hibánál F{row} megjegyzés, D{row} "X" és FAIL; siker esetén C{row} "X".
     [Arguments]    ${excel_file}    ${sheet_name}    ${test_row}    ${err_msg}    ${mark}=X
     IF    $err_msg != ''
-        #Log To Console    Mark Test Status ${test_row}-ba: ${err_msg}
-        Log To Console    Mark Test Status Failed
+        #Log String To Console    Mark Test Status ${test_row}-ba: ${err_msg}
+        Log String To Console    Mark Test Status Failed
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    6    ${err_msg}
          
         IF     int(${test_row}) < 10
@@ -16,7 +16,7 @@ Mark Test Status
             ${row_text}=    Set Variable    ${test_row}
         END    
         ${error_log_file}=    Replace String    ${excel_file}    .xlsx    (${sheet_name}_${row_text}) hiba.txt    
-        #Log To Console    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}    
+        #Log String To Console    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}    
         #hiba fájl írása
         Create File    ${error_log_file}    ${err_msg}
 
@@ -25,11 +25,11 @@ Mark Test Status
         
         # Jelöld FAIL-re a tesztet, de folytasd a futást
         Run Keyword And Continue On Failure    Fail    ${err_msg}
-        Log To Console    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}
+        Log String To Console    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}
     ELSE
         # Hibátlan X-elés: C oszlop
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    3    ${mark}
-          Log To Console    Mark Test Status Passed
+          Log String To Console    Mark Test Status Passed
         END
 *** Keywords ***
 
@@ -40,7 +40,7 @@ Initialize Global Log File
     # Kezdetben a gyökérkönyvtárban hozzuk létre
     Set Global Variable    ${GLOBAL_LOG_FILENAME}    ${log_filename_only}
     Set Global Variable    ${LOG_FILENAME_ONLY}    ${log_filename_only}
-    Log To Console    Globális log fájl inicializálva: ${log_filename_only}
+    Log String To Console    Globális log fájl inicializálva: ${log_filename_only}
 
 Initialize Test Counters
     [Documentation]    Teszt számlálók nullázása a fő suite elején
@@ -96,10 +96,10 @@ Move Log File To Output Folder
         Copy File    ${GLOBAL_LOG_FILENAME}    ${new_log_path}
         Remove File    ${GLOBAL_LOG_FILENAME}
         Set Global Variable    ${GLOBAL_LOG_FILENAME}    ${new_log_path}
-        Log To Console    Log fájl áthelyezve: ${new_log_path}
+        Log String To Console    Log fájl áthelyezve: ${new_log_path}
     ELSE IF    "${new_log_path}" != "${GLOBAL_LOG_FILENAME}"
         Set Global Variable    ${GLOBAL_LOG_FILENAME}    ${new_log_path}
-        Log To Console    Log fájl útvonal frissítve: ${new_log_path}
+        Log String To Console    Log fájl útvonal frissítve: ${new_log_path}
     END
 
 Format Message With Line Breaks
@@ -137,7 +137,7 @@ Log String To Console
     [Documentation]    Logs message both to console and to timestamped log file
     # Join message parts with single space to avoid accidental extra columns
     ${msg}=    Catenate    SEPARATOR=     @{msgs}
-    # Always log to console with newline
+    # Always Log String To Console with newline
     Log To Console    ${msg}
     
     # Skip logging TRACE messages to file
@@ -313,7 +313,7 @@ Konfiguráció Betöltése
     ${config_result}=    Run Process    python    libraries/get_config.py    shell=True
     IF    ${config_result.rc} == 0
         ${config_line}=    Set Variable    ${config_result.stdout.strip()}
-        #Log To Console     \n\[DEBUG] config_line: ${config_line}
+        #Log String To Console     \n\[DEBUG] config_line: ${config_line}
         IF    '${config_line}' != '' and '${config_line}' != 'None'
             Process Config Line    ${config_line}
         ELSE
@@ -334,7 +334,7 @@ Konfiguráció Betöltése
     END
     Log String To Console    ${EMPTY}
     Log String To Console    ═══════════KONFIGURACIO BETOLTESE KÉSZ════════════════════
-    #Log To Console     \n\[TRACE] Konfiguráció Betöltése kilépett
+    #Log String To Console     \n\[TRACE] Konfiguráció Betöltése kilépett
 
 Get Input Folder From Config
     [Documentation]    Config fájlból input_folder érték kiolvasása
@@ -349,13 +349,13 @@ Get Input Folder From Config
         IF    ${is_input_folder}
             ${input_folder_value}=    Replace String    ${line_trimmed}    input_folder=    ${EMPTY}
             ${input_folder_normalized}=    Replace String    ${input_folder_value}    \\    /
-            Log To Console    Config-ból beolvasott input folder: ${input_folder_normalized}
+            Log String To Console    Config-ból beolvasott input folder: ${input_folder_normalized}
             RETURN    ${input_folder_normalized}
         END
     END
     
     # Ha nem találjuk, alapértelmezett érték
-    Log To Console     \n\[FIGYELEM] input_folder nem található a config-ban!
+    Log String To Console     \n\[FIGYELEM] input_folder nem található a config-ban!
     RETURN    ${EMPTY}
 
 
@@ -742,14 +742,14 @@ Rename Excel File Mark Error
     [Arguments]    ${excel_file}
     ${exists}=    Run Keyword And Return Status    File Should Exist    ${excel_file}
     IF    not ${exists}
-        Log To Console     \n\[WARNING] Excel fájl nem található, átnevezés kihagyva: ${excel_file}
+        Log String To Console     \n\[WARNING] Excel fájl nem található, átnevezés kihagyva: ${excel_file}
         RETURN
     END
     ${dirpath}=       Evaluate    __import__('os').path.dirname(r'''${excel_file}''')    modules=os
     ${basename}=      Evaluate    __import__('os').path.basename(r'''${excel_file}''')    modules=os
     ${new_basename}=  Replace String    ${basename}    K_ell    _K_ell    count=1
     IF    '${new_basename}' == '${basename}'
-        Log To Console     \n\[INFO] A fájlnév nem tartalmazza a 'K_ell' mintát, átnevezés kihagyva: ${basename}
+        Log String To Console     \n\[INFO] A fájlnév nem tartalmazza a 'K_ell' mintát, átnevezés kihagyva: ${basename}
         RETURN
     END
     ${new_path}=      Evaluate    __import__('os').path.join(r'''${dirpath}''', r'''${new_basename}''')    modules=os
@@ -759,7 +759,7 @@ Rename Excel File Mark Error
     #    ${new_basename}=    Replace String    ${new_basename}    .xlsx    _${ts}.xlsx
     #    ${new_path}=    Evaluate    __import__('os').path.join(r'''${dirpath}''', r'''${new_basename}''')    modules=os
     #END
-    Log To Console     \n\[INFO] Excel átnevezés: ${excel_file} -> ${new_path}
+    Log String To Console     \n\[INFO] Excel átnevezés: ${excel_file} -> ${new_path}
     TRY
         # csak másolás, mert lehet, hogy a fájl nyitva van Excelben
         # Copy File    ${excel_file}    ${new_path}
@@ -767,7 +767,7 @@ Rename Excel File Mark Error
         # Set Global Variable    ${CURRENT_EXCEL_FILE}    ${new_path}
         No Operation
     EXCEPT    AS    ${e}
-        Log To Console     \n\[HIBA] Excel átnevezés sikertelen: ${e}
+        Log String To Console     \n\[HIBA] Excel átnevezés sikertelen: ${e}
     END
 
 Initialize DOCX Files List
@@ -893,11 +893,11 @@ Read Docx
     [Documentation]    DOCX fájl tartalmának beolvasása DocxReader.py használatával
     [Arguments]    ${file_path}
     
-    Log To Console    DOCX fájl beolvasása: ${file_path}
+    Log String To Console    DOCX fájl beolvasása: ${file_path}
     
     ${result}=    Run Keyword And Return Status    File Should Exist    ${file_path}
     IF    not ${result}
-        Log To Console     \n\[HIBA] DOCX fájl nem található: ${file_path}
+        Log String To Console     \n\[HIBA] DOCX fájl nem található: ${file_path}
         RETURN    [HIBA] DOCX fájl nem található: ${file_path}
     END
     
@@ -905,10 +905,10 @@ Read Docx
     TRY
         ${content}=    Read Docx File Content    ${file_path}
         ${content_length}=    Get Length    ${content}
-        Log To Console    DOCX fájl beolvasva: ${content_length} karakter
+        Log String To Console    DOCX fájl beolvasva: ${content_length} karakter
         RETURN    ${content}
     EXCEPT    AS    ${error}
-        Log To Console     \n\[HIBA-Read Docx] DOCX beolvasás sikertelen: ${error}
+        Log String To Console     \n\[HIBA-Read Docx] DOCX beolvasás sikertelen: ${error}
         RETURN    [HIBA-Read Docx] DOCX beolvasás sikertelen: ${error}
     END
 
@@ -930,7 +930,7 @@ Mark Excel Cell Green
     [Documentation]    Excel cella zöld színűre festése
     [Arguments]    ${excel_file}    ${sheet_name}    ${cell_address}
     
-    Log To Console    Excel jelölés: ${excel_file} - ${sheet_name} - ${cell_address}
+    Log String To Console    Excel jelölés: ${excel_file} - ${sheet_name} - ${cell_address}
     
     # Excel jelölés Python script-tel (útvonal normalizálása a figyelmeztetések elkerülésére)
         ${excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${excel_file}''').as_posix()    modules=pathlib
@@ -938,16 +938,16 @@ Mark Excel Cell Green
     ${result}=    Run Process    python    -W    ignore    -c    ${script}
     
     IF    ${result.rc} != 0
-        Log To Console     \n\[HIBA] Excel jelölés sikertelen: ${result.stderr}
+        Log String To Console     \n\[HIBA] Excel jelölés sikertelen: ${result.stderr}
     ELSE
-        Log To Console     \n\[SIKERES] Excel cella jelölve zöldre: ${cell_address}
+        Log String To Console     \n\[SIKERES] Excel cella jelölve zöldre: ${cell_address}
     END
 
 Mark Excel Cell Red
     [Documentation]    Excel cella piros színűre festése
     [Arguments]    ${excel_file}    ${sheet_name}    ${cell_address}
     
-    Log To Console    Excel jelölés: ${excel_file} - ${sheet_name} - ${cell_address}
+    Log String To Console    Excel jelölés: ${excel_file} - ${sheet_name} - ${cell_address}
     
     # Excel jelölés Python script-tel (útvonal normalizálása a figyelmeztetések elkerülésére)
         ${excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${excel_file}''').as_posix()    modules=pathlib
@@ -955,9 +955,9 @@ Mark Excel Cell Red
     ${result}=    Run Process    python    -W    ignore    -c    ${script}
     
     IF    ${result.rc} != 0
-        Log To Console     \n\[HIBA] Excel jelölés sikertelen: ${result.stderr}
+        Log String To Console     \n\[HIBA] Excel jelölés sikertelen: ${result.stderr}
     ELSE
-        Log To Console     \n\[SIKERES] Excel cella jelölve pirosra: ${cell_address}
+        Log String To Console     \n\[SIKERES] Excel cella jelölve pirosra: ${cell_address}
     END
 
 Read Docx File Content
@@ -967,7 +967,7 @@ Read Docx File Content
     # DocxReader.read_docx_all meghívása és a bekezdések összefűzése
     ${status}    ${data}=    Run Keyword And Ignore Error    Read Docx All    ${file_path}
     IF    '${status}' != 'PASS'
-        Log To Console     \n\[HIBA] DOCX beolvasás sikertelen: ${data}
+        Log String To Console     \n\[HIBA] DOCX beolvasás sikertelen: ${data}
         RETURN    [HIBA] DOCX beolvasás sikertelen: ${data}
     END
 
@@ -986,7 +986,7 @@ Beolvasom A DOCX Fájlt
     ${current_docx}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
     
     IF    '${current_docx}' == '${EMPTY}'
-        Log To Console     \n\[HIBA] DOCX_FILE változó nincs beállítva!
+        Log String To Console     \n\[HIBA] DOCX_FILE változó nincs beállítva!
         RETURN    [HIBA] DOCX_FILE változó nincs beállítva!
     END
     
@@ -1016,23 +1016,23 @@ Dump Docx Json If Enabled
     ${out_path}=    Set Variable    ${dump_dir}${/}${base}.json
 
     Create File    ${out_path}    ${json}    encoding=UTF-8
-    Log To Console     \n\[DOCX JSON] Mentve: ${out_path}
+    Log String To Console     \n\[DOCX JSON] Mentve: ${out_path}
 
 
 Create_K_ell_Excel
     [Documentation]    DOCX fájl feldolgozás - Excel fájl és sheet meghatározása
     [Arguments]    ${docx_file}
     
-    Log To Console    \n=== DOCX FÁJL ÚTVONAL FELDOLGOZÁSA ===
-    Log To Console    Kapott paraméter: ${docx_file}
+    Log String To Console    \n=== DOCX FÁJL ÚTVONAL FELDOLGOZÁSA ===
+    Log String To Console    Kapott paraméter: ${docx_file}
     
     # Path és filename szétválasztása
     ${path_part}=    Evaluate    __import__('os').path.dirname(r'''${docx_file}''')    modules=os
     ${filename_part}=    Evaluate    __import__('os').path.basename(r'''${docx_file}''')    modules=os
     
-    Log To Console    Path rész: ${path_part}
-    Log To Console    Filename rész: ${filename_part}
-    Log To Console    Input folder (globális): ${INPUT_FOLDER}
+    Log String To Console    Path rész: ${path_part}
+    Log String To Console    Filename rész: ${filename_part}
+    Log String To Console    Input folder (globális): ${INPUT_FOLDER}
     
     Set Global Variable    ${FILENAME}    ${filename_part}
     
@@ -1063,8 +1063,8 @@ Create_K_ell_Excel
     
     ${filtered_input_parts_count}=    Get Length    ${filtered_input_parts}
     ${filtered_path_parts_count}=    Get Length    ${filtered_path_parts}
-    #Log To Console    Input folder részek: ${filtered_input_parts} (${filtered_input_parts_count} db)
-    #Log To Console    Eredeti path részek: ${filtered_path_parts} (${filtered_path_parts_count} db)
+    #Log String To Console    Input folder részek: ${filtered_input_parts} (${filtered_input_parts_count} db)
+    #Log String To Console    Eredeti path részek: ${filtered_path_parts} (${filtered_path_parts_count} db)
     
     # Eltávolítjuk az input folder részeket a path elejéről
     ${input_parts_count}=    Get Length    ${filtered_input_parts}
@@ -1072,17 +1072,17 @@ Create_K_ell_Excel
     
     ${is_success}=    Run Keyword And Return Status    Should Not Be Empty    ${relative_parts}
     IF   not ${is_success}
-        Log To Console     [ERROR] Input folder eltávolítása sikertelen!
+        Log String To Console     [ERROR] Input folder eltávolítása sikertelen!
         ${relative_parts}=    Set Variable    ${filtered_path_parts}
     END
     
     ${parts_count}=    Get Length    ${relative_parts}
-    Log To Console    Path részek száma (input folder nélkül): ${parts_count}
-    Log To Console    Relatív path részek: ${relative_parts}
+    Log String To Console    Path részek száma (input folder nélkül): ${parts_count}
+    Log String To Console    Relatív path részek: ${relative_parts}
     
     # Legalább 2 könyvtárra van szükség (parent és child)
     IF    ${parts_count} < 2
-        Log To Console     \n\[HIBA] A relatív path nem tartalmaz legalább 2 könyvtárat!
+        Log String To Console     \n\[HIBA] A relatív path nem tartalmaz legalább 2 könyvtárat!
         ${parent_path}=    Set Variable    DEFAULT
         ${child_path}=     Set Variable    DEFAULT
     ELSE
@@ -1092,11 +1092,11 @@ Create_K_ell_Excel
         ${child_path}=     Get From List    ${relative_parts}    ${last_idx}
     END
     
-    #Log To Console    \n=== FELDOLGOZÁS EREDMÉNYE ===
-    Log To Console    Parent Path: ${parent_path}
-    Log To Console    Child Path: ${child_path}
-    Log To Console    Filename: ${filename_part}
-    #Log To Console    \n=== FELDOLGOZÁS BEFEJEZVE ===
+    #Log String To Console    \n=== FELDOLGOZÁS EREDMÉNYE ===
+    Log String To Console    Parent Path: ${parent_path}
+    Log String To Console    Child Path: ${child_path}
+    Log String To Console    Filename: ${filename_part}
+    #Log String To Console    \n=== FELDOLGOZÁS BEFEJEZVE ===
     
     # Excel fájl és sheet meghatározása
     ${output_folder}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}
@@ -1107,44 +1107,44 @@ Create_K_ell_Excel
     # Excel fájl létrehozása/ellenőrzése
     ${file_exists}=    Run Keyword And Return Status    File Should Exist    ${activeExcelFile}
     IF    ${file_exists}
-        Log To Console     ${activeExcelFile}
+        Log String To Console     ${activeExcelFile}
         
         # Sheet ellenőrzése és létrehozása szükség esetén
         ${sheet_exists}=    Check Excel Sheet Exists    ${activeExcelFile}    ${activeSheetName}
         IF    ${sheet_exists}
-            Log To Console     \n\[INFO] Sheet '${activeSheetName}' létezik az Excel fájlban
+            Log String To Console     \n\[INFO] Sheet '${activeSheetName}' létezik az Excel fájlban
         ELSE
-            Log To Console     \n\[INFO] Sheet '${activeSheetName}' létrehozása sablon másolással...
+            Log String To Console     \n\[INFO] Sheet '${activeSheetName}' létrehozása sablon másolással...
             Copy Excel Sheet    ${activeExcelFile}    EM X.Y    ${activeSheetName}
             # Az eredeti EM X.Y sheet elrejtése
             Hide Excel Sheet    ${activeExcelFile}    EM X.Y
-            Log To Console     \n\[INFO] Sheet sablon másolva: 'EM X.Y' -> '${activeSheetName}'
+            Log String To Console     \n\[INFO] Sheet sablon másolva: 'EM X.Y' -> '${activeSheetName}'
         END
     ELSE
-        Log To Console     \n\[INFO] Excel fájl létrehozása: ${activeExcelFile}
+        Log String To Console     \n\[INFO] Excel fájl létrehozása: ${activeExcelFile}
         
         # Sablon fájl másolása
         ${template_path}=    Set Variable    ${CURDIR}/../sablonok/K ell sablon_sulyszam_minbizt_2024_12_v_1_0.xlsx
     ${template_exists}=    Run Keyword And Return Status    File Should Exist    ${template_path}
         IF    ${template_exists}
             Copy File    ${template_path}    ${activeExcelFile}
-            Log To Console     \n\[INFO] Sablon fájl másolva: ${template_path} -> ${activeExcelFile}
+            Log String To Console     \n\[INFO] Sablon fájl másolva: ${template_path} -> ${activeExcelFile}
             
             # Az új Excel fájlban is létre kell hozni a megfelelő sheet-et
             ${sheet_exists}=    Check Excel Sheet Exists    ${activeExcelFile}    ${activeSheetName}
             IF    not ${sheet_exists}
-                Log To Console     \n\[INFO] Sheet '${activeSheetName}' létrehozása az új Excel fájlban
+                Log String To Console     \n\[INFO] Sheet '${activeSheetName}' létrehozása az új Excel fájlban
                 Copy Excel Sheet    ${activeExcelFile}    EM X.Y    ${activeSheetName}
                 Hide Excel Sheet    ${activeExcelFile}    EM X.Y
-                Log To Console     \n\[INFO] Sheet sablon másolva: 'EM X.Y' -> '${activeSheetName}'
+                Log String To Console     \n\[INFO] Sheet sablon másolva: 'EM X.Y' -> '${activeSheetName}'
             END
         ELSE
-            Log To Console     \n\[WARNING] Sablon fájl nem található: ${template_path}
-            Log To Console     \n\[INFO] Üres Excel fájl létrehozása alapértelmezett sheet-ekkel...
+            Log String To Console     \n\[WARNING] Sablon fájl nem található: ${template_path}
+            Log String To Console     \n\[INFO] Üres Excel fájl létrehozása alapértelmezett sheet-ekkel...
             ${active_excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${activeExcelFile}''').as_posix()    modules=pathlib
             ${create_file_script}=    Set Variable    import openpyxl; wb=openpyxl.Workbook(); wb.remove(wb.active); ws1=wb.create_sheet('EM X.Y'); ws2=wb.create_sheet('${activeSheetName}'); wb.save('${active_excel_path_norm}'); print('Excel fájl és sheet-ek létrehozva')
             ${create_result}=    Run Process    python    -W    ignore    -c    ${create_file_script}
-            Log To Console    Excel létrehozás eredménye: ${create_result.stdout}
+            Log String To Console    Excel létrehozás eredménye: ${create_result.stdout}
         END
     END
     

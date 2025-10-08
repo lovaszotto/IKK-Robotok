@@ -45,8 +45,8 @@ Redundancia ellenőrzése
     Run Keyword And Continue On Failure    Redundancia Eredmények Ellenőrzése
 
     # Excel export automatikus futtatása
-    #Log To Console    EXCEL EXPORT INDÍTÁSA...
-    #Log To Console    \n════════════════════════════════
+    #Log String To Console    EXCEL EXPORT INDÍTÁSA...
+    #Log String To Console    \n════════════════════════════════
     # Feldolgozott dokumentumok számának és futásidőnek kiírása
     ${file_count}=    Get Variable Value    ${file_count}    0
     ${end_time}=    Get Time    epoch

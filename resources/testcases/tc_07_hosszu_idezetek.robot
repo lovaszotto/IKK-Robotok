@@ -10,8 +10,8 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 07 - Hosszu Idezetek Ellenorzese
     [Documentation]    07 - Hosszú idézetek ellenőrzése
-    Log To Console     \n\[07/24] +++++++++++++++++++++++++++ Hosszú idézetek ellenőrzése
-    #RETURN
+    Log String To Console     \n\[07/24] +++++++++++++++++++++++++++ Hosszú idézetek ellenőrzése - kikapcsolva
+    RETURN
     ${docx_json}=    Get Variable Value    ${DOCX_JSON}    ${EMPTY}
    ${testCase_row}=    Set Variable    9
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
@@ -30,7 +30,7 @@ Test Case 07 - Hosszu Idezetek Ellenorzese
     ${max_distance}=    Set Variable    0
     ${max_sample}=       Set Variable    ''
     
-    Log To Console    Teljes szöveg JSON hossza: ${text1_length} karakter
+    Log String To Console    Teljes szöveg JSON hossza: ${text1_length} karakter
     @{char_list}=    Create List
     FOR    ${i}    IN RANGE    0    ${text1_length}
         ${c}=    Get Substring    ${text}    ${i}    ${i+1}
@@ -42,7 +42,7 @@ Test Case 07 - Hosszu Idezetek Ellenorzese
             END
         END
         IF    $c == '"' or $c == '„' or $c == '”' or $c == '“' or $c == '»' or $c == '«'
-            #Log To Console    Idézőjel találat: ${c} index: ${i}
+            #Log String To Console    Idézőjel találat: ${c} index: ${i}
             IF     ${is_start} == 0
                 ${is_start}=    Set Variable    1
                 ${start_idx}=    Set Variable    ${i}
@@ -51,7 +51,7 @@ Test Case 07 - Hosszu Idezetek Ellenorzese
                 ${is_start}=    Set Variable    0
                 ${end_idx}=    Set Variable    ${i}
                  ${distance}=    Evaluate    ${end_idx} - ${start_idx}
-                Log To Console    ${i}:Idézőjelek közti távolság: ${distance} ${sample}
+                Log String To Console    ${i}:Idézőjelek közti távolság: ${distance} ${sample}
                 IF  ${distance} > ${max_distance}    
                     ${max_distance}=    Set Variable    ${distance}
                     ${max_sample}=       Set Variable    ${sample}
@@ -60,7 +60,7 @@ Test Case 07 - Hosszu Idezetek Ellenorzese
         END    
     END
     #irjuk ki a tömb méretét
-     Log To Console   Max idézőjelek közti távolság: ${max_distance}
+     Log String To Console   Max idézőjelek közti távolság: ${max_distance}
  
     IF    ${max_distance} >= 10000    
        ${err_msg}=    Set Variable        Túl hosszú idézet: ${max_distance} karakter az idézőjelek között!(${max_sample})

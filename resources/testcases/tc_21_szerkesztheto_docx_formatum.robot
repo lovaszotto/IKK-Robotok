@@ -7,7 +7,7 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 21 - Szerkesztheto Docx Formatum Ellenorzese
     [Documentation]    21 - Szerkeszthető DOCX formátum. Ellenőrizendő, hogy a kézirat szerkeszthető DOCX formátumban van-e.
-     Log To Console     \n\[21/24] Szerkesztheto Docx Formatum Ellenorzese
+     Log String To Console     \n\[21/24] Szerkesztheto Docx Formatum Ellenorzese
     #Formátum: tényleg .docx (nem .doc/.pdf).
     #Szerkezet: DOCX = ZIP + word/document.xml.
     #Védelem: nincs documentProtection a word/settings.xml-ben.
@@ -31,13 +31,13 @@ Test Case 21 - Szerkesztheto Docx Formatum Ellenorzese
     #Mark Test Status    ${excel_file}    ${sheet_name}    ${question_row}    ${err_msg}
 
     ${is_docx}=    Is Docx Extension    ${docx_file}
-    #Log To Console     \n\[21] Formátum .docx: ${is_docx}
+    #Log String To Console     \n\[21] Formátum .docx: ${is_docx}
     IF    ${is_docx} == 'False'
         ${new_err}=    Set Variable    Nem docx formátumú!
-        Log To Console     [ERROR] ${new_err}
+        Log String To Console     [ERROR] ${new_err}
     END
     ${has_struct}=    Has Valid Docx Structure    ${docx_file}
-    #Log To Console     \n\[21] Szerkezet (ZIP+word/document.xml): ${has_struct}
+    #Log String To Console     \n\[21] Szerkezet (ZIP+word/document.xml): ${has_struct}
     IF    ${has_struct} == 'False'
          ${new_err}=    Set Variable    Hibás szerkezetű!
          IF    $err_msg == ''
@@ -48,7 +48,7 @@ Test Case 21 - Szerkesztheto Docx Formatum Ellenorzese
     END
     
     ${no_protect}=    Has No Document Protection    ${docx_file}
-    #Log To Console     \n\[21] Védelem (documentProtection nincs): ${no_protect}
+    #Log String To Console     \n\[21] Védelem (documentProtection nincs): ${no_protect}
     IF    ${no_protect} == 'True'
          ${new_err}=    Set Variable    Védett dokumentum (settings.xml)!
          IF    $err_msg == ''
@@ -60,7 +60,7 @@ Test Case 21 - Szerkesztheto Docx Formatum Ellenorzese
     
 
     ${can_open}=    Can Open With PythonDocx    ${docx_file}
-    #Log To Console     \n\[21] Megnyithatóság (python-docx): ${can_open}
+    #Log String To Console     \n\[21] Megnyithatóság (python-docx): ${can_open}
     IF    ${can_open} == 'True'
          ${new_err}=    Set Variable    Nem nyitható meg a dokumentum!
          IF    $err_msg == ''
@@ -71,7 +71,7 @@ Test Case 21 - Szerkesztheto Docx Formatum Ellenorzese
     END
     
     ${writable}=    Is Writable File    ${docx_file}
-    #Log To Console     \n\[21] Írhatóság (fájlrendszer): ${writable}
+    #Log String To Console     \n\[21] Írhatóság (fájlrendszer): ${writable}
     IF    ${writable} == 'False'
          ${new_err}=    Set Variable    Nem írható a fájl a fájlrendszeren!
          IF    $err_msg == ''
@@ -80,7 +80,7 @@ Test Case 21 - Szerkesztheto Docx Formatum Ellenorzese
             ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
         END
     END
-   #Log To Console     \n\[21] Összes hibaüzenet: ${err_msg}
+   #Log String To Console     \n\[21] Összes hibaüzenet: ${err_msg}
     Mark Test Status    ${excel_file}    ${sheet_name}    ${question_row}    ${err_msg}
 
 

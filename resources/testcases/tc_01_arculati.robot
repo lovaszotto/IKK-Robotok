@@ -1,5 +1,6 @@
 *** Settings ***
 Library     Collections
+Library     OperatingSystem
 # RPA.JSON eltávolítva – nem használt és hiányzó modul hibát okozott
 Resource    ${CURDIR}/../keywords.robot
 Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
@@ -23,7 +24,7 @@ Get Next Non Empty Paragraph TC01
 
 Test Case 01 - Arculati Elemek Ellenorzese
     [Documentation]    01 - Arculati elemek ellenőrzése
-    Log To Console     \n\[01/24] Arculati elemek ellenőrzése
+    Log String To Console     \n\[01/24] Arculati elemek ellenőrzése
     ${testCase_row}=    Set Variable    3
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
@@ -37,40 +38,37 @@ Test Case 01 - Arculati Elemek Ellenorzese
     ${err_msg}=    Set Variable    ${EMPTY}
     ${act_line}=    Set Variable    0
     # DOCX beolvasás biztonságosan
-    Log To Console    docx_file fájl:${docx_file}
+    Log String To Console    docx_file fájl:${docx_file}
     ${read_status}    ${docx_json}=    Run Keyword And Ignore Error    DocxReader.Read Docx All    ${docx_file}
     IF    '$read_status' == 'FAIL'
         ${errors}=    Create List    Olvasási hiba a docx fájlban (${docx_json})
-        Log To Console     [ERROR] Olvasási hiba a docx fájlban (${docx_json})
+        Log String To Console     [ERROR] Olvasási hiba a docx fájlban (${docx_json})
         ${paragraphs}=    Create List
     ELSE
         Set Global Variable    ${DOCX_JSON}    ${docx_json}
-        #Log To Console     ${docx_json}
+        #Log String To Console     ${docx_json}
         ${paragraphs}=    Get From Dictionary    ${docx_json}    paragraphs
         ${tables}=    Get From Dictionary    ${docx_json}    tables
     END
 
        # Paragrafusok száma
        ${np}=      Evaluate    len(${paragraphs})
-       Log To Console    Összes paragrafus: ${np}
+       Log String To Console    Összes paragrafus: ${np}
    
 
     # paragraph és stílus kiiratása debug
-    #Log To Console    ------------------- PARAGRAFUSOK A DOCX_JSON-BAN ------------------
+    #Log String To Console    ------------------- PARAGRAFUSOK A DOCX_JSON-BAN ------------------
     ${pars}=    Evaluate    [{'idx': i+1, 'text': p.text, 'style': (p.style.name if p.style else 'N/A')} for i,p in enumerate(__import__('docx').Document(r'''${docx_file}''').paragraphs)]
  
     FOR    ${par}    IN    @{pars}
         ${idx}=    Get From Dictionary    ${par}    idx
         ${text}=    Get From Dictionary    ${par}    text
         ${style}=    Get From Dictionary    ${par}    style
-        #Log To Console    ${idx}: [${style}] "${text}"
+        #Log String To Console    ${idx}: [${style}] "${text}"
     END    
      # Táblák száma
        ${n}=      Evaluate    len(${tables})
-       Log To Console    Összes táblázat: ${n}
-    
-    #todo here
-  
+       Log String To Console    Összes táblázat: ${n}
     
 
     # Stílusok begyűjtése a dokumentumban
@@ -88,16 +86,28 @@ Test Case 01 - Arculati Elemek Ellenorzese
                         Append To List    ${styles}    ${style}
                 END
             END
-    Log To Console   §§§§§§§§§§§§§§§§§§§§§§§§§ Stílusok a dokumentumban: ${styles}
+    Log String To Console   §§§§§§§§§§§§§§§§§§§§§§§§§ Stílusok a dokumentumban: ${styles}
+   # Stílusok kiirása Style.txt fájlba append módban
+    ${style_file}=    Set Variable    c:\\tmp\\Styles.csv
+    # UTF-8 BOM-mal írás: ha a fájl még nem létezik, hozzuk létre BOM-mal, különben csak appendlünk
+    ${styles_line}=    Set Variable    ${filename_part},${styles}\n
+    ${exists}=    Run Keyword And Return Status    File Should Exist    ${style_file}
+    IF    not ${exists}
+        # BOM + első sor
+        Create File    ${style_file}    \uFEFF${styles_line}    encoding=UTF-8
+    ELSE
+        Append To File    ${style_file}    ${styles_line}    encoding=UTF-8
+    END
+
     #sTILUSOK FELÍRÁSA EXCELBE
      Set Global Variable    ${STILUSOK}    ${styles}
     Fill Excel Cell    ${excel_file}    ${sheet_name}    27    2    ${styles}
 
     # 2. sor – Egyedi megrendelés azonosítója
     ${second_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
-    Log To Console    Második sor: ${second_paragraph}
+    Log String To Console    Második sor: ${second_paragraph}
      Set Global Variable    ${EGYEDI_AZONOSITO}    ${second_paragraph}
-     Log To Console    EGYEDI AZONOSITO: ${EGYEDI_AZONOSITO}
+     Log String To Console    EGYEDI AZONOSITO: ${EGYEDI_AZONOSITO}
 
     IF    $second_paragraph == ''
         Append To List    ${errors}    A második sor nem található!
@@ -110,17 +120,17 @@ Test Case 01 - Arculati Elemek Ellenorzese
 
     # 3. sor – Cím (nem lehet üres)
     ${third_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
-    Log To Console    Harmadik sor: ${third_paragraph}
+    Log String To Console    Harmadik sor: ${third_paragraph}
 
     IF    $third_paragraph == ''
         Append To List    ${errors}    A harmadik sor kötelezően nem lehet üres!
     END
    Set Global Variable    ${DOKUMENTUM_CIMSOR}    ${third_paragraph}
-   Log To Console    DOKUMENTUM_CIMSOR: ${DOKUMENTUM_CIMSOR}
+   Log String To Console    DOKUMENTUM_CIMSOR: ${DOKUMENTUM_CIMSOR}
 
     # 4. sor – "Téma kézirata" vagy többes változat
     ${fourth_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
-    Log To Console    Negyedik sor: ${fourth_paragraph}
+    Log String To Console    Negyedik sor: ${fourth_paragraph}
  
     ${fourth_norm}=    Strip String    ${fourth_paragraph}
     ${accepted}=    Create List    Téma kézirata    Témák kézirata

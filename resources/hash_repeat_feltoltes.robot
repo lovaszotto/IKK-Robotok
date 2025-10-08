@@ -17,8 +17,8 @@ Resource    keywords.robot
 #        RETURN
 #     END
 #     ${kisbetus}=    Convert To Lowercase    ${szoveg}
-#     Run Keyword If    '${kisbetus}' == '' or '${kisbetus}' == 'None'    Log To Console    '[HIBA] Üres vagy None szöveg, Split String kihagyva!'
-#     ...    #ELSE    Log To Console    '[DEBUG] Split String előtt: ${kisbetus}'
+#     Run Keyword If    '${kisbetus}' == '' or '${kisbetus}' == 'None'    Log String To Console    '[HIBA] Üres vagy None szöveg, Split String kihagyva!'
+#     ...    #ELSE    Log String To Console    '[DEBUG] Split String előtt: ${kisbetus}'
 #     ...    ELSE    @{sorok}=    Split String    ${kisbetus}    \n
 #     # Törlés először
 #     @{existing_hashcodes}=    Query    SELECT COUNT(*) FROM hashCodes WHERE file_name = '${file_name}'
@@ -30,12 +30,12 @@ Resource    keywords.robot
 #     IF    ${hashcodes_count} > 0
 #     ${file_path}=    Evaluate    os.path.dirname(r"${docx_file}")    modules=os
 #     Execute Sql String    DELETE FROM hashCodes WHERE file_name = '${file_name}' AND file_path = '${file_path}'
-#         Log To Console    Törölve ${hashcodes_count} hashCodes rekord
+#         Log String To Console    Törölve ${hashcodes_count} hashCodes rekord
 #     END
 #     IF    ${repeats_count} > 0
 #     ${file_path}=    Evaluate    os.path.dirname(r"${docx_file}")    modules=os
 #     Execute Sql String    DELETE FROM repeat WHERE file_name = '${file_name}' AND file_path = '${file_path}'
-#         Log To Console    Törölve ${repeats_count} repeat rekord
+#         Log String To Console    Törölve ${repeats_count} repeat rekord
 #     END
 #     ${hashValues}=    Create List
 #     ${aktualis_block_id}=    Set Variable    0
@@ -84,7 +84,7 @@ Resource    keywords.robot
 #                 ${source_record}=    Get From List    ${source_result}    0
 #                 ${source_file_name}=    Get From List    ${source_record}    0
 #                 ${source_file_path}=    Get From List    ${source_record}    1
-#                 #Log To Console    ${source_file_path}/${source_file_name}
+#                 #Log String To Console    ${source_file_path}/${source_file_name}
 #             END
 #             ${file_path}=    Evaluate    os.path.dirname(r"${docx_file}")    modules=os
 #             ${current_date}=    Evaluate    __import__('datetime').datetime.now().strftime('%Y-%m-%d')

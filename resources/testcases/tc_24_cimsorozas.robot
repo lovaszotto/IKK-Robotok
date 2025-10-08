@@ -9,7 +9,7 @@ ${DOCX}    ${DOCX_FILE}
 *** Keywords ***
 Test Case 24 - Cimsorozassal Keszult Ellenorzese
     [Documentation]    24 - Címsorozással készült ellenőrzése
-    Log To Console     \n\[24/24] Címsorozással készült ellenőrzése
+    Log String To Console     \n\[24/24] Címsorozással készült ellenőrzése
     
      ${testCase_row}=    Set Variable    26
     ${heading_count}=    Set Variable    0
@@ -30,8 +30,8 @@ Test Case 24 - Cimsorozassal Keszult Ellenorzese
             CONTINUE
         END
          #minden paragraph és stílus kiiratása
-        #Log To Console    ${idx}: "${text}"
-        #Log To Console    ${idx}: [${style}]
+        #Log String To Console    ${idx}: "${text}"
+        #Log String To Console    ${idx}: [${style}]
         ${is_match}=    Evaluate    any(re.search(r'(?i).*címsor.*', s) for s in ${stilusok})    re
         IF    ${is_match}
             ${heading_count}=    Evaluate    ${heading_count} + 1
@@ -53,7 +53,7 @@ Test Case 24 - Cimsorozassal Keszult Ellenorzese
         ELSE
             ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
         END
-        Log To Console     [ERROR] ${new_err}
+        Log String To Console     [ERROR] ${new_err}
     END
      # Teszt státusz és Excel jelölés végrehajtása a megadott soron
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}

@@ -19,16 +19,16 @@ Create_K_ell_Excel
     [Documentation]    DOCX fájl paraméter feldolgozása: path és filename szétválasztása, path validálása
     [Arguments]    ${docx_file}
     
-    #Log To Console    \n=== DOCX FÁJL ÚTVONAL FELDOLGOZÁSA ===
-    #Log To Console    Kapott paraméter: ${docx_file}
+    #Log String To Console    \n=== DOCX FÁJL ÚTVONAL FELDOLGOZÁSA ===
+    #Log String To Console    Kapott paraméter: ${docx_file}
     
     # 1. Path és filename szétválasztása
     ${path_part}=    Evaluate    __import__('os').path.dirname(r"${docx_file}")    modules=os
     ${filename_part}=    Evaluate    __import__('os').path.basename(r"${docx_file}")    modules=os
     
-    #Log To Console    Path rész: ${path_part}
-    #Log To Console    Filename rész: ${filename_part}
-    #Log To Console    Input folder (globális): ${INPUT_FOLDER}
+    #Log String To Console    Path rész: ${path_part}
+    #Log String To Console    Filename rész: ${filename_part}
+    #Log String To Console    Input folder (globális): ${INPUT_FOLDER}
     
     # Globális változókba mentés
     Set Global Variable    ${FILENAME}    ${filename_part}
@@ -50,13 +50,13 @@ Create_K_ell_Excel
     ${relative_parts}=    Remove Input Folder From Path    ${filtered_parts}    ${INPUT_FOLDER}
     
     ${parts_count}=    Get Length    ${relative_parts}
-    #Log To Console    Path részek száma (input folder nélkül): ${parts_count}
-    #Log To Console    Relatív path részek: ${relative_parts}
+    #Log String To Console    Path részek száma (input folder nélkül): ${parts_count}
+    #Log String To Console    Relatív path részek: ${relative_parts}
     
     # 4. Ellenőrzés: legalább 2 részre kell bomlania (utolsó 2 könyvtár)
     IF    ${parts_count} < 2
-        Log To Console     \n\[HIBA] A relatív path nem tartalmaz legalább 2 könyvtárat! Talált részek: ${parts_count}
-        Log To Console     \n\[HIBA] Minimum: 2 rész, kapott: ${parts_count}
+        Log String To Console     \n\[HIBA] A relatív path nem tartalmaz legalább 2 könyvtárat! Talált részek: ${parts_count}
+        Log String To Console     \n\[HIBA] Minimum: 2 rész, kapott: ${parts_count}
         Fail    A relatív path nem megfelelő szerkezetű - kevesebb mint 2 könyvtár
     END
     
@@ -79,11 +79,11 @@ Create_K_ell_Excel
     ${activeSheetName}=    Set Variable    ${child_path}
     
     # 7. Eredmények kiírása
-    Log To Console    \n=== FELDOLGOZÁS EREDMÉNYE ===
-    Log To Console    Parent Path: ${parent_path}
-    Log To Console    Child Path: ${child_path}
-    Log To Console    Filename: ${filename_part}
-    #Log To Console    \n=== FELDOLGOZÁS BEFEJEZVE ===
+    Log String To Console    \n=== FELDOLGOZÁS EREDMÉNYE ===
+    Log String To Console    Parent Path: ${parent_path}
+    Log String To Console    Child Path: ${child_path}
+    Log String To Console    Filename: ${filename_part}
+    #Log String To Console    \n=== FELDOLGOZÁS BEFEJEZVE ===
     
     # Excel fájl ellenőrzése
     Check Excel File Exists    ${parent_path}    ${child_path}
@@ -98,7 +98,7 @@ Remove Input Folder From Path
     
     # Ha nincs input folder megadva, visszaadjuk az eredeti listát
     IF    '${input_folder}' == '${EMPTY}' or '${input_folder}' == ''
-        Log To Console     \n\[INFO] Nincs input folder megadva, eredeti path használata
+        Log String To Console     \n\[INFO] Nincs input folder megadva, eredeti path használata
         RETURN    ${path_parts}
     END
     
@@ -115,13 +115,13 @@ Remove Input Folder From Path
     ${input_count}=    Get Length    ${input_filtered}
     ${path_count}=     Get Length    ${path_parts}
     
-    #Log To Console    Input folder részek: ${input_filtered} (${input_count} db)
-    #Log To Console    Eredeti path részek: ${path_parts} (${path_count} db)
+    #Log String To Console    Input folder részek: ${input_filtered} (${input_count} db)
+    #Log String To Console    Eredeti path részek: ${path_parts} (${path_count} db)
     
     # Ellenőrizzük, hogy a path elejei megegyeznek-e az input folder-rel
     ${matches}=    Set Variable    True
     IF    ${path_count} < ${input_count}
-        Log To Console     \n\[FIGYELEM] Path rövidebb mint az input folder!
+        Log String To Console     \n\[FIGYELEM] Path rövidebb mint az input folder!
         RETURN    ${path_parts}
     END
     
@@ -131,7 +131,7 @@ Remove Input Folder From Path
         ${are_equal}=     Run Keyword And Return Status    Should Be Equal    ${path_part}    ${input_part}
         IF    not ${are_equal}
             ${matches}=    Set Variable    False
-            Log To Console     \n\[INFO] Eltérés a ${i}. pozícióban: '${path_part}' != '${input_part}'
+            Log String To Console     \n\[INFO] Eltérés a ${i}. pozícióban: '${path_part}' != '${input_part}'
             BREAK
         END
     END
@@ -143,10 +143,10 @@ Remove Input Folder From Path
             ${part}=    Get From List    ${path_parts}    ${i}
             Append To List    ${relative_parts}    ${part}
         END
-        #Log To Console     \n\[SUCCESS] Input folder eltávolítva. Relatív path: ${relative_parts}
+        #Log String To Console     \n\[SUCCESS] Input folder eltávolítva. Relatív path: ${relative_parts}
         RETURN    ${relative_parts}
     ELSE
-        Log To Console     \n\[INFO] Path nem kezdődik az input folder-rel, eredeti használata
+        Log String To Console     \n\[INFO] Path nem kezdődik az input folder-rel, eredeti használata
         RETURN    ${path_parts}
     END
 
@@ -187,33 +187,33 @@ Check Excel File Exists
     ${file_exists}=    Run Keyword And Return Status    File Should Exist    ${excel_full_path}
     
     IF    ${file_exists}
-        Log To Console     \n\[INFO] Excel fájl létezik: ${excel_full_path}
+        Log String To Console     \n\[INFO] Excel fájl létezik: ${excel_full_path}
         # Ellenőrizzük, hogy van-e megfelelő sheet az Excel-ben
         ${sheet_name}=    Set Variable    ${child_path}
         ${sheet_exists}=    Check Excel Sheet Exists    ${excel_full_path}    ${sheet_name}
         IF    ${sheet_exists}
-            Log To Console     \n\[INFO] Sheet '${sheet_name}' létezik az Excel fájlban
+            Log String To Console     \n\[INFO] Sheet '${sheet_name}' létezik az Excel fájlban
         ELSE
-            Log To Console     \n\[WARNING] Sheet '${sheet_name}' NEM létezik az Excel fájlban
+            Log String To Console     \n\[WARNING] Sheet '${sheet_name}' NEM létezik az Excel fájlban
             # EM X.Y sablont másoljuk át EM + child_path névre
             Copy Excel Sheet    ${excel_full_path}    EM X.Y    ${sheet_name}
-            Log To Console     \n\[INFO] Sheet sablon másolva: 'EM X.Y' -> '${sheet_name}'
+            Log String To Console     \n\[INFO] Sheet sablon másolva: 'EM X.Y' -> '${sheet_name}'
         END
     ELSE
-        Log To Console     \n\[WARNING] Excel fájl NEM létezik: ${excel_full_path}
+        Log String To Console     \n\[WARNING] Excel fájl NEM létezik: ${excel_full_path}
         # Sablon fájl másolása
         ${template_path}=    Set Variable    ${CURDIR}/sablonok/K ell sablon_sulyszam_minbizt_2024_12_v_1_0.xlsx
         Copy File    ${template_path}    ${excel_full_path}
-        Log To Console     \n\[INFO] Sablon fájl másolva: ${template_path} -> ${excel_full_path}
+        Log String To Console     \n\[INFO] Sablon fájl másolva: ${template_path} -> ${excel_full_path}
         
         # Az új Excel fájlban is létre kell hozni a megfelelő sheet-et
         ${sheet_name}=    Set Variable    ${child_path}
         ${sheet_exists}=    Check Excel Sheet Exists    ${excel_full_path}    ${sheet_name}
         IF    not ${sheet_exists}
-            Log To Console     \n\[INFO] Sheet '${sheet_name}' létrehozása az új Excel fájlban
+            Log String To Console     \n\[INFO] Sheet '${sheet_name}' létrehozása az új Excel fájlban
             # EM X.Y sablont másoljuk át EM + child_path névre
             Copy Excel Sheet    ${excel_full_path}    EM X.Y    ${sheet_name}
-            Log To Console     \n\[INFO] Sheet sablon másolva: 'EM X.Y' -> '${sheet_name}'
+            Log String To Console     \n\[INFO] Sheet sablon másolva: 'EM X.Y' -> '${sheet_name}'
         END
     END
     

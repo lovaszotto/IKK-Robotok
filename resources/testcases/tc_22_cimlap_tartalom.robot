@@ -5,7 +5,7 @@ Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 22 - Cimlap Tartalom Ellenorzese
     [Documentation]    22 - Címlap tartalom ellenőrzése
-    Log To Console    [22/24] Címlap tartalom ellenőrzése
+    Log String To Console    [22/24] Címlap tartalom ellenőrzése
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
     ${testCase_row}=    Set Variable    24

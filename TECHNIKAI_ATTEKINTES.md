@@ -162,7 +162,7 @@ Get-ChildItem results\ -Name "*.html" | Where-Object {$_.LastWriteTime -lt (Get-
 
 ### Debug mód
 ```robot
-Log To Console    ${variable_value}
+Log String To Console    ${variable_value}
 Log    Detailed information    DEBUG
 ```
 
