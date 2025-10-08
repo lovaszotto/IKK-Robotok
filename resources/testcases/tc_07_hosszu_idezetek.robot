@@ -16,6 +16,7 @@ Test Case 07 - Hosszu Idezetek Ellenorzese
    ${testCase_row}=    Set Variable    9
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
+    ${err_msg}=    Set Variable    ${EMPTY}
 
     #${all}=    Read Docx All    ${docx_file}
     ${text}=    Catenate    SEPARATOR=\n    @{docx_json['paragraphs']}
@@ -61,10 +62,8 @@ Test Case 07 - Hosszu Idezetek Ellenorzese
     #irjuk ki a tömb méretét
      Log To Console   Max idézőjelek közti távolság: ${max_distance}
  
-    IF    ${max_distance} >= 40    #10000    
+    IF    ${max_distance} >= 10000    
        ${err_msg}=    Set Variable        Túl hosszú idézet: ${max_distance} karakter az idézőjelek között!(${max_sample})
-    ELSE
-       ${err_msg}=    Set Variable        ''
     END
 
       Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
