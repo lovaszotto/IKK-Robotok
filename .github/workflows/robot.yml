@@ -1,51 +1,12 @@
-name: Robot Tests (Cloud)
+name: Hello World Workflow
 
 on:
   push:
-  pull_request:
-  workflow_dispatch:
-
-permissions:
-  contents: read
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+    branches: [ main ]
 
 jobs:
-  robot:
+  hello:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-      
-
-      - name: Set up Python
-      
-      - name: Install dependencies
-      
-
-      # --- Playwright/Browser könyvtár (ajánlott) ---
-      - name: Install browsers for robotframework-browser
-      
-      - name: Run Robot tests
-      
-
-      - name: Upload results as artifact
-     
-
-  # --- Opcionális: riport publikálása GitHub Pages-re ---
-  publish:
-    if: ${{ always() }}
-    needs: robot
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    steps:
-      - name: Download results
-     
-      - name: Upload Pages artifact
-       
-      - name: Deploy to GitHub Pages
-      
+      - name: Print hello
+        run: echo "Hello, world!"
