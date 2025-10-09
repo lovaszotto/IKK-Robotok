@@ -10,3 +10,9 @@ jobs:
     steps:
       - name: Print hello
         run: echo "Hello, world!"
+      
+  hello2:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Print hello2
+          run: echo "Hello2, world!"
