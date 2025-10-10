@@ -2,6 +2,7 @@
 Documentation     Excel fájl cellák kitöltése - végleges működő verzió
 Library           OperatingSystem
 Library           Process
+Resource          resources/variables.robot
 
 *** Keywords ***
 Fill Excel Cell
@@ -21,7 +22,7 @@ Fill Excel Cell
     File Should Exist    ${excel_file_name}    msg=Excel fájl nem található: ${excel_file_name}
     
     # Python script futtatása a külső fájllal
-    ${result}=    Run Process    python    libraries/fill_excel_cell.py    ${excel_file_name}    ${sheet_name}    ${row}    ${col}    ${value}    shell=True
+    ${result}=    Run Process    ${PYTHON_EXEC}    libraries/fill_excel_cell.py    ${excel_file_name}    ${sheet_name}    ${row}    ${col}    ${value}    shell=True
     
     #Log    Python script kimenet:    console=yes
     #Log    ${result.stdout}    console=yes
@@ -46,7 +47,7 @@ Fill Excel Cell By Letter
     File Should Exist    ${excel_file_name}    msg=Excel fájl nem található: ${excel_file_name}
     
     # Python script futtatása a külső fájllal, de cell_ref-fel
-    ${result}=    Run Process    python    libraries/fill_excel_cell.py    ${excel_file_name}    ${sheet_name}    ${cell_ref}    ${value}    shell=True
+    ${result}=    Run Process    ${PYTHON_EXEC}    libraries/fill_excel_cell.py    ${excel_file_name}    ${sheet_name}    ${cell_ref}    ${value}    shell=True
     
     Log    Python script kimenet:    console=yes
     Log    ${result.stdout}    console=yes

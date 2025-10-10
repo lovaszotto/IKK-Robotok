@@ -310,7 +310,7 @@ Konfiguráció Betöltése
     Log String To Console    \nKONFIGURACIO BETOLTESE...
     Log String To Console    ═══════════════════════════════
     # Konfiguracios fajl olvasasa Python scripttel
-    ${config_result}=    Run Process    python    libraries/get_config.py    shell=True
+    ${config_result}=    Run Process    ${PYTHON_EXEC}    libraries/get_config.py    shell=True
     IF    ${config_result.rc} == 0
         ${config_line}=    Set Variable    ${config_result.stdout.strip()}
         #Log String To Console     \n\[DEBUG] config_line: ${config_line}
@@ -935,7 +935,7 @@ Mark Excel Cell Green
     # Excel jelölés Python script-tel (útvonal normalizálása a figyelmeztetések elkerülésére)
         ${excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${excel_file}''').as_posix()    modules=pathlib
         ${script}=    Set Variable    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook('${excel_path_norm}'); ws=wb['${sheet_name}']; ws['${cell_address}'].fill=PatternFill(start_color='00FF00', end_color='00FF00', fill_type='solid'); wb.save('${excel_path_norm}')
-    ${result}=    Run Process    python    -W    ignore    -c    ${script}
+    ${result}=    Run Process    ${PYTHON_EXEC}    -W    ignore    -c    ${script}
     
     IF    ${result.rc} != 0
         Log String To Console     \n\[HIBA] Excel jelölés sikertelen: ${result.stderr}
@@ -952,7 +952,7 @@ Mark Excel Cell Red
     # Excel jelölés Python script-tel (útvonal normalizálása a figyelmeztetések elkerülésére)
         ${excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${excel_file}''').as_posix()    modules=pathlib
         ${script}=    Set Variable    import openpyxl; from openpyxl.styles import PatternFill; wb=openpyxl.load_workbook('${excel_path_norm}'); ws=wb['${sheet_name}']; ws['${cell_address}'].fill=PatternFill(start_color='FF0000', end_color='FF0000', fill_type='solid'); wb.save('${excel_path_norm}')
-    ${result}=    Run Process    python    -W    ignore    -c    ${script}
+    ${result}=    Run Process    ${PYTHON_EXEC}    -W    ignore    -c    ${script}
     
     IF    ${result.rc} != 0
         Log String To Console     \n\[HIBA] Excel jelölés sikertelen: ${result.stderr}
@@ -1143,7 +1143,7 @@ Create_K_ell_Excel
             Log String To Console     \n\[INFO] Üres Excel fájl létrehozása alapértelmezett sheet-ekkel...
             ${active_excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${activeExcelFile}''').as_posix()    modules=pathlib
             ${create_file_script}=    Set Variable    import openpyxl; wb=openpyxl.Workbook(); wb.remove(wb.active); ws1=wb.create_sheet('EM X.Y'); ws2=wb.create_sheet('${activeSheetName}'); wb.save('${active_excel_path_norm}'); print('Excel fájl és sheet-ek létrehozva')
-            ${create_result}=    Run Process    python    -W    ignore    -c    ${create_file_script}
+            ${create_result}=    Run Process    ${PYTHON_EXEC}    -W    ignore    -c    ${create_file_script}
             Log String To Console    Excel létrehozás eredménye: ${create_result.stdout}
         END
     END
@@ -1153,7 +1153,7 @@ Hide Excel Sheet
     [Documentation]    Elrejti a megadott sheet-et az Excel fájlban (openpyxl-lel)
     [Arguments]    ${excel_file}    ${sheet_name}
     ${python_code}=    Set Variable    import openpyxl; wb = openpyxl.load_workbook(r'${excel_file}'); ws = wb['${sheet_name}']; ws.sheet_state = 'hidden'; wb.save(r'${excel_file}')
-    ${result}=    Run Process    python    -c    ${python_code}    shell=True
+    ${result}=    Run Process    ${PYTHON_EXEC}    -c    ${python_code}    shell=True
     Log    [DEBUG] Hide sheet result: ${result.stdout}
     Log    [DEBUG] Hide sheet stderr: ${result.stderr}
     Log    [DEBUG] Hide sheet return code: ${result.rc}
@@ -1184,7 +1184,7 @@ Copy Excel Sheet
     # Direct Python evaluation for sheet copying (útvonal normalizálása)
     ${excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${excel_file}''').as_posix()    modules=pathlib
     ${python_code}=    Set Variable    import openpyxl; from copy import deepcopy; wb = openpyxl.load_workbook('${excel_path_norm}'); source_sheet = wb['${source_sheet_name}']; target_sheet = wb.copy_worksheet(source_sheet); target_sheet.title = '${target_sheet_name}'; target_sheet.conditional_formatting = deepcopy(source_sheet.conditional_formatting); wb.save('${excel_path_norm}'); print('SUCCESS')
-    ${result}=    Run Process    python    -W    ignore    -c    ${python_code}    shell=True
+    ${result}=    Run Process    ${PYTHON_EXEC}    -W    ignore    -c    ${python_code}    shell=True
     
     Log    [DEBUG] Sheet copy result: ${result.stdout}
     Log    [DEBUG] Sheet copy stderr: ${result.stderr}

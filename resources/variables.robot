@@ -6,7 +6,7 @@ ${szoveg}           NONE
 ${WAS_ERROR}        ${False} #volt-e hiba a futás során egy dokumentum feldolgozásakor
 
 # Python executable változó (Robot Framework környezetben)
-${PYTHON_EXEC}      python.exe
+${PYTHON_EXEC}      C:/Users/oLovasz/MyRobotFramework/DownloadedRobots/IKK-robotok/IKK02_Formai-Ellenorzesek/.venv/Scripts/python.exe
 
 # Konfiguracios fajl beallitasai - ezeket a duplikacio_config.py tölti be
 ${CONFIG_INPUT_FOLDER}  d:\\tmp

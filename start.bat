@@ -1,10 +1,10 @@
 @echo off
 REM =========================================
-REM  DUPLIKACIO ELLENORZO RENDSZER FUTTATAS
+REM  FORMAI ELLENORZO RENDSZER FUTTATAS
 REM =========================================
 echo.
 echo =========================================
-echo   DUPLIKACIO ELLENORZO RENDSZER
+echo   FORMAI ELLENORZO RENDSZER
 echo   Main robot futtatas
 echo =========================================
 echo.

@@ -1,22 +1,40 @@
 @echo off
-REM =========================================
-REM  DUPLIKACIO ELLENORZO RENDSZER - TELEPITO
-REM =========================================
+REM =====================================================
+REM  IKK02 FORMAI ELLENORZO RENDSZER - TELEPITO v2.0
+REM  Robot Framework alapu automatizált dokumentum
+REM  formálellenőrzés és plágium detektálás
+REM =====================================================
 setlocal EnableDelayedExpansion
 
 echo.
-echo =========================================
-echo   DUPLIKACIO ELLENORZO RENDSZER TELEPITO
-echo   Automatikus telepites es beallitas
-echo =========================================
+echo =====================================================
+echo   IKK02 FORMAI ELLENORZO RENDSZER TELEPITO v2.0
+echo   
+echo   Funkcionalitas:
+echo   - Automatikus DOCX formai ellenorzes
+echo   - Robot Framework tesztvezerlese  
+echo   - Excel export es riportkeszites
+echo   - Web interfesz tamogatas
+echo   - Email ertesitesek (Outlook COM)
+echo =====================================================
 echo.
 
 REM Telepitesi konyvtar bekeres
 echo Adja meg a telepitesi konyvtar eleresi utjat:
 echo (pl: C:\DuplikacioEllenorzo vagy D:\MyProjects\DuplikacioSystem)
-echo.
-set /p TARGET_DIR="Telepitesi konyvtar: "
+echo. 
+REM Automatikus telepitesi konyvtar beallitasa: az aktualis folder nevében a DownloadedRobots kifejezést InstalledRobots-ra cseréljük
+set "CURDIR=%CD%"
+set "TARGET_DIR=%CURDIR:DownloadedRobots=InstalledRobots%"
+echo [INFO] Alapértelmezett telepítési konyvtár: %TARGET_DIR%
+set /p USER_TARGET="Telepitesi konyvtar (ENTER = alapertelmezett): "
+if not "%USER_TARGET%"=="" set "TARGET_DIR=%USER_TARGET%"
 
+REM Ha nem letezik a konyvtar, hozzuk letre
+if not exist "%TARGET_DIR%" (
+    echo [INFO] Telepitesi konyvtar letrehozasa: %TARGET_DIR%
+    mkdir "%TARGET_DIR%"
+)
 if "%TARGET_DIR%"=="" (
     echo HIBA: Nem adott meg telepitesi konyvtarat!
     pause
@@ -27,17 +45,31 @@ echo.
 echo Telepitesi cel: %TARGET_DIR%
 echo.
 
-REM Ellenorizzuk a Python megletet
+REM Ellenorizzuk a Python megletet es verziot
+echo Python verzio ellenorzese...
 python --version >nul 2>&1
 if errorlevel 1 (
-    echo HIBA: Python nincs telepitve vagy nem elerheto!
-    echo Kerem telepitse a Python 3.8+ verzioit a python.org oldalrol.
+    echo HIBA: Python nincs telepitve vagy nem elerheto a PATH-ban!
+    echo.
+    echo Megoldasok:
+    echo 1. Telepitse a Python 3.8+ verzioit a python.org oldalrol
+    echo 2. Vagy hasznaja az Install\python-3.13.7-amd64.exe fajlt
+    echo 3. Adja hoza a Python-t a rendszer PATH valtozojához
+    echo.
     pause
     exit /b 1
 )
 
 echo Python verzio:
 python --version
+
+REM Python verzió ellenőrzés (3.8+ ajánlott)
+for /f "tokens=2" %%i in ('python --version 2^>^&1') do set PYTHON_VERSION=%%i
+echo Talalt Python verzio: %PYTHON_VERSION%
+
+echo.
+echo Python modullok ellenorzese...
+python -c "import sys; print('Python executable:', sys.executable)"
 echo.
 
 REM Konyvtar letrehozasa ha nem letezik
@@ -56,17 +88,29 @@ if not exist "%TARGET_DIR%" (
 echo.
 echo Fajlok masolasa...
 
-REM Szukseges fajlok masolasa
+REM Szukseges robot fajlok masolasa
 copy "PLG-00-main.robot" "%TARGET_DIR%\"
-copy "PLG-02-read_docx.robot" "%TARGET_DIR%\"
+copy "PLG-02-Excel-kitolto.robot" "%TARGET_DIR%\"
+copy "PLG-04-FormaiEllenorzes-TestCases.robot" "%TARGET_DIR%\"
+copy "test_docxReader.robot" "%TARGET_DIR%\"
+
+REM Konfiguracios fajlok masolasa
 copy "Duplikacio.config" "%TARGET_DIR%\"
 copy "TELEPITO_UTMUTATO.txt" "%TARGET_DIR%\"
+copy "start.bat" "%TARGET_DIR%\"
 
 REM Markdown dokumentacio fajlok masolasa
 copy "README.md" "%TARGET_DIR%\"
 copy "DOKUMENTACIO.md" "%TARGET_DIR%\"
 copy "TECHNIKAI_ATTEKINTES.md" "%TARGET_DIR%\"
 copy "GYORS_REFERENCIA.md" "%TARGET_DIR%\"
+copy "KONZOL_KOMPATIBILITAS.md" "%TARGET_DIR%\"
+copy "WEBES_INDITASI_UTMUTATO.md" "%TARGET_DIR%\"
+
+REM További fájlok másolása
+copy "_VERSION.rtf" "%TARGET_DIR%\"
+copy "Szóismétlések.xlsx" "%TARGET_DIR%\"
+copy "ToDo.xlsx" "%TARGET_DIR%\"
 
 REM Libraries mappa masolasa
 if exist "libraries" (
@@ -86,13 +130,54 @@ if exist "test" (
     xcopy "test" "%TARGET_DIR%\test" /E /I /Y
 )
 
+REM Web mappa masolasa (webes indításhoz)
+if exist "web" (
+    echo Web konyvtar masolasa...
+    xcopy "web" "%TARGET_DIR%\web" /E /I /Y
+)
+
+REM Sablonok mappa masolasa
+if exist "sablonok" (
+    echo Sablonok konyvtar masolasa...
+    xcopy "sablonok" "%TARGET_DIR%\sablonok" /E /I /Y
+)
+
+REM SqlCommands mappa masolasa
+if exist "SqlCommands" (
+    echo SqlCommands konyvtar masolasa...
+    xcopy "SqlCommands" "%TARGET_DIR%\SqlCommands" /E /I /Y
+)
+
 echo Fajlok sikeresen masolva.
 
 REM Ellenorizzuk es javitsuk a hianyzo fajlokat
-echo Hianyzo fajlok ellenorzese...
-if not exist "%TARGET_DIR%\duplikacio_config.py" (
+echo Hianyzo fajlok ellenorzese es potellepites...
+
+REM Fontos library fajlok ellenorzese
+if not exist "%TARGET_DIR%\libraries\duplikacio_config.py" (
     echo duplikacio_config.py hianyzo, ujra letrehozas...
-    copy "duplikacio_config.py" "%TARGET_DIR%\"
+    copy "libraries\duplikacio_config.py" "%TARGET_DIR%\libraries\"
+)
+
+if not exist "%TARGET_DIR%\libraries\DocxReader.py" (
+    echo DocxReader.py hianyzo, ujra letrehozas...
+    copy "libraries\DocxReader.py" "%TARGET_DIR%\libraries\"
+)
+
+if not exist "%TARGET_DIR%\libraries\web_server.py" (
+    echo web_server.py hianyzo, ujra letrehozas...
+    copy "libraries\web_server.py" "%TARGET_DIR%\libraries\"
+)
+
+REM Results es output konyvtarak letrehozasa
+if not exist "%TARGET_DIR%\results" (
+    echo Results konyvtar letrehozasa...
+    mkdir "%TARGET_DIR%\results"
+)
+
+if not exist "%TARGET_DIR%\results\docx_dump" (
+    echo DOCX dump konyvtar letrehozasa...
+    mkdir "%TARGET_DIR%\results\docx_dump"
 )
 
 echo.
@@ -124,6 +209,10 @@ rf_env\Scripts\pip.exe install robotframework-databaselibrary
 rf_env\Scripts\pip.exe install openpyxl
 rf_env\Scripts\pip.exe install python-docx
 rf_env\Scripts\pip.exe install pywin32
+rf_env\Scripts\pip.exe install lxml
+rf_env\Scripts\pip.exe install flask
+rf_env\Scripts\pip.exe install pillow
+rf_env\Scripts\pip.exe install requests
 
 if errorlevel 1 (
     echo HIBA: Csomagok telepitese sikertelen!
@@ -137,11 +226,11 @@ echo start.bat fajl letrehozasa...
 REM start.bat fajl letrehozasa
 echo @echo off > start.bat
 echo REM ========================================= >> start.bat
-echo REM  DUPLIKACIO ELLENORZO RENDSZER FUTTATAS >> start.bat
+echo REM  FORMAI ELLENORZO RENDSZER FUTTATAS >> start.bat
 echo REM ========================================= >> start.bat
 echo echo. >> start.bat
 echo echo ========================================= >> start.bat
-echo echo   DUPLIKACIO ELLENORZO RENDSZER >> start.bat
+echo echo   FORMAI ELLENORZO RENDSZER >> start.bat
 echo echo   Main robot futtatas >> start.bat
 echo echo ========================================= >> start.bat
 echo echo. >> start.bat
@@ -169,7 +258,25 @@ echo     mkdir "results" >> start.bat
 echo ^) >> start.bat
 echo. >> start.bat
 echo echo Robot Framework teszt futtatasa... >> start.bat
-echo rf_env\Scripts\robot.exe --outputdir results PLG-00-main.robot >> start.bat
+echo echo Valasszon futtatasi modot: >> start.bat
+echo echo 1. Formai ellenorzes ^(PLG-00-main.robot^) >> start.bat
+echo echo 2. Excel kitolto ^(PLG-02-Excel-kitolto.robot^) >> start.bat
+echo echo 3. Test Cases ^(PLG-04-FormaiEllenorzes-TestCases.robot^) >> start.bat
+echo echo 4. DOCX Reader teszt ^(test_docxReader.robot^) >> start.bat
+echo set /p MODE="Valasztas (1-4): " >> start.bat
+echo. >> start.bat
+echo if "%%MODE%%"=="1" ^( >> start.bat
+echo     rf_env\Scripts\robot.exe --outputdir results PLG-00-main.robot >> start.bat
+echo ^) else if "%%MODE%%"=="2" ^( >> start.bat
+echo     rf_env\Scripts\robot.exe --outputdir results PLG-02-Excel-kitolto.robot >> start.bat
+echo ^) else if "%%MODE%%"=="3" ^( >> start.bat
+echo     rf_env\Scripts\robot.exe --outputdir results PLG-04-FormaiEllenorzes-TestCases.robot >> start.bat
+echo ^) else if "%%MODE%%"=="4" ^( >> start.bat
+echo     rf_env\Scripts\robot.exe --outputdir results test_docxReader.robot >> start.bat
+echo ^) else ^( >> start.bat
+echo     echo Ervenytelen valasztas, alapertelmezett: formai ellenorzes >> start.bat
+echo     rf_env\Scripts\robot.exe --outputdir results PLG-00-main.robot >> start.bat
+echo ^) >> start.bat
 echo. >> start.bat
 echo if errorlevel 1 ^( >> start.bat
 echo     echo HIBA: A teszt futtatasa sikertelen! >> start.bat
@@ -195,35 +302,82 @@ echo.
 echo Telepitesi hely: %TARGET_DIR%
 echo.
 echo Telepitett komponensek:
-echo - Robot Framework
-echo - Database Library  
-echo - OpenPyXL (Excel export)
-echo - Python-docx (DOCX olvaso)
-echo - PyWin32 (email kuldes)
-echo - Teljes projekt fajlok
+echo - Robot Framework (tesztvezerlesi keretrendszer)
+echo - Database Library (adatbazis kezeles)
+echo - OpenPyXL (Excel export es kezeles)
+echo - Python-docx (DOCX olvasas es iras)
+echo - PyWin32 (Windows COM objektumok - email kuldes)
+echo - LXML (XML/HTML feldolgozo)
+echo - Flask (webes szerver)
+echo - Pillow (kepfeldolgozo)
+echo - Requests (HTTP kliens)
+echo - Teljes projekt fajlok (robot, libraries, resources)
+echo - Web interfesz (robot_runner.html)
+echo - Sablonok es dokumentacio
 echo - start.bat futtato script
 echo.
 echo Hasznalat:
-echo 1. Menjen a telepitesi konyvtarba: %TARGET_DIR%
-echo 2. Futtassa: start.bat
+echo 1. Konzol modu: Menjen a telepitesi konyvtarba: %TARGET_DIR%
+echo    Es futtassa: start.bat
+echo 2. Webes modu: Nyissa meg: web\robot_runner.html
+echo    Vagy futtassa: rf_env\Scripts\python.exe libraries\web_server.py
 echo.
-echo Konfiguracio: Duplikacio.config fajl szerkesztese
-echo Tesztfajlok: test\ konyvtar
-echo Eredmenyek: results\ konyvtar
+echo Konfiguracio: 
+echo - Duplikacio.config fajl szerkesztese (email, mappak)
+echo - Sablonok: sablonok\ konyvtar
+echo - Tesztfajlok: test\ konyvtar
+echo - Eredmenyek: results\ konyvtar
+echo - Dokumentacio: README.md, DOKUMENTACIO.md
+echo.
+echo Webes inditas: WEBES_INDITASI_UTMUTATO.md
 echo =========================================
 echo.
-echo Szeretne most tesztelni a telepitett rendszert? (i/n)
-set /p TEST_NOW="Teszt futtatasa most: "
+echo webserver.bat fajl letrehozasa webes inditashoz...
+
+REM webserver.bat fajl letrehozasa
+echo @echo off > webserver.bat
+echo REM ========================================= >> webserver.bat
+echo REM  FORMAI ELLENORZO RENDSZER - WEB SZERVER >> webserver.bat
+echo REM ========================================= >> webserver.bat
+echo echo. >> webserver.bat
+echo echo ========================================= >> webserver.bat
+echo echo   WEBES ROBOT FRAMEWORK INDITO >> webserver.bat
+echo echo   Flask szerver port: 5000 >> webserver.bat
+echo echo ========================================= >> webserver.bat
+echo echo. >> webserver.bat
+echo. >> webserver.bat
+echo echo Web szerver inditasa... >> webserver.bat
+echo echo Nyissa meg a bongeszoben: http://localhost:5000 >> webserver.bat
+echo echo Vagy nyissa meg a web\robot_runner.html fajlt >> webserver.bat
+echo echo. >> webserver.bat
+echo rf_env\Scripts\python.exe libraries\web_server.py >> webserver.bat
+
+echo.
+echo Szeretne most tesztelni a telepitett rendszert?
+echo 1. Konzol teszt (i)
+echo 2. Web szerver inditasa (w) 
+echo 3. Nincs teszt (n)
+set /p TEST_NOW="Valasztas (i/w/n): "
 
 if /i "%TEST_NOW%"=="i" (
     echo.
-    echo Teszt futtatasa...
+    echo Konzol teszt futtatasa...
     cd /d "%TARGET_DIR%"
     call start.bat
+) else if /i "%TEST_NOW%"=="w" (
+    echo.
+    echo Web szerver inditasa...
+    echo Nyissa meg a bongeszoben: http://localhost:5000
+    cd /d "%TARGET_DIR%"
+    call webserver.bat
 ) else (
     echo.
     echo A rendszer keszen all a hasznalatra!
-    echo Menjen a %TARGET_DIR% konyvtarba es futtassa a start.bat fajlt.
+    echo.
+    echo Indítási módok:
+    echo - Konzol: %TARGET_DIR%\start.batst
+    echo - Web szerver: %TARGET_DIR%\webserver.bat
+    echo - HTML interfesz: %TARGET_DIR%\web\robot_runner.html
 )
 echo.
 pause

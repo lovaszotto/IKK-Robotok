@@ -3,57 +3,65 @@ import openpyxl
 from openpyxl.utils import get_column_letter, column_index_from_string
 import re
 
+# Set console encoding to UTF-8 to avoid encoding issues on Windows
+try:
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    sys.stderr.reconfigure(encoding='utf-8', errors='replace')
+except AttributeError:
+    # For older Python versions
+    pass
+
 def main():
-    # Paraméterek ellenőrzése
+    # Parametererek ellenorzese
     if len(sys.argv) < 5:
-        print("HIBA: Nem elegendő paraméter!")
-        print("Használat:")
-        print("  - Koordináta mód: python fill_excel_cell.py <excel_file> <sheet_name> <row> <col> <value>")
-        print("  - Cell referencia mód: python fill_excel_cell.py <excel_file> <sheet_name> <cell_ref> <value>")
+        print("HIBA: Nem elegendo parameter!")
+        print("Hasznalat:")
+        print("  - Koordinata mod: python fill_excel_cell.py <excel_file> <sheet_name> <row> <col> <value>")
+        print("  - Cell referencia mod: python fill_excel_cell.py <excel_file> <sheet_name> <cell_ref> <value>")
         sys.exit(1)
     
     excel_file = sys.argv[1]
     sheet_name = sys.argv[2]
     
-    # Ellenőrizzük, hogy 4 vagy 5 paramétert kaptunk
+    # Ellenorizzuk, hogy 4 vagy 5 parametert kaptunk
     if len(sys.argv) == 5:
-        # 4 paraméter: cell_ref formátum (pl. A1, B3)
+        # 4 parameter: cell_ref formatum (pl. A1, B3)
         cell_ref = sys.argv[3]
         value = sys.argv[4]
-        print(f"Cell referencia mód: {cell_ref} = '{value}'")
+        print(f"Cell referencia mod: {cell_ref} = '{value}'")
     else:
-        # 5 paraméter: row, col, value formátum
+        # 5 parameter: row, col, value formatum
         row = int(sys.argv[3])
         col = sys.argv[4]
         value = sys.argv[5]
         
-        # Oszlop konvertálása
+        # Oszlop konvertalasa
         if col.isdigit():
             col_letter = get_column_letter(int(col))
             cell_ref = f"{col_letter}{row}"
         else:
             cell_ref = f"{col}{row}"
         
-        print(f"Koordináta mód: sor {row}, oszlop {col} -> {cell_ref} = '{value}'")
+        print(f"Koordinata mod: sor {row}, oszlop {col} -> {cell_ref} = '{value}'")
     
     try:
-        print(f"Megnyitom az Excel fájlt: {excel_file}")
+        print(f"Megnyitom az Excel fajlt: {excel_file}")
         wb = openpyxl.load_workbook(excel_file)
         
-        # Sheet ellenőrzése
+        # Sheet ellenorzese
         if sheet_name not in wb.sheetnames:
-            print(f"HIBA: Sheet '{sheet_name}' nem található!")
-            print(f"Elérhető sheet-ek: {wb.sheetnames}")
+            print(f"HIBA: Sheet '{sheet_name}' nem talalhato!")
+            print(f"Elerheto sheet-ek: {wb.sheetnames}")
             sys.exit(1)
         
         ws = wb[sheet_name]
         print(f"Sheet '{sheet_name}' megnyitva")
         
-        # Eredeti érték lekérdezése és új érték beállítása
+        # Eredeti ertek lekerdezese es uj ertek beallitasa
         old_value = ws[cell_ref].value
         ws[cell_ref] = value
         
-        # Fájl mentése retry mechanizmussal
+        # Fajl mentese retry mechanizmussal
         import time
         max_retries = 3
         for retry in range(max_retries):
@@ -63,31 +71,31 @@ def main():
                 break
             except PermissionError as pe:
                 if retry < max_retries - 1:
-                    print(f"Excel fájl zárva, próbálkozás {retry + 1}/{max_retries} - várakozás 2 másodperc...")
+                    print(f"Excel fajl zarva, probalkozas {retry + 1}/{max_retries} - varakozas 2 masodperc...")
                     wb.close()
                     time.sleep(2)
-                    # Újra megnyitás a következő próbálkozáshoz
+                    # Ujra megnyitas a kovetkezo probalkozashoz
                     if retry < max_retries - 1:
                         wb = openpyxl.load_workbook(excel_file)
                         ws = wb[sheet_name]
                         ws[cell_ref] = value
                 else:
-                    print(f"KRITIKUS HIBA: Excel fájl nem menthető {max_retries} próbálkozás után: {str(pe)}")
+                    print(f"KRITIKUS HIBA: Excel fajl nem mentheto {max_retries} probalkozas utan: {str(pe)}")
                     wb.close()
-                    # Folytatás a hiba ellenére, ne álljon le a teljes teszt
+                    # Folytatas a hiba ellenere, ne alljon le a teljes teszt
                     return
         
-        print(f"Sikeres frissítés:")
+        print(f"Sikeres frissites:")
         print(f"  Cella: {cell_ref}")
-        print(f"  Régi érték: '{old_value}'")  
-        print(f"  Új érték: '{value}'")
-        print(f"Excel fájl mentve: {excel_file}")
+        print(f"  Regi ertek: '{old_value}'")  
+        print(f"  Uj ertek: '{value}'")
+        print(f"Excel fajl mentve: {excel_file}")
         
     except Exception as e:
         print(f"HIBA: {str(e)}")
         import traceback
         traceback.print_exc()
-        # Nem kilépünk hibával, folytatjuk a teszteket
+        # Nem kilepunk hibaval, folytatjuk a teszteket
         return
 
 if __name__ == "__main__":
