@@ -46,8 +46,8 @@ Test Case 12 - Magyar Nyelven Keszult Ellenorzese
                     ${safe_text}=    Evaluate    repr(r'''${text}''')[:50] + "..." if len(r'''${text}''') > 50 else repr(r'''${text}''')
                     Log To Console    X ${idx}. bekezdés: ${lang.upper()} 
                     # Biztonságos hibaüzenet összeállítása
-                    ${safe_err_text}=    Evaluate    repr(r'''${text}''')[:80] + "..." if len(r'''${text}''') > 80 else repr(r'''${text}''')
-                    ${err_msg}=    Set Variable    ${err_msg}${idx}. bekezdés idegen nyelven (${lang}): 
+                    ${safe_err_text}=    Evaluate    repr(r'''${text}''')[:50] + "..." if len(r'''${text}''') > 80 else repr(r'''${text}''')
+                    ${err_msg}=    Set Variable    ${err_msg}${idx}. bekezdés idegen nyelven (${lang}): - ${safe_err_text}${CR}
                 END
             EXCEPT    AS    ${error}
                 # Biztonságos szöveg kiírása Unicode karakterek kezelésével
@@ -74,7 +74,7 @@ Test Case 12 - Magyar Nyelven Keszult Ellenorzese
             Log To Console    SIKERES: A dokumentum magyar nyelven keszult
             ${err_msg}=    Set Variable    ${EMPTY}
         ELSE
-            ${err_msg}=    Set Variable    Talalt idegen nyelvu szovegreszek: ${other_lang_count} db. ${err_msg}
+            ${err_msg}=    Set Variable    Magyar nyelvu arany: ${hungarian_percentage}% ; Talalt idegen nyelvu szovegreszek: ${other_lang_count} db. ${err_msg}
             Log To Console    SIKERTELEN: Talalhatok idegen nyelvu szovegreszek
         END
     ELSE
