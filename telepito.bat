@@ -7,109 +7,109 @@ setlocal EnableDelayedExpansion
 
 echo.
 echo =========================================
-echo   🤖 DUPLIKACIO ELLENORZO RENDSZER v2.2.0
-echo   📦 Automatikus telepites es beallitas
-echo   🔧 Robot Framework Plagium Ellenorzo
+echo   DUPLIKACIO ELLENORZO RENDSZER v2.2.0
+echo   Automatikus telepites es beallitas
+echo   Robot Framework Plagium Ellenorzo
 echo =========================================
 echo.
 
-REM Automatikus telepitesi konyvtar beallitasa: az aktualis folder nevében a DownloadedRobots kifejezést InstalledRobots-ra cseréljük
+REM Automatikus telepitesi konyvtar beallitasa: az aktualis folder neveben a DownloadedRobots kifejezest InstalledRobots-ra csereljuk
 set "CURDIR=%CD%"
 set "TARGET_DIR=%CURDIR:DownloadedRobots=InstalledRobots%"
-echo [INFO] 📂 Telepítési konyvtár: %TARGET_DIR%
+echo [INFO] Telepitesi konyvtar: %TARGET_DIR%
 
 echo.
-echo 🎯 Telepitesi cel: %TARGET_DIR%
+echo Telepitesi cel: %TARGET_DIR%
 echo.
 
-REM Rendszerkövetelmények ellenőrzése
-echo 🔍 Rendszerkövetelmények ellenőrzése...
+REM Rendszerkovetelmények ellenorzese
+echo Rendszerkovetelmeny ellenorzese...
 echo.
 
-REM Python verzió és jelenlét ellenőrzése
-echo [1/4] 🐍 Python ellenőrzése...
+REM Python verzio es jelenlét ellenorzese
+echo [1/4] Python ellenorzese...
 python --version >nul 2>&1
 if errorlevel 1 (
-    echo [ERROR] ❌ Python nincs telepitve vagy nem elerheto!
+    echo [ERROR] Python nincs telepitve vagy nem elerheto!
     echo.
-    echo 📋 TEENDŐK:
-    echo 1. Töltse le a Python 3.8+ verziot: https://python.org
-    echo 2. Telepítés során jelölje be: "Add Python to PATH"
-    echo 3. Indítsa újra a telepítőt
+    echo TEENDOK:
+    echo 1. Toltse le a Python 3.8+ verziot: https://python.org
+    echo 2. Telepites soran jelolje be: "Add Python to PATH"
+    echo 3. Inditsja ujra a telepitot
     echo.
     pause
     exit /b 1
 )
 
-REM Python verzió részletes ellenőrzése
+REM Python verzio reszletes ellenorzese
 for /f "tokens=2" %%V in ('python --version 2^>^&1') do set PYTHON_VERSION=%%V
-echo [SUCCESS] ✅ Python verzio: %PYTHON_VERSION%
+echo [SUCCESS] Python verzio: %PYTHON_VERSION%
 
-REM Python verzió kompatibilitás ellenőrzése (3.8+)
+REM Python verzio kompatibilitas ellenorzese (3.8+)
 for /f "tokens=1,2 delims=." %%a in ("%PYTHON_VERSION%") do (
     set MAJOR=%%a
     set MINOR=%%b
 )
 if %MAJOR% LSS 3 (
-    echo [ERROR] ❌ Python verzio tul regi! Minimum 3.8 szükséges.
+    echo [ERROR] Python verzio tul regi! Minimum 3.8 szukseges.
     pause
     exit /b 1
 )
 if %MAJOR% EQU 3 if %MINOR% LSS 8 (
-    echo [ERROR] ❌ Python verzio tul regi! Minimum 3.8 szükséges.
+    echo [ERROR] Python verzio tul regi! Minimum 3.8 szukseges.
     pause
     exit /b 1
 )
 
-echo [2/4] 📦 pip csomag kezelő ellenőrzése...
+echo [2/4] pip csomag kezelo ellenorzese...
 python -m pip --version >nul 2>&1
 if errorlevel 1 (
-    echo [ERROR] ❌ pip csomag kezelő nem elérhető!
-    echo Próbálja meg újratelepíteni a Python-t pip támogatással.
+    echo [ERROR] pip csomag kezelo nem elerheto!
+    echo Probalja meg ujratelepiteni a Python-t pip tamogatassal.
     pause
     exit /b 1
 )
-echo [SUCCESS] ✅ pip csomag kezelő elérhető
+echo [SUCCESS] pip csomag kezelo elerheto
 
-echo [3/4] 🖥️  Windows verzió ellenőrzése...
+echo [3/4] Windows verzio ellenorzese...
 ver | findstr /i "Windows" >nul 2>&1
 if errorlevel 1 (
-    echo [WARN] ⚠️  Windows verzió nem azonosítható, folytatás...
+    echo [WARN] Windows verzio nem azonosithato, folyatatas...
 ) else (
-    echo [SUCCESS] ✅ Windows operációs rendszer észlelve
+    echo [SUCCESS] Windows operacios rendszer eszlelve
 )
 
-echo [4/4] 💾 Tárterület ellenőrzése...
+echo [4/4] Tarterulet ellenorzese...
 for /f "tokens=3" %%a in ('dir /-c "%TARGET_DIR%\.." 2^>nul ^| findstr /i "bytes free"') do set FREE_BYTES=%%a
 if defined FREE_BYTES (
-    echo [SUCCESS] ✅ Elegendő tárterület elérhető
+    echo [SUCCESS] Elegendo tarterulet elerheto
 ) else (
-    echo [WARN] ⚠️  Tárterület ellenőrzés nem sikerült, folytatás...
+    echo [WARN] Tarterulet ellenorzes nem sikerult, folyatatas...
 )
 
 echo.
-echo ✅ RENDSZERKÖVETELMÉNYEK ELLENŐRZÉSE BEFEJEZVE
+echo RENDSZERKOVETELMENY ELLENORZESE BEFEJEZVE
 echo.
 
-REM Telepítési könyvtár kezelése
-echo 📂 Telepítési könyvtár előkészítése...
+REM Telepitesi konyvtar kezelese
+echo Telepitesi konyvtar elokeszitese...
 if not exist "%TARGET_DIR%" (
-    echo [INFO] 📁 Könyvtár létrehozása: %TARGET_DIR%
+    echo [INFO] Konyvtar letrehozasa: %TARGET_DIR%
     mkdir "%TARGET_DIR%" 2>nul
     if errorlevel 1 (
-        echo [ERROR] ❌ Nem sikerült létrehozni a könyvtárat!
-        echo Ellenőrizze a jogosultságokat és próbálja újra.
+        echo [ERROR] Nem sikerult letrehozni a konyvtarat!
+        echo Ellenorizze a jogosultsagokat es probalja ujra.
         pause
         exit /b 1
     )
-    echo [SUCCESS] ✅ Könyvtár sikeresen létrehozva
+    echo [SUCCESS] Konyvtar sikeresen letrehozva
 ) else (
-    echo [INFO] 📁 Könyvtár már létezik: %TARGET_DIR%
-    echo Meglévő fájlok felül lesznek írva...
+    echo [INFO] Konyvtar mar letezik: %TARGET_DIR%
+    echo Meglevo fajlok felul lesznek irva...
 )
 
-REM Alkönytárak létrehozása
-echo [INFO] 📂 Alkönyvtárak létrehozása...
+REM Alkonyvtarak letrehozasa
+echo [INFO] Alkonyvtarak letrehozasa...
 if not exist "%TARGET_DIR%\libraries" mkdir "%TARGET_DIR%\libraries"
 if not exist "%TARGET_DIR%\resources" mkdir "%TARGET_DIR%\resources"
 if not exist "%TARGET_DIR%\test" mkdir "%TARGET_DIR%\test"
@@ -117,248 +117,248 @@ if not exist "%TARGET_DIR%\results" mkdir "%TARGET_DIR%\results"
 if not exist "%TARGET_DIR%\documentation_docx" mkdir "%TARGET_DIR%\documentation_docx"
 
 echo.
-echo 📋 Projekt fájlok másolása...
+echo Projekt fajlok masolasa...
 
-REM Főbb Robot Framework fájlok másolása
-echo [1/5] 🤖 Robot Framework tesztfájlok másolása...
+REM Fobb Robot Framework fajlok masolasa
+echo [1/5] Robot Framework tesztfajlok masolasa...
 if exist "PLG-00-main.robot" (
-    copy "PLG-00-main.robot" "%TARGET_DIR%\" >nul 2>&1 && echo   ✅ PLG-00-main.robot
+    copy "PLG-00-main.robot" "%TARGET_DIR%\" >nul 2>&1 && echo   [OK] PLG-00-main.robot
 ) else (
-    echo   ❌ PLG-00-main.robot - HIÁNYZÓ FÁJL!
+    echo   [ERROR] PLG-00-main.robot - HIANYZO FAJL!
 )
 if exist "PLG-02-read_docx.robot" (
-    copy "PLG-02-read_docx.robot" "%TARGET_DIR%\" >nul 2>&1 && echo   ✅ PLG-02-read_docx.robot
+    copy "PLG-02-read_docx.robot" "%TARGET_DIR%\" >nul 2>&1 && echo   [OK] PLG-02-read_docx.robot
 )
 if exist "PLG-03-write-excel.robot" (
-    copy "PLG-03-write-excel.robot" "%TARGET_DIR%\" >nul 2>&1 && echo   ✅ PLG-03-write-excel.robot
+    copy "PLG-03-write-excel.robot" "%TARGET_DIR%\" >nul 2>&1 && echo   [OK] PLG-03-write-excel.robot
 )
 
-REM Konfigurációs fájlok másolása
-echo [2/5] ⚙️  Konfigurációs fájlok másolása...
+REM Konfiguracios fajlok masolasa
+echo [2/5] Konfiguracios fajlok masolasa...
 if exist "Duplikacio.config" (
-    copy "Duplikacio.config" "%TARGET_DIR%\" >nul 2>&1 && echo   ✅ Duplikacio.config
+    copy "Duplikacio.config" "%TARGET_DIR%\" >nul 2>&1 && echo   [OK] Duplikacio.config
 ) else (
-    echo   ❌ Duplikacio.config - HIÁNYZÓ FÁJL!
+    echo   [ERROR] Duplikacio.config - HIANYZO FAJL!
 )
 if exist "TELEPITO_UTMUTATO.txt" (
-    copy "TELEPITO_UTMUTATO.txt" "%TARGET_DIR%\" >nul 2>&1 && echo   ✅ TELEPITO_UTMUTATO.txt
+    copy "TELEPITO_UTMUTATO.txt" "%TARGET_DIR%\" >nul 2>&1 && echo   [OK] TELEPITO_UTMUTATO.txt
 )
 
-REM Dokumentációs fájlok másolása
-echo [3/5] 📚 Dokumentációs fájlok másolása...
+REM Dokumentacios fajlok masolasa
+echo [3/5] Dokumentacios fajlok masolasa...
 for %%F in (README.md DOKUMENTACIO.md TECHNIKAI_ATTEKINTES.md GYORS_REFERENCIA.md KONZOL_KOMPATIBILITAS.md) do (
     if exist "%%F" (
-        copy "%%F" "%TARGET_DIR%\" >nul 2>&1 && echo   ✅ %%F
+        copy "%%F" "%TARGET_DIR%\" >nul 2>&1 && echo   [OK] %%F
     )
 )
 
-REM Python könyvtárak másolása
-echo [4/5] 🐍 Python könyvtárak másolása...
+REM Python konyvtarak masolasa
+echo [4/5] Python konyvtarak masolasa...
 if exist "libraries" (
-    echo   📁 libraries könyvtár másolása...
+    echo   libraries konyvtar masolasa...
     xcopy "libraries" "%TARGET_DIR%\libraries" /E /I /Y /Q >nul 2>&1
     if errorlevel 1 (
-        echo   ❌ HIBA a libraries másolása közben
+        echo   [ERROR] HIBA a libraries masolasa kozben
     ) else (
-        echo   ✅ libraries könyvtár sikeresen másolva
+        echo   [OK] libraries konyvtar sikeresen masolva
     )
 ) else (
-    echo   ❌ libraries könyvtár nem található!
+    echo   [ERROR] libraries konyvtar nem talalhato!
 )
 
-REM Resources könyvtár másolása
-echo [5/5] 📂 Erőforrások másolása...
+REM Resources konyvtar masolasa
+echo [5/5] Eroforrasok masolasa...
 if exist "resources" (
-    echo   📁 resources könyvtár másolása...
+    echo   resources konyvtar masolasa...
     xcopy "resources" "%TARGET_DIR%\resources" /E /I /Y /Q >nul 2>&1
     if errorlevel 1 (
-        echo   ❌ HIBA a resources másolása közben
+        echo   [ERROR] HIBA a resources masolasa kozben
     ) else (
-        echo   ✅ resources könyvtár sikeresen másolva
+        echo   [OK] resources konyvtar sikeresen masolva
     )
 )
 
 if exist "test" (
-    echo   📁 test könyvtár másolása...
+    echo   test konyvtar masolasa...
     xcopy "test" "%TARGET_DIR%\test" /E /I /Y /Q >nul 2>&1
     if errorlevel 1 (
-        echo   ❌ HIBA a test másolása közben
+        echo   [ERROR] HIBA a test masolasa kozben
     ) else (
-        echo   ✅ test könyvtár sikeresen másolva
+        echo   [OK] test konyvtar sikeresen masolva
     )
 )
 
-REM SQL parancsok és egyéb fájlok
+REM SQL parancsok es egyeb fajlok
 if exist "SqlCommands" (
-    xcopy "SqlCommands" "%TARGET_DIR%\SqlCommands" /E /I /Y /Q >nul 2>&1 && echo   ✅ SqlCommands könyvtár
+    xcopy "SqlCommands" "%TARGET_DIR%\SqlCommands" /E /I /Y /Q >nul 2>&1 && echo   [OK] SqlCommands konyvtar
 )
 
-REM Python modulok ellenőrzése és másolása
+REM Python modulok ellenorzese es masolasa
 echo.
-echo 🔍 Python modulok ellenőrzése...
+echo Python modulok ellenorzese...
 set MISSING_FILES=0
 for %%F in (ellenoriz_indexek.py validate_docx.py) do (
     if exist "%%F" (
-        copy "%%F" "%TARGET_DIR%\" >nul 2>&1 && echo   ✅ %%F
+        copy "%%F" "%TARGET_DIR%\" >nul 2>&1 && echo   [OK] %%F
     ) else (
-        echo   ⚠️  %%F - opcionális fájl hiányzik
+        echo   [WARN] %%F - opcionalis fajl hianyzik
     )
 )
 
 echo.
-echo ✅ FÁJLOK MÁSOLÁSA BEFEJEZVE
+echo FAJLOK MASOLASA BEFEJEZVE
 
 echo.
 
-REM Átlépés a célkönyvtárba
-echo 📂 Átlépés a telepítési könyvtárba...
+REM Atlepes a celkonyvtarba
+echo Atlepes a telepitesi konyvtarba...
 cd /d "%TARGET_DIR%"
 if errorlevel 1 (
-    echo [ERROR] ❌ Nem sikerült átlépni a célkönyvtárba!
+    echo [ERROR] Nem sikerult atlepni a celkonyvtarba!
     pause
     exit /b 1
 )
 
-REM Virtuális környezet létrehozása
+REM Virtualis kornyezet letrehozasa
 echo.
-echo 🐍 Python virtuális környezet beállítása...
+echo Python virtualis kornyezet beallitasa...
 if not exist "rf_env" (
-    echo [INFO] 📦 Virtuális környezet létrehozása (rf_env)...
+    echo [INFO] Virtualis kornyezet letrehozasa - rf_env...
     python -m venv rf_env
     if errorlevel 1 (
-        echo [ERROR] ❌ Virtuális környezet létrehozása sikertelen!
+        echo [ERROR] Virtualis kornyezet letrehozasa sikertelen!
         echo.
-        echo 📋 LEHETSÉGES OKOK:
-        echo - Python venv modul nincs telepítve
-        echo - Jogosultság probléma
-        echo - Nem megfelelő Python verzió
+        echo LEHETSEGES OKOK:
+        echo - Python venv modul nincs telepitve
+        echo - Jogosultsag problema
+        echo - Nem megfelelo Python verzio
         pause
         exit /b 1
     )
-    echo [SUCCESS] ✅ Virtuális környezet sikeresen létrehozva
+    echo [SUCCESS] Virtualis kornyezet sikeresen letrehozva
 ) else (
-    echo [INFO] 📦 Virtuális környezet már létezik, frissítés...
+    echo [INFO] Virtualis kornyezet mar letezik, frissites...
 )
 
-REM pip frissítése
+REM pip frissitese
 echo.
-echo 📦 Python csomagkezelő (pip) frissítése...
+echo Python csomagkezelo pip frissitese...
 rf_env\Scripts\pip.exe install --upgrade pip --quiet
 if errorlevel 1 (
-    echo [WARN] ⚠️  pip frissítés részben sikertelen, folytatás...
+    echo [WARN] pip frissites reszben sikertelen, folyatatas...
 ) else (
-    echo [SUCCESS] ✅ pip sikeresen frissítve
+    echo [SUCCESS] pip sikeresen frissitve
 )
 
-REM Függőségek telepítése
+REM Fuggosegek telepitese
 echo.
-echo 📦 Robot Framework és függőségek telepítése...
-echo [INFO] Ez eltarthat néhány percig, kérem várjon...
+echo Robot Framework es fuggosegek telepitese...
+echo [INFO] Ez eltarthat nehany percig, kerem varjon...
 
-echo [1/6] 🤖 Robot Framework telepítése...
+echo [1/6] Robot Framework telepitese...
 rf_env\Scripts\pip.exe install robotframework==7.3.2 --quiet
 if errorlevel 1 (
-    echo [ERROR] ❌ Robot Framework telepítése sikertelen!
+    echo [ERROR] Robot Framework telepitese sikertelen!
     goto :pip_error
 )
 
-echo [2/6] 🗄️  Database Library telepítése...
+echo [2/6] Database Library telepitese...
 rf_env\Scripts\pip.exe install robotframework-databaselibrary==2.3.2 --quiet
 if errorlevel 1 (
-    echo [ERROR] ❌ Database Library telepítése sikertelen!
+    echo [ERROR] Database Library telepitese sikertelen!
     goto :pip_error
 )
 
-echo [3/6] 📊 OpenPyXL (Excel) telepítése...
+echo [3/6] OpenPyXL Excel telepitese...
 rf_env\Scripts\pip.exe install openpyxl==3.1.5 --quiet
 if errorlevel 1 (
-    echo [ERROR] ❌ OpenPyXL telepítése sikertelen!
+    echo [ERROR] OpenPyXL telepitese sikertelen!
     goto :pip_error
 )
 
-echo [4/6] 📄 Python-docx telepítése...
+echo [4/6] Python-docx telepitese...
 rf_env\Scripts\pip.exe install python-docx==1.2.0 --quiet
 if errorlevel 1 (
-    echo [ERROR] ❌ Python-docx telepítése sikertelen!
+    echo [ERROR] Python-docx telepitese sikertelen!
     goto :pip_error
 )
 
-echo [5/6] 🖥️  PyWin32 (Windows) telepítése...
+echo [5/6] PyWin32 Windows telepitese...
 rf_env\Scripts\pip.exe install pywin32==311 --quiet
 if errorlevel 1 (
-    echo [ERROR] ❌ PyWin32 telepítése sikertelen!
+    echo [ERROR] PyWin32 telepitese sikertelen!
     goto :pip_error
 )
 
-echo [6/6] 🔧 RobotLibCore telepítése...
+echo [6/6] RobotLibCore telepitese...
 rf_env\Scripts\pip.exe install robotframework-pythonlibcore==4.4.1 --quiet
 if errorlevel 1 (
-    echo [WARN] ⚠️  RobotLibCore telepítés részben sikertelen, folytatás...
+    echo [WARN] RobotLibCore telepites reszben sikertelen, folyatatas...
 )
 
 echo.
-echo ✅ PYTHON CSOMAGOK TELEPÍTÉSE BEFEJEZVE
+echo PYTHON CSOMAGOK TELEPITESE BEFEJEZVE
 goto :continue_install
 
 :pip_error
 echo.
-echo [ERROR] ❌ Csomag telepítési hiba történt!
+echo [ERROR] Csomag telepitesi hiba tortent!
 echo.
-echo 📋 LEHETSÉGES MEGOLDÁSOK:
-echo 1. Ellenőrizze az internetkapcsolatot
-echo 2. Próbálja meg később
-echo 3. Futtassa rendszergazdaként a telepítőt
-echo 4. Ellenőrizze a tűzfal beállításait
+echo LEHETSEGES MEGOLDASOK:
+echo 1. Ellenorizze az internetkapcsolatot
+echo 2. Probalja meg kesobb
+echo 3. Futtassa rendszergazdakent a telepitot
+echo 4. Ellenorizze a tuzfal beallitasait
 echo.
-echo Szeretné folytatni a telepítést? (i/n)
-set /p CONTINUE_INSTALL="Folytatás: "
+echo Szeretne folytatni a telepitestet? i/n
+set /p CONTINUE_INSTALL="Folyatatas: "
 if /i not "%CONTINUE_INSTALL%"=="i" (
-    echo Telepítés megszakítva.
+    echo Telepites megszakitva.
     pause
     exit /b 1
 )
 
 :continue_install
 
-REM Indító script létrehozása
+REM Indito script letrehozasa
 echo.
-echo 🚀 start.bat indító fájl létrehozása...
+echo start.bat indito fajl letrehozasa...
 
-REM Fejlesztett start.bat fájl létrehozása
+REM Fejlesztett start.bat fajl letrehozasa
 echo @echo off > start.bat
 echo REM ========================================= >> start.bat
 echo REM  DUPLIKACIO ELLENORZO RENDSZER v2.2.0 >> start.bat
-echo REM  🤖 Robot Framework Plagium Ellenorzo >> start.bat
+echo REM  Robot Framework Plagium Ellenorzo >> start.bat
 echo REM ========================================= >> start.bat
 echo setlocal EnableDelayedExpansion >> start.bat
 echo. >> start.bat
 echo echo. >> start.bat
 echo echo ========================================= >> start.bat
-echo echo   🤖 DUPLIKACIO ELLENORZO RENDSZER v2.2.0 >> start.bat
-echo echo   🔍 Plagium ellenorzes inditasa >> start.bat
+echo echo   DUPLIKACIO ELLENORZO RENDSZER v2.2.0 >> start.bat
+echo echo   Plagium ellenorzes inditasa >> start.bat
 echo echo ========================================= >> start.bat
 echo echo. >> start.bat
 echo. >> start.bat
 echo REM Virtualis kornyezet ellenorzese >> start.bat
-echo echo 🔍 Virtualis kornyezet ellenorzese... >> start.bat
+echo echo Virtualis kornyezet ellenorzese... >> start.bat
 echo if not exist "rf_env\Scripts\robot.exe" ^( >> start.bat
-echo     echo [ERROR] ❌ Virtualis kornyezet nem talalhato! >> start.bat
+echo     echo [ERROR] Virtualis kornyezet nem talalhato! >> start.bat
 echo     echo. >> start.bat
-echo     echo 📋 MEGOLDAS: >> start.bat
+echo     echo MEGOLDAS: >> start.bat
 echo     echo 1. Futtassa ujra a telepito.bat fajlt >> start.bat
 echo     echo 2. Ellenorizze a rf_env konyvtar megletet >> start.bat
 echo     echo. >> start.bat
 echo     pause >> start.bat
 echo     exit /b 1 >> start.bat
 echo ^) >> start.bat
-echo echo [SUCCESS] ✅ Virtualis kornyezet OK >> start.bat
+echo echo [SUCCESS] Virtualis kornyezet OK >> start.bat
 echo. >> start.bat
 echo REM Konfiguracios fajl ellenorzese >> start.bat
-echo echo 🔍 Konfiguracios fajl ellenorzese... >> start.bat
+echo echo Konfiguracios fajl ellenorzese... >> start.bat
 echo if not exist "Duplikacio.config" ^( >> start.bat
-echo     echo [ERROR] ❌ Duplikacio.config fajl nem talalhato! >> start.bat
+echo     echo [ERROR] Duplikacio.config fajl nem talalhato! >> start.bat
 echo     echo. >> start.bat
-echo     echo 📋 MEGOLDAS: >> start.bat
+echo     echo MEGOLDAS: >> start.bat
 echo     echo 1. Masoljad ide a Duplikacio.config fajlt >> start.bat
 echo     echo 2. Szerkeszd a bemeneti/kimeneti konyvtarakat >> start.bat
 echo     echo 3. Add meg az email cimet >> start.bat
@@ -366,131 +366,117 @@ echo     echo. >> start.bat
 echo     pause >> start.bat
 echo     exit /b 1 >> start.bat
 echo ^) >> start.bat
-echo echo [SUCCESS] ✅ Konfiguracios fajl OK >> start.bat
+echo echo [SUCCESS] Konfiguracios fajl OK >> start.bat
 echo. >> start.bat
 echo REM Konyvtarak letrehozasa >> start.bat
-echo echo 📂 Kimeneti konyvtarak ellenorzese... >> start.bat
+echo echo Kimeneti konyvtarak ellenorzese... >> start.bat
 echo if not exist "results" ^( >> start.bat
-echo     echo [INFO] 📁 results konyvtar letrehozasa... >> start.bat
+echo     echo [INFO] results konyvtar letrehozasa... >> start.bat
 echo     mkdir "results" >> start.bat
 echo ^) >> start.bat
 echo. >> start.bat
 echo REM Robot Framework teszt futtatasa >> start.bat
-echo echo 🚀 Robot Framework teszt inditasa... >> start.bat
+echo echo Robot Framework teszt inditasa... >> start.bat
 echo echo [INFO] Ez eltarthat nehany percig, kerem varjon... >> start.bat
 echo echo. >> start.bat
 echo rf_env\Scripts\robot.exe --outputdir results --loglevel INFO PLG-00-main.robot >> start.bat
 echo. >> start.bat
 echo REM Eredmeny ellenorzese >> start.bat
 echo if errorlevel 1 ^( >> start.bat
-echo     echo [ERROR] ❌ A teszt futtatasa sikertelen! >> start.bat
+echo     echo [ERROR] A teszt futtatasa sikertelen! >> start.bat
 echo     echo. >> start.bat
-echo     echo 📋 HIBAKERESO LEPESEK: >> start.bat
+echo     echo HIBAKERESO LEPESEK: >> start.bat
 echo     echo 1. Ellenorizze: results\log.html >> start.bat
 echo     echo 2. Ellenorizze: results\report.html >> start.bat
 echo     echo 3. Konfiguraciot: Duplikacio.config >> start.bat
-echo     echo 4. Bemeneti konyvtar tartalmát >> start.bat
+echo     echo 4. Bemeneti konyvtar tartalmat >> start.bat
 echo     echo. >> start.bat
 echo ^) else ^( >> start.bat
 echo     echo. >> start.bat
 echo     echo ========================================= >> start.bat
-echo     echo ✅ TESZT SIKERESEN BEFEJEZODOTT! >> start.bat
+echo     echo TESZT SIKERESEN BEFEJEZODOTT! >> start.bat
 echo     echo. >> start.bat
-echo     echo 📊 EREDMENYEK: >> start.bat
-echo     echo 📄 Log fajl: results\log.html >> start.bat
-echo     echo 📈 Report: results\report.html >> start.bat
-echo     echo 📧 Email elkuldve a konfiguralt cimre >> start.bat
-echo     echo 📊 Excel export keszitve >> start.bat
+echo     echo EREDMENYEK: >> start.bat
+echo     echo Log fajl: results\log.html >> start.bat
+echo     echo Report: results\report.html >> start.bat
+echo     echo Email elkuldve a konfiguralt cimre >> start.bat
+echo     echo Excel export keszitve >> start.bat
 echo     echo. >> start.bat
-echo     echo 🎯 PLAGIUM ELLENORZES TELJES FOLYAMATA BEFEJEZVE! ✅ >> start.bat
+echo     echo PLAGIUM ELLENORZES TELJES FOLYAMATA BEFEJEZVE! >> start.bat
 echo     echo ========================================= >> start.bat
 echo ^) >> start.bat
 echo. >> start.bat
 echo pause >> start.bat
 
-echo [SUCCESS] ✅ start.bat fájl sikeresen létrehozva
+echo [SUCCESS] start.bat fajl sikeresen letrehozva
 
-REM Konfigurációs fájl ellenőrzése és testre szabási útmutató
+REM Konfiguracios fajl ellenorzese es testre szabasi utmutato
 echo.
-echo ⚙️  Konfigurációs fájl ellenőrzése...
+echo Konfiguracios fajl ellenorzese...
 if exist "Duplikacio.config" (
-    echo [SUCCESS] ✅ Duplikacio.config fájl megtalálva
+    echo [SUCCESS] Duplikacio.config fajl megtalava
     echo.
-    echo 📋 FONTOS - Konfigurációs beállítások:
-    echo 1. Szerkessze a Duplikacio.config fájlt
-    echo 2. Állítsa be a bemeneti könyvtárat (input_folder)
-    echo 3. Állítsa be a kimeneti könyvtárat (output_folder)
-    echo 4. Konfigurálja az email beállításokat (ha szükséges)
+    echo FONTOS - Konfiguracios beallitasok:
+    echo 1. Szerkessze a Duplikacio.config fajlt
+    echo 2. Allitsa be a bemeneti konyvtarat - input_folder
+    echo 3. Allitsa be a kimeneti konyvtarat - output_folder
+    echo 4. Konfigurálja az email beallitasokat - ha szukseges
     echo.
 ) else (
-    echo [WARN] ⚠️  Duplikacio.config fájl hiányzik
+    echo [WARN] Duplikacio.config fajl hianyzik
 )
 
-REM Telepítés befejezése és összesítő
+REM Telepites befejezese es osszesito
 echo.
 echo =========================================
-echo ✅ TELEPÍTÉS SIKERESEN BEFEJEZVE! 
+echo TELEPITES SIKERESEN BEFEJEZVE! 
 echo =========================================
 echo.
-echo 📂 Telepítési hely: %TARGET_DIR%
+echo Telepitesi hely: %TARGET_DIR%
 echo.
-echo 📦 TELEPÍTETT KOMPONENSEK:
-echo ✅ Robot Framework 7.3.2 (automatizálás)
-echo ✅ Database Library 2.3.2 (SQLite adatbázis)  
-echo ✅ OpenPyXL 3.1.5 (Excel export)
-echo ✅ Python-docx 1.2.0 (DOCX dokumentum olvasó)
-echo ✅ PyWin32 311 (Windows email küldés)
-echo ✅ RobotLibCore 4.4.1 (Robot könyvtár core)
-echo ✅ Teljes projekt fájlok és dokumentáció
-echo ✅ start.bat futtatási script
+echo TELEPITETT KOMPONENSEK:
+echo [OK] Robot Framework 7.3.2 - automatizalas
+echo [OK] Database Library 2.3.2 - SQLite adatbazis  
+echo [OK] OpenPyXL 3.1.5 - Excel export
+echo [OK] Python-docx 1.2.0 - DOCX dokumentum olvaso
+echo [OK] PyWin32 311 - Windows email kuldes
+echo [OK] RobotLibCore 4.4.1 - Robot konyvtar core
+echo [OK] Teljes projekt fajlok es dokumentacio
+echo [OK] start.bat futtatas script
 echo.
-echo 🚀 HASZNÁLAT:
-echo 1. 📂 Lépjen a telepítési könyvtárba: %TARGET_DIR%
-echo 2. ⚙️  Szerkessze: Duplikacio.config
-echo 3. 🏃 Futtassa: start.bat
+echo HASZNALAT:
+echo 1. Lepjen a telepitesi konyvtarba: %TARGET_DIR%
+echo 2. Szerkessze: Duplikacio.config
+echo 3. Futtassa: start.bat
 echo.
-echo 📋 FONTOS FÁJLOK:
-echo ⚙️  Konfigurációs: Duplikacio.config
-echo 🧪 Teszt fájlok: test\ könyvtár
-echo 📊 Eredmények: results\ könyvtár  
-echo 📚 Dokumentáció: README.md, DOKUMENTACIO.md
-echo 🔧 Telepítési útmutató: TELEPITO_UTMUTATO.txt
+echo FONTOS FAJLOK:
+echo Konfiguracios: Duplikacio.config
+echo Teszt fajlok: test\ konyvtar
+echo Eredmenyek: results\ konyvtar  
+echo Dokumentacio: README.md, DOKUMENTACIO.md
+echo Telepitesi utmutato: TELEPITO_UTMUTATO.txt
 echo.
-echo 🌐 TÁMOGATÁS:
-echo 📖 Gyors referencia: GYORS_REFERENCIA.md
-echo 🔧 Technikai áttekintés: TECHNIKAI_ATTEKINTES.md
-echo 💬 Konzol kompatibilitás: KONZOL_KOMPATIBILITAS.md
+echo TAMOGATAS:
+echo Gyors referencia: GYORS_REFERENCIA.md
+echo Technikai attekintes: TECHNIKAI_ATTEKINTES.md
+echo Konzol kompatibilitas: KONZOL_KOMPATIBILITAS.md
 echo.
 echo =========================================
-echo 🤖 Robot Framework Plágium Ellenőrző v2.2.0
-echo 📅 Telepítés dátuma: %DATE% %TIME:~0,8%
+echo Robot Framework Plagium Ellenorzo v2.2.0
+echo Telepites datuma: %DATE% %TIME:~0,8%
 echo =========================================
 echo.
 
-REM Telepítés utáni tesztelési ajánlat
-echo 🧪 Szeretne most tesztelni a telepített rendszert? (i/n)
-set /p TEST_NOW="Azonnali teszt futtatás: "
-
-if /i "%TEST_NOW%"=="i" (
-    echo.
-    echo 🚀 Teszt futtatása indítása...
-    echo [INFO] Az első futtatás hosszabb időt vehet igénybe...
-    echo.
-    cd /d "%TARGET_DIR%"
-    call start.bat
-) else (
-    echo.
-    echo ✅ A rendszer készen áll a használatra!
-    echo.
-    echo 📋 KÖVETKEZŐ LÉPÉSEK:
-    echo 1. Menjen a %TARGET_DIR% könyvtárba
-    echo 2. Szerkessze a Duplikacio.config fájlt
-    echo 3. Helyezze be a vizsgálandó DOCX fájlokat
-    echo 4. Futtassa a start.bat fájlt
-    echo.
-    echo 📚 További segítségért olvassa el a dokumentációt!
-)
-
+REM Telepites befejezese
 echo.
-echo 🎯 TELEPÍTÉS BEFEJEZVE - Nyomjon egy billentyűt a kilépéshez...
-pause >nul
+echo A rendszer keszen all a hasznalatra!
+echo.
+echo KOVETKEZO LEPESEK:
+echo 1. Menjen a %TARGET_DIR% konyvtarba
+echo 2. Szerkessze a Duplikacio.config fajlt
+echo 3. Helyezze be a vizsgalando DOCX fajlokat
+echo 4. Futtassa a start.bat fajlt
+echo.
+echo Tovabbi segitsegert olvassa el a dokumentaciot!
+
+
