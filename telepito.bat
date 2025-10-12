@@ -1,10 +1,9 @@
 @echo off
 REM =========================================
 REM  DUPLIKACIO ELLENORZO RENDSZER - TELEPITO
-REM  v2.2.2 - Fejlesztett telepitesi script
+REM  v2.2.3 - Fejlesztett telepitesi script
 REM =========================================
 setlocal EnableDelayedExpansion
-
 echo.
 echo =========================================
 echo   DUPLIKACIO ELLENORZO RENDSZER v2.2.0
@@ -18,9 +17,6 @@ set "CURDIR=%CD%"
 set "TARGET_DIR=%CURDIR:DownloadedRobots=InstalledRobots%"
 echo [INFO] Telepitesi konyvtar: %TARGET_DIR%
 
-echo.
-echo Telepitesi cel: %TARGET_DIR%
-echo.
 
 REM Rendszerkovetelmények ellenorzese
 echo Rendszerkovetelmeny ellenorzese...
