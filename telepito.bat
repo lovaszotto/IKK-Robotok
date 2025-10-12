@@ -27,19 +27,13 @@ REM Automatikus telepitesi konyvtar beallitasa: az aktualis folder nevében a Do
 set "CURDIR=%CD%"
 set "TARGET_DIR=%CURDIR:DownloadedRobots=InstalledRobots%"
 echo [INFO] Alapértelmezett telepítési konyvtár: %TARGET_DIR%
-set /p USER_TARGET="Telepitesi konyvtar (ENTER = alapertelmezett): "
-if not "%USER_TARGET%"=="" set "TARGET_DIR=%USER_TARGET%"
 
 REM Ha nem letezik a konyvtar, hozzuk letre
 if not exist "%TARGET_DIR%" (
     echo [INFO] Telepitesi konyvtar letrehozasa: %TARGET_DIR%
     mkdir "%TARGET_DIR%"
 )
-if "%TARGET_DIR%"=="" (
-    echo HIBA: Nem adott meg telepitesi konyvtarat!
-    pause
-    exit /b 1
-)
+
 
 echo.
 echo Telepitesi cel: %TARGET_DIR%
@@ -352,32 +346,4 @@ echo echo Vagy nyissa meg a web\robot_runner.html fajlt >> webserver.bat
 echo echo. >> webserver.bat
 echo rf_env\Scripts\python.exe libraries\web_server.py >> webserver.bat
 
-echo.
-echo Szeretne most tesztelni a telepitett rendszert?
-echo 1. Konzol teszt (i)
-echo 2. Web szerver inditasa (w) 
-echo 3. Nincs teszt (n)
-set /p TEST_NOW="Valasztas (i/w/n): "
 
-if /i "%TEST_NOW%"=="i" (
-    echo.
-    echo Konzol teszt futtatasa...
-    cd /d "%TARGET_DIR%"
-    call start.bat
-) else if /i "%TEST_NOW%"=="w" (
-    echo.
-    echo Web szerver inditasa...
-    echo Nyissa meg a bongeszoben: http://localhost:5000
-    cd /d "%TARGET_DIR%"
-    call webserver.bat
-) else (
-    echo.
-    echo A rendszer keszen all a hasznalatra!
-    echo.
-    echo Indítási módok:
-    echo - Konzol: %TARGET_DIR%\start.batst
-    echo - Web szerver: %TARGET_DIR%\webserver.bat
-    echo - HTML interfesz: %TARGET_DIR%\web\robot_runner.html
-)
-echo.
-pause
