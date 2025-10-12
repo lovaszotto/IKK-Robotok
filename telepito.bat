@@ -1,7 +1,7 @@
 @echo off
 REM =========================================
 REM  DUPLIKACIO ELLENORZO RENDSZER - TELEPITO
-REM  v2.2.0 - Fejlesztett telepitesi script
+REM  v2.2.1 - Fejlesztett telepitesi script
 REM =========================================
 setlocal EnableDelayedExpansion
 
