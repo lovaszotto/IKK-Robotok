@@ -252,25 +252,9 @@ echo     mkdir "results" >> start.bat
 echo ^) >> start.bat
 echo. >> start.bat
 echo echo Robot Framework teszt futtatasa... >> start.bat
-echo echo Valasszon futtatasi modot: >> start.bat
-echo echo 1. Formai ellenorzes ^(PLG-00-main.robot^) >> start.bat
-echo echo 2. Excel kitolto ^(PLG-02-Excel-kitolto.robot^) >> start.bat
-echo echo 3. Test Cases ^(PLG-04-FormaiEllenorzes-TestCases.robot^) >> start.bat
-echo echo 4. DOCX Reader teszt ^(test_docxReader.robot^) >> start.bat
-echo set /p MODE="Valasztas (1-4): " >> start.bat
+echo echo Formai ellenorzes futtatasa ^(PLG-00-main.robot^)... >> start.bat
 echo. >> start.bat
-echo if "%%MODE%%"=="1" ^( >> start.bat
-echo     rf_env\Scripts\robot.exe --outputdir results PLG-00-main.robot >> start.bat
-echo ^) else if "%%MODE%%"=="2" ^( >> start.bat
-echo     rf_env\Scripts\robot.exe --outputdir results PLG-02-Excel-kitolto.robot >> start.bat
-echo ^) else if "%%MODE%%"=="3" ^( >> start.bat
-echo     rf_env\Scripts\robot.exe --outputdir results PLG-04-FormaiEllenorzes-TestCases.robot >> start.bat
-echo ^) else if "%%MODE%%"=="4" ^( >> start.bat
-echo     rf_env\Scripts\robot.exe --outputdir results test_docxReader.robot >> start.bat
-echo ^) else ^( >> start.bat
-echo     echo Ervenytelen valasztas, alapertelmezett: formai ellenorzes >> start.bat
-echo     rf_env\Scripts\robot.exe --outputdir results PLG-00-main.robot >> start.bat
-echo ^) >> start.bat
+echo rf_env\Scripts\robot.exe --outputdir results PLG-00-main.robot >> start.bat
 echo. >> start.bat
 echo if errorlevel 1 ^( >> start.bat
 echo     echo HIBA: A teszt futtatasa sikertelen! >> start.bat
