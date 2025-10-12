@@ -4,6 +4,7 @@ log.html
 report.html
 STDERR
 STDOUT
+<<<<<<< HEAD
 
 # Virtual environment
 rf_env/
@@ -15,3 +16,5 @@ results/
 __pycache__/
 *.pyc
 *.pyo
+=======
+>>>>>>> refs/remotes/origin/IKK01_Duplikáció-ellenőrzés
