@@ -71,5 +71,4 @@ if errorlevel 1 (
     echo Megjegyzes: A Robot Framework alap log.html/report.html fajlok ki vannak kapcsolva ebben a futtatasi modban.
     echo =========================================
 )
-
 pause
