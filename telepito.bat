@@ -402,7 +402,7 @@ echo     echo PLAGIUM ELLENORZES TELJES FOLYAMATA BEFEJEZVE! >> start.bat
 echo     echo ========================================= >> start.bat
 echo ^) >> start.bat
 echo. >> start.bat
-echo pause >> start.bat
+echo exit >> start.bat
 
 echo [SUCCESS] start.bat fajl sikeresen letrehozva
 
