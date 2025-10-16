@@ -271,7 +271,7 @@ echo     echo - Email elkuldve a konfiguralt cimre >> start.bat
 echo     echo ========================================= >> start.bat
 echo ^) >> start.bat
 echo. >> start.bat
-echo pause >> start.bat
+echo exit >> start.bat
 
 echo.
 echo =========================================
