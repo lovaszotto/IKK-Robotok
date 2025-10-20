@@ -1,8 +1,12 @@
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 Konfiguráció Robot Framework számára
 """
+import os
+import sys
+print(f"DEBUG: Working directory: {os.getcwd()}", file=sys.stderr)
 
 import os
 
@@ -17,12 +21,11 @@ def load_simple_config():
         'status_threshold_masolt': '1200'
     }
     
-    config_file = "Duplikacio.config"
+    config_file = os.path.join(os.path.dirname(__file__), "..", "IKK.config")
     if os.path.exists(config_file):
         try:
             with open(config_file, 'r', encoding='utf-8') as f:
                 lines = f.readlines()
-            
             for line in lines:
                 line = line.strip()
                 if not line or line.startswith('#'):
@@ -32,8 +35,12 @@ def load_simple_config():
                     key = key.strip()
                     value = value.strip()
                     config[key] = value
-        except:
-            pass
+        except Exception as e:
+            print(f"ERROR: Konfigurációs fájl olvasási hiba: {e}", end='')
+            raise
+    else:
+        print(f"ERROR: Konfigurációs fájl nem található: {config_file}", end='')
+        raise FileNotFoundError(f"Konfigurációs fájl nem található: {config_file}")
     
     # Útvonalak normalizálása
     input_folder = os.path.normpath(config.get('input_folder', './test'))
@@ -51,10 +58,9 @@ def load_simple_config():
 def main():
     try:
         config = load_simple_config()
-        # Email részek eltávolítva - csak az alapvető konfigurációs értékek
         print(f"INPUT:{config['input_folder']}|OUTPUT:{config['output_folder']}|EXCEL_PREFIX:{config['excel_prefix']}|RENAME_PREFIX:{config['rename_prefix']}|THRESHOLD_GYANUS:{config['status_threshold_gyanus']}|THRESHOLD_MASOLT:{config['status_threshold_masolt']}", end='')
     except Exception as e:
-        print(f"ERROR:{e}", end='')
+        print(f"\nERROR: {e}", end='')
 
 if __name__ == "__main__":
     main()

@@ -305,32 +305,33 @@ Parse Cover Table
 
 Konfiguráció Betöltése
     #Log String To Console    [TRACE] Konfiguráció Betöltése elindult
-    [Documentation]    Plagium.config fajl betoltese es beallitasok alkalmazasa
-    Silence Python SyntaxWarnings
+    [Documentation]    IKK.config fajl betoltese es beallitasok alkalmazasa
+    #Silence Python SyntaxWarnings
     Log String To Console    \nKONFIGURACIO BETOLTESE...
     Log String To Console    ═══════════════════════════════
     # Konfiguracios fajl olvasasa Python scripttel
-    ${config_result}=    Run Process    ${PYTHON_EXEC}    libraries/get_config.py    shell=True
+    ${config_result}=    Run Process    ${PYTHON_EXEC}    ${CURDIR}/../libraries/get_config.py    shell=True    cwd=${CURDIR}/..
+    Log String To Console    [PYTHON STDOUT] ${config_result.stdout}
+    Log String To Console    [PYTHON STDERR] ${config_result.stderr}
     IF    ${config_result.rc} == 0
         ${config_line}=    Set Variable    ${config_result.stdout.strip()}
-        #Log String To Console     \n\[DEBUG] config_line: ${config_line}
+        Log String To Console     \n\[DEBUG] config_line: ${config_line}
         IF    '${config_line}' != '' and '${config_line}' != 'None'
             Process Config Line    ${config_line}
         ELSE
             Log String To Console    [HIBA] Üres vagy None config_line, Split String kihagyva!
             Log String To Console    [FIGYELMEZTETÉS] Konfiguráció hiányos; alapértelmezett beállítások lesznek használva
         END
-    # Adatbázis inicializálás kihagyva - nincs szükség SQLITE_DB_FILE változóra
-    Log String To Console    [INFO] Adatbázis inicializálás kihagyva
-    
-    # Input folder beolvasása a config-ból (egyszer a futás elején)
-    ${input_folder}=    Get Input Folder From Config
-    Set Global Variable    ${INPUT_FOLDER}    ${input_folder}
-    Log String To Console    Input folder globálisan beállítva: ${INPUT_FOLDER}
-    
+   
+        # Input folder beolvasása a config-ból (egyszer a futás elején)
+        ${input_folder}=    Get Input Folder From Config
+        Set Global Variable    ${INPUT_FOLDER}    ${input_folder}
+        Log String To Console    Input folder globálisan beállítva: ${INPUT_FOLDER}
+        
     ELSE
-    Log String To Console    Hiba a konfiguracio betoltesekor, alapertelmezettek hasznalata
-    Log String To Console    Hibauzenet: ${config_result.stderr}
+        Fail    Hiba a konfiguracio betoltesekor, alapertelmezettek hasznalata
+        Log String To Console    Hiba a konfiguracio betoltesekor, alapertelmezettek hasznalata
+        Log String To Console    Hibauzenet: ${config_result.stderr}
     END
     Log String To Console    ${EMPTY}
     Log String To Console    ═══════════KONFIGURACIO BETOLTESE KÉSZ════════════════════
@@ -340,7 +341,7 @@ Get Input Folder From Config
     [Documentation]    Config fájlból input_folder érték kiolvasása
     
     # Config fájl beolvasása (egy szinttel feljebb a gyökérkönyvtárból)
-    ${config_content}=    Get File    ${CURDIR}/../Duplikacio.config
+    ${config_content}=    Get File    ${CURDIR}/../IKK.config
     @{config_lines}=    Split To Lines    ${config_content}
     
     FOR    ${line}    IN    @{config_lines}

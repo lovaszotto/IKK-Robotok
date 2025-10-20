@@ -6,11 +6,12 @@ ${szoveg}           NONE
 ${WAS_ERROR}        ${False} #volt-e hiba a futás során egy dokumentum feldolgozásakor
 
 # Python executable változó (Robot Framework környezetben)
-${PYTHON_EXEC}      C:/Users/oLovasz/MyRobotFramework/DownloadedRobots/IKK-robotok/IKK02_Formai-Ellenorzesek/.venv/Scripts/python.exe
+${PYTHON_EXEC}      ${CURDIR}/../venv/Scripts/python.exe
+
 
 # Konfiguracios fajl beallitasai - ezeket a duplikacio_config.py tölti be
-${CONFIG_INPUT_FOLDER}  d:\\tmp
-${CONFIG_OUTPUT_FOLDER}    d:\\tmp
+${CONFIG_INPUT_FOLDER}  c:\\tmp\\keziratok_teszteleshez
+${CONFIG_OUTPUT_FOLDER}    c:\\tmp
 ${CONFIG_EXCEL_PREFIX}  duplikacio_eredmenyek
 
 # SQLite Database Connection Variables

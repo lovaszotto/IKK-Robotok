@@ -1,0 +1,6 @@
+robotframework
+flask
+docx
+python-docx
+lxml
+openpyxl

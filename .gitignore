@@ -5,3 +5,8 @@ report.html
 STDERR
 STDOUT
 __pycache__/
+*.log
+*.tmp
+*.pyc
+*.pyo
+
