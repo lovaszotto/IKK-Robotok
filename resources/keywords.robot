@@ -1103,16 +1103,19 @@ Create_K_ell_Excel
     ${output_folder}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}
 
     # Dokumentum ellenőrzés adatait tartalmazó Excel fájl és sheet
-    ${excel_filename}=    Set Variable    K_ell_${parent_path}_v1.0.xlsx
+    ${excel_filename}=    Set Variable    ${parent_path}_Kézirat.v1.0.xlsx
     ${activeExcelFile}=    Evaluate    __import__('os').path.join(r'''${output_folder}''', r'''${excel_filename}''')    modules=os
     Log String To Console    Aktuális DOC-${activeExcelFile} - ExcelFile}
     ${activeSheetName}=    Set Variable    ${child_path}
     #Web ellenőrzés adatait tartalmazó Excel fájl és sheetek
-    ${web_excel_filename}=    Set Variable    K_ell_${child_path}-Formaiell.xlsx
+    ${web_excel_filename}=    Set Variable    ${child_path}_Digitális tananyag.xlsx
     ${web_activeExcelFile}=    Evaluate    __import__('os').path.join(r'''${output_folder}''', r'''${web_excel_filename}''')    modules=os
     Log String To Console    Aktuális WEB-${web_activeExcelFile} - ExcelFile}
      ${web_activeSheetName}=    Set Variable    ${child_path}
-   
+      # Sablon fájl másolása
+    ${template_path}=    Set Variable    ${CURDIR}/../sablonok/K ell sablon_sulyszam_minbizt_2024_12_v_1_0.xlsx
+    ${web_template_path}=    Set Variable    ${CURDIR}/../sablonok/EM-X.Y.Z-Formaiell.xlsx
+      
     # Excel fájl létrehozása/ellenőrzése
     ${file_exists}=    Run Keyword And Return Status    File Should Exist    ${activeExcelFile}
     IF    ${file_exists}
@@ -1128,14 +1131,25 @@ Create_K_ell_Excel
             # Az eredeti EM X.Y sheet elrejtése
             Hide Excel Sheet    ${activeExcelFile}    EM X.Y
             Log String To Console     \n\[INFO] Sheet sablon másolva: 'EM X.Y' -> '${activeSheetName}'
+
+           #WEB sablon másolása
+            Copy File    ${web_template_path}    ${web_activeExcelFile}
+            Log String To Console     \n\[INFO] WEB Sablon fájl másolva: ${web_template_path} -> ${web_activeExcelFile}
+            # todo itt is meg kell csinálni a web-excelt
+            #WEB sheet-ek átnevezése
+            Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z    ${web_activeSheetName}
+            Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z    
+            Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z' -> '${web_activeSheetName}'
+
+            Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK    ${web_activeSheetName}-MK
+            Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK
+            Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z-MK' -> '${web_activeSheetName}-MK'
+
         END
     ELSE
         Log String To Console     \n\[INFO] Excel fájl létrehozása: ${activeExcelFile}
         
-        # Sablon fájl másolása
-        ${template_path}=    Set Variable    ${CURDIR}/../sablonok/K ell sablon_sulyszam_minbizt_2024_12_v_1_0.xlsx
-        ${web_template_path}=    Set Variable    ${CURDIR}/../sablonok/EM-X.Y.Z-Formaiell.xlsx
-      
+     
         ${template_exists}=    Run Keyword And Return Status    File Should Exist    ${template_path}
         IF    ${template_exists}
             #Doc sablon másolása
@@ -1145,7 +1159,7 @@ Create_K_ell_Excel
             #WEB sablon másolása
             Copy File    ${web_template_path}    ${web_activeExcelFile}
             Log String To Console     \n\[INFO] WEB Sablon fájl másolva: ${web_template_path} -> ${web_activeExcelFile}
-            
+            # todo itt is meg kell csinálni a web-excelt
             #WEB sheet-ek átnevezése
             Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z    ${web_activeSheetName}
             Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z    

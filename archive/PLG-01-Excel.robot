@@ -74,7 +74,7 @@ Create_K_ell_Excel
     
     # 6. ActiveExcelFile és ActiveSheetName összeállítása
     ${output_folder}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}
-    ${excel_filename}=    Set Variable   K_ell_${parent_path}_v1.0.xlsx
+    ${excel_filename}=    Set Variable   ${parent_path}_Kézirat.v1.0.xlsx
     ${activeExcelFile}=    Join Path    ${output_folder}    ${excel_filename}
     ${activeSheetName}=    Set Variable    ${child_path}
     

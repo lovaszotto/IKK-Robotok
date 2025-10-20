@@ -63,7 +63,8 @@ Batch inicializálás
         
         Log String To Console    \n\n>>> FELDOLGOZÁS: (${file_number}/${file_count}) ${docx_file}
          #todo docx_file név ellenőrzés
-        ${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirata.docx
+        #${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirata.docx
+        ${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirat
         IF    not ${name_ok}
             Log String To Console    [SKIP] Fájl kihagyva (név nem egyezik): ${file_name}
             ${subname_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    tema_kezirat
