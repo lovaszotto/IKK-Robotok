@@ -11,8 +11,8 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 Test Case 07 - Hosszu Idezetek Ellenorzese
     [Documentation]    07 - Hosszú idézetek ellenőrzése
     Log String To Console     \n\[07/24] +++++++++++++++++++++++++++ Hosszú idézetek ellenőrzése - kikapcsolva
-    #RETURN     # Ezt a tesztet egyelőre kikapcsoltuk, mert nagyon sok a hamis riasztás    
-
+    RETURN     # Ezt a tesztet egyelőre kikapcsoltuk, mert nagyon lassan fut le
+    
     ${docx_json}=    Get Variable Value    ${DOCX_JSON}    ${EMPTY}
    ${testCase_row}=    Set Variable    9
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}

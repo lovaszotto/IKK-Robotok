@@ -66,6 +66,12 @@ Batch inicializálás
         ${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirata.docx
         IF    not ${name_ok}
             Log String To Console    [SKIP] Fájl kihagyva (név nem egyezik): ${file_name}
+            ${subname_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    tema_kezirat
+            IF    ${subname_ok}
+                Log String To Console    [WARNING${:}] A fájl név nem pontosan egyezik, de tartalmazza a 'tema_kezirat' részt: ${file_name}
+                ${missing_file_name}=    Replace String    ${file_name}    .docx     .txt
+                Create File   ${CONFIG_OUTPUT_FOLDER}\\Hiányzó-${missing_file_name}     A fájl név nem pontosan egyezik, de tartalmazza a 'tema_kezirat' részt
+            END    
             CONTINUE
         END
 
