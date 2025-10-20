@@ -15,15 +15,11 @@ ${CONFIG_INPUT_FOLDER}  c:\\tmp\\keziratok_teszteleshez
 ${CONFIG_OUTPUT_FOLDER}    c:\\tmp
 ${CONFIG_EXCEL_PREFIX}  duplikacio_eredmenyek
 
-# SQLite Database Connection Variables
-${DB_MODULE}        sqlite3
-${DB_HOST}          test_database.db
-${DB_NAME}          ${EMPTY}
-${DB_USERNAME}      
-${DB_PASSWORD}      
-${DB_PORT}  
 
-${SQLITE_DB_FILE}    ${EMPTY}
+#Excel fájlok nevei
+${KEZIRAT_EXCEL_FILE}    ${EMPTY}
+${DIGITALIS_EXCEL_FILE}    ${EMPTY}
+
 
 # Dinamikus adatbázis elérési út betöltése a Python configból
 ${DB_PATH_FROM_CONFIG}=    Evaluate    __import__('libraries.duplikacio_config').DuplikacioConfig().get_database_file()    modules=libraries.duplikacio_config

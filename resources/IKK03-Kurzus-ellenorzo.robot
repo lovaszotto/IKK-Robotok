@@ -64,14 +64,22 @@ Lecke lista beolvasása
 
     Lecke Keresés beállítása
     Sleep    2s
-   
-    Wait Until Element Is Visible    xpath=(//h3[contains(@class,'course-object__title')])   20s
-    ${leckek}=    Get WebElements    xpath=(//*[contains(@class,'course-object__title')])
+    # hozzunk létre egy üres listát a leckék tárolására
+    ${leckek}=    Create List
+    Run Keyword And Ignore Error  Wait Until Element Is Visible    xpath=(//h3[contains(@class,'course-object__title')])   5s
+    Run Keyword And Ignore Error  ${leckek}=    Get WebElements    xpath=(//*[contains(@class,'course-object__title')])
     ${leckek_szama}=    Get Length    ${leckek}
     Log String To Console    Talált leckék száma: ${leckek_szama}
     Should Be True    ${leckek_szama} > 0    Nincs találat a keresésre a megadott szűrővel: ${KURZUS}
     #ellenőrizzük, hogy a Legutóbb megnyitott szöveg szerepl-e a képernyőn
-   
+    IF    ${leckek_szama}==0
+        Log String To Console    [ERROR]Nincs megjeleníthető lecke a beállított szűrőkkel.${DIGITALIS_EXCEL_FILE}
+        #Fail    Nincs megjeleníthető lecke a beállított szűrőkkel.
+        ${error_file}=    Replace String    ${DIGITALIS_EXCEL_FILE}    .v01.xlsx    _Nincs lecke a WEB-en.txt
+        Create File    ${error_file}    Nincs megjeleníthető lecke a beállított szűrőkkel.
+        Close Browser
+    END
+
     # Kikeressük a <h2> elemet, amely tartalmazza a 'Legutóbb megnyitott' szöveget
     ${h2_elements}=    Get WebElements    xpath=//h2[contains(@class, 'title')]
     ${found}=    Set Variable    False

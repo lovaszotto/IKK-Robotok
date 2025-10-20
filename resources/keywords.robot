@@ -1097,6 +1097,12 @@ Create_K_ell_Excel
     Log String To Console    Parent Path: ${parent_path}
     Log String To Console    Child Path: ${child_path}
     Log String To Console    Filename: ${filename_part}
+    Set Global Variable    ${DTEM}    ${parent_path}
+    Set Global Variable    ${KURZUS}     ${child_path}    
+    Log String To Console    Téma: ${DTEM}        
+    Log String To Console    Kurzus: ${KURZUS}
+    
+
     #Log String To Console    \n=== FELDOLGOZÁS BEFEJEZVE ===
     
     # Excel fájl és sheet meghatározása
@@ -1107,9 +1113,13 @@ Create_K_ell_Excel
     ${activeExcelFile}=    Evaluate    __import__('os').path.join(r'''${output_folder}''', r'''${excel_filename}''')    modules=os
     Log String To Console    Aktuális DOC-${activeExcelFile} - ExcelFile}
     ${activeSheetName}=    Set Variable    ${child_path}
+    Set Global Variable    ${DOCUMENT_EXCEL_FILE}    ${activeExcelFile}
+
     #Web ellenőrzés adatait tartalmazó Excel fájl és sheetek
-    ${web_excel_filename}=    Set Variable    ${child_path}_Digitális tananyag.xlsx
+    ${web_excel_filename}=    Set Variable    ${child_path}_Digitális tananyag.v01.xlsx
     ${web_activeExcelFile}=    Evaluate    __import__('os').path.join(r'''${output_folder}''', r'''${web_excel_filename}''')    modules=os
+    Set Global Variable    ${DIGITALIS_EXCEL_FILE}    ${web_activeExcelFile}
+
     Log String To Console    Aktuális WEB-${web_activeExcelFile} - ExcelFile}
      ${web_activeSheetName}=    Set Variable    ${child_path}
       # Sablon fájl másolása

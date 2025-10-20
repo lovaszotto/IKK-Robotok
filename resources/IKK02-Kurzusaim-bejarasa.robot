@@ -29,17 +29,30 @@ Téma keresés szűrő beállítása
     Input Text    id=mat-input-0    ${dtem}
     Press Keys    id=mat-input-0        ENTER
     Sleep    2s
-    Log String To Console    \n\[1a/24] Téma keresés beállítása - Kész
+    Log String To Console    \[1a/24] Téma keresés beállítása - Kész
 
 Megjelenő kurzusok bejárása
     [Documentation]    Megjelenő kurzusok bejárása
     Log String To Console     \n\[2/24] Megjelenő kurzusok bejárása
     # Csak akkor várjuk meg a kurzus címkéket, ha már megjelent az 'Aktuális kurzusaim' szöveg
     # Kurzus lista elemek begyűjtése a teljes xpath alapján
-    Wait Until Element Is Visible    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li    30s
-    ${courses}=    Get WebElements    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li
+    ${courses}=    Create List
+    Run Keyword And Ignore Error  Wait Until Element Is Visible    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li    10s
+    Run Keyword And Ignore Error  ${courses}=    Get WebElements    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li
     ${course_count}=    Get Length    ${courses}
+
     Log String To Console    Talált kurzusok száma: ${course_count}
+    IF    ${course_count} == 0
+        Log String To Console    [ERROR]Nincs megjeleníthető kurzus a beállított szűrőkkel. =>${DIGITALIS_EXCEL_FILE}
+        ${error_file}=    Replace String    ${DIGITALIS_EXCEL_FILE}    .v01.xlsx    _Nincs kurzus a WEB-en.txt
+        Create File    ${error_file}    Nincs megjeleníthető kurzus a beállított szűrőkkel.
+        #Fail    Nincs megjeleníthető kurzus a beállított szűrőkkel.
+        #zárd be a böngészőt DIGITALIS_EXCEL_FILE
+        #create error file here DIGITALIS_EXCEL_FILE
+    
+        Close Browser
+    END
+    
     ${course_idx}=    Set Variable    1
     
     ${kurzus}=    Get Variable Value    ${KURZUS}    default_value=NONE
