@@ -1,6 +1,9 @@
 *** Settings ***
 Resource    resources/keywords.robot
 Resource    resources/variables.robot
+Resource    resources/IKK02-Kurzusaim-bejarasa.robot
+Resource    resources/IKK03-Kurzus-ellenorzo.robot
+Resource    PLG-05-WEB-ellenor-main.robot
 Library     String
 Library     BuiltIn
 Library     Collections
@@ -62,22 +65,21 @@ Batch inicializálás
         ${CURRENT_DIR}=    Evaluate    __import__('os').path.dirname(r'''${docx_file}''')    modules=os
         
         Log String To Console    \n\n>>> FELDOLGOZÁS: (${file_number}/${file_count}) ${docx_file}
-         #todo docx_file név ellenőrzés
+
         #${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirata.docx
         ${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirat
         IF    not ${name_ok}
-            Log String To Console    [SKIP] Fájl kihagyva (név nem egyezik): ${file_name}
-            ${subname_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    tema_kezirat
-            IF    ${subname_ok}
-                Log String To Console    [WARNING${:}] A fájl név nem pontosan egyezik, de tartalmazza a 'tema_kezirat' részt: ${file_name}
-                ${missing_file_name}=    Replace String    ${file_name}    .docx     .txt
-                Create File   ${CONFIG_OUTPUT_FOLDER}\\Hiányzó-${missing_file_name}     A fájl név nem pontosan egyezik, de tartalmazza a 'tema_kezirat' részt
-            END    
+            Log String To Console    [SKIP] Fájl kihagyva (név nem egyezik): ${file_name} 
             CONTINUE
         END
 
         Process Single DOCX File As Test Case    ${docx_file}    ${file_number}    ${file_count}    Formálellenőrzés - ${file_name}
         Log String To Console    <<<  BEFEJEZVE: ${docx_file}
+        
+        #WEB-es ellenőrzés indítása
+        Log String To Console    \n---------------------------------------WEB---------------------------------------------\n
+        PLG-05-WEB-ellenor-main.Web-alkalmazás indítása és bejelentkezés
+      
     END
 
 Batch lezárás
