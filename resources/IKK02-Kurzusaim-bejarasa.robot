@@ -37,8 +37,22 @@ Megjelenő kurzusok bejárása
     # Csak akkor várjuk meg a kurzus címkéket, ha már megjelent az 'Aktuális kurzusaim' szöveg
     # Kurzus lista elemek begyűjtése a teljes xpath alapján
     ${courses}=    Create List
-    Run Keyword And Ignore Error  Wait Until Element Is Visible    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li    10s
-    Run Keyword And Ignore Error  ${courses}=    Get WebElements    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li
+    ${status}=    Set Variable    NONE
+    #Run Keyword And Ignore Error  Wait Until Element Is Visible    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li    10s
+    ${exists}=      Run Keyword And Ignore Error  Wait Until Page Contains Element    xpath=//ulms-course-list-item    10s
+    Log String To Console    Van Talált kurzusok: ${exists}
+    IF    $exists=='PASS'
+        Log String To Console    Kurzusok megtalálva a megadott szűrőkkel.
+
+    ELSE
+        Log String To Console    [ERROR]Nincs megjeleníthető kurzus a beállított szűrőkkel. =>${DIGITALIS_EXCEL_FILE}
+        ${error_file}=    Replace String    ${DIGITALIS_EXCEL_FILE}    .v01.xlsx    _Nincs kurzus a WEB-en.txt
+        Create File    ${error_file}    Nincs megjeleníthető kurzus a beállított szűrőkkel.
+        Close Browser
+        RETURN
+    END    
+
+    ${status}    ${courses}=    Get WebElements     xpath=//ulms-course-list-item 
     ${course_count}=    Get Length    ${courses}
 
     Log String To Console    Talált kurzusok száma: ${course_count}
