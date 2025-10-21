@@ -25,7 +25,10 @@ Téma keresés szűrő beállítása
     ${dtem}=    Get Variable Value    ${DTEM}    default_value=NONE
     #cserélja le a benne lévő * karaktert üres karakterre
     ${dtem}=    Replace String    ${dtem}    *    ${EMPTY}
-    Log To Console    Beállított DTEM szűrő: ${dtem}
+    #concatenate egy szóközt a DTEM érték mögé
+    ${dtem}=    Set Variable    ${DTEM}${SPACE}
+    Log To Console    Beállított DTEM szűrő: +++${dtem}+++
+    
     Input Text    id=mat-input-0    ${dtem}
     Press Keys    id=mat-input-0        ENTER
     Sleep    2s
@@ -39,9 +42,9 @@ Megjelenő kurzusok bejárása
     ${courses}=    Create List
     ${status}=    Set Variable    NONE
     #Run Keyword And Ignore Error  Wait Until Element Is Visible    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li    10s
-    ${exists}=      Run Keyword And Ignore Error  Wait Until Page Contains Element    xpath=//ulms-course-list-item    10s
-    Log String To Console    Van Talált kurzusok: ${exists}
-    IF    $exists=='PASS'
+    ${status}     ${courses}=      Run Keyword And Ignore Error  Wait Until Element Is Visible    xpath=//ulms-course-list-item    10s
+    Log String To Console    Van Talált kurzusok:  ${status}:${courses}
+    IF    $status=='PASS'
         Log String To Console    Kurzusok megtalálva a megadott szűrőkkel.
 
     ELSE
@@ -52,20 +55,10 @@ Megjelenő kurzusok bejárása
         RETURN
     END    
 
-    ${status}    ${courses}=    Get WebElements     xpath=//ulms-course-list-item 
+    ${courses}=    Get WebElements     xpath=//ulms-course-list-item 
     ${course_count}=    Get Length    ${courses}
-
     Log String To Console    Talált kurzusok száma: ${course_count}
-    IF    ${course_count} == 0
-        Log String To Console    [ERROR]Nincs megjeleníthető kurzus a beállított szűrőkkel. =>${DIGITALIS_EXCEL_FILE}
-        ${error_file}=    Replace String    ${DIGITALIS_EXCEL_FILE}    .v01.xlsx    _Nincs kurzus a WEB-en.txt
-        Create File    ${error_file}    Nincs megjeleníthető kurzus a beállított szűrőkkel.
-        #Fail    Nincs megjeleníthető kurzus a beállított szűrőkkel.
-        #zárd be a böngészőt DIGITALIS_EXCEL_FILE
-        #create error file here DIGITALIS_EXCEL_FILE
-    
-        Close Browser
-    END
+  
     
     ${course_idx}=    Set Variable    1
     
@@ -88,15 +81,11 @@ Megjelenő kurzusok bejárása
         ${h2_text}=    Get Text    xpath=//h1
         Log String To Console    Kurzus: ${h2_text} Passed
         Sleep    1s
-        IF     $kurzus != $EMPTY
-            IKK03-Kurzus-ellenorzo.Lecke lista beolvasása        
-        ELSE
-           #vissza az előző oldalra
-            Go Back
-        END
 
-     
-    
+        # Lecke lista beolvasása
+        IKK03-Kurzus-ellenorzo.Lecke lista beolvasása        
+       
+         Close Browser
          ${course_idx}=   Evaluate    ${course_idx} + 1
 
     END

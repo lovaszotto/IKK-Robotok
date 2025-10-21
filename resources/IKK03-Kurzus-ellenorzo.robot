@@ -46,7 +46,10 @@ Lecke Keresés beállítása
     ${kurzus}=    Get Variable Value    ${KURZUS}    default_value=NONE
     #cserélje le a benne lévő * karaktert üres karakterre
     ${kurzus}=    Replace String    ${kurzus}    *    ${EMPTY}
-    Log To Console    Beállított lecke szűrő: ${kurzus}
+    #addj egy szóközt a kurzus érték mögé
+    ${kurzus}=    Set Variable    ${kurzus}${SPACE}
+
+    Log To Console    Beállított lecke szűrő: +++++${kurzus}+++++++
     Input Text    xpath=//input[@placeholder="Keresés"]    ${kurzus}
     Press Keys    xpath=//input[@placeholder="Keresés"]        ENTER
     Sleep    2s
