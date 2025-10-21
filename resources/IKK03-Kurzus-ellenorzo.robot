@@ -1,6 +1,7 @@
 *** Settings ***
 Resource    ../resources/keywords.robot
 Resource    ../resources/variables.robot
+Resource    IKK04-Lecke-ellenorzo.robot
 Library     String
 Library     BuiltIn
 Library     Collections
@@ -76,7 +77,6 @@ Lecke lista beolvasása
     ${folytatas_buttons}=    Get WebElements    xpath=//button[contains(@class,'button-launch')]
 
     #FOR    ${index}    IN RANGE    ${start_index}    ${leckek_szama}
-    Log To Console    --------------------------------- Lecke ellenőrzés kezdete---------------------------------
            
             # Minden iterációban frissítjük a listákat, hogy elkerüljük a StaleElementReferenceException hibát
             ${leckek}=    Get WebElements    xpath=(//*[contains(@class,'course-object__title')])
@@ -92,28 +92,30 @@ Lecke lista beolvasása
              Click Button    ${folytatas_button}
             
             Wait Until Element Is Visible    id=ScormContent    30s
-            Select Frame    id=ScormContent
+          #  Select Frame    id=ScormContent
 
             # Ha megjelenik a folytatás javaslat ablak, kattints a "Folytatás" gombra
-            Run Keyword And Ignore Error    Wait Until Element Is Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    2s
-            Run Keyword And Ignore Error    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']
+          #  Run Keyword And Ignore Error    Wait Until Element Is Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    2s
+          #  Run Keyword And Ignore Error    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']
             
             #tartalomjegyzék gomb kezelése
-            Wait Until Page Contains Element    xpath=//button[@aria-label='Tartalomjegyzék']    30s
-            ${toc_buttons}=    Get WebElements    xpath=//button[@aria-label='Tartalomjegyzék']
-            Run Keyword And Ignore Error    Wait Until Page Does Not Contain Element    css=.cdk-overlay-backdrop    3s
-            Click Button    ${toc_buttons}[0]
-            Sleep    2s
+          #  Wait Until Page Contains Element    xpath=//button[@aria-label='Tartalomjegyzék']    30s
+          #  ${toc_buttons}=    Get WebElements    xpath=//button[@aria-label='Tartalomjegyzék']
+          #  Run Keyword And Ignore Error    Wait Until Page Does Not Contain Element    css=.cdk-overlay-backdrop    3s
+          #  Click Button    ${toc_buttons}[0]
+          #  Sleep    2s
 
             #felugró teszt megszakítása gomb kezelése
             Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'TESZT MEGSZAKÍTÁSA')]    5s
             Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'TESZT MEGSZAKÍTÁSA ')]
             
             Log To Console    Most vagyunk egy leckében: ${lecke_cim}
+           
             # Egy lecke ellenőrzése itt történik
-            Sleep    2s
+             Egy lecke ellenőrzése 
+            
             #Kilépés a leckéből és a browesert bezárjuk
-            Close browser
+            Close Browser
         
             #Log To Console    --------------------------------- Tananyag bezárása?${start_index}
             #Log To Console    <<<<<< Lecke kilépés:${leckek_szama}/${index} <<<<<<<<

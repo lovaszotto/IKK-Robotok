@@ -11,9 +11,9 @@ Library     Process
 Library    libraries/keep_awake.py
 Library    SeleniumLibrary
 
-Suite Setup    Prevent Sleep
-Suite Teardown    Allow Sleep
-Test Teardown    Update Test Counters
+#Suite Setup    Prevent Sleep
+#Suite Teardown    Allow Sleep
+#Test Teardown    Update Test Counters
 
 *** Variables ***
 
@@ -22,7 +22,8 @@ Test Teardown    Update Test Counters
 Web-alkalmazás indítása és bejelentkezés
     [Documentation]    Web-alkalmazás indítása és bejelentkezés
     Log String To Console     \n\[1/24] Web-alkalmazás indítása és bejelentkezés - from root
-    Open Browser    ${APP_URL}    edge    
+    Open Browser    ${APP_URL}    chrome    
+    #Open Browser    ${APP_URL}    edge    
     Maximize Browser Window
     # ${handle}=    Get Window Handles
     # Log To Console    Ablak azonosító: ${HANDLE}
@@ -50,5 +51,4 @@ Web-alkalmazás indítása és bejelentkezés
 
     #Megjelenő kurzusok bejárása
     Megjelenő kurzusok bejárása
-
-    Sleep    30s
+    Log String To Console    \n\[1/24] Web-alkalmazás indítása és bejelentkezés - Kész
