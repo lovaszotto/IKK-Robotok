@@ -40,15 +40,7 @@ Egy lecke ellenőrzése
             Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'TESZT MEGSZAKÍTÁSA')]    5s
             Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'TESZT MEGSZAKÍTÁSA ')]
            
-            #címsor kiválasztása a tartalomjegyzékből
-            ${home_button}=    Get WebElement    xpath=//span[contains(@class,'node-title')]
-            ${home_title}=    Get Text   ${home_button}
-            Click Button    ${home_button}
-
-            Log String To Console    DT címe: ${home_title}
-            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     Alapadatok     3    2    ${home_title}
-            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${CURRENT_SHEET_NAME}     1    2    ${home_title}
-
+           
             #
             # TestCase-ek futtatása a leckében
             #

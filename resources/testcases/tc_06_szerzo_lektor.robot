@@ -77,6 +77,9 @@ Szerzo Lektor Ellenorzesek
     #szerzőben és lektorban cseréljük le a ; , re
     ${szerzo}=    Replace String    ${szerzo}    ;    ,
     ${szakmai_lektor}=    Replace String    ${szakmai_lektor}    ;    ,
+    ${DOC_SZERZO}=    Set Global Variable    ${szerzo}    ${EMPTY}
+    ${DOC_SZAKMAI_LEKTOR}=    Set Global Variable    ${szakmai_lektor}    ${EMPTY}
+
     ${szerzo_list}=    Split String    ${szerzo}    ,
     ${szakmai_lektor_list}=    Split String    ${szakmai_lektor}    ,
     #Log String To Console    Szerző lista: ${szerzo_list}
