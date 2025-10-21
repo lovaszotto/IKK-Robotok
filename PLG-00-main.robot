@@ -63,8 +63,10 @@ Batch inicializálás
         ${file_name}=    Get From List    ${file_parts}    -1
         
         ${CURRENT_DIR}=    Evaluate    __import__('os').path.dirname(r'''${docx_file}''')    modules=os
-        
-        Log String To Console    \n\n>>> FELDOLGOZÁS: (${file_number}/${file_count}) ${docx_file}
+        Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        Log String To Console    >>> FELDOLGOZÁS: (${file_number}/${file_count}) ${docx_file}
+        Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    
 
         #${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirata.docx
         ${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirat
