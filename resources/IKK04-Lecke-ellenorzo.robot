@@ -44,8 +44,11 @@ Egy lecke ellenőrzése
             ${home_button}=    Get WebElement    xpath=//span[contains(@class,'node-title')]
             ${home_title}=    Get Text   ${home_button}
             Click Button    ${home_button}
-            Log To Console    Beléptünk a tartalomjegyzék első címsorába: \n${home_title}
-            
+
+            Log String To Console    DT címe: ${home_title}
+            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     Alapadatok     3    2    ${home_title}
+            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${CURRENT_SHEET_NAME}     1    2    ${home_title}
+
             #
             # TestCase-ek futtatása a leckében
             #
