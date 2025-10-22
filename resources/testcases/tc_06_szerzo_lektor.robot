@@ -52,7 +52,7 @@ Test Case 06 - Szerzo Lektor Ellenorzese
 
 Szerzo Lektor Ellenorzesek
     [Arguments]    ${clean}    ${CR}    ${err_msg}
-    ${szerzo}=    Get From Dictionary    ${clean}    Kéziratíró
+    ${szerzo}=    Get From Dictionary    ${clean}    Kéziratíró    ${EMPTY}
     #Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szerző: ${szerzo}
     IF    $szerzo == '' or $szerzo == '#'
         ${new_err}=    Set Variable    A Kéziratíró mező nem létezik, vagy üres!
@@ -63,7 +63,7 @@ Szerzo Lektor Ellenorzesek
         END
         Log String To Console    [ERROR] ${new_err}
     END
-    ${szakmai_lektor}=    Get From Dictionary    ${clean}    Szakmai lektor
+    ${szakmai_lektor}=    Get From Dictionary    ${clean}    Szakmai lektor    ${EMPTY}
     #Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szakmai lektor: ${szakmai_lektor}
     IF    $szakmai_lektor == '' or $szakmai_lektor == '#'
         ${new_err}=    Set Variable    A Szakmai lektor mező nem létezik, vagy üres!
@@ -77,8 +77,19 @@ Szerzo Lektor Ellenorzesek
     #szerzőben és lektorban cseréljük le a ; , re
     ${szerzo}=    Replace String    ${szerzo}    ;    ,
     ${szakmai_lektor}=    Replace String    ${szakmai_lektor}    ;    ,
-    ${DOC_SZERZO}=    Set Global Variable    ${szerzo}    ${EMPTY}
-    ${DOC_SZAKMAI_LEKTOR}=    Set Global Variable    ${szakmai_lektor}    ${EMPTY}
+    # Ensure no None values before further processing
+    ${szerzo}=    Get Variable Value    ${szerzo}    ${EMPTY}
+    ${szakmai_lektor}=    Get Variable Value    ${szakmai_lektor}    ${EMPTY}
+    
+    #globális változókba mentés
+
+    ${upper_szerzo}=    Convert To Uppercase    ${szerzo}
+    Set Global Variable       ${DOKUMENTUM_SZERZO}     ${upper_szerzo}    
+     Log String To Console    [SAVE] Dokumentum szerző elmentve: ${DOKUMENTUM_SZERZO}
+     
+    ${upper_szakmai_lektor}=    Convert To Uppercase    ${szakmai_lektor}
+    Set Global Variable        ${DOKUMENTUM_SZAKMAI_LEKTOR}     ${upper_szakmai_lektor}   
+    Log String To Console    [SAVE] Dokumentum szakmai lektor elmentve: ${DOKUMENTUM_SZAKMAI_LEKTOR}
 
     ${szerzo_list}=    Split String    ${szerzo}    ,
     ${szakmai_lektor_list}=    Split String    ${szakmai_lektor}    ,

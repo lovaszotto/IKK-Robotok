@@ -20,13 +20,15 @@ ${CONFIG_EXCEL_PREFIX}  duplikacio_eredmenyek
 ${KEZIRAT_EXCEL_FILE}    ${EMPTY}
 ${DIGITALIS_EXCEL_FILE}    ${EMPTY}
 
+${CR}=    Set Variable    ;
+
 
 # Dinamikus adatbázis elérési út betöltése a Python configból
 ${DB_PATH_FROM_CONFIG}=    Evaluate    __import__('libraries.duplikacio_config').DuplikacioConfig().get_database_file()    modules=libraries.duplikacio_config
 
 # Dokumentumból elmentett értékek
-${DOC_SZERZO}              ${EMPTY}
-${DOC_SZAKMAI_LEKTOR}      ${EMPTY}
+${DOKUMENTUM_SZERZO}              ${EMPTY}
+${DOKUMENTUM_SZAKMAI_LEKTOR}      ${EMPTY}
 
 
 ${APP_URL}        https://account.nexiuslearning.com/login
