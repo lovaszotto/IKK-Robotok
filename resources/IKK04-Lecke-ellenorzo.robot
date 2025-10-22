@@ -2,6 +2,7 @@
 Resource    ../resources/keywords.robot
 Resource    ../resources/variables.robot
 Resource    ../resources/testcases/wtc_01_borito_megfelelo.robot
+Resource    ../resources/testcases/wtc_02_impresszum_megfelelo.robot
 Library     String
 Library     BuiltIn
 Library     Collections
@@ -51,6 +52,7 @@ Egy lecke ellenőrzése
             ${check_passed}=   Set Variable    0
             ${check_failed}=   Set Variable    0
             
+            #wtc_01_borito_megfelelo.robot futtatása
             ${rc}    ${msg}=    Run Keyword And Ignore Error    Boritó megfelelőség ellenőrzése
             ${check_total}=    Evaluate    ${check_total} + 1
             IF    '${rc}' == 'PASS'
@@ -60,7 +62,16 @@ Egy lecke ellenőrzése
                 Log String To Console    [HIBA] wtc_01_borito_megfelelo.robot: ${msg}
             END
             
-            Sleep    20s
+            #wtc_02_impresszum_megfelelo.robot futtatása
+            ${rc}    ${msg}=    Run Keyword And Ignore Error    Impresszum megfelelőség ellenőrzése
+            ${check_total}=    Evaluate    ${check_total} + 1
+            IF    '${rc}' == 'PASS'
+                ${check_passed}=    Evaluate    ${check_passed} + 1
+            ELSE
+                ${check_failed}=    Evaluate    ${check_failed} + 1
+                Log String To Console    [HIBA] wtc_02_impresszum_megfelelo.robot: ${msg}
+            END
+
             #Kilépés a leckéből és a browesert bezárjuk
             Close browser
         

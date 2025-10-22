@@ -5,7 +5,7 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Boritó megfelelőség ellenőrzése
     [Documentation]    Borító megfelelőség ellenőrzése
-    Log String To Console    [wtc_01_borito_megfelelo] Borító megfelelőség ellenőrzése
+    Log String To Console    \n[wtc_01_borito_megfelelo] Borító megfelelőség ellenőrzése
     ${testCase_row}=    Set Variable    3
    ${err_msg}=    Set Variable    ${EMPTY}
    ${errors}=    Create List
@@ -35,32 +35,7 @@ Boritó megfelelőség ellenőrzése
         ${err_msg}=    Set Variable    A dokumentum címsor nem egyezik meg a várt értékkel. Kézirat: '${dokumentum_cimsor}', DT: '${home_title}'
     END
     
-
-  #impresszum keresése és kiválasztása
-    Wait Until Element Is Visible    xpath=//span[contains(text(),'Impresszum')]    5s
-    ${impresszum_button}=    Get WebElement    xpath=//span[contains(text(),'Impresszum')]
-    ${impresszum_title}=    Get Text   ${impresszum_button}    
-    Click Button    ${impresszum_button}    
-    Sleep     2s
-
-    #szerző beolvasása
-    Wait Until Element Is Visible   xpath=//div[contains(@class,'custom-format')]//strong[normalize-space(.)='Szerző:']/following-sibling::span[1]    5s
-    ${raw}=    Get Text    xpath=//div[contains(@class,'custom-format')]//strong[normalize-space(.)='Szerző:']/following-sibling::span[1]
-    ${author}=    Strip String    ${raw}
-  
-    #szerző ellenőrzése
-    ${dokumentum_szerzo} =    Get Variable Value    ${DOKUMENTUM_SZERZO}    ${EMPTY}
-    ${dokumentum_szerzo}=    Convert To Uppercase    ${dokumentum_szerzo}
-    
-    Log To Console    Szerző neve: ${author}
-    Log To Console    Dokumentum szerző neve: ${dokumentum_szerzo}
-    
-    IF    $dokumentum_szerzo != $author
-          ${new_err}=    Set Variable     A dokumentum szerzője nem egyezik meg a várt értékkel. Kézirat: '${dokumentum_szerzo}', DT: '${author}'
-          Append To List    ${errors}    ${new_err}
-    END
-
-
+ 
     # Alapadatok kitöltése
     Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}    Alapadatok    3    1    ${KURZUS}
     Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}    Alapadatok    3    4    Kézirat részek azonosítója
