@@ -49,6 +49,9 @@ Kézirat és DT összhang ellenőrzése
     #get length of level1_nodes
     ${len_level1_nodes}=    Get Length    ${level1_nodes}
     Log To Console    \nLeve1 szöveg elemek száma: ${len_level1_nodes}
+    ${found_count}=    Set Variable    0
+    ${not_found_count}=    Set Variable    0
+
     FOR    ${index}    IN RANGE    ${len_level1_nodes}
         ${node}=    Get From List    ${level1_nodes}    ${index}
         ${node_text}=    Get Text    ${node}
@@ -58,13 +61,22 @@ Kézirat és DT összhang ellenőrzése
         ${found}=    Evaluate    '''${node_text}''' in '''${all_text}'''
         IF    ${found}
             Log To Console    \n[INFO] Szöveg megtalálva: '${node_text}'
+            ${found_count}=   Evaluate    ${found_count}+1
         ELSE
             Log To Console    \n[ERROR] Szöveg nem található a DOCX_JSON-ban: '${node_text}'
+            ${not_found_count}=    Evaluate   ${not_found_count}+1
             ${new_err}=    Set Variable    Címsor 1 nincs a dokumentumban: '${node_text}'
             Append To List    ${errors}    ${new_err}
         END
     END
-
+    IF    ${not_found_count} > 0
+        Log To Console    \n[ERROR] Összesen ${not_found_count} címsor 1 nem található a dokumentumban.
+        ${found_percentage}=    Evaluate    ${found_count} / (${found_count} + ${not_found_count}) * 100
+        ${new_err}=    Set Variable    Találati arány: ${found_percentage}%, Megtalált: ${found_count}, Nem megtalált: ${not_found_count}
+        Append To List    ${errors}    ${new_err}
+    ELSE
+        Log To Console    \n[INFO] Minden címsor 1 megtalálva a dokumentumban. Összesen: ${found_count}
+    END
   #Level2-es címsorok ellenőrzése
 
     #Wait Until Page Contains Element  xpath=//div[@class='tree-node expandable-node tree-level-2 expanded-node']   10s
@@ -98,30 +110,3 @@ Kézirat és DT összhang ellenőrzése
    
 
 
-
-Search In JSON
-    [Arguments]    ${docx_json}    ${search_text}
-    ${found}=    Set Variable    False
-    ${search_text}=    Convert To Uppercase    ${search_text}
-    TRY
-        ${paragraphs}=    Get From Dictionary    ${docx_json}    paragraphs
-        ${is_paragraphs_list}=    Evaluate    isinstance(${paragraphs}, list)
-        IF    ${is_paragraphs_list}
-            FOR    ${para}    IN    @{paragraphs}
-                ${text}=    Get From Dictionary    ${para}    text    ${EMPTY}
-                ${text}=    Convert To Uppercase    ${text}
-                Log To Console    \nKeresett szöveg: 'Jelenlegi bekezdés szöveg: '${text}'
-
-                IF    '${text}' == '${search_text}'
-                    Log To Console    \n[INFO] Szöveg megtalálva a DOCX_JSON bekezdések között: '${search_text}'
-                    ${found}=    Set Variable    True
-                    Exit For Loop
-                END
-            END
-        END
-    EXCEPT    AS    ${e}
-        Log To Console    [ERROR] Hiba a DOCX_JSON bekezdések keresése során: (${e})
-    END
-    IF    not ${found}
-        Log To Console    [ERROR] A keresett szöveg nem található meg a DOCX_JSON-ban: '${search_text}'
-    END

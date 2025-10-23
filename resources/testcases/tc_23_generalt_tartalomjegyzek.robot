@@ -26,10 +26,10 @@ Test Case 23 - Generalt Tartalomjegyzek Ellenorzese
     ${entries}=    Extract TOC Entries From Docx File    ${file_path}
     ${filename_part}=   Get Variable Value    ${CURRENT_FILENAME_PART}    ${EMPTY}
     ${toc_count}=    Get Length    ${entries}
-    Log String To Console    Talált TOC sorok száma: ${toc_count}
-    FOR    ${e}    IN    @{entries}
-        Log String To Console    TOC: ${e}
-    END
+    #Log String To Console    Talált TOC sorok száma: ${toc_count}
+    #FOR    ${e}    IN    @{entries}
+    #    Log String To Console    TOC: ${e}
+   # END
     #ellenőrizzük, hogy van-e benne toc
     ${toc_count}=    Get Length    ${entries}
     IF    ${toc_count} == 0
