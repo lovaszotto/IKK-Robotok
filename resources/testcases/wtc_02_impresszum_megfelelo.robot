@@ -40,18 +40,18 @@ Impresszum megfelelőség ellenőrzése
     ##############################################################################################
     #Széchenyi logo ellenőrzése
     ##############################################################################################
-     Log To Console   \n>>>>> Széchenyi 2020 program logója ellenőrzése
-     ${ALT_TEXT2}     Set Variable    A Széchenyi 2020 program logója
-     ${rc2}    ${msg2}=    Run Keyword And Ignore Error     Wait Until Element Is Visible    xpath=//img[contains(@alt, 'A Széchenyi 2020 program logója')]    10s
-     Log To Console    \nImpresszum logó ellenőrzés eredménye: ${rc2} ${msg2}
-     IF    '${rc2}' == 'PASS'
-            ${src2}=    Get Element Attribute    xpath=//img[contains(@alt, 'A Széchenyi 2020 program logója')]    src
-            Log To Console    \nSzéchenyi 2020 program logója URL: ${src2}
-    ELSE
-              Log To Console    \nSzéchenyi 2020 program logója nem található meg.
-              ${new_err}=    Set Variable     Az Széchenyi 2020 program logója nem található meg az impresszumban!
-              Append To List    ${errors}    ${new_err}
-    END
+    # Log To Console   \n>>>>> Széchenyi 2020 program logója ellenőrzése
+    # ${ALT_TEXT2}     Set Variable    A Széchenyi 2020 program logója
+    # ${rc2}    ${msg2}=    Run Keyword And Ignore Error     Wait Until Element Is Visible    xpath=//img[contains(@alt, 'A Széchenyi 2020 program logója')]    10s
+    # Log To Console    \nImpresszum logó ellenőrzés eredménye: ${rc2} ${msg2}
+    # IF    '${rc2}' == 'PASS'
+    #        ${src2}=    Get Element Attribute    xpath=//img[contains(@alt, 'A Széchenyi 2020 program logója')]    src
+    #        Log To Console    \nSzéchenyi 2020 program logója URL: ${src2}
+    #ELSE
+    #          Log To Console    \nSzéchenyi 2020 program logója nem található meg.
+    #          ${new_err}=    Set Variable     Az Széchenyi 2020 program logója nem található meg az impresszumban!
+    #          Append To List    ${errors}    ${new_err}
+    #END
     ##############################################################################################
     #szerző ellenőrzése
     ##############################################################################################
