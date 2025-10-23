@@ -17,7 +17,7 @@ Impresszum megfelelőség ellenőrzése
     ${impresszum_button}=    Get WebElement    xpath=//span[contains(text(),'Impresszum')]
     ${impresszum_title}=    Get Text   ${impresszum_button}    
     Click Button    ${impresszum_button}    
-    Sleep     2s
+    
     ##############################################################################################
     #IKK logo ellenőrzése
     ##############################################################################################
