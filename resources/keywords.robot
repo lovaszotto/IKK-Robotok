@@ -18,7 +18,8 @@ Mark Test Status
         ${error_log_file}=    Replace String    ${excel_file}    .xlsx    (${sheet_name}_${row_text}) hiba.txt    
         #Log String To Console    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}    
         #hiba fájl írása
-        Create File    ${error_log_file}    ${err_msg}
+        ${err_msg_CR}=      Replace String    ${err_msg}    ;    \n
+        Create File    ${error_log_file}    ${err_msg_CR}
 
         # Hibás X-elés: D oszlop
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    4    ${mark}
@@ -35,6 +36,7 @@ Mark Test Status
 Mark WebTest Status
     [Documentation]    Általános jelölő: hibánál C{row} megjegyzés, D{row} "X" és FAIL; siker esetén B{row} "X".
     [Arguments]    ${excel_file}    ${sheet_name}    ${test_row}    ${err_msg}    ${mark}=X
+    Log To Console    Mark WebTest Status called with err_msg: ${err_msg}
     IF    $err_msg != ''
         #Log String To Console    Mark Test Status ${test_row}-ba: ${err_msg}
         Log String To Console    Mark WebTest Status Failed
@@ -48,7 +50,8 @@ Mark WebTest Status
         ${error_log_file}=    Replace String    ${excel_file}    .xlsx    (${sheet_name}_${row_text}) hiba.txt    
         #Log String To Console    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}    
         #hiba fájl írása
-        Create File    ${error_log_file}    ${err_msg}
+        ${err_msg_CR}=      Replace String    ${err_msg}    ;    \n
+        Create File    ${error_log_file}    ${err_msg_CR}
 
         # Hibás X-elés: D oszlop
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    3    ${mark}

@@ -11,7 +11,7 @@ Kézirat és DT összhang ellenőrzése
     ${testCase_row}=    Set Variable    6
    ${err_msg}=    Set Variable    ${EMPTY}
    ${errors}=    Create List
-
+  ${CR}=    Set Variable    ;
    ${next_button}=    Set Variable    ${EMPTY}
    ${is_disabled}=    Set Variable    None
 
@@ -44,39 +44,39 @@ Kézirat és DT összhang ellenőrzése
 
     #Level1-es címsorok ellenőrzése
 
-    Wait Until Page Contains Element  xpath=//div[@class='tree-node expandable-node tree-level-1 expanded-node']   10s
-    ${level1_nodes}=    Get WebElements    xpath=//div[@class='tree-node expandable-node tree-level-1 expanded-node']
-    #get length of level1_nodes
-    ${len_level1_nodes}=    Get Length    ${level1_nodes}
-    Log To Console    \nLeve1 szöveg elemek száma: ${len_level1_nodes}
-    ${found_count}=    Set Variable    0
-    ${not_found_count}=    Set Variable    0
+   # Wait Until Page Contains Element  xpath=//div[@class='tree-node expandable-node tree-level-1 expanded-node']   10s
+   # ${level1_nodes}=    Get WebElements    xpath=//div[@class='tree-node expandable-node tree-level-1 expanded-node']
+   # #get length of level1_nodes
+   # ${len_level1_nodes}=    Get Length    ${level1_nodes}
+   # Log To Console    \nLeve1 szöveg elemek száma: ${len_level1_nodes}
+   # ${found_count}=    Set Variable    0
+   # ${not_found_count}=    Set Variable    0
 
-    FOR    ${index}    IN RANGE    ${len_level1_nodes}
-        ${node}=    Get From List    ${level1_nodes}    ${index}
-        ${node_text}=    Get Text    ${node}
-        ${node_text}=    Replace String    ${node_text}    \nBlokk    ${EMPTY}   
-        ${node_text}=    Strip String    ${node_text}
-        ${node_text}=    Convert To Uppercase    ${node_text}
-        ${found}=    Evaluate    '''${node_text}''' in '''${all_text}'''
-        IF    ${found}
-            Log To Console    \n[INFO] Szöveg megtalálva: '${node_text}'
-            ${found_count}=   Evaluate    ${found_count}+1
-        ELSE
-            Log To Console    \n[ERROR] Szöveg nem található a DOCX_JSON-ban: '${node_text}'
-            ${not_found_count}=    Evaluate   ${not_found_count}+1
-            ${new_err}=    Set Variable    Címsor 1 nincs a dokumentumban: '${node_text}'
-            Append To List    ${errors}    ${new_err}
-        END
-    END
-    IF    ${not_found_count} > 0
-        Log To Console    \n[ERROR] Összesen ${not_found_count} címsor 1 nem található a dokumentumban.
-        ${found_percentage}=    Evaluate    ${found_count} / (${found_count} + ${not_found_count}) * 100
-        ${new_err}=    Set Variable    Találati arány: ${found_percentage}%, Megtalált: ${found_count}, Nem megtalált: ${not_found_count}
-        Append To List    ${errors}    ${new_err}
-    ELSE
-        Log To Console    \n[INFO] Minden címsor 1 megtalálva a dokumentumban. Összesen: ${found_count}
-    END
+   # FOR    ${index}    IN RANGE    ${len_level1_nodes}
+   #     ${node}=    Get From List    ${level1_nodes}    ${index}
+   #     ${node_text}=    Get Text    ${node}
+   #     ${node_text}=    Replace String    ${node_text}    \nBlokk    ${EMPTY}   
+   #     ${node_text}=    Strip String    ${node_text}
+   #     ${node_text}=    Convert To Uppercase    ${node_text}
+   #     ${found}=    Evaluate    '''${node_text}''' in '''${all_text}'''
+   #     IF    ${found}
+   #         Log To Console    \n[INFO] Szöveg megtalálva: '${node_text}'
+   #         ${found_count}=   Evaluate    ${found_count}+1
+   #     ELSE
+   #         Log To Console    \n[ERROR] Szöveg nem található a DOCX_JSON-ban: '${node_text}'
+   #         ${not_found_count}=    Evaluate   ${not_found_count}+1
+   #         ${new_err}=    Set Variable    Címsor 1 nincs a dokumentumban: '${node_text}'
+   #         Append To List    ${errors}    ${new_err}
+   #     END
+   # END
+    #IF    ${not_found_count} > 0
+    #    Log To Console    \n[ERROR] Összesen ${not_found_count} címsor 1 nem található a dokumentumban.
+    #    ${found_percentage}=    Evaluate    ${found_count} / (${found_count} + ${not_found_count}) * 100
+    #    ${new_err}=    Set Variable    Találati arány: ${found_percentage}%, Megtalált: ${found_count}, Nem megtalált: ${not_found_count}
+    #    Append To List    ${errors}    ${new_err}
+    #ELSE
+    #    Log To Console    \n[INFO] Minden címsor 1 megtalálva a dokumentumban. Összesen: ${found_count}
+    #END
   #Level2-es címsorok ellenőrzése
 
     #Wait Until Page Contains Element  xpath=//div[@class='tree-node expandable-node tree-level-2 expanded-node']   10s
@@ -164,11 +164,13 @@ Kézirat és DT összhang ellenőrzése
 
         IF    ${found}
               ${found_count}=   Evaluate    ${found_count}+1
-            #Log To Console    [OK] '${node_text}'
+            Log To Console    [___OK] ${node_text}
+            ${new_err}=    Set Variable    ___OK: ${node_text}
+            Append To List    ${errors}    ${new_err}
         ELSE
             ${not_found_count}=   Evaluate    ${not_found_count}+1
-            Log To Console    [ERROR] '${node_text}'
-            ${new_err}=    Set Variable    Nincs: '${node_text}'
+            Log To Console    [NINCS] ${node_text}
+            ${new_err}=    Set Variable    NINCS: ${node_text}
             Append To List    ${errors}    ${new_err}
         END
     END
@@ -191,8 +193,10 @@ Kézirat és DT összhang ellenőrzése
     ${unique_errors}=    Remove Duplicates    ${errors}
     ${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique_errors}
  
-    Log String To Console    \nEredmény visszaírása:${DIGITALIS_EXCEL_FILE}  :  ${CURRENT_SHEET_NAME}    ${testCase_row}    ${err_msg}
+    #Log String To Console    \nEredmény visszaírása:${DIGITALIS_EXCEL_FILE}  :  ${CURRENT_SHEET_NAME}    ${testCase_row}    ${unique_errors}
     Mark WebTest Status    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}    ${testCase_row}    ${err_msg}
    
-
+    #változók törlése
+    Delete Variables  ${all_text}    ${pars}    ${par}    ${text}
+    
 

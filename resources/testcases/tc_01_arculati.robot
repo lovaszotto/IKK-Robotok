@@ -149,6 +149,8 @@ Test Case 01 - Arculati Elemek Ellenorzese
     ${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique}
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
 
+    #delete variables
+    Delete Variables      ${paragraphs}    ${tables}    ${pars}    ${par}    ${text}  
 
     
 

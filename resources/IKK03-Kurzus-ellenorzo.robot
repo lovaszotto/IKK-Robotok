@@ -68,59 +68,63 @@ Lecke lista beolvasása
 
     Lecke Keresés beállítása
 
+      # Ellenőrizzük, hogy van-e Legutóbb megnyitott blokk
+    ${offset}=    Set Variable    0
+    ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible   xpath=//h2[contains(text(), 'Legutóbb megnyitott')]    5s
+    Log To Console    Legutóbb megnyitott blokk ellenőrzése: ${rc} : ${msg}
+    IF   '${rc}' == 'PASS'
+        Log To Console    Legutóbb megnyitott blokk megtalálva, kihagyva a leckék bejárásából.
+        ${offset}=    Set Variable    1
+    END
     #összegyűjtjük az összes Folytatás gombot
-      #${folytatas_buttons}=    Get WebElements    xpath=//button[contains(text(), 'Folytatás')]
+
+      
     # Végigmegyünk a kurzusokon és kiírjuk a címüket
     # Minden Folytatás gomb keresése: <button class="button-launch">, benne <span class="mdc-button__label">'Folytatás'
     ${folytatas_buttons}=    Get WebElements    xpath=//button[contains(@class,'button-launch')]
-
-           # Ellenőrizzük, hogy van-e Legutóbb megnyitott blokk
-           ${offset}=    Set Variable    0
-          ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible   xpath=//h2[contains(text(), 'Legutóbb megnyitott')]    5s
-          Log To Console    Legutóbb megnyitott blokk ellenőrzése: ${rc} : ${msg}
-          IF   '${rc}' == 'PASS'
-              Log To Console    Legutóbb megnyitott blokk megtalálva, kihagyva a leckék bejárásából.
-             ${offset}=    Set Variable    1
-          END
-            # Minden iterációban frissítjük a listákat, hogy elkerüljük a StaleElementReferenceException hibát
-            ${leckek}=    Get WebElements    xpath=(//*[contains(@class,'course-object__title')])
-            ${folytatas_button}=    Get WebElement    xpath=//button[contains(@class,'button-launch')]
-
-            ${lecke_elem}=    Get From List    ${leckek}    ${offset}
-            ${lecke_cim}=    Get Text    ${lecke_elem}
-            
-            Log To Console    Lecke: ${lecke_cim}
-            #${folytatas_button}=    Get From List    ${folytatas_buttons}  0
-            
-            #belépés a leckébe
-            Log To Console    >>>>>> Lecke belépés <<<<<<<: ${lecke_cim}
-             Click Button    ${folytatas_button}
-            
-            Wait Until Element Is Visible    id=ScormContent    30s
-          #  Select Frame    id=ScormContent
-
-            # Ha megjelenik a folytatás javaslat ablak, kattints a "Folytatás" gombra
-          #  Run Keyword And Ignore Error    Wait Until Element Is Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    2s
-          #  Run Keyword And Ignore Error    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']
-            
-            #tartalomjegyzék gomb kezelése
-          #  Wait Until Page Contains Element    xpath=//button[@aria-label='Tartalomjegyzék']    30s
-          #  ${toc_buttons}=    Get WebElements    xpath=//button[@aria-label='Tartalomjegyzék']
-          #  Run Keyword And Ignore Error    Wait Until Page Does Not Contain Element    css=.cdk-overlay-backdrop    3s
-          #  Click Button    ${toc_buttons}[0]
-          #  Sleep    2s
-
-            #felugró teszt megszakítása gomb kezelése
-            Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'TESZT MEGSZAKÍTÁSA')]    5s
-            Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'TESZT MEGSZAKÍTÁSA ')]
-            
-           
-            # Egy lecke ellenőrzése itt történik
-             Egy lecke ellenőrzése 
-            
-            #Kilépés a leckéből és a browesert bezárjuk
-            Close Browser
+      #${folytatas_buttons}=    Get WebElements    xpath=//button[contains(text(), 'Folytatás')]
+    ${folytatas_szama}=    Get Length    ${folytatas_buttons}
+    Log String To Console    Talált Folytatás gombok száma: ${folytatas_szama} , offset: ${offset}
+    ${folytatas_button}=    Get From List    ${folytatas_buttons}  ${offset}
         
+    ${leckek}=    Get WebElements    xpath=(//*[contains(@class,'course-object__title')])
+    ${lecke_szam}=    Get Length    ${leckek}
+    Log String To Console    Talált leckék száma: ${lecke_szam}
+
+    ${lecke_elem}=    Get From List    ${leckek}    ${offset}
+    ${lecke_cim}=    Get Text    ${lecke_elem}
+  
+      Log To Console    Lecke: ${lecke_cim}
+    
+      #belépés a leckébe
+      Log To Console    >>>>>> Lecke belépés <<<<<<<: ${lecke_cim}
+        Click Button    ${folytatas_button}
+      
+      Wait Until Element Is Visible    id=ScormContent    30s
+    #  Select Frame    id=ScormContent
+
+      # Ha megjelenik a folytatás javaslat ablak, kattints a "Folytatás" gombra
+    #  Run Keyword And Ignore Error    Wait Until Element Is Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    2s
+    #  Run Keyword And Ignore Error    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']
+      
+      #tartalomjegyzék gomb kezelése
+    #  Wait Until Page Contains Element    xpath=//button[@aria-label='Tartalomjegyzék']    30s
+    #  ${toc_buttons}=    Get WebElements    xpath=//button[@aria-label='Tartalomjegyzék']
+    #  Run Keyword And Ignore Error    Wait Until Page Does Not Contain Element    css=.cdk-overlay-backdrop    3s
+    #  Click Button    ${toc_buttons}[0]
+    #  Sleep    2s
+
+      #felugró teszt megszakítása gomb kezelése
+      Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'TESZT MEGSZAKÍTÁSA')]    5s
+      Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'TESZT MEGSZAKÍTÁSA ')]
+      
+      
+      # Egy lecke ellenőrzése itt történik
+        Egy lecke ellenőrzése 
+      
+      #Kilépés a leckéből és a browesert bezárjuk
+      Close Browser
+      
        
 
 

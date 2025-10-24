@@ -57,3 +57,5 @@ Test Case 24 - Cimsorozassal Keszult Ellenorzese
     END
      # Teszt státusz és Excel jelölés végrehajtása a megadott soron
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
+    #Változók törlése
+    Delete Variables    ${pars}    ${par}    ${text}

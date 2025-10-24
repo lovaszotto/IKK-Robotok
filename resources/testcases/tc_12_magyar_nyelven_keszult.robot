@@ -89,3 +89,5 @@ Test Case 12 - Magyar Nyelven Keszult Ellenorzese
     IF    '${current_excel_file}' != '${EMPTY}' and '${current_sheet_name}' != '${EMPTY}'
         Mark Test Status    ${current_excel_file}    ${current_sheet_name}    ${testCase_row}    ${err_msg}
     END   
+    # Változók törlése
+    Delete Variables    ${pars}    ${par}    ${text}

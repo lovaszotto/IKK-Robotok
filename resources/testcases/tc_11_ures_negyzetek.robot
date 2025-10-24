@@ -36,3 +36,6 @@ Test Case 11 - Ures Negyzetek Ellenorzese
         END        
     END
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
+    #változók törlése
+    Delete Variables    ${pars}    ${par}    ${text}
+    
