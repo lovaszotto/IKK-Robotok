@@ -38,8 +38,8 @@ Kézirat és DT összhang ellenőrzése
      ${pars}=    Evaluate    [{'idx': i+1, 'text': p.text, 'style': (p.style.name if p.style else 'N/A')} for i,p in enumerate(__import__('docx').Document(r'''${docx_file}''').paragraphs)]
      FOR    ${par}    IN    @{pars}
         ${text}=    Get From Dictionary    ${par}    text
-        ${text}=    Convert To Uppercase    ${text}
-        ${all_text}=    Set Variable    ${all_text}${text};
+        #${text}=    Convert To Uppercase    ${text}
+        ${all_text}=    Set Variable    ${all_text}\n ${text};
     END    
 
     #Level1-es címsorok ellenőrzése
@@ -99,6 +99,92 @@ Kézirat és DT összhang ellenőrzése
     #        Append To List    ${errors}    ${new_err}
     #    END
     #END
+    
+     #Oldal szövegek ellenőrzése
+     ${found_count}=    Set Variable    0
+    ${not_found_count}=    Set Variable    0
+
+    Wait Until Page Contains Element  xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]  10s
+    ${level2_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
+    ${len_level2_nodes}=    Get Length    ${level2_nodes}
+    Log To Console    Oldal szöveg elemek száma: ${len_level2_nodes}
+    FOR    ${index}    IN RANGE    ${len_level2_nodes}
+        ${node}=    Get From List    ${level2_nodes}    ${index}
+        ${node_text}=    Get Text    ${node}
+         ${node_text}=    Strip String    ${node_text}
+         ${len_node_text}=    Get Length    ${node_text}
+        IF    ${len_node_text} < 1
+            #Log To Console    \n[WARNING] Üres oldal szöveg elem kihagyva.
+            Continue For Loop
+        END
+        ${node_text}=    Replace String    ${node_text}    \nBlokk    ${EMPTY}   
+        ${node_text}=    Replace String    ${node_text}    \nOldal    ${EMPTY}   
+
+        #Log To Console    \nOldal: '${node_text}'
+
+        ${found_feladat}=    Evaluate    bool(re.search('feladat', $node_text, re.IGNORECASE | re.MULTILINE))    re
+        IF    ${found_feladat}    
+            #Log To Console    [SKIPP]  '${node_text}'  
+             Continue For Loop
+        END
+
+        ${found_borito}=    Evaluate    bool(re.search('borító', $node_text, re.IGNORECASE | re.MULTILINE))    re
+        IF    ${found_borito}    
+            #Log To Console    [SKIPP] '${node_text}'
+             Continue For Loop
+        END
+
+        ${found_nyitooldal}=    Evaluate    bool(re.search('nyitóoldal', $node_text, re.IGNORECASE | re.MULTILINE))    re
+        IF    ${found_nyitooldal}    
+            #Log To Console    [SKIPP] '${node_text}'
+             Continue For Loop
+        END
+
+        ${found_osszefoglalo}=    Evaluate    bool(re.search('összefoglal', $node_text, re.IGNORECASE | re.MULTILINE))    re
+        IF    ${found_osszefoglalo}    
+            #Log To Console    [SKIPP] '${node_text}'
+             Continue For Loop
+        END
+
+        ${found_kerdesbank}=    Evaluate    bool(re.search('kérdésbank', $node_text, re.IGNORECASE | re.MULTILINE))    re
+        IF    ${found_kerdesbank}    
+            #Log To Console    [SKIPP] '${node_text}'
+             Continue For Loop
+        END
+
+        ${found_nyitooldal}=    Evaluate    bool(re.search('nyitóoldal', $node_text, re.IGNORECASE | re.MULTILINE))    re
+        IF    ${found_nyitooldal}    
+            #Log To Console    [SKIPP] '${node_text}'
+             Continue For Loop
+        END
+
+
+        #${found}=    Evaluate    '''${node_text}''' in '''${all_text}'''
+        ${found}=    Evaluate    bool(re.search($node_text, $all_text, re.IGNORECASE | re.MULTILINE))    re
+
+        IF    ${found}
+              ${found_count}=   Evaluate    ${found_count}+1
+            #Log To Console    [OK] '${node_text}'
+        ELSE
+            ${not_found_count}=   Evaluate    ${not_found_count}+1
+            Log To Console    [ERROR] '${node_text}'
+            ${new_err}=    Set Variable    Nincs: '${node_text}'
+            Append To List    ${errors}    ${new_err}
+        END
+    END
+    IF    ${not_found_count} > 0
+        Log To Console    \n[ERROR] Összesen ${not_found_count} oldal nem található a dokumentumban.
+        ${found_percentage}=    Evaluate    ${found_count} / (${found_count} + ${not_found_count}) * 100
+        ${new_err}=    Set Variable    Találati arány: ${found_percentage}%, Megtalált: ${found_count}, Nem megtalált: ${not_found_count}
+        Append To List    ${errors}    ${new_err}
+        Log To Console    \n[ERROR] ${new_err}
+    ELSE
+        Log To Console    \n[INFO] Minden oldal megtalálva a dokumentumban. Összesen: ${found_count}
+    END
+    
+    
+    
+    
     Log To Console    <<<<<< Kézirat és DT összhang ellenőrzés vége <<<<<<<<  ${is_disabled}
     #Végeredmény visszaírása az Excel-be
     Log To Console   \n>>>>> Végeredmény visszaírása az Excel-be

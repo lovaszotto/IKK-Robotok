@@ -33,10 +33,9 @@ Egy lecke ellenőrzése
             # Egy lecke ellenőrzése itt történik
                #tartalomjegyzék gomb megnyomása
             Wait Until Page Contains Element    xpath=//button[@aria-label='Tartalomjegyzék']    30s
-            ${toc_buttons}=    Get WebElements    xpath=//button[@aria-label='Tartalomjegyzék']
+            ${toc_buttons}=    Get WebElement    xpath=//button[@aria-label='Tartalomjegyzék']
             Run Keyword And Ignore Error    Wait Until Page Does Not Contain Element    css=.cdk-overlay-backdrop    3s
-            Click Button    ${toc_buttons}[0]
-            Sleep    2s
+            Click Button    ${toc_buttons}
 
             #felugró teszt megszakítása gomb kezelése
             Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'TESZT MEGSZAKÍTÁSA')]    5s
@@ -60,7 +59,7 @@ Egy lecke ellenőrzése
                 ${check_passed}=    Evaluate    ${check_passed} + 1
             ELSE
                 ${check_failed}=    Evaluate    ${check_failed} + 1
-                Log String To Console    [HIBA] wtc_01_borito_megfelelo.robot: ${msg}
+                #Log String To Console    [HIBA] wtc_01_borito_megfelelo.robot: ${msg}
             END
             
             #wtc_02_impresszum_megfelelo.robot futtatása
@@ -70,7 +69,7 @@ Egy lecke ellenőrzése
                 ${check_passed}=    Evaluate    ${check_passed} + 1
             ELSE
                 ${check_failed}=    Evaluate    ${check_failed} + 1
-                Log String To Console    [HIBA] wtc_02_impresszum_megfelelo.robot: ${msg}
+                #Log String To Console    [HIBA] wtc_02_impresszum_megfelelo.robot: ${msg}
             END
 
             #wtc_04_kezirat_es_dt_osszhang.robot futtatása
@@ -80,7 +79,7 @@ Egy lecke ellenőrzése
                 ${check_passed}=    Evaluate    ${check_passed} + 1
             ELSE
                 ${check_failed}=    Evaluate    ${check_failed} + 1
-                Log String To Console    [HIBA] wtc_04_kezirat_es_dt_osszhang.robot: ${msg}
+                #Log String To Console    [HIBA] wtc_04_kezirat_es_dt_osszhang.robot: ${msg}
             END
 
             #Kilépés a leckéből és a browesert bezárjuk

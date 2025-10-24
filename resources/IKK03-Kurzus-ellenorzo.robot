@@ -67,8 +67,6 @@ Lecke lista beolvasása
     #szűrő beállítása
 
     Lecke Keresés beállítása
-    Sleep    2s
-   
 
     #összegyűjtjük az összes Folytatás gombot
       #${folytatas_buttons}=    Get WebElements    xpath=//button[contains(text(), 'Folytatás')]
@@ -76,16 +74,23 @@ Lecke lista beolvasása
     # Minden Folytatás gomb keresése: <button class="button-launch">, benne <span class="mdc-button__label">'Folytatás'
     ${folytatas_buttons}=    Get WebElements    xpath=//button[contains(@class,'button-launch')]
 
-    #FOR    ${index}    IN RANGE    ${start_index}    ${leckek_szama}
-           
+           # Ellenőrizzük, hogy van-e Legutóbb megnyitott blokk
+           ${offset}=    Set Variable    0
+          ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible   xpath=//h2[contains(text(), 'Legutóbb megnyitott')]    5s
+          Log To Console    Legutóbb megnyitott blokk ellenőrzése: ${rc} : ${msg}
+          IF   '${rc}' == 'PASS'
+              Log To Console    Legutóbb megnyitott blokk megtalálva, kihagyva a leckék bejárásából.
+             ${offset}=    Set Variable    1
+          END
             # Minden iterációban frissítjük a listákat, hogy elkerüljük a StaleElementReferenceException hibát
             ${leckek}=    Get WebElements    xpath=(//*[contains(@class,'course-object__title')])
-            ${folytatas_buttons}=    Get WebElements    xpath=//button[contains(@class,'button-launch')]
-            ${lecke_elem}=    Get From List    ${leckek}    0
+            ${folytatas_button}=    Get WebElement    xpath=//button[contains(@class,'button-launch')]
+
+            ${lecke_elem}=    Get From List    ${leckek}    ${offset}
             ${lecke_cim}=    Get Text    ${lecke_elem}
             
             Log To Console    Lecke: ${lecke_cim}
-            ${folytatas_button}=    Get From List    ${folytatas_buttons}  0
+            #${folytatas_button}=    Get From List    ${folytatas_buttons}  0
             
             #belépés a leckébe
             Log To Console    >>>>>> Lecke belépés <<<<<<<: ${lecke_cim}
@@ -109,7 +114,6 @@ Lecke lista beolvasása
             Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'TESZT MEGSZAKÍTÁSA')]    5s
             Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'TESZT MEGSZAKÍTÁSA ')]
             
-            Log To Console    Most vagyunk egy leckében: ${lecke_cim}
            
             # Egy lecke ellenőrzése itt történik
              Egy lecke ellenőrzése 
@@ -117,38 +121,8 @@ Lecke lista beolvasása
             #Kilépés a leckéből és a browesert bezárjuk
             Close Browser
         
-            #Log To Console    --------------------------------- Tananyag bezárása?${start_index}
-            #Log To Console    <<<<<< Lecke kilépés:${leckek_szama}/${index} <<<<<<<<
-            #Wait Until Element Is Visible    xpath=//button[@id='panelExitBtn']    5s
-            #Click Button    xpath=//button[@id='panelExitBtn']
-            #Sleep    2s
-            #Sure box Igen gomb kezelése
-            #Run Keyword And Ignore Error     Wait Until Element Is Visible    xpath=//button[@aria-label='Igen']    3s
-            #Run Keyword And Ignore Error    Click Button    xpath=//button[@aria-label='Igen']
-            #Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[@aria-label='Igen']    3s
-            #Sleep    2s
-            #felugró teszt megszakítása gomb kezelése
-            #Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//*[@id="mat-mdc-dialog-1"]/div/div/test-end-or-interrupt-dialog/div/div[2]/button[3]   10s
-            #Run Keyword And Ignore Error    Click Element    xpath=//*[@id="mat-mdc-dialog-1"]/div/div/test-end-or-interrupt-dialog/div/div[2]/button[3]
-            #Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//*[@id="mat-mdc-dialog-1"]/div/div/test-end-or-interrupt-dialog/div/div[2]/button[3]   3s
-
-            #Log To Console    --------------------------------- Tananyag bezárva?${start_index}\n
-            #Unselect Frame
-
-            #megvárjuk hogy vissza töltődjön a leckék listája
-            #Sleep    2s
-            #újra beállítjuk a keresést
-            #Lecke Keresés beállítása  
-            #Sleep    2s
-            
-            #Wait Until Element Is Visible    xpath=(//*[contains(@class,'course-object__title')])     20s
-            #${leckek}=    Get WebElements    xpath=(//*[contains(@class,'course-object__title')])
-            #${leckek_szama}=    Get Length    ${leckek}
-            #Log String To Console    Újar keresett leckék száma: ${leckek_szama}/${index}
        
-    #END
-     #Log String To Console    \n\[2/24] Kurzus lista beolvasása - Kész        
-      #Sleep    30s
+
 
  Kurzus ellenőrzés kész
     [Documentation]    Kurzus ellenőrzés kész   

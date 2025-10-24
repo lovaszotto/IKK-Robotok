@@ -540,7 +540,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 01 - Arculati Elemek: ${msg}
+        #Log String To Console    [HIBA] 01 - Arculati Elemek: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 02 - Kompetencia Teszt Ellenorzese
@@ -549,7 +549,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 02 - Kompetencia Teszt: ${msg}
+        #Log String To Console    [HIBA] 02 - Kompetencia Teszt: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 03 - Fogalomtar Ellenorzese
@@ -558,7 +558,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 03 - Fogalomtar: ${msg}
+        #Log String To Console    [HIBA] 03 - Fogalomtar: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 04 - Szerkesztoi Instrukciok Ellenorzese
@@ -567,7 +567,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 04 - Szerkesztoi Instrukciok: ${msg}
+        #Log String To Console    [HIBA] 04 - Szerkesztoi Instrukciok: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 05 - Internet Hivatkozasok Ellenorzese
@@ -576,7 +576,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 05 - Internet Hivatkozasok: ${msg}
+        #Log String To Console    [HIBA] 05 - Internet Hivatkozasok: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 06 - Szerzo Lektor Ellenorzese
@@ -585,7 +585,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 06 - Szerzo Lektor: ${msg}
+        #Log String To Console    [HIBA] 06 - Szerzo Lektor: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 07 - Hosszu Idezetek Ellenorzese  
@@ -594,7 +594,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 07 - Hosszu Idezetek: ${msg}
+        #Log String To Console    [HIBA] 07 - Hosszu Idezetek: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 08 - Tordeles Ellenorzese
@@ -603,7 +603,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 08 - Tordeles: ${msg}
+        #Log String To Console    [HIBA] 08 - Tordeles: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 09 - Abrak Fotok Ellenorzese
@@ -612,7 +612,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 09 - Abrak Fotok: ${msg}
+        #Log String To Console    [HIBA] 09 - Abrak Fotok: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 10 - Felsorolas Ellenorzese
@@ -621,7 +621,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 10 - Felsorolas: ${msg}
+        #Log String To Console    [HIBA] 10 - Felsorolas: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 11 - Ures Negyzetek Ellenorzese
@@ -630,7 +630,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 11 - Ures Negyzetek: ${msg}
+        #Log String To Console    [HIBA] 11 - Ures Negyzetek: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 12 - Magyar Nyelven Keszult Ellenorzese
@@ -639,7 +639,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 12 - Magyar Nyelven Keszult: ${msg}
+        #Log String To Console    [HIBA] 12 - Magyar Nyelven Keszult: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 13 - Bekezdesek Elkulonulnek Ellenorzese
@@ -648,7 +648,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 13 - Bekezdesek Elkulonulnek: ${msg}
+        #Log String To Console    [HIBA] 13 - Bekezdesek Elkulonulnek: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_14_felsorolasok_egysegesek.Test Case 14 - Felsorolasok Egysegesek Ellenorzese
@@ -657,7 +657,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 14 - Felsorolasok Egysegesek : ${msg}
+        #Log String To Console    [HIBA] 14 - Felsorolasok Egysegesek : ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_15_mozaikaszvak.Test Case 15 - Mozaikszavak Roviditesek Ellenorzese
@@ -666,7 +666,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 15 - Mozaikszavak Roviditesek : ${msg}
+        #Log String To Console    [HIBA] 15 - Mozaikszavak Roviditesek : ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_16_ldezetek.Test Case 16 - Idezetek Formailag Megfeleloek Ellenorzese
@@ -675,7 +675,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 16 - Idezetek Formailag Megfeleloek: ${msg}
+        #Log String To Console    [HIBA] 16 - Idezetek Formailag Megfeleloek: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_17_idezetek_forrasmegjelolese.Test Case 17 - Idezetek Forrasmegjelolese Ellenorzese
@@ -684,7 +684,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 17 - Tartalomjegyzek: ${msg}
+        #Log String To Console    [HIBA] 17 - Tartalomjegyzek: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_18_kompetencia_teszt_megoldokulcs.Test Case 18 - Kompetencia Teszt Megoldokulcs Ellenorzese
@@ -693,7 +693,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 18 - Kompetencia Teszt Megoldokulcs : ${msg}
+        #Log String To Console    [HIBA] 18 - Kompetencia Teszt Megoldokulcs : ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_19_idegen_nyelvu_illusztraciok.Test Case 19 - Idegen Nyelvu Illusztraciok Ellenorzese
@@ -702,7 +702,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 19 - Idegen Nyelvu Illusztraciok: ${msg}
+        #Log String To Console    [HIBA] 19 - Idegen Nyelvu Illusztraciok: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_20_lapjai_szamozottak.Test Case 20 - Lapjai Szamozottak Ellenorzese
@@ -711,7 +711,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 20 - Lapjai Szamozottak : ${msg}
+        #Log String To Console    [HIBA] 20 - Lapjai Szamozottak : ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_21_szerkesztheto_docx_formatum.Test Case 21 - Szerkesztheto Docx Formatum Ellenorzese
@@ -720,7 +720,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 21 - Szerkesztheto Docx Formatum: ${msg}
+        #Log String To Console    [HIBA] 21 - Szerkesztheto Docx Formatum: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_22_cimlap_tartalom.Test Case 22 - Cimlap Tartalom Ellenorzese
@@ -729,7 +729,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 22 -  Cimlap Tartalom:  ${msg}
+        #Log String To Console    [HIBA] 22 -  Cimlap Tartalom:  ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 23 - Generalt Tartalomjegyzek Ellenorzese
@@ -738,7 +738,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 23 - Generalt Tartalomjegyzek : ${msg}
+        #Log String To Console    [HIBA] 23 - Generalt Tartalomjegyzek : ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 24 - Cimsorozassal Keszult Ellenorzese
@@ -747,7 +747,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        Log String To Console    [HIBA] 24 - Cimsorozassal Keszult Ellenorzese : ${msg}
+        #Log String To Console    [HIBA] 24 - Cimsorozassal Keszult Ellenorzese : ${msg}
     END
 
 
@@ -758,7 +758,6 @@ Run All Format Checks Inline
         Rename Excel File Mark Error    ${CURRENT_EXCEL_FILE}
     END
     Log String To Console    Feldolgozott Excel fájl: ${CURRENT_EXCEL_FILE}
-
 
     # Összegzés kiírása
     Log String To Console    \n=== FORMÁLELLENŐRZÉS ÖSSZESÍTÉS ===
