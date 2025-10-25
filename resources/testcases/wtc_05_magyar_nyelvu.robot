@@ -98,6 +98,7 @@ DT nyelv ellenőrzése
                     # Biztonságos hibaüzenet összeállítása
                     ${safe_err_text}=    Evaluate    repr(r'''${node_text}''')[:50] + "..." if len(r'''${node_text}''') > 80 else repr(r'''${node_text}''')
                     ${err_msg}=    Set Variable    ${err_msg}bekezdés idegen nyelven (${lang}): - ${safe_err_text}${CR}
+                    Append To List    ${errors}    ${err_msg}
                 END
             EXCEPT    AS    ${error}
                 # Biztonságos szöveg kiírása Unicode karakterek kezelésével

@@ -15,23 +15,29 @@ Kézirat és DT összhang ellenőrzése
    ${next_button}=    Set Variable    ${EMPTY}
    ${is_disabled}=    Set Variable    None
 
-    ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Page Contains Element    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]   10s    
-    Log To Console    \nVárakozás eredménye: ${rc} ${msg}
-    IF    '${rc}' == 'PASS'
-        ${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
-        WHILE    ${is_disabled} is ${NONE}
-            #Log To Console    Következő oldal gomb engedélyezett, lépés a következő oldalra.
-            Click Button       xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
-            ${is_disabled}=    Get Element Attribute    ${next_button}    disabled
-            #Log To Console    Következő oldal gomb le van tiltva vagy ismeretlen állapot: ${is_enabled}
+   # ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Page Contains Element    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]   10s    
+   # Log To Console    \nVárakozás eredménye: ${rc} ${msg}
+   # IF    '${rc}' == 'PASS'
+   #     ${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
+   #     TRY 
+   #        WHILE    ${is_disabled} is ${NONE}
+   #         #Log To Console    Következő oldal gomb engedélyezett, lépés a következő oldalra.
+   #         Click Button       xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
+   #         ${is_disabled}=    Get Element Attribute    ${next_button}    disabled
+   #         #Log To Console    Következő oldal gomb le van tiltva vagy ismeretlen állapot: ${is_enabled}
 
-            IF   $is_disabled == True or $is_disabled == 'true' or $is_disabled == 'True'
-                #Log To Console    Következő oldal gomb le van tiltva vagy ismeretlen állapot: ${is_disabled}
-                Exit For Loop
-            END
-        END
-    END
+    #        IF   $is_disabled == True or $is_disabled == 'true' or $is_disabled == 'True'
+    #            #Log To Console    Következő oldal gomb le van tiltva vagy ismeretlen állapot: ${is_disabled}
+    #            Exit For Loop
+    #        END
+    #       END
+    #       #Sikeres navigáció az összes oldalra
+    #    EXCEPT    AS    ${e}
+    #        #Sikertelen navigáció az összes oldalra
+    #        Log To Console    [ERROR] Hiba a következő oldal gomb állapot lekérdezésekor: ${e}
+    #END
     #Minden menupont nyitva
+
      #docx_file beolvasása all_text string-be uppercase-elve
      #TODO a végén eldobni!!!
      ${all_text}    Set Variable    ${EMPTY}
@@ -42,74 +48,19 @@ Kézirat és DT összhang ellenőrzése
         ${all_text}=    Set Variable    ${all_text}\n ${text};
     END    
 
-    #Level1-es címsorok ellenőrzése
 
-   # Wait Until Page Contains Element  xpath=//div[@class='tree-node expandable-node tree-level-1 expanded-node']   10s
-   # ${level1_nodes}=    Get WebElements    xpath=//div[@class='tree-node expandable-node tree-level-1 expanded-node']
-   # #get length of level1_nodes
-   # ${len_level1_nodes}=    Get Length    ${level1_nodes}
-   # Log To Console    \nLeve1 szöveg elemek száma: ${len_level1_nodes}
-   # ${found_count}=    Set Variable    0
-   # ${not_found_count}=    Set Variable    0
 
-   # FOR    ${index}    IN RANGE    ${len_level1_nodes}
-   #     ${node}=    Get From List    ${level1_nodes}    ${index}
-   #     ${node_text}=    Get Text    ${node}
-   #     ${node_text}=    Replace String    ${node_text}    \nBlokk    ${EMPTY}   
-   #     ${node_text}=    Strip String    ${node_text}
-   #     ${node_text}=    Convert To Uppercase    ${node_text}
-   #     ${found}=    Evaluate    '''${node_text}''' in '''${all_text}'''
-   #     IF    ${found}
-   #         Log To Console    \n[INFO] Szöveg megtalálva: '${node_text}'
-   #         ${found_count}=   Evaluate    ${found_count}+1
-   #     ELSE
-   #         Log To Console    \n[ERROR] Szöveg nem található a DOCX_JSON-ban: '${node_text}'
-   #         ${not_found_count}=    Evaluate   ${not_found_count}+1
-   #         ${new_err}=    Set Variable    Címsor 1 nincs a dokumentumban: '${node_text}'
-   #         Append To List    ${errors}    ${new_err}
-   #     END
-   # END
-    #IF    ${not_found_count} > 0
-    #    Log To Console    \n[ERROR] Összesen ${not_found_count} címsor 1 nem található a dokumentumban.
-    #    ${found_percentage}=    Evaluate    ${found_count} / (${found_count} + ${not_found_count}) * 100
-    #    ${new_err}=    Set Variable    Találati arány: ${found_percentage}%, Megtalált: ${found_count}, Nem megtalált: ${not_found_count}
-    #    Append To List    ${errors}    ${new_err}
-    #ELSE
-    #    Log To Console    \n[INFO] Minden címsor 1 megtalálva a dokumentumban. Összesen: ${found_count}
-    #END
-  #Level2-es címsorok ellenőrzése
-
-    #Wait Until Page Contains Element  xpath=//div[@class='tree-node expandable-node tree-level-2 expanded-node']   10s
-    #${level2_nodes}=    Get WebElements    xpath=//div[@class='tree-node expandable-node tree-level-2 expanded-node']
-    #get length of level1_nodes
-    #${len_level2_nodes}=    Get Length    ${level2_nodes}
-    #Log To Console    \nLeve2 szöveg elemek száma: ${len_level2_nodes}
-    #FOR    ${index}    IN RANGE    ${len_level2_nodes}
-    #    ${node}=    Get From List    ${level2_nodes}    ${index}
-    #    ${node_text}=    Get Text    ${node}
-    #    ${node_text}=    Replace String    ${node_text}    \nBlokk    ${EMPTY}   
-    #    ${node_text}=    Strip String    ${node_text}
-    #    ${node_text}=    Convert To Uppercase    ${node_text}
-    #    ${found}=    Evaluate    '''${node_text}''' in '''${all_text}'''
-    #    IF    ${found}
-    #        Log To Console    \n[INFO] Szöveg megtalálva: '${node_text}'
-    #    ELSE
-    #        Log To Console    \n[ERROR] Szöveg nem található a DOCX_JSON-ban: '${node_text}'
-    #        ${new_err}=    Set Variable    Címsor 2 nincs a dokumentumban: '${node_text}'
-    #        Append To List    ${errors}    ${new_err}
-    #    END
-    #END
     
      #Oldal szövegek ellenőrzése
      ${found_count}=    Set Variable    0
     ${not_found_count}=    Set Variable    0
 
     Wait Until Page Contains Element  xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]  10s
-    ${level2_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
-    ${len_level2_nodes}=    Get Length    ${level2_nodes}
-    Log To Console    Oldal szöveg elemek száma: ${len_level2_nodes}
-    FOR    ${index}    IN RANGE    ${len_level2_nodes}
-        ${node}=    Get From List    ${level2_nodes}    ${index}
+    ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
+    ${len_szoveg_nodes}=    Get Length    ${szoveg_nodes}
+    Log To Console    Oldal szöveg elemek száma: ${len_szoveg_nodes}
+    FOR    ${index}    IN RANGE    ${len_szoveg_nodes}
+        ${node}=    Get From List    ${szoveg_nodes}    ${index}
         ${node_text}=    Get Text    ${node}
          ${node_text}=    Strip String    ${node_text}
          ${len_node_text}=    Get Length    ${node_text}
