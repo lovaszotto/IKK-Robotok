@@ -4,6 +4,7 @@ Resource    ../resources/variables.robot
 Resource    ../resources/testcases/wtc_01_borito_megfelelo.robot
 Resource    ../resources/testcases/wtc_02_impresszum_megfelelo.robot
 Resource    ../resources/testcases/wtc_04_kezirat_es_dt_osszhang.robot
+Resource    ../resources/testcases/wtc_05_magyar_nyelvu.robot
 Library     String
 Library     BuiltIn
 Library     Collections
@@ -74,6 +75,16 @@ Egy lecke ellenőrzése
 
             #wtc_04_kezirat_es_dt_osszhang.robot futtatása
             ${rc}    ${msg}=    Run Keyword And Ignore Error    Kézirat és DT összhang ellenőrzése
+            ${check_total}=    Evaluate    ${check_total} + 1
+            IF    '${rc}' == 'PASS'
+                ${check_passed}=    Evaluate    ${check_passed} + 1
+            ELSE
+                ${check_failed}=    Evaluate    ${check_failed} + 1
+                #Log String To Console    [HIBA] wtc_04_kezirat_es_dt_osszhang.robot: ${msg}
+            END
+
+            #wtc_05_magyar_nyelvu.robot futtatása
+            ${rc}    ${msg}=    Run Keyword And Ignore Error    DT nyelv ellenőrzése
             ${check_total}=    Evaluate    ${check_total} + 1
             IF    '${rc}' == 'PASS'
                 ${check_passed}=    Evaluate    ${check_passed} + 1

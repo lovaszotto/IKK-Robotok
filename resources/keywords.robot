@@ -36,7 +36,7 @@ Mark Test Status
 Mark WebTest Status
     [Documentation]    Általános jelölő: hibánál C{row} megjegyzés, D{row} "X" és FAIL; siker esetén B{row} "X".
     [Arguments]    ${excel_file}    ${sheet_name}    ${test_row}    ${err_msg}    ${mark}=X
-    Log To Console    Mark WebTest Status called with err_msg: ${err_msg}
+    #Log To Console    Mark WebTest Status called with err_msg: ${err_msg}
     IF    $err_msg != ''
         #Log String To Console    Mark Test Status ${test_row}-ba: ${err_msg}
         Log String To Console    Mark WebTest Status Failed
