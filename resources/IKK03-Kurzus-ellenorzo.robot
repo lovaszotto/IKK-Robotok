@@ -54,21 +54,22 @@ Lecke Keresés beállítása
     Input Text    xpath=//input[@placeholder="Keresés"]    ${kurzus}
     Press Keys    xpath=//input[@placeholder="Keresés"]        ENTER
     Sleep    2s
-    Log String To Console    \[1a/24] Lecke Keresés beállítása - Kész
+    Log String To Console    Lecke Keresés beállítása - Kész\n
 
 Lecke lista beolvasása
     [Documentation]    Lecke lista beolvasása
-    Log String To Console     \n\[2/24] Lecke lista beolvasása
+    Log String To Console     \nLecke lista beolvasása
    
     # Csak akkor várjuk meg a kurzus címkéket, ha már megjelent az 'Tartalom' szöveg
-    #Wait Until Element Is Visible    xpath=//*[contains(text(), 'Tartalom')]    30s
-    #Sleep    1s
-    #Wait Until Element Is Visible    xpath=(//*[contains(@class,'course-object-list')])   20s
-    #szűrő beállítása
-
+    Wait Until Element Is Visible    xpath=//*[contains(text(), 'Tartalom')]    30s
+   
     Lecke Keresés beállítása
 
+   #olytatás gombok és lecke címek lekérése
+    Wait Until Element Is Visible    xpath=(//*[contains(@class,'course-object-list')])   20s
+ 
       # Ellenőrizzük, hogy van-e Legutóbb megnyitott blokk
+    ${kurzus}=    Get Variable Value    ${KURZUS}    default_value=NONE
     ${offset}=    Set Variable    0
     ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible   xpath=//h2[contains(text(), 'Legutóbb megnyitott')]    5s
     Log To Console    Legutóbb megnyitott blokk ellenőrzése: ${rc} : ${msg}
@@ -76,49 +77,67 @@ Lecke lista beolvasása
         Log To Console    Legutóbb megnyitott blokk megtalálva, kihagyva a leckék bejárásából.
         ${offset}=    Set Variable    1
     END
-    #összegyűjtjük az összes Folytatás gombot
 
-      
-    # Végigmegyünk a kurzusokon és kiírjuk a címüket
-    # Minden Folytatás gomb keresése: <button class="button-launch">, benne <span class="mdc-button__label">'Folytatás'
+    #Lecke címek lekérése
+    ${lecke_cimekWebElements}=    Get WebElements    xpath=//h3[contains(@class,'course-object__title')]
+    ${lecke_cimekWebElements_szama}=    Get Length    ${lecke_cimekWebElements}
+    Log String To Console    \nTalált lecke címek száma: ${KURZUS}/${lecke_cimekWebElements_szama}   
+    IF     ${lecke_cimekWebElements_szama} > 0
+       ${error_file}=    Replace String    ${DIGITALIS_EXCEL_FILE}    .xlsx    Hibás_szűrés.txt
+      Create File    ${error_file}
+      #Append To File    ${error_file}   Hibás a lecke szűrés, túl sok lecke találat: ${lecke_cimekWebElements_szama} ,  ${kurzus} Keresésnél  
+      Append To File    ${error_file}   Hibás a lecke szűrés, túl sok lecke találat. 
+        #lecke keresése a találatokban
+       ${offeset}=     Set Variable    -1
+
+      FOR    ${index}    IN RANGE    ${lecke_cimekWebElements_szama}
+          ${lecke_cim_elem}=    Get From List    ${lecke_cimekWebElements}    ${index}
+          ${lecke_cim}=    Get Text    ${lecke_cim_elem}
+          Log String To Console    Lecke cím ${index}: ${lecke_cim}
+          IF    $kurzus in $lecke_cim
+              ${offset}=    Set Variable    ${index}
+              Log String To Console    \nMegvan a lecke a ${offset} helyen!
+          END
+      END
+    END
+    #Ha nincs megfelelő című lecke, akkor vége
+    IF    ${offset} == -1
+         Log String To Console    [ERROR]Nincs megjeleníthető lecke a beállított szűrőkkel. =>${DIGITALIS_EXCEL_FILE}
+        ${error_file}=    Replace String    ${DIGITALIS_EXCEL_FILE}    .v01.xlsx    _Nincs lecke a WEB-en.txt
+        Create File    ${error_file}    Nincs megjeleníthető lecke a beállított szűrőkkel.
+        Close Browser
+        RETURN
+    END
+    #Folytatás gomok keresése
+    ${retry}=    Set Variable    True
     ${folytatas_buttons}=    Get WebElements    xpath=//button[contains(@class,'button-launch')]
       #${folytatas_buttons}=    Get WebElements    xpath=//button[contains(text(), 'Folytatás')]
     ${folytatas_szama}=    Get Length    ${folytatas_buttons}
     Log String To Console    Talált Folytatás gombok száma: ${folytatas_szama} , offset: ${offset}
-    ${folytatas_button}=    Get From List    ${folytatas_buttons}  ${offset}
-        
-    ${leckek}=    Get WebElements    xpath=(//*[contains(@class,'course-object__title')])
-    ${lecke_szam}=    Get Length    ${leckek}
-    Log String To Console    Talált leckék száma: ${lecke_szam}
-
-    ${lecke_elem}=    Get From List    ${leckek}    ${offset}
+   
+     #Lecke keresés hiba hack!
+    
+    ${lecke_elem}=    Get From List    ${lecke_cimekWebElements}    ${offset}
     ${lecke_cim}=    Get Text    ${lecke_elem}
   
       Log To Console    Lecke: ${lecke_cim}
     
       #belépés a leckébe
       Log To Console    >>>>>> Lecke belépés <<<<<<<: ${lecke_cim}
-        Click Button    ${folytatas_button}
-      
+      ${folytatas_button}=    Get From List    ${folytatas_buttons}    ${offset}
+      Click Button    ${folytatas_button}
+      #megvárjuk
       Wait Until Element Is Visible    id=ScormContent    30s
-    #  Select Frame    id=ScormContent
 
-      # Ha megjelenik a folytatás javaslat ablak, kattints a "Folytatás" gombra
-    #  Run Keyword And Ignore Error    Wait Until Element Is Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    2s
-    #  Run Keyword And Ignore Error    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']
-      
-      #tartalomjegyzék gomb kezelése
-    #  Wait Until Page Contains Element    xpath=//button[@aria-label='Tartalomjegyzék']    30s
-    #  ${toc_buttons}=    Get WebElements    xpath=//button[@aria-label='Tartalomjegyzék']
-    #  Run Keyword And Ignore Error    Wait Until Page Does Not Contain Element    css=.cdk-overlay-backdrop    3s
-    #  Click Button    ${toc_buttons}[0]
-    #  Sleep    2s
 
-      #felugró teszt megszakítása gomb kezelése
-      Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'TESZT MEGSZAKÍTÁSA')]    5s
-      Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'TESZT MEGSZAKÍTÁSA ')]
+      #felugró teszt újrakezdés gomb kezelése
+      Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Újrakezdés')]    5s
+      Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Újrakezdés')]
       
-      
+       #felugró teszt megszakítása gomb kezelése
+      Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    5s
+      Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
+     
       # Egy lecke ellenőrzése itt történik
         Egy lecke ellenőrzése 
       

@@ -33,16 +33,22 @@ Egy lecke ellenőrzése
           
             Log To Console    Most vagyunk egy leckében
             # Egy lecke ellenőrzése itt történik
-               #tartalomjegyzék gomb megnyomása
+            #tartalomjegyzék gomb megnyomása
             Wait Until Page Contains Element    xpath=//button[@aria-label='Tartalomjegyzék']    30s
             ${toc_buttons}=    Get WebElement    xpath=//button[@aria-label='Tartalomjegyzék']
             Run Keyword And Ignore Error    Wait Until Page Does Not Contain Element    css=.cdk-overlay-backdrop    3s
             Click Button    ${toc_buttons}
 
+            # Ha megjelenik a folytatás javaslat ablak, kattints a "Folytatás" gombra
+            Run Keyword And Ignore Error    Wait Until Element Is Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    2s
+            Run Keyword And Ignore Error    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']
+        
             #felugró teszt megszakítása gomb kezelése
-            Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'TESZT MEGSZAKÍTÁSA')]    5s
-            Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'TESZT MEGSZAKÍTÁSA ')]
-           
+            Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt megszakítása') or @value='Teszt megszakítása' or @aria-label='Teszt megszakítása']    5s
+            Run Keyword And Ignore Error    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt megszakítása') or @value='Teszt megszakítása' or @aria-label='Teszt megszakítása']
+
+      
+
            
             #
             # TestCase-ek futtatása a leckében

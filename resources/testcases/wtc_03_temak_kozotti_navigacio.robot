@@ -47,5 +47,6 @@ Témák közötti navigáció ellenőrzése
     #Log String To Console    \nEredmény visszaírása:${DIGITALIS_EXCEL_FILE}  :  ${CURRENT_SHEET_NAME}    ${testCase_row}    ${unique_errors}
     Mark WebTest Status    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}    ${testCase_row}    ${err_msg}
 
-
+   Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Újrakezdés')]    5s
+    Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Újrakezdés')]
    

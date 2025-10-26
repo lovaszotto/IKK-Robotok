@@ -23,16 +23,19 @@ Boritó megfelelőség ellenőrzése
     #a ${home_title} -ben \nBlokk cseréje üres karakterre
     ${home_title}=    Replace String    ${home_title}    \nBlokk    ${EMPTY}
     Click Button    ${home_button}
-    Sleep     2s
+    
+ 
 
-    Log String To Console    DT címe: ${home_title}
     Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     Alapadatok     3    2    ${home_title}
     Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${CURRENT_SHEET_NAME}     1    2    ${home_title}
     
     # Dokumentum cím ellenőrzése
     ${dokumentum_cimsor} =    Get Variable Value    ${DOKUMENTUM_CIMSOR}    ${EMPTY}
+    Log String To Console    DT címe: ${home_title}
+    Log String To Console    Kézirat címe: ${dokumentum_cimsor}
     IF    $dokumentum_cimsor != $home_title
         ${err_msg}=    Set Variable    A dokumentum címsor nem egyezik meg a várt értékkel. Kézirat: '${dokumentum_cimsor}', DT: '${home_title}'
+        Append To List    ${errors}    ${err_msg}
     END
     
  
