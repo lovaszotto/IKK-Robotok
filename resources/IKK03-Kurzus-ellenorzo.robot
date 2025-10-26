@@ -8,8 +8,7 @@ Library     Collections
 Library     OperatingSystem
 Library     Process
 Library    ../libraries/keep_awake.py
-Library    SeleniumLibrary
-
+Library    SeleniumLibrary 
 *** Keywords ***
 Egy kurzus ellenőrzése
     [Documentation]    Egy kurzus ellenőrzése
@@ -21,15 +20,15 @@ Egy kurzus ellenőrzése
     #Switch Browser    ${HANDLE}[0]
 
     #teszteléskor önálló futtatás esetén
-    #Log To Console    nyitott böngészők lekérése
+    #Log String To Console    nyitott böngészők lekérése
     #${handle}=    Get Window Handles
-    #Log To Console    nyitott böngészők: ${handle}
+    #Log String To Console    nyitott böngészők: ${handle}
 
     # Csatlakozás a már futó böngészőhöz
    #${browser}=    Open Browser    about:blank    browser=chrome    remote_url=http://127.0.0.1:9222
      # Ellenőrzés
     #${title}=    Get Title
-    #Log To Console    Böngésző címe: ${title}
+    #Log String To Console    Böngésző címe: ${title}
 
     #itt vagyunk a fő témán belül
     Wait Until Element Is Visible    xpath=//*[contains(text(), 'Tartalom')]    30s
@@ -50,7 +49,7 @@ Lecke Keresés beállítása
     #addj egy szóközt a kurzus érték mögé
     ${kurzus}=    Set Variable    ${kurzus}${SPACE}
 
-    Log To Console    Beállított lecke szűrő: +++++${kurzus}+++++++
+    Log String To Console    Beállított lecke szűrő: +++++${kurzus}+++++++
     Input Text    xpath=//input[@placeholder="Keresés"]    ${kurzus}
     Press Keys    xpath=//input[@placeholder="Keresés"]        ENTER
     Sleep    2s
@@ -72,9 +71,9 @@ Lecke lista beolvasása
     ${kurzus}=    Get Variable Value    ${KURZUS}    default_value=NONE
     ${offset}=    Set Variable    0
     ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible   xpath=//h2[contains(text(), 'Legutóbb megnyitott')]    5s
-    Log To Console    Legutóbb megnyitott blokk ellenőrzése: ${rc} : ${msg}
+    Log String To Console    Legutóbb megnyitott blokk ellenőrzése: ${rc} : ${msg}
     IF   '${rc}' == 'PASS'
-        Log To Console    Legutóbb megnyitott blokk megtalálva, kihagyva a leckék bejárásából.
+        Log String To Console    Legutóbb megnyitott blokk megtalálva, kihagyva a leckék bejárásából.
         ${offset}=    Set Variable    1
     END
 
@@ -120,22 +119,23 @@ Lecke lista beolvasása
     ${lecke_elem}=    Get From List    ${lecke_cimekWebElements}    ${offset}
     ${lecke_cim}=    Get Text    ${lecke_elem}
   
-      Log To Console    Lecke: ${lecke_cim}
+      Log String To Console    Lecke: ${lecke_cim}
     
       #belépés a leckébe
-      Log To Console    >>>>>> Lecke belépés <<<<<<<: ${lecke_cim}
+      Log String To Console    >>>>>> Lecke belépés <<<<<<<: ${lecke_cim}
       ${folytatas_button}=    Get From List    ${folytatas_buttons}    ${offset}
       Click Button    ${folytatas_button}
+      #Sleep    2s
       #megvárjuk
       Wait Until Element Is Visible    id=ScormContent    30s
 
 
       #felugró teszt újrakezdés gomb kezelése
-      Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Újrakezdés')]    5s
+      Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Újrakezdés')]    2s
       Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Újrakezdés')]
       
        #felugró teszt megszakítása gomb kezelése
-      Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    5s
+      Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    2s
       Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
      
       # Egy lecke ellenőrzése itt történik

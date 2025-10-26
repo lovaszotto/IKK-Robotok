@@ -16,7 +16,11 @@ Boritó megfelelőség ellenőrzése
    # Run Keyword And Ignore Error    Wait Until Page Does Not Contain Element    css=.cdk-overlay-backdrop    3s
    # Click Button    ${toc_buttons}[0]
     #Sleep    2s
-
+    
+   #felugró teszt megszakítása gomb kezelése
+      Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    2s
+      Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
+    
  #címsor kiválasztása a tartalomjegyzékből
     ${home_button}=    Get WebElement    xpath=//span[contains(@class,'node-title')]
     ${home_title}=    Get Text   ${home_button}

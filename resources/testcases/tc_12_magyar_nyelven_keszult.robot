@@ -39,12 +39,12 @@ Test Case 12 - Magyar Nyelven Keszult Ellenorzese
                 
                 IF    '${lang}' == 'hu'
                     ${hungarian_count}=    Evaluate    ${hungarian_count} + 1
-                    #Log To Console    ✓ ${idx}. bekezdés: MAGYAR - "${text[:50]}..."
+                    #Log String To Console    ✓ ${idx}. bekezdés: MAGYAR - "${text[:50]}..."
                 ELSE
                     ${other_lang_count}=    Evaluate    ${other_lang_count} + 1
                     # Biztonságos szöveg kiírása Unicode karakterek kezelésével
                     ${safe_text}=    Evaluate    repr(r'''${text}''')[:50] + "..." if len(r'''${text}''') > 50 else repr(r'''${text}''')
-                    Log To Console    X ${idx}. bekezdés: ${lang.upper()} 
+                    Log String To Console    X ${idx}. bekezdés: ${lang.upper()} 
                     # Biztonságos hibaüzenet összeállítása
                     ${safe_err_text}=    Evaluate    repr(r'''${text}''')[:50] + "..." if len(r'''${text}''') > 80 else repr(r'''${text}''')
                     ${err_msg}=    Set Variable    ${err_msg}${idx}. bekezdés idegen nyelven (${lang}): - ${safe_err_text}${CR}
@@ -52,33 +52,33 @@ Test Case 12 - Magyar Nyelven Keszult Ellenorzese
             EXCEPT    AS    ${error}
                 # Biztonságos szöveg kiírása Unicode karakterek kezelésével
                 ${safe_text}=    Evaluate    repr(r'''${text}''')[:50] + "..." if len(r'''${text}''') > 50 else repr(r'''${text}''')
-                Log To Console    ? ${idx}. bekezdés: Nyelv nem detektálható 
+                Log String To Console    ? ${idx}. bekezdés: Nyelv nem detektálható 
             END
         ELSE
             No Operation
-            #Log To Console    - ${idx}. bekezdés: Túl rövid szöveg (${text_length} karakter)
+            #Log String To Console    - ${idx}. bekezdés: Túl rövid szöveg (${text_length} karakter)
         END
     END
     
     # Eredmény kiértékelése
-    Log To Console    \n=== MAGYAR NYELV ELLENORZES EREDMENYE ===
-    Log To Console    Osszesen vizsgalt szovegreszek: ${total_valid_texts}
-    Log To Console    Magyar nyelven: ${hungarian_count}
-    Log To Console    Idegen nyelven: ${other_lang_count}
+    Log String To Console    \n=== MAGYAR NYELV ELLENORZES EREDMENYE ===
+    Log String To Console    Osszesen vizsgalt szovegreszek: ${total_valid_texts}
+    Log String To Console    Magyar nyelven: ${hungarian_count}
+    Log String To Console    Idegen nyelven: ${other_lang_count}
     
     IF    ${total_valid_texts} > 0
         ${hungarian_percentage}=    Evaluate    round((${hungarian_count} / ${total_valid_texts}) * 100, 1)
-        Log To Console    Magyar nyelvu arany: ${hungarian_percentage}%
+        Log String To Console    Magyar nyelvu arany: ${hungarian_percentage}%
         
         IF    ${other_lang_count} == 0
-            Log To Console    SIKERES: A dokumentum magyar nyelven keszult
+            Log String To Console    SIKERES: A dokumentum magyar nyelven keszult
             ${err_msg}=    Set Variable    ${EMPTY}
         ELSE
             ${err_msg}=    Set Variable    Magyar nyelvu arany: ${hungarian_percentage}% ; Talalt idegen nyelvu szovegreszek: ${other_lang_count} db. ${err_msg}
-            Log To Console    SIKERTELEN: Talalhatok idegen nyelvu szovegreszek
+            Log String To Console    SIKERTELEN: Talalhatok idegen nyelvu szovegreszek
         END
     ELSE
-        Log To Console    FIGYELEM: Nem talalhato detektalhato szoveg (alapertelmezett: SIKERES)
+        Log String To Console    FIGYELEM: Nem talalhato detektalhato szoveg (alapertelmezett: SIKERES)
         ${err_msg}=    Set Variable    ${EMPTY}
     END
     

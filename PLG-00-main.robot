@@ -82,7 +82,10 @@ Batch inicializálás
         Log String To Console    \n---------------------------------------WEB---------------------------------------------\n
         PLG-05-WEB-ellenor-main.Web-alkalmazás indítása és bejelentkezés
       
-    END
+       #selenium-screenshot törlése selenium-screenshot*.png fájlok törlése
+       ${SELENIUM_SCREENSHOT_FILE}=    Set Variable    selenium-screenshot*.png
+       Delete File If Exists    ${SELENIUM_SCREENSHOT_FILE}
+   END
 
 Batch lezárás
     [Documentation]    Batch feldolgozás lezárása: eredmények összesítése

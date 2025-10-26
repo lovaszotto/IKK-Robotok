@@ -12,7 +12,7 @@ Library     Collections
 Library     OperatingSystem
 Library     Process
 Library    ../libraries/keep_awake.py
-Library    SeleniumLibrary
+Library    SeleniumLibrary 
 
 *** Keywords ***
 
@@ -21,7 +21,7 @@ Egy lecke ellenőrzése
     [Documentation]    Lecke ellenőrzése
     Log String To Console    \n\[3/24] Egy lecke ellenőrzése
    
-      Log To Console    ---------------------------------Egy lecke ellenőrzés kezdete---------------------------------
+      Log String To Console    ---------------------------------Egy lecke ellenőrzés kezdete---------------------------------
    
             Wait Until Element Is Visible    id=ScormContent    30s
             Select Frame    id=ScormContent
@@ -31,24 +31,21 @@ Egy lecke ellenőrzése
             Run Keyword And Ignore Error    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']
             
           
-            Log To Console    Most vagyunk egy leckében
+            Log String To Console    Most vagyunk egy leckében
             # Egy lecke ellenőrzése itt történik
             #tartalomjegyzék gomb megnyomása
             Wait Until Page Contains Element    xpath=//button[@aria-label='Tartalomjegyzék']    30s
             ${toc_buttons}=    Get WebElement    xpath=//button[@aria-label='Tartalomjegyzék']
-            Run Keyword And Ignore Error    Wait Until Page Does Not Contain Element    css=.cdk-overlay-backdrop    3s
+            Run Keyword And Ignore Error    Wait Until Page Does Not Contain Element    css=.cdk-overlay-backdrop    1s
             Click Button    ${toc_buttons}
 
             # Ha megjelenik a folytatás javaslat ablak, kattints a "Folytatás" gombra
-            Run Keyword And Ignore Error    Wait Until Element Is Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    2s
+            Run Keyword And Ignore Error    Wait Until Element Is Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    1s
             Run Keyword And Ignore Error    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']
         
             #felugró teszt megszakítása gomb kezelése
-            Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt megszakítása') or @value='Teszt megszakítása' or @aria-label='Teszt megszakítása']    5s
+            Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt megszakítása') or @value='Teszt megszakítása' or @aria-label='Teszt megszakítása']    1s
             Run Keyword And Ignore Error    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt megszakítása') or @value='Teszt megszakítása' or @aria-label='Teszt megszakítása']
-
-      
-
            
             #
             # TestCase-ek futtatása a leckében
@@ -113,34 +110,9 @@ Egy lecke ellenőrzése
             #Kilépés a leckéből és a browesert bezárjuk
             Close browser
         
-            Log To Console    <<<<<< Lecke elleőrzés vége <<<<<<<<
-            #Wait Until Element Is Visible    xpath=//button[@id='panelExitBtn']    5s
-            #Click Button    xpath=//button[@id='panelExitBtn']
-            #Sleep    2s
-            #Sure box Igen gomb kezelése
-            #Run Keyword And Ignore Error     Wait Until Element Is Visible    xpath=//button[@aria-label='Igen']    3s
-            #Run Keyword And Ignore Error    Click Button    xpath=//button[@aria-label='Igen']
-            #Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[@aria-label='Igen']    3s
-            #Sleep    2s
-            #felugró teszt megszakítása gomb kezelése
-            #Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//*[@id="mat-mdc-dialog-1"]/div/div/test-end-or-interrupt-dialog/div/div[2]/button[3]   10s
-            #Run Keyword And Ignore Error    Click Element    xpath=//*[@id="mat-mdc-dialog-1"]/div/div/test-end-or-interrupt-dialog/div/div[2]/button[3]
-            #Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//*[@id="mat-mdc-dialog-1"]/div/div/test-end-or-interrupt-dialog/div/div[2]/button[3]   3s
-
-            #Log To Console    --------------------------------- Tananyag bezárva?${start_index}\n
-            #Unselect Frame
-
-            #megvárjuk hogy vissza töltődjön a leckék listája
-            #Sleep    2s
-            #újra beállítjuk a keresést
-            #Lecke Keresés beállítása  
-            #Sleep    2s
+            Log String To Console    <<<<<< Lecke elleőrzés vége <<<<<<<<
+                  #selenium-screenshot törlése selenium-screenshot*.png fájlok törlése
+            ${SELENIUM_SCREENSHOT_FILE}=    Set Variable    selenium-screenshot*.png
+            Delete File If Exists    ${SELENIUM_SCREENSHOT_FILE}
             
-            #Wait Until Element Is Visible    xpath=(//*[contains(@class,'course-object__title')])     20s
-            #${leckek}=    Get WebElements    xpath=(//*[contains(@class,'course-object__title')])
-            #${leckek_szama}=    Get Length    ${leckek}
-            #Log String To Console    Újar keresett leckék száma: ${leckek_szama}/${index}
-       
-    #END
-     #Log String To Console    \n\[2/24] Kurzus lista beolvasása - Kész        
-      #Sleep    30s
+           

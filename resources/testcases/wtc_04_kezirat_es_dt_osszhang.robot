@@ -1,5 +1,5 @@
 *** Settings ***
-Library    SeleniumLibrary
+Library    SeleniumLibrary 
 Resource   ${CURDIR}/../keywords.robot
 Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 
@@ -16,25 +16,25 @@ Kézirat és DT összhang ellenőrzése
    ${is_disabled}=    Set Variable    None
 
    # ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Page Contains Element    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]   10s    
-   # Log To Console    \nVárakozás eredménye: ${rc} ${msg}
+   # Log String To Console    \nVárakozás eredménye: ${rc} ${msg}
    # IF    '${rc}' == 'PASS'
    #     ${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
    #     TRY 
    #        WHILE    ${is_disabled} is ${NONE}
-   #         #Log To Console    Következő oldal gomb engedélyezett, lépés a következő oldalra.
+   #         #Log String To Console    Következő oldal gomb engedélyezett, lépés a következő oldalra.
    #         Click Button       xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
    #         ${is_disabled}=    Get Element Attribute    ${next_button}    disabled
-   #         #Log To Console    Következő oldal gomb le van tiltva vagy ismeretlen állapot: ${is_enabled}
+   #         #Log String To Console    Következő oldal gomb le van tiltva vagy ismeretlen állapot: ${is_enabled}
 
     #        IF   $is_disabled == True or $is_disabled == 'true' or $is_disabled == 'True'
-    #            #Log To Console    Következő oldal gomb le van tiltva vagy ismeretlen állapot: ${is_disabled}
+    #            #Log String To Console    Következő oldal gomb le van tiltva vagy ismeretlen állapot: ${is_disabled}
     #            Exit For Loop
     #        END
     #       END
     #       #Sikeres navigáció az összes oldalra
     #    EXCEPT    AS    ${e}
     #        #Sikertelen navigáció az összes oldalra
-    #        Log To Console    [ERROR] Hiba a következő oldal gomb állapot lekérdezésekor: ${e}
+    #        Log String To Console    [ERROR] Hiba a következő oldal gomb állapot lekérdezésekor: ${e}
     #END
     #Minden menupont nyitva
 
@@ -58,54 +58,54 @@ Kézirat és DT összhang ellenőrzése
     Wait Until Page Contains Element  xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]  10s
     ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
     ${len_szoveg_nodes}=    Get Length    ${szoveg_nodes}
-    Log To Console    Oldal szöveg elemek száma: ${len_szoveg_nodes}
+    Log String To Console    Oldal szöveg elemek száma: ${len_szoveg_nodes}
     FOR    ${index}    IN RANGE    ${len_szoveg_nodes}
         ${node}=    Get From List    ${szoveg_nodes}    ${index}
         ${node_text}=    Get Text    ${node}
          ${node_text}=    Strip String    ${node_text}
          ${len_node_text}=    Get Length    ${node_text}
         IF    ${len_node_text} < 1
-            #Log To Console    \n[WARNING] Üres oldal szöveg elem kihagyva.
+            #Log String To Console    \n[WARNING] Üres oldal szöveg elem kihagyva.
             Continue For Loop
         END
         ${node_text}=    Replace String    ${node_text}    \nBlokk    ${EMPTY}   
         ${node_text}=    Replace String    ${node_text}    \nOldal    ${EMPTY}   
 
-        #Log To Console    \nOldal: '${node_text}'
+        #Log String To Console    \nOldal: '${node_text}'
 
         ${found_feladat}=    Evaluate    bool(re.search('feladat', $node_text, re.IGNORECASE | re.MULTILINE))    re
         IF    ${found_feladat}    
-            #Log To Console    [SKIPP]  '${node_text}'  
+            #Log String To Console    [SKIPP]  '${node_text}'  
              Continue For Loop
         END
 
         ${found_borito}=    Evaluate    bool(re.search('borító', $node_text, re.IGNORECASE | re.MULTILINE))    re
         IF    ${found_borito}    
-            #Log To Console    [SKIPP] '${node_text}'
+            #Log String To Console    [SKIPP] '${node_text}'
              Continue For Loop
         END
 
         ${found_nyitooldal}=    Evaluate    bool(re.search('nyitóoldal', $node_text, re.IGNORECASE | re.MULTILINE))    re
         IF    ${found_nyitooldal}    
-            #Log To Console    [SKIPP] '${node_text}'
+            #Log String To Console    [SKIPP] '${node_text}'
              Continue For Loop
         END
 
         ${found_osszefoglalo}=    Evaluate    bool(re.search('összefoglal', $node_text, re.IGNORECASE | re.MULTILINE))    re
         IF    ${found_osszefoglalo}    
-            #Log To Console    [SKIPP] '${node_text}'
+            #Log String To Console    [SKIPP] '${node_text}'
              Continue For Loop
         END
 
         ${found_kerdesbank}=    Evaluate    bool(re.search('kérdésbank', $node_text, re.IGNORECASE | re.MULTILINE))    re
         IF    ${found_kerdesbank}    
-            #Log To Console    [SKIPP] '${node_text}'
+            #Log String To Console    [SKIPP] '${node_text}'
              Continue For Loop
         END
 
         ${found_nyitooldal}=    Evaluate    bool(re.search('nyitóoldal', $node_text, re.IGNORECASE | re.MULTILINE))    re
         IF    ${found_nyitooldal}    
-            #Log To Console    [SKIPP] '${node_text}'
+            #Log String To Console    [SKIPP] '${node_text}'
              Continue For Loop
         END
 
@@ -115,32 +115,32 @@ Kézirat és DT összhang ellenőrzése
 
         IF    ${found}
               ${found_count}=   Evaluate    ${found_count}+1
-            Log To Console    [___OK] ${node_text}
+            Log String To Console    [___OK] ${node_text}
             ${new_err}=    Set Variable    ___OK: ${node_text}
             Append To List    ${errors}    ${new_err}
         ELSE
             ${not_found_count}=   Evaluate    ${not_found_count}+1
-            Log To Console    [NINCS] ${node_text}
+            Log String To Console    [NINCS] ${node_text}
             ${new_err}=    Set Variable    NINCS: ${node_text}
             Append To List    ${errors}    ${new_err}
         END
     END
     IF    ${not_found_count} > 0
-        Log To Console    \n[ERROR] Összesen ${not_found_count} oldal nem található a dokumentumban.
+        Log String To Console    \n[ERROR] Összesen ${not_found_count} oldal nem található a dokumentumban.
         ${found_percentage}=    Evaluate    ${found_count} / (${found_count} + ${not_found_count}) * 100
         ${new_err}=    Set Variable    Találati arány: ${found_percentage}%, Megtalált: ${found_count}, Nem megtalált: ${not_found_count}
         Append To List    ${errors}    ${new_err}
-        Log To Console    \n[ERROR] ${new_err}
+        Log String To Console    \n[ERROR] ${new_err}
     ELSE
-        Log To Console    \n[INFO] Minden oldal megtalálva a dokumentumban. Összesen: ${found_count}
+        Log String To Console    \n[INFO] Minden oldal megtalálva a dokumentumban. Összesen: ${found_count}
     END
     
     
     
     
-    Log To Console    <<<<<< Kézirat és DT összhang ellenőrzés vége <<<<<<<<  ${is_disabled}
+    Log String To Console    <<<<<< Kézirat és DT összhang ellenőrzés vége <<<<<<<<  ${is_disabled}
     #Végeredmény visszaírása az Excel-be
-    Log To Console   \n>>>>> Végeredmény visszaírása az Excel-be
+    Log String To Console   \n>>>>> Végeredmény visszaírása az Excel-be
     ${unique_errors}=    Remove Duplicates    ${errors}
     ${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique_errors}
  

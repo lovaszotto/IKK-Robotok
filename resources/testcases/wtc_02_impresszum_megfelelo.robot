@@ -21,13 +21,13 @@ Impresszum megfelelőség ellenőrzése
     ##############################################################################################
     #IKK logo ellenőrzése
     ##############################################################################################
-     Log To Console   \n>>>>> IKK logó ellenőrzése
+     Log String To Console   \n>>>>> IKK logó ellenőrzése
      ${ALT_TEXT}     Set Variable    Az Innovatív Képzéstámogató Központ logója
      
      ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible    xpath=//img[contains(@alt, 'Az Innovatív Képzéstámogató Központ logója')]    10s
      IF    '${rc}' == 'PASS'
             ${src}=    Get Element Attribute    xpath=//img[contains(@alt, 'Az Innovatív Képzéstámogató Központ logója')]    src
-            Log To Console    \nIKK logója URL: ${src}
+            Log String To Console    \nIKK logója URL: ${src}
             #ha scr üres
             IF    '${src}' == ''
                 ${new_err}=    Set Variable     Az IKK logó nem található meg az impresszumban!
@@ -40,22 +40,22 @@ Impresszum megfelelőség ellenőrzése
     ##############################################################################################
     #Széchenyi logo ellenőrzése
     ##############################################################################################
-    # Log To Console   \n>>>>> Széchenyi 2020 program logója ellenőrzése
+    # Log String To Console   \n>>>>> Széchenyi 2020 program logója ellenőrzése
     # ${ALT_TEXT2}     Set Variable    A Széchenyi 2020 program logója
     # ${rc2}    ${msg2}=    Run Keyword And Ignore Error     Wait Until Element Is Visible    xpath=//img[contains(@alt, 'A Széchenyi 2020 program logója')]    10s
-    # Log To Console    \nImpresszum logó ellenőrzés eredménye: ${rc2} ${msg2}
+    # Log String To Console    \nImpresszum logó ellenőrzés eredménye: ${rc2} ${msg2}
     # IF    '${rc2}' == 'PASS'
     #        ${src2}=    Get Element Attribute    xpath=//img[contains(@alt, 'A Széchenyi 2020 program logója')]    src
-    #        Log To Console    \nSzéchenyi 2020 program logója URL: ${src2}
+    #        Log String To Console    \nSzéchenyi 2020 program logója URL: ${src2}
     #ELSE
-    #          Log To Console    \nSzéchenyi 2020 program logója nem található meg.
+    #          Log String To Console    \nSzéchenyi 2020 program logója nem található meg.
     #          ${new_err}=    Set Variable     Az Széchenyi 2020 program logója nem található meg az impresszumban!
     #          Append To List    ${errors}    ${new_err}
     #END
     ##############################################################################################
     #szerző ellenőrzése
     ##############################################################################################
-     Log To Console   \n>>>>> Szerző ellenőrzése
+     Log String To Console   \n>>>>> Szerző ellenőrzése
     ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible   xpath=//div[contains(@class,'custom-format')]//strong[normalize-space(.)='Szerző:']/following-sibling::span[1]    5s
     IF    '${rc}' == 'PASS'
         ${raw}=    Get Text    xpath=//div[contains(@class,'custom-format')]//strong[normalize-space(.)='Szerző:']/following-sibling::span[1]
@@ -65,8 +65,8 @@ Impresszum megfelelőség ellenőrzése
         ${dokumentum_szerzo} =    Get Variable Value    ${DOKUMENTUM_SZERZO}    ${EMPTY}
         ${dokumentum_szerzo}=    Convert To Uppercase    ${dokumentum_szerzo}
 
-        Log To Console    Szerző neve: ${szerzo}
-        Log To Console    Dokumentum szerző neve: ${dokumentum_szerzo}
+        Log String To Console    Szerző neve: ${szerzo}
+        Log String To Console    Dokumentum szerző neve: ${dokumentum_szerzo}
         
         IF    $dokumentum_szerzo != $szerzo
             ${new_err}=    Set Variable     A dokumentum szerzője nem egyezik meg a várt értékkel. Kézirat: '${dokumentum_szerzo}', DT: '${szerzo}'
@@ -80,7 +80,7 @@ Impresszum megfelelőség ellenőrzése
     ##############################################################################################
     #Lektorok ellenőrzése
     ##############################################################################################
-    Log To Console   \n>>>>> Lektorok ellenőrzése
+    Log String To Console   \n>>>>> Lektorok ellenőrzése
     ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible    xpath=//strong[contains(., 'További szakmai közreműködők')]    10s
      IF    '${rc}' == 'PASS'
         ${szakmai_lektor}=    Get Text    xpath=//strong[contains(., 'További szakmai közreműködők')]/following-sibling::*[1]
@@ -88,13 +88,13 @@ Impresszum megfelelőség ellenőrzése
         ${szakmai_lektor}=   Convert To UpperCASE    ${szakmai_lektor}    
         ${szakmai_lektor_list}=    Split String    ${szakmai_lektor}    ,
         ${dokumentum_szakmai_lektor} =    Get Variable Value    ${DOKUMENTUM_SZAKMAI_LEKTOR}    ${EMPTY}
-        Log To Console    \Dokumentum szakmai közreműködők: ${dokumentum_szakmai_lektor}
-        Log To Console    \WEB szakmai közreműködők: ${szakmai_lektor}
+        Log String To Console    \Dokumentum szakmai közreműködők: ${dokumentum_szakmai_lektor}
+        Log String To Console    \WEB szakmai közreműködők: ${szakmai_lektor}
         FOR    ${act_lektor}    IN    @{szakmai_lektor_list}
             ${act_lektor}=    Strip String    ${act_lektor}
-            Log To Console    \Ellenőrzés alatt álló lektor: ${act_lektor}
+            Log String To Console    \Ellenőrzés alatt álló lektor: ${act_lektor}
             IF    '${dokumentum_szakmai_lektor}' == '${act_lektor}'
-                Log To Console    \Lektor megtalálva: ${act_lektor}
+                Log String To Console    \Lektor megtalálva: ${act_lektor}
                 Exit For Loop
             END
             IF    '${act_lektor}' == '@{szakmai_lektor_list}[-1]'
@@ -111,7 +111,7 @@ Impresszum megfelelőség ellenőrzése
     ##############################################################################################
     #Szerző és Lektor nem azonos ellenőrzése
     ##############################################################################################
-      Log To Console   \n>>>>> Szerző Lektorok ellenőrzése
+      Log String To Console   \n>>>>> Szerző Lektorok ellenőrzése
      ${szerzo_list}=    Split String    ${szerzo}    ,
     ${szakmai_lektor_list}=    Split String    ${szakmai_lektor}    ,
     #Log String To Console    Szerző lista: ${szerzo_list}
@@ -136,7 +136,7 @@ Impresszum megfelelőség ellenőrzése
     ##############################################################################################
     #Tananyagot készítette ellenőrzése
     ##############################################################################################
-    Log To Console   \n>>>>> Tananyagot készítette ellenőrzése
+    Log String To Console   \n>>>>> Tananyagot készítette ellenőrzése
     ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible    xpath=//strong[contains(., 'A tananyagot készítette')]    10s
      IF    '${rc}' == 'PASS'
         ${text}=    Get Text    xpath=//strong[contains(., 'A tananyagot készítette')]/following-sibling::*[1]
@@ -155,7 +155,7 @@ Impresszum megfelelőség ellenőrzése
     
     
     #Végeredmény visszaírása az Excel-be
-    Log To Console   \n>>>>> Végeredmény visszaírása az Excel-be
+    Log String To Console   \n>>>>> Végeredmény visszaírása az Excel-be
     ${unique_errors}=    Remove Duplicates    ${errors}
     ${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique_errors}
  

@@ -9,7 +9,7 @@ Library     Collections
 Library     OperatingSystem
 Library     Process
 Library    ../libraries/keep_awake.py
-Library    SeleniumLibrary
+Library    SeleniumLibrary 
 
 
 
@@ -27,7 +27,7 @@ Téma keresés szűrő beállítása
     ${dtem}=    Replace String    ${dtem}    *    ${EMPTY}
     #concatenate egy szóközt a DTEM érték mögé
     ${dtem}=    Set Variable    ${DTEM}${SPACE}
-    Log To Console    Beállított DTEM szűrő: +++${dtem}+++
+    Log String To Console    Beállított DTEM szűrő: +++${dtem}+++
     
     Input Text    id=mat-input-0    ${dtem}
     Press Keys    id=mat-input-0        ENTER
