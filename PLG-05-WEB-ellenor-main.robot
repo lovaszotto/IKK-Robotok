@@ -37,6 +37,8 @@ Web-alkalmazás indítása és bejelentkezés
     # Ha megjelenik a kétfaktoros javaslat ablak, kattints a "Később" gombra
     Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Később')]    5s
     Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Később')]
+    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Később')]    5s
+ 
 
 
     # Várd meg, amíg megjelenik a "KURZUSAIM" felirat, majd kattints rá

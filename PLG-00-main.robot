@@ -84,7 +84,7 @@ Batch inicializálás
       
        #selenium-screenshot törlése selenium-screenshot*.png fájlok törlése
        ${SELENIUM_SCREENSHOT_FILE}=    Set Variable    selenium-screenshot*.png
-       Delete File If Exists    ${SELENIUM_SCREENSHOT_FILE}
+      Run Keyword And Ignore Error    Remove File    ${SELENIUM_SCREENSHOT_FILE}
    END
 
 Batch lezárás

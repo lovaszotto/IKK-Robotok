@@ -42,10 +42,12 @@ Egy lecke ellenőrzése
             # Ha megjelenik a folytatás javaslat ablak, kattints a "Folytatás" gombra
             Run Keyword And Ignore Error    Wait Until Element Is Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    1s
             Run Keyword And Ignore Error    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']
-        
+           Run Keyword And Ignore Error    Wait Until Element Is Not Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    1s
+         
             #felugró teszt megszakítása gomb kezelése
             Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt megszakítása') or @value='Teszt megszakítása' or @aria-label='Teszt megszakítása']    1s
             Run Keyword And Ignore Error    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt megszakítása') or @value='Teszt megszakítása' or @aria-label='Teszt megszakítása']
+            Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt megszakítása') or @value='Teszt megszakítása' or @aria-label='Teszt megszakítása']    1s
            
             #
             # TestCase-ek futtatása a leckében
@@ -113,6 +115,6 @@ Egy lecke ellenőrzése
             Log String To Console    <<<<<< Lecke elleőrzés vége <<<<<<<<
                   #selenium-screenshot törlése selenium-screenshot*.png fájlok törlése
             ${SELENIUM_SCREENSHOT_FILE}=    Set Variable    selenium-screenshot*.png
-            Delete File If Exists    ${SELENIUM_SCREENSHOT_FILE}
+            Run Keyword And Ignore Error    Remove File    ${SELENIUM_SCREENSHOT_FILE}
             
            

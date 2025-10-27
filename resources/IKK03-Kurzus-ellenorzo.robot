@@ -133,11 +133,13 @@ Lecke lista beolvasása
       #felugró teszt újrakezdés gomb kezelése
       Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Újrakezdés')]    2s
       Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Újrakezdés')]
+      Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Újrakezdés')]    2s
       
        #felugró teszt megszakítása gomb kezelése
       Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    2s
       Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
-     
+      Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    2s
+    
       # Egy lecke ellenőrzése itt történik
         Egy lecke ellenőrzése 
       

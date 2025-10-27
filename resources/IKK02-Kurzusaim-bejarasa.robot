@@ -59,7 +59,17 @@ Megjelenő kurzusok bejárása
     ${course_count}=    Get Length    ${courses}
     Log String To Console    Talált kurzusok száma: ${course_count}
   
-    
+      # Ha megjelenik a kétfaktoros javaslat ablak, kattints a "Később" gombra
+    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Később')]    2s
+    Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Később')]
+    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Később')]    2s
+ 
+    #időnként duplán jelenik meg
+       # Ha megjelenik a kétfaktoros javaslat ablak, kattints a "Később" gombra
+    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Később')]    2s
+    Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Később')]
+    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Később')]    2s
+ 
     ${course_idx}=    Set Variable    1
     
     ${kurzus}=    Get Variable Value    ${KURZUS}    default_value=NONE
