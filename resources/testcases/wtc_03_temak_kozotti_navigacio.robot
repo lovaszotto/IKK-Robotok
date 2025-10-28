@@ -36,69 +36,100 @@ Témák közötti navigáció ellenőrzése
 
     ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Page Contains Element    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]   10s    
     Log String To Console    \nVárakozás eredménye: ${rc} ${msg}
- 
+      ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
     IF    '${rc}' == 'PASS'
         TRY 
            WHILE    ${is_disabled} is ${NONE}
                 #Log String To Console    Következő oldal gomb engedélyezett, lépés a következő oldalra.
                 TRY 
                 #${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
-                   Log To Console    Következő oldal gomb kattintás előtt
                     #felugró teszt megszakítása gomb kezelése
                     Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
-                    Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
+                    Run Keyword And Ignore Error    Click Button    xpath=//button[contains(., 'Teszt megszakítása')]
                     Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
             
-
-                    Wait Until Page Does Not Contain Element    css=.cdk-overlay-backdrop    5s
+                    #Wait Until Page Does Not Contain Element    css=.cdk-overlay-backdrop    5s
                     Wait Until Element Is Visible   xpath=//button[contains(@aria-label,'Következő oldalra lépés')]    1s
-                    Click Button       xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
-                   #Log To Console    Következő oldal gomb kattintás után
-                      #felugró teszt megszakítása gomb kezelése
-                    #Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
-                    #Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
-                    #Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
-                
-                    #todo egy oldal tartalmának ellenőrzése
+                    ${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
+                    Click Element      ${next_button}
+                  
+                    #Képek ellenőrzése
        
                     ${images}=    Get WebElements    xpath=//app-image-field//img
                     ${image_count}=    Get Length    ${images}
-                    Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált képek száma: ${image_count}
-                   
-                    FOR    ${img}    IN    @{images}
-                     
-                        ${alt}=    Get Element Attribute    xpath=${img}    alt
-                        Log String To Console    \nKép alt: ${alt}
+                    ${img_index}=    Set Variable    0
+      Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált képek száma: ${image_count}
+              
+                #${node}=    Get From List    ${szoveg_nodes}    ${img_index}
+                #${node_text}=    Get Text    ${node}
+                #Log to console    >>>Oldalcím: ${node_text}
+                    #Képek feldolgozása
+                    Set Variable    ${img_index}    0
+                    FOR    ${img_index}    IN RANGE   ${image_count}    
+                        TRY
+                        Log String To Console    \nKövetkező Kép: ${img_index}
+                    
+                            #FOR    ${img}    IN    @{images}
+                            ${images}=    Get WebElements    xpath=//app-image-field//img
+                            ${img_sub_count}=    Get Length    ${images}
+                            Log String To Console    Frissített képek listája lekérve:${img_sub_count}
+                            Sleep    0.2s
+                
+                            ${img}=    Get From List    ${images}    ${img_index}
+                            ${exists}=    Run Keyword And Return Status    Page Should Contain Element    ${img}
+                            Run Keyword If    ${exists}    Log To Console    "Megvan!"    ELSE    Log To Console    "Nincs ilyen elem"
+                            IF    ${exists} == False
+                                Log To Console    Nincs ilyen elem, kihagyás
+                                Continue For Loop
+                            END
+                          #${visible}=   Run Keyword And Ignore Error    Wait Until Element Is Visible   ${img}   1s
+                            ${img}=    Get From List    ${images}    ${img_index}
+                           ${visible}=     Run Keyword And Return Status    Element Should Be Visible    ${img}
+                            IF    ${visible} == False
+                                Log To Console    A kép nem látható, kihagyás
+                                Continue For Loop
+                            END
+                            Log String To Console    ${img_index}:Következő Kép: ${img_index}
 
-                        ${src}=    Get Element Attribute    ${img}    src
-                        #Log String To Console    Kép forrás: ${src}
-                         # Az ${src}-ben lecseréljük a ${BASE} rész üresre
-                         # így csak a PATHQ marad meg
-                        ${PATHQ}=    Replace String    ${src}    ${BASE}    ${EMPTY}
-                        #Log String To Console    Kép PATHQ: ${PATHQ}
+                            Log String To Console    ${img_index}:Get alt előtt
+                            ${alt}=    Get Element Attribute    ${img}    alt
+                            Log String To Console    ${img_index}:nKép alt: ${alt}
+
+                            ${src}=    Get Element Attribute    ${img}    src
+                            #Log String To Console    Kép forrás: ${src}
+                            # Az ${src}-ben lecseréljük a ${BASE} rész üresre
+                            # így csak a PATHQ marad meg
+                            ${PATHQ}=    Replace String    ${src}    ${BASE}    ${EMPTY}
+                            #Log String To Console    Kép PATHQ: ${PATHQ}
+                       
+
+                            Log To Console    CREATE SESSION előtt
+                            Create Session    ${SESSION}    ${BASE}    verify=True
+                            Log To Console    CREATE SESSION után
+
+                            ${resp}=    Get On Session    ${SESSION}    ${PATHQ}    expected_status=200
+                            Log To Console    Kép letöltés válasza státusz: ${resp.status_code}
+                            #Delete All Sessions
+                            Sleep    0.5s
+
+                            ${ctype}=   Get From Dictionary    ${resp.headers}    Content-Type
+                            Log To Console    Kép Content-Type: ${ctype}
+                            ${disp}=    Get From Dictionary    ${resp.headers}    Content-Disposition    default=None
+                            Log To Console    Kép Content-Disposition: ${disp}
+
+                            ${ext}=     Determine Extension From Content-Type    ${ctype}
+                            ${fname}=   Determine File Name From Response    ${resp}    ${DEFAULT_BASENAME}${ext}
+                            
+                            
+                            ${outfile}=     Set Variable    ${OUTPUT_DIR}/${OUT_BASENAME}${ext}
+                            Log To Console    Kép letöltés előtt: ${outfile}
+
+                            #Save Response Body To File    ${resp}    ${outfile}
+                            Log To Console    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Kép letöltve: ${fname}.${ext}\n\n
+                        EXCEPT    AS    ${e2}
+                            Log String To Console    [ERROR] Hiba a kép letöltésekor: ${e2}
+                        END
                         
-                        Log To Console    CREATE SESSION előtt
-                        Create Session    ${SESSION}    ${BASE}    verify=True
-                        Log To Console    CREATE SESSION után
-
-                        ${resp}=    Get On Session    ${SESSION}    ${PATHQ}    expected_status=200
-                        Log To Console    Kép letöltés válasza státusz: ${resp.status_code}
-
-                        ${ctype}=   Get From Dictionary    ${resp.headers}    Content-Type
-                        Log To Console    Kép Content-Type: ${ctype}
-                        ${disp}=    Get From Dictionary    ${resp.headers}    Content-Disposition    default=None
-                        Log To Console    Kép Content-Disposition: ${disp}
-
-                        ${ext}=     Determine Extension From Content-Type    ${ctype}
-                        ${fname}=   Determine File Name From Response    ${resp}    ${DEFAULT_BASENAME}${ext}
-                        
-                        
-                        #${outfile}=     Set Variable    ${OUTPUT_DIR}/${OUT_BASENAME}${ext}
-                        #Log To Console    Kép letöltés előtt: ${outfile}
-
-                        #Save Response Body To File    ${resp}    ${outfile}
-                        Log To Console    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Kép letöltve: ${fname}.${ext}\n\n
-                        Delete All Sessions
                     END
                      ${leckek_szama}=    Evaluate    ${leckek_szama} + 1
                 EXCEPT    AS    ${e1}
