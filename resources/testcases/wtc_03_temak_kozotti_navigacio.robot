@@ -54,15 +54,20 @@ Témák közötti navigáció ellenőrzése
                     Click Element      ${next_button}
                   
                     #Képek ellenőrzése
-       
-                    ${images}=    Get WebElements    xpath=//app-image-field//img
+                    #Wait For Elements State    //app-image-field//img    visible=True    timeout=10s
+                    ${images}=    Get WebElements    //app-image-field[contains(@style, 'display: flex')]//img
                     ${image_count}=    Get Length    ${images}
                     ${img_index}=    Set Variable    0
       Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált képek száma: ${image_count}
-              
-                #${node}=    Get From List    ${szoveg_nodes}    ${img_index}
-                #${node_text}=    Get Text    ${node}
-                #Log to console    >>>Oldalcím: ${node_text}
+                
+                
+                     ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
+
+                    ${node}=    Get From List    ${szoveg_nodes}    ${img_index}
+                    ${node_text}=    Get Text    ${node}
+                    #Log to console    >>>Oldalcím: ${node_text}
+                    
+                
                     #Képek feldolgozása
                     Set Variable    ${img_index}    0
                     FOR    ${img_index}    IN RANGE   ${image_count}    
@@ -70,21 +75,25 @@ Témák közötti navigáció ellenőrzése
                         Log String To Console    \nKövetkező Kép: ${img_index}
                     
                             #FOR    ${img}    IN    @{images}
-                            ${images}=    Get WebElements    xpath=//app-image-field//img
+                            ${images}=    Get WebElements    //app-image-field[contains(@style, 'display: flex')]//img
+                            Sleep    0.1s
                             ${img_sub_count}=    Get Length    ${images}
                             Log String To Console    Frissített képek listája lekérve:${img_sub_count}
-                            Sleep    0.2s
+                            #Sleep    0.2s
                 
-                            ${img}=    Get From List    ${images}    ${img_index}
+                            #${img}=    Get From List    ${images}    ${img_index}
+                            ${img}=    Get WebElement   (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]//img
+
+
                             ${exists}=    Run Keyword And Return Status    Page Should Contain Element    ${img}
-                            Run Keyword If    ${exists}    Log To Console    "Megvan!"    ELSE    Log To Console    "Nincs ilyen elem"
+                            #Run Keyword If    ${exists}    Log To Console    "Megvan!"    ELSE    Log To Console    "Nincs ilyen elem"
                             IF    ${exists} == False
                                 Log To Console    Nincs ilyen elem, kihagyás
                                 Continue For Loop
                             END
-                          #${visible}=   Run Keyword And Ignore Error    Wait Until Element Is Visible   ${img}   1s
-                            ${img}=    Get From List    ${images}    ${img_index}
-                           ${visible}=     Run Keyword And Return Status    Element Should Be Visible    ${img}
+                            #${visible}=   Run Keyword And Ignore Error    Wait Until Element Is Visible   ${img}   1s
+                            #${img}=    Get From List    ${images}    ${img_index}
+                            ${visible}=     Run Keyword And Return Status    Element Should Be Visible    ${img}
                             IF    ${visible} == False
                                 Log To Console    A kép nem látható, kihagyás
                                 Continue For Loop
@@ -96,21 +105,32 @@ Témák közötti navigáció ellenőrzése
                             Log String To Console    ${img_index}:nKép alt: ${alt}
 
                             ${src}=    Get Element Attribute    ${img}    src
-                            #Log String To Console    Kép forrás: ${src}
+                            # Log String To Console    Kép forrás: ${src}
+                          
+                            ${src2}=    Get Element Attribute    ${img}    data-src
+                            #Log String To Console    LAZY Kép forrás: ${src2}
+
+
                             # Az ${src}-ben lecseréljük a ${BASE} rész üresre
                             # így csak a PATHQ marad meg
                             ${PATHQ}=    Replace String    ${src}    ${BASE}    ${EMPTY}
                             #Log String To Console    Kép PATHQ: ${PATHQ}
                        
 
-                            Log To Console    CREATE SESSION előtt
-                            Create Session    ${SESSION}    ${BASE}    verify=True
-                            Log To Console    CREATE SESSION után
+                            #Log To Console    CREATE SESSION előtt
+                            #Create Session    ${SESSION}    ${BASE}    verify=True
+                            #Log To Console    CREATE SESSION után
 
-                            ${resp}=    Get On Session    ${SESSION}    ${PATHQ}    expected_status=200
-                            Log To Console    Kép letöltés válasza státusz: ${resp.status_code}
+                            #${resp}=    Get On Session    ${SESSION}    ${PATHQ}    expected_status=200
+                            #Log To Console    Kép letöltés válasza státusz: ${resp.status_code}
                             #Delete All Sessions
-                            Sleep    0.5s
+                            #Sleep    0.5s
+
+                            Create Session    blob    ${BASE}
+                            ${resp}=    Get On Session    blob    ${src}
+                            Delete All Sessions
+                         Log To Console    Kép letöltés válasza státusz: ${resp.status_code}
+
 
                             ${ctype}=   Get From Dictionary    ${resp.headers}    Content-Type
                             Log To Console    Kép Content-Type: ${ctype}
@@ -122,10 +142,11 @@ Témák közötti navigáció ellenőrzése
                             
                             
                             ${outfile}=     Set Variable    ${OUTPUT_DIR}/${OUT_BASENAME}${ext}
-                            Log To Console    Kép letöltés előtt: ${outfile}
+                            #Log To Console    Kép letöltés előtt: ${outfile}
 
                             #Save Response Body To File    ${resp}    ${outfile}
                             Log To Console    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Kép letöltve: ${fname}.${ext}\n\n
+                           
                         EXCEPT    AS    ${e2}
                             Log String To Console    [ERROR] Hiba a kép letöltésekor: ${e2}
                         END
