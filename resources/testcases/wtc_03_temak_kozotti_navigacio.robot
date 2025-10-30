@@ -20,11 +20,13 @@ Témák közötti navigáció ellenőrzése
     [Documentation]    Témák közötti navigáció ellenőrzése
     Log String To Console    \n[wtc_03_temak_kozotti_navigacio] Témák közötti navigáció ellenőrzése
     ${testCase_row}=    Set Variable    5
+  
+
    ${err_msg}=    Set Variable    ${EMPTY}
    ${errors}=    Create List
     ${CR}=    Set Variable    ;
      ${next_button}=    Set Variable    ${EMPTY}
-   ${is_disabled}=    Set Variable    None
+    ${is_disabled}=    Set Variable    None
      ${leckek_szama}=    Set Variable    0
 
     #felugró teszt megszakítása gomb kezelése
@@ -36,55 +38,59 @@ Témák közötti navigáció ellenőrzése
 
     ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Page Contains Element    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]   10s    
     Log String To Console    \nVárakozás eredménye: ${rc} ${msg}
-      ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
+     # ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
     IF    '${rc}' == 'PASS'
         TRY 
            WHILE    ${is_disabled} is ${NONE}
-                #Log String To Console    Következő oldal gomb engedélyezett, lépés a következő oldalra.
+                Log String To Console    Következő oldal gomb engedélyezett, lépés a következő oldalra.
                 TRY 
-                #${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
+                    #${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                     #felugró teszt megszakítása gomb kezelése
                     Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
                     Run Keyword And Ignore Error    Click Button    xpath=//button[contains(., 'Teszt megszakítása')]
                     Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
             
                     #Wait Until Page Does Not Contain Element    css=.cdk-overlay-backdrop    5s
-                    Wait Until Element Is Visible   xpath=//button[contains(@aria-label,'Következő oldalra lépés')]    1s
-                    ${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
-                    Click Element      ${next_button}
+                    #Wait Until Element Is Visible   xpath=//button[contains(@aria-label,'Következő oldalra lépés')]    1s
+                    ${next_button}=    Set Variable    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
+                    #Click Element      ${next_button}
+                    Click Element     xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
+                    Log To Console    Következő oldal gombra kattintva.
+                    Wait Until Element Is Visible    xpath=//app-image-field[contains(@style, 'display: flex')]//img    10s
                   
-                    #Képek ellenőrzése
+                     #${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
+
+                    #${node}=    Get From List    ${szoveg_nodes}    ${img_index}
+                    #${node_text}=    Get Text    ${node}
+                    #Log to console    >>>Oldalcím: ${node_text}
+                    
+                    Wait Until Element Is Visible    xpath=//app-container-field/app-formatted-text-field[1]   1s
+                    Log To Console    Oldalcím elemek láthatóak, váraskozás OK
+                    #${title1}=    Get WebElement    xpath=//app-container-field/app-formatted-text-field[1]
+                    #${title1_text}=    Get Text    ${title1}
+
+                    #${title2}=    Get WebElement    xpath=//app-container-field/app-formatted-text-field[2]
+                    #${title2_text}=    Get Text    ${title2}
+                    #Log To Console    >>>Oldalcím 1: ${title1_text}
+                    #Log To Console    >>>Oldalcím 2: ${title2_text}
+              
+              #Képek ellenőrzése
                     #Wait For Elements State    //app-image-field//img    visible=True    timeout=10s
                     ${images}=    Get WebElements    //app-image-field[contains(@style, 'display: flex')]//img
                     ${image_count}=    Get Length    ${images}
                     ${img_index}=    Set Variable    0
       Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált képek száma: ${image_count}
                 
-                
-                     ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
-
-                    ${node}=    Get From List    ${szoveg_nodes}    ${img_index}
-                    ${node_text}=    Get Text    ${node}
-                    #Log to console    >>>Oldalcím: ${node_text}
-                    
-                
+      
                     #Képek feldolgozása
                     Set Variable    ${img_index}    0
                     FOR    ${img_index}    IN RANGE   ${image_count}    
                         TRY
+                      
+
                         Log String To Console    \nKövetkező Kép: ${img_index}
                     
-                            #FOR    ${img}    IN    @{images}
-                            ${images}=    Get WebElements    //app-image-field[contains(@style, 'display: flex')]//img
-                            Sleep    0.1s
-                            ${img_sub_count}=    Get Length    ${images}
-                            Log String To Console    Frissített képek listája lekérve:${img_sub_count}
-                            #Sleep    0.2s
-                
-                            #${img}=    Get From List    ${images}    ${img_index}
                             ${img}=    Get WebElement   (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]//img
-
-
                             ${exists}=    Run Keyword And Return Status    Page Should Contain Element    ${img}
                             #Run Keyword If    ${exists}    Log To Console    "Megvan!"    ELSE    Log To Console    "Nincs ilyen elem"
                             IF    ${exists} == False
@@ -100,37 +106,43 @@ Témák közötti navigáció ellenőrzése
                             END
                             Log String To Console    ${img_index}:Következő Kép: ${img_index}
 
-                            Log String To Console    ${img_index}:Get alt előtt
-                            ${alt}=    Get Element Attribute    ${img}    alt
+
+                            #${alt}=    Get Element Attribute    ${img}    alt
+                           
+                            ${alt}=    Get Element Attribute    (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]//img   alt
                             Log String To Console    ${img_index}:nKép alt: ${alt}
+                            
+                          #Menü sor lekérése
+                            Wait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    10s
+                            ${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name}=   Get Highlighted And Parent Titles By Text
+                            
+                            #${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name} =    Get Highlighted And Parent Titles (Levels 1-3)
 
-                            ${src}=    Get Element Attribute    ${img}    src
+                            #Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level1_name}/${level2_name}/${level3_name}
+                            IF    $level3_name == $highlighted_name
+                                 Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level2_name}
+                            ELSE
+                                 Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level2_name}/${level3_name}
+                            END
+                            
+                            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    4    ${highlighted_name}
+
+                            #Alt felírása media katalógusba
+                            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    5    ${alt}
+                        
+                            #${src}=    Get Element Attribute    ${img}    src
+                            ${src}=    Get Element Attribute   (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]//img    src
                             # Log String To Console    Kép forrás: ${src}
-                          
-                            ${src2}=    Get Element Attribute    ${img}    data-src
-                            #Log String To Console    LAZY Kép forrás: ${src2}
-
-
                             # Az ${src}-ben lecseréljük a ${BASE} rész üresre
                             # így csak a PATHQ marad meg
                             ${PATHQ}=    Replace String    ${src}    ${BASE}    ${EMPTY}
                             #Log String To Console    Kép PATHQ: ${PATHQ}
-                       
-
-                            #Log To Console    CREATE SESSION előtt
-                            #Create Session    ${SESSION}    ${BASE}    verify=True
-                            #Log To Console    CREATE SESSION után
-
-                            #${resp}=    Get On Session    ${SESSION}    ${PATHQ}    expected_status=200
-                            #Log To Console    Kép letöltés válasza státusz: ${resp.status_code}
-                            #Delete All Sessions
-                            #Sleep    0.5s
-
+                 
                             Create Session    blob    ${BASE}
                             ${resp}=    Get On Session    blob    ${src}
+                            Sleep    0.5s
                             Delete All Sessions
-                         Log To Console    Kép letöltés válasza státusz: ${resp.status_code}
-
+                        #Log To Console    Kép letöltés válasza státusz: ${resp.status_code}
 
                             ${ctype}=   Get From Dictionary    ${resp.headers}    Content-Type
                             Log To Console    Kép Content-Type: ${ctype}
@@ -139,9 +151,17 @@ Témák közötti navigáció ellenőrzése
 
                             ${ext}=     Determine Extension From Content-Type    ${ctype}
                             ${fname}=   Determine File Name From Response    ${resp}    ${DEFAULT_BASENAME}${ext}
+                            ${fname}=     Get File Name From Header    ${fname}
                             
+                            #Media tipus felírása media katalógusba
+                            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    2    ${ctype}
+                            #Fájl név felírása media katalógusba
+                            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    1    ${fname}
                             
-                            ${outfile}=     Set Variable    ${OUTPUT_DIR}/${OUT_BASENAME}${ext}
+                            #Media sheet-en sor növelése
+                            ${MEDIA_ROW_INDEX} =    Evaluate    ${MEDIA_ROW_INDEX} + 1
+
+                            #${outfile}=     Set Variable    ${OUTPUT_DIR}/${OUT_BASENAME}${ext}
                             #Log To Console    Kép letöltés előtt: ${outfile}
 
                             #Save Response Body To File    ${resp}    ${outfile}
@@ -202,7 +222,91 @@ Témák közötti navigáció ellenőrzése
    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Újrakezdés')]    1s
     Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Újrakezdés')]
    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Újrakezdés')]    1s
+*** Settings ***
+Library    SeleniumLibrary
 
+*** Keywords ***
+Get Parent Title By Highlighted Text
+    [Arguments]    ${level}    ${hl_text_raw}
+    # 1) pontos egyezés
+    #${xpath_exact}=    Set Variable
+    #...    (//span[contains(@class,'node-title') and normalize-space(.)='${hl_text_raw}']
+    #...     /ancestor::*[@aria-level='${level}'][1]//span[contains(@class,'node-title')])[1]
+
+    ${xpath_exact}=    Set Variable    (//span[contains(@class,'node-title') and contains(normalize-space(.),'${hl_text_raw}')]/ancestor::*[@aria-level='${level}'][1]//span[contains(@class,'node-title')])[1]
+    #Log String To Console    \nXPath exact: ${xpath_exact}
+    ${status}=    Run Keyword And Return Status    Page Should Contain Element    xpath=${xpath_exact}
+    IF    ${status}
+        ${txt}=    Get Text    xpath=${xpath_exact}
+        RETURN   ${txt}
+    END
+    # 2) fallback: contains
+    #${xpath_contains}=    Set Variable
+    #...    (//span[contains(@class,'node-title') and contains(normalize-space(.), '${hl_text_raw}')]
+    #...     /ancestor::*[@aria-level='${level}'][1]//span[contains(@class,'node-title')])[1]
+    #...    
+
+    ${xpath_contains}=    Set Variable    //*[contains(@class,'highlighted-node')][@aria-level]/preceding::*[@aria-level='${level}'][1]
+
+    ${status2}=    Run Keyword And Return Status    Page Should Contain Element    xpath=${xpath_contains}
+    IF    ${status2}
+        ${txt}=    Get Text    xpath=${xpath_contains}
+        RETURN   ${txt}
+    END
+    RETURN   N/A
+
+Sanitize Title
+    [Arguments]    ${text}
+    ${text}=    Convert To String    ${text}
+    ${text}=    Replace String    ${text}    \nBlokk    ${EMPTY}
+    ${text}=    Replace String    ${text}    \nOldal    ${EMPTY}
+    ${text}=    Strip String     ${text}
+    RETURN    ${text}
+
+Get Highlighted And Parent Titles By Text
+    # 1) highlighted RAW szöveg – ezzel keresünk vissza
+    ${hl_text_raw}=    Get Text    xpath=(//div[contains(@class,'highlighted-node')])[1]//span[contains(@class,'node-title')]
+    ${hl_text_raw}=    Strip String    ${hl_text_raw}
+    ${hl_text_raw}=    Sanitize Title    ${hl_text_raw}
+    ${highlighted_name}=    Sanitize Title    ${hl_text_raw}
+    
+    Log To Console    RAW highlighted: ${hl_text_raw}
+
+    # 2) parent címek RAW (először exact, aztán contains)
+    #${level4_raw}=    Get Parent Title By Highlighted Text    4    ${hl_text_raw}
+    #${level4_name}=         Sanitize Title    ${level4_raw}
+
+    ${level3_raw}=    Get Parent Title By Highlighted Text    3    ${hl_text_raw}
+    ${level3_name}=         Sanitize Title    ${level3_raw}
+
+    ${level2_raw}=    Get Parent Title By Highlighted Text    2    ${level3_name}
+    ${level2_name}=         Sanitize Title    ${level2_raw}
+
+    ${level1_raw}=    Get Parent Title By Highlighted Text    1    ${level2_name}
+    ${level1_name}=         Sanitize Title    ${level1_raw}
+
+
+    Log To Console    \n--- EREDMÉNY ---\nHighlighted: ${highlighted_name}\nL1: ${level1_name}\nL2: ${level2_name}\nL3: ${level3_name} 
+
+
+    RETURN    ${highlighted_name}    ${level1_name}    ${level2_name}    ${level3_name}    
+ 
+
+Get File Name From Header
+    [Arguments]    ${header}
+    # Elsőként megpróbáljuk a filename* (UTF-8) verziót
+    ${has_utf8}=    Evaluate    "'filename*=' in '''${header}'''"
+    IF    ${has_utf8}
+        ${fname}=    Fetch From Right    ${header}    filename*=
+        ${fname}=    Replace String    ${fname}    utf-8''    ${EMPTY}
+    ELSE
+        ${fname}=    Fetch From Right    ${header}    filename=
+    END
+    ${fname}=    Replace String    ${fname}    "    ${EMPTY}
+    ${fname}=    Replace String    ${fname}    '    ${EMPTY}
+    ${fname}=    Replace String    ${fname}    utf-8    ${EMPTY}
+    ${fname}=    Strip String    ${fname}
+    RETURN   ${fname}
 
 
 Determine Extension From Content-Type

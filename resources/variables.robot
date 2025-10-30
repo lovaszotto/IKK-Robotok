@@ -19,8 +19,17 @@ ${CONFIG_EXCEL_PREFIX}  duplikacio_eredmenyek
 #Excel fájlok nevei
 ${KEZIRAT_EXCEL_FILE}    ${EMPTY}
 ${DIGITALIS_EXCEL_FILE}    ${EMPTY}
+${DIGITALIS_EXCEL_SHEET}    ${EMPTY}
+${DIGITALIS_EXCEL_SHEET_MK}    ${EMPTY}
+
 
 ${CR}=    Set Variable    ;
+
+#Media katalógus változói
+${MEDIA_ROW_INDEX}            5
+
+
+
 
 
 # Dinamikus adatbázis elérési út betöltése a Python configból

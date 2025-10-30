@@ -50,6 +50,9 @@ Batch inicializálás
     [Documentation]    Minden talált DOCX dokumentum feldolgozása formálellenőrzéssel
     @{docx_files}=    Set Variable    ${BATCH_DOCX_FILES}
     ${file_count}=    Get Length    ${docx_files}
+      #selenium-screenshot törlése selenium-screenshot*.png fájlok törlése
+    ${SELENIUM_SCREENSHOT_FILE}=    Set Variable    selenium-screenshot*.png
+    Run Keyword And Ignore Error    Remove File    ${SELENIUM_SCREENSHOT_FILE}
     
     Log String To Console    \n=== ÖSSZES DOCX FELDOLGOZÁSA ===
     Log String To Console    Talált fájlok száma: ${file_count}

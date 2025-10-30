@@ -1056,7 +1056,7 @@ Create_K_ell_Excel
     [Documentation]    DOCX fájl feldolgozás - Excel fájl és sheet meghatározása
     [Arguments]    ${docx_file}
     
-    Log String To Console    \n=== DOCX FÁJL ÚTVONAL FELDOLGOZÁSA ===
+    Log String To Console    \n=== EXCEL FÁJLOK LÉTREHOZÁSA / ELLENŐRZÉSE ===
     Log String To Console    Kapott paraméter: ${docx_file}
     
     # Path és filename szétválasztása
@@ -1154,6 +1154,17 @@ Create_K_ell_Excel
 
     Log String To Console    Aktuális WEB-${web_activeExcelFile} - ExcelFile}
      ${web_activeSheetName}=    Set Variable    ${child_path}
+    Set Global Variable    ${DIGITALIS_EXCEL_SHEET}    ${web_activeSheetName}
+
+     ${web_activeMK_SheetName}=    Set Variable    ${child_path}-MK
+     Set Global Variable    ${DIGITALIS_EXCEL_SHEET_MK}    ${web_activeMK_SheetName}
+ 
+    Log String To Console     \n\[INFO] Beállított globális változók a WEB Excel fájlhoz és sheet-ekhez:
+    Log String To Console     \[INFO] DIGITALIS_EXCEL_FILE: ${DIGITALIS_EXCEL_FILE}
+    Log String To Console     \[INFO] DIGITALIS_EXCEL_SHEET: ${DIGITALIS_EXCEL_SHEET}
+    Log String To Console     \[INFO] DIGITALIS_EXCEL_SHEET_MK: ${DIGITALIS_EXCEL_SHEET_MK}
+     
+     
       # Sablon fájl másolása
     ${template_path}=    Set Variable    ${CURDIR}/../sablonok/K ell sablon_sulyszam_minbizt_2024_12_v_1_0.xlsx
     ${web_template_path}=    Set Variable    ${CURDIR}/../sablonok/EM-X.Y.Z-Formaiell.xlsx
@@ -1186,6 +1197,7 @@ Create_K_ell_Excel
             Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK    ${web_activeSheetName}-MK
             Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK
             Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z-MK' -> '${web_activeSheetName}-MK'
+
 
         END
     ELSE
