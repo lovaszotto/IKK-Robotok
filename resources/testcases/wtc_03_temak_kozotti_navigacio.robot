@@ -144,8 +144,12 @@ Témák közötti navigáció ellenőrzése
                             Delete All Sessions
                         #Log To Console    Kép letöltés válasza státusz: ${resp.status_code}
 
+                         # kiterjesztések ellenőrzése
                             ${ctype}=   Get From Dictionary    ${resp.headers}    Content-Type
                             Log To Console    Kép Content-Type: ${ctype}
+                            ${type}    ${category}=    Get Media Type And Category    .mp4
+                            Log To Console    Típus: ${type}, Kategória: ${category}
+
                             ${disp}=    Get From Dictionary    ${resp.headers}    Content-Disposition    default=None
                             Log To Console    Kép Content-Disposition: ${disp}
 
@@ -219,11 +223,12 @@ Témák közötti navigáció ellenőrzése
    
     #oldalszám visszaírása
     Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     Alapadatok     3    5    ${leckek_szama}
+    Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}      1    7    ${leckek_szama}
+
    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Újrakezdés')]    1s
     Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Újrakezdés')]
    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Újrakezdés')]    1s
-*** Settings ***
-Library    SeleniumLibrary
+
 
 *** Keywords ***
 Get Parent Title By Highlighted Text
@@ -306,6 +311,7 @@ Get File Name From Header
     ${fname}=    Replace String    ${fname}    '    ${EMPTY}
     ${fname}=    Replace String    ${fname}    utf-8    ${EMPTY}
     ${fname}=    Strip String    ${fname}
+    # kiterjesztések ellenőrzése
     RETURN   ${fname}
 
 
@@ -353,3 +359,39 @@ Determine File Name From Response
             ${fname}=    Set Variable    ${default_name}
         END
         RETURN   ${fname}
+
+
+*** Keywords ***
+Get Media Type And Category
+    [Arguments]    ${extension}
+    ${extension}=    Convert To Lowercase    ${extension}
+
+    # Szótár a kiterjesztésekhez
+    &{media_map}=    Create Dictionary
+    ...    .jpg=Statikus | Kép (raszteres)
+    ...    .jpeg=Statikus | Kép (raszteres)
+    ...    .png=Statikus | Kép (raszteres)
+    ...    .bmp=Statikus | Kép (raszteres)
+    ...    .tiff=Statikus | Kép (raszteres)
+    ...    .svg=Statikus | Kép (vektoros)
+    ...    .mp3=Statikus | Hang
+    ...    .wav=Statikus | Hang
+    ...    .flac=Statikus | Hang
+    ...    .ogg=Statikus | Hang
+    ...    .aac=Statikus | Hang
+    ...    .gif=Statikus vagy dinamikus | Kép (raszteres) vagy animáció
+    ...    .webp=Statikus vagy dinamikus | Kép (raszteres) vagy animáció
+    ...    .mp4=Dinamikus | Videó
+    ...    .avi=Dinamikus | Videó
+    ...    .mov=Dinamikus | Videó
+    ...    .wmv=Dinamikus | Videó
+    ...    .mkv=Dinamikus | Videó
+    ...    .webm=Dinamikus | Videó vagy animáció
+    ...    .swf=Dinamikus | Animáció
+
+    ${entry}=    Get From Dictionary    ${media_map}    ${extension}    default=Ismeretlen | Ismeretlen
+
+    ${type}=         Set Variable    ${entry.split(" | ")[0]}
+    ${category}=     Set Variable    ${entry.split(" | ")[1]}
+
+    RETURN  ${type}    ${category}
