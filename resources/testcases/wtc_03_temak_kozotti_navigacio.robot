@@ -147,18 +147,28 @@ Témák közötti navigáció ellenőrzése
                          # kiterjesztések ellenőrzése
                             ${ctype}=   Get From Dictionary    ${resp.headers}    Content-Type
                             Log To Console    Kép Content-Type: ${ctype}
-                            ${type}    ${category}=    Get Media Type And Category    .mp4
-                            Log To Console    Típus: ${type}, Kategória: ${category}
+
+                            ${type}    ${category}=   Get Media Type And Category From Mime    ${ctype}
+                            Log To Console    ------------------------------------------------------------- Típus: ${type}, Kategória: ${category}
+                            IF    $type == "Statikus"
+                                Set Global Variable    ${MEDIA_HAS_PICTURE}    ${True}
+                            ELSE
+                              Set Global Variable    ${MEDIA_HAS_OTHER_TYPE}    ${True}
+                            END
+                            
+
 
                             ${disp}=    Get From Dictionary    ${resp.headers}    Content-Disposition    default=None
                             Log To Console    Kép Content-Disposition: ${disp}
 
                             ${ext}=     Determine Extension From Content-Type    ${ctype}
+
                             ${fname}=   Determine File Name From Response    ${resp}    ${DEFAULT_BASENAME}${ext}
                             ${fname}=     Get File Name From Header    ${fname}
                             
                             #Media tipus felírása media katalógusba
-                            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    2    ${ctype}
+                            #Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    2    ${ctype}
+                            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    2    ${type}/ ${category}
                             #Fájl név felírása media katalógusba
                             Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    1    ${fname}
                             
@@ -362,36 +372,35 @@ Determine File Name From Response
 
 
 *** Keywords ***
-Get Media Type And Category
-    [Arguments]    ${extension}
-    ${extension}=    Convert To Lowercase    ${extension}
+Get Media Type And Category From Mime
+    [Arguments]    ${mime}
+    ${mime}=    Convert To Lowercase    ${mime}
 
-    # Szótár a kiterjesztésekhez
-    &{media_map}=    Create Dictionary
-    ...    .jpg=Statikus | Kép (raszteres)
-    ...    .jpeg=Statikus | Kép (raszteres)
-    ...    .png=Statikus | Kép (raszteres)
-    ...    .bmp=Statikus | Kép (raszteres)
-    ...    .tiff=Statikus | Kép (raszteres)
-    ...    .svg=Statikus | Kép (vektoros)
-    ...    .mp3=Statikus | Hang
-    ...    .wav=Statikus | Hang
-    ...    .flac=Statikus | Hang
-    ...    .ogg=Statikus | Hang
-    ...    .aac=Statikus | Hang
-    ...    .gif=Statikus vagy dinamikus | Kép (raszteres) vagy animáció
-    ...    .webp=Statikus vagy dinamikus | Kép (raszteres) vagy animáció
-    ...    .mp4=Dinamikus | Videó
-    ...    .avi=Dinamikus | Videó
-    ...    .mov=Dinamikus | Videó
-    ...    .wmv=Dinamikus | Videó
-    ...    .mkv=Dinamikus | Videó
-    ...    .webm=Dinamikus | Videó vagy animáció
-    ...    .swf=Dinamikus | Animáció
+    &{mime_map}=    Create Dictionary
+    ...    image/jpeg=Statikus | Kép (raszteres)
+    ...    image/jpg=Statikus | Kép (raszteres)
+    ...    image/png=Statikus | Kép (raszteres)
+    ...    image/bmp=Statikus | Kép (raszteres)
+    ...    image/tiff=Statikus | Kép (raszteres)
+    ...    image/svg+xml=Statikus | Kép (vektoros)
+    ...    audio/mpeg=Statikus | Hang
+    ...    audio/wav=Statikus | Hang
+    ...    audio/flac=Statikus | Hang
+    ...    audio/ogg=Statikus | Hang
+    ...    audio/aac=Statikus | Hang
+    ...    image/gif=Statikus vagy dinamikus | Kép (raszteres) vagy animáció
+    ...    image/webp=Statikus vagy dinamikus | Kép (raszteres) vagy animáció
+    ...    video/mp4=Dinamikus | Videó
+    ...    video/x-msvideo=Dinamikus | Videó
+    ...    video/quicktime=Dinamikus | Videó
+    ...    video/x-ms-wmv=Dinamikus | Videó
+    ...    video/x-matroska=Dinamikus | Videó
+    ...    video/webm=Dinamikus | Videó vagy animáció
+    ...    application/x-shockwave-flash=Dinamikus | Animáció
 
-    ${entry}=    Get From Dictionary    ${media_map}    ${extension}    default=Ismeretlen | Ismeretlen
+    ${entry}=    Get From Dictionary    ${mime_map}    ${mime}    default=Ismeretlen | Ismeretlen
 
     ${type}=         Set Variable    ${entry.split(" | ")[0]}
     ${category}=     Set Variable    ${entry.split(" | ")[1]}
 
-    RETURN  ${type}    ${category}
+    RETURN    ${type}    ${category}

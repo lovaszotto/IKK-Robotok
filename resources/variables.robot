@@ -28,6 +28,9 @@ ${CR}=    Set Variable    ;
 #Media katalógus változói
 ${MEDIA_ROW_INDEX}            5
 
+# Van kép és más típusú média
+${MEDIA_HAS_PICTURE}          ${False}
+${MEDIA_HAS_OTHER_TYPE}          ${False}
 
 
 
