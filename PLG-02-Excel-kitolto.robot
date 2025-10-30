@@ -8,7 +8,8 @@ Resource          resources/variables.robot
 Fill Excel Cell
     [Documentation]    Excel fájl megnyitása, cella kitöltése és mentése
     [Arguments]    ${excel_file_name}    ${sheet_name}    ${row}    ${col}    ${value}
-    
+   #otto was here
+   #RETURN
     #Log    === EXCEL CELLA KITÖLTÉS KEZDÉSE ===    console=yes
     #Log    Excel fájl: ${excel_file_name}    console=yes
     #Log    Sheet név: ${sheet_name}    console=yes
