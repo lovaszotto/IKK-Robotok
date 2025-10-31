@@ -5,7 +5,10 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Impresszum megfelelőség ellenőrzése
     [Documentation]    Impresszum megfelelőség ellenőrzése
-    Log String To Console    \n[wtc_02_impresszum_megfelelo] Impresszum megfelelőség ellenőrzése
+    Log String To Console    \n**************************************************************************
+    Log String To Console    * wtc_02-Impresszum megfelelőség ellenőrzése
+    Log String To Console    **************************************************************************\n
+ 
     ${testCase_row}=    Set Variable    4
    ${err_msg}=    Set Variable    ${EMPTY}
    ${errors}=    Create List
@@ -69,8 +72,11 @@ Impresszum megfelelőség ellenőrzése
         Log String To Console    Dokumentum szerző neve: ${dokumentum_szerzo}
         
         IF    $dokumentum_szerzo != $szerzo
-            ${new_err}=    Set Variable     A dokumentum szerzője nem egyezik meg a várt értékkel. Kézirat: '${dokumentum_szerzo}', DT: '${szerzo}'
+            ${new_err}=    Set Variable     A dokumentum szerzője nem egyezik meg a várt értékkel. Kézirat: ${dokumentum_szerzo} DT: ${szerzo}
             Append To List    ${errors}    ${new_err}
+            Log String To Console    A dokumentum szerzője nem egyezik meg a várt értékkel. Kézirat: ${dokumentum_szerzo} DT: ${szerzo}
+        ELSE
+              Log String To Console    A dokumentum szerzője rendben.  DT: '${szerzo}'
         END
     ELSE
         ${new_err}=    Set Variable     Szerző mező nem található meg az impresszumban!
@@ -87,31 +93,39 @@ Impresszum megfelelőség ellenőrzése
         ${szakmai_lektor}=    Strip String    ${szakmai_lektor}
         ${szakmai_lektor}=   Convert To UpperCASE    ${szakmai_lektor}    
         ${szakmai_lektor_list}=    Split String    ${szakmai_lektor}    ,
+      Log String To Console    WEB szakmai közreműködők: ${szakmai_lektor_list}
+
         ${dokumentum_szakmai_lektor} =    Get Variable Value    ${DOKUMENTUM_SZAKMAI_LEKTOR}    ${EMPTY}
-        Log String To Console    \Dokumentum szakmai közreműködők: ${dokumentum_szakmai_lektor}
-        Log String To Console    \WEB szakmai közreműködők: ${szakmai_lektor}
-        FOR    ${act_lektor}    IN    @{szakmai_lektor_list}
+        ${dokumentum_szakmai_lektor}=    Strip String    ${dokumentum_szakmai_lektor}
+        ${dokumentum_szakmai_lektor}=   Convert To UpperCASE    ${dokumentum_szakmai_lektor}    
+        ${dokumentum_szakmai_lektor_list}=     Split String    ${dokumentum_szakmai_lektor}    ,
+
+        Log String To Console    Dokumentum szakmai közreműködők: ${dokumentum_szakmai_lektor_list}
+      
+
+        FOR    ${act_lektor}    IN    @{dokumentum_szakmai_lektor_list}
             ${act_lektor}=    Strip String    ${act_lektor}
-            Log String To Console    \Ellenőrzés alatt álló lektor: ${act_lektor}
-            IF    '${dokumentum_szakmai_lektor}' == '${act_lektor}'
-                Log String To Console    \Lektor megtalálva: ${act_lektor}
-                Exit For Loop
-            END
-            IF    '${act_lektor}' == '@{szakmai_lektor_list}[-1]'
-                ${new_err}=    Set Variable     A dokumentum szakmai lektor nem egyezik meg a várt értékkel. Kézirat: '${dokumentum_szakmai_lektor}', DT: '${szakmai_lektor}'
+            Log String To Console    Ellenőrzés alatt álló lektor: ${act_lektor}
+      
+              ${is_in_list}=    Run Keyword And Return Status    List Should Contain Value    ${szakmai_lektor_list}    ${act_lektor}
+
+            Log String To Console    Ellenőrzéseredménye: ${is_in_list}
+
+            IF    not ${is_in_list}
+                ${new_err}=    Set Variable    A dokumentum szakmai lektora NINCS a webes listában. Kézirat: '${act_lektor}'
                 Append To List    ${errors}    ${new_err}
             END
-            
+
         END
      ELSE
           ${new_err}=    Set Variable     További szakmai közreműködők mező nem található meg az impresszumban!
           Append To List    ${errors}    ${new_err}
      END
-
+     Log String To Console   \n>>>>> Lektorok ellenőrzése - vége
     ##############################################################################################
     #Szerző és Lektor nem azonos ellenőrzése
     ##############################################################################################
-      Log String To Console   \n>>>>> Szerző Lektorok ellenőrzése
+    Log String To Console   \n>>>>> Szerző Lektorok ellenőrzése
      ${szerzo_list}=    Split String    ${szerzo}    ,
     ${szakmai_lektor_list}=    Split String    ${szakmai_lektor}    ,
     #Log String To Console    Szerző lista: ${szerzo_list}
@@ -150,9 +164,6 @@ Impresszum megfelelőség ellenőrzése
           ${new_err}=    Set Variable     Tananyagot készítette mező nem található meg az impresszumban!
           Append To List    ${errors}    ${new_err}
      END
-    
-
-    
     
     #Végeredmény visszaírása az Excel-be
     Log String To Console   \n>>>>> Végeredmény visszaírása az Excel-be

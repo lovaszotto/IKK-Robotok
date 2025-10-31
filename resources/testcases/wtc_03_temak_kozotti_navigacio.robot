@@ -18,10 +18,11 @@ ${DEFAULT_BASENAME}    media
 *** Keywords ***
 Témák közötti navigáció ellenőrzése
     [Documentation]    Témák közötti navigáció ellenőrzése
-    Log String To Console    \n[wtc_03_temak_kozotti_navigacio] Témák közötti navigáció ellenőrzése
+     Log String To Console    \n**************************************************************************
+    Log String To Console    * wtc_03- Témák közötti navigáció ellenőrzése
+    Log String To Console    **************************************************************************\n
     ${testCase_row}=    Set Variable    5
   
-
    ${err_msg}=    Set Variable    ${EMPTY}
    ${errors}=    Create List
     ${CR}=    Set Variable    ;
@@ -35,6 +36,10 @@ Témák közötti navigáció ellenőrzése
     Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
     Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
 
+    #Ha nem futtatunk média ellenőrzést, kilépünk
+    IF    $RUN_MEDIA_CHECK == $False
+        RETURN
+    END
 
     ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Page Contains Element    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]   10s    
     Log String To Console    \nVárakozás eredménye: ${rc} ${msg}
@@ -55,31 +60,31 @@ Témák közötti navigáció ellenőrzése
                     ${next_button}=    Set Variable    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                     #Click Element      ${next_button}
                     Click Element     xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
-                    Log To Console    Következő oldal gombra kattintva.
+                    Log String To Console    Következő oldal gombra kattintva.
                     Wait Until Element Is Visible    xpath=//app-image-field[contains(@style, 'display: flex')]//img    10s
                   
                      #${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
 
                     #${node}=    Get From List    ${szoveg_nodes}    ${img_index}
                     #${node_text}=    Get Text    ${node}
-                    #Log to console    >>>Oldalcím: ${node_text}
+                    #Log String To Console    >>>Oldalcím: ${node_text}
                     
                     Wait Until Element Is Visible    xpath=//app-container-field/app-formatted-text-field[1]   1s
-                    Log To Console    Oldalcím elemek láthatóak, váraskozás OK
+                    Log String To Console    Oldalcím elemek láthatóak, váraskozás OK
                     #${title1}=    Get WebElement    xpath=//app-container-field/app-formatted-text-field[1]
                     #${title1_text}=    Get Text    ${title1}
 
                     #${title2}=    Get WebElement    xpath=//app-container-field/app-formatted-text-field[2]
                     #${title2_text}=    Get Text    ${title2}
-                    #Log To Console    >>>Oldalcím 1: ${title1_text}
-                    #Log To Console    >>>Oldalcím 2: ${title2_text}
+                    #Log String To Console    >>>Oldalcím 1: ${title1_text}
+                    #Log String To Console    >>>Oldalcím 2: ${title2_text}
               
               #Képek ellenőrzése
                     #Wait For Elements State    //app-image-field//img    visible=True    timeout=10s
                     ${images}=    Get WebElements    //app-image-field[contains(@style, 'display: flex')]//img
                     ${image_count}=    Get Length    ${images}
                     ${img_index}=    Set Variable    0
-      Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált képek száma: ${image_count}
+                  Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált képek száma: ${image_count}
                 
       
                     #Képek feldolgozása
@@ -87,25 +92,23 @@ Témák közötti navigáció ellenőrzése
                     FOR    ${img_index}    IN RANGE   ${image_count}    
                         TRY
                       
-
                         Log String To Console    \nKövetkező Kép: ${img_index}
                     
                             ${img}=    Get WebElement   (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]//img
                             ${exists}=    Run Keyword And Return Status    Page Should Contain Element    ${img}
-                            #Run Keyword If    ${exists}    Log To Console    "Megvan!"    ELSE    Log To Console    "Nincs ilyen elem"
+                            #Run Keyword If    ${exists}    Log String To Console    "Megvan!"    ELSE    Log String To Console    "Nincs ilyen elem"
                             IF    ${exists} == False
-                                Log To Console    Nincs ilyen elem, kihagyás
+                                Log String To Console    Nincs ilyen elem, kihagyás
                                 Continue For Loop
                             END
                             #${visible}=   Run Keyword And Ignore Error    Wait Until Element Is Visible   ${img}   1s
                             #${img}=    Get From List    ${images}    ${img_index}
                             ${visible}=     Run Keyword And Return Status    Element Should Be Visible    ${img}
                             IF    ${visible} == False
-                                Log To Console    A kép nem látható, kihagyás
+                                Log String To Console    A kép nem látható, kihagyás
                                 Continue For Loop
                             END
                             Log String To Console    ${img_index}:Következő Kép: ${img_index}
-
 
                             #${alt}=    Get Element Attribute    ${img}    alt
                            
@@ -142,14 +145,14 @@ Témák közötti navigáció ellenőrzése
                             ${resp}=    Get On Session    blob    ${src}
                             Sleep    0.5s
                             Delete All Sessions
-                        #Log To Console    Kép letöltés válasza státusz: ${resp.status_code}
+                        #Log String To Console    Kép letöltés válasza státusz: ${resp.status_code}
 
                          # kiterjesztések ellenőrzése
                             ${ctype}=   Get From Dictionary    ${resp.headers}    Content-Type
-                            Log To Console    Kép Content-Type: ${ctype}
+                            Log String To Console    Kép Content-Type: ${ctype}
 
                             ${type}    ${category}=   Get Media Type And Category From Mime    ${ctype}
-                            Log To Console    ------------------------------------------------------------- Típus: ${type}, Kategória: ${category}
+                            Log String To Console    ------------------------------------------------------------- Típus: ${type}, Kategória: ${category}
                             IF    $type == "Statikus"
                                 Set Global Variable    ${MEDIA_HAS_PICTURE}    ${True}
                             ELSE
@@ -159,7 +162,7 @@ Témák közötti navigáció ellenőrzése
 
 
                             ${disp}=    Get From Dictionary    ${resp.headers}    Content-Disposition    default=None
-                            Log To Console    Kép Content-Disposition: ${disp}
+                            Log String To Console    Kép Content-Disposition: ${disp}
 
                             ${ext}=     Determine Extension From Content-Type    ${ctype}
 
@@ -176,10 +179,10 @@ Témák közötti navigáció ellenőrzése
                             ${MEDIA_ROW_INDEX} =    Evaluate    ${MEDIA_ROW_INDEX} + 1
 
                             #${outfile}=     Set Variable    ${OUTPUT_DIR}/${OUT_BASENAME}${ext}
-                            #Log To Console    Kép letöltés előtt: ${outfile}
+                            #Log String To Console    Kép letöltés előtt: ${outfile}
 
                             #Save Response Body To File    ${resp}    ${outfile}
-                            Log To Console    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Kép letöltve: ${fname}.${ext}\n\n
+                            Log String To Console    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Kép letöltve: ${fname}.${ext}\n\n
                            
                         EXCEPT    AS    ${e2}
                             Log String To Console    [ERROR] Hiba a kép letöltésekor: ${e2}
@@ -206,7 +209,7 @@ Témák közötti navigáció ellenőrzése
                 #${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                 #${is_disabled}=    Get Element Attribute    ${next_button}    disabled
                  Wait Until Element Is Visible    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]     1s
-                 Log To Console   -----  Következő oldal gomb állapot lekérdezése előtt -----
+                 Log String To Console   -----  Következő oldal gomb állapot lekérdezése előtt -----
                 ${is_disabled}=    Get Element Attribute    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]    disabled
 
                 #Log String To Console    Következő oldal gomb le van tiltva vagy ismeretlen állapot: ${is_enabled}
@@ -285,7 +288,7 @@ Get Highlighted And Parent Titles By Text
     ${hl_text_raw}=    Sanitize Title    ${hl_text_raw}
     ${highlighted_name}=    Sanitize Title    ${hl_text_raw}
     
-    Log To Console    RAW highlighted: ${hl_text_raw}
+    Log String To Console    RAW highlighted: ${hl_text_raw}
 
     # 2) parent címek RAW (először exact, aztán contains)
     #${level4_raw}=    Get Parent Title By Highlighted Text    4    ${hl_text_raw}
@@ -301,7 +304,7 @@ Get Highlighted And Parent Titles By Text
     ${level1_name}=         Sanitize Title    ${level1_raw}
 
 
-    Log To Console    \n--- EREDMÉNY ---\nHighlighted: ${highlighted_name}\nL1: ${level1_name}\nL2: ${level2_name}\nL3: ${level3_name} 
+    Log String To Console    \n--- EREDMÉNY ---\nHighlighted: ${highlighted_name}\nL1: ${level1_name}\nL2: ${level2_name}\nL3: ${level3_name} 
 
 
     RETURN    ${highlighted_name}    ${level1_name}    ${level2_name}    ${level3_name}    

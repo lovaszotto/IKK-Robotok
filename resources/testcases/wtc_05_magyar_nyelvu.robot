@@ -6,8 +6,10 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 
 *** Keywords ***
 DT nyelv ellenőrzése
-    [Documentation]    Kézirat és DT összhang ellenőrzése
-    Log String To Console    \n[wtc_05_magyar_nyelvu] DT nyelv ellenőrzése
+    [Documentation]    DT nyelv ellenőrzése
+     Log String To Console    \n**************************************************************************
+    Log String To Console    * wtc_05- DT nyelv ellenőrzése
+    Log String To Console    **************************************************************************\n
     ${testCase_row}=    Set Variable    7
    ${err_msg}=    Set Variable    ${EMPTY}
    ${errors}=    Create List

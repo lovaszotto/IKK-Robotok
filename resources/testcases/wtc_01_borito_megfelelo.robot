@@ -5,7 +5,10 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Boritó megfelelőség ellenőrzése
     [Documentation]    Borító megfelelőség ellenőrzése
-    Log String To Console    \n[wtc_01_borito_megfelelo] Borító megfelelőség ellenőrzése
+    Log String To Console    \n**************************************************************************
+    Log String To Console    * wtc_01-Borító megfelelőség ellenőrzése
+    Log String To Console    **************************************************************************\n
+ 
     ${testCase_row}=    Set Variable    3
    ${err_msg}=    Set Variable    ${EMPTY}
    ${errors}=    Create List

@@ -7,7 +7,9 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Kézirat és DT összhang ellenőrzése
     [Documentation]    Kézirat és DT összhang ellenőrzése
-    Log String To Console    \n[wtc_04_kezirat_es_dt_osszhang] Kézirat és DT összhang ellenőrzése
+    Log String To Console    \n**************************************************************************
+    Log String To Console    * wtc_04-Kézirat és DT összhang ellenőrzése
+    Log String To Console    **************************************************************************\n
     ${testCase_row}=    Set Variable    6
    ${err_msg}=    Set Variable    ${EMPTY}
    ${errors}=    Create List
@@ -44,34 +46,37 @@ Kézirat és DT összhang ellenőrzése
      ${pars}=    Evaluate    [{'idx': i+1, 'text': p.text, 'style': (p.style.name if p.style else 'N/A')} for i,p in enumerate(__import__('docx').Document(r'''${docx_file}''').paragraphs)]
      FOR    ${par}    IN    @{pars}
         ${text}=    Get From Dictionary    ${par}    text
-        #${text}=    Convert To Uppercase    ${text}
+        ${text}=    Convert To Lower Case   ${text}
         ${all_text}=    Set Variable    ${all_text}\n ${text};
     END    
-
-
-
     
      #Oldal szövegek ellenőrzése
      ${found_count}=    Set Variable    0
     ${not_found_count}=    Set Variable    0
 
     Wait Until Page Contains Element  xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]  10s
-    ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
+   # ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
+
+   ${szoveg_nodes}=    Get WebElements    xpath=//*[contains(concat(' ', normalize-space(@class), ' '), ' tree-node ')]
     ${len_szoveg_nodes}=    Get Length    ${szoveg_nodes}
     Log String To Console    Oldal szöveg elemek száma: ${len_szoveg_nodes}
+
     FOR    ${index}    IN RANGE    ${len_szoveg_nodes}
         ${node}=    Get From List    ${szoveg_nodes}    ${index}
         ${node_text}=    Get Text    ${node}
          ${node_text}=    Strip String    ${node_text}
+         #kisbetűsre alakítás
+        ${node_text}=    Convert To Lower Case   ${node_text}
+        ${node_text}=    Replace String    ${node_text}    \nblokk    ${EMPTY}   
+        ${node_text}=    Replace String    ${node_text}    \noldal    ${EMPTY}   
+
          ${len_node_text}=    Get Length    ${node_text}
         IF    ${len_node_text} < 1
             #Log String To Console    \n[WARNING] Üres oldal szöveg elem kihagyva.
             Continue For Loop
         END
-        ${node_text}=    Replace String    ${node_text}    \nBlokk    ${EMPTY}   
-        ${node_text}=    Replace String    ${node_text}    \nOldal    ${EMPTY}   
 
-        #Log String To Console    \nOldal: '${node_text}'
+        Log String To Console    ${index} Oldal: ${node_text}
 
         ${found_feladat}=    Evaluate    bool(re.search('feladat', $node_text, re.IGNORECASE | re.MULTILINE))    re
         IF    ${found_feladat}    
@@ -109,18 +114,28 @@ Kézirat és DT összhang ellenőrzése
              Continue For Loop
         END
 
-
+        ${found_impresszum}=    Evaluate    bool(re.search('impresszum', $node_text, re.IGNORECASE | re.MULTILINE))    re
+        IF    ${found_impresszum}    
+            #Log String To Console    [SKIPP] '${node_text}'
+             Continue For Loop
+        END
+        ${found_tananyagzaro}=    Evaluate    bool(re.search('tananyagzáró', $node_text, re.IGNORECASE | re.MULTILINE))    re
+        IF    ${found_tananyagzaro}    
+            #Log String To Console    [SKIPP] '${node_text}'
+             Continue For Loop
+        END
+        
         #${found}=    Evaluate    '''${node_text}''' in '''${all_text}'''
         ${found}=    Evaluate    bool(re.search($node_text, $all_text, re.IGNORECASE | re.MULTILINE))    re
 
         IF    ${found}
               ${found_count}=   Evaluate    ${found_count}+1
-            Log String To Console    [___OK] ${node_text}
+            Log String To Console    \t[___OK] ${node_text}
             ${new_err}=    Set Variable    ___OK: ${node_text}
             Append To List    ${errors}    ${new_err}
         ELSE
             ${not_found_count}=   Evaluate    ${not_found_count}+1
-            Log String To Console    [NINCS] ${node_text}
+            Log String To Console    \t[NINCS] ${node_text}
             ${new_err}=    Set Variable    NINCS: ${node_text}
             Append To List    ${errors}    ${new_err}
         END
