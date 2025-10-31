@@ -15,15 +15,19 @@ Mark Test Status
         ELSE
             ${row_text}=    Set Variable    ${test_row}
         END    
-        ${error_log_file}=    Replace String    ${excel_file}    .xlsx    (${sheet_name}_${row_text}) hiba.txt    
+        ${error_log_file}=    Replace String    ${excel_file}    .xlsx    (${sheet_name}_${row_text}) hiba.txt   
+     
         #Log String To Console    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}    
         #hiba fájl írása
         ${err_msg_CR}=      Replace String    ${err_msg}    ;    \n
-        Create File    ${error_log_file}    ${err_msg_CR}
-
+         Create File    ${error_log_file}    ${err_msg_CR}    encoding=UTF-8
+        
         # Hibás X-elés: D oszlop
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    4    ${mark}
-        
+          #felirjuk egy csv.be appendel
+        ${sum_error_log_file}=      Set Variable      ${CONFIG_OUTPUT_FOLDER}\\ErrorSummary.csv
+        # Log To Console    !!!!!!!!!!!!!!!!!!!!${sum_error_log_file}  -> ${err_msg}
+          Write SumError fájl    ${excel_file}    ${sheet_name}    ${test_row}    ${err_msg}
         # Jelöld FAIL-re a tesztet, de folytasd a futást
         Run Keyword And Continue On Failure    Fail    ${err_msg}
         #Log String To Console    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}
@@ -32,6 +36,21 @@ Mark Test Status
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    3    ${mark}
           Log String To Console    Mark Test Status Passed
         END
+
+Write SumError fájl
+     [Documentation]    Hiba összesítő irása
+        [Arguments]    ${excel_file}    ${sheet_name}    ${test_row}    ${err_msg} 
+        ${sum_error_log_file}=      Set Variable      ${CONFIG_OUTPUT_FOLDER}\\ErrorSummary.csv
+        ${exists}=    Run Keyword And Return Status    File Should Exist    ${sum_error_log_file}
+        IF    $exists 
+               # Log String To Console    !!!!!!!!!!!!!!!!!!!!${sum_error_log_file}  hibasor beírás
+               Append To File    ${sum_error_log_file}    ${excel_file};${sheet_name};${test_row};${err_msg}\n    encoding=UTF-8
+
+        ELSE
+               # Log String To Console    !!!!!!!!!!!!!!!!!!!!${sum_error_log_file}  létrehozás
+               Create File    ${sum_error_log_file}    \ufeffKézirat;Azonosító;Hiba típus;Hiba;Részletek\n    encoding=UTF-8
+        END
+       
 
 Mark WebTest Status
     [Documentation]    Általános jelölő: hibánál C{row} megjegyzés, D{row} "X" és FAIL; siker esetén B{row} "X".
@@ -51,11 +70,13 @@ Mark WebTest Status
         #Log String To Console    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}    
         #hiba fájl írása
         ${err_msg_CR}=      Replace String    ${err_msg}    ;    \n
-        Create File    ${error_log_file}    ${err_msg_CR}
-
+         Create File    ${error_log_file}    ${err_msg_CR}    encoding=UTF-8
+       
         # Hibás X-elés: D oszlop
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    3    ${mark}
-        
+         #felirjuk egy csv.be appendel
+          Write SumError fájl    ${excel_file}    ${sheet_name}    ${test_row}    ${err_msg}
+ 
         # Jelöld FAIL-re a tesztet, de folytasd a futást
         Run Keyword And Continue On Failure    Fail    ${err_msg}
         #Log String To Console    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}

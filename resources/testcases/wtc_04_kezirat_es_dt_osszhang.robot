@@ -54,9 +54,10 @@ Kézirat és DT összhang ellenőrzése
      ${found_count}=    Set Variable    0
     ${not_found_count}=    Set Variable    0
 
-    Wait Until Page Contains Element  xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]  10s
+    #Wait Until Page Contains Element  xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]  10s
    # ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
 
+    Wait Until Page Contains Element  xpath=//*[contains(concat(' ', normalize-space(@class), ' '), ' tree-node ')] 10s
    ${szoveg_nodes}=    Get WebElements    xpath=//*[contains(concat(' ', normalize-space(@class), ' '), ' tree-node ')]
     ${len_szoveg_nodes}=    Get Length    ${szoveg_nodes}
     Log String To Console    Oldal szöveg elemek száma: ${len_szoveg_nodes}
@@ -124,7 +125,7 @@ Kézirat és DT összhang ellenőrzése
             #Log String To Console    [SKIPP] '${node_text}'
              Continue For Loop
         END
-        
+
         #${found}=    Evaluate    '''${node_text}''' in '''${all_text}'''
         ${found}=    Evaluate    bool(re.search($node_text, $all_text, re.IGNORECASE | re.MULTILINE))    re
 
@@ -143,8 +144,9 @@ Kézirat és DT összhang ellenőrzése
     IF    ${not_found_count} > 0
         Log String To Console    \n[ERROR] Összesen ${not_found_count} oldal nem található a dokumentumban.
         ${found_percentage}=    Evaluate    ${found_count} / (${found_count} + ${not_found_count}) * 100
-        ${new_err}=    Set Variable    Találati arány: ${found_percentage}%, Megtalált: ${found_count}, Nem megtalált: ${not_found_count}
-        Append To List    ${errors}    ${new_err}
+        ${new_err}=    Set Variable    DT-Kézirat találati arány: ${found_percentage}%, Megtalált: ${found_count}, Nem megtalált: ${not_found_count}
+        #Append To List    ${errors}    ${new_err}
+        Insert Into List    ${errors}    0    ${new_err}
         Log String To Console    \n[ERROR] ${new_err}
     ELSE
         Log String To Console    \n[INFO] Minden oldal megtalálva a dokumentumban. Összesen: ${found_count}

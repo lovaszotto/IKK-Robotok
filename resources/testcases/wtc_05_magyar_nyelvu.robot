@@ -25,8 +25,12 @@ DT nyelv ellenőrzése
      ${found_count}=    Set Variable    0
     ${not_found_count}=    Set Variable    0
 
-    Wait Until Page Contains Element  xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]  10s
-    ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
+    #Wait Until Page Contains Element  xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]  10s
+    #${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
+   
+    Wait Until Page Contains Element  xpath=//*[contains(concat(' ', normalize-space(@class), ' '), ' tree-node ')] 10s
+   ${szoveg_nodes}=    Get WebElements    xpath=//*[contains(concat(' ', normalize-space(@class), ' '), ' tree-node ')]
+
     ${len_szoveg_nodes}=    Get Length    ${szoveg_nodes}
     Log String To Console    Oldal szöveg elemek száma: ${len_szoveg_nodes}
     FOR    ${index}    IN RANGE    ${len_szoveg_nodes}
@@ -115,8 +119,9 @@ DT nyelv ellenőrzése
     IF    ${other_lang_count} > 0
         Log String To Console    \n[ERROR] Összesen ${other_lang_count} oldal nem magyar.
         ${found_percentage}=    Evaluate    ${hungarian_count} / (${hungarian_count} + ${other_lang_count}) * 100
-        ${new_err}=    Set Variable    Találati arány: ${found_percentage}%, Magyar: ${hungarian_count}, Nem magyar: ${other_lang_count}
-        Append To List    ${errors}    ${new_err}
+        ${new_err}=    Set Variable    Magyar nyelv találati arány: ${found_percentage}%, Magyar: ${hungarian_count}, Nem magyar: ${other_lang_count}
+        #Append To List    ${errors}    ${new_err}
+        Insert Into List    ${errors}    0    ${new_err}
         Log String To Console    \n[ERROR] ${new_err}
     ELSE
         Log String To Console    \n[INFO] Minden oldal magyar. Összesen: ${hungarian_count}
