@@ -35,6 +35,7 @@ Tartalmaz statikus mediaelemeket ellenőrzése
             ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
         END
         Log String To Console     [ERROR] ${new_err}
+        Append To List    ${errors}    ${new_err}
     END
 
     #Végeredmény visszaírása az Excel-be

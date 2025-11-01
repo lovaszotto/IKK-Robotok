@@ -8,6 +8,7 @@ Resource    ../resources/testcases/wtc_03_temak_kozotti_navigacio.robot
 Resource    ../resources/testcases/wtc_05_magyar_nyelvu.robot
 Resource    ../resources/testcases/wtc_10_tartalmaz_statikus_mediaelemeket.robot
 Resource    ../resources/testcases/wtc_11_tartalmaz_egyeb_mediaelemeket.robot
+Resource    ../../../../../../../response_80b97ba9-2c51-41c5-9e9f-a53a326670d3/0
 
 Library     String
 Library     BuiltIn
@@ -69,7 +70,7 @@ Egy lecke ellenőrzése
                 ${check_passed}=    Evaluate    ${check_passed} + 1
             ELSE
                 ${check_failed}=    Evaluate    ${check_failed} + 1
-                #Log String To Console    [HIBA] wtc_01_borito_megfelelo.robot: ${msg}
+                Log String To Console    [HIBA]  ${msg}
             END
             
             #wtc_02_impresszum_megfelelo.robot futtatása
@@ -79,7 +80,7 @@ Egy lecke ellenőrzése
                 ${check_passed}=    Evaluate    ${check_passed} + 1
             ELSE
                 ${check_failed}=    Evaluate    ${check_failed} + 1
-                #Log String To Console    [HIBA] wtc_02_impresszum_megfelelo.robot: ${msg}
+                 Log String To Console    [HIBA]  ${msg}
             END
 
            #wtc_03_temak_kozotti_lapozas.robot futtatása és média ellenőrzés
@@ -90,8 +91,8 @@ Egy lecke ellenőrzése
                     ${check_passed}=    Evaluate    ${check_passed} + 1
                 ELSE
                     ${check_failed}=    Evaluate    ${check_failed} + 1
-                    #Log String To Console    [HIBA] wtc_02_impresszum_megfelelo.robot: ${msg}
-                    END
+                    Log String To Console    [HIBA]  ${msg}
+                END
     
            
             #wtc_04_kezirat_es_dt_osszhang.robot futtatása
@@ -101,7 +102,7 @@ Egy lecke ellenőrzése
                 ${check_passed}=    Evaluate    ${check_passed} + 1
             ELSE
                 ${check_failed}=    Evaluate    ${check_failed} + 1
-                #Log String To Console    [HIBA] wtc_04_kezirat_es_dt_osszhang.robot: ${msg}
+                 Log String To Console    [HIBA]  ${msg}
             END
 
             #wtc_05_magyar_nyelvu.robot futtatása
@@ -111,11 +112,8 @@ Egy lecke ellenőrzése
                 ${check_passed}=    Evaluate    ${check_passed} + 1
             ELSE
                 ${check_failed}=    Evaluate    ${check_failed} + 1
-                #Log String To Console    [HIBA] wtc_04_kezirat_es_dt_osszhang.robot: ${msg}
+                Log String To Console    [HIBA]  ${msg}
             END
-
-
-
 
 
             #wtc_10_tartalmaz_statikus_mediaelemeket.robot futtatása
@@ -125,7 +123,7 @@ Egy lecke ellenőrzése
                 ${check_passed}=    Evaluate    ${check_passed} + 1
             ELSE
                 ${check_failed}=    Evaluate    ${check_failed} + 1
-                #Log String To Console    [HIBA] wtc_04_kezirat_es_dt_osszhang.robot: ${msg}
+                 Log String To Console    [HIBA]  ${msg}
             END
             
             #wtc_11_tartalmaz_egyeb_mediaelemeket.robot futtatása
@@ -135,7 +133,7 @@ Egy lecke ellenőrzése
                 ${check_passed}=    Evaluate    ${check_passed} + 1
             ELSE
                 ${check_failed}=    Evaluate    ${check_failed} + 1
-                #Log String To Console    [HIBA] wtc_04_kezirat_es_dt_osszhang.robot: ${msg}
+                Log String To Console    [HIBA]  ${msg}
             END
 
             #Kilépés a leckéből és a browesert bezárjuk

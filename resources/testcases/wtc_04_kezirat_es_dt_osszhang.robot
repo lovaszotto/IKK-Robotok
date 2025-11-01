@@ -57,7 +57,7 @@ Kézirat és DT összhang ellenőrzése
     #Wait Until Page Contains Element  xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]  10s
    # ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
 
-    Wait Until Page Contains Element  xpath=//*[contains(concat(' ', normalize-space(@class), ' '), ' tree-node ')] 10s
+    Wait Until Page Contains Element  xpath=//*[contains(concat(' ', normalize-space(@class), ' '), ' tree-node ')]     10s
    ${szoveg_nodes}=    Get WebElements    xpath=//*[contains(concat(' ', normalize-space(@class), ' '), ' tree-node ')]
     ${len_szoveg_nodes}=    Get Length    ${szoveg_nodes}
     Log String To Console    Oldal szöveg elemek száma: ${len_szoveg_nodes}
@@ -155,8 +155,7 @@ Kézirat és DT összhang ellenőrzése
     
     
     
-    Log String To Console    <<<<<< Kézirat és DT összhang ellenőrzés vége <<<<<<<<  ${is_disabled}
-    #Végeredmény visszaírása az Excel-be
+     #Végeredmény visszaírása az Excel-be
     Log String To Console   \n>>>>> Végeredmény visszaírása az Excel-be
     ${unique_errors}=    Remove Duplicates    ${errors}
     ${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique_errors}
@@ -165,6 +164,11 @@ Kézirat és DT összhang ellenőrzése
     Mark WebTest Status    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}    ${testCase_row}    ${err_msg}
    
     #változók törlése
-    Delete Variables  ${all_text}    ${pars}    ${par}    ${text}
-    
+    Delete Variable    ${all_text}
+    Delete Variable    ${pars}
+    Delete Variable    ${par}
+    Delete Variable    ${text}
+
+    Log String To Console    <<<<<< Kézirat és DT összhang ellenőrzés vége <<<<<<<<  ${is_disabled}
+  
 

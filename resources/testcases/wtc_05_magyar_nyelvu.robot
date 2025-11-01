@@ -28,9 +28,10 @@ DT nyelv ellenőrzése
     #Wait Until Page Contains Element  xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]  10s
     #${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
    
-    Wait Until Page Contains Element  xpath=//*[contains(concat(' ', normalize-space(@class), ' '), ' tree-node ')] 10s
+    Wait Until Page Contains Element  xpath=//*[contains(concat(' ', normalize-space(@class), ' '), ' tree-node ')]     10s
+    #Log String To Console    Oldal szöveg elemek lekérése...
    ${szoveg_nodes}=    Get WebElements    xpath=//*[contains(concat(' ', normalize-space(@class), ' '), ' tree-node ')]
-
+   #Log String To Console    Oldal szöveg elemek lekérve.
     ${len_szoveg_nodes}=    Get Length    ${szoveg_nodes}
     Log String To Console    Oldal szöveg elemek száma: ${len_szoveg_nodes}
     FOR    ${index}    IN RANGE    ${len_szoveg_nodes}
@@ -45,7 +46,7 @@ DT nyelv ellenőrzése
         ${node_text}=    Replace String    ${node_text}    \nBlokk    ${EMPTY}   
         ${node_text}=    Replace String    ${node_text}    \nOldal    ${EMPTY}   
 
-        #Log String To Console    \nOldal: '${node_text}'
+        Log String To Console    ${index}=>Oldal: '${node_text}'
 
         ${found_feladat}=    Evaluate    bool(re.search('feladat', $node_text, re.IGNORECASE | re.MULTILINE))    re
         IF    ${found_feladat}    
