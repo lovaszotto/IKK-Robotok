@@ -104,6 +104,7 @@ Lecke lista beolvasása
          Log String To Console    [ERROR]Nincs megjeleníthető lecke a beállított szűrőkkel. =>${DIGITALIS_EXCEL_FILE}
         ${error_file}=    Replace String    ${DIGITALIS_EXCEL_FILE}    .v01.xlsx    _Nincs lecke a WEB-en.txt
         Create File    ${error_file}    Nincs megjeleníthető lecke a beállított szűrőkkel.
+        Write SumError fájl    ${DIGITALIS_EXCEL_FILE}    ${DIGITALIS_EXCEL_SHEET}    wtc-0    Nincs a lecke a WEB-en
         Close Browser
         RETURN
     END

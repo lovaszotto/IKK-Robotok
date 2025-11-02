@@ -42,7 +42,7 @@ Megjelenő kurzusok bejárása
     ${courses}=    Create List
     ${status}=    Set Variable    NONE
     #Run Keyword And Ignore Error  Wait Until Element Is Visible    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li    10s
-    ${status}     ${courses}=      Run Keyword And Ignore Error  Wait Until Element Is Visible    xpath=//ulms-course-list-item    10s
+    ${status}     ${courses}=      Run Keyword And Ignore Error  Wait Until Element Is Visible    xpath=//ulms-course-list-item    5s
     Log String To Console    Van Talált kurzusok:  ${status}:${courses}
     IF    $status=='PASS'
         Log String To Console    Kurzusok megtalálva a megadott szűrőkkel.
@@ -51,6 +51,7 @@ Megjelenő kurzusok bejárása
         Log String To Console    [ERROR]Nincs megjeleníthető kurzus a beállított szűrőkkel. =>${DIGITALIS_EXCEL_FILE}
         ${error_file}=    Replace String    ${DIGITALIS_EXCEL_FILE}    .v01.xlsx    _Nincs kurzus a WEB-en.txt
         Create File    ${error_file}    Nincs megjeleníthető kurzus a beállított szűrőkkel.
+        Write SumError fájl    ${DIGITALIS_EXCEL_FILE}    ${DIGITALIS_EXCEL_SHEET}    wtc-0    Nincs a kurzus a WEB-en
         Close Browser
         RETURN
     END    

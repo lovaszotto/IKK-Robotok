@@ -29,7 +29,7 @@ ${CR}=    Set Variable    ;
 ${MEDIA_ROW_INDEX}            5
 
 # Futtassunk média ellenőrzést
-${RUN_MEDIA_CHECK}          ${False}
+${RUN_MEDIA_CHECK}          ${True}
 
 # Van kép és más típusú média
 ${MEDIA_HAS_PICTURE}          ${False}

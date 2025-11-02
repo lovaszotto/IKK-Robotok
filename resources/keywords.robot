@@ -5,6 +5,7 @@ Library    String
 Mark Test Status
     [Documentation]    Általános jelölő: hibánál F{row} megjegyzés, D{row} "X" és FAIL; siker esetén C{row} "X".
     [Arguments]    ${excel_file}    ${sheet_name}    ${test_row}    ${err_msg}    ${mark}=X
+    ${testCase}=    Evaluate    ${test_row}-2
     IF    $err_msg != ''
         #Log String To Console    Mark Test Status ${test_row}-ba: ${err_msg}
         Log String To Console    Mark Test Status Failed
@@ -27,28 +28,32 @@ Mark Test Status
           #felirjuk egy csv.be appendel
         ${sum_error_log_file}=      Set Variable      ${CONFIG_OUTPUT_FOLDER}\\ErrorSummary.csv
         # Log To Console    !!!!!!!!!!!!!!!!!!!!${sum_error_log_file}  -> ${err_msg}
-          Write SumError fájl    ${excel_file}    ${sheet_name}    ${test_row}    ${err_msg}
+          Write SumError fájl    ${excel_file}    ${sheet_name}    tc-${testCase}    ${err_msg}
         # Jelöld FAIL-re a tesztet, de folytasd a futást
         Run Keyword And Continue On Failure    Fail    ${err_msg}
+         Log String To Console    Mark Test Status Failed
         #Log String To Console    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}
     ELSE
         # Hibátlan X-elés: C oszlop
-        Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    3    ${mark}
+        
+         Write SumError fájl    ${excel_file}    ${sheet_name}     tc-${testCase}   Passed
+        Fill Excel Cell    ${excel_file}    ${sheet_name}      ${test_row}     3    ${mark}
           Log String To Console    Mark Test Status Passed
         END
 
 Write SumError fájl
      [Documentation]    Hiba összesítő irása
         [Arguments]    ${excel_file}    ${sheet_name}    ${test_row}    ${err_msg} 
+        
         ${sum_error_log_file}=      Set Variable      ${CONFIG_OUTPUT_FOLDER}\\ErrorSummary.csv
         ${exists}=    Run Keyword And Return Status    File Should Exist    ${sum_error_log_file}
         IF    $exists 
                # Log String To Console    !!!!!!!!!!!!!!!!!!!!${sum_error_log_file}  hibasor beírás
                Append To File    ${sum_error_log_file}    ${excel_file};${sheet_name};${test_row};${err_msg}\n    encoding=UTF-8
-
         ELSE
                # Log String To Console    !!!!!!!!!!!!!!!!!!!!${sum_error_log_file}  létrehozás
                Create File    ${sum_error_log_file}    \ufeffKézirat;Azonosító;Hiba típus;Hiba;Részletek\n    encoding=UTF-8
+               Append To File    ${sum_error_log_file}    ${excel_file};${sheet_name};${test_row};${err_msg}\n    encoding=UTF-8
         END
        
 
@@ -56,6 +61,7 @@ Mark WebTest Status
     [Documentation]    Általános jelölő: hibánál C{row} megjegyzés, D{row} "X" és FAIL; siker esetén B{row} "X".
     [Arguments]    ${excel_file}    ${sheet_name}    ${test_row}    ${err_msg}    ${mark}=X
     #Log String To Console    Mark WebTest Status called with err_msg: ${err_msg}
+     ${testCase}=    Evaluate    ${test_row}-2
     IF    $err_msg != ''
         #Log String To Console    Mark Test Status ${test_row}-ba: ${err_msg}
         Log String To Console    Mark WebTest Status Failed
@@ -75,15 +81,17 @@ Mark WebTest Status
         # Hibás X-elés: D oszlop
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    3    ${mark}
          #felirjuk egy csv.be appendel
-          Write SumError fájl    ${excel_file}    ${sheet_name}    ${test_row}    ${err_msg}
+          Write SumError fájl    ${excel_file}    ${sheet_name}     wtc-${testCase}   ${err_msg}
  
         # Jelöld FAIL-re a tesztet, de folytasd a futást
         Run Keyword And Continue On Failure    Fail    ${err_msg}
         #Log String To Console    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}
+         Log String To Console    Mark WebTest Status Failed
     ELSE
         # Hibátlan X-elés: C oszlop
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    2    ${mark}
-          Log String To Console    Mark WebTest Status Passed
+         Write SumError fájl    ${excel_file}    ${sheet_name}    wtc-${testCase}    Passed
+        Log String To Console    Mark WebTest Status Passed
         END
 *** Keywords ***
 
