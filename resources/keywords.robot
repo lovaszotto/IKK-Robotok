@@ -5,7 +5,7 @@ Library    String
 Mark Test Status
     [Documentation]    Általános jelölő: hibánál F{row} megjegyzés, D{row} "X" és FAIL; siker esetén C{row} "X".
     [Arguments]    ${excel_file}    ${sheet_name}    ${test_row}    ${err_msg}    ${mark}=X
-    ${testCase}=    Evaluate    ${test_row}-2
+    
     IF    $err_msg != ''
         #Log String To Console    Mark Test Status ${test_row}-ba: ${err_msg}
         Log String To Console    Mark Test Status Failed
@@ -28,7 +28,7 @@ Mark Test Status
           #felirjuk egy csv.be appendel
         ${sum_error_log_file}=      Set Variable      ${CONFIG_OUTPUT_FOLDER}\\ErrorSummary.csv
         # Log To Console    !!!!!!!!!!!!!!!!!!!!${sum_error_log_file}  -> ${err_msg}
-          Write SumError fájl    ${excel_file}    ${sheet_name}    tc-${testCase}    ${err_msg}
+          Write SumError fájl    ${excel_file}    ${sheet_name}    tc-${test_row}    ${err_msg}
         # Jelöld FAIL-re a tesztet, de folytasd a futást
         Run Keyword And Continue On Failure    Fail    ${err_msg}
          Log String To Console    Mark Test Status Failed
@@ -36,7 +36,7 @@ Mark Test Status
     ELSE
         # Hibátlan X-elés: C oszlop
         
-         Write SumError fájl    ${excel_file}    ${sheet_name}     tc-${testCase}   Passed
+         Write SumError fájl    ${excel_file}    ${sheet_name}     tc-${test_row}   Passed
         Fill Excel Cell    ${excel_file}    ${sheet_name}      ${test_row}     3    ${mark}
           Log String To Console    Mark Test Status Passed
         END
@@ -61,7 +61,7 @@ Mark WebTest Status
     [Documentation]    Általános jelölő: hibánál C{row} megjegyzés, D{row} "X" és FAIL; siker esetén B{row} "X".
     [Arguments]    ${excel_file}    ${sheet_name}    ${test_row}    ${err_msg}    ${mark}=X
     #Log String To Console    Mark WebTest Status called with err_msg: ${err_msg}
-     ${testCase}=    Evaluate    ${test_row}-2
+    
     IF    $err_msg != ''
         #Log String To Console    Mark Test Status ${test_row}-ba: ${err_msg}
         Log String To Console    Mark WebTest Status Failed
@@ -81,7 +81,7 @@ Mark WebTest Status
         # Hibás X-elés: D oszlop
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    3    ${mark}
          #felirjuk egy csv.be appendel
-          Write SumError fájl    ${excel_file}    ${sheet_name}     wtc-${testCase}   ${err_msg}
+          Write SumError fájl    ${excel_file}    ${sheet_name}     wtc-${test_row}   ${err_msg}
  
         # Jelöld FAIL-re a tesztet, de folytasd a futást
         Run Keyword And Continue On Failure    Fail    ${err_msg}
@@ -90,7 +90,7 @@ Mark WebTest Status
     ELSE
         # Hibátlan X-elés: C oszlop
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    2    ${mark}
-         Write SumError fájl    ${excel_file}    ${sheet_name}    wtc-${testCase}    Passed
+         Write SumError fájl    ${excel_file}    ${sheet_name}    wtc-${test_row}    Passed
         Log String To Console    Mark WebTest Status Passed
         END
 *** Keywords ***

@@ -9,7 +9,7 @@ Resource    ../resources/testcases/wtc_05_magyar_nyelvu.robot
 Resource    ../resources/testcases/wtc_10_tartalmaz_statikus_mediaelemeket.robot
 Resource    ../resources/testcases/wtc_11_tartalmaz_egyeb_mediaelemeket.robot
 Resource    ../resources/testcases/wtc_09_tartalmaz_fogalomtarat.robot
-Resource    ../../../../../../../response_80b97ba9-2c51-41c5-9e9f-a53a326670d3/0
+
 
 Library     String
 Library     BuiltIn

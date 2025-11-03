@@ -3,6 +3,7 @@ Library    SeleniumLibrary
 Library    RequestsLibrary
 Library    Collections
 Library    OperatingSystem
+Library    BuiltIn
 
 Resource   ${CURDIR}/../keywords.robot
 Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
@@ -60,8 +61,9 @@ Témák közötti navigáció ellenőrzése
                     ${next_button}=    Set Variable    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                     #Click Element      ${next_button}
                     Click Element     xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
+                    Sleep    1s
                     Log String To Console    Következő oldal gombra kattintva.
-                    Wait Until Element Is Visible    xpath=//app-image-field[contains(@style, 'display: flex')]//img    10s
+                    Run Keyword And Ignore Error   Wait Until Element Is Visible    xpath=//app-image-field[contains(@style, 'display: flex')]//img| //app-video-field[contains(@style, 'display: flex-flow')]//video    10s
                   
                      #${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
 
@@ -81,18 +83,20 @@ Témák közötti navigáció ellenőrzése
               
               #Képek ellenőrzése
                     #Wait For Elements State    //app-image-field//img    visible=True    timeout=10s
-                    ${images}=    Get WebElements    //app-image-field[contains(@style, 'display: flex')]//img
+                    ${images}=    Get WebElements    //app-image-field[contains(@style, 'display: flex')]//img 
                     ${image_count}=    Get Length    ${images}
                     ${img_index}=    Set Variable    0
                   Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált képek száma: ${image_count}
-                
+
       
                     #Képek feldolgozása
                     Set Variable    ${img_index}    0
                     FOR    ${img_index}    IN RANGE   ${image_count}    
+                    #CONTINUE
                         TRY
                       
-                        Log String To Console    \nKövetkező Kép: ${img_index}
+                            Log String To Console    \nKövetkező Kép: ${img_index}
+
                     
                             ${img}=    Get WebElement   (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]//img
                             ${exists}=    Run Keyword And Return Status    Page Should Contain Element    ${img}
@@ -112,8 +116,12 @@ Témák közötti navigáció ellenőrzése
 
                             #${alt}=    Get Element Attribute    ${img}    alt
                            
-                            ${alt}=    Get Element Attribute    (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]//img   alt
-                            Log String To Console    ${img_index}:nKép alt: ${alt}
+                            # Kép vagy videó alt/title attribútum lekérése
+                            ${alt}=    Get Element Attribute    (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]//img    alt
+                            Log String To Console    Kép alt attribútum: ${alt}
+                            ${src}=    Get Element Attribute    (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]//img    src
+                        
+                            #Log String To Console    ${img_index}: Média alt/title: ${alt}
                             
                           #Menü sor lekérése
                             Wait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    10s
@@ -133,8 +141,8 @@ Témák közötti navigáció ellenőrzése
                             #Alt felírása media katalógusba
                             Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    5    ${alt}
                         
-                            #${src}=    Get Element Attribute    ${img}    src
-                            ${src}=    Get Element Attribute   (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]//img    src
+                            # src már az előző IF/ELSE-ben beállítva
+                            
                             # Log String To Console    Kép forrás: ${src}
                             # Az ${src}-ben lecseréljük a ${BASE} rész üresre
                             # így csak a PATHQ marad meg
@@ -158,9 +166,7 @@ Témák közötti navigáció ellenőrzése
                             ELSE
                               Set Global Variable    ${MEDIA_HAS_OTHER_TYPE}    ${True}
                             END
-                            
-
-
+         
                             ${disp}=    Get From Dictionary    ${resp.headers}    Content-Disposition    default=None
                             Log String To Console    Kép Content-Disposition: ${disp}
 
@@ -190,6 +196,131 @@ Témák közötti navigáció ellenőrzése
                         
                     END
                      ${leckek_szama}=    Evaluate    ${leckek_szama} + 1
+    #Videok
+        
+         
+                    #Wait For Elements State    //app-image-field//img    visible=True    timeout=10s
+                    ${videos}=    Get WebElements    //app-video-field[contains(@style, 'flex-flow')]//video
+                    ${video_count}=    Get Length    ${videos}
+                    ${video_index}=    Set Variable    0
+                  Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált   videok száma: ${video_count}
+
+      
+                    #Videok feldolgozása
+                    Set Variable    ${video_index}    0
+                    FOR    ${video_index}    IN RANGE   ${video_count}
+                        TRY
+                      
+                            Log String To Console    \nKövetkező Videó: ${video_index}
+
+
+                            ${video}=    Get WebElement   //app-video-field[contains(@style, 'flex-flow')][${video_index+1}]//video
+                            ${exists}=    Run Keyword And Return Status    Page Should Contain Element    ${video}
+                            #Run Keyword If    ${exists}    Log String To Console    "Megvan!"    ELSE    Log String To Console    "Nincs ilyen elem"
+                            IF    ${exists} == False
+                                Log String To Console    Nincs ilyen video elem, kihagyás
+                                Continue For Loop
+                            END
+                            ${visible}=   Run Keyword And Ignore Error    Wait Until Element Is Visible   ${video}   1s
+                            #${img}=    Get From List    ${images}    ${img_index}
+                            #${visible}=     Run Keyword And Return Status    Element Should Be Visible    ${video}
+                            IF    ${visible} == False
+                                Log String To Console    A video nem látható, kihagyás
+                                Continue For Loop
+                            END
+                            Log String To Console    ${video_index}:Következő Videó: ${video_index}
+
+                            #${alt}=    Get Element Attribute    ${img}    alt
+                           
+                            # Kép vagy videó alt/title attribútum lekérése
+                           #Igen/nem bekérése felhasználótól
+                           Log String To Console    Várakozás 60s a felhasználói alt/title megadására...
+                        #Sleep     60s
+
+                            ${alt_video}=    Get Element Attribute    //app-video-field[contains(@style, 'flex-flow')][${video_index+1}]//video    title
+                            Log String To Console    Video alt attribútum: ${alt_video}
+                            
+                            ${src}=    Get Element Attribute    //app-video-field[contains(@style, 'flex-flow')][${video_index+1}]//video    src
+
+                            #Log String To Console    ${img_index}: Média alt/title: ${alt_video}
+
+                          #Menü sor lekérése
+                            Wait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    10s
+                            ${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name}=   Get Highlighted And Parent Titles By Text
+                            
+                            #${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name} =    Get Highlighted And Parent Titles (Levels 1-3)
+
+                            #Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level1_name}/${level2_name}/${level3_name}
+                            IF    $level3_name == $highlighted_name
+                                 Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level2_name}
+                            ELSE
+                                 Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level2_name}/${level3_name}
+                            END
+                            
+                            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    4    ${highlighted_name}
+
+                            #Alt felírása media katalógusba
+                            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    5    ${alt_video}
+                        
+                            # src már az előző IF/ELSE-ben beállítva
+                            
+                            # Log String To Console    Kép forrás: ${src}
+                            # Az ${src}-ben lecseréljük a ${BASE} rész üresre
+                            # így csak a PATHQ marad meg
+                            ${PATHQ}=    Replace String    ${src}    ${BASE}    ${EMPTY}
+                            #Log String To Console    Kép PATHQ: ${PATHQ}
+                 
+                            Create Session    blob    ${BASE}
+                            ${resp}=    Get On Session    blob    ${src}
+                            Sleep    0.5s
+                            Delete All Sessions
+                        #Log String To Console    Kép letöltés válasza státusz: ${resp.status_code}
+
+                         # kiterjesztések ellenőrzése
+                            ${ctype}=   Get From Dictionary    ${resp.headers}    Content-Type
+                            Log String To Console    video Content-Type: ${ctype}
+
+                            ${type}    ${category}=   Get Media Type And Category From Mime    ${ctype}
+                            Log String To Console    ------------------------------------------------------------- Típus: ${type}, Kategória: ${category}
+                            IF    $type == "Statikus"
+                                Set Global Variable    ${MEDIA_HAS_PICTURE}    ${True}
+                            ELSE
+                              Set Global Variable    ${MEDIA_HAS_OTHER_TYPE}    ${True}
+                            END
+                            
+
+
+                            ${disp}=    Get From Dictionary    ${resp.headers}    Content-Disposition    default=None
+                            Log String To Console    Video Content-Disposition: ${disp}
+
+                            ${ext}=     Determine Extension From Content-Type    ${ctype}
+
+                            ${fname}=   Determine File Name From Response    ${resp}    ${DEFAULT_BASENAME}${ext}
+                            ${fname}=     Get File Name From Header    ${fname}
+                            
+                            #Media tipus felírása media katalógusba
+                            #Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    2    ${ctype}
+                            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    2    ${type}/ ${category}
+                            #Fájl név felírása media katalógusba
+                            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    1    ${fname}
+                            
+                            #Media sheet-en sor növelése
+                            ${MEDIA_ROW_INDEX} =    Evaluate    ${MEDIA_ROW_INDEX} + 1
+
+                            #${outfile}=     Set Variable    ${OUTPUT_DIR}/${OUT_BASENAME}${ext}
+                            #Log String To Console    Kép letöltés előtt: ${outfile}
+
+                            #Save Response Body To File    ${resp}    ${outfile}
+                            Log String To Console    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Video letöltve: ${fname}.${ext}\n\n
+                           
+                        EXCEPT    AS    ${e2}
+                            Log String To Console    [ERROR] Hiba a kép letöltésekor: ${e2}
+                        END
+                        
+                    END
+                     ${leckek_szama}=    Evaluate    ${leckek_szama} + 1       
+
+
                 EXCEPT    AS    ${e1}
                     Log String To Console    [WARNING] Hiba a következő oldal gomb kattintásakor: ${e1}
                      #felugró teszt megszakítása gomb kezelése
@@ -205,7 +336,12 @@ Témák közötti navigáció ellenőrzése
                      #retry
                     Click Button       xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                 END
-                  
+
+
+
+
+                 #
+                 # #lapozás a következő 
                 #${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                 #${is_disabled}=    Get Element Attribute    ${next_button}    disabled
                  Wait Until Element Is Visible    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]     1s
