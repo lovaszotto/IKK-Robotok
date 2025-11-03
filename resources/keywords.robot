@@ -1,4 +1,6 @@
 *** Settings ***
+Resource    ../resources/keywords.robot
+Resource    ../resources/variables.robot
 Library    String
 
 *** Keywords ***
