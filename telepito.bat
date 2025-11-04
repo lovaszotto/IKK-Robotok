@@ -15,17 +15,14 @@ echo   - Automatikus DOCX formai ellenorzes
 echo   - Robot Framework tesztvezerlese  
 echo   - Excel export es riportkeszites
 echo   - Web interfesz tamogatas
-echo   - Email ertesitesek (Outlook COM)
 echo =====================================================
 echo.
 
 REM Telepitesi konyvtar bekeres
-echo Adja meg a telepitesi konyvtar eleresi utjat:
-echo (pl: C:\DuplikacioEllenorzo vagy D:\MyProjects\DuplikacioSystem)
-echo. 
 REM Automatikus telepitesi konyvtar beallitasa: az aktualis folder nevében a DownloadedRobots kifejezést InstalledRobots-ra cseréljük
 set "CURDIR=%CD%"
 set "TARGET_DIR=%CURDIR:DownloadedRobots=InstalledRobots%"
+set "TARGET_DIR=%CURDIR:SandboxRobots=InstalledRobots%"
 echo [INFO] Alapértelmezett telepítési konyvtár: %TARGET_DIR%
 
 REM Ha nem letezik a konyvtar, hozzuk letre
@@ -83,13 +80,11 @@ echo.
 echo Fajlok masolasa...
 
 REM Szukseges robot fajlok masolasa
-copy "PLG-00-main.robot" "%TARGET_DIR%\"
-copy "PLG-02-Excel-kitolto.robot" "%TARGET_DIR%\"
-copy "PLG-04-FormaiEllenorzes-TestCases.robot" "%TARGET_DIR%\"
-copy "test_docxReader.robot" "%TARGET_DIR%\"
+copy "*.robot" "%TARGET_DIR%\"
+
 
 REM Konfiguracios fajlok masolasa
-copy "Duplikacio.config" "%TARGET_DIR%\"
+copy "IKK.config" "%TARGET_DIR%\"
 copy "TELEPITO_UTMUTATO.txt" "%TARGET_DIR%\"
 copy "start.bat" "%TARGET_DIR%\"
 
@@ -103,8 +98,7 @@ copy "WEBES_INDITASI_UTMUTATO.md" "%TARGET_DIR%\"
 
 REM További fájlok másolása
 copy "_VERSION.rtf" "%TARGET_DIR%\"
-copy "Szóismétlések.xlsx" "%TARGET_DIR%\"
-copy "ToDo.xlsx" "%TARGET_DIR%\"
+
 
 REM Libraries mappa masolasa
 if exist "libraries" (
@@ -123,11 +117,10 @@ if exist "test" (
     echo Teszt konyvtar masolasa...
     xcopy "test" "%TARGET_DIR%\test" /E /I /Y
 )
-
-REM Web mappa masolasa (webes indításhoz)
-if exist "web" (
-    echo Web konyvtar masolasa...
-    xcopy "web" "%TARGET_DIR%\web" /E /I /Y
+REM testcases mappa masolasa
+if exist "testcases" (
+    echo TesztCases konyvtar masolasa...
+    xcopy "testcases" "%TARGET_DIR%\testcases" /E /I /Y
 )
 
 REM Sablonok mappa masolasa
@@ -136,11 +129,7 @@ if exist "sablonok" (
     xcopy "sablonok" "%TARGET_DIR%\sablonok" /E /I /Y
 )
 
-REM SqlCommands mappa masolasa
-if exist "SqlCommands" (
-    echo SqlCommands konyvtar masolasa...
-    xcopy "SqlCommands" "%TARGET_DIR%\SqlCommands" /E /I /Y
-)
+
 
 echo Fajlok sikeresen masolva.
 
@@ -215,63 +204,63 @@ if errorlevel 1 (
 )
 
 echo.
-echo start.bat fajl letrehozasa...
+rem echo start.bat fajl letrehozasa...
 
 REM start.bat fajl letrehozasa
-echo @echo off > start.bat
-echo REM ========================================= >> start.bat
-echo REM  FORMAI ELLENORZO RENDSZER FUTTATAS >> start.bat
-echo REM ========================================= >> start.bat
-echo echo. >> start.bat
-echo echo ========================================= >> start.bat
-echo echo   FORMAI ELLENORZO RENDSZER >> start.bat
-echo echo   Main robot futtatas >> start.bat
-echo echo ========================================= >> start.bat
-echo echo. >> start.bat
-echo. >> start.bat
-echo REM Ellenorizzuk a virtualis kornyezet megletet >> start.bat
-echo if not exist "rf_env\Scripts\robot.exe" ^( >> start.bat
-echo     echo HIBA: Virtualis kornyezet nem talalhato! >> start.bat
-echo     echo Futtassa eloszor a telepito.bat fajlt! >> start.bat
-echo     pause >> start.bat
-echo     exit /b 1 >> start.bat
-echo ^) >> start.bat
-echo. >> start.bat
-echo echo Konfiguracio ellenorzese... >> start.bat
-echo if not exist "Duplikacio.config" ^( >> start.bat
-echo     echo HIBA: Duplikacio.config fajl nem talalhato! >> start.bat
-echo     echo Ellenorizze a konfiguracios fajlt! >> start.bat
-echo     pause >> start.bat
-echo     exit /b 1 >> start.bat
-echo ^) >> start.bat
-echo. >> start.bat
-echo REM Results konyvtar letrehozasa ha nem letezik >> start.bat
-echo if not exist "results" ^( >> start.bat
-echo     echo Results konyvtar letrehozasa... >> start.bat
-echo     mkdir "results" >> start.bat
-echo ^) >> start.bat
-echo. >> start.bat
-echo echo Robot Framework teszt futtatasa... >> start.bat
-echo echo Formai ellenorzes futtatasa ^(PLG-00-main.robot^)... >> start.bat
-echo. >> start.bat
-echo rf_env\Scripts\robot.exe --outputdir results PLG-00-main.robot >> start.bat
-echo. >> start.bat
-echo if errorlevel 1 ^( >> start.bat
-echo     echo HIBA: A teszt futtatasa sikertelen! >> start.bat
-echo     echo Ellenorizze a results\log.html fajlt a reszletekert. >> start.bat
-echo ^) else ^( >> start.bat
-echo     echo. >> start.bat
-echo     echo ========================================= >> start.bat
-echo     echo TESZT SIKERESEN BEFEJEZODOTT! >> start.bat
-echo     echo. >> start.bat
-echo     echo Eredmenyek: >> start.bat
-echo     echo - Log: results\log.html >> start.bat
-echo     echo - Report: results\report.html >> start.bat
-echo     echo - Email elkuldve a konfiguralt cimre >> start.bat
-echo     echo ========================================= >> start.bat
-echo ^) >> start.bat
-echo. >> start.bat
-echo exit >> start.bat
+rem echo @echo off > start.bat
+rem echo REM ========================================= >> start.bat
+rem echo REM  FORMAI ELLENORZO RENDSZER FUTTATAS >> start.bat
+rem echo REM ========================================= >> start.bat
+rem echo echo. >> start.bat
+rem echo echo ========================================= >> start.bat
+rem echo echo   FORMAI ELLENORZO RENDSZER >> start.bat
+rem echo echo   Main robot futtatas >> start.bat
+rem echo echo ========================================= >> start.bat
+rem echo echo. >> start.bat
+rem echo. >> start.bat
+rem echo REM Ellenorizzuk a virtualis kornyezet megletet >> start.bat
+rem echo if not exist "rf_env\Scripts\robot.exe" ^( >> start.bat
+rem echo     echo HIBA: Virtualis kornyezet nem talalhato! >> start.bat
+rem echo     echo Futtassa eloszor a telepito.bat fajlt! >> start.bat
+rem echo     pause >> start.bat
+rem echo     exit /b 1 >> start.bat
+rem echo ^) >> start.bat
+rem echo. >> start.bat
+rem echo echo Konfiguracio ellenorzese... >> start.bat
+rem echo if not exist "IKK.config" ^( >> start.bat
+rem echo     echo HIBA: IKK.config fajl nem talalhato! >> start.bat
+rem echo     echo Ellenorizze a konfiguracios fajlt! >> start.bat
+rem echo     pause >> start.bat
+rem echo     exit /b 1 >> start.bat
+rem echo ^) >> start.bat
+rem echo. >> start.bat
+rem echo REM Results konyvtar letrehozasa ha nem letezik >> start.bat
+rem echo if not exist "results" ^( >> start.bat
+rem echo     echo Results konyvtar letrehozasa... >> start.bat
+rem echo     mkdir "results" >> start.bat
+rem echo ^) >> start.bat
+rem echo. >> start.bat
+rem echo echo Robot Framework teszt futtatasa... >> start.bat
+rem echo echo Formai ellenorzes futtatasa ^(PLG-00-main.robot^)... >> start.bat
+rem echo. >> start.bat
+rem echo rf_env\Scripts\robot.exe --outputdir results PLG-00-main.robot >> start.bat
+rem echo. >> start.bat
+rem echo if errorlevel 1 ^( >> start.bat
+rem echo     echo HIBA: A teszt futtatasa sikertelen! >> start.bat
+rem echo     echo Ellenorizze a results\log.html fajlt a reszletekert. >> start.bat
+rem echo ^) else ^( >> start.bat
+rem echo     echo. >> start.bat
+rem echo     echo ========================================= >> start.bat
+rem echo     echo TESZT SIKERESEN BEFEJEZODOTT! >> start.bat
+rem echo     echo. >> start.bat
+rem echo     echo Eredmenyek: >> start.bat
+rem echo     echo - Log: results\log.html >> start.bat
+rem echo     echo - Report: results\report.html >> start.bat
+rem echo     echo - Email elkuldve a konfiguralt cimre >> start.bat
+rem echo     echo ========================================= >> start.bat
+rem echo ^) >> start.bat
+rem echo. >> start.bat
+rem echo exit >> start.bat
 
 echo.
 echo =========================================
@@ -301,7 +290,7 @@ echo 2. Webes modu: Nyissa meg: web\robot_runner.html
 echo    Vagy futtassa: rf_env\Scripts\python.exe libraries\web_server.py
 echo.
 echo Konfiguracio: 
-echo - Duplikacio.config fajl szerkesztese (email, mappak)
+echo - IKK.config fajl szerkesztese ( mappak)
 echo - Sablonok: sablonok\ konyvtar
 echo - Tesztfajlok: test\ konyvtar
 echo - Eredmenyek: results\ konyvtar
