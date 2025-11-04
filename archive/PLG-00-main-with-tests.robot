@@ -127,7 +127,8 @@ Process Single DOCX With All Checks
     
     # PLG-01-Excel.robot meghívása
     ${activeExcelFile}    ${activeSheetName}=    Create_K_ell_Excel    ${docx_file}
-    
+
+
     # Globális változók beállítása a formálellenőrzéshez
     Set Global Variable    ${CURRENT_EXCEL_FILE}    ${activeExcelFile}
     Set Global Variable    ${CURRENT_SHEET_NAME}    ${activeSheetName}

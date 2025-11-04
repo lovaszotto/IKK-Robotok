@@ -504,7 +504,7 @@ Process Single DOCX File As Test Case
     
     # PLG-01-Excel.robot meghívása (4 értéket ad vissza: excel, sheet, path, filename)
     ${activeExcelFile}    ${activeSheetName}    ${path_part}    ${filename_part}=    Create_K_ell_Excel    ${docx_file}
-    
+
     # Globális változók beállítása a formálellenőrzéshez
     Set Global Variable    ${CURRENT_EXCEL_FILE}    ${activeExcelFile}
     Set Global Variable    ${CURRENT_SHEET_NAME}    ${activeSheetName}
@@ -515,7 +515,7 @@ Process Single DOCX File As Test Case
     Set Global Variable    ${DOCX_FILE}    ${docx_file}
     
     # DOCX beolvasás és hibastátusz lekérdezése
-    #otto was here ${szoveg}=    Beolvasom A DOCX Fájlt
+ 
     Set Global Variable    ${SZOVEG}    ${szoveg}
 
     ${is_error}=    Run Keyword And Return Status    Should Start With    ${szoveg}    [HIBA]
@@ -893,7 +893,7 @@ Process Single DOCX File
     
     # PLG-01-Excel.robot meghívása
     ${activeExcelFile}    ${activeSheetName}    ${path_part}    ${filename_part}=    Create_K_ell_Excel    ${docx_file}
-    
+   
     # Globális változók beállítása a formálellenőrzéshez
     Set Global Variable    ${CURRENT_EXCEL_FILE}    ${activeExcelFile}
     Set Global Variable    ${CURRENT_SHEET_NAME}    ${activeSheetName}
@@ -1146,9 +1146,11 @@ Create_K_ell_Excel
     
     # Legalább 2 könyvtárra van szükség (parent és child)
     IF    ${parts_count} < 2
-        Log String To Console     \n\[HIBA] A relatív path nem tartalmaz legalább 2 könyvtárat!
+        Log String To Console     [HIBA] Hibás helyen van az ellenőrizendő fájl! A relatív path nem tartalmaz legalább 2 könyvtárat!
         ${parent_path}=    Set Variable    DEFAULT
         ${child_path}=     Set Variable    DEFAULT
+        Fail   Feldolgozás megszakítva. Hibás helyen van az ellenőrizendő fájl! Minimum 2 könyvtár szükséges a relatív path-ban.
+        RETURN
     ELSE
         ${second_last_idx}=    Evaluate    ${parts_count} - 2
         ${last_idx}=          Evaluate    ${parts_count} - 1

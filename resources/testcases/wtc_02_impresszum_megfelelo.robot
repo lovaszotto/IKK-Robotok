@@ -27,7 +27,7 @@ Impresszum megfelelőség ellenőrzése
      Log String To Console   \n>>>>> IKK logó ellenőrzése
      ${ALT_TEXT}     Set Variable    Az Innovatív Képzéstámogató Központ logója
      
-     ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible    xpath=//img[contains(@alt, 'Az Innovatív Képzéstámogató Központ logója')]    10s
+     ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible    xpath=//img[contains(@alt, 'Az Innovatív Képzéstámogató Központ logója')]    2s
      IF    '${rc}' == 'PASS'
             ${src}=    Get Element Attribute    xpath=//img[contains(@alt, 'Az Innovatív Képzéstámogató Központ logója')]    src
             Log String To Console    \nIKK logója URL: ${src}
@@ -59,7 +59,7 @@ Impresszum megfelelőség ellenőrzése
     #szerző ellenőrzése
     ##############################################################################################
      Log String To Console   \n>>>>> Szerző ellenőrzése
-    ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible   xpath=//div[contains(@class,'custom-format')]//strong[normalize-space(.)='Szerző:']/following-sibling::span[1]    5s
+    ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible   xpath=//div[contains(@class,'custom-format')]//strong[normalize-space(.)='Szerző:']/following-sibling::span[1]    2s
     IF    '${rc}' == 'PASS'
         ${raw}=    Get Text    xpath=//div[contains(@class,'custom-format')]//strong[normalize-space(.)='Szerző:']/following-sibling::span[1]
         ${szerzo}=    Strip String    ${raw}
@@ -87,7 +87,7 @@ Impresszum megfelelőség ellenőrzése
     #Lektorok ellenőrzése
     ##############################################################################################
     Log String To Console   \n>>>>> Lektorok ellenőrzése
-    ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible    xpath=//strong[contains(., 'További szakmai közreműködők')]    10s
+    ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible    xpath=//strong[contains(., 'További szakmai közreműködők')]    2s
      IF    '${rc}' == 'PASS'
         ${szakmai_lektor}=    Get Text    xpath=//strong[contains(., 'További szakmai közreműködők')]/following-sibling::*[1]
         ${szakmai_lektor}=    Strip String    ${szakmai_lektor}
@@ -151,7 +151,7 @@ Impresszum megfelelőség ellenőrzése
     #Tananyagot készítette ellenőrzése
     ##############################################################################################
     Log String To Console   \n>>>>> Tananyagot készítette ellenőrzése
-    ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible    xpath=//strong[contains(., 'A tananyagot készítette')]    10s
+    ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible    xpath=//strong[contains(., 'A tananyagot készítette')]    2s
      IF    '${rc}' == 'PASS'
         ${text}=    Get Text    xpath=//strong[contains(., 'A tananyagot készítette')]/following-sibling::*[1]
         ${text}=    Strip String    ${text}

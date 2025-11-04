@@ -28,7 +28,7 @@ Web-alkalmazás indítása és bejelentkezés
     # ${handle}=    Get Window Handles
     # Log String To Console    Ablak azonosító: ${HANDLE}
     # Sleep    1s
-    Wait Until Element Is Visible    id=email    30s
+    Wait Until Element Is Visible    id=email    5s
     Input Text    id=email    ${USERNAME}    
     Input Text    id=PasswordTop    ${PASSWORD}
     Click Button    id=submitBtn
@@ -42,10 +42,10 @@ Web-alkalmazás indítása és bejelentkezés
 
 
     # Várd meg, amíg megjelenik a "KURZUSAIM" felirat, majd kattints rá
-    Wait Until Element Is Visible    id=header-coursesButton    30s
+    Wait Until Element Is Visible    id=header-coursesButton    5s
 
     Click Element    id=header-coursesButton
-    Wait Until Element Is Visible    xpath=//*[contains(text(), 'Aktuális kurzusaim')]    30s
+    Wait Until Element Is Visible    xpath=//*[contains(text(), 'Aktuális kurzusaim')]    5s
     Log String To Console    \n\[1/24] Aktuális kurzusaim oldal megjelenítve
     
     #Téma keresés szűrő beállítása

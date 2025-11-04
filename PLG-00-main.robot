@@ -26,22 +26,28 @@ Batch inicializálás
     Set Global Variable    ${BATCH_START_TIME}    ${start_time}
 
     # Globális log fájl inicializálása (a gyökérben)
+    Log String To Console    ===Initialize Global Log File ===
     Initialize Global Log File
 
     # Teszt számlálók nullázása
-    Initialize Test Counters
+   Log String To Console    ===Initialize Test Counters ===
+   Initialize Test Counters
 
     # Formálellenőrzés számlálók nullázása
+   Log String To Console    ===Initialize Check Counters ===
     Initialize Check Counters
 
     # Konfiguracio betöltése minden futás elején
+    Log String To Console    ===Initialize Configuration ===
     Konfiguráció Betöltése
 
     # Log fájl áthelyezése az output mappába
+    Log String To Console    ===Move Log File To Output Folder ===
     Move Log File To Output Folder
 
 
     # DOCX fájlok keresése és globális változók beállítása
+    Log String To Console    ===Initialize DOCX Files List ===
     Initialize DOCX Files List
     
     # *RRF221_tema.kezirata.docx létezés ellenőrzés 
@@ -63,7 +69,10 @@ Batch inicializálás
         
         # Fájl név kinyerése az elnevezéshez
         ${file_parts}=    Split String    ${docx_file}    ${/}
+        ${file_parts_len}=    Get Length    ${file_parts}
+        Log String To Console    -----------------------${docx_file}-------------- Fájl részek száma: ${file_parts_len}
         ${file_name}=    Get From List    ${file_parts}    -1
+     
         
         ${CURRENT_DIR}=    Evaluate    __import__('os').path.dirname(r'''${docx_file}''')    modules=os
         Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

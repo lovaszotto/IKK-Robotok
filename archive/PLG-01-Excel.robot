@@ -56,7 +56,9 @@ Create_K_ell_Excel
     # 4. Ellenőrzés: legalább 2 részre kell bomlania (utolsó 2 könyvtár)
     IF    ${parts_count} < 2
         Log String To Console     \n\[HIBA] A relatív path nem tartalmaz legalább 2 könyvtárat! Talált részek: ${parts_count}
-        Log String To Console     \n\[HIBA] Minimum: 2 rész, kapott: ${parts_count}
+        Write SumError fájl    ${EMPTY}    ${EMPTY}    tc-0    Nem megfelelő könyvtárban van a tananyag;Elvárt: Kurzus/Lecke szerkezet(pl.EM-1.1/EM_1.1.1/FileName);${file_name}
+       Log String To Console     Nem megfelelő könyvtárban van a tananyag;Elvárt: Kurzus/Lecke szerkezet(pl.EM-1.1/EM_1.1.1/FileName);${file_name}  
+        
         Fail    A relatív path nem megfelelő szerkezetű - kevesebb mint 2 könyvtár
     END
     

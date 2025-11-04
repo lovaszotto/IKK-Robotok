@@ -30,7 +30,7 @@ Test Single DOCX Processing
     
     # Test the Create Excel and format check process
     ${activeExcelFile}    ${activeSheetName}=    Create_K_ell_Excel    ${DOCX_FILE}
-    
+  
     # Set global variables for format checking
     Set Global Variable    ${CURRENT_EXCEL_FILE}    ${activeExcelFile}
     Set Global Variable    ${CURRENT_SHEET_NAME}    ${activeSheetName}

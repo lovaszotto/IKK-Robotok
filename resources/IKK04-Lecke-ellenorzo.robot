@@ -28,7 +28,7 @@ Egy lecke ellenőrzése
    
       Log String To Console    ---------------------------------Egy lecke ellenőrzés kezdete---------------------------------
    
-            Wait Until Element Is Visible    id=ScormContent    30s
+            Wait Until Element Is Visible    id=ScormContent    5s
             Select Frame    id=ScormContent
 
             # Ha megjelenik a folytatás javaslat ablak, kattints a "Folytatás" gombra

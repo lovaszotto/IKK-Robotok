@@ -15,7 +15,7 @@ Tartalmaz fogalomtárat ellenőrzése
    ${errors}=    Create List
    ${CR}=    Set Variable    ;
 
-    ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Page Contains Element    xpath=//button[contains(@aria-label,'Fogalomtár megnyitása')]   10s    
+    ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Page Contains Element    xpath=//button[contains(@aria-label,'Fogalomtár megnyitása')]   2s    
     Log String To Console    \Fogalomtár megnyitás várakozás eredménye: ${rc} ${msg}
  
   IF    '${rc}' == 'PASS'

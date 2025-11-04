@@ -42,14 +42,21 @@ Témák közötti navigáció ellenőrzése
         RETURN
     END
 
-    ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Page Contains Element    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]   10s    
+    ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Page Contains Element    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]   2s    
     Log String To Console    \nVárakozás eredménye: ${rc} ${msg}
      # ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
     IF    '${rc}' == 'PASS'
         TRY 
+
+                
            WHILE    ${is_disabled} is ${NONE}
-                Log String To Console    Következő oldal gomb engedélyezett, lépés a következő oldalra.
-                TRY 
+                Log String To Console    Következő oldal gomb engedélyezett,menü lekérése...
+                TRY     
+                #Menü sor lekérése
+                Wait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    10s
+                ${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name}=   Get Highlighted And Parent Titles By Text
+                 Log String To Console   Mmenü lekérése kész 
+                 
                     #${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                     #felugró teszt megszakítása gomb kezelése
                     Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
@@ -63,7 +70,7 @@ Témák közötti navigáció ellenőrzése
                     Click Element     xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                     Sleep    1s
                     Log String To Console    Következő oldal gombra kattintva.
-                    Run Keyword And Ignore Error   Wait Until Element Is Visible    xpath=//app-image-field[contains(@style, 'display: flex')]//img| //app-video-field[contains(@style, 'display: flex-flow')]//video    10s
+                    Run Keyword And Ignore Error   Wait Until Element Is Visible    xpath=//app-image-field[contains(@style, 'display: flex')]//img| //app-video-field[contains(@style, 'display: flex-flow')]//video    2s
                   
                      #${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
 
@@ -123,10 +130,7 @@ Témák közötti navigáció ellenőrzése
                         
                             #Log String To Console    ${img_index}: Média alt/title: ${alt}
                             
-                          #Menü sor lekérése
-                            Wait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    10s
-                            ${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name}=   Get Highlighted And Parent Titles By Text
-                            
+                           
                             #${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name} =    Get Highlighted And Parent Titles (Levels 1-3)
 
                             #Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level1_name}/${level2_name}/${level3_name}
@@ -149,10 +153,12 @@ Témák közötti navigáció ellenőrzése
                             ${PATHQ}=    Replace String    ${src}    ${BASE}    ${EMPTY}
                             #Log String To Console    Kép PATHQ: ${PATHQ}
                  
+                            Log String To Console    Kép letöltés indul...
                             Create Session    blob    ${BASE}
                             ${resp}=    Get On Session    blob    ${src}
                             Sleep    0.5s
                             Delete All Sessions
+                             Log String To Console    Kép letöltés kész
                         #Log String To Console    Kép letöltés válasza státusz: ${resp.status_code}
 
                          # kiterjesztések ellenőrzése
@@ -245,8 +251,9 @@ Témák közötti navigáció ellenőrzése
                             #Log String To Console    ${img_index}: Média alt/title: ${alt_video}
 
                           #Menü sor lekérése
-                            Wait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    10s
-                            ${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name}=   Get Highlighted And Parent Titles By Text
+                            #Wait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    10s
+
+                            #${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name}=   Get Highlighted And Parent Titles By Text
                             
                             #${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name} =    Get Highlighted And Parent Titles (Levels 1-3)
 
@@ -269,11 +276,13 @@ Témák közötti navigáció ellenőrzése
                             # így csak a PATHQ marad meg
                             ${PATHQ}=    Replace String    ${src}    ${BASE}    ${EMPTY}
                             #Log String To Console    Kép PATHQ: ${PATHQ}
-                 
+                     Log String To Console    Video Letöltés indul...
                             Create Session    blob    ${BASE}
                             ${resp}=    Get On Session    blob    ${src}
+                   
                             Sleep    0.5s
                             Delete All Sessions
+                    Log String To Console    Video Letöltés kész
                         #Log String To Console    Kép letöltés válasza státusz: ${resp.status_code}
 
                          # kiterjesztések ellenőrzése
