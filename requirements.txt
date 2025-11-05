@@ -4,3 +4,4 @@ docx
 python-docx
 lxml
 openpyxl
+langdetect
