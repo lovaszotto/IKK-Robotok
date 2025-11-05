@@ -87,6 +87,7 @@ REM Konfiguracios fajlok masolasa
 copy "IKK.config" "%TARGET_DIR%\"
 copy "TELEPITO_UTMUTATO.txt" "%TARGET_DIR%\"
 copy "start.bat" "%TARGET_DIR%\"
+copy "requirements.txt" "%TARGET_DIR%\"
 
 REM Markdown dokumentacio fajlok masolasa
 copy "README.md" "%TARGET_DIR%\"

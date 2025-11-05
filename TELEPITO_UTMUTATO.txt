@@ -1,76 +1,96 @@
-PLAGIUM ELLENORZO RENDSZER - TELEPITO UTMUTATO
-===============================================
+IKK04 DOKUMENTUM WEB-ELLENŐRZŐ RENDSZER - TELEPÍTŐ ÚTMUTATÓ
+===========================================================
 
-RENDSZERKOVETELMÉNYEK:
+RENDSZERKÖVETELMÉNYEK:
 - Windows 10/11
-- Python 3.8 vagy ujabb verzio (python.org)
-- Microsoft Outlook (email kuldeshez)
+- Python 3.8 vagy újabb verzió (python.org)
+- Microsoft Outlook (email küldéshez)
+- Chrome vagy Firefox böngésző (webes ellenőrzéshez)
 
-TELEPITES LEPÉSEI:
-1. Ellenorizze, hogy a Python telepitve van:
-   - Nyisson terminalt (PowerShell)
-   - Irja be: python --version
-   - Ha nincs Python, telepitse a python.org oldalrol
+TELEPÍTÉS LÉPÉSEI:
+1. Ellenőrizze, hogy a Python telepítve van:
+   - Nyisson terminált (PowerShell)
+   - Írja be: python --version
+   - Ha nincs Python, telepítse a python.org oldalról
 
-2. Futtassa a telepitot:
-   - Dupla kattintas: telepito.bat
-   - Vagy PowerShell-bol: .\telepito.bat
+2. Futtassa a telepítőt:
+   - Dupla kattintás: telepito.bat
+   - Vagy PowerShell-ből: .\telepito.bat
 
-3. Adja meg a telepitesi konyvtarat:
-   - Pelda: C:\PlagiumEllenorzo
-   - Pelda: D:\MyProjects\Plagium
+3. Automatikus telepítési könyvtár:
+   - SandboxRobots -> InstalledRobots könyvtár cserélésével
+   - Példa: C:\MyRobotFramework\InstalledRobots\IKK04-Dokumentum-WEB-Ellenőrzés
 
-4. Varjon a telepites befejezesere
+4. Várjon a telepítés befejezésére (virtuális környezet létrehozása és csomagok telepítése)
 
-5. OPCIONALIS: Azonnali teszt
-   - A telepito felkinalja a teszt futtatast
-   - "i" valasz: azonnali teszt
-   - "n" valasz: kesobb manualis inditas
-
-TELEPITES UTAN:
-1. Menjen a telepitesi konyvtarba
-2. Szerkessze a Plagium.config fajlt:
-   - email = az on email cime
-   - input_folder = DOCX fajlok helye
+TELEPÍTÉS UTÁN:
+1. Menjen a telepítési könyvtárba
+2. Szerkessze az IKK.config fájlt:
+   - email = az ön email címe
+   - input_folder = DOCX fájlok helye
    - output_folder = Excel exportok helye
 
-3. Futtassa: start.bat
+3. Futtassa: start.bat (dokumentum formálellenőrzés)
+4. Vagy futtassa: webserver.bat (webes interfész)
 
-TELEPITETT KOMPONENSEK:
-- Robot Framework (automatizalas)
-- Database Library (adatbazis mukodes)
+TELEPÍTETT KOMPONENSEK:
+- Robot Framework (automatizálás és tesztvezérlés)
+- Selenium Library (webes automatizálás)
+- Database Library (adatbázis műveletek)
+- Requests Library (HTTP kliens)
 - OpenPyXL (Excel export)
-- Python-docx (DOCX olvaso)
-- PyWin32 (email kuldes)
-- Teljes forraskod (11 fajl)
-- Virtualis kornyezet
+- Python-docx (DOCX olvasó)
+- Flask (webes szerver)
+- LXML (XML/HTML feldolgozó)
+- Pillow (képfeldolgozó)
+- LangDetect (nyelv felismerés)
+- Teljes forráskód és erőforrások
+- Virtuális környezet (rf_env)
 
-FAJLOK:
-- start.bat              - Fo program inditasa
-- Plagium.config         - Konfiguracio
-- PLG-00-main.robot      - Fo teszt
-- plagium_config.py      - Python konfiguracio
-- get_config.py          - Robot Framework konfiguracio
-- send_email.py          - Email rendszer
-- excel_export_simple.py - Excel export segito
-- test\                  - Teszt DOCX fajlok
-- results\               - Eredmenyek
-- rf_env\                - Python kornyezet
+FŐBB FÁJLOK ÉS MAPPÁK:
+- start.bat                    - Fő program indítása (dokumentum ellenőrzés)
+- webserver.bat               - Webes interfész indítása
+- PLG-00-main.robot           - Fő teszt suite (dokumentum feldolgozás)
+- PLG-05-WEB-ellenor-main.robot - Webes ellenőrzések
+- IKK.config                  - Fő konfiguráció
+- Duplikacio.config           - Duplikáció ellenőrzés konfiguráció
+- libraries\                  - Python könyvtárak és segédek
+- resources\                  - Robot Framework erőforrások és tesztesetek
+- web\                        - Webes interfész fájlok
+- sablonok\                   - Excel sablonok
+- test\                       - Teszt DOCX fájlok
+- results\                    - Eredmények és exportok
+- rf_env\                     - Python virtuális környezet
 
-HASZNALAT:
-1. Helyezze a DOCX fajlokat a konfiguralt bemeneti konyvtarba
+HASZNÁLAT:
+
+DOKUMENTUM ELLENŐRZÉS MÓD:
+1. Helyezze a DOCX fájlokat a konfigurált bemeneti könyvtárba
 2. Futtassa: start.bat
-3. Ellenorizze az email-ben erkezett eredmenyeket
-4. Excel fajl: kimeneti konyvtar
+3. Ellenőrizze az email-ben érkezett eredményeket
+4. Excel fájl: kimeneti könyvtár
 
-HIBAKERESO:
+WEBES ELLENŐRZÉS MÓD:
+1. Futtassa: webserver.bat
+2. Nyissa meg böngészőben: http://localhost:5000
+3. Vagy nyissa meg: web\robot_runner.html
+4. Webes interfészen keresztül indíthat teszteket
+5. Eredmények: results\ könyvtár
+
+HIBAELHÁRÍTÁS:
 - Log: results\log.html
 - Report: results\report.html
-- Konfiguracio: Plagium.config szerkesztese
+- Konfiguráció: IKK.config szerkesztése
+- Webes problémák: böngésző konzol ellenőrzése
 
-EMAIL PROBLEMAK:
-- Ellenorizze, hogy az Outlook fut-e
-- Ellenorizze az email cimet a Plagium.config-ban
+EMAIL PROBLÉMÁK:
+- Ellenőrizze, hogy az Outlook fut-e
+- Ellenőrizze az email címet az IKK.config-ban
+
+WEBES PROBLÉMÁK:
+- Ellenőrizze, hogy a Chrome/Firefox telepítve van-e
+- Selenium WebDriver automatikusan telepítődik
+- Port ütközés esetén módosítsa a web_server.py-ban
 
 EMAIL AUTOMATIKUS KÜLDÉS:
 � A rendszer TELJES MÉRTÉKBEN AUTOMATIKUS email küldést használ!
@@ -101,6 +121,20 @@ OUTLOOK BEALLITASOK:
 - Biztonsagi beallitasok: COM objektumok engedelmezese
 - FIGYELEM: Outlook biztonsagi riasztasok engedélyezése szükséges
 
-TAMOGATAS:
-- Dokumentacio: README fajlok
-- Hibajegy: Robot Framework log fajlok
+TÁMOGATÁS ÉS DOKUMENTÁCIÓ:
+- README.md - Általános leírás
+- DOKUMENTACIO.md - Részletes dokumentáció  
+- TECHNIKAI_ATTEKINTES.md - Technikai részletek
+- WEBES_INDITASI_UTMUTATO.md - Webes használat
+- GYORS_REFERENCIA.md - Gyors útmutató
+- Hibajelentés: Robot Framework log fájlok
+
+REQUIREMENTS.TXT:
+A telepítő automatikusan telepíti az alábbi csomagokat:
+- robotframework
+- flask  
+- docx
+- python-docx
+- lxml
+- openpyxl
+- langdetect

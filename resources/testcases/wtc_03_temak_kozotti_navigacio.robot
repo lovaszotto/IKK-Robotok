@@ -52,11 +52,7 @@ Témák közötti navigáció ellenőrzése
            WHILE    ${is_disabled} is ${NONE}
                 Log String To Console    Következő oldal gomb engedélyezett,menü lekérése...
                 TRY     
-                #Menü sor lekérése
-                Wait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    10s
-                ${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name}=   Get Highlighted And Parent Titles By Text
-                 Log String To Console   Mmenü lekérése kész 
-                 
+                    
                     #${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                     #felugró teszt megszakítása gomb kezelése
                     Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
@@ -72,23 +68,16 @@ Témák közötti navigáció ellenőrzése
                     Log String To Console    Következő oldal gombra kattintva.
                     Run Keyword And Ignore Error   Wait Until Element Is Visible    xpath=//app-image-field[contains(@style, 'display: flex')]//img| //app-video-field[contains(@style, 'display: flex-flow')]//video    2s
                   
-                     #${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
+                      #Menü sor lekérése
+                    Wait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    10s
+                    ${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name}=   Get Highlighted And Parent Titles By Text
+                    Log String To Console   Mmenü lekérése kész 
+            
 
-                    #${node}=    Get From List    ${szoveg_nodes}    ${img_index}
-                    #${node_text}=    Get Text    ${node}
-                    #Log String To Console    >>>Oldalcím: ${node_text}
-                    
                     Wait Until Element Is Visible    xpath=//app-container-field/app-formatted-text-field[1]   1s
                     Log String To Console    Oldalcím elemek láthatóak, váraskozás OK
-                    #${title1}=    Get WebElement    xpath=//app-container-field/app-formatted-text-field[1]
-                    #${title1_text}=    Get Text    ${title1}
-
-                    #${title2}=    Get WebElement    xpath=//app-container-field/app-formatted-text-field[2]
-                    #${title2_text}=    Get Text    ${title2}
-                    #Log String To Console    >>>Oldalcím 1: ${title1_text}
-                    #Log String To Console    >>>Oldalcím 2: ${title2_text}
               
-              #Képek ellenőrzése
+                  #Képek ellenőrzése
                     #Wait For Elements State    //app-image-field//img    visible=True    timeout=10s
                     ${images}=    Get WebElements    //app-image-field[contains(@style, 'display: flex')]//img 
                     ${image_count}=    Get Length    ${images}
@@ -381,7 +370,7 @@ Témák közötti navigáció ellenőrzése
    
     #oldalszám visszaírása
     Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     Alapadatok     3    5    ${leckek_szama}
-    Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}      1    7    ${leckek_szama}
+    Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}      1    4    ${leckek_szama}
 
    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Újrakezdés')]    1s
     Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Újrakezdés')]
