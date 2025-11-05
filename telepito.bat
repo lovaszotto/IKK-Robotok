@@ -1,20 +1,23 @@
 @echo off
 REM =====================================================
-REM  IKK02 FORMAI ELLENORZO RENDSZER - TELEPITO v2.0
+REM  IKK04 DOKUMENTUM WEB-ELLENORZO RENDSZER - TELEPITO v3.0
 REM  Robot Framework alapu automatizált dokumentum
-REM  formálellenőrzés és plágium detektálás
+REM  formálellenőrzés és WEB alkalmazás tesztelés
 REM =====================================================
 setlocal EnableDelayedExpansion
 
 echo.
 echo =====================================================
-echo   IKK02 FORMAI ELLENORZO RENDSZER TELEPITO v2.0
+echo   IKK04 DOKUMENTUM WEB-ELLENORZO RENDSZER TELEPITO v3.0
 echo   
 echo   Funkcionalitas:
-echo   - Automatikus DOCX formai ellenorzes
+echo   - Automatikus DOCX formai ellenorzes (23 kategoria)
+echo   - WEB alkalmazas automatizalt tesztelese
+echo   - Selenium WebDriver integralas
 echo   - Robot Framework tesztvezerlese  
 echo   - Excel export es riportkeszites
-echo   - Web interfesz tamogatas
+echo   - Flask webes interfesz
+echo   - Media ellenorzes (kepek, videok)
 echo =====================================================
 echo.
 
@@ -189,12 +192,15 @@ echo Csomagok telepitese...
 REM rf_env\Scripts\activate (nem szükséges, pip elérési út miatt)
 rf_env\Scripts\pip.exe install --upgrade pip
 rf_env\Scripts\pip.exe install robotframework
+rf_env\Scripts\pip.exe install robotframework-seleniumlibrary
 rf_env\Scripts\pip.exe install robotframework-databaselibrary
+rf_env\Scripts\pip.exe install robotframework-requests
 rf_env\Scripts\pip.exe install openpyxl
 rf_env\Scripts\pip.exe install python-docx
 rf_env\Scripts\pip.exe install pywin32
 rf_env\Scripts\pip.exe install lxml
 rf_env\Scripts\pip.exe install flask
+rf_env\Scripts\pip.exe install langdetect
 rf_env\Scripts\pip.exe install pillow
 rf_env\Scripts\pip.exe install requests
 
@@ -205,65 +211,6 @@ if errorlevel 1 (
 )
 
 echo.
-rem echo start.bat fajl letrehozasa...
-
-REM start.bat fajl letrehozasa
-rem echo @echo off > start.bat
-rem echo REM ========================================= >> start.bat
-rem echo REM  FORMAI ELLENORZO RENDSZER FUTTATAS >> start.bat
-rem echo REM ========================================= >> start.bat
-rem echo echo. >> start.bat
-rem echo echo ========================================= >> start.bat
-rem echo echo   FORMAI ELLENORZO RENDSZER >> start.bat
-rem echo echo   Main robot futtatas >> start.bat
-rem echo echo ========================================= >> start.bat
-rem echo echo. >> start.bat
-rem echo. >> start.bat
-rem echo REM Ellenorizzuk a virtualis kornyezet megletet >> start.bat
-rem echo if not exist "rf_env\Scripts\robot.exe" ^( >> start.bat
-rem echo     echo HIBA: Virtualis kornyezet nem talalhato! >> start.bat
-rem echo     echo Futtassa eloszor a telepito.bat fajlt! >> start.bat
-rem echo     pause >> start.bat
-rem echo     exit /b 1 >> start.bat
-rem echo ^) >> start.bat
-rem echo. >> start.bat
-rem echo echo Konfiguracio ellenorzese... >> start.bat
-rem echo if not exist "IKK.config" ^( >> start.bat
-rem echo     echo HIBA: IKK.config fajl nem talalhato! >> start.bat
-rem echo     echo Ellenorizze a konfiguracios fajlt! >> start.bat
-rem echo     pause >> start.bat
-rem echo     exit /b 1 >> start.bat
-rem echo ^) >> start.bat
-rem echo. >> start.bat
-rem echo REM Results konyvtar letrehozasa ha nem letezik >> start.bat
-rem echo if not exist "results" ^( >> start.bat
-rem echo     echo Results konyvtar letrehozasa... >> start.bat
-rem echo     mkdir "results" >> start.bat
-rem echo ^) >> start.bat
-rem echo. >> start.bat
-rem echo echo Robot Framework teszt futtatasa... >> start.bat
-rem echo echo Formai ellenorzes futtatasa ^(PLG-00-main.robot^)... >> start.bat
-rem echo. >> start.bat
-rem echo rf_env\Scripts\robot.exe --outputdir results PLG-00-main.robot >> start.bat
-rem echo. >> start.bat
-rem echo if errorlevel 1 ^( >> start.bat
-rem echo     echo HIBA: A teszt futtatasa sikertelen! >> start.bat
-rem echo     echo Ellenorizze a results\log.html fajlt a reszletekert. >> start.bat
-rem echo ^) else ^( >> start.bat
-rem echo     echo. >> start.bat
-rem echo     echo ========================================= >> start.bat
-rem echo     echo TESZT SIKERESEN BEFEJEZODOTT! >> start.bat
-rem echo     echo. >> start.bat
-rem echo     echo Eredmenyek: >> start.bat
-rem echo     echo - Log: results\log.html >> start.bat
-rem echo     echo - Report: results\report.html >> start.bat
-rem echo     echo - Email elkuldve a konfiguralt cimre >> start.bat
-rem echo     echo ========================================= >> start.bat
-rem echo ^) >> start.bat
-rem echo. >> start.bat
-rem echo exit >> start.bat
-
-echo.
 echo =========================================
 echo TELEPITES SIKERES!
 echo.
@@ -271,33 +218,38 @@ echo Telepitesi hely: %TARGET_DIR%
 echo.
 echo Telepitett komponensek:
 echo - Robot Framework (tesztvezerlesi keretrendszer)
+echo - Selenium Library (WEB automatizalas)
 echo - Database Library (adatbazis kezeles)
+echo - Requests Library (HTTP kliens)
 echo - OpenPyXL (Excel export es kezeles)
 echo - Python-docx (DOCX olvasas es iras)
 echo - PyWin32 (Windows COM objektumok - email kuldes)
 echo - LXML (XML/HTML feldolgozo)
 echo - Flask (webes szerver)
 echo - Pillow (kepfeldolgozo)
-echo - Requests (HTTP kliens)
+echo - LangDetect (nyelv felismeres)
 echo - Teljes projekt fajlok (robot, libraries, resources)
-echo - Web interfesz (robot_runner.html)
+echo - WEB tesztesetek es media ellenorzes
+echo - Webes interfesz (robot_runner.html)
 echo - Sablonok es dokumentacio
-echo - start.bat futtato script
+echo - start.bat es webserver.bat futtato scriptek
 echo.
 echo Hasznalat:
-echo 1. Konzol modu: Menjen a telepitesi konyvtarba: %TARGET_DIR%
-echo    Es futtassa: start.bat
-echo 2. Webes modu: Nyissa meg: web\robot_runner.html
-echo    Vagy futtassa: rf_env\Scripts\python.exe libraries\web_server.py
+echo 1. Dokumentum ellenorzes: Menjen a telepitesi konyvtarba: %TARGET_DIR%
+echo    Es futtassa: start.bat (PLG-00-main.robot)
+echo 2. WEB ellenorzes: Futtassa: rf_env\Scripts\robot.exe PLG-05-WEB-ellenor-main.robot
+echo 3. Webes interfesz: Futtassa: webserver.bat
+echo    Vagy nyissa meg: web\robot_runner.html
 echo.
 echo Konfiguracio: 
-echo - IKK.config fajl szerkesztese ( mappak)
+echo - IKK.config fajl szerkesztese (email, mappak, WEB URL)
+echo - Duplikacio.config fajl szerkesztese (duplikacio parameterek)
 echo - Sablonok: sablonok\ konyvtar
-echo - Tesztfajlok: test\ konyvtar
+echo - WEB tesztesetek: resources\testcases\ konyvtar
 echo - Eredmenyek: results\ konyvtar
-echo - Dokumentacio: README.md, DOKUMENTACIO.md
+echo - Dokumentacio: README.md, DOKUMENTACIO.md, TELEPITO_UTMUTATO.txt
 echo.
-echo Webes inditas: WEBES_INDITASI_UTMUTATO.md
+echo WEB funkcionalitas: WEBES_INDITASI_UTMUTATO.md
 echo =========================================
 echo.
 echo webserver.bat fajl letrehozasa webes inditashoz...
