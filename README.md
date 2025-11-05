@@ -1,32 +1,24 @@
-# DuplikacioEllenorzesRobot
-# 🤖 Robot Framework Plágium Ellenőrző Rendszer
+# IKK04-Dokumentum-WEB-Ellenőrzés
+# 🤖 Robot Framework Dokumentum és WEB Ellenőrző Rendszer
 
-[![Robot Framework](https://img.shields.io/badge/Robot- `status`: Kategorizálás (Rendben/Gyanús/Másolt)
-- `file_name`: Dokumentum neve
-- `max_ismetelt_karakterszam`: Legnagyobb redundancia
-- `record_date`: Feldolgozás dátuma
-
-### 🚫 Skip funkciók
-- `hashValue`: MD5 hash kihagyandó szövegekhez (PRIMARY KEY)
-- `line_content`: Átugrandó szöveg tartalom
-
-## ⚙️ Konfigurációreen.svg)](https://robotframework.org/)
+[![Robot Framework](https://img.shields.io/badge/Robot-Framework-00c0ef.svg)](https://robotframework.org/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![SQLite](https://img.shields.io/badge/SQLite-3.x-lightgrey.svg)](https://sqlite.org/)
+[![Selenium](https://img.shields.io/badge/Selenium-WebDriver-green.svg)](https://selenium.dev/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-> 🔍 **Automatizált DOCX dokumentum plágium ellenőrzés** hash-alapú algoritmussal, Excel jelentéskészítéssel és automatikus email értesítéssel.
+> 🔍 **Automatizált DOCX dokumentum formálellenőrzés és WEB alkalmazás tesztelés** Robot Framework-kel, Excel jelentéskészítéssel és webes interfészel.
 
 ## ✨ Főbb funkciók
 
-- 🔍 **Automatikus plágium detektálás** SHA-256 hash algoritmussal
-- 📊 **Excel jelentések** színkódolt státusz kategóriákkal  
+- � **DOCX dokumentum formálellenőrzés** 23 ellenőrzési kategóriával
+- 🌐 **WEB alkalmazás tesztelés** Selenium WebDriver-rel
+- 🎯 **Automatizált navigáció** webes tananyagokban
+- 📊 **Excel jelentések** részletes eredményekkel
 - 📧 **Automatikus email küldés** Outlook COM integrációval
 - 🗄️ **SQLite adatbázis** teljes előzmény nyilvántartással
-- 🎯 **Háromszintű kategorizálás**: Rendben / Gyanús / Másolt
 - 🔄 **Batch feldolgozás** több dokumentum egyidejű kezelésére
-- ⏭️ **Intelligens skip funkció** konfigurálható szövegszűréssel
-- 🚫 **Duplikált tartalom kizárása** skip funkciókkal
+- 🌐 **Webes interfész** Flask szerverrel
+- 🎪 **Média ellenőrzés** képek és videók kezelésével
 
 ## 🚀 Gyors indítás
 
@@ -41,26 +33,33 @@ rf_env\Scripts\activate
 
 ### 2️⃣ Konfiguráció
 ```ini
-# Duplikacio.config szerkesztése
+# IKK.config szerkesztése
 email=your-email@company.com
 input_folder=C:\Documents\ToCheck
 output_folder=C:\Reports
+web_url=https://your-web-app.com
 ```
 
 ```ini
-# DuplikacioSkip.config - átugrandó szövegek
-igaz vagy hamis a következő állítás?
-válaszd ki a helyes megoldásokat!
-válaszd ki a helyes választ!
+# Duplikacio.config - duplikáció ellenőrzés
+INPUT=C:\tmp\keziratok_teszteleshez
+OUTPUT=C:\tmp
+EXCEL_PREFIX=duplikacio_export
+THRESHOLD_GYANUS=300
+THRESHOLD_MASOLT=1200
 ```
 
 ### 3️⃣ Futtatás
 ```powershell
-# Robot Framework teszt futtatása
+# Dokumentum formálellenőrzés
 rf_env\Scripts\robot.exe PLG-00-main.robot
 
-# Vagy batch fájlon keresztül
-start.bat
+# WEB ellenőrzés
+rf_env\Scripts\robot.exe PLG-05-WEB-ellenor-main.robot
+
+# Batch fájlokkal
+start.bat           # Dokumentum ellenőrzés
+webserver.bat       # Webes interfész
 ```
 
 ## 📊 Eredmény példa
@@ -68,61 +67,70 @@ start.bat
 ### 📈 Konsol kimenet
 ```
 === DOCX FÁJLOK KERESÉSE ===
-Talált DOCX fájlok száma: 6
+Talált DOCX fájlok száma: 3
 
-🏆 VÉGSŐ ÖSSZESÍTÉS:
-📊 Összes dokumentum: 45
-🟢 Rendben: 41 dokumentum (91.1%)
-🟡 Gyanús: 2 dokumentum (4.4%)  
-🔴 Másolt: 2 dokumentum (4.4%)
+**************************************************************************
+* wtc_03- Témák közötti navigáció ellenőrzése
+**************************************************************************
 
-✅ Excel fájl: plagium_eredmenyek_20250825_040223.xlsx
-🎯 PLAGIUM ELLENORZÉS TELJES FOLYAMATA BEFEJEZVE! ✅
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált képek száma: 2
+Kép alt attribútum: Ellenőrzés
+Kép Content-Type: image/svg+xml
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált videók száma: 0
+
+✅ WEB ELLENŐRZÉS BEFEJEZVE!
+🎯 Eredmények: results/log.html
 ```
 
 ### 📧 Automatikus email
-- **HTML formátumú jelentés** színkódolt státuszokkal
-- **Excel melléklet** részletes adatokkal
-- **Összesítő statisztikák** százalékos megoszlással
+- **HTML formátumú jelentés** WEB és dokumentum ellenőrzés eredményekkel
+- **Excel melléklet** részletes adatokkal és média katalógussal
+- **Összesítő statisztikák** tesztesetek eredményeivel
 
 ## 🏗️ Rendszer architektúra
 
 ```
-📁 PlagiumEllenorzes/
-├── 🤖 PLG-00-main.robot          # Fő Robot Framework teszt
-├── ⚙️ Duplikacio.config          # Fő konfigurációs fájl
-├── 🚫 DuplikacioSkip.config      # Skip szabályok konfigurációja
+📁 IKK04-Dokumentum-WEB-Ellenőrzés/
+├── 🤖 PLG-00-main.robot          # Dokumentum formálellenőrzés
+├── 🌐 PLG-05-WEB-ellenor-main.robot # WEB alkalmazás tesztelés
+├── ⚙️ IKK.config                 # Fő konfigurációs fájl
+├── ⚙️ Duplikacio.config          # Duplikáció ellenőrzés konfiguráció
 ├── 📚 libraries/                 # Python modulok
 │   ├── 🐍 DocxReader.py          # DOCX olvasó library
 │   ├── 📧 send_email.py          # Email küldő rendszer
-│   ├── 📊 excel_export_simple.py # Excel export engine
+│   ├── 🌐 web_server.py          # Flask webes szerver
 │   └── ⚙️ get_config.py          # Konfiguráció betöltő
 ├── 📂 resources/                 # Robot Framework erőforrások
 │   ├── 🔑 keywords.robot         # Kulcsszó definíciók
-│   └── 🔢 variables.robot        # Változó definíciók
+│   ├── 🔢 variables.robot        # Változó definíciók
+│   └── 📂 testcases/             # WEB tesztesetek
+├── 🌐 web/                       # Webes interfész
+├── 📊 sablonok/                  # Excel sablonok
 ├── 🗃️ test_database.db           # SQLite adatbázis
 └── 🐍 rf_env/                    # Python virtuális környezet
 ```
 
-## 🔍 Plágium algoritmus
+## 🔍 Ellenőrzési algoritmusok
 
-### Hash-alapú összehasonlítás
+### Dokumentum formálellenőrzés (23 kategória)
 1. **📄 DOCX beolvasás**: Szöveges tartalom kinyerése
-2. **� Skip ellenőrzés**: DuplikacioSkip.config alapján szűrés
-3. **🔐 MD5 hash**: Minden sorhoz egyedi hash generálás
-4. **🔍 Összehasonlítás**: Hash értékek összevetése adatbázisban
-5. **📊 Kategorizálás**: Redundancia hossz alapján értékelés
+2. **🎯 Arculati elemek**: Logók, színek, betűtípusok
+3. **� Szövegformázás**: Címsorok, bekezdések, felsorolások
+4. **� Táblázatok és ábrák**: Formátum és elhelyezés ellenőrzés
+5. **� Oldalbeállítások**: Margók, fejléc, lábléc
 
-### Skip funkcionalitás
-- **🚫 DuplikacioSkip.config**: Automatikusan kihagyandó szövegek
-- **📝 Hash alapú**: MD5 hash generálás minden skip szabályhoz
-- **🔄 Startup betöltés**: skip funkciók automatikus betöltése
-- **⚡ Gyors szűrés**: Hash összehasonlítás alapján azonnali kihagyás
+### WEB alkalmazás tesztelés
+- **🌐 Selenium WebDriver**: Automatizált böngésző vezérlés
+- **🎯 Navigációs tesztek**: Témák közötti átjárás
+- **�️ Média ellenőrzés**: Képek és videók feltérképezése
+- **📊 Eredmény gyűjtés**: Excel export média katalógussal
+- **⚡ Automatikus interakció**: Gombok, űrlapok kezelése
 
 ### Kategorizálási szabályok
-- 🟢 **Rendben**: < 300 karakter redundancia
-- 🟡 **Gyanús**: 300-1200 karakter redundancia
-- 🔴 **Másolt**: > 1200 karakter redundancia
+- 🟢 **Megfelelő**: Teljesíti a követelményeket
+- 🟡 **Figyelmeztetés**: Kisebb hibák találhatók
+- 🔴 **Hiba**: Jelentős problémák vannak
 
 ## 📧 Email automatizálás
 
@@ -197,11 +205,18 @@ válaszd ki a helyes választ!
 ## 📦 Függőségek
 
 ```txt
-robotframework==6.1.1
-robotframework-databaselibrary==1.2.4
-python-docx==0.8.11
-openpyxl==3.1.2
-pywin32==306
+robotframework
+robotframework-seleniumlibrary
+robotframework-databaselibrary
+robotframework-requests
+flask
+docx
+python-docx
+lxml
+openpyxl
+langdetect
+pillow
+requests
 ```
 
 
@@ -234,8 +249,8 @@ pip install -r requirements.txt
 
 ### 4️⃣ Konfiguráció
 ```powershell
-notepad Duplikacio.config       # Email és könyvtárak beállítása
-notepad DuplikacioSkip.config   # Skip szabályok konfigurálása
+notepad IKK.config              # Email, könyvtárak és WEB URL beállítása
+notepad Duplikacio.config       # Duplikáció ellenőrzés paraméterek
 ```
 
 ## 🧪 Tesztelés
@@ -258,24 +273,38 @@ rf_env\Scripts\python.exe libraries\excel_export_simple.py test.xlsx
 rf_env\Scripts\robot.exe --dryrun PLG-00-main.robot
 ```
 
-## ▶️ Futtatás és logok (aktuális mód)
+## ▶️ Futtatás és logok
 
-Ebben a projektben a teljes folyamat egy közös Robot Framework suite-ból fut (PLG-00-main.robot), és a beépített Robot logok le vannak tiltva. Helyettük egy egyedi, időbélyeggel ellátott naplófájl készül a konfigurált kimeneti mappába.
+### Dokumentum ellenőrzés mód
+A PLG-00-main.robot teljes DOCX dokumentum formálellenőrzést végez 23 kategóriában.
 
-### Hogyan futtasd
+### WEB ellenőrzés mód
+A PLG-05-WEB-ellenor-main.robot automatizált webes tesztelést hajt végre.
 
-- PowerShell-ből (aktív virtuális környezet mellett):
-	- rf_env\Scripts\activate; rf_env\Scripts\robot.exe --output NONE --log NONE --report NONE PLG-00-main.robot
-- Vagy a mellékelt batch fájllal:
-	- start.bat
+### Futtatási módok
 
-### Hol találom a logot?
+**PowerShell-ből (aktív virtuális környezet mellett):**
+```powershell
+# Dokumentum ellenőrzés
+rf_env\Scripts\robot.exe PLG-00-main.robot
 
-- A Duplikacio.config fájl `output_folder` beállítása határozza meg a kimeneti mappát.
-- Futáskor ide kerül egy fájl: `RunLog_YYYYMMDD_HHMMSS.log` (példa: `RunLog_20250922_101530.log`).
-- Ha a `start.bat`-ot használod, a futás végén kiírja ennek a pontos elérési útját.
+# WEB ellenőrzés
+rf_env\Scripts\robot.exe PLG-05-WEB-ellenor-main.robot
 
-Megjegyzés: A Robot Framework alapértelmezett `log.html` és `report.html` fájljai ebben a futtatási módban szándékosan ki vannak kapcsolva.
+# Logok nélkül
+rf_env\Scripts\robot.exe --output NONE --log NONE --report NONE PLG-00-main.robot
+```
+
+**Batch fájlokkal:**
+```batch
+start.bat           # Dokumentum ellenőrzés
+webserver.bat       # Webes interfész indítása
+```
+
+### Eredmények helye
+- **Robot logok**: results/log.html, results/report.html
+- **Excel exportok**: Konfigurált output_folder
+- **Egyedi logok**: RunLog_YYYYMMDD_HHMMSS.log fájlok
 
 ### Logok megtekintése böngészőben (helyi http szerver)
 
@@ -407,12 +436,13 @@ Skip hash:válaszd ki a helyes választ!
 
 ## 🏷️ Changelog
 
-### v2.2.0 (2025-09-22)
-- ✅ **ÚJ**: DuplikacioSkip.config támogatás hozzáadva
-- ✅ **ÚJ**: skipHashCodes adatbázis tábla automatikus létrehozása
-- ✅ **ÚJ**: MD5 hash alapú intelligens szövegszűrés
-- ✅ **JAVÍTÁS**: Startup-kor automatikus skip szabályok betöltése
-- ✅ **FEJLESZTÉS**: Hash táblák ellenőrzése keyword kibővítése
+### v3.0.0 (2025-11-05) - IKK04 WEB Release
+- ✅ **ÚJ**: WEB alkalmazás automatizált tesztelés
+- ✅ **ÚJ**: Selenium WebDriver integráció
+- ✅ **ÚJ**: 23 formálellenőrzési kategória
+- ✅ **ÚJ**: Webes interfész Flask szerverrel
+- ✅ **ÚJ**: Média ellenőrzés (képek, videók)
+- ✅ **FEJLESZTÉS**: Teljes rendszer újrastrukturálás
 
 ### v2.1.0 (2025-08-25)
 - ✅ **ÚJ**: Háromszintű email küldési rendszer
@@ -446,5 +476,5 @@ Ez a projekt [MIT](LICENSE) licenc alatt áll. Lásd a `LICENSE` fájlt a részl
 
 **⭐ Ha hasznos volt a projekt, adj egy csillagot a GitHub-on!**
 
-*🤖 Robot Framework Duplikáció Ellenőrző v2.2.0*  
-*📅 Utolsó frissítés: 2025. szeptember 22.*
+*🤖 Robot Framework IKK04 Dokumentum és WEB Ellenőrző v3.0.0*  
+*📅 Utolsó frissítés: 2025. november 5.*
