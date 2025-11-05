@@ -1,7 +1,13 @@
 robotframework
+robotframework-seleniumlibrary
+robotframework-databaselibrary
+robotframework-requests
 flask
 docx
 python-docx
 lxml
 openpyxl
 langdetect
+pillow
+requests
+pywin32
