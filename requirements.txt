@@ -1,0 +1,10 @@
+docx
+openpyxl
+robot
+win32com
+flask
+numpy
+matplotlib
+Pillow
+fpdf
+

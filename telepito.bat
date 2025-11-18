@@ -14,12 +14,9 @@ echo.
 
 REM Automatikus telepitesi konyvtar beallitasa: az aktualis folder neveben a DownloadedRobots kifejezest InstalledRobots-ra csereljuk
 set "CURDIR=%CD%"
+set "TARGET_DIR=%CURDIR%"
 echo [INFO] Telepitesi konyvtar: %TARGET_DIR%
 
-
-REM Rendszerkovetelmények ellenorzese
-echo Rendszerkovetelmeny ellenorzese...
-echo.
 
 REM Python verzio es jelenlét ellenorzese
 echo [1/4] Python ellenorzese...
@@ -40,21 +37,6 @@ REM Python verzio reszletes ellenorzese
 for /f "tokens=2" %%V in ('python --version 2^>^&1') do set PYTHON_VERSION=%%V
 echo [SUCCESS] Python verzio: %PYTHON_VERSION%
 
-REM Python verzio kompatibilitas ellenorzese (3.8+)
-for /f "tokens=1,2 delims=." %%a in ("%PYTHON_VERSION%") do (
-    set MAJOR=%%a
-    set MINOR=%%b
-)
-if %MAJOR% LSS 3 (
-    echo [ERROR] Python verzio tul regi! Minimum 3.8 szukseges.
-    pause
-    exit /b 1
-)
-if %MAJOR% EQU 3 if %MINOR% LSS 8 (
-    echo [ERROR] Python verzio tul regi! Minimum 3.8 szukseges.
-    pause
-    exit /b 1
-)
 
 echo [2/4] pip csomag kezelo ellenorzese...
 python -m pip --version >nul 2>&1
@@ -66,21 +48,8 @@ if errorlevel 1 (
 )
 echo [SUCCESS] pip csomag kezelo elerheto
 
-echo [3/4] Windows verzio ellenorzese...
-ver | findstr /i "Windows" >nul 2>&1
-if errorlevel 1 (
-    echo [WARN] Windows verzio nem azonosithato, folyatatas...
-) else (
-    echo [SUCCESS] Windows operacios rendszer eszlelve
-)
 
-echo [4/4] Tarterulet ellenorzese...
-for /f "tokens=3" %%a in ('dir /-c "%TARGET_DIR%\.." 2^>nul ^| findstr /i "bytes free"') do set FREE_BYTES=%%a
-if defined FREE_BYTES (
-    echo [SUCCESS] Elegendo tarterulet elerheto
-) else (
-    echo [WARN] Tarterulet ellenorzes nem sikerult, folyatatas...
-)
+
 
 echo.
 echo RENDSZERKOVETELMENY ELLENORZESE BEFEJEZVE
@@ -120,15 +89,7 @@ if not exist ".venv" (
     echo [INFO] Virtualis kornyezet mar letezik, frissites...
 )
 
-REM pip frissitese
-echo.
-echo Python csomagkezelo pip frissitese...
-.venv\Scripts\pip.exe install --upgrade pip --quiet
-if errorlevel 1 (
-    echo [WARN] pip frissites reszben sikertelen, folyatatas...
-) else (
-    echo [SUCCESS] pip sikeresen frissitve
-)
+
 
 REM Fuggosegek telepitese
 echo.
