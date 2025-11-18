@@ -50,12 +50,6 @@ echo [SUCCESS] pip csomag kezelo elerheto
 
 
 
-
-echo.
-echo RENDSZERKOVETELMENY ELLENORZESE BEFEJEZVE
-echo.
-
-
 echo PYTHON KORNYEZET ES FUGGOSEGEK TELEPITESE
 echo.
 
@@ -90,61 +84,20 @@ if not exist ".venv" (
 )
 
 
-
-REM Fuggosegek telepitese
+REM Fuggosegek telepitese a requirements.txt alapjan
 echo.
-echo Robot Framework es fuggosegek telepitese...
+echo Python csomagok telepitese a requirements.txt alapjan...
 echo [INFO] Ez eltarthat nehany percig, kerem varjon...
 
-echo [1/6] Robot Framework telepitese...
-.venv\Scripts\pip.exe install robotframework==7.3.2 --quiet
+.venv\Scripts\pip.exe install -r requirements.txt --quiet
 if errorlevel 1 (
-    echo [ERROR] Robot Framework telepitese sikertelen!
+    echo [ERROR] requirements.txt alapjan a csomagok telepitese sikertelen!
     goto :pip_error
 )
 
-echo [2/6] Database Library telepitese...
-.venv\Scripts\pip.exe install robotframework-databaselibrary==2.3.2 --quiet
-if errorlevel 1 (
-    echo [ERROR] Database Library telepitese sikertelen!
-    goto :pip_error
-)
 
-echo [3/6] OpenPyXL Excel telepitese...
-.venv\Scripts\pip.exe install openpyxl==3.1.5 --quiet
-if errorlevel 1 (
-    echo [ERROR] OpenPyXL telepitese sikertelen!
-    goto :pip_error
-)
-
-echo [4/6] Python-docx telepitese...
-.venv\Scripts\pip.exe install python-docx==1.2.0 --quiet
-if errorlevel 1 (
-    echo [ERROR] Python-docx telepitese sikertelen!
-    goto :pip_error
-)
-
-echo [5/6] PyWin32 Windows telepitese...
-.venv\Scripts\pip.exe install pywin32==311 --quiet
-if errorlevel 1 (
-    echo [ERROR] PyWin32 telepitese sikertelen!
-    goto :pip_error
-)
-
-echo [6/6] RobotLibCore telepitese...
-.venv\Scripts\pip.exe install robotframework-pythonlibcore==4.4.1 --quiet
-if errorlevel 1 (
-    echo [WARN] RobotLibCore telepites reszben sikertelen, folyatatas...
-)
-
-echo.
 echo PYTHON CSOMAGOK TELEPITESE BEFEJEZVE
-goto :continue_install
 
-:pip_error
-echo.   
-
-:continue_install
 REM Konfiguracios fajl ellenorzese es testre szabasi utmutato
 echo.
 echo Konfiguracios fajl ellenorzese...
