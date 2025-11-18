@@ -1,7 +1,6 @@
 docx
 openpyxl
-robot
-win32com
+robotframework
 flask
 numpy
 matplotlib
