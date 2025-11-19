@@ -13,4 +13,4 @@ echo Web szerver inditasa...
 echo Nyissa meg a bongeszoben: http://localhost:5000 
 echo Vagy nyissa meg a web\robot_runner.html fajlt 
 echo. 
-rf_env\Scripts\python.exe libraries\web_server.py 
+.venv\Scripts\python.exe libraries\web_server.py 

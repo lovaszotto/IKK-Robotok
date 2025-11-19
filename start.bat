@@ -1,4 +1,4 @@
-@echo off 
+./setlocal@echo off 
 REM ========================================= 
 REM  FORMAI ELLENORZO RENDSZER FUTTATAS 
 REM ========================================= 
@@ -10,7 +10,7 @@ echo =========================================
 echo. 
  
 REM Ellenorizzuk a virtualis kornyezet megletet 
-if not exist "rf_env\Scripts\robot.exe" ( 
+if not exist ".venv\Scripts\robot.exe" ( 
     echo HIBA: Virtualis kornyezet nem talalhato 
     echo Futtassa eloszor a telepito.bat fajlt 
     pause 
@@ -34,7 +34,7 @@ if not exist "results" (
 echo Robot Framework teszt futtatasa... 
 echo Formai ellenorzes futtatasa (PLG-00-main.robot)... 
  
-rf_env\Scripts\robot.exe --outputdir results PLG-00-main.robot 
+.venv\Scripts\robot.exe --outputdir results PLG-00-main.robot 
  
 if errorlevel 1 ( 
     echo HIBA: A teszt futtatasa sikertelen 
