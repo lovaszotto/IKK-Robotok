@@ -1,0 +1,115 @@
+DEBUG (alap config): input_folder = ./test
+DEBUG (alap config): output_folder = ./test
+DEBUG: keresett config_file = C:\Users\oLovasz\MyRobotFramework\SandboxRobots\IKK-Robotok\IKK04-Dokumentum-WEB-Ellenőrzés\IKK.config
+DEBUG (configból): input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG (configból): output_folder = c:\tmp
+DEBUG: input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG: output_folder = c:\tmp
+DEBUG (alap config): input_folder = ./test
+DEBUG (alap config): output_folder = ./test
+DEBUG: keresett config_file = C:\Users\oLovasz\MyRobotFramework\SandboxRobots\IKK-Robotok\IKK04-Dokumentum-WEB-Ellenőrzés\IKK.config
+DEBUG (configból): input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG (configból): output_folder = c:\tmp
+DEBUG: input_folder létezik: c:\tmp\keziratok_teszteleshez -> True
+DEBUG: output_folder létezik: c:\tmp -> True
+DEBUG: input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG: output_folder = c:\tmp
+DEBUG (alap config): input_folder = ./test
+DEBUG (alap config): output_folder = ./test
+DEBUG: keresett config_file = C:\Users\oLovasz\MyRobotFramework\SandboxRobots\IKK-Robotok\IKK04-Dokumentum-WEB-Ellenőrzés\IKK.config
+DEBUG (configból): input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG (configból): output_folder = c:\tmp
+DEBUG: input_folder létezik: c:\tmp\keziratok_teszteleshez -> True
+DEBUG: output_folder létezik: c:\tmp -> True
+DEBUG: input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG: output_folder = c:\tmp
+DEBUG (alap config): input_folder = ./test
+DEBUG (alap config): output_folder = ./test
+DEBUG: keresett config_file = C:\Users\oLovasz\MyRobotFramework\SandboxRobots\IKK-Robotok\IKK04-Dokumentum-WEB-Ellenőrzés\IKK.config
+DEBUG (configból): input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG (configból): output_folder = c:\tmp
+DEBUG: input_folder létezik: c:\tmp\keziratok_teszteleshez -> True
+DEBUG: output_folder létezik: c:\tmp -> True
+DEBUG: input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG: output_folder = c:\tmp
+DEBUG (alap config): input_folder = ./test
+DEBUG (alap config): output_folder = ./test
+DEBUG: keresett config_file = C:\Users\oLovasz\MyRobotFramework\SandboxRobots\IKK-Robotok\IKK04-Dokumentum-WEB-Ellenőrzés\IKK.config
+DEBUG (configból): input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG (configból): output_folder = c:\tmp
+DEBUG: input_folder létezik: c:\tmp\keziratok_teszteleshez -> True
+DEBUG: output_folder létezik: c:\tmp -> True
+DEBUG: input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG: output_folder = c:\tmp
+DEBUG (alap config): input_folder = ./test
+DEBUG (alap config): output_folder = ./test
+DEBUG: keresett config_file = C:\Users\oLovasz\MyRobotFramework\SandboxRobots\IKK-Robotok\IKK04-Dokumentum-WEB-Ellenőrzés\IKK.config
+DEBUG (configból): input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG (configból): output_folder = c:\tmp
+DEBUG: input_folder létezik: c:\tmp\keziratok_teszteleshez -> True
+DEBUG: output_folder létezik: c:\tmp -> True
+DEBUG: input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG: output_folder = c:\tmp
+DEBUG (alap config): input_folder = ./test
+DEBUG (alap config): output_folder = ./test
+DEBUG: keresett config_file = C:\Users\oLovasz\MyRobotFramework\SandboxRobots\IKK-Robotok\IKK04-Dokumentum-WEB-Ellenőrzés\IKK.config
+DEBUG (configból): input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG (configból): output_folder = c:\tmp
+DEBUG: input_folder létezik: c:\tmp\keziratok_teszteleshez -> True
+DEBUG: output_folder létezik: c:\tmp -> True
+DEBUG: input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG: output_folder = c:\tmp
+DEBUG (alap config): input_folder = ./test
+DEBUG (alap config): output_folder = ./test
+DEBUG: keresett config_file = C:\Users\oLovasz\MyRobotFramework\SandboxRobots\IKK-Robotok\IKK04-Dokumentum-WEB-Ellenőrzés\IKK.config
+DEBUG (configból): input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG (configból): output_folder = c:\tmp
+DEBUG: input_folder létezik: c:\tmp\keziratok_teszteleshez -> True
+DEBUG: output_folder létezik: c:\tmp -> True
+DEBUG: input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG: output_folder = c:\tmp
+DEBUG (alap config): input_folder = ./test
+DEBUG (alap config): output_folder = ./test
+DEBUG: keresett config_file = C:\Users\oLovasz\MyRobotFramework\SandboxRobots\IKK-Robotok\IKK04-Dokumentum-WEB-Ellenőrzés\IKK.config
+DEBUG (configból): input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG (configból): output_folder = c:\tmp
+DEBUG: input_folder létezik: c:\tmp\keziratok_teszteleshez -> True
+DEBUG: output_folder létezik: c:\tmp -> True
+DEBUG: input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG: output_folder = c:\tmp
+DEBUG (alap config): input_folder = ./test
+DEBUG (alap config): output_folder = ./test
+DEBUG: keresett config_file = C:\Users\oLovasz\MyRobotFramework\SandboxRobots\IKK-Robotok\IKK04-Dokumentum-WEB-Ellenőrzés\IKK.config
+DEBUG (configból): input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG (configból): output_folder = c:\tmp
+DEBUG: input_folder létezik: c:\tmp\keziratok_teszteleshez -> True
+DEBUG: output_folder létezik: c:\tmp -> True
+DEBUG: input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG: output_folder = c:\tmp
+DEBUG (alap config): input_folder = ./test
+DEBUG (alap config): output_folder = ./test
+DEBUG: keresett config_file = C:\Users\oLovasz\MyRobotFramework\SandboxRobots\IKK-Robotok\IKK04-Dokumentum-WEB-Ellenőrzés\IKK.config
+DEBUG (configból): input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG (configból): output_folder = c:\tmp
+DEBUG: input_folder létezik: c:\tmp\keziratok_teszteleshez -> True
+DEBUG: output_folder létezik: c:\tmp -> True
+DEBUG: input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG: output_folder = c:\tmp
+DEBUG (alap config): input_folder = ./test
+DEBUG (alap config): output_folder = ./test
+DEBUG: keresett config_file = C:\Users\oLovasz\MyRobotFramework\SandboxRobots\IKK-Robotok\IKK04-Dokumentum-WEB-Ellenőrzés\IKK.config
+DEBUG (configból): input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG (configból): output_folder = c:\tmp
+DEBUG: input_folder létezik: c:\tmp\keziratok_teszteleshez -> True
+DEBUG: output_folder létezik: c:\tmp -> True
+DEBUG: input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG: output_folder = c:\tmp
+DEBUG (alap config): input_folder = ./test
+DEBUG (alap config): output_folder = ./test
+DEBUG: keresett config_file = C:\Users\oLovasz\MyRobotFramework\SandboxRobots\IKK-Robotok\IKK04-Dokumentum-WEB-Ellenőrzés\IKK.config
+DEBUG (configból): input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG (configból): output_folder = c:\tmp
+DEBUG: input_folder létezik: c:\tmp\keziratok_teszteleshez -> True
+DEBUG: output_folder létezik: c:\tmp -> True
+DEBUG: input_folder = c:\tmp\keziratok_teszteleshez
+DEBUG: output_folder = c:\tmp

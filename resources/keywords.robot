@@ -220,6 +220,8 @@ Log String To Console
 Process Config Line
     #Log String To Console    [TRACE] Process Config Line elindult
     [Arguments]    ${config_line}
+    # Csak az utolsó sort dolgozzuk fel, ha több soros a bemenet
+    ${config_line}=    Get Line    ${config_line}    -1
     @{config_parts}=    Split String    ${config_line}    |
     ${parts_len}=    Get Length    ${config_parts}
     IF    ${parts_len} < 6
@@ -380,7 +382,7 @@ Konfiguráció Betöltése
     IF    ${config_result.rc} == 0
         ${config_line}=    Set Variable    ${config_result.stdout.strip()}
         Log String To Console     \n\[DEBUG] config_line: ${config_line}
-        IF    '${config_line}' != '' and '${config_line}' != 'None'
+        IF    $config_line != '' and $config_line != 'None'
             Process Config Line    ${config_line}
         ELSE
             Log String To Console    [HIBA] Üres vagy None config_line, Split String kihagyva!

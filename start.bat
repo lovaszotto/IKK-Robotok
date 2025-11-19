@@ -1,4 +1,5 @@
-./setlocal@echo off 
+@echo off
+cd /d %~dp0
 REM ========================================= 
 REM  FORMAI ELLENORZO RENDSZER FUTTATAS 
 REM ========================================= 
@@ -51,4 +52,5 @@ if errorlevel 1 (
     echo ========================================= 
 ) 
  
-exit 
+exit 0
+

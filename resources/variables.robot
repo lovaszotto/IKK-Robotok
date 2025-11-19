@@ -7,7 +7,7 @@ ${szoveg}           NONE
 ${WAS_ERROR}        ${False} #volt-e hiba a futás során egy dokumentum feldolgozásakor
 
 # Python executable változó (Robot Framework környezetben)
-${PYTHON_EXEC}      ${CURDIR}/../rf_env/Scripts/python.exe
+${PYTHON_EXEC}      python
 
 
 # Konfiguracios fajl beallitasai - ezeket a duplikacio_config.py tölti be
