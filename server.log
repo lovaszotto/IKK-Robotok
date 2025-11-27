@@ -65,3 +65,110 @@ PLG-00-main                                                           | FAIL |
 Output:  NONE
 HIBA: A teszt futtatasa sikertelen!
 Ellenorizze a results\log.html fajlt a reszletekert.
+
+=========================================
+  DUPLIKACIO ELLENORZO RENDSZER
+  Main robot futtatas
+=========================================
+
+Konfiguracio ellenorzese...
+Results konyvtar letrehozasa...
+Robot Framework teszt futtatasa...
+==============================================================================
+PLG-00-main                                                                   
+==============================================================================
+Redundancia ellenőrzése :: Dokumentumokban ismétlődések keresése       KONFIGURACIO BETOLTESE...
+???????????????????????????????
+ Konfiguracio sikeresen betoltve!
+ Email: lovasz.otto@clarity.hu
+ Bementi konyvtar: c:\tmp\keziratok_teszteleshez
+ Kimeneti konyvtar: c:\tmp
+ Email targy: Duplikacio Ellenorzes - Eredmenyek
+Excel prefix: duplikacio_eredmenyek
+???????????????????????????????
+CREATE TABLE IF NOT EXISTS redundancia
+CREATE TABLE IF NOT EXISTS hashCodes
+CREATE TABLE IF NOT EXISTS repeat
+
+=== DOCX FÁJLOK KERESÉSE ===
+Keresési útvonal: c:\tmp\keziratok_teszteleshez
+Talált DOCX fájlok száma: 1
+
+>>> FELDOLGOZÁS: (1/1) c:\tmp\keziratok_teszteleshez\EM-2.1\EM-2.1.1\EM-2.1.1_RRF221_tema_kezirat.docx.docx
+Redundancia ID: 2
+Fájl neve: EM-2.1.1_RRF221_tema_kezirat.docx.docx
+Fájl méret: 334489 byte
+Feldolgozás ideje: 08:30:42
+Sorok száma: 57
+....................................*........[>>> Rendben <<<]
+
+
+<<< BEFEJEZVE: c:\tmp\keziratok_teszteleshez\EM-2.1\EM-2.1.1\EM-2.1.1_RRF221_tema_kezirat.docx.docx
+=== ÖSSZESÍTÉS ===
+
+Feldolgozott dokumentumok száma: 1
+DUPLUM ELLENŐRZÉS BEFEJEZVE - EREDMÉNYEK ELEMZÉSE INDUL...
+
+????????????????????????????????????????????????????????????????
+CREATE TABLE IF NOT EXISTS redundancia
+CREATE TABLE IF NOT EXISTS hashCodes
+CREATE TABLE IF NOT EXISTS repeat
+REDUNDANCIA EREDMÉNYEK ELEMZÉSE
+
+???????????????????????????????????????
+Használt adatbázisfájl: c:\tmp\GINOP_6_2_4_PLUS_GINOP_6_2_8_PLUS_KEZIRATOK.db
+
+ STATUS KATEGÓRIÁK RÉSZLETES STATISZTIKÁJA:
+Rendben: 1 dokumentum (64-64 karakter)
+
+ STATUS KATEGÓRIÁK SZABÁLYAI:
+ Rendben: max_ismetelt_karakterszam < 300
+ Gyanús: 350 ? max_ismetelt_karakterszam < 1250
+ Másolt: max_ismetelt_karakterszam ? 1250
+
+ VÉGSŐ ÖSSZESÍTÉS:
+???????????????????????
+Összes dokumentum: 1
+ Rendben: 1 dokumentum
+ Gyanús: 0 dokumentum
+ Másolt: 0 dokumentum
+
+SZÁZALÉKOS MEGOSZLÁS:
+ Rendben: 100.0%
+ Gyanús: 0.0%
+ Másolt: 0.0%
+
+ EREDMÉNYEK ELLENŐRZÉSE BEFEJEZVE!
+
+???????????????????????????????????????
+
+ EXCEL EXPORT KEZDÉSE
+???????????????????????????????
+CREATE TABLE IF NOT EXISTS redundancia
+CREATE TABLE IF NOT EXISTS hashCodes
+CREATE TABLE IF NOT EXISTS repeat
+ Excel export sikeres!
+
+
+TELJES FELDOLGOZÁS KÉSZ!
+
+????????????????????????????????
+
+Feldolgozott dokumentumok száma: 1
+
+Futás teljes ideje: 0 óra 0 perc 5 másodperc
+| PASS |
+------------------------------------------------------------------------------
+PLG-00-main                                                           | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  NONE
+
+=========================================
+TESZT SIKERESEN BEFEJEZODOTT!
+
+Eredmenyek:
+- Log: results\log.html
+- Report: results\report.html
+- Email elkuldve a konfiguralt cimre
+=========================================
