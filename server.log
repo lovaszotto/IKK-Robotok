@@ -1,0 +1,67 @@
+
+=========================================
+  DUPLIKACIO ELLENORZO RENDSZER
+  Main robot futtatas
+=========================================
+
+Konfiguracio ellenorzese...
+Results konyvtar letrehozasa...
+Robot Framework teszt futtatasa...
+[ ERROR ] Error in file 'C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\resources\keywords.robot' on line 2: Importing library 'C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\libraries\DocxReader.py' failed: ModuleNotFoundError: No module named 'exceptions'
+Traceback (most recent call last):
+  File "C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\libraries\DocxReader.py", line 1, in <module>
+    from docx import Document
+  File "C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv\Lib\site-packages\docx.py", line 30, in <module>
+    from exceptions import PendingDeprecationWarning
+PYTHONPATH:
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\libraries
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv\Scripts\robot.exe
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv\Lib\site-packages
+[ ERROR ] Error in file 'C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\resources\keywords.robot' on line 4: Importing library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv\Scripts\robot.exe
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv\Lib\site-packages
+[ ERROR ] Error in file 'C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\PLG-00-main.robot' on line 5: Importing library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv\Scripts\robot.exe
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv\Lib\site-packages
+==============================================================================
+PLG-00-main                                                                   
+==============================================================================
+Redundancia ellenőrzése :: Dokumentumokban ismétlődések keresése       KONFIGURACIO BETOLTESE...
+???????????????????????????????
+ Konfiguracio sikeresen betoltve!
+ Email: lovasz.otto@clarity.hu
+ Bementi konyvtar: c:\tmp\keziratok_teszteleshez
+ Kimeneti konyvtar: c:\tmp
+ Email targy: Duplikacio Ellenorzes - Eredmenyek
+Excel prefix: duplikacio_eredmenyek
+???????????????????????????????
+| FAIL |
+No keyword with name 'Connect To Database' found.
+------------------------------------------------------------------------------
+PLG-00-main                                                           | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  NONE
+HIBA: A teszt futtatasa sikertelen!
+Ellenorizze a results\log.html fajlt a reszletekert.

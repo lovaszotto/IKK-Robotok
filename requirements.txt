@@ -1,4 +1,4 @@
-docx
+python-docx
 openpyxl
 robotframework
 flask
@@ -6,4 +6,6 @@ numpy
 matplotlib
 Pillow
 fpdf
+
+robotframework-databaselibrary
 
