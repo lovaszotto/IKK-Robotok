@@ -52,7 +52,7 @@ Test Case 09 - Abrak Fotok Ellenorzese
         END    
      
         IF    "${style}" == "Caption"
-          #Log String To Console    \n\n=========================== SZK Ábrajegyzék:${idx}: "${text}"        
+          #Log String To Console With File    \n\n=========================== SZK Ábrajegyzék:${idx}: "${text}"        
           #Log String To Console    \n\n--------------------------- Caption:${idx}: ${style} ${text}
 
           # Reset counter after a table of figures heading
@@ -63,7 +63,7 @@ Test Case 09 - Abrak Fotok Ellenorzese
         END
 
         IF    "${style}" == "SK Képaláírás"
-          #Log String To Console    \n\n=========================== SK Képaláírás:${idx}: "${text}"        
+          #Log String To Console With File    \n\n=========================== SK Képaláírás:${idx}: "${text}"        
           #Log String To Console    --------------------------- SK Képaláírás:${idx}: ${style}
           # Reset counter after a table of figures heading
           ${abra_utan}=    Evaluate    ${idx} + 1
@@ -72,7 +72,7 @@ Test Case 09 - Abrak Fotok Ellenorzese
         END
 
         IF    "${style}" == "SZK Ábrajegyzék"
-          #Log String To Console    \n\n=========================== SZK Ábrajegyzék:${idx}: "${text}"        
+          #Log String To Console With File    \n\n=========================== SZK Ábrajegyzék:${idx}: "${text}"        
           #Log String To Console    --------------------------- SZK Ábrajegyzék:${idx}: ${style}
           # Reset counter after a table of figures heading
           ${abra_utan}=    Evaluate    ${idx} + 1

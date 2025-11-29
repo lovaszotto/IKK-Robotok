@@ -82,6 +82,23 @@ Batch inicializálás
           Log String To Console With File    Átnevezve: ${docx_file_fixed} -> ${new_file_name}
           ${docx_file}=    Set Variable    ${new_file_name}
         END
+        # van-e azonos nevű de .v1 névvel mentett fájl
+        ${only_file_name}=    Replace String    ${docx_file}    .docx    ${EMPTY}
+        #van -e az adott könyvtárban .v1 fájl
+        ${v1_file}=    Set Variable    ${only_file_name}.v1.docx    
+        Log String To Console With File    .v1 fájl: ${v1_file} 
+    
+        #létezik-e a fájl
+        ${v1_exists}=    Run Keyword And Return Status    File Should Exist    ${v1_file}
+        IF    ${v1_exists}
+          Log String To Console With File    [WARNING] Létezik az azonos nevű .v1 fájl: ${v1_file} 
+         Move File    ${docx_file}    ${docx_file}_old
+        #az adott docx-et kihagyjuk
+        CONTINUE
+        END
+
+        
+
         Log String To Console With File    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
   
         #${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirata.docx
