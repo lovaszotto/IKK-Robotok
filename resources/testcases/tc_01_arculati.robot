@@ -101,7 +101,8 @@ Test Case 01 - Arculati Elemek Ellenorzese
 
     #sTILUSOK FELÍRÁSA EXCELBE
      Set Global Variable    ${STILUSOK}    ${styles}
-    Fill Excel Cell    ${excel_file}    ${sheet_name}    27    2    ${styles}
+    #Csabi kérésére most ne írjuk be az Excelbe 
+    #Fill Excel Cell    ${excel_file}    ${sheet_name}    27    2    ${styles}
 
     # 2. sor – Egyedi megrendelés azonosítója
     ${second_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
