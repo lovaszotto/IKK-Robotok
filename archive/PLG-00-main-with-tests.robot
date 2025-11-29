@@ -46,8 +46,8 @@ Batch feldolgozás befejezése
     [Documentation]    Batch feldolgozás lezárása: eredmények összesítése
     
     # Eredmények automatikus ellenőrzése
-    Log String To Console    DUPLUM ELLENŐRZÉS BEFEJEZVE - EREDMÉNYEK ELEMZÉSE INDUL...
-    Log String To Console    \n════════════════════════════════════════════════════════════════
+    Log String To Console With File    DUPLUM ELLENŐRZÉS BEFEJEZVE - EREDMÉNYEK ELEMZÉSE INDUL...
+    Log String To Console With File    \n════════════════════════════════════════════════════════════════
     Run Keyword And Continue On Failure    Redundancia Eredmények Ellenőrzése
 
     # Feldolgozott dokumentumok számának és futásidőnek kiírása
@@ -62,10 +62,10 @@ Batch feldolgozás befejezése
     # Kapcsolat bezárása a legvégén
     Disconnect From Database
     
-    Log String To Console    \nTELJES FELDOLGOZÁS KÉSZ!
-    Log String To Console    \n════════════════════════════════
-    Log String To Console    \nFeldolgozott dokumentumok száma: ${file_count}
-    Log String To Console    \nFutás teljes ideje: ${hours} óra ${minutes} perc ${seconds} másodperc
+    Log String To Console With File    \nTELJES FELDOLGOZÁS KÉSZ!
+    Log String To Console With File    \n════════════════════════════════
+    Log String To Console With File    \nFeldolgozott dokumentumok száma: ${file_count}
+    Log String To Console With File    \nFutás teljes ideje: ${hours} óra ${minutes} perc ${seconds} másodperc
 
 *** Keywords ***
 
@@ -89,13 +89,13 @@ Prepare DOCX Files And Test Cases
     ${file_count}=    Get Length    ${docx_files}
     Set Global Variable    ${BATCH_FILE_COUNT}    ${file_count}
     Set Global Variable    ${BATCH_DOCX_FILES}    ${docx_files}
-    Log String To Console    \n=== DOCX FÁJLOK KERESÉSE ===
-    Log String To Console    Keresési útvonal: ${DOCUMENT_PATH}
-    Log String To Console    Talált DOCX fájlok száma: ${file_count}
+    Log String To Console With File    \n=== DOCX FÁJLOK KERESÉSE ===
+    Log String To Console With File    Keresési útvonal: ${DOCUMENT_PATH}
+    Log String To Console With File    Talált DOCX fájlok száma: ${file_count}
 
     
     IF    ${file_count} == 0
-        Log String To Console    FIGYELMEZTETÉS: Nem találhatók DOCX fájlok a megadott útvonalon!
+        Log String To Console With File    FIGYELMEZTETÉS: Nem találhatók DOCX fájlok a megadott útvonalon!
         Fail    Nincsenek DOCX fájlok a feldolgozásra
     END
     
@@ -114,7 +114,7 @@ Create Dynamic Test Case For DOCX
     # Test case név generálása
     ${test_name}=    Set Variable    DOCX Feldolgozás ${index} - ${base_name}
     
-    Log String To Console    \n>>> DINAMIKUS TEST CASE: ${test_name}
+    Log String To Console With File    \n>>> DINAMIKUS TEST CASE: ${test_name}
     
     # Process the DOCX file with all format checks
     Process Single DOCX With All Checks    ${docx_file}    ${index}    ${total}
@@ -123,7 +123,7 @@ Process Single DOCX With All Checks
     [Documentation]    Egyetlen DOCX fájl teljes feldolgozása (redundancia + 23 formálellenőrzés)
     [Arguments]    ${docx_file}    ${file_index}    ${total_files}
     
-    Log String To Console    \n>>> FELDOLGOZÁS2: (${file_index}/${total_files}) ${docx_file}
+    Log String To Console With File    \n>>> FELDOLGOZÁS2: (${file_index}/${total_files}) ${docx_file}
     
     # PLG-01-Excel.robot meghívása
     ${activeExcelFile}    ${activeSheetName}=    Create_K_ell_Excel    ${docx_file}
@@ -156,9 +156,9 @@ Process Single DOCX With All Checks
     #Run Keyword If    '${redundancia_id}' != ''    DOCX Beolvasás Teszt    ${docx_file}    ${redundancia_id}
     
     # Mind a 23 formálellenőrzés közvetlenül (nem subprocess-ként)
-    Log String To Console    \n=== 23 FORMÁLELLENŐRZÉS INDÍTÁSA ===
-    Log String To Console    Excel fájl: ${activeExcelFile}
-    Log String To Console    Sheet név: ${activeSheetName}
+    Log String To Console With File    \n=== 23 FORMÁLELLENŐRZÉS INDÍTÁSA ===
+    Log String To Console With File    Excel fájl: ${activeExcelFile}
+    Log String To Console With File    Sheet név: ${activeSheetName}
     
     # 23 formálellenőrzés egyenként
     Test Case 01 - Arculati Elemek Ellenorzese
@@ -186,4 +186,4 @@ Process Single DOCX With All Checks
     Test Case 23 - Helyesiras Ellenorzese
     Test Case 24 - Cimsorozassal Keszult Ellenorzese
     
-    Log String To Console    \n<<< BEFEJEZVE: ${docx_file}
+    Log String To Console With File    \n<<< BEFEJEZVE: ${docx_file}

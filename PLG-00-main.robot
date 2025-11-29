@@ -42,7 +42,7 @@ Batch inicializálás
 
 
     # DOCX fájlok keresése és globális változók beállítása
-    Log String To Console    ===Initialize DOCX Files List ===
+    Log String To Console With File    ===Initialize DOCX Files List ===
     Initialize DOCX Files List
     
     # *RRF221_tema.kezirata.docx létezés ellenőrzés 
@@ -55,8 +55,8 @@ Batch inicializálás
     ${SELENIUM_SCREENSHOT_FILE}=    Set Variable    selenium-screenshot*.png
     Run Keyword And Ignore Error    Remove File    ${SELENIUM_SCREENSHOT_FILE}
     
-    Log String To Console    \n=== ÖSSZES DOCX FELDOLGOZÁSA ===
-    Log String To Console    Talált fájlok száma: ${file_count}
+    Log String To Console With File    \n=== ÖSSZES DOCX FELDOLGOZÁSA ===
+    Log String To Console With File    Talált fájlok száma: ${file_count}
     
     FOR    ${index}    IN RANGE    ${file_count}
         ${docx_file}=    Get From List    ${docx_files}    ${index}
@@ -65,16 +65,25 @@ Batch inicializálás
         # Fájl név kinyerése az elnevezéshez
         ${file_parts}=    Split String    ${docx_file}    ${/}
         ${file_parts_len}=    Get Length    ${file_parts}
-        Log String To Console    -----------------------${docx_file}-------------- Fájl részek száma: ${file_parts_len}
+        Log String To Console With File    -----------------------${docx_file}-------------- Fájl részek száma: ${file_parts_len}
         ${file_name}=    Get From List    ${file_parts}    -1
-     
+        ${docx_file_fixed}=    Replace String    ${docx_file}    \\    /
+        # A warning elkerülésére: minden backslash /-re cserélve, így nem lesz invalid escape sequence
+        ${CURRENT_DIR}=    Evaluate    __import__('os').path.dirname('${docx_file_fixed}')    modules=os
         
-        ${CURRENT_DIR}=    Evaluate    __import__('os').path.dirname(r'''${docx_file}''')    modules=os
-        Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-        Log String To Console    >>> FELDOLGOZÁS: (${file_number}/${file_count}) ${docx_file}
-        Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    
-
+        
+        Log String To Console With File    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        Log String To Console With File    >>> FELDOLGOZÁS: (${file_number}/${file_count}) ${docx_file}
+        IF    '${docx_file}' != '' and 'docx.docx' in '${docx_file}'
+          ${docx_file_fixed}=    Replace String    ${docx_file}    \\    /
+          # A warning elkerülésére: minden backslash /-re cserélve
+          ${new_file_name}=    Replace String    ${docx_file_fixed}    .docx.docx    .docx
+          Move File    ${docx_file_fixed}    ${new_file_name}
+          Log String To Console With File    Átnevezve: ${docx_file_fixed} -> ${new_file_name}
+          ${docx_file}=    Set Variable    ${new_file_name}
+        END
+        Log String To Console With File    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  
         #${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirata.docx
         ${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirat
         IF    not ${name_ok}
@@ -82,21 +91,21 @@ Batch inicializálás
             ${is_fogalomtar2}=    Run Keyword And Return Status    Should Contain    ${file_name}    fogalomtár
             ${is_kompetencia}=    Run Keyword And Return Status    Should Contain    ${file_name}    kompetencia
             IF     $is_fogalomtar1 or $is_fogalomtar2 or $is_kompetencia
-              Log String To Console    [SKIP] Fájl kihagyva (fogalomtár/kompetencia): ${file_name} 
+              Log String To Console With File    [SKIP] Fájl kihagyva (fogalomtár/kompetencia): ${file_name} 
               CONTINUE
             END
             #tema_kezirat név hibás
-            Log String To Console    [SKIP] Fájl kihagyva (név nem egyezik): ${file_name} 
+            Log String To Console With File    [SKIP] Fájl kihagyva (név nem egyezik): ${file_name} 
             Write SumError fájl    ${EMPTY}    ${EMPTY}    tc-0    Fájlnév nem tartalmazza az RRF221_tema_kezirat szöveget;${file_name}
             CONTINUE
         END
 
         Process Single DOCX File As Test Case    ${docx_file}    ${file_number}    ${file_count}    Formálellenőrzés - ${file_name}
-        Log String To Console    <<<  BEFEJEZVE: ${docx_file}
+        Log String To Console With File    <<<  BEFEJEZVE: ${docx_file}
         
         #WEB-es ellenőrzés indítása
         IF    ${RUN_WEB_CHECK}==${True}
-          Log String To Console    \n---------------------------------------WEB---------------------------------------------\n
+          Log String To Console With File    \n---------------------------------------WEB---------------------------------------------\n
           PLG-05-WEB-ellenor-main.Web-alkalmazás indítása és bejelentkezés
         END
 
@@ -109,8 +118,8 @@ Batch lezárás
     [Documentation]    Batch feldolgozás lezárása: eredmények összesítése
     
     # Eredmények automatikus ellenőrzése
-    Log String To Console    DUPLUM ELLENŐRZÉS BEFEJEZVE - EREDMÉNYEK ELEMZÉSE INDUL...
-    Log String To Console    \n════════════════════════════════════════════════════════════════
+    Log String To Console With File    DUPLUM ELLENŐRZÉS BEFEJEZVE - EREDMÉNYEK ELEMZÉSE INDUL...
+    Log String To Console With File    \n════════════════════════════════════════════════════════════════
     # Redundancia Eredmények Ellenőrzése eltávolítva (adatbázis kezelés végleg letiltva)
 
     # Feldolgozott dokumentumok számának és futásidőnek kiírása
@@ -123,10 +132,10 @@ Batch lezárás
     ${seconds}=    Evaluate    ${elapsed} % 60
 
     
-    Log String To Console    \nTELJES FELDOLGOZÁS KÉSZ!
-    Log String To Console    \n════════════════════════════════
-    Log String To Console    \nFeldolgozott dokumentumok száma: ${file_count}
-    Log String To Console    \nFutás teljes ideje: ${hours} óra ${minutes} perc ${seconds} másodperc
+    Log String To Console With File    \nTELJES FELDOLGOZÁS KÉSZ!
+    Log String To Console With File    \n════════════════════════════════
+    Log String To Console With File    \nFeldolgozott dokumentumok száma: ${file_count}
+    Log String To Console With File    \nFutás teljes ideje: ${hours} óra ${minutes} perc ${seconds} másodperc
 
     # Dinamikus (valós) összesítés a saját logba (Robot TC-k és 23-as ellenőrzések)
     ${TC_TOTAL}=    Get Variable Value    ${TC_TOTAL}    0
@@ -135,6 +144,6 @@ Batch lezárás
     ${CHECK_TOTAL}=    Get Variable Value    ${CHECK_TOTAL}    0
     ${CHECK_PASSED}=   Get Variable Value    ${CHECK_PASSED}   0
     ${CHECK_FAILED}=   Get Variable Value    ${CHECK_FAILED}   0
-    Log String To Console    \nROBOT ÖSSZESÍTÉS
-    Log String To Console    Robot testcases: ${TC_TOTAL} tests, ${TC_PASSED} passed, ${TC_FAILED} failed
-    Log String To Console    Formálellenőrzések: ${CHECK_TOTAL} tests, ${CHECK_PASSED} passed, ${CHECK_FAILED} failed
+    Log String To Console With File    \nROBOT ÖSSZESÍTÉS
+    Log String To Console With File    Robot testcases: ${TC_TOTAL} tests, ${TC_PASSED} passed, ${TC_FAILED} failed
+    Log String To Console With File    Formálellenőrzések: ${CHECK_TOTAL} tests, ${CHECK_PASSED} passed, ${CHECK_FAILED} failed

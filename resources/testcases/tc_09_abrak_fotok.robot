@@ -10,7 +10,7 @@ ${DOCX}    ${DOCX_FILE}
 *** Keywords ***
 Test Case 09 - Abrak Fotok Ellenorzese
     [Documentation]    09 - Ábrák/fotók ellenőrzése
-    Log String To Console     \n\[09/24] Ábrák/fotók ellenőrzése 
+    Log String To Console With File     \n\[09/24] Ábrák/fotók ellenőrzése 
     ${testCase_row}=     Set Variable    11
     ${heading_count}=    Set Variable    0
     ${abra_utan}=        Set Variable    0
@@ -106,7 +106,7 @@ Test Case 09 - Abrak Fotok Ellenorzese
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                     #END
                 END
-                Log String To Console     [ERROR] ${new_err}    
+                Log String To Console With File     [ERROR] ${new_err}    
            END
         END
  

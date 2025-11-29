@@ -22,7 +22,7 @@ Library    SeleniumLibrary
 Web-alkalmazás indítása és bejelentkezés
     [Documentation]    Web-alkalmazás indítása és bejelentkezés
     
-    Log String To Console     \n\[1/24] Web-alkalmazás indítása és bejelentkezés - from root
+    Log String To Console With File     \n\[1/24] Web-alkalmazás indítása és bejelentkezés - from root
     Open Browser    ${APP_URL}    chrome    
     #Open Browser    ${APP_URL}    edge    
     Maximize Browser Window
@@ -47,11 +47,11 @@ Web-alkalmazás indítása és bejelentkezés
 
     Click Element    id=header-coursesButton
     Wait Until Element Is Visible    xpath=//*[contains(text(), 'Aktuális kurzusaim')]    5s
-    Log String To Console    \n\[1/24] Aktuális kurzusaim oldal megjelenítve
+    Log String To Console With File    \n\[1/24] Aktuális kurzusaim oldal megjelenítve
     
     #Téma keresés szűrő beállítása
     Téma keresés szűrő beállítása
 
     #Megjelenő kurzusok bejárása
     Megjelenő kurzusok bejárása
-    Log String To Console    \n\[1/24] Web-alkalmazás indítása és bejelentkezés - Kész
+    Log String To Console With File    \n\[1/24] Web-alkalmazás indítása és bejelentkezés - Kész

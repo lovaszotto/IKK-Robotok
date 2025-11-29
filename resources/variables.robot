@@ -1,3 +1,21 @@
+# --- Globális számlálók és log változók (linter hibák elkerülésére) ---
+${GLOBAL_LOG_FILENAME}    NONE
+${LOG_FILENAME_ONLY}      NONE
+${TC_TOTAL}               0
+${TC_PASSED}              0
+${TC_FAILED}              0
+${CHECK_TOTAL}            0
+${CHECK_PASSED}           0
+${CHECK_FAILED}           0
+${BATCH_FILE_COUNT}       0
+${BATCH_DOCX_FILES}       []
+${CURRENT_EXCEL_FILE}     NONE
+${CURRENT_SHEET_NAME}     NONE
+${CURRENT_PATH_PART}      NONE
+${CURRENT_FILENAME_PART}  NONE
+${RENAME_PREFIX}          NONE
+${HIBA_LISTA}             []
+${CURRENT_DOCX_FILE}      NONE
 *** Variables ***
 ${EMPTY}    
 ${DOCX_FILE}        Test.docx

@@ -19,9 +19,9 @@ ${DEFAULT_BASENAME}    media
 *** Keywords ***
 Témák közötti navigáció ellenőrzése
     [Documentation]    Témák közötti navigáció ellenőrzése
-     Log String To Console    \n**************************************************************************
-    Log String To Console    * wtc_03- Témák közötti navigáció ellenőrzése
-    Log String To Console    **************************************************************************\n
+    Log String To Console With File    \n**************************************************************************
+    Log String To Console With File    * wtc_03- Témák közötti navigáció ellenőrzése
+    Log String To Console With File    **************************************************************************\n
     ${testCase_row}=    Set Variable    5
   
    ${err_msg}=    Set Variable    ${EMPTY}
@@ -32,7 +32,7 @@ Témák közötti navigáció ellenőrzése
      ${leckek_szama}=    Set Variable    0
 
     #felugró teszt megszakítása gomb kezelése
-    Log String To Console    \nTeszt megszakítás popup kezelés
+    Log String To Console With File    \nTeszt megszakítás popup kezelés
     Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
     Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
     Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
@@ -43,7 +43,7 @@ Témák közötti navigáció ellenőrzése
     END
 
     ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Page Contains Element    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]   2s    
-    Log String To Console    \nVárakozás eredménye: ${rc} ${msg}
+    Log String To Console With File    \nVárakozás eredménye: ${rc} ${msg}
      # ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
     IF    '${rc}' == 'PASS'
         TRY 

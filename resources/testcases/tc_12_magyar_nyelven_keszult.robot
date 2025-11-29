@@ -7,7 +7,7 @@ Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 12 - Magyar Nyelven Keszult Ellenorzese
     [Documentation]    12 - Magyar nyelven készült ellenőrzése
-    Log String To Console     \n\[12/24] Magyar nyelven készült ellenőrzése
+    Log String To Console With File     \n\[12/24] Magyar nyelven készült ellenőrzése
     
     ${testCase_row}=    Set Variable    14
 
@@ -44,7 +44,7 @@ Test Case 12 - Magyar Nyelven Keszult Ellenorzese
                     ${other_lang_count}=    Evaluate    ${other_lang_count} + 1
                     # Biztonságos szöveg kiírása Unicode karakterek kezelésével
                     ${safe_text}=    Evaluate    repr(r'''${text}''')[:50] + "..." if len(r'''${text}''') > 50 else repr(r'''${text}''')
-                    Log String To Console    X ${idx}. bekezdés: ${lang.upper()} 
+                    Log String To Console With File    X ${idx}. bekezdés: ${lang.upper()} 
                     # Biztonságos hibaüzenet összeállítása
                     ${safe_err_text}=    Evaluate    repr(r'''${text}''')[:50] + "..." if len(r'''${text}''') > 80 else repr(r'''${text}''')
                     ${err_msg}=    Set Variable    ${err_msg}${idx}. bekezdés idegen nyelven (${lang}): - ${safe_err_text}${CR}
@@ -52,7 +52,7 @@ Test Case 12 - Magyar Nyelven Keszult Ellenorzese
             EXCEPT    AS    ${error}
                 # Biztonságos szöveg kiírása Unicode karakterek kezelésével
                 ${safe_text}=    Evaluate    repr(r'''${text}''')[:50] + "..." if len(r'''${text}''') > 50 else repr(r'''${text}''')
-                Log String To Console    ? ${idx}. bekezdés: Nyelv nem detektálható 
+                Log String To Console With File    ? ${idx}. bekezdés: Nyelv nem detektálható 
             END
         ELSE
             No Operation

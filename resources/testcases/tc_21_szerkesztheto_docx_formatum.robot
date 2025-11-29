@@ -7,7 +7,7 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 21 - Szerkesztheto Docx Formatum Ellenorzese
     [Documentation]    21 - Szerkeszthető DOCX formátum. Ellenőrizendő, hogy a kézirat szerkeszthető DOCX formátumban van-e.
-     Log String To Console     \n\[21/24] Szerkesztheto Docx Formatum Ellenorzese
+    Log String To Console With File     \n\[21/24] Szerkesztheto Docx Formatum Ellenorzese
     #Formátum: tényleg .docx (nem .doc/.pdf).
     #Szerkezet: DOCX = ZIP + word/document.xml.
     #Védelem: nincs documentProtection a word/settings.xml-ben.
@@ -34,7 +34,7 @@ Test Case 21 - Szerkesztheto Docx Formatum Ellenorzese
     #Log String To Console     \n\[21] Formátum .docx: ${is_docx}
     IF    ${is_docx} == 'False'
         ${new_err}=    Set Variable    Nem docx formátumú!
-        Log String To Console     [ERROR] ${new_err}
+        Log String To Console With File     [ERROR] ${new_err}
     END
     ${has_struct}=    Has Valid Docx Structure    ${docx_file}
     #Log String To Console     \n\[21] Szerkezet (ZIP+word/document.xml): ${has_struct}

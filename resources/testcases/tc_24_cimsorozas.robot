@@ -9,7 +9,7 @@ ${DOCX}    ${DOCX_FILE}
 *** Keywords ***
 Test Case 24 - Cimsorozassal Keszult Ellenorzese
     [Documentation]    24 - Címsorozással készült ellenőrzése
-    Log String To Console     \n\[24/24] Címsorozással készült ellenőrzése
+    Log String To Console With File     \n\[24/24] Címsorozással készült ellenőrzése
     
      ${testCase_row}=    Set Variable    26
     ${heading_count}=    Set Variable    0
@@ -53,7 +53,7 @@ Test Case 24 - Cimsorozassal Keszult Ellenorzese
         ELSE
             ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
         END
-        Log String To Console     [ERROR] ${new_err}
+        Log String To Console With File     [ERROR] ${new_err}
     END
      # Teszt státusz és Excel jelölés végrehajtása a megadott soron
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
