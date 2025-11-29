@@ -31,6 +31,17 @@ ${MEDIA_ROW_INDEX}            5
 # Futtassunk média ellenőrzést
 ${RUN_MEDIA_CHECK}          ${True}
 
+# Futtassunk web-ellenőrzést (konfigból)
+# A változót egy kulcsszóval kell beállítani a suite setup-ban:
+# Példa:
+#    Beállítom a RUN_WEB_CHECK-et konfigból
+#
+# Majd a kulcsszó:
+# *** Keywords ***
+# Beállítom a RUN_WEB_CHECK-et konfigból
+#     ${val}=    Evaluate    __import__('libraries.duplikacio_config').DuplikacioConfig().is_web_check_enabled()    modules=libraries.duplikacio_config
+#     Set Suite Variable    ${RUN_WEB_CHECK}    ${val}
+
 # Van kép és más típusú média
 ${MEDIA_HAS_PICTURE}          ${False}
 ${MEDIA_HAS_OTHER_TYPE}          ${False}

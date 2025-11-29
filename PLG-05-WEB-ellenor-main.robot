@@ -21,6 +21,7 @@ Library    SeleniumLibrary
 
 Web-alkalmazás indítása és bejelentkezés
     [Documentation]    Web-alkalmazás indítása és bejelentkezés
+    
     Log String To Console     \n\[1/24] Web-alkalmazás indítása és bejelentkezés - from root
     Open Browser    ${APP_URL}    chrome    
     #Open Browser    ${APP_URL}    edge    

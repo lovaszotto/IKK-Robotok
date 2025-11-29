@@ -13,6 +13,10 @@ import sys
 _config_loaded_msg_shown = False
 
 class DuplikacioConfig:
+        def is_web_check_enabled(self):
+            """Web ellenőrzés engedélyezve van-e a konfigurációban (bool)"""
+            value = self.get('web_check_enabled', 'False')
+            return str(value).strip().lower() in ['1', 'true', 'yes', 'igen']
     def __init__(self, config_file="Duplikacio.config"):
         """Konfiguracios fajl inicializalasa"""
         self.config_file = config_file
@@ -203,6 +207,7 @@ class DuplikacioConfig:
         print(f"{self.get_icon('warning')}  Gyanus kuszob: {self.get_status_threshold_gyanus()}")
         print(f"{self.get_icon('error')} Masolt kuszob: {self.get_status_threshold_masolt()}")
         print(f"{self.get_icon('computer')} Konzol mod: {self.get_console_mode()}")
+        print(f"🌐 RUN_WEB_CHECK: {self.is_web_check_enabled()}")
         print("=" * 40)
 
 # Teszt funkció

@@ -46,11 +46,7 @@ if errorlevel 1 (
     echo. 
     echo ========================================= 
     echo TESZT SIKERESEN BEFEJEZODOTT 
-    echo. 
-    echo Eredmenyek: 
-    echo - Log: results\log.html 
-    echo - Report: results\report.html 
-    echo - Email elkuldve a konfiguralt cimre 
+  
     echo ========================================= 
 ) 
  

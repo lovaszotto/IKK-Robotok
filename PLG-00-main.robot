@@ -26,23 +26,18 @@ Batch inicializálás
     Set Global Variable    ${BATCH_START_TIME}    ${start_time}
 
     # Globális log fájl inicializálása (a gyökérben)
-    Log String To Console    ===Initialize Global Log File ===
     Initialize Global Log File
 
     # Teszt számlálók nullázása
-   Log String To Console    ===Initialize Test Counters ===
    Initialize Test Counters
 
     # Formálellenőrzés számlálók nullázása
-   Log String To Console    ===Initialize Check Counters ===
     Initialize Check Counters
 
     # Konfiguracio betöltése minden futás elején
-    Log String To Console    ===Initialize Configuration ===
     Konfiguráció Betöltése
 
     # Log fájl áthelyezése az output mappába
-    Log String To Console    ===Move Log File To Output Folder ===
     Move Log File To Output Folder
 
 
@@ -100,9 +95,11 @@ Batch inicializálás
         Log String To Console    <<<  BEFEJEZVE: ${docx_file}
         
         #WEB-es ellenőrzés indítása
-        Log String To Console    \n---------------------------------------WEB---------------------------------------------\n
-        PLG-05-WEB-ellenor-main.Web-alkalmazás indítása és bejelentkezés
-      
+        IF    ${RUN_WEB_CHECK}==${True}
+          Log String To Console    \n---------------------------------------WEB---------------------------------------------\n
+          PLG-05-WEB-ellenor-main.Web-alkalmazás indítása és bejelentkezés
+        END
+
        #selenium-screenshot törlése selenium-screenshot*.png fájlok törlése
        ${SELENIUM_SCREENSHOT_FILE}=    Set Variable    selenium-screenshot*.png
       Run Keyword And Ignore Error    Remove File    ${SELENIUM_SCREENSHOT_FILE}

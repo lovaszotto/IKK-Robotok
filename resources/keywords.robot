@@ -1,3 +1,29 @@
+*** Keywords ***
+Get RUN_WEB_CHECK From Config
+    [Documentation]    Config fájlból web_check_enabled érték kiolvasása logikai típusként
+    ${config_content}=    Get File    ${CURDIR}/../IKK.config
+    @{config_lines}=    Split To Lines    ${config_content}
+    FOR    ${line}    IN    @{config_lines}
+        ${line_trimmed}=    Strip String    ${line}
+        ${is_web_check}=    Run Keyword And Return Status    Should Start With    ${line_trimmed}    web_check_enabled=
+        IF    ${is_web_check}
+            ${web_check_value}=    Replace String    ${line_trimmed}    web_check_enabled=    ${EMPTY}
+            ${web_check_value_lower}=    Convert To Lowercase    ${web_check_value}
+            ${is_enabled}=    Run Keyword And Return Status    Evaluate    '${web_check_value_lower}' in ['1', 'true', 'yes', 'igen']
+            Log String To Console    Config-ból beolvasott web_check_enabled: ${web_check_value} (${is_enabled})
+            IF    '${web_check_value_lower}' in ['0', 'false', 'no', 'nem']
+                RETURN    ${False}
+            END
+            RETURN    ${is_enabled}
+        END
+    END
+    # Ha nem találjuk, alapértelmezett érték: False
+    Log String To Console    \n[FIGYELEM] web_check_enabled nem található a config-ban!
+    RETURN    ${False}
+*** Keywords ***
+Beállítom a RUN_WEB_CHECK-et konfigból
+    ${val}=    Evaluate    __import__('libraries.duplikacio_config').DuplikacioConfig().is_web_check_enabled()    modules=libraries.duplikacio_config
+    Set Suite Variable    ${RUN_WEB_CHECK}    ${val}
 *** Settings ***
 Resource    ../resources/keywords.robot
 Resource    ../resources/variables.robot
@@ -369,7 +395,10 @@ Parse Cover Table
     END
     RETURN    ${ok}    ${clean}    ${err_msg}
 
+
 Konfiguráció Betöltése
+    ${RUN_WEB_CHECK}=    Get RUN_WEB_CHECK From Config
+    Set Suite Variable    ${RUN_WEB_CHECK}    ${RUN_WEB_CHECK}
     #Log String To Console    [TRACE] Konfiguráció Betöltése elindult
     [Documentation]    IKK.config fajl betoltese es beallitasok alkalmazasa
     #Silence Python SyntaxWarnings
@@ -377,11 +406,8 @@ Konfiguráció Betöltése
     Log String To Console    ═══════════════════════════════
     # Konfiguracios fajl olvasasa Python scripttel
     ${config_result}=    Run Process    ${PYTHON_EXEC}    ${CURDIR}/../libraries/get_config.py    shell=True    cwd=${CURDIR}/..
-    Log String To Console    [PYTHON STDOUT] ${config_result.stdout}
-    Log String To Console    [PYTHON STDERR] ${config_result.stderr}
     IF    ${config_result.rc} == 0
         ${config_line}=    Set Variable    ${config_result.stdout.strip()}
-        Log String To Console     \n\[DEBUG] config_line: ${config_line}
         IF    $config_line != '' and $config_line != 'None'
             Process Config Line    ${config_line}
         ELSE
@@ -392,13 +418,14 @@ Konfiguráció Betöltése
         # Input folder beolvasása a config-ból (egyszer a futás elején)
         ${input_folder}=    Get Input Folder From Config
         Set Global Variable    ${INPUT_FOLDER}    ${input_folder}
-        Log String To Console    Input folder globálisan beállítva: ${INPUT_FOLDER}
         
     ELSE
         Fail    Hiba a konfiguracio betoltesekor, alapertelmezettek hasznalata
         Log String To Console    Hiba a konfiguracio betoltesekor, alapertelmezettek hasznalata
         Log String To Console    Hibauzenet: ${config_result.stderr}
     END
+    Log String To Console    Futtatja a WEB-es ellenőrzést: ${RUN_WEB_CHECK}
+    
     Log String To Console    ${EMPTY}
     Log String To Console    ═══════════KONFIGURACIO BETOLTESE KÉSZ════════════════════
     #Log String To Console     \n\[TRACE] Konfiguráció Betöltése kilépett
@@ -1282,16 +1309,16 @@ Hide Excel Sheet
     [Arguments]    ${excel_file}    ${sheet_name}
     ${python_code}=    Set Variable    import openpyxl; wb = openpyxl.load_workbook(r'${excel_file}'); ws = wb['${sheet_name}']; ws.sheet_state = 'hidden'; wb.save(r'${excel_file}')
     ${result}=    Run Process    ${PYTHON_EXEC}    -c    ${python_code}    shell=True
-    Log    [DEBUG] Hide sheet result: ${result.stdout}
-    Log    [DEBUG] Hide sheet stderr: ${result.stderr}
-    Log    [DEBUG] Hide sheet return code: ${result.rc}
+    # Log    [DEBUG] Hide sheet result: ${result.stdout}
+    # Log    [DEBUG] Hide sheet stderr: ${result.stderr}
+    # Log    [DEBUG] Hide sheet return code: ${result.rc}
     ${success}=    Run Keyword And Return Status    Should Be Equal As Integers    ${result.rc}    0
     RETURN    ${success}
 Check Excel Sheet Exists
     [Documentation]    Ellenőrzi, hogy létezik-e a megadott sheet név az Excel fájlban
     [Arguments]    ${excel_file}    ${sheet_name}
     
-    Log    [DEBUG] Checking sheet '${sheet_name}' in file: ${excel_file}
+    # Log    [DEBUG] Checking sheet '${sheet_name}' in file: ${excel_file}
     
     # Python használata az Excel sheet-ek ellenőrzéséhez (útvonal normalizálása)
     ${excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${excel_file}''').as_posix()    modules=pathlib
@@ -1299,7 +1326,7 @@ Check Excel Sheet Exists
     ...    __import__('openpyxl').load_workbook('${excel_path_norm}').sheetnames.__contains__('${sheet_name}')
     ...    modules=openpyxl
     
-    Log    [DEBUG] Sheet check result: ${result}
+    # Log    [DEBUG] Sheet check result: ${result}
     
     RETURN    ${result}
 
@@ -1307,16 +1334,16 @@ Copy Excel Sheet
     [Documentation]    Másolja az egyik sheet-et a másikra az Excel fájlban, feltételes formázásokkal együtt
     [Arguments]    ${excel_file}    ${source_sheet_name}    ${target_sheet_name}
     
-    Log    [DEBUG] Copying sheet '${source_sheet_name}' to '${target_sheet_name}' in file: ${excel_file}
+    # Log    [DEBUG] Copying sheet '${source_sheet_name}' to '${target_sheet_name}' in file: ${excel_file}
     
     # Direct Python evaluation for sheet copying (útvonal normalizálása)
     ${excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${excel_file}''').as_posix()    modules=pathlib
     ${python_code}=    Set Variable    import openpyxl; from copy import deepcopy; wb = openpyxl.load_workbook('${excel_path_norm}'); source_sheet = wb['${source_sheet_name}']; target_sheet = wb.copy_worksheet(source_sheet); target_sheet.title = '${target_sheet_name}'; target_sheet.conditional_formatting = deepcopy(source_sheet.conditional_formatting); wb.save('${excel_path_norm}'); print('SUCCESS')
     ${result}=    Run Process    ${PYTHON_EXEC}    -W    ignore    -c    ${python_code}    shell=True
     
-    Log    [DEBUG] Sheet copy result: ${result.stdout}
-    Log    [DEBUG] Sheet copy stderr: ${result.stderr}
-    Log    [DEBUG] Sheet copy return code: ${result.rc}
+    # Log    [DEBUG] Sheet copy result: ${result.stdout}
+    # Log    [DEBUG] Sheet copy stderr: ${result.stderr}
+    # Log    [DEBUG] Sheet copy return code: ${result.rc}
     ${success}=    Run Keyword And Return Status    Should Be Equal As Strings    ${result.stdout.strip()}    SUCCESS
     RETURN    ${success}
     
