@@ -50,7 +50,7 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
     # Biztonságos beolvasás (TRY/EXCEPT helyett Robot kulcsszintű hibakezelés)
     #Log String To Console     Kompetencia fájl:${docx_file_kompetencia}
     ${read_status}    ${docx_json_komp}=    Run Keyword And Ignore Error    DocxReader.Read Docx All    ${docx_file_kompetencia}
-    Log String To Console   Status: ${read_status}
+    Log String To Console   Read Status: ${read_status}
     #Log String To Console    JSON:${docx_json_komp}
     IF    $read_status == 'FAIL'
         ${err_msg}=    Set Variable    Olvasási hiba (${docx_json_komp})    
@@ -103,6 +103,10 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
         ${global_cim}=    Strip String    ${global_cim}
         ${n_third}=    Normalize Text For Title Compare    ${third_paragraph}
         ${n_global}=   Normalize Text For Title Compare    ${global_cim}
+        #kisbetűsítés
+        ${n_third}=    Convert To Lowercase    ${n_third}
+        ${n_global}=   Convert To Lowercase    ${n_global}
+        
         IF    "${n_third}" != "${n_global}"
             ${new_err}=    Set Variable    A cím nem egyezik a Téma kéziratában megadottal!
             Append To List    ${errors}    ${new_err}
@@ -111,6 +115,8 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
             Log String To Console     [KOMPETENCIA] ${global_cim} (norm: ${n_global})
         END
         #------------------------------- negyedik sor Témák kézirata ellenőrzése --------------------
+         Log String To Console    Negyedik sor olvasás előtt act_line: ${act_line}
+
         ${fourth_paragraph}    ${act_line}=    Get Next Non Empty Paragraph    ${paragraphs}    ${act_line}
         Log String To Console    Negyedik sor: ${fourth_paragraph}
         ${normalized_fourth}=    Strip String    ${fourth_paragraph}

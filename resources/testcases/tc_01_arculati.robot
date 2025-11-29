@@ -134,7 +134,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
     Log String To Console    Negyedik sor: ${fourth_paragraph}
  
     ${fourth_norm}=    Strip String    ${fourth_paragraph}
-    ${accepted}=    Create List    Téma kézirata    Témák kézirata
+    ${accepted}=    Create List    Téma kézirata    Téma kézirat    Témák kézirata
     ${found}=    Run Keyword And Return Status    List Should Contain Value    ${accepted}    ${fourth_norm}
     IF    '${found}' == 'False'
         Append To List    ${errors}    A negyedik sor kötelezően: "Téma kézirata" (vagy megengedett alternatíva)!
