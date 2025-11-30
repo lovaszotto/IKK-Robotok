@@ -358,6 +358,13 @@ Konfiguráció Betöltése
     Log String To Console With File    ═══════════KONFIGURACIO BETOLTESE KÉSZ════════════════════
     #Log String To Console With File     \n\[TRACE] Konfiguráció Betöltése kilépett
 
+
+Get File Directory
+        [Documentation]    Visszaadja a fájl elérési útját (könyvtárát)
+        [Arguments]    ${file_path}
+        ${dir_path}=    Evaluate    __import__('os').path.dirname(r'''${file_path}''')    modules=os
+        RETURN    ${dir_path}
+
 Get Input Folder From Config
     [Documentation]    Config fájlból input_folder érték kiolvasása
     

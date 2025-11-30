@@ -72,7 +72,7 @@ Batch inicializálás
         ${CURRENT_DIR}=    Evaluate    __import__('os').path.dirname('${docx_file_fixed}')    modules=os
         
         
-        Log String To Console With File    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        Log String To Console With File    \n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
         Log String To Console With File    >>> FELDOLGOZÁS: (${file_number}/${file_count}) ${docx_file}
         IF    '${docx_file}' != '' and 'docx.docx' in '${docx_file}'
           ${docx_file_fixed}=    Replace String    ${docx_file}    \\    /
@@ -82,23 +82,59 @@ Batch inicializálás
           Log String To Console With File    Átnevezve: ${docx_file_fixed} -> ${new_file_name}
           ${docx_file}=    Set Variable    ${new_file_name}
         END
-        # van-e azonos nevű de .v1 névvel mentett fájl
-        ${only_file_name}=    Replace String    ${docx_file}    .docx    ${EMPTY}
-        #van -e az adott könyvtárban .v1 fájl
-        ${v1_file}=    Set Variable    ${only_file_name}.v1.docx    
-        Log String To Console With File    .v1 fájl: ${v1_file} 
-    
-        #létezik-e a fájl
-        ${v1_exists}=    Run Keyword And Return Status    File Should Exist    ${v1_file}
-        IF    ${v1_exists}
-          Log String To Console With File    [WARNING] Létezik az azonos nevű .v1 fájl: ${v1_file} 
-         Move File    ${docx_file}    ${docx_file}_old
-        #az adott docx-et kihagyjuk
-        CONTINUE
+        # Verzió ellenőrzés: ellenőrzi, hogy az aktuális könyvtárban van-e azonos fájlnévvel 
+        # --- Verziókezelő blokk: csak a legnagyobb verzió marad, a többit átnevezi ---
+       # az only_file_name változó a docx_file-ból csak a fájl nevet tartalmazza kiterjesztés nélkül
+        ${only_file_name}=    Get File Name Base    ${docx_file}
+        ${orig_file_name}=    Set Variable    ${docx_file}
+        ${new_name}=    Set Variable    ${docx_file}
+        
+       Log String To Console With File    >>> VERZIÓ ELLENŐRZÉS only_file_name >>> ${only_file_name}
+        # a ${docx_file} -ból csak az útvonal rész kerül az only_path változóba
+        ${only_path}=    Get File Directory    ${docx_file}
+
+       Log String To Console With File    >>> VERZIÓ ELLENŐRZÉS only_path >>> ${only_path}    
+       # Ha a ${only_file_name} neve nem tartalmazza a \\.v(\\d+)\\.docx$" számozást, akkor átnevezzük átnevezzük v0-ra
+        ${has_version}=    Run Keyword And Return Status    Should Match Regexp    ${only_file_name}    \\.v\\d+\\.
+        IF    not ${has_version}
+            ${new_name}=    Set Variable    ${only_file_name}.v0.docx
+            Move File    ${only_path}/${only_file_name}.docx    ${only_path}/${new_name}
+            Log String To Console With File    Átnevezve (v0 hozzáadva): ${only_file_name}.docx -> ${new_name}
+           
         END
 
-        
-
+        ${verzio_pattern}=    Set Variable    ${only_file_name}.v*.docx
+        ${verzio_files}=    List Files In Directory    ${CURRENT_DIR}    pattern=${verzio_pattern}
+      Log String To Console With File    >>> VERZIÓ verzio_pattern >> ${verzio_pattern}
+     Log String To Console With File    >>> VERZIÓ ELLENŐRZÉS verzio_files >>> ${verzio_files}
+   
+        ${verzio_list}=    Create List
+        FOR    ${vf}    IN    @{verzio_files}
+            ${verzio_num}=    Evaluate    int(re.search(r"\\.v(\\d+)\\.docx$", r'''${vf}''').group(1))    modules=re
+            Append To List    ${verzio_list}    ${verzio_num}
+          Log String To Console With File    >>> VERZIÓ LIST >>> ${verzio_num}
+       
+        END
+        ${max_verzio}=    Set Variable    0
+        IF    ${verzio_list}
+            ${max_verzio}=    Evaluate    max(${verzio_list})
+          Log String To Console With File    >>> MAX >>> ${max_verzio}
+            
+        END
+        FOR    ${vf}    IN    @{verzio_files}
+             Log String To Console With File    >>> vf >>> ${vf}
+            ${verzio_num}=    Evaluate    int(re.search(r"\\.v(\\d+)\\.docx$", r'''${vf}''').group(1))    modules=re
+            IF    ${verzio_num} != ${max_verzio}
+                Move File    ${only_path}/${vf}    ${only_path}/${vf}_old
+                Log String To Console With File    Átnevezve (régi verzió): ${vf} -> ${vf}_old
+            END
+        END
+        # ha van a fájlnévben .v0.docx akkor átnevezzük a fájlt a verzió nélkülire
+        ${has_v0}=    Run Keyword And Return Status    Should Match Regexp    ${new_name}    \\.v0\\.docx$
+        IF    ${has_v0} and ${max_verzio} == 0
+            Move File    ${only_path}/${new_name}   ${docx_file}
+            Log String To Console With File    Átnevezve (v0 eltávolítva): ${new_name} -> ${docx_file}
+        END
         Log String To Console With File    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
   
         #${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirata.docx
