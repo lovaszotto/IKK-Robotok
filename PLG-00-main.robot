@@ -47,8 +47,15 @@ Batch inicializálás
     
     # *RRF221_tema.kezirata.docx létezés ellenőrzés 
 
+
     # DOC kiterjesztésű fájlok keresése és listázása
     Initialize DOC Files List
+
+    # Recovery fájl csak akkor jön létre, ha még nem létezik
+    ${recovery_exists}=    Run Keyword And Return Status    File Should Exist    ${CONFIG_OUTPUT_FOLDER}${/}_Recovery.csv
+    IF    not ${recovery_exists}
+      Create File    ${CONFIG_OUTPUT_FOLDER}${/}_Recovery.csv    encoding=UTF-8
+    END
 
 Összes DOC fájl keresése
     Log String To Console With File    \n=== ÖSSZES DOC FELDOLGOZÁSA ===
@@ -69,17 +76,25 @@ Batch inicializálás
         ${docx_file}=    Get From List    ${docx_files}    ${index}
         ${file_number}=    Evaluate    ${index} + 1
         
+        #Recovery ellenőrzés: ha a _Recovery.csv fájl  tartalmazza a  ${docx_files} szöveget, akkor kihagyjuk
+        ${recovery_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}${/}_Recovery.csv
+        ${is_in_recovery}=    Should Contain File    ${recovery_file}    ${docx_file}
+        ${is_in_recovery_type}=    Evaluate    type(${is_in_recovery}).__name__
+        IF    ${is_in_recovery}==${True}
+          Log String To Console With File    [RECOVERY]  ${docx_file} 
+          CONTINUE
+        END
+
         # Fájl név kinyerése az elnevezéshez
         ${file_parts}=    Split String    ${docx_file}    ${/}
         ${file_parts_len}=    Get Length    ${file_parts}
-        #Log String To Console With File    -----------------------${docx_file}-------------- Fájl részek száma: ${file_parts_len}
         ${file_name}=    Get From List    ${file_parts}    -1
         ${docx_file_fixed}=    Replace String    ${docx_file}    \\    /
         # A warning elkerülésére: minden backslash /-re cserélve, így nem lesz invalid escape sequence
         ${CURRENT_DIR}=    Evaluate    __import__('os').path.dirname('${docx_file_fixed}')    modules=os
         
-        
-        Log String To Console With File    \n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    
+        #Log String To Console With File    \n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
         Log String To Console With File    >>> FELDOLGOZÁS: (${file_number}/${file_count}) ${docx_file}
         IF    '${docx_file}' != '' and 'docx.docx' in '${docx_file}'
           ${docx_file_fixed}=    Replace String    ${docx_file}    \\    /
@@ -152,6 +167,12 @@ Batch inicializálás
             ${is_kompetencia}=    Run Keyword And Return Status    Should Contain    ${file_name}    kompetencia
             IF     $is_fogalomtar1 or $is_fogalomtar2 or $is_kompetencia
               Log String To Console With File    [SKIP] Fájl kihagyva (fogalomtár/kompetencia): ${file_name} 
+              #
+              #bejegyzés a recovery fájlba
+              #
+              ${recovery_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}${/}_Recovery.csv
+              #Log String To Console With File    Recovery file: ${recovery_file}
+              Append To File    ${recovery_file}    ${docx_file}\n   
               CONTINUE
             END
             #tema_kezirat név hibás
@@ -172,13 +193,19 @@ Batch inicializálás
        #selenium-screenshot törlése selenium-screenshot*.png fájlok törlése
        ${SELENIUM_SCREENSHOT_FILE}=    Set Variable    selenium-screenshot*.png
       Run Keyword And Ignore Error    Remove File    ${SELENIUM_SCREENSHOT_FILE}
+      #
+      #bejegyzés a recovery fájlba
+      #
+        ${recovery_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}${/}_Recovery.csv
+        Log String To Console With File    Recovery file: ${recovery_file}
+        Append To File    ${recovery_file}    ${docx_file}\n    
    END
 
 Batch lezárás
     [Documentation]    Batch feldolgozás lezárása: eredmények összesítése
     
     # Eredmények automatikus ellenőrzése
-    Log String To Console With File    DUPLUM ELLENŐRZÉS BEFEJEZVE - EREDMÉNYEK ELEMZÉSE INDUL...
+    Log String To Console With File    EREDMÉNYEK ELEMZÉSE INDUL...
     Log String To Console With File    \n════════════════════════════════════════════════════════════════
     # Redundancia Eredmények Ellenőrzése eltávolítva (adatbázis kezelés végleg letiltva)
 

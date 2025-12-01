@@ -1,3 +1,52 @@
+*** Keywords ***
+Should Contain File
+    [Arguments]    ${file_path}    ${search_string}
+    #logolja a bemeneti paramétereket
+    #Log String To Console With File    [DEBUG] Should Contain File hívva: ${file_path} | Keresett string: ${search_string}
+    ${exists}=    Run Keyword And Return Status    File Should Exist    ${file_path}
+    IF    not ${exists}
+        #Log String To Console With File    [HIBA] _Recovery Fájl nem létezik: ${file_path} | Keresett string: ${search_string} | Visszatér: False
+        #Log String To Console With File    [DEBUG] RETURN (nem létezik): False (type=${type(False).__name__})
+        RETURN    False
+    END
+    ${content}=    Get File    ${file_path}
+    #ird ki a konzolra a fájl tartalmát
+    #Log String To Console With File    -------------------------[DEBUG] Fájl tartalma:\n${content}
+    ${lines}=    Split To Lines    ${content}
+    #Log String To Console With File    -------------------------
+    
+    # Ha a fájl üres, azonnal térjünk vissza False-szal
+    ${lines_count}=    Get Length    ${lines}
+   
+    IF    ${lines_count} == 0
+        #Log String To Console With File    [HIBA] _Recovery Fájl üres vagy 0 bájt: ${file_path} | Keresett string: ${search_string} | Visszatér: False
+        #Log String To Console With File    [DEBUG] RETURN (üres): False (type=${type(False).__name__})
+        RETURN    False
+    END
+     #ird ki a konzolra a sorok számát
+    #Log String To Console With File    !!!!!!!!!!!!!!!!!!!! [DEBUG] Sorok száma a _Recovery fájlban: ${lines_count}
+    # Normalizáljuk a keresett stringet: \\ -> /, strip
+    ${search_norm}=    Replace String    ${search_string}    \\    /
+    ${search_norm}=    Strip String    ${search_norm}
+     #Log String To Console With File    [DEBUG1] Keresett: "${search_norm}"
+    ${found}=    Set Variable    ${False}
+    FOR    ${line}    IN    @{lines}
+        ${line_norm}=    Replace String    ${line}    \\    /
+        ${line_norm}=    Strip String    ${line_norm}
+
+        #ird ki a konzolra a normalizált sort és a keresett stringet
+        #Log String To Console With File    [DEBUG] Ellenőrzött sor: "${line_norm}" 
+        IF    '${line_norm}' == '${search_norm}'
+        #ird ki hogy megtaláltam
+            #Log String To Console With File    [DEBUG] Találat a _Recovery fájlban: ${line_norm}
+            ${found}=    Set Variable    ${True}
+            Exit For Loop
+        END
+    END
+    #Log String To Console With File    [DEBUG] Should Contain File: ${file_path} | Keresett: ${search_string} | Találat: ${found}
+    ${result}=    Evaluate    bool(${found})
+    #Log String To Console With File    [DEBUG] RETURN (találat): ${result} (type=${type(${result}).__name__})
+    RETURN    ${result}
 
 *** Settings ***
 Library    ../libraries/DocxReader.py
