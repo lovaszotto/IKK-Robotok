@@ -1,5 +1,73 @@
 
+*** Settings ***
+Library    ../libraries/DocxReader.py
+Library    ../libraries/find_docx.py
+Library    BuiltIn
+Library    DateTime
+Library    Process
+Library    OperatingSystem
+Library    String
+Library    Collections
+Resource   variables.robot
+Resource   get_file_size.resource
+# MEGJEGYZÉS: Legacy resource hivatkozások eltávolítva, mivel ezeket a fájlokat archivláltuk
+Resource   testcases/tc_01_arculati.robot
+Resource   testcases/tc_02_kompetencia.robot
+Resource   testcases/tc_03_fogalomtar.robot
+Resource   testcases/tc_04_szerkesztoi.robot
+Resource   testcases/tc_05_internet.robot
+Resource   testcases/tc_06_szerzo_lektor.robot
+Resource   testcases/tc_07_hosszu_idezetek.robot
+Resource   testcases/tc_08_tordeles.robot
+Resource   testcases/tc_09_abrak_fotok.robot
+Resource   testcases/tc_10_felsorolas.robot
+Resource   testcases/tc_11_ures_negyzetek.robot
+Resource   testcases/tc_12_magyar_nyelven_keszult.robot
+Resource   testcases/tc_13_bekezdesek_elkulonulnek.robot
+Resource   testcases/tc_14_felsorolasok_egysegesek.robot
+Resource   testcases/tc_15_mozaikaszvak.robot
+Resource   testcases/tc_16_ldezetek.robot
+Resource   testcases/tc_17_idezetek_forrasmegjelolese.robot
+Resource   testcases/tc_18_kompetencia_teszt_megoldokulcs.robot
+Resource   testcases/tc_19_idegen_nyelvu_illusztraciok.robot
+Resource   testcases/tc_20_lapjai_szamozottak.robot
+Resource   testcases/tc_21_szerkesztheto_docx_formatum.robot
+Resource   testcases/tc_22_cimlap_tartalom.robot
+Resource   testcases/tc_23_generalt_tartalomjegyzek.robot
+Resource   testcases/tc_24_cimsorozas.robot
+
+*** Variables ***
+${DOCX_DUMP_TO_FILE}    ${False}
+${DOCX_DUMP_DIR}        ${EXECDIR}${/}results${/}docx_dump
+
 *** Keywords ***
+Initialize DOC Files List
+    [Documentation]    Megkeresi a DOCUMENT_PATH-ban rekurzívan az összes .DOC vagy .doc kiterjesztésű fájlt, és ha talál, akkor _Hibás kiterjesztés.csv fájlba sorolja őket.
+    ${doc_files}=    Find Doc Files Recursively    ${DOCUMENT_PATH}
+    ${doc_count}=    Get Length    ${doc_files}
+    Log String To Console With File    Talált .DOC fájlok száma: ${doc_count}
+    ${doc_files_lower}=    Create List    # már minden .doc és .DOC benne van az előző listában
+        ${all_doc_files}=    Create List
+        FOR    ${f}    IN    @{doc_files}
+            Append To List    ${all_doc_files}    ${f}
+        END
+        FOR    ${f}    IN    @{doc_files_lower}
+            Append To List    ${all_doc_files}    ${f}
+        END
+        ${file_count}=    Get Length    ${all_doc_files}
+        Run Keyword If    ${file_count} > 0    Write Hibás Kiterjesztés CSV    ${all_doc_files}
+
+Write Hibás Kiterjesztés CSV
+    [Arguments]    ${file_list}
+    ${csv_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}/_Hibás kiterjesztés.csv
+   Log String To Console With File    Hibás kiterjesztésű fájlok listázása CSV-be: ${csv_file}    
+   
+    Create File    ${csv_file}    Fájlok hibás kiterjesztéssel (DOC):\n    encoding=UTF-8
+    FOR    ${f}    IN    @{file_list}
+        Append To File    ${csv_file}    ${f}\n
+    END
+
+## (Üres Get RUN_WEB_CHECK From Config törölve, implementáció lentebb megtalálható)
 Get RUN_WEB_CHECK From Config
     [Documentation]    Config fájlból web_check_enabled érték kiolvasása logikai típusként
     ${config_content}=    Get File    ${CURDIR}/../IKK.config
@@ -19,10 +87,7 @@ Get RUN_WEB_CHECK From Config
         END
     END
     # Ha nem találjuk, alapértelmezett érték: False
-    Log String To Console With File    \n[FIGYELEM] web_check_enabled nem található a config-ban!
-    RETURN    ${False}
 
-*** Keywords ***
 Log String To Console With File
     [Arguments]    @{msgs}
     [Documentation]    Logs message both to console and to timestamped log file
@@ -215,48 +280,7 @@ Process Config Line
     Log String To Console With File    Bementi konyvtar: ${config_input}
     Log String To Console With File    Kimeneti konyvtar: ${config_output}
     Log String To Console With File    Excel prefix: ${config_excel_prefix}
-*** Settings ***
-Library    ../libraries/DocxReader.py
-Library    ../libraries/find_docx.py
-Library    BuiltIn
-Library    DateTime
-Library    Process
-Library    OperatingSystem
-Library    String
-Library    Collections
-Resource   variables.robot
-Resource   get_file_size.resource
-# MEGJEGYZÉS: Legacy resource hivatkozások eltávolítva, mivel ezeket a fájlokat archivláltuk
-Resource   testcases/tc_01_arculati.robot
-Resource   testcases/tc_02_kompetencia.robot
-Resource   testcases/tc_03_fogalomtar.robot
-Resource   testcases/tc_04_szerkesztoi.robot
-Resource   testcases/tc_05_internet.robot
-Resource   testcases/tc_06_szerzo_lektor.robot
-Resource   testcases/tc_07_hosszu_idezetek.robot
-Resource   testcases/tc_08_tordeles.robot
-Resource   testcases/tc_09_abrak_fotok.robot
-Resource   testcases/tc_10_felsorolas.robot
-Resource   testcases/tc_11_ures_negyzetek.robot
-Resource   testcases/tc_12_magyar_nyelven_keszult.robot
-Resource   testcases/tc_13_bekezdesek_elkulonulnek.robot
-Resource   testcases/tc_14_felsorolasok_egysegesek.robot
-Resource   testcases/tc_15_mozaikaszvak.robot
-Resource   testcases/tc_16_ldezetek.robot
-Resource   testcases/tc_17_idezetek_forrasmegjelolese.robot
-Resource   testcases/tc_18_kompetencia_teszt_megoldokulcs.robot
-Resource   testcases/tc_19_idegen_nyelvu_illusztraciok.robot
-Resource   testcases/tc_20_lapjai_szamozottak.robot
-Resource   testcases/tc_21_szerkesztheto_docx_formatum.robot
-Resource   testcases/tc_22_cimlap_tartalom.robot
-Resource   testcases/tc_23_generalt_tartalomjegyzek.robot
-Resource   testcases/tc_24_cimsorozas.robot
 
-*** Variables ***
-${DOCX_DUMP_TO_FILE}    ${False}
-${DOCX_DUMP_DIR}        ${EXECDIR}${/}results${/}docx_dump
-
-*** Keywords ***
 
 Get Config Icon
     #Log String To Console With File    [TRACE] Get Config Icon elindult
