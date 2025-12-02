@@ -89,7 +89,7 @@ Tartalmaz fogalomtárat ellenőrzése
     ${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique_errors}
  
     #Log String To Console    \nEredmény visszaírása:${DIGITALIS_EXCEL_FILE}  :  ${CURRENT_SHEET_NAME}    ${testCase_row}    ${unique_errors}
-    Mark WebTest Status    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}    ${testCase_row}    ${err_msg}
+    Mark Test Status    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}    ${testCase_row}    ${err_msg}
    
  
 

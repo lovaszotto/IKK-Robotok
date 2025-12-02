@@ -90,6 +90,23 @@ ${DOCX_DUMP_TO_FILE}    ${False}
 ${DOCX_DUMP_DIR}        ${EXECDIR}${/}results${/}docx_dump
 
 *** Keywords ***
+Write SumError fájl
+    [Arguments]    ${parent}    ${child}    ${testcase}    ${error}    ${filename}
+    #Log String To Console With File    [DEBUG] CONFIG_OUTPUT_FOLDER value: ${CONFIG_OUTPUT_FOLDER}
+    ${csv_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}/_SumError.csv
+    ${header}=    Set Variable    Parent;Child;TestCase;Error;Filename
+    ${row}=    Set Variable    ${parent};${child};${testcase};${error};${filename}
+    #Log String To Console With File    [DEBUG] SumError.csv path: ${csv_file}
+    #Log String To Console With File    [DEBUG] SumError.csv row: ${row}
+    ${exists}=    Run Keyword And Return Status    File Should Exist    ${csv_file}
+    IF    not ${exists}
+        Create File    ${csv_file}    ${header}\n    encoding=UTF-8
+        # BOM hozzáadása a fájl elejére
+        ${bom}=    Evaluate    '\ufeff'
+        ${old_content}=    Get File    ${csv_file}
+        Create File    ${csv_file}    ${bom}${old_content}    encoding=UTF-8
+    END
+    Append To File    ${csv_file}    ${row}\n
 Initialize DOC Files List
     [Documentation]    Megkeresi a DOCUMENT_PATH-ban rekurzívan az összes .DOC vagy .doc kiterjesztésű fájlt, és ha talál, akkor _Hibás kiterjesztés.csv fájlba sorolja őket.
     ${doc_files}=    Find Doc Files Recursively    ${DOCUMENT_PATH}
@@ -111,10 +128,18 @@ Write Hibás Kiterjesztés CSV
     ${csv_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}/_Hibás kiterjesztés.csv
    Log String To Console With File    Hibás kiterjesztésű fájlok listázása CSV-be: ${csv_file}    
    
-    Create File    ${csv_file}    Fájlok hibás kiterjesztéssel (DOC):\n    encoding=UTF-8
+    ${bom}=    Evaluate    '\ufeff'
+    Create File    ${csv_file}    ${bom}Fájlok hibás kiterjesztéssel (DOC):\n    encoding=UTF-8
+    # egy ${doc_file_list} -be ;-vel elválasztva sorolja fel a file_list elemeit
+    ${doc_file_list}=    Catenate    SEPARATOR=;    @{file_list}
     FOR    ${f}    IN    @{file_list}
         Append To File    ${csv_file}    ${f}\n
     END
+    #irja be a sumerror.csv fájlba is
+    # parent értéke
+    #${parent}=    Get Variable Value    ${DOCUMENT_PATH}    ${EMPTY}
+    #${child}=    Get Variable Value    ${CURRENT_FILENAME_PART}    ${EMPTY}
+    #Write SumError fájl    ${parent}    ${EMPTY}   Hibás_kiterjesztés    Talált hibás kiterjesztésű fájlokat (.DOC)    ${doc_file_list}
 
 ## (Üres Get RUN_WEB_CHECK From Config törölve, implementáció lentebb megtalálható)
 Get RUN_WEB_CHECK From Config
@@ -177,12 +202,54 @@ Mark Test Status
         ${err_msg_CR}=      Replace String    ${err_msg}    ;    \n
          Create File    ${error_log_file}    ${err_msg_CR}    encoding=UTF-8
         Log String To Console With File    Hiba fájl létrehozva: ${error_log_file}
+
+        #sumerror.csv írása
+        ${parent}=    Get Variable Value    ${CURRENT_PATH_PART}    ${EMPTY}
+        ${child}=    Get Variable Value    ${CURRENT_FILENAME_PART}    ${EMPTY}
+        ${testcase}=    Set Variable    TC${row_text}
+        Write SumError fájl    ${parent}    ${child}    ${testcase}    ${err_msg}    ${excel_file}
+        
     ELSE
         Log String To Console With File    Mark Test Status Passed
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    3    ${mark}
     END
 
-
+Mark WebTest Status
+    [Documentation]    Általános jelölő: hibánál C{row} megjegyzés, D{row} "X" és FAIL; siker esetén B{row} "X".
+    [Arguments]    ${excel_file}    ${sheet_name}    ${test_row}    ${err_msg}    ${mark}=X
+    #Log String To Console    Mark WebTest Status called with err_msg: ${err_msg}
+    
+    IF    $err_msg != ''
+        #Log String To Console    Mark Test Status ${test_row}-ba: ${err_msg}
+        Log String To Console With File    Mark WebTest Status Failed
+        Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    4    ${err_msg}
+         
+        IF     int(${test_row}) < 10
+            ${row_text}=    Set Variable    0${test_row}
+        ELSE
+            ${row_text}=    Set Variable    ${test_row}
+        END    
+        ${error_log_file}=    Replace String    ${excel_file}    .xlsx    (${sheet_name}_${row_text}) hiba.txt    
+        #Log String To Console    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}    
+        #hiba fájl írása
+        ${err_msg_CR}=      Replace String    ${err_msg}    ;    \n
+         Create File    ${error_log_file}    ${err_msg_CR}    encoding=UTF-8
+       
+        # Hibás X-elés: D oszlop
+        Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    3    ${mark}
+         #felirjuk egy csv.be appendel
+          Write SumError fájl    ${excel_file}    ${sheet_name}     wtc-${test_row}   ${err_msg}
+ 
+        # Jelöld FAIL-re a tesztet, de folytasd a futást
+        Run Keyword And Continue On Failure    Fail    ${err_msg}
+        #Log String To Console    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}
+         Log String To Console With File    Mark WebTest Status Failed
+    ELSE
+        # Hibátlan X-elés: C oszlop
+        Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    2    ${mark}
+         Write SumError fájl    ${excel_file}    ${sheet_name}    wtc-${test_row}    Passed
+        Log String To Console With File    Mark WebTest Status Passed
+        END
 
 Initialize Global Log File
     [Documentation]    Inicializálja a globális log fájl nevét a futás elején a gyökérkönyvtárban
