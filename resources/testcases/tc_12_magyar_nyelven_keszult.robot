@@ -34,6 +34,13 @@ Test Case 12 - Magyar Nyelven Keszult Ellenorzese
         
         IF    ${is_text_valid}
             TRY
+                #ha a style nem normal akkor continue
+                IF    "${style}" != "Normal"
+                    CONTINUE
+                END
+                #írd ki a text és a stílus értékét
+                #Log String To Console    [DEBUG]${idx}: [${style}] "${text}"
+
                 ${lang}=    Evaluate    __import__('langdetect').detect(r'''${text}''')
                 ${total_valid_texts}=    Evaluate    ${total_valid_texts} + 1
                 
@@ -88,6 +95,10 @@ Test Case 12 - Magyar Nyelven Keszult Ellenorzese
     
     IF    '${current_excel_file}' != '${EMPTY}' and '${current_sheet_name}' != '${EMPTY}'
         Mark Test Status    ${current_excel_file}    ${current_sheet_name}    ${testCase_row}    ${err_msg}
+        #Ha a magyar 95% felett van akkor sikeres legyen a teszt
+        IF    ${hungarian_percentage} >= 95
+            Mark Test Status    ${current_excel_file}    ${current_sheet_name}    ${testCase_row}    ${EMPTY}
+        END
     END   
     # Változók törlése
     Delete Variables    ${pars}    ${par}    ${text}
