@@ -2,50 +2,50 @@
 Should Contain File
     [Arguments]    ${file_path}    ${search_string}
     #logolja a bemeneti paramétereket
-    #Log String To Console With File    [DEBUG] Should Contain File hívva: ${file_path} | Keresett string: ${search_string}
+    #Log String To Console    [DEBUG] Should Contain File hívva: ${file_path} | Keresett string: ${search_string}
     ${exists}=    Run Keyword And Return Status    File Should Exist    ${file_path}
     IF    not ${exists}
-        #Log String To Console With File    [HIBA] _Recovery Fájl nem létezik: ${file_path} | Keresett string: ${search_string} | Visszatér: False
-        #Log String To Console With File    [DEBUG] RETURN (nem létezik): False (type=${type(False).__name__})
+        #Log String To Console    [HIBA] _Recovery Fájl nem létezik: ${file_path} | Keresett string: ${search_string} | Visszatér: False
+        #Log String To Console    [DEBUG] RETURN (nem létezik): False (type=${type(False).__name__})
         RETURN    False
     END
     ${content}=    Get File    ${file_path}
     #ird ki a konzolra a fájl tartalmát
-    #Log String To Console With File    -------------------------[DEBUG] Fájl tartalma:\n${content}
+    #Log String To Console    -------------------------[DEBUG] Fájl tartalma:\n${content}
     ${lines}=    Split To Lines    ${content}
-    #Log String To Console With File    -------------------------
+    #Log String To Console    -------------------------
     
     # Ha a fájl üres, azonnal térjünk vissza False-szal
     ${lines_count}=    Get Length    ${lines}
    
     IF    ${lines_count} == 0
-        #Log String To Console With File    [HIBA] _Recovery Fájl üres vagy 0 bájt: ${file_path} | Keresett string: ${search_string} | Visszatér: False
-        #Log String To Console With File    [DEBUG] RETURN (üres): False (type=${type(False).__name__})
+        #Log String To Console    [HIBA] _Recovery Fájl üres vagy 0 bájt: ${file_path} | Keresett string: ${search_string} | Visszatér: False
+        #Log String To Console    [DEBUG] RETURN (üres): False (type=${type(False).__name__})
         RETURN    False
     END
      #ird ki a konzolra a sorok számát
-    #Log String To Console With File    !!!!!!!!!!!!!!!!!!!! [DEBUG] Sorok száma a _Recovery fájlban: ${lines_count}
+    #Log String To Console    !!!!!!!!!!!!!!!!!!!! [DEBUG] Sorok száma a _Recovery fájlban: ${lines_count}
     # Normalizáljuk a keresett stringet: \\ -> /, strip
     ${search_norm}=    Replace String    ${search_string}    \\    /
     ${search_norm}=    Strip String    ${search_norm}
-     #Log String To Console With File    [DEBUG1] Keresett: "${search_norm}"
+     #Log String To Console    [DEBUG1] Keresett: "${search_norm}"
     ${found}=    Set Variable    ${False}
     FOR    ${line}    IN    @{lines}
         ${line_norm}=    Replace String    ${line}    \\    /
         ${line_norm}=    Strip String    ${line_norm}
 
         #ird ki a konzolra a normalizált sort és a keresett stringet
-        #Log String To Console With File    [DEBUG] Ellenőrzött sor: "${line_norm}" 
+        #Log String To Console    [DEBUG] Ellenőrzött sor: "${line_norm}" 
         IF    '${line_norm}' == '${search_norm}'
         #ird ki hogy megtaláltam
-            #Log String To Console With File    [DEBUG] Találat a _Recovery fájlban: ${line_norm}
+            #Log String To Console    [DEBUG] Találat a _Recovery fájlban: ${line_norm}
             ${found}=    Set Variable    ${True}
             Exit For Loop
         END
     END
-    #Log String To Console With File    [DEBUG] Should Contain File: ${file_path} | Keresett: ${search_string} | Találat: ${found}
+    #Log String To Console    [DEBUG] Should Contain File: ${file_path} | Keresett: ${search_string} | Találat: ${found}
     ${result}=    Evaluate    bool(${found})
-    #Log String To Console With File    [DEBUG] RETURN (találat): ${result} (type=${type(${result}).__name__})
+    #Log String To Console    [DEBUG] RETURN (találat): ${result} (type=${type(${result}).__name__})
     RETURN    ${result}
 
 *** Settings ***
@@ -92,12 +92,12 @@ ${DOCX_DUMP_DIR}        ${EXECDIR}${/}results${/}docx_dump
 *** Keywords ***
 Write SumError fájl
     [Arguments]    ${parent}    ${child}    ${testcase}    ${error}    ${filename}
-    #Log String To Console With File    [DEBUG] CONFIG_OUTPUT_FOLDER value: ${CONFIG_OUTPUT_FOLDER}
+    #Log String To Console    [DEBUG] CONFIG_OUTPUT_FOLDER value: ${CONFIG_OUTPUT_FOLDER}
     ${csv_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}/_SumError.csv
     ${header}=    Set Variable    Parent;Child;TestCase;Error;Filename
     ${row}=    Set Variable    ${parent};${child};${testcase};${error};${filename}
-    #Log String To Console With File    [DEBUG] SumError.csv path: ${csv_file}
-    #Log String To Console With File    [DEBUG] SumError.csv row: ${row}
+    #Log String To Console    [DEBUG] SumError.csv path: ${csv_file}
+    #Log String To Console    [DEBUG] SumError.csv row: ${row}
     ${exists}=    Run Keyword And Return Status    File Should Exist    ${csv_file}
     IF    not ${exists}
         Create File    ${csv_file}    ${header}\n    encoding=UTF-8
@@ -111,7 +111,7 @@ Initialize DOC Files List
     [Documentation]    Megkeresi a DOCUMENT_PATH-ban rekurzívan az összes .DOC vagy .doc kiterjesztésű fájlt, és ha talál, akkor _Hibás kiterjesztés.csv fájlba sorolja őket.
     ${doc_files}=    Find Doc Files Recursively    ${DOCUMENT_PATH}
     ${doc_count}=    Get Length    ${doc_files}
-    Log String To Console With File    Talált .DOC fájlok száma: ${doc_count}
+    Log String To Console    Talált .DOC fájlok száma: ${doc_count}
     ${doc_files_lower}=    Create List    # már minden .doc és .DOC benne van az előző listában
         ${all_doc_files}=    Create List
         FOR    ${f}    IN    @{doc_files}
@@ -126,7 +126,7 @@ Initialize DOC Files List
 Write Hibás Kiterjesztés CSV
     [Arguments]    ${file_list}
     ${csv_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}/_Hibás kiterjesztés.csv
-   Log String To Console With File    Hibás kiterjesztésű fájlok listázása CSV-be: ${csv_file}    
+   Log String To Console    Hibás kiterjesztésű fájlok listázása CSV-be: ${csv_file}    
    
     ${bom}=    Evaluate    '\ufeff'
     Create File    ${csv_file}    ${bom}Fájlok hibás kiterjesztéssel (DOC):\n    encoding=UTF-8
@@ -153,7 +153,7 @@ Get RUN_WEB_CHECK From Config
             ${web_check_value}=    Replace String    ${line_trimmed}    web_check_enabled=    ${EMPTY}
             ${web_check_value_lower}=    Convert To Lowercase    ${web_check_value}
             ${is_enabled}=    Run Keyword And Return Status    Evaluate    '${web_check_value_lower}' in ['1', 'true', 'yes', 'igen']
-            Log String To Console With File    Config-ból beolvasott web_check_enabled: ${web_check_value} (${is_enabled})
+            Log String To Console    Config-ból beolvasott web_check_enabled: ${web_check_value} (${is_enabled})
             IF    '${web_check_value_lower}' in ['0', 'false', 'no', 'nem']
                 RETURN    ${False}
             END
@@ -162,7 +162,7 @@ Get RUN_WEB_CHECK From Config
     END
     # Ha nem találjuk, alapértelmezett érték: False
 
-Log String To Console With File
+Log String To Console
     [Arguments]    @{msgs}
     [Documentation]    Logs message both to console and to timestamped log file
     ${msg}=    Catenate    SEPARATOR=     @{msgs}
@@ -186,8 +186,8 @@ Mark Test Status
     [Arguments]    ${excel_file}    ${sheet_name}    ${test_row}    ${err_msg}    ${mark}=X
     
     IF    $err_msg != ''
-        #Log String To Console With File    Mark Test Status ${test_row}-ba: ${err_msg}
-        Log String To Console With File    Mark Test Status Failed
+        #Log String To Console    Mark Test Status ${test_row}-ba: ${err_msg}
+        Log String To Console    Mark Test Status Failed
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    6    ${err_msg}
          
         IF     int(${test_row}) < 10
@@ -197,11 +197,11 @@ Mark Test Status
         END    
         ${error_log_file}=    Replace String    ${excel_file}    .xlsx    (${sheet_name}_${row_text}) hiba.txt   
      
-        #Log String To Console With File    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}    
+        #Log String To Console    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}    
         #hiba fájl írása
         ${err_msg_CR}=      Replace String    ${err_msg}    ;    \n
          Create File    ${error_log_file}    ${err_msg_CR}    encoding=UTF-8
-        Log String To Console With File    Hiba fájl létrehozva: ${error_log_file}
+        Log String To Console    Hiba fájl létrehozva: ${error_log_file}
 
         #sumerror.csv írása
         ${parent}=    Get Variable Value    ${CURRENT_PATH_PART}    ${EMPTY}
@@ -210,7 +210,7 @@ Mark Test Status
         Write SumError fájl    ${parent}    ${child}    ${testcase}    ${err_msg}    ${excel_file}
         
     ELSE
-        Log String To Console With File    Mark Test Status Passed
+        Log String To Console    Mark Test Status Passed
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    3    ${mark}
     END
 
@@ -221,7 +221,7 @@ Mark WebTest Status
     
     IF    $err_msg != ''
         #Log String To Console    Mark Test Status ${test_row}-ba: ${err_msg}
-        Log String To Console With File    Mark WebTest Status Failed
+        Log String To Console    Mark WebTest Status Failed
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    4    ${err_msg}
          
         IF     int(${test_row}) < 10
@@ -243,12 +243,12 @@ Mark WebTest Status
         # Jelöld FAIL-re a tesztet, de folytasd a futást
         Run Keyword And Continue On Failure    Fail    ${err_msg}
         #Log String To Console    !!!!!!!!!!!!!!!!!!!!${error_log_file}  -> ${err_msg}
-         Log String To Console With File    Mark WebTest Status Failed
+         Log String To Console    Mark WebTest Status Failed
     ELSE
         # Hibátlan X-elés: C oszlop
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    2    ${mark}
          Write SumError fájl    ${excel_file}    ${sheet_name}    wtc-${test_row}    Passed    ${excel_file}
-        Log String To Console With File    Mark WebTest Status Passed
+        Log String To Console    Mark WebTest Status Passed
         END
 
 Initialize Global Log File
@@ -258,7 +258,7 @@ Initialize Global Log File
     # Kezdetben a gyökérkönyvtárban hozzuk létre
     Set Global Variable    ${GLOBAL_LOG_FILENAME}    ${log_filename_only}
     Set Global Variable    ${LOG_FILENAME_ONLY}    ${log_filename_only}
-    Log String To Console With File    Globális log fájl inicializálva: ${log_filename_only}
+    Log String To Console    Globális log fájl inicializálva: ${log_filename_only}
 
 Initialize Test Counters
     [Documentation]    Teszt számlálók nullázása a fő suite elején
@@ -286,7 +286,7 @@ Update Test Counters
     Set Global Variable    ${TC_TOTAL}     ${total}
     Set Global Variable    ${TC_PASSED}    ${passed}
     Set Global Variable    ${TC_FAILED}    ${failed}
-    #Log String To Console With File    [TRACE] Teardown: ${TEST_NAME} -> ${TEST_STATUS} (total=${total}, pass=${passed}, fail=${failed})
+    #Log String To Console    [TRACE] Teardown: ${TEST_NAME} -> ${TEST_STATUS} (total=${total}, pass=${passed}, fail=${failed})
 
 Update Global Check Counters
     [Documentation]    Hozzáadja a dokumentumonként mért 23-as ellenőrzés számait a globális számlálókhoz
@@ -300,7 +300,7 @@ Update Global Check Counters
     Set Global Variable    ${CHECK_TOTAL}     ${gt}
     Set Global Variable    ${CHECK_PASSED}    ${gp}
     Set Global Variable    ${CHECK_FAILED}    ${gf}
-    #Log String To Console With File    [TRACE] Globális ellenőrzés számlálók frissítve: total=${gt}, pass=${gp}, fail=${gf}
+    #Log String To Console    [TRACE] Globális ellenőrzés számlálók frissítve: total=${gt}, pass=${gp}, fail=${gf}
 
 Move Log File To Output Folder
     [Documentation]    Áthelyezi a log fájlt az output könyvtárba a konfiguráció betöltése után
@@ -314,10 +314,10 @@ Move Log File To Output Folder
         Copy File    ${GLOBAL_LOG_FILENAME}    ${new_log_path}
         Remove File    ${GLOBAL_LOG_FILENAME}
         Set Global Variable    ${GLOBAL_LOG_FILENAME}    ${new_log_path}
-        Log String To Console With File    Log fájl áthelyezve: ${new_log_path}
+        Log String To Console    Log fájl áthelyezve: ${new_log_path}
     ELSE IF    "${new_log_path}" != "${GLOBAL_LOG_FILENAME}"
         Set Global Variable    ${GLOBAL_LOG_FILENAME}    ${new_log_path}
-        Log String To Console With File    Log fájl útvonal frissítve: ${new_log_path}
+        Log String To Console    Log fájl útvonal frissítve: ${new_log_path}
     END
 
 Format Message With Line Breaks
@@ -353,14 +353,14 @@ Format Message With Line Breaks
 
 
 Process Config Line
-    #Log String To Console With File    [TRACE] Process Config Line elindult
+    #Log String To Console    [TRACE] Process Config Line elindult
     [Arguments]    ${config_line}
     # Csak az utolsó sort dolgozzuk fel, ha több soros a bemenet
     ${config_line}=    Get Line    ${config_line}    -1
     @{config_parts}=    Split String    ${config_line}    |
     ${parts_len}=    Get Length    ${config_parts}
     IF    ${parts_len} < 6
-        Log String To Console With File    [HIBA] Konfigurációs sor hibás vagy hiányos: ${config_line}
+        Log String To Console    [HIBA] Konfigurációs sor hibás vagy hiányos: ${config_line}
         RETURN
     END
     ${input_part}=    Get From List    ${config_parts}    0
@@ -392,18 +392,18 @@ Process Config Line
     Set Global Variable    ${CONFIG_THRESHOLD_MASOLT}    ${config_threshold_masolt}
     Set Global Variable    ${DOCUMENT_PATH}           ${config_input}
     # Sikeres konfiguráció betöltése
-    Log String To Console With File    Konfiguracio sikeresen betoltve!
-    Log String To Console With File    Bementi konyvtar: ${config_input}
-    Log String To Console With File    Kimeneti konyvtar: ${config_output}
-    Log String To Console With File    Excel prefix: ${config_excel_prefix}
+    Log String To Console    Konfiguracio sikeresen betoltve!
+    Log String To Console    Bementi konyvtar: ${config_input}
+    Log String To Console    Kimeneti konyvtar: ${config_output}
+    Log String To Console    Excel prefix: ${config_excel_prefix}
 
 
 Get Config Icon
-    #Log String To Console With File    [TRACE] Get Config Icon elindult
+    #Log String To Console    [TRACE] Get Config Icon elindult
     [Documentation]    Ikonok tiltva: mindig üres string
     [Arguments]    ${icon_name}
     RETURN    ${EMPTY}
-    #Log String To Console With File    [TRACE] Get Config Icon kilépett
+    #Log String To Console    [TRACE] Get Config Icon kilépett
 
 Parse Cover Table
     [Documentation]    Kinyeri az első táblázatot a ${DOCX_JSON} struktúrából és normalizálja a kulcsokat (':' vágás, trim). Visszatér: ${ok} (bool), ${clean_dict} vagy ${EMPTY}, ${err_msg}.
@@ -467,11 +467,11 @@ Parse Cover Table
 Konfiguráció Betöltése
     ${RUN_WEB_CHECK}=    Get RUN_WEB_CHECK From Config
     Set Suite Variable    ${RUN_WEB_CHECK}    ${RUN_WEB_CHECK}
-    #Log String To Console With File    [TRACE] Konfiguráció Betöltése elindult
+    #Log String To Console    [TRACE] Konfiguráció Betöltése elindult
     [Documentation]    IKK.config fajl betoltese es beallitasok alkalmazasa
     #Silence Python SyntaxWarnings
-    Log String To Console With File    \nKONFIGURACIO BETOLTESE...
-    Log String To Console With File    ═══════════════════════════════
+    Log String To Console    \nKONFIGURACIO BETOLTESE...
+    Log String To Console    ═══════════════════════════════
     # Konfiguracios fajl olvasasa Python scripttel
     ${config_result}=    Run Process    ${PYTHON_EXEC}    ${CURDIR}/../libraries/get_config.py    shell=True    cwd=${CURDIR}/..
     IF    ${config_result.rc} == 0
@@ -479,8 +479,8 @@ Konfiguráció Betöltése
         IF    $config_line != '' and $config_line != 'None'
             Process Config Line    ${config_line}
         ELSE
-            Log String To Console With File    [HIBA] Üres vagy None config_line, Split String kihagyva!
-            Log String To Console With File    [FIGYELMEZTETÉS] Konfiguráció hiányos; alapértelmezett beállítások lesznek használva
+            Log String To Console    [HIBA] Üres vagy None config_line, Split String kihagyva!
+            Log String To Console    [FIGYELMEZTETÉS] Konfiguráció hiányos; alapértelmezett beállítások lesznek használva
         END
    
         # Input folder beolvasása a config-ból (egyszer a futás elején)
@@ -489,14 +489,14 @@ Konfiguráció Betöltése
         
     ELSE
         Fail    Hiba a konfiguracio betoltesekor, alapertelmezettek hasznalata
-        Log String To Console With File    Hiba a konfiguracio betoltesekor, alapertelmezettek hasznalata
-        Log String To Console With File    Hibauzenet: ${config_result.stderr}
+        Log String To Console    Hiba a konfiguracio betoltesekor, alapertelmezettek hasznalata
+        Log String To Console    Hibauzenet: ${config_result.stderr}
     END
-    Log String To Console With File    Futtatja a WEB-es ellenőrzést: ${RUN_WEB_CHECK}
+    Log String To Console    Futtatja a WEB-es ellenőrzést: ${RUN_WEB_CHECK}
     
-    Log String To Console With File    ${EMPTY}
-    Log String To Console With File    ═══════════KONFIGURACIO BETOLTESE KÉSZ════════════════════
-    #Log String To Console With File     \n\[TRACE] Konfiguráció Betöltése kilépett
+    Log String To Console    ${EMPTY}
+    Log String To Console    ═══════════KONFIGURACIO BETOLTESE KÉSZ════════════════════
+    #Log String To Console     \n\[TRACE] Konfiguráció Betöltése kilépett
 
 
 Get File Directory
@@ -518,13 +518,13 @@ Get Input Folder From Config
         IF    ${is_input_folder}
             ${input_folder_value}=    Replace String    ${line_trimmed}    input_folder=    ${EMPTY}
             ${input_folder_normalized}=    Replace String    ${input_folder_value}    \\    /
-            Log String To Console With File    Config-ból beolvasott input folder: ${input_folder_normalized}
+            Log String To Console    Config-ból beolvasott input folder: ${input_folder_normalized}
             RETURN    ${input_folder_normalized}
         END
     END
     
     # Ha nem találjuk, alapértelmezett érték
-    Log String To Console With File     \n\[FIGYELEM] input_folder nem található a config-ban!
+    Log String To Console     \n\[FIGYELEM] input_folder nem található a config-ban!
     RETURN    ${EMPTY}
 
 
@@ -533,26 +533,26 @@ DOCX Beolvasás Teszt
     [Documentation]    Teszt: DOCX fájl beolvasásának ellenőrzése (adatbázis nélkül)
     [Arguments]    ${file_path}
     
-    #Log String To Console With File    === DOCX BEOLVASÁS TESZT ===
-    #Log String To Console With File    Fájl: ${file_path}
+    #Log String To Console    === DOCX BEOLVASÁS TESZT ===
+    #Log String To Console    Fájl: ${file_path}
     
     # A tényleges beolvasás már megtörtént a korábbi lépésekben
     ${szoveg}=    Get Variable Value    ${SZOVEG}    ${EMPTY}
     
     IF    len($szoveg) > 0
-        Log String To Console With File    DOCX beolvasás sikeres
-        #Log String To Console With File    Szöveg hossza: ${szoveg.__len__()}
+        Log String To Console    DOCX beolvasás sikeres
+        #Log String To Console    Szöveg hossza: ${szoveg.__len__()}
     ELSE
-        Log String To Console With File    FIGYELEM: DOCX szöveg üres
+        Log String To Console    FIGYELEM: DOCX szöveg üres
     END
     
-    #Log String To Console With File    === DOCX BEOLVASÁS TESZT KÉSZ ===
+    #Log String To Console    === DOCX BEOLVASÁS TESZT KÉSZ ===
 
     
 
 
 DOCX fájlok olvasása és formálellenőrzés
-    #Log String To Console With File    [TRACE] DOCX fájlok olvasása elindult
+    #Log String To Console    [TRACE] DOCX fájlok olvasása elindult
     [Documentation]    Batch feldolgozás összes DOCX fájlra a DOCUMENT_PATH útvonalon - minden DOCX-hez külön test case generálás
     
     # DOCX fájlok keresése a megadott útvonalon
@@ -563,13 +563,13 @@ DOCX fájlok olvasása és formálellenőrzés
     Set Global Variable    ${file_count}
     Set Global Variable    ${BATCH_FILE_COUNT}    ${file_count}
     Set Global Variable    ${BATCH_DOCX_FILES}    ${docx_files}
-    Log String To Console With File    \n=== DOCX FÁJLOK KERESÉSE ===
-    Log String To Console With File    Keresési útvonal: ${DOCUMENT_PATH}
-    Log String To Console With File    Talált DOCX fájlok száma: ${file_count}
+    Log String To Console    \n=== DOCX FÁJLOK KERESÉSE ===
+    Log String To Console    Keresési útvonal: ${DOCUMENT_PATH}
+    Log String To Console    Talált DOCX fájlok száma: ${file_count}
 
     
     IF    ${file_count} == 0
-        Log String To Console With File    FIGYELMEZTETÉS: Nem találhatók DOCX fájlok a megadott útvonalon!
+        Log String To Console    FIGYELMEZTETÉS: Nem találhatók DOCX fájlok a megadott útvonalon!
         Run Keyword And Continue On Failure    Fail    Nincsenek DOCX fájlok a feldolgozásra
         RETURN
     END
@@ -592,21 +592,21 @@ DOCX fájlok olvasása és formálellenőrzés
     END
 
     # Hibalista kiírása a végén
-    Run Keyword If    ${HIBA_LISTA}    Log String To Console With File    \n=== HIBÁS DOCX FÁJLOK ===
+    Run Keyword If    ${HIBA_LISTA}    Log String To Console    \n=== HIBÁS DOCX FÁJLOK ===
     ${hiba_lista}=    Get Variable Value    ${HIBA_LISTA}    []
     FOR    ${hiba}    IN    @{hiba_lista}
-        Log String To Console With File    ${hiba}
+        Log String To Console    ${hiba}
     END
 
-    Log String To Console With File    === ÖSSZESÍTÉS ===
-    Log String To Console With File    \nFeldolgozott dokumentumok száma: ${file_count}
+    Log String To Console    === ÖSSZESÍTÉS ===
+    Log String To Console    \nFeldolgozott dokumentumok száma: ${file_count}
 
 Process Single DOCX File As Test Case
     [Documentation]    Egyetlen DOCX fájl feldolgozása test case-ként (redundancia + 23 formálellenőrzés)
     [Arguments]    ${docx_file}    ${file_index}    ${total_files}    ${test_case_name}
     
-    Log String To Console With File    \n>>> TEST CASE: ${test_case_name} (${file_index}/${total_files})
-    Log String To Console With File    Fájl: ${docx_file}
+    Log String To Console    \n>>> TEST CASE: ${test_case_name} (${file_index}/${total_files})
+    Log String To Console    Fájl: ${docx_file}
     
     # PLG-01-Excel.robot meghívása (4 értéket ad vissza: excel, sheet, path, filename)
     ${activeExcelFile}    ${activeSheetName}    ${path_part}    ${filename_part}=    Create_K_ell_Excel    ${docx_file}
@@ -633,7 +633,7 @@ Process Single DOCX File As Test Case
     ELSE
         ${is_error}=    Set Variable    ${False}
     END
-    Run Keyword If    ${is_error}    Log String To Console With File    [DEBUG] is_error: ${is_error}
+    Run Keyword If    ${is_error}    Log String To Console    [DEBUG] is_error: ${is_error}
     # Hibalistába fájlnév+hibaszöveg, de a feldolgozó kulcsszónak csak a file_path
     ${hiba_lista}=    Get Variable Value    ${HIBA_LISTA}    []
     Run Keyword If    ${is_error}    Append To List    ${hiba_lista}    ${docx_file}: ${szoveg}
@@ -645,19 +645,19 @@ Process Single DOCX File As Test Case
     Dump Docx Json If Enabled    ${docx_file}
     
     # 23 formálellenőrzés futtatása közvetlenül (nem subprocess-ként)
-    Log String To Console With File    \n=== 23 FORMÁLELLENŐRZÉS INDÍTÁSA ===
-    Log String To Console With File    Excel fájl[activeExcelFile]: ${activeExcelFile}
-    Log String To Console With File    Sheet név[activeSheetName]: ${activeSheetName}
-    Log String To Console With File    Fájlnév rész[filename_part]: ${filename_part}
-    Log String To Console With File    Elérési út rész[path_part]: ${path_part}
-    Log String To Console With File    ===========================
+    Log String To Console    \n=== 23 FORMÁLELLENŐRZÉS INDÍTÁSA ===
+    Log String To Console    Excel fájl[activeExcelFile]: ${activeExcelFile}
+    Log String To Console    Sheet név[activeSheetName]: ${activeSheetName}
+    Log String To Console    Fájlnév rész[filename_part]: ${filename_part}
+    Log String To Console    Elérési út rész[path_part]: ${path_part}
+    Log String To Console    ===========================
 
 
     
     # Mind a 23 formálellenőrzés futtatása egyenként
     Run All Format Checks Inline    ${docx_file}    ${activeExcelFile}    ${activeSheetName}
     
-    Log String To Console With File    \n<<< TEST CASE BEFEJEZVE: ${test_case_name}
+    Log String To Console    \n<<< TEST CASE BEFEJEZVE: ${test_case_name}
 
 Run All Format Checks Inline
     [Documentation]    Mind a 23 formálellenőrzést futtatja közvetlenül (nem subprocess-ként)
@@ -680,7 +680,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 01 - Arculati Elemek: ${msg}
+        #Log String To Console    [HIBA] 01 - Arculati Elemek: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 02 - Kompetencia Teszt Ellenorzese
@@ -689,7 +689,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 02 - Kompetencia Teszt: ${msg}
+        #Log String To Console    [HIBA] 02 - Kompetencia Teszt: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 03 - Fogalomtar Ellenorzese
@@ -698,7 +698,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 03 - Fogalomtar: ${msg}
+        #Log String To Console    [HIBA] 03 - Fogalomtar: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 04 - Szerkesztoi Instrukciok Ellenorzese
@@ -707,7 +707,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 04 - Szerkesztoi Instrukciok: ${msg}
+        #Log String To Console    [HIBA] 04 - Szerkesztoi Instrukciok: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 05 - Internet Hivatkozasok Ellenorzese
@@ -716,7 +716,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 05 - Internet Hivatkozasok: ${msg}
+        #Log String To Console    [HIBA] 05 - Internet Hivatkozasok: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 06 - Szerzo Lektor Ellenorzese
@@ -725,7 +725,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 06 - Szerzo Lektor: ${msg}
+        #Log String To Console    [HIBA] 06 - Szerzo Lektor: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 07 - Hosszu Idezetek Ellenorzese  
@@ -734,7 +734,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 07 - Hosszu Idezetek: ${msg}
+        #Log String To Console    [HIBA] 07 - Hosszu Idezetek: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 08 - Tordeles Ellenorzese
@@ -743,7 +743,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 08 - Tordeles: ${msg}
+        #Log String To Console    [HIBA] 08 - Tordeles: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 09 - Abrak Fotok Ellenorzese
@@ -752,7 +752,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 09 - Abrak Fotok: ${msg}
+        #Log String To Console    [HIBA] 09 - Abrak Fotok: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 10 - Felsorolas Ellenorzese
@@ -761,7 +761,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 10 - Felsorolas: ${msg}
+        #Log String To Console    [HIBA] 10 - Felsorolas: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 11 - Ures Negyzetek Ellenorzese
@@ -770,7 +770,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 11 - Ures Negyzetek: ${msg}
+        #Log String To Console    [HIBA] 11 - Ures Negyzetek: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 12 - Magyar Nyelven Keszult Ellenorzese
@@ -779,7 +779,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 12 - Magyar Nyelven Keszult: ${msg}
+        #Log String To Console    [HIBA] 12 - Magyar Nyelven Keszult: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 13 - Bekezdesek Elkulonulnek Ellenorzese
@@ -788,7 +788,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 13 - Bekezdesek Elkulonulnek: ${msg}
+        #Log String To Console    [HIBA] 13 - Bekezdesek Elkulonulnek: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_14_felsorolasok_egysegesek.Test Case 14 - Felsorolasok Egysegesek Ellenorzese
@@ -797,7 +797,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 14 - Felsorolasok Egysegesek : ${msg}
+        #Log String To Console    [HIBA] 14 - Felsorolasok Egysegesek : ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_15_mozaikaszvak.Test Case 15 - Mozaikszavak Roviditesek Ellenorzese
@@ -806,7 +806,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 15 - Mozaikszavak Roviditesek : ${msg}
+        #Log String To Console    [HIBA] 15 - Mozaikszavak Roviditesek : ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_16_ldezetek.Test Case 16 - Idezetek Formailag Megfeleloek Ellenorzese
@@ -815,7 +815,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 16 - Idezetek Formailag Megfeleloek: ${msg}
+        #Log String To Console    [HIBA] 16 - Idezetek Formailag Megfeleloek: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_17_idezetek_forrasmegjelolese.Test Case 17 - Idezetek Forrasmegjelolese Ellenorzese
@@ -824,7 +824,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 17 - Tartalomjegyzek: ${msg}
+        #Log String To Console    [HIBA] 17 - Tartalomjegyzek: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_18_kompetencia_teszt_megoldokulcs.Test Case 18 - Kompetencia Teszt Megoldokulcs Ellenorzese
@@ -833,7 +833,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 18 - Kompetencia Teszt Megoldokulcs : ${msg}
+        #Log String To Console    [HIBA] 18 - Kompetencia Teszt Megoldokulcs : ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_19_idegen_nyelvu_illusztraciok.Test Case 19 - Idegen Nyelvu Illusztraciok Ellenorzese
@@ -842,7 +842,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 19 - Idegen Nyelvu Illusztraciok: ${msg}
+        #Log String To Console    [HIBA] 19 - Idegen Nyelvu Illusztraciok: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_20_lapjai_szamozottak.Test Case 20 - Lapjai Szamozottak Ellenorzese
@@ -851,7 +851,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 20 - Lapjai Szamozottak : ${msg}
+        #Log String To Console    [HIBA] 20 - Lapjai Szamozottak : ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_21_szerkesztheto_docx_formatum.Test Case 21 - Szerkesztheto Docx Formatum Ellenorzese
@@ -860,7 +860,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 21 - Szerkesztheto Docx Formatum: ${msg}
+        #Log String To Console    [HIBA] 21 - Szerkesztheto Docx Formatum: ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    tc_22_cimlap_tartalom.Test Case 22 - Cimlap Tartalom Ellenorzese
@@ -869,7 +869,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 22 -  Cimlap Tartalom:  ${msg}
+        #Log String To Console    [HIBA] 22 -  Cimlap Tartalom:  ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 23 - Generalt Tartalomjegyzek Ellenorzese
@@ -878,7 +878,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 23 - Generalt Tartalomjegyzek : ${msg}
+        #Log String To Console    [HIBA] 23 - Generalt Tartalomjegyzek : ${msg}
     END
     
     ${rc}    ${msg}=    Run Keyword And Ignore Error    Test Case 24 - Cimsorozassal Keszult Ellenorzese
@@ -887,7 +887,7 @@ Run All Format Checks Inline
         ${check_passed}=    Evaluate    ${check_passed} + 1
     ELSE
         ${check_failed}=    Evaluate    ${check_failed} + 1
-        #Log String To Console With File    [HIBA] 24 - Cimsorozassal Keszult Ellenorzese : ${msg}
+        #Log String To Console    [HIBA] 24 - Cimsorozassal Keszult Ellenorzese : ${msg}
     END
 
 
@@ -897,29 +897,29 @@ Run All Format Checks Inline
     IF    ${was_error}
         Rename Excel File Mark Error    ${CURRENT_EXCEL_FILE}
     END
-    Log String To Console With File    Feldolgozott Excel fájl: ${CURRENT_EXCEL_FILE}
+    Log String To Console    Feldolgozott Excel fájl: ${CURRENT_EXCEL_FILE}
 
     # Összegzés kiírása
-    Log String To Console With File    \n=== FORMÁLELLENŐRZÉS ÖSSZESÍTÉS ===
-    Log String To Console With File    Ellenőrzések száma: ${check_total}  |  Sikeres: ${check_passed}  |  Sikertelen: ${check_failed}
+    Log String To Console    \n=== FORMÁLELLENŐRZÉS ÖSSZESÍTÉS ===
+    Log String To Console    Ellenőrzések száma: ${check_total}  |  Sikeres: ${check_passed}  |  Sikertelen: ${check_failed}
     # Globális számlálók frissítése
     Update Global Check Counters    ${check_total}    ${check_passed}    ${check_failed}
     
-    Log String To Console With File    === Mind a 24 formálellenőrzés befejezve ===
+    Log String To Console    === Mind a 24 formálellenőrzés befejezve ===
 
 Rename Excel File Mark Error
     [Documentation]    Hibás ellenőrzés esetén az Excel fájl átnevezése: K_ell -> _K_ell a fájlnévben
     [Arguments]    ${excel_file}
     ${exists}=    Run Keyword And Return Status    File Should Exist    ${excel_file}
     IF    not ${exists}
-        Log String To Console With File     \n\[WARNING] Excel fájl nem található, átnevezés kihagyva: ${excel_file}
+        Log String To Console     \n\[WARNING] Excel fájl nem található, átnevezés kihagyva: ${excel_file}
         RETURN
     END
     ${dirpath}=       Evaluate    __import__('os').path.dirname(r'''${excel_file}''')    modules=os
     ${basename}=      Evaluate    __import__('os').path.basename(r'''${excel_file}''')    modules=os
     ${new_basename}=  Replace String    ${basename}    K_ell    _K_ell    count=1
     IF    '${new_basename}' == '${basename}'
-        Log String To Console With File     \n\[INFO] A fájlnév nem tartalmazza a 'K_ell' mintát, átnevezés kihagyva: ${basename}
+        Log String To Console     \n\[INFO] A fájlnév nem tartalmazza a 'K_ell' mintát, átnevezés kihagyva: ${basename}
         RETURN
     END
     ${new_path}=      Evaluate    __import__('os').path.join(r'''${dirpath}''', r'''${new_basename}''')    modules=os
@@ -929,7 +929,7 @@ Rename Excel File Mark Error
     #    ${new_basename}=    Replace String    ${new_basename}    .xlsx    _${ts}.xlsx
     #    ${new_path}=    Evaluate    __import__('os').path.join(r'''${dirpath}''', r'''${new_basename}''')    modules=os
     #END
-    Log String To Console With File     \n\[INFO] Excel átnevezés: ${excel_file} -> ${new_path}
+    Log String To Console     \n\[INFO] Excel átnevezés: ${excel_file} -> ${new_path}
     TRY
         # csak másolás, mert lehet, hogy a fájl nyitva van Excelben
         # Copy File    ${excel_file}    ${new_path}
@@ -937,7 +937,7 @@ Rename Excel File Mark Error
         # Set Global Variable    ${CURRENT_EXCEL_FILE}    ${new_path}
         No Operation
     EXCEPT    AS    ${e}
-        Log String To Console With File     \n\[HIBA] Excel átnevezés sikertelen: ${e}
+        Log String To Console     \n\[HIBA] Excel átnevezés sikertelen: ${e}
     END
 
 Initialize DOCX Files List
@@ -950,13 +950,13 @@ Initialize DOCX Files List
     ${file_count}=    Get Length    ${docx_files}
     Set Global Variable    ${BATCH_FILE_COUNT}    ${file_count}
     Set Global Variable    ${BATCH_DOCX_FILES}    ${docx_files}
-    Log String To Console With File    \n=== DOCX FÁJLOK KERESÉSE ===
-    Log String To Console With File    Keresési útvonal: ${DOCUMENT_PATH}
-    Log String To Console With File    Talált DOCX fájlok száma: ${file_count}
+    Log String To Console    \n=== DOCX FÁJLOK KERESÉSE ===
+    Log String To Console    Keresési útvonal: ${DOCUMENT_PATH}
+    Log String To Console    Talált DOCX fájlok száma: ${file_count}
 
     
     IF    ${file_count} == 0
-        Log String To Console With File    FIGYELMEZTETÉS: Nem találhatók DOCX fájlok a megadott útvonalon!
+        Log String To Console    FIGYELMEZTETÉS: Nem találhatók DOCX fájlok a megadott útvonalon!
         Run Keyword And Continue On Failure    Fail    Nincsenek DOCX fájlok a feldolgozásra
         RETURN
     END
@@ -976,13 +976,13 @@ Prepare DOCX Files List
     ${file_count}=    Get Length    ${docx_files}
     Set Global Variable    ${BATCH_FILE_COUNT}    ${file_count}
     Set Global Variable    ${BATCH_DOCX_FILES}    ${docx_files}
-    Log String To Console With File    \n=== DOCX FÁJLOK KERESÉSE ===
-    Log String To Console With File    Keresési útvonal: ${DOCUMENT_PATH}
-    Log String To Console With File    Talált DOCX fájlok száma: ${file_count}
+    Log String To Console    \n=== DOCX FÁJLOK KERESÉSE ===
+    Log String To Console    Keresési útvonal: ${DOCUMENT_PATH}
+    Log String To Console    Talált DOCX fájlok száma: ${file_count}
 
     
     IF    ${file_count} == 0
-        Log String To Console With File    FIGYELMEZTETÉS: Nem találhatók DOCX fájlok a megadott útvonalon!
+        Log String To Console    FIGYELMEZTETÉS: Nem találhatók DOCX fájlok a megadott útvonalon!
         Run Keyword And Continue On Failure    Fail    Nincsenek DOCX fájlok a feldolgozásra
         RETURN
     END
@@ -995,7 +995,7 @@ Process Single DOCX File
     [Documentation]    Egyetlen DOCX fájl feldolgozása (redundancia + formálellenőrzés)
     [Arguments]    ${docx_file}    ${file_index}    ${total_files}
     
-    Log String To Console With File    \n>>> FELDOLGOZÁS3: (${file_index}/${total_files}) ${docx_file}
+    Log String To Console    \n>>> FELDOLGOZÁS3: (${file_index}/${total_files}) ${docx_file}
  
     # PLG-01-Excel.robot meghívása
     ${activeExcelFile}    ${activeSheetName}    ${path_part}    ${filename_part}=    Create_K_ell_Excel    ${docx_file}
@@ -1024,7 +1024,7 @@ Process Single DOCX File
     ELSE
         ${is_error}=    Set Variable    ${False}
     END
-    Run Keyword If    ${is_error}    Log String To Console With File    [DEBUG] is_error: ${is_error}
+    Run Keyword If    ${is_error}    Log String To Console    [DEBUG] is_error: ${is_error}
     # Hibalistába fájlnév+hibaszöveg, de a feldolgozó kulcsszónak csak a file_path
     ${hiba_lista}=    Get Variable Value    ${HIBA_LISTA}    []
     Run Keyword If    ${is_error}    Append To List    ${hiba_lista}    ${docx_file}: ${szoveg}
@@ -1034,14 +1034,14 @@ Process Single DOCX File
     DOCX Beolvasás Teszt    ${docx_file}
     
     # 23 formálellenőrzés futtatása közvetlenül (nem subprocess-ként)
-    Log String To Console With File    === FORMAI ELLENŐRZÉS INDÍTÁSA (inline) ===
-    Log String To Console With File    Excel fájl: ${activeExcelFile}
-    Log String To Console With File    Sheet név: ${activeSheetName}
-    Log String To Console With File    Path rész: ${path_part}
-    Log String To Console With File    Fájl név rész: ${filename_part}
+    Log String To Console    === FORMAI ELLENŐRZÉS INDÍTÁSA (inline) ===
+    Log String To Console    Excel fájl: ${activeExcelFile}
+    Log String To Console    Sheet név: ${activeSheetName}
+    Log String To Console    Path rész: ${path_part}
+    Log String To Console    Fájl név rész: ${filename_part}
     Run All Format Checks Inline    ${docx_file}    ${activeExcelFile}    ${activeSheetName}
        
-    Log String To Console With File    \n<<< FORMAI ELLENŐRZÉS BEFEJEZVE: ${docx_file}
+    Log String To Console    \n<<< FORMAI ELLENŐRZÉS BEFEJEZVE: ${docx_file}
    
 
     
@@ -1063,11 +1063,11 @@ Read Docx
     [Documentation]    DOCX fájl tartalmának beolvasása DocxReader.py használatával
     [Arguments]    ${file_path}
     
-    Log String To Console With File    DOCX fájl beolvasása: ${file_path}
+    Log String To Console    DOCX fájl beolvasása: ${file_path}
     
     ${result}=    Run Keyword And Return Status    File Should Exist    ${file_path}
     IF    not ${result}
-        Log String To Console With File     \n\[HIBA] DOCX fájl nem található: ${file_path}
+        Log String To Console     \n\[HIBA] DOCX fájl nem található: ${file_path}
         RETURN    [HIBA] DOCX fájl nem található: ${file_path}
     END
     
@@ -1075,10 +1075,10 @@ Read Docx
     TRY
         ${content}=    Read Docx File Content    ${file_path}
         ${content_length}=    Get Length    ${content}
-        Log String To Console With File    DOCX fájl beolvasva: ${content_length} karakter
+        Log String To Console    DOCX fájl beolvasva: ${content_length} karakter
         RETURN    ${content}
     EXCEPT    AS    ${error}
-        Log String To Console With File     \n\[HIBA-Read Docx] DOCX beolvasás sikertelen: ${error}
+        Log String To Console     \n\[HIBA-Read Docx] DOCX beolvasás sikertelen: ${error}
         RETURN    [HIBA-Read Docx] DOCX beolvasás sikertelen: ${error}
     END
 
@@ -1100,7 +1100,7 @@ Mark Excel Cell Green
     [Documentation]    Excel cella zöld színűre festése
     [Arguments]    ${excel_file}    ${sheet_name}    ${cell_address}
     
-    Log String To Console With File    Excel jelölés: ${excel_file} - ${sheet_name} - ${cell_address}
+    Log String To Console    Excel jelölés: ${excel_file} - ${sheet_name} - ${cell_address}
     
     # Excel jelölés Python script-tel (útvonal normalizálása a figyelmeztetések elkerülésére)
         ${excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${excel_file}''').as_posix()    modules=pathlib
@@ -1108,16 +1108,16 @@ Mark Excel Cell Green
     ${result}=    Run Process    ${PYTHON_EXEC}    -W    ignore    -c    ${script}
     
     IF    ${result.rc} != 0
-        Log String To Console With File     \n\[HIBA] Excel jelölés sikertelen: ${result.stderr}
+        Log String To Console     \n\[HIBA] Excel jelölés sikertelen: ${result.stderr}
     ELSE
-        Log String To Console With File     \n\[SIKERES] Excel cella jelölve zöldre: ${cell_address}
+        Log String To Console     \n\[SIKERES] Excel cella jelölve zöldre: ${cell_address}
     END
 
 Mark Excel Cell Red
     [Documentation]    Excel cella piros színűre festése
     [Arguments]    ${excel_file}    ${sheet_name}    ${cell_address}
     
-    Log String To Console With File    Excel jelölés: ${excel_file} - ${sheet_name} - ${cell_address}
+    Log String To Console    Excel jelölés: ${excel_file} - ${sheet_name} - ${cell_address}
     
     # Excel jelölés Python script-tel (útvonal normalizálása a figyelmeztetések elkerülésére)
         ${excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${excel_file}''').as_posix()    modules=pathlib
@@ -1125,9 +1125,9 @@ Mark Excel Cell Red
     ${result}=    Run Process    ${PYTHON_EXEC}    -W    ignore    -c    ${script}
     
     IF    ${result.rc} != 0
-        Log String To Console With File     \n\[HIBA] Excel jelölés sikertelen: ${result.stderr}
+        Log String To Console     \n\[HIBA] Excel jelölés sikertelen: ${result.stderr}
     ELSE
-        Log String To Console With File     \n\[SIKERES] Excel cella jelölve pirosra: ${cell_address}
+        Log String To Console     \n\[SIKERES] Excel cella jelölve pirosra: ${cell_address}
     END
 
 Read Docx File Content
@@ -1137,7 +1137,7 @@ Read Docx File Content
     # DocxReader.read_docx_all meghívása és a bekezdések összefűzése
     ${status}    ${data}=    Run Keyword And Ignore Error    Read Docx All    ${file_path}
     IF    '${status}' != 'PASS'
-        Log String To Console With File     \n\[HIBA] DOCX beolvasás sikertelen: ${data}
+        Log String To Console     \n\[HIBA] DOCX beolvasás sikertelen: ${data}
         RETURN    [HIBA] DOCX beolvasás sikertelen: ${data}
     END
 
@@ -1156,7 +1156,7 @@ Beolvasom A DOCX Fájlt
     ${current_docx}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
     
     IF    '${current_docx}' == '${EMPTY}'
-        Log String To Console With File     \n\[HIBA] DOCX_FILE változó nincs beállítva!
+        Log String To Console     \n\[HIBA] DOCX_FILE változó nincs beállítva!
         RETURN    [HIBA] DOCX_FILE változó nincs beállítva!
     END
     
@@ -1186,23 +1186,23 @@ Dump Docx Json If Enabled
     ${out_path}=    Set Variable    ${dump_dir}${/}${base}.json
 
     Create File    ${out_path}    ${json}    encoding=UTF-8
-    Log String To Console With File     \n\[DOCX JSON] Mentve: ${out_path}
+    Log String To Console     \n\[DOCX JSON] Mentve: ${out_path}
 
 
 Create_K_ell_Excel
     [Documentation]    DOCX fájl feldolgozás - Excel fájl és sheet meghatározása
     [Arguments]    ${docx_file}
     
-    Log String To Console With File    \n=== EXCEL FÁJLOK LÉTREHOZÁSA / ELLENŐRZÉSE ===
-    Log String To Console With File    Kapott paraméter: ${docx_file}
+    Log String To Console    \n=== EXCEL FÁJLOK LÉTREHOZÁSA / ELLENŐRZÉSE ===
+    Log String To Console    Kapott paraméter: ${docx_file}
     
     # Path és filename szétválasztása
     ${path_part}=    Evaluate    __import__('os').path.dirname(r'''${docx_file}''')    modules=os
     ${filename_part}=    Evaluate    __import__('os').path.basename(r'''${docx_file}''')    modules=os
     
-    Log String To Console With File    Path rész: ${path_part}
-    Log String To Console With File    Filename rész: ${filename_part}
-    Log String To Console With File    Input folder (globális): ${INPUT_FOLDER}
+    Log String To Console    Path rész: ${path_part}
+    Log String To Console    Filename rész: ${filename_part}
+    Log String To Console    Input folder (globális): ${INPUT_FOLDER}
     
     Set Global Variable    ${FILENAME}    ${filename_part}
     
@@ -1242,17 +1242,17 @@ Create_K_ell_Excel
     
     ${is_success}=    Run Keyword And Return Status    Should Not Be Empty    ${relative_parts}
     IF   not ${is_success}
-        Log String To Console With File     [ERROR] Input folder eltávolítása sikertelen!
+        Log String To Console     [ERROR] Input folder eltávolítása sikertelen!
         ${relative_parts}=    Set Variable    ${filtered_path_parts}
     END
     
     ${parts_count}=    Get Length    ${relative_parts}
-    Log String To Console With File    Path részek száma (input folder nélkül): ${parts_count}
-    Log String To Console With File    Relatív path részek: ${relative_parts}
+    Log String To Console    Path részek száma (input folder nélkül): ${parts_count}
+    Log String To Console    Relatív path részek: ${relative_parts}
     
     # Legalább 2 könyvtárra van szükség (parent és child)
     IF    ${parts_count} < 2
-        Log String To Console With File     [HIBA] Hibás helyen van az ellenőrizendő fájl! A relatív path nem tartalmaz legalább 2 könyvtárat!
+        Log String To Console     [HIBA] Hibás helyen van az ellenőrizendő fájl! A relatív path nem tartalmaz legalább 2 könyvtárat!
         ${parent_path}=    Set Variable    DEFAULT
         ${child_path}=     Set Variable    DEFAULT
         Fail   Feldolgozás megszakítva. Hibás helyen van az ellenőrizendő fájl! Minimum 2 könyvtár szükséges a relatív path-ban.
@@ -1265,13 +1265,13 @@ Create_K_ell_Excel
     END
     
     #Log String To Console    \n=== FELDOLGOZÁS EREDMÉNYE ===
-    Log String To Console With File    Parent Path: ${parent_path}
-    Log String To Console With File    Child Path: ${child_path}
-    Log String To Console With File    Filename: ${filename_part}
+    Log String To Console    Parent Path: ${parent_path}
+    Log String To Console    Child Path: ${child_path}
+    Log String To Console    Filename: ${filename_part}
     Set Global Variable    ${DTEM}    ${parent_path}
     Set Global Variable    ${KURZUS}     ${child_path}    
-    Log String To Console With File    Téma: ${DTEM}
-    Log String To Console With File    Kurzus: ${KURZUS}
+    Log String To Console    Téma: ${DTEM}
+    Log String To Console    Kurzus: ${KURZUS}
     
 
     #Log String To Console    \n=== FELDOLGOZÁS BEFEJEZVE ===
@@ -1282,7 +1282,7 @@ Create_K_ell_Excel
     # Dokumentum ellenőrzés adatait tartalmazó Excel fájl és sheet
     ${excel_filename}=    Set Variable    ${parent_path}_Kézirat.v1.0.xlsx
     ${activeExcelFile}=    Evaluate    __import__('os').path.join(r'''${output_folder}''', r'''${excel_filename}''')    modules=os
-    Log String To Console With File    Aktuális DOC-${activeExcelFile} - ExcelFile}
+    Log String To Console    Aktuális DOC-${activeExcelFile} - ExcelFile}
     ${activeSheetName}=    Set Variable    ${child_path}
     Set Global Variable    ${DOCUMENT_EXCEL_FILE}    ${activeExcelFile}
 
@@ -1291,17 +1291,17 @@ Create_K_ell_Excel
     ${web_activeExcelFile}=    Evaluate    __import__('os').path.join(r'''${output_folder}''', r'''${web_excel_filename}''')    modules=os
     Set Global Variable    ${DIGITALIS_EXCEL_FILE}    ${web_activeExcelFile}
 
-    Log String To Console With File    Aktuális WEB-${web_activeExcelFile} - ExcelFile}
+    Log String To Console    Aktuális WEB-${web_activeExcelFile} - ExcelFile}
      ${web_activeSheetName}=    Set Variable    ${child_path}
     Set Global Variable    ${DIGITALIS_EXCEL_SHEET}    ${web_activeSheetName}
 
      ${web_activeMK_SheetName}=    Set Variable    ${child_path}-MK
      Set Global Variable    ${DIGITALIS_EXCEL_SHEET_MK}    ${web_activeMK_SheetName}
  
-    Log String To Console With File     \n\[INFO] Beállított globális változók a WEB Excel fájlhoz és sheet-ekhez:
-    Log String To Console With File     \[INFO] DIGITALIS_EXCEL_FILE: ${DIGITALIS_EXCEL_FILE}
-    Log String To Console With File     \[INFO] DIGITALIS_EXCEL_SHEET: ${DIGITALIS_EXCEL_SHEET}
-    Log String To Console With File     \[INFO] DIGITALIS_EXCEL_SHEET_MK: ${DIGITALIS_EXCEL_SHEET_MK}
+    Log String To Console     \n\[INFO] Beállított globális változók a WEB Excel fájlhoz és sheet-ekhez:
+    Log String To Console     \[INFO] DIGITALIS_EXCEL_FILE: ${DIGITALIS_EXCEL_FILE}
+    Log String To Console     \[INFO] DIGITALIS_EXCEL_SHEET: ${DIGITALIS_EXCEL_SHEET}
+    Log String To Console     \[INFO] DIGITALIS_EXCEL_SHEET_MK: ${DIGITALIS_EXCEL_SHEET_MK}
      
      
       # Sablon fájl másolása
@@ -1311,72 +1311,72 @@ Create_K_ell_Excel
     # Excel fájl létrehozása/ellenőrzése
     ${file_exists}=    Run Keyword And Return Status    File Should Exist    ${activeExcelFile}
     IF    ${file_exists}
-        Log String To Console With File     ${activeExcelFile}
+        Log String To Console     ${activeExcelFile}
         
         # Sheet ellenőrzése és létrehozása szükség esetén
         ${sheet_exists}=    Check Excel Sheet Exists    ${activeExcelFile}    ${activeSheetName}
         IF    ${sheet_exists}
-            Log String To Console With File     \n\[INFO] Sheet '${activeSheetName}' létezik az Excel fájlban
+            Log String To Console     \n\[INFO] Sheet '${activeSheetName}' létezik az Excel fájlban
         ELSE
-            Log String To Console With File     \n\[INFO] Sheet '${activeSheetName}' létrehozása sablon másolással...
+            Log String To Console     \n\[INFO] Sheet '${activeSheetName}' létrehozása sablon másolással...
             Copy Excel Sheet    ${activeExcelFile}    EM X.Y    ${activeSheetName}
             # Az eredeti EM X.Y sheet elrejtése
             Hide Excel Sheet    ${activeExcelFile}    EM X.Y
-            Log String To Console With File     \n\[INFO] Sheet sablon másolva: 'EM X.Y' -> '${activeSheetName}'
+            Log String To Console     \n\[INFO] Sheet sablon másolva: 'EM X.Y' -> '${activeSheetName}'
 
            #WEB sablon másolása
             Copy File    ${web_template_path}    ${web_activeExcelFile}
-            Log String To Console With File     \n\[INFO] WEB Sablon fájl másolva: ${web_template_path} -> ${web_activeExcelFile}
+            Log String To Console     \n\[INFO] WEB Sablon fájl másolva: ${web_template_path} -> ${web_activeExcelFile}
             # todo itt is meg kell csinálni a web-excelt
             #WEB sheet-ek átnevezése
             Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z    ${web_activeSheetName}
             Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z    
-            Log String To Console With File     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z' -> '${web_activeSheetName}'
+            Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z' -> '${web_activeSheetName}'
 
             Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK    ${web_activeSheetName}-MK
             Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK
-            Log String To Console With File     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z-MK' -> '${web_activeSheetName}-MK'
+            Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z-MK' -> '${web_activeSheetName}-MK'
 
 
         END
     ELSE
-        Log String To Console With File     \n\[INFO] Excel fájl létrehozása: ${activeExcelFile}
+        Log String To Console     \n\[INFO] Excel fájl létrehozása: ${activeExcelFile}
         
      
         ${template_exists}=    Run Keyword And Return Status    File Should Exist    ${template_path}
         IF    ${template_exists}
             #Doc sablon másolása
             Copy File    ${template_path}    ${activeExcelFile}
-            Log String To Console With File     \n\[INFO]DOC Sablon fájl másolva: ${template_path} -> ${activeExcelFile}
+            Log String To Console     \n\[INFO]DOC Sablon fájl másolva: ${template_path} -> ${activeExcelFile}
             
             #WEB sablon másolása
             Copy File    ${web_template_path}    ${web_activeExcelFile}
-            Log String To Console With File     \n\[INFO] WEB Sablon fájl másolva: ${web_template_path} -> ${web_activeExcelFile}
+            Log String To Console     \n\[INFO] WEB Sablon fájl másolva: ${web_template_path} -> ${web_activeExcelFile}
             # todo itt is meg kell csinálni a web-excelt
             #WEB sheet-ek átnevezése
             Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z    ${web_activeSheetName}
             Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z    
-            Log String To Console With File     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z' -> '${web_activeSheetName}'
+            Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z' -> '${web_activeSheetName}'
 
             Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK    ${web_activeSheetName}-MK
             Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK
-            Log String To Console With File     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z-MK' -> '${web_activeSheetName}-MK'
+            Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z-MK' -> '${web_activeSheetName}-MK'
 
             # Az új Excel fájlban is létre kell hozni a megfelelő sheet-et
             ${sheet_exists}=    Check Excel Sheet Exists    ${activeExcelFile}    ${activeSheetName}
             IF    not ${sheet_exists}
-                Log String To Console With File     \n\[INFO] Sheet '${activeSheetName}' létrehozása az új Excel fájlban
+                Log String To Console     \n\[INFO] Sheet '${activeSheetName}' létrehozása az új Excel fájlban
                 Copy Excel Sheet    ${activeExcelFile}    EM X.Y    ${activeSheetName}
                 Hide Excel Sheet    ${activeExcelFile}    EM X.Y
-                Log String To Console With File     \n\[INFO] Sheet sablon másolva: 'EM X.Y' -> '${activeSheetName}'
+                Log String To Console     \n\[INFO] Sheet sablon másolva: 'EM X.Y' -> '${activeSheetName}'
             END
         ELSE
-            Log String To Console With File     \n\[WARNING] Sablon fájl nem található: ${template_path}
-            Log String To Console With File     \n\[INFO] Üres Excel fájl létrehozása alapértelmezett sheet-ekkel...
+            Log String To Console     \n\[WARNING] Sablon fájl nem található: ${template_path}
+            Log String To Console     \n\[INFO] Üres Excel fájl létrehozása alapértelmezett sheet-ekkel...
             ${active_excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${activeExcelFile}''').as_posix()    modules=pathlib
             ${create_file_script}=    Set Variable    import openpyxl; wb=openpyxl.Workbook(); wb.remove(wb.active); ws1=wb.create_sheet('EM X.Y'); ws2=wb.create_sheet('${activeSheetName}'); wb.save('${active_excel_path_norm}'); print('Excel fájl és sheet-ek létrehozva')
             ${create_result}=    Run Process    ${PYTHON_EXEC}    -W    ignore    -c    ${create_file_script}
-            Log String To Console With File    Excel létrehozás eredménye: ${create_result.stdout}
+            Log String To Console    Excel létrehozás eredménye: ${create_result.stdout}
         END
     END
     

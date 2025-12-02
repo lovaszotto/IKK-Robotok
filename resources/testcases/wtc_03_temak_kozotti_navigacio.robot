@@ -19,9 +19,9 @@ ${DEFAULT_BASENAME}    media
 *** Keywords ***
 Témák közötti navigáció ellenőrzése
     [Documentation]    Témák közötti navigáció ellenőrzése
-    Log String To Console With File    \n**************************************************************************
-    Log String To Console With File    * wtc_03- Témák közötti navigáció ellenőrzése
-    Log String To Console With File    **************************************************************************\n
+    Log String To Console    \n**************************************************************************
+    Log String To Console    * wtc_03- Témák közötti navigáció ellenőrzése
+    Log String To Console    **************************************************************************\n
     ${testCase_row}=    Set Variable    5
   
    ${err_msg}=    Set Variable    ${EMPTY}
@@ -32,7 +32,7 @@ Témák közötti navigáció ellenőrzése
      ${leckek_szama}=    Set Variable    0
 
     #felugró teszt megszakítása gomb kezelése
-    Log String To Console With File    \nTeszt megszakítás popup kezelés
+    Log String To Console    \nTeszt megszakítás popup kezelés
     Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
     Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
     Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
@@ -43,14 +43,14 @@ Témák közötti navigáció ellenőrzése
     END
 
     ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Page Contains Element    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]   2s    
-    Log String To Console With File    \nVárakozás eredménye: ${rc} ${msg}
+    Log String To Console    \nVárakozás eredménye: ${rc} ${msg}
      # ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
     IF    '${rc}' == 'PASS'
         TRY 
 
                 
            WHILE    ${is_disabled} is ${NONE}
-                Log String To Console With File    Következő oldal gomb engedélyezett,menü lekérése...
+                Log String To Console    Következő oldal gomb engedélyezett,menü lekérése...
                 TRY     
                     
                     #${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
@@ -65,24 +65,24 @@ Témák közötti navigáció ellenőrzése
                     #Click Element      ${next_button}
                     Click Element     xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                     Sleep    1s
-                    Log String To Console With File    Következő oldal gombra kattintva.
+                    Log String To Console    Következő oldal gombra kattintva.
                     Run Keyword And Ignore Error   Wait Until Element Is Visible    xpath=//app-image-field[contains(@style, 'display: flex')]//img| //app-video-field[contains(@style, 'display: flex-flow')]//video    2s
                   
                       #Menü sor lekérése
                     Wait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    10s
                     ${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name}=   Get Highlighted And Parent Titles By Text
-                    Log String To Console With File   Mmenü lekérése kész 
+                    Log String To Console   Mmenü lekérése kész 
             
 
                     Wait Until Element Is Visible    xpath=//app-container-field/app-formatted-text-field[1]   1s
-                    Log String To Console With File    Oldalcím elemek láthatóak, váraskozás OK
+                    Log String To Console    Oldalcím elemek láthatóak, váraskozás OK
               
                   #Képek ellenőrzése
                     #Wait For Elements State    //app-image-field//img    visible=True    timeout=10s
                     ${images}=    Get WebElements    //app-image-field[contains(@style, 'display: flex')]//img 
                     ${image_count}=    Get Length    ${images}
                     ${img_index}=    Set Variable    0
-                  Log String To Console With File    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált képek száma: ${image_count}
+                  Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált képek száma: ${image_count}
 
       
                     #Képek feldolgozása
@@ -91,30 +91,30 @@ Témák közötti navigáció ellenőrzése
                     #CONTINUE
                         TRY
                       
-                            Log String To Console With File    \nKövetkező Kép: ${img_index}
+                            Log String To Console    \nKövetkező Kép: ${img_index}
 
                     
                             ${img}=    Get WebElement   (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]//img
                             ${exists}=    Run Keyword And Return Status    Page Should Contain Element    ${img}
-                            #Run Keyword If    ${exists}    Log String To Console With File    "Megvan!"    ELSE    Log String To Console With File    "Nincs ilyen elem"
+                            #Run Keyword If    ${exists}    Log String To Console    "Megvan!"    ELSE    Log String To Console    "Nincs ilyen elem"
                             IF    ${exists} == False
-                                Log String To Console With File    Nincs ilyen elem, kihagyás
+                                Log String To Console    Nincs ilyen elem, kihagyás
                                 Continue For Loop
                             END
                             #${visible}=   Run Keyword And Ignore Error    Wait Until Element Is Visible   ${img}   1s
                             #${img}=    Get From List    ${images}    ${img_index}
                             ${visible}=     Run Keyword And Return Status    Element Should Be Visible    ${img}
                             IF    ${visible} == False
-                                Log String To Console With File    A kép nem látható, kihagyás
+                                Log String To Console    A kép nem látható, kihagyás
                                 Continue For Loop
                             END
-                            Log String To Console With File    ${img_index}:Következő Kép: ${img_index}
+                            Log String To Console    ${img_index}:Következő Kép: ${img_index}
 
                             #${alt}=    Get Element Attribute    ${img}    alt
                            
                             # Kép vagy videó alt/title attribútum lekérése
                             ${alt}=    Get Element Attribute    (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]//img    alt
-                            Log String To Console With File    Kép alt attribútum: ${alt}
+                            Log String To Console    Kép alt attribútum: ${alt}
                             ${src}=    Get Element Attribute    (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]//img    src
                         
                             #Log String To Console    ${img_index}: Média alt/title: ${alt}
@@ -136,26 +136,26 @@ Témák közötti navigáció ellenőrzése
                         
                             # src már az előző IF/ELSE-ben beállítva
                             
-                            # Log String To Console With File    Kép forrás: ${src}
+                            # Log String To Console    Kép forrás: ${src}
                             # Az ${src}-ben lecseréljük a ${BASE} rész üresre
                             # így csak a PATHQ marad meg
                             ${PATHQ}=    Replace String    ${src}    ${BASE}    ${EMPTY}
                             #Log String To Console    Kép PATHQ: ${PATHQ}
                  
-                            Log String To Console With File    Kép letöltés indul...
+                            Log String To Console    Kép letöltés indul...
                             Create Session    blob    ${BASE}
                             ${resp}=    Get On Session    blob    ${src}
                             Sleep    0.5s
                             Delete All Sessions
-                             Log String To Console With File    Kép letöltés kész
+                             Log String To Console    Kép letöltés kész
                         #Log String To Console    Kép letöltés válasza státusz: ${resp.status_code}
 
                          # kiterjesztések ellenőrzése
                             ${ctype}=   Get From Dictionary    ${resp.headers}    Content-Type
-                            Log String To Console With File    Kép Content-Type: ${ctype}
+                            Log String To Console    Kép Content-Type: ${ctype}
 
                             ${type}    ${category}=   Get Media Type And Category From Mime    ${ctype}
-                            Log String To Console With File    ------------------------------------------------------------- Típus: ${type}, Kategória: ${category}
+                            Log String To Console    ------------------------------------------------------------- Típus: ${type}, Kategória: ${category}
                             IF    $type == "Statikus"
                                 Set Global Variable    ${MEDIA_HAS_PICTURE}    ${True}
                             ELSE
@@ -163,7 +163,7 @@ Témák közötti navigáció ellenőrzése
                             END
          
                             ${disp}=    Get From Dictionary    ${resp.headers}    Content-Disposition    default=None
-                            Log String To Console With File    Kép Content-Disposition: ${disp}
+                            Log String To Console    Kép Content-Disposition: ${disp}
 
                             ${ext}=     Determine Extension From Content-Type    ${ctype}
 
@@ -183,10 +183,10 @@ Témák közötti navigáció ellenőrzése
                             #Log String To Console    Kép letöltés előtt: ${outfile}
 
                             #Save Response Body To File    ${resp}    ${outfile}
-                            Log String To Console With File    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Kép letöltve: ${fname}.${ext}\n\n
+                            Log String To Console    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Kép letöltve: ${fname}.${ext}\n\n
                            
                         EXCEPT    AS    ${e2}
-                            Log String To Console With File    [ERROR] Hiba a kép letöltésekor: ${e2}
+                            Log String To Console    [ERROR] Hiba a kép letöltésekor: ${e2}
                         END
                         
                     END
@@ -198,7 +198,7 @@ Témák közötti navigáció ellenőrzése
                     ${videos}=    Get WebElements    //app-video-field[contains(@style, 'flex-flow')]//video
                     ${video_count}=    Get Length    ${videos}
                     ${video_index}=    Set Variable    0
-                  Log String To Console With File    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált   videok száma: ${video_count}
+                  Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált   videok száma: ${video_count}
 
       
                     #Videok feldolgozása
@@ -206,34 +206,34 @@ Témák közötti navigáció ellenőrzése
                     FOR    ${video_index}    IN RANGE   ${video_count}
                         TRY
                       
-                            Log String To Console With File    \nKövetkező Videó: ${video_index}
+                            Log String To Console    \nKövetkező Videó: ${video_index}
 
 
                             ${video}=    Get WebElement   //app-video-field[contains(@style, 'flex-flow')][${video_index+1}]//video
                             ${exists}=    Run Keyword And Return Status    Page Should Contain Element    ${video}
-                            #Run Keyword If    ${exists}    Log String To Console With File    "Megvan!"    ELSE    Log String To Console With File    "Nincs ilyen elem"
+                            #Run Keyword If    ${exists}    Log String To Console    "Megvan!"    ELSE    Log String To Console    "Nincs ilyen elem"
                             IF    ${exists} == False
-                                Log String To Console With File    Nincs ilyen video elem, kihagyás
+                                Log String To Console    Nincs ilyen video elem, kihagyás
                                 Continue For Loop
                             END
                             ${visible}=   Run Keyword And Ignore Error    Wait Until Element Is Visible   ${video}   1s
                             #${img}=    Get From List    ${images}    ${img_index}
                             #${visible}=     Run Keyword And Return Status    Element Should Be Visible    ${video}
                             IF    ${visible} == False
-                                Log String To Console With File    A video nem látható, kihagyás
+                                Log String To Console    A video nem látható, kihagyás
                                 Continue For Loop
                             END
-                            Log String To Console With File    ${video_index}:Következő Videó: ${video_index}
+                            Log String To Console    ${video_index}:Következő Videó: ${video_index}
 
                             #${alt}=    Get Element Attribute    ${img}    alt
                            
                             # Kép vagy videó alt/title attribútum lekérése
                            #Igen/nem bekérése felhasználótól
-                           Log String To Console With File    Várakozás 60s a felhasználói alt/title megadására...
+                           Log String To Console    Várakozás 60s a felhasználói alt/title megadására...
                         #Sleep     60s
 
                             ${alt_video}=    Get Element Attribute    //app-video-field[contains(@style, 'flex-flow')][${video_index+1}]//video    title
-                            Log String To Console With File    Video alt attribútum: ${alt_video}
+                            Log String To Console    Video alt attribútum: ${alt_video}
                             
                             ${src}=    Get Element Attribute    //app-video-field[contains(@style, 'flex-flow')][${video_index+1}]//video    src
 
@@ -260,26 +260,26 @@ Témák közötti navigáció ellenőrzése
                         
                             # src már az előző IF/ELSE-ben beállítva
                             
-                            # Log String To Console With File    Kép forrás: ${src}
+                            # Log String To Console    Kép forrás: ${src}
                             # Az ${src}-ben lecseréljük a ${BASE} rész üresre
                             # így csak a PATHQ marad meg
                             ${PATHQ}=    Replace String    ${src}    ${BASE}    ${EMPTY}
                             #Log String To Console    Kép PATHQ: ${PATHQ}
-                     Log String To Console With File    Video Letöltés indul...
+                     Log String To Console    Video Letöltés indul...
                             Create Session    blob    ${BASE}
                             ${resp}=    Get On Session    blob    ${src}
                    
                             Sleep    0.5s
                             Delete All Sessions
-                    Log String To Console With File    Video Letöltés kész
+                    Log String To Console    Video Letöltés kész
                         #Log String To Console    Kép letöltés válasza státusz: ${resp.status_code}
 
                          # kiterjesztések ellenőrzése
                             ${ctype}=   Get From Dictionary    ${resp.headers}    Content-Type
-                            Log String To Console With File    video Content-Type: ${ctype}
+                            Log String To Console    video Content-Type: ${ctype}
 
                             ${type}    ${category}=   Get Media Type And Category From Mime    ${ctype}
-                            Log String To Console With File    ------------------------------------------------------------- Típus: ${type}, Kategória: ${category}
+                            Log String To Console    ------------------------------------------------------------- Típus: ${type}, Kategória: ${category}
                             IF    $type == "Statikus"
                                 Set Global Variable    ${MEDIA_HAS_PICTURE}    ${True}
                             ELSE
@@ -289,7 +289,7 @@ Témák közötti navigáció ellenőrzése
 
 
                             ${disp}=    Get From Dictionary    ${resp.headers}    Content-Disposition    default=None
-                            Log String To Console With File    Video Content-Disposition: ${disp}
+                            Log String To Console    Video Content-Disposition: ${disp}
 
                             ${ext}=     Determine Extension From Content-Type    ${ctype}
 
@@ -309,10 +309,10 @@ Témák közötti navigáció ellenőrzése
                             #Log String To Console    Kép letöltés előtt: ${outfile}
 
                             #Save Response Body To File    ${resp}    ${outfile}
-                            Log String To Console With File    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Video letöltve: ${fname}.${ext}\n\n
+                            Log String To Console    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Video letöltve: ${fname}.${ext}\n\n
                            
                         EXCEPT    AS    ${e2}
-                            Log String To Console With File    [ERROR] Hiba a kép letöltésekor: ${e2}
+                            Log String To Console    [ERROR] Hiba a kép letöltésekor: ${e2}
                         END
                         
                     END
@@ -320,7 +320,7 @@ Témák közötti navigáció ellenőrzése
 
 
                 EXCEPT    AS    ${e1}
-                    Log String To Console With File    [WARNING] Hiba a következő oldal gomb kattintásakor: ${e1}
+                    Log String To Console    [WARNING] Hiba a következő oldal gomb kattintásakor: ${e1}
                      #felugró teszt megszakítása gomb kezelése
                     Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
                     Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
@@ -343,7 +343,7 @@ Témák közötti navigáció ellenőrzése
                 #${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                 #${is_disabled}=    Get Element Attribute    ${next_button}    disabled
                  Wait Until Element Is Visible    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]     1s
-                 Log String To Console With File   -----  Következő oldal gomb állapot lekérdezése előtt -----
+                 Log String To Console   -----  Következő oldal gomb állapot lekérdezése előtt -----
                 ${is_disabled}=    Get Element Attribute    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]    disabled
 
                 #Log String To Console    Következő oldal gomb le van tiltva vagy ismeretlen állapot: ${is_enabled}
@@ -356,13 +356,13 @@ Témák közötti navigáció ellenőrzése
            #Sikeres navigáció az összes oldalra
         EXCEPT    AS    ${e}
             #Sikertelen navigáció az összes oldalra
-            Log String To Console With File    [ERROR] Hiba a következő oldal gomb állapot lekérdezésekor: ${e}
+            Log String To Console    [ERROR] Hiba a következő oldal gomb állapot lekérdezésekor: ${e}
             ${new_err}=    Set Variable    Hiba az oldalak közti lapozásban: ${e}
             Append To List    ${errors}    ${new_err}
         END
     END
     #Minden menupont nyitva
-     Log String To Console With File   \n>>>>> Végeredmény visszaírása az Excel-be
+     Log String To Console   \n>>>>> Végeredmény visszaírása az Excel-be
     ${unique_errors}=    Remove Duplicates    ${errors}
     ${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique_errors}
     #Log String To Console    \nEredmény visszaírása:${DIGITALIS_EXCEL_FILE}  :  ${CURRENT_SHEET_NAME}    ${testCase_row}    ${unique_errors}
@@ -422,7 +422,7 @@ Get Highlighted And Parent Titles By Text
     ${hl_text_raw}=    Sanitize Title    ${hl_text_raw}
     ${highlighted_name}=    Sanitize Title    ${hl_text_raw}
     
-    Log String To Console With File    RAW highlighted: ${hl_text_raw}
+    Log String To Console    RAW highlighted: ${hl_text_raw}
 
     # 2) parent címek RAW (először exact, aztán contains)
     #${level4_raw}=    Get Parent Title By Highlighted Text    4    ${hl_text_raw}
@@ -438,7 +438,7 @@ Get Highlighted And Parent Titles By Text
     ${level1_name}=         Sanitize Title    ${level1_raw}
 
 
-    Log String To Console With File    \n--- EREDMÉNY ---\nHighlighted: ${highlighted_name}\nL1: ${level1_name}\nL2: ${level2_name}\nL3: ${level3_name} 
+    Log String To Console    \n--- EREDMÉNY ---\nHighlighted: ${highlighted_name}\nL1: ${level1_name}\nL2: ${level2_name}\nL3: ${level3_name} 
 
 
     RETURN    ${highlighted_name}    ${level1_name}    ${level2_name}    ${level3_name}    

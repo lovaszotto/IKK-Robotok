@@ -11,7 +11,7 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 23 - Generalt Tartalomjegyzek Ellenorzese
     [Documentation]    23 - Generált tartalomjegyzék
-    Log String To Console With File     \n\[23/24] Generált tartalomjegyzék
+    Log String To Console     \n\[23/24] Generált tartalomjegyzék
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
     ${question_row}=    Set Variable    25
@@ -28,7 +28,7 @@ Test Case 23 - Generalt Tartalomjegyzek Ellenorzese
     ${toc_count}=    Get Length    ${entries}
     #Log String To Console    Talált TOC sorok száma: ${toc_count}
     #FOR    ${e}    IN    @{entries}
-    #    Log String To Console With File    TOC: ${e}
+    #    Log String To Console    TOC: ${e}
    # END
     #ellenőrizzük, hogy van-e benne toc
     ${toc_count}=    Get Length    ${entries}

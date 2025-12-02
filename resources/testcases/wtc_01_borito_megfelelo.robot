@@ -5,9 +5,9 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Boritó megfelelőség ellenőrzése
     [Documentation]    Borító megfelelőség ellenőrzése
-    Log String To Console With File    \n**************************************************************************
-    Log String To Console With File    * wtc_01-Borító megfelelőség ellenőrzése
-    Log String To Console With File    **************************************************************************\n
+    Log String To Console    \n**************************************************************************
+    Log String To Console    * wtc_01-Borító megfelelőség ellenőrzése
+    Log String To Console    **************************************************************************\n
  
     ${testCase_row}=    Set Variable    3
    ${err_msg}=    Set Variable    ${EMPTY}
@@ -41,8 +41,8 @@ Boritó megfelelőség ellenőrzése
     
     # Dokumentum cím ellenőrzése
     ${dokumentum_cimsor} =    Get Variable Value    ${DOKUMENTUM_CIMSOR}    ${EMPTY}
-    Log String To Console With File    DT címe: ${home_title}
-    Log String To Console With File    Kézirat címe: ${dokumentum_cimsor}
+    Log String To Console    DT címe: ${home_title}
+    Log String To Console    Kézirat címe: ${dokumentum_cimsor}
     IF    $dokumentum_cimsor != $home_title
         ${err_msg}=    Set Variable    A dokumentum címsor nem egyezik meg a várt értékkel. Kézirat: '${dokumentum_cimsor}', DT: '${home_title}'
         Append To List    ${errors}    ${err_msg}
@@ -58,6 +58,6 @@ Boritó megfelelőség ellenőrzése
     ${unique_errors}=    Remove Duplicates    ${errors}
     ${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique_errors}
  
-    Log String To Console With File    \nEredmény visszaírása:${DIGITALIS_EXCEL_FILE}  :  ${CURRENT_SHEET_NAME}    ${testCase_row}    ${err_msg}
+    Log String To Console    \nEredmény visszaírása:${DIGITALIS_EXCEL_FILE}  :  ${CURRENT_SHEET_NAME}    ${testCase_row}    ${err_msg}
     Mark WebTest Status    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}    ${testCase_row}    ${err_msg}
    

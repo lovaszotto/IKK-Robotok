@@ -7,9 +7,9 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Tartalmaz egyeb mediaelemeket ellenőrzése
     [Documentation]   Tartalmaz egyeb mediaelemeket ellenőrzése
-    Log String To Console With File    \n**************************************************************************
-    Log String To Console With File    * wtc_11-Tartalmaz egyeb mediaelemeket ellenőrzése
-    Log String To Console With File    **************************************************************************\n
+    Log String To Console    \n**************************************************************************
+    Log String To Console    * wtc_11-Tartalmaz egyeb mediaelemeket ellenőrzése
+    Log String To Console    **************************************************************************\n
     ${testCase_row}=    Set Variable    13
    ${err_msg}=    Set Variable    ${EMPTY}
    ${errors}=    Create List
@@ -34,12 +34,12 @@ Tartalmaz egyeb mediaelemeket ellenőrzése
         ELSE
             ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
         END
-        Log String To Console With File     [ERROR] ${new_err}
+        Log String To Console     [ERROR] ${new_err}
         Append To List    ${errors}    ${new_err}
     END
 
     #Végeredmény visszaírása az Excel-be
-    Log String To Console With File   \n>>>>> Végeredmény visszaírása az Excel-be
+    Log String To Console   \n>>>>> Végeredmény visszaírása az Excel-be
     ${unique_errors}=    Remove Duplicates    ${errors}
     ${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique_errors}
  

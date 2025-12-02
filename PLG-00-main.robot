@@ -42,7 +42,7 @@ Batch inicializálás
 
 
     # DOCX fájlok keresése és globális változók beállítása
-    Log String To Console With File    ===Initialize DOCX Files List ===
+    Log String To Console    ===Initialize DOCX Files List ===
     Initialize DOCX Files List
     
     # *RRF221_tema.kezirata.docx létezés ellenőrzés 
@@ -58,7 +58,7 @@ Batch inicializálás
     END
 
 Összes DOC fájl keresése
-    Log String To Console With File    \n=== ÖSSZES DOC FELDOLGOZÁSA ===
+    Log String To Console    \n=== ÖSSZES DOC FELDOLGOZÁSA ===
     Initialize DOC Files List
     
 Összes DOCX feldolgozása
@@ -69,8 +69,8 @@ Batch inicializálás
     ${SELENIUM_SCREENSHOT_FILE}=    Set Variable    selenium-screenshot*.png
     Run Keyword And Ignore Error    Remove File    ${SELENIUM_SCREENSHOT_FILE}
     
-    Log String To Console With File    \n=== ÖSSZES DOCX FELDOLGOZÁSA ===
-    Log String To Console With File    Talált fájlok száma: ${file_count}
+    Log String To Console    \n=== ÖSSZES DOCX FELDOLGOZÁSA ===
+    Log String To Console    Talált fájlok száma: ${file_count}
     
     FOR    ${index}    IN RANGE    ${file_count}
         ${docx_file}=    Get From List    ${docx_files}    ${index}
@@ -81,7 +81,7 @@ Batch inicializálás
         ${is_in_recovery}=    Should Contain File    ${recovery_file}    ${docx_file}
         ${is_in_recovery_type}=    Evaluate    type(${is_in_recovery}).__name__
         IF    ${is_in_recovery}==${True}
-          Log String To Console With File    [RECOVERY]  ${docx_file} 
+          Log String To Console    [RECOVERY]  ${docx_file} 
           CONTINUE
         END
 
@@ -94,14 +94,14 @@ Batch inicializálás
         ${CURRENT_DIR}=    Evaluate    __import__('os').path.dirname('${docx_file_fixed}')    modules=os
         
     
-        #Log String To Console With File    \n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-        Log String To Console With File    >>> FELDOLGOZÁS: (${file_number}/${file_count}) ${docx_file}
+        #Log String To Console    \n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        Log String To Console    >>> FELDOLGOZÁS: (${file_number}/${file_count}) ${docx_file}
         IF    '${docx_file}' != '' and 'docx.docx' in '${docx_file}'
           ${docx_file_fixed}=    Replace String    ${docx_file}    \\    /
           # A warning elkerülésére: minden backslash /-re cserélve
           ${new_file_name}=    Replace String    ${docx_file_fixed}    .docx.docx    .docx
           Move File    ${docx_file_fixed}    ${new_file_name}
-          Log String To Console With File    Átnevezve: ${docx_file_fixed} -> ${new_file_name}
+          Log String To Console    Átnevezve: ${docx_file_fixed} -> ${new_file_name}
           ${docx_file}=    Set Variable    ${new_file_name}
         END
         # Verzió ellenőrzés: ellenőrzi, hogy az aktuális könyvtárban van-e azonos fájlnévvel 
@@ -111,53 +111,53 @@ Batch inicializálás
         ${orig_file_name}=    Set Variable    ${docx_file}
         ${new_name}=    Set Variable    ${docx_file}
         
-       #Log String To Console With File    >>> VERZIÓ ELLENŐRZÉS only_file_name >>> ${only_file_name}
+       #Log String To Console    >>> VERZIÓ ELLENŐRZÉS only_file_name >>> ${only_file_name}
         # a ${docx_file} -ból csak az útvonal rész kerül az only_path változóba
         ${only_path}=    Get File Directory    ${docx_file}
 
-       #Log String To Console With File    >>> VERZIÓ ELLENŐRZÉS only_path >>> ${only_path}    
+       #Log String To Console    >>> VERZIÓ ELLENŐRZÉS only_path >>> ${only_path}    
        # Ha a ${only_file_name} neve nem tartalmazza a \\.v(\\d+)\\.docx$" számozást, akkor átnevezzük átnevezzük v0-ra
         ${has_version}=    Run Keyword And Return Status    Should Match Regexp    ${only_file_name}    \\.v\\d+\\.
         IF    not ${has_version}
             ${new_name}=    Set Variable    ${only_file_name}.v0.docx
             Move File    ${only_path}/${only_file_name}.docx    ${only_path}/${new_name}
-           #Log String To Console With File    Átnevezve (v0 hozzáadva): ${only_file_name}.docx -> ${new_name}
+           #Log String To Console    Átnevezve (v0 hozzáadva): ${only_file_name}.docx -> ${new_name}
            
         END
 
         ${verzio_pattern}=    Set Variable    ${only_file_name}.v*.docx
         ${verzio_files}=    List Files In Directory    ${CURRENT_DIR}    pattern=${verzio_pattern}
-      #Log String To Console With File    >>> VERZIÓ verzio_pattern >> ${verzio_pattern}
-     #Log String To Console With File    >>> VERZIÓ ELLENŐRZÉS verzio_files >>> ${verzio_files}
+      #Log String To Console    >>> VERZIÓ verzio_pattern >> ${verzio_pattern}
+     #Log String To Console    >>> VERZIÓ ELLENŐRZÉS verzio_files >>> ${verzio_files}
    
         ${verzio_list}=    Create List
         FOR    ${vf}    IN    @{verzio_files}
             ${verzio_num}=    Evaluate    int(re.search(r"\\.v(\\d+)\\.docx$", r'''${vf}''').group(1))    modules=re
             Append To List    ${verzio_list}    ${verzio_num}
-          #Log String To Console With File    >>> VERZIÓ LIST >>> ${verzio_num}
+          #Log String To Console    >>> VERZIÓ LIST >>> ${verzio_num}
        
         END
         ${max_verzio}=    Set Variable    0
         IF    ${verzio_list}
             ${max_verzio}=    Evaluate    max(${verzio_list})
-          #Log String To Console With File    >>> MAX >>> ${max_verzio}
+          #Log String To Console    >>> MAX >>> ${max_verzio}
             
         END
         FOR    ${vf}    IN    @{verzio_files}
-             #Log String To Console With File    >>> vf >>> ${vf}
+             #Log String To Console    >>> vf >>> ${vf}
             ${verzio_num}=    Evaluate    int(re.search(r"\\.v(\\d+)\\.docx$", r'''${vf}''').group(1))    modules=re
             IF    ${verzio_num} != ${max_verzio}
                 Move File    ${only_path}/${vf}    ${only_path}/${vf}_old
-                #Log String To Console With File    Átnevezve (régi verzió): ${vf} -> ${vf}_old
+                #Log String To Console    Átnevezve (régi verzió): ${vf} -> ${vf}_old
             END
         END
         # ha van a fájlnévben .v0.docx akkor átnevezzük a fájlt a verzió nélkülire
         ${has_v0}=    Run Keyword And Return Status    Should Match Regexp    ${new_name}    \\.v0\\.docx$
         IF    ${has_v0} and ${max_verzio} == 0
             Move File    ${only_path}/${new_name}   ${docx_file}
-            #Log String To Console With File    Átnevezve (v0 eltávolítva): ${new_name} -> ${docx_file}
+            #Log String To Console    Átnevezve (v0 eltávolítva): ${new_name} -> ${docx_file}
         END
-        Log String To Console With File    >>>>>>>>>>>>>>>>>>>>>>>>>>>>FÁJLNÉV ELLENŐRZÉS: ${file_name}\n
+        Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>>>FÁJLNÉV ELLENŐRZÉS: ${file_name}\n
   
         #${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirata.docx
         ${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirat
@@ -166,27 +166,27 @@ Batch inicializálás
             ${is_fogalomtar2}=    Run Keyword And Return Status    Should Contain    ${file_name}    fogalomtár
             ${is_kompetencia}=    Run Keyword And Return Status    Should Contain    ${file_name}    kompetencia
             IF     $is_fogalomtar1 or $is_fogalomtar2 or $is_kompetencia
-              Log String To Console With File    [SKIP] Fájl kihagyva (fogalomtár/kompetencia): ${file_name} 
+              Log String To Console    [SKIP] Fájl kihagyva (fogalomtár/kompetencia): ${file_name} 
               #
               #bejegyzés a recovery fájlba
               #
               ${recovery_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}${/}_Recovery.csv
-              #Log String To Console With File    Recovery file: ${recovery_file}
+              #Log String To Console    Recovery file: ${recovery_file}
               Append To File    ${recovery_file}    ${docx_file}\n   
               CONTINUE
             END
             #tema_kezirat név hibás
-            Log String To Console With File    [SKIP] Fájl kihagyva (név nem egyezik): ${file_name} 
+            Log String To Console    [SKIP] Fájl kihagyva (név nem egyezik): ${file_name} 
             Write SumError fájl    ${EMPTY}    ${EMPTY}    tc-0    Fájlnév nem tartalmazza az RRF221_tema_kezirat szöveget;${file_name}
             CONTINUE
         END
 
         Process Single DOCX File As Test Case    ${docx_file}    ${file_number}    ${file_count}    Formálellenőrzés - ${file_name}
-        Log String To Console With File    <<<  BEFEJEZVE: ${docx_file}
+        Log String To Console    <<<  BEFEJEZVE: ${docx_file}
         
         #WEB-es ellenőrzés indítása
         IF    ${RUN_WEB_CHECK}==${True}
-          Log String To Console With File    \n---------------------------------------WEB---------------------------------------------\n
+          Log String To Console    \n---------------------------------------WEB---------------------------------------------\n
           PLG-05-WEB-ellenor-main.Web-alkalmazás indítása és bejelentkezés
         END
 
@@ -197,7 +197,7 @@ Batch inicializálás
       #bejegyzés a recovery fájlba
       #
         ${recovery_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}${/}_Recovery.csv
-        Log String To Console With File    Recovery file: ${recovery_file}
+        Log String To Console    Recovery file: ${recovery_file}
         Append To File    ${recovery_file}    ${docx_file}\n    
    END
 
@@ -205,8 +205,8 @@ Batch lezárás
     [Documentation]    Batch feldolgozás lezárása: eredmények összesítése
     
     # Eredmények automatikus ellenőrzése
-    Log String To Console With File    EREDMÉNYEK ELEMZÉSE INDUL...
-    Log String To Console With File    \n════════════════════════════════════════════════════════════════
+    Log String To Console    EREDMÉNYEK ELEMZÉSE INDUL...
+    Log String To Console    \n════════════════════════════════════════════════════════════════
     # Redundancia Eredmények Ellenőrzése eltávolítva (adatbázis kezelés végleg letiltva)
 
     # Feldolgozott dokumentumok számának és futásidőnek kiírása
@@ -219,10 +219,10 @@ Batch lezárás
     ${seconds}=    Evaluate    ${elapsed} % 60
 
     
-    Log String To Console With File    \nTELJES FELDOLGOZÁS KÉSZ!
-    Log String To Console With File    \n════════════════════════════════
-    Log String To Console With File    \nFeldolgozott dokumentumok száma: ${file_count}
-    Log String To Console With File    \nFutás teljes ideje: ${hours} óra ${minutes} perc ${seconds} másodperc
+    Log String To Console    \nTELJES FELDOLGOZÁS KÉSZ!
+    Log String To Console    \n════════════════════════════════
+    Log String To Console    \nFeldolgozott dokumentumok száma: ${file_count}
+    Log String To Console    \nFutás teljes ideje: ${hours} óra ${minutes} perc ${seconds} másodperc
 
     # Dinamikus (valós) összesítés a saját logba (Robot TC-k és 23-as ellenőrzések)
     ${TC_TOTAL}=    Get Variable Value    ${TC_TOTAL}    0
@@ -231,6 +231,6 @@ Batch lezárás
     ${CHECK_TOTAL}=    Get Variable Value    ${CHECK_TOTAL}    0
     ${CHECK_PASSED}=   Get Variable Value    ${CHECK_PASSED}   0
     ${CHECK_FAILED}=   Get Variable Value    ${CHECK_FAILED}   0
-    Log String To Console With File    \nROBOT ÖSSZESÍTÉS
-    Log String To Console With File    Robot testcases: ${TC_TOTAL} tests, ${TC_PASSED} passed, ${TC_FAILED} failed
-    Log String To Console With File    Formálellenőrzések: ${CHECK_TOTAL} tests, ${CHECK_PASSED} passed, ${CHECK_FAILED} failed
+    Log String To Console    \nROBOT ÖSSZESÍTÉS
+    Log String To Console    Robot testcases: ${TC_TOTAL} tests, ${TC_PASSED} passed, ${TC_FAILED} failed
+    Log String To Console    Formálellenőrzések: ${CHECK_TOTAL} tests, ${CHECK_PASSED} passed, ${CHECK_FAILED} failed

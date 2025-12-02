@@ -7,19 +7,19 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Tartalmaz fogalomtárat ellenőrzése
     [Documentation]   Tartalmaz fogalomtárat ellenőrzése
-    Log String To Console With File    \n**************************************************************************
-    Log String To Console With File    * wtc_11-Tartalmaz fogalomtárat ellenőrzése
-    Log String To Console With File    **************************************************************************\n
+    Log String To Console    \n**************************************************************************
+    Log String To Console    * wtc_11-Tartalmaz fogalomtárat ellenőrzése
+    Log String To Console    **************************************************************************\n
     ${testCase_row}=    Set Variable    11
    ${err_msg}=    Set Variable    ${EMPTY}
    ${errors}=    Create List
    ${CR}=    Set Variable    ;
 
     ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Page Contains Element    xpath=//button[contains(@aria-label,'Fogalomtár megnyitása')]   2s    
-    Log String To Console With File    \Fogalomtár megnyitás várakozás eredménye: ${rc} ${msg}
+    Log String To Console    \Fogalomtár megnyitás várakozás eredménye: ${rc} ${msg}
  
   IF    '${rc}' == 'PASS'
-       Log String To Console With File    >> A dokumentum tartalmaz fogalomtárat.
+       Log String To Console    >> A dokumentum tartalmaz fogalomtárat.
        Click Button       xpath=//button[contains(@aria-label,'Fogalomtár megnyitása')]
        Wait Until Page Contains Element    xpath=//glossary-panel   5s     
        #Fogalomtár panel megjelent
@@ -31,7 +31,7 @@ Tartalmaz fogalomtárat ellenőrzése
         ${pages_text}=    Get Text    xpath=(//*[contains(@class,'mat-mdc-paginator-range-label')])
          ${szoveg_norm}=    Replace String    ${pages_text}    –    -
        # Paginátor információk kiírása
-       Log String To Console With File    >> Paginátor információk: ${szoveg_norm}
+       Log String To Console    >> Paginátor információk: ${szoveg_norm}
          IF    $szoveg_norm == '0 - 0 of 0'
            #Nincsenek bejegyzések a fogalomtárban
            ${new_err}=    Set Variable    A lecke fogalomtára üres!
@@ -40,7 +40,7 @@ Tartalmaz fogalomtárat ellenőrzése
            ELSE
                ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
            END
-           Log String To Console With File     [ERROR] ${new_err}
+           Log String To Console     [ERROR] ${new_err}
            Append To List    ${errors}    ${new_err}
        END
        #
@@ -53,7 +53,7 @@ Tartalmaz fogalomtárat ellenőrzése
         ${pages_text2}=    Get Text    xpath=(//*[contains(@class,'mat-mdc-paginator-range-label')])
          ${szoveg_norm2}=    Replace String    ${pages_text2}    –    -
        # Paginátor információk kiírása
-       Log String To Console With File    >> Paginátor információk szűrés után: ${szoveg_norm2}
+       Log String To Console    >> Paginátor információk szűrés után: ${szoveg_norm2}
          IF    $szoveg_norm2 != '0 of 0'
            #Nincsenek bejegyzések a fogalomtárban
            ${new_err}=    Set Variable    A lecke fogalomtár szűrése nem működik!
@@ -62,7 +62,7 @@ Tartalmaz fogalomtárat ellenőrzése
            ELSE
                ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
            END
-           Log String To Console With File     [ERROR] ${new_err}
+           Log String To Console     [ERROR] ${new_err}
            Append To List    ${errors}    ${new_err}
        END
        #
@@ -79,12 +79,12 @@ Tartalmaz fogalomtárat ellenőrzése
         ELSE
             ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
         END
-        Log String To Console With File     [ERROR] ${new_err}
+        Log String To Console     [ERROR] ${new_err}
         Append To List    ${errors}    ${new_err}
     END
 
     #Végeredmény visszaírása az Excel-be
-    Log String To Console With File   \n>>>>> Végeredmény visszaírása az Excel-be
+    Log String To Console   \n>>>>> Végeredmény visszaírása az Excel-be
     ${unique_errors}=    Remove Duplicates    ${errors}
     ${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique_errors}
  

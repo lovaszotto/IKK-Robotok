@@ -18,7 +18,7 @@ Library    SeleniumLibrary
 *** Keywords ***
 Téma keresés szűrő beállítása
     [Documentation]    Téma keresés szűrő beállítása
-    Log String To Console With File     \n\[1a/24] Téma keresés szűrő beállítása
+    Log String To Console     \n\[1a/24] Téma keresés szűrő beállítása
     Wait Until Element Is Visible    id=mat-input-0    30s
     #a globális ${DTEM} változó értékének lekérése
 
@@ -27,28 +27,28 @@ Téma keresés szűrő beállítása
     ${dtem}=    Replace String    ${dtem}    *    ${EMPTY}
     #concatenate egy szóközt a DTEM érték mögé
     ${dtem}=    Set Variable    ${DTEM}${SPACE}
-    Log String To Console With File    Beállított DTEM szűrő: +++${dtem}+++
+    Log String To Console    Beállított DTEM szűrő: +++${dtem}+++
     
     Input Text    id=mat-input-0    ${dtem}
     Press Keys    id=mat-input-0        ENTER
     Sleep    2s
-    Log String To Console With File    \[1a/24] Téma keresés beállítása - Kész
+    Log String To Console    \[1a/24] Téma keresés beállítása - Kész
 
 Megjelenő kurzusok bejárása
     [Documentation]    Megjelenő kurzusok bejárása
-    Log String To Console With File     \n\[2/24] Megjelenő kurzusok bejárása
+    Log String To Console     \n\[2/24] Megjelenő kurzusok bejárása
     # Csak akkor várjuk meg a kurzus címkéket, ha már megjelent az 'Aktuális kurzusaim' szöveg
     # Kurzus lista elemek begyűjtése a teljes xpath alapján
     ${courses}=    Create List
     ${status}=    Set Variable    NONE
     #Run Keyword And Ignore Error  Wait Until Element Is Visible    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li    10s
     ${status}     ${courses}=      Run Keyword And Ignore Error  Wait Until Element Is Visible    xpath=//ulms-course-list-item    5s
-    Log String To Console With File    Van Talált kurzusok:  ${status}:${courses}
+    Log String To Console    Van Talált kurzusok:  ${status}:${courses}
     IF    $status=='PASS'
-        Log String To Console With File    Kurzusok megtalálva a megadott szűrőkkel.
+        Log String To Console    Kurzusok megtalálva a megadott szűrőkkel.
 
     ELSE
-        Log String To Console With File    [ERROR]Nincs megjeleníthető kurzus a beállított szűrőkkel. =>${DIGITALIS_EXCEL_FILE}
+        Log String To Console    [ERROR]Nincs megjeleníthető kurzus a beállított szűrőkkel. =>${DIGITALIS_EXCEL_FILE}
         ${error_file}=    Replace String    ${DIGITALIS_EXCEL_FILE}    .v01.xlsx    _Nincs kurzus a WEB-en.txt
         Create File    ${error_file}    Nincs megjeleníthető kurzus a beállított szűrőkkel.
         Write SumError fájl    ${DIGITALIS_EXCEL_FILE}    ${DIGITALIS_EXCEL_SHEET}    wtc-0    Nincs a kurzus a WEB-en
@@ -58,7 +58,7 @@ Megjelenő kurzusok bejárása
 
     ${courses}=    Get WebElements     xpath=//ulms-course-list-item 
     ${course_count}=    Get Length    ${courses}
-    Log String To Console With File    Talált kurzusok száma: ${course_count}
+    Log String To Console    Talált kurzusok száma: ${course_count}
   
       # Ha megjelenik a kétfaktoros javaslat ablak, kattints a "Később" gombra
     Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Később')]    2s
@@ -90,7 +90,7 @@ Megjelenő kurzusok bejárása
         # Kurzus oldal betöltése után h2 cím kiírása
         Wait Until Element Is Visible    xpath=//h1    20s
         ${h2_text}=    Get Text    xpath=//h1
-        Log String To Console With File    Kurzus: ${h2_text} Passed
+        Log String To Console    Kurzus: ${h2_text} Passed
         Sleep    1s
 
         # Lecke lista beolvasása
@@ -100,7 +100,7 @@ Megjelenő kurzusok bejárása
          ${course_idx}=   Evaluate    ${course_idx} + 1
 
     END
-    Log String To Console With File    \n\[2/24] Megjelenő kurzusok beolvasása - Kész
+    Log String To Console    \n\[2/24] Megjelenő kurzusok beolvasása - Kész
    
      
     
