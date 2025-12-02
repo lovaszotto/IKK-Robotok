@@ -209,6 +209,7 @@ Mark Test Status
         ${testcase}=    Set Variable    TC${row_text}
         Write SumError fájl    ${parent}    ${child}    ${testcase}    ${err_msg}    ${excel_file}
         
+        Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    4    ${mark}
     ELSE
         Log String To Console    Mark Test Status Passed
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    3    ${mark}
