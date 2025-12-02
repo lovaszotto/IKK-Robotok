@@ -238,7 +238,7 @@ Mark WebTest Status
         # Hibás X-elés: D oszlop
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    3    ${mark}
          #felirjuk egy csv.be appendel
-          Write SumError fájl    ${excel_file}    ${sheet_name}     wtc-${test_row}   ${err_msg}
+          Write SumError fájl    ${excel_file}    ${sheet_name}     wtc-${test_row}   ${err_msg}    ${excel_file}
  
         # Jelöld FAIL-re a tesztet, de folytasd a futást
         Run Keyword And Continue On Failure    Fail    ${err_msg}
@@ -247,7 +247,7 @@ Mark WebTest Status
     ELSE
         # Hibátlan X-elés: C oszlop
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    2    ${mark}
-         Write SumError fájl    ${excel_file}    ${sheet_name}    wtc-${test_row}    Passed
+         Write SumError fájl    ${excel_file}    ${sheet_name}    wtc-${test_row}    Passed    ${excel_file}
         Log String To Console With File    Mark WebTest Status Passed
         END
 

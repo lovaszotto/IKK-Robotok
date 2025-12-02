@@ -7,7 +7,7 @@ Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 06 - Szerzo Lektor Ellenorzese
     [Documentation]    06 - Szerző-lektor ellenőrzése
-    Log String To Console    \n\[06/24] Szerző-lektor ellenőrzése
+    Log String To Console With File    \n\[06/24] Szerző-lektor ellenőrzése
 
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
@@ -22,19 +22,19 @@ Test Case 06 - Szerzo Lektor Ellenorzese
     ${is_dict}=    Evaluate    isinstance(${docx_json}, dict)
     IF    not ${is_dict}
         ${err_msg}=    Set Variable    DOCX_JSON nem elérhető vagy nem megfelelő típus (${docx_json})
-        Log String To Console    [ERROR] ${err_msg}
+        Log String To Console With File    [ERROR] ${err_msg}
     ELSE
         TRY
             ${tables}=    Get From Dictionary    ${docx_json}    tables
         EXCEPT    AS    ${e}
             ${tables}=    Set Variable    ${EMPTY}
             ${err_msg}=    Set Variable    DOCX_JSON['tables'] nem található (${e})
-            Log String To Console    [ERROR] ${err_msg}
+            Log String To Console With File    [ERROR] ${err_msg}
         END
         ${is_tables_list}=    Evaluate    isinstance(${tables}, list)
         IF    not ${is_tables_list}
             ${err_msg}=    Set Variable    DOCX_JSON['tables'] nem lista vagy hiányzik (${tables})
-            Log String To Console    [ERROR] ${err_msg}
+            Log String To Console With File    [ERROR] ${err_msg}
         ELSE
             TRY
                 ${first_table}=    Get From List    ${tables}    0
@@ -43,7 +43,7 @@ Test Case 06 - Szerzo Lektor Ellenorzese
                 ${err_msg}=    Szerzo Lektor Ellenorzesek    ${clean}    ${CR}    ${err_msg}
             EXCEPT    AS    ${e}
                 ${first_table}=    Set Variable    ${EMPTY}
-                Log String To Console    [ERROR] Címtábla nem elérhető vagy hibás megnevezéseket tartalmaz!: (${e})
+                Log String To Console With File    [ERROR] Címtábla nem elérhető vagy hibás megnevezéseket tartalmaz!: (${e})
                 ${err_msg}=    Set Variable    Címtábla nem elérhető vagy hibás megnevezéseket tartalmaz, ezért a szerző-lektor ellenőrzés nem hajtható végre!
             END
         END
@@ -61,7 +61,7 @@ Szerzo Lektor Ellenorzesek
         ELSE
             ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
         END
-        Log String To Console    [ERROR] ${new_err}
+        Log String To Console With File    [ERROR] ${new_err}
     END
     ${szakmai_lektor}=    Get From Dictionary    ${clean}    Szakmai lektor    ${EMPTY}
     #Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szakmai lektor: ${szakmai_lektor}
@@ -72,7 +72,7 @@ Szerzo Lektor Ellenorzesek
         ELSE
             ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
         END
-        Log String To Console    [ERROR] ${new_err}
+        Log String To Console With File    [ERROR] ${new_err}
     END
     #szerzőben és lektorban cseréljük le a ; , re
     ${szerzo}=    Replace String    ${szerzo}    ;    ,
@@ -85,11 +85,11 @@ Szerzo Lektor Ellenorzesek
 
     ${upper_szerzo}=    Convert To Uppercase    ${szerzo}
     Set Global Variable       ${DOKUMENTUM_SZERZO}     ${upper_szerzo}    
-     Log String To Console    [SAVE] Dokumentum szerző elmentve: ${DOKUMENTUM_SZERZO}
+     Log String To Console With File    [SAVE] Dokumentum szerző elmentve: ${DOKUMENTUM_SZERZO}
      
     ${upper_szakmai_lektor}=    Convert To Uppercase    ${szakmai_lektor}
     Set Global Variable        ${DOKUMENTUM_SZAKMAI_LEKTOR}     ${upper_szakmai_lektor}   
-    Log String To Console    [SAVE] Dokumentum szakmai lektor elmentve: ${DOKUMENTUM_SZAKMAI_LEKTOR}
+    Log String To Console With File    [SAVE] Dokumentum szakmai lektor elmentve: ${DOKUMENTUM_SZAKMAI_LEKTOR}
 
     ${szerzo_list}=    Split String    ${szerzo}    ,
     ${szakmai_lektor_list}=    Split String    ${szakmai_lektor}    ,

@@ -61,24 +61,24 @@ Test Case 12 - Magyar Nyelven Keszult Ellenorzese
     END
     
     # Eredmény kiértékelése
-    Log String To Console    \n=== MAGYAR NYELV ELLENORZES EREDMENYE ===
-    Log String To Console    Osszesen vizsgalt szovegreszek: ${total_valid_texts}
-    Log String To Console    Magyar nyelven: ${hungarian_count}
-    Log String To Console    Idegen nyelven: ${other_lang_count}
+    Log String To Console With File    \n=== MAGYAR NYELV ELLENORZES EREDMENYE ===
+    Log String To Console With File    Osszesen vizsgalt szovegreszek: ${total_valid_texts}
+    Log String To Console With File    Magyar nyelven: ${hungarian_count}
+    Log String To Console With File    Idegen nyelven: ${other_lang_count}
     
     IF    ${total_valid_texts} > 0
         ${hungarian_percentage}=    Evaluate    round((${hungarian_count} / ${total_valid_texts}) * 100, 1)
-        Log String To Console    Magyar nyelvu arany: ${hungarian_percentage}%
+        Log String To Console With File    Magyar nyelvu arany: ${hungarian_percentage}%
         
         IF    ${other_lang_count} == 0
-            Log String To Console    SIKERES: A dokumentum magyar nyelven keszult
+            Log String To Console With File    SIKERES: A dokumentum magyar nyelven keszult
             ${err_msg}=    Set Variable    ${EMPTY}
         ELSE
             ${err_msg}=    Set Variable    Magyar nyelvu arany: ${hungarian_percentage}% ; Talalt idegen nyelvu szovegreszek: ${other_lang_count} db. ${err_msg}
-            Log String To Console    SIKERTELEN: Talalhatok idegen nyelvu szovegreszek
+            Log String To Console With File    SIKERTELEN: Talalhatok idegen nyelvu szovegreszek
         END
     ELSE
-        Log String To Console    FIGYELEM: Nem talalhato detektalhato szoveg (alapertelmezett: SIKERES)
+        Log String To Console With File    FIGYELEM: Nem talalhato detektalhato szoveg (alapertelmezett: SIKERES)
         ${err_msg}=    Set Variable    ${EMPTY}
     END
     

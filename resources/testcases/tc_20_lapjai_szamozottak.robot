@@ -18,7 +18,7 @@ Test Case 20 - Lapjai Szamozottak Ellenorzese
     IF    '${err_msg}' != ''
         Log String To Console With File     [ERROR] Oldalszámozás: HIBA - ${err_msg}
     #ELSE
-    #    Log String To Console     \n\[20] Oldalszámozás: Megtalálható
+    #    Log String To Console With File     \n\[20] Oldalszámozás: Megtalálható
     END
 
     # Teszt státusz és Excel jelölés végrehajtása a megadott soron

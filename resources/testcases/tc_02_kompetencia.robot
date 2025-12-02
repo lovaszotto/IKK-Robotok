@@ -29,7 +29,7 @@ Get Next Non Empty Paragraph
 Test Case 02 - Kompetencia Teszt Ellenorzese
     # --- Refaktor: hibák gyűjtése listába ---
     [Documentation]    02 - Kompetencia teszt ellenőrzése
-    Log String To Console     \n\[02/24] Kompetencia teszt ellenőrzése 
+    Log String To Console With File     \n\[02/24] Kompetencia teszt ellenőrzése 
    ${testCase_row}=    Set Variable    4
 
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
@@ -50,11 +50,11 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
     # Biztonságos beolvasás (TRY/EXCEPT helyett Robot kulcsszintű hibakezelés)
     #Log String To Console     Kompetencia fájl:${docx_file_kompetencia}
     ${read_status}    ${docx_json_komp}=    Run Keyword And Ignore Error    DocxReader.Read Docx All    ${docx_file_kompetencia}
-    Log String To Console   Read Status: ${read_status}
+    Log String To Console With File   Read Status: ${read_status}
     #Log String To Console    JSON:${docx_json_komp}
     IF    $read_status == 'FAIL'
         ${err_msg}=    Set Variable    Olvasási hiba (${docx_json_komp})    
-        Log String To Console     [ERROR] ${err_msg}
+        Log String To Console With File     [ERROR] ${err_msg}
          Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
          RETURN
     ELSE
@@ -65,36 +65,36 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
   
         #------------------------------- második sor Egyedi megrendelés azonosítója ellenőrzése --------------------
         ${second_paragraph}    ${act_line}=    Get Next Non Empty Paragraph    ${paragraphs}    ${act_line}
-        Log String To Console    Második sor: ${second_paragraph}
+        Log String To Console With File    Második sor: ${second_paragraph}
         IF    $second_paragraph == ''
             ${new_err}=    Set Variable    A második sor nem található!
             Append To List    ${errors}    ${new_err}
-            Log String To Console     [ERROR] ${new_err}
+            Log String To Console With File     [ERROR] ${new_err}
         ELSE
             # Ha a prefix nem megfelelő
             ${pref_ok}=    Run Keyword And Return Status    Should Start With    ${second_paragraph}    Egyedi megrendelés azonosítója
             IF    '${pref_ok}' == 'False'
                 ${new_err}=    Set Variable    A második sor kezdete kötelezően: Egyedi megrendelés azonosítója...
                 Append To List    ${errors}    ${new_err}
-                Log String To Console     [ERROR] ${new_err}
+                Log String To Console With File     [ERROR] ${new_err}
             END
             #összehasonlítás a globálisan elmentett azonosítóval
             ${global_azonosito}=    Get Variable Value    ${EGYEDI_AZONOSITO}    ${EMPTY}
             IF    "${second_paragraph}" != "${global_azonosito}"
                 ${new_err}=    Set Variable    Az egyedi megrendelés azonosító nem egyezik a Téma kéziratában megadottal!
                 Append To List    ${errors}    ${new_err}
-                Log String To Console     [ERROR] ${new_err}
+                Log String To Console With File     [ERROR] ${new_err}
               
             END
         END
         
         #------------------------------- harmadik sor cím ellenőrzése --------------------
         ${third_paragraph}    ${act_line}=    Get Next Non Empty Paragraph    ${paragraphs}    ${act_line}
-        Log String To Console    Harmadik sor: ${third_paragraph}
+        Log String To Console With File    Harmadik sor: ${third_paragraph}
         IF    $third_paragraph == ''
             ${new_err}=    Set Variable    A harmadik sor kötelezően nem lehet üres!
             Append To List    ${errors}    ${new_err}
-            Log String To Console     [ERROR] ${new_err}
+            Log String To Console With File     [ERROR] ${new_err}
         END
         #összehasonlítás a globálisan elmentett címmel
         ${global_cim}=    Get Variable Value    ${DOKUMENTUM_CIMSOR}    ${EMPTY}
@@ -110,20 +110,20 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
         IF    "${n_third}" != "${n_global}"
             ${new_err}=    Set Variable    A cím nem egyezik a Téma kéziratában megadottal!
             Append To List    ${errors}    ${new_err}
-            Log String To Console     [ERROR] ${new_err}
-            Log String To Console     [TEMA] ${third_paragraph} (norm: ${n_third})
-            Log String To Console     [KOMPETENCIA] ${global_cim} (norm: ${n_global})
+            Log String To Console With File     [ERROR] ${new_err}
+            Log String To Console With File     [TEMA] ${third_paragraph} (norm: ${n_third})
+            Log String To Console With File     [KOMPETENCIA] ${global_cim} (norm: ${n_global})
         END
         #------------------------------- negyedik sor Témák kézirata ellenőrzése --------------------
-         Log String To Console    Negyedik sor olvasás előtt act_line: ${act_line}
+         Log String To Console With File    Negyedik sor olvasás előtt act_line: ${act_line}
 
         ${fourth_paragraph}    ${act_line}=    Get Next Non Empty Paragraph    ${paragraphs}    ${act_line}
-        Log String To Console    Negyedik sor: ${fourth_paragraph}
+        Log String To Console With File    Negyedik sor: ${fourth_paragraph}
         ${normalized_fourth}=    Strip String    ${fourth_paragraph}
         IF    $normalized_fourth != 'Kompetencia tesztek kézirata'
             ${new_err}=    Set Variable    A negyedik sor kötelezően: "Kompetencia tesztek kézirata" !
             Append To List    ${errors}    ${new_err}
-            Log String To Console     [ERROR] ${new_err}
+            Log String To Console With File     [ERROR] ${new_err}
         END
 
     ${unique_errors}=    Remove Duplicates    ${errors}

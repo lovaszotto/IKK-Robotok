@@ -7,9 +7,9 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Kézirat és DT összhang ellenőrzése
     [Documentation]    Kézirat és DT összhang ellenőrzése
-    Log String To Console    \n**************************************************************************
-    Log String To Console    * wtc_04-Kézirat és DT összhang ellenőrzése
-    Log String To Console    **************************************************************************\n
+    Log String To Console With File    \n**************************************************************************
+    Log String To Console With File    * wtc_04-Kézirat és DT összhang ellenőrzése
+    Log String To Console With File    **************************************************************************\n
     ${testCase_row}=    Set Variable    6
    ${err_msg}=    Set Variable    ${EMPTY}
    ${errors}=    Create List
@@ -18,7 +18,7 @@ Kézirat és DT összhang ellenőrzése
    ${is_disabled}=    Set Variable    None
 
    # ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Page Contains Element    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]   10s    
-   # Log String To Console    \nVárakozás eredménye: ${rc} ${msg}
+   # Log String To Console With File    \nVárakozás eredménye: ${rc} ${msg}
    # IF    '${rc}' == 'PASS'
    #     ${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
    #     TRY 
@@ -36,7 +36,7 @@ Kézirat és DT összhang ellenőrzése
     #       #Sikeres navigáció az összes oldalra
     #    EXCEPT    AS    ${e}
     #        #Sikertelen navigáció az összes oldalra
-    #        Log String To Console    [ERROR] Hiba a következő oldal gomb állapot lekérdezésekor: ${e}
+    #        Log String To Console With File    [ERROR] Hiba a következő oldal gomb állapot lekérdezésekor: ${e}
     #END
     #Minden menupont nyitva
 
@@ -60,7 +60,7 @@ Kézirat és DT összhang ellenőrzése
     Wait Until Page Contains Element  xpath=//*[contains(concat(' ', normalize-space(@class), ' '), ' tree-node ')]     10s
    ${szoveg_nodes}=    Get WebElements    xpath=//*[contains(concat(' ', normalize-space(@class), ' '), ' tree-node ')]
     ${len_szoveg_nodes}=    Get Length    ${szoveg_nodes}
-    Log String To Console    Oldal szöveg elemek száma: ${len_szoveg_nodes}
+    Log String To Console With File    Oldal szöveg elemek száma: ${len_szoveg_nodes}
 
     FOR    ${index}    IN RANGE    ${len_szoveg_nodes}
         ${node}=    Get From List    ${szoveg_nodes}    ${index}
@@ -77,7 +77,7 @@ Kézirat és DT összhang ellenőrzése
             Continue For Loop
         END
 
-        Log String To Console    ${index} Oldal: ${node_text}
+        Log String To Console With File    ${index} Oldal: ${node_text}
 
         ${found_feladat}=    Evaluate    bool(re.search('feladat', $node_text, re.IGNORECASE | re.MULTILINE))    re
         IF    ${found_feladat}    
@@ -131,32 +131,32 @@ Kézirat és DT összhang ellenőrzése
 
         IF    ${found}
               ${found_count}=   Evaluate    ${found_count}+1
-            Log String To Console    \t[___OK] ${node_text}
+            Log String To Console With File    \t[___OK] ${node_text}
             ${new_err}=    Set Variable    ___OK: ${node_text}
             Append To List    ${errors}    ${new_err}
         ELSE
             ${not_found_count}=   Evaluate    ${not_found_count}+1
-            Log String To Console    \t[NINCS] ${node_text}
+            Log String To Console With File    \t[NINCS] ${node_text}
             ${new_err}=    Set Variable    NINCS: ${node_text}
             Append To List    ${errors}    ${new_err}
         END
     END
     IF    ${not_found_count} > 0
-        Log String To Console    \n[ERROR] Összesen ${not_found_count} oldal nem található a dokumentumban.
+        Log String To Console With File    \n[ERROR] Összesen ${not_found_count} oldal nem található a dokumentumban.
         ${found_percentage}=    Evaluate    ${found_count} / (${found_count} + ${not_found_count}) * 100
         ${new_err}=    Set Variable    DT-Kézirat találati arány: ${found_percentage}%, Megtalált: ${found_count}, Nem megtalált: ${not_found_count}
         #Append To List    ${errors}    ${new_err}
         Insert Into List    ${errors}    0    ${new_err}
-        Log String To Console    \n[ERROR] ${new_err}
+        Log String To Console With File    \n[ERROR] ${new_err}
     ELSE
-        Log String To Console    \n[INFO] Minden oldal megtalálva a dokumentumban. Összesen: ${found_count}
+        Log String To Console With File    \n[INFO] Minden oldal megtalálva a dokumentumban. Összesen: ${found_count}
     END
     
     
     
     
      #Végeredmény visszaírása az Excel-be
-    Log String To Console   \n>>>>> Végeredmény visszaírása az Excel-be
+    Log String To Console With File   \n>>>>> Végeredmény visszaírása az Excel-be
     ${unique_errors}=    Remove Duplicates    ${errors}
     ${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique_errors}
  
@@ -169,6 +169,6 @@ Kézirat és DT összhang ellenőrzése
     Delete Variable    ${par}
     Delete Variable    ${text}
 
-    Log String To Console    <<<<<< Kézirat és DT összhang ellenőrzés vége <<<<<<<<  ${is_disabled}
+    Log String To Console With File    <<<<<< Kézirat és DT összhang ellenőrzés vége <<<<<<<<  ${is_disabled}
   
 

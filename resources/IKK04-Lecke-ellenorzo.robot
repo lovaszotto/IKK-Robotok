@@ -24,9 +24,9 @@ Library    SeleniumLibrary
 
 Egy lecke ellenőrzése
     [Documentation]    Lecke ellenőrzése
-    Log String To Console    \n\[3/24] Egy lecke ellenőrzése
+    Log String To Console With File    \n\[3/24] Egy lecke ellenőrzése
    
-      Log String To Console    ---------------------------------Egy lecke ellenőrzés kezdete---------------------------------
+      Log String To Console With File    ---------------------------------Egy lecke ellenőrzés kezdete---------------------------------
    
             Wait Until Element Is Visible    id=ScormContent    5s
             Select Frame    id=ScormContent
@@ -36,7 +36,7 @@ Egy lecke ellenőrzése
             Run Keyword And Ignore Error    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']
             
           
-            Log String To Console    Most vagyunk egy leckében
+            Log String To Console With File    Most vagyunk egy leckében
             # Egy lecke ellenőrzése itt történik
             #tartalomjegyzék gomb megnyomása
             Wait Until Page Contains Element    xpath=//button[@aria-label='Tartalomjegyzék']    30s
@@ -57,7 +57,7 @@ Egy lecke ellenőrzése
             #
             # TestCase-ek futtatása a leckében
             #
-            Log String To Console    \n--- TestCase-ek futtatása a leckében ---\n
+            Log String To Console With File    \n--- TestCase-ek futtatása a leckében ---\n
 
             # Összesítés számlálók
             ${check_total}=    Set Variable    0
@@ -71,7 +71,7 @@ Egy lecke ellenőrzése
                 ${check_passed}=    Evaluate    ${check_passed} + 1
             ELSE
                 ${check_failed}=    Evaluate    ${check_failed} + 1
-                Log String To Console    [HIBA]  ${msg}
+                Log String To Console With File    [HIBA]  ${msg}
             END
             
             #wtc_02_impresszum_megfelelo.robot futtatása
@@ -81,7 +81,7 @@ Egy lecke ellenőrzése
                 ${check_passed}=    Evaluate    ${check_passed} + 1
             ELSE
                 ${check_failed}=    Evaluate    ${check_failed} + 1
-                 Log String To Console    [HIBA]  ${msg}
+                 Log String To Console With File    [HIBA]  ${msg}
             END
 
            #wtc_03_temak_kozotti_lapozas.robot futtatása és média ellenőrzés
@@ -92,7 +92,7 @@ Egy lecke ellenőrzése
                     ${check_passed}=    Evaluate    ${check_passed} + 1
                 ELSE
                     ${check_failed}=    Evaluate    ${check_failed} + 1
-                    Log String To Console    [HIBA]  ${msg}
+                    Log String To Console With File    [HIBA]  ${msg}
                 END
     
            
@@ -103,7 +103,7 @@ Egy lecke ellenőrzése
                 ${check_passed}=    Evaluate    ${check_passed} + 1
             ELSE
                 ${check_failed}=    Evaluate    ${check_failed} + 1
-                 Log String To Console    [HIBA]  ${msg}
+                 Log String To Console With File    [HIBA]  ${msg}
             END
 
             #wtc_05_magyar_nyelvu.robot futtatása
@@ -113,7 +113,7 @@ Egy lecke ellenőrzése
                 ${check_passed}=    Evaluate    ${check_passed} + 1
             ELSE
                 ${check_failed}=    Evaluate    ${check_failed} + 1
-                Log String To Console    [HIBA]  ${msg}
+                Log String To Console With File    [HIBA]  ${msg}
             END
 
            #wtc_09_tartalmaz_fogalomtárat.robot futtatása
@@ -123,7 +123,7 @@ Egy lecke ellenőrzése
                 ${check_passed}=    Evaluate    ${check_passed} + 1
             ELSE
                 ${check_failed}=    Evaluate    ${check_failed} + 1
-                 Log String To Console    [HIBA]  ${msg}
+                 Log String To Console With File    [HIBA]  ${msg}
             END
             #wtc_10_tartalmaz_statikus_mediaelemeket.robot futtatása
             ${rc}    ${msg}=    Run Keyword And Ignore Error    Tartalmaz statikus mediaelemeket ellenőrzése
@@ -132,7 +132,7 @@ Egy lecke ellenőrzése
                 ${check_passed}=    Evaluate    ${check_passed} + 1
             ELSE
                 ${check_failed}=    Evaluate    ${check_failed} + 1
-                 Log String To Console    [HIBA]  ${msg}
+                 Log String To Console With File    [HIBA]  ${msg}
             END
             
             #wtc_11_tartalmaz_egyeb_mediaelemeket.robot futtatása
@@ -142,13 +142,13 @@ Egy lecke ellenőrzése
                 ${check_passed}=    Evaluate    ${check_passed} + 1
             ELSE
                 ${check_failed}=    Evaluate    ${check_failed} + 1
-                Log String To Console    [HIBA]  ${msg}
+                Log String To Console With File    [HIBA]  ${msg}
             END
 
             #Kilépés a leckéből és a browesert bezárjuk
             Close browser
         
-            Log String To Console    <<<<<< Lecke elleőrzés vége <<<<<<<<
+            Log String To Console With File    <<<<<< Lecke elleőrzés vége <<<<<<<<
                   #selenium-screenshot törlése selenium-screenshot*.png fájlok törlése
             ${SELENIUM_SCREENSHOT_FILE}=    Set Variable    selenium-screenshot*.png
             Run Keyword And Ignore Error    Remove File    ${SELENIUM_SCREENSHOT_FILE}

@@ -23,7 +23,7 @@ Get Next Non Empty Paragraph
 *** Keywords ***
 Test Case 03 - Fogalomtar Ellenorzese
     [Documentation]    03 - Fogalomtár ellenőrzése
-    Log String To Console     \n\[03/24] Fogalomtár ellenőrzése 
+    Log String To Console With File     \n\[03/24] Fogalomtár ellenőrzése 
     ${testCase_row}=    Set Variable    5
      ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
@@ -45,7 +45,7 @@ Test Case 03 - Fogalomtar Ellenorzese
     ${read_status}    ${docx_json_fog}=    Run Keyword And Ignore Error    DocxReader.Read Docx All    ${docx_file_fog}
     IF    $read_status == 'FAIL'
         ${err_msg}=    Set Variable    Olvasási hiba (${docx_json_fog})
-        Log String To Console     [ERROR] ${err_msg}
+        Log String To Console With File     [ERROR] ${err_msg}
         Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
          RETURN
     ELSE
@@ -56,39 +56,39 @@ Test Case 03 - Fogalomtar Ellenorzese
   
         #------------------------------- második sor Egyedi megrendelés azonosítója ellenőrzése --------------------
         ${second_paragraph}    ${act_line}=    Get Next Non Empty Paragraph    ${paragraphs}    ${act_line}
-        Log String To Console    Második sor: ${second_paragraph}
+        Log String To Console With File    Második sor: ${second_paragraph}
         IF    $second_paragraph == ''
             ${new_err}=    Set Variable    A második sor nem található!
             Append To List    ${errors}    ${new_err}
-            Log String To Console     [ERROR] ${new_err}
+            Log String To Console With File     [ERROR] ${new_err}
         ELSE
             # Ha a prefix nem megfelelő
             ${pref_ok}=    Run Keyword And Return Status    Should Start With    ${second_paragraph}    Egyedi megrendelés azonosítója
             IF    '${pref_ok}' == 'False'
                 ${new_err}=    Set Variable    A második sor kezdete kötelezően: Egyedi megrendelés azonosítója...
                 Append To List    ${errors}    ${new_err}
-                Log String To Console     [ERROR] ${new_err}
+                Log String To Console With File     [ERROR] ${new_err}
             END
             #összehasonlítás a globálisan elmentett azonosítóval
             ${global_azonosito}=    Get Variable Value    ${EGYEDI_AZONOSITO}    ${EMPTY}
             IF    "${second_paragraph}" != "${global_azonosito}"
                 ${new_err}=    Set Variable    Az egyedi megrendelés azonosító nem egyezik a Téma kéziratában megadottal!
                 Append To List    ${errors}    ${new_err}
-                Log String To Console     [ERROR] ${new_err}
+                Log String To Console With File     [ERROR] ${new_err}
     
-                Log String To Console     [TEMA] ${second_paragraph}
-                Log String To Console     [FOGALOMTAR] ${global_azonosito}
+                Log String To Console With File     [TEMA] ${second_paragraph}
+                Log String To Console With File     [FOGALOMTAR] ${global_azonosito}
             END
         END
         
         #------------------------------- harmadik sor cím ellenőrzése --------------------
         ${third_paragraph}    ${act_line}=    Get Next Non Empty Paragraph    ${paragraphs}    ${act_line}
-        Log String To Console    Harmadik sor: ${third_paragraph}
-        Log String To Console    Harmadik sor(Orig): ${DOKUMENTUM_CIMSOR}
+        Log String To Console With File    Harmadik sor: ${third_paragraph}
+        Log String To Console With File    Harmadik sor(Orig): ${DOKUMENTUM_CIMSOR}
         IF    $third_paragraph == ''
             ${new_err}=    Set Variable    A harmadik sor kötelezően nem lehet üres!
             Append To List    ${errors}    ${new_err}
-            Log String To Console     [ERROR] ${new_err}
+            Log String To Console With File     [ERROR] ${new_err}
         END
         #összehasonlítás a globálisan elmentett címmel
         ${global_cim}=    Get Variable Value    ${DOKUMENTUM_CIMSOR}    ${EMPTY}
@@ -98,18 +98,18 @@ Test Case 03 - Fogalomtar Ellenorzese
         IF    "${third_paragraph}" != "${global_cim}"    
             ${new_err}=    Set Variable    A cím nem egyezik a Téma kéziratában megadottal!
             Append To List    ${errors}    ${new_err}
-            Log String To Console     [ERROR] ${new_err}
-            Log String To Console     [TEMA] ${third_paragraph}
-            Log String To Console     [FOGALOMTAR] ${global_cim}
+            Log String To Console With File     [ERROR] ${new_err}
+            Log String To Console With File     [TEMA] ${third_paragraph}
+            Log String To Console With File     [FOGALOMTAR] ${global_cim}
         END
         #------------------------------- negyedik sor Témák kézirata ellenőrzése --------------------
         ${fourth_paragraph}    ${act_line}=    Get Next Non Empty Paragraph    ${paragraphs}    ${act_line}
-        Log String To Console    Negyedik sor: ${fourth_paragraph}
+        Log String To Console With File    Negyedik sor: ${fourth_paragraph}
         ${normalized_fourth}=    Strip String    ${fourth_paragraph}
         IF    $normalized_fourth != 'Fogalomtár kézirata'
             ${new_err}=    Set Variable    A negyedik sor kötelezően: "Fogalomtár kézirata" !
             Append To List    ${errors}    ${new_err}
-            Log String To Console     [ERROR] ${new_err}
+            Log String To Console With File     [ERROR] ${new_err}
         END
 
     ${unique_errors}=    Remove Duplicates    ${errors}

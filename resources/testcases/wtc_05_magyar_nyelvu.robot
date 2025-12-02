@@ -7,9 +7,9 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 DT nyelv ellenőrzése
     [Documentation]    DT nyelv ellenőrzése
-     Log String To Console    \n**************************************************************************
-    Log String To Console    * wtc_05- DT nyelv ellenőrzése
-    Log String To Console    **************************************************************************\n
+     Log String To Console With File    \n**************************************************************************
+    Log String To Console With File    * wtc_05- DT nyelv ellenőrzése
+    Log String To Console With File    **************************************************************************\n
     ${testCase_row}=    Set Variable    7
    ${err_msg}=    Set Variable    ${EMPTY}
    ${errors}=    Create List
@@ -33,7 +33,7 @@ DT nyelv ellenőrzése
    ${szoveg_nodes}=    Get WebElements    xpath=//*[contains(concat(' ', normalize-space(@class), ' '), ' tree-node ')]
    #Log String To Console    Oldal szöveg elemek lekérve.
     ${len_szoveg_nodes}=    Get Length    ${szoveg_nodes}
-    Log String To Console    Oldal szöveg elemek száma: ${len_szoveg_nodes}
+    Log String To Console With File    Oldal szöveg elemek száma: ${len_szoveg_nodes}
     FOR    ${index}    IN RANGE    ${len_szoveg_nodes}
         ${node}=    Get From List    ${szoveg_nodes}    ${index}
         ${node_text}=    Get Text    ${node}
@@ -46,7 +46,7 @@ DT nyelv ellenőrzése
         ${node_text}=    Replace String    ${node_text}    \nBlokk    ${EMPTY}   
         ${node_text}=    Replace String    ${node_text}    \nOldal    ${EMPTY}   
 
-        Log String To Console    ${index}=>Oldal: '${node_text}'
+        Log String To Console With File    ${index}=>Oldal: '${node_text}'
 
         ${found_feladat}=    Evaluate    bool(re.search('feladat', $node_text, re.IGNORECASE | re.MULTILINE))    re
         IF    ${found_feladat}    
@@ -96,12 +96,12 @@ DT nyelv ellenőrzése
                 
                 IF    '${lang}' == 'hu'
                     ${hungarian_count}=    Evaluate    ${hungarian_count} + 1
-                    Log String To Console     MAGYAR - "${node_text[:50]}..."
+                    Log String To Console With File     MAGYAR - "${node_text[:50]}..."
                 ELSE
                     ${other_lang_count}=    Evaluate    ${other_lang_count} + 1
                     # Biztonságos szöveg kiírása Unicode karakterek kezelésével
                     ${safe_text}=    Evaluate    repr(r'''${node_text}''')[:50] + "..." if len(r'''${node_text}''') > 50 else repr(r'''${node_text}''')
-                    Log String To Console     ${lang.upper()} - "${safe_text}"
+                    Log String To Console With File     ${lang.upper()} - "${safe_text}"
                     # Biztonságos hibaüzenet összeállítása
                     ${safe_err_text}=    Evaluate    repr(r'''${node_text}''')[:50] + "..." if len(r'''${node_text}''') > 80 else repr(r'''${node_text}''')
                     ${err_msg}=    Set Variable    ${err_msg}bekezdés idegen nyelven (${lang}): - ${safe_err_text}${CR}
@@ -110,7 +110,7 @@ DT nyelv ellenőrzése
             EXCEPT    AS    ${error}
                 # Biztonságos szöveg kiírása Unicode karakterek kezelésével
                 ${safe_text}=    Evaluate    repr(r'''${node_text}''')[:50] + "..." if len(r'''${node_text}''') > 50 else repr(r'''${node_text}''')
-                Log String To Console    Nyelv nem detektálható: ${safe_text}
+                Log String To Console With File    Nyelv nem detektálható: ${safe_text}
             END
         ELSE
             No Operation
@@ -118,22 +118,22 @@ DT nyelv ellenőrzése
         END
     END
     IF    ${other_lang_count} > 0
-        Log String To Console    \n[ERROR] Összesen ${other_lang_count} oldal nem magyar.
+        Log String To Console With File    \n[ERROR] Összesen ${other_lang_count} oldal nem magyar.
         ${found_percentage}=    Evaluate    ${hungarian_count} / (${hungarian_count} + ${other_lang_count}) * 100
         ${new_err}=    Set Variable    Magyar nyelv találati arány: ${found_percentage}%, Magyar: ${hungarian_count}, Nem magyar: ${other_lang_count}
         #Append To List    ${errors}    ${new_err}
         Insert Into List    ${errors}    0    ${new_err}
-        Log String To Console    \n[ERROR] ${new_err}
+        Log String To Console With File    \n[ERROR] ${new_err}
     ELSE
-        Log String To Console    \n[INFO] Minden oldal magyar. Összesen: ${hungarian_count}
+        Log String To Console With File    \n[INFO] Minden oldal magyar. Összesen: ${hungarian_count}
     END
     
     
     
     
-    Log String To Console    <<<<<< Kézirat és DT összhang ellenőrzés vége <<<<<<<<  ${is_disabled}
+    Log String To Console With File    <<<<<< Kézirat és DT összhang ellenőrzés vége <<<<<<<<  ${is_disabled}
     #Végeredmény visszaírása az Excel-be
-    Log String To Console   \n>>>>> Végeredmény visszaírása az Excel-be
+    Log String To Console With File   \n>>>>> Végeredmény visszaírása az Excel-be
     ${unique_errors}=    Remove Duplicates    ${errors}
     ${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique_errors}
  

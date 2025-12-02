@@ -17,8 +17,8 @@ Resource    keywords.robot
 #        RETURN
 #     END
 #     ${kisbetus}=    Convert To Lowercase    ${szoveg}
-#     Run Keyword If    '${kisbetus}' == '' or '${kisbetus}' == 'None'    Log String To Console    '[HIBA] Üres vagy None szöveg, Split String kihagyva!'
-#     ...    #ELSE    Log String To Console    '[DEBUG] Split String előtt: ${kisbetus}'
+#     Run Keyword If    '${kisbetus}' == '' or '${kisbetus}' == 'None'    Log String To Console With File    '[HIBA] Üres vagy None szöveg, Split String kihagyva!'
+#     ...    #ELSE    Log String To Console With File    '[DEBUG] Split String előtt: ${kisbetus}'
 #     ...    ELSE    @{sorok}=    Split String    ${kisbetus}    \n
 #     # Törlés először
 #     @{existing_hashcodes}=    Query    SELECT COUNT(*) FROM hashCodes WHERE file_name = '${file_name}'
@@ -30,12 +30,12 @@ Resource    keywords.robot
 #     IF    ${hashcodes_count} > 0
 #     ${file_path}=    Evaluate    os.path.dirname(r"${docx_file}")    modules=os
 #     Execute Sql String    DELETE FROM hashCodes WHERE file_name = '${file_name}' AND file_path = '${file_path}'
-#         Log String To Console    Törölve ${hashcodes_count} hashCodes rekord
+#         Log String To Console With File    Törölve ${hashcodes_count} hashCodes rekord
 #     END
 #     IF    ${repeats_count} > 0
 #     ${file_path}=    Evaluate    os.path.dirname(r"${docx_file}")    modules=os
 #     Execute Sql String    DELETE FROM repeat WHERE file_name = '${file_name}' AND file_path = '${file_path}'
-#         Log String To Console    Törölve ${repeats_count} repeat rekord
+#         Log String To Console With File    Törölve ${repeats_count} repeat rekord
 #     END
 #     ${hashValues}=    Create List
 #     ${aktualis_block_id}=    Set Variable    0

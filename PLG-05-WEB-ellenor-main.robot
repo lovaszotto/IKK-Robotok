@@ -27,7 +27,7 @@ Web-alkalmazás indítása és bejelentkezés
     #Open Browser    ${APP_URL}    edge    
     Maximize Browser Window
     # ${handle}=    Get Window Handles
-    # Log String To Console    Ablak azonosító: ${HANDLE}
+    # Log String To Console With File    Ablak azonosító: ${HANDLE}
     # Sleep    1s
     Wait Until Element Is Visible    id=email    5s
     Input Text    id=email    ${USERNAME}    

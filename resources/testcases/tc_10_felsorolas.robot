@@ -7,7 +7,7 @@ Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 10 - Felsorolas Ellenorzese
     [Documentation]    10 - Felsorolások ellenőrzése
-    Log String To Console     \n\>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>[10/24] Felsorolások ellenőrzése 
+    Log String To Console With File     \n\>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>[10/24] Felsorolások ellenőrzése 
       ${testCase_row}=    Set Variable    12
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}

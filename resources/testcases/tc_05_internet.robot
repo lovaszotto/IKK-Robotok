@@ -6,7 +6,7 @@ Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 05 - Internet Hivatkozasok Ellenorzese
     [Documentation]    05 - Internet hivatkozások ellenőrzése
-    Log String To Console     \n\[05/24] Internet hivatkozások ellenőrzése
+    Log String To Console With File     \n\[05/24] Internet hivatkozások ellenőrzése
 
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
@@ -56,7 +56,7 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
                     ELSE
                         ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                     END
-                    Log String To Console     [ERROR] ${new_err}
+                    Log String To Console With File     [ERROR] ${new_err}
                 END
                     
             ELSE
@@ -66,7 +66,7 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
                 ELSE
                     ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                 END
-                Log String To Console     [ERROR] ${new_err}
+                Log String To Console With File     [ERROR] ${new_err}
         END
 
          END
@@ -77,12 +77,12 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
         #Log String To Console   -----------------------  [forrasok] ${forrasok}
         #menjünk végig a kapott listán
         #FOR    ${forras}    IN    @{forrasok}
-        #     Log String To Console   -----------------------  [Forrás] ${forras}
+        #     Log String To Console With File   -----------------------  [Forrás] ${forras}
             #ha a sor tartalmaz http vagy www-t, akkor hiba
            # ${has_http}=    Evaluate    'http' in '''${forras}'''
            # ${has_www}=    Evaluate    'www.' in '''${forras}'''
            # IF    ${has_http} or ${has_www}
-           #     Log String To Console   -----------------------  [Forrás] ${forras}
+           #     Log String To Console With File   -----------------------  [Forrás] ${forras}
            # END
         #END
 

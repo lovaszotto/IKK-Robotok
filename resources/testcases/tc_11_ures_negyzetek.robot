@@ -10,7 +10,7 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 11 - Ures Negyzetek Ellenorzese
     [Documentation]    11 - Üres négyzetek ellenőrzése
-    Log String To Console     \n\[11/24] Üres négyzetek ellenőrzése
+    Log String To Console With File     \n\[11/24] Üres négyzetek ellenőrzése
    ${docx_json}=    Get Variable Value    ${DOCX_JSON}    ${EMPTY}
    ${testCase_row}=    Set Variable    13
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
@@ -32,7 +32,7 @@ Test Case 11 - Ures Negyzetek Ellenorzese
             ${first_match_pos}=    Evaluate    (${text_escaped}).find("""${first_match}""")
             ${text_preview}=    Evaluate    (${text_escaped})[${first_match_pos}:${first_match_pos}+50]
             ${err_msg}=    Set Variable    Tiltott/hibás karakter(ek) a dokumentumban (pl. üres négyzet, garbled). Első: "${first_match}" (${first_code}) (darab: ${matches_count}). Kontextus: "${text_preview}"
-            Log String To Console    ${err_msg}
+            Log String To Console With File    ${err_msg}
         END        
     END
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
