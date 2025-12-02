@@ -97,6 +97,7 @@ Test Case 12 - Magyar Nyelven Keszult Ellenorzese
         Mark Test Status    ${current_excel_file}    ${current_sheet_name}    ${testCase_row}    ${err_msg}
         #Ha a magyar 95% felett van akkor sikeres legyen a teszt
         IF    ${hungarian_percentage} >= 95
+             Fill Excel Cell    ${current_excel_file}    ${current_sheet_name}    ${testCase_row}    4     ${EMPTY}
             Mark Test Status    ${current_excel_file}    ${current_sheet_name}    ${testCase_row}    ${EMPTY}
         END
     END   
