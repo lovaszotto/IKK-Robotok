@@ -90,6 +90,23 @@ ${DOCX_DUMP_TO_FILE}    ${False}
 ${DOCX_DUMP_DIR}        ${EXECDIR}${/}results${/}docx_dump
 
 *** Keywords ***
+Write Tartalomjegyzék To CSV
+    [Arguments]    ${CURRENT_SHEET_NAME}    ${headLevel}   ${text}  
+    Log String To Console    [DEBUG] Write Tartalomjegyzék To CSV hívva:\n ${CURRENT_SHEET_NAME} | ${headLevel} | ${text} 
+
+     ${csv_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}/${CURRENT_SHEET_NAME}_Tartalomjegyzék.csv 
+     ${exists}=    Run Keyword And Return Status    File Should Exist    ${csv_file}    
+     ${header}=    Set Variable    Level;Cím
+     #ird ki a kapott adatokat a konzolra
+     Log String To Console    [TARTALOM] Tartalomjegyzék CSV fájl: ${csv_file} | Cím: ${text}
+
+    IF    not ${exists}
+         # BOM hozzáadása a fájl elejére
+         ${bom}=    Evaluate    '\ufeff'  
+        Create File    ${csv_file}    ${bom}${header}\n    encoding=UTF-8
+    END
+    Append To File    ${csv_file}    ${headLevel};${text}\n
+   
 Write Menu To CSV
     [Arguments]    ${CURRENT_SHEET_NAME}    ${highlighted_name}   ${level1_name}   ${level2_name}   ${level3_name}
     Log String To Console    [DEBUG] Write Menu To CSV hívva:\n ${CURRENT_SHEET_NAME} | ${highlighted_name} | ${level1_name} | ${level2_name} | ${level3_name}    
@@ -1305,7 +1322,7 @@ Create_K_ell_Excel
     Set Global Variable    ${DOCUMENT_EXCEL_FILE}    ${activeExcelFile}
 
     #Web ellenőrzés adatait tartalmazó Excel fájl és sheetek
-    ${web_excel_filename}=    Set Variable    ${child_path}_Digitális tananyag.v01.xlsx
+    ${web_excel_filename}=    Set Variable    ${child_path}_Digitális tananyag.v1.0.xlsx
     ${web_activeExcelFile}=    Evaluate    __import__('os').path.join(r'''${output_folder}''', r'''${web_excel_filename}''')    modules=os
     Set Global Variable    ${DIGITALIS_EXCEL_FILE}    ${web_activeExcelFile}
 

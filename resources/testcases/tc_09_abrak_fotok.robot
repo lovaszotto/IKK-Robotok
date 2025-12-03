@@ -56,7 +56,7 @@ Test Case 09 - Abrak Fotok Ellenorzese
         END    
      
         IF    "${style}" == "Caption"
-          Log String To Console    \n--------------------------- ${idx}: ${style}: ${text}
+          #Log String To Console    \n--------------------------- ${idx}: ${style}: ${text}
           
           ${abra_utan}=    Evaluate    ${idx} + 1
           ${is_abra}=    Set Variable    1
@@ -65,7 +65,7 @@ Test Case 09 - Abrak Fotok Ellenorzese
         END
 
         IF    "${style}" == "SK Képaláírás"
-          Log String To Console    \n--------------------------- ${idx}: ${style}: ${text}
+          #Log String To Console    \n--------------------------- ${idx}: ${style}: ${text}
           # Reset counter after a table of figures heading
           ${abra_utan}=    Evaluate    ${idx} + 1
           ${is_abra}=    Set Variable    1
@@ -73,7 +73,7 @@ Test Case 09 - Abrak Fotok Ellenorzese
         END
 
         IF    "${style}" == "SZK Ábrajegyzék"
-          Log String To Console    \n--------------------------- ${idx}: ${style}: ${text}
+          #Log String To Console    \n--------------------------- ${idx}: ${style}: ${text}
           #Log String To Console    --------------------------- SZK Ábrajegyzék:${idx}: ${style}
           # Reset counter after a table of figures heading
           ${abra_utan}=    Evaluate    ${idx} + 1
@@ -81,7 +81,7 @@ Test Case 09 - Abrak Fotok Ellenorzese
           ${abra_text}=    Set Variable    ${text}
         END
         IF    "${style}" == "a_ELMS_Ábraaláírás"
-          Log String To Console    \n--------------------------- ${idx}: ${style}: ${text}
+          #Log String To Console    \n--------------------------- ${idx}: ${style}: ${text}
           # Reset counter after a table of figures heading
           ${abra_utan}=    Evaluate    ${idx} + 1
          ${is_abra}=    Set Variable    1
@@ -91,7 +91,7 @@ Test Case 09 - Abrak Fotok Ellenorzese
 
         ${is_next_line}=    Evaluate    ${idx} == ${abra_utan}
         IF    ${is_next_line}
-           Log String To Console    Next line: ${idx}: [${style}] "${text}"
+           #Log String To Console    Next line: ${idx}: [${style}] "${text}"
            #${abra_utan}=    Evaluate    ${abra_utan} + 1
            IF   not "Forrás:" in $text
                 ${text}=    Get Substring    ${abra_text}    0    100
