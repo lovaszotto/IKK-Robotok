@@ -41,7 +41,13 @@ Témák közötti navigáció ellenőrzése
     IF    $RUN_MEDIA_CHECK == $False
         RETURN
     END
-
+    #ha létezik a 
+     ${csv_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}/${CURRENT_SHEET_NAME}_Menu.csv 
+     ${exists}=    Run Keyword And Return Status    File Should Exist    ${csv_file}    
+    IF    ${exists}            
+        Log String To Console    \n[SKIPP] Menü fájl már megvan: ${csv_file}
+        RETURN    
+    END
     ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Page Contains Element    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]   2s    
     Log String To Console    \nVárakozás eredménye: ${rc} ${msg}
      # ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
@@ -183,7 +189,7 @@ Témák közötti navigáció ellenőrzése
                             #Log String To Console    Kép letöltés előtt: ${outfile}
 
                             #Save Response Body To File    ${resp}    ${outfile}
-                            Log String To Console    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Kép letöltve: ${fname}.${ext}\n\n
+                            Log String To Console    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Kép letöltve: ${fname}
                            
                         EXCEPT    AS    ${e2}
                             Log String To Console    [ERROR] Hiba a kép letöltésekor: ${e2}

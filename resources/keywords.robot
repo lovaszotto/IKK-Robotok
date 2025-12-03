@@ -92,13 +92,13 @@ ${DOCX_DUMP_DIR}        ${EXECDIR}${/}results${/}docx_dump
 *** Keywords ***
 Write Tartalomjegyzék To CSV
     [Arguments]    ${CURRENT_SHEET_NAME}    ${headLevel}   ${text}  
-    Log String To Console    [DEBUG] Write Tartalomjegyzék To CSV hívva:\n ${CURRENT_SHEET_NAME} | ${headLevel} | ${text} 
+    #Log String To Console    [DEBUG] Write Tartalomjegyzék To CSV hívva:\n ${CURRENT_SHEET_NAME} | ${headLevel} | ${text} 
 
      ${csv_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}/${CURRENT_SHEET_NAME}_Tartalomjegyzék.csv 
      ${exists}=    Run Keyword And Return Status    File Should Exist    ${csv_file}    
      ${header}=    Set Variable    Level;Cím
      #ird ki a kapott adatokat a konzolra
-     Log String To Console    [TARTALOM] Tartalomjegyzék CSV fájl: ${csv_file} | Cím: ${text}
+     #Log String To Console    [TARTALOM] Tartalomjegyzék CSV fájl: ${csv_file} | Cím: ${text}
 
     IF    not ${exists}
          # BOM hozzáadása a fájl elejére
@@ -109,13 +109,13 @@ Write Tartalomjegyzék To CSV
    
 Write Menu To CSV
     [Arguments]    ${CURRENT_SHEET_NAME}    ${highlighted_name}   ${level1_name}   ${level2_name}   ${level3_name}
-    Log String To Console    [DEBUG] Write Menu To CSV hívva:\n ${CURRENT_SHEET_NAME} | ${highlighted_name} | ${level1_name} | ${level2_name} | ${level3_name}    
+    #Log String To Console    [DEBUG] Write Menu To CSV hívva:\n ${CURRENT_SHEET_NAME} | ${highlighted_name} | ${level1_name} | ${level2_name} | ${level3_name}    
 
      ${csv_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}/${CURRENT_SHEET_NAME}_Menu.csv 
      ${exists}=    Run Keyword And Return Status    File Should Exist    ${csv_file}    
      ${header}=    Set Variable    Menü név;1. szintű téma;2. szintű téma;3. szintű téma
      #ird ki a kapott adatokat a konzolra
-     Log String To Console    [MENU] Menü CSV fájl: ${csv_file} | Menü név: ${highlighted_name}
+     #Log String To Console    [MENU] Menü CSV fájl: ${csv_file} | Menü név: ${highlighted_name}
 
     IF    not ${exists}
          # BOM hozzáadása a fájl elejére
@@ -256,7 +256,7 @@ Mark WebTest Status
     
     IF    $err_msg != ''
         #Log String To Console    Mark Test Status ${test_row}-ba: ${err_msg}
-        Log String To Console    Mark WebTest Status Failed
+        #Log String To Console    Mark WebTest Status Failed
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    4    ${err_msg}
          
         IF     int(${test_row}) < 10

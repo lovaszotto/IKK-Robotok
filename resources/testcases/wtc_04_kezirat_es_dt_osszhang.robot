@@ -1,5 +1,7 @@
 *** Settings ***
 Library    SeleniumLibrary 
+Library    OperatingSystem
+Library    String
 Resource   ${CURDIR}/../keywords.robot
 Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 
@@ -17,42 +19,29 @@ Kézirat és DT összhang ellenőrzése
    ${next_button}=    Set Variable    ${EMPTY}
    ${is_disabled}=    Set Variable    None
 
-   # ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Page Contains Element    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]   10s    
-   # Log String To Console    \nVárakozás eredménye: ${rc} ${msg}
-   # IF    '${rc}' == 'PASS'
-   #     ${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
-   #     TRY 
-   #        WHILE    ${is_disabled} is ${NONE}
-   #         #Log String To Console    Következő oldal gomb engedélyezett, lépés a következő oldalra.
-   #         Click Button       xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
-   #         ${is_disabled}=    Get Element Attribute    ${next_button}    disabled
-   #         #Log String To Console    Következő oldal gomb le van tiltva vagy ismeretlen állapot: ${is_enabled}
+    # Beolvassuk a ${tartalomjegyzek_file}-t
+      ${tartalomjegyzek_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}/${CURRENT_SHEET_NAME}_Tartalomjegyzék.csv 
+   #beolvasás és ellenőrzés
+    Log String To Console    \n>>>>> Tartalomjegyzék fájl beolvasása: ${tartalomjegyzek_file}
+    ${exists}=    Run Keyword And Return Status    File Should Exist    ${tartalomjegyzek_file}
+    IF    not ${exists}            
+        Log String To Console    \n[ERROR] Tartalomjegyzék fájl nem található: ${tartalomjegyzek_file}
+        ${err_msg}=    Set Variable    Tartalomjegyzék fájl nem található: ${tartalomjegyzek_file}
+        Mark WebTest Status    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}    ${testCase_row}    ${err_msg}
+        RETURN    
+    END
+    ${tartalom_lines}=    OperatingSystem.Get File    ${tartalomjegyzek_file}    encoding=UTF-8
+    # számítsd ki ${tartalom_lines} sorok száma kiirása
+    ${tartalom_lines_count}=    Get Length    ${tartalom_lines}
 
-    #        IF   $is_disabled == True or $is_disabled == 'true' or $is_disabled == 'True'
-    #            #Log String To Console    Következő oldal gomb le van tiltva vagy ismeretlen állapot: ${is_disabled}
-    #            Exit For Loop
-    #        END
-    #       END
-    #       #Sikeres navigáció az összes oldalra
-    #    EXCEPT    AS    ${e}
-    #        #Sikertelen navigáció az összes oldalra
-    #        Log String To Console    [ERROR] Hiba a következő oldal gomb állapot lekérdezésekor: ${e}
-    #END
-    #Minden menupont nyitva
 
-     #docx_file beolvasása all_text string-be uppercase-elve
-     #TODO a végén eldobni!!!
-     ${all_text}    Set Variable    ${EMPTY}
-     ${pars}=    Evaluate    [{'idx': i+1, 'text': p.text, 'style': (p.style.name if p.style else 'N/A')} for i,p in enumerate(__import__('docx').Document(r'''${docx_file}''').paragraphs)]
-     FOR    ${par}    IN    @{pars}
-        ${text}=    Get From Dictionary    ${par}    text
-        ${text}=    Convert To Lower Case   ${text}
-        ${all_text}=    Set Variable    ${all_text}\n ${text};
-    END    
-    
+    Log String To Console    Tartalomjegyzék fájl sorok száma: ${ tartalom_lines_count}  
+    ${all_text}=    Convert To Lower Case   ${tartalom_lines}  
+    #első sor a fejléc, azt kihagyjuk
+   
      #Oldal szövegek ellenőrzése
      ${found_count}=    Set Variable    0
-    ${not_found_count}=    Set Variable    0
+     ${not_found_count}=    Set Variable    0
 
     #Wait Until Page Contains Element  xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]  10s
    # ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
@@ -79,52 +68,6 @@ Kézirat és DT összhang ellenőrzése
 
         Log String To Console    ${index} Oldal: ${node_text}
 
-        ${found_feladat}=    Evaluate    bool(re.search('feladat', $node_text, re.IGNORECASE | re.MULTILINE))    re
-        IF    ${found_feladat}    
-            #Log String To Console    [SKIPP]  '${node_text}'  
-             Continue For Loop
-        END
-
-        ${found_borito}=    Evaluate    bool(re.search('borító', $node_text, re.IGNORECASE | re.MULTILINE))    re
-        IF    ${found_borito}    
-            #Log String To Console    [SKIPP] '${node_text}'
-             Continue For Loop
-        END
-
-        ${found_nyitooldal}=    Evaluate    bool(re.search('nyitóoldal', $node_text, re.IGNORECASE | re.MULTILINE))    re
-        IF    ${found_nyitooldal}    
-            #Log String To Console    [SKIPP] '${node_text}'
-             Continue For Loop
-        END
-
-        ${found_osszefoglalo}=    Evaluate    bool(re.search('összefoglal', $node_text, re.IGNORECASE | re.MULTILINE))    re
-        IF    ${found_osszefoglalo}    
-            #Log String To Console    [SKIPP] '${node_text}'
-             Continue For Loop
-        END
-
-        ${found_kerdesbank}=    Evaluate    bool(re.search('kérdésbank', $node_text, re.IGNORECASE | re.MULTILINE))    re
-        IF    ${found_kerdesbank}    
-            #Log String To Console    [SKIPP] '${node_text}'
-             Continue For Loop
-        END
-
-        ${found_nyitooldal}=    Evaluate    bool(re.search('nyitóoldal', $node_text, re.IGNORECASE | re.MULTILINE))    re
-        IF    ${found_nyitooldal}    
-            #Log String To Console    [SKIPP] '${node_text}'
-             Continue For Loop
-        END
-
-        ${found_impresszum}=    Evaluate    bool(re.search('impresszum', $node_text, re.IGNORECASE | re.MULTILINE))    re
-        IF    ${found_impresszum}    
-            #Log String To Console    [SKIPP] '${node_text}'
-             Continue For Loop
-        END
-        ${found_tananyagzaro}=    Evaluate    bool(re.search('tananyagzáró', $node_text, re.IGNORECASE | re.MULTILINE))    re
-        IF    ${found_tananyagzaro}    
-            #Log String To Console    [SKIPP] '${node_text}'
-             Continue For Loop
-        END
 
         #${found}=    Evaluate    '''${node_text}''' in '''${all_text}'''
         ${found}=    Evaluate    bool(re.search($node_text, $all_text, re.IGNORECASE | re.MULTILINE))    re
@@ -142,19 +85,16 @@ Kézirat és DT összhang ellenőrzése
         END
     END
     IF    ${not_found_count} > 0
-        Log String To Console    \n[ERROR] Összesen ${not_found_count} oldal nem található a dokumentumban.
+        Log String To Console    \n[ERROR] Összesen ${not_found_count} oldal nem található a Digitális anyagban.
         ${found_percentage}=    Evaluate    ${found_count} / (${found_count} + ${not_found_count}) * 100
         ${new_err}=    Set Variable    DT-Kézirat találati arány: ${found_percentage}%, Megtalált: ${found_count}, Nem megtalált: ${not_found_count}
         #Append To List    ${errors}    ${new_err}
         Insert Into List    ${errors}    0    ${new_err}
         Log String To Console    \n[ERROR] ${new_err}
     ELSE
-        Log String To Console    \n[INFO] Minden oldal megtalálva a dokumentumban. Összesen: ${found_count}
+        Log String To Console    \n[INFO] Minden oldal megtalálva a Digitális anyagban. Összesen: ${found_count}
     END
-    
-    
-    
-    
+
      #Végeredmény visszaírása az Excel-be
     Log String To Console   \n>>>>> Végeredmény visszaírása az Excel-be
     ${unique_errors}=    Remove Duplicates    ${errors}
