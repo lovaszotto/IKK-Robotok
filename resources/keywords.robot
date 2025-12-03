@@ -90,6 +90,23 @@ ${DOCX_DUMP_TO_FILE}    ${False}
 ${DOCX_DUMP_DIR}        ${EXECDIR}${/}results${/}docx_dump
 
 *** Keywords ***
+Write Menu To CSV
+    [Arguments]    ${CURRENT_SHEET_NAME}    ${highlighted_name}   ${level1_name}   ${level2_name}   ${level3_name}
+    Log String To Console    [DEBUG] Write Menu To CSV hívva:\n ${CURRENT_SHEET_NAME} | ${highlighted_name} | ${level1_name} | ${level2_name} | ${level3_name}    
+
+     ${csv_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}/${CURRENT_SHEET_NAME}_Menu.csv 
+     ${exists}=    Run Keyword And Return Status    File Should Exist    ${csv_file}    
+     ${header}=    Set Variable    Menü név;1. szintű téma;2. szintű téma;3. szintű téma
+     #ird ki a kapott adatokat a konzolra
+     Log String To Console    [MENU] Menü CSV fájl: ${csv_file} | Menü név: ${highlighted_name}
+
+    IF    not ${exists}
+         # BOM hozzáadása a fájl elejére
+         ${bom}=    Evaluate    '\ufeff'  
+        Create File    ${csv_file}    ${bom}${header}\n    encoding=UTF-8
+    END
+    Append To File    ${csv_file}    ${highlighted_name};${level1_name};${level2_name};${level3_name}\n
+   
 Write SumError fájl
     [Arguments]    ${parent}    ${child}    ${testcase}    ${error}    ${filename}
     #Log String To Console    [DEBUG] CONFIG_OUTPUT_FOLDER value: ${CONFIG_OUTPUT_FOLDER}

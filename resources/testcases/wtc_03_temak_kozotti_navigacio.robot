@@ -47,8 +47,8 @@ Témák közötti navigáció ellenőrzése
      # ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
     IF    '${rc}' == 'PASS'
         TRY 
-
-                
+           #ha van _Menu.csv akkor kihagyja a menün való lépkedést
+           #      
            WHILE    ${is_disabled} is ${NONE}
                 Log String To Console    Következő oldal gomb engedélyezett,menü lekérése...
                 TRY     
@@ -436,12 +436,9 @@ Get Highlighted And Parent Titles By Text
 
     ${level1_raw}=    Get Parent Title By Highlighted Text    1    ${level2_name}
     ${level1_name}=         Sanitize Title    ${level1_raw}
-
-
-    Log String To Console    \n--- EREDMÉNY ---\nHighlighted: ${highlighted_name}\nL1: ${level1_name}\nL2: ${level2_name}\nL3: ${level3_name} 
-
-
-    RETURN    ${highlighted_name}    ${level1_name}    ${level2_name}    ${level3_name}    
+    Log String To Console    \n--- EREDMÉNY ---\nSheet: ${CURRENT_SHEET_NAME} \nHighlighted: ${highlighted_name}\nL1: ${level1_name}\nL2: ${level2_name}\nL3: ${level3_name} 
+   Write Menu To CSV    ${CURRENT_SHEET_NAME}      ${highlighted_name}    ${level1_name}    ${level2_name}    ${level3_name} 
+   RETURN    ${highlighted_name}    ${level1_name}    ${level2_name}    ${level3_name}    
  
 
 Get File Name From Header
@@ -541,3 +538,5 @@ Get Media Type And Category From Mime
     ${category}=     Set Variable    ${entry.split(" | ")[1]}
 
     RETURN    ${type}    ${category}
+
+
