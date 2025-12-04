@@ -148,12 +148,12 @@ Témák közötti navigáció ellenőrzése
                             ${PATHQ}=    Replace String    ${src}    ${BASE}    ${EMPTY}
                             #Log String To Console    Kép PATHQ: ${PATHQ}
                  
-                            Log String To Console    Kép letöltés indul...
+                            #Log String To Console    Kép letöltés indul...
                             Create Session    blob    ${BASE}
                             ${resp}=    Get On Session    blob    ${src}
                             Sleep    0.5s
                             Delete All Sessions
-                             Log String To Console    Kép letöltés kész
+                             #Log String To Console    Kép letöltés kész
                         #Log String To Console    Kép letöltés válasza státusz: ${resp.status_code}
 
                          # kiterjesztések ellenőrzése

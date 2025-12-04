@@ -19,6 +19,19 @@ Kézirat és DT összhang ellenőrzése
    ${next_button}=    Set Variable    ${EMPTY}
    ${is_disabled}=    Set Variable    None
 
+    # beolvassuk a menu fájlt
+    ${menu_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}/${CURRENT_SHEET_NAME}_Menu.csv 
+   #beolvasás és ellenőrzés
+    Log String To Console    \n>>>>> Menü fájl beolvasása: ${menu_file}
+    ${existsMenu}=    Run Keyword And Return Status    File Should Exist    ${menu_file}
+    IF    not ${existsMenu}            
+        Log String To Console    \n[ERROR] Menu fájl nem található: ${menu_file}
+        ${err_msg}=    Set Variable    Menu fájl nem található: ${menu_file}
+        Mark WebTest Status    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}    ${testCase_row}    ${err_msg}
+        RETURN    
+    END    
+     ${menu_files_content}=    Get File    ${menu_file}    encoding=UTF-8
+   
     # Beolvassuk a ${tartalomjegyzek_file}-t
       ${tartalomjegyzek_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}/${CURRENT_SHEET_NAME}_Tartalomjegyzék.csv 
    #beolvasás és ellenőrzés
@@ -30,60 +43,50 @@ Kézirat és DT összhang ellenőrzése
         Mark WebTest Status    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}    ${testCase_row}    ${err_msg}
         RETURN    
     END
-    ${tartalom_lines}=    OperatingSystem.Get File    ${tartalomjegyzek_file}    encoding=UTF-8
-    # számítsd ki ${tartalom_lines} sorok száma kiirása
+   
+    ${tartalom_content}=    Get File    ${tartalomjegyzek_file}    encoding=UTF-8
+    ${tartalom_content}=    Convert To Lower Case   ${tartalom_content}  
+    ${tartalom_lines}=    Split To Lines    ${tartalom_content}
     ${tartalom_lines_count}=    Get Length    ${tartalom_lines}
-
-
     Log String To Console    Tartalomjegyzék fájl sorok száma: ${ tartalom_lines_count}  
-    ${all_text}=    Convert To Lower Case   ${tartalom_lines}  
+    
     #első sor a fejléc, azt kihagyjuk
    
-     #Oldal szövegek ellenőrzése
+     #Tartalomjegyzék szövegek ellenőrzése
      ${found_count}=    Set Variable    0
      ${not_found_count}=    Set Variable    0
 
-    #Wait Until Page Contains Element  xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]  10s
-   # ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
-
-    Wait Until Page Contains Element  xpath=//*[contains(concat(' ', normalize-space(@class), ' '), ' tree-node ')]     10s
-   ${szoveg_nodes}=    Get WebElements    xpath=//*[contains(concat(' ', normalize-space(@class), ' '), ' tree-node ')]
-    ${len_szoveg_nodes}=    Get Length    ${szoveg_nodes}
-    Log String To Console    Oldal szöveg elemek száma: ${len_szoveg_nodes}
-
-    FOR    ${index}    IN RANGE    ${len_szoveg_nodes}
-        ${node}=    Get From List    ${szoveg_nodes}    ${index}
-        ${node_text}=    Get Text    ${node}
-         ${node_text}=    Strip String    ${node_text}
-         #kisbetűsre alakítás
-        ${node_text}=    Convert To Lower Case   ${node_text}
-        ${node_text}=    Replace String    ${node_text}    \nblokk    ${EMPTY}   
-        ${node_text}=    Replace String    ${node_text}    \noldal    ${EMPTY}   
-
-         ${len_node_text}=    Get Length    ${node_text}
-        IF    ${len_node_text} < 1
-            #Log String To Console    \n[WARNING] Üres oldal szöveg elem kihagyva.
-            Continue For Loop
-        END
-
-        Log String To Console    ${index} Oldal: ${node_text}
-
-
-        #${found}=    Evaluate    '''${node_text}''' in '''${all_text}'''
-        ${found}=    Evaluate    bool(re.search($node_text, $all_text, re.IGNORECASE | re.MULTILINE))    re
+    Log String To Console    \n>>>>> Tartalomjegyzék szövegek ellenőrzése a Digitális anyagban
+    FOR    ${line_index}    IN RANGE    1    ${tartalom_lines_count}
+        ${line}=    Get From List    ${tartalom_lines}    ${line_index}
+        #Log String To Console    \n[DEBUG] Tartalomjegyzék sor: ${line}
+        ${parts}=    Split String    ${line}    ;
+        ${level}=    Get From List    ${parts}    0
+        ${szoveg}=    Get From List    ${parts}    1
+        #kisbetűsre alakítás
+        ${szoveg}=    Convert To Lower Case   ${szoveg}
+        #Log String To Console    [DEBUG] Szöveg ellenőrzése: ${szoveg}
+       
+        #keressük meg a szöveget a digitális anyagban
+        ${all_text}=    Set Variable    ${menu_files_content}
+        #Log String To Console    [DEBUG] Keresendő szöveg: '''${szoveg}'''
+        #${found}=    Evaluate    '''${szoveg}''' in '''${all_text}'''
+        ${found}=    Evaluate    bool(re.search($szoveg, $all_text, re.IGNORECASE | re.MULTILINE))    re
 
         IF    ${found}
               ${found_count}=   Evaluate    ${found_count}+1
-            Log String To Console    \t[___OK] ${node_text}
-            ${new_err}=    Set Variable    ___OK: ${node_text}
+            Log String To Console    \t[___OK] ${szoveg}
+            ${new_err}=    Set Variable    ___OK: ${szoveg}
             Append To List    ${errors}    ${new_err}
         ELSE
             ${not_found_count}=   Evaluate    ${not_found_count}+1
-            Log String To Console    \t[NINCS] ${node_text}
-            ${new_err}=    Set Variable    NINCS: ${node_text}
+            Log String To Console    \t[NINCS] ${szoveg}
+            ${new_err}=    Set Variable    NINCS: ${szoveg}
             Append To List    ${errors}    ${new_err}
         END
     END
+   
+    
     IF    ${not_found_count} > 0
         Log String To Console    \n[ERROR] Összesen ${not_found_count} oldal nem található a Digitális anyagban.
         ${found_percentage}=    Evaluate    ${found_count} / (${found_count} + ${not_found_count}) * 100

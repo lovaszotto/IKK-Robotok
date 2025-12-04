@@ -57,6 +57,7 @@ Test Case 23 - Generalt Tartalomjegyzek Ellenorzese
     END
     
     #toc ellenőrzése
+     ${file_path}=   Get Variable Value    ${DOCX_FILE}    ${EMPTY}
      ${entries}=    Extract TOC Entries From Docx File    ${file_path}
     ${toc_count}=    Get Length    ${entries}
    Log String To Console    [TOC]Talált TOC sorok száma: ${toc_count}
@@ -69,5 +70,5 @@ Test Case 23 - Generalt Tartalomjegyzek Ellenorzese
     # Teszt státusz és Excel jelölés végrehajtása a megadott soron
     Mark Test Status    ${excel_file}    ${sheet_name}    ${question_row}    ${err_msg}
 
-    Delete Variables    ${pars}    ${par}    ${text}
+    Delete Variables    ${pars}    ${par}    ${text}    ${entries}
     # Nincs explicit RETURN: a kulcsszó csak státuszt jelöl
