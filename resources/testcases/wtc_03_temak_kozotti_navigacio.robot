@@ -150,8 +150,10 @@ Témák közötti navigáció ellenőrzése
                  
                             #Log String To Console    Kép letöltés indul...
                             Create Session    blob    ${BASE}
-                            ${resp}=    Get On Session    blob    ${src}
-                            Sleep    0.5s
+                            #${resp}=    Get On Session    blob    ${src}
+                             #Csak a headert kérjük le először
+                            ${resp}=    Head On Session    blob    ${src}
+                            
                             Delete All Sessions
                              #Log String To Console    Kép letöltés kész
                         #Log String To Console    Kép letöltés válasza státusz: ${resp.status_code}
@@ -273,9 +275,11 @@ Témák közötti navigáció ellenőrzése
                             #Log String To Console    Kép PATHQ: ${PATHQ}
                      Log String To Console    Video Letöltés indul...
                             Create Session    blob    ${BASE}
-                            ${resp}=    Get On Session    blob    ${src}
-                   
-                            Sleep    0.5s
+                            #${resp}=    Get On Session    blob    ${src}
+                           #Csak a headert kérjük le először
+                            ${resp}=    Head On Session    blob    ${src}
+
+                            
                             Delete All Sessions
                     Log String To Console    Video Letöltés kész
                         #Log String To Console    Kép letöltés válasza státusz: ${resp.status_code}

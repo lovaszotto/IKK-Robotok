@@ -198,7 +198,9 @@ Batch inicializálás
       #
         ${recovery_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}${/}_Recovery.csv
         Log String To Console    Recovery file: ${recovery_file}
-        Append To File    ${recovery_file}    ${docx_file}\n    
+        #írd ki a pontos időt a recovery fájlba
+        ${current_time}=    Get Time    result_format=%Y-%m-%d %H:%M:%S
+        Append To File    ${recovery_file}    ${docx_file};${current_time}\n    
    END
 
 Batch lezárás
