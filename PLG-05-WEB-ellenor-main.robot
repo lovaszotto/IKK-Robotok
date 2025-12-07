@@ -35,6 +35,7 @@ Web-alkalmazás indítása és bejelentkezés
     Click Button    id=submitBtn
 
 
+
     # Ha megjelenik a kétfaktoros javaslat ablak, kattints a "Később" gombra
     Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Később')]    5s
     Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Később')]

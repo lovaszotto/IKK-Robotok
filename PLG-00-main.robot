@@ -187,6 +187,7 @@ Batch inicializálás
         #WEB-es ellenőrzés indítása
         IF    ${RUN_WEB_CHECK}==${True}
           Log String To Console    \n---------------------------------------WEB---------------------------------------------\n
+        
           PLG-05-WEB-ellenor-main.Web-alkalmazás indítása és bejelentkezés
         END
 

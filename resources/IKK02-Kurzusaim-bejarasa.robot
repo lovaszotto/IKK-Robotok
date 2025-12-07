@@ -42,7 +42,8 @@ Megjelenő kurzusok bejárása
     ${courses}=    Create List
     ${status}=    Set Variable    NONE
     #Run Keyword And Ignore Error  Wait Until Element Is Visible    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li    10s
-    ${status}     ${courses}=      Run Keyword And Ignore Error  Wait Until Element Is Visible    xpath=//ulms-course-list-item    5s
+    
+    ${status}     ${courses}=      Run Keyword And Ignore Error  Wait Until Element Is Visible    xpath=//ulms-course-list-item    15s
     Log String To Console    Van Talált kurzusok:  ${status}:${courses}
     IF    $status=='PASS'
         Log String To Console    Kurzusok megtalálva a megadott szűrőkkel.
