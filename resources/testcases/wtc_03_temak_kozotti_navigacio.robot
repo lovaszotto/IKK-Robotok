@@ -61,10 +61,15 @@ Témák közötti navigáció ellenőrzése
                     
                     #${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                     #felugró teszt megszakítása gomb kezelése
+                     Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Folytatás')]    1s
+                    Run Keyword And Ignore Error    Click Button    xpath=//button[contains(., 'Folytatás')]
+                    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Folytatás')]    1s
+                     Sleep    1s
                     Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
                     Run Keyword And Ignore Error    Click Button    xpath=//button[contains(., 'Teszt megszakítása')]
                     Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
             
+                 
                     #Wait Until Page Does Not Contain Element    css=.cdk-overlay-backdrop    5s
                     #Wait Until Element Is Visible   xpath=//button[contains(@aria-label,'Következő oldalra lépés')]    1s
                     ${next_button}=    Set Variable    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
@@ -82,7 +87,7 @@ Témák közötti navigáció ellenőrzése
 
                     Wait Until Element Is Visible    xpath=//app-container-field/app-formatted-text-field[1]   1s
                     Log String To Console    Oldalcím elemek láthatóak, váraskozás OK
-              
+                  #CONTINUE
                   #Képek ellenőrzése
                     #Wait For Elements State    //app-image-field//img    visible=True    timeout=10s
                     ${images}=    Get WebElements    //app-image-field[contains(@style, 'display: flex')]//img 
@@ -337,9 +342,9 @@ Témák közötti navigáció ellenőrzése
                     Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
 
                     #felugró teszt újrakezdés gomb kezelése
-                    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Újrakezdés')]    0.01s
+                    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Újrakezdés')]    0.1s
                     Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Újrakezdés')]
-                    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Újrakezdés')]    0.01s
+                    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Újrakezdés')]    0.1s
                      Sleep    1s
                      #retry
                     Click Button       xpath=//button[contains(@aria-label,'Következő oldalra lépés')]

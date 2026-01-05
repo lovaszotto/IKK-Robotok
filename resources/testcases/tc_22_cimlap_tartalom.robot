@@ -41,6 +41,8 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
         # Kötelező mező kulcsok és hiba szövegek
         @{required}=    Create List    Kéziratíró    Szakmai lektor    Ágazat    Szakma    Tanulási terület    Tantárgy    Évfolyam    Óraszám
         FOR    ${field}    IN    @{required}
+        #dobjuk ki a CR LF karaktereket a mezőnevekből
+            ${field}=    Replace String    ${field}    ${CR}    ${EMPTY}
             ${present}=    Run Keyword And Return Status    Dictionary Should Contain Key    ${cover}    ${field}
             IF    not ${present}
                 Append To List    ${err_list}    A ${field} mező nem létezik a címlapon!

@@ -32,14 +32,14 @@ Egy lecke ellenőrzése
             Select Frame    id=ScormContent
 
             # Ha megjelenik a folytatás javaslat ablak, kattints a "Folytatás" gombra
-            Run Keyword And Ignore Error    Wait Until Element Is Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    2s
+            Run Keyword And Ignore Error    Wait Until Element Is Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    1s
             Run Keyword And Ignore Error    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']
             
           
             Log String To Console    Most vagyunk egy leckében
             # Egy lecke ellenőrzése itt történik
             #tartalomjegyzék gomb megnyomása
-            Wait Until Page Contains Element    xpath=//button[@aria-label='Tartalomjegyzék']    30s
+            Wait Until Page Contains Element    xpath=//button[@aria-label='Tartalomjegyzék']    10s
             ${toc_buttons}=    Get WebElement    xpath=//button[@aria-label='Tartalomjegyzék']
             Run Keyword And Ignore Error    Wait Until Page Does Not Contain Element    css=.cdk-overlay-backdrop    1s
             Click Button    ${toc_buttons}

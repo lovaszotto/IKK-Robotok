@@ -37,17 +37,16 @@ Web-alkalmazás indítása és bejelentkezés
 
 
     # Ha megjelenik a kétfaktoros javaslat ablak, kattints a "Később" gombra
-    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Később')]    5s
+    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Később')]    1s
     Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Később')]
-    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Később')]    5s
+    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Később')]    1s
  
 
 
     # Várd meg, amíg megjelenik a "KURZUSAIM" felirat, majd kattints rá
-    Wait Until Element Is Visible    id=header-coursesButton    5s
-
+    Wait Until Element Is Visible    id=header-coursesButton    2s
     Click Element    id=header-coursesButton
-    Wait Until Element Is Visible    xpath=//*[contains(text(), 'Aktuális kurzusaim')]    5s
+    Wait Until Element Is Visible    xpath=//*[contains(text(), 'Aktuális kurzusaim')]    1s
     Log String To Console    \n\[1/24] Aktuális kurzusaim oldal megjelenítve
     
     #Téma keresés szűrő beállítása

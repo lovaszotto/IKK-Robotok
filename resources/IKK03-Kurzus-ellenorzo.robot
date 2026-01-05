@@ -42,7 +42,7 @@ Egy kurzus ellenőrzése
 Lecke Keresés beállítása
     [Documentation]    Lecke Keresés beállítása
     Log String To Console     \n\[1a/24] Lecke Keresés beállítása
-    Wait Until Element Is Visible      xpath=//input[@placeholder="Keresés"]     10s
+    Wait Until Element Is Visible      xpath=//input[@placeholder="Keresés"]     1s
     ${kurzus}=    Get Variable Value    ${KURZUS}    default_value=NONE
     #cserélje le a benne lévő * karaktert üres karakterre
     ${kurzus}=    Replace String    ${kurzus}    *    ${EMPTY}
@@ -52,7 +52,7 @@ Lecke Keresés beállítása
     Log String To Console    Beállított lecke szűrő: +++++${kurzus}+++++++
     Input Text    xpath=//input[@placeholder="Keresés"]    ${kurzus}
     Press Keys    xpath=//input[@placeholder="Keresés"]        ENTER
-    Sleep    2s
+    #Sleep    2s
     Log String To Console    Lecke Keresés beállítása - Kész\n
 
 Lecke lista beolvasása
@@ -60,17 +60,17 @@ Lecke lista beolvasása
     Log String To Console     \nLecke lista beolvasása
    
     # Csak akkor várjuk meg a kurzus címkéket, ha már megjelent az 'Tartalom' szöveg
-    Wait Until Element Is Visible    xpath=//*[contains(text(), 'Tartalom')]    30s
+    Wait Until Element Is Visible    xpath=//*[contains(text(), 'Tartalom')]    5s
    
     Lecke Keresés beállítása
 
    #olytatás gombok és lecke címek lekérése
-    Wait Until Element Is Visible    xpath=(//*[contains(@class,'course-object-list')])   20s
+    Wait Until Element Is Visible    xpath=(//*[contains(@class,'course-object-list')])   5s
  
       # Ellenőrizzük, hogy van-e Legutóbb megnyitott blokk
     ${kurzus}=    Get Variable Value    ${KURZUS}    default_value=NONE
     ${offset}=    Set Variable    0
-    ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible   xpath=//h2[contains(text(), 'Legutóbb megnyitott')]    5s
+    ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Element Is Visible   xpath=//h2[contains(text(), 'Legutóbb megnyitott')]    1s
     Log String To Console    Legutóbb megnyitott blokk ellenőrzése: ${rc} : ${msg}
     IF   '${rc}' == 'PASS'
         Log String To Console    Legutóbb megnyitott blokk megtalálva, kihagyva a leckék bejárásából.
@@ -133,14 +133,14 @@ Lecke lista beolvasása
 
 
       #felugró teszt újrakezdés gomb kezelése
-      Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Újrakezdés')]    2s
-      Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Újrakezdés')]
-      Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Újrakezdés')]    2s
+      #Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Újrakezdés')]    1s
+      #Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Újrakezdés')]
+      #Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Újrakezdés')]    1s
       
        #felugró teszt megszakítása gomb kezelése
-      Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    2s
-      Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
-      Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    2s
+      #Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
+      #Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
+      #Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
     
       # Egy lecke ellenőrzése itt történik
         Egy lecke ellenőrzése 

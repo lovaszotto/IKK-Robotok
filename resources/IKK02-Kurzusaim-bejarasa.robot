@@ -19,7 +19,7 @@ Library    SeleniumLibrary
 Téma keresés szűrő beállítása
     [Documentation]    Téma keresés szűrő beállítása
     Log String To Console     \n\[1a/24] Téma keresés szűrő beállítása
-    Wait Until Element Is Visible    id=mat-input-0    30s
+    Wait Until Element Is Visible    id=mat-input-0    5s
     #a globális ${DTEM} változó értékének lekérése
 
     ${dtem}=    Get Variable Value    ${DTEM}    default_value=NONE
@@ -31,7 +31,7 @@ Téma keresés szűrő beállítása
     
     Input Text    id=mat-input-0    ${dtem}
     Press Keys    id=mat-input-0        ENTER
-    Sleep    2s
+    #Sleep    2s
     Log String To Console    \[1a/24] Téma keresés beállítása - Kész
 
 Megjelenő kurzusok bejárása
@@ -43,7 +43,7 @@ Megjelenő kurzusok bejárása
     ${status}=    Set Variable    NONE
     #Run Keyword And Ignore Error  Wait Until Element Is Visible    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li    10s
     
-    ${status}     ${courses}=      Run Keyword And Ignore Error  Wait Until Element Is Visible    xpath=//ulms-course-list-item    15s
+    ${status}     ${courses}=      Run Keyword And Ignore Error  Wait Until Element Is Visible    xpath=//ulms-course-list-item    2s
     Log String To Console    Van Talált kurzusok:  ${status}:${courses}
     IF    $status=='PASS'
         Log String To Console    Kurzusok megtalálva a megadott szűrőkkel.
@@ -62,15 +62,15 @@ Megjelenő kurzusok bejárása
     Log String To Console    Talált kurzusok száma: ${course_count}
   
       # Ha megjelenik a kétfaktoros javaslat ablak, kattints a "Később" gombra
-    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Később')]    2s
-    Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Később')]
-    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Később')]    2s
+    #Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Később')]    2s
+    #Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Később')]
+    #Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Később')]    2s
  
     #időnként duplán jelenik meg
        # Ha megjelenik a kétfaktoros javaslat ablak, kattints a "Később" gombra
-    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Később')]    2s
-    Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Később')]
-    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Később')]    2s
+    #Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Később')]    2s
+    #Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Később')]
+    #Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Később')]    2s
  
     ${course_idx}=    Set Variable    1
     
@@ -80,7 +80,7 @@ Megjelenő kurzusok bejárása
     FOR    ${idx}    IN RANGE    ${course_count}
         #Log String To Console    Kurzusra kattintás: ${course_idx}
         ${course}=    Get From List    ${courses}    ${idx}
-        Wait Until Element Is Visible    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li[${course_idx}]/ulms-course-list-item/mat-card//a    30s
+        Wait Until Element Is Visible    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li[${course_idx}]/ulms-course-list-item/mat-card//a    5s
         Sleep    1s
         ${mat_card_content}=    Get WebElement    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li[${course_idx}]/ulms-course-list-item/mat-card//a
         #most vagyunk az adott téma fő oldalán
