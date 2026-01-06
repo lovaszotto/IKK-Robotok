@@ -101,7 +101,7 @@ Témák közötti navigáció ellenőrzése
                     Set Variable    ${img_index}    0
                     FOR    ${img_index}    IN RANGE   ${image_count}    
                     #csak tesztre, kihagyja a képek lekérését
-                    CONTINUE
+                    #CONTINUE
                         TRY
                       
                             Log String To Console    \nKövetkező Kép: ${img_index}
@@ -218,7 +218,7 @@ Témák közötti navigáció ellenőrzése
                     Set Variable    ${video_index}    0
                     FOR    ${video_index}    IN RANGE   ${video_count}
                         TRY
-                        CONTINUE
+                        #CONTINUE
                         #otto was here - Videok ellenőrzése kihagyva
                             Log String To Console    \nKövetkező Videó: ${video_index}
 

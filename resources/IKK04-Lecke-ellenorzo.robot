@@ -38,22 +38,46 @@ Egy lecke ellenőrzése
           
             Log String To Console    Most vagyunk egy leckében
             # Egy lecke ellenőrzése itt történik
+             # Ha megjelenik a folytatás javaslat ablak, kattints a "Folytatás" gombra
+            Run Keyword And Ignore Error    Wait Until Element Is Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    1s
+            Run Keyword And Ignore Error    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']
+            Run Keyword And Ignore Error    Wait Until Element Is Not Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    1s
+         
+            #felugró teszt megszakítása gomb kezelése
+            Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt megszakítása') or @value='Teszt megszakítása' or @aria-label='Teszt megszakítása']    1s
+            Run Keyword And Ignore Error    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt megszakítása') or @value='Teszt megszakítása' or @aria-label='Teszt megszakítása']
+            Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt megszakítása') or @value='Teszt megszakítása' or @aria-label='Teszt megszakítása']    1s
+          
+           #felugró tesz folytatása gomb kezelése
+            Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt folytatása') or @value='Teszt folytatása' or @aria-label='Teszt folytatása']    1s
+            Run Keyword And Ignore Error    Click Element      xpath=//*[self::buttonxpath=//*[self::button or self::a or self::input][contains(., 'Teszt folytatása') or @value='Teszt folytatása' or @aria-label='Teszt folytatása']   
+            Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//*[self::buttonxpath=//*[self::button or self::a or self::input][contains(., 'Teszt folytatása') or @value='Teszt folytatása' or @aria-label='Teszt folytatása']    1s
+         
             #tartalomjegyzék gomb megnyomása
             Wait Until Page Contains Element    xpath=//button[@aria-label='Tartalomjegyzék']    10s
             ${toc_buttons}=    Get WebElement    xpath=//button[@aria-label='Tartalomjegyzék']
             Run Keyword And Ignore Error    Wait Until Page Does Not Contain Element    css=.cdk-overlay-backdrop    1s
             Click Button    ${toc_buttons}
 
+            # Overlay eltávolításának várakozása, ha szükséges
+            Run Keyword And Ignore Error    Wait Until Element Is Not Visible    css:.cdk-overlay-backdrop    5s
+            Click Button    ${toc_buttons}
+
             # Ha megjelenik a folytatás javaslat ablak, kattints a "Folytatás" gombra
             Run Keyword And Ignore Error    Wait Until Element Is Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    1s
             Run Keyword And Ignore Error    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']
-           Run Keyword And Ignore Error    Wait Until Element Is Not Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    1s
+            Run Keyword And Ignore Error    Wait Until Element Is Not Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    1s
          
             #felugró teszt megszakítása gomb kezelése
             Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt megszakítása') or @value='Teszt megszakítása' or @aria-label='Teszt megszakítása']    1s
             Run Keyword And Ignore Error    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt megszakítása') or @value='Teszt megszakítása' or @aria-label='Teszt megszakítása']
             Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt megszakítása') or @value='Teszt megszakítása' or @aria-label='Teszt megszakítása']    1s
-           
+          
+           #felugró tesz folytatása gomb kezelése
+            Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt folytatása') or @value='Teszt folytatása' or @aria-label='Teszt folytatása']    1s
+            Run Keyword And Ignore Error    Click Element      xpath=//*[self::buttonxpath=//*[self::button or self::a or self::input][contains(., 'Teszt folytatása') or @value='Teszt folytatása' or @aria-label='Teszt folytatása']   
+            Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//*[self::buttonxpath=//*[self::button or self::a or self::input][contains(., 'Teszt folytatása') or @value='Teszt folytatása' or @aria-label='Teszt folytatása']    1s
+            
             #
             # TestCase-ek futtatása a leckében
             #
@@ -152,5 +176,4 @@ Egy lecke ellenőrzése
                   #selenium-screenshot törlése selenium-screenshot*.png fájlok törlése
             ${SELENIUM_SCREENSHOT_FILE}=    Set Variable    selenium-screenshot*.png
             Run Keyword And Ignore Error    Remove File    ${SELENIUM_SCREENSHOT_FILE}
-            
-           
+

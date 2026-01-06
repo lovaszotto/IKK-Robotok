@@ -20,6 +20,8 @@ Tartalmaz fogalomtárat ellenőrzése
  
   IF    '${rc}' == 'PASS'
        Log String To Console    >> A dokumentum tartalmaz fogalomtárat.
+       # Overlay eltávolításának várakozása, ha szükséges
+       Run Keyword And Ignore Error    Wait Until Element Is Not Visible    css:.cdk-overlay-backdrop    5s
        Click Button       xpath=//button[contains(@aria-label,'Fogalomtár megnyitása')]
        Wait Until Page Contains Element    xpath=//glossary-panel   5s     
        #Fogalomtár panel megjelent
@@ -90,6 +92,6 @@ Tartalmaz fogalomtárat ellenőrzése
  
     #Log String To Console    \nEredmény visszaírása:${DIGITALIS_EXCEL_FILE}  :  ${CURRENT_SHEET_NAME}    ${testCase_row}    ${unique_errors}
     Mark Test Status    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}    ${testCase_row}    ${err_msg}
-   
- 
+
+
 

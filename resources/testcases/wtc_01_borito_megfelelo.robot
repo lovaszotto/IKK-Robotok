@@ -25,7 +25,7 @@ Boritó megfelelőség ellenőrzése
       Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
       Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
     
- #címsor kiválasztása a tartalomjegyzékből
+     #címsor kiválasztása a tartalomjegyzékből
     ${home_button}=    Get WebElement    xpath=//span[contains(@class,'node-title')]
     ${home_title}=    Get Text   ${home_button}
     #a ${home_title} -ben \nBlokk cseréje üres karakterre
