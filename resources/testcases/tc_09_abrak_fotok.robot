@@ -115,4 +115,4 @@ Test Case 09 - Abrak Fotok Ellenorzese
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
 
     #Változók törlése
-    Delete Variables    ${pars}    ${par}    ${text}
+    #Delete Variables    ${pars}    ${par}    ${text}

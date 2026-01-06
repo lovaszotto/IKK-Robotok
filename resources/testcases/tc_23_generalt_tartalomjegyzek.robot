@@ -70,5 +70,5 @@ Test Case 23 - Generalt Tartalomjegyzek Ellenorzese
     # Teszt státusz és Excel jelölés végrehajtása a megadott soron
     Mark Test Status    ${excel_file}    ${sheet_name}    ${question_row}    ${err_msg}
 
-    Delete Variables    ${pars}    ${par}    ${text}    ${entries}
+    #Delete Variables    ${pars}    ${par}    ${text}    ${entries}
     # Nincs explicit RETURN: a kulcsszó csak státuszt jelöl

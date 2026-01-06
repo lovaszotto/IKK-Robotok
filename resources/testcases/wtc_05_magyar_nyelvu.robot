@@ -141,6 +141,6 @@ DT nyelv ellenőrzése
     Mark WebTest Status    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}    ${testCase_row}    ${err_msg}
    
     #változók törlése
-    Delete Variables  ${all_text}    ${pars}    ${par}    ${text}
+    #Delete Variables  ${all_text}    ${pars}    ${par}    ${text}
     
 

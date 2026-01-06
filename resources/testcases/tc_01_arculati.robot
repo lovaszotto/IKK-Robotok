@@ -151,7 +151,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
 
     #delete variables
-    Delete Variables      ${paragraphs}    ${tables}    ${pars}    ${par}    ${text}  
+    #Delete Variables      ${paragraphs}    ${tables}    ${pars}    ${par}    ${text}  
 
     
 

@@ -102,4 +102,4 @@ Test Case 12 - Magyar Nyelven Keszult Ellenorzese
         END
     END   
     # Változók törlése
-    Delete Variables    ${pars}    ${par}    ${text}
+    #Delete Variables    ${pars}    ${par}    ${text}

@@ -45,4 +45,4 @@ Test Case 10 - Felsorolas Ellenorzese
         
     END    
     # Változók törlése
-    Delete Variables    ${pars}    ${par}    ${text}
+    #Delete Variables    ${pars}    ${par}    ${text}

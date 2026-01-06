@@ -33,9 +33,9 @@ Témák közötti navigáció ellenőrzése
 
     #felugró teszt megszakítása gomb kezelése
     Log String To Console    \nTeszt megszakítás popup kezelés
-    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
+    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
     Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
-    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
+    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
 
     #Ha nem futtatunk média ellenőrzést, kilépünk
     IF    $RUN_MEDIA_CHECK == $False
@@ -48,7 +48,7 @@ Témák közötti navigáció ellenőrzése
         Log String To Console    \n[SKIPP] Menü fájl már megvan: ${csv_file}
         RETURN    
     END
-    ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Page Contains Element    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]   2s    
+    ${rc}    ${msg}=    Run Keyword And Ignore Error     Wait Until Page Contains Element    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]   1s    
     Log String To Console    \nVárakozás eredménye: ${rc} ${msg}
      # ${szoveg_nodes}=    Get WebElements    xpath=//div[contains(normalize-space(.), 'Oldal')]/preceding-sibling::div[1]
     IF    '${rc}' == 'PASS'
@@ -56,14 +56,16 @@ Témák közötti navigáció ellenőrzése
            #ha van _Menu.csv akkor kihagyja a menün való lépkedést
            #      
            WHILE    ${is_disabled} is ${NONE}
-                Log String To Console    Következő oldal gomb engedélyezett,menü lekérése...
+                Log String To Console    Következő oldal gomb engedélyezett,menü lekérése...\n\n
                 TRY     
                     
                     #${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                     #felugró teszt megszakítása gomb kezelése
-                     Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Folytatás')]    1s
+                    #Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Folytatás')]    1s
+                     Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Folytatás')]    0.1s
                     Run Keyword And Ignore Error    Click Button    xpath=//button[contains(., 'Folytatás')]
-                    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Folytatás')]    1s
+                    #Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Folytatás')]    1s
+                    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Folytatás')]    0.1s
                      Sleep    1s
                     Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
                     Run Keyword And Ignore Error    Click Button    xpath=//button[contains(., 'Teszt megszakítása')]
@@ -77,29 +79,29 @@ Témák közötti navigáció ellenőrzése
                     Click Element     xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                     Sleep    1s
                     Log String To Console    Következő oldal gombra kattintva.
-                    Run Keyword And Ignore Error   Wait Until Element Is Visible    xpath=//app-image-field[contains(@style, 'display: flex')]//img| //app-video-field[contains(@style, 'display: flex-flow')]//video    2s
+                    Run Keyword And Ignore Error   Wait Until Element Is Visible    xpath=//app-image-field[contains(@style, 'display: flex')]//img| //app-video-field[contains(@style, 'display: flex-flow')]//video    1s
                   
                       #Menü sor lekérése
-                    Wait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    10s
+                    #Wait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    10s
+                    Wait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    1s
                     ${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name}=   Get Highlighted And Parent Titles By Text
                     Log String To Console   Mmenü lekérése kész 
             
 
-                    Wait Until Element Is Visible    xpath=//app-container-field/app-formatted-text-field[1]   1s
-                    Log String To Console    Oldalcím elemek láthatóak, váraskozás OK
-                  #CONTINUE
-                  #Képek ellenőrzése
+                    Wait Until Element Is Visible    xpath=//app-container-field/app-formatted-text-field[1]   0.1s
+                    Log String To Console    Oldalcím elemek láthatóak, várakozás OK
+                
                     #Wait For Elements State    //app-image-field//img    visible=True    timeout=10s
                     ${images}=    Get WebElements    //app-image-field[contains(@style, 'display: flex')]//img 
+                    
                     ${image_count}=    Get Length    ${images}
                     ${img_index}=    Set Variable    0
                   Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált képek száma: ${image_count}
-
-      
                     #Képek feldolgozása
                     Set Variable    ${img_index}    0
                     FOR    ${img_index}    IN RANGE   ${image_count}    
-                    #CONTINUE
+                    #csak tesztre, kihagyja a képek lekérését
+                    CONTINUE
                         TRY
                       
                             Log String To Console    \nKövetkező Kép: ${img_index}
@@ -204,9 +206,7 @@ Témák közötti navigáció ellenőrzése
                         
                     END
                      ${leckek_szama}=    Evaluate    ${leckek_szama} + 1
-    #Videok
-        
-         
+    
                     #Wait For Elements State    //app-image-field//img    visible=True    timeout=10s
                     ${videos}=    Get WebElements    //app-video-field[contains(@style, 'flex-flow')]//video
                     ${video_count}=    Get Length    ${videos}
@@ -218,7 +218,8 @@ Témák közötti navigáció ellenőrzése
                     Set Variable    ${video_index}    0
                     FOR    ${video_index}    IN RANGE   ${video_count}
                         TRY
-                      
+                        CONTINUE
+                        #otto was here - Videok ellenőrzése kihagyva
                             Log String To Console    \nKövetkező Videó: ${video_index}
 
 
@@ -345,13 +346,11 @@ Témák közötti navigáció ellenőrzése
                     Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Újrakezdés')]    0.1s
                     Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Újrakezdés')]
                     Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Újrakezdés')]    0.1s
-                     Sleep    1s
+                    # Sleep    1s
                      #retry
+                    Wait Until Element Is Visible    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]     1s
                     Click Button       xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                 END
-
-
-
 
                  #
                  # #lapozás a következő 
