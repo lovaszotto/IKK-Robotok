@@ -33,16 +33,16 @@ Web-alkalmazás indítása és bejelentkezés
     Input Text    id=email    ${USERNAME}    
     Input Text    id=PasswordTop    ${PASSWORD}
     Click Button    id=submitBtn
+     Log String To Console    >>> submitBtn clicked
+    
 
-
+    #Később popup kezelése, csak itt jelenik meg.
 
     # Ha megjelenik a kétfaktoros javaslat ablak, kattints a "Később" gombra
     Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Később')]    1s
     Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Később')]
     Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Később')]    1s
  
-
-
     # Várd meg, amíg megjelenik a "KURZUSAIM" felirat, majd kattints rá
     Wait Until Element Is Visible    id=header-coursesButton    2s
     Click Element    id=header-coursesButton

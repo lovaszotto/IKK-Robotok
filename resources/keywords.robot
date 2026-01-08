@@ -57,6 +57,7 @@ Library    Process
 Library    OperatingSystem
 Library    String
 Library    Collections
+Library    SeleniumLibrary
 Resource   variables.robot
 Resource   get_file_size.resource
 # MEGJEGYZÉS: Legacy resource hivatkozások eltávolítva, mivel ezeket a fájlokat archivláltuk
@@ -90,6 +91,62 @@ ${DOCX_DUMP_TO_FILE}    ${False}
 ${DOCX_DUMP_DIR}        ${EXECDIR}${/}results${/}docx_dump
 
 *** Keywords ***
+
+Popup Handler
+    [Documentation]    Kezeli a felugró ablakokat
+    Log String To Console    \nPopupHandler : Handler elindult
+
+    TRY
+        # Material dialog várakozás (helyes XPath)
+        #Log String To Console    PopupHandler : Wait until visible ScormContent Start.
+        #Wait Until Element Is Visible    id=ScormContent    10s
+        # Log String To Console    PopupHandler : Wait until visible Done.
+        #Select Frame    id=ScormContent
+        # Log String To Console    PopupHandler : ScormContent Selected .
+        Run Keyword And Ignore Error      Wait Until Element Is Visible   xpath=//*[self::button or self::a or self::input][@aria-label='Teszt folytatása' or @aria-label='Folytatás']   1s
+        ${exists}=    Run Keyword And Return Status     Page Should Contain Element    xpath=//button[@aria-label='Teszt folytatása' or @aria-label='Folytatás'] 20s
+         Log String To Console    PopupHandler : exists: ${exists}
+       
+       IF    ${exists}
+        Click Element    xpath=//*[self::button or self::a or self::input][@aria-label='Teszt folytatása' or @aria-label='Folytatás']
+        Log String To Console    PopupHandler : Van felugró ablak megjelenítve. Megnyomva.
+       ELSE
+           Log String To Console    PopupHandler : Nincs felugró ablak megjelenítve. Folytatás.
+       END 
+    EXCEPT    message
+        Log String To Console    PopupHandler-exception : Nincs felugró ablak megjelenítve. Folytatás.
+    END
+   
+    # Várakozás a ScormContent frame-re is (ha szükséges)
+    #Run Keyword And Ignore Error    Wait Until Element Is Visible    id=ScormContent    10s
+   
+   
+    #Wait Until Element Is Visible    id=ScormContent    10s
+    #Select Frame    id=ScormContent
+
+    # Ha megjelenik a folytatás javaslat ablak, kattints a "Folytatás" gombra
+    #${exists}=    Run Keyword And Return Status    Page Should Contain Element    xpath=//*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    5s
+    #IF    ${exists}
+    #    Log String To Console    Popup Handler: Van "Folytatás" gomb az oldalon.
+    #    Wait Until Element Is Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    1s
+    #    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']
+    #    Wait Until Element Is Not Visible    //*[self::button or self::a or self::input][contains(., 'Folytatás') or @value='Folytatás' or @aria-label='Folytatás']    1s
+    #END
+    #felugró teszt folytatása gomb kezelése
+    #${exists}=    Run Keyword And Return Status    Page Should Contain Element    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt folytatása') or @value='Teszt folytatása' or @aria-label='Teszt folytatása']    5s
+    #IF    ${exists}
+    #    Log String To Console    Popup Handler: Van "Teszt folytatása" gomb az oldalon.
+    #    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt folytatása') or @value='Teszt folytatása' or @aria-label='Teszt folytatása']    1s
+    #    Click Element    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt folytatása') or @value='Teszt folytatása' or @aria-label='Teszt folytatása']
+    #    Wait Until Element Is Not Visible    xpath=//*[self::button or self::a or self::input][contains(., 'Teszt folytatása') or @value='Teszt folytatása' or @aria-label='Teszt folytatása']    1s
+    #    Log String To Console    Popup Handler: Megnyomva a  "Teszt folytatása" gomb az oldalon.
+    #ELSE
+    #    Log String To Console    Popup Handler: Nincs "Teszt folytatása" gomb az oldalon.
+    #END
+    Log String To Console    Popup Handler befejeződött
+
+
+
 Write Tartalomjegyzék To CSV
     [Arguments]    ${CURRENT_SHEET_NAME}    ${headLevel}   ${text}  
     #Log String To Console    [DEBUG] Write Tartalomjegyzék To CSV hívva:\n ${CURRENT_SHEET_NAME} | ${headLevel} | ${text} 

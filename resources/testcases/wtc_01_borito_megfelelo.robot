@@ -20,18 +20,27 @@ Boritó megfelelőség ellenőrzése
    # Click Button    ${toc_buttons}[0]
     #Sleep    2s
     
-   #felugró teszt megszakítása gomb kezelése
-      Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
-      Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
-      Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
-    
+
      #címsor kiválasztása a tartalomjegyzékből
     ${home_button}=    Get WebElement    xpath=//span[contains(@class,'node-title')]
     ${home_title}=    Get Text   ${home_button}
     #a ${home_title} -ben \nBlokk cseréje üres karakterre
     ${home_title}=    Replace String    ${home_title}    \nBlokk    ${EMPTY}
-    Click Button    ${home_button}
     
+    Log String To Console    >>> node clicked
+    TRY
+        Click Button    ${home_button}    
+    EXCEPT
+        Log String To Console    >>> Click exception home_button gombnál
+     #popup bezárása
+        Wait Until Element Is Visible    xpath=//button[@aria-label='Teszt folytatása' or @aria-label='Teszt megszakítása' or @aria-label='Folytatás']  
+        Click Element    xpath=//button[@aria-label='Teszt folytatása' or @aria-label='Teszt megszakítása' or @aria-label='Folytatás'] 
+         Sleep    2s
+         #Újra próbálkozás
+         Wait Until Page Contains Element    xpath=//span[contains(@class,'node-title')]    10s
+        Click Button    ${home_button}
+    END
+    Log String To Console    >>> node clicked
  
 
     Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     Alapadatok     3    2    ${home_title}

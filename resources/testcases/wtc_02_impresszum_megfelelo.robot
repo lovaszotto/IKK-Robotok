@@ -1,6 +1,7 @@
 *** Settings ***
 Resource   ${CURDIR}/../keywords.robot
 Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
+Resource    ../keywords.robot
 
 *** Keywords ***
 Impresszum megfelelőség ellenőrzése
@@ -19,8 +20,20 @@ Impresszum megfelelőség ellenőrzése
     Wait Until Element Is Visible    xpath=//span[contains(text(),'Impresszum')]    5s
     ${impresszum_button}=    Get WebElement    xpath=//span[contains(text(),'Impresszum')]
     ${impresszum_title}=    Get Text   ${impresszum_button}    
-    Click Button    ${impresszum_button}    
-    
+    TRY
+        Click Button    ${impresszum_button}    
+    EXCEPT
+        Log String To Console    >>> Click exception impresszum gombnál
+     #popup bezárása
+        Wait Until Element Is Visible    xpath=//button[@aria-label='Teszt folytatása' or @aria-label='Teszt megszakítása' or @aria-label='Folytatás']  
+        Click Element    xpath=//button[@aria-label='Teszt folytatása' or @aria-label='Teszt megszakítása' or @aria-label='Folytatás'] 
+         Sleep    2s
+         #Újra próbálkozás
+         Wait Until Page Contains Element    xpath=//span[contains(text(),'Impresszum')]    10s
+        Click Button    ${impresszum_button}    
+        Log String To Console    >>> ${impresszum_button} clicked
+    END
+
     ##############################################################################################
     #IKK logo ellenőrzése
     ##############################################################################################

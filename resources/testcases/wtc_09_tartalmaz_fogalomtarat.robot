@@ -21,9 +21,13 @@ Tartalmaz fogalomtárat ellenőrzése
   IF    '${rc}' == 'PASS'
        Log String To Console    >> A dokumentum tartalmaz fogalomtárat.
        # Overlay eltávolításának várakozása, ha szükséges
-       Run Keyword And Ignore Error    Wait Until Element Is Not Visible    css:.cdk-overlay-backdrop    5s
+       #Popup Handler
+
+
        Click Button       xpath=//button[contains(@aria-label,'Fogalomtár megnyitása')]
+         Log String To Console    >>> Fogalomtár megnyitó gomb clicked
        Wait Until Page Contains Element    xpath=//glossary-panel   5s     
+
        #Fogalomtár panel megjelent
        #
        #találatok számának ellenőrzése

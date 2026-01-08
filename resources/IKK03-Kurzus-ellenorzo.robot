@@ -122,26 +122,15 @@ Lecke lista beolvasása
     ${lecke_cim}=    Get Text    ${lecke_elem}
   
       Log String To Console    Lecke: ${lecke_cim}
-    
       #belépés a leckébe
       Log String To Console    >>>>>> Lecke belépés <<<<<<<: ${lecke_cim}
       ${folytatas_button}=    Get From List    ${folytatas_buttons}    ${offset}
-      Click Button    ${folytatas_button}
-      #Sleep    2s
-      #megvárjuk
-      Wait Until Element Is Visible    id=ScormContent    30s
-
-
-      #felugró teszt újrakezdés gomb kezelése
-      #Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Újrakezdés')]    1s
-      #Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Újrakezdés')]
-      #Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Újrakezdés')]    1s
       
-       #felugró teszt megszakítása gomb kezelése
-      #Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
-      #Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
-      #Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
-    
+      Log String To Console    >>> Folytatás gomb clicked
+      Click Button    ${folytatas_button}
+      Log String To Console    >>> folytatas_button clicked
+
+
       # Egy lecke ellenőrzése itt történik
         Egy lecke ellenőrzése 
       
