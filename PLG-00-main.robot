@@ -177,7 +177,7 @@ Batch inicializálás
             END
             #tema_kezirat név hibás
             Log String To Console    [SKIP] Fájl kihagyva (név nem egyezik): ${file_name} 
-            Write SumError fájl    ${EMPTY}    ${EMPTY}    tc-0    Fájlnév nem tartalmazza az RRF221_tema_kezirat szöveget;${file_name}
+            Write SumError fájl    ${EMPTY}    ${EMPTY}    tc-0    Fájlnév nem tartalmazza az RRF221_tema_kezirat szöveget    ${file_name}
             CONTINUE
         END
 
