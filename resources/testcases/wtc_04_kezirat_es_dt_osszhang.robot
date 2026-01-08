@@ -107,10 +107,10 @@ Kézirat és DT összhang ellenőrzése
     Mark WebTest Status    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}    ${testCase_row}    ${err_msg}
    
     #változók törlése
-    Delete Variable    ${all_text}
-    Delete Variable    ${pars}
-    Delete Variable    ${par}
-    Delete Variable    ${text}
+    #Delete Variable    ${all_text}
+    #Delete Variable    ${pars}
+    #Delete Variable    ${par}
+    #Delete Variable    ${text}
 
     Log String To Console    <<<<<< Kézirat és DT összhang ellenőrzés vége <<<<<<<<  ${is_disabled}
   

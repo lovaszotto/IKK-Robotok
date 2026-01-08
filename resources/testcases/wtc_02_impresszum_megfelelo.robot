@@ -15,23 +15,23 @@ Impresszum megfelelőség ellenőrzése
    ${errors}=    Create List
     ${szerzo}=    Set Variable    ${EMPTY}
     ${szakmai_lektor}=    Set Variable    ${EMPTY}
-
-  #impresszum keresése és kiválasztása
-    Wait Until Element Is Visible    xpath=//span[contains(text(),'Impresszum')]    5s
-    ${impresszum_button}=    Get WebElement    xpath=//span[contains(text(),'Impresszum')]
-    ${impresszum_title}=    Get Text   ${impresszum_button}    
     TRY
+    #impresszum keresése és kiválasztása
+        Wait Until Element Is Visible    xpath=//span[contains(text(),'Impresszum')]    5s
+        ${impresszum_button}=    Get WebElement    xpath=//span[contains(text(),'Impresszum')]
+        ${impresszum_title}=    Get Text   ${impresszum_button}    
+         Log String To Console    >>> Click exception impresszum gomb
         Click Button    ${impresszum_button}    
     EXCEPT
         Log String To Console    >>> Click exception impresszum gombnál
-     #popup bezárása
+         #popup bezárása
         Wait Until Element Is Visible    xpath=//button[@aria-label='Teszt folytatása' or @aria-label='Teszt megszakítása' or @aria-label='Folytatás']  
         Click Element    xpath=//button[@aria-label='Teszt folytatása' or @aria-label='Teszt megszakítása' or @aria-label='Folytatás'] 
          Sleep    2s
          #Újra próbálkozás
          Wait Until Page Contains Element    xpath=//span[contains(text(),'Impresszum')]    10s
-        Click Button    ${impresszum_button}    
-        Log String To Console    >>> ${impresszum_button} clicked
+        Click Button    xpath=//span[contains(text(),'Impresszum')]     
+        Log String To Console    >>> impresszum_button clicked
     END
 
     ##############################################################################################

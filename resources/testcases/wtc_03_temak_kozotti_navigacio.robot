@@ -62,25 +62,24 @@ Témák közötti navigáció ellenőrzése
                     #${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                     #felugró teszt megszakítása gomb kezelése
                      Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Folytatás')]    1s
-                    Run Keyw#rd And Ignore Error    Click Button    xpath=//button[contains(., 'Folytatás')]
-                    Run Keyword And Ignore Error    Wa#it Until Element Is Not Visible    xpath=//button[contains(., 'Folytatás')]    1s
+                    Run Keyword And Ignore Error    Click Button    xpath=//button[contains(., 'Folytatás')]
+                    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Folytatás')]    1s
                      Sleep    1s
                     Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása#')]    0.1s
                     Run Keyword And Ignore Error    Click Button    xpath=//button[contains(., 'Teszt megszakítása')]
-       #             Run Keyword And Ignor#e Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
+                    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
             
                  
     #                #Wait Until Page Does Not Contain Element    css=.cdk-overlay-backdrop    5s
                     #Wait# Until Element Is Visible   xpath=//button[contains(@aria-label,'Következő oldalra lépés')]    1s
-                    ${next_button}=    Set Variable    xpath    #Popup Handler
-=//button[contains(@aria-label,'Következő oldalra lépés')]
+                    #${next_button}=    Set Variable    xpath   =//button[contains(@aria-label,'Következő oldalra lépés')]
                     #Click Element      ${next_button}
                     Click Element     xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                     Sleep    1s
                     Log String To Console    Következő oldal gombra kattintva.
-                    Run Keyword And Ignore Error   Wait Until Elem
+                    #Run Keyword And Ignore Error   Wait Until Elem
                     TRY
-                        Click Element      ${next_button}
+                        Click Element      xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                         Log String To Console    Következő oldal gombra kattintva.
                     EXCEPT
                         Log String To Console    >>> Click exception következő oldal gombnál
@@ -90,17 +89,17 @@ Témák közötti navigáció ellenőrzése
                         Wait Until Element Is Visible    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]     1s
                         Click Button       xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                         Log String To Console    >>> Következő oldalra lépés clicked in exception
-                    ENDent Is Visible    xpat#h=//app-image-field[contains(@style, 'display: flex')]//img| //app-video-field[contains(@style, 'displa#y: flex-flow')]//video    2s
+                    END
+                    #    ent Is Visible    xpat#h=//app-image-field[contains(@style, 'display: flex')]//img| //app-video-field[contains(@style, 'displa#y: flex-flow')]//video    2s
    #               
                       #Menü sor lekérése
-                    W#ait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    10s
+                    Wait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    10s
                     ${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name}=   Get Highlighted And Parent Titles By Text
                     Log String To Console   Mmenü lekérése kész 
             
-
                     Wait Until Element Is Visible    xpath=//app-container-field/app-formatted-text-field[1]   1s
                     Log String To Console    Oldalcím elemek láthatóak, váraskozás OK
-                  #CONTINUE
+                 
                   #Képek ellenőrzése
                     #Wait For Elements State    //app-image-field//img    visible=True    timeout=10s
                     ${images}=    Get WebElements    //app-image-field[contains(@style, 'display: flex')]//img 
@@ -362,20 +361,15 @@ Témák közötti navigáció ellenőrzése
                      #retry
                     Click Button       xpat#h=//button[contains(@aria-label,'Következő oldalra lépés')]
                 END
-
-
-
-
                  #
                  # #lapozá#s a következő 
                 #${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Követ#kező oldalra lépés')]
                 #${is_disabled}=    Get Element Attribute    ${next_button}    disabled
-                 Wait Until Element Is Visible    xpath=//button[conta
+                 Wait Until Element Is Visible     xpat#h=//button[contains(@aria-label,'Következő oldalra lépés')]
                      #Popup Handlerins(@aria-label,'Következő oldalra lépés')]     1s
                  Log String To Console   -----  Következő oldal gomb állapot lekérdezése előtt -----
-                ${is_disabled}=    Get Element Attribute    xpath=//button[contains(@aria-la    Log String To Console    >>> ${Következő oldalra lépés} clicked in exception
-               bel,'Következő oldalra lépés')]    disabled
-
+                ${is_disabled}=    Get Element Attribute     xpath=//button[contains(@aria-label,'Következő oldalra lépés')]     disabled
+              
                 #Log String To Console    Következő oldal gomb le van tiltva vagy ismeretlen állapot: ${is_enabled}
 
                 IF   $is_disabled == True or $is_disabled == 'true' or $is_disabled == 'True'
