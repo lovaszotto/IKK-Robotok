@@ -50,9 +50,9 @@ Megjelenő kurzusok bejárása
 
     ELSE
         Log String To Console    [ERROR]Nincs megjeleníthető kurzus a beállított szűrőkkel. =>${DIGITALIS_EXCEL_FILE}
-        ${error_file}=    Replace String    ${DIGITALIS_EXCEL_FILE}    .v01.xlsx    _Nincs kurzus a WEB-en.txt
+        ${error_file}=    Replace String    ${DIGITALIS_EXCEL_FILE}    .xlsx    _Nincs kurzus a WEB-en.txt
         Create File    ${error_file}    Nincs megjeleníthető kurzus a beállított szűrőkkel.
-        Write SumError fájl    ${DIGITALIS_EXCEL_FILE}    ${DIGITALIS_EXCEL_SHEET}    wtc-0    Nincs a kurzus a WEB-en
+        Write SumError fájl    ${DIGITALIS_EXCEL_FILE}    ${DIGITALIS_EXCEL_SHEET}    wtc-0    Nincs a kurzus a WEB-en a beállított szűrőkkel!     ''
         Close Browser
         RETURN
     END    
@@ -61,17 +61,7 @@ Megjelenő kurzusok bejárása
     ${course_count}=    Get Length    ${courses}
     Log String To Console    Talált kurzusok száma: ${course_count}
   
-      # Ha megjelenik a kétfaktoros javaslat ablak, kattints a "Később" gombra
-    #Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Később')]    2s
-    #Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Később')]
-    #Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Később')]    2s
- 
-    #időnként duplán jelenik meg
-       # Ha megjelenik a kétfaktoros javaslat ablak, kattints a "Később" gombra
-    #Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Később')]    2s
-    #Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Később')]
-    #Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Később')]    2s
- 
+
     ${course_idx}=    Set Variable    1
     
     ${kurzus}=    Get Variable Value    ${KURZUS}    default_value=NONE
@@ -80,12 +70,22 @@ Megjelenő kurzusok bejárása
     FOR    ${idx}    IN RANGE    ${course_count}
         #Log String To Console    Kurzusra kattintás: ${course_idx}
         ${course}=    Get From List    ${courses}    ${idx}
-        Wait Until Element Is Visible    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li[${course_idx}]/ulms-course-list-item/mat-card//a    5s
-        Sleep    1s
-        ${mat_card_content}=    Get WebElement    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li[${course_idx}]/ulms-course-list-item/mat-card//a
-        #most vagyunk az adott téma fő oldalán
-       
-        Click Element    ${mat_card_content}
+        TRY
+            Wait Until Element Is Visible    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li[${course_idx}]/ulms-course-list-item/mat-card//a    5s
+            Sleep    1s
+            ${mat_card_content}=    Get WebElement    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li[${course_idx}]/ulms-course-list-item/mat-card//a
+            #most vagyunk az adott téma fő oldalán
+            Click Element    ${mat_card_content}
+        EXCEPT
+            ${error_file}=    Replace String    ${DIGITALIS_EXCEL_FILE}    .xlsx    _Nincs lecke a WEB-en.txt
+            Create File    ${error_file}    Nincs megjeleníthető lecke a beállított szűrőkkel.
+            Log String To Console    >>> Click exception course gombnál - Nincs ilyen lecke! - ${error_file} 
+            Write SumError fájl    ${DIGITALIS_EXCEL_FILE}    ${DIGITALIS_EXCEL_SHEET}    wtc-0    Nincs ilyen lecke a WEB-en!    ''
+     
+          Close Browser
+          ${course_idx}=   Evaluate    ${course_idx} + 1
+          RETURN
+        END
         #Execute Javascript    arguments[0].click()    ${mat_card_content}
     
         # Kurzus oldal betöltése után h2 cím kiírása

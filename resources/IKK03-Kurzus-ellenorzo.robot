@@ -96,6 +96,8 @@ Lecke lista beolvasása
           IF    $kurzus in $lecke_cim
               ${offset}=    Set Variable    ${index}
               Log String To Console    \nMegvan a lecke a ${offset} helyen!
+              # ha megvan akkor kilépés
+              Exit For Loop
           END
       END
     END
@@ -110,6 +112,7 @@ Lecke lista beolvasása
         RETURN
     END
     #Folytatás gomok keresése
+     Log String To Console    Folytatás gomb keresése
     ${retry}=    Set Variable    True
     ${folytatas_buttons}=    Get WebElements    xpath=//button[contains(@class,'button-launch')]
       #${folytatas_buttons}=    Get WebElements    xpath=//button[contains(text(), 'Folytatás')]
