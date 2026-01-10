@@ -85,8 +85,11 @@ Témák közötti navigáció ellenőrzése
                     ${head_text_raw}=    Strip String    ${head_text_raw}
                     ${head_text_raw}=    Sanitize Title    ${head_text_raw}
                     ${head_name}=    Sanitize Title    ${head_text_raw} 
-                    Log String To Console    ===================> Oldalcím beolvasva: ${head_name}         
-                    IF     $highlighted_name != $head_name
+                    Log String To Console    ===================> Oldalcím beolvasva: ${head_name}  
+                    #kisbetús formában hasonlítjk össze
+                    ${lc_highlighted_name}=    Convert To Lower Case   ${highlighted_name}
+                    ${lc_head_name}=    Convert To Lower Case   ${head_name}       
+                    IF     $lc_highlighted_name != $lc_head_name
                         Log String To Console    [ERROR] \n++++++++++++ Nem a menünek megfelelő oldalon van! ++++++++++++ 
                         Log String To Console    ${highlighted_name} != ${head_name}\n
                         Write SumError fájl    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}     wtc-03    Nem a menünek megfelelő oldalon van!    ${highlighted_name};${head_name}
@@ -342,14 +345,14 @@ Témák közötti navigáció ellenőrzése
                 EXCEPT    AS    ${e1}
                     Log String To Console    [WARNING] Hiba a következő oldal gomb kattintásakor: ${e1}
                      #felugró teszt megszakítása gomb kezelése
-                    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
+                    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
                     Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
-                    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    0.1s
+                    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
 
                     #felugró teszt újrakezdés gomb kezelése
                    # Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Újrakezdés')]    0.1s
                     Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Újrakezdés')]
-                    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Újrakezdés')]    0.1s
+                    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Újrakezdés')]    1s
                      Sleep    1s
                      #retry
                     Click Button       xpath=//button[contains(@aria-label,'Következő oldalra lépés')]

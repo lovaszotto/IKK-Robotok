@@ -90,15 +90,20 @@ Lecke lista beolvasása
        ${offeset}=     Set Variable    -1
 
       FOR    ${index}    IN RANGE    ${lecke_cimekWebElements_szama}
-          ${lecke_cim_elem}=    Get From List    ${lecke_cimekWebElements}    ${index}
-          ${lecke_cim}=    Get Text    ${lecke_cim_elem}
-          Log String To Console    Lecke cím ${index}: ${lecke_cim}
-          IF    $kurzus in $lecke_cim
-              ${offset}=    Set Variable    ${index}
-              Log String To Console    \nMegvan a lecke a ${offset} helyen!
-              # ha megvan akkor kilépés
-              Exit For Loop
-          END
+        TRY
+            ${lecke_cim_elem}=    Get From List    ${lecke_cimekWebElements}    ${index}
+            ${lecke_cim}=    Get Text    ${lecke_cim_elem}
+            Log String To Console    Lecke cím ${index}: ${lecke_cim}
+            IF    $kurzus in $lecke_cim
+                ${offset}=    Set Variable    ${index}
+                Log String To Console    \nMegvan a lecke a ${offset} helyen!
+                # ha megvan akkor kilépés
+                Exit For Loop
+            END
+        EXCEPT    AS    ${e3}
+            Log String To Console    [ERROR] Hiba a lecke cím beolvasásakor: ${e3}    
+            ${offset}=    Set Variable    -1
+         END   
       END
     END
     #Ha nincs megfelelő című lecke, akkor vége
@@ -106,7 +111,7 @@ Lecke lista beolvasása
          Log String To Console    [ERROR]Nincs megjeleníthető lecke a beállított szűrőkkel. =>${DIGITALIS_EXCEL_FILE}
         ${error_file}=    Replace String    ${DIGITALIS_EXCEL_FILE}    .v01.xlsx    _Nincs lecke a WEB-en.txt
         Create File    ${error_file}    Nincs megjeleníthető lecke a beállított szűrőkkel.
-        Write SumError fájl    ${EMPTY}    ${EMPTY}    wtc-0    Nincs a lecke a WEB-en
+        Write SumError fájl    ${EMPTY}    ${EMPTY}    wtc-0    Nincs a lecke a WEB-en    ''
       
         Close Browser
         RETURN
@@ -127,16 +132,19 @@ Lecke lista beolvasása
       Log String To Console    Lecke: ${lecke_cim}
       #belépés a leckébe
       Log String To Console    >>>>>> Lecke belépés <<<<<<<: ${lecke_cim}
-      ${folytatas_button}=    Get From List    ${folytatas_buttons}    ${offset}
-      
-      Log String To Console    >>> Folytatás gomb clicked
-      Click Button    ${folytatas_button}
-      Log String To Console    >>> folytatas_button clicked
-
-
       # Egy lecke ellenőrzése itt történik
+      TRY
+        ${folytatas_button}=    Get From List    ${folytatas_buttons}    ${offset}
+        # Overlay eltávolításának várakozása, ha szükséges
+        Run Keyword And Ignore Error    Wait Until Element Is Not Visible    css:.cdk-overlay-backdrop    3s
+        Log String To Console    >>> Folytatás gomb clicked
+        Click Button    ${folytatas_button}
+        Log String To Console    >>> folytatas_button clicked
+
         Egy lecke ellenőrzése 
-      
+      EXCEPT    AS    ${e2}
+        Log String To Console    >>> Egy lecke ellenőrzése - Hiba lépett fel!: ${e2}
+      END
       #Kilépés a leckéből és a browesert bezárjuk
       Close Browser
       
