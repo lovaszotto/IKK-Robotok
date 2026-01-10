@@ -19,7 +19,13 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
     ${err_msg}=    Set Variable    ${EMPTY}
     ${CR}=    Set Variable    ;
    
-    #végignézzük a paragrafusokat, és keresünk benne hivatkozásokat  
+           #dolgozza fel az összes talált url-t (jelenleg csak az elsőt)
+    ${nincs_utolso_megnyitas_datum}=    Set Variable        ${EMPTY}
+    ${tul_regi_utolso_megnyitas_datum}=    Set Variable      ${EMPTY}
+    ${was_regi_datum_error}=    Set Variable    ${False}
+    ${was_nincs_datum_error}=    Set Variable   ${False}
+
+#végignézzük a paragrafusokat, és keresünk benne hivatkozásokat  
     ${paragraphs}=    Get From Dictionary    ${docx_json}    paragraphs
     ${paragraphs_count}=    Get Length    ${paragraphs}
     #Log String To Console     \n\[DEBUG] Paragraphs found: ${paragraphs_count}
@@ -57,10 +63,10 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
         IF    ${url_count} == 0
             Continue For Loop
         END
-        #dolgozza fel az összes talált url-t (jelenleg csak az elsőt)
+
          FOR    ${url}    IN    @{urls}
-       #ellenőrizze, hogy van e benne (.*\s*dddd.dd.dd.)   
-       #irja ki a talált url-t
+           #ellenőrizze, hogy van e benne (.*\s*dddd.dd.dd.)   
+           #irja ki a talált url-t
             #Log String To Console     \n\[DEBUG] Found URL: ${url}
 
             #${match}=    Evaluate    re.search(r'\\d{4}\\.\\d{1,2}\\.\\d{1,2}', '''${url}''')    modules=re
@@ -72,28 +78,32 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
                 # ellenőrizze, hogy a dátum nem régebbi mint  2024.06.17 év
                 ${is_recent}=     Evaluate    int('''${last_open_date}'''.replace('.','').replace(' ','')) >= 20240617
                 IF    not ${is_recent}
-                    ${new_err}=    Set Variable    Az utolsó megnyitás dátuma túl régi: ${url}
-                    IF    $err_msg == ''
-                        ${err_msg}=    Set Variable    ${new_err}
-                    ELSE
-                        ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
-                    END
-                    Log String To Console     [ERROR] ${new_err}
-                END
-                    
+                     ${was_regi_datum_error}=    Set Variable    ${True}
+                     ${tul_regi_utolso_megnyitas_datum}=    Catenate    SEPARATOR=${CR}    ${tul_regi_utolso_megnyitas_datum}    ${url}
+                  #Log String To Console    ${tul_regi_utolso_megnyitas_datum}
+                #    ${new_err}=    Set Variable    Az utolsó megnyitás dátuma túl régi: ${url}
+                #    IF    $err_msg == ''
+                #        ${err_msg}=    Set Variable    ${new_err}
+                #    ELSE
+                #        ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+                #    END
+                #    Log String To Console     [ERROR] ${new_err}
+                END      
             ELSE
-                ${new_err}=    Set Variable    Nincs utolsó megnyitás dátuma: ${url}
-                IF    $err_msg == ''
-                    ${err_msg}=    Set Variable    ${new_err}
-                ELSE
-                    ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
-                END
-                Log String To Console     [ERROR] ${new_err}
-                
+                ${was_nincs_datum_error}=    Set Variable    ${True}    
+                ${nincs_utolso_megnyitas_datum}=    Catenate    SEPARATOR=${CR}    ${nincs_utolso_megnyitas_datum}    ${url}
+                #Log String To Console   ${nincs_utolso_megnyitas_datum}
+                #${new_err}=    Set Variable    Nincs utolsó megnyitás dátuma: ${url}
+                #IF    $err_msg == ''
+                #    ${err_msg}=    Set Variable    ${new_err}
+                #ELSE
+                #    ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+                #END
+                #Log String To Console     [ERROR] ${new_err}
         END
-    
+
     END
-       
+
 
        #split "Forrás:" alapján
         #${forrasok}=    Split String    ${paragraph}    Forrás:
@@ -110,7 +120,25 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
         #END
 
     END
-   
+               #ciklus után írja be a hibákat
+    IF     ${was_regi_datum_error}
+            ${new_err}=    Set Variable       Az utolsó megnyitás dátuma túl régi:${tul_regi_utolso_megnyitas_datum}
+            IF    $err_msg == ''
+                ${err_msg}=    Set Variable    ${new_err}
+            ELSE
+                ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+            END
+            Log String To Console     [ERROR] ${new_err}
+    END
+    IF     ${was_nincs_datum_error} 
+        ${new_err}=    Set Variable    Nincs utolsó megnyitás dátuma:${nincs_utolso_megnyitas_datum}
+            IF    $err_msg == ''
+                ${err_msg}=    Set Variable    ${new_err}
+            ELSE
+                ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+            END
+            Log String To Console     [ERROR] ${new_err}
+    END   
  # Teszt státusz és Excel jelölés végrehajtása a megadott soron
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
 

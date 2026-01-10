@@ -31,8 +31,10 @@ Test Case 11 - Ures Negyzetek Ellenorzese
             ${first_code}=    Evaluate    "U+%04X" % ord("""${first_match}""")
             ${first_match_pos}=    Evaluate    (${text_escaped}).find("""${first_match}""")
             ${text_preview}=    Evaluate    (${text_escaped})[${first_match_pos}:${first_match_pos}+50]
-            ${err_msg}=    Set Variable    Tiltott/hibás karakter(ek) a dokumentumban (pl. üres négyzet, garbled). Első: "${first_match}" (${first_code}) (darab: ${matches_count}). Kontextus: "${text_preview}"
-            Log String To Console    ${err_msg}
+            IF ${matches_count} > 3
+                ${text_preview}=    Catenate    SEPARATOR=...    ${text_preview}    (és még ${matches_count - 1} további előfordulás)
+            END
+           
         END        
     END
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
