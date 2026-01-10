@@ -26,7 +26,8 @@ Test Case 09 - Abrak Fotok Ellenorzese
     #${CR}=    Set Variable    ;
     ${is_abra}=    Set Variable    0
     ${abra_text}=    Set Variable    ${EMPTY}
-
+    ${nincs_forras_megjelolve}=    Set Variable    ${EMPTY}
+    ${was_error_nincs_forras}=    Set Variable    ${False}
  
     ${docx_path}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
     ${pars}=    Evaluate    [{'idx': i+1, 'text': p.text, 'style': (p.style.name if p.style else 'N/A')} for i,p in enumerate(__import__('docx').Document(r'''${docx_path}''').paragraphs)]
@@ -94,23 +95,31 @@ Test Case 09 - Abrak Fotok Ellenorzese
            #Log String To Console    Next line: ${idx}: [${style}] "${text}"
            #${abra_utan}=    Evaluate    ${abra_utan} + 1
            IF   not "Forrás:" in $text
+                ${was_error_nincs_forras}=    Set Variable    ${True}
                 ${text}=    Get Substring    ${abra_text}    0    100
-                ${new_err}=    Set Variable    Ábra/fotó után nincs Forrás megjelölve! ${idx}.sor ${text}
-                IF    $err_msg == ''
-                    ${err_msg}=    Set Variable    ${new_err}
-                ELSE
-                    # err_msg max 500 karakter lehet (új hibával együtt)
-                    ${current_len}=    Evaluate    len($err_msg)
-                    ${new_len}=    Evaluate    ${current_len} + len($new_err) + 1
-                    #IF    ${new_len} < 500
-                        ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
-                    #END
-                END
-                Log String To Console     [ERROR] ${new_err}    
+                ${new_err}=    Set Variable     ${idx}.sor ${text}
+             
+                # err_msg max 500 karakter lehet (új hibával együtt)
+                ${current_len}=    Evaluate    len($err_msg)
+                ${new_len}=    Evaluate    ${current_len} + len($new_err) + 1
+                #IF    ${new_len} < 500
+                    ${nincs_forras_megjelolve}=    Catenate    SEPARATOR=${CR}    ${nincs_forras_megjelolve}    ${new_err}
+                #END
+            
+                #Log String To Console     [ERROR] ${new_err}    
            END
         END
  
     END
+    IF     ${was_error_nincs_forras}
+        ${new_err}=    Set Variable    A következő ábrák/fotók nem tartalmaznak forrásmegjelölést: ${nincs_forras_megjelolve}
+        IF    $err_msg == ''
+            ${err_msg}=    Set Variable    ${new_err}
+        ELSE
+            ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+        END
+        Log String To Console     [ERROR] ${new_err}   
+      END 
      # Teszt státusz és Excel jelölés végrehajtása a megadott soron
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
 
