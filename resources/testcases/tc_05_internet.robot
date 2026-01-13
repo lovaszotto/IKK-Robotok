@@ -13,7 +13,8 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
     ${testCase_row}=    Set Variable    7
     ${path_part}=       Get Variable Value    ${CURRENT_PATH_PART}    ${EMPTY}
     ${filename_part}=   Get Variable Value    ${CURRENT_FILENAME_PART}    ${EMPTY}
-  
+    ${errors}=    Create List
+
     ${docx_file}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
     ${docx_json}=    Get Variable Value    ${DOCX_JSON}    ${EMPTY}
     ${err_msg}=    Set Variable    ${EMPTY}
@@ -28,6 +29,14 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
 #végignézzük a paragrafusokat, és keresünk benne hivatkozásokat  
     ${paragraphs}=    Get From Dictionary    ${docx_json}    paragraphs
     ${paragraphs_count}=    Get Length    ${paragraphs}
+      #kiirja a paragrafusok számát , ha nincs hitáb ír
+    ${np}=      Evaluate    len(${paragraphs})
+    Log String To Console    Összes paragrafus a dokumentum fájlban: ${np}
+    IF    ${np} == 0
+        ${new_err}=    Set Variable    Nincsenek paragrafusok a kompetencia teszt kéziratában!
+            Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${new_err}
+        RETURN
+    END
     #Log String To Console     \n\[DEBUG] Paragraphs found: ${paragraphs_count}
     FOR    ${i}    IN RANGE    ${paragraphs_count}
           ${paragraph}=    Get From List    ${paragraphs}    ${i}
@@ -67,11 +76,10 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
          FOR    ${url}    IN    @{urls}
            #ellenőrizze, hogy van e benne (.*\s*dddd.dd.dd.)   
            #irja ki a talált url-t
-            #Log String To Console     \n\[DEBUG] Found URL: ${url}
+            Log String To Console     \n\[DEBUG] Found URL: ${url}
 
-            #${match}=    Evaluate    re.search(r'\\d{4}\\.\\d{1,2}\\.\\d{1,2}', '''${url}''')    modules=re
             ${match}=    Evaluate    re.search(r'\\d{4}\\s*\\.\\s*\\d{1,2}\\s*\\.\\s*\\d{1,2}', '''${url}''')    modules=re
-            #Log String To Console     \n\[DEBUG] Match found: ${match}
+            Log String To Console     \n\[DEBUG] Match found: ${match}
             IF     ${match}
                 ${last_open_date}=    Set Variable    ${match.group(0)}
                 #Log String To Console    MEGVAN : ${last_open_date}

@@ -11,10 +11,15 @@ Get Next Non Empty Paragraph TC01
     [Arguments]    ${paragraphs}    ${start_index}
     ${total}=    Get Length    ${paragraphs}
     ${idx}=    Set Variable    ${start_index}
+    Log String To Console    \n\nGet Next Non Empty Paragraph TC01 called with start_index=${start_index} in ${total} paragraphs
     WHILE    ${idx} < ${total}
         ${p}=    Get From List    ${paragraphs}    ${idx}
+
         ${p}=    Strip String    ${p}
-        IF    $p != ''
+        #irja ki a p hosszát is
+        ${len_p}=    Get Length    ${p}
+        Log String To Console    [DEBUG] Get Next Non Empty Paragraph TC01 idx=${idx} p="${p}" ${len_p}
+        IF    ${len_p} > 0
             ${next}=    Evaluate    ${idx} + 1
             RETURN    ${p}    ${next}
         END
@@ -48,6 +53,14 @@ Test Case 01 - Arculati Elemek Ellenorzese
         Set Global Variable    ${DOCX_JSON}    ${docx_json}
         #Log String To Console     ${docx_json}
         ${paragraphs}=    Get From Dictionary    ${docx_json}    paragraphs
+        #kiirja a paragrafusok számát , ha nincs hitáb ír
+        ${np}=      Evaluate    len(${paragraphs})
+        Log String To Console    Összes paragrafus a dokumentum fájlban: ${np}
+        IF    ${np} == 0
+            ${new_err}=    Set Variable    Nincsenek paragrafusok a kompetencia teszt kéziratában!
+            Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${new_err}
+            RETURN
+        END
         ${tables}=    Get From Dictionary    ${docx_json}    tables
     END
 
@@ -86,7 +99,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
                         Append To List    ${styles}    ${style}
                 END
             END
-    Log String To Console   §§§§§§§§§§§§§§§§§§§§§§§§§ Stílusok a dokumentumban: ${styles}
+    #Log String To Console   §§§§§§§§§§§§§§§§§§§§§§§§§ Stílusok a dokumentumban: ${styles}
    # Stílusok kiirása Style.txt fájlba append módban
     ${style_file}=    Set Variable    c:\\tmp\\Styles.csv
     # UTF-8 BOM-mal írás: ha a fájl még nem létezik, hozzuk létre BOM-mal, különben csak appendlünk
@@ -106,7 +119,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
 
     # 2. sor – Egyedi megrendelés azonosítója
     ${second_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
-    Log String To Console    Második sor: ${second_paragraph}
+    Log String To Console    Második sor(${act_line}): ${second_paragraph}
      Set Global Variable    ${EGYEDI_AZONOSITO}    ${second_paragraph}
      Log String To Console    EGYEDI AZONOSITO: ${EGYEDI_AZONOSITO}
 
@@ -121,7 +134,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
 
     # 3. sor – Cím (nem lehet üres)
     ${third_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
-    Log String To Console    Harmadik sor: ${third_paragraph}
+    Log String To Console    Harmadik sor(${act_line}): ${third_paragraph}
 
     IF    $third_paragraph == ''
         Append To List    ${errors}    A harmadik sor kötelezően nem lehet üres!
@@ -131,7 +144,7 @@ Test Case 01 - Arculati Elemek Ellenorzese
 
     # 4. sor – "Téma kézirata" vagy többes változat
     ${fourth_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
-    Log String To Console    Negyedik sor: ${fourth_paragraph}
+    Log String To Console    Negyedik sor(${act_line}): ${fourth_paragraph}
  
     ${fourth_norm}=    Strip String    ${fourth_paragraph}
     ${accepted}=    Create List    Téma kézirata    Téma kézirat    Témák kézirata

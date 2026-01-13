@@ -43,6 +43,7 @@ Test Case 03 - Fogalomtar Ellenorzese
     # Biztonságos beolvasás (TRY/EXCEPT helyett Robot kulcsszintű hibakezelés)
     #Log String To Console     Fogalomtár kézirata fájl:${docx_file_fog}
     ${read_status}    ${docx_json_fog}=    Run Keyword And Ignore Error    DocxReader.Read Docx All    ${docx_file_fog}
+   Log String To Console     Fogalomtár kézirata fájl tartalma:\n ${docx_json_fog} \n\n
     IF    $read_status == 'FAIL'
         ${err_msg}=    Set Variable    Olvasási hiba (${docx_json_fog})
         Log String To Console     [ERROR] ${err_msg}
@@ -51,12 +52,23 @@ Test Case 03 - Fogalomtar Ellenorzese
     ELSE
         #Log String To Console     Fogalomtár fájl:${docx_file_fog}   >>>BEOLVASVA ${docx_json_fog}
         #Set Global Variable    ${docx_json_fog}    ${docx_json_fog}
+        
+        
         ${paragraphs}=    Get From Dictionary    ${docx_json_fog}    paragraphs
+       
+        #kiirja a paragrafusok számát
+        ${np}=      Evaluate    len(${paragraphs})
+        Log String To Console    Összes paragrafus a kompetencia fájlban: ${np}
+        IF    ${np} == 0
+            ${new_err}=    Set Variable    Nincsenek paragrafusok a kompetencia teszt kéziratában!
+            Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${new_err}
+            RETURN
+        END
     END
   
         #------------------------------- második sor Egyedi megrendelés azonosítója ellenőrzése --------------------
-        ${second_paragraph}    ${act_line}=    Get Next Non Empty Paragraph    ${paragraphs}    ${act_line}
-        Log String To Console    Második sor: ${second_paragraph}
+        ${second_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
+        Log String To Console    Második sor(${act_line}): ${second_paragraph}
         IF    $second_paragraph == ''
             ${new_err}=    Set Variable    A második sor nem található!
             Append To List    ${errors}    ${new_err}
@@ -82,8 +94,8 @@ Test Case 03 - Fogalomtar Ellenorzese
         END
         
         #------------------------------- harmadik sor cím ellenőrzése --------------------
-        ${third_paragraph}    ${act_line}=    Get Next Non Empty Paragraph    ${paragraphs}    ${act_line}
-        Log String To Console    Harmadik sor: ${third_paragraph}
+        ${third_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01   ${paragraphs}    ${act_line}
+        Log String To Console    Harmadik sor(${act_line}): ${third_paragraph}
         Log String To Console    Harmadik sor(Orig): ${DOKUMENTUM_CIMSOR}
         IF    $third_paragraph == ''
             ${new_err}=    Set Variable    A harmadik sor kötelezően nem lehet üres!
@@ -103,8 +115,8 @@ Test Case 03 - Fogalomtar Ellenorzese
             Log String To Console     [FOGALOMTAR] ${global_cim}
         END
         #------------------------------- negyedik sor Témák kézirata ellenőrzése --------------------
-        ${fourth_paragraph}    ${act_line}=    Get Next Non Empty Paragraph    ${paragraphs}    ${act_line}
-        Log String To Console    Negyedik sor: ${fourth_paragraph}
+        ${fourth_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01   ${paragraphs}    ${act_line}
+        Log String To Console    Negyedik sor(${act_line}): ${fourth_paragraph}
         ${normalized_fourth}=    Strip String    ${fourth_paragraph}
         IF    $normalized_fourth != 'Fogalomtár kézirata'
             ${new_err}=    Set Variable    A negyedik sor kötelezően: "Fogalomtár kézirata" !

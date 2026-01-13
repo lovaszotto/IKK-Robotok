@@ -77,7 +77,8 @@ Test Case 12 - Magyar Nyelven Keszult Ellenorzese
         ${hungarian_percentage}=    Evaluate    round((${hungarian_count} / ${total_valid_texts}) * 100, 1)
         Log String To Console    Magyar nyelvu arany: ${hungarian_percentage}%
         
-        IF    ${other_lang_count} == 0
+        IF    ${hungarian_percentage} > 90
+        #IF    ${other_lang_count} == 0
             Log String To Console    SIKERES: A dokumentum magyar nyelven keszult
             ${err_msg}=    Set Variable    ${EMPTY}
         ELSE

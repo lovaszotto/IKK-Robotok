@@ -159,8 +159,8 @@ Batch inicializálás
         END
         Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>>>FÁJLNÉV ELLENŐRZÉS: ${file_name}\n
   
-        #${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirata.docx
-        ${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirat
+        ${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirata.docx
+        #${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirat
         IF    not ${name_ok}
             ${is_fogalomtar1}=    Run Keyword And Return Status    Should Contain    ${file_name}    fogalomtar
             ${is_fogalomtar2}=    Run Keyword And Return Status    Should Contain    ${file_name}    fogalomtár
@@ -177,7 +177,7 @@ Batch inicializálás
             END
             #tema_kezirat név hibás
             Log String To Console    [SKIP] Fájl kihagyva (név nem egyezik): ${file_name} 
-            Write SumError fájl    ${EMPTY}    ${EMPTY}    tc-0    Fájlnév nem tartalmazza az RRF221_tema_kezirat szöveget    ${file_name}
+            Write SumError fájl    ${EMPTY}    ${EMPTY}    tc-0    Fájlnév nem tartalmazza az RRF221_tema_kezirata szöveget    ${file_name}
             CONTINUE
         END
 

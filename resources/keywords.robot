@@ -278,7 +278,7 @@ Mark Test Status
     
     IF    $err_msg != ''
         #Log String To Console    Mark Test Status ${test_row}-ba: ${err_msg}
-        Log String To Console    Mark Test Status Failed
+        Log String To Console    Mark Test Status Failed:\n${err_msg}\n
         Fill Excel Cell    ${excel_file}    ${sheet_name}    ${test_row}    6    ${err_msg}
          
         IF     int(${test_row}) < 10
