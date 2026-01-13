@@ -49,41 +49,13 @@ Test Case 06 - Szerzo Lektor Ellenorzese
         END
         ${idx}=    Evaluate    ${idx} + 1
     END
-    # Ellenőrizd, hogy a docx_json tényleg dictionary, különben hibát jelezz
-    ${is_dict}=    Evaluate    isinstance(${docx_json}, dict)
-    IF    not ${is_dict}
-        ${err_msg}=    Set Variable    DOCX_JSON nem elérhető vagy nem megfelelő típus (${docx_json})
-        Log String To Console    [ERROR] ${err_msg}
-    ELSE
-        TRY
-            ${tables}=    Get From Dictionary    ${docx_json}    tables
-        EXCEPT    AS    ${e}
-            ${tables}=    Set Variable    ${EMPTY}
-            ${err_msg}=    Set Variable    DOCX_JSON['tables'] nem található (${e})
-            Log String To Console    [ERROR] ${err_msg}
-        END
-        ${is_tables_list}=    Evaluate    isinstance(${tables}, list)
-        IF    not ${is_tables_list}
-            ${err_msg}=    Set Variable    DOCX_JSON['tables'] nem lista vagy hiányzik (${tables})
-            Log String To Console    [ERROR] ${err_msg}
-        ELSE
-            TRY
-                ${first_table}=    Get From List    ${tables}    0
-                ${clean}=    Evaluate    {k.rstrip(':').strip(): v.strip() for k, v in dict(${first_table}).items()}
-                #Log String To Console    >>>> ${clean}
-                ${err_msg}=    Szerzo Lektor Ellenorzesek    ${clean}    ${CR}    ${err_msg}
-            EXCEPT    AS    ${e}
-                ${first_table}=    Set Variable    ${EMPTY}
-                Log String To Console    [ERROR] Címtábla nem elérhető vagy hibás megnevezéseket tartalmaz!: (${e})
-                ${err_msg}=    Set Variable    Címtábla nem elérhető vagy hibás megnevezéseket tartalmaz, ezért a szerző-lektor ellenőrzés nem hajtható végre!
-            END
-        END
-    END
+   
+    ${err_msg}=    Szerzo Lektor Ellenorzesek    ${kezirat_iro}    ${szakmai_lektor}    ${err_msg}
+ 
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
 
 Szerzo Lektor Ellenorzesek
-    [Arguments]    ${clean}    ${CR}    ${err_msg}
-    ${szerzo}=    Get From Dictionary    ${clean}    Kéziratíró    ${EMPTY}
+    [Arguments]     ${szerzo}    ${szakmai_lektor}     ${err_msg}
     #Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szerző: ${szerzo}
     IF    $szerzo == '' or $szerzo == '#'
         ${new_err}=    Set Variable    A Kéziratíró mező nem létezik, vagy üres!
@@ -94,8 +66,7 @@ Szerzo Lektor Ellenorzesek
         END
         Log String To Console    [ERROR] ${new_err}
     END
-    ${szakmai_lektor}=    Get From Dictionary    ${clean}    Szakmai lektor    ${EMPTY}
-    #Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szakmai lektor: ${szakmai_lektor}
+   
     IF    $szakmai_lektor == '' or $szakmai_lektor == '#'
         ${new_err}=    Set Variable    A Szakmai lektor mező nem létezik, vagy üres!
         IF    $err_msg == ''

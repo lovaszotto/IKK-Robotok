@@ -76,10 +76,10 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
          FOR    ${url}    IN    @{urls}
            #ellenőrizze, hogy van e benne (.*\s*dddd.dd.dd.)   
            #irja ki a talált url-t
-            Log String To Console     \n\[DEBUG] Found URL: ${url}
+          #  Log String To Console     \n\[DEBUG] Found URL: ${url}
 
             ${match}=    Evaluate    re.search(r'\\d{4}\\s*\\.\\s*\\d{1,2}\\s*\\.\\s*\\d{1,2}', '''${url}''')    modules=re
-            Log String To Console     \n\[DEBUG] Match found: ${match}
+           # Log String To Console     \n\[DEBUG] Match found: ${match}
             IF     ${match}
                 ${last_open_date}=    Set Variable    ${match.group(0)}
                 #Log String To Console    MEGVAN : ${last_open_date}

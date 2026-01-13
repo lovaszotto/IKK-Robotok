@@ -11,50 +11,49 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
     ${testCase_row}=    Set Variable    24
     ${CR}=    Set Variable    ;
     ${err_list}=    Create List
-    ${ok}    ${cover}    ${base_err}=    Parse Cover Table
-    IF    not ${ok}
-        Append To List    ${err_list}    ${base_err}
-    ELSE
-        # Alias mapping – alternatív elnevezések támogatása (eredeti + normalizált + space nélküli variánsok)
-        ${aliases}=    Create Dictionary    Kéziratíró=Kéziratíró|Szerző|Kézirat író|keziratíró|keziratiro|szerzo    Szakmai lektor=Szakmai lektor|Lektor|szakmai lektor|szakmailektor|lektor    Ágazat=Ágazat|Ágazat megnevezése|agazat|agazatmegnevezese    Szakma=Szakma|Szakma megnevezése|szakma|szakmamegnevezese    Tanulási terület=Tanulási terület|Tanulasi terulet|tanulási terület|tanulasiterulet|tanulasiter    Tantárgy=Tantárgy|Tantargy|tantargy    Évfolyam=Évfolyam|Evfolyam|evfolyam    Óraszám=Óraszám|Óraszam|oraszam
-        ${normalized}=    Create Dictionary
-        FOR    ${main}    ${alts}    IN    &{aliases}
-            ${found}=    Set Variable    ${EMPTY}
-            ${alt_list}=    Split String    ${alts}    |
-            FOR    ${candidate}    IN    @{alt_list}
-                ${has_key}=    Run Keyword And Return Status    Dictionary Should Contain Key    ${cover}    ${candidate}
-                IF    ${has_key}
-                    ${found}=    Get From Dictionary    ${cover}    ${candidate}
-                    Exit For Loop
-                END
-            END
-            IF    '${found}' != ''
-                Set To Dictionary    ${normalized}    ${main}=${found}
-            END
-        END
-        FOR    ${k}    ${v}    IN    &{normalized}
-            ${already}=    Run Keyword And Return Status    Dictionary Should Contain Key    ${cover}    ${k}
-            IF    not ${already}
-                Set To Dictionary    ${cover}    ${k}=${v}
-            END
-        END
-        # Kötelező mező kulcsok és hiba szövegek
-        @{required}=    Create List    Kéziratíró    Szakmai lektor    Ágazat    Szakma    Tanulási terület    Tantárgy    Évfolyam    Óraszám
-        FOR    ${field}    IN    @{required}
-        #dobjuk ki a CR LF karaktereket a mezőnevekből
-            ${field}=    Replace String    ${field}    ${CR}    ${EMPTY}
-            ${present}=    Run Keyword And Return Status    Dictionary Should Contain Key    ${cover}    ${field}
-            IF    not ${present}
-                Append To List    ${err_list}    A ${field} mező nem létezik a címlapon!
-            ELSE
-                ${value}=    Get From Dictionary    ${cover}    ${field}
-                ${is_blank}=    Run Keyword And Return Status    Should Be True    '${value.strip()}' == '' or '${value.strip()}' == '#'
-                IF    ${is_blank}
-                    Append To List    ${err_list}    A ${field} mező üres!
-                END
-            END
+
+   ${read_status}    ${xmlAllText}=    Run Keyword And Ignore Error    Read Docx All as XML    ${docx_file}
+   # az xmlAllTextben szerepel-e a Kéziratíró,Szerző,Kézirat író,keziratíró,keziratiro,szerzo szavak egyike
+   
+    IF    $read_status == 'FAIL'
+        Append To List    ${err_list}    Olvasási hiba a dokumentumban: ${docx_file}
+        #Kilép a kulcsszó végrehajtásából, mivel nem sikerült beolvasni a fájlt
+        ${unique_errs}=    Remove Duplicates    ${err_list}
+        ${err_msg}=    Catenate    SEPARATOR=\n    @{unique_errs}
+        Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
+        RETURN
+    END
+    #alakítsa csupa kisbetűsre az xmlAllText változót
+    ${xmlAllText}=    Convert To Lower Case    ${xmlAllText}
+
+
+    # Ellenőrizze, hogy az xmlAllText tartalmazza-e a szerző/kéziratíró szavak valamelyikét
+    ${author_keywords}=    Create List    kéziratíró    szerző    kézirat író    keziratíró    keziratiro    szerzo     fordító     eredeti könyv szerzője
+    ${found_author}=    Set Variable    False
+    FOR    ${kw}    IN    @{author_keywords}
+        ${found}=    Run Keyword And Return Status    Should Contain    ${xmlAllText}    ${kw}
+        IF    ${found}
+            ${found_author}=    Set Variable    True
+            Exit For Loop
         END
     END
+    IF    not ${found_author}
+        Append To List    ${err_list}    Az xmlAllText nem tartalmazza a szerző/kéziratíró szavak egyikét sem!
+    END
+
+    # Ellenőrizze, hogy az xmlAllText tartalmazza-e a Szakmai lektor szót
+    ${found_lektor}=    Run Keyword And Return Status    Should Contain    ${xmlAllText}    szakmai lektor
+    IF    not ${found_lektor}
+        Append To List    ${err_list}    Az xmlAllText nem tartalmazza a Szakmai lektor szót!
+    END
+    #Ellenőrizze,hogy az xmlAllText tartalmazza-e a iskolai felhasználási cé szót
+    ${found_iskolai}=    Run Keyword And Return Status    Should Contain    ${xmlAllText}    iskolai felhasználási cél
+    IF    not ${found_iskolai}
+        Append To List    ${err_list}    A címlap nem tartalmazza az iskolai felhasználási cél szót!
+    END
+
     ${unique_errs}=    Remove Duplicates    ${err_list}
     ${err_msg}=    Catenate    SEPARATOR=\n    @{unique_errs}
+    Log String To Console   Címlap tartalom ellenőrzése befejezve -  \n[${err_msg}]\n - Címlap tartalom ellenőrzése befejezve.
+
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
