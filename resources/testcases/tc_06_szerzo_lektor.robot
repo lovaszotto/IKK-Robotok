@@ -18,6 +18,37 @@ Test Case 06 - Szerzo Lektor Ellenorzese
     ${docx_json}=    Get Variable Value    ${DOCX_JSON}    ${EMPTY}
     ${err_msg}=    Set Variable    ${EMPTY}
     ${CR}=    Set Variable    ;
+     ${kezirat_iro_idx}=    Set Variable    -1
+     ${kezirat_iro_idx}=    Set Variable    -1
+    ${kezirat_iro}=    Set Variable    ${EMPTY}
+    ${szakmai_lektor}=    Set Variable    ${EMPTY}
+
+  #XML formában olvassuk be a docx fájlt a szövegek ellenőrzéséhez
+   Log String To Console   Read docx as XML file: ${docx_file}
+     ${read_status}    ${xmlAllText}=    Run Keyword And Ignore Error    Read Docx All as XML    ${docx_file}
+    @{xml_lines}=    Split To Lines    ${xmlAllText}
+    ${idx}=    Set Variable    0
+    #törli a xml_line.txt fájlt, ha létezik
+    Run Keyword And Ignore Error    Remove File    xml_line.txt
+    FOR    ${line}    IN    @{xml_lines}
+        #Log To Console    ${idx}:${line}
+        Append To File    xml_line.txt    ${idx}:${line}\n
+         IF     'Kéziratíró' in '''${line}''' 
+            ${kezirat_iro_idx}=    Set Variable    ${idx}+1
+            ${kezirat_iro}=    Set Variable    ${xml_lines[${kezirat_iro_idx}]}
+         Log String To Console    [DEBUG] Kéziratíró sort tartalmazó xml sor(${idx}): ${line}
+         Log String To Console    [DEBUG] Kéziratíró neve: ${kezirat_iro}
+           
+        END
+        IF     'Szakmai lektor' in '''${line}'''
+            ${szakmai_lektor_idx}=    Set Variable    ${idx}+1
+            ${szakmai_lektor}=    Set Variable        ${xml_lines[${szakmai_lektor_idx}]}
+            Log String To Console    [DEBUG] Szakmai lektor sort tartalmazó xml sor(${idx}): ${line}
+            Log String To Console    [DEBUG] Szakmai lektor neve: ${szakmai_lektor}
+           
+        END
+        ${idx}=    Evaluate    ${idx} + 1
+    END
     # Ellenőrizd, hogy a docx_json tényleg dictionary, különben hibát jelezz
     ${is_dict}=    Evaluate    isinstance(${docx_json}, dict)
     IF    not ${is_dict}

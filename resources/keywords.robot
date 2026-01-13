@@ -50,6 +50,7 @@ Should Contain File
 
 *** Settings ***
 Library    ../libraries/DocxReader.py
+Library    ../libraries/DocxXmlReader.py
 Library    ../libraries/find_docx.py
 Library    BuiltIn
 Library    DateTime
@@ -1011,7 +1012,7 @@ Rename Excel File Mark Error
     ${basename}=      Evaluate    __import__('os').path.basename(r'''${excel_file}''')    modules=os
     ${new_basename}=  Replace String    ${basename}    K_ell    _K_ell    count=1
     IF    '${new_basename}' == '${basename}'
-        Log String To Console     \n\[INFO] A fájlnév nem tartalmazza a 'K_ell' mintát, átnevezés kihagyva: ${basename}
+        #Log String To Console     \n\[INFO] A fájlnév nem tartalmazza a 'K_ell' mintát, átnevezés kihagyva: ${basename}
         RETURN
     END
     ${new_path}=      Evaluate    __import__('os').path.join(r'''${dirpath}''', r'''${new_basename}''')    modules=os
@@ -1180,7 +1181,12 @@ Read Docx All
     ${lib}=    Get Library Instance    DocxReader
     ${data}=    Call Method    ${lib}    read_docx_all    ${file_path}
     RETURN    ${data}
-
+Read Docx All as XML
+    [Documentation]    DocxXmlReader.read_docx_all hívása Robotból
+    [Arguments]    ${file_path}
+    ${lib}=    Get Library Instance    DocxXmlReader
+    ${data}=    Call Method    ${lib}    read_all_text    ${file_path}
+    RETURN    ${data}
 Read Docx All As Json
     [Documentation]    DocxReader.read_docx_all_as_json hívása Robotból
     [Arguments]    ${file_path}    ${extract_images_to}=${None}    ${debug}=${False}

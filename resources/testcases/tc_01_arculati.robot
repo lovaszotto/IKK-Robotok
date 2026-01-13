@@ -117,9 +117,16 @@ Test Case 01 - Arculati Elemek Ellenorzese
     #Csabi kérésére most ne írjuk be az Excelbe 
     #Fill Excel Cell    ${excel_file}    ${sheet_name}    27    2    ${styles}
 
+    #XML formában olvassuk be a docx fájlt a szövegek ellenőrzéséhez
+     ${read_status}    ${xmlAllText}=    Run Keyword And Ignore Error    Read Docx All as XML    ${docx_path}
+    @{xml_lines}=    Split To Lines    ${xmlAllText}
+    #kiirja eg xml_line.txt fájlba az xml sorokat
+   
+
     # 2. sor – Egyedi megrendelés azonosítója
-    ${second_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
-    Log String To Console    Második sor(${act_line}): ${second_paragraph}
+    #${second_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
+     ${second_paragraph}=    Get From List    ${xml_lines}    0    
+    Log String To Console    Második sor(0): ${second_paragraph}
      Set Global Variable    ${EGYEDI_AZONOSITO}    ${second_paragraph}
      Log String To Console    EGYEDI AZONOSITO: ${EGYEDI_AZONOSITO}
 
@@ -133,8 +140,9 @@ Test Case 01 - Arculati Elemek Ellenorzese
     END
 
     # 3. sor – Cím (nem lehet üres)
-    ${third_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
-    Log String To Console    Harmadik sor(${act_line}): ${third_paragraph}
+    #${third_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
+    ${third_paragraph}=    Get From List    ${xml_lines}    1    
+    Log String To Console    Harmadik sor(1): ${third_paragraph}
 
     IF    $third_paragraph == ''
         Append To List    ${errors}    A harmadik sor kötelezően nem lehet üres!
@@ -143,8 +151,9 @@ Test Case 01 - Arculati Elemek Ellenorzese
    Log String To Console    DOKUMENTUM_CIMSOR: ${DOKUMENTUM_CIMSOR}
 
     # 4. sor – "Téma kézirata" vagy többes változat
-    ${fourth_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
-    Log String To Console    Negyedik sor(${act_line}): ${fourth_paragraph}
+    #${fourth_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
+    ${fourth_paragraph}=    Get From List    ${xml_lines}    2    
+    Log String To Console    Negyedik sor(2): ${fourth_paragraph}
  
     ${fourth_norm}=    Strip String    ${fourth_paragraph}
     ${accepted}=    Create List    Téma kézirata    Téma kézirat    Témák kézirata

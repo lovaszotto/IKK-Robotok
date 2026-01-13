@@ -4,6 +4,10 @@ Library     Collections
 # RPA.Browser.Selenium eltávolítva – nem szükséges és hiányzó modul hibát okozott
 Resource    ${CURDIR}/../keywords.robot
 Resource    ${CURDIR}/../../PLG-02-Excel-kitolto.robot
+Library     DocxReader
+Library     DocxXmlReader
+
+
 
 *** Keywords ***
 Normalize Text For Title Compare
@@ -47,68 +51,49 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
     ${act_line}=    Set Variable    0
    # docx_file_kompetencia beállítása a docx_file ban csere _tema_kezirata szöveg with kompetencia_tesztek_kezirata            
     ${docx_file_kompetencia}=    Replace String    ${docx_file}    _tema_kezirata    _kompetencia_tesztek_kezirata
-    # Biztonságos beolvasás (TRY/EXCEPT helyett Robot kulcsszintű hibakezelés)
-    Log String To Console     Kompetencia fájl:${docx_file}
     Log String To Console   Read kompetencia file: ${docx_file_kompetencia}
 
-    ${read_status}    ${docx_json_komp}=    Run Keyword And Ignore Error    DocxReader.Read Docx All    ${docx_file_kompetencia}
-   Log String To Console   Read Status: ${read_status}
- 
+    ${read_status}    ${xmlAllText}=    Run Keyword And Ignore Error    Read Docx All as XML    ${docx_file_kompetencia}
+    
+    @{xml_lines}=    Split To Lines    ${xmlAllText}
+    #kiirja eg xml_line.txt fájlba az xml sorokat
+    #${idx}=    Set Variable    0
+    #FOR    ${line}    IN    @{xml_lines}
+        #Log To Console    ${idx}:${line}
+    #    Append To File    xml_line.txt    ${idx}:${line}\n
+    #    ${idx}=    Evaluate    ${idx} + 1
+    #END
+
     #Log String To Console    JSON:${docx_json_komp}
     IF    $read_status == 'FAIL'
-        ${err_msg}=    Set Variable    Olvasási hiba (${docx_json_komp})    
+        ${err_msg}=    Set Variable    Olvasási hiba (${docx_file_kompetencia})    
         Log String To Console     [ERROR] ${err_msg}
          Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
          RETURN
-    ELSE
-        #Log String To Console     Kompetencia fájl:${docx_file_kompetencia}   >>>BEOLVASVA ${docx_json_komp}
-        #Set Global Variable    ${DOCX_JSON_KOMP}    ${docx_json_komp}
-        ${paragraphs}=    Get From Dictionary    ${docx_json_komp}    paragraphs
-        #kiirja a paragrafusok számát
-        ${np}=      Evaluate    len(${paragraphs})
-        Log String To Console    Összes paragrafus a kompetencia fájlban: ${np}
-        IF    ${np} == 0
-            ${new_err}=    Set Variable    Nincsenek paragrafusok a kompetencia teszt kéziratában!
-            Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${new_err}
-            RETURN
-        END
-      
-          #kiirjuk a consolra az összes paragrafust
-        #FOR    ${p}    IN    @{paragraphs} 
-        #    Log String To Console    PARAGRAFUS: "${p}"
-        #END     
     END
-  
-        #------------------------------- második sor Egyedi megrendelés azonosítója ellenőrzése --------------------
-        #${second_paragraph}    ${act_line}=    Get Next Non Empty Paragraph    ${paragraphs}    ${act_line}
-        ${second_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01   ${paragraphs}    ${act_line}
-        
-        Log String To Console    Második sor(${act_line}): ${second_paragraph}
-        IF    $second_paragraph == ''
-            ${new_err}=    Set Variable    A második sor nem található!
+    #Második sor ellenőrzése: Egyedi megrendelés azonosítója
+    ${second_paragraph}=    Get From List    ${xml_lines}    0    
+    Log String To Console    Második sor(0): ${second_paragraph}
+    IF    $second_paragraph == ''
+        ${new_err}=    Set Variable    A második sor nem található!
+        Append To List    ${errors}    ${new_err}
+        Log String To Console     [ERROR] ${new_err}
+    ELSE
+    
+        #összehasonlítás a globálisan elmentett azonosítóval
+        ${global_azonosito}=    Get Variable Value    ${EGYEDI_AZONOSITO}    ${EMPTY}
+        Log String To Console     [DEBUG]global_azonosito: ${global_azonosito}\n${second_paragraph}
+        IF    "${second_paragraph}" != "${global_azonosito}"
+            ${new_err}=    Set Variable    Az egyedi megrendelés azonosító nem egyezik a Téma kéziratában megadottal!
             Append To List    ${errors}    ${new_err}
-            Log String To Console     [ERROR] ${new_err}
-        ELSE
-            # Ha a prefix nem megfelelő
-            ${pref_ok}=    Run Keyword And Return Status    Should Start With    ${second_paragraph}    Egyedi megrendelés azonosítója
-            IF    '${pref_ok}' == 'False'
-                ${new_err}=    Set Variable    A második sor kezdete kötelezően: Egyedi megrendelés azonosítója...
-                Append To List    ${errors}    ${new_err}
-                Log String To Console     [ERROR] ${new_err}
-            END
-            #összehasonlítás a globálisan elmentett azonosítóval
-            ${global_azonosito}=    Get Variable Value    ${EGYEDI_AZONOSITO}    ${EMPTY}
-            IF    "${second_paragraph}" != "${global_azonosito}"
-                ${new_err}=    Set Variable    Az egyedi megrendelés azonosító nem egyezik a Téma kéziratában megadottal!
-                Append To List    ${errors}    ${new_err}
-                Log String To Console     [ERROR] ${new_err}
-              
-            END
+            Log String To Console     [ERROR] ${new_err} 
         END
-        
+    END
+    
         #------------------------------- harmadik sor cím ellenőrzése --------------------
-        ${third_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01   ${paragraphs}    ${act_line}
-        Log String To Console    Harmadik sor(${act_line}): ${third_paragraph}
+        #${third_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01   ${paragraphs}    ${act_line}
+        ${third_paragraph}=    Get From List    ${xml_lines}    1 
+        Log String To Console    Harmadik sor(1): ${third_paragraph}
         IF    $third_paragraph == ''
             ${new_err}=    Set Variable    A harmadik sor kötelezően nem lehet üres!
             Append To List    ${errors}    ${new_err}
@@ -133,10 +118,10 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
             Log String To Console     [KOMPETENCIA] ${global_cim} (norm: ${n_global})
         END
         #------------------------------- negyedik sor Témák kézirata ellenőrzése --------------------
-         Log String To Console    Negyedik sor olvasás előtt act_line: ${act_line}
-
-        ${fourth_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01   ${paragraphs}    ${act_line}
-        Log String To Console    Negyedik sor(${act_line}): ${fourth_paragraph}
+         
+        #${fourth_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01   ${paragraphs}    ${act_line}
+        ${fourth_paragraph}=    Get From List    ${xml_lines}    2 
+        Log String To Console    Negyedik sor(2): ${fourth_paragraph}
         ${normalized_fourth}=    Strip String    ${fourth_paragraph}
         IF    $normalized_fourth != 'Kompetencia tesztek kézirata'
             ${new_err}=    Set Variable    A negyedik sor kötelezően: "Kompetencia tesztek kézirata" !

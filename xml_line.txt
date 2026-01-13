@@ -1,0 +1,1438 @@
+0:Egyedi megrendelés azonosítója: EM-2.2.2 
+1:Húsipari termékcsoportok főbb termékeinek ismertetése 
+2:Témák kézirata 
+3:Kéziratíró: 
+4:Nágl Péter 
+5:Szakmai lektor: 
+6:Szabó László 
+7:Évfolyam: 
+8:12. évfolyam 
+9:Óraszám: 
+10:6 óra 
+11:Iskolai felhasználási cél 
+12:Ágazat: 
+13:Élelmiszeripar 
+14:Szakma: 
+15:Húsipari technikus 
+16:Szakmairány: 
+17:- 
+18:Tanulási terület: 
+19:Húsipari alapműveletek 
+20:Tantárgy: 
+21:Gyártástechnológiai alapműveletek és gépei 
+22:Tartalomjegyzék 
+23:1	Húskészítmények	2 
+24:1.1	Hőkezeléssel tartósított töltelékes húskészítmények	2 
+25:1.2	Vörösáruk	4 
+26:1.2.1	A vörösáruk jellemző tulajdonságai:	4 
+27:1.2.2	Vörösáruk csoportosítása átmérő alapján	4 
+28:1.3	Felvágottak	8 
+29:1.3.1	A felvágottak jellemző tulajdonságai:	9 
+30:1.4	Füstölt-főtt kolbászok	19 
+31:1.4.1	A füstölt főtt kolbászok jellemző tulajdonságai	19 
+32:1.5	Belsőségből készült töltelékes húskészítmények	23 
+33:1.5.1	A belsőségből készült töltelékes húskészítményeket csoportjai	23 
+34:2	Nyers töltelékes húskészítmények	30 
+35:2.1	Sütni való kolbász	31 
+36:2.2	Nyers-érlelt kolbászok	32 
+37:2.3	Nyers-érlelt penészes vagy penészmentes szalámik	35 
+38:2.4	Érlelés-szabályzóval készült kolbászok, penészes vagy penészmentes szalámik	39 
+39:2.5	Sózott, pácolt termékek	41 
+40:2.6	Étkezési szalonnák	42 
+41:2.6.1	Sózott szalonnák	43 
+42:2.6.2	Sózott-füstölt szalonnák	44 
+43:2.6.3	Pácolt-füstölt szalonnák	46 
+44:2.6.4	Pácolt-füstölt-főtt szalonnák	48 
+45:2.6.5	Pácolt-főtt szalonnák	50 
+46:2.6.6	Sült szalonnák	51 
+47:2.7	Hagyományosan pácolt húskészítmények	53 
+48:2.8	Gyorspácolással előállított Húskészítmények	59 
+49:3	Hagyományos és a folyamatos zsírgyártás termékei	61 
+50:3.1	A hagyományos zsírgyártás termékei	62 
+51:3.2	Folyamatos zsírgyártás termékei	64 
+52:ÁBRAJEGYZÉK	66 
+53:TÁBLAJEGYZÉK	68 
+54:Húskészítmények 
+55:A húsipari feldolgozás során különféle technológiai és tartósító műveletekkel előállított, hús, gyártási szalonna és egyéb íz és jellegkialakító anyagok felhasználásával készült darabolt, vagy töltelékes húskészítmények. 
+56:A húsipari termékeket megkülönböztetjük: 
+57:A tartósításuk módja alapján 
+58:Jellegük alapján. Darabolt, vagy töltelékes termékek 
+59:MÉDIAELEM 
+60:ÁLTALÁNOS 
+61:Nézőkép: 
+62:1. ábra 
+63:forrás https://hu.depositphotos.com/40997105/stock-photo-lot-of-different-sausages-isolated.html (2024.07.02) 
+64:Gyártó: 
+65:Átvett 
+66:Típus: 
+67:Fotó 
+68:Cím: 
+69:1. media: Húskészítmények 
+70:Elkészítéshez szükséges információ: 
+71:Húskészítmények termék szemléltetés 
+72:Tartalom leírása: 
+73:Húskészítmények termék szemléltetés 
+74:Saját alternatívák: 
+75:Internetes alternatívák: 
+76:Hőkezeléssel tartósított töltelékes húskészítmények 
+77:Közös jellemzőjük, hogy hőkezeléssel történik a termékek tartósítása, illetve a nyers jelleg megszüntetése. Hőkezeléssel válnak a termékek fogyasztásra alkalmassá. A hőkezelés során kialakul a szeletelhető állomány, a termékre jellemző szín és illat. 
+78:A hőkezeléssel tartósított termékek csoportjába tartoznak 
+79:a vörösáruk, 
+80:a felvágottak, 
+81:a füstölt-főtt kolbászok, valamint 
+82:a belsőségből készült húskészítmények. 
+83:MÉDIAELEM 
+84:ÁLTALÁNOS 
+85:Nézőkép: 
+86:2. ábra forrás Médiatár saját kép 
+87:Gyártó: 
+88:Saját készítés 
+89:Típus: 
+90:Grafikon 
+91:Cím: 
+92:2. media: Hőkezeléssel tartósított töltelékes húskészítmények termékcsoportjai 
+93:Elkészítéshez szükséges információ: 
+94:Az egyes termékekre, vagy termékcsoportokra rákattintva odaugrik a termékről vagy termékcsoportról szóló tartalomra 
+95:Tartalom leírása: 
+96:Áttekintő diagram a hőkezeléssel tartósított töltelékes húskészítmények termékcsoportjához. 
+97:Saját alternatívák: 
+98:Internetes alternatívák: 
+99:Vörösáruk 
+100:Sertés és/vagy marha és/vagy baromfihús, gyártási szalonna, jelleg és ízkialakító anyagok és egyéb anyagok felhasználásával előállított, hőkezeléssel tartósított, füstölt vagy füstöletlen húskészítmények. 
+101:A vörösáruk jellemző tulajdonságai: 
+102:Húspépből (prád) készült homogén metszéslapú termékek. A metszéslapjuk halvány rózsaszín, homogén, egynemű állományú. 2 mm-nél nagyobb ín és kötőszövet, illetve légzárvány jelenléte nem megengedett. Ízüket, illatukat a főtt húspép mellett a só, fehérbors, fokhagyma és a pirospaprika határozza meg. Előállításuk során burkolóanyagként természetes (juhbél) és mesterséges burkolóanyagok (pl. emészthető kollagén műbél, vagy vízgőzzáró poliamid műbél) is felhasználhatók. 
+103:A vörösáruk kémiai paraméterei a Magyar élelmiszerkönyv előírásai alapján 
+104:Összes fehérjetartalom: 
+105:minimum 
+106:13% (m/m) 
+107:Víztartalom 
+108:maximum 
+109:70% (m/m) 
+110:Zsírtartalom 
+111:maximum 
+112:23% (m/m) 
+113:NaCl-tartalom 
+114:maximum 
+115:2,2% (m/m) 
+116:1. táblázat: Vörösáruk kémiai összetevői 
+117:Vörösáruk csoportosítása átmérő alapján 
+118:Kis átmérőjű vörösáruk (maximum 26 mm átmérőjű termékek): 
+119:Virsli: 
+120:A gyártás során alkalmazott burkolat alapján lehet: 
+121:juhbeles virsli 
+122:emészthető kollagénbeles virsli 
+123:vízgőzzáró poliamid műbeles virsli 
+124:Közepes átmérőjű vörösáruk (28-54 mm közötti átmérőjű termékek): 
+125:Szafaládé (28 és 36 mm közötti átmérőjű termék) 
+126:Krinolin (38 mm feletti átmérőjű termék) 
+127:Elsősorban átmérőjük és fűszerezésük alapján térnek el egymástól. 
+128:Nagy átmérőjű vörösáruk (55 mm feletti átmérőjű termékek): 
+129:Párizsi vagy parizer 
+130:MÉDIAELEM 
+131:ÁLTALÁNOS 
+132:Nézőkép: 
+133:3. ábra forrás https://hu.depositphotos.com/3648790/stock-photo-sausage.html (2024.07.02.) 
+134:Gyártó: 
+135:Átvett 
+136:Típus: 
+137:Fotó 
+138:Cím: 
+139:3. media: Juhbeles virsli 
+140:Elkészítéshez szükséges információ: 
+141:Juhbeles virsli képe 
+142:Tartalom leírása: 
+143:Juhbeles virsli termék képe 
+144:Saját alternatívák: 
+145:Internetes alternatívák: 
+146:MÉDIAELEM 
+147:ÁLTALÁNOS 
+148:Nézőkép: 
+149:4. ábraforrás https://hu.depositphotos.com/46067347/stock-photo-sausages.html  (2024.07.02.) 
+150:Gyártó: 
+151:Átvett 
+152:Típus: 
+153:Fotó 
+154:Cím: 
+155:4. media: Krinolin 
+156:Elkészítéshez szükséges információ: 
+157:Krinolin termék szemléltetés 
+158:Tartalom leírása: 
+159:Krinolin termék szemléltetés 
+160:Saját alternatívák: 
+161:Internetes alternatívák: 
+162:MÉDIAELEM 
+163:ÁLTALÁNOS 
+164:Nézőkép: 
+165:5. ábra forrás https://hu.depositphotos.com/328666340/stock-photo-tasty-meat-sausages-over-white.html (2024.07.02.) 
+166:Gyártó: 
+167:Átvett 
+168:Típus: 
+169:Fotó 
+170:Cím: 
+171:5. media: Szafaládé 
+172:Elkészítéshez szükséges információ: 
+173:Szafaládé termék szemléltetés 
+174:Tartalom leírása: 
+175:Szafaládé termék szemléltetés 
+176:Saját alternatívák: 
+177:Internetes alternatívák: 
+178:MÉDIAELEM 
+179:ÁLTALÁNOS 
+180:Nézőkép: 
+181:6. ábra forrás https://hu.depositphotos.com/14956871/stock-photo-simple-bologna-sausage-and-slices.html(2024.07.02) 
+182:Gyártó: 
+183:Átvett 
+184:Típus: 
+185:Fotó 
+186:Cím: 
+187:6. media: Párizsi vagy parizer 
+188:Elkészítéshez szükséges információ: 
+189:Párizsi termék szemléltetés 
+190:Tartalom leírása: 
+191:Párizsi termék szemléltetés 
+192:Saját alternatívák: 
+193:Internetes alternatívák: 
+194:Jelölés szempontjából csak olyan terméket lehet vörösáruként forgalmazni, amelynek hústartalma a párizsi és virsli esetében legalább 51%, krinolin és szafaládé esetében a hústartalom legalább 55%. 
+195:Csak abban az esetben lehet a termék megnevezésében a vágóállat fajt feltüntetni (pl. sertés, vagy borjú párizsi, vagy pulyka virsli) ha a termék előállításánál felhasznált hús legalább 70%-a az adott vágóállat fajból származik. 
+196:Felvágottak 
+197:Az egyik legszélesebb termékválasztékkal rendelkező termékcsoport. Sertés és/vagy marha és/vagy baromfihús, gyártási szalonna, jelleg és ízkialakító anyagok és egyéb anyagok hozzáadásával előállított hőkezeléssel tartósított mozaikos húskészítmények. 
+198:A felvágottak jellemző tulajdonságai: 
+199:Húspépben, vagy aszpikban eloszlatott, a termékre jellemző szemcseméretűre aprított hús, szalonna, vagy zöldség mozaikokat tartalmazó töltelékes húskészítmények. Átmérőjük a termék jellegétől függően széles határok között mozog, de legalább 40 mm. Előállításuk során burkolóanyagként elsősorban vízgőzt záró, vagy füstölt-főtt, szárítással utóérlelt termék esetében – vízgőzt áteresztő mesterséges burkolóanyagot alkalmaznak. Ízüket, illatukat a főtt húspép, vagy aszpik mellett a só és a termékre jellemző fűszerek határozzák meg. Kémiai összetételük a termékcsoport nagysága miatt széles határok között mozog. 
+200:A felvágottak kémiai paraméterei a Magyar élelmiszerkönyv előírásai alapján 
+201:Utóérlelés nélkül 
+202:Utóérlelt 
+203:Összes fehérjetartalom: 
+204:minimum 
+205:12% (m/m) 
+206:16% (m/m) 
+207:Víztartalom 
+208:maximum 
+209:70% (m/m) 
+210:45% (m/m) 
+211:Zsírtartalom 
+212:maximum 
+213:35% (m/m) 
+214:45% (m/m) 
+215:NaCl-tartalom 
+216:maximum 
+217:2,2% (m/m) 
+218:3% (m/m) 
+219:2. táblázat: Felvágottak általános kémiai összetevői 
+220:A felvágottak termékcsoportján belül három fő csoportot különböztetünk meg: 
+221:bélbe töltött hőkezelt felvágottak 
+222:füstöléssel-főzéssel és szárításos utóérleléssel tartósított felvágottak 
+223:formában főtt, betétes húskészítmények 
+224:Bélbe töltött, hőkezelt felvágottak 
+225:A húspépben eloszlatott mozaikok alapján megkülönböztetünk: 
+226:A húspépben (prádban) eloszlatott pácolt húsmozaikot tartalmazó felvágottakat: 
+227:Zala felvágott 
+228:sonkás felvágott 
+229:MÉDIAELEM 
+230:ÁLTALÁNOS 
+231:Nézőkép: 
+232:7. ábra forrás https://hu.depositphotos.com/19664741/stock-photo-bologna-sausage-with-ham.html (2024.07.02) 
+233:Gyártó: 
+234:Átvett 
+235:Típus: 
+236:Fotó 
+237:Cím: 
+238:7. media: Zala felvágott 
+239:Elkészítéshez szükséges információ: 
+240:Zala felvágott termék szemléltetés 
+241:Tartalom leírása: 
+242:Zala felvágott termék szemléltetés 
+243:Saját alternatívák: 
+244:Internetes alternatívák: 
+245:MÉDIAELEM 
+246:ÁLTALÁNOS 
+247:Nézőkép: 
+248:8. ábra forrás https://hu.depositphotos.com/4885724/stock-photo-ham-vegetables-mushrooms-isolated-white.html (2024.07.02.) 
+249:Gyártó: 
+250:Átvett 
+251:Típus: 
+252:Fotó 
+253:Cím: 
+254:8. media: Sonkás felvágott 
+255:Elkészítéshez szükséges információ: 
+256:Sonkás felvágott termék szemléltetés 
+257:Tartalom leírása: 
+258:Sonkás felvágott termék szemléltetés 
+259:Saját alternatívák: 
+260:Internetes alternatívák: 
+261:A húspépben (prádban) eloszlatott szalonna és hússzemcséket, vagy zöldséget tartalmazó felvágottakat: 
+262:fokhagymás felvágott (szalonna mozaik) 
+263:mortadella (szalonna mozaik) 
+264:olasz felvágott (hús és szalonna mozaik) 
+265:tavaszi felvágott (zöldség mozaik) 
+266:MÉDIAELEM 
+267:ÁLTALÁNOS 
+268:Nézőkép: 
+269:9. ábra forrás https://hu.depositphotos.com/62292661/stock-photo-sausages.html (2024.07.02) 
+270:Gyártó: 
+271:Átvett 
+272:Típus: 
+273:Fotó 
+274:Cím: 
+275:9. media: Fokhagymás felvágott 
+276:Elkészítéshez szükséges információ: 
+277:Fokhagymás felvágott termék szemléltetés 
+278:Tartalom leírása: 
+279:Fokhagymás felvágott termék szemléltetés 
+280:Saját alternatívák: 
+281:Internetes alternatívák: 
+282:MÉDIAELEM 
+283:ÁLTALÁNOS 
+284:Nézőkép: 
+285:10. ábraforrás https://hu.depositphotos.com/58355043/stock-photo-italian-mortadella.html (2024.07.02.) 
+286:Gyártó: 
+287:Átvett 
+288:Típus: 
+289:Fotó 
+290:Cím: 
+291:10. media: Mortadella 
+292:Elkészítéshez szükséges információ: 
+293:Mortadella termék szemléltetés 
+294:Tartalom leírása: 
+295:Mortadella termék szemléltetés 
+296:Saját alternatívák: 
+297:Internetes alternatívák: 
+298:MÉDIAELEM 
+299:ÁLTALÁNOS 
+300:Nézőkép: 
+301:11. ábraforrás https://dietmaker.hu/olasz-felvagott-kaloria-lehet-fogyni-olasz-felvagottal/(2024.07.02) 
+302:Gyártó: 
+303:Átvett 
+304:Típus: 
+305:Fotó 
+306:Cím: 
+307:11. media: Olasz felvágott 
+308:Elkészítéshez szükséges információ: 
+309:Olasz felvágott termék szemléltetés 
+310:Tartalom leírása: 
+311:Olasz felvágott termék szemléltetés 
+312:Saját alternatívák: 
+313:Internetes alternatívák: 
+314:Aszpikban eloszlatott hús, vagy zöldség, ehető belsőség (nyelv) mozaikokat tartalmazó felvágottak: 
+315:aszpikos sonka 
+316:aszpikos zöldséges sonka 
+317:aszpikos nyelv 
+318:MÉDIAELEM 
+319:ÁLTALÁNOS 
+320:Nézőkép: 
+321:12. ábraforrás https://hu.depositphotos.com/14957111/stock-photo-pork-brawn-and-slices.html (2024.07.02.) 
+322:Gyártó: 
+323:Átvett 
+324:Típus: 
+325:Fotó 
+326:Cím: 
+327:12. media: Aszpikos sonka 
+328:Elkészítéshez szükséges információ: 
+329:Aszpikos sonka termék szemléltetés 
+330:Tartalom leírása: 
+331:Aszpikos sonka termék szemléltetés 
+332:Saját alternatívák: 
+333:Internetes alternatívák: 
+334:MÉDIAELEM 
+335:ÁLTALÁNOS 
+336:Nézőkép: 
+337:13. ábraforrás http://centertrade.hu/orf/kategoria/ledig_felvagottak (2024.07.02.) 
+338:Gyártó: 
+339:Átvett 
+340:Típus: 
+341:Fotó 
+342:Cím: 
+343:13. media: Aszpikos zöldséges sonka 
+344:Elkészítéshez szükséges információ: 
+345:Aszpikos zöldséges sonka termék szemléltetés 
+346:Tartalom leírása: 
+347:Aszpikos zöldséges sonka szemléltetés 
+348:Saját alternatívák: 
+349:Internetes alternatívák: 
+350:Füstöléssel-főzéssel és szárításos utóérleléssel tartósított felvágottak 
+351:A füstölés-főzés művelete után a terméket szárításos utóérlelésnek vetik alá, így csökkentve a termék víztartalmát, vízaktivitás-értékét. A vízaktivitás-érték csökkenésével nő a termék fogyaszthatósági ideje. Ide tartoznak: 
+352:nyári turista felvágott 
+353:Krakkói sonka 
+354:MÉDIAELEM 
+355:ÁLTALÁNOS 
+356:Nézőkép: 
+357:14. ábraforrás https://hu.depositphotos.com/19664945/stock-photo-salami-stick-and-slices.html (2024.07.02.) 
+358:Gyártó: 
+359:Átvett 
+360:Típus: 
+361:Fotó 
+362:Cím: 
+363:14. media: Nyári turista felvágott 
+364:Elkészítéshez szükséges információ: 
+365:Nyári turista felvágott termék szemléltetés 
+366:Tartalom leírása: 
+367:Nyári turista felvágott termék szemléltetés 
+368:Saját alternatívák: 
+369:Internetes alternatívák: 
+370:MÉDIAELEM 
+371:ÁLTALÁNOS 
+372:Nézőkép: 
+373:15. ábraforrás https://hu.depositphotos.com/73085331/stock-photo-ham-sliced-pork-sausage-with.html (2024.07.02.) 
+374:Gyártó: 
+375:Átvett 
+376:Típus: 
+377:Fotó 
+378:Cím: 
+379:15. media: Krakkói sonka 
+380:Elkészítéshez szükséges információ: 
+381:Krakkói sonka termék szemléltetés 
+382:Tartalom leírása: 
+383:Krakkói sonka termék szemléltetés 
+384:Saját alternatívák: 
+385:Internetes alternatívák: 
+386:Formában főtt, betétes húskészítmények 
+387:Húspépbe ágyazott legalább 20 mm-es pácolt sertés-, vagy marha comb, -lapocka, illetve baromfi mell, combhús mozaikokat tartalmazó, formába töltött, főzéssel, vagy sütéssel hőkezelt termékek. 
+388:Ide tartozik: 
+389:a gépsonka 
+390:MÉDIAELEM 
+391:ÁLTALÁNOS 
+392:Nézőkép: 
+393:16. ábraforrás https://hu.depositphotos.com/442193956/stock-photo-block-ham-slices-wooden-board.html (2024.07.02) 
+394:Gyártó: 
+395:Átvett 
+396:Típus: 
+397:Fotó 
+398:Cím: 
+399:16. media: Gépsonka 
+400:Elkészítéshez szükséges információ: 
+401:Gépsonka termék szemléltetés 
+402:Tartalom leírása: 
+403:Gépsonka termék szemléltetés 
+404:Saját alternatívák: 
+405:Internetes alternatívák: 
+406:Füstölt-főtt kolbászok 
+407:Húspépbe ágyazott, a termékre jellemző méretűre aprított sertés-, marha-, vagy baromfihúst és gyártási szalonnát tartalmazó, természetes, vagy emészthető, mesterséges burkolóanyagba töltött, főzéssel hőkezelt, füstölt kolbászok. 
+408:A füstölt főtt kolbászok jellemző tulajdonságai 
+409:A metszéslapjukon a halvány rózsaszín húspépben megfelelő szemcseméretűre aprított hús és szalonna mozaikok látszanak. 2 mm-nél nagyobb ín és kötőszövet, illetve légzárvány jelenléte nem megengedett. Ízüket, illatukat a főtt húspép mellett a só, fokhagyma, kömény és a pirospaprika határozza meg.  Jellemző átmérőjük 22-34 mm. 
+410:A füstölt-főtt kolbászok kémiai paraméterei a Magyar élelmiszerkönyv előírásai alapján: 
+411:Összes fehérjetartalom: 
+412:minimum 
+413:13% (m/m) 
+414:Víztartalom 
+415:maximum 
+416:60% (m/m) 
+417:Zsírtartalom 
+418:maximum 
+419:32% (m/m) 
+420:NaCl-tartalom 
+421:maximum 
+422:2,2% (m/m) 
+423:3. táblázat: A füstölt-főtt kolbászok kémiai paraméterei a Magyar élelmiszerkönyv előírásai alapján 
+424:A termékcsoport jellemző termékei 
+425:Csemege debreceni 
+426:6-8 mm-es szemcseméretűre aprított hús és szalonna mozaikokat tartalmaz. Átmérője általában 32-34 mm. 15 cm-es párokra formázzák. 
+427:Lecsókolbász 
+428:6-8 mm-es szemcseméretűre aprított hús és szalonna mozaikokat tartalmaz. Átmérője általában 34-36 mm. Botra szedve karikára formázzák. 
+429:Cserkész kolbász 
+430:4-6 mm-es szemcseméretűre aprított hús és szalonna mozaikokat tartalmaz. Átmérője általában 22-24 mm. Kb. 40 cm hosszú párokra formázzák. 
+431:MÉDIAELEM 
+432:ÁLTALÁNOS 
+433:Nézőkép: 
+434:17. ábraforrás https://hu.depositphotos.com/4159349/stock-photo-sausages.html (2024.07.02.) 
+435:Gyártó: 
+436:Átvett 
+437:Típus: 
+438:Fotó 
+439:Cím: 
+440:17. media: Csemege debreceni 
+441:Elkészítéshez szükséges információ: 
+442:Csemege debreceni termék szemléltetése 
+443:Tartalom leírása: 
+444:Csemege debreceni termék szemléltetése 
+445:Saját alternatívák: 
+446:Internetes alternatívák: 
+447:MÉDIAELEM 
+448:ÁLTALÁNOS 
+449:Nézőkép: 
+450:18. ábraforrás https://palatin.hu/Kesz-Termekeink (2024.07.02) 
+451:Gyártó: 
+452:Átvett 
+453:Típus: 
+454:Fotó 
+455:Cím: 
+456:18. media: LecsókolbászLecsókolbászLecsókolbászLecsókolbász 
+457:Elkészítéshez szükséges információ: 
+458:Lecsókolbász termék szemléltetés 
+459:Tartalom leírása: 
+460:Lecsókolbász termék k szemléltetés 
+461:Saját alternatívák: 
+462:Internetes alternatívák: 
+463:MÉDIAELEM 
+464:ÁLTALÁNOS 
+465:Nézőkép: 
+466:19. ábraforrás https://asajtos.hu/termek/cserkesz-kolbasz-szepetnek/(2024.07.02) 
+467:Gyártó: 
+468:Átvett 
+469:Típus: 
+470:Fotó 
+471:Cím: 
+472:19. media: Cserkészkolbász 
+473:Elkészítéshez szükséges információ: 
+474:Cserkészkolbász termék szemléltetés 
+475:Tartalom leírása: 
+476:Cserkészkolbász termék szemléltetés 
+477:Saját alternatívák: 
+478:Internetes alternatívák: 
+479:Belsőségből készült töltelékes húskészítmények 
+480:Sertés-, marha-, baromfibelsőséget, húst, gyártási szalonnát, sertés bőrkét, egyéb gyártási anyagokat, jelleg és ízkialakító anyagokat tartalmazó, különböző átmérőjű és állományú, hőkezeléssel tartósított, füstölt, vagy füstöletlen húskészítmények. 
+481:A belsőségből készült töltelékes húskészítményeket csoportjai 
+482:kenhető húskészítmények 
+483:hurkák 
+484:hússajtok 
+485:Kenhető húskészítmények 
+486:Sertés-, marha-, borjú-, vagy baromfi- (csirke-, kacsa-, liba-) májból készített kenhető állományú hőkezeléssel tartósított húskészítmények. Elsősorban vízgőzt záró mesterséges burkolóanyagba (pl. kenőmájas), alumínium, illetve üveg tégelybe (pl. májpástétom), vagy konzervdobozba (pl. májkrém) töltve, sterilezve (121,1 oC-os hőkezelés) kerülnek forgalomba. Hagyományos technológiával előállított kézműves kenőmájas termékeket természetes burkolóanyagba töltik, a hőkezelés során íz- és színkialakítás céljából füstölik. Egyes fajtái a kenhető állomány megtartásával májdarabokat, vagy egyéb ízkialakításért felelős anyagok látható méretű darabjait (pl. hagyma) is tartalmazhatják. A kenhető húskészítmények lehetnek: 
+487:kenőmájas 
+488:májkrém 
+489:pástétomok (májpástétom) 
+490:A termékek megnevezését a termék májtartalma befolyásolja: 
+491:A májas, vagy májkrém megnevezéssel forgalomba hozott termékeknek legalább 25% (m/m), a májpástétom megnevezéssel forgalomba hozott termékeknek 35% (m/m) májtartalommal kell rendelkezniük. 
+492:MÉDIAELEM 
+493:ÁLTALÁNOS 
+494:Nézőkép: 
+495:20. ábraforrás https://hu.depositphotos.com/36675963/stock-photo-liver-sausages.html (2024.07.02.) 
+496:Gyártó: 
+497:Átvett 
+498:Típus: 
+499:Fotó 
+500:Cím: 
+501:20. media: Kenőmájas 
+502:Elkészítéshez szükséges információ: 
+503:Kenőmájas termék szemléltetés 
+504:Tartalom leírása: 
+505:Kenőmájas termék szemléltetés 
+506:Saját alternatívák: 
+507:Internetes alternatívák: 
+508:MÉDIAELEM 
+509:ÁLTALÁNOS 
+510:Nézőkép: 
+511:21. ábraforrás https://hu.depositphotos.com/116359340/stock-photo-chicken-liver-pate-on-bread.html (2024.07.02) 
+512:Gyártó: 
+513:Átvett 
+514:Típus: 
+515:Fotó 
+516:Cím: 
+517:21. media: Májpástétom 
+518:Elkészítéshez szükséges információ: 
+519:Májpástétom termék szemléltetés 
+520:Tartalom leírása: 
+521:Májpástétom szemléltetés 
+522:Saját alternatívák: 
+523:Internetes alternatívák: 
+524:MÉDIAELEM 
+525:ÁLTALÁNOS 
+526:Nézőkép: 
+527:22. ábraforrás https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004008490106 (2024.07.02) 
+528:Gyártó: 
+529:Átvett 
+530:Típus: 
+531:Fotó 
+532:Cím: 
+533:22. media: Májkrém 
+534:Elkészítéshez szükséges információ: 
+535:Májkrém termék szemléltetés 
+536:Tartalom leírása: 
+537:Májkrém termék szemléltetés 
+538:Saját alternatívák: 
+539:Internetes alternatívák: 
+540:Hurkák 
+541:Sertés-, vagy marhabelsőség, sertésfejhús, sertésbőrke, sertészsiradék, vér, gabonaszármazékok és egyéb jelleg- és ízkialakító anyagok felhasználásával előállított, belsőségből készült, hőkezeléssel tartósított húskészítmények. 
+542:Megkülönböztetünk: 
+543:sütnivaló hurkákat. 
+544:véreshurka 
+545:májashurka 
+546:tüdős hurka 
+547:hidegen fogyasztható hurkákat 
+548:bácskai hurka 
+549:A sütnivaló hurkákat természetes burkolóanyagba, elsősorban sertés vékonybélbe töltik. Jellemző átmérőjük 34-38 mm között változik. Fogyasztásuk előtt konyhatechnikai műveletnek (sütésnek) vetik alá őket. 
+550:A hidegen fogyasztható hurkákat mesterséges burkolóanyagba töltik. A rúd alakú termékek legalább 40 mm átmérőjűek. A hidegfüstöléssel utófüstölt bácskai hurkát vízgőzt áteresztő műbélbe töltik. A füstöletlen hurkák gyártása esetében vízgőzt záró burkolóanyagot alkalmaznak. A termék metszéslapja mozaikos, a hús és ehető belsőségdarabok a metszéslapon jól láthatóak. 
+551:MÉDIAELEM 
+552:ÁLTALÁNOS 
+553:Nézőkép: 
+554:23. ábraforrás https://hu.depositphotos.com/106755792/stock-photo-homemade-liverwurst-crude-on-dark.html (2024.07.02) 
+555:Gyártó: 
+556:Átvett 
+557:Típus: 
+558:Fotó 
+559:Cím: 
+560:23. media: Véreshurka 
+561:Elkészítéshez szükséges információ: 
+562:Véreshurka termék szemléltetés 
+563:Tartalom leírása: 
+564:Véreshurka termék szemléltetés 
+565:Saját alternatívák: 
+566:Internetes alternatívák: 
+567:MÉDIAELEM 
+568:ÁLTALÁNOS 
+569:Nézőkép: 
+570:24. ábraforrás https://darno-hus.hu/termek/majas-hurka/ (2024.07.02) 
+571:Gyártó: 
+572:Átvett 
+573:Típus: 
+574:Fotó 
+575:Cím: 
+576:24. media: Májas hurka 
+577:Elkészítéshez szükséges információ: 
+578:Májas hurka termék szemléltetés 
+579:Tartalom leírása: 
+580:Májas hurka termék szemléltetés 
+581:Saját alternatívák: 
+582:Internetes alternatívák: 
+583:MÉDIAELEM 
+584:ÁLTALÁNOS 
+585:Nézőkép: 
+586:25. ábraforrás https://bollershop.hu/toltsunk-egy-igazi-bacskai-hurkat/ (2024.07.02) 
+587:Gyártó: 
+588:Átvett 
+589:Típus: 
+590:Fotó 
+591:Cím: 
+592:25. media: Bácskai hurka 
+593:Elkészítéshez szükséges információ: 
+594:Bácskai hurka termék szemléltetés 
+595:Tartalom leírása: 
+596:Bácskai hurka termék szemléltetés 
+597:Saját alternatívák: 
+598:Internetes alternatívák: 
+599:Hússajtok 
+600:Hőkezeléssel tartósított, természetes burkolóanyagba (sertésgyomor, húgyhólyag, vakbél), vízgőzt záró, vagy vízgőzt áteresztő műbélbe töltött, sertéshúsból, ehető belsőségből, sertésfejből, sertésbőrkéből, esetleg vérből, jelleg- és ízkialakító anyagokból előállított mozaikos metszéslapú, általában korong alakra préselt, füstölt, vagy füstöletlen húskészítmények. 
+601:A hússajtok lehetnek: 
+602:disznósajt 
+603:nyelvsajt 
+604:bőrsajt 
+605:vérsajt 
+606:MÉDIAELEM 
+607:ÁLTALÁNOS 
+608:Nézőkép: 
+609:26. ábraforrás https://hu.depositphotos.com/245361644/stock-photo-home-made-head-cheese-knife.html (2024.07.02.) 
+610:Gyártó: 
+611:Átvett 
+612:Típus: 
+613:Fotó 
+614:Cím: 
+615:26. media: Disznósajt 
+616:Elkészítéshez szükséges információ: 
+617:Disznósajt termék szemléltetés 
+618:Tartalom leírása: 
+619:Disznósajt termék szemléltetés 
+620:Saját alternatívák: 
+621:Internetes alternatívák: 
+622:Nyers töltelékes húskészítmények 
+623:A nyers töltelékes húskészítmények általában természetes-vagy mesterséges burkolóanyagba töltött, hideg füstöléssel, szárításos érleléssel, vagy érlelés-szabályzók alkalmazásával előállított húskészítmények. Egyes termékek csak konyhatechnológiai művelet (sütés) után válnak fogyaszthatóvá. 
+624:A nyers töltelékes húskészítmények csoportjába az alábbi termékcsoportok tartoznak: 
+625:sütnivaló kolbászok 
+626:nyers-érlelt kolbászok, szalámik 
+627:szárításos érleléssel készült kolbászok 
+628:szárításos érleléssel készült penészes, vagy penészmentes szalámik 
+629:érlelés-szabályozóval készült kolbászok, szalámik 
+630:érlelés-szabályozóval készült kolbászok 
+631:érlelés-szabályozóval készült penészes, vagy penészmentes szalámik 
+632:MÉDIAELEM 
+633:ÁLTALÁNOS 
+634:Nézőkép: 
+635:27. ábraforrás Médiatár, saját kép 
+636:Gyártó: 
+637:Saját készítés 
+638:Típus: 
+639:Grafikon 
+640:Cím: 
+641:27. media: Nyers töltelékes húskészítmények 
+642:Elkészítéshez szükséges információ: 
+643:Az egyes termékekre, vagy termékcsoportokra rákattintva odaugrik a termékről vagy termékcsoportról szóló tartalomra 
+644:Tartalom leírása: 
+645:Áttekintő diagram a nyers-töltelékes húskészítmények termékcsoportjához. 
+646:Saját alternatívák: 
+647:Internetes alternatívák: 
+648:Sütni való kolbász 
+649:A Magyar Élelmiszerkönyv előírásai alapján a sütnivaló kolbász az előkészített húsok közé tartozik. Általában 34 mm átmérőjű sertés vékonybélbe, vagy emészthető műbélbe, esetleg juhbélbe töltött sertés-, marha-, vagy baromfihús, jelleg- és ízkialakító anyagok felhasználásával előállított termék. A késztermék semmilyen élelmiszer-adalékanyagot nem tartalmazhat. A terméket fogyasztás előtt minden esetben konyhatechnikai műveletnek (sütésnek) kell alávetni. 
+650:MÉDIAELEM 
+651:ÁLTALÁNOS 
+652:Nézőkép: 
+653:28. ábraforrás https://hu.depositphotos.com/7433830/stock-photo-raw-italian-sausage.html (2024.07.02) 
+654:Gyártó: 
+655:Átvett 
+656:Típus: 
+657:Fotó 
+658:Cím: 
+659:28. media: Sütnivaló kolbász 
+660:Elkészítéshez szükséges információ: 
+661:Sütnivalókolbász termék szemléltetés 
+662:Tartalom leírása: 
+663:Sütnivalókolbász termék szemléltetés 
+664:Saját alternatívák: 
+665:Internetes alternatívák: 
+666:Nyers-érlelt kolbászok 
+667:Sertéshús, marhahús, baromfihús, gyártási szalonna, jelleg- és ízkialakító anyagok felhasználásával előállított, természetes, vagy mesterséges burkolóanyagba töltött, hidegfüstöléssel és szárításos érleléssel tartósított, mozaikos metszéslapú termékek. Átmérőjük alapján megkülönböztetünk maximum 38 mm átmérőjű kolbászokat és a 38-55 mm átmérőjű közötti vastagkolbászokat. Kémiai összetevőiket a Magyar Élelmiszerkönyv szabályozza. 
+668:Az érlelt félszáraz kolbászok paraméterei a Magyar élelmiszerkönyv előírásai alapján 
+669:Összes fehérjetartalom: 
+670:minimum 
+671:18 % (m/m) 
+672:Víztartalom 
+673:maximum 
+674:34 % (m/m) 
+675:Zsírtartalom 
+676:maximum 
+677:45 % (m/m) 
+678:NaCl-tartalom 
+679:maximum 
+680:4 % (m/m) 
+681:4. táblázat: Érlelt félszáraz kolbászok kémiai összetevői 
+682:Az érlelt száraz kolbászok paraméterei a Magyar élelmiszerkönyv előírásai alapján 
+683:Összes fehérjetartalom: 
+684:minimum 
+685:20 % (m/m) 
+686:Víztartalom 
+687:maximum 
+688:28 % (m/m) 
+689:Zsírtartalom 
+690:maximum 
+691:47 % (m/m) 
+692:NaCl-tartalom 
+693:maximum 
+694:4,5  % (m/m) 
+695:5. táblázat: Érlelt száraz kolbászok kémiai összetevői 
+696:A szárításos érlelés a termék megfelelő vízaktivitás-értékének eléréséig tart: 
+697:félszáraz kolbászok esetében 0,95, 
+698:száraz kolbászoknál 0,91 vízaktivitás érték eléréséig. 
+699:A nyers-érlelt kolbászok legfontosabb termékei: 
+700:Gyulai kolbász 
+701:Csabai kolbász 
+702:parasztkolbász 
+703:MÉDIAELEM 
+704:ÁLTALÁNOS 
+705:Nézőkép: 
+706:29. ábraforrás https://www.visitgyula.com/blog/gyulai-vagy-csabai (2024.07.02) 
+707:Gyártó: 
+708:Átvett 
+709:Típus: 
+710:Fotó 
+711:Cím: 
+712:29. media: Gyulai kolbász 
+713:Elkészítéshez szükséges információ: 
+714:Gyulai kolbász termék szemléltetés 
+715:Tartalom leírása: 
+716:Gyulai kolbász szemléltetés 
+717:Saját alternatívák: 
+718:Internetes alternatívák: 
+719:MÉDIAELEM 
+720:ÁLTALÁNOS 
+721:Nézőkép: 
+722:30. ábraforrás https://www.csabaikolbaszfesztival.hu/galeria/2015-1-2 (2024.07.02) 
+723:Gyártó: 
+724:Átvett 
+725:Típus: 
+726:Fotó 
+727:Cím: 
+728:30. media: Csabai kolbász 
+729:Elkészítéshez szükséges információ: 
+730:Csabai kolbász termék szemléltetés 
+731:Tartalom leírása: 
+732:Csabai kolbász termék szemléltetés 
+733:Saját alternatívák: 
+734:Internetes alternatívák: 
+735:MÉDIAELEM 
+736:ÁLTALÁNOS 
+737:Nézőkép: 
+738:31. ábraforrás https://asajtos.hu/termek/mendei-parasztkolbasz-csipos/ (2024.07.02) 
+739:Gyártó: 
+740:Átvett 
+741:Típus: 
+742:Fotó 
+743:Cím: 
+744:31. media: Parasztkolbász 
+745:Elkészítéshez szükséges információ: 
+746:Parasztkolbász termék szemléltetés 
+747:Tartalom leírása: 
+748:Parasztkolbász termék szemléltetés 
+749:Saját alternatívák: 
+750:Internetes alternatívák: 
+751:Nyers-érlelt penészes vagy penészmentes szalámik 
+752:A nyers-érlelt penészes vagy penészmentes szalámik sertéshús, gyártási szalonna, jelleg- és ízkialakítók felhasználásával készült, legalább 55 mm átmérőjű természetes, vagy vízgőzt áteresztő mesterséges burkolóanyagba töltött, hidegfüstöléssel és szárításos érleléssel tartósított húsipari készítmények. Kémiai összetevőiket és minőségi követelményeiket a Magyar Élelmiszerkönyv szabályozza. A téli szalámi esetében az érlelési idő minimum 80 nap. 
+753:A szárításos érleléssel készült szalámik paraméterei a Magyar élelmiszerkönyv előírásai alapján 
+754:Összes fehérjetartalom: 
+755:minimum 
+756:20 % (m/m) 
+757:Víztartalom 
+758:maximum 
+759:29 % (m/m) 
+760:Zsírtartalom 
+761:maximum 
+762:47 % (m/m) 
+763:NaCl-tartalom 
+764:maximum 
+765:4,5  % (m/m) 
+766:Vízaktivitás érték (aw) 
+767:maximum 
+768:0,91 
+769:6. táblázat: A szárításos érleléssel készült kolbászok kémiai összetevői 
+770:Legismertebb termékek: 
+771:Pick téliszalámi 
+772:Herz téliszalámi 
+773:Pick Rákóczi szalámi (csemege, paprikás) 
+774:Pick Báthory szalámi (csemege, paprikás) 
+775:MÉDIAELEM 
+776:ÁLTALÁNOS 
+777:Nézőkép: 
+778:32. ábraforrás http://www.hungarikum.hu/hu/pick-t%C3%A9liszal%C3%A1mi (2024.07.02) 
+779:Gyártó: 
+780:Átvett 
+781:Típus: 
+782:Fotó 
+783:Cím: 
+784:32. media: Pick téliszalámi 
+785:Elkészítéshez szükséges információ: 
+786:Pick téliszalámi termék szemléltetés 
+787:Tartalom leírása: 
+788:Pick téliszalámi termék szemléltetés 
+789:Saját alternatívák: 
+790:Internetes alternatívák: 
+791:MÉDIAELEM 
+792:ÁLTALÁNOS 
+793:Nézőkép: 
+794:33. ábraforrás http://www.hungarikum.hu/hu/herz-classic-t%C3%A9liszal%C3%A1mi (2024.07.02.) 
+795:Gyártó: 
+796:Átvett 
+797:Típus: 
+798:Fotó 
+799:Cím: 
+800:33. media: Herz téliszalámi 
+801:Elkészítéshez szükséges információ: 
+802:Herz téliszalámi szemléltetés 
+803:Tartalom leírása: 
+804:Herz téliszalámi termék szemléltetés 
+805:Saját alternatívák: 
+806:Internetes alternatívák: 
+807:MÉDIAELEM 
+808:ÁLTALÁNOS 
+809:Nézőkép: 
+810:34. ábraforrás https://pick.hu/hu/termekek/szalamik/pick-rakoczi-paprikas-szalami (2024.07.02) 
+811:Gyártó: 
+812:Átvett 
+813:Típus: 
+814:Fotó 
+815:Cím: 
+816:34. media: Rákóczi szalámi 
+817:Elkészítéshez szükséges információ: 
+818:Rákóczi szalámi termék szemléltetés 
+819:Tartalom leírása: 
+820:Rákóczi szalámi termék szemléltetés 
+821:Saját alternatívák: 
+822:Internetes alternatívák: 
+823:MÉDIAELEM 
+824:ÁLTALÁNOS 
+825:Nézőkép: 
+826:35. ábraforrás https://pick.hu/hu/termekek/szalamik/pick-bathory-paprikas-szalami (2024.07.02) 
+827:Gyártó: 
+828:Átvett 
+829:Típus: 
+830:Fotó 
+831:Cím: 
+832:35. media: Báthory paprikás szalámi 
+833:Elkészítéshez szükséges információ: 
+834:Báthory paprikás szalámi szemléltetés 
+835:Tartalom leírása: 
+836:Báthori paprikás szalámi szemléltetés 
+837:Saját alternatívák: 
+838:Internetes alternatívák: 
+839:Érlelés-szabályzóval készült kolbászok, penészes vagy penészmentes szalámik 
+840:Sertéshús, marhahús, baromfihús (elsősorban pulykahús), gyártási szalonna, jelleg- és ízkalakító, érlelés-szabályozó anyagok felhasználásával, vízgőzt áteresztő mesterséges burkolóanyagba töltött, füstöléssel és gyorsított szárításos érleléssel tartósított termékek. A termékek átmérője legalább 40 mm. 
+841:A nyers töltelékes húskészítmények termékcsoportjaiban lévő termékek közül az érlelés-szabályezóval készült kolbászok és szalámik gyártásánál alkalmazzák a legnagyobb mértékben a baromfihúst (elsősorban pulykahúst). 
+842:Érlelés-szabályezó alkalmazása alapján megkülönböztetünk: 
+843:starterkultúrával készült termékeket 
+844:kémiai savanyítószerrel (GDL glükono-delta-lakton) készült termékeket 
+845:Legismertebb termékek: 
+846:pulyka vastagkolbász 
+847:dán szalámi 
+848:Góliát szalámi 
+849:MÉDIAELEM 
+850:ÁLTALÁNOS 
+851:Nézőkép: 
+852:36. ábraforrás https://hu.depositphotos.com/169209774/stock-photo-sliced-smoked-salami.html (2024.07.02) 
+853:Gyártó: 
+854:Átvett 
+855:Típus: 
+856:Fotó 
+857:Cím: 
+858:36. media: Dán szalámi 
+859:Elkészítéshez szükséges információ: 
+860:Dán szalámi termék szemléltetés 
+861:Tartalom leírása: 
+862:Dán szalámi termék szemléltetés 
+863:Saját alternatívák: 
+864:Internetes alternatívák: 
+865:MÉDIAELEM 
+866:ÁLTALÁNOS 
+867:Nézőkép: 
+868:37. ábraforrás https://pick.hu/hu/termekek/szalamik/pick-goliat-szalami (2024.07.02.) 
+869:Gyártó: 
+870:Átvett 
+871:Típus: 
+872:Fotó 
+873:Cím: 
+874:37. media: Góliát szalámi 
+875:Elkészítéshez szükséges információ: 
+876:Góliát szalámi termék szemléltetés 
+877:Tartalom leírása: 
+878:Góliát szalámi termék szemléltetés 
+879:Saját alternatívák: 
+880:Internetes alternatívák: 
+881:Sózott, pácolt termékek 
+882:Sózással, vagy pácolással, füstöléssel, és/vagy főzéssel, egyes termékeknél sütéssel tartósított étkezési szalonna félék, illetve sertés, esetleg baromfihúsból készült pácolt-füstölt, vagy pácolt-füstölt-főtt darabolt húskészítmények tartoznak a sózott-pácolt termékek termékcsoportjába. 
+883:MÉDIAELEM 
+884:ÁLTALÁNOS 
+885:Nézőkép: 
+886:38. ábraforrás Médiatár, saját kép 
+887:Gyártó: 
+888:Saját készítés 
+889:Típus: 
+890:Grafikon 
+891:Cím: 
+892:38. media: Sózott-pácolt húskészítmények 
+893:Elkészítéshez szükséges információ: 
+894:Az egyes termékekre, vagy termékcsoportokra rákattintva odaugrik a termékről vagy termékcsoportról szóló tartalomra 
+895:Tartalom leírása: 
+896:Áttekintő diagram a sózott-pácolt húskészítmények termékcsoportjához. 
+897:Saját alternatívák: 
+898:Internetes alternatívák: 
+899:Étkezési szalonnák 
+900:Sertés bőr alatti zsírszövetéből készült, sózással, vagy pácolási eljárással tartósított, füstölt, vagy füstöletlen, nyers, főtt, vagy sült húskészítmények. 
+901:Jellegük és tartósítás módjuk szerint csoportosíthatjuk őket. 
+902:Jellegük szerint lehetnek: 
+903:húscsíkot nem tartalmazó (pl. hátaszalonnából készült termékek), illetve 
+904:húscsíkot tartalmazó szalonnák (pl. bőrös-szalonnás oldalasból készült termékek) 
+905:Tartósítási módjuk szerint lehetnek: 
+906:sózott szalonnák, 
+907:sózott füstölt szalonnák, 
+908:pácolt-füstölt szalonnák, 
+909:pácolt-füstölt-főtt szalonnák, 
+910:pácolt-főtt szalonnák, valamint 
+911:sült szalonnák. 
+912:Sózott szalonnák 
+913:Húscsíkot nem tartalmaznak. Jellemzően sózással tartósítják őket. Ide tartoznak: 
+914:sózott hátaszalonna 
+915:sózott teaszalonna 
+916:MÉDIAELEM 
+917:ÁLTALÁNOS 
+918:Nézőkép: 
+919:39. ábraforrás https://hu.depositphotos.com/46927739/stock-photo-piece-of-salted-lard.html (2024.07.02) 
+920:Gyártó: 
+921:Átvett 
+922:Típus: 
+923:Fotó 
+924:Cím: 
+925:39. media: Sózott hátaszalonna 
+926:Elkészítéshez szükséges információ: 
+927:Sózott hátaszalonna termék szemléltetés 
+928:Tartalom leírása: 
+929:Sózott hátaszalonna termék szemléltetés 
+930:Saját alternatívák: 
+931:Internetes alternatívák: 
+932:MÉDIAELEM 
+933:ÁLTALÁNOS 
+934:Nézőkép: 
+935:40. ábraforrás https://hu.depositphotos.com/537330122/stock-photo-sliced-salty-lard-with-garlic.html (2024.07.02) 
+936:Gyártó: 
+937:Átvett 
+938:Típus: 
+939:Fotó 
+940:Cím: 
+941:Sózott teaszalonna 
+942:Elkészítéshez szükséges információ: 
+943:Sózott teaszalonna termék szemléltetés 
+944:Tartalom leírása: 
+945:Sózott teaszalonna szemléltetés 
+946:Saját alternatívák: 
+947:Internetes alternatívák: 
+948:Sózott-füstölt szalonnák 
+949:Húscsíkot nem tartalmaznak. Jellemzően sózással és hidegfüstöléssel tartósítják őket. Ide tartozik: 
+950:füstölt kenyérszalonna, 
+951:füstölt csemegeszalonna. 
+952:MÉDIAELEM 
+953:ÁLTALÁNOS 
+954:Nézőkép: 
+955:41. ábraforrás https://hu.depositphotos.com/134292808/stock-photo-smoked-lard-with-bread-and.html (2022-07-07) 
+956:Gyártó: 
+957:Átvett 
+958:Típus: 
+959:Fotó 
+960:Cím: 
+961:41. media: Füstölt kenyérszalonna 
+962:Elkészítéshez szükséges információ: 
+963:Füstölt kenyérszalonna termék szemléltetés 
+964:Tartalom leírása: 
+965:Füstölt kenyérszalonna termék szemléltetés 
+966:Saját alternatívák: 
+967:Internetes alternatívák: 
+968:MÉDIAELEM 
+969:ÁLTALÁNOS 
+970:Nézőkép: 
+971:42. ábraforrás https://hu.depositphotos.com/1019133/stock-photo-lard-on-wooden-board.html (2024.07.02) 
+972:Gyártó: 
+973:Átvett 
+974:Típus: 
+975:Fotó 
+976:Cím: 
+977:42. media: Füstölt csemegeszalonna 
+978:Elkészítéshez szükséges információ: 
+979:Füstölt csemege szalonna termék szemléltetés 
+980:Tartalom leírása: 
+981:Füstölt csemege szalonna termék szemléltetés 
+982:Saját alternatívák: 
+983:Internetes alternatívák: 
+984:Pácolt-füstölt szalonnák 
+985:Hideg füstöléssel füstölt, hagyományos pácolási technológiával előállított termékek. Húscsíkot tartalmaznak. Fajtái: 
+986:kolozsvári szalonna, 
+987:angol szalonna. 
+988:MÉDIAELEM 
+989:ÁLTALÁNOS 
+990:Nézőkép: 
+991:43. ábraforrás https://hu.depositphotos.com/6476229/stock-photo-slice-bacon-with-rosemary-on.html (2024.07.02) 
+992:Gyártó: 
+993:Átvett 
+994:Típus: 
+995:Fotó 
+996:Cím: 
+997:43. media: Füstölt kolozsvári szalonna 
+998:Elkészítéshez szükséges információ: 
+999:Füstölt kolozsvári szalonna termék szemléltetés 
+1000:Tartalom leírása: 
+1001:Füstölt kolozsvári szalonna termék szemléltetés 
+1002:Saját alternatívák: 
+1003:Internetes alternatívák: 
+1004:MÉDIAELEM 
+1005:ÁLTALÁNOS 
+1006:Nézőkép: 
+1007:44. ábraforrás https://hu.depositphotos.com/59708975/stock-photo-smoked-meat-with-spices-isolated.html (2024.07.02) 
+1008:Gyártó: 
+1009:Átvett 
+1010:Típus: 
+1011:Fotó 
+1012:Cím: 
+1013:44. media: Füstölt angolszalonna 
+1014:Elkészítéshez szükséges információ: 
+1015:Füstölt angolszalonna termék szemléltetés 
+1016:Tartalom leírása: 
+1017:Füstölt angolszalonna termék szemléltetés 
+1018:Saját alternatívák: 
+1019:Internetes alternatívák: 
+1020:Pácolt-füstölt-főtt szalonnák 
+1021:Gyorspácolt, meleg füstöléssel füstölt és főtt termékek. Húscsíkot tartalmaznak. Ide tartozik: 
+1022:füstölt-főtt császárszalonna, 
+1023:füstölt-főtt erdélyi szalonna. 
+1024:MÉDIAELEM 
+1025:ÁLTALÁNOS 
+1026:Nézőkép: 
+1027:45. ábraforrás https://hu.depositphotos.com/126240304/stock-photo-bacon-and-sliced-bacon-on.html (2024.07.02) 
+1028:Gyártó: 
+1029:Átvett 
+1030:Típus: 
+1031:Fotó 
+1032:Cím: 
+1033:45. media: Füstölt főtt császárszalonna 
+1034:Elkészítéshez szükséges információ: 
+1035:Füstölt főtt császárszalonna termék szemléltetés 
+1036:Tartalom leírása: 
+1037:Füstölt főtt császárszalonna termék szemléltetés 
+1038:Saját alternatívák: 
+1039:Internetes alternatívák: 
+1040:MÉDIAELEM 
+1041:ÁLTALÁNOS 
+1042:Nézőkép: 
+1043:46. ábraforrás https://nlc.hu/gasztro/20111026/a_nagy_szalonnahatarozo/ (2024.07.02) 
+1044:Gyártó: 
+1045:Átvett 
+1046:Típus: 
+1047:Fotó 
+1048:Cím: 
+1049:46. media: Füstölt-főtt erdélyi szalonna 
+1050:Elkészítéshez szükséges információ: 
+1051:Füstölt-főtt erdélyi szalonna termék szemléltetés 
+1052:Tartalom leírása: 
+1053:Füstölt-főtt erdélyi szalonna termék szemléltetés 
+1054:Saját alternatívák: 
+1055:Internetes alternatívák: 
+1056:Pácolt-főtt szalonnák 
+1057:Húscsíkot tartalmazó, a sertés tokaszalonnájából készült főtt termékek. Gyorspácolás után a szalonnákat főzik. Egyes fajtáinak felületét pirospaprikával hintik be. Ide tartoznak: 
+1058:főtt tokaszalonna, 
+1059:csécsi szalonna. 
+1060:MÉDIAELEM 
+1061:ÁLTALÁNOS 
+1062:Nézőkép: 
+1063:47. ábraforrás https://nlc.hu/gasztro/20111026/a_nagy_szalonnahatarozo/ (2024.07.02) 
+1064:Gyártó: 
+1065:Átvett 
+1066:Típus: 
+1067:Fotó 
+1068:Cím: 
+1069:47. media: Csécsi szalonna 
+1070:Elkészítéshez szükséges információ: 
+1071:Csécsi szalonna termék szemléltetés 
+1072:Tartalom leírása: 
+1073:Csécsi szalonna termék szemléltetés 
+1074:Saját alternatívák: 
+1075:Internetes alternatívák: 
+1076:Sült szalonnák 
+1077:Húscsíkot tartalmazó szalonnák. Gyorspácolási technológia után sütéssel állítják elő őket. 
+1078:Bácskai pörc 
+1079:sült tokaszalonna 
+1080:sült császárszalonna 
+1081:MÉDIAELEM 
+1082:ÁLTALÁNOS 
+1083:Nézőkép: 
+1084:48. ábraforrás https://asajtos.hu/termek/sult-csaszar/ (2024.07.02.) 
+1085:Gyártó: 
+1086:Átvett 
+1087:Típus: 
+1088:Fotó 
+1089:Cím: 
+1090:48. media: Sült császárszalonna 
+1091:Elkészítéshez szükséges információ: 
+1092:Sült császsárszalonna termék szemléltetés 
+1093:Tartalom leírása: 
+1094:Sült császsárszalonna termék szemléltetés 
+1095:Saját alternatívák: 
+1096:Internetes alternatívák: 
+1097:MÉDIAELEM 
+1098:ÁLTALÁNOS 
+1099:Nézőkép: 
+1100:49. ábraforrás https://forum.index.hu/Article/viewArticle?a=122137030&t=9213744&openwith=2 (2024.07.02) 
+1101:Gyártó: 
+1102:Átvett 
+1103:Típus: 
+1104:Fotó 
+1105:Cím: 
+1106:49. media: Sült tokaszalonna 
+1107:Elkészítéshez szükséges információ: 
+1108:Sült tokaszalonnatermék szemléltetés 
+1109:Tartalom leírása: 
+1110:Sült tokaszalonnatermék szemléltetés 
+1111:Saját alternatívák: 
+1112:Internetes alternatívák: 
+1113:Hagyományosan pácolt húskészítmények 
+1114:Bőrrel és szalonnával fedett, formázott, hidegfüstöléssel füstölt termékek. Készülhetnek sertés combból, lapockából, tarjából vagy karajból. 
+1115:Ide tartoznak: 
+1116:Parasztsonka 
+1117:Láb, farok és medencecsont nélküli bőrrel és szalonnával fedett, csontokat tartalmazó formázott termék 
+1118:Parasztlapocka 
+1119:Láb és lapockacsont nélküli, bőrrel és szalonnával fedett, csontokat tartalmazó formázott termék. 
+1120:Darabolt comb 
+1121:Csont nélküli, anatómiai részeire darabolt comb. Egyes részei bőrrel és szalonnával fedettek. (frikandó sonka) 
+1122:Lángolt karaj 
+1123:Sertés karaj bőr és zsírszövet nélkül 
+1124:Füstölt csülök 
+1125:Egész sertés hátsó csülök, bőrrel és szalonnával, csontokkal. 
+1126:Füstölt tarja 
+1127:Csont nélküli sertés tarja bőr és zsírszövet nélkül 
+1128:MÉDIAELEM 
+1129:ÁLTALÁNOS 
+1130:Nézőkép: 
+1131:50. ábraforrás https://hu.pinterest.com/pin/380624606003790259/ (2024.07.02) 
+1132:Gyártó: 
+1133:Átvett 
+1134:Típus: 
+1135:Fotó 
+1136:Cím: 
+1137:50. media: Parasztsonka 
+1138:Elkészítéshez szükséges információ: 
+1139:Parasztsonka termék szemléltetés 
+1140:Tartalom leírása: 
+1141:Parasztsonka termék szemléltetés 
+1142:Saját alternatívák: 
+1143:Internetes alternatívák: 
+1144:MÉDIAELEM 
+1145:ÁLTALÁNOS 
+1146:Nézőkép: 
+1147:51. ábraforrás https://hartahus-kaiber.hu/galeria/ (2024.07.02) 
+1148:Gyártó: 
+1149:Átvett 
+1150:Típus: 
+1151:Fotó 
+1152:Cím: 
+1153:51. media: Parasztlapocka 
+1154:Elkészítéshez szükséges információ: 
+1155:Parasztlapocka termék szemléltetés 
+1156:Tartalom leírása: 
+1157:Parasztlapocka termék szemléltetés 
+1158:Saját alternatívák: 
+1159:Internetes alternatívák: 
+1160:MÉDIAELEM 
+1161:ÁLTALÁNOS 
+1162:Nézőkép: 
+1163:52. ábraforrás https://hu.depositphotos.com/77946290/stock-photo-prosciutto-crudo.html (2024.07.02) 
+1164:Gyártó: 
+1165:Átvett 
+1166:Típus: 
+1167:Fotó 
+1168:Cím: 
+1169:52. media: Füstölt darabolt comb 
+1170:Elkészítéshez szükséges információ: 
+1171:Füstölt darabolt comb termék szemléltetés 
+1172:Tartalom leírása: 
+1173:Füstölt darabolt comb termék szemléltetés 
+1174:Saját alternatívák: 
+1175:Internetes alternatívák: 
+1176:MÉDIAELEM 
+1177:ÁLTALÁNOS 
+1178:Nézőkép: 
+1179:53. ábraforrás https://hu.depositphotos.com/2838929/stock-photo-smoked-bacon-on-wooden-board.html (2024.07.02) 
+1180:Gyártó: 
+1181:Átvett 
+1182:Típus: 
+1183:Fotó 
+1184:Cím: 
+1185:53. media: Lángolt karaj 
+1186:Elkészítéshez szükséges információ: 
+1187:Lángolt karaj termék szemléltetés 
+1188:Tartalom leírása: 
+1189:Lángolt karaj szemléltetés 
+1190:Saját alternatívák: 
+1191:Internetes alternatívák: 
+1192:MÉDIAELEM 
+1193:ÁLTALÁNOS 
+1194:Nézőkép: 
+1195:54. ábraforrás https://hartahus-kaiber.hu/galeria/ (2024.07.02) 
+1196:Gyártó: 
+1197:Átvett 
+1198:Típus: 
+1199:Fotó 
+1200:Cím: 
+1201:54. media: Füstölt csülök (hátsó) 
+1202:Elkészítéshez szükséges információ: 
+1203:Füstölt csülök termék szemléltetés 
+1204:Tartalom leírása: 
+1205:Füstölt csülök termék szemléltetés 
+1206:Saját alternatívák: 
+1207:Internetes alternatívák: 
+1208:MÉDIAELEM 
+1209:ÁLTALÁNOS 
+1210:Nézőkép: 
+1211:55. ábraforrás https://asajtos.hu/termek/fustolt-tarja/ (2024.07.02) 
+1212:Gyártó: 
+1213:Átvett 
+1214:Típus: 
+1215:Fotó 
+1216:Cím: 
+1217:55. media: Füstölt tarja 
+1218:Elkészítéshez szükséges információ: 
+1219:Füstölt tarja termék szemléltetés 
+1220:Tartalom leírása: 
+1221:Füstölt tarja termék szemléltetés 
+1222:Saját alternatívák: 
+1223:Internetes alternatívák: 
+1224:Gyorspácolással előállított Húskészítmények 
+1225:Gyorspácolási technológiával pácolt, csontot ne tartalmazó füstölt-főtt, darabolt, vagy kötözött termékek. 
+1226:Füstölt-főtt darabolt comb, lapocka 
+1227:Füstölt-főtt tarja 
+1228:Füstölt-főtt-kötözött comb 
+1229:Füstölt-főtt-kötözött lapocka 
+1230:MÉDIAELEM 
+1231:ÁLTALÁNOS 
+1232:Nézőkép: 
+1233:56. ábraforrás https://hu.depositphotos.com/1019133/stock-photo-lard-on-wooden-board.html (2024.07.02) 
+1234:Gyártó: 
+1235:Átvett 
+1236:Típus: 
+1237:Fotó 
+1238:Cím: 
+1239:56. media: Füstölt-főtt darabolt comb 
+1240:Elkészítéshez szükséges információ: 
+1241:Füstölt-főtt darabolt comb termék szemléltetés 
+1242:Tartalom leírása: 
+1243:Füstölt-főtt darabolt comb termék szemléltetés 
+1244:Saját alternatívák: 
+1245:Internetes alternatívák: 
+1246:MÉDIAELEM 
+1247:ÁLTALÁNOS 
+1248:Nézőkép: 
+1249:57. ábraforrás https://hu.depositphotos.com/130569212/stock-photo-boiled-smoked-pork-neck.html (2024.07.02) 
+1250:Gyártó: 
+1251:Átvett 
+1252:Típus: 
+1253:Fotó 
+1254:Cím: 
+1255:57. media: Füstölt- főtt tarja 
+1256:Elkészítéshez szükséges információ: 
+1257:Füstölt-főtt tarja termék szemléltetés 
+1258:Tartalom leírása: 
+1259:Füstölt-főtt tarja termék szemléltetés 
+1260:Saját alternatívák: 
+1261:Internetes alternatívák: 
+1262:MÉDIAELEM 
+1263:ÁLTALÁNOS 
+1264:Nézőkép: 
+1265:58. ábraforrás https://hu.depositphotos.com/2855521/stock-photo-big-tasty-smoked-ham-on.html (2024.07.02) 
+1266:Gyártó: 
+1267:Átvett 
+1268:Típus: 
+1269:Fotó 
+1270:Cím: 
+1271:58. media: Füstölt-főtt kötözött comb-lapocka 
+1272:Elkészítéshez szükséges információ: 
+1273:Füstölt-főtt kötözött comb-lapocka termék szemléltetés 
+1274:Tartalom leírása: 
+1275:Füstölt-főtt kötözött comb-lapocka termék szemléltetés 
+1276:Saját alternatívák: 
+1277:Internetes alternatívák: 
+1278:Hagyományos és a folyamatos zsírgyártás termékei 
+1279:Sertés zsírszövetéből közvetett, vagy közvetlen úton, olvasztással előállított termékek csoportja 
+1280:MÉDIAELEM 
+1281:ÁLTALÁNOS 
+1282:Nézőkép: 
+1283:59. ábraforrás Médiatár, saját kép 
+1284:Gyártó: 
+1285:Saját készítés 
+1286:Típus: 
+1287:Grafikon 
+1288:Cím: 
+1289:59. media: Hagyományos és folyamatos zsírgyártás termékei 
+1290:Elkészítéshez szükséges információ: 
+1291:Az egyes termékekre, vagy termékcsoportokra rákattintva odaugrik a termékről vagy termékcsoportról szóló tartalomra 
+1292:Tartalom leírása: 
+1293:Áttekintő diagram a hagyományos és folyamatos zsírgyártás termékeihez. 
+1294:Saját alternatívák: 
+1295:Internetes alternatívák: 
+1296:A hagyományos zsírgyártás termékei 
+1297:Étkezési tepertő 
+1298:A hagyományos zsírgyártás során termelődő értékes melléktermék. Bőr nélküli sertésszalonnából, vagy vizibaromfi (kacsa, liba) bőrös hájából készül. 
+1299:Hagyományos eljárással készült étkezési sült zsír 
+1300:A hagyományos zsírgyártás során termelődő enyhén sült ízű zsír. 
+1301:MÉDIAELEM 
+1302:ÁLTALÁNOS 
+1303:Nézőkép: 
+1304:60. ábraforrás https://webshop.husexpressz.hu/Szilagyi-etkezesi-teperto-250-g (2024.07.02) 
+1305:Gyártó: 
+1306:Átvett 
+1307:Típus: 
+1308:Fotó 
+1309:Cím: 
+1310:60. media: Étkezési tepertő 
+1311:Elkészítéshez szükséges információ: 
+1312:Étkezési tepertő termék szemléltetés 
+1313:Tartalom leírása: 
+1314:Étkezési tepertő szemléltetés 
+1315:Saját alternatívák: 
+1316:Internetes alternatívák: 
+1317:MÉDIAELEM 
+1318:ÁLTALÁNOS 
+1319:Nézőkép: 
+1320:61. ábraforrás https://hu.depositphotos.com/36132845/stock-photo-pork-lard-on-a-slice.html (2024.07.02) 
+1321:Gyártó: 
+1322:Átvett 
+1323:Típus: 
+1324:Fotó 
+1325:Cím: 
+1326:61. media: Hagyományos eljárással készült étkezési sertészsír 
+1327:Elkészítéshez szükséges információ: 
+1328:Hagyományos eljárással készült étkezési sertészsír termék szemléltetés 
+1329:Tartalom leírása: 
+1330:Hagyományos eljárással készült étkezési sertészsír termék szemléltetés 
+1331:Saját alternatívák: 
+1332:Internetes alternatívák: 
+1333:Folyamatos zsírgyártás termékei 
+1334:Folyamatos eljárással készült étkezési zsír: 
+1335:Olvasztási szalonna alapanyagból, folyamatos, nedves eljárással előállított fehér színű, főtt ízű étkezési zsír. Pohárban, vagy papírba csomagolva kerül forgalomba. 
+1336:MÉDIAELEM 
+1337:ÁLTALÁNOS 
+1338:Nézőkép: 
+1339:62. ábra forrás https://bevasarlas.tesco.hu/groceries/hu-HU/products/2004010980947?selectedUrl=https%3A%2F%2Fsecure.ce-tescoassets.com%2Fassets%2FHU%2F634%2F5998003100634%2FShotType1_540x540.jpg (2024.07.02) 
+1340:Gyártó: 
+1341:Átvett 
+1342:Típus: 
+1343:Fotó 
+1344:Cím: 
+1345:62. media: Étkezési sertészsír 
+1346:Elkészítéshez szükséges információ: 
+1347:Étkezési sertészsír szemléltetés 
+1348:Tartalom leírása: 
+1349:Étkezési sertészsír szemléltetés 
+1350:Saját alternatívák: 
+1351:Internetes alternatívák: 
+1352:ÁBRAJEGYZÉK 
+1353:1. media: Húskészítmények	2 
+1354:2. media: Hőkezeléssel tartósított töltelékes húskészítmények termékcsoportjai	3 
+1355:3. media: Juhbeles virsli	5 
+1356:4. media: Krinolin	6 
+1357:5. media: Szafaládé	7 
+1358:6. media: Párizsi vagy parizer	8 
+1359:7. media: Zala felvágott	10 
+1360:8. media: Sonkás felvágott	11 
+1361:9. media: Fokhagymás felvágott	12 
+1362:10. media: Mortadella	13 
+1363:11. media: Olasz felvágott	14 
+1364:12. media: Aszpikos sonka	15 
+1365:13. media: Aszpikos zöldséges sonka	16 
+1366:14. media: Nyári turista felvágott	17 
+1367:15. media: Krakkói sonka	18 
+1368:16. media: Gépsonka	19 
+1369:17. media: Csemege debreceni	21 
+1370:18. media: LecsókolbászLecsókolbászLecsókolbászLecsókolbász	22 
+1371:19. media: Cserkészkolbász	22 
+1372:20. media: Kenőmájas	24 
+1373:21. media: Májpástétom	25 
+1374:22. media: Májkrém	26 
+1375:23. media: Véreshurka	27 
+1376:24. media: Májas hurka	28 
+1377:25. media: Bácskai hurka	29 
+1378:26. media: Disznósajt	30 
+1379:27. media: Nyers töltelékes húskészítmények	31 
+1380:28. media: Sütnivaló kolbász	32 
+1381:29. media: Gyulai kolbász	33 
+1382:30. media: Csabai kolbász	34 
+1383:31. media: Parasztkolbász	35 
+1384:32. media: Pick téliszalámi	36 
+1385:33. media: Herz téliszalámi	37 
+1386:34. media: Rákóczi szalámi	38 
+1387:35. media: Báthory paprikás szalámi 	39 
+1388:36. media: Dán szalámi	40 
+1389:37. media: Góliát szalámi	41 
+1390:38. media: Sózott-pácolt húskészítmények	42 
+1391:39. media: Sózott hátaszalonna	43 
+1392:41. media: Füstölt kenyérszalonna	45 
+1393:42. media: Füstölt csemegeszalonna	46 
+1394:43. media: Füstölt kolozsvári szalonna	47 
+1395:44. media: Füstölt angolszalonna	48 
+1396:45. media: Füstölt főtt császárszalonna	49 
+1397:46. media: Füstölt-főtt erdélyi szalonna	50 
+1398:47. media: Csécsi szalonna	51 
+1399:48. media: Sült császárszalonna	52 
+1400:49. media: Sült tokaszalonna	53 
+1401:50. media: Parasztsonka	54 
+1402:51. media: Parasztlapocka	55 
+1403:52. media: Füstölt darabolt comb	56 
+1404:53. media: Lángolt karaj	57 
+1405:54. media: Füstölt csülök (hátsó)	58 
+1406:55. media: Füstölt tarja	58 
+1407:56. media: Füstölt-főtt darabolt comb	59 
+1408:57. media: Füstölt- főtt tarja	60 
+1409:58. media: Füstölt-főtt kötözött comb-lapocka	61 
+1410:59. media: Hagyományos és folyamatos zsírgyártás termékei	62 
+1411:60. media: Étkezési tepertő 	63 
+1412:61. media: Hagyományos eljárással készült étkezési sertészsír	64 
+1413:62. media: Étkezési sertészsír	65 
+1414:TÁBLAJEGYZÉK 
+1415:1. táblázat: Vörösáruk kémiai összetevői	4 
+1416:2. táblázat: Felvágottak általános kémiai összetevői	9 
+1417:3. táblázat: A füstölt-főtt kolbászok kémiai paraméterei a Magyar élelmiszerkönyv előírásai alapján	20 
+1418:4. táblázat: Érlelt félszáraz kolbászok kémiai összetevői	32 
+1419:5. táblázat: Érlelt száraz kolbászok kémiai összetevői 	33 
+1420:6. táblázat: A szárításos érleléssel készült kolbászok kémiai összetevői	35 
+1421:20. oldal 
+1422:RRF-2.2.1-22-2022-00001 azonosító számú, „Szakképzési digitális tananyagfejlesztés” c. projekt 
+1423:IKK Nonprofit Zrt. 
+1424:H-1033 Budapest, Szőlőkert utca 9. 
+1425:H-1243 Budapest, Pf.: 669 
+1426:ikk.hu | iroda@ikk.hu 
+1427:RRF-2.2.1-22-2022-00001 azonosító számú, „Szakképzési digitális tananyagfejlesztés” c. projekt 
+1428:IKK Nonprofit Zrt. 
+1429:H-1033 Budapest, Szőlőkert utca 9. 
+1430:H-1243 Budapest, Pf.: 669 
+1431:ikk.hu | iroda@ikk.hu 
+1432:1. oldal 
+1433:RRF-2.2.1-22-2022-00001 azonosító számú, „Szakképzési digitális tananyagfejlesztés” c. projekt 
+1434:IKK Nonprofit Zrt. 
+1435:H-1033 Budapest, Szőlőkert utca 9. 
+1436:H-1243 Budapest, Pf.: 669 
+1437:ikk.hu | iroda@ikk.hu

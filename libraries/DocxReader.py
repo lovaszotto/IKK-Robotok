@@ -27,6 +27,7 @@ class DocxReader:
           "app_properties": {...},
           "paragraphs": ["...", ...],
           "runs": [["Run1 a 1. bekezdésben", ...], ...],
+          "paragraph_in_cells": ["...", ...],
           "tables": [[["cell(0,0)","cell(0,1)"],["cell(1,0)","..."]], ...],
           "headers": ["...", ...],
           "footers": ["...", ...],
@@ -56,7 +57,16 @@ class DocxReader:
         # Szöveg: bekezdések + run-ok
         paragraphs = [p.text for p in doc.paragraphs]
         runs = [[r.text for r in p.runs] for p in doc.paragraphs]
-
+   
+        #Paragraph in cell
+        paragraph_in_cells = []
+        for table in doc.tables:
+            for row in table.rows:
+                for cell in row.cells:
+                    for p in cell.paragraphs:
+                        text = p.text.strip()
+                        if text:
+                            paragraph_in_cells.append(text)        
         # Táblák
         tables = []
         for t in doc.tables:
@@ -158,6 +168,7 @@ class DocxReader:
             "paragraphs": paragraphs,
             "runs": runs,
             "tables": tables,
+            "paragraphs_in_cells": paragraph_in_cells,
             "headers": headers,
             "footers": footers,
             "footnotes": footnotes,

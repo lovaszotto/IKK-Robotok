@@ -42,33 +42,28 @@ Test Case 03 - Fogalomtar Ellenorzese
     ${docx_file_fog}=    Replace String    ${docx_file}    _tema_kezirata    _fogalomtar_kezirata
     # Biztonságos beolvasás (TRY/EXCEPT helyett Robot kulcsszintű hibakezelés)
     #Log String To Console     Fogalomtár kézirata fájl:${docx_file_fog}
-    ${read_status}    ${docx_json_fog}=    Run Keyword And Ignore Error    DocxReader.Read Docx All    ${docx_file_fog}
-   Log String To Console     Fogalomtár kézirata fájl tartalma:\n ${docx_json_fog} \n\n
+     ${read_status}    ${xmlAllText}=    Run Keyword And Ignore Error    Read Docx All as XML    ${docx_file_fog}
+    
+    @{xml_lines}=    Split To Lines    ${xmlAllText}
+    #kiirja eg xml_line.txt fájlba az xml sorokat
+    #${idx}=    Set Variable    0
+    #FOR    ${line}    IN    @{xml_lines}
+    #    #Log To Console    ${idx}:${line}
+    #    Append To File    xml_line.txt    ${idx}:${line}\n
+    #    ${idx}=    Evaluate    ${idx} + 1
+    #END
+    
     IF    $read_status == 'FAIL'
-        ${err_msg}=    Set Variable    Olvasási hiba (${docx_json_fog})
+        ${err_msg}=    Set Variable    Olvasási hiba (${docx_file_fog})
         Log String To Console     [ERROR] ${err_msg}
         Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
          RETURN
-    ELSE
-        #Log String To Console     Fogalomtár fájl:${docx_file_fog}   >>>BEOLVASVA ${docx_json_fog}
-        #Set Global Variable    ${docx_json_fog}    ${docx_json_fog}
-        
-        
-        ${paragraphs}=    Get From Dictionary    ${docx_json_fog}    paragraphs
-       
-        #kiirja a paragrafusok számát
-        ${np}=      Evaluate    len(${paragraphs})
-        Log String To Console    Összes paragrafus a kompetencia fájlban: ${np}
-        IF    ${np} == 0
-            ${new_err}=    Set Variable    Nincsenek paragrafusok a kompetencia teszt kéziratában!
-            Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${new_err}
-            RETURN
-        END
     END
   
         #------------------------------- második sor Egyedi megrendelés azonosítója ellenőrzése --------------------
-        ${second_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
-        Log String To Console    Második sor(${act_line}): ${second_paragraph}
+        #${second_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01    ${paragraphs}    ${act_line}
+         ${second_paragraph}=    Get From List    ${xml_lines}    0    
+        Log String To Console    Második sor(0): ${second_paragraph}
         IF    $second_paragraph == ''
             ${new_err}=    Set Variable    A második sor nem található!
             Append To List    ${errors}    ${new_err}
@@ -94,8 +89,8 @@ Test Case 03 - Fogalomtar Ellenorzese
         END
         
         #------------------------------- harmadik sor cím ellenőrzése --------------------
-        ${third_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01   ${paragraphs}    ${act_line}
-        Log String To Console    Harmadik sor(${act_line}): ${third_paragraph}
+         ${third_paragraph}=    Get From List    ${xml_lines}    1
+        Log String To Console    Harmadik sor(1): ${third_paragraph}
         Log String To Console    Harmadik sor(Orig): ${DOKUMENTUM_CIMSOR}
         IF    $third_paragraph == ''
             ${new_err}=    Set Variable    A harmadik sor kötelezően nem lehet üres!
@@ -115,7 +110,8 @@ Test Case 03 - Fogalomtar Ellenorzese
             Log String To Console     [FOGALOMTAR] ${global_cim}
         END
         #------------------------------- negyedik sor Témák kézirata ellenőrzése --------------------
-        ${fourth_paragraph}    ${act_line}=    Get Next Non Empty Paragraph TC01   ${paragraphs}    ${act_line}
+         ${fourth_paragraph}=    Get From List    ${xml_lines}    2 
+        ${fourth_paragraph}=    Strip String    ${fourth_paragraph}
         Log String To Console    Negyedik sor(${act_line}): ${fourth_paragraph}
         ${normalized_fourth}=    Strip String    ${fourth_paragraph}
         IF    $normalized_fourth != 'Fogalomtár kézirata'
