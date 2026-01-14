@@ -102,7 +102,7 @@ Szerzo Lektor Ellenorzesek
             ${szerzo_item}=    Strip String    ${szerzo_item}
             ${lektor_item}=    Strip String    ${lektor_item}
             #Log String To Console    Compare:${szerzo_item} and ${lektor_item}
-            IF    '${szerzo_item}' == '${lektor_item}'
+            IF    '${szerzo_item}' == '${lektor_item}' and ${lektor_item} != ''
                 #Log String To Console    Megegyezik a szerző és a lektor: ${szerzo_item}
                 ${new_err}=    Set Variable    A Kéziratíró és a Szakmai lektor nem lehet azonos!
                 IF    $err_msg == ''

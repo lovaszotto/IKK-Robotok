@@ -1,505 +1,359 @@
-0:Egyedi megrendelés azonosítója: EM-2.2.3 
-1:Hús összetétele, vágás utáni elváltozásai 
+0:Egyedi megrendelés azonosítója: EM-2.9.4 
+1:Agrárműszaki erőforrások hidraulikus teljesítményátvitele IV. 
 2:Témák kézirata 
-3:Kéziratíró: 
-4:Nágl Péter 
-5:Szakmai lektor: 
-6:Kosztolányi Attila 
-7:Évfolyam: 
-8:11. évfolyam 
-9:Óraszám: 
-10:6 óra 
-11:Iskolai felhasználási cél 
-12:Ágazat: 
-13:Élelmiszeripar 
-14:Szakma: 
-15:Húsipari technikus 
-16:Szakmairány: 
-17:- 
-18:Tanulási terület: 
-19:Húsipari alapműveletek 
-20:Tantárgy: 
-21:Gyártástechnológiai alapműveletek és gépei 
-22:TARTALOMJEGYZÉK 
-23:1	A Hús	3 
-24:1.1	A hús Kémiai összetevői	4 
-25:1.1.1	Víz	5 
-26:1.1.2	Fehérje	7 
-27:1.1.3	Zsír	9 
-28:1.1.4	Szénhidrát	11 
-29:1.1.5	Vitaminok	12 
-30:1.1.6	Ásványi anyagok, nyomelemek	14 
-31:1.1.7	Egyéb anyagok	15 
-32:1.2	A hús táplálkozás-élettani jelentősége	16 
-33:1.2.1	A hús, mint fehérjeforrás	17 
-34:1.2.2	A zsírtartalom jelentősége a hús táplálkozásbiológiai értékében	20 
-35:1.2.3	A húsban lévő szénhidrátok jelentősége	20 
-36:1.2.4	A húsban található védő tápanyagok táplálkozás-élettani jelentősége	20 
-37:1.2.4.1	Vitaminok	21 
-38:1.2.4.2	Ásványi anyagok, nyomelemek	21 
-39:1.3	A hús szövettani összetevői, érzékszervi tulajdonságai	22 
-40:1.3.1	Hús állománya	22 
-41:1.3.2	A hús színe	23 
-42:1.4	Vágás után végbemenő folyamatok a húsban	26 
-43:1.4.1	Az állati izomzat működése	26 
-44:1.4.2	A vágás után a húsban bekövetkező változások	27 
-45:1.4.2.1	A vágás utáni, hullamerevség előtti állapot	27 
-46:1.4.2.2	Hullamerevség (rigor mortis)	29 
-47:1.4.2.3	Hullameverség megszűnése (post rigor szakasz)	30 
-48:1.4.3	A hús víztartó képessége	30 
-49:1.4.4	Normál és rendellenes húsérési folyamatok	33 
-50:1.4.4.1	PSE hús (pale, soft, exudative)	35 
-51:1.4.4.2	DFD hús (dark, firm, dry)	36 
-52:1.4.5	A hidegrövidülés jelensége	39 
-53:1.5	A hús érése, a hús porhanyósságát kialakító tényezők	39 
-54:ÁBRAJEGYZÉK	42 
-55:IRODALOMJEGYZÉK	43 
-56:A Hús 
-57:Húsnak nevezzük az Európai Unióban, így Magyarországon hatályos jogszabályok által meghatározott emlősállatokból és madárfajokból (vágóállatok) kitermelt húst. A hús a vágóállatok harántcsíkolt izomszövetből felépülő vázizomzata, amely szerkezetéből adódóan tartalmazhat némi kötőszövetet, vérereket és idegszövetet. 
-58:A hús az emberi szervezet számára fontos tápanyagok és egyéb anyagok forrása. A vágóállatok húsának összetételét, az egyes tápanyagok és összetevők egymáshoz viszonyított arányát sok tényező befolyásolja: 
-59:A hús főbb összetevőinek mennyiségét és arányát befolyásolja 
-60:-	az állat faja, fajtája 
-61:-	az állat kora és ivara 
-62:-	a húsrész szervezeten belüli elhelyezkedése 
-63:-	a húsrész szöveti összetétele 
-64:-	az állat takarmányozása 
-65:MÉDIAELEM 
-66:ÁLTALÁNOS 
-67:Nézőkép: 
-68:1. ábraforrás https://hu.depositphotos.com/15605637/stock-photo-raw-meat-in-hypermarket.html (2024.06.21.) 
-69:Gyártó: 
-70:Átvett 
-71:Típus: 
-72:Illusztráció 
-73:Cím: 
-74:1. ábra: A hús szemléltető fotója 
-75:Elkészítéshez szükséges információ: 
-76:- 
-77:Tartalom leírása: 
-78:A kép a szövegrészt kísérő, szemléltető funkciót lát el. 
-79:Saját alternatívák: 
-80:- 
-81:Internetes alternatívák: 
-82:- 
-83:A hús Kémiai összetevői 
-84:A hús a többi állati és növényi eredetű élelmiszeripari alapanyaghoz hasonlóan a természetben előforduló és az élet kialakulásához nélkülözhetetlenül szükséges kémiai eredetű elemek, vegyületek, molekulák sokaságából épül fel. Ezek a kémia egységek eltérő mértékben és mennyiségben játszanak szerepet a hús felépítésében és jellemző tulajdonságainak kialakításában. 
-85:A húst felépítő legfontosabb kémiai összetevők: 
-86:víz 
-87:fehérjék 
-88:zsírok 
-89:szénhidrátok 
-90:vitaminok 
-91:ásványi anyagok 
-92:nyomelemek 
-93:Víz 
-94:A húsban a legnagyobb mennyiségben jelen lévő alkotóelem a víz. A hús víztartalma 60-75% (m/m). Értéke viszonylag tág határok között mozog. A hús víztartalmát több tényező befolyásolhatja. 
-95:Az állat faja egyértelműen hatással van rá. A vágóállatok közül a halak és a csirke húsának a legmagasabb a víztartalma, emiatt hűtött körülmények között is rövidebb ideig tartható el, mint az alacsonyabb víztartalmú marhahús. Az egyes fajon belül a különböző fajtájú egyedek húsa között is megfigyelhetők a víztartalom-különbségek. Például a mangalica sertés húsának víztartalma alacsonyabb, mint a pitrain sertésé. 
-96:A hús víztartalmának szempontjából fontos tényező az állat kora. A fiatalabb állatok húsának magasabb a víztartalma, mint az idősebb egyedeké. Emiatt például az idősebb állatok húsa a szalámigyártás fő alapanyagaként jobban hasznosítható, mivel a szalámi gyártásának technológiája során az egyik fő cél a termék vízaktivitásának lecsökkentése, amelyet a hús víztartalmának részleges eltávolításával érnek el. 
-97:Egy vágóállaton belül az egyes testtájak húsrészei között is nagyok lehetnek a különbségek. Azt alacsonyabb zsírtartalmú húsrészeknek, mint a comb, vagy a hátizomzat magasabb a víztartalma, mint a zsírszövettel átszőtt nyak, vagy oldalas részeknek. 
-98:MÉDIAELEM 
-99:ÁLTALÁNOS 
-100:Nézőkép: 
-101:2. ábraforrás https://www.meatinstitute.org/index.php?ht=a/GetDocumentAction/i/82711 (2024.06.21.) 
-102:Gyártó: 
-103:Átvett 
-104:Típus: 
-105:Illusztráció 
-106:Cím: 
-107:2. ábra: Hús víztartalma 
-108:Elkészítéshez szükséges információ: 
-109:Ehhez a médiaelemhez lehet saját készítést is betenni. A szemléltető képhez hasonlóan egy szelet hús és mellette egy pohárban húslé. 
-110:Tartalom leírása: 
-111:Hús víztartalma szemléltető fotó 
-112:Saját alternatívák: 
-113:Internetes alternatívák: 
-114:Fehérje 
-115:A hús fehérjetartalmát a víztartalomhoz hasonlóan több tényező befolyásolja. Ilyen tényező lehet a vágóállat faján kívül az adott húsrész zsír- és víztartalma, illetve a testen belüli elhelyezkedése. 
-116:Alacsony zsír- és magas víztartalmú, száraz hús fehérjetartalma: 22-23% (m/m) 
-117:Magas zsír- és alacsonyabb víztartalmú, zsíros hús fehérjetartalma: 12-16% (m/m) 
-118:A húsban lévő fehérjetartalom meghatározása során figyelembe kell venni a fehérje típusát is. A húsban lévő fehérjék esetében megkülönböztetünk: 
-119:-	izomfehérjéket (miozin, aktin) 
-120:-	kötőszöveti fehérjéket (kollagén, elasztin, keratin) 
-121:MÉDIAELEM 
-122:ÁLTALÁNOS 
-123:Nézőkép: 
-124:3. ábraforrás https://www.crossfitinvictus.com/blog/muscle-contraction-really-cool-protein-called-myosin/ (2024.06.21.) 
-125:Gyártó: 
-126:Átvett 
-127:Típus: 
-128:Kép 
-129:Cím: 
-130:3. ábra: Izomfehérjék felépítése 
-131:Elkészítéshez szükséges információ: 
-132:Tartalom leírása: 
-133:Az izomfehérjék szerkezetének szemléltetése 
-134:Saját alternatívák: 
-135:Internetes alternatívák: 
-136:https://hu.depositphotos.com/237727316/stock-photo-healthy-food-high-in-protein.html (2024.06.21.) 
-137:Zsír 
-138:A hús zsírtartalma szintén függ az állat fajától, fajtájától, korától, ivarától, a hús testen belüli elhelyezkedéstől, illetve a húsrész víz és fehérje tartalmától. 
-139:A magas fehérje- és magas víztartalmú, száraz hús zsírtartalma 3 – 10% (m/m) között, az alacsony fehérje és alacsony víztartalmú hús zsírtartalma 10 – 37% (m/m) között változhat 
-140:A hús zsírtartalma a tápértéken kívül fontos biológiai értéket is képvisel, mert a zsírt alkotó zsírsavak azáltal, hogy elraktározzák a hús ízéért felelős vegyületeket, fontos szerepet töltenek be a hús ízének, illatának, zamatának kialakításában, illetve a zsírban oldódó vitaminok D, E, K, A) raktározásában. Az izomrostok közé beépült zsír nagy mennyiségben láthatóvá válik és márványozottság (intramuszkuláris zsír) formájában figyelhető meg. 
-141:MÉDIAELEM 
-142:ÁLTALÁNOS 
-143:Nézőkép: 
-144:4. ábraforrás depositphotos_128999104-stock-photo-fresh-delicious-raw-beef. (2024.06.21.) 
-145:Gyártó: 
-146:Átvett 
-147:Típus: 
-148:Fotó 
-149:Cím: 
-150:4. ábra: Márványozott hús 
-151:Elkészítéshez szükséges információ: 
-152:. 
-153:Tartalom leírása: 
-154:A hús márványozottságának szemléltetése 
-155:Saját alternatívák: 
-156:Internetes alternatívák: 
-157:Szénhidrát 
-158:A szénhidrát viszonylag kis mennyiségben, 0,1-1% (m/m)-ban van jelen a húsban. A szénhidrát a glükóz poliszacharidjaként, glikogénként raktározódik el a májban és az izomban. Mozgás közben az izom a glikogén lebontásával jut energiához. A szénhidráttartalom elsősorban a húsban a vágás után lezajló folyamatokat befolyásolja. Fontos szerepe van a hús érésében, porhanyósságának kialakulásában. 
-159:MÉDIAELEM 
-160:ÁLTALÁNOS 
-161:Nézőkép: 
-162:5. ábraforrás https://stock.adobe.com/search?k=glycogen&asset_id=306994909 (2024.06.21.) 
-163:Gyártó: 
-164:Átvett 
-165:Típus: 
-166:Illusztráció 
-167:Cím: 
-168:5. ábra: Glikogén molekula felépítése 
-169:Elkészítéshez szükséges információ: 
-170:. 
-171:Tartalom leírása: 
-172:A glikogén molekula szerkezetének a szemléltetése 
-173:Saját alternatívák: 
-174:Internetes alternatívák: 
-175:Vitaminok 
-176:A húsban lévő vitaminok aránya kb. 1% (m/m). Jelentős mennyiségben fordulnak elő a vízben oldódó B vitamincsoport tagjai (B1, B2, B3, B6, B12, niacin), illetve a zsírban oldódó A és D vitaminok. A hús vitamintartalma és azon belül a vitamintípusok aránya a vágóállat fajok esetében eltérő lehet. A sertéshús például a legjelentősebb B1 vitaminforrás, míg a marhahúsnak a B12 vitamin-, a baromfihúsnak a B3 vitamintartalma jelentős. 
-177:MÉDIAELEM 
-178:ÁLTALÁNOS 
-179:Nézőkép: 
-180:6. ábraforrás https://hu.depositphotos.com/504698748/stock-photo-natural-sources-vitamin-b12-cobalamin.html (2024.06.21.) 
-181:Gyártó: 
-182:Átvett 
-183:Típus: 
-184:Illusztráció 
-185:Cím: 
-186:6. ábra: Hús vitamintartalmát szemléltető fotó 
-187:Elkészítéshez szükséges információ: 
-188:. 
-189:Tartalom leírása: 
-190:A hús vitaminjainak szemléltetése 
-191:Saját alternatívák: 
-192:Internetes alternatívák: 
-193:Ásványi anyagok, nyomelemek 
-194:Természetes módon a méretükből adódóan, kisebb mennyiségben, kb. 1-2% (m/m)-ban fordulnak elő a húsban, ennek ellenére a hús ásványianyag-és nyomelem tartalma jelentős. A hús kisebb-nagyobb mennyiségben szinte minden ásványi anyagot és nyomelemet tartalmaz. Főbb ásványi anyagok és nyomelemek: kálcium, jód, vas, magnézium, foszfor, cink, kálium, nátrium. 
-195:MÉDIAELEM 
-196:ÁLTALÁNOS 
-197:Nézőkép: 
-198:7. ábraforrás https://hu.depositphotos.com/5518777/stock-photo-healthy-life-concept.html (2024.06.21.) 
-199:Gyártó: 
-200:Átvett 
-201:Típus: 
-202:Illusztráció 
-203:Cím: 
-204:7. ábra: Ásványi anyagok, nyomelemek szemléltető fotó 
-205:Elkészítéshez szükséges információ: 
-206:. 
-207:Tartalom leírása: 
-208:A hús ásványi anyagainak szemléltetése 
-209:Saját alternatívák: 
-210:Internetes alternatívák: 
-211:Egyéb anyagok 
-212:Nagyon kis mennyiségben a hús íz- és zamatanyagokat, illetve foszfortartalmú vegyületeket is tartalmaz, amely elsősorban a hús ízének kialakításáért felelősek. 
-213:A hús táplálkozás-élettani jelentősége 
-214:A hús megfelelő mennyiségben fontos szerepet játszik az egészséges és kiegyensúlyozott táplálkozásban. Nagy mennyiségben tartalmaz olyan alaptápanyagokat, amelyek nélkülözhetetlenek az emberi szervezet felépítése és működtetése szempontjából. Ilyen alaptápanyagoknak tekinthetők a fehérjék, zsírok és a szénhidrátok. 
-215:MÉDIAELEM 
-216:ÁLTALÁNOS 
-217:Nézőkép: 
-218:8. ábraforrás depositphotos_8840959-stock-photo-products-for-a-balanced-diet (2024.06.21.) 
-219:Gyártó: 
-220:Átvett 
-221:Típus: 
-222:Illusztráció 
-223:Cím: 
-224:8. ábra: A hús táplálkozásban betöltött szerepe 
-225:Elkészítéshez szükséges információ: 
-226:. 
-227:Tartalom leírása: 
-228:A húsnak a táplálkozásban betöltött szerepének szemléltetése 
-229:Saját alternatívák: 
-230:Internetes alternatívák: 
-231:A hús, mint fehérjeforrás 
-232:A fehérjéknek fontos élettani, sejtalkotó és sejtfelépítő szerepük van. A fehérjék nélkülözhetetlenek az emberi izomzat, illetve az egész szervezet felépítésében. Jelentős feladatot töltenek be a víz megkötésében, a szervezet védekező képességének megtartásában, illetve az izomműködés biztosításában. 
-233:A fehérjék élettani jelentősége 
-234:A fehérjék az állati és növényi eredetű élelmiszerek fogyasztása során jutnak a szervezetbe. A szervezet a táplálékban található formában nem tudja hasznosítani a fehérjéket. Ezeket a fehérjéket az emésztés során aminosavakra bontja, és ezekből az aminosavakból építi fel saját fehérjéit. A fehérjék alapvetően nitrogéntartalmú szerves vegyületek, amelyek szénből, hidrogénből, oxigénből, nitrogénből és kénből épülnek fel, de tartalmazhatnak más elemeket is, mint például foszfor, vas és magnézium. Ezekből az elemekből épülnek fel a fehérjét felépítő aminosavak. Az emberi táplálkozásban nagyjából húsz aminosavnak van jelentősége. Az aminosavak többségét az emberi szervezet az elfogyasztott tápanyagot felhasználva önmaga is elő tudja állítani, de kilenc, nélkülözhetetlen aminosavat viszont nem képes szintetizálni, ezért ezeket az úgynevezett esszenciális aminosavakat a táplálék útján kell a szervezetbe juttatni. Ha ezek az aminosavak hiányoznak, az ember nem tudja saját fehérjéit felépíteni. 
-235:Esszenciális aminosavak: 
-236:•	fenilalanin, 
-237:•	hisztidin, 
-238:•	izoleucin, 
-239:•	leucin, 
-240:•	lizin, 
-241:•	metionin, 
-242:•	treonin, 
-243:•	triptofán, 
-244:•	valin. 
-245:Élettani jelentőségük alapján megkülönböztetünk teljes értékű és nem teljes értékű fehérjéket. A teljes értékű fehérjék az izomfehérjékben találhatók és tartalmazzák mind a kilenc esszenciális aminosavat. A nem teljes értékű fehérjék, mint a kötőszöveti fehérjék csak részben tartalmazzák az esszenciális aminosavakat. 
-246:MÉDIAELEM 
-247:ÁLTALÁNOS 
-248:Nézőkép: 
-249:9. ábraforrás https://www.ditchthecarbs.com/meat-protein/ (2024.06.21.) 
-250:Gyártó: 
-251:Átvett 
-252:Típus: 
-253:Illusztráció 
-254:Cím: 
-255:9. ábra: A húsfehérjék szerepe a táplálkozásban 
-256:Elkészítéshez szükséges információ: 
-257:. 
-258:Tartalom leírása: 
-259:Húsfehérjék a táplálkozásban betöltött szerepének szemléltetése 
-260:Saját alternatívák: 
-261:Internetes alternatívák: 
-262:A zsírtartalom jelentősége a hús táplálkozásbiológiai értékében 
-263:A hús zsírtartalmának az elsődleges funkciója az emberi szervezet számára az energia szolgáltatása. A szervezet működése szempontjából az energia szolgáltatásán kívül azért is fontosak, mert létfontosságú zsírsavakat tartalmaznak és a zsírban oldódó vitaminok is a zsírszövetben raktározódnak el. A zsírok a szervezet számára védő funkciót is betöltenek, mivel védik a belső szerveket és hőszabályozó, hőszigetelő funkciót is ellátnak. 
-264:A húsban lévő szénhidrátok jelentősége 
-265:A hús szénhidráttartalma a növényi élelmiszerekhez képest kisebb, emiatt a szervezet működéséhez szükséges szénhidrátmennyiséget a hús kevésbé tudja biztosítani.  A húsban lévő szénhidrát elsősorban glikogén formájában van jelen, ami az állat halála után lebomlik és végül tejsavvá alakul át. A keletkezett tejsav csökkenti a hús pH értékét ezáltal befolyásolja a hús érési folyamatait. 
-266:A húsban található védő tápanyagok táplálkozás-élettani jelentősége 
-267:A védő tápanyagok nélkülözhetetlenek a szervezet egészséges működésének biztosításához, az anyagcsere folyamatok szabályozásához, zavartalan lefutásához. A húsban található védő tápanyagokat két nagyobb csoportba sorolhatjuk: 
-268:vitaminok 
-269:ásványi anyagok és nyomelemek 
-270:Vitaminok 
-271:A vitaminok az emberi szervezet anyag és energiaforgalmának biztosításában nélkülözhetetlen szerves vegyületek. A vitaminok fontos szerepet játszanak az anyagcsere folyamatokban, a szervezet ellenálló képességének fokozásában, az idegrendszer kiegyensúlyozott működésében, a növekedés elősegítésében. Egyoldalú, vitaminszegény táplálkozás esetén a szervezet nem jut megfelelő mennyiségben az egészséges működéséhez szükséges vitaminokhoz, ami egyes esetekben úgynevezett hiánybetegségek kialakulását idézheti elő. Ilyen hiánybetegség például a C-vitamin hiány okozta skorbut, vagy az A-vitamin hiány esetén fellépő farkasvakság.  A húsban nagyrészt olyan vitaminok találhatók, amelyek a természetben elsősorban az állati eredetű élelmiszerekben fordulnak elő. Ilyen vitamin az A és a D vitamin, valamint a B vitamincsoport vitaminjai. 
-272:Ásványi anyagok, nyomelemek 
-273:Az ásványi anyagok a természetben így az állati szervezetben is megtalálható szervetlen elemek. Fontos szerepet töltenek be az anyagcsere és idegrendszeri folyamatok normál működésének biztosításában. Az emberi szervezet számára szükséges a napi mennyiség, az állati és növényi élelmiszerek fogyasztásával fedezhető. 
-274:Azokat az elemeket, amelyeket grammnyi mennyiségben igényel a szervezet makroelemeknek,  amelyeket pedig milligramm vagy ennél kisebb mennyiségben igényel, mikroelemeknek vagy nyomelemeknek nevezzük. 
-275:Makroelemek közé tartoznak: nátrium, kálium, kalcium, magnézium, foszfor, klór. 
-276:Mikroelemek közé tartoznak: vas, réz, cink, mangán, fluor, jód. 
-277:A hús szövettani összetevői, érzékszervi tulajdonságai 
-278:Húsipari szempontból a húsnak a vágóállatokból kitermelt vázizomzatát nevezzük, amelynek a fő tömegét a harántcsíkolt izomszövet teszi ki. A hús összetételét tekintve összetett rendszer, mert a harántcsíkolt izomszöveten kívül eltérő mértékben tartalmazhat kötőszöveti elemeket, zsírszövetet, ereket, idegeket. A hús szöveti összetételét nagymértékben befolyásolja a vágóállat faja és fajtája. Az egyes vágóállatok húsában (pl. sertés, szarvasmarha, csirke) eltérő mértékben van jelen az izomrostok között lerakódott zsír, illetve különbség mutatható ki a kötőszöveti fehérjék mennyiségében is. 
-279:Hús állománya 
-280:A hús 0-5 °C közötti hűtött állapotban jól aprítható és szeletelhető. Állománya a szöveti felépítéséből adódóan kemény, rugalmas, korlátozottan összenyomható, azonban a különböző vágóállat fajokból, fajtákból és eltérő testtájakból származó hús nem minden esetben rendelkezik ugyanolyan tulajdonságokkal. A hús állományát víztartalom és szöveti összetétel nagymértékben befolyásolja. A magasabb víz és alacsonyabb kötőszöveti tartalmú húsrészek, mint például a sertés karaj és a comb egyes részei keményebb és rugalmasabb tulajdonságot mutatnak a magasabb zsírtartalmú húsrészeknél. A hús felépítésében döntő szerepet játszó izomkötegek egymáshoz kapcsolódása, összehúzódott és elernyedt állapota is befolyással van a hús keménységére. A hullamerevség során összehúzódott izomkötegek miatt alakul ki a hús kemény állománya. Az érési folyamatok eredményeként a fehérjebontó enzimek lebontják az izomkötegek összehúzódását előidéző izomfehérjék keresztkötéseit, ezáltal a hús állománya lényegesen puhább, porhanyósabb lesz. Az izomkötegek között kialakult zsír azáltal, hogy egy puhább állományú réteget képez az izomkötegek között, ami csökkenti a hús keménységét. Emiatt a magasabb zsírtartalmú hús állománya puhább az alacsony zsírtartalmú húsrészekhez képest. 
-281:MÉDIAELEM 
-282:ÁLTALÁNOS 
-283:Nézőkép: 
-284:10. ábraforrás https://hu.depositphotos.com/15791497/stock-photo-meat.html (2024.06.21.) 
-285:Gyártó: 
-286:Átvett 
-287:Típus: 
-288:Illusztráció 
-289:Cím: 
-290:10. ábra: Hús kemény, rugalmas állománya 
-291:Elkészítéshez szükséges információ: 
-292:. 
-293:Tartalom leírása: 
-294:A hús állományának szemléltetése 
-295:Saját alternatívák: 
-296:Internetes alternatívák: 
-297:A hús színe 
-298:A hús piros-rózsaszín színét a nagyrészt hús szöveteiben jelen lévő húspigment, más néven a mioglobin mennyisége határozza meg. A mioglobin egy oxigént megkötő fehérje, amely az izmok oxigénnel való ellátásában játszik szerepet. A mioglobin az oxigén mellett képes a húsban lévő vas ionokat is megkötni, oxomioglobin vegyület jön létre. A keletkezett vegyület fogja kialakítani a hús élénk piros színét.  A mioglobin mennyisége a húsban függ az állat korától, ivarától, fajától, fajtájától. A hús szövetekben minél nagyobb a mioglobin és minél több a megköthető vas mennyisége, a hús annál sötétebb vörös színű lesz. Az idősebb állatok húsa több mioglobint és a takarmányozás miatt több vasat tartalmaz, emiatt a húsuk is sötétebb színű. A baromfi húsban a mioglobin mennyisége sokkal kisebb, mint a szarvasmarha húsban, emiatt a baromfihús halványabb rózsaszínű, a marhahús sötét vörös színű lesz. Az állat különböző testtájaiban elhelyezkedő húsrészek piros színe is eltérő élénkségű lehet annak függvényében, hogy az állat mozgásában az adott húsrész milyen szerepet tölt be. A több mozgást végző, a testtartásért és a mozgásért felelős, jobban igény bevett izomszövetnek nagyobb az oxigén igénye, emiatt az adott húsrészben nagyobb lesz a mioglobin koncentráció, így az állati testben a nagy erőkifejtést, sok mozgást végrehajtó húsrészek sötétebb vörös színűek, a kevesebb mozgást végző húsrészeknél. A mioglobin környezeti hatásokra, mint például a pH csökkenés, vagy a környezeti hőmérséklet emelkedése könnyen oxidálódhat. Az oxidálódott mioglobin elveszti oxigénkötő tulajdonságát, oxomioglobin helyett metmioglobin keletkezik, így a vas ionok hatására a hús nem élénk vörös, hanem szürkés, vagy barnás színű lesz. Emiatt van az, hogy a főtt, illetve a sült húsok színe szürkés, vagy barnás színű. 
-299:MÉDIAELEM 
-300:ÁLTALÁNOS 
-301:Nézőkép: 
-302:11. ábraforrás https://hu.depositphotos.com/498561708/stock-photo-assortment-raw-meat-chicken-beef.html (2024.06.21.) 
-303:Gyártó: 
-304:Átvett 
-305:Típus: 
-306:Illusztráció 
-307:Cím: 
-308:11. ábra: Sertés, marha és baromfi húsok színkülönbsége 
-309:Elkészítéshez szükséges információ: 
-310:Az első vágódeszkán a csirke húsok, a második vágódeszkán a legsötétebb húsok a marhahúsok, a harmadik vágódeszkán sertéshúsok láthatók. A sertéshúsoknál testtájakat színük szerint is meg lehet különböztetni. Felül a karaj, alul a tarja. 
-311:Tartalom leírása: 
-312:Sertés, marha és baromfi hús színkülönbségének szemléltetése 
-313:Saját alternatívák: 
-314:Internetes alternatívák: 
-315:Vágás után végbemenő folyamatok a húsban 
-316:Az állati izomzat működése 
-317:Az állati izomzat működéséhez szükséges kémiai energiát a táplálékkal a szervezetbe kerülő szénhidrát biztosítja. A táplálék emésztése során a szénhidrát glikogénné alakul át, amely bekerül a véráramba, majd onnan a májba. Az állat nyugodt állapotában a glikogén a májban raktározódik el. Az állat mozgása során a májban elraktározott glikogén felszabadul és a véráram segítségével eljut a munkát végző izomszövetekhez. Az izom a működése (összehúzódás-elernyedés) során a glikogén oxigén jelenlétében nagy energiájú foszfát vegyületté, ATP-vé (adenozin-trifoszfát) bomlik le, majd a keletkezett ATP további lebomlásával energia szabadul fel. Ezt a felszabadult energiát az izomzat a működése (elernyedése-összehúzódása) során felhasználja. Minél erőteljesebb az izommunka, az izmoknak annál több ATP-re és oxigénre van szüksége. A lebomlott glikogén és ATP oxigén jelenlétében energia felszabadulása mellett, nagyrészt vízzé és széndioxiddá, kisebb részben tejsavvá alakul. A folyamat során a vér a keletkezett tejsavat a májba szállítja, ahol megtörténik a visszaalakulás glikogénné, ami a májban újra elraktározódik. A keletkezett széndioxidot szintér a vér szállítja el a tüdőhöz, ami a légzés során kiürül a szervezetből. A jelenség során nagy mennyiségű hő termelődik, amely az állat normál testhőmérsékletét biztosítja. 
-318:MÉDIAELEM 
-319:ÁLTALÁNOS 
-320:Nézőkép: 
-321:12. ábraforrás Saját készítés 
-322:Gyártó: 
-323:Saját készítés 
-324:Típus: 
-325:folyamatábra 
-326:Cím: 
-327:12. ábra: Az izomban mozgás során végbemenő szénhidrát lebontási folyamatok 
-328:Elkészítéshez szükséges információ: 
-329:A folyamatábra egyes lépései animációban, időrendben egymás után jelenjenek meg 
-330:Tartalom leírása: 
-331:Az izomban mozgás során végbemenő szénhidrát lebontási folyamatok szemléltetése 
-332:Saját alternatívák: 
-333:Internetes alternatívák: 
-334:A vágás után a húsban bekövetkező változások 
-335:A vágás utáni, hullamerevség előtti állapot 
-336:Az állat halála után megszűnik az izomzat oxigén ellátása (megszűnik a légzése). Oxigén hiányában a glikogén és az ATP lebomlása során nem víz, hanem nagy mennyiségű tejsav képződik. A keringés megszűnésével a vér már nem tudja az izmokból elszállítani a nagy mennyiségben keletkezett tejsavat, elindul a hús pH értékének csökkenése. A glikogén és a lebomlásával keletkező ATP mennyisége a húsban a folyamat során nagymértékben lecsökken, hiszen az állat halála után megszűnik a táplálék útján bevitt szénhidrát utánpótlás. Az ilyen hús élénkvörös színű, rugalmas állományú, jól megmunkálható. 
-337:MÉDIAELEM 
-338:ÁLTALÁNOS 
-339:Nézőkép: 
-340:13. ábraforrás saját készítés 
-341:Gyártó: 
-342:Saját készítés 
-343:Típus: 
-344:folyamatábra 
-345:Cím: 
-346:13. ábra: A húsban a vágás után lezajló szénhidrát lebontási folyamatok 
-347:Elkészítéshez szükséges információ: 
-348:A folyamatábra egyes lépései animációban, időrendben egymás után jelenjenek meg 
-349:Tartalom leírása: 
-350:A húsban a vágás után lezajló szénhidrát lebontási folyamatok szemléltetése 
-351:Saját alternatívák: 
-352:Internetes alternatívák: 
-353:Hullamerevség (rigor mortis) 
-354:A glikogén és ATP hiányában a húsban lévő kalcium hatására a különálló aktin és miozin izomfehérjék összekapcsolódnak, az izomzat összehúzódik és a halál után pár órával beáll a hullamerevség állapota. A hullamerev hús fénytelen, matt színű, az összekapcsolódott aktin és miozin fehérjék által létrehozott aktomiozin komplex miatt merev, görcsös állapotú, emiatt nehezen megmunkálható. 
-355:Hullameverség megszűnése (post rigor szakasz) 
-356:A hullamerevség megszűnését fehérjebontó enzimek idézik elő. Az enzimek lebontják a hullamerevség során képződő aktomiozin komplex keresztkötéseit, így az aktin és a miozin izomfehérjék eltávolodnak egymástól. Az aktomiozin komplex lebontását a kalpain nevű enzimfehérje végzi. A kalpain enzim működéséhez nagy mennyiségű kalcium szükséges. A szükséges kalciumforrást a húsban lévő kalcium mennyiség biztosítja. A folyamat során a hús folyamatosan puhul (a fehérjebontó enzimek működésének következménye). Íz- és érzékszervi javulást okozó változások következnek be. 
-357:A hús víztartó képessége 
-358:Az izomrostot (miofibrillumot) alkotó aktin és miozin fehérjeszálak közötti térben nagy mennyiségű víz halmozódik fel. A hullamerevség miatt fellépő összehúzódás, aktomiozin komplex kialakulása és a pH-csökkenés miatt az aktin és a miozin fehérjeláncok közötti a taszítóerő csökken, így a fehérjeszálak között a tér kisebb lesz. Az ott tárolódott víz kiszorul a sejtközötti térbe és csepegési veszteségként jelentkezik. A pH-csökkenés miatt a miozin felületén lévő negatív töltésmennyiség folyamatosan csökken, így az azonos töltésű fehérjeláncok közötti elektrosztatikus taszítóerő kisebb lesz, a fehérjeláncok közötti tér összezsugorodik. A pH csökkenése során az izomfehérje eléri az izoelektromos pontot (5,4-es pH), ahol a pozitív és a negatív töltésszám egyenlő, a fehérjeszálak közötti taszítóerő és a távolság minimális. A térben jelen lévő, fehérjéket és egyéb értékes anyagokat tartalmazó víz a szűkülő tér miatt kipréselődik az izomrostok közül és csepegési veszteségként jelentkezik. 
-359:MÉDIAELEM 
-360:ÁLTALÁNOS 
-361:Nézőkép: 
-362:14. ábraforrás saját készítés 
-363:Gyártó: 
-364:Saját készítés 
-365:Típus: 
-366:Animáció 
-367:Cím: 
-368:14. ábra: A hús víztartó képességének változása a pH csökkenés és a hullamerevség hatására 
-369:Elkészítéshez szükséges információ: 
-370:Az 1. pont az izomzat kiindulási állapota, melyben az azonos töltésű fehérje szálak az azonos töltés miatti taszító erő hatására távol vannak egymástól. A pH-csökkenést ábrázolva a kép átvált a 2. pontra, ahol a fehérjeszálak közelebb húzódnak egymáshoz. az izom összehúzódik. A töltések egy része megváltozik. A fehérjék közötti víz egy része kipréselődik az izomból. 
-371:Tartalom leírása: 
-372:A hús víztartó képesség változásának szemléltetése 
-373:Saját alternatívák: 
-374:Internetes alternatívák: 
-375:Normál és rendellenes húsérési folyamatok 
-376:A glikogénbomlás teljes lezajlása nagyjából 24 óráig tart. Ez idő alatt a hús pH-értéke a 7,2-es kezdeti értékről 5,6-5,8-ra esik vissza. Ilyen pH-csökkenés esetében normál húsérési folyamatról beszélünk. A normál állapotú hús állománya rugalmas, jól megmunkálható, szeletelhető, mérsékelten léeresztő. Színe halványabb a friss vágásmeleg húsnál. 
-377:MÉDIAELEM 
-378:ÁLTALÁNOS 
-379:Nézőkép: 
-380:15 ábraforrás https://hu.depositphotos.com/15605637/stock-photo-raw-meat-in-hypermarket.html (2024.06.21.) 
-381:Gyártó: 
-382:Átvett 
-383:Típus: 
-384:Illusztráció 
-385:Cím: 
-386:15. ábra: Normál állapotú hús 
-387:Elkészítéshez szükséges információ: 
-388:. 
-389:Tartalom leírása: 
-390:A normál állapotú hús szemléltetése 
-391:Saját alternatívák: 
-392:Internetes alternatívák: 
-393:MÉDIAELEM 
-394:ÁLTALÁNOS 
-395:Nézőkép: 
-396:16. ábraforrás saját készítés 
-397:Gyártó: 
-398:Saját készítés 
-399:Típus: 
-400:Grafikon 
-401:Cím: 
-402:16. ábra: : Rendellenes húsérési folyamatok pH változása 
-403:Elkészítéshez szükséges információ: 
-404:A görbék színét kérem szépen megváltoztatni valamilyen élénkebb színre. 
-405:Tartalom leírása: 
-406:Rendellenes húsérési folyamatok pH változásának ábrázolása 
-407:Saját alternatívák: 
-408:Internetes alternatívák: 
-409:PSE hús (pale, soft, exudative) 
-410:Rendellenes húsérési folyamat eredményeként kialakult halvány rózsaszín színű = (pale), puha állományú = (soft), vizenyős, léeresztő = (exudative) hús. Kialakulását a gyors és a normál húsnál nagyobb mértékű pH-csökkenés okozza.  A vágás után a hús pH értéke gyors ütemben csökken, majd a normál húsnál alacsonyabb, 5,2-5,3-as pH értékre esik le. A hús vízkötő víztartó képessége rendkívül rossz, mivel alacsonyabb pH értéken a hús fehérjék a hozzájuk kötött vizet elengedik, ami csepegési veszteségként jelentkezik. Elsősorban sertéseknél fordul elő. A PSE hús kialakulását a vágás előtti stresszes állapot, a pihentetés hatékonysága is befolyásolja. Egyes sertésfajták fokozottan érzékenyek a stresszhatásokra, (pl. Pietrain) így esetükben a PSE hús kialakulásárának kockázata nagyobb, mint a stressztűrő (pl. Duroc) fajták esetében. 
-411:DFD hús (dark, firm, dry) 
-412:Elsősorban marhahúsokra jellemző, de sertéshúsnál is előforduló rendellenes húsérési folyamat. A pH változása kismértékű, a kezdeti 7,2-es értékről a hús pH-értéke a normál húsnál jóval magasabb, 6,7-6,8 pH-értékig csökken le. A kismértékű pH-csökkenés oka, hogy az izmokban kevés szénhidrát halmozódik fel, így a lebomlási folyamat során kevés tejsav képződik. A hús sötét színű = (dark), ragadós, kemény állományú = (firm). Csepegési vesztesége, léeresztése minimális = (dry). A DFD hús vízkötő képessége rendkívül jó, mivel a 7 körüli pH-értéken a húsfehérjék nagy mennyiségű idegen vizet tudnak magukhoz kötni, de a magas pH miatt romlékony. 
-413:MÉDIAELEM 
-414:ÁLTALÁNOS 
-415:Nézőkép: 
-416:17. ábraforrás https://sesc.cat/en/febrile-carcasses-in-pig-slaughterhouses/ (2024.06.21.) 
-417:Gyártó: 
-418:Átvett 
-419:Típus: 
-420:Illusztráció 
-421:Cím: 
-422:17. ábra: Normál és rendellenes érésű húsok közötti különbség 
-423:Elkészítéshez szükséges információ: 
-424:. 
-425:Tartalom leírása: 
-426:Normál és rendellenes érésű húsok közötti különbségének ábrázolása 
-427:Saját alternatívák: 
-428:Internetes alternatívák: 
-429:MÉDIAELEM 
-430:ÁLTALÁNOS 
-431:Nézőkép: 
-432:18. ábraforrás https://www.meatinstitute.org/index.php?ht=a/GetDocumentAction/i/82711 (2024.06.21.) 
-433:Gyártó: 
-434:Átvett 
-435:Típus: 
-436:Illusztráció 
-437:Cím: 
-438:18. ábra: : A normál és rendellenes érésű húsok víztartó képességének szemléltetése 
-439:Elkészítéshez szükséges információ: 
-440:. 
-441:Tartalom leírása: 
-442:A normál és rendellenes érésű húsok víztartó képességének szemléltetése 
-443:Saját alternatívák: 
-444:Internetes alternatívák: 
-445:A hidegrövidülés jelensége 
-446:Elsősorban alacsony glikogén tartalmú, lassú pH-csökkenéssel jellemezhető húsok, például a szarvasmarha testek vágás utáni, 10 °C alatti hűtésénél fellépő jelenség, a hidegrövidülés negatívan befolyásolja a húsminőséget. A folyamat során az izomrostok összehúzódnak, a hús léeresztő és rágós lesz. A hűtés hatására a hullamerevséget, és a rágós hús kialakulását okozó aktomiozin komplex lebontásáért felelős fehérjebontó enzimek működése lelassul. Az enzimek lassuló tevékenységük miatt nem képesek a hús kalcium tartalmát felhasználni, amely felelős az izom összehúzódás kialakulásáért. A jelenség során fellépő rágósság, húskeménység a hullamerev állapot megszűnése után is fennmarad. 
-447:A hús érése, a hús porhanyósságát kialakító tényezők 
-448:A hús érése során lezajló folyamatok közül a legfontosabb a porhanyósság, amely döntően befolyásolja a hús élvezeti értékét, érzékszervi tulajdonságait. A porhanyósság a hús rágása során keletkezett érzékszervi benyomás, vagy érzet, amely a hús keménységével, mechanikai tulajdonságaival van összefüggésben. Minél kevésbé rágós és lédús a hús, annál kedvezőbb az élvezeti értéke. A kedvező porhanyósság kialakulását a hús szöveti összetétele, tulajdonsága és a vágás után a húsban lezajló több folyamat is befolyásolhatja. 
-449:A hús élvezeti értékét befolyásoló tényezők: 
-450:-	az állat faja, fajtája, kora, ivara 
-451:-	a hús kötőszöveti tartalma, kötőszöveti fehérjék mennyisége 
-452:-	az izomrostok és izomkötegek között lerakódott zsírszövet (intramuszkuláris zsír) mennyisége és eloszlása 
-453:-	a hús víztartó képessége 
-454:-	a hús szénhidráttartalma 
-455:-	az állat halála után az izomfehérjék összekapcsolódásának, összehúzódásának mértéke 
-456:-	az összekapcsolódott izomfehérjéket lebontó fehérjék aktivitása 
-457:-	a hús pH-értékének változása 
-458:-	a hús hűtésének hőmérséklete, a hűtési idő 
-459:A húsok érése és a megfelelő porhanyós állomány kialakulása hosszabb folyamat. 
-460:A megfelelő porhanyósság kialakulásában fontos szerepet játszik a húsban a vágás után végbemenő pH-csökkenés sebessége. Alacsony szénhidráttartalmú húsban a végső pH-érték kismértékű glikogén bomlás miatt a vágás után csak minimális értékben csökken. A fehérjebontó enzimek magas pH-értéken aktívabbak, gyorsabb ütemben képesek lebontani, szétválasztani az összekapcsolódott aktin és miozin izomfehérjéket és az összekapcsolódást segítő vázfehérjéket (Z és M vonal), amely a hús kemény, rágós állományát okozzák. A magas pH-érték és a gyors aktomiozin komplex lebontás ellenére a hús érésében, porhanyós állomány kialakulásában nem minden esetben előnyös, mert a magas, 6,2-es végső pH-érték feletti húsban nagy a hidegrövidülés kialakulásának kockázata. Ilyen esetben az összehúzódott izom az lebontó enzimek jelenléte ellenére sem ernyed el. A porhanyósodás nem tud végbe menni és a hús rágós marad. 
-461:A pH csökkenésével a fehérjebontó enzimek aktivitása is csökken, az alacsony pH-értékű húsban a megfelelő porhanyós állomány kialakulása tovább tart. A hosszabb érlelési idő a hús élvezeti értékének növelése szempontjából előnyösebb, mert a lebontó enzimek tevékenységének lassulása mellet, más fontos élvezeti értéket befolyásoló folyamatok is végbe mennek. Ilyen kedvező folyamat az aromaanyagok kialakulása, vagy a zsírok, kötőszöveti fehérjék enzimes lebomlása. 
-462:A hőmérséklet is lényegesen befolyásolja a hús porhanyósodásának lefutási sebességét. A fehérjebontó enzimek aktivitása 10 °C-alatti hűtött körülmények között nagymértékben lelassul, ezáltal a porhanyósodás hosszabb ideig tart. 10 °C felett a porhanyósodás ideje jelentősen megrövidül, de a magas hőmérsékleten történő hús érlelése az élelmiszerbiztonsági kockázatok miatt nem megvalósítható. 
-463:A hús izomnyalábjai és izomkötegei között jelenlévő márványos (intramuszkuláris) zsír és kötőszöveti fehérje javítja a hús porhanyós állományát, mivel csökkentik a lékiválást, ezáltal javítják a hús lédús érzetét. A húsban lévő kötőszöveti fehérjék hőkezelés (sütés, főzés) hatására a hús víztartalmával oldatot képez, amely „szaftos” érzetet keltve javítja a hús élvezeti értékét. 
-464:Az állatok faja, fajtája, kora is befolyásolhatja a hús porhanyósságának kialakulását. Fontos, a porhanyósságot befolyásoló tulajdonság, hogy az egyes fajok esetében milyen gyorsan alakul ki a hullamerevség állapota. A baromfi esetében rövid idő, akár 2 óra alatt, a szarvasmarha esetében kb. 18-24 óra alatt alakul ki a hullamerevség. A hullamerevség során kialakult görcsös állapot, aktomiozin komplex felbomlását előidéző enzimtevékenység a baromfi esetében gyorsan beindul, így a csirke húsban viszonylag gyorsan kialakul a porhanyós állomány, míg a marhahús porhanyós állományának kialakulásához sokkal több idő szükséges. Az egyes fajok húsának eltérő kötőszöveti összetétele, márványozottsága is befolyásolja a hús érését, élvezeti értékét. 
-465:ÁBRAJEGYZÉK 
-466:1. ábra: A hús szemléltető fotója	5 
-467:2. ábra: Hús víztartalma	7 
-468:3. ábra: Izomfehérjék felépítése	9 
-469:4. ábra: Márványozott hús	10 
-470:5. ábra: Glikogén molekula felépítése	12 
-471:6. ábra: Hús vitamintartalmát szemléltető fotó	13 
-472:7. ábra: Ásványi anyagok, nyomelemek szemléltető fotó	14 
-473:8. ábra: A hús táplálkozásban betöltött szerepe	16 
-474:9. ábra: A húsfehérjék szerepe a táplálkozásban	18 
-475:10. ábra: Hús kemény, rugalmas állománya	22 
-476:11. ábra: Sertés, marha és baromfi húsok színkülönbsége	24 
-477:12. ábra: Az izomban mozgás során végbemenő szénhidrát lebontási folyamatok	26 
-478:13. ábra: A húsban a vágás után lezajló szénhidrát lebontási folyamatok	27 
-479:14. ábra: A hús víztartó képességének változása a pH csökkenés és a hullamerevség hatására	30 
-480:15. ábra: Normál állapotú hús	32 
-481:16. ábra: : Rendellenes húsérési folyamatok pH változása	33 
-482:17. ábra: Normál és rendellenes érésű húsok közötti különbség	35 
-483:18. ábra: : A normál és rendellenes érésű húsok víztartó képességének szemléltetése	36 
-484:IRODALOMJEGYZÉK 
-485:Mária, V. D. (1996.). Húsipari továbbképző napok, A nyers hús. OHKI. 
-486:Péter, N. (2017.). Hentes és mészáros mester jegyzet . NAK. . 
-487:Zs., V. T. ( 2010.). Húsipari termékgyártás. VKSZI. 
-488:20. oldal 
-489:RRF-2.2.1-22-2022-00001 azonosító számú, „Szakképzési digitális tananyagfejlesztés” c. projekt 
-490:IKK Nonprofit Zrt. 
-491:H-1033 Budapest, Szőlőkert utca 9. 
-492:H-1243 Budapest, Pf.: 669 
-493:ikk.hu | iroda@ikk.hu 
-494:RRF-2.2.1-22-2022-00001 azonosító számú, „Szakképzési digitális tananyagfejlesztés” c. projekt 
-495:IKK Nonprofit Zrt. 
-496:H-1033 Budapest, Szőlőkert utca 9. 
-497:H-1243 Budapest, Pf.: 669 
-498:ikk.hu | iroda@ikk.hu 
-499:1. oldal 
-500:RRF-2.2.1-22-2022-00001 azonosító számú, „Szakképzési digitális tananyagfejlesztés” c. projekt 
-501:IKK Nonprofit Zrt. 
-502:H-1033 Budapest, Szőlőkert utca 9. 
-503:H-1243 Budapest, Pf.: 669 
-504:ikk.hu | iroda@ikk.hu
+3:Kompetencia tesztek szerzője: 
+4:Kocsis István 
+5:Kompetencia tesztek szakmai lektora: 
+6:Orosz György Gyula 
+7:Iskolai felhasználási cél 
+8:Ágazat: 
+9:Mezőgazdaság és erdészet 
+10:Szakma: 
+11:Mezőgazdasági gépésztechnikus 
+12:Szakmairány: 
+13:- 
+14:Tanulási terület: 
+15:Mezőgazdasági gépek 
+16:Tantárgy: 
+17:Agrárműszaki erőgépek 
+18:Évfolyam: 
+19:12. évfolyam 
+20:Óraszám: 
+21:10 óra 
+22:Tartalomjegyzék 
+23:1	Hidraulikus munkahengerek	2 
+24:1.1	Egyszeres működésű hidraulikus munkahengerek szerkezeti felépítése és működése	4 
+25:1.2	Egyszeres működésű tömeg-visszatérítéses munkahengerek	6 
+26:1.3	Kettős működésű differenciáldugattyús munkahengerek	13 
+27:1.4	Kettős működésű, kétoldali (átmenő dugattyúrudas) munkahenger felépítése és működése	20 
+28:1.5	Kettős működésű, teleszkópos hidraulikus munkahengerek felépítése és működése	22 
+29:1.6	A hidraulikus munkahengerek véghelyzet-csillapításai	23 
+30:1.7	Hidroakkumulátorok kialakítása	29 
+31:1.7.1	Membrános hidroakkumulátorok	29 
+32:1.7.2	Dugattyús hidroakkumulátorok	31 
+33:Ábrajegyzék	33 
+34:Irodalomjegyzék	35 
+35:Hidraulikus munkahengerek 
+36:A hidraulikus munkahengerek a munkafolyadék nyomási energiáit alakítják át mozgási energiává, ami általában egyenesvonalú mozgás. A hidraulikus munkahenger csoportosítása: 
+37:A munkahenger dugattyúszár szerinti kialakítása szerint lehet: 
+38:egyoldali (egyik oldalon helyezkedik el a munkavégzésre alkalmas dugattyúrúd), lásd: 1. ábra, 
+39:kétoldali (mindkét végén van munkavégző dugattyúrúd), lásd: 3. ábra. 
+40:1. ábra: Egyoldali munkahenger 
+41:Forrás: https://www.texashydraulics.com/hydraulic-cylinders/construction-grade (Megnyitás: 2024.07.02.) 
+42:2. ábra: Egyoldali munkahenger jelképe 
+43:Forrás: saját készítésű 
+44:3. ábra: Kétoldali (átmenő dugattyúrudas) munkahenger 
+45:Forrás: http://www.targoncaalkatresz.com/targoncak-mukodese/targonca-hidraulikus-munkahengerek/ (Megnyitás: 2024.07.02.) 
+46:4. ábra: Kétoldali (átmenő dugattyúrudas) munkahenger jelképe 
+47:Forrás: saját készítésű 
+48:A hidraulikus munkahengerek működési módjuk szerint lehetnek: 
+49:egyszeres működésű: 
+50:dugattyús, 
+51:teleszkópos, 
+52:búvárdugattyús munkahengerek; 
+53:kettősműködésű: 
+54:differenciáldugattyús, 
+55:kétoldali (átmenő dugattyúrudas), 
+56:teleszkópos munkahengerek. 
+57:Egyszeres működésű hidraulikus munkahengerek szerkezeti felépítése és működése 
+58:Az egyszeres működésű hidraulikus munkahengerek csak az egyik irányban képesek erőkifejtésre, arra, amerre a munkafolyadék nyomásának hatására a munkahenger dugattyúja elmozdul. Az alaphelyzetbe való visszatérítést vagy a munkahenger szárára ható tömeg, vagy a munkahengerben lévő rugó végzi. 
+59:Az egyszeres működésű rugóvisszatérítéses dugattyús munkahenger kialakítását a 5. ábra szemlélteti. 
+60:5. ábra: Egyszeres működésű rugóvisszatérítéses dugattyús munkahenger kialakítása 
+61:Forrás: Mezei Tibor-Kocsis István- Dr. Varga Vilmos: Mezőgazdasági erőgépek I. Budapest, 2011., Herman Ottó Intézet Nonprofit Kft. 409. o. 
+62:6. ábra: Egyszeres működésű rugóvisszatérítéses dugattyús munkahenger jelképes ábrája 
+63:Forrás: saját készítésű 
+64:Henger: biztosítja a munkavégzéshez szükséges zárt tér egy részét, illetve elmozdulás során megvezeti a dugattyút, továbbá egységbe foglalja a munkahenger többi elemét. 
+65:Dugattyú tömítőgyűrűkkel: bal oldalról zárja a hengert, illetve munkavégzés során a munkafolyadék nyomásából eredő erőt felveszi és továbbítja a dugattyúrúdnak. 
+66:Dugattyúrúd: kapcsolatban van a dugattyúval, illetve a vezetőhüvellyel, valamint a nyomási energiából származó erőt továbbítja a munkavégző egység felé. 
+67:Rugó: a munkafolyadék nyomásának megszűnésekor a dugattyút és a dugattyúrudat alaphelyzetbe állítja vissza (bal oldalra). 
+68:Vezetőhüvely: a dugattyúrúd vezetését biztosítja. 
+69:Zárófedél: a munkahenger munkaterét zárja le. 
+70:A munkahengerben a munkát a dugattyúrúdra szerelt dugattyú fogja elvégezni. A dugattyúra szerelt tömítőgyűrűk akadályozzák meg a munkafolyadék átáramlását (tömítését) a henger és a dugattyú között. A dugattyúrúd a vezetőhüvelyen keresztül csatlakozik a hengerre. A hengert a másik oldalon egy zárófedél zárja. A hengeren kialakított furaton keresztül munkafolyadék áramlik a hengerbe, ami így a dugattyú és a zárófedél közötti térbe jut. A munkafolyadék nyomása hat a dugattyú felületére, a rugóval ellentétes irányba mozdítja el a dugattyút. A dugattyú addig mozog, amíg a munkafolyadék nyomása hat rá, illetve a munkahenger dugattyúja a másik oldalon a vezetőhüvelynek ütközik. A munkafolyadék nyomásának megszűnésekor a rugó a dugattyút visszatolja, miközben a munkahengerben lévő munkafolyadék visszaáramlik a hidraulikus rendszerbe. 
+71:Egyszeres működésű tömeg-visszatérítéses munkahengerek 
+72:Az egyszeres működésű tömeg-visszatérítéses búvárdugattyús munkahenger kialakítását a 7. ábra szemlélteti. 
+73:7. ábra: Egyszeres működésű tömeg-visszatérítéses búvárdugattyús munkahenger 
+74:Forrás: Mezei Tibor-Kocsis István- Dr. Varga Vilmos: Mezőgazdasági erőgépek I. Budapest, 2011., Herman Ottó Intézet Nonprofit Kft. 409. o. 
+75:8. ábra: Egyszeres működésű tömeg-visszatérítéses búvárdugattyús munkahenger jelképes ábrája 
+76:Forrás: saját készítésű 
+77:Henger: biztosítja a munkavégzéshez szükséges zárt tér egy részét, továbbá egységbe foglalja a munkahenger többi elemét. 
+78:Dugattyú: jobb oldalról zárja, illetve munkavégzés során a munkafolyadék nyomásából származó erőt felveszi, és továbbítja a munkavégző egységnek. A dugattyú a munkafolyadékba merülve végzi a munkát, ezért nevezik búvárdugattyúnak. 
+79:Vezetőgyűrű: a dugattyú támasztását biztosítja a hengerben. 
+80:Vezetőhüvely: a dugattyúrúd vezetését biztosítja. 
+81:Tömítőgyűrű: megakadályozza a munkafolyadék kiáramlását a dugattyú és a vezetőhüvely között. 
+82:Lehúzógyűrű: a munkatérbe visszatérő dugattyúrúdra tapadt szennyeződést távolítja el, szennylehúzó gyűrűnek is nevezik. 
+83:Zárófedél: a munkahenger munkaterét zárja le. 
+84:A hengerben egy dugattyú helyezkedik el, ami egy vezetőhüvelyen keresztül van beszerelve. A dugattyú végét vezetőgyűrű támasztja meg. A vezetőhüvelyen tömítések vannak elhelyezve, a henger felőli oldalon lévő tömítés a dugattyúrúd és a vezetőhüvely között akadályozza meg a munkafolyadék kiáramlását. A vezetőhüvely másik végén a dugattyúra tapadt szennyeződést a szennylehúzó tömítés távolítja el. A henger másik végén a zárófedél biztosítja a henger tömítését. A hengeren lévő furaton keresztül nyomással bevezetik a munkafolyadékot, amely minden irányba tovaterjed. A zárt rendszerben egyedül a dugattyú tud elmozdulni a dugattyú végére ható nyomásnak köszönhetően. A dugattyú alaphelyzetbe visszatérítését a rúdra ható terhelés végzi, amikor a munkahengerben a munkafolyadék nyomása megszűnik, és lehetővé válik a visszaáramlás. 
+85:A munkahenger által kifejthető erő nagyságát a dugattyú felülete és a munkafolyadék nyomása határozza meg (9. ábra). 
+86:9. ábra: Egyszeres működésű tömeg-visszatérítéses dugattyús munkahenger jellemző méretei 
+87:Forrás: https://www.hydraulic-calculation.com/article.php?ID=12 (Megnyitás: 2024.07.02.) 
+88:10. ábra: Egyszeres működésű tömeg-visszatérítéses búvárdugattyús munkahenger jelképes ábrája 
+89:Forrás: saját készítésű 
+90:A munkahenger dugattyúrúdján kifejtett erő nagysága 
+91:A dugattyúrúdon kifejtett erő nagysága (F) a dugattyú felületétől és a munkafolyadék nyomásától függ, melynek meghatározása: 
+92:ahol: 
+93:p: munkafolyadék nyomás [Pa], 
+94:A: dugattyú felülete [mm2]. 
+95:A dugattyú felületének nagysága (A): 
+96:A dugattyú felületét visszaírva az eredeti képletbe: 
+97:A hidraulikus munkahenger egy löketéhez szükséges munkafolyadék mennyisége (V): 
+98:A búvárdugattyús kialakítás miatt a dugattyúrúd lökethosszra eső térfogata szükséges. 
+99:ahol: 
+100:d1: dugattyúrúd átmérő [mm], 
+101:l: munkahenger lökethossz [mm]. 
+102:A munkahenger működéséhez szükséges folyadék mennyisége (Q): 
+103:ahol: 
+104:t: lökethossz megtételéhez szükséges idő [s]. 
+105:Feladat 
+106:Az erőgép függesztőszerkezetének működtetését egy 450 mm lökethosszú hidraulikus munkahenger végzi. A munkahenger dugattyújának átmérője 80 mm, a dugattyúrúd 60 mm átmérőjű. A munkahengerben a munkafolyadék nyomása 12 MPa. A lökethossz megtételéhez szükséges idő 6 s. 
+107:Határozd meg: 
+108:a munkahengerrel kifejtett erő nagyságát [N], 
+109:a működtetéshez szükséges szivattyú által szállított munkafolyadék mennyiségét [dm3/min]. 
+110:Megoldás 
+111:l = 450 mm = 4,5 dm 
+112:d = 80 mm = 0,08 m 
+113:d1 = 60 mm = 0,6 dm 
+114:p = 12 Mpa = 1,2·106 Pa 
+115:t = 6 s 
+116:F = ? [N] 
+117:Q = ? [dm3/s] 
+118:A munkahengerrel kifejtett erő nagysága: 
+119:A munkahengerrel 6031,86 N erőt lehet kifejteni. 
+120:A munkahenger egy löketéhez szükséges munkafolyadék mennyisége: 
+121:A munkahenger egy löketére szükséges 1,27 dm3 munkafolyadék. 
+122:A működtetéshez szükséges munkafolyadék mennyisége: 
+123:A munkahenger megadott paraméterek szerinti működtetése 0,212 [dm3/s] munkafolyadék-mennyiséget igényel. 
+124:Az egyszeres működésű tömeg-visszatérítéses teleszkópos hidraulikus munkahenger kialakítását a 11. ábra szemlélteti. 
+125:11. ábra: Egyszeres működésű tömeg-visszatérítéses teleszkópos hidraulikus munkahenger kialakítása 
+126:Forrás: https://www.hydraulic-calculation.com/article.php?ID=12 (Megnyitás: 2024.07.02.) 
+127:12. ábra: Egyszeres működésű tömeg-visszatérítéses teleszkópos hidraulikus munkahenger jelképes ábrázolása 
+128:Forrás: saját készítésű 
+129:Henger: biztosítja a munkavégzéshez szükséges zárt tér egy részét, továbbá egységbe foglalja a munkahenger többi elemét. 
+130:teleszkóphenger: peremes kialakítású henger, amely belső furattal van ellátva, hogy a II. teleszkópdugattyú is beleférjen. A peremes felület a henger belső felületéhez tömítéssel kapcsolódik, működés során elmozdul bene. 
+131:teleszkóphenger: szintén peremes kialakítású henger, amelynek zárt a vége, ide kapcsolódik a munkavégző egység. A peremes felület az I. teleszkóphenger belső felületéhez tömítéssel kapcsolódik, működés során elmozdul bene. 
+132:Vezetőhüvely: a dugattyúrúd vezetését biztosítja. 
+133:Zárófedél: a munkahenger munkaterét zárja le. 
+134:A hengerbe munkafolyadékot vezetnek, a munkafolyadék hat a teleszkóphengerekre, először a nagyobb átmérőjű teleszkóphengert nyomja ki, majd a kisebb átmérőjűt. A munkafolyadék-nyomás megszűnésekor a hengerre ható terhelés visszanyomja a teleszkóphengert és teleszkópdugattyút alaphelyzetbe. 
+135:Kettős működésű differenciáldugattyús munkahengerek 
+136:A kettős működésű differenciáldugattyús hidraulikus munkahenger felépítését és működését a 13. ábra szemlélteti. 
+137:13. ábra: Kettős működésű differenciáldugattyús hidraulikus munkahenger felépítése 
+138:Forrás: https://www.hydromot.lu/en/Hydraulic-Cylinder--Double-Acting--Hinge--Piston----70mm--Rod----40mm--Selectable-stroke.html (Megnyitás: 2024.07.03.) 
+139:MÉDIAELEM 
+140:ÁLTALÁNOS 
+141:Nézőkép: 
+142:14. ábra 
+143:Forrás: saját készítésű 
+144:Gyártó: 
+145:Saját készítés 
+146:Cím: 
+147:14. ábra: Kettős működésű egyoldali munkahenger jelképe 
+148:Henger: biztosítja a munkavégzéshez szükséges zárt tér egy részét, továbbá egységbe foglalja a munkahenger többi elemét. 
+149:Dugattyú: a hengert két térre választja el (I. és II.), a terek nagysága működés során folyamatosan változik, illetve munkavégzés során a munkafolyadék nyomásából eredő erőt felveszi, és továbbítja a munkavégző egységnek. 
+150:Dugattyúrúd: a dugattyúhoz van kapcsolva, felveszi és továbbítja a dugattyúra ható erőket. 
+151:Dugattyútömítés: megakadályozza, hogy a dugattyú és a henger belső fala között átjusson a munkafolyadék a két tér között. 
+152:Vezetőhüvely: a dugattyúrúd vezetését biztosítja. 
+153:Tömítőgyűrű: megakadályozza a munkafolyadék kiáramlását a dugattyú és a vezetőhüvely között. 
+154:Lehúzógyűrű: a munkatérbe visszatérő dugattyúrúdra tapadt szennyeződést távolítja el, szennylehúzó gyűrűnek is nevezik. 
+155:Zárófedél: a munkahenger munkaterét zárja le. 
+156:A munkahengert a dugattyú két térre (I. és II.) bontja, ezek teljesen fel vannak töltve munkafolyadékkal. A működés során (a fenti módon ábrázolt helyzetben) az I. térbe vezetik be a munkafolyadékot. A munkafolyadék nyomása hat a dugattyúra, ami igyekszik a dugattyút a dugattyúrúddal jobbra elmozdítani. Az elmozdulás akkor következik be, amikor a munkafolyadékot a II. térből a hidraulikus rendszer további egységeibe vezetik el. A mozgásirány megváltoztatásakor megváltoztatják a munkafolyadék áramlási irányát, a II. térbe vezetik be, és az I. térből vezetik ki a munkafolyadékot. 
+157:A munkahengerrel kifejthető erő nagysága a munkafolyadék nyomásától és a hasznos dugattyúfelület nagyságától függ. A hidraulikus munkahengerrel kifejthető erő a két elmozdulási irány esetében nem egyforma (15. ábra). 
+158:15. ábra: Kettős működésű differenciáldugattyús munkahenger jellemző méretei 
+159:Forrás: https://www.lesjoforsab.com/technology/gas-springs/ (Megnyitás: 2024.07.03.) 
+160:16. ábra: Kettős működésű egyoldali munkahenger jelképe 
+161:Forrás: saját készítésű 
+162:A munkahengerrel kifejthető erő balra mozgáskor: 
+163:ahol: 
+164:p: munkafolyadék-nyomás [Pa], 
+165:A1: dugattyú felülete balra mozgáskor [mm2]. 
+166:A dugattyú felületének nagysága (A1): 
+167:A dugattyú felületét visszaírva az eredeti képletbe: 
+168:A hidraulikus munkahenger egy löketéhez szükséges munkafolyadék mennyisége balra mozgás során (V1): 
+169:ahol: 
+170:D: hengerátmérő [mm], 
+171:l: munkahenger lökethossza [mm]. 
+172:A munkahenger működéséhez szükséges folyadék mennyisége (Q1): 
+173:ahol: 
+174:t1: lökethossz megtételéhez szükséges idő [s] 
+175:A munkahengerrel kifejthető erő jobbra mozgás során: 
+176:ahol: 
+177:p: munkafolyadék-nyomás [Pa], 
+178:A2: dugattyú felülete jobbra mozgáskor [mm2]. 
+179:A dugattyú felületének nagysága (A2): 
+180:A dugattyú felületét visszaírva az eredeti képletbe: 
+181:A hidraulikus munkahenger egy löketéhez szükséges munkafolyadék mennyisége balra mozgás során (V2): 
+182:ahol: 
+183:D: hengerátmérő [mm], 
+184:d: dugattyúrúd-átmérő [mm], 
+185:l: munkahenger lökethossza [mm]. 
+186:A munkahenger működéséhez szükséges folyadék mennyisége (Q): 
+187:ahol: 
+188:t2: lökethossz megtételéhez szükséges idő [s] 
+189:Feladat 
+190:Az erőgép függesztőszerkezetének működtetését egy 400 mm lökethosszú, kettős működésű differenciálhidraulikus munkahenger végzi. A munkahenger dugattyújának átmérője 100 mm, a dugattyúrúd 60 mm átmérőjű. A munkahengerben a munkafolyadék nyomása 12 MPa. A lökethossz megtételéhez szükséges idő 6 s. 
+191:Határozd meg: 
+192:a munkahengerrel kifejtett erők nagyságát [N], 
+193:a működtetéshez szükséges szivattyú által szállított munkafolyadék mennyiségét [dm3/min]! 
+194:Megoldás 
+195:l = 400 mm = 4 dm 
+196:D = 100 mm = 0,1 m = 1 dm 
+197:d = 60 mm = 0,06 m = 0,6 dm 
+198:p = 12 Mpa = 1,2·106 Pa 
+199:t = 6 s 
+200:F1 = ? [N] 
+201:F2 = ? [N] 
+202:Q1 = ? [dm3/s] 
+203:Q2 = ? [dm3/s] 
+204:A kifejthető erő balra mozgás során: 
+205:A munkahenger balra mozgáskor 9424,78 N erőt fejt ki az üzemeltetés során. 
+206:A kifejthető erő jobbra mozgás során: 
+207:A munkahenger jobbra mozgáskor 6031,86 N erőt fejt ki az üzemeltetés során. 
+208:A hidraulikus munkahenger egy löketéhez szükséges munkafolyadék mennyisége balra mozgás során (V1): 
+209:A munkahenger balra mozgása során egy löketre 3,14 dm3 mennyiségű munkafolyadék szükséges. 
+210:A hidraulikus munkahenger egy löketéhez szükséges munkafolyadék mennyisége jobbra mozgás során (V2): 
+211:A munkahenger jobbra mozgása során egy löketre 2,01 dm3 mennyiségű munkafolyadék szükséges. 
+212:A munkahenger működéséhez szükséges folyadék mennyisége balra mozgás során (Q1): 
+213:A balra mozgása során a szivattyúnak 0,523 dm3/s munkafolyadékot kell szállítani. 
+214:A munkahenger működéséhez szükséges folyadék mennyisége jobbra mozgás során (Q2): 
+215:A jobbra mozgása során a szivattyúnak 0,335 dm3/s munkafolyadékot kell szállítani. 
+216:Kettős működésű, kétoldali (átmenő dugattyúrudas) munkahenger felépítése és működése 
+217:A kettős működésű kétoldali munkahenger dugattyúrúdjai szimmetrikusak, és mindkét irányba azonos erőt tudnak kiejteni, lásd 17. ábra. 
+218:17. ábra: Kettős működésű, kétoldali hidraulikus munkahenger felépítése 
+219:Forrás: https://www.hydraulic-calculation.com/article.php?ID=12 (Megnyitás: 2024.07.03.) 
+220:18. ábra: Kettős működésű, kétoldali munkahenger jelképe 
+221:Forrás: saját készítésű 
+222:Henger: biztosítja a munkavégzéshez szükséges zárt tér egy részét, továbbá egységbe foglalja a munkahenger többi elemét. 
+223:Dugattyú: a hengert két térre választja el (I. és II.), a tér nagysága működés során folyamatosan változik. A dugattyú a munkavégzés során felveszi a munkafolyadék nyomásából eredő erőt, és továbbítja a munkavégző egységnek. 
+224:Dugattyúrúd: közepén helyezkedik el a dugattyú, megfelelő irányba továbbítja a dugattyúra ható erőket. 
+225:Dugattyútömítés: megakadályozza, hogy a dugattyú és a henger belső fala között a két tér közé kerüljön a munkafolyadék. 
+226:Vezetőhüvelyek: a dugattyúrudak vezetését biztosítják. 
+227:Tömítőgyűrű: megakadályozza a munkafolyadék kiáramlását a dugattyú és a vezetőhüvely között. 
+228:Lehúzógyűrű (szennylehúzó gyűrű): a munkatérbe visszatérő dugattyúrúdra tapadt szennyeződést távolítja el. 
+229:Zárófedél: a munkahenger munkaterét zárja le. 
+230:A dugattyú a munkahengert két térre (I. és II.) osztja, ezek teljesen fel vannak töltve munkafolyadékkal. A működés során (az ábrán ábrázolt helyzetben) a II. térbe vezetik be a munkafolyadékot. A munkafolyadék nyomása hat a dugattyúra, a nyomás igyekszik a dugattyút a dugattyúrúddal balra elmozdítani. Az elmozdulás akkor következik be, amikor az I. térből a munkafolyadékot elvezetik a hidraulikus rendszer további egységeibe. A mozgásirány megváltoztatásakor megváltoztatják a munkafolyadék áramlási irányát, az I. térbe vezetik be, és a II. térből vezetik ki a munkafolyadékot. 
+231:Kettős működésű, teleszkópos hidraulikus munkahengerek felépítése és működése 
+232:A kettős működésű, teleszkópos hidraulikus munkahengereket helytakarékosságuk miatt gyakran alkalmazzák, főleg olyan esetekben, amikor nem követelmény, hogy a munkahenger mindkét irányba állandó nagyságú erőt fejtsen ki (19. ábra). 
+233:19. ábra: Kettős működésű, kétoldali teleszkópos hidraulikus munkahenger kialakítása 
+234:Forrás: https://www.hydraulic-calculation.com/article.php?ID=12 (Megnyitás: 2024.07.03.) 
+235:20. ábra: Kettős működésű, kétoldali teleszkópos hidraulikus munkahenger jelképes ábrája 
+236:Forrás: saját készítésű 
+237:Henger: biztosítja a munkavégzéshez szükséges zárt tér egy részét, továbbá egységbe foglalja a munkahenger többi elemét. 
+238:teleszkóphenger: peremes kialakítású henger, amely belső furattal van ellátva, hogy a II. teleszkópdugattyú is beleférjen. A peremes felület a henger belső felületéhez tömítéssel kapcsolódik, működés során elmozdul bene. 
+239:teleszkóphenger: szintén peremes kialakítású henger, amelyben két furat található, a furatok a munkaterekhez kapcsolódik. A peremes felület az I. teleszkóphenger belső felületéhez kapcsolódik tömítéssel, működés során elmozdul bene. 
+240:Vezetőhüvely: a dugattyúrúd vezetését biztosítja. 
+241:Az ábrán látható helyzetben a II. teleszkópos henger felső furatán vezetik be a munkafolyadékot az „A” munkatérbe. A munkafolyadék a teleszkóphengerre hat, és igyekszik azt balra elmozdítani. Az elmozdulás akkor következik be, ha a „B” munkatérből a munkafolyadék a II. teleszkópos henger alsó furatán képes távozni a hengerből. Amikor a II. teleszkópos munkahenger elér az I. teleszkópos munkahenger belső pereméig, akkor kinyílik az összekötő furat. Ekkor a munkafolyadék az I. teleszkópos munkahenger külső pereme által és a henger belső falával határolt térbe jut. Ekkor az I. teleszkópos munkahenger szintén jobbra elmozdul. A teleszkópos munkahengerek dugattyúi a munkafolyadék-nyomás megszűnésekor, illetve a munkahenger teljes elmozdulása esetén megállnak. Ellentétes mozgási iránynál megváltoztatják a munkafolyadék áramlási irányát. 
+242:A hidraulikus munkahengerek véghelyzet-csillapításai 
+243:A hidraulikus munkahengerek az erőgépeken általában nagy erőt fejtenek ki, és nagy tömegeket mozgatnak. A mozgás során a munkahengerek dugattyúinak szélső helyzeteiben az ébredő energiákat a zárófedélnek ütköző dugattyúrúd vagy a vezetőhüvelynek ütköző dugattyú hirtelen megállással emészti fel. A nagy energia ütésszerű felemésztése jelentős terhet ró az ütközőfelületekre (zárófedél-dugattyúrúd; dugattyú-vezetőhüvely). A terhelés nagymértékben csökkenthető, ha a munkahenger dugattyújának véghelyzethez közeli állapotában a mozgást hidraulikusan folyamatosan csökkentik. Ezt a feladatot a munkahengerekben a véghelyzet-csillapítók látják el. A véghelyzet-csillapítók a csillapítás módja szerint lehetnek: 
+244:állandók, 
+245:változtathatók. 
+246:Az állandó véghelyzet-csillapítókkal ellátott munkahengerek kialakítását és működését a 21. ábra szemlélteti. 
+247:21. ábra: Állandó véghelyzet-csillapítású munkahenger csillapításkezdeti helyzetben 
+248:Forrás: Mezei Tibor-Kocsis István- Dr. Varga Vilmos: Mezőgazdasági erőgépek I. Budapest, 2011., Herman Ottó Intézet Nonprofit Kft. 409. o. 
+249:22. ábra: Kettős működésű, egyoldali állandó véghelyzet-csillapítású hidraulikus munkahenger jelképes jelölése 
+250:Forrás: saját készítésű 
+251:Henger: biztosítja a munkavégzéshez szükséges zárt tér egy részét, továbbá egységbe foglalja a munkahenger többi elemét. 
+252:Dugattyú: a hengert két térre választja el (I. és II.), a terek nagysága működés során folyamatosan változik, illetve munkavégzés közben a munkafolyadék nyomásából eredő erőt felveszi, és továbbítja a munkavégző egységnek. 
+253:Dugattyútömítés: megakadályozza, hogy a dugattyú és a henger belső fala között átjusson a munkafolyadék a két munkatér között. 
+254:Dugattyúrúd: a közepén helyezkedik el a dugattyú, és megfelelő irányba továbbítja a dugattyúra ható erőket, valamint ezen van kialakítva a csillapítódugattyú. 
+255:Csillapítódugattyú: hengeres felület, amely a tengelyen van kialakítva, és a csillapítóhengerbe érve megakadályozza, hogy a munkafolyadék szabadon visszaáramoljon. 
+256:Csillapítóhenger: amikor a csillapítódugattyú nincs benne, akkor a munkafolyadék szabad áramlását teszi lehetővé. Amikor a csillapítódugattyú bejut a csillapítóhengerbe, megszűnik a munkafolyadék áramlása ebbe az irányba. 
+257:Visszacsapó szelep: a munkafolyadék áramlását csak egy irányba teszi lehetővé. 
+258:Vezetőhüvely: a dugattyúrudat vezeti. 
+259:Visszavezető csatorna: a vezetőhüvelyben kialakított furat, amelyen a csillapítás során átmegy az összes visszavezetendő munkafolyadék. 
+260:A csillapítás módja, hogy a véghelyzethez közelítő dugattyú terét (általában, ahonnan a munkafolyadékot kivezetik) lezárják, és csak egy kis furaton keresztül engedik vissza a munkafolyadékot. Az ábrán látható helyzetben a csillapítódugattyú bejut a csillapítóhengerbe, ekkor a munkafolyadék (II. térben lévő munkafolyadék) a munkahengerből a visszavezető csatornán keresztül áramlik ki. Ebben a pillanatban a dugattyú mozgása lelassul, és csak a visszavezető csatorna keresztmetszetén átáramlott munkafolyadék által lehetővé tett sebességgel halad. A visszacsapó szelep ebben a helyzetben zárt. 
+261:A változtatható véghelyzet-csillapítókkal ellátott munkahengerek kialakítását és működését a 23. ábra szemlélteti. 
+262:23. ábra: Változó véghelyzet-csillapítású munkahenger szélső helyzetben 
+263:Forrás: Mezei Tibor-Kocsis István- Dr. Varga Vilmos: Mezőgazdasági erőgépek I. Budapest, 2011., Herman Ottó Intézet Nonprofit Kft. 409. o. 
+264:24. ábra: Kettős működésű, egyoldali változtatható véghelyzet-csillapítású hidraulikus munkahenger jelképes jelölése 
+265:Forrás: saját készítésű 
+266:Henger: biztosítja a munkavégzéshez szükséges zárt tér egy részét, továbbá egységbe foglalja a munkahenger többi elemét. 
+267:Dugattyú: a hengert két térre választja el (I. és II.), a terek a működés során folyamatosan változnak. A munkavégzés során a munkafolyadék nyomásából eredő erőt felveszi, és továbbítja a munkavégző egységnek. 
+268:Dugattyútömítés: megakadályozza, hogy a dugattyú és a henger belső fala között átmenjen a munkafolyadék a két tér között. 
+269:Dugattyúrúd: a közepén helyezkedik el a dugattyú, és megfelelő irányba továbbítja a dugattyúra ható erőket, valamint ezen van kialakítva csillapítódugattyú. 
+270:Csillapítódugattyú: hengeres felület, amely a tengelyen van kialakítva, és a csillapítóhengerbe érve megakadályozza, hogy a munkafolyadék szabadon visszaáramoljon. 
+271:Csillapítóhenger: amikor a csillapítódugattyú nincs benne, akkor a munkafolyadék szabad áramlását teszi lehetővé. Amikor a csillapítódugattyú bejut a csillapítóhengerbe, a munkafolyadék áramlása megszűnik ebbe az irányba. 
+272:Visszacsapó szelep: a munkafolyadék áramlását csak egy irányba teszi lehetővé. 
+273:Vezetőhüvely: a dugattyúrudat vezeti. 
+274:Visszavezető csatorna: a vezetőhüvelyben kialakított furat, amelyben a csillapítás során átfolyik az összes visszavezetendő munkafolyadék. 
+275:Állítócsavar: ezzel változtatható a visszavezető csatorna keresztmetszete. 
+276:Az ábrán látható helyzetben a munkahenger dugattyúja a bal oldali holtpont felé tart. A gyorsabb elmozdulás érdekében a visszacsapó szelep nyitva és a II. térbe a legnagyobb keresztmetszeten áramlik be a munkafolyadék. Ellenkező irányba való elmozdulás során a működés a következők szerint alakul (25. ábra). 
+277:25. ábra: Változó véghelyzet-csillapítású munkahenger a csillapítás kezdeti helyzetében 
+278:Forrás: Mezei Tibor-Kocsis István- Dr. Varga Vilmos: Mezőgazdasági erőgépek I. Budapest, 2011., Herman Ottó Intézet Nonprofit Kft. 409. o. 
+279:26. ábra: Kettős működésű, egyoldali változtatható véghelyzet-csillapítású hidraulikus munkahenger jelképes jelölése 
+280:Forrás: saját készítésű 
+281:Az ábrázolt helyzetben a csillapítódugattyú és a csillapítóhenger zárása miatt a munkafolyadék csak a visszavezető csatornán keresztül áramlik ki a II. térből. A szabályozó csavarral lehet beállítani a visszavezetés keresztmetszetét, vagyis a csillapítás mértékét. 
+282:Hidroakkumulátorok kialakítása 
+283:A hidroakkumulátorok alapvetően energiatároló berendezések, melyek szükség esetére energiát tárolnak. A szivattyúk többségének a folyadékszállítása szakaszos, ami nyomáshullámokat indít el a hidraulikus rendszerben. Ezek a nyomáshullámok jelentősen befolyásolják a rendszer működését. A hidroakkumulátor a működés során a nyomáshullámok nagyságát csökkenti. A hidroakkumulátorok csoportjai: 
+284:membrános, 
+285:dugattyús. 
+286:Membrános hidroakkumulátorok 
+287:A membrános hidroakkumulátorok kialakítását és működését a 27. ábra szemlélteti. 
+288:27. ábra: Membrános hidroakkumulátor kialakítása 
+289:Forrás: https://www.hkdivedi.com/2015/09/what-are-hydraulic-accumulators-how-it.html (Megnyitás: 2024.07.03.) 
+290:28. ábra: Hidroakkumulátor jelképes jelölése 
+291:Forrás: saját készítésű 
+292:Ház: a nyomástárolás mellett a szerkezeti részek rögzítését biztosítja. 
+293:Membrán: kettéválasztja a tartály terét, működés közben rugalmasan változtatja az alakját. 
+294:Szelep: a tartály alján található, munkafolyadék hiánya esetén lezárja azt. 
+295:Gáz: a rendszerben a membrán feletti teret tölti meg. 
+296:Feltöltőszelep: a gáz feltöltését biztosítja, valamint a feltöltött gázt a tartályban tartja. 
+297:Tömítőgyűrű: tömít a ház és a feltöltőszelep között. 
+298:Csatlakozó: biztosítja a hidroakkumulátor munkaterének a hidraulikus rendszerre csatlakozását. 
+299:A hidroakkumulátor a csatlakozón keresztül van a hidraulikus rendszerhez kapcsolva. A rendszer üzemeltetése előtt a membrán feletti teret a feltöltőszelepen keresztül – a megadott nyomásnak megfelelően – gázzal töltik fel. Ekkor a membrán alján lévő szelep lezárja a tartály alján található furatot. A rendszer beindításakor a hidraulikus rendszerben lévő munkafolyadék megemeli a membránt, és összenyomja a gázt olyan mértékben, hogy a két térben a nyomás azonos legyen. A szivattyú szakaszos szállítása általában a szívóés a nyomóütemek váltakozása miatt jön létre. Szíváskor a rendszerben csökken a nyomás, ekkor a membrán a ház alja felé mozdulva munkafolyadékot nyom a rendszerbe. Nyomási ütemben a szivattyú nyomása nő, ezáltal megemeli a hidroakkumulátorban lévő membránt. A kiegyenlítés az üzemeltetés során minden ütemváltozás során automatikus. 
+300:Dugattyús hidroakkumulátorok 
+301:A dugattyús hidroakkumulátorok kialakítását és működését a 29. ábra szemlélteti. 
+302:29. ábra: Dugattyús hidroakkumulátor kialakítása 
+303:Forrás: https://www.windpowerengineering.com/wind-reliability-maintenance-free-hydraulic-accumulators/ (Megnyitás: 2024.07.03.) 
+304:30. ábra: Hidroakkumulátor jelképes jelölése 
+305:Forrás: saját készítésű 
+306:Henger: lehetővé teszi a dugattyú mozgását, és egységbe foglalja a szerkezeti elemeket. 
+307:Dugattyú: a hengert két részre osztja, üzemeltetés során mozgásával a nyomáskiegyenlítést biztosítja. 
+308:Tömítés: a henger és a dugattyú közötti tömítés. 
+309:Gáz: a nyomáskiegyenlítéskor a dugattyúval tart egyensúlyt. 
+310:Gázcsatlakozó: ezen a csatlakozón keresztül lehet a hengert feltölteni meghatározott nyomásra gázzal. 
+311:Rugalmas betét: megakadályozza a munkafolyadék érintkezését a hengerfallal. 
+312:Hidraulikus csatlakozó: a hidraulikus rendszerre való kapcsolódást teszi lehetővé. 
+313:A rendszert alaphelyzetben a gyártó által meghatározott nyomásra feltöltik gázzal, ami a dugattyút alsó holtpontba tolja el. Üzemeltetés során a munkafolyadék elmozdítja a dugattyút, miközben a gázt összenyomja. A munkafolyadék nyomáscsökkenésekor a dugattyú alatti térben a gáz lefelé nyomja a dugattyút, ezáltal munkafolyadékot nyom a rendszerbe, így a nyomáscsökkenés mértéke csökken. A nyomásnövekedéskor pedig a munkafolyadék a dugattyút elmozdítja, és a gáz nyomása csökken. Ilyenkor a nyomásnövekedés mértéke kisebb lesz a hidraulikus rendszerben. 
+314:Ábrajegyzék 
+315:1. ábra: Egyoldali munkahenger	2 
+316:2. ábra: Egyoldali munkahenger jelképe	2 
+317:3. ábra: Kétoldali (átmenő dugattyúrudas) munkahenger	3 
+318:4. ábra: Kétoldali (átmenő dugattyúrudas) munkahenger jelképe	3 
+319:5. ábra: Egyszeres működésű rugóvisszatérítéses dugattyús munkahenger kialakítása	4 
+320:6. ábra: Egyszeres működésű rugóvisszatérítéses dugattyús munkahenger jelképes ábrája	5 
+321:7. ábra: Egyszeres működésű tömeg-visszatérítéses búvárdugattyús munkahenger	6 
+322:8. ábra: Egyszeres működésű tömeg-visszatérítéses búvárdugattyús munkahenger jelképes ábrája	6 
+323:9. ábra: Egyszeres működésű tömeg-visszatérítéses dugattyús munkahenger jellemző méretei	8 
+324:10. ábra: Egyszeres működésű tömeg-visszatérítéses búvárdugattyús munkahenger jelképes ábrája	8 
+325:11. ábra: Egyszeres működésű tömeg-visszatérítéses teleszkópos hidraulikus munkahenger kialakítása	11 
+326:12. ábra: Egyszeres működésű tömeg-visszatérítéses teleszkópos hidraulikus munkahenger jelképes ábrázolása	12 
+327:13. ábra: Kettős működésű differenciáldugattyús hidraulikus munkahenger felépítése	13 
+328:14. ábra: Kettős működésű egyoldali munkahenger jelképe	13 
+329:15. ábra: Kettős működésű differenciáldugattyús munkahenger jellemző méretei	15 
+330:16. ábra: Kettős működésű egyoldali munkahenger jelképe	15 
+331:17. ábra: Kettős működésű, kétoldali hidraulikus munkahenger felépítése	20 
+332:18. ábra: Kettős működésű, kétoldali munkahenger jelképe	20 
+333:19. ábra: Kettős működésű, kétoldali teleszkópos hidraulikus munkahenger kialakítása	22 
+334:20. ábra: Kettős működésű, kétoldali teleszkópos hidraulikus munkahenger jelképes ábrája	22 
+335:21. ábra: Állandó véghelyzet-csillapítású munkahenger csillapításkezdeti helyzetben	24 
+336:22. ábra: Kettős működésű, egyoldali állandó véghelyzet-csillapítású hidraulikus munkahenger jelképes jelölése	24 
+337:23. ábra: Változó véghelyzet-csillapítású munkahenger szélső helyzetben	26 
+338:24. ábra: Kettős működésű, egyoldali változtatható véghelyzet-csillapítású hidraulikus munkahenger jelképes jelölése	26 
+339:25. ábra: Változó véghelyzet-csillapítású munkahenger a csillapítás kezdeti helyzetében	28 
+340:26. ábra: Kettős működésű, egyoldali változtatható véghelyzet-csillapítású hidraulikus munkahenger jelképes jelölése	28 
+341:27. ábra: Membrános hidroakkumulátor kialakítása	29 
+342:28. ábra: Hidroakkumulátor jelképes jelölése	30 
+343:29. ábra: Dugattyús hidroakkumulátor kialakítása	31 
+344:30. ábra: Hidroakkumulátor jelképes jelölése	32 
+345:Irodalomjegyzék 
+346:Mezei Tibor, Kocsis István, Dr. Varga Vilmos: Mezőgazdasági erőgépek I. (2011), Budapest, Herman Ottó Intézet Kft., ISBN: 978-963-309-021-3 
+347:Kocsis István, Nagy László: Szakmai számítások (2020), Budapest, Herman Ottó Intézet Nonprofit Kft., ISBN: 978-963-9675-89-6 
+348:20. oldal 
+349:RRF-2.2.1-22-2022-00001 azonosító számú, „Szakképzési digitális tananyagfejlesztés” c. projekt 
+350:IKK Nonprofit Zrt. 
+351:H-1033 Budapest, Szőlőkert utca 9. 
+352:H-1243 Budapest, Pf.: 669 
+353:ikk.hu | iroda@ikk.hu 
+354:RRF-2.2.1-22-2022-00001 azonosító számú, „Szakképzési digitális tananyagfejlesztés” c. projekt 
+355:IKK Nonprofit Zrt. 
+356:H-1033 Budapest, Szőlőkert utca 9. 
+357:H-1243 Budapest, Pf.: 669 
+358:ikk.hu | iroda@ikk.hu

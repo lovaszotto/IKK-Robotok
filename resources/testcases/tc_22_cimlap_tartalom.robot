@@ -54,6 +54,6 @@ Test Case 22 - Cimlap Tartalom Ellenorzese
 
     ${unique_errs}=    Remove Duplicates    ${err_list}
     ${err_msg}=    Catenate    SEPARATOR=\n    @{unique_errs}
-    Log String To Console   Címlap tartalom ellenőrzése befejezve -  \n[${err_msg}]\n - Címlap tartalom ellenőrzése befejezve.
+    Log String To Console   Címlap hiba[${err_msg}]
 
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
