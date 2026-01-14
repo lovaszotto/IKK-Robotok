@@ -82,10 +82,14 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
          FOR    ${url}    IN    @{urls}
            #ellenőrizze, hogy van e benne (.*\s*dddd.dd.dd.)   
            #irja ki a talált url-t
-          #  Log String To Console     \n\[DEBUG] Found URL: ${url}
+            #Log String To Console     \n\n[DEBUG] Found URL: ${url}
 
-            ${match}=    Evaluate    re.search(r'\\d{4}\\s*\\.\\s*\\d{1,2}\\s*\\.\\s*\\d{1,2}', '''${url}''')    modules=re
-           # Log String To Console     \n\[DEBUG] Match found: ${match}
+            #${match}=    Evaluate    re.search(r'\\d{4}\\s*\\.\\s*\\d{1,2}\\s*\\.\\s*\\d{1,2}', '''${url}''')    modules=re
+         ${match}=    Evaluate    re.search(r'\\d{4}\\s*[\\.\\-\\s]\\s*\\d{1,2}\\s*[\\.\\-\\s]\\s*\\d{1,2}', '''${url}''')    modules=re
+ 
+    
+
+            #Log String To Console     \n[DEBUG] Match found: ${match}
             IF     ${match}
                 ${last_open_date}=    Set Variable    ${match.group(0)}
                 #Log String To Console    MEGVAN : ${last_open_date}
@@ -94,26 +98,13 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
                 IF    not ${is_recent}
                      ${was_regi_datum_error}=    Set Variable    ${True}
                      ${tul_regi_utolso_megnyitas_datum}=    Catenate    SEPARATOR=${CR}    ${tul_regi_utolso_megnyitas_datum}    ${url}
-                  #Log String To Console    ${tul_regi_utolso_megnyitas_datum}
-                #    ${new_err}=    Set Variable    Az utolsó megnyitás dátuma túl régi: ${url}
-                #    IF    $err_msg == ''
-                #        ${err_msg}=    Set Variable    ${new_err}
-                #    ELSE
-                #        ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
-                #    END
-                #    Log String To Console     [ERROR] ${new_err}
+                    #Log String To Console    ${tul_regi_utolso_megnyitas_datum}
                 END      
             ELSE
                 ${was_nincs_datum_error}=    Set Variable    ${True}    
                 ${nincs_utolso_megnyitas_datum}=    Catenate    SEPARATOR=${CR}    ${nincs_utolso_megnyitas_datum}    ${url}
                 #Log String To Console   ${nincs_utolso_megnyitas_datum}
-                #${new_err}=    Set Variable    Nincs utolsó megnyitás dátuma: ${url}
-                #IF    $err_msg == ''
-                #    ${err_msg}=    Set Variable    ${new_err}
-                #ELSE
-                #    ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
-                #END
-                #Log String To Console     [ERROR] ${new_err}
+              
         END
 
     END
