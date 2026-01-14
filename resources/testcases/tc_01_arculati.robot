@@ -119,6 +119,36 @@ Test Case 01 - Arculati Elemek Ellenorzese
 
     #XML formában olvassuk be a docx fájlt a szövegek ellenőrzéséhez
      ${read_status}    ${xmlAllText}=    Run Keyword And Ignore Error    Read Docx All as XML    ${docx_path}
+    #ellenőrizzük az Eredeti könyv címe vagy külön forrásmegjelölést nem tartalmazó képek és ábrák  szöveget
+    #ha szerepel akkor nem kell forrás híbát kiirni
+     ${xmlAllText_lower}=    Convert To Lower Case    ${xmlAllText}
+
+    # Ellenőrizze, hogy az xmlAllText tartalmazza-e a szerző/kéziratíró szavak valamelyikét
+    ${nosource_keywords}=    Create List    az eredeti könyv címe    külön forrásmegjelölést nem tartalmazó
+    Set Global Variable   ${IGNORE_NOSOURCE}    ${False}
+    FOR    ${kw}    IN    @{nosource_keywords}
+        ${found}=    Run Keyword And Return Status    Should Contain    ${xmlAllText_lower}    ${kw}
+        IF    ${found}
+            Set Global Variable    ${IGNORE_NOSOURCE}    ${True}
+            Log String To Console    [DEBUG] Talált nosource kulcsszó: ${kw}
+            Exit For Loop
+        END
+    END
+      Log String To Console   [DEBUG] IGNORE_NOSOURCE: ${IGNORE_NOSOURCE}
+   # Ellenőrizze, hogy az xmlAllText tartalmazza-e a Tartalomjegyzék -et
+    ${tartalomjegyzek_keywords}=    Create List    tartalomjegyzék
+    Set Global Variable    ${FOUND_TARTALOMJEGYZEK}     ${False}    
+    FOR    ${kw}    IN    @{tartalomjegyzek_keywords}
+        ${found}=    Run Keyword And Return Status    Should Contain    ${xmlAllText_lower}    ${kw}
+        IF    ${found}
+            Set Global Variable   ${FOUND_TARTALOMJEGYZEK}    ${True}
+            Log String To Console    [DEBUG] Talált tartalomjegyzék kulcsszó: ${kw}
+            Exit For Loop
+        END
+    END        
+
+      Log String To Console   [DEBUG] FOUND_TARTALOMJEGYZEK: ${FOUND_TARTALOMJEGYZEK}
+      
     @{xml_lines}=    Split To Lines    ${xmlAllText}
     #kiirja eg xml_line.txt fájlba az xml sorokat
    

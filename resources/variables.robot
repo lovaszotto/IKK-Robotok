@@ -65,6 +65,8 @@ ${MEDIA_HAS_PICTURE}          ${False}
 ${MEDIA_HAS_OTHER_TYPE}          ${False}
 
 
+${IGNORE_NOSOURCE}          ${False}
+${FOUND_TARTALOMJEGYZEK}          ${False}
 
 
 # Dinamikus adatbázis elérési út betöltése a Python configból

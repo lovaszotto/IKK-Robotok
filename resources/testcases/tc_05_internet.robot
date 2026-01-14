@@ -72,7 +72,13 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
         IF    ${url_count} == 0
             Continue For Loop
         END
-
+        #ha van a címlapon Nem kell ellenőrizni akkor kihagyja
+        ${ignore_nosource}=    Get Variable Value    ${IGNORE_NOSOURCE}
+        IF    ${ignore_nosource} == ${True}
+            Log String To Console    [INFO] IGNORE_NOSOURCE beállítva, kihagyva az ábrák/fotók  ellenőrzését.
+            RETURN
+        END
+        
          FOR    ${url}    IN    @{urls}
            #ellenőrizze, hogy van e benne (.*\s*dddd.dd.dd.)   
            #irja ki a talált url-t

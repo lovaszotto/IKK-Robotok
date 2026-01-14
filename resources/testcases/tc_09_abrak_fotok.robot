@@ -28,7 +28,15 @@ Test Case 09 - Abrak Fotok Ellenorzese
     ${abra_text}=    Set Variable    ${EMPTY}
     ${nincs_forras_megjelolve}=    Set Variable    ${EMPTY}
     ${was_error_nincs_forras}=    Set Variable    ${False}
- 
+      #ha van a címlapon Nem kell ellenőrizni akkor kihagyja
+    ${ignore_nosource}=    Get Variable Value    ${IGNORE_NOSOURCE}
+    IF    ${ignore_nosource} == ${True}
+        Log String To Console    [INFO] IGNORE_NOSOURCE beállítva, kihagyva az ábrák fotók ellenőrzése hivatkozások ellenőrzését.
+        RETURN
+    END
+
+
+
     ${docx_path}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
     ${pars}=    Evaluate    [{'idx': i+1, 'text': p.text, 'style': (p.style.name if p.style else 'N/A')} for i,p in enumerate(__import__('docx').Document(r'''${docx_path}''').paragraphs)]
     

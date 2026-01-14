@@ -32,7 +32,7 @@ Test Case 06 - Szerzo Lektor Ellenorzese
     Run Keyword And Ignore Error    Remove File    xml_line.txt
     FOR    ${line}    IN    @{xml_lines}
         #Log To Console    ${idx}:${line}
-        Append To File    xml_line.txt    ${idx}:${line}\n
+        #Append To File    xml_line.txt    ${idx}:${line}\n
          IF     'Kéziratíró' in '''${line}''' 
             ${kezirat_iro_idx}=    Set Variable    ${idx}+1
             ${kezirat_iro}=    Set Variable    ${xml_lines[${kezirat_iro_idx}]}

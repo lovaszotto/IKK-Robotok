@@ -37,7 +37,7 @@ if not exist "results" (
 echo Robot Framework teszt futtatasa... 
 echo Formai ellenorzes futtatasa (PLG-00-main.robot)... 
  
-.venv\Scripts\robot.exe --outputdir results PLG-00-main.robot 
+.venv\Scripts\robot.exe --log NONE --report NONE --outputdir results PLG-00-main.robot 
  
 if errorlevel 1 ( 
     echo HIBA: A teszt futtatasa sikertelen 

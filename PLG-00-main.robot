@@ -74,14 +74,21 @@ Batch inicializálás
     
     FOR    ${index}    IN RANGE    ${file_count}
         ${docx_file}=    Get From List    ${docx_files}    ${index}
+        #_kezirat.docx átnevezése _kezirata.docx-ra
+         ${name_ok}=    Run Keyword And Return Status    Should Contain    ${docx_file}    _kezirata
+        IF    not ${name_ok}
+            ${new_name}=    Replace String    ${docx_file}    _kezirat    _kezirata
+            Move File    ${docx_file}    ${new_name}
+            Log String To Console    Átnevezve: ${docx_file} -> ${new_name}
+            ${docx_file}=    Set Variable    ${new_name}
+        END
         ${file_number}=    Evaluate    ${index} + 1
-        
         #Recovery ellenőrzés: ha a _Recovery.csv fájl  tartalmazza a  ${docx_files} szöveget, akkor kihagyjuk
         ${recovery_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}${/}_Recovery.csv
         ${is_in_recovery}=    Should Contain File    ${recovery_file}    ${docx_file}
         ${is_in_recovery_type}=    Evaluate    type(${is_in_recovery}).__name__
         IF    ${is_in_recovery}==${True}
-          Log String To Console    [RECOVERY]  ${docx_file} 
+          Log String To Console    [RECOVERY SKIPP]  ${docx_file} már feldolgozásra került, kihagyva.
           CONTINUE
         END
 
@@ -94,14 +101,15 @@ Batch inicializálás
         ${CURRENT_DIR}=    Evaluate    __import__('os').path.dirname('${docx_file_fixed}')    modules=os
         
     
-        #Log String To Console    \n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        Log String To Console    \n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
         Log String To Console    >>> FELDOLGOZÁS: (${file_number}/${file_count}) ${docx_file}
+        Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
         IF    '${docx_file}' != '' and 'docx.docx' in '${docx_file}'
           ${docx_file_fixed}=    Replace String    ${docx_file}    \\    /
           # A warning elkerülésére: minden backslash /-re cserélve
           ${new_file_name}=    Replace String    ${docx_file_fixed}    .docx.docx    .docx
           Move File    ${docx_file_fixed}    ${new_file_name}
-          Log String To Console    Átnevezve: ${docx_file_fixed} -> ${new_file_name}
+          Log String To Console    >>>> Átnevezve<<<< :  ${docx_file_fixed} -> ${new_file_name}
           ${docx_file}=    Set Variable    ${new_file_name}
         END
         # Verzió ellenőrzés: ellenőrzi, hogy az aktuális könyvtárban van-e azonos fájlnévvel 
@@ -158,7 +166,7 @@ Batch inicializálás
             #Log String To Console    Átnevezve (v0 eltávolítva): ${new_name} -> ${docx_file}
         END
         Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>>>FÁJLNÉV ELLENŐRZÉS: ${file_name}\n
-  
+           
         ${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirata.docx
         #${name_ok}=    Run Keyword And Return Status    Should Contain    ${file_name}    RRF221_tema_kezirat
         IF    not ${name_ok}
