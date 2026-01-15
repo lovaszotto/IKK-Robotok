@@ -36,23 +36,21 @@ Test Case 06 - Szerzo Lektor Ellenorzese
          IF     'Kéziratíró' in '''${line}''' 
             ${kezirat_iro_idx}=    Set Variable    ${idx}+1
             ${kezirat_iro}=    Set Variable    ${xml_lines[${kezirat_iro_idx}]}
-         Log String To Console    [DEBUG] Kéziratíró sort tartalmazó xml sor(${idx}): ${line}
-         Log String To Console    [DEBUG] Kéziratíró neve: ${kezirat_iro}
+            # Log String To Console    [DEBUG] Kéziratíró neve: ${kezirat_iro}
            
         END
         IF     'Szakmai lektor' in '''${line}'''
             ${szakmai_lektor_idx}=    Set Variable    ${idx}+1
             ${szakmai_lektor}=    Set Variable        ${xml_lines[${szakmai_lektor_idx}]}
-            Log String To Console    [DEBUG] Szakmai lektor sort tartalmazó xml sor(${idx}): ${line}
-            Log String To Console    [DEBUG] Szakmai lektor neve: ${szakmai_lektor}
+            #Log String To Console    [DEBUG] Szakmai lektor neve: ${szakmai_lektor}
            
         END
         ${idx}=    Evaluate    ${idx} + 1
     END
-   
+   Log String To Console    Szerző-lektor ellenőrzés indul: ${kezirat_iro}  /  ${szakmai_lektor}  
     ${err_msg}=    Szerzo Lektor Ellenorzesek    ${kezirat_iro}    ${szakmai_lektor}    ${err_msg}
-     Log String To Console    Szerző-lektor ellenőrzés eredménye: ${err_msg}
       # Teszt státusz és Excel jelölés végrehajtása a megadott soron
+    #Log String To Console    Visszatért az eredménnyel: ${err_msg} 
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
 
 Szerzo Lektor Ellenorzesek
@@ -67,9 +65,9 @@ Szerzo Lektor Ellenorzesek
         END
         Log String To Console    [ERROR] ${new_err}
     END
-   
+
+    Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szakmai lektor: ${szakmai_lektor}
     IF    $szakmai_lektor == '' or $szakmai_lektor == '#'
-     Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szakmai lektor: ${szakmai_lektor}
         ${new_err}=    Set Variable    A Szakmai lektor mező nem létezik, vagy üres!
         IF    $err_msg == ''
             ${err_msg}=    Set Variable    ${new_err}
@@ -82,8 +80,8 @@ Szerzo Lektor Ellenorzesek
     ${szerzo}=    Replace String    ${szerzo}    ;    ,
     ${szakmai_lektor}=    Replace String    ${szakmai_lektor}    ;    ,
     # Ensure no None values before further processing
-    ${szerzo}=    Get Variable Value    ${szerzo}    ${EMPTY}
-    ${szakmai_lektor}=    Get Variable Value    ${szakmai_lektor}    ${EMPTY}
+    #${szerzo}=    Get Variable Value    ${szerzo}    ${EMPTY}
+    #${szakmai_lektor}=    Get Variable Value    ${szakmai_lektor}    ${EMPTY}
     
     #globális változókba mentés
 
@@ -97,14 +95,15 @@ Szerzo Lektor Ellenorzesek
 
     ${szerzo_list}=    Split String    ${szerzo}    ,
     ${szakmai_lektor_list}=    Split String    ${szakmai_lektor}    ,
-    #Log String To Console    Szerző lista: ${szerzo_list}
-    #Log String To Console    Lektor lista: ${szakmai_lektor_list}
+    Log String To Console    Szerző lista: ${szerzo_list}
+    Log String To Console    Lektor lista: ${szakmai_lektor_list}
     FOR    ${szerzo_item}    IN    @{szerzo_list}
+        ${szerzo_list_item}=    Strip String    ${szerzo_item}
+        #Log String To Console    Szerző item: ${szerzo_list_item}
         FOR    ${lektor_item}    IN    @{szakmai_lektor_list}
-            ${szerzo_item}=    Strip String    ${szerzo_item}
-            ${lektor_item}=    Strip String    ${lektor_item}
-            #Log String To Console    Compare:${szerzo_item} and ${lektor_item}
-            IF    '${szerzo_item}' == '${lektor_item}' and ${lektor_item} != ''
+            ${lektor_list_item}=    Strip String    ${lektor_item}
+            #Log String To Console    Lektor item: ${lektor_list_item}
+            IF     '${lektor_list_item}' != '' and '${szerzo_list_item}' == '${lektor_list_item}' 
                 #Log String To Console    Megegyezik a szerző és a lektor: ${szerzo_item}
                 ${new_err}=    Set Variable    A Kéziratíró és a Szakmai lektor nem lehet azonos!
                 IF    $err_msg == ''
@@ -112,8 +111,12 @@ Szerzo Lektor Ellenorzesek
                 ELSE
                     ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
                 END
-                BREAK
+                 #Log String To Console    [visszatérés1] ${err_msg}
+                RETURN    ${err_msg}
+            #ELSE
+                #Log String To Console    Nem egyezik a szerző és a lektor: ${szerzo_item}  /  ${lektor_item}        
             END
         END
     END
+      #Log String To Console    [visszatérés2] ${err_msg}
     RETURN    ${err_msg}
