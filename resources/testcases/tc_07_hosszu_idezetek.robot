@@ -10,10 +10,10 @@ Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
 *** Keywords ***
 Test Case 07 - Hosszu Idezetek Ellenorzese
     [Documentation]    07 - Hosszú idézetek ellenőrzése
-    Log String To Console     \n\[07/24] +++++++++++++++++++++++++++ Hosszú idézetek ellenőrzése - kikapcsolva
-    RETURN     # Ezt a tesztet egyelőre kikapcsoltuk, mert nagyon lassan fut le
+    Log String To Console     \n\[07/24] +++++++++++++++++++++++++++ Hosszú idézetek ellenőrzése 
     
     ${docx_json}=    Get Variable Value    ${DOCX_JSON}    ${EMPTY}
+    ${docx_file}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
    ${testCase_row}=    Set Variable    9
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
@@ -30,41 +30,35 @@ Test Case 07 - Hosszu Idezetek Ellenorzese
 
     ${max_distance}=    Set Variable    0
     ${max_sample}=       Set Variable    ''
-    
-    Log String To Console    Teljes szöveg JSON hossza: ${text1_length} karakter
-    @{char_list}=    Create List
-    FOR    ${i}    IN RANGE    0    ${text1_length}
-        ${c}=    Get Substring    ${text}    ${i}    ${i+1}
-        # Ha idézőjelek között vagyunk, fűzzük hozzá a karaktert a sample-hoz
-        IF    ${is_start} == 1
-            ${sample_length}=    Get Length    ${sample}
-            IF    ${sample_length} < 50
-                ${sample}=    Set Variable    ${sample}${c}
-            END
-        END
-        IF    $c == '"' or $c == '„' or $c == '”' or $c == '“' or $c == '»' or $c == '«'
-            #Log String To Console    Idézőjel találat: ${c} index: ${i}
-            IF     ${is_start} == 0
-                ${is_start}=    Set Variable    1
-                ${start_idx}=    Set Variable    ${i}
-                 ${sample}=       Set Variable    ${c}
-            ELSE
-                ${is_start}=    Set Variable    0
-                ${end_idx}=    Set Variable    ${i}
-                 ${distance}=    Evaluate    ${end_idx} - ${start_idx}
-                Log String To Console    ${i}:Idézőjelek közti távolság: ${distance} ${sample}
-                IF  ${distance} > ${max_distance}    
-                    ${max_distance}=    Set Variable    ${distance}
-                    ${max_sample}=       Set Variable    ${sample}
-                END
-            END
-        END    
+      ${read_status}    ${xmlAllText}=    Run Keyword And Ignore Error    Read Docx All as XML    ${docx_file}
+    IF    $read_status == 'FAIL'
+        ${err_msg}=    Set Variable    Olvasási hiba (${docx_file_kompetencia})    
+        Log String To Console     [ERROR] ${err_msg}
+         Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
+         RETURN
+    END
+   #dobd ki a \n karaktereket az xmlAllText-ből
+    ${xmlAllText}=    Replace String    ${xmlAllText}    \n    ''
+    #ird ki az xmlAllText tartalmát egy xml_alltext.txt fájlba felülírással
+    Append To File    xml_alltext.txt    ${xmlAllText}
+
+    ${matches}=    Get Regexp Matches    ${xmlAllText}    \„(.*?)\”
+    ${max_distance}=    Set Variable    0
+    FOR    ${item}    IN    @{matches}
+       
+        ${item_length}=    Get Length    ${item}
+        #Log To Console    ${item} hossza: ${item_length}
+        IF    ${item_length} > ${max_distance}
+            ${max_distance}=    Set Variable    ${item_length}
+            ${max_sample}=       Set Variable    ${item}        
+        END        
     END
     #irjuk ki a tömb méretét
      Log String To Console   Max idézőjelek közti távolság: ${max_distance}
  
     IF    ${max_distance} >= 10000    
-       ${err_msg}=    Set Variable        Túl hosszú idézet: ${max_distance} karakter az idézőjelek között!(${max_sample})
+    #IF    ${max_distance} >= 40    
+       ${err_msg}=    Set Variable        Túl hosszú idézet: ${max_distance} karakter az idézőjelek között!;(${max_sample}[0:100])
     END
 
       Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
