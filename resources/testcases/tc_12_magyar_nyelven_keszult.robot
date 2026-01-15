@@ -68,7 +68,6 @@ Test Case 12 - Magyar Nyelven Keszult Ellenorzese
     END
     
     # Eredmény kiértékelése
-    Log String To Console    \n=== MAGYAR NYELV ELLENORZES EREDMENYE ===
     Log String To Console    Osszesen vizsgalt szovegreszek: ${total_valid_texts}
     Log String To Console    Magyar nyelven: ${hungarian_count}
     Log String To Console    Idegen nyelven: ${other_lang_count}
@@ -94,13 +93,15 @@ Test Case 12 - Magyar Nyelven Keszult Ellenorzese
     ${current_excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${current_sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
     
-    IF    '${current_excel_file}' != '${EMPTY}' and '${current_sheet_name}' != '${EMPTY}'
-        Mark Test Status    ${current_excel_file}    ${current_sheet_name}    ${testCase_row}    ${err_msg}
+    #IF    '${current_excel_file}' != '${EMPTY}' and '${current_sheet_name}' != '${EMPTY}'
+    #    Mark Test Status    ${current_excel_file}    ${current_sheet_name}    ${testCase_row}    ${err_msg}
         #Ha a magyar 95% felett van akkor sikeres legyen a teszt
         IF    ${hungarian_percentage} >= 95
              Fill Excel Cell    ${current_excel_file}    ${current_sheet_name}    ${testCase_row}    4     ${EMPTY}
             Mark Test Status    ${current_excel_file}    ${current_sheet_name}    ${testCase_row}    ${EMPTY}
+        ELSE
+            Mark Test Status    ${current_excel_file}    ${current_sheet_name}    ${testCase_row}    ${err_msg}
         END
-    END   
+    #END   
     # Változók törlése
     #Delete Variables    ${pars}    ${par}    ${text}

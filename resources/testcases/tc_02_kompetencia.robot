@@ -111,7 +111,7 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
         ${n_global}=   Convert To Lowercase    ${n_global}
         
         IF    "${n_third}" != "${n_global}"
-            ${new_err}=    Set Variable    A cím nem egyezik a Téma kéziratában megadottal!
+            ${new_err}=    Set Variable    A kompetencia címe nem egyezik a Téma kéziratában megadottal! - téma címe: ${n_global} - kompetencia címe: ${n_third}
             Append To List    ${errors}    ${new_err}
             Log String To Console     [ERROR] ${new_err}
             Log String To Console     [TEMA] ${third_paragraph} (norm: ${n_third})
@@ -124,7 +124,7 @@ Test Case 02 - Kompetencia Teszt Ellenorzese
         Log String To Console    Negyedik sor(2): ${fourth_paragraph}
         ${normalized_fourth}=    Strip String    ${fourth_paragraph}
         IF    $normalized_fourth != 'Kompetencia tesztek kézirata'
-            ${new_err}=    Set Variable    A negyedik sor kötelezően: "Kompetencia tesztek kézirata" !
+            ${new_err}=    Set Variable    A negyedik sor kötelezően: "Kompetencia tesztek kézirata" ! - Talált szöveg: ${fourth_paragraph}    
             Append To List    ${errors}    ${new_err}
             Log String To Console     [ERROR] ${new_err}
         END

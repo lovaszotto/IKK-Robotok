@@ -990,10 +990,11 @@ Run All Format Checks Inline
     IF    ${was_error}
         Rename Excel File Mark Error    ${CURRENT_EXCEL_FILE}
     END
+  
+    # Összegzés kiírása
+    Log String To Console    \n=== FORMAI ELLENŐRZÉS ÖSSZESÍTÉS ===
     Log String To Console    Feldolgozott Excel fájl: ${CURRENT_EXCEL_FILE}
 
-    # Összegzés kiírása
-    Log String To Console    \n=== FORMÁLELLENŐRZÉS ÖSSZESÍTÉS ===
     Log String To Console    Ellenőrzések száma: ${check_total}  |  Sikeres: ${check_passed}  |  Sikertelen: ${check_failed}
     # Globális számlálók frissítése
     Update Global Check Counters    ${check_total}    ${check_passed}    ${check_failed}

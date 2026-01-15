@@ -136,6 +136,9 @@ Test Case 01 - Arculati Elemek Ellenorzese
     END
       Log String To Console   [DEBUG] IGNORE_NOSOURCE: ${IGNORE_NOSOURCE}
    # Ellenőrizze, hogy az xmlAllText tartalmazza-e a Tartalomjegyzék -et
+   #irja ki az első 300 karaktert debugként
+    #Log String To Console    [DEBUG] XML első 300 karakter: \n${xmlAllText}[0:1600]\n
+     
     ${tartalomjegyzek_keywords}=    Create List    tartalomjegyzék
     Set Global Variable    ${FOUND_TARTALOMJEGYZEK}     ${False}    
     FOR    ${kw}    IN    @{tartalomjegyzek_keywords}
@@ -143,6 +146,12 @@ Test Case 01 - Arculati Elemek Ellenorzese
         IF    ${found}
             Set Global Variable   ${FOUND_TARTALOMJEGYZEK}    ${True}
             Log String To Console    [DEBUG] Talált tartalomjegyzék kulcsszó: ${kw}
+            Exit For Loop
+        END
+    ${found_short}=    Run Keyword And Return Status    Should Contain    ${xmlAllText_lower}[0:1600]    tartalom
+        IF    ${found_short}
+            Set Global Variable   ${FOUND_TARTALOMJEGYZEK}    ${True}
+            Log String To Console    [DEBUG] Talált TARTALOM kulcsszó: TARTALOM
             Exit For Loop
         END
     END        

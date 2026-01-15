@@ -26,7 +26,7 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
     ${was_regi_datum_error}=    Set Variable    ${False}
     ${was_nincs_datum_error}=    Set Variable   ${False}
 
-#végignézzük a paragrafusokat, és keresünk benne hivatkozásokat  
+    #végignézzük a paragrafusokat, és keresünk benne hivatkozásokat  
     ${paragraphs}=    Get From Dictionary    ${docx_json}    paragraphs
     ${paragraphs_count}=    Get Length    ${paragraphs}
       #kiirja a paragrafusok számát , ha nincs hitáb ír
@@ -73,11 +73,13 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
             Continue For Loop
         END
         #ha van a címlapon Nem kell ellenőrizni akkor kihagyja
-        ${ignore_nosource}=    Get Variable Value    ${IGNORE_NOSOURCE}
-        IF    ${ignore_nosource} == ${True}
-            Log String To Console    [INFO] IGNORE_NOSOURCE beállítva, kihagyva az ábrák/fotók  ellenőrzését.
-            RETURN
-        END
+        #${ignore_nosource}=    Get Variable Value    ${IGNORE_NOSOURCE}
+        #IF    ${ignore_nosource} == ${True}
+        #    Log String To Console    [INFO] IGNORE_NOSOURCE beállítva, kihagyva az ábrák/fotók  ellenőrzését.
+              # Teszt státusz és Excel jelölés végrehajtása a megadott soron
+        #    Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${EMPTY}
+        #    RETURN
+        #END
         
          FOR    ${url}    IN    @{urls}
            #ellenőrizze, hogy van e benne (.*\s*dddd.dd.dd.)   

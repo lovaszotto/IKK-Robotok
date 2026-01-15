@@ -102,8 +102,11 @@ Test Case 03 - Fogalomtar Ellenorzese
         #trimmeljük mindkettőt
         ${third_paragraph}=    Strip String    ${third_paragraph}
         ${global_cim}=    Strip String    ${global_cim}
-        IF    "${third_paragraph}" != "${global_cim}"    
-            ${new_err}=    Set Variable    A cím nem egyezik a Téma kéziratában megadottal!
+          #kisbetűsítés
+        ${n_third}=    Convert To Lowercase    ${third_paragraph}
+        ${n_global}=   Convert To Lowercase    ${global_cim}
+        IF    "${n_third}" != "${n_global}"    
+            ${new_err}=    Set Variable    A Fogalomtár címe nem egyezik a Téma kéziratában megadottal! - téma címe: ${global_cim} - fogalomtár címe: ${third_paragraph}
             Append To List    ${errors}    ${new_err}
             Log String To Console     [ERROR] ${new_err}
             Log String To Console     [TEMA] ${third_paragraph}
@@ -115,7 +118,7 @@ Test Case 03 - Fogalomtar Ellenorzese
         Log String To Console    Negyedik sor(${act_line}): ${fourth_paragraph}
         ${normalized_fourth}=    Strip String    ${fourth_paragraph}
         IF    $normalized_fourth != 'Fogalomtár kézirata'
-            ${new_err}=    Set Variable    A negyedik sor kötelezően: "Fogalomtár kézirata" !
+            ${new_err}=    Set Variable    A negyedik sor kötelezően: "Fogalomtár kézirata" ! - Talált szöveg: ${fourth_paragraph}
             Append To List    ${errors}    ${new_err}
             Log String To Console     [ERROR] ${new_err}
         END

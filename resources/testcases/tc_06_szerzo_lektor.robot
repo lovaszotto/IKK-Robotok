@@ -51,12 +51,13 @@ Test Case 06 - Szerzo Lektor Ellenorzese
     END
    
     ${err_msg}=    Szerzo Lektor Ellenorzesek    ${kezirat_iro}    ${szakmai_lektor}    ${err_msg}
- 
+     Log String To Console    Szerző-lektor ellenőrzés eredménye: ${err_msg}
+      # Teszt státusz és Excel jelölés végrehajtása a megadott soron
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
 
 Szerzo Lektor Ellenorzesek
     [Arguments]     ${szerzo}    ${szakmai_lektor}     ${err_msg}
-    #Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szerző: ${szerzo}
+    Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szerző: ${szerzo}
     IF    $szerzo == '' or $szerzo == '#'
         ${new_err}=    Set Variable    A Kéziratíró mező nem létezik, vagy üres!
         IF    $err_msg == ''
@@ -68,6 +69,7 @@ Szerzo Lektor Ellenorzesek
     END
    
     IF    $szakmai_lektor == '' or $szakmai_lektor == '#'
+     Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szakmai lektor: ${szakmai_lektor}
         ${new_err}=    Set Variable    A Szakmai lektor mező nem létezik, vagy üres!
         IF    $err_msg == ''
             ${err_msg}=    Set Variable    ${new_err}

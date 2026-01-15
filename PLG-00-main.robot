@@ -112,6 +112,16 @@ Batch inicializálás
           Log String To Console    >>>> Átnevezve<<<< :  ${docx_file_fixed} -> ${new_file_name}
           ${docx_file}=    Set Variable    ${new_file_name}
         END
+        #doc.docx fájlok átnevzése
+      IF    '${docx_file}' != '' and 'doc.docx' in '${docx_file}'
+          ${docx_file_fixed}=    Replace String    ${docx_file}    \\    /
+          # A warning elkerülésére: minden backslash /-re cserélve
+          ${new_file_name}=    Replace String    ${docx_file_fixed}    .doc.docx    .docx
+          Move File    ${docx_file_fixed}    ${new_file_name}
+          Log String To Console    >>>> Átnevezve<<<< :  ${docx_file_fixed} -> ${new_file_name}
+          ${docx_file}=    Set Variable    ${new_file_name}
+        END
+
         # Verzió ellenőrzés: ellenőrzi, hogy az aktuális könyvtárban van-e azonos fájlnévvel 
         # --- Verziókezelő blokk: csak a legnagyobb verzió marad, a többit átnevezi ---
        # az only_file_name változó a docx_file-ból csak a fájl nevet tartalmazza kiterjesztés nélkül
@@ -185,7 +195,7 @@ Batch inicializálás
             END
             #tema_kezirat név hibás
             Log String To Console    [SKIP] Fájl kihagyva (név nem egyezik): ${file_name} 
-            Write SumError fájl    ${EMPTY}    ${EMPTY}    tc-0    Fájlnév nem tartalmazza az RRF221_tema_kezirata szöveget    ${file_name}
+            #Write SumError fájl    ${EMPTY}    ${EMPTY}    tc-0    Fájlnév nem tartalmazza az RRF221_tema_kezirata szöveget    ${file_name}
             CONTINUE
         END
 
