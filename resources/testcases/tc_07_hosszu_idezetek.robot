@@ -40,7 +40,7 @@ Test Case 07 - Hosszu Idezetek Ellenorzese
    #dobd ki a \n karaktereket az xmlAllText-ből
     ${xmlAllText}=    Replace String    ${xmlAllText}    \n    ''
     #ird ki az xmlAllText tartalmát egy xml_alltext.txt fájlba felülírással
-    Append To File    xml_alltext.txt    ${xmlAllText}
+    #Append To File    xml_alltext.txt    ${xmlAllText}
 
     ${matches}=    Get Regexp Matches    ${xmlAllText}    \„(.*?)\”
     ${max_distance}=    Set Variable    0

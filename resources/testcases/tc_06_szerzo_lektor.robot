@@ -55,6 +55,7 @@ Test Case 06 - Szerzo Lektor Ellenorzese
 
 Szerzo Lektor Ellenorzesek
     [Arguments]     ${szerzo}    ${szakmai_lektor}     ${err_msg}
+    
     Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>> Szerző: ${szerzo}
     IF    $szerzo == '' or $szerzo == '#'
         ${new_err}=    Set Variable    A Kéziratíró mező nem létezik, vagy üres!
