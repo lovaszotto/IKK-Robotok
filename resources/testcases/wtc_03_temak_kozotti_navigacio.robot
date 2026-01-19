@@ -122,6 +122,7 @@ Témák közötti navigáció ellenőrzése
                                 Log String To Console    Nincs ilyen elem, kihagyás
                                 Continue For Loop
                             END
+                            Log String To Console    ----------------------------------------- Kép:\n${img}
                             #${visible}=   Run Keyword And Ignore Error    Wait Until Element Is Visible   ${img}   1s
                             #${img}=    Get From List    ${images}    ${img_index}
                             ${visible}=     Run Keyword And Return Status    Element Should Be Visible    ${img}
@@ -135,9 +136,10 @@ Témák közötti navigáció ellenőrzése
                            
                             # Kép vagy videó alt/title attribútum lekérése
                             ${alt}=    Get Element Attribute    (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]//img    alt
-                            Log String To Console    Kép alt attribútum: ${alt}
+                            Log String To Console    Kép alt attribútum: \n${alt}
                             ${src}=    Get Element Attribute    (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]//img    src
-                        
+                            Log String To Console    Kép src:\n ${src}
+                          
                             #Log String To Console    ${img_index}: Média alt/title: ${alt}
                             
                            
@@ -206,7 +208,7 @@ Témák közötti navigáció ellenőrzése
                             #Log String To Console    Kép letöltés előtt: ${outfile}
 
                             #Save Response Body To File    ${resp}    ${outfile}
-                            Log String To Console    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Kép letöltve: ${fname}
+                            Log String To Console    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Kép letöltve: ${fname} >>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n\n
                            
                         EXCEPT    AS    ${e2}
                             Log String To Console    [ERROR] Hiba a kép letöltésekor: ${e2}

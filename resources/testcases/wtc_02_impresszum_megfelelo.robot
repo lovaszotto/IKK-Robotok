@@ -79,10 +79,11 @@ Impresszum megfelelőség ellenőrzése
         ${szerzo}=   Convert To UpperCASE    ${szerzo}
   
         ${dokumentum_szerzo} =    Get Variable Value    ${DOKUMENTUM_SZERZO}    ${EMPTY}
+        ${dokumentum_szerzo}=    Strip String    ${dokumentum_szerzo}
         ${dokumentum_szerzo}=    Convert To Uppercase    ${dokumentum_szerzo}
 
-        Log String To Console    Szerző neve: ${szerzo}
-        Log String To Console    Dokumentum szerző neve: ${dokumentum_szerzo}
+        Log String To Console    Szerző neve: [${szerzo}]
+        Log String To Console    Dokumentum szerző neve: [${dokumentum_szerzo}]
         
         IF    $dokumentum_szerzo != $szerzo
             ${new_err}=    Set Variable     A dokumentum szerzője nem egyezik meg a várt értékkel. Kézirat: ${dokumentum_szerzo} DT: ${szerzo}
