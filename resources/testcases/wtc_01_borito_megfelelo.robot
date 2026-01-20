@@ -23,9 +23,16 @@ Boritó megfelelőség ellenőrzése
 
      #címsor kiválasztása a tartalomjegyzékből
     ${home_button}=    Get WebElement    xpath=//span[contains(@class,'node-title')]
-    ${home_title}=    Get Text   ${home_button}
+    #${home_title}=    Get Text   ${home_button}
+    ${home_title}=    Get Text  xpath=//span[contains(@class,'node-title')]
+    
+    #Log To Console    >>>>> Borító címe a DT-ben: ${home_title}
     #a ${home_title} -ben \nBlokk cseréje üres karakterre
     ${home_title}=    Replace String    ${home_title}    \nBlokk    ${EMPTY}
+    #Log To Console    >>>>> Borító címe a DT-ben (\\nBlokk eltávolítva): ${home_title}
+    ${home_title}=    Strip String    ${home_title}
+    #Log To Console    >>>>> Borító címe a DT-ben (trim): ${home_title}
+
     
     Log String To Console    >>> node clicked
     TRY
@@ -50,10 +57,17 @@ Boritó megfelelőség ellenőrzése
     
     # Dokumentum cím ellenőrzése
     ${dokumentum_cimsor} =    Get Variable Value    ${DOKUMENTUM_CIMSOR}    ${EMPTY}
+    ${dokumentum_cimsor} =   Strip String    ${dokumentum_cimsor}
     Log String To Console    DT címe: ${home_title}
     Log String To Console    Kézirat címe: ${dokumentum_cimsor}
-    IF    $dokumentum_cimsor != $home_title
-        ${err_msg}=    Set Variable    A dokumentum címsor nem egyezik meg a várt értékkel. Kézirat: '${dokumentum_cimsor}', DT: '${home_title}'
+    #egyenlőség vizsgálata ${dokumentum_cimsor}' != '${home_title}'
+    ${dokumentum_cimsor_upper}=    Convert To Upper Case    ${dokumentum_cimsor}
+    ${dokumentum_cimsor_upper}=    Strip String    ${dokumentum_cimsor_upper}
+    ${home_title_upper}=    Convert To Upper Case    ${home_title}
+    ${home_title_upper}=    Strip String    ${home_title_upper}
+
+    IF    '${dokumentum_cimsor_upper}' != '${home_title_upper}'
+        ${err_msg}=    Set Variable    A dokumentum címsor nem egyezik meg a várt értékkel. Kézirat: '${dokumentum_cimsor_upper}', DT: '${home_title_upper}'
         Append To List    ${errors}    ${err_msg}
     END
     

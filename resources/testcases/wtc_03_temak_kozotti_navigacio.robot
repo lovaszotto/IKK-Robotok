@@ -1,9 +1,11 @@
 *** Settings ***
-Library    SeleniumLibrary 
+
+Library    SeleniumLibrary
 Library    RequestsLibrary
 Library    Collections
 Library    OperatingSystem
 Library    BuiltIn
+Library    DateTime
 
 Resource   ${CURDIR}/../keywords.robot
 Resource   ${CURDIR}/../../PLG-02-Excel-kitolto.robot
@@ -14,7 +16,8 @@ ${PATHQ}    /947aa28d-3fa0-3b1b-67b9-41f55739d3ab/content/assets/BE/69/F17H8B924
 ${SESSION}  blob
 ${OUT_BASENAME}    image
 ${DEFAULT_BASENAME}    media
-
+${start_time}    0
+${end_time}    0
 
 *** Keywords ***
 Témák közötti navigáció ellenőrzése
@@ -32,10 +35,10 @@ Témák közötti navigáció ellenőrzése
      ${leckek_szama}=    Set Variable    0
 
     #felugró teszt megszakítása gomb kezelése
-    Log String To Console    \nTeszt megszakítás popup kezelés
-    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
-    Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
-    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
+    #Log String To Console    \nTeszt megszakítás popup kezelés
+    #Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
+    #Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
+    #Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
 
     #Ha nem futtatunk média ellenőrzést, kilépünk
     IF    $RUN_MEDIA_CHECK == $False
@@ -56,25 +59,21 @@ Témák közötti navigáció ellenőrzése
            #ha van _Menu.csv akkor kihagyja a menün való lépkedést
            #      
            WHILE    ${is_disabled} is ${NONE}
-                Log String To Console    Következő oldal gomb engedélyezett,menü lekérése...
+                Log String To Console    Következő oldal gomb engedélyezett,menü lekérése...\n\n
                 TRY     
                     
-                    TRY
-                        Click Element      xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
-                        Log String To Console    Következő oldal gombra kattintva.
-                    EXCEPT
-                        Log String To Console    >>> Click exception következő oldal gombnál
-                        #overlay eltávolítása
-                        Run Keyword And Ignore Error    Wait Until Page Does Not Contain Element    css:div.cdk-overlay-backdrop.cdk-overlay-backdrop-showing    10s
-                        # Popup Handler
-                        Wait Until Element Is Visible    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]     1s
-                        Click Button       xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
-                        Log String To Console    >>> Következő oldalra lépés clicked in exception
-                    END
+                     Log String To Console    Következő oldal gombra kattintás.
+                    Run Keyword And Ignore Error    Wait Until Page Does Not Contain Element    css:div.cdk-overlay-backdrop.cdk-overlay-backdrop-showing    1s
+                    Click Element      xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
+                    Log String To Console    Következő oldal gombra kattintva.
+                
+                   
+                     #kép video ellenőrzés kihagyva
+                
                     #    ent Is Visible    xpat#h=//app-image-field[contains(@style, 'display: flex')]//img| //app-video-field[contains(@style, 'displa#y: flex-flow')]//video    2s
                   
                       #Menü sor lekérése
-                    Wait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    10s
+                    Wait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    5s
                     ${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name}=   Get Highlighted And Parent Titles By Text
                     Log String To Console   Mmenü lekérése kész 
             
@@ -97,10 +96,11 @@ Témák közötti navigáció ellenőrzése
                     END
                     
                     #Log String To Console    Oldalcím elemek láthatóak, váraskozás OK
-                 
+                 #kép video ellenőrzés kihagyva
+                
                   #Képek ellenőrzése
                     #Wait For Elements State    //app-image-field//img    visible=True    timeout=10s
-                    ${images}=    Get WebElements    //app-image-field[contains(@style, 'display: flex')]//img 
+                    ${images}=    Get WebElements    //app-image-field[contains(@style, 'display: flex')]/img 
                     ${image_count}=    Get Length    ${images}
                     ${img_index}=    Set Variable    0
                   Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált képek száma: ${image_count}
@@ -109,39 +109,42 @@ Témák közötti navigáció ellenőrzése
                     #Képek feldolgozása
                     Set Variable    ${img_index}    0
                     FOR    ${img_index}    IN RANGE   ${image_count}    
-                    #CONTINUE
+                    
                         TRY
                       
                             Log String To Console    \nKövetkező Kép: ${img_index}
-
-                    
-                            ${img}=    Get WebElement   (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]//img
+                            #${img}=    Get WebElement   (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]/img
+                            #${img}=    Get WebElement   ${images}[${img_index+1}]/img
+                             ${img}=    Get WebElement   ${images}[${img_index}]
+                           
                             ${exists}=    Run Keyword And Return Status    Page Should Contain Element    ${img}
                             #Run Keyword If    ${exists}    Log String To Console    "Megvan!"    ELSE    Log String To Console    "Nincs ilyen elem"
                             IF    ${exists} == False
                                 Log String To Console    Nincs ilyen elem, kihagyás
                                 Continue For Loop
                             END
-                            Log String To Console    ----------------------------------------- Kép:\n${img}
+                            Log String To Console    ----------------------------------------- Kép:-------------------------------------
                             #${visible}=   Run Keyword And Ignore Error    Wait Until Element Is Visible   ${img}   1s
                             #${img}=    Get From List    ${images}    ${img_index}
-                            ${visible}=     Run Keyword And Return Status    Element Should Be Visible    ${img}
-                            IF    ${visible} == False
-                                Log String To Console    A kép nem látható, kihagyás
-                                Continue For Loop
-                            END
-                            Log String To Console    ${img_index}:Következő Kép: ${img_index}
+                            #${visible}=     Run Keyword And Return Status    Element Should Be Visible    ${img}
+                            #IF    ${visible} == False
+                            #    Log String To Console    A kép nem látható, kihagyás
+                            #    Continue For Loop
+                            #END
+                            #Log String To Console    ${img_index}:Következő Kép: ${img_index}
 
-                            #${alt}=    Get Element Attribute    ${img}    alt
                            
                             # Kép vagy videó alt/title attribútum lekérése
-                            ${alt}=    Get Element Attribute    (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]//img    alt
-                            Log String To Console    Kép alt attribútum: \n${alt}
-                            ${src}=    Get Element Attribute    (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]//img    src
-                            Log String To Console    Kép src:\n ${src}
-                          
-                            #Log String To Console    ${img_index}: Média alt/title: ${alt}
+
+                            #${alt}=    Get Element Attribute    (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]/img    alt      
+                            ${alt}=    Get Element Attribute    ${img}    alt      
                             
+                            Log String To Console    ${img_index}: Média alt/title: ${alt}
+                            
+                            #${src}=    Get Element Attribute    (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]/img    src
+                            ${src}=    Get Element Attribute    ${img}    src      
+                            #Log String To Console    Kép src:\n ${src}
+                          
                            
                             #${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name} =    Get Highlighted And Parent Titles (Levels 1-3)
 
@@ -157,6 +160,8 @@ Témák közötti navigáció ellenőrzése
                             #Alt felírása media katalógusba
                             Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    5    ${alt}
                         
+
+                       
                             # src már az előző IF/ELSE-ben beállítva
                             
                             # Log String To Console    Kép forrás: ${src}
@@ -216,14 +221,15 @@ Témák közötti navigáció ellenőrzése
                         
                     END
                      ${leckek_szama}=    Evaluate    ${leckek_szama} + 1
-    #Videok
+        #Videok
         
-         
+             #tesztre - nem kérjük le a videokat sem
+                    #Log String To Console    \n\n!!!!!!!!!!!!!!!!!!!4 Videók ellenőrzése kihagyva !!!!!!!!!!!!!!!!!!!!!!!!
                     #Wait For Elements State    //app-image-field//img    visible=True    timeout=10s
                     ${videos}=    Get WebElements    //app-video-field[contains(@style, 'flex-flow')]//video
                     ${video_count}=    Get Length    ${videos}
                     ${video_index}=    Set Variable    0
-                  Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált   videok száma: ${video_count}
+                  Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált videók száma: ${video_count}
 
       
                     #Videok feldolgozása
@@ -234,21 +240,22 @@ Témák közötti navigáció ellenőrzése
                             Log String To Console    \nKövetkező Videó: ${video_index}
 
 
-                            ${video}=    Get WebElement   //app-video-field[contains(@style, 'flex-flow')][${video_index+1}]//video
+                            #${video}=    Get WebElement   //app-video-field[contains(@style, 'flex-flow')][${video_index+1}]/video
+                            ${video}=    Set Variable   ${videos}[${video_index}]
                             ${exists}=    Run Keyword And Return Status    Page Should Contain Element    ${video}
                             #Run Keyword If    ${exists}    Log String To Console    "Megvan!"    ELSE    Log String To Console    "Nincs ilyen elem"
                             IF    ${exists} == False
                                 Log String To Console    Nincs ilyen video elem, kihagyás
                                 Continue For Loop
                             END
-                            ${visible}=   Run Keyword And Ignore Error    Wait Until Element Is Visible   ${video}   1s
+                            #${visible}=   Run Keyword And Ignore Error    Wait Until Element Is Visible   ${video}   1s
                             #${img}=    Get From List    ${images}    ${img_index}
                             #${visible}=     Run Keyword And Return Status    Element Should Be Visible    ${video}
-                            IF    ${visible} == False
-                                Log String To Console    A video nem látható, kihagyás
-                                Continue For Loop
-                            END
-                            Log String To Console    ${video_index}:Következő Videó: ${video_index}
+                            #IF    ${visible} == False
+                            #    Log String To Console    A video nem látható, kihagyás
+                            #    Continue For Loop
+                            #END
+                            #Log String To Console    ${video_index}:Következő Videó: ${video_index}
 
                             #${alt}=    Get Element Attribute    ${img}    alt
                            
@@ -257,10 +264,10 @@ Témák közötti navigáció ellenőrzése
                            Log String To Console    Várakozás 60s a felhasználói alt/title megadására...
                         #Sleep     60s
 
-                            ${alt_video}=    Get Element Attribute    //app-video-field[contains(@style, 'flex-flow')][${video_index+1}]//video    title
+                            ${alt_video}=    Get Element Attribute    ${video}    title
                             Log String To Console    Video alt attribútum: ${alt_video}
                             
-                            ${src}=    Get Element Attribute    //app-video-field[contains(@style, 'flex-flow')][${video_index+1}]//video    src
+                            ${src}=    Get Element Attribute    ${video}    src
 
                             #Log String To Console    ${img_index}: Média alt/title: ${alt_video}
 
@@ -351,6 +358,16 @@ Témák közötti navigáció ellenőrzése
                     Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
                     Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
 
+ #overlay eltávolítása
+                     # Popup Handler
+                    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]     1s
+                    Run Keyword And Ignore Error    Click Button       xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
+                    Run Keyword And Ignore Error    Log String To Console    >>> Következő oldalra lépés clicked in exception
+                        
+                    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(@aria-label,'Teszt folytatása')]     1s
+                    Run Keyword And Ignore Error    Click Button       xpath=//button[contains(@aria-label,'Teszt folytatása')]
+                    Run Keyword And Ignore Error    Log String To Console    >>> Teszt folytatása clicked in exception
+
                     #felugró teszt újrakezdés gomb kezelése
                    # Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Újrakezdés')]    0.1s
                     Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Újrakezdés')]
@@ -361,17 +378,14 @@ Témák közötti navigáció ellenőrzése
                 END
                  #
                  # #lapozá#s a következő 
-                #${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Követ#kező oldalra lépés')]
-                #${is_disabled}=    Get Element Attribute    ${next_button}    disabled
-                 Wait Until Element Is Visible     xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
-                     #Popup Handlerins(@aria-label,'Következő oldalra lépés')]     1s
-                 Log String To Console   -----  Következő oldal gomb állapot lekérdezése előtt -----
+                ${next_button}=    Get WebElement    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
+                ${is_disabled}=    Get Element Attribute    ${next_button}    disabled
+                # Wait Until Element Is Visible     xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                 ${is_disabled}=    Get Element Attribute     xpath=//button[contains(@aria-label,'Következő oldalra lépés')]     disabled
-              
-                #Log String To Console    Következő oldal gomb le van tiltva vagy ismeretlen állapot: ${is_enabled}
+              Log String To Console    Következő oldal gomb disabled attribútuma: ${is_disabled}
 
                 IF   $is_disabled == True or $is_disabled == 'true' or $is_disabled == 'True'
-                    #Log String To Console    Következő oldal gomb le van tiltva vagy ismeretlen állapot: ${is_disabled}
+                    Log String To Console    Következő oldal gomb le van tiltva vagy ismeretlen állapot: ${is_disabled}
                     Exit For Loop
                 END
            END
@@ -407,11 +421,16 @@ Get Parent Title By Highlighted Text
     #...    (//span[contains(@class,'node-title') and normalize-space(.)='${hl_text_raw}']
     #...     /ancestor::*[@aria-level='${level}'][1]//span[contains(@class,'node-title')])[1]
 
+    #RETURN     'Kihagyva pontos keresés'
+
     ${xpath_exact}=    Set Variable    (//span[contains(@class,'node-title') and contains(normalize-space(.),'${hl_text_raw}')]/ancestor::*[@aria-level='${level}'][1]//span[contains(@class,'node-title')])[1]
-    #Log String To Console    \nXPath exact: ${xpath_exact}
+    Log String To Console    \nKeresés XPath exact: ${xpath_exact}
     ${status}=    Run Keyword And Return Status    Page Should Contain Element    xpath=${xpath_exact}
     IF    ${status}
         ${txt}=    Get Text    xpath=${xpath_exact}
+       
+        Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Talált szöveg exact: ${txt}
+         #Sleep    60s
         RETURN   ${txt}
     END
     # 2) fallback: contains
@@ -458,7 +477,7 @@ Get Highlighted And Parent Titles By Text
 
     ${level1_raw}=    Get Parent Title By Highlighted Text    1    ${level2_name}
     ${level1_name}=         Sanitize Title    ${level1_raw}
-    Log String To Console    \n--- EREDMÉNY ---\nSheet: ${CURRENT_SHEET_NAME} \nHighlighted: ${highlighted_name}\nL1: ${level1_name}\nL2: ${level2_name}\nL3: ${level3_name} 
+    Log String To Console    --- EREDMÉNY ---\nSheet: ${CURRENT_SHEET_NAME} \nHighlighted: ${highlighted_name}\nL1: ${level1_name}\nL2: ${level2_name}\nL3: ${level3_name} 
    Write Menu To CSV    ${CURRENT_SHEET_NAME}      ${highlighted_name}    ${level1_name}    ${level2_name}    ${level3_name} 
    RETURN    ${highlighted_name}    ${level1_name}    ${level2_name}    ${level3_name}    
  

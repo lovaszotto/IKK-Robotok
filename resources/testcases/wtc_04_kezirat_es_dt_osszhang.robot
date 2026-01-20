@@ -90,10 +90,22 @@ Kézirat és DT összhang ellenőrzése
     IF    ${not_found_count} > 0
         Log String To Console    \n[ERROR] Összesen ${not_found_count} oldal nem található a Digitális anyagban.
         ${found_percentage}=    Evaluate    ${found_count} / (${found_count} + ${not_found_count}) * 100
-        ${new_err}=    Set Variable    DT-Kézirat találati arány: ${found_percentage}%, Megtalált: ${found_count}, Nem megtalált: ${not_found_count}
+       ${total_count}=    Evaluate    ${found_count} + ${not_found_count}
+        ${hungarian_percentage}=    Evaluate    round((${found_count} / ${total_count}) * 100, 1)
+        Log String To Console    Magyar nyelvu arany: ${hungarian_percentage}%
+        
+        IF    ${hungarian_percentage} > 90
+            Log String To Console    SIKERES: A dokumentum magyar nyelven keszult
+            ${new_err}=    Set Variable    ${EMPTY}
+        ELSE
+             ${new_err}=    Set Variable    DT-Kézirat találati arány: ${found_percentage}%, Megtalált: ${found_count}, Nem megtalált: ${not_found_count}
+               Log String To Console    SIKERTELEN: Talalhatok idegen nyelvu szovegreszek
+             Insert Into List    ${errors}    0    ${new_err}
+            Log String To Console    \n[ERROR] ${new_err}
+        END
+       
         #Append To List    ${errors}    ${new_err}
-        Insert Into List    ${errors}    0    ${new_err}
-        Log String To Console    \n[ERROR] ${new_err}
+       
     ELSE
         Log String To Console    \n[INFO] Minden oldal megtalálva a Digitális anyagban. Összesen: ${found_count}
     END

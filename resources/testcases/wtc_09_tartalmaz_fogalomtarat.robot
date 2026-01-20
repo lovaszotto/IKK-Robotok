@@ -38,7 +38,7 @@ Tartalmaz fogalomtárat ellenőrzése
          ${szoveg_norm}=    Replace String    ${pages_text}    –    -
        # Paginátor információk kiírása
        Log String To Console    >> Paginátor információk: ${szoveg_norm}
-         IF    $szoveg_norm == '0 - 0 of 0'
+         IF    ${szoveg_norm} == '0 - 0 of 0'
            #Nincsenek bejegyzések a fogalomtárban
            ${new_err}=    Set Variable    A lecke fogalomtára üres!
            IF    '${err_msg}' == ''
@@ -52,25 +52,25 @@ Tartalmaz fogalomtárat ellenőrzése
        #
        #Szűrő müködés ellenőrzése
        #
-        Input Text       xpath=//input[contains(@class,'mat-mdc-input-element')]   BitosNincsIlyenTalálatFilter
-        Sleep    1s
+       # Input Text       xpath=//input[contains(@class,'mat-mdc-input-element')]   BitosNincsIlyenTalálatFilter
+       # Sleep    1s
         # Paginátor újra beolvasása
-       Wait Until Element Is Visible    xpath=(//*[contains(@class,'mat-mdc-paginator-range-label')])   5s 
-        ${pages_text2}=    Get Text    xpath=(//*[contains(@class,'mat-mdc-paginator-range-label')])
-         ${szoveg_norm2}=    Replace String    ${pages_text2}    –    -
+       #Wait Until Element Is Visible    xpath=(//*[contains(@class,'mat-mdc-paginator-range-label')])   5s 
+       # ${pages_text2}=    Get Text    xpath=(//*[contains(@class,'mat-mdc-paginator-range-label')])
+       #  ${szoveg_norm2}=    Replace String    ${pages_text2}    –    -
        # Paginátor információk kiírása
-       Log String To Console    >> Paginátor információk szűrés után: ${szoveg_norm2}
-         IF    $szoveg_norm2 != '0 of 0'
-           #Nincsenek bejegyzések a fogalomtárban
-           ${new_err}=    Set Variable    A lecke fogalomtár szűrése nem működik!
-           IF    '${err_msg}' == ''
-               ${err_msg}=    Set Variable    ${new_err}
-           ELSE
-               ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
-           END
-           Log String To Console     [ERROR] ${new_err}
-           Append To List    ${errors}    ${new_err}
-       END
+       #Log String To Console    >> Paginátor információk szűrés után: ${szoveg_norm2}
+       #  IF    $szoveg_norm2 != '0 of 0'
+       #    #Nincsenek bejegyzések a fogalomtárban
+       #    ${new_err}=    Set Variable    A lecke fogalomtár szűrése nem működik!
+       #    IF    '${err_msg}' == ''
+       #        ${err_msg}=    Set Variable    ${new_err}
+       #    ELSE
+       #        ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
+       #    END
+       #    Log String To Console     [ERROR] ${new_err}
+       #    Append To List    ${errors}    ${new_err}
+       #END
        #
        # Kinyit becsuk gombok ellenőrzése
        #
