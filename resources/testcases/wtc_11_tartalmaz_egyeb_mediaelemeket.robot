@@ -25,11 +25,11 @@ Tartalmaz egyeb mediaelemeket ellenőrzése
      ${found_count}=    Set Variable    0
      ${not_found_count}=    Set Variable    0
     
-      ${media_has_other_type}=   Get Variable Value    ${MEDIA_HAS_OTHER_TYPE}    ${False}
+      ${media_has_other_type}=   Get Variable Value    ${MEDIA_HAS_OTHER_TYPE}   
 
-    IF     $media_has_other_type == ${False}
+    IF     '${media_has_other_type}' == 'False'
         ${new_err}=    Set Variable    Nincsenek egyéb médiaelemek a dokumentumban!
-        IF    $err_msg == ''
+        IF    '${err_msg}' == ''
             ${err_msg}=    Set Variable    ${new_err}
         ELSE
             ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}

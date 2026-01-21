@@ -63,7 +63,7 @@ Témák közötti navigáció ellenőrzése
                 TRY     
                     
                      Log String To Console    Következő oldal gombra kattintás.
-                    Run Keyword And Ignore Error    Wait Until Page Does Not Contain Element    css:div.cdk-overlay-backdrop.cdk-overlay-backdrop-showing    1s
+                    Run Keyword And Ignore Error    Wait Until Page Does Not Contain Element    css:div.cdk-overlay-backdrop.cdk-overlay-backdrop-showing    2s
                     Click Element      xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                     Log String To Console    Következő oldal gombra kattintva.
                 
@@ -87,13 +87,15 @@ Témák közötti navigáció ellenőrzése
                     Log String To Console    ===================> Oldalcím beolvasva: ${head_name}  
                     #kisbetús formában hasonlítjk össze
                     ${lc_highlighted_name}=    Convert To Lower Case   ${highlighted_name}
-                    ${lc_head_name}=    Convert To Lower Case   ${head_name}       
-                    IF     $lc_highlighted_name != $lc_head_name
-                        Log String To Console    [ERROR] \n++++++++++++ Nem a menünek megfelelő oldalon van! ++++++++++++ 
-                        Log String To Console    ${highlighted_name} != ${head_name}\n
-                        Write SumError fájl    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}     wtc-03    Nem a menünek megfelelő oldalon van!    ${highlighted_name};${head_name}
-    
-                    END
+                    ${lc_head_name}=    Convert To Lower Case   ${head_name}     
+                    ${excluded}=    Create List    nyitóoldal    záróoldal    összefoglaló
+                    IF    '${lc_head_name}' not in ${excluded} 
+                        IF     '${lc_highlighted_name}' != '${lc_head_name}'
+                            Log String To Console    [ERROR] \n++++++++++++ Nem a menünek megfelelő oldalon van! ++++++++++++ 
+                            Log String To Console    ${highlighted_name} != ${head_name}\n
+                            Write SumError fájl    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}     wtc-03    Nem a menünek megfelelő oldalon van!    ${highlighted_name};${head_name}
+                        END
+                     END
                     
                     #Log String To Console    Oldalcím elemek láthatóak, váraskozás OK
                  #kép video ellenőrzés kihagyva

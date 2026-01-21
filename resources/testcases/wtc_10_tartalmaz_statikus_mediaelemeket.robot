@@ -25,9 +25,9 @@ Tartalmaz statikus mediaelemeket ellenőrzése
      ${found_count}=    Set Variable    0
      ${not_found_count}=    Set Variable    0
     
-      ${media_has_picture}=   Get Variable Value    ${MEDIA_HAS_PICTURE}    ${False}
+      ${media_has_picture}=   Get Variable Value    ${MEDIA_HAS_PICTURE}   
 
-    IF     $media_has_picture == ${False}
+    IF     '${media_has_picture}' == 'False'
         ${new_err}=    Set Variable    Nincsenek statikus médiaelemek a dokumentumban!
         IF    $err_msg == ''
             ${err_msg}=    Set Variable    ${new_err}

@@ -70,6 +70,10 @@ Megjelenő kurzusok bejárása
     FOR    ${idx}    IN RANGE    ${course_count}
         #Log String To Console    Kurzusra kattintás: ${course_idx}
         ${course}=    Get From List    ${courses}    ${idx}
+        ${course_len}=    Get Length    ${course}
+        IF    ${course_len} == 0
+            CONTINUE
+        END
         TRY
             Wait Until Element Is Visible    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li[${course_idx}]/ulms-course-list-item/mat-card//a    5s
             Sleep    1s

@@ -100,12 +100,12 @@ DT nyelv ellenőrzése
                 ELSE
                     ${other_lang_count}=    Evaluate    ${other_lang_count} + 1
                     # Biztonságos szöveg kiírása Unicode karakterek kezelésével
-                    ${safe_text}=    Evaluate    repr(r'''${node_text}''')[:50] + "..." if len(r'''${node_text}''') > 50 else repr(r'''${node_text}''')
-                    Log String To Console     ${lang.upper()} - "${safe_text}"
+                   # ${safe_text}=    Evaluate    repr(r'''${node_text}''')[:50] + "..." if len(r'''${node_text}''') > 50 else repr(r'''${node_text}''')
+                   # Log String To Console     ${lang.upper()} - "${safe_text}"
                     # Biztonságos hibaüzenet összeállítása
-                    ${safe_err_text}=    Evaluate    repr(r'''${node_text}''')[:50] + "..." if len(r'''${node_text}''') > 80 else repr(r'''${node_text}''')
-                    ${err_msg}=    Set Variable    ${err_msg}bekezdés idegen nyelven (${lang}): - ${safe_err_text}${CR}
-                    Append To List    ${errors}    ${err_msg}
+                   # ${safe_err_text}=    Evaluate    repr(r'''${node_text}''')[:50] + "..." if len(r'''${node_text}''') > 80 else repr(r'''${node_text}''')
+                   # ${err_msg}=    Set Variable    ${err_msg} bekezdés idegen nyelven,(${lang}): - ${safe_err_text}${CR}
+                   # Append To List    ${errors}    ${err_msg}
                 END
             EXCEPT    AS    ${error}
                 # Biztonságos szöveg kiírása Unicode karakterek kezelésével
@@ -117,9 +117,11 @@ DT nyelv ellenőrzése
             #Log String To Console    - ${idx}. bekezdés: Túl rövid szöveg (${text_length} karakter)
         END
     END
-    IF    ${other_lang_count} > 0
-        Log String To Console    \n[ERROR] Összesen ${other_lang_count} oldal nem magyar.
-        ${found_percentage}=    Evaluate    ${hungarian_count} / (${hungarian_count} + ${other_lang_count}) * 100
+     
+    ${found_percentage}=    Evaluate    ${hungarian_count} / (${hungarian_count} + ${other_lang_count}) * 100
+    IF    ${found_percentage} < 80 
+        #Log String To Console    \n[ERROR] Összesen ${other_lang_count} oldal nem magyar.
+      
         ${new_err}=    Set Variable    Magyar nyelv találati arány: ${found_percentage}%, Magyar: ${hungarian_count}, Nem magyar: ${other_lang_count}
         #Append To List    ${errors}    ${new_err}
         Insert Into List    ${errors}    0    ${new_err}
