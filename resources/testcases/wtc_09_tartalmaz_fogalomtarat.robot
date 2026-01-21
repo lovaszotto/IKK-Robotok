@@ -38,7 +38,7 @@ Tartalmaz fogalomtárat ellenőrzése
          ${szoveg_norm}=    Replace String    ${pages_text}    –    -
        # Paginátor információk kiírása
        Log String To Console    >> Paginátor információk: ${szoveg_norm}
-         IF    ${szoveg_norm} == '0 - 0 of 0'
+         IF    '${szoveg_norm}' == '0 - 0 of 0'
            #Nincsenek bejegyzések a fogalomtárban
            ${new_err}=    Set Variable    A lecke fogalomtára üres!
            IF    '${err_msg}' == ''
