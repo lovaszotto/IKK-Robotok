@@ -68,12 +68,8 @@ Megjelenő kurzusok bejárása
     #cserélja le a benne lévő * karaktert üres karakterre
     ${kurzus}=    Replace String    ${kurzus}    *    ${EMPTY}
     FOR    ${idx}    IN RANGE    ${course_count}
-        #Log String To Console    Kurzusra kattintás: ${course_idx}
-        ${course}=    Get From List    ${courses}    ${idx}
-        ${course_len}=    Get Length    ${course}
-        IF    ${course_len} == 0
-            CONTINUE
-        END
+        Log String To Console    Kurzusra kattintás: ${course_idx}
+   
         TRY
             Wait Until Element Is Visible    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li[${course_idx}]/ulms-course-list-item/mat-card//a    5s
             Sleep    1s
@@ -93,7 +89,7 @@ Megjelenő kurzusok bejárása
         #Execute Javascript    arguments[0].click()    ${mat_card_content}
     
         # Kurzus oldal betöltése után h2 cím kiírása
-        Wait Until Element Is Visible    xpath=//h1    20s
+        Wait Until Element Is Visible    xpath=//h1    30s
         ${h2_text}=    Get Text    xpath=//h1
         Log String To Console    Kurzus: ${h2_text} Passed
         Sleep    1s

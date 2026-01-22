@@ -70,10 +70,10 @@ Test Case 23 - Generalt Tartalomjegyzek Ellenorzese
     #toc ellenőrzése
      ${entries}=    Extract TOC Entries From Docx File    ${file_path}
     ${toc_count}=    Get Length    ${entries}
-    Log String To Console    [TOC]Talált TOC sorok száma: ${toc_count}
-    FOR    ${e}    IN    @{entries}
-        Log String To Console    TOC: ${e}
-    END
+    #Log String To Console    [TOC]Talált TOC sorok száma: ${toc_count}
+    #FOR    ${e}    IN    @{entries}
+    #    Log String To Console    TOC: ${e}
+    #END
     #ellenőrizzük, hogy van-e benne toc
    Log String To Console    [TOC]Talált TOC sorok száma: ${toc_count}
        #ellenőrizzük, hogy van-e benne toc
