@@ -184,7 +184,7 @@ Egy lecke ellenőrzése
             #Kilépés a leckéből és a browesert bezárjuk
             Close browser
         
-            Log String To Console    <<<<<< Lecke elleőrzés vége <<<<<<<<
+            Log String To Console                                          <<<<<< Lecke ellenőrzés vége >>>>>\n\n\n
                   #selenium-screenshot törlése selenium-screenshot*.png fájlok törlése
             ${SELENIUM_SCREENSHOT_FILE}=    Set Variable    selenium-screenshot*.png
             Run Keyword And Ignore Error    Remove File    ${SELENIUM_SCREENSHOT_FILE}

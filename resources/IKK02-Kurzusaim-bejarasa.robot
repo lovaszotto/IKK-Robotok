@@ -60,15 +60,15 @@ Megjelenő kurzusok bejárása
     ${courses}=    Get WebElements     xpath=//ulms-course-list-item 
     ${course_count}=    Get Length    ${courses}
     Log String To Console    Talált kurzusok száma: ${course_count}
-  
-
     ${course_idx}=    Set Variable    1
     
     ${kurzus}=    Get Variable Value    ${KURZUS}    default_value=NONE
     #cserélja le a benne lévő * karaktert üres karakterre
     ${kurzus}=    Replace String    ${kurzus}    *    ${EMPTY}
+    Log String To Console    Beállított KURZUS szűrő: +++${kurzus}+++
+
     FOR    ${idx}    IN RANGE    ${course_count}
-        Log String To Console    Kurzusra kattintás: ${course_idx}
+        Log String To Console    Kurzusra kattintás: ${course_count} / ${course_idx}
    
         TRY
             Wait Until Element Is Visible    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li[${course_idx}]/ulms-course-list-item/mat-card//a    5s
@@ -76,15 +76,20 @@ Megjelenő kurzusok bejárása
             ${mat_card_content}=    Get WebElement    xpath=/html/body/ulms-root/div/main/div/ulms-courses/mat-tab-nav-panel/ulms-registered-courses/div/section/ulms-course-list/ul/li[${course_idx}]/ulms-course-list-item/mat-card//a
             #most vagyunk az adott téma fő oldalán
             Click Element    ${mat_card_content}
-        EXCEPT
+        EXCEPT    AS    ${err}
+            Log String To Console    [ERROR] Kurzusra kattintás hiba: ${err}
+            IF    '${err}' == 'No browser is open.'
+                Log String To Console    >>> Browser bezárva, kilépés a kurzus bejárásból.
+                RETURN
+            END
+            
             ${error_file}=    Replace String    ${DIGITALIS_EXCEL_FILE}    .xlsx    _Nincs lecke a WEB-en.txt
             Create File    ${error_file}    Nincs megjeleníthető lecke a beállított szűrőkkel.
             Log String To Console    >>> Click exception course gombnál - Nincs ilyen lecke! - ${error_file} 
             Write SumError fájl    ${DIGITALIS_EXCEL_FILE}    ${DIGITALIS_EXCEL_SHEET}    wtc-0    Nincs ilyen lecke a WEB-en!    ''
-     
-          Close Browser
-          ${course_idx}=   Evaluate    ${course_idx} + 1
-          RETURN
+            Close Browser
+            ${course_idx}=   Evaluate    ${course_idx} + 1
+            RETURN
         END
         #Execute Javascript    arguments[0].click()    ${mat_card_content}
     
