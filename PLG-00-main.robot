@@ -85,9 +85,20 @@ Batch inicializálás
         ${file_number}=    Evaluate    ${index} + 1
         #Recovery ellenőrzés: ha a _Recovery.csv fájl  tartalmazza a  ${docx_files} szöveget, akkor kihagyjuk
         ${recovery_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}${/}_Recovery.csv
-        ${is_in_recovery}=    Should Contain File    ${recovery_file}    ${docx_file}
-        ${is_in_recovery_type}=    Evaluate    type(${is_in_recovery}).__name__
-        IF    ${is_in_recovery}==${True}
+        #Log String To Console    Recovery ellenőrzés: ${docx_file}
+        ${content}=       Get File    ${recovery_file}    encoding=UTF-8
+       # Log To Console    recovery_file tartalom (első 500 char): ${content}[0:500]
+
+
+        ${content}=    Get File    ${recovery_file}    encoding=UTF-8
+        ${content}=    Replace String    ${content}    \r    ${EMPTY}
+
+        ${needle}=     Strip String    ${docx_file}
+
+        ${is_in_recovery}=    Run Keyword And Return Status    Should Contain    ${content}    ${needle}
+
+        #Log String To Console    Recovery ellenőrzés eredménye: ${is_in_recovery}
+        IF    ${is_in_recovery}
           Log String To Console    [RECOVERY SKIPP]  ${docx_file} már feldolgozásra került, kihagyva.
           CONTINUE
         END
