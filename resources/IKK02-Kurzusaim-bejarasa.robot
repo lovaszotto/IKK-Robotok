@@ -78,7 +78,7 @@ Megjelenő kurzusok bejárása
             Click Element    ${mat_card_content}
         EXCEPT    AS    ${err}
             Log String To Console    [ERROR] Kurzusra kattintás hiba: ${err}
-            IF    '${err}' == 'No browser is open.'
+            IF    "${err}" == "No browser is open."
                 Log String To Console    >>> Browser bezárva, kilépés a kurzus bejárásból.
                 RETURN
             END
