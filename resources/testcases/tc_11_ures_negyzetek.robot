@@ -16,27 +16,35 @@ Test Case 11 - Ures Negyzetek Ellenorzese
     ${excel_file}=    Get Variable Value    ${CURRENT_EXCEL_FILE}    ${EMPTY}
     ${sheet_name}=    Get Variable Value    ${CURRENT_SHEET_NAME}    ${EMPTY}
     ${err_msg}=    Set Variable    ${EMPTY}
-
+    ${sum_err_coiunt}=    Set Variable    0
     ${pars}=    Evaluate    [{'idx': i+1, 'text': p.text, 'style': (p.style.name if p.style else 'N/A')} for i,p in enumerate(__import__('docx').Document(r'''${docx_file}''').paragraphs)]
     FOR    ${par}    IN    @{pars}
-    ${text}=    Get From Dictionary    ${par}    text
-    # A Python Evaluate kifejezeseknel biztonsagosan escape-eljuk a szoveget
-    ${text_escaped}=    Evaluate    repr("""${text}""")
-    # Egyszeru karakter-szures a checkbox/square szimbolumokra es a hibas/garbled karakterekre (PUA, halfwidth/fullwidth, replacement)
-    ${matches}=    Evaluate    [ch for ch in ${text_escaped} if (ch in '\u2610\u2611\u2612\u25A1\u25A0\u25CB\u25CF') or (0xE000 <= ord(ch) <= 0xF8FF) or (0xFF00 <= ord(ch) <= 0xFFEF) or (ord(ch) == 0xFFFD)]
-    ${matches_count}=    Get Length    ${matches}
+        ${text}=    Get From Dictionary    ${par}    text
+        # A Python Evaluate kifejezeseknel biztonsagosan escape-eljuk a szoveget
+        ${text_escaped}=    Evaluate    repr("""${text}""")
+        # Egyszeru karakter-szures a checkbox/square szimbolumokra es a hibas/garbled karakterekre (PUA, halfwidth/fullwidth, replacement)
+        ${matches}=    Evaluate    [ch for ch in ${text_escaped} if (ch in '\u2610\u2611\u2612\u25A1\u25A0\u25CB\u25CF') or (0xE000 <= ord(ch) <= 0xF8FF) or (0xFF00 <= ord(ch) <= 0xFFEF) or (ord(ch) == 0xFFFD)]
+        ${matches_count}=    Get Length    ${matches}
+       ${sum_err_coiunt}=    Evaluate    ${sum_err_coiunt} + ${matches_count}
         #írja ki az első találatot követő 50 karaktert
         IF    ${matches_count} > 0    
             ${first_match}=    Set Variable    ${matches}[0]
             ${first_code}=    Evaluate    "U+%04X" % ord("""${first_match}""")
             ${first_match_pos}=    Evaluate    (${text_escaped}).find("""${first_match}""")
             ${text_preview}=    Evaluate    (${text_escaped})[${first_match_pos}:${first_match_pos}+50]
-            IF ${matches_count} > 3
+            IF     ${matches_count} > 3
                 ${text_preview}=    Catenate    SEPARATOR=...    ${text_preview}    (és még ${matches_count - 1} további előfordulás)
             END
-           
         END        
     END
+    Log String To Console    Talált üres négyzetek/szimbolumok száma: ${sum_err_coiunt}    
+    IF    ${sum_err_coiunt} > 3
+        ${sum_err_msg}=    Set Variable    Talált üres négyzetek/szimbolumok száma: ${sum_err_coiunt}  példa: ${text_preview}
+         ${err_msg}=    Catenate    SEPARATOR=${CR}    @{sum_err_msg}
+    ELSE
+        ${err_msg}=    Set Variable    ${EMPTY}
+    END
+  
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
     #változók törlése
     #Delete Variables    ${pars}    ${par}    ${text}
