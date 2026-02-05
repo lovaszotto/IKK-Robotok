@@ -11,3 +11,5 @@ __pycache__/
 *.pyo
 *.png
 
+r_log.html
+r_report.html

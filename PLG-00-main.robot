@@ -65,13 +65,104 @@ Batch inicializálás
     [Documentation]    Minden talált DOCX dokumentum feldolgozása formálellenőrzéssel
     @{docx_files}=    Set Variable    ${BATCH_DOCX_FILES}
     ${file_count}=    Get Length    ${docx_files}
+    ${was_name_error}=    Set Variable    False
       #selenium-screenshot törlése selenium-screenshot*.png fájlok törlése
     ${SELENIUM_SCREENSHOT_FILE}=    Set Variable    selenium-screenshot*.png
     Run Keyword And Ignore Error    Remove File    ${SELENIUM_SCREENSHOT_FILE}
     
     Log String To Console    \n=== ÖSSZES DOCX FELDOLGOZÁSA ===
     Log String To Console    Talált fájlok száma: ${file_count}
-    
+    #Hozz létre egy üres Files.csv fájlt a feldolgozott fájloknak
+    Create File    ${CONFIG_OUTPUT_FOLDER}/BadFileNames.csv    encoding=UTF-8
+    #írjon BOM-ot a fájl elejére UTF-8 kódolással
+    Append To File    ${CONFIG_OUTPUT_FOLDER}/BadFileNames.csv    \ufeff
+    Log String To Console    BadFileNames.csv fájl létrehozva: ${CONFIG_OUTPUT_FOLDER}/BadFileNames.csv
+    #könyvtárban lévő fájl nevek ellenőrzées
+    FOR    ${index}    IN RANGE    ${file_count}
+        ${docx_file}=    Get From List    ${docx_files}    ${index}
+        ${is_complete}=    Set Variable    True
+        ${error_message}=    Set Variable    ${EMPTY}
+         ${is_kezirat}=    Run Keyword And Return Status    Should Contain    ${docx_file}    _tema_kezirat
+          IF   not ${is_kezirat}
+              #Log String To Console    [SKIP] ${docx_file} nem kézirat fájl, kihagyva.
+              CONTINUE
+          END
+           ${is_ures}=    Run Keyword And Return Status    Should Contain    ${docx_file}    _ures
+          IF   ${is_ures}
+              #Log String To Console    [SKIP] ${docx_file} üres fájl, kihagyva.
+              CONTINUE
+          END
+          # a ${docx_file} -ból csak az útvonal rész kerül az only_path változóba
+          #Log String To Console    \nKönyvtár ellenőrzés: ${docx_file}
+          ${only_path}=    Get File Directory    ${docx_file}
+          ${only_file_name}=    Get File Name Base    ${docx_file}
+         
+         ${error_message}=    Set Variable   \nKézirat fájl neve: ${only_file_name} 
+            
+          ${files_in_dir}=    List Files In Directory    ${only_path}
+          ${kezirat_count}=    Get Length    ${files_in_dir}
+          IF    ${kezirat_count} < 3
+              #${error_message}=    Set Variable    Hiányos dokumentáció-Csak ${kezirat_count} fájl van a könyvtárban: ${only_path} 
+              ${error_message}=    Catenate    SEPARATOR=\n    ${error_message}    \t-Csak ${kezirat_count} fájl van a könyvtárban: ${only_path} 
+              ${is_complete}=    Set Variable    False
+              #CONTINUE
+          END
+          ${fogalomtar_fileName}=     Replace String    ${docx_file}    _tema    _fogalomtar
+           ${only_fogalomtar_fileName}=    Get File Name Base    ${fogalomtar_fileName}
+           ${only_fogalomtar_fileName}=     Catenate    SEPARATOR=    ${only_fogalomtar_fileName}    .docx
+          
+          ${kompetencia_fileName}=     Replace String    ${docx_file}    _tema   _kompetencia_tesztek
+          ${only_kompetencia_fileName}=    Get File Name Base    ${kompetencia_fileName}
+          ${only_kompetencia_fileName}=     Catenate    SEPARATOR=    ${only_kompetencia_fileName}    .docx
+
+          ${fogalomtar_exists}=    Run Keyword And Return Status    File Should Exist    ${fogalomtar_fileName}
+
+          ${kompetencia_exists}=    Run Keyword And Return Status    File Should Exist    ${kompetencia_fileName}
+          IF    not ${fogalomtar_exists}
+             # ${error_message}=    Set Variable    Hiányos dokumentáció-Nincs megfelelő fogalomtár: ${only_file_name} 
+                 ${error_message}=    Catenate    SEPARATOR=\n    ${error_message}    \t-Nincs megfelelő fogalomtár: ${only_fogalomtar_fileName}  
+                ${is_complete}=    Set Variable    False
+                #ELSE
+                #Log String To Console    Fogalomtár fájl megtalálva: ${only_fogalomtar_fileName}
+          END
+          IF   not ${kompetencia_exists}
+            #  ${error_message}=    Set Variable    \t-Nincs megfelelő kompetencia: ${only_file_name}  
+              ${error_message}=    Catenate    SEPARATOR=\n    ${error_message}    \t-Nincs megfelelő kompetencia: ${only_kompetencia_fileName}  
+              
+                ${is_complete}=    Set Variable    False
+                #ELSE
+                #Log String To Console    Kompetencia fájl megtalálva: ${only_kompetencia_fileName}
+          END
+          IF     not ${is_complete}
+              ${was_name_error}=    Set Variable    True
+              Log String To Console     \nHiányos dokumentáció: ${only_file_name}
+              Log String To Console    ${error_message}
+              Log String To Console   \tFájlok a könyvtárban:
+              
+             
+              # Append To File    ${CONFIG_OUTPUT_FOLDER}/BadFileNames.csv  \nHiányos dokumentáció: ${only_file_name}
+              ${cvs_error_message}=   Replace String    ${error_message}    \:    \;
+              Append To File    ${CONFIG_OUTPUT_FOLDER}/BadFileNames.csv   \n;${cvs_error_message}
+              Append To File    ${CONFIG_OUTPUT_FOLDER}/BadFileNames.csv   \n;Fájlok a könyvtárban:
+
+              FOR    ${fl}    IN    @{files_in_dir}
+                Log String To Console  \t\t${fl}
+                Append To File    ${CONFIG_OUTPUT_FOLDER}/BadFileNames.csv    \n;${fl}
+              END
+          END
+        END
+      
+    #teszthez
+    IF     ${was_name_error}
+        Log String To Console    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        Log String To Console    \nNéhány fájl hiányos dokumentációjú volt, részletek a BadFileNames.csv fájlban: ${CONFIG_OUTPUT_FOLDER}/BadFileNames.csv
+        Log String To Console    Kérlek nevezzd át a fájlokat a megadott séma szerint, és helyezd el őket ugyanabban a könyvtárban, majd indítsd újra a robotot.\n\n
+        Log String To Console    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n\n
+       
+       ${file_count}=    set variable    0
+    END    
+  
+
     FOR    ${index}    IN RANGE    ${file_count}
         ${docx_file}=    Get From List    ${docx_files}    ${index}
         #_kezirat.docx átnevezése _kezirata.docx-ra
@@ -109,7 +200,7 @@ Batch inicializálás
         ${file_name}=    Get From List    ${file_parts}    -1
         ${docx_file_fixed}=    Replace String    ${docx_file}    \\    /
         # A warning elkerülésére: minden backslash /-re cserélve, így nem lesz invalid escape sequence
-        ${CURRENT_DIR}=    Evaluate    __import__('os').path.dirname('${docx_file_fixed}')    modules=os
+        ${CURRENT_DIR}=    Evaluate    __import__('os').path.dirname(r'''${docx_file_fixed}''')    modules=os
         
     
         Log String To Console    \n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -143,8 +234,10 @@ Batch inicializálás
        #Log String To Console    >>> VERZIÓ ELLENŐRZÉS only_file_name >>> ${only_file_name}
         # a ${docx_file} -ból csak az útvonal rész kerül az only_path változóba
         ${only_path}=    Get File Directory    ${docx_file}
+        Log String To Console    >>> ONLY_path >>> ${only_path}    
+        ${files_in_dir}=    List Files In Directory    ${only_path}
+        Log String To Console    >>> FILES IN DIR >>> ${files_in_dir}
 
-       #Log String To Console    >>> VERZIÓ ELLENŐRZÉS only_path >>> ${only_path}    
        # Ha a ${only_file_name} neve nem tartalmazza a \\.v(\\d+)\\.docx$" számozást, akkor átnevezzük átnevezzük v0-ra
         ${has_version}=    Run Keyword And Return Status    Should Match Regexp    ${only_file_name}    \\.v\\d+\\.
         IF    not ${has_version}
@@ -210,7 +303,8 @@ Batch inicializálás
             CONTINUE
         END
 
-        Process Single DOCX File As Test Case    ${docx_file}    ${file_number}    ${file_count}    Formálellenőrzés - ${file_name}
+       #teszt miatt kihagyva
+         Process Single DOCX File As Test Case    ${docx_file}    ${file_number}    ${file_count}    Formaiellenőrzés - ${file_name}
         Log String To Console    <<<  BEFEJEZVE: ${docx_file}
         
         #WEB-es ellenőrzés indítása

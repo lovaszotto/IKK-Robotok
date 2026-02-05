@@ -41,7 +41,7 @@ ${DIGITALIS_EXCEL_SHEET}    ${EMPTY}
 ${DIGITALIS_EXCEL_SHEET_MK}    ${EMPTY}
 
 
-${CR}=    Set Variable    ;
+${CR}    ;
 
 #Media katalógus változói
 ${MEDIA_ROW_INDEX}            5
