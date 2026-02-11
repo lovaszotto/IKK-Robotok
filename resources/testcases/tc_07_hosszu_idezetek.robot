@@ -29,14 +29,7 @@ Test Case 07 - Hosszu Idezetek Ellenorzese
     ${sample}=       Set Variable    ''
 
     ${max_distance}=    Set Variable    0
-    ${max_sample}=       Set Variable    ''
-      ${read_status}    ${xmlAllText}=    Run Keyword And Ignore Error    Read Docx All as XML    ${docx_file}
-    IF    $read_status == 'FAIL'
-        ${err_msg}=    Set Variable    Olvasási hiba (${docx_file_kompetencia})    
-        Log String To Console     [ERROR] ${err_msg}
-         Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
-         RETURN
-    END
+
    #dobd ki a \n karaktereket az xmlAllText-ből
     ${xmlAllText}=    Replace String    ${xmlAllText}    \n    ''
     #ird ki az xmlAllText tartalmát egy xml_alltext.txt fájlba felülírással

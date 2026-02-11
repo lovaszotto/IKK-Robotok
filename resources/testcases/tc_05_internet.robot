@@ -14,6 +14,11 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
     ${path_part}=       Get Variable Value    ${CURRENT_PATH_PART}    ${EMPTY}
     ${filename_part}=   Get Variable Value    ${CURRENT_FILENAME_PART}    ${EMPTY}
     ${errors}=    Create List
+    ${errors_regi_datum}=    Create List
+    Append To List    ${errors_regi_datum}    Az utolsó megnyitás dátuma túl régi
+    
+    ${errors_nincs_datum}=    Create List
+    Append To List    ${errors_nincs_datum}    Nincs utolsó megnyitás dátuma
 
     ${docx_file}=    Get Variable Value    ${DOCX_FILE}    ${EMPTY}
     ${docx_json}=    Get Variable Value    ${DOCX_JSON}    ${EMPTY}
@@ -26,127 +31,104 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
     ${was_regi_datum_error}=    Set Variable    ${False}
     ${was_nincs_datum_error}=    Set Variable   ${False}
 
-    #végignézzük a paragrafusokat, és keresünk benne hivatkozásokat  
-    ${paragraphs}=    Get From Dictionary    ${docx_json}    paragraphs
-    ${paragraphs_count}=    Get Length    ${paragraphs}
-      #kiirja a paragrafusok számát , ha nincs hitáb ír
-    ${np}=      Evaluate    len(${paragraphs})
-    Log String To Console    Összes paragrafus a dokumentum fájlban: ${np}
-    IF    ${np} == 0
-        ${new_err}=    Set Variable    Nincsenek paragrafusok a kompetencia teszt kéziratában!
-            Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${new_err}
+    #XML alapú beolvasás
+    ${read_status}    ${xmlAllText}=    Run Keyword And Ignore Error    Read Docx All as XML    ${docx_file}
+    IF    $read_status == 'FAIL'
+        ${err_msg}=    Set Variable    Olvasási hiba (${docx_file})    
+        Log String To Console     [ERROR] ${err_msg}
+         Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
+         RETURN
+    END
+    ${xmlAllText}=    Replace String    ${xmlAllText}    \n    ''
+
+
+
+    ${paragraph_str}=    Set Variable    ${xmlAllText}
+    
+    # Replace all line breaks and tabs with spaces to join split URLs
+    ${paragraph_str}=    Replace String Using Regexp    ${paragraph_str}    [\r\n\t]    ${SPACE}
+    ${paragraph_length}=    Get Length    ${paragraph_str}
+    IF    ${paragraph_length} == 0
+        Continue For Loop
+    END
+    #URL-ek kikeresése
+
+    ${urls}=    Split String    ${paragraph_str}   https://
+
+    ${url_count}=    Get Length    ${urls}
+    Log String To Console    [DEBUG] https found: ${url_count}
+    IF    ${url_count} == 0
+        Continue For Loop
+    END
+    #ha van a címlapon Nem kell ellenőrizni akkor kihagyja
+    ${ignore_nosource}=    Get Variable Value    ${IGNORE_NOSOURCE}
+    IF    ${ignore_nosource} == ${True}
+        Log String To Console    [INFO] IGNORE_NOSOURCE beállítva, kihagyva az ábrák/fotók  ellenőrzését.
+            # Teszt státusz és Excel jelölés végrehajtása a megadott soron
+        Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${EMPTY}
         RETURN
     END
-    #Log String To Console     \n\[DEBUG] Paragraphs found: ${paragraphs_count}
-    FOR    ${i}    IN RANGE    ${paragraphs_count}
-          ${paragraph}=    Get From List    ${paragraphs}    ${i}
-        ${paragraph_str}=    Convert To String    ${paragraph}
-         #Log String To Console    [DEBUG0] Paragraph: ${paragraph_str}
-        # a további két sort is ki kell olvasni a  @{paragraphs} listából
-        # mert ott vannak a hivatkozások    
-        ${next_index}=    Evaluate    ${i} + 1
-        #Log String To Console    [DEBUG0] next_index: ${next_index}
-        # ir egy ciklust 1..5 hogy a következő 2 sort is hozzá adja
-        FOR    ${j}    IN RANGE    1    4
-
-            IF    ${next_index} < ${paragraphs_count}    
-                ${next_paragraph}=    Get From List    ${paragraphs}    ${next_index}
-                ${next_paragraph_str}=    Convert To String    ${next_paragraph}
-                ${paragraph_str}=    Catenate    SEPARATOR=${SPACE}    ${paragraph_str}    ${next_paragraph_str}
-            END
-                ${next_index}=    Evaluate    ${next_index} + 1
-        END       
-        
-        # Replace all line breaks and tabs with spaces to join split URLs
-        ${paragraph_str}=    Replace String Using Regexp    ${paragraph_str}    [\r\n\t]    ${SPACE}
-        ${paragraph_length}=    Get Length    ${paragraph_str}
-        IF    ${paragraph_length} == 0
-            Continue For Loop
-        END
-        #URL-ek kikeresése
-       # ${urls}=    Get Regexp Matches    ${paragraph_str}    https?://(.*)$
-       # még 2 sort vissza ad
-         ${urls}=    Get Regexp Matches    ${paragraph_str}    https?://(.*)$(?: .*){0,4}     
-
-        ${url_count}=    Get Length    ${urls}
-        IF    ${url_count} == 0
-            Continue For Loop
-        END
-        #ha van a címlapon Nem kell ellenőrizni akkor kihagyja
-        #${ignore_nosource}=    Get Variable Value    ${IGNORE_NOSOURCE}
-        #IF    ${ignore_nosource} == ${True}
-        #    Log String To Console    [INFO] IGNORE_NOSOURCE beállítva, kihagyva az ábrák/fotók  ellenőrzését.
-              # Teszt státusz és Excel jelölés végrehajtása a megadott soron
-        #    Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${EMPTY}
-        #    RETURN
-        #END
-        
-         FOR    ${url}    IN    @{urls}
-           #ellenőrizze, hogy van e benne (.*\s*dddd.dd.dd.)   
-           #irja ki a talált url-t
-            #Log String To Console     \n\n[DEBUG] Found URL: ${url}
-
-            #${match}=    Evaluate    re.search(r'\\d{4}\\s*\\.\\s*\\d{1,2}\\s*\\.\\s*\\d{1,2}', '''${url}''')    modules=re
-         ${match}=    Evaluate    re.search(r'\\d{4}\\s*[\\.\\-\\s]\\s*\\d{1,2}\\s*[\\.\\-\\s]\\s*\\d{1,2}', '''${url}''')    modules=re
- 
     
-
-            #Log String To Console     \n[DEBUG] Match found: ${match}
-            IF     ${match}
-                ${last_open_date}=    Set Variable    ${match.group(0)}
-                #Log String To Console    MEGVAN : ${last_open_date}
-                # ellenőrizze, hogy a dátum nem régebbi mint  2024.06.17 év
-                ${is_recent}=     Evaluate    int('''${last_open_date}'''.replace('.','').replace(' ','')) >= 20240617
-                IF    not ${is_recent}
-                     ${was_regi_datum_error}=    Set Variable    ${True}
-                     ${tul_regi_utolso_megnyitas_datum}=    Catenate    SEPARATOR=${CR}    ${tul_regi_utolso_megnyitas_datum}    ${url}
-                    #Log String To Console    ${tul_regi_utolso_megnyitas_datum}
-                END      
-            ELSE
-                ${was_nincs_datum_error}=    Set Variable    ${True}    
-                ${nincs_utolso_megnyitas_datum}=    Catenate    SEPARATOR=${CR}    ${nincs_utolso_megnyitas_datum}    ${url}
-                #Log String To Console   ${nincs_utolso_megnyitas_datum}
-              
+    ${split_index}=    Set Variable    -1
+     Log String To Console     \n[DEBUG] Summa URL #${split_index}
+     FOR    ${url}    IN    @{urls}
+        #ellenőrizze, hogy van e benne (.*\s*dddd.dd.dd.)   
+        #irja ki a talált url-t
+        ${split_index}=    Evaluate    ${split_index} + 1
+        Log String To Console     \n[DEBUG] Processing URL #${split_index}
+        #ha a split_index 0, akkor az első elem lesz, ami nem tartalmazza a https:// részt, ezért azt kihagyjuk
+        IF     ${split_index} == 0
+            CONTINUE
         END
+        #Log String To Console     \n\n[DEBUG] Found URL: ${url}
+        #${match}=    Evaluate    re.search(r'\\d{4}\\s*\\.\\s*\\d{1,2}\\s*\\.\\s*\\d{1,2}', '''${url}''')    modules=re
+        ${match}=    Evaluate    re.search(r'\\d{4}\\s*[\\.\\-\\s]\\s*\\d{1,2}\\s*[\\.\\-\\s]\\s*\\d{1,2}', '''${url}''')    modules=re
 
+        Log String To Console     \n[DEBUG] Match found: ${match}
+        IF     ${match}
+            ${last_open_date}=    Set Variable    ${match.group(0)}
+            Log String To Console    MEGVAN : ${last_open_date}
+            # ellenőrizze, hogy a dátum nem régebbi mint  2024.06.17 év
+            ${is_recent}=     Evaluate    int('''${last_open_date}'''.replace('.','').replace(' ','')) >= 20240617
+            IF    not ${is_recent}
+                    ${was_regi_datum_error}=    Set Variable    ${True}
+                    # ${url_first}=    Split String    ${url}    ${SPACE}     max_split=1
+                    Append To List           ${errors_regi_datum}   ${last_open_date}
+                  #  ${tul_regi_utolso_megnyitas_datum}=    Catenate    SEPARATOR=${CR}    ${tul_regi_utolso_megnyitas_datum}    ${url}
+                    Log String To Console  TÚL RÉGI:\n  ${last_open_date}
+            END      
+        ELSE
+            ${was_nincs_datum_error}=    Set Variable    ${True}    
+            #Log String To Console    Eredeti:${url[0:100]}
+            #az első szóközig levágása a url-ből, mert az első elemben marad a https:// előtti rész, ami nem kell
+            ${url_first}=    Split String    ${url}    ${SPACE}     max_split=1
+            Log String To Console    Levágott:${url_first[0]}
+            #${nincs_utolso_megnyitas_datum}=    Catenate    SEPARATOR=${CR}    ${nincs_utolso_megnyitas_datum}    ${url_first[0]}
+            Append To List    ${errors_nincs_datum}    ${url_first[0]}
+        END
+        Log String To Console    <<< URL #${split_index} feldolgozva.  
+    END
+    Log String To Console     \n[DEBUG] URL feldolgozás vége. Regi datum error: ${was_regi_datum_error}
+    Log String To Console     \n[DEBUG] URL feldolgozás vége. Nincs datum error: ${was_nincs_datum_error}
+
+   IF     ${was_regi_datum_error}
+            ${unique}=    Remove Duplicates    ${errors_regi_datum}
+            ${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique}
+    END
+    IF     ${was_nincs_datum_error}
+        ${unique}=    Remove Duplicates    ${errors_nincs_datum}
+        #füzze össze az err_msg-ben az eredeti tartalmat és az unique listát
+        ${err_msg}=    Catenate    SEPARATOR=${CR}   ${err_msg}  @{unique}
     END
 
-
-       #split "Forrás:" alapján
-        #${forrasok}=    Split String    ${paragraph}    Forrás:
-        #Log String To Console   -----------------------  [forrasok] ${forrasok}
-        #menjünk végig a kapott listán
-        #FOR    ${forras}    IN    @{forrasok}
-        #     Log String To Console   -----------------------  [Forrás] ${forras}
-            #ha a sor tartalmaz http vagy www-t, akkor hiba
-           # ${has_http}=    Evaluate    'http' in '''${forras}'''
-           # ${has_www}=    Evaluate    'www.' in '''${forras}'''
-           # IF    ${has_http} or ${has_www}
-           #     Log String To Console   -----------------------  [Forrás] ${forras}
-           # END
-        #END
-
-    END
+      Log String To Console  \n\nEredmény visszaírása Excelbe...\n\n
                #ciklus után írja be a hibákat
-    IF     ${was_regi_datum_error}
-            ${new_err}=    Set Variable       Az utolsó megnyitás dátuma túl régi:${tul_regi_utolso_megnyitas_datum}
-            IF    $err_msg == ''
-                ${err_msg}=    Set Variable    ${new_err}
-            ELSE
-                ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
-            END
-            Log String To Console     [ERROR] ${new_err}
-    END
-    IF     ${was_nincs_datum_error} 
-        ${new_err}=    Set Variable    Nincs utolsó megnyitás dátuma:${nincs_utolso_megnyitas_datum}
-            IF    $err_msg == ''
-                ${err_msg}=    Set Variable    ${new_err}
-            ELSE
-                ${err_msg}=    Catenate    SEPARATOR=${CR}    ${err_msg}    ${new_err}
-            END
-            Log String To Console     [ERROR] ${new_err}
-    END   
+ 
  # Teszt státusz és Excel jelölés végrehajtása a megadott soron
+    #${unique}=    Remove Duplicates    ${err_msg}
+
+    #${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique}
+   Log String To Console     [ERROR-felírás] ${err_msg}
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
 
        
