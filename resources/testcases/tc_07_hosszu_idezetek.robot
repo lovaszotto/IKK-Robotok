@@ -29,16 +29,17 @@ Test Case 07 - Hosszu Idezetek Ellenorzese
     ${sample}=       Set Variable    ''
 
     ${max_distance}=    Set Variable    0
-
+      #XML formában olvassuk be a docx fájlt a szövegek ellenőrzéséhez
+     ${read_status}    ${xmlAllText}=    Run Keyword And Ignore Error    Read Docx All as XML    ${docx_file}
    #dobd ki a \n karaktereket az xmlAllText-ből
     ${xmlAllText}=    Replace String    ${xmlAllText}    \n    ''
     #ird ki az xmlAllText tartalmát egy xml_alltext.txt fájlba felülírással
     #Append To File    xml_alltext.txt    ${xmlAllText}
 
     ${matches}=    Get Regexp Matches    ${xmlAllText}    \„(.*?)\”
+    #Log String To Console    Talált idézetek száma: ${matches}
     ${max_distance}=    Set Variable    0
     FOR    ${item}    IN    @{matches}
-       
         ${item_length}=    Get Length    ${item}
         #Log To Console    ${item} hossza: ${item_length}
         IF    ${item_length} > ${max_distance}
@@ -49,9 +50,8 @@ Test Case 07 - Hosszu Idezetek Ellenorzese
     #irjuk ki a tömb méretét
      Log String To Console   Max idézőjelek közti távolság: ${max_distance}
  
-    IF    ${max_distance} >= 10000    
-    #IF    ${max_distance} >= 40    
+    IF    ${max_distance} >= 10000      
        ${err_msg}=    Set Variable        Túl hosszú idézet: ${max_distance} karakter az idézőjelek között!;(${max_sample}[0:100])
     END
 
-      Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
+    Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}

@@ -52,14 +52,17 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
         Continue For Loop
     END
     #URL-ek kikeresése
-
-    ${urls}=    Split String    ${paragraph_str}   https://
+    ${paragraph_str}=     Replace String    ${paragraph_str}    https://    http://
+    ${urls}=    Split String    ${paragraph_str}   http://
 
     ${url_count}=    Get Length    ${urls}
     Log String To Console    [DEBUG] https found: ${url_count}
     IF    ${url_count} == 0
         Continue For Loop
     END
+    #2024.06.17 előtti dátumok keresése a URL-ekben, amik utolsó megnyitás dátumára utalhatnak
+
+
     #ha van a címlapon Nem kell ellenőrizni akkor kihagyja
     ${ignore_nosource}=    Get Variable Value    ${IGNORE_NOSOURCE}
     IF    ${ignore_nosource} == ${True}
@@ -70,50 +73,61 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
     END
     
     ${split_index}=    Set Variable    -1
-     Log String To Console     \n[DEBUG] Summa URL #${split_index}
-     FOR    ${url}    IN    @{urls}
-        #ellenőrizze, hogy van e benne (.*\s*dddd.dd.dd.)   
-        #irja ki a talált url-t
-        ${split_index}=    Evaluate    ${split_index} + 1
-        Log String To Console     \n[DEBUG] Processing URL #${split_index}
-        #ha a split_index 0, akkor az első elem lesz, ami nem tartalmazza a https:// részt, ezért azt kihagyjuk
-        IF     ${split_index} == 0
-            CONTINUE
-        END
-        #Log String To Console     \n\n[DEBUG] Found URL: ${url}
-        #${match}=    Evaluate    re.search(r'\\d{4}\\s*\\.\\s*\\d{1,2}\\s*\\.\\s*\\d{1,2}', '''${url}''')    modules=re
-        ${match}=    Evaluate    re.search(r'\\d{4}\\s*[\\.\\-\\s]\\s*\\d{1,2}\\s*[\\.\\-\\s]\\s*\\d{1,2}', '''${url}''')    modules=re
+    #ird ki a talált urls-ek számát
+    Log String To Console    [DEBUG] Talált URL-ek száma: ${url_count}
 
-        Log String To Console     \n[DEBUG] Match found: ${match}
-        IF     ${match}
-            ${last_open_date}=    Set Variable    ${match.group(0)}
-            Log String To Console    MEGVAN : ${last_open_date}
-            # ellenőrizze, hogy a dátum nem régebbi mint  2024.06.17 év
-            ${is_recent}=     Evaluate    int('''${last_open_date}'''.replace('.','').replace(' ','')) >= 20240617
-            IF    not ${is_recent}
-                    ${was_regi_datum_error}=    Set Variable    ${True}
-                    # ${url_first}=    Split String    ${url}    ${SPACE}     max_split=1
-                    Append To List           ${errors_regi_datum}   ${last_open_date}
-                  #  ${tul_regi_utolso_megnyitas_datum}=    Catenate    SEPARATOR=${CR}    ${tul_regi_utolso_megnyitas_datum}    ${url}
-                    Log String To Console  TÚL RÉGI:\n  ${last_open_date}
-            END      
-        ELSE
-            ${was_nincs_datum_error}=    Set Variable    ${True}    
-            #Log String To Console    Eredeti:${url[0:100]}
-            #az első szóközig levágása a url-ből, mert az első elemben marad a https:// előtti rész, ami nem kell
-            ${url_first}=    Split String    ${url}    ${SPACE}     max_split=1
-            Log String To Console    Levágott:${url_first[0]}
-            #${nincs_utolso_megnyitas_datum}=    Catenate    SEPARATOR=${CR}    ${nincs_utolso_megnyitas_datum}    ${url_first[0]}
-            Append To List    ${errors_nincs_datum}    ${url_first[0]}
-        END
-        Log String To Console    <<< URL #${split_index} feldolgozva.  
-    END
-    Log String To Console     \n[DEBUG] URL feldolgozás vége. Regi datum error: ${was_regi_datum_error}
-    Log String To Console     \n[DEBUG] URL feldolgozás vége. Nincs datum error: ${was_nincs_datum_error}
 
+         FOR    ${url}    IN    @{urls}
+            TRY
+                #ellenőrizze, hogy van e benne (.*\s*dddd.dd.dd.)   
+                #irja ki a talált url-t
+                ${split_index}=    Evaluate    ${split_index} + 1
+                Log String To Console     \n[DEBUG] Processing URL #${split_index}
+                #ha a split_index 0, akkor az első elem lesz, ami nem tartalmazza a https:// részt, ezért azt kihagyjuk
+                IF     ${split_index} == 0
+                    CONTINUE
+                END
+                #Log String To Console     \n\n[DEBUG] Found URL: ${url}
+                #${match}=    Evaluate    re.search(r'\\d{4}\\s*\\.\\s*\\d{1,2}\\s*\\.\\s*\\d{1,2}', '''${url}''')    modules=re
+                ${match}=    Evaluate    re.search(r'\\d{4}\\s*[\\.\\-\\s]\\s*\\d{1,2}\\s*[\\.\\-\\s]\\s*\\d{1,2}', '''${url}''')    modules=re
+        
+                Log String To Console     \n[DEBUG] Match found: ${match}
+                IF     ${match}
+                    ${last_open_date}=    Set Variable    ${match.group(0)}
+                    Log String To Console    MEGVAN : ${last_open_date}
+                    # ellenőrizze, hogy a dátum nem régebbi mint  2024.06.17 év
+                    ${is_recent}=     Evaluate    int('''${last_open_date}'''.replace('.','').replace('-','').replace(' ','')) >= 20240617
+                    IF    not ${is_recent}
+                            ${was_regi_datum_error}=    Set Variable    ${True}
+                            # ${url_first}=    Split String    ${url}    ${SPACE}     max_split=1
+                            Append To List           ${errors_regi_datum}   ${last_open_date}
+                        #  ${tul_regi_utolso_megnyitas_datum}=    Catenate    SEPARATOR=${CR}    ${tul_regi_utolso_megnyitas_datum}    ${url}
+                        #  Log String To Console  TÚL RÉGI:\n  ${last_open_date}
+                    END      
+                ELSE
+                    ${was_nincs_datum_error}=    Set Variable    ${True}    
+                    #Log String To Console    Eredeti:${url[0:100]}
+                    #az első szóközig levágása a url-ből, mert az első elemben marad a https:// előtti rész, ami nem kell
+                    ${url_first}=    Split String    ${url}    ${SPACE}     max_split=1
+                    #Log String To Console    Levágott:${url_first[0]}
+                    #${nincs_utolso_megnyitas_datum}=    Catenate    SEPARATOR=${CR}    ${nincs_utolso_megnyitas_datum}    ${url_first[0]}
+                    Append To List    ${errors_nincs_datum}    ${url_first[0]}
+                END
+                Log String To Console    <<< URL #${split_index} feldolgozva.  
+             EXCEPT    AS    ${message}
+                Log String To Console    \n[EXCEPTION] Hiba történt a URL-ek feldolgozása során: ${message}
+                #${err_msg}=    Set Variable    Hiba a URL-ek feldolgozása során: ${message}
+                 ${err_msg}=    Catenate    SEPARATOR=${CR}   ${err_msg}  ${message}
+                # Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    Hiba a URL-ek feldolgozása során: ${message}
+                # RETURN
+            END
+       END
+        Log String To Console     \n[DEBUG] URL feldolgozás vége. Regi datum error: ${was_regi_datum_error}
+        Log String To Console     \n[DEBUG] URL feldolgozás vége. Nincs datum error: ${was_nincs_datum_error}
+     
    IF     ${was_regi_datum_error}
             ${unique}=    Remove Duplicates    ${errors_regi_datum}
-            ${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique}
+            ${err_msg}=    Catenate    SEPARATOR=${CR}   ${err_msg}  @{unique}
     END
     IF     ${was_nincs_datum_error}
         ${unique}=    Remove Duplicates    ${errors_nincs_datum}
@@ -121,14 +135,14 @@ Test Case 05 - Internet Hivatkozasok Ellenorzese
         ${err_msg}=    Catenate    SEPARATOR=${CR}   ${err_msg}  @{unique}
     END
 
-      Log String To Console  \n\nEredmény visszaírása Excelbe...\n\n
+    Log String To Console  \nEredmény visszaírása Excelbe...\n
                #ciklus után írja be a hibákat
  
  # Teszt státusz és Excel jelölés végrehajtása a megadott soron
     #${unique}=    Remove Duplicates    ${err_msg}
 
     #${err_msg}=    Catenate    SEPARATOR=${CR}    @{unique}
-   Log String To Console     [ERROR-felírás] ${err_msg}
+   #Log String To Console     [ERROR-felírás] ${err_msg}
     Mark Test Status    ${excel_file}    ${sheet_name}    ${testCase_row}    ${err_msg}
 
        
