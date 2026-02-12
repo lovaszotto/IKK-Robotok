@@ -23,8 +23,11 @@ Web-alkalmazás indítása és bejelentkezés
     [Documentation]    Web-alkalmazás indítása és bejelentkezés
     
     Log String To Console     \n\[1/24] Web-alkalmazás indítása és bejelentkezés - from root
-    Open Browser    ${APP_URL}    chrome    
-    #Open Browser    ${APP_URL}    edge    
+    ${status}    ${error}=    Run Keyword And Ignore Error    Open Browser    ${APP_URL}    chrome
+    IF    '${status}' == 'FAIL'
+        Log String To Console    [HIBA] Chrome indítás sikertelen: ${error}
+        Open Browser    ${APP_URL}    edge
+    END
     Maximize Browser Window
     # ${handle}=    Get Window Handles
     # Log String To Console    Ablak azonosító: ${HANDLE}

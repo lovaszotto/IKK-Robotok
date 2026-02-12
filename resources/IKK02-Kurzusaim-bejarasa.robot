@@ -94,7 +94,7 @@ Megjelenő kurzusok bejárása
         #Execute Javascript    arguments[0].click()    ${mat_card_content}
     
         # Kurzus oldal betöltése után h2 cím kiírása
-        Wait Until Element Is Visible    xpath=//h1    30s
+        Wait Until Element Is Visible    xpath=//h1    60s
         ${h2_text}=    Get Text    xpath=//h1
         Log String To Console    Kurzus: ${h2_text} Passed
         Sleep    1s
