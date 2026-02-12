@@ -64,7 +64,8 @@ Témák közötti navigáció ellenőrzése
                     
                      Log String To Console    Következő oldal gombra kattintás.
                     Run Keyword And Ignore Error    Wait Until Page Does Not Contain Element    css:div.cdk-overlay-backdrop.cdk-overlay-backdrop-showing    2s
-                    Click Element      xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
+                    #Click Element      xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
+                    Click Next Page Safe
                     Log String To Console    Következő oldal gombra kattintva.
                 
                    
@@ -93,7 +94,10 @@ Témák közötti navigáció ellenőrzése
                         IF     '${lc_highlighted_name}' != '${lc_head_name}'
                             Log String To Console    [ERROR] \n++++++++++++ Nem a menünek megfelelő oldalon van! ++++++++++++ 
                             Log String To Console    ${highlighted_name} != ${head_name}\n
-                            Write SumError fájl    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}     wtc-03    Nem a menünek megfelelő oldalon van!    ${highlighted_name};${head_name}
+                            #elővesszük a global CURRENT_SHEET_NAME változót, hogy tudjuk melyik sheet-nél van a hiba
+                            ${myCURRENT_SHEET_NAME}=    Get Variable Value    ${CURRENT_SHEET_NAME}
+                            
+                            Write MenuError fájl    ${DIGITALIS_EXCEL_FILE}    ${myCURRENT_SHEET_NAME}     wtc-03    Nem a menünek megfelelő oldalon van!    ${highlighted_name};${head_name}
                         END
                      END
                     

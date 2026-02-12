@@ -92,6 +92,22 @@ ${DOCX_DUMP_TO_FILE}    ${False}
 ${DOCX_DUMP_DIR}        ${EXECDIR}${/}results${/}docx_dump
 
 *** Keywords ***
+*** Settings ***
+Library    SeleniumLibrary
+
+*** Variables ***
+${NEXT_BTN}          css:button[aria-label="Következő oldalra lépés"]
+${CDK_BACKDROP}      css:div.cdk-overlay-backdrop.cdk-overlay-backdrop-showing
+
+*** Keywords ***
+Click Next Page Safe
+     #Click Element      xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
+         
+    Wait Until Element Is Not Visible    ${CDK_BACKDROP}    timeout=15s
+    Wait Until Element Is Visible        ${NEXT_BTN}        timeout=15s
+    Scroll Element Into View             ${NEXT_BTN}
+    Wait Until Element Is Enabled        ${NEXT_BTN}        timeout=15s
+    Click Element                        ${NEXT_BTN}
 
 Popup Handler
     [Documentation]    Kezeli a felugró ablakokat
@@ -186,6 +202,23 @@ Write SumError fájl
     [Arguments]    ${parent}    ${child}    ${testcase}    ${error}    ${filename}
     #Log String To Console    [DEBUG] CONFIG_OUTPUT_FOLDER value: ${CONFIG_OUTPUT_FOLDER}
     ${csv_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}/_SumError.csv
+    ${header}=    Set Variable    Parent;Child;TestCase;Error;Filename
+    ${row}=    Set Variable    ${parent};${child};${testcase};${error};${filename}
+    #Log String To Console    [DEBUG] SumError.csv path: ${csv_file}
+    #Log String To Console    [DEBUG] SumError.csv row: ${row}
+    ${exists}=    Run Keyword And Return Status    File Should Exist    ${csv_file}
+    IF    not ${exists}
+        Create File    ${csv_file}    ${header}\n    encoding=UTF-8
+        # BOM hozzáadása a fájl elejére
+        ${bom}=    Evaluate    '\ufeff'
+        ${old_content}=    Get File    ${csv_file}
+        Create File    ${csv_file}    ${bom}${old_content}    encoding=UTF-8
+    END
+    Append To File    ${csv_file}    ${row}\n
+Write MenuError fájl
+    [Arguments]    ${parent}    ${child}    ${testcase}    ${error}    ${filename}
+    #Log String To Console    [DEBUG] CONFIG_OUTPUT_FOLDER value: ${CONFIG_OUTPUT_FOLDER}
+    ${csv_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}/_MenuError.csv
     ${header}=    Set Variable    Parent;Child;TestCase;Error;Filename
     ${row}=    Set Variable    ${parent};${child};${testcase};${error};${filename}
     #Log String To Console    [DEBUG] SumError.csv path: ${csv_file}
