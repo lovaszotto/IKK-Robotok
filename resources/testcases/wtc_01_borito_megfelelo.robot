@@ -26,12 +26,12 @@ Boritó megfelelőség ellenőrzése
     #${home_title}=    Get Text   ${home_button}
     ${home_title}=    Get Text  xpath=//span[contains(@class,'node-title')]
     
-    #Log To Console    >>>>> Borító címe a DT-ben: ${home_title}
+    #Log String To Console    >>>>> Borító címe a DT-ben: ${home_title}
     #a ${home_title} -ben \nBlokk cseréje üres karakterre
     ${home_title}=    Replace String    ${home_title}    \nBlokk    ${EMPTY}
-    #Log To Console    >>>>> Borító címe a DT-ben (\\nBlokk eltávolítva): ${home_title}
+    #Log String To Console    >>>>> Borító címe a DT-ben (\\nBlokk eltávolítva): ${home_title}
     ${home_title}=    Strip String    ${home_title}
-    #Log To Console    >>>>> Borító címe a DT-ben (trim): ${home_title}
+    #Log String To Console    >>>>> Borító címe a DT-ben (trim): ${home_title}
 
     
     Log String To Console    >>> node clicked

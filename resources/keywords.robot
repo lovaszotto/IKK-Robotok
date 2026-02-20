@@ -59,6 +59,7 @@ Library    OperatingSystem
 Library    String
 Library    Collections
 Library    SeleniumLibrary
+Library    RPA.Excel.Files
 Resource   variables.robot
 Resource   get_file_size.resource
 # MEGJEGYZÉS: Legacy resource hivatkozások eltávolítva, mivel ezeket a fájlokat archivláltuk
@@ -509,6 +510,19 @@ Process Config Line
     ${config_rename_prefix}=    Remove String    ${config_rename_prefix}    \n
     ${config_threshold_gyanus}=    Remove String    ${threshold_gyanus_part}    THRESHOLD_GYANUS:
     ${config_threshold_masolt}=    Remove String    ${threshold_masolt_part}    THRESHOLD_MASOLT:
+    
+    # Média ellenőrzés konfigurációjának feldolgozása (ha elérhető)
+    ${config_media_check_enabled}=    Set Variable    False
+    ${config_media_check_folder}=    Set Variable    ./test
+    IF    ${parts_len} >= 8
+        ${media_check_part}=    Get From List    ${config_parts}    6
+        ${media_check_folder_part}=    Get From List    ${config_parts}    7
+        ${config_media_check_enabled}=    Remove String    ${media_check_part}    MEDIA_CHECK_ENABLED:
+        ${config_media_check_enabled}=    Strip String    ${config_media_check_enabled}
+        ${config_media_check_folder}=    Remove String    ${media_check_folder_part}    MEDIA_CHECK_FOLDER:
+        ${config_media_check_folder}=    Strip String    ${config_media_check_folder}
+    END
+    
     # Globalis valtozok beallitasa
     Set Global Variable    ${CONFIG_INPUT_FOLDER}  ${config_input}
     Set Global Variable    ${CONFIG_OUTPUT_FOLDER}    ${config_output}
@@ -516,6 +530,8 @@ Process Config Line
     Set Global Variable    ${RENAME_PREFIX}          ${config_rename_prefix}
     Set Global Variable    ${CONFIG_THRESHOLD_GYANUS}    ${config_threshold_gyanus}
     Set Global Variable    ${CONFIG_THRESHOLD_MASOLT}    ${config_threshold_masolt}
+    Set Global Variable    ${MEDIA_CHECK_ENABLED}    ${config_media_check_enabled}
+    Set Global Variable    ${MEDIA_CHECK_FOLDER}     ${config_media_check_folder}
     Set Global Variable    ${DOCUMENT_PATH}           ${config_input}
     # Sikeres konfiguráció betöltése
     Log String To Console    Konfiguracio sikeresen betoltve!
@@ -619,6 +635,8 @@ Konfiguráció Betöltése
         Log String To Console    Hibauzenet: ${config_result.stderr}
     END
     Log String To Console    Futtatja a WEB-es ellenőrzést: ${RUN_WEB_CHECK}
+    Log String To Console    Média ellenőrzés engedélyezve: ${MEDIA_CHECK_ENABLED}
+    Log String To Console    Média mappa: ${MEDIA_CHECK_FOLDER}
     
     Log String To Console    ${EMPTY}
     Log String To Console    ═══════════KONFIGURACIO BETOLTESE KÉSZ════════════════════
@@ -1402,9 +1420,11 @@ Create_K_ell_Excel
     Log String To Console    Filename: ${filename_part}
     Set Global Variable    ${DTEM}    ${parent_path}
     Set Global Variable    ${KURZUS}     ${child_path}    
+
     Log String To Console    Téma: ${DTEM}
+    #A kúrzusban van az aktuális kurzus száma: EM-1.4.1
     Log String To Console    Kurzus: ${KURZUS}
-    
+   
 
     #Log String To Console    \n=== FELDOLGOZÁS BEFEJEZVE ===
     
@@ -1443,7 +1463,7 @@ Create_K_ell_Excel
     # Excel fájl létrehozása/ellenőrzése
     ${file_exists}=    Run Keyword And Return Status    File Should Exist    ${activeExcelFile}
     IF    ${file_exists}
-        Log String To Console     ${activeExcelFile}
+       
         
         # Sheet ellenőrzése és létrehozása szükség esetén
         ${sheet_exists}=    Check Excel Sheet Exists    ${activeExcelFile}    ${activeSheetName}
@@ -1465,11 +1485,41 @@ Create_K_ell_Excel
             Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z    
             Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z' -> '${web_activeSheetName}'
 
-            Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK    ${web_activeSheetName}-MK
-            Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK
-            Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z-MK' -> '${web_activeSheetName}-MK'
+        #Kersd meg, a MEDIA_FOLDER-ben van-e {KURZUS} al kezdődő xlsx fájl, egy darabt, és ha igen, akkor állítsd be a ${media_check_file} változót a megtalált fájlnévre, ha nincs, akkor maradjon üresen
+            ${media_check_folder}=    Set Variable    ${MEDIA_CHECK_FOLDER}
+            ${media_check_file}=    Set Variable    ${EMPTY}
+            @{media_files}=    List Files In Directory    ${MEDIA_CHECK_FOLDER}    pattern=${KURZUS}*.xlsx
+            ${media_files_count}=    Get Length    ${media_files}    
+            IF    ${media_files_count} > 0
+                ${media_check_file}=    Get From List    ${media_files}    0
+                Log String To Console     \n\[INFO] Talált média ellenőrző fájl: ${media_check_file}  
+                ${SRC_FILE}=    Evaluate    __import__('os').path.join(r'''${media_check_folder}''', r'''${media_check_file}''')    modules=os
+                ${SRC_SHEET}=    Set Variable    ${KURZUS}-MK
+                ${DST_FILE}=    Set Variable    ${DIGITALIS_EXCEL_FILE}    
+                ${DST_SHEET}=    Set Variable    ${KURZUS}-MK-kapott
 
+    #sheet-átmásolása két fájl között, a forrás fájl MEDIA_CHECK_FOLDER-ben van,
+    #  a cél fájl a ${DIGITALIS_EXCEL_FILE}, a sheet neve ${KURZUS}-MK, a másolt sheet neve pedig ${KURZUS}-MK-kapott lesz
+                Log String To Console     \n\[INFO] Média ellenőrző sheet másolása közvetlenül Python-nal...
+                ${copy_script}=    Set Variable    import openpyxl; src_wb = openpyxl.load_workbook('${SRC_FILE}'); src_ws = src_wb['${SRC_SHEET}']; dst_wb = openpyxl.load_workbook('${DST_FILE}'); new_ws = dst_wb.copy_worksheet(src_ws); new_ws.title = '${DST_SHEET}'; dst_wb.save('${DST_FILE}'); print('SUCCESS')
+                ${result}=    Run Process    ${PYTHON_EXEC}    -W    ignore    -c    ${copy_script}
+                ${media_check_path}=    Evaluate    __import__('os').path.join(r'''${media_check_folder}''', r'''${media_check_file}''')    modules=os
+                Log String To Console     \n\[INFO] Média ellenőrző fájl elérési útja: ${media_check_path}
+                # Az eredeti sheet elrejtése    
+                Hide Excel Sheet    ${DIGITALIS_EXCEL_FILE}    ${KURZUS}-MK-kapott
+                Log String To Console     \n\[INFO] Média ellenőrző sheet másolva: '${KURZUS}-MK' -> '${KURZUS}-MK-kapott' a ${DIGITALIS_EXCEL_FILE} fájlba
+            ELSE
+                Log String To Console     \n\[INFO] Nem található média ellenőrző fájl a MEDIA_CHECK_FOLDER-ben a kurzushoz: ${KURZUS}
+            END    
+   
 
+            #Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK    ${web_activeSheetName}-MK
+            #Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK
+            #Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z-MK' -> '${web_activeSheetName}-MK'
+          
+            #Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK    ${web_activeSheetName}-MK-kapott
+            #Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK-kapott
+            #Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z-MK-kapott' -> '${web_activeSheetName}-MK-kapott'
         END
     ELSE
         Log String To Console     \n\[INFO] Excel fájl létrehozása: ${activeExcelFile}

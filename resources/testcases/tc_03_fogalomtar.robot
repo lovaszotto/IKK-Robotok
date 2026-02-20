@@ -48,7 +48,7 @@ Test Case 03 - Fogalomtar Ellenorzese
     #kiirja eg xml_line.txt fájlba az xml sorokat
     #${idx}=    Set Variable    0
     #FOR    ${line}    IN    @{xml_lines}
-    #    #Log To Console    ${idx}:${line}
+    #    #Log String To Console    ${idx}:${line}
     #    Append To File    xml_line.txt    ${idx}:${line}\n
     #    ${idx}=    Evaluate    ${idx} + 1
     #END

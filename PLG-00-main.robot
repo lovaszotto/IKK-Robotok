@@ -178,7 +178,7 @@ Batch inicializálás
         ${recovery_file}=    Set Variable    ${CONFIG_OUTPUT_FOLDER}${/}_Recovery.csv
         #Log String To Console    Recovery ellenőrzés: ${docx_file}
         ${content}=       Get File    ${recovery_file}    encoding=UTF-8
-       # Log To Console    recovery_file tartalom (első 500 char): ${content}[0:500]
+       # Log String To Console    recovery_file tartalom (első 500 char): ${content}[0:500]
 
 
         ${content}=    Get File    ${recovery_file}    encoding=UTF-8

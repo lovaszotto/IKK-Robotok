@@ -46,8 +46,9 @@ ${CR}    ;
 #Media katalógus változói
 ${MEDIA_ROW_INDEX}            5
 
-# Futtassunk média ellenőrzést
-${RUN_MEDIA_CHECK}          ${True}
+# Média ellenőrzés konfigurációja
+${MEDIA_CHECK_ENABLED}      ${True}           # Dinamikus beolvasás a config fájlból
+${MEDIA_CHECK_FOLDER}       ./test            # Dinamikus beolvasás a config fájlból
 
 # Futtassunk web-ellenőrzést (konfigból)
 # A változót egy kulcsszóval kell beállítani a suite setup-ban:

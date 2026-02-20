@@ -17,7 +17,9 @@ def load_simple_config():
         'database_file': 'test_database.db',
         'excel_prefix': 'duplikacio_export',
         'status_threshold_gyanus': '300',
-        'status_threshold_masolt': '1200'
+        'status_threshold_masolt': '1200',
+        'media_check_enabled': 'False',
+        'media_check_folder': './test'
     }
     # Log alapértelmezett értékek
     # DEBUG üzenetek eltávolítva
@@ -58,13 +60,19 @@ def load_simple_config():
     # DEBUG üzenetek eltávolítva
     # debug_output.txt írása megszüntetve
 
+    # Media ellenőrzés engedélyezettségének feldolgozása
+    media_check_enabled = config.get('media_check_enabled', 'False').lower() in ('true', '1', 'yes')
+    media_check_folder = os.path.normpath(config.get('media_check_folder', './test'))
+
     return {
         'input_folder': input_folder,
         'output_folder': output_folder,
         'excel_prefix': config.get('excel_prefix', 'duplikacio_export'),
         'rename_prefix': config.get('rename_prefix', ''),
         'status_threshold_gyanus': int(config.get('status_threshold_gyanus', '300')),
-        'status_threshold_masolt': int(config.get('status_threshold_masolt', '1200'))
+        'status_threshold_masolt': int(config.get('status_threshold_masolt', '1200')),
+        'media_check_enabled': media_check_enabled,
+        'media_check_folder': media_check_folder
     }
 
 def main():
@@ -72,7 +80,7 @@ def main():
         config = load_simple_config()
         # DEBUG üzenetek eltávolítva
         # debug_output.txt írása megszüntetve
-        print(f"INPUT:{config['input_folder']}|OUTPUT:{config['output_folder']}|EXCEL_PREFIX:{config['excel_prefix']}|RENAME_PREFIX:{config['rename_prefix']}|THRESHOLD_GYANUS:{config['status_threshold_gyanus']}|THRESHOLD_MASOLT:{config['status_threshold_masolt']}", end='')
+        print(f"INPUT:{config['input_folder']}|OUTPUT:{config['output_folder']}|EXCEL_PREFIX:{config['excel_prefix']}|RENAME_PREFIX:{config['rename_prefix']}|THRESHOLD_GYANUS:{config['status_threshold_gyanus']}|THRESHOLD_MASOLT:{config['status_threshold_masolt']}|MEDIA_CHECK_ENABLED:{config['media_check_enabled']}|MEDIA_CHECK_FOLDER:{config['media_check_folder']}", end='')
     except Exception as e:
         print(f"\nERROR: {e}", end='')
 

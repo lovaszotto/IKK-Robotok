@@ -6,9 +6,9 @@ Handle Popup Dialog
     IF    ${is_visible}
         # Kattint az első gombra a dialogban
         Click Element    css=.mat-dialog-container button
-           Log To Console    [POPUP] mat-dialog-container felugró ablak bezárva.
+           Log String To Console    [POPUP] mat-dialog-container felugró ablak bezárva.
     ELSE
-           Log To Console    [POPUP] Nincs mat-dialog-container felugró ablak.
+           Log String To Console    [POPUP] Nincs mat-dialog-container felugró ablak.
     END
     # Továbblép, nincs hiba
     RETURN

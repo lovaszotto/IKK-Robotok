@@ -41,7 +41,7 @@ Témák közötti navigáció ellenőrzése
     #Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
 
     #Ha nem futtatunk média ellenőrzést, kilépünk
-    IF    $RUN_MEDIA_CHECK == $False
+    IF    $MEDIA_CHECK_ENABLED == $False
         RETURN
     END
     #ha létezik a 
@@ -270,7 +270,24 @@ Témák közötti navigáció ellenőrzése
                            Log String To Console    Várakozás 60s a felhasználói alt/title megadására...
                         #Sleep     60s
 
-                            ${alt_video}=    Get Element Attribute    ${video}    title
+                            ${alt_video_title}=    Get Element Attribute    ${video}    title
+                            ${alt_video_alt}=      Get Element Attribute    ${video}    alt
+                            ${alt_video_aria}=     Get Element Attribute    ${video}    aria-label
+                            ${alt_video_data}=     Get Element Attribute    ${video}    data-title
+                            ${alt_video}=    Set Variable    ${alt_video_title}
+                            IF    '${alt_video}' == '' or '${alt_video}' == '${NONE}' or '${alt_video}' == 'None' or '${alt_video}' == 'null'
+                                ${alt_video}=    Set Variable    ${alt_video_alt}
+                            END
+                            IF    '${alt_video}' == '' or '${alt_video}' == '${NONE}' or '${alt_video}' == 'None' or '${alt_video}' == 'null'
+                                ${alt_video}=    Set Variable    ${alt_video_aria}
+                            END
+                            IF    '${alt_video}' == '' or '${alt_video}' == '${NONE}' or '${alt_video}' == 'None' or '${alt_video}' == 'null'
+                                ${alt_video}=    Set Variable    ${alt_video_data}
+                            END
+                            IF    '${alt_video}' == '' or '${alt_video}' == '${NONE}' or '${alt_video}' == 'None' or '${alt_video}' == 'null'
+                                ${video_idx_1}=    Evaluate    ${video_index} + 1
+                                ${alt_video}=    Set Variable    ${highlighted_name}_video_${video_idx_1}
+                            END
                             Log String To Console    Video alt attribútum: ${alt_video}
                             
                             ${src}=    Get Element Attribute    ${video}    src
@@ -308,8 +325,33 @@ Témák közötti navigáció ellenőrzése
                             #${resp}=    Get On Session    blob    ${src}
                            #Csak a headert kérjük le először
                             ${resp}=    Head On Session    blob    ${src}
-
+                            ${ctype_head}=   Get From Dictionary    ${resp.headers}    Content-Type
+                            ${ext_head}=     Determine Extension From Content-Type    ${ctype_head}
+                            Log String To Console    DEBUG alt_video value: '${alt_video}'
+                            Log String To Console    DEBUG src value: '${src}'
+                            ${planned_fname}=   Determine File Name From Response    ${resp}    ${DEFAULT_BASENAME}${ext_head}    ${src}    ${alt_video}    ${ext_head}
+                            ${planned_fname}=     Get File Name From Header    ${planned_fname}
+                            Log String To Console    Letöltendő videó fájl neve: ${planned_fname}
+                            #kérje le a videót is, hogy a response headereket is megkapjuk, mert a head nem mindig adja vissza az összes header információt
+                            ${respBody}=    Get On Session    blob    ${src}
+                            Log String To Console    <<<<<<<<<<<<<<<<<<<<Video body letöltés kész>>>>>>>>>>>>>>>>>
+                            ${real_fname}=   Determine File Name From Response    ${respBody}    ${DEFAULT_BASENAME}${ext_head}    ${src}    ${alt_video}    ${ext_head}
+                            ${real_fname}=   Get File Name From Header    ${real_fname}
+                            Log String To Console    Letöltendő videó fájl neve (valódi): ${real_fname}
                             
+                            Log String To Console    Video letöltés válasza státusz: ${respBody.status_code}
+                            Log String To Console    Video Content-Type: ${respBody.headers['Content-Type']}
+                        Log String To Console    LENGTH: ${respBody.headers['Content-Length']}
+                        Log String To Console    --- RESPBODY META ---
+                        ${resp_headers}=    Evaluate    dict($respBody.headers)
+                        Log String To Console    HEADERS: ${resp_headers}
+
+
+                            #Log String To Console    Video Content-Disposition: ${resp.headers['Content-Disposition']}
+                            #Log String To Console    Video body hossz: ${len(${respBody.content})}
+                            #Log String To Console    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Video letöltve: ${fname} >>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n\n
+                           
+
                             Delete All Sessions
                     Log String To Console    Video Letöltés kész
                         #Log String To Console    Kép letöltés válasza státusz: ${resp.status_code}
@@ -331,7 +373,7 @@ Témák közötti navigáció ellenőrzése
 
                             ${ext}=     Determine Extension From Content-Type    ${ctype}
 
-                            ${fname}=   Determine File Name From Response    ${resp}    ${DEFAULT_BASENAME}${ext}
+                            ${fname}=   Determine File Name From Response    ${respBody}    ${DEFAULT_BASENAME}${ext}    ${src}    ${alt_video}    ${ext}
                             ${fname}=     Get File Name From Header    ${fname}
                             
                             #Media tipus felírása media katalógusba
@@ -538,18 +580,102 @@ Determine Extension From Content-Type
     
 
 Determine File Name From Response
-        [Arguments]    ${resp}    ${default_name}
-        ${headers}=    Set Variable    ${resp.headers}
-        ${disp}=    Get From Dictionary    ${headers}    Content-Disposition    default=None
-        IF    '${disp}' != 'None' and 'filename=' in '${disp}'
-            ${fname}=    Fetch From Right    ${disp}    filename=
-            ${fname}=    Replace String    ${fname}    "    ${EMPTY}
-            ${fname}=    Replace String    ${fname}    '    ${EMPTY}
-            ${fname}=    Strip String    ${fname}
-        ELSE
-            ${fname}=    Set Variable    ${default_name}
+    [Arguments]    ${resp}    ${default_name}    ${src}=${EMPTY}    ${alt_title}=${EMPTY}    ${ext}=${EMPTY}
+    ${headers}=    Evaluate    dict($resp.headers) if hasattr($resp, 'headers') else {}
+    ${disp}=    Get From Dictionary    ${headers}    Content-Disposition    default=
+    ${fname}=    Set Variable    ${EMPTY}
+
+    IF    '${disp}' != ''
+        ${m_star}=    Evaluate    __import__('re').search(r"filename\\*=\\s*([^;]+)", r'''${disp}''', __import__('re').IGNORECASE)
+        IF    ${m_star}
+            ${raw_star}=    Evaluate    $m_star.group(1).strip().strip('"').strip("'")
+            ${fname}=    Evaluate    (__import__('urllib.parse').parse.unquote($raw_star.split("''", 1)[1]) if "''" in $raw_star else __import__('urllib.parse').parse.unquote($raw_star))
         END
-        RETURN   ${fname}
+        IF    '${fname}' == ''
+            ${m_plain}=    Evaluate    __import__('re').search(r"filename\\s*=\\s*([^;]+)", r'''${disp}''', __import__('re').IGNORECASE)
+            IF    ${m_plain}
+                ${raw_plain}=    Evaluate    $m_plain.group(1).strip().strip('"').strip("'")
+                ${fname}=    Evaluate    __import__('urllib.parse').parse.unquote($raw_plain)
+            END
+        END
+    END
+
+    IF    '${fname}' == '' and '${src}' != ''
+        ${parsed}=    Evaluate    __import__('urllib.parse').parse.urlparse($src)
+        ${qs}=    Evaluate    __import__('urllib.parse').parse.parse_qs($parsed.query)
+        ${q_filename}=    Evaluate    ($qs.get('filename') or [''])[0]
+        ${q_file}=    Evaluate    ($qs.get('file') or [''])[0]
+        ${q_name_param}=    Evaluate    ($qs.get('name') or [''])[0]
+        ${q_download}=    Evaluate    ($qs.get('download') or [''])[0]
+        ${q_name}=    Set Variable    ${q_filename}
+        IF    '${q_name}' == ''
+            ${q_name}=    Set Variable    ${q_file}
+        END
+        IF    '${q_name}' == ''
+            ${q_name}=    Set Variable    ${q_name_param}
+        END
+        IF    '${q_name}' == ''
+            ${q_name}=    Set Variable    ${q_download}
+        END
+        IF    '${q_name}' != ''
+            ${fname}=    Evaluate    __import__('urllib.parse').parse.unquote($q_name)
+        END
+        IF    '${fname}' == ''
+            ${q_rcd}=    Evaluate    (($qs.get('response-content-disposition') or [''])[0])
+            IF    '${q_rcd}' != ''
+                ${q_rcd}=    Evaluate    __import__('urllib.parse').parse.unquote($q_rcd)
+                ${m_q_star}=    Evaluate    __import__('re').search(r"filename\\*=\\s*([^;]+)", r'''${q_rcd}''', __import__('re').IGNORECASE)
+                IF    ${m_q_star}
+                    ${raw_q_star}=    Evaluate    $m_q_star.group(1).strip().strip('"').strip("'")
+                    ${fname}=    Evaluate    (__import__('urllib.parse').parse.unquote($raw_q_star.split("''", 1)[1]) if "''" in $raw_q_star else __import__('urllib.parse').parse.unquote($raw_q_star))
+                END
+                IF    '${fname}' == ''
+                    ${m_q_plain}=    Evaluate    __import__('re').search(r"filename\\s*=\\s*([^;]+)", r'''${q_rcd}''', __import__('re').IGNORECASE)
+                    IF    ${m_q_plain}
+                        ${raw_q_plain}=    Evaluate    $m_q_plain.group(1).strip().strip('"').strip("'")
+                        ${fname}=    Evaluate    __import__('urllib.parse').parse.unquote($raw_q_plain)
+                    END
+                END
+            END
+        END
+        IF    '${fname}' == ''
+            ${fname}=    Evaluate    __import__('os').path.basename($parsed.path)
+            ${fname}=    Evaluate    __import__('urllib.parse').parse.unquote($fname)
+        END
+    END
+
+    IF    '${fname}' == ''
+        ${fname}=    Set Variable    ${default_name}
+    END
+
+    ${fname}=    Evaluate    __import__('os').path.basename($fname)
+    ${normalized_ext}=    Set Variable    ${ext}
+    IF    '${normalized_ext}' != '' and not '${normalized_ext}'.startswith('.')
+        ${normalized_ext}=    Set Variable    .${normalized_ext}
+    END
+
+    ${stem}=    Evaluate    __import__('os').path.splitext($fname)[0]
+    ${current_ext}=    Evaluate    __import__('os').path.splitext($fname)[1]
+    ${is_hash}=    Evaluate    bool(__import__('re').fullmatch(r"[A-Fa-f0-9]{20,}", $stem) or __import__('re').fullmatch(r"[A-Z0-9]{20,}", $stem))
+    Log    DEBUG Filename Resolution: stem=${stem}, is_hash=${is_hash}, alt_title='${alt_title}', fname=${fname}
+    IF    ${is_hash} and '${alt_title}' != ''
+        ${safe_alt}=    Evaluate    __import__('re').sub(r"[^\\w\\- ]+", "", $alt_title).strip().replace(' ', '_')
+        IF    '${safe_alt}' != ''
+            ${chosen_ext}=    Set Variable    ${normalized_ext}
+            IF    '${chosen_ext}' == ''
+                ${chosen_ext}=    Set Variable    ${current_ext}
+            END
+            ${fname}=    Set Variable    ${safe_alt}${chosen_ext}
+        END
+    ELSE IF    ${is_hash} and '${alt_title}' == ''
+        Log    WARNING: filename is hash but alt_title is empty or not provided. Keeping hash: ${fname}
+    END
+
+    ${has_ext}=    Evaluate    bool(__import__('os').path.splitext($fname)[1])
+    IF    not ${has_ext} and '${normalized_ext}' != ''
+        ${fname}=    Set Variable    ${fname}${normalized_ext}
+    END
+    RETURN   ${fname}
 
 
 *** Keywords ***

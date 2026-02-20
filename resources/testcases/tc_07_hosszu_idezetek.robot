@@ -41,7 +41,7 @@ Test Case 07 - Hosszu Idezetek Ellenorzese
     ${max_distance}=    Set Variable    0
     FOR    ${item}    IN    @{matches}
         ${item_length}=    Get Length    ${item}
-        #Log To Console    ${item} hossza: ${item_length}
+        #Log String To Console    ${item} hossza: ${item_length}
         IF    ${item_length} > ${max_distance}
             ${max_distance}=    Set Variable    ${item_length}
             ${max_sample}=       Set Variable    ${item}        

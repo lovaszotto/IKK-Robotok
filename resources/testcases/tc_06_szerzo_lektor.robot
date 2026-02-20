@@ -31,7 +31,7 @@ Test Case 06 - Szerzo Lektor Ellenorzese
     #törli a xml_line.txt fájlt, ha létezik
     Run Keyword And Ignore Error    Remove File    xml_line.txt
     FOR    ${line}    IN    @{xml_lines}
-        #Log To Console    ${idx}:${line}
+        #Log String To Console    ${idx}:${line}
         #Append To File    xml_line.txt    ${idx}:${line}\n
          IF     'Kéziratíró' in '''${line}''' 
             ${kezirat_iro_idx}=    Set Variable    ${idx}+1
