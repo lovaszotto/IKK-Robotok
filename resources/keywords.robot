@@ -99,16 +99,82 @@ Library    SeleniumLibrary
 *** Variables ***
 ${NEXT_BTN}          css:button[aria-label="Következő oldalra lépés"]
 ${CDK_BACKDROP}      css:div.cdk-overlay-backdrop.cdk-overlay-backdrop-showing
+${CONTINUE_BTN_XPATH}    xpath=//*[self::button or self::a or self::input][@aria-label='Teszt folytatása' or @aria-label='Folytatás' or contains(normalize-space(.),'Teszt folytatása') or contains(normalize-space(.),'Folytatás')]
+${DIALOG_XPATH}      xpath=//mat-dialog-container | //div[contains(@class,'cdk-overlay-pane')]
+${ABORT_DIALOG_XPATH}    xpath=//mat-dialog-container[.//*[contains(normalize-space(.),'TESZTKITÖLTÉS MEGSZAKÍTÁSA') or contains(normalize-space(.),'Tesztkitöltés megszakítása')]] | //div[contains(@class,'cdk-overlay-pane')][.//*[contains(normalize-space(.),'TESZTKITÖLTÉS MEGSZAKÍTÁSA') or contains(normalize-space(.),'Tesztkitöltés megszakítása')]]
+${ABORT_CANCEL_BTN_XPATH}    xpath=(//mat-dialog-container[.//*[contains(normalize-space(.),'TESZTKITÖLTÉS MEGSZAKÍTÁSA') or contains(normalize-space(.),'Tesztkitöltés megszakítása')]]//*[self::button or self::a][contains(normalize-space(.),'Mégsem')])[1] | (//div[contains(@class,'cdk-overlay-pane')][.//*[contains(normalize-space(.),'TESZTKITÖLTÉS MEGSZAKÍTÁSA') or contains(normalize-space(.),'Tesztkitöltés megszakítása')]]//*[self::button or self::a][contains(normalize-space(.),'Mégsem')])[1]
+${ABORT_CONFIRM_BTN_XPATH}    xpath=(//mat-dialog-container[.//*[contains(normalize-space(.),'TESZTKITÖLTÉS MEGSZAKÍTÁSA') or contains(normalize-space(.),'Tesztkitöltés megszakítása')]]//*[self::button or self::a][contains(normalize-space(.),'TESZT MEGSZAKÍTÁSA') or contains(normalize-space(.),'TESZTKITÖLTÉS ABBAHAGYÁSA') or contains(normalize-space(.),'MEGSZAKÍTÁS')])[last()] | (//div[contains(@class,'cdk-overlay-pane')][.//*[contains(normalize-space(.),'TESZTKITÖLTÉS MEGSZAKÍTÁSA') or contains(normalize-space(.),'Tesztkitöltés megszakítása')]]//*[self::button or self::a][contains(normalize-space(.),'TESZT MEGSZAKÍTÁSA') or contains(normalize-space(.),'TESZTKITÖLTÉS ABBAHAGYÁSA') or contains(normalize-space(.),'MEGSZAKÍTÁS')])[last()]
+${ABORT_CHECKBOX_XPATH}    xpath=(//mat-dialog-container[.//*[contains(normalize-space(.),'TESZTKITÖLTÉS MEGSZAKÍTÁSA') or contains(normalize-space(.),'Tesztkitöltés megszakítása')]]//*[self::mat-checkbox or self::input[@type='checkbox'] or @role='checkbox'])[1] | (//div[contains(@class,'cdk-overlay-pane')][.//*[contains(normalize-space(.),'TESZTKITÖLTÉS MEGSZAKÍTÁSA') or contains(normalize-space(.),'Tesztkitöltés megszakítása')]]//*[self::mat-checkbox or self::input[@type='checkbox'] or @role='checkbox'])[1]
 
 *** Keywords ***
 Click Next Page Safe
      #Click Element      xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
-         
-    Wait Until Element Is Not Visible    ${CDK_BACKDROP}    timeout=15s
+    Close Blocking Popup
+    ${overlay_cleared}=    Run Keyword And Return Status    Wait Until Element Is Not Visible    ${CDK_BACKDROP}    timeout=3s
+    IF    not ${overlay_cleared}
+        Log String To Console    [WARNING] Overlay még látható, fallback kezelés indul.
+        Run Keyword And Ignore Error    Click Element    ${CDK_BACKDROP}
+        Sleep    300ms
+        Run Keyword And Ignore Error    Wait Until Element Is Not Visible    ${CDK_BACKDROP}    timeout=2s
+    END
     Wait Until Element Is Visible        ${NEXT_BTN}        timeout=15s
     Scroll Element Into View             ${NEXT_BTN}
     Wait Until Element Is Enabled        ${NEXT_BTN}        timeout=15s
-    Click Element                        ${NEXT_BTN}
+    ${clicked}=    Run Keyword And Return Status    Click Element    ${NEXT_BTN}
+    IF    not ${clicked}
+        Log String To Console    [WARNING] Normál kattintás sikertelen, JS fallback kattintás.
+        Execute JavaScript    document.querySelector('button[aria-label="Következő oldalra lépés"]')?.click();
+    END
+    Sleep    200ms
+    Close Blocking Popup
+
+Close Blocking Popup
+    ${abort_dialog_visible}=    Run Keyword And Return Status    Element Should Be Visible    ${ABORT_DIALOG_XPATH}
+    IF    ${abort_dialog_visible}
+        Log String To Console    [INFO] 'Tesztkitöltés megszakítása' popup észlelve, TESZT MEGSZAKÍTÁSA kattintás.
+        ${checkbox_visible}=    Run Keyword And Return Status    Element Should Be Visible    ${ABORT_CHECKBOX_XPATH}
+        IF    ${checkbox_visible}
+            Run Keyword And Ignore Error    Click Element    ${ABORT_CHECKBOX_XPATH}
+            Run Keyword And Ignore Error    Execute JavaScript    const c=document.querySelector('mat-dialog-container mat-checkbox, mat-dialog-container input[type="checkbox"], .cdk-overlay-pane mat-checkbox, .cdk-overlay-pane input[type="checkbox"]'); if(c){c.click();}
+            Sleep    200ms
+        END
+        Run Keyword And Ignore Error    Click Element    ${ABORT_CONFIRM_BTN_XPATH}
+        Run Keyword And Ignore Error    Execute JavaScript    const btn=[...document.querySelectorAll('mat-dialog-container button,.cdk-overlay-pane button,mat-dialog-container a,.cdk-overlay-pane a')].find(e=>/TESZT\s*MEGSZAKÍTÁSA|TESZTKITÖLTÉS\s*ABBAHAGYÁSA|MEGSZAKÍTÁS/i.test((e.textContent||'').trim())); if(btn){btn.click();}
+        Run Keyword And Ignore Error    Wait Until Element Is Not Visible    ${ABORT_DIALOG_XPATH}    3s
+        Run Keyword And Ignore Error    Wait Until Element Is Not Visible    ${CDK_BACKDROP}    3s
+    END
+
+    ${popup_visible}=      Run Keyword And Return Status    Element Should Be Visible    ${CONTINUE_BTN_XPATH}
+    ${dialog_visible}=     Run Keyword And Return Status    Element Should Be Visible    ${DIALOG_XPATH}
+    ${backdrop_visible}=   Run Keyword And Return Status    Element Should Be Visible    ${CDK_BACKDROP}
+    ${has_blocking}=       Evaluate    bool(${popup_visible} or ${dialog_visible} or ${backdrop_visible})
+
+    IF    ${has_blocking}
+        Log String To Console    [INFO] Blokkoló popup/overlay észlelve, bezárás indul.
+        FOR    ${i}    IN RANGE    5
+            Run Keyword And Ignore Error    Click Element    ${CONTINUE_BTN_XPATH}
+            Run Keyword And Ignore Error    Click Element    ${ABORT_CHECKBOX_XPATH}
+            Run Keyword And Ignore Error    Click Element    ${ABORT_CONFIRM_BTN_XPATH}
+            Run Keyword And Ignore Error    Press Keys    NONE    ESCAPE
+            Run Keyword And Ignore Error    Click Element    ${CDK_BACKDROP}
+            Run Keyword And Ignore Error    Execute JavaScript    const btn=[...document.querySelectorAll('button,a,input')].find(e=>['Teszt folytatása','Folytatás','Újrakezdés'].includes((e.getAttribute('aria-label')||'').trim())||/Teszt folytatása|Folytatás|Újrakezdés|TESZT\s*MEGSZAKÍTÁSA|TESZTKITÖLTÉS\s*ABBAHAGYÁSA|MEGSZAKÍTÁS/i.test((e.textContent||'').trim())); if(btn){btn.click();}
+            Sleep    300ms
+
+            ${abort_still}=      Run Keyword And Return Status    Element Should Be Visible    ${ABORT_DIALOG_XPATH}
+            ${popup_still}=      Run Keyword And Return Status    Element Should Be Visible    ${CONTINUE_BTN_XPATH}
+            ${dialog_still}=     Run Keyword And Return Status    Element Should Be Visible    ${DIALOG_XPATH}
+            ${backdrop_still}=   Run Keyword And Return Status    Element Should Be Visible    ${CDK_BACKDROP}
+            ${still_blocking}=   Evaluate    bool(${abort_still} or ${popup_still} or ${dialog_still} or ${backdrop_still})
+            IF    not ${still_blocking}
+                Exit For Loop
+            END
+        END
+    END
+
+    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    ${ABORT_DIALOG_XPATH}    2s
+    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    ${CONTINUE_BTN_XPATH}    2s
+    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    ${DIALOG_XPATH}    2s
+    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    ${CDK_BACKDROP}    2s
 
 Popup Handler
     [Documentation]    Kezeli a felugró ablakokat
@@ -121,12 +187,12 @@ Popup Handler
         # Log String To Console    PopupHandler : Wait until visible Done.
         #Select Frame    id=ScormContent
         # Log String To Console    PopupHandler : ScormContent Selected .
-        Run Keyword And Ignore Error      Wait Until Element Is Visible   xpath=//*[self::button or self::a or self::input][@aria-label='Teszt folytatása' or @aria-label='Folytatás']   1s
-        ${exists}=    Run Keyword And Return Status     Page Should Contain Element    xpath=//button[@aria-label='Teszt folytatása' or @aria-label='Folytatás'] 20s
+                Run Keyword And Ignore Error      Wait Until Element Is Visible   ${CONTINUE_BTN_XPATH}   1s
+                ${exists}=    Run Keyword And Return Status     Page Should Contain Element    ${CONTINUE_BTN_XPATH} 20s
          Log String To Console    PopupHandler : exists: ${exists}
        
        IF    ${exists}
-        Click Element    xpath=//*[self::button or self::a or self::input][@aria-label='Teszt folytatása' or @aria-label='Folytatás']
+                Close Blocking Popup
         Log String To Console    PopupHandler : Van felugró ablak megjelenítve. Megnyomva.
        ELSE
            Log String To Console    PopupHandler : Nincs felugró ablak megjelenítve. Folytatás.

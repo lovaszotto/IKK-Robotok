@@ -393,28 +393,9 @@ Témák közötti navigáció ellenőrzése
 
                 EXCEPT    AS    ${e1}
                     Log String To Console    [WARNING] Hiba a következő oldal gomb kattintásakor: ${e1}
-                     #felugró teszt megszakítása gomb kezelése
-                    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
-                    Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Teszt megszakítása')]
-                    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Teszt megszakítása')]    1s
-
- #overlay eltávolítása
-                     # Popup Handler
-                    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(@aria-label,'Következő oldalra lépés')]     1s
-                    Run Keyword And Ignore Error    Click Button       xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
-                    Run Keyword And Ignore Error    Log String To Console    >>> Következő oldalra lépés clicked in exception
-                        
-                    Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(@aria-label,'Teszt folytatása')]     1s
-                    Run Keyword And Ignore Error    Click Button       xpath=//button[contains(@aria-label,'Teszt folytatása')]
-                    Run Keyword And Ignore Error    Log String To Console    >>> Teszt folytatása clicked in exception
-
-                    #felugró teszt újrakezdés gomb kezelése
-                   # Run Keyword And Ignore Error    Wait Until Element Is Visible    xpath=//button[contains(., 'Újrakezdés')]    0.1s
-                    Run Keyword And Ignore Error    Click Element    xpath=//button[contains(., 'Újrakezdés')]
-                    Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Újrakezdés')]    1s
-                     Sleep    1s
-                     #retry
-                    Click Button       xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
+                    Run Keyword And Ignore Error    Close Blocking Popup
+                    Sleep    300ms
+                    Run Keyword And Ignore Error    Click Next Page Safe
                 END
                  #
                  # #lapozá#s a következő 
