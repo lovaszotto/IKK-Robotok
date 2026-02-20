@@ -176,15 +176,14 @@ Témák közötti navigáció ellenőrzése
                             ${PATHQ}=    Replace String    ${src}    ${BASE}    ${EMPTY}
                             #Log String To Console    Kép PATHQ: ${PATHQ}
                  
-                            #Log String To Console    Kép letöltés indul...
+                               Log String To Console    Kép meta lekérdezés indul (HEAD)...
                             Create Session    blob    ${BASE}
                             #${resp}=    Get On Session    blob    ${src}
                              #Csak a headert kérjük le először
                             ${resp}=    Head On Session    blob    ${src}
                             
                             Delete All Sessions
-                             #Log String To Console    Kép letöltés kész
-                        #Log String To Console    Kép letöltés válasza státusz: ${resp.status_code}
+                               Log String To Console    Kép HEAD válasz státusz: ${resp.status_code}
 
                          # kiterjesztések ellenőrzése
                             ${ctype}=   Get From Dictionary    ${resp.headers}    Content-Type
@@ -203,7 +202,7 @@ Témák közötti navigáció ellenőrzése
 
                             ${ext}=     Determine Extension From Content-Type    ${ctype}
 
-                            ${fname}=   Determine File Name From Response    ${resp}    ${DEFAULT_BASENAME}${ext}
+                            ${fname}=   Determine File Name From Response    ${resp}    ${DEFAULT_BASENAME}${ext}    ${src}    ${alt}    ${ext}
                             ${fname}=     Get File Name From Header    ${fname}
                             
                             #Media tipus felírása media katalógusba
@@ -219,10 +218,10 @@ Témák közötti navigáció ellenőrzése
                             #Log String To Console    Kép letöltés előtt: ${outfile}
 
                             #Save Response Body To File    ${resp}    ${outfile}
-                            Log String To Console    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Kép letöltve: ${fname} >>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n\n
+                            Log String To Console    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Kép meta feldolgozva (HEAD): ${fname} >>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n\n
                            
                         EXCEPT    AS    ${e2}
-                            Log String To Console    [ERROR] Hiba a kép letöltésekor: ${e2}
+                            Log String To Console    [ERROR] Hiba a kép meta lekérdezésekor: ${e2}
                         END
                         
                     END
@@ -331,19 +330,12 @@ Témák közötti navigáció ellenőrzése
                             Log String To Console    DEBUG src value: '${src}'
                             ${planned_fname}=   Determine File Name From Response    ${resp}    ${DEFAULT_BASENAME}${ext_head}    ${src}    ${alt_video}    ${ext_head}
                             ${planned_fname}=     Get File Name From Header    ${planned_fname}
-                            Log String To Console    Letöltendő videó fájl neve: ${planned_fname}
-                            #kérje le a videót is, hogy a response headereket is megkapjuk, mert a head nem mindig adja vissza az összes header információt
-                            ${respBody}=    Get On Session    blob    ${src}
-                            Log String To Console    <<<<<<<<<<<<<<<<<<<<Video body letöltés kész>>>>>>>>>>>>>>>>>
-                            ${real_fname}=   Determine File Name From Response    ${respBody}    ${DEFAULT_BASENAME}${ext_head}    ${src}    ${alt_video}    ${ext_head}
-                            ${real_fname}=   Get File Name From Header    ${real_fname}
-                            Log String To Console    Letöltendő videó fájl neve (valódi): ${real_fname}
-                            
-                            Log String To Console    Video letöltés válasza státusz: ${respBody.status_code}
-                            Log String To Console    Video Content-Type: ${respBody.headers['Content-Type']}
-                        Log String To Console    LENGTH: ${respBody.headers['Content-Length']}
-                        Log String To Console    --- RESPBODY META ---
-                        ${resp_headers}=    Evaluate    dict($respBody.headers)
+                            Log String To Console    Videó fájlnév (HEAD alapján): ${planned_fname}
+                            Log String To Console    Video HEAD válasz státusz: ${resp.status_code}
+                            Log String To Console    Video Content-Type: ${resp.headers['Content-Type']}
+                        Log String To Console    LENGTH: ${resp.headers['Content-Length']}
+                        Log String To Console    --- RESP META (HEAD) ---
+                        ${resp_headers}=    Evaluate    dict($resp.headers)
                         Log String To Console    HEADERS: ${resp_headers}
 
 
@@ -373,7 +365,7 @@ Témák közötti navigáció ellenőrzése
 
                             ${ext}=     Determine Extension From Content-Type    ${ctype}
 
-                            ${fname}=   Determine File Name From Response    ${respBody}    ${DEFAULT_BASENAME}${ext}    ${src}    ${alt_video}    ${ext}
+                            ${fname}=   Determine File Name From Response    ${resp}    ${DEFAULT_BASENAME}${ext}    ${src}    ${alt_video}    ${ext}
                             ${fname}=     Get File Name From Header    ${fname}
                             
                             #Media tipus felírása media katalógusba
@@ -657,9 +649,12 @@ Determine File Name From Response
     ${stem}=    Evaluate    __import__('os').path.splitext($fname)[0]
     ${current_ext}=    Evaluate    __import__('os').path.splitext($fname)[1]
     ${is_hash}=    Evaluate    bool(__import__('re').fullmatch(r"[A-Fa-f0-9]{20,}", $stem) or __import__('re').fullmatch(r"[A-Z0-9]{20,}", $stem))
-    Log    DEBUG Filename Resolution: stem=${stem}, is_hash=${is_hash}, alt_title='${alt_title}', fname=${fname}
-    IF    ${is_hash} and '${alt_title}' != ''
-        ${safe_alt}=    Evaluate    __import__('re').sub(r"[^\\w\\- ]+", "", $alt_title).strip().replace(' ', '_')
+    ${is_generic}=    Evaluate    $stem.lower() in ['image', 'media', 'file', 'download', 'asset']
+    ${looks_opaque}=    Evaluate    bool(__import__('re').fullmatch(r"[A-Za-z0-9_-]{20,}", $stem))
+    ${should_use_alt}=    Evaluate    bool($alt_title and str($alt_title).strip() and ($is_hash or $is_generic or $looks_opaque))
+    Log    DEBUG Filename Resolution: stem=${stem}, is_hash=${is_hash}, is_generic=${is_generic}, looks_opaque=${looks_opaque}, alt_title='${alt_title}', fname=${fname}
+    IF    ${should_use_alt}
+        ${safe_alt}=    Evaluate    __import__('re').sub(r"[^\\w\\- ]+", "", str($alt_title)).strip().replace(' ', '_')
         IF    '${safe_alt}' != ''
             ${chosen_ext}=    Set Variable    ${normalized_ext}
             IF    '${chosen_ext}' == ''
