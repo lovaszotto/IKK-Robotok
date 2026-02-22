@@ -1538,14 +1538,18 @@ Create_K_ell_Excel
     #nincs még excel , létrehozzuk 
     ${template_exists}=    Run Keyword And Return Status    File Should Exist    ${template_path}
     IF    ${template_exists}
-        #Doc sablon másolása
         TRY
+            #Doc sablon másolása
             Copy File    ${template_path}    ${activeExcelFile}
             Log String To Console     \n\[INFO]DOC Sablon fájl másolva: ${template_path} -> ${activeExcelFile}
-            
+            #Doc sablon sheet átnevezése
+            Copy Excel Sheet    ${activeExcelFile}    EM X.Y    ${activeSheetName}
+            Hide Excel Sheet    ${activeExcelFile}    EM X.Y
+
             #WEB sablon másolása
             Copy File    ${web_template_path}    ${web_activeExcelFile}
             Log String To Console     \n\[INFO] WEB Sablon fájl másolva: ${web_template_path} -> ${web_activeExcelFile}
+           
             # todo itt is meg kell csinálni a web-excelt
             #WEB sheet-ek átnevezése
             Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z    ${web_activeSheetName}
@@ -1581,25 +1585,38 @@ Create_K_ell_Excel
                 ${SRC_FILE}=    Evaluate    __import__('os').path.join(r'''${media_check_folder}''', r'''${media_check_file}''')    modules=os
                 ${SRC_SHEET}=    Set Variable    ${KURZUS}-MK
                 ${DST_FILE}=    Set Variable    ${DIGITALIS_EXCEL_FILE}    
-                ${DST_SHEET}=    Set Variable    ${KURZUS}-MK-kapott
+                ${DST_SHEET}=    Set Variable    ${KURZUS}_MK
 
                 #sheet-átmásolása két fájl között, a forrás fájl MEDIA_CHECK_FOLDER-ben van,
-                #  a cél fájl a ${DIGITALIS_EXCEL_FILE}, a sheet neve ${KURZUS}-MK, a másolt sheet neve pedig ${KURZUS}-MK-kapott lesz
-                Log String To Console     \n\[INFO] Média ellenőrző sheet másolása közvetlenül Python-nal...
-                ${copy_script}=    Set Variable    import openpyxl; src_wb = openpyxl.load_workbook('${SRC_FILE}'); src_ws = src_wb['${SRC_SHEET}']; dst_wb = openpyxl.load_workbook('${DST_FILE}'); new_ws = dst_wb.copy_worksheet(src_ws); new_ws.title = '${DST_SHEET}'; dst_wb.save('${DST_FILE}'); print('SUCCESS')
-                ${result}=    Run Process    ${PYTHON_EXEC}    -W    ignore    -c    ${copy_script}
+                #  a cél fájl a ${DIGITALIS_EXCEL_FILE}, a sheet neve ${KURZUS}-MK, a másolt sheet neve pedig ${KURZUS}_MK lesz
+                Log String To Console     \n\[INFO] Média ellenőrző sheet másolása Excel COM-mal...
+                ${copy_script}=    Set Variable    $ErrorActionPreference='Stop'; function Normalize([string]$s){ return (($s.ToLower()) -replace '[^a-z0-9]','') }; $srcPath='${SRC_FILE}'; $dstPath='${DST_FILE}'; $requested='${SRC_SHEET}'; $dstName='${DST_SHEET}'; $excel=$null; $srcWb=$null; $dstWb=$null; try { $excel=New-Object -ComObject Excel.Application; $excel.Visible=$false; $excel.DisplayAlerts=$false; $srcWb=$excel.Workbooks.Open($srcPath); $dstWb=$excel.Workbooks.Open($dstPath); $candidates=@($requested, "$requested-kapott", ($requested -replace '_MK','-MK'), ($requested -replace '_MK','-MK-kapott')); $srcWs=$null; foreach($n in $candidates){ try { $srcWs=$srcWb.Worksheets.Item($n); if($srcWs){ break } } catch {} }; if(-not $srcWs){ $reqNorm=Normalize $requested; foreach($ws in $srcWb.Worksheets){ $nm=Normalize $ws.Name; if($nm -eq $reqNorm -or $nm.StartsWith($reqNorm) -or $nm.Contains($reqNorm)){ $srcWs=$ws; break } } }; if(-not $srcWs){ $names=@(); foreach($ws in $srcWb.Worksheets){ $names += $ws.Name }; throw "Worksheet '$requested' does not exist. Available: $($names -join ', ')" }; try { $old=$dstWb.Worksheets.Item($dstName); $old.Delete() } catch {}; $srcWs.Copy([System.Type]::Missing, $dstWb.Worksheets.Item($dstWb.Worksheets.Count)); $newWs=$dstWb.Worksheets.Item($dstWb.Worksheets.Count); $newWs.Name=$dstName; $dstWb.Save(); Write-Output "SUCCESS: $($srcWs.Name) -> $dstName" } finally { if($srcWb){ $srcWb.Close($false) }; if($dstWb){ $dstWb.Close($true) }; if($excel){ $excel.Quit(); [System.Runtime.InteropServices.Marshal]::ReleaseComObject($excel) | Out-Null; [GC]::Collect(); [GC]::WaitForPendingFinalizers() } }
+                ${result}=    Run Process    powershell    -NoProfile    -ExecutionPolicy    Bypass    -Command    ${copy_script}
                 IF    ${result.rc} != 0
                     Log String To Console     \n\[HIBA] Média ellenőrző sheet másolása sikertelen: ${result.stderr}
                 ELSE
                     Log String To Console     \n\[SIKERES] Média ellenőrző sheet másolva: '${SRC_SHEET}' -> '${DST_SHEET}'
+                    Log String To Console     \n\[INFO] Másolás: ${result.stdout}
                 END
                 ${media_check_path}=    Evaluate    __import__('os').path.join(r'''${media_check_folder}''', r'''${media_check_file}''')    modules=os
                 Log String To Console     \n\[INFO] Média ellenőrző fájl elérési útja: ${media_check_path}
                 # Az eredeti sheet elrejtése    
-                Hide Excel Sheet    ${DIGITALIS_EXCEL_FILE}    ${KURZUS}-MK-kapott
-                Log String To Console     \n\[INFO] Média ellenőrző sheet másolva: '${KURZUS}-MK' -> '${KURZUS}-MK-kapott' a ${DIGITALIS_EXCEL_FILE} fájlba
+                #Hide Excel Sheet    ${DIGITALIS_EXCEL_FILE}    ${KURZUS}_MK
+                Log String To Console     \n\[INFO] Média ellenőrző sheet másolva: '${KURZUS}-MK' -> '${KURZUS}_MK' a ${DIGITALIS_EXCEL_FILE} fájlba
             ELSE
                 Log String To Console     \n\[WARNING] Nem található média ellenőrző fájl a MEDIA_CHECK_FOLDER-ben a kurzushoz: ${KURZUS}
+                Write SumError fájl    ${DTEM}    ${KURZUS}    MEDIA_CHECK    Nem található média ellenőrző fájl a kurzushoz (${KURZUS})    ${DIGITALIS_EXCEL_FILE}
+                #létrehozunk egy Nincs média ellenőrző fájl nevű üres sheet-et a webes excel fájlban, hogy jelezzük, hogy nincs ilyen fájl
+                ${dstPath}=    Set Variable    ${DIGITALIS_EXCEL_FILE}
+                ${dstName}=    Set Variable    ${KURZUS}_MK
+                ${create_script}=    Set Variable    $ErrorActionPreference='Stop'; $path='${dstPath}'; $sheet='${dstName}'; $excel=$null; $wb=$null; try { $excel=New-Object -ComObject Excel.Application; $excel.Visible=$false; $excel.DisplayAlerts=$false; $wb=$excel.Workbooks.Open($path); $ws=$wb.Worksheets.Add(); $ws.Name=$sheet; $ws.Cells.Item(1,1).Value2 = "Nincs média ellenőrző fájl"; $wb.Save(); Write-Output "SUCCESS: created '$sheet' with message" } finally { if($wb){ $wb.Close($true) }; if($excel){ $excel.Quit(); [System.Runtime.InteropServices.Marshal]::ReleaseComObject($excel) | Out-Null; [GC]::Collect(); [GC]::WaitForPendingFinalizers() } }
+                ${result}=    Run Process    powershell    -NoProfile    -ExecutionPolicy    Bypass    -Command    ${create_script}
+                IF    ${result.rc} != 0
+                    Log String To Console     \n\[HIBA] Nincs média ellenőrző fájl sheet létrehozása sikertelen: ${result.stderr}
+                ELSE
+                    Log String To Console     \n\[SIKERES] Nincs média ellenőrző fájl sheet létrehozva: '${KURZUS}_MK' a ${DIGITALIS_EXCEL_FILE} fájlba
+                    Log String To Console     \n\[INFO] Létrehozás: ${result.stdout}    
+                END
             END    
       EXCEPT    AS    ${e}
             Log String To Console     \n\[EXCEPTION] Excel fájl létrehozása sikertelen: ${e}
@@ -1625,10 +1642,10 @@ Create_K_ell_Excel
     
     RETURN    ${activeExcelFile}    ${activeSheetName}    ${path_part}    ${filename_part}
 Hide Excel Sheet
-    [Documentation]    Elrejti a megadott sheet-et az Excel fájlban (openpyxl-lel)
+    [Documentation]    Elrejti a megadott sheet-et az Excel fájlban (Excel COM-mal)
     [Arguments]    ${excel_file}    ${sheet_name}
-    ${python_code}=    Set Variable    import openpyxl; wb = openpyxl.load_workbook(r'${excel_file}'); ws = wb['${sheet_name}']; ws.sheet_state = 'hidden'; wb.save(r'${excel_file}')
-    ${result}=    Run Process    ${PYTHON_EXEC}    -c    ${python_code}    shell=True
+    ${ps_code}=    Set Variable    $ErrorActionPreference='Stop'; $path='${excel_file}'; $sheet='${sheet_name}'; $excel=$null; $wb=$null; try { $excel=New-Object -ComObject Excel.Application; $excel.Visible=$false; $excel.DisplayAlerts=$false; $wb=$excel.Workbooks.Open($path); $ws=$wb.Worksheets.Item($sheet); $ws.Visible=0; $wb.Save(); Write-Output "SUCCESS: hidden '$sheet'" } finally { if($wb){ $wb.Close($true) }; if($excel){ $excel.Quit(); [System.Runtime.InteropServices.Marshal]::ReleaseComObject($excel) | Out-Null; [GC]::Collect(); [GC]::WaitForPendingFinalizers() } }
+    ${result}=    Run Process    powershell    -NoProfile    -ExecutionPolicy    Bypass    -Command    ${ps_code}
     # Log    [DEBUG] Hide sheet result: ${result.stdout}
     # Log    [DEBUG] Hide sheet stderr: ${result.stderr}
     # Log    [DEBUG] Hide sheet return code: ${result.rc}
