@@ -234,9 +234,9 @@ Batch inicializálás
        #Log String To Console    >>> VERZIÓ ELLENŐRZÉS only_file_name >>> ${only_file_name}
         # a ${docx_file} -ból csak az útvonal rész kerül az only_path változóba
         ${only_path}=    Get File Directory    ${docx_file}
-        Log String To Console    >>> ONLY_path >>> ${only_path}    
+        #Log String To Console    >>> ONLY_path >>> ${only_path}    
         ${files_in_dir}=    List Files In Directory    ${only_path}
-        Log String To Console    >>> FILES IN DIR >>> ${files_in_dir}
+        #Log String To Console    >>> FILES IN DIR >>> ${files_in_dir}
 
        # Ha a ${only_file_name} neve nem tartalmazza a \\.v(\\d+)\\.docx$" számozást, akkor átnevezzük átnevezzük v0-ra
         ${has_version}=    Run Keyword And Return Status    Should Match Regexp    ${only_file_name}    \\.v\\d+\\.

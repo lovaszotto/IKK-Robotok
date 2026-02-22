@@ -1409,7 +1409,7 @@ Create_K_ell_Excel
     [Documentation]    DOCX fájl feldolgozás - Excel fájl és sheet meghatározása
     [Arguments]    ${docx_file}
     
-    Log String To Console    \n=== EXCEL FÁJLOK LÉTREHOZÁSA / ELLENŐRZÉSE ===
+    Log String To Console    \n=== EXCEL FÁJLOK LÉTREHOZÁSA / ELLENŐRZÉSE ===\n
     Log String To Console    Kapott paraméter: ${docx_file}
     
     # Path és filename szétválasztása
@@ -1481,15 +1481,15 @@ Create_K_ell_Excel
     END
     
     #Log String To Console    \n=== FELDOLGOZÁS EREDMÉNYE ===
-    Log String To Console    Parent Path: ${parent_path}
-    Log String To Console    Child Path: ${child_path}
-    Log String To Console    Filename: ${filename_part}
+    #Log String To Console    Parent Path: ${parent_path}
+    #Log String To Console    Child Path: ${child_path}
+    #Log String To Console    Filename: ${filename_part}
     Set Global Variable    ${DTEM}    ${parent_path}
     Set Global Variable    ${KURZUS}     ${child_path}    
 
-    Log String To Console    Téma: ${DTEM}
+    Log String To Console    \n*******************************************\nTéma: ${DTEM}\nKurzus: ${KURZUS}\n***********************************************
     #A kúrzusban van az aktuális kurzus száma: EM-1.4.1
-    Log String To Console    Kurzus: ${KURZUS}
+    #Log String To Console    Kurzus: ${KURZUS}
    
 
     #Log String To Console    \n=== FELDOLGOZÁS BEFEJEZVE ===
@@ -1516,7 +1516,7 @@ Create_K_ell_Excel
      ${web_activeMK_SheetName}=    Set Variable    ${child_path}-MK
      Set Global Variable    ${DIGITALIS_EXCEL_SHEET_MK}    ${web_activeMK_SheetName}
  
-    Log String To Console     \n\[INFO] Beállított globális változók a WEB Excel fájlhoz és sheet-ekhez:
+    #Log String To Console     \n\[INFO] Beállított globális változók a WEB Excel fájlhoz és sheet-ekhez:
     Log String To Console     \[INFO] DIGITALIS_EXCEL_FILE: ${DIGITALIS_EXCEL_FILE}
     Log String To Console     \[INFO] DIGITALIS_EXCEL_SHEET: ${DIGITALIS_EXCEL_SHEET}
     Log String To Console     \[INFO] DIGITALIS_EXCEL_SHEET_MK: ${DIGITALIS_EXCEL_SHEET_MK}
@@ -1528,72 +1528,18 @@ Create_K_ell_Excel
       
     # Excel fájl létrehozása/ellenőrzése
     ${file_exists}=    Run Keyword And Return Status    File Should Exist    ${activeExcelFile}
+      Log String To Console     ----- ${activeExcelFile} file_exists: ${file_exists}
     IF    ${file_exists}
-       
-        
-        # Sheet ellenőrzése és létrehozása szükség esetén
-        ${sheet_exists}=    Check Excel Sheet Exists    ${activeExcelFile}    ${activeSheetName}
-        IF    ${sheet_exists}
+        #már létrehoztuk a szükséges excel fájlokat
+
             Log String To Console     \n\[INFO] Sheet '${activeSheetName}' létezik az Excel fájlban
-        ELSE
-            Log String To Console     \n\[INFO] Sheet '${activeSheetName}' létrehozása sablon másolással...
-            Copy Excel Sheet    ${activeExcelFile}    EM X.Y    ${activeSheetName}
-            # Az eredeti EM X.Y sheet elrejtése
-            Hide Excel Sheet    ${activeExcelFile}    EM X.Y
-            Log String To Console     \n\[INFO] Sheet sablon másolva: 'EM X.Y' -> '${activeSheetName}'
-
-           #WEB sablon másolása
-            Copy File    ${web_template_path}    ${web_activeExcelFile}
-            Log String To Console     \n\[INFO] WEB Sablon fájl másolva: ${web_template_path} -> ${web_activeExcelFile}
-            # todo itt is meg kell csinálni a web-excelt
-            #WEB sheet-ek átnevezése
-            Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z    ${web_activeSheetName}
-            Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z    
-            Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z' -> '${web_activeSheetName}'
-
-        #Kersd meg, a MEDIA_FOLDER-ben van-e {KURZUS} al kezdődő xlsx fájl, egy darabt, és ha igen, akkor állítsd be a ${media_check_file} változót a megtalált fájlnévre, ha nincs, akkor maradjon üresen
-            ${media_check_folder}=    Set Variable    ${MEDIA_CHECK_FOLDER}
-            ${media_check_file}=    Set Variable    ${EMPTY}
-            @{media_files}=    List Files In Directory    ${MEDIA_CHECK_FOLDER}    pattern=${KURZUS}*.xlsx
-            ${media_files_count}=    Get Length    ${media_files}    
-            IF    ${media_files_count} > 0
-                ${media_check_file}=    Get From List    ${media_files}    0
-                Log String To Console     \n\[INFO] Talált média ellenőrző fájl: ${media_check_file}  
-                ${SRC_FILE}=    Evaluate    __import__('os').path.join(r'''${media_check_folder}''', r'''${media_check_file}''')    modules=os
-                ${SRC_SHEET}=    Set Variable    ${KURZUS}-MK
-                ${DST_FILE}=    Set Variable    ${DIGITALIS_EXCEL_FILE}    
-                ${DST_SHEET}=    Set Variable    ${KURZUS}-MK-kapott
-
-    #sheet-átmásolása két fájl között, a forrás fájl MEDIA_CHECK_FOLDER-ben van,
-    #  a cél fájl a ${DIGITALIS_EXCEL_FILE}, a sheet neve ${KURZUS}-MK, a másolt sheet neve pedig ${KURZUS}-MK-kapott lesz
-                Log String To Console     \n\[INFO] Média ellenőrző sheet másolása közvetlenül Python-nal...
-                ${copy_script}=    Set Variable    import openpyxl; src_wb = openpyxl.load_workbook('${SRC_FILE}'); src_ws = src_wb['${SRC_SHEET}']; dst_wb = openpyxl.load_workbook('${DST_FILE}'); new_ws = dst_wb.copy_worksheet(src_ws); new_ws.title = '${DST_SHEET}'; dst_wb.save('${DST_FILE}'); print('SUCCESS')
-                ${result}=    Run Process    ${PYTHON_EXEC}    -W    ignore    -c    ${copy_script}
-                ${media_check_path}=    Evaluate    __import__('os').path.join(r'''${media_check_folder}''', r'''${media_check_file}''')    modules=os
-                Log String To Console     \n\[INFO] Média ellenőrző fájl elérési útja: ${media_check_path}
-                # Az eredeti sheet elrejtése    
-                Hide Excel Sheet    ${DIGITALIS_EXCEL_FILE}    ${KURZUS}-MK-kapott
-                Log String To Console     \n\[INFO] Média ellenőrző sheet másolva: '${KURZUS}-MK' -> '${KURZUS}-MK-kapott' a ${DIGITALIS_EXCEL_FILE} fájlba
-            ELSE
-                Log String To Console     \n\[INFO] Nem található média ellenőrző fájl a MEDIA_CHECK_FOLDER-ben a kurzushoz: ${KURZUS}
-            END    
-   
-
-            #Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK    ${web_activeSheetName}-MK
-            #Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK
-            #Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z-MK' -> '${web_activeSheetName}-MK'
-          
-            #Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK    ${web_activeSheetName}-MK-kapott
-            #Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK-kapott
-            #Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z-MK-kapott' -> '${web_activeSheetName}-MK-kapott'
-        END
-    ELSE
-        Log String To Console     \n\[INFO] Excel fájl létrehozása: ${activeExcelFile}
-        
-     
-        ${template_exists}=    Run Keyword And Return Status    File Should Exist    ${template_path}
-        IF    ${template_exists}
-            #Doc sablon másolása
+            RETURN    ${activeExcelFile}    ${activeSheetName}    ${path_part}    ${filename_part}
+    END
+    #nincs még excel , létrehozzuk 
+    ${template_exists}=    Run Keyword And Return Status    File Should Exist    ${template_path}
+    IF    ${template_exists}
+        #Doc sablon másolása
+        TRY
             Copy File    ${template_path}    ${activeExcelFile}
             Log String To Console     \n\[INFO]DOC Sablon fájl másolva: ${template_path} -> ${activeExcelFile}
             
@@ -1606,27 +1552,76 @@ Create_K_ell_Excel
             Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z    
             Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z' -> '${web_activeSheetName}'
 
-            Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK    ${web_activeSheetName}-MK
+            #Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK    ${web_activeSheetName}-MK
             Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK
-            Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z-MK' -> '${web_activeSheetName}-MK'
-
-            # Az új Excel fájlban is létre kell hozni a megfelelő sheet-et
-            ${sheet_exists}=    Check Excel Sheet Exists    ${activeExcelFile}    ${activeSheetName}
-            IF    not ${sheet_exists}
-                Log String To Console     \n\[INFO] Sheet '${activeSheetName}' létrehozása az új Excel fájlban
-                Copy Excel Sheet    ${activeExcelFile}    EM X.Y    ${activeSheetName}
-                Hide Excel Sheet    ${activeExcelFile}    EM X.Y
-                Log String To Console     \n\[INFO] Sheet sablon másolva: 'EM X.Y' -> '${activeSheetName}'
-            END
-        ELSE
-            Log String To Console     \n\[WARNING] Sablon fájl nem található: ${template_path}
-            Log String To Console     \n\[INFO] Üres Excel fájl létrehozása alapértelmezett sheet-ekkel...
-            ${active_excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${activeExcelFile}''').as_posix()    modules=pathlib
-            ${create_file_script}=    Set Variable    import openpyxl; wb=openpyxl.Workbook(); wb.remove(wb.active); ws1=wb.create_sheet('EM X.Y'); ws2=wb.create_sheet('${activeSheetName}'); wb.save('${active_excel_path_norm}'); print('Excel fájl és sheet-ek létrehozva')
-            ${create_result}=    Run Process    ${PYTHON_EXEC}    -W    ignore    -c    ${create_file_script}
-            Log String To Console    Excel létrehozás eredménye: ${create_result.stdout}
+            #Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z-MK' -> '${web_activeSheetName}-MK'
+        EXCEPT    AS    ${e}
+            Log String To Console     \n\[EXCEPTION] Excel fájl létrehozása sikertelen: ${e}
+            RETURN    [EXCEPTION] Excel fájl létrehozása sikertelen: ${e}
         END
+        # Az új Excel fájlban is létre kell hozni a megfelelő sheet-et
+        #${sheet_exists}=    Check Excel Sheet Exists    ${activeExcelFile}    ${activeSheetName}
+        #IF    not ${sheet_exists}
+        #    Log String To Console     \n\[INFO] Sheet '${activeSheetName}' létrehozása az új Excel fájlban
+        #    Copy Excel Sheet    ${activeExcelFile}    EM X.Y    ${activeSheetName}
+        #    Hide Excel Sheet    ${activeExcelFile}    EM X.Y
+        #    Log String To Console     \n\[INFO] Sheet sablon másolva: 'EM X.Y' -> '${activeSheetName}'
+        #END
+                #Kersd meg, a MEDIA_FOLDER-ben van-e {KURZUS} al kezdődő xlsx fájl, egy darabt, és ha igen, akkor állítsd be a ${media_check_file} változót a megtalált fájlnévre, ha nincs, akkor maradjon üresen
+        TRY
+
+            Log String To Console     \n\[INFO]<<<<<< MÉDIA ELLENŐRZÉS >>>>>>
+            ${media_check_folder}=    Set Variable    ${MEDIA_CHECK_FOLDER}
+            ${media_check_file}=    Set Variable    ${EMPTY}
+            @{media_files}=    List Files In Directory    ${MEDIA_CHECK_FOLDER}    pattern=${KURZUS}*.xlsx
+            ${media_files_count}=    Get Length    ${media_files}    
+            IF    ${media_files_count} > 0
+                ${media_check_file}=    Get From List    ${media_files}    0
+                Log String To Console     \n\[INFO] Talált média ellenőrző fájl: ${media_check_file}  
+                ${SRC_FILE}=    Evaluate    __import__('os').path.join(r'''${media_check_folder}''', r'''${media_check_file}''')    modules=os
+                ${SRC_SHEET}=    Set Variable    ${KURZUS}-MK
+                ${DST_FILE}=    Set Variable    ${DIGITALIS_EXCEL_FILE}    
+                ${DST_SHEET}=    Set Variable    ${KURZUS}-MK-kapott
+
+                #sheet-átmásolása két fájl között, a forrás fájl MEDIA_CHECK_FOLDER-ben van,
+                #  a cél fájl a ${DIGITALIS_EXCEL_FILE}, a sheet neve ${KURZUS}-MK, a másolt sheet neve pedig ${KURZUS}-MK-kapott lesz
+                Log String To Console     \n\[INFO] Média ellenőrző sheet másolása közvetlenül Python-nal...
+                ${copy_script}=    Set Variable    import openpyxl; src_wb = openpyxl.load_workbook('${SRC_FILE}'); src_ws = src_wb['${SRC_SHEET}']; dst_wb = openpyxl.load_workbook('${DST_FILE}'); new_ws = dst_wb.copy_worksheet(src_ws); new_ws.title = '${DST_SHEET}'; dst_wb.save('${DST_FILE}'); print('SUCCESS')
+                ${result}=    Run Process    ${PYTHON_EXEC}    -W    ignore    -c    ${copy_script}
+                IF    ${result.rc} != 0
+                    Log String To Console     \n\[HIBA] Média ellenőrző sheet másolása sikertelen: ${result.stderr}
+                ELSE
+                    Log String To Console     \n\[SIKERES] Média ellenőrző sheet másolva: '${SRC_SHEET}' -> '${DST_SHEET}'
+                END
+                ${media_check_path}=    Evaluate    __import__('os').path.join(r'''${media_check_folder}''', r'''${media_check_file}''')    modules=os
+                Log String To Console     \n\[INFO] Média ellenőrző fájl elérési útja: ${media_check_path}
+                # Az eredeti sheet elrejtése    
+                Hide Excel Sheet    ${DIGITALIS_EXCEL_FILE}    ${KURZUS}-MK-kapott
+                Log String To Console     \n\[INFO] Média ellenőrző sheet másolva: '${KURZUS}-MK' -> '${KURZUS}-MK-kapott' a ${DIGITALIS_EXCEL_FILE} fájlba
+            ELSE
+                Log String To Console     \n\[WARNING] Nem található média ellenőrző fájl a MEDIA_CHECK_FOLDER-ben a kurzushoz: ${KURZUS}
+            END    
+      EXCEPT    AS    ${e}
+            Log String To Console     \n\[EXCEPTION] Excel fájl létrehozása sikertelen: ${e}
+            RETURN    [EXCEPTION] Excel fájl létrehozása sikertelen: ${e}
+        END
+        #Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK    ${web_activeSheetName}-MK
+        #Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK
+        #Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z-MK' -> '${web_activeSheetName}-MK'
+        
+        #Copy Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK    ${web_activeSheetName}-MK-kapott
+        #Hide Excel Sheet    ${web_activeExcelFile}    EM-X.Y.Z-MK-kapott
+        #Log String To Console     \n\[INFO] WEB Sheet sablon másolva: 'EM-X.Y.Z-MK-kapott' -> '${web_activeSheetName}-MK-kapott'
+
+    ELSE
+        Log String To Console     \n\[WARNING] Sablon fájl nem található: ${template_path}
+        Log String To Console     \n\[INFO] Üres Excel fájl létrehozása alapértelmezett sheet-ekkel...
+        ${active_excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${activeExcelFile}''').as_posix()    modules=pathlib
+        ${create_file_script}=    Set Variable    import openpyxl; wb=openpyxl.Workbook(); wb.remove(wb.active); ws1=wb.create_sheet('EM X.Y'); ws2=wb.create_sheet('${activeSheetName}'); wb.save('${active_excel_path_norm}'); print('Excel fájl és sheet-ek létrehozva')
+        ${create_result}=    Run Process    ${PYTHON_EXEC}    -W    ignore    -c    ${create_file_script}
+        Log String To Console    Excel létrehozás eredménye: ${create_result.stdout}
     END
+
     
     RETURN    ${activeExcelFile}    ${activeSheetName}    ${path_part}    ${filename_part}
 Hide Excel Sheet
