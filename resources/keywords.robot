@@ -1573,7 +1573,6 @@ Create_K_ell_Excel
         #END
                 #Kersd meg, a MEDIA_FOLDER-ben van-e {KURZUS} al kezdődő xlsx fájl, egy darabt, és ha igen, akkor állítsd be a ${media_check_file} változót a megtalált fájlnévre, ha nincs, akkor maradjon üresen
         TRY
-
             Log String To Console     \n\[INFO]<<<<<< MÉDIA ELLENŐRZÉS >>>>>>
             ${media_check_folder}=    Set Variable    ${MEDIA_CHECK_FOLDER}
             ${media_check_file}=    Set Variable    ${EMPTY}
@@ -1585,10 +1584,10 @@ Create_K_ell_Excel
                 ${SRC_FILE}=    Evaluate    __import__('os').path.join(r'''${media_check_folder}''', r'''${media_check_file}''')    modules=os
                 ${SRC_SHEET}=    Set Variable    ${KURZUS}-MK
                 ${DST_FILE}=    Set Variable    ${DIGITALIS_EXCEL_FILE}    
-                ${DST_SHEET}=    Set Variable    ${KURZUS}_MK
+                ${DST_SHEET}=    Set Variable    ${KURZUS}-MK
 
                 #sheet-átmásolása két fájl között, a forrás fájl MEDIA_CHECK_FOLDER-ben van,
-                #  a cél fájl a ${DIGITALIS_EXCEL_FILE}, a sheet neve ${KURZUS}-MK, a másolt sheet neve pedig ${KURZUS}_MK lesz
+                #  a cél fájl a ${DIGITALIS_EXCEL_FILE}, a sheet neve ${KURZUS}-MK, a másolt sheet neve pedig ${KURZUS}-MK lesz
                 Log String To Console     \n\[INFO] Média ellenőrző sheet másolása Excel COM-mal...
                 ${copy_script}=    Set Variable    $ErrorActionPreference='Stop'; function Normalize([string]$s){ return (($s.ToLower()) -replace '[^a-z0-9]','') }; $srcPath='${SRC_FILE}'; $dstPath='${DST_FILE}'; $requested='${SRC_SHEET}'; $dstName='${DST_SHEET}'; $excel=$null; $srcWb=$null; $dstWb=$null; try { $excel=New-Object -ComObject Excel.Application; $excel.Visible=$false; $excel.DisplayAlerts=$false; $srcWb=$excel.Workbooks.Open($srcPath); $dstWb=$excel.Workbooks.Open($dstPath); $candidates=@($requested, "$requested-kapott", ($requested -replace '_MK','-MK'), ($requested -replace '_MK','-MK-kapott')); $srcWs=$null; foreach($n in $candidates){ try { $srcWs=$srcWb.Worksheets.Item($n); if($srcWs){ break } } catch {} }; if(-not $srcWs){ $reqNorm=Normalize $requested; foreach($ws in $srcWb.Worksheets){ $nm=Normalize $ws.Name; if($nm -eq $reqNorm -or $nm.StartsWith($reqNorm) -or $nm.Contains($reqNorm)){ $srcWs=$ws; break } } }; if(-not $srcWs){ $names=@(); foreach($ws in $srcWb.Worksheets){ $names += $ws.Name }; throw "Worksheet '$requested' does not exist. Available: $($names -join ', ')" }; try { $old=$dstWb.Worksheets.Item($dstName); $old.Delete() } catch {}; $srcWs.Copy([System.Type]::Missing, $dstWb.Worksheets.Item($dstWb.Worksheets.Count)); $newWs=$dstWb.Worksheets.Item($dstWb.Worksheets.Count); $newWs.Name=$dstName; $dstWb.Save(); Write-Output "SUCCESS: $($srcWs.Name) -> $dstName" } finally { if($srcWb){ $srcWb.Close($false) }; if($dstWb){ $dstWb.Close($true) }; if($excel){ $excel.Quit(); [System.Runtime.InteropServices.Marshal]::ReleaseComObject($excel) | Out-Null; [GC]::Collect(); [GC]::WaitForPendingFinalizers() } }
                 ${result}=    Run Process    powershell    -NoProfile    -ExecutionPolicy    Bypass    -Command    ${copy_script}
@@ -1597,24 +1596,50 @@ Create_K_ell_Excel
                 ELSE
                     Log String To Console     \n\[SIKERES] Média ellenőrző sheet másolva: '${SRC_SHEET}' -> '${DST_SHEET}'
                     Log String To Console     \n\[INFO] Másolás: ${result.stdout}
+                    #Az aktuális excel most másolt sheet-en 5. sorától kezdődően tegyen egy x-et az I oszlopba, ha az A cella nem üres
+                    ${mark_script}=    Set Variable    $ErrorActionPreference='Stop'; $path='${DST_FILE}'; $sheet='${DST_SHEET}'; $excel=$null; $wb=$null; try { $excel=New-Object -ComObject Excel.Application; $excel.Visible=$false; $excel.DisplayAlerts=$false; $wb=$excel.Workbooks.Open($path); $ws=$wb.Worksheets.Item($sheet); $row=5; while($true){ $cellA=$ws.Cells.Item($row,1).Value2; if(-not $cellA){ break }; if($cellA -ne ''){ $ws.Cells.Item($row,9).Value2='x' }; $row++ }; $wb.Save(); Write-Output "SUCCESS: Marked rows in '$sheet'" } finally { if($wb){ $wb.Close($true) }; if($excel){ $excel.Quit(); [System.Runtime.InteropServices.Marshal]::ReleaseComObject($excel) | Out-Null; [GC]::Collect(); [GC]::WaitForPendingFinalizers() } }
+                    ${mark_result}=    Run Process    powershell    -NoProfile    -ExecutionPolicy    Bypass    -Command    ${mark_script}
+                    IF    ${mark_result.rc} != 0    
+                        Log String To Console     \n\[HIBA] Média ellenőrző sheet jelölése sikertelen: ${mark_result.stderr}
+                    ELSE
+                        Log String To Console     \n\[SIKERES] Média ellenőrző sheet jelölve: '${DST_SHEET}' a ${DST_FILE} fájlban
+                        Log String To Console     \n\[INFO] Jelölés: ${mark_result.stdout}
+                    END
+                    #Sikeres jelölés esetén az A cella tartalmát kisbetűsítve mentsük el egy globális PromisList változóba.
+                        ${promis_list}=    Get Variable Value    ${PROMIS_LIST}    []
+                        ${get_promis_script}=    Set Variable    $ErrorActionPreference='Stop'; $path='${DST_FILE}'; $sheet='${DST_SHEET}'; $excel=$null; $wb=$null; try { $excel=New-Object -ComObject Excel.Application; $excel.Visible=$false; $excel.DisplayAlerts=$false; $wb=$excel.Workbooks.Open($path); $ws=$wb.Worksheets.Item($sheet); $row=5; $result=@(); while($true){ $cellA=$ws.Cells.Item($row,1).Value2; if(-not $cellA){ break }; if($cellA -ne ''){ $result += $cellA.ToString().ToLower() }; $row++ }; Write-Output ($result -join ',') } finally { if($wb){ $wb.Close($true) }; if($excel){ $excel.Quit(); [System.Runtime.InteropServices.Marshal]::ReleaseComObject($excel) | Out-Null; [GC]::Collect(); [GC]::WaitForPendingFinalizers() } }
+                        ${get_promis_result}=    Run Process    powershell    -NoProfile    -ExecutionPolicy    Bypass    -Command    ${get_promis_script}
+                        IF    ${get_promis_result.rc} != 0    
+                            Log String To Console     \n\[HIBA] Promis lista lekérése sikertelen: ${get_promis_result.stderr}
+                        ELSE
+                            ${promis_str}=    Set Variable    ${get_promis_result.stdout}
+                            Log String To Console     \n\[SIKERES] Promis lista lekérve: ${promis_str}
+                            ${promis_items}=    Split String    ${promis_str}    separator=,
+                            Set Global Variable    ${PROMIS_LIST}    ${promis_items}
+                            #Log String To Console     \n\[INFO] Promis lista mentve globális változóba: ${PROMIS_LIST}    
+                        END
+                    # Keresés a PROMIS_LIST-ben (case-insensitive), visszatérési érték: index vagy -1
+                    #${promis_idx}=    Find Promis Item    keresendo_ertek
+                    #Log String To Console     \n\[INFO] Promis keresés indexe: ${promis_idx}
+                    
                 END
                 ${media_check_path}=    Evaluate    __import__('os').path.join(r'''${media_check_folder}''', r'''${media_check_file}''')    modules=os
                 Log String To Console     \n\[INFO] Média ellenőrző fájl elérési útja: ${media_check_path}
                 # Az eredeti sheet elrejtése    
-                #Hide Excel Sheet    ${DIGITALIS_EXCEL_FILE}    ${KURZUS}_MK
-                Log String To Console     \n\[INFO] Média ellenőrző sheet másolva: '${KURZUS}-MK' -> '${KURZUS}_MK' a ${DIGITALIS_EXCEL_FILE} fájlba
+                #Hide Excel Sheet    ${DIGITALIS_EXCEL_FILE}    ${KURZUS}-MK
+                Log String To Console     \n\[INFO] Média ellenőrző sheet másolva: '${KURZUS}-MK' -> '${KURZUS}-MK' a ${DIGITALIS_EXCEL_FILE} fájlba
             ELSE
                 Log String To Console     \n\[WARNING] Nem található média ellenőrző fájl a MEDIA_CHECK_FOLDER-ben a kurzushoz: ${KURZUS}
                 Write SumError fájl    ${DTEM}    ${KURZUS}    MEDIA_CHECK    Nem található média ellenőrző fájl a kurzushoz (${KURZUS})    ${DIGITALIS_EXCEL_FILE}
                 #létrehozunk egy Nincs média ellenőrző fájl nevű üres sheet-et a webes excel fájlban, hogy jelezzük, hogy nincs ilyen fájl
                 ${dstPath}=    Set Variable    ${DIGITALIS_EXCEL_FILE}
-                ${dstName}=    Set Variable    ${KURZUS}_MK
+                ${dstName}=    Set Variable    ${KURZUS}-MK
                 ${create_script}=    Set Variable    $ErrorActionPreference='Stop'; $path='${dstPath}'; $sheet='${dstName}'; $excel=$null; $wb=$null; try { $excel=New-Object -ComObject Excel.Application; $excel.Visible=$false; $excel.DisplayAlerts=$false; $wb=$excel.Workbooks.Open($path); $ws=$wb.Worksheets.Add(); $ws.Name=$sheet; $ws.Cells.Item(1,1).Value2 = "Nincs média ellenőrző fájl"; $wb.Save(); Write-Output "SUCCESS: created '$sheet' with message" } finally { if($wb){ $wb.Close($true) }; if($excel){ $excel.Quit(); [System.Runtime.InteropServices.Marshal]::ReleaseComObject($excel) | Out-Null; [GC]::Collect(); [GC]::WaitForPendingFinalizers() } }
                 ${result}=    Run Process    powershell    -NoProfile    -ExecutionPolicy    Bypass    -Command    ${create_script}
                 IF    ${result.rc} != 0
                     Log String To Console     \n\[HIBA] Nincs média ellenőrző fájl sheet létrehozása sikertelen: ${result.stderr}
                 ELSE
-                    Log String To Console     \n\[SIKERES] Nincs média ellenőrző fájl sheet létrehozva: '${KURZUS}_MK' a ${DIGITALIS_EXCEL_FILE} fájlba
+                    Log String To Console     \n\[SIKERES] Nincs média ellenőrző fájl sheet létrehozva: '${KURZUS}-MK' a ${DIGITALIS_EXCEL_FILE} fájlba
                     Log String To Console     \n\[INFO] Létrehozás: ${result.stdout}    
                 END
             END    
@@ -1641,6 +1666,46 @@ Create_K_ell_Excel
 
     
     RETURN    ${activeExcelFile}    ${activeSheetName}    ${path_part}    ${filename_part}
+
+Find Promis Item
+    [Documentation]    Megkeresi a kapott értéket a ${PROMIS_LIST}-ben (case-insensitive), és visszaadja az indexét, ha nincs: -1.
+    [Arguments]    ${search_value}
+    ${promis_raw}=    Get Variable Value    ${PROMIS_LIST}    ${EMPTY}
+    ${promis_list}=    Evaluate    list($promis_raw) if isinstance($promis_raw, (list, tuple, set)) else ([] if isinstance($promis_raw, dict) else ([x.strip() for x in str($promis_raw).split(',') if x.strip()] if str($promis_raw).strip() not in ['', 'None', 'null', '{}', '[]'] else []))
+    ${search_norm}=    Convert To String    ${search_value}
+    ${search_norm}=    Strip String    ${search_norm}
+    ${search_norm}=    Convert To Lowercase    ${search_norm}
+    ${index}=    Set Variable    -1
+    ${i}=    Set Variable    0
+    FOR    ${item}    IN    @{promis_list}
+        ${item_norm}=    Convert To String    ${item}
+        ${item_norm}=    Strip String    ${item_norm}
+        ${item_norm}=    Convert To Lowercase    ${item_norm}
+        IF    '${item_norm}' == '${search_norm}'
+            ${index}=    Set Variable    ${i}
+            Exit For Loop
+        END
+        ${i}=    Evaluate    ${i} + 1
+    END
+    RETURN    ${index}
+
+Get First Empty Media Row
+    [Documentation]    Visszaadja az első üres sor indexét az adott sheet A oszlopában, az 5. sortól indulva.
+    [Arguments]    ${excel_file}    ${sheet_name}
+    ${status}    ${row_index}=    Run Keyword And Ignore Error
+    ...    Evaluate
+    ...    (lambda wb: (lambda ws: next((r for r in range(5, ws.max_row + 2) if (ws.cell(row=r, column=1).value is None or str(ws.cell(row=r, column=1).value).strip() == '')), 5))(wb[r'''${sheet_name}''']))(__import__('openpyxl').load_workbook(r'''${excel_file}''', data_only=True, read_only=True))
+    ...    modules=openpyxl
+    IF    '${status}' != 'PASS'
+        Log String To Console    \n\[WARNING] Első üres média sor lekérése sikertelen, fallback: 5. Hiba: ${row_index}
+        RETURN    5
+    END
+    ${row_index}=    Convert To Integer    ${row_index}
+    IF    ${row_index} < 5
+        RETURN    5
+    END
+    RETURN    ${row_index}
+
 Hide Excel Sheet
     [Documentation]    Elrejti a megadott sheet-et az Excel fájlban (Excel COM-mal)
     [Arguments]    ${excel_file}    ${sheet_name}
@@ -1673,15 +1738,16 @@ Copy Excel Sheet
     
     # Log    [DEBUG] Copying sheet '${source_sheet_name}' to '${target_sheet_name}' in file: ${excel_file}
     
-    # Direct Python evaluation for sheet copying (útvonal normalizálása)
-    ${excel_path_norm}=    Evaluate    __import__('pathlib').Path(r'''${excel_file}''').as_posix()    modules=pathlib
-    ${python_code}=    Set Variable    import openpyxl; from copy import deepcopy; wb = openpyxl.load_workbook('${excel_path_norm}'); source_sheet = wb['${source_sheet_name}']; target_sheet = wb.copy_worksheet(source_sheet); target_sheet.title = '${target_sheet_name}'; target_sheet.conditional_formatting = deepcopy(source_sheet.conditional_formatting); wb.save('${excel_path_norm}'); print('SUCCESS')
-    ${result}=    Run Process    ${PYTHON_EXEC}    -W    ignore    -c    ${python_code}    shell=True
+    ${excel_file_ps}=    Replace String    ${excel_file}    '    ''
+    ${source_sheet_ps}=    Replace String    ${source_sheet_name}    '    ''
+    ${target_sheet_ps}=    Replace String    ${target_sheet_name}    '    ''
+    ${ps_code}=    Set Variable    $ErrorActionPreference='Stop'; $path='${excel_file_ps}'; $src='${source_sheet_ps}'; $dst='${target_sheet_ps}'; $excel=$null; $wb=$null; $srcWs=$null; $newWs=$null; try { $excel=New-Object -ComObject Excel.Application; $excel.Visible=$false; $excel.DisplayAlerts=$false; $excel.AlertBeforeOverwriting=$false; $wb=$excel.Workbooks.Open($path,0,$false,[Type]::Missing,[Type]::Missing,[Type]::Missing,$true,[Type]::Missing,[Type]::Missing,$false,[Type]::Missing,$false,$false); $srcWs=$wb.Worksheets.Item($src); try { $old=$wb.Worksheets.Item($dst); $old.Delete() } catch {}; $srcWs.Copy([Type]::Missing,$wb.Worksheets.Item($wb.Worksheets.Count)); $newWs=$wb.Worksheets.Item($wb.Worksheets.Count); $newWs.Name=$dst; $wb.Save(); Write-Output 'SUCCESS' } finally { if($wb){ $wb.Close($true) }; if($newWs){ [System.Runtime.InteropServices.Marshal]::ReleaseComObject($newWs) | Out-Null }; if($srcWs){ [System.Runtime.InteropServices.Marshal]::ReleaseComObject($srcWs) | Out-Null }; if($wb){ [System.Runtime.InteropServices.Marshal]::ReleaseComObject($wb) | Out-Null }; if($excel){ $excel.Quit(); [System.Runtime.InteropServices.Marshal]::ReleaseComObject($excel) | Out-Null; [GC]::Collect(); [GC]::WaitForPendingFinalizers() } }
+    ${result}=    Run Process    powershell    -NoProfile    -ExecutionPolicy    Bypass    -Command    ${ps_code}
     
     # Log    [DEBUG] Sheet copy result: ${result.stdout}
     # Log    [DEBUG] Sheet copy stderr: ${result.stderr}
     # Log    [DEBUG] Sheet copy return code: ${result.rc}
-    ${success}=    Run Keyword And Return Status    Should Be Equal As Strings    ${result.stdout.strip()}    SUCCESS
+    ${success}=    Run Keyword And Return Status    Should Be Equal As Integers    ${result.rc}    0
     RETURN    ${success}
     
 Silence Python SyntaxWarnings

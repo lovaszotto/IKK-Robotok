@@ -130,16 +130,7 @@ Témák közötti navigáció ellenőrzése
                                 Continue For Loop
                             END
                             Log String To Console    ----------------------------------------- Kép:-------------------------------------
-                            #${visible}=   Run Keyword And Ignore Error    Wait Until Element Is Visible   ${img}   1s
-                            #${img}=    Get From List    ${images}    ${img_index}
-                            #${visible}=     Run Keyword And Return Status    Element Should Be Visible    ${img}
-                            #IF    ${visible} == False
-                            #    Log String To Console    A kép nem látható, kihagyás
-                            #    Continue For Loop
-                            #END
-                            #Log String To Console    ${img_index}:Következő Kép: ${img_index}
-
-                           
+                                          
                             # Kép vagy videó alt/title attribútum lekérése
 
                             #${alt}=    Get Element Attribute    (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]/img    alt      
@@ -153,6 +144,7 @@ Témák közötti navigáció ellenőrzése
                           
                            
                             #${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name} =    Get Highlighted And Parent Titles (Levels 1-3)
+                               ${MEDIA_ROW_INDEX}=    Get First Empty Media Row    ${DIGITALIS_EXCEL_FILE}    ${DIGITALIS_EXCEL_SHEET_MK}
 
                             #Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level1_name}/${level2_name}/${level3_name}
                             IF    $level3_name == $highlighted_name
@@ -208,15 +200,28 @@ Témák közötti navigáció ellenőrzése
                             #Media tipus felírása media katalógusba
                             #Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    2    ${ctype}
                             Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    2    ${type}/ ${category}
-                            #Fájl név felírása media katalógusba
-                            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    1    ${fname}
-                            
-                            #Media sheet-en sor növelése
-                            ${MEDIA_ROW_INDEX} =    Evaluate    ${MEDIA_ROW_INDEX} + 1
+                            Log String To Console    <<<<< IGAME keresés kapott-ban: ${fname}
+                            #Kép fájl ellenőrzése a beolvasott média katalógusból
+                             ${promis_idx}=    Find Promis Item    ${fname}
+                            IF    ${promis_idx} != -1
+                                Log String To Console    \n\[SIKERES] A kép fájl neve megtalálható a Promis listában: ${fname}
+                                ${promis_row}=    Evaluate    int(${promis_idx}) + 5
+                                Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${promis_row}    8    x
+                                Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${promis_row}    9    ${EMPTY}            
+                            ELSE
+                                Log String To Console    \n\[HIBA] A kép fájl neve NEM található meg a Promis listában: ${fname}
+                                Write MenuError fájl    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}     wtc-03    A kép fájl neve NEM található meg a Promis listában!    ${fname}
+                                   #Fájl név felírása media katalógusba append módban
+                                Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    1    ${fname}
+                                #Media sheet-en sor növelése
+                                # a  ${MEDIA_ROW_INDEX} értéke legyen az első üres sor indexe, így mindig a következő üres sorba írunk
+                                ${MEDIA_ROW_INDEX}=    Get First Empty Media Row    ${DIGITALIS_EXCEL_FILE}    ${DIGITALIS_EXCEL_SHEET_MK}
 
-                            #${outfile}=     Set Variable    ${OUTPUT_DIR}/${OUT_BASENAME}${ext}
-                            #Log String To Console    Kép letöltés előtt: ${outfile}
+                            END
 
+                             #Fájl név felírása media katalógusba
+
+                           
                             #Save Response Body To File    ${resp}    ${outfile}
                             Log String To Console    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Kép meta feldolgozva (HEAD): ${fname} >>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n\n
                            
@@ -299,6 +304,7 @@ Témák közötti navigáció ellenőrzése
                             #${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name}=   Get Highlighted And Parent Titles By Text
                             
                             #${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name} =    Get Highlighted And Parent Titles (Levels 1-3)
+                               ${MEDIA_ROW_INDEX}=    Get First Empty Media Row    ${DIGITALIS_EXCEL_FILE}    ${DIGITALIS_EXCEL_SHEET_MK}
 
                             #Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level1_name}/${level2_name}/${level3_name}
                             IF    $level3_name == $highlighted_name
@@ -375,7 +381,7 @@ Témák közötti navigáció ellenőrzése
                             Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    1    ${fname}
                             
                             #Media sheet-en sor növelése
-                            ${MEDIA_ROW_INDEX} =    Evaluate    ${MEDIA_ROW_INDEX} + 1
+                            ${MEDIA_ROW_INDEX}=    Get First Empty Media Row    ${DIGITALIS_EXCEL_FILE}    ${DIGITALIS_EXCEL_SHEET_MK}
 
                             #${outfile}=     Set Variable    ${OUTPUT_DIR}/${OUT_BASENAME}${ext}
                             #Log String To Console    Kép letöltés előtt: ${outfile}

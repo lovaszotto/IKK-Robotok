@@ -2,6 +2,7 @@ import sys
 import openpyxl
 from openpyxl.utils import get_column_letter, column_index_from_string
 import re
+from openpyxl.utils.cell import coordinate_from_string
 
 # Set console encoding to UTF-8 to avoid encoding issues on Windows
 try:
@@ -56,10 +57,20 @@ def main():
         
         ws = wb[sheet_name]
         print(f"Sheet '{sheet_name}' megnyitva")
+
+        # Merged cell vedelme: ha a cel cella egy merge-tartomany belso cellaja,
+        # akkor a merge bal-felso cellajara irunk.
+        target_cell_ref = cell_ref
+        for merged_range in ws.merged_cells.ranges:
+            if target_cell_ref in merged_range:
+                if target_cell_ref != merged_range.start_cell.coordinate:
+                    print(f"FIGYELEM: merged cell atiranyitas {target_cell_ref} -> {merged_range.start_cell.coordinate}")
+                    target_cell_ref = merged_range.start_cell.coordinate
+                break
         
         # Eredeti ertek lekerdezese es uj ertek beallitasa
-        old_value = ws[cell_ref].value
-        ws[cell_ref] = value
+        old_value = ws[target_cell_ref].value
+        ws[target_cell_ref] = value
         
         # Fajl mentese retry mechanizmussal
         import time
@@ -78,7 +89,7 @@ def main():
                     if retry < max_retries - 1:
                         wb = openpyxl.load_workbook(excel_file)
                         ws = wb[sheet_name]
-                        ws[cell_ref] = value
+                        ws[target_cell_ref] = value
                 else:
                     print(f"KRITIKUS HIBA: Excel fajl nem mentheto {max_retries} probalkozas utan: {str(pe)}")
                     wb.close()
@@ -86,15 +97,13 @@ def main():
                     return
         
         print(f"Sikeres frissites:")
-        print(f"  Cella: {cell_ref}")
+        print(f"  Cella: {target_cell_ref}")
         print(f"  Regi ertek: '{old_value}'")  
         print(f"  Uj ertek: '{value}'")
         print(f"Excel fajl mentve: {excel_file}")
         
     except Exception as e:
         print(f"HIBA: {str(e)}")
-        import traceback
-        traceback.print_exc()
         # Nem kilepunk hibaval, folytatjuk a teszteket
         return
 
