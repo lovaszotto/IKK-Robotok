@@ -146,19 +146,7 @@ Témák közötti navigáció ellenőrzése
                             #${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name} =    Get Highlighted And Parent Titles (Levels 1-3)
                                ${MEDIA_ROW_INDEX}=    Get First Empty Media Row    ${DIGITALIS_EXCEL_FILE}    ${DIGITALIS_EXCEL_SHEET_MK}
 
-                            #Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level1_name}/${level2_name}/${level3_name}
-                            IF    $level3_name == $highlighted_name
-                                 Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level2_name}
-                            ELSE
-                                 Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level2_name}/${level3_name}
-                            END
-                            
-                            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    4    ${highlighted_name}
-
-                            #Alt felírása media katalógusba
-                            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    5    ${alt}
-                        
-
+                          
                        
                             # src már az előző IF/ELSE-ben beállítva
                             
@@ -198,20 +186,32 @@ Témák közötti navigáció ellenőrzése
                             ${fname}=     Get File Name From Header    ${fname}
                             
                             #Media tipus felírása media katalógusba
-                            #Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    2    ${ctype}
-                            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    2    ${type}/ ${category}
                             Log String To Console    <<<<< IGAME keresés kapott-ban: ${fname}
                             #Kép fájl ellenőrzése a beolvasott média katalógusból
                              ${promis_idx}=    Find Promis Item    ${fname}
                             IF    ${promis_idx} != -1
-                                Log String To Console    \n\[SIKERES] A kép fájl neve megtalálható a Promis listában: ${fname}
+                                Log String To Console    \n\[SIKERES] A kép fájl neve megtalálható a Kapott média listában: ${fname}
                                 ${promis_row}=    Evaluate    int(${promis_idx}) + 5
                                 Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${promis_row}    8    x
                                 Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${promis_row}    9    ${EMPTY}            
                             ELSE
-                                Log String To Console    \n\[HIBA] A kép fájl neve NEM található meg a Promis listában: ${fname}
-                                Write MenuError fájl    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}     wtc-03    A kép fájl neve NEM található meg a Promis listában!    ${fname}
+                                Log String To Console    \n\[HIBA] A kép fájl neve NEM található meg a Kapott média listában: ${fname}
+                                Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    2    ${type}/ ${category}
+                                Write MenuError fájl    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}     wtc-03    A kép fájl neve NEM található meg a Kapott média listában!    ${fname}
                                    #Fájl név felírása media katalógusba append módban
+                                 #Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level1_name}/${level2_name}/${level3_name}
+                                IF    $level3_name == $highlighted_name
+                                    Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level2_name}
+                                ELSE
+                                    Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level2_name}/${level3_name}
+                                END
+                                
+                                Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    4    ${highlighted_name}
+
+                                #Alt felírása media katalógusba
+                                Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    5    ${alt}
+                        
+
                                 Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    1    ${fname}
                                 #Media sheet-en sor növelése
                                 # a  ${MEDIA_ROW_INDEX} értéke legyen az első üres sor indexe, így mindig a következő üres sorba írunk
@@ -258,16 +258,7 @@ Témák közötti navigáció ellenőrzése
                                 Log String To Console    Nincs ilyen video elem, kihagyás
                                 Continue For Loop
                             END
-                            #${visible}=   Run Keyword And Ignore Error    Wait Until Element Is Visible   ${video}   1s
-                            #${img}=    Get From List    ${images}    ${img_index}
-                            #${visible}=     Run Keyword And Return Status    Element Should Be Visible    ${video}
-                            #IF    ${visible} == False
-                            #    Log String To Console    A video nem látható, kihagyás
-                            #    Continue For Loop
-                            #END
-                            #Log String To Console    ${video_index}:Következő Videó: ${video_index}
 
-                            #${alt}=    Get Element Attribute    ${img}    alt
                            
                             # Kép vagy videó alt/title attribútum lekérése
                            #Igen/nem bekérése felhasználótól
@@ -296,28 +287,10 @@ Témák közötti navigáció ellenőrzése
                             
                             ${src}=    Get Element Attribute    ${video}    src
 
-                            #Log String To Console    ${img_index}: Média alt/title: ${alt_video}
-
-                          #Menü sor lekérése
-                            #Wait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    10s
-
-                            #${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name}=   Get Highlighted And Parent Titles By Text
                             
-                            #${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name} =    Get Highlighted And Parent Titles (Levels 1-3)
-                               ${MEDIA_ROW_INDEX}=    Get First Empty Media Row    ${DIGITALIS_EXCEL_FILE}    ${DIGITALIS_EXCEL_SHEET_MK}
+                            ${MEDIA_ROW_INDEX}=    Get First Empty Media Row    ${DIGITALIS_EXCEL_FILE}    ${DIGITALIS_EXCEL_SHEET_MK}
 
-                            #Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level1_name}/${level2_name}/${level3_name}
-                            IF    $level3_name == $highlighted_name
-                                 Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level2_name}
-                            ELSE
-                                 Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level2_name}/${level3_name}
-                            END
-                            
-                            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    4    ${highlighted_name}
-
-                            #Alt felírása media katalógusba
-                            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    5    ${alt_video}
-                        
+                       
                             # src már az előző IF/ELSE-ben beállítva
                             
                             # Log String To Console    Kép forrás: ${src}
@@ -325,7 +298,7 @@ Témák közötti navigáció ellenőrzése
                             # így csak a PATHQ marad meg
                             ${PATHQ}=    Replace String    ${src}    ${BASE}    ${EMPTY}
                             #Log String To Console    Kép PATHQ: ${PATHQ}
-                     Log String To Console    Video Letöltés indul...
+                         Log String To Console    Video Letöltés indul...
                             Create Session    blob    ${BASE}
                             #${resp}=    Get On Session    blob    ${src}
                            #Csak a headert kérjük le először
@@ -350,8 +323,8 @@ Témák közötti navigáció ellenőrzése
                             #Log String To Console    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Video letöltve: ${fname} >>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n\n
                            
 
-                            Delete All Sessions
-                    Log String To Console    Video Letöltés kész
+                        Delete All Sessions
+                        Log String To Console    Video Letöltés kész
                         #Log String To Console    Kép letöltés válasza státusz: ${resp.status_code}
 
                          # kiterjesztések ellenőrzése
@@ -374,9 +347,6 @@ Témák közötti navigáció ellenőrzése
                             ${fname}=   Determine File Name From Response    ${resp}    ${DEFAULT_BASENAME}${ext}    ${src}    ${alt_video}    ${ext}
                             ${fname}=     Get File Name From Header    ${fname}
                             
-                            #Media tipus felírása media katalógusba
-                            #Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    2    ${ctype}
-                            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    2    ${type}/ ${category}
                             
                             #Video fájl ellenőrzése a beolvasott média katalógusból
                             Log String To Console    \n\n\n<<<<< VIDEO keresés kapott-ban: ${fname} - ${alt_video} 
@@ -391,15 +361,32 @@ Témák közötti navigáció ellenőrzése
                                 Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${promis_row}    9    ${EMPTY}            
                             ELSE
                                 Log String To Console    \n\[HIBA] A video fájl neve NEM található meg a Promis listában: ${fname}
-                                Write MenuError fájl    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}     wtc-03    A video fájl neve NEM található meg a Promis listában!    ${fname}
-                            END
+                                #Hiányzó Media tipus felírása media katalógusba
+                                #Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    2    ${ctype}
+                                  #Felírás Excel-be
+                                #Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level1_name}/${level2_name}/${level3_name}
+                                IF    $level3_name == $highlighted_name
+                                    Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level2_name}
+                                ELSE
+                                    Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level2_name}/${level3_name}
+                                END
+                                
+                                Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    4    ${highlighted_name}
 
-                            #Fájl név felírása media katalógusba
-                            Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    1    ${fname}
-                            
-                            #Media sheet-en sor növelése
-                            ${MEDIA_ROW_INDEX}=    Get First Empty Media Row    ${DIGITALIS_EXCEL_FILE}    ${DIGITALIS_EXCEL_SHEET_MK}
+                                #Alt felírása media katalógusba
+                                Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    5    ${alt_video}
+                                Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    2    ${type}/ ${category}
+                                
+                                #Fájl név felírása media katalógusba
+                                Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    1    ${fname}
+                                
+                                #Media sheet-en sor növelése
+                                ${MEDIA_ROW_INDEX}=    Get First Empty Media Row    ${DIGITALIS_EXCEL_FILE}    ${DIGITALIS_EXCEL_SHEET_MK}
 
+                                    Write MenuError fájl    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}     wtc-03    A video fájl neve NEM található meg a Kapott média listában!    ${fname}
+                                END
+
+                        
                             #${outfile}=     Set Variable    ${OUTPUT_DIR}/${OUT_BASENAME}${ext}
                             #Log String To Console    Kép letöltés előtt: ${outfile}
 
