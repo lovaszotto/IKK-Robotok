@@ -1605,15 +1605,16 @@ Create_K_ell_Excel
                         Log String To Console     \n\[SIKERES] Média ellenőrző sheet jelölve: '${DST_SHEET}' a ${DST_FILE} fájlban
                         Log String To Console     \n\[INFO] Jelölés: ${mark_result.stdout}
                     END
-                    #Sikeres jelölés esetén az A cella tartalmát kisbetűsítve mentsük el egy globális PromisList változóba.
-                        ${promis_list}=    Get Variable Value    ${PROMIS_LIST}    []
-                        ${get_promis_script}=    Set Variable    $ErrorActionPreference='Stop'; $path='${DST_FILE}'; $sheet='${DST_SHEET}'; $excel=$null; $wb=$null; try { $excel=New-Object -ComObject Excel.Application; $excel.Visible=$false; $excel.DisplayAlerts=$false; $wb=$excel.Workbooks.Open($path); $ws=$wb.Worksheets.Item($sheet); $row=5; $result=@(); while($true){ $cellA=$ws.Cells.Item($row,1).Value2; if(-not $cellA){ break }; if($cellA -ne ''){ $result += $cellA.ToString().ToLower() }; $row++ }; Write-Output ($result -join ',') } finally { if($wb){ $wb.Close($true) }; if($excel){ $excel.Quit(); [System.Runtime.InteropServices.Marshal]::ReleaseComObject($excel) | Out-Null; [GC]::Collect(); [GC]::WaitForPendingFinalizers() } }
+                    #Sikeres jelölés esetén az D cella tartalmát kisbetűsítve mentsük el egy globális PromisList változóba.
+                        ${promis_list}=    Get Variable Value    \${PROMIS_LIST}    []
+                        ${get_promis_script}=    Set Variable    $ErrorActionPreference='Stop'; $path='${DST_FILE}'; $sheet='${DST_SHEET}'; $excel=$null; $wb=$null; try { $excel=New-Object -ComObject Excel.Application; $excel.Visible=$false; $excel.DisplayAlerts=$false; $wb=$excel.Workbooks.Open($path); $ws=$wb.Worksheets.Item($sheet); $row=5; $result=@(); while($true){ $cellD=$ws.Cells.Item($row,4).Value2; if(-not $cellD){ break }; if($cellD -ne ''){ $result += $cellD.ToString().ToLower() }; $row++ }; Write-Output ($result -join ',') } finally { if($wb){ $wb.Close($true) }; if($excel){ $excel.Quit(); [System.Runtime.InteropServices.Marshal]::ReleaseComObject($excel) | Out-Null; [GC]::Collect(); [GC]::WaitForPendingFinalizers() } }
                         ${get_promis_result}=    Run Process    powershell    -NoProfile    -ExecutionPolicy    Bypass    -Command    ${get_promis_script}
                         IF    ${get_promis_result.rc} != 0    
                             Log String To Console     \n\[HIBA] Promis lista lekérése sikertelen: ${get_promis_result.stderr}
                         ELSE
                             ${promis_str}=    Set Variable    ${get_promis_result.stdout}
                             Log String To Console     \n\[SIKERES] Promis lista lekérve: ${promis_str}
+                            
                             ${promis_items}=    Split String    ${promis_str}    separator=,
                             Set Global Variable    ${PROMIS_LIST}    ${promis_items}
                             #Log String To Console     \n\[INFO] Promis lista mentve globális változóba: ${PROMIS_LIST}    
@@ -1621,8 +1622,47 @@ Create_K_ell_Excel
                     # Keresés a PROMIS_LIST-ben (case-insensitive), visszatérési érték: index vagy -1
                     #${promis_idx}=    Find Promis Item    keresendo_ertek
                     #Log String To Console     \n\[INFO] Promis keresés indexe: ${promis_idx}
-                    
+                    #Abban az esetben, ha az A oszlop tartalmazza az .mp4 szöveget, akkor a D oszlopban lévő értéket mentse el egy globális PromisedTartalom listába
+                   # a talált értékeket kisbetűsítve mentse el, és a lista elemeit vesszővel elválasztva mentse el egy globális PROMISED_TARTALOM változóba.
+                   #mentse el a sor indexet is egy globális PROMISED_INDEX listába, ugyanabban a sorrendben, mint a PROMISED_TARTALOM elemeit, vesszővel elválasztva egy globális PROMISED_INDEX változóba.
+                   #írd ki a konzolra a PROMISED_TARTALOM és PROMISED_INDEX értékét, hogy ellenőrizhető legyen a helyességük
+                   
+
+
+                    ${promised_tartalom}=    Get Variable Value    \${PROMISED_TARTALOM}    []
+                    ${promised_index}=    Get Variable Value    \${PROMISED_INDEX}    []
+                    ${get_promised_script}=    Set Variable    $ErrorActionPreference='Stop'; $path='${DST_FILE}'; $sheet='${DST_SHEET}'; $excel=$null; $wb=$null; try { $excel=New-Object -ComObject Excel.Application; $excel.Visible=$false; $excel.DisplayAlerts=$false; $wb=$excel.Workbooks.Open($path); $ws=$wb.Worksheets.Item($sheet); $row=5; $result=@(); $idx=@(); while($true){ $cellA=$ws.Cells.Item($row,1).Value2; if(-not $cellA){ break }; if($cellA -ne '' -and $cellA.ToString().ToLower().Contains('.mp4')){ $cellD=$ws.Cells.Item($row,4).Value2; if($cellD){ $result += $cellD.ToString().ToLower(); $idx += $row } }; $row++ }; @($result,$idx) | ConvertTo-Json -Compress -Depth 3 } finally { if($wb){ $wb.Close($true) }; if($excel){ $excel.Quit(); [System.Runtime.InteropServices.Marshal]::ReleaseComObject($excel) | Out-Null; [GC]::Collect(); [GC]::WaitForPendingFinalizers() } }
+                    ${get_promised_result}=    Run Process    powershell    -NoProfile    -ExecutionPolicy    Bypass    -Command    ${get_promised_script}
+                    IF    ${get_promised_result.rc} != 0    
+                        Log String To Console     \n\[HIBA] Promised tartalom lista lekérése sikertelen: ${get_promised_result.stderr}
+                    ELSE
+                        ${promised_payload}=    Set Variable    ${get_promised_result.stdout}
+                        ${promised_obj}=    Evaluate    __import__('json').loads(r'''${promised_payload}''')
+                        ${promised_raw_items}=    Evaluate    ($promised_obj[0] if isinstance($promised_obj, list) and len($promised_obj) > 0 else [])
+                        ${promised_raw_indices}=    Evaluate    ($promised_obj[1] if isinstance($promised_obj, list) and len($promised_obj) > 1 else [])
+                        ${promised_base}=    Evaluate    ($promised_raw_items.get('value') if isinstance($promised_raw_items, dict) and 'value' in $promised_raw_items else $promised_raw_items)
+                        ${promised_base}=    Evaluate    (ast.literal_eval($promised_base) if isinstance($promised_base, str) and $promised_base.strip().startswith('[') and $promised_base.strip().endswith(']') else $promised_base)    modules=ast
+                        ${promised_items}=    Evaluate    [str(x).strip() for x in ($promised_base if isinstance($promised_base, list) else [$promised_base]) if str(x).strip()]
+                        ${promised_idx_base}=    Evaluate    (ast.literal_eval(str($promised_raw_indices)) if isinstance($promised_raw_indices, str) and ((str($promised_raw_indices).strip().startswith('[') and str($promised_raw_indices).strip().endswith(']')) or (str($promised_raw_indices).strip().startswith('{') and str($promised_raw_indices).strip().endswith('}'))) else $promised_raw_indices)    modules=ast
+                        ${promised_idx_base}=    Evaluate    ($promised_idx_base.get('value', $promised_idx_base.get('Value')) if isinstance($promised_idx_base, dict) and ('value' in $promised_idx_base or 'Value' in $promised_idx_base) else $promised_idx_base)
+                        ${promised_indices}=    Evaluate    [str(x).strip() for x in ($promised_idx_base if isinstance($promised_idx_base, list) else [$promised_idx_base]) if str(x).strip()]
+                        Set Global Variable    ${PROMISED_TARTALOM}    ${promised_items}
+                        Set Global Variable    ${PROMISED_INDEX}    ${promised_indices}
+                        Log String To Console     \n\[INFO] Promised tartalom lista mentve globális változóba: ${PROMISED_TARTALOM}    
+                        Log String To Console     \n\[INFO] Promised index lista mentve globális változóba: ${PROMISED_INDEX}
+                        ${promised_tartalom_len}=    Get Length    ${PROMISED_TARTALOM}
+                        ${promised_index_len}=    Get Length    ${PROMISED_INDEX}
+                        Log String To Console     \n\[DEBUG] PROMISED ellenőrzés -> TARTALOM(${promised_tartalom_len}): ${PROMISED_TARTALOM} | INDEX(${promised_index_len}): ${PROMISED_INDEX}
+                    END
                 END
+                #írja ki egy ciklusban ${PROMISED_TARTALOM} és ${PROMISED_INDEX} értékét a konzolra, hogy ellenőrizhető legyen a helyességük
+                ${promised_debug_len}=    Evaluate    min(len($PROMISED_TARTALOM), len($PROMISED_INDEX))
+                FOR    ${i}    IN RANGE    ${promised_debug_len}
+                    ${dbg_tartalom}=    Get From List    ${PROMISED_TARTALOM}    ${i}
+                    ${dbg_index}=    Get From List    ${PROMISED_INDEX}    ${i}
+                    Log String To Console     \n\[DEBUG] PROMISED ellenőrzés -> TARTALOM(${i}): ${dbg_tartalom} | INDEX(${i}): ${dbg_index}
+                END
+       
                 ${media_check_path}=    Evaluate    __import__('os').path.join(r'''${media_check_folder}''', r'''${media_check_file}''')    modules=os
                 Log String To Console     \n\[INFO] Média ellenőrző fájl elérési útja: ${media_check_path}
                 # Az eredeti sheet elrejtése    
@@ -1670,8 +1710,8 @@ Create_K_ell_Excel
 Find Promis Item
     [Documentation]    Megkeresi a kapott értéket a ${PROMIS_LIST}-ben (case-insensitive), és visszaadja az indexét, ha nincs: -1.
     [Arguments]    ${search_value}
-    ${promis_raw}=    Get Variable Value    ${PROMIS_LIST}    ${EMPTY}
-    ${promis_list}=    Evaluate    list($promis_raw) if isinstance($promis_raw, (list, tuple, set)) else ([] if isinstance($promis_raw, dict) else ([x.strip() for x in str($promis_raw).split(',') if x.strip()] if str($promis_raw).strip() not in ['', 'None', 'null', '{}', '[]'] else []))
+    ${promis_raw}=    Get Variable Value    \${PROMIS_LIST}    ${EMPTY}
+    ${promis_list}=    Evaluate    (list($promis_raw) if isinstance($promis_raw, (list, tuple, set)) else ([] if isinstance($promis_raw, dict) else ([x.strip() for x in (ast.literal_eval(str($promis_raw)) if (isinstance($promis_raw, str) and str($promis_raw).strip().startswith('[') and str($promis_raw).strip().endswith(']')) else str($promis_raw).split(',')) if str(x).strip()] if str($promis_raw).strip() not in ['', 'None', 'null', '{}', '[]'] else [])))    modules=ast
     ${search_norm}=    Convert To String    ${search_value}
     ${search_norm}=    Strip String    ${search_norm}
     ${search_norm}=    Convert To Lowercase    ${search_norm}
@@ -1683,6 +1723,43 @@ Find Promis Item
         ${item_norm}=    Convert To Lowercase    ${item_norm}
         IF    '${item_norm}' == '${search_norm}'
             ${index}=    Set Variable    ${i}
+            Exit For Loop
+        END
+        ${i}=    Evaluate    ${i} + 1
+    END
+    RETURN    ${index}
+
+Find Promis Item by Tartalom
+    [Documentation]    Megkeresi a ${PROMISED_TARTALOM} listában azt az elemet, amelyre az alt_video eleje illeszkedik (case-insensitive), és visszaadja a hozzá tartozó ${PROMISED_INDEX} elemet; ha nincs: -1.
+    [Arguments]    ${alt_video}
+    Log String To Console  \n********************************************************************
+    Log String To Console    \n\[INFO] Keresés a PROMISED_TARTALOM listában az '${alt_video}' értékhez hasonló elemek között...
+    Log String To Console  \n********************************************************************
+
+    ${promised_raw}=    Get Variable Value    \${PROMISED_TARTALOM}    ${EMPTY}
+    ${promised_idx_raw}=    Get Variable Value    \${PROMISED_INDEX}    ${EMPTY}
+    ${promised_list}=    Evaluate    (list($promised_raw) if isinstance($promised_raw, (list, tuple, set)) else ([] if isinstance($promised_raw, dict) else ([x.strip() for x in (ast.literal_eval(str($promised_raw)) if (isinstance($promised_raw, str) and str($promised_raw).strip().startswith('[') and str($promised_raw).strip().endswith(']')) else str($promised_raw).split(',')) if str(x).strip()] if str($promised_raw).strip() not in ['', 'None', 'null', '{}', '[]'] else [])))    modules=ast
+    ${promised_idx_base}=    Evaluate    (ast.literal_eval(str($promised_idx_raw)) if isinstance($promised_idx_raw, str) and ((str($promised_idx_raw).strip().startswith('[') and str($promised_idx_raw).strip().endswith(']')) or (str($promised_idx_raw).strip().startswith('{') and str($promised_idx_raw).strip().endswith('}'))) else $promised_idx_raw)    modules=ast
+    ${promised_idx_base}=    Evaluate    ($promised_idx_base.get('value', $promised_idx_base.get('Value')) if isinstance($promised_idx_base, dict) and ('value' in $promised_idx_base or 'Value' in $promised_idx_base) else $promised_idx_base)
+    ${promised_index_list}=    Evaluate    [str(x).strip() for x in ($promised_idx_base if isinstance($promised_idx_base, list) else [$promised_idx_base]) if str(x).strip()]
+    ${alt_norm}=    Convert To String    ${alt_video}
+    ${alt_norm}=    Strip String    ${alt_norm}
+    ${alt_norm}=    Convert To Lowercase    ${alt_norm}
+    ${index}=    Set Variable    -1
+    ${i}=    Set Variable    0
+    FOR    ${item}    IN    @{promised_list}
+        ${item_norm}=    Convert To String    ${item}
+        ${item_norm}=    Strip String    ${item_norm}
+        ${item_norm}=    Convert To Lowercase    ${item_norm}
+        Log String To Console    \n\[DEBUG] PROMISED_TARTALOM item: '${item}' -> normalized: '${item_norm}' vs alt_norm: '${alt_norm}'
+        IF    $item_norm != '' and $alt_norm.startswith($item_norm)
+            IF    int($i) < len($promised_index_list)
+                ${index}=    Get From List    ${promised_index_list}    ${i}
+                Log String To Console    \n\[INFO] Talált egyezés a PROMISED_TARTALOM listában: '${item}' (pozíció: ${i}, sor: ${index}) -> illeszkedik az alt_video értékhez: '${alt_video}'
+            ELSE
+                ${index}=    Set Variable    -1
+                Log String To Console    \n\[WARNING] Találat volt, de a PROMISED_INDEX lista rövidebb (pozíció: ${i}).
+            END
             Exit For Loop
         END
         ${i}=    Evaluate    ${i} + 1

@@ -377,6 +377,23 @@ Témák közötti navigáció ellenőrzése
                             #Media tipus felírása media katalógusba
                             #Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    2    ${ctype}
                             Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    2    ${type}/ ${category}
+                            
+                            #Video fájl ellenőrzése a beolvasott média katalógusból
+                            Log String To Console    \n\n\n<<<<< VIDEO keresés kapott-ban: ${fname} - ${alt_video} 
+                            #A PromisedTartalom listában a fájlnév vagy az alt szöveg alapján keresünk, ha van egyezés, akkor x-szel jelöljük a megfelelő oszlopban
+                            ${promis_idx}=    Find Promis Item by Tartalom    ${alt_video}
+                            IF    ${promis_idx} != -1    
+                                Log String To Console    \n\[SIKERES] A video fájl neve megtalálható a Promis listában: ${fname} - index: ${promis_idx}
+                                ${promis_row}=    Convert To Integer    ${promis_idx}
+                                Log String To Console   <<BEÍRÁS>> ${DIGITALIS_EXCEL_FILE}-${DIGITALIS_EXCEL_SHEET_MK}-${promis_row}-8-x
+                                                        
+                                Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${promis_row}    8    x
+                                Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${promis_row}    9    ${EMPTY}            
+                            ELSE
+                                Log String To Console    \n\[HIBA] A video fájl neve NEM található meg a Promis listában: ${fname}
+                                Write MenuError fájl    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}     wtc-03    A video fájl neve NEM található meg a Promis listában!    ${fname}
+                            END
+
                             #Fájl név felírása media katalógusba
                             Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    1    ${fname}
                             
