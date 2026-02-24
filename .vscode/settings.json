@@ -1,0 +1,6 @@
+{
+  "terminal.integrated.enableBell": false,
+  "audioCues.enabled": "off",
+  "audioCues.lineHasWarning": "off",
+  "audioCues.lineHasError": "off"
+}
