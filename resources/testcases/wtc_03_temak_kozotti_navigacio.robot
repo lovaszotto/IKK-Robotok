@@ -220,7 +220,7 @@ Témák közötti navigáció ellenőrzése
                           
                 END
                 #Kép és videó kihagyása tesztre
-                CONTINUE
+                #CONTINUE
                   #Képek ellenőrzése
                     #Wait For Elements State    //app-image-field//img    visible=True    timeout=10s
                     ${images}=    Get WebElements    //app-image-field[contains(@style, 'display: flex')]/img 
