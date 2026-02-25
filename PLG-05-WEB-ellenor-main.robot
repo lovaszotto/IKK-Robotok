@@ -47,9 +47,15 @@ Web-alkalmazás indítása és bejelentkezés
     Run Keyword And Ignore Error    Wait Until Element Is Not Visible    xpath=//button[contains(., 'Később')]    1s
  
     # Várd meg, amíg megjelenik a "KURZUSAIM" felirat, majd kattints rá
-    Wait Until Element Is Visible    id=header-coursesButton    2s
-    Click Element    id=header-coursesButton
-    Wait Until Element Is Visible    xpath=//*[contains(text(), 'Aktuális kurzusaim')]    1s
+    Run Keyword And Ignore Error    keywords.Close Blocking Popup
+    Wait Until Keyword Succeeds    30s    1s    Element Should Be Visible    id=header-coursesButton
+    Run Keyword And Ignore Error    Scroll Element Into View    id=header-coursesButton
+    ${clicked}=    Run Keyword And Return Status    Click Element    id=header-coursesButton
+    IF    not ${clicked}
+        Log String To Console    [WARNING] Kurzusaim gomb normál kattintás sikertelen, JS fallback.
+        Execute JavaScript    const btn=document.getElementById('header-coursesButton'); if(btn){btn.click();}
+    END
+    Wait Until Element Is Visible    xpath=//*[contains(text(), 'Aktuális kurzusaim')]    10s
     Log String To Console    \n\[1/24] Aktuális kurzusaim oldal megjelenítve
     
     #Téma keresés szűrő beállítása

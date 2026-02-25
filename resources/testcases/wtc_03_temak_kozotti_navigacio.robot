@@ -66,13 +66,8 @@ Témák közötti navigáció ellenőrzése
                     Run Keyword And Ignore Error    Wait Until Page Does Not Contain Element    css:div.cdk-overlay-backdrop.cdk-overlay-backdrop-showing    2s
                     #Click Element      xpath=//button[contains(@aria-label,'Következő oldalra lépés')]
                     Click Next Page Safe
-                    Log String To Console    Következő oldal gombra kattintva.
+                    #Log String To Console    Következő oldal gombra kattintva.
                 
-                   
-                     #kép video ellenőrzés kihagyva
-                
-                    #    ent Is Visible    xpat#h=//app-image-field[contains(@style, 'display: flex')]//img| //app-video-field[contains(@style, 'displa#y: flex-flow')]//video    2s
-                  
                       #Menü sor lekérése
                     Wait Until Element Is Visible    xpath=//div[contains(@class,'highlighted-node')]    5s
                     ${highlighted_name}   ${level1_name}   ${level2_name}    ${level3_name}=   Get Highlighted And Parent Titles By Text
@@ -100,46 +95,160 @@ Témák közötti navigáció ellenőrzése
                             Write MenuError fájl    ${DIGITALIS_EXCEL_FILE}    ${myCURRENT_SHEET_NAME}     wtc-03    Nem a menünek megfelelő oldalon van!    ${highlighted_name};${head_name}
                         END
                      END
-                    
-                    #Log String To Console    Oldalcím elemek láthatóak, váraskozás OK
-                 #kép video ellenőrzés kihagyva
+                     
+                                    #Hang anyagok ellenőrzése
+                                        ${audios}=    Get WebElements    xpath=//app-audio-field[.//audio or .//source or @src]
+                    ${audio_count}=    Get Length    ${audios}
+                    IF     ${audio_count} > 0
+                         Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált hanganyagok száma: ${audio_count}
+                    END
+
+                   
+                  ${audio_index}=    Set Variable    0
+                #audiók feldolgozása
                 
+                FOR     ${audio_index}    IN RANGE   ${audio_count} 
+                     ${audio_pos}=    Evaluate    int(${audio_index}) + 1
+                    Log String To Console    \nKövetkező Audio: ${audio_pos}
+                    ${audio_xpath}=    Set Variable    (//app-audio-field[.//audio or .//source or @src])[${audio_pos}]
+                    ${audio_locator}=    Set Variable    xpath=${audio_xpath}
+                    Log String To Console    Audio locator: ${audio_locator}
+                    ${exists}=    Run Keyword And Return Status    Wait Until Page Contains Element    ${audio_locator}    3s
+                    IF    not ${exists}
+                        Log String To Console    Nincs ilyen audio elem, kihagyás
+                        Continue For Loop
+                    END
+                    Log String To Console    ----------------------------------------- Audio:-------------------------------------
+                    ${audio_title}=    Run Keyword And Return Status    Wait Until Keyword Succeeds    3s    200ms    Get Element Attribute    xpath=${audio_xpath}//audio[1]    title
+                    ${audio_alt}=      Run Keyword And Return Status    Wait Until Keyword Succeeds    3s    200ms    Get Element Attribute    xpath=${audio_xpath}//audio[1]    aria-label
+                    ${audio_meta}=    Set Variable    ${EMPTY}
+                    IF    ${audio_title}
+                        ${audio_meta}=    Get Element Attribute    xpath=${audio_xpath}//audio[1]    title
+                    END
+                    IF    '${audio_meta}' == '' and ${audio_alt}
+                        ${audio_meta}=    Get Element Attribute    xpath=${audio_xpath}//audio[1]    aria-label
+                    END
+                    IF    '${audio_meta}' == ''
+                        ${audio_meta}=    Set Variable    audio_${audio_pos}
+                    END
+                    Log String To Console    ${audio_index}: Audio alt/title: ${audio_meta}
+
+                    ${audio_src}=    Set Variable    ${EMPTY}
+                    ${has_audio_src}=    Run Keyword And Return Status    Wait Until Keyword Succeeds    3s    200ms    Get Element Attribute    xpath=${audio_xpath}//audio[1]    src
+                    IF    ${has_audio_src}
+                        ${audio_src}=    Get Element Attribute    xpath=${audio_xpath}//audio[1]    src
+                    END
+                    IF    '${audio_src}' == ''
+                        ${has_source_src}=    Run Keyword And Return Status    Wait Until Keyword Succeeds    3s    200ms    Get Element Attribute    xpath=${audio_xpath}//source[1]    src
+                        IF    ${has_source_src}
+                            ${audio_src}=    Get Element Attribute    xpath=${audio_xpath}//source[1]    src
+                        END
+                    END
+                    IF    '${audio_src}' == ''
+                        ${has_container_src}=    Run Keyword And Return Status    Get Element Attribute    ${audio_locator}    src
+                        IF    ${has_container_src}
+                            ${audio_src}=    Get Element Attribute    ${audio_locator}    src
+                        END
+                    END
+                    Log String To Console    Audio src:\n ${audio_src}
+
+                    # Az ${src}-ben lecseréljük a ${BASE} rész üresre
+                    # így csak a PATHQ marad meg
+                    ${PATHQ}=    Replace String    ${audio_src}    ${BASE}    ${EMPTY}
+                    #Log String To Console    Audio PATHQ: ${PATHQ}
+            
+                        Log String To Console    Audio meta lekérdezés indul (HEAD)...
+                        #írja ki a teljes lekérés idejét, hogy lássuk mennyi időt vesz igénybe a HEAD kérés
+
+                    Create Session    blob    ${BASE}
+                    #${resp}=    Get On Session    blob    ${src}
+                        #Csak a headert kérjük le először
+                                ${head_start_audio}=    Evaluate    __import__('time').perf_counter()
+                            ${resp}=    Head On Session    blob    ${audio_src}
+                                ${head_end_audio}=    Evaluate    __import__('time').perf_counter()
+                                ${head_elapsed_audio_ms}=    Evaluate    round((${head_end_audio}-${head_start_audio})*1000, 1)
+                    
+                    Delete All Sessions
+                        Log String To Console    Audio HEAD válasz státusz: ${resp.status_code}
+                           Log String To Console    Audio HEAD kérés ideje: ${head_elapsed_audio_ms} ms
+                          ${ctype}=   Get From Dictionary    ${resp.headers}    Content-Type
+                            Log String To Console    Kép Content-Type: ${ctype}
+
+                            ${type}    ${category}=   Get Media Type And Category From Mime    ${ctype}
+                            Log String To Console    ------------------------------------------------------------- Típus: ${type}, Kategória: ${category}
+                         ${disp}=    Get From Dictionary    ${resp.headers}    Content-Disposition    default=None
+                            Log String To Console    Audio Content-Disposition: ${disp}
+
+                            ${ext}=     Determine Extension From Content-Type    ${ctype}
+
+                            ${fname}=   Determine File Name From Response    ${resp}    ${DEFAULT_BASENAME}${ext}    ${audio_src}    ${audio_alt}    ${ext}
+                            ${fname}=     Get File Name From Header    ${fname}
+                            
+                            Log String To Console    <<<<< AUDIO fájl neve: ${fname}
+                              #Kép fájl ellenőrzése a beolvasott média katalógusból
+                             ${promis_idx}=    Find Promis Item    ${fname}
+                            IF    ${promis_idx} != -1
+                                Log String To Console    \n\[SIKERES] A hang fájl neve megtalálható a Kapott média listában: ${fname}
+                                ${promis_row}=    Evaluate    int(${promis_idx}) + 5
+                                Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${promis_row}    8    x
+                                Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${promis_row}    9    ${EMPTY}            
+                            ELSE
+                                Log String To Console    \n\[HIBA] A hang fájl neve NEM található meg a Kapott média listában: ${fname}
+                                Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    2    ${type}/ ${category}
+                                Write MenuError fájl    ${DIGITALIS_EXCEL_FILE}    ${CURRENT_SHEET_NAME}     wtc-03    A hang fájl neve NEM található meg a Kapott média listában!    ${fname}
+                                   #Fájl név felírása media katalógusba append módban
+                                 #Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level1_name}/${level2_name}/${level3_name}
+                                IF    $level3_name == $highlighted_name
+                                    Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level2_name}
+                                ELSE
+                                    Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    3    ${level2_name}/${level3_name}
+                                END
+                                
+                                Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    4    ${highlighted_name}
+
+                                #Alt felírása media katalógusba
+                                Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    5    ${audio_alt}
+                        
+
+                                Fill Excel Cell    ${DIGITALIS_EXCEL_FILE}     ${DIGITALIS_EXCEL_SHEET_MK}     ${MEDIA_ROW_INDEX}    1    ${fname}
+                                #Media sheet-en sor növelése
+                                # a  ${MEDIA_ROW_INDEX} értéke legyen az első üres sor indexe, így mindig a következő üres sorba írunk
+                                ${MEDIA_ROW_INDEX}=    Get First Empty Media Row    ${DIGITALIS_EXCEL_FILE}    ${DIGITALIS_EXCEL_SHEET_MK}
+
+                            END
+
+                          
+                END
+                #Kép és videó kihagyása tesztre
+                CONTINUE
                   #Képek ellenőrzése
                     #Wait For Elements State    //app-image-field//img    visible=True    timeout=10s
                     ${images}=    Get WebElements    //app-image-field[contains(@style, 'display: flex')]/img 
                     ${image_count}=    Get Length    ${images}
                     ${img_index}=    Set Variable    0
                   Log String To Console    \n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Talált képek száma: ${image_count}
-
-      
                     #Képek feldolgozása
                     Set Variable    ${img_index}    0
-                    FOR    ${img_index}    IN RANGE   ${image_count}    
-                    
+                    FOR    ${img_index}    IN RANGE   ${image_count}         
                         TRY
-                      
                             Log String To Console    \nKövetkező Kép: ${img_index}
-                            #${img}=    Get WebElement   (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]/img
-                            #${img}=    Get WebElement   ${images}[${img_index+1}]/img
-                             ${img}=    Get WebElement   ${images}[${img_index}]
-                           
-                            ${exists}=    Run Keyword And Return Status    Page Should Contain Element    ${img}
-                            #Run Keyword If    ${exists}    Log String To Console    "Megvan!"    ELSE    Log String To Console    "Nincs ilyen elem"
-                            IF    ${exists} == False
-                                Log String To Console    Nincs ilyen elem, kihagyás
+                            ${img_pos}=    Evaluate    int(${img_index}) + 1
+                            ${img_locator}=    Set Variable    xpath=(//app-image-field[contains(@style, 'display: flex')]/img)[${img_pos}]
+
+                            ${exists}=    Run Keyword And Return Status    Wait Until Element Is Visible    ${img_locator}    3s
+                            IF    not ${exists}
+                                Log String To Console    Nincs ilyen kép elem, kihagyás
                                 Continue For Loop
                             END
                             Log String To Console    ----------------------------------------- Kép:-------------------------------------
                                           
                             # Kép vagy videó alt/title attribútum lekérése
 
-                            #${alt}=    Get Element Attribute    (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]/img    alt      
-                            ${alt}=    Get Element Attribute    ${img}    alt      
+                            ${alt}=    Wait Until Keyword Succeeds    5s    300ms    Get Element Attribute    ${img_locator}    alt      
                             
                             Log String To Console    ${img_index}: Média alt/title: ${alt}
                             
-                            #${src}=    Get Element Attribute    (//app-image-field[contains(@style, 'display: flex')])[${img_index+1}]/img    src
-                            ${src}=    Get Element Attribute    ${img}    src      
+                            ${src}=    Wait Until Keyword Succeeds    5s    300ms    Get Element Attribute    ${img_locator}    src      
                             #Log String To Console    Kép src:\n ${src}
                           
                            
@@ -157,13 +266,19 @@ Témák közötti navigáció ellenőrzése
                             #Log String To Console    Kép PATHQ: ${PATHQ}
                  
                                Log String To Console    Kép meta lekérdezés indul (HEAD)...
+                               #írja ki a teljes lekérés idejét, hogy lássuk mennyi időt vesz igénybe a HEAD kérés
+
                             Create Session    blob    ${BASE}
                             #${resp}=    Get On Session    blob    ${src}
                              #Csak a headert kérjük le először
+                                     ${head_start_img}=    Evaluate    __import__('time').perf_counter()
                             ${resp}=    Head On Session    blob    ${src}
+                                     ${head_end_img}=    Evaluate    __import__('time').perf_counter()
+                                     ${head_elapsed_img_ms}=    Evaluate    round((${head_end_img}-${head_start_img})*1000, 1)
                             
                             Delete All Sessions
                                Log String To Console    Kép HEAD válasz státusz: ${resp.status_code}
+                                         Log String To Console    Kép HEAD kérés ideje: ${head_elapsed_img_ms} ms
 
                          # kiterjesztések ellenőrzése
                             ${ctype}=   Get From Dictionary    ${resp.headers}    Content-Type
@@ -302,7 +417,10 @@ Témák közötti navigáció ellenőrzése
                             Create Session    blob    ${BASE}
                             #${resp}=    Get On Session    blob    ${src}
                            #Csak a headert kérjük le először
+                                     ${head_start_video}=    Evaluate    __import__('time').perf_counter()
                             ${resp}=    Head On Session    blob    ${src}
+                                     ${head_end_video}=    Evaluate    __import__('time').perf_counter()
+                                     ${head_elapsed_video_ms}=    Evaluate    round((${head_end_video}-${head_start_video})*1000, 1)
                             ${ctype_head}=   Get From Dictionary    ${resp.headers}    Content-Type
                             ${ext_head}=     Determine Extension From Content-Type    ${ctype_head}
                             Log String To Console    DEBUG alt_video value: '${alt_video}'
@@ -311,6 +429,7 @@ Témák közötti navigáció ellenőrzése
                             ${planned_fname}=     Get File Name From Header    ${planned_fname}
                             Log String To Console    Videó fájlnév (HEAD alapján): ${planned_fname}
                             Log String To Console    Video HEAD válasz státusz: ${resp.status_code}
+                            Log String To Console    Video HEAD kérés ideje: ${head_elapsed_video_ms} ms
                             Log String To Console    Video Content-Type: ${resp.headers['Content-Type']}
                         Log String To Console    LENGTH: ${resp.headers['Content-Length']}
                         Log String To Console    --- RESP META (HEAD) ---
@@ -455,13 +574,12 @@ Get Parent Title By Highlighted Text
     #RETURN     'Kihagyva pontos keresés'
 
     ${xpath_exact}=    Set Variable    (//span[contains(@class,'node-title') and contains(normalize-space(.),'${hl_text_raw}')]/ancestor::*[@aria-level='${level}'][1]//span[contains(@class,'node-title')])[1]
-    Log String To Console    \nKeresés XPath exact: ${xpath_exact}
     ${status}=    Run Keyword And Return Status    Page Should Contain Element    xpath=${xpath_exact}
+    # Log String To Console    \nKeresés XPath exact: ${xpath_exact} ---> ${status}
+   
     IF    ${status}
         ${txt}=    Get Text    xpath=${xpath_exact}
-       
-        Log String To Console    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Talált szöveg exact: ${txt}
-         #Sleep    60s
+        Log String To Console    >>> Talált szöveg exact: ${txt} - ${status}
         RETURN   ${txt}
     END
     # 2) fallback: contains
@@ -473,8 +591,10 @@ Get Parent Title By Highlighted Text
     ${xpath_contains}=    Set Variable    //*[contains(@class,'highlighted-node')][@aria-level]/preceding::*[@aria-level='${level}'][1]
 
     ${status2}=    Run Keyword And Return Status    Page Should Contain Element    xpath=${xpath_contains}
+    #Log String To Console    \nKeresés XPath contains: ${xpath_contains} ---> ${status2}
     IF    ${status2}
         ${txt}=    Get Text    xpath=${xpath_contains}
+         Log String To Console    >>> Talált szöveg contains: ${txt} ---> ${status2}
         RETURN   ${txt}
     END
     RETURN   N/A
