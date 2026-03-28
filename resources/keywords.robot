@@ -569,6 +569,7 @@ Batch DOCX ellenőrzés
     ${docx_file}=    Rename Docx With Prefix    ${docx_file}
     Set Global Variable    ${DOCX_FILE}    ${docx_file}
     # DOCX beolvasás és hibastátusz lekérdezése
+    
     ${szoveg}=    Read Docx    ${DOCX_FILE}
     Set Global Variable    ${SZOVEG}    ${szoveg}
      #Log To Console    "===============================Beolvasom A DOCX Fájlt VÉGE==============================="
@@ -594,6 +595,9 @@ Batch DOCX ellenőrzés
    
     ${overview_string}=    Get Variable Value    ${overview_string}    ''
     Log String To Console    \n<<< BEFEJEZVE: ${docx_file}
+    # Memória felszabadítás minden dokumentum után
+    Set Global Variable    ${SZOVEG}    ${EMPTY}
+    Set Global Variable    ${SORON}    @{EMPTY}
     # Log To Console    Túl rövid mondatok: ${tul_rovid_szamlalo}
     END
 
@@ -605,6 +609,18 @@ Batch DOCX ellenőrzés
 
     Log String To Console    === ÖSSZESÍTÉS ===
     Log String To Console    \nFeldolgozott dokumentumok száma: ${file_count}
+    # Memória felszabadítás: nagy globális változók ürítése
+    Set Global Variable    ${SZOVEG}    ${EMPTY}
+    Set Global Variable    ${SORON}    @{EMPTY}
+    Set Global Variable    ${HIBA_LISTA}    @{EMPTY}
+    ${buffer_exists}=    Run Keyword And Return Status    Variable Should Exist    ${CONSOLE_BUFFER}
+    IF    ${buffer_exists}
+        ${has_items}=    Evaluate    len(${CONSOLE_BUFFER}) > 0
+        IF    ${has_items}
+            ${CONSOLE_BUFFER}=    Create List
+            Set Suite Variable    ${CONSOLE_BUFFER}
+        END
+    END
     #Log String To Console    [TRACE] Batch DOCX ellenőrzés kilépett
 
 Redundancia Eredmények Ellenőrzése
