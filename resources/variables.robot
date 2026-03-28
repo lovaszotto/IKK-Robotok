@@ -11,8 +11,10 @@ ${kisbetus}         NONE
 ${PYTHON_EXEC}      python.exe
 
 # Konfiguracios fajl beallitasai - ezeket a duplikacio_config.py tölti be
+${CONFIG_EMAIL}         lovasz.otto@clarity.hu
 ${CONFIG_INPUT_FOLDER}  d:\\tmp
 ${CONFIG_OUTPUT_FOLDER}    d:\\tmp
+${CONFIG_EMAIL_SUBJECT}    Duplikacio Ellenorzes - Eredmenyek
 ${CONFIG_EXCEL_PREFIX}  duplikacio_eredmenyek
 
 # SQLite Database Connection Variables

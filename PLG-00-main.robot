@@ -21,14 +21,8 @@ Redundancia ellenőrzése
     [Documentation]    Dokumentumokban ismétlődések keresése
     ${start_time}=    Get Time    epoch
 
-    # Globális log fájl inicializálása (a gyökérben)
-    Initialize Global Log File
-
     # Konfiguracio betöltése minden futás elején
     Konfiguráció Betöltése
-
-    # Log fájl áthelyezése az output mappába
-    Move Log File To Output Folder
 
     # Kapcsolódás SQLite adatbázishoz (létrehozza ha nem létezik)
     Connect To Database    sqlite3    ${SQLITE_DB_FILE}
@@ -40,8 +34,8 @@ Redundancia ellenőrzése
     Batch DOCX ellenőrzés
 
     # Eredmények automatikus ellenőrzése
-    Log String To Console    DUPLUM ELLENŐRZÉS BEFEJEZVE - EREDMÉNYEK ELEMZÉSE INDUL...
-    Log String To Console    \n════════════════════════════════════════════════════════════════
+    Log To Console    DUPLUM ELLENŐRZÉS BEFEJEZVE - EREDMÉNYEK ELEMZÉSE INDUL...
+    Log To Console    \n════════════════════════════════════════════════════════════════
     Run Keyword And Continue On Failure    Redundancia Eredmények Ellenőrzése
 
     # Excel export automatikus futtatása
@@ -70,8 +64,7 @@ Redundancia ellenőrzése
     ${minutes}=    Evaluate    (${elapsed} % 3600) // 60
     ${seconds}=    Evaluate    ${elapsed} % 60
     
-    Log String To Console    \nTELJES FELDOLGOZÁS KÉSZ!
-    Log String To Console    \n════════════════════════════════
-    Log String To Console    \nFeldolgozott dokumentumok száma: ${file_count}
-    Log String To Console    \nFutás teljes ideje: ${hours} óra ${minutes} perc ${seconds} másodperc
-    Flush Console Buffer
+    Log To Console    \nTELJES FELDOLGOZÁS KÉSZ!
+    Log To Console    \n════════════════════════════════
+    Log To Console    \nFeldolgozott dokumentumok száma: ${file_count}
+    Log To Console    \nFutás teljes ideje: ${hours} óra ${minutes} perc ${seconds} másodperc
