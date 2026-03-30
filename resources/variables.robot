@@ -7,6 +7,7 @@ ${kisbetus}         NONE
 @{hashValues}    
 @{sorok}
 
+${one_round_file_count}    0
 # Python executable változó (Robot Framework környezetben)
 ${PYTHON_EXEC}      python.exe
 

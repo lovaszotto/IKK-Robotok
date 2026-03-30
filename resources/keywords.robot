@@ -278,28 +278,37 @@ Batch DOCX ellenőrzés
     # Végigmegy az összes talált DOCX fájlon
     ${current_index}=    Set Variable    1
     FOR    ${docx_file}    IN    @{docx_files}
-    Log To Console    \n>>> FELDOLGOZÁS: (${current_index}/${file_count}) ${docx_file}
-        ${current_index}=    Evaluate    ${current_index} + 1
-        # Beállítja az aktuális DOCX fájlt változóban
-        Set Global Variable    ${DOCX_FILE}    ${docx_file}
-        # DOCX beolvasás és hibastátusz lekérdezése
-    ${szoveg}=    Beolvasom A DOCX Fájlt
-    ${is_error}=    Run Keyword And Return Status    Should Start With    ${szoveg}    [HIBA]
-    # Ha üres vagy None a szöveg, az is hiba
-    ${is_empty}=    Run Keyword And Return Status    Should Be Empty    ${szoveg}
-    ${is_none}=    Run Keyword And Return Status    Should Be Equal    ${szoveg}    None
-    ${is_error}=    Evaluate    ${is_error} or ${is_empty} or ${is_none}
-    Run Keyword If    ${is_error}    Log To Console    [DEBUG] szoveg: ${szoveg}
-    Run Keyword If    ${is_error}    Log To Console    [DEBUG] is_error: ${is_error}
-    # Hibalistába fájlnév+hibaszöveg, de a feldolgozó kulcsszónak csak a file_path
-    ${hiba_entry}=    Set Variable    ${docx_file}: ${szoveg}
-    Run Keyword If    ${is_error}    Append To List    ${HIBA_LISTA}    ${hiba_entry}
-    # Először redundancia rekordot beszúrjuk, majd átadjuk az ID-t a DOCX feldolgozásnak
-    ${redundancia_id}=    Fájladatok Feldolgozása Redundancia Táblába    ${docx_file}    ${is_error}    ${szoveg}
-    Run Keyword If    '${redundancia_id}' != ''    DOCX Beolvasás Teszt    ${docx_file}    ${redundancia_id}
-    ${overview_string}=    Get Variable Value    ${overview_string}    ''
-    Log To Console    \n<<< BEFEJEZVE: ${docx_file}
-    # Log To Console    Túl rövid mondatok: ${tul_rovid_szamlalo}
+        Log To Console    \n>>> FELDOLGOZÁS: (${current_index}/${file_count}) ${docx_file}
+            ${current_index}=    Evaluate    ${current_index} + 1
+            # Beállítja az aktuális DOCX fájlt változóban
+            Set Global Variable    ${DOCX_FILE}    ${docx_file}
+            # DOCX beolvasás és hibastátusz lekérdezése
+        ${szoveg}=    Beolvasom A DOCX Fájlt
+        ${is_error}=    Run Keyword And Return Status    Should Start With    ${szoveg}    [HIBA]
+        # Ha üres vagy None a szöveg, az is hiba
+        ${is_empty}=    Run Keyword And Return Status    Should Be Empty    ${szoveg}
+        ${is_none}=    Run Keyword And Return Status    Should Be Equal    ${szoveg}    None
+        ${is_error}=    Evaluate    ${is_error} or ${is_empty} or ${is_none}
+        Run Keyword If    ${is_error}    Log To Console    [DEBUG] szoveg: ${szoveg}
+        Run Keyword If    ${is_error}    Log To Console    [DEBUG] is_error: ${is_error}
+        # Hibalistába fájlnév+hibaszöveg, de a feldolgozó kulcsszónak csak a file_path
+        ${hiba_entry}=    Set Variable    ${docx_file}: ${szoveg}
+        Run Keyword If    ${is_error}    Append To List    ${HIBA_LISTA}    ${hiba_entry}
+        # Először redundancia rekordot beszúrjuk, majd átadjuk az ID-t a DOCX feldolgozásnak
+        ${redundancia_id}=    Fájladatok Feldolgozása Redundancia Táblába    ${docx_file}    ${is_error}    ${szoveg}
+        Run Keyword If    '${redundancia_id}' != ''    DOCX Beolvasás Teszt    ${docx_file}    ${redundancia_id}
+        ${overview_string}=    Get Variable Value    ${overview_string}    ''
+        #számolja hogy hány dokumentumot dolgozott fel és ha > 500 akkor lépjen ki
+        ${one_round_file_count}=    Get Variable Value    ${one_round_file_count}    0
+        ${one_round_file_count}=    Evaluate    ${one_round_file_count} + 1
+        Log To Console    Feldolgozott fájlok száma:${one_round_file_count}
+        Set Global Variable    ${one_round_file_count}    ${one_round_file_count}      
+        IF    ${one_round_file_count} > 500
+            Log To Console    \nFIGYELMEZTETÉS: 500 fájl feldolgozva, kilépés a tesztből a további fájlok feldolgozása nélkül.   
+           Exit For Loop   
+        END
+        Log To Console    \n<<< BEFEJEZVE: ${docx_file}
+        # Log To Console    Túl rövid mondatok: ${tul_rovid_szamlalo}
     END
 
     # Hibalista kiírása a végén
