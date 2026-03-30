@@ -1,0 +1,174 @@
+
+=========================================
+  DUPLIKACIO ELLENORZO RENDSZER
+  Main robot futtatas
+=========================================
+
+Konfiguracio ellenorzese...
+Results konyvtar letrehozasa...
+Robot Framework teszt futtatasa...
+[ ERROR ] Error in file 'C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\resources\keywords.robot' on line 2: Importing library 'C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\libraries\DocxReader.py' failed: ModuleNotFoundError: No module named 'exceptions'
+Traceback (most recent call last):
+  File "C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\libraries\DocxReader.py", line 1, in <module>
+    from docx import Document
+  File "C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv\Lib\site-packages\docx.py", line 30, in <module>
+    from exceptions import PendingDeprecationWarning
+PYTHONPATH:
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\libraries
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv\Scripts\robot.exe
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv\Lib\site-packages
+[ ERROR ] Error in file 'C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\resources\keywords.robot' on line 4: Importing library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv\Scripts\robot.exe
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv\Lib\site-packages
+[ ERROR ] Error in file 'C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\PLG-00-main.robot' on line 5: Importing library 'DatabaseLibrary' failed: ModuleNotFoundError: No module named 'DatabaseLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv\Scripts\robot.exe
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313\python313.zip
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313\DLLs
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313\Lib
+  C:\Users\oLovasz\AppData\Local\Programs\Python\Python313
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv
+  C:\Users\oLovasz\MyRobotFramework\DownloadedRobots\IKK-Robotok\IKK01_Duplikáció-ellenőrzés\.venv\Lib\site-packages
+==============================================================================
+PLG-00-main                                                                   
+==============================================================================
+Redundancia ellenőrzése :: Dokumentumokban ismétlődések keresése       KONFIGURACIO BETOLTESE...
+???????????????????????????????
+ Konfiguracio sikeresen betoltve!
+ Email: lovasz.otto@clarity.hu
+ Bementi konyvtar: c:\tmp\keziratok_teszteleshez
+ Kimeneti konyvtar: c:\tmp
+ Email targy: Duplikacio Ellenorzes - Eredmenyek
+Excel prefix: duplikacio_eredmenyek
+???????????????????????????????
+| FAIL |
+No keyword with name 'Connect To Database' found.
+------------------------------------------------------------------------------
+PLG-00-main                                                           | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  NONE
+HIBA: A teszt futtatasa sikertelen!
+Ellenorizze a results\log.html fajlt a reszletekert.
+
+=========================================
+  DUPLIKACIO ELLENORZO RENDSZER
+  Main robot futtatas
+=========================================
+
+Konfiguracio ellenorzese...
+Results konyvtar letrehozasa...
+Robot Framework teszt futtatasa...
+==============================================================================
+PLG-00-main                                                                   
+==============================================================================
+Redundancia ellenőrzése :: Dokumentumokban ismétlődések keresése       KONFIGURACIO BETOLTESE...
+???????????????????????????????
+ Konfiguracio sikeresen betoltve!
+ Email: lovasz.otto@clarity.hu
+ Bementi konyvtar: c:\tmp\keziratok_teszteleshez
+ Kimeneti konyvtar: c:\tmp
+ Email targy: Duplikacio Ellenorzes - Eredmenyek
+Excel prefix: duplikacio_eredmenyek
+???????????????????????????????
+CREATE TABLE IF NOT EXISTS redundancia
+CREATE TABLE IF NOT EXISTS hashCodes
+CREATE TABLE IF NOT EXISTS repeat
+
+=== DOCX FÁJLOK KERESÉSE ===
+Keresési útvonal: c:\tmp\keziratok_teszteleshez
+Talált DOCX fájlok száma: 1
+
+>>> FELDOLGOZÁS: (1/1) c:\tmp\keziratok_teszteleshez\EM-2.1\EM-2.1.1\EM-2.1.1_RRF221_tema_kezirat.docx.docx
+Redundancia ID: 2
+Fájl neve: EM-2.1.1_RRF221_tema_kezirat.docx.docx
+Fájl méret: 334489 byte
+Feldolgozás ideje: 08:30:42
+Sorok száma: 57
+....................................*........[>>> Rendben <<<]
+
+
+<<< BEFEJEZVE: c:\tmp\keziratok_teszteleshez\EM-2.1\EM-2.1.1\EM-2.1.1_RRF221_tema_kezirat.docx.docx
+=== ÖSSZESÍTÉS ===
+
+Feldolgozott dokumentumok száma: 1
+DUPLUM ELLENŐRZÉS BEFEJEZVE - EREDMÉNYEK ELEMZÉSE INDUL...
+
+????????????????????????????????????????????????????????????????
+CREATE TABLE IF NOT EXISTS redundancia
+CREATE TABLE IF NOT EXISTS hashCodes
+CREATE TABLE IF NOT EXISTS repeat
+REDUNDANCIA EREDMÉNYEK ELEMZÉSE
+
+???????????????????????????????????????
+Használt adatbázisfájl: c:\tmp\GINOP_6_2_4_PLUS_GINOP_6_2_8_PLUS_KEZIRATOK.db
+
+ STATUS KATEGÓRIÁK RÉSZLETES STATISZTIKÁJA:
+Rendben: 1 dokumentum (64-64 karakter)
+
+ STATUS KATEGÓRIÁK SZABÁLYAI:
+ Rendben: max_ismetelt_karakterszam < 300
+ Gyanús: 350 ? max_ismetelt_karakterszam < 1250
+ Másolt: max_ismetelt_karakterszam ? 1250
+
+ VÉGSŐ ÖSSZESÍTÉS:
+???????????????????????
+Összes dokumentum: 1
+ Rendben: 1 dokumentum
+ Gyanús: 0 dokumentum
+ Másolt: 0 dokumentum
+
+SZÁZALÉKOS MEGOSZLÁS:
+ Rendben: 100.0%
+ Gyanús: 0.0%
+ Másolt: 0.0%
+
+ EREDMÉNYEK ELLENŐRZÉSE BEFEJEZVE!
+
+???????????????????????????????????????
+
+ EXCEL EXPORT KEZDÉSE
+???????????????????????????????
+CREATE TABLE IF NOT EXISTS redundancia
+CREATE TABLE IF NOT EXISTS hashCodes
+CREATE TABLE IF NOT EXISTS repeat
+ Excel export sikeres!
+
+
+TELJES FELDOLGOZÁS KÉSZ!
+
+????????????????????????????????
+
+Feldolgozott dokumentumok száma: 1
+
+Futás teljes ideje: 0 óra 0 perc 5 másodperc
+| PASS |
+------------------------------------------------------------------------------
+PLG-00-main                                                           | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  NONE
+
+=========================================
+TESZT SIKERESEN BEFEJEZODOTT!
+
+Eredmenyek:
+- Log: results\log.html
+- Report: results\report.html
+- Email elkuldve a konfiguralt cimre
+=========================================

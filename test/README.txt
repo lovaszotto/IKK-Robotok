@@ -1,0 +1,1 @@
+A tmp.zip-ben lévő adatokat bontsd ki a c:\tmp-be a futtatás előtt!
