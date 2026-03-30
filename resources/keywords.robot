@@ -309,6 +309,11 @@ Batch DOCX ellenőrzés
         END
         Log To Console    \n<<< BEFEJEZVE: ${docx_file}
         # Log To Console    Túl rövid mondatok: ${tul_rovid_szamlalo}
+        #engedje el a használt változókat a következő iteráció előtt, hogy ne legyen memória probléma nagyon sok fájl esetén
+        Set Global Variable    ${szoveg}    NONE
+        Set Global Variable    @{sorok}    NONE
+        Set Global Variable    @{hashValues}    NONE
+        
     END
 
     # Hibalista kiírása a végén
