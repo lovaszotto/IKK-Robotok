@@ -280,56 +280,66 @@ Batch DOCX ellenőrzés
     # Végigmegy az összes talált DOCX fájlon
     ${current_index}=    Set Variable    1
     FOR    ${docx_file}    IN    @{docx_files}
-    Log To Console    \n>>> FELDOLGOZÁS: (${current_index}/${file_count}) ${docx_file}
-    # Resume logika: ha a redundancia táblában már végleges (nem Üres) státusz van ehhez a fájlhoz, kihagyjuk
-    ${base_name}=    Evaluate    os.path.basename(r"${docx_file}")    modules=os
-    ${dir_name}=    Evaluate    os.path.dirname(r"${docx_file}")    modules=os
-    @{status_rows}=    Query    SELECT status FROM redundancia WHERE file_name='${base_name}' AND file_path='${dir_name}' ORDER BY id DESC LIMIT 1
-    ${skip_already}=    Set Variable    False
-    IF    ${status_rows.__len__()} > 0
-        ${st_row}=    Get From List    ${status_rows}    0
-        ${existing_status}=    Get From List    ${st_row}    0
-        # Üresnek tekintjük ha NULL, 'Üres' vagy üres string
-    # existing_status Robot változó -> mindig stringként kezeljük az Evaluate-ben
-    ${is_empty_status}=    Evaluate    ('''${existing_status}''' is None) or (str('''${existing_status}''').strip() in ['Üres',''])
-        # Ha nem üres státusz (Rendben/Gyanús/Másolt/Hibás), akkor skip
-        IF    not ${is_empty_status}
-            Log To Console    [RESUME] Kihagyva (már feldolgozott státusz='${existing_status}')
-            ${current_index}=    Evaluate    ${current_index} + 1
-            CONTINUE
+        Log To Console    \n>>> FELDOLGOZÁS: (${current_index}/${file_count}) ${docx_file}
+        # Resume logika: ha a redundancia táblában már végleges (nem Üres) státusz van ehhez a fájlhoz, kihagyjuk
+        ${base_name}=    Evaluate    os.path.basename(r"${docx_file}")    modules=os
+        ${dir_name}=    Evaluate    os.path.dirname(r"${docx_file}")    modules=os
+        @{status_rows}=    Query    SELECT status FROM redundancia WHERE file_name='${base_name}' AND file_path='${dir_name}' ORDER BY id DESC LIMIT 1
+        ${skip_already}=    Set Variable    False
+        IF    ${status_rows.__len__()} > 0
+            ${st_row}=    Get From List    ${status_rows}    0
+            ${existing_status}=    Get From List    ${st_row}    0
+            # Üresnek tekintjük ha NULL, 'Üres' vagy üres string
+        # existing_status Robot változó -> mindig stringként kezeljük az Evaluate-ben
+        ${is_empty_status}=    Evaluate    ('''${existing_status}''' is None) or (str('''${existing_status}''').strip() in ['Üres',''])
+            # Ha nem üres státusz (Rendben/Gyanús/Másolt/Hibás), akkor skip
+            IF    not ${is_empty_status}
+                Log To Console    [RESUME] Kihagyva (már feldolgozott státusz='${existing_status}')
+                ${current_index}=    Evaluate    ${current_index} + 1
+                CONTINUE
+            END
         END
-    END
-    ${current_index}=    Evaluate    ${current_index} + 1
-    # Beállítja az aktuális DOCX fájlt változóban
-    #itt hívd meg az átnevezést
-    ${docx_file}=    Rename Docx With Prefix    ${docx_file}
-    Set Global Variable    ${DOCX_FILE}    ${docx_file}
-    # DOCX beolvasás és hibastátusz lekérdezése
-    
-    ${szoveg}=    Read Docx    ${DOCX_FILE}
-    Set Global Variable    ${SZOVEG}    ${szoveg}
-     #Log To Console    "===============================Beolvasom A DOCX Fájlt VÉGE==============================="
-     #Log To Console    Szöveg beolvasva a Batchből: ${szoveg}        #otto was here
+        ${current_index}=    Evaluate    ${current_index} + 1
+        # Beállítja az aktuális DOCX fájlt változóban
+        #itt hívd meg az átnevezést
+        ${docx_file}=    Rename Docx With Prefix    ${docx_file}
+        Set Global Variable    ${DOCX_FILE}    ${docx_file}
+        # DOCX beolvasás és hibastátusz lekérdezése
+        
+        ${szoveg}=    Read Docx    ${DOCX_FILE}
+        Set Global Variable    ${SZOVEG}    ${szoveg}
+        #Log To Console    "===============================Beolvasom A DOCX Fájlt VÉGE==============================="
+        #Log To Console    Szöveg beolvasva a Batchből: ${szoveg}        #otto was here
 
-    ${is_error}=    Run Keyword And Return Status    Should Start With    ${szoveg}    [HIBA]
-    # Ha üres vagy None a szöveg, az is hiba
-    ${is_empty}=    Run Keyword And Return Status    Should Be Empty    ${szoveg}
-    ${is_none}=    Run Keyword And Return Status    Should Be Equal    ${szoveg}    None
-    ${is_error}=    Evaluate    ${is_error} or ${is_empty} or ${is_none}
-    Run Keyword If    ${is_error}    Log To Console    [DEBUG] szoveg: ${szoveg}
-    Run Keyword If    ${is_error}    Log To Console    [DEBUG] is_error: ${is_error}
-    # Hibalistába fájlnév+hibaszöveg, de a feldolgozó kulcsszónak csak a file_path
-    ${hiba_entry}=    Set Variable    ${docx_file}: ${szoveg}
-    Run Keyword If    ${is_error}    Append To List    ${HIBA_LISTA}    ${hiba_entry}
-    # Először redundancia rekordot beszúrjuk, majd átadjuk az ID-t a DOCX feldolgozásnak
-    ${redundancia_id}=    Fájladatok Feldolgozása Redundancia Táblába    ${docx_file}    ${is_error}    ${szoveg}
-    Run Keyword If    '${redundancia_id}' != ''    DOCX Beolvasás Teszt    ${docx_file}    ${redundancia_id}
-    ${overview_string}=    Get Variable Value    ${overview_string}    ''
-    Log To Console    \n<<< BEFEJEZVE: ${docx_file}
-    # Memória felszabadítás minden dokumentum után
-    Set Global Variable    ${SZOVEG}    ${EMPTY}
-    Set Global Variable    @{SORON}    @{EMPTY}
-    # Log To Console    Túl rövid mondatok: ${tul_rovid_szamlalo}
+        ${is_error}=    Run Keyword And Return Status    Should Start With    ${szoveg}    [HIBA]
+        # Ha üres vagy None a szöveg, az is hiba
+        ${is_empty}=    Run Keyword And Return Status    Should Be Empty    ${szoveg}
+        ${is_none}=    Run Keyword And Return Status    Should Be Equal    ${szoveg}    None
+        ${is_error}=    Evaluate    ${is_error} or ${is_empty} or ${is_none}
+        Run Keyword If    ${is_error}    Log To Console    [DEBUG] szoveg: ${szoveg}
+        Run Keyword If    ${is_error}    Log To Console    [DEBUG] is_error: ${is_error}
+        # Hibalistába fájlnév+hibaszöveg, de a feldolgozó kulcsszónak csak a file_path
+        ${hiba_entry}=    Set Variable    ${docx_file}: ${szoveg}
+        Run Keyword If    ${is_error}    Append To List    ${HIBA_LISTA}    ${hiba_entry}
+        # Először redundancia rekordot beszúrjuk, majd átadjuk az ID-t a DOCX feldolgozásnak
+        ${redundancia_id}=    Fájladatok Feldolgozása Redundancia Táblába    ${docx_file}    ${is_error}    ${szoveg}
+        Run Keyword If    '${redundancia_id}' != ''    DOCX Beolvasás Teszt    ${docx_file}    ${redundancia_id}
+        ${overview_string}=    Get Variable Value    ${overview_string}    ''
+        Log To Console    \n<<< BEFEJEZVE: ${docx_file}
+        # Memória felszabadítás minden dokumentum után
+        Set Global Variable    ${SZOVEG}    ${EMPTY}
+        Set Global Variable    @{SORON}    @{EMPTY}
+        #az ${one_loop_count} vlatozó növelése minden dokumentum után, és kiírása a logba
+        ${one_round_file_count}=    Evaluate    ${one_round_file_count} + 1
+        Set Global Variable    ${one_round_file_count}
+        Log To Console    ${one_round_file_count} feldolgozva.
+        #ha ez nagyobb mint 500 akkor kilépünk a loopból, hogy ne legyen memória túlterhelés
+
+        IF    ${one_round_file_count} >= 500
+            Log To Console    [WARNING] Túl sok dokumentum feldolgozva egy körben (${one_round_file_count}), memória felszabadítása és újraindítás szükséges
+            Exit For Loop
+        END
+        # Log To Console    Túl rövid mondatok: ${tul_rovid_szamlalo}
     END
 
     # Hibalista kiírása a végén
