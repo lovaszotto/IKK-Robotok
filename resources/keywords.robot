@@ -1,4 +1,5 @@
 *** Settings ***
+
 Library    ../libraries/DocxReader.py
 Library    ../libraries/find_docx.py
 Library    DatabaseLibrary
@@ -6,6 +7,7 @@ Library    DateTime
 Library    Process
 Resource   variables.robot
 Resource   ../PLG-02-read_docx.robot
+Resource   ../PLG-03-rename_docx.robot
 Resource   get_file_size.resource
 
 
@@ -278,7 +280,7 @@ Batch DOCX ellenőrzés
     # Végigmegy az összes talált DOCX fájlon
     ${current_index}=    Set Variable    1
     FOR    ${docx_file}    IN    @{docx_files}
-    Log String To Console    \n>>> FELDOLGOZÁS: (${current_index}/${file_count}) ${docx_file}
+    Log To Console    \n>>> FELDOLGOZÁS: (${current_index}/${file_count}) ${docx_file}
     # Resume logika: ha a redundancia táblában már végleges (nem Üres) státusz van ehhez a fájlhoz, kihagyjuk
     ${base_name}=    Evaluate    os.path.basename(r"${docx_file}")    modules=os
     ${dir_name}=    Evaluate    os.path.dirname(r"${docx_file}")    modules=os
@@ -292,7 +294,7 @@ Batch DOCX ellenőrzés
     ${is_empty_status}=    Evaluate    ('''${existing_status}''' is None) or (str('''${existing_status}''').strip() in ['Üres',''])
         # Ha nem üres státusz (Rendben/Gyanús/Másolt/Hibás), akkor skip
         IF    not ${is_empty_status}
-            Log String To Console    [RESUME] Kihagyva (már feldolgozott státusz='${existing_status}')
+            Log To Console    [RESUME] Kihagyva (már feldolgozott státusz='${existing_status}')
             ${current_index}=    Evaluate    ${current_index} + 1
             CONTINUE
         END
@@ -323,10 +325,10 @@ Batch DOCX ellenőrzés
     ${redundancia_id}=    Fájladatok Feldolgozása Redundancia Táblába    ${docx_file}    ${is_error}    ${szoveg}
     Run Keyword If    '${redundancia_id}' != ''    DOCX Beolvasás Teszt    ${docx_file}    ${redundancia_id}
     ${overview_string}=    Get Variable Value    ${overview_string}    ''
-    Log String To Console    \n<<< BEFEJEZVE: ${docx_file}
+    Log To Console    \n<<< BEFEJEZVE: ${docx_file}
     # Memória felszabadítás minden dokumentum után
     Set Global Variable    ${SZOVEG}    ${EMPTY}
-    Set Global Variable    ${SORON}    @{EMPTY}
+    Set Global Variable    @{SORON}    @{EMPTY}
     # Log To Console    Túl rövid mondatok: ${tul_rovid_szamlalo}
     END
 
@@ -336,11 +338,11 @@ Batch DOCX ellenőrzés
         Log To Console    ${hiba}
     END
 
-    Log String To Console    === ÖSSZESÍTÉS ===
-    Log String To Console    \nFeldolgozott dokumentumok száma: ${file_count}
+    Log To Console    === ÖSSZESÍTÉS ===
+    Log To Console    \nFeldolgozott dokumentumok száma: ${file_count}
     # Memória felszabadítás: nagy globális változók ürítése
     Set Global Variable    ${SZOVEG}    ${EMPTY}
-    Set Global Variable    ${SORON}    @{EMPTY}
+    Set Global Variable    @{SORON}    @{EMPTY}
     Set Global Variable    ${HIBA_LISTA}    @{EMPTY}
     ${buffer_exists}=    Run Keyword And Return Status    Variable Should Exist    ${CONSOLE_BUFFER}
     IF    ${buffer_exists}
