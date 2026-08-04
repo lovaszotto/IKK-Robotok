@@ -10,7 +10,7 @@ echo =========================================
 echo.
 
 REM Ellenorizzuk a virtualis kornyezet megletet
-if not exist "rf_env\Scripts\robot.exe" (
+if not exist "rf_env\Scripts\python.exe" (
     echo HIBA: Virtualis kornyezet nem talalhato!
     echo Futtassa eloszor a telepito.bat fajlt!
     pause
@@ -32,7 +32,7 @@ if not exist "results" (
 )
 
 echo Robot Framework teszt futtatasa...
-rf_env\Scripts\robot.exe --output NONE --log NONE --report NONE PLG-00-main.robot
+rf_env\Scripts\python.exe -m robot --output NONE --log NONE --report NONE PLG-00-main.robot
 
 REM Olvassuk ki a Duplikacio.config-bol az output_folder erteket
 set "OUT_DIR="

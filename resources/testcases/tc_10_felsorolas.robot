@@ -39,7 +39,7 @@ Test Case 10 - Felsorolas Ellenorzese
     #IF    ${_len} == 0
     #ha nem normal és nem body text, akkor naplózzuk
         #IF    "${style}" != "Normal" and "${style}" != "Body Text"
-            Log String To Console    ${idx}: [${style}] "${text}"
+            #Log String To Console    ${idx}: [${style}] "${text}"
         #END
     #END
         
